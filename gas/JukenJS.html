@@ -12,13 +12,24 @@
 
   const escapeRe = s => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
-  // 例文中の対象語を空欄にする。活用形（acquire→acquired 等）も拾えるよう
-  // 語尾の e / y を落とした語幹で前方一致させる。
+  // 例文中の対象語を空欄にする。acquire→acquired のような規則変化だけでなく
+  // sweep→swept のような不規則変化も拾うため、文中の各語と対象語の先頭一致を
+  // 比べていちばん長く一致する語を選ぶ。
   function blankSentence(sentence, word) {
-    const stem = String(word).toLowerCase().replace(/[ey]$/, '');
-    const re = new RegExp('\\b' + escapeRe(stem) + '[a-z]*\\b', 'i');
-    if (!re.test(sentence)) return escapeHtml(sentence);
-    return escapeHtml(sentence).replace(re, '<span class="blank">　　　　</span>');
+    const target = String(word).toLowerCase();
+    const tokens = sentence.match(/[A-Za-z']+/g) || [];
+    let best = null, bestLen = 0;
+
+    for (const tok of tokens) {
+      const lower = tok.toLowerCase();
+      let n = 0;
+      while (n < lower.length && n < target.length && lower[n] === target[n]) n++;
+      if (n >= 3 && n > bestLen) { best = tok; bestLen = n; }
+    }
+
+    if (!best) return escapeHtml(sentence);
+    return escapeHtml(sentence)
+      .replace(new RegExp('\\b' + escapeRe(best) + '\\b'), '<span class="blank">　　　　</span>');
   }
 
   const juken = {
