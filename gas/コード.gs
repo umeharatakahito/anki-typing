@@ -8,21 +8,25 @@ const SHEET_NAME_QUESTIONS = 'problems';
 
 // ---------------------------------------------------------------
 // Web エントリ
-// URL末尾のパス（例: .../exec/practice）でモードを自動開始する
-const AUTO_MODE_BY_PATH = {
+//
+// 行き先は ?p= で指定する（例: .../exec?p=juken）。
+// パス形式（.../exec/juken）だと匿名公開でもGoogleがログインを要求するため、
+// 入口はクエリに寄せている。ログイン済みの利用者向けにパス形式も受け付ける。
+const AUTO_MODE_BY_ROUTE = {
   'practice': '練習モード',
   'normal':   '通常モード',
   'hard':     '極みモード',
   'kiwami':   '極みモード',
 };
 function doGet(e) {
-  const pathInfo = (e && e.pathInfo) ? String(e.pathInfo).toLowerCase() : '';
+  const param = (e && e.parameter) || {};
+  const route = String(param.p || (e && e.pathInfo) || '').toLowerCase();
 
-  // 大学受験モードは別アプリとして独立した画面を返す。
+  // 大学受験モードと対戦モードは独立した画面を返す。
   // ページ内のリンクは iframe のサンドボックスURLを基準に解決されてしまうため、
   // 実際の /exec URL をテンプレートに渡して絶対リンクを組み立てる。
-  if (pathInfo === 'juken' || pathInfo === 'versus') {
-    const isVersus = pathInfo === 'versus';
+  if (route === 'juken' || route === 'versus') {
+    const isVersus = route === 'versus';
     const template = HtmlService.createTemplateFromFile(isVersus ? 'juken_versus' : 'juken_index');
     template.execUrl = ScriptApp.getService().getUrl();
     return template.evaluate()
@@ -31,7 +35,7 @@ function doGet(e) {
   }
 
   const template = HtmlService.createTemplateFromFile('index');
-  template.autoMode = AUTO_MODE_BY_PATH[pathInfo] || '';
+  template.autoMode = AUTO_MODE_BY_ROUTE[route] || '';
   return template.evaluate()
     .setTitle('暗記タイピング')
     .addMetaTag('viewport', 'width=device-width, initial-scale=1');
