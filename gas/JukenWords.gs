@@ -3167,6 +3167,8 @@ function getJukenMeta() {
   const nos = JUKEN_WORDS.map(w => w.no);
   return {
     total: JUKEN_WORDS.length,
+    words: JUKEN_WORDS.filter(w => (w.type || 'word') === 'word').length,
+    idioms: JUKEN_WORDS.filter(w => w.type === 'idiom').length,
     minNo: Math.min.apply(null, nos),
     maxNo: Math.max.apply(null, nos)
   };
@@ -3177,14 +3179,17 @@ function getJukenMeta() {
 //   opts.from / opts.to : 見出し語番号の範囲（省略すると全範囲）
 //   opts.limit          : 1回の出題数
 //   opts.shuffle        : true ならシャッフル、false なら番号の若い順
+//   opts.kind           : 'all'（既定）/ 'word' / 'idiom'
 function getJukenWords(opts) {
   opts = opts || {};
   const from  = Number(opts.from)  || 0;
   const to    = Number(opts.to)    || 0;
   const limit = Number(opts.limit) || 20;
+  const kind  = opts.kind || 'all';
 
   let words = JUKEN_WORDS.filter(w =>
-    (!from || w.no >= from) && (!to || w.no <= to)
+    (!from || w.no >= from) && (!to || w.no <= to) &&
+    (kind === 'all' || (w.type || 'word') === kind)
   );
 
   const matched = words.length;

@@ -179,7 +179,8 @@
             $(id).max = meta.maxNo;
           });
           $('range-hint').textContent =
-            '収録: ' + meta.total + '語（見出し語番号 ' + meta.minNo + '〜' + meta.maxNo +
+            '収録: 単語' + meta.words + ' ＋ 熟語' + meta.idioms +
+            '（見出し語番号 ' + meta.minNo + '〜' + meta.maxNo +
             '）　空欄なら全範囲から出題します';
         })
         .withFailureHandler(() => {
@@ -194,7 +195,8 @@
         from: $('no-from').value,
         to: $('no-to').value,
         limit: $('round-size').value,
-        shuffle: $('order-mode').value === 'shuffle'
+        shuffle: $('order-mode').value === 'shuffle',
+        kind: $('kind-mode').value
       };
 
       this.showScreen('game');
@@ -238,9 +240,10 @@
       this.enTarget = w.en.toLowerCase();
       this.enPos = 0;
 
-      $('phase-tag').textContent = 'STEP 1 ・ 英単語をタイプ';
+      const isIdiom = w.type === 'idiom';
+      $('phase-tag').textContent = 'STEP 1 ・ ' + (isIdiom ? '熟語' : '英単語') + 'をタイプ';
       $('prompt').textContent = w.ja;
-      $('sub-prompt').textContent = 'この意味の英単語は？';
+      $('sub-prompt').textContent = 'この意味の' + (isIdiom ? '熟語' : '英単語') + 'は？';
       $('guide').textContent = '';
       $('banner').textContent = '';
       $('banner').className = 'banner';
