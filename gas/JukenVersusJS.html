@@ -23,20 +23,14 @@
     });
   }
 
-  // 例文中の対象語を空欄にする（不規則変化も拾うため先頭一致の最長語を選ぶ）
-  function blankSentence(sentence, word) {
-    const target = String(word).toLowerCase();
-    const tokens = sentence.match(/[A-Za-z']+/g) || [];
-    let best = null, bestLen = 0;
-    for (const tok of tokens) {
-      const lower = tok.toLowerCase();
-      let n = 0;
-      while (n < lower.length && n < target.length && lower[n] === target[n]) n++;
-      if (n >= 3 && n > bestLen) { best = tok; bestLen = n; }
-    }
-    if (!best) return escapeHtml(sentence);
-    return escapeHtml(sentence)
-      .replace(new RegExp('\\b' + escapeRe(best) + '\\b'), '<span class="blank">　　　　</span>');
+  // 第2問は和訳側を空欄にする。データの exja は答えにあたる箇所を【】で
+  // 囲んであるので、そこを空欄に差し替える（1人用と同じ方式）。
+  function blankJa(exja) {
+    return escapeHtml(exja).replace(/【[^】]*】/, '<span class="blank">　　　　　</span>');
+  }
+
+  function revealJa(exja) {
+    return escapeHtml(exja).replace(/【([^】]*)】/, '<span class="filled">$1</span>');
   }
 
   const vs = {
@@ -335,8 +329,9 @@
       this.idx1 = 0; this.idx2 = 0; this.temp = '';
 
       $('vs-phase-tag').textContent = 'STEP 2 ・ 意味をタイプ';
-      $('vs-prompt').innerHTML = blankSentence(w.ex, w.en);
-      $('vs-sub-prompt').textContent = '空欄に入る語の意味は？';
+      $('vs-prompt').innerHTML = blankJa(w.exja);
+      $('vs-sub-prompt').innerHTML =
+        '<span class="context-en">' + escapeHtml(w.ex) + '</span>空欄に入る日本語は？';
       $('vs-banner').textContent = '';
       $('vs-banner').className = 'banner';
       $('vs-guide').textContent = '';
@@ -479,6 +474,7 @@
         banner.className = 'banner lose';
         this.lost.push(w);
       }
+      if (r.phase === 2) $('vs-prompt').innerHTML = revealJa(w.exja);
       $('vs-answer-line').innerHTML = '<span class="' + (won ? 'done' : 'reveal') + '">' + escapeHtml(w.en) + '</span>';
       $('vs-guide').textContent = w.kana;
       $('vs-speak-btn').hidden = true;

@@ -23,7 +23,14 @@ function doGet(e) {
     return HtmlService.createTemplateFromFile('juken_index')
       .evaluate()
       .setTitle('大学受験モード')
-      .addMetaTag('viewport', 'width=device-width, initial-scale=1');
+      .addMetaTag('viewport', 'width=device-width, initial-scale=1, viewport-fit=cover');
+  }
+
+  if (pathInfo === 'versus') {
+    return HtmlService.createTemplateFromFile('juken_versus')
+      .evaluate()
+      .setTitle('対戦モード')
+      .addMetaTag('viewport', 'width=device-width, initial-scale=1, viewport-fit=cover');
   }
 
   const template = HtmlService.createTemplateFromFile('index');
