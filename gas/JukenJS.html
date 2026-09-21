@@ -272,6 +272,7 @@
       this.missedThisWord = false;
       this.enTarget = w.en.toLowerCase();
       this.enPos = 0;
+      this.revealCount = 0;   // 前の問題の頭出しを持ち越さない
 
       const isIdiom = w.type === 'idiom';
       $('phase-tag').textContent =
@@ -337,6 +338,7 @@
       this.idx1 = 0;
       this.idx2 = 0;
       this.temp = '';
+      this.revealCount = 0;   // STEP1 の頭出しを持ち越さない
 
       $('phase-tag').textContent = 'STEP 2 ・ 意味をタイプ';
       $('prompt').innerHTML = blankJa(w.exja);
