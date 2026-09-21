@@ -7,6 +7,10 @@
   const TIME_LIMIT   = 20000; // 1問あたりの制限時間
   const REVEAL_DELAY = 2600;  // 時間切れで答えを見せる時間
 
+  const BASE_POINTS  = 100;
+  const COMBO_STEP   = 0.02;  // チェイン1つにつき倍率 +2%
+  const COMBO_CAP    = 50;    // 倍率は50チェイン（=2.0倍）で頭打ち
+
   const $ = id => document.getElementById(id);
 
   const escapeHtml = s => String(s)
@@ -31,6 +35,11 @@
     index: 0,
     useExample: true,
     revealCount: 0,   // 制限時間の後半で頭から見せていく文字数
+    score: 0,
+    combo: 0,
+    comboMax: 0,
+    judges: { great: 0, good: 0, okay: 0 },
+    timerStartedAt: 0,
     phase: 1,
     correct: 0,
     miss: 0,
@@ -132,6 +141,7 @@
       bar.className = 'timer-bar';
       bar.style.width = '100%';
       this.revealCount = 0;
+      this.timerStartedAt = started;
 
       this.timerId = setInterval(() => {
         const elapsed = Date.now() - started;
@@ -238,6 +248,10 @@
           this.index = 0;
           this.correct = 0;
           this.miss = 0;
+          this.score = 0;
+          this.combo = 0;
+          this.comboMax = 0;
+          this.judges = { great: 0, good: 0, okay: 0 };
           this.missedWords = [];
           this.startedAt = Date.now();
           this.playing = true;
@@ -269,6 +283,8 @@
       $('banner').className = 'banner';
       $('speak-btn').hidden = true;
       $('hint-btn').hidden = true;
+      $('judge').textContent = '';
+      $('judge').className = 'judge';
 
       this.renderEn();
       this.renderHud();
@@ -298,7 +314,7 @@
 
       if (!this.useExample) {
         this.correct++;
-        this.renderHud();
+        this.award();
       }
 
       setTimeout(() => {
@@ -373,6 +389,7 @@
       this.locked = true;
       this.stopTimer();
       this.correct++;
+      this.award();
       $('prompt').innerHTML = revealJa(w.exja);
       $('banner').textContent = '正解！';
       $('banner').className = 'banner ok';
@@ -395,8 +412,43 @@
     },
 
     // ---- ミス ----
+    // ---- 得点 ----
+    // 残り時間で判定を決め、チェイン（連続正解）で倍率を伸ばす。
+    // ミスした問題は判定を上げない。
+    award: function () {
+      const left = Math.max(0, TIME_LIMIT - (Date.now() - this.timerStartedAt));
+      const ratio = left / TIME_LIMIT;
+      const clean = !this.missedThisWord;
+
+      let judge, mult;
+      if (clean && ratio >= 2 / 3)      { judge = 'GREAT!'; mult = 2.0; this.judges.great++; }
+      else if (clean && ratio >= 1 / 3) { judge = 'GOOD!';  mult = 1.5; this.judges.good++;  }
+      else                              { judge = 'OK';     mult = 1.0; this.judges.okay++;  }
+
+      this.combo++;
+      if (this.combo > this.comboMax) this.comboMax = this.combo;
+      const comboMult = 1 + Math.min(this.combo, COMBO_CAP) * COMBO_STEP;
+
+      const gained = Math.round(BASE_POINTS * mult * comboMult);
+      this.score += gained;
+
+      const el = $('judge');
+      el.className = 'judge ' + (mult === 2 ? 'great' : mult === 1.5 ? 'good' : 'okay');
+      el.innerHTML = judge +
+        '<span class="gain">+' + gained +
+        (this.combo > 1 ? '　×' + comboMult.toFixed(2) : '') + '</span>';
+
+      this.renderHud();
+    },
+
+    breakCombo: function () {
+      this.combo = 0;
+      this.renderHud();
+    },
+
     countMiss: function (w) {
       this.miss++;
+      this.breakCombo();
       if (!this.missedThisWord) {
         this.missedThisWord = true;
         if (!this.missedWords.some(x => x.en === w.en)) this.missedWords.push(w);
@@ -412,8 +464,10 @@
 
     renderHud: function () {
       $('hud-progress').textContent = (this.index + 1) + ' / ' + this.words.length;
-      $('hud-correct').textContent = this.correct;
+      $('hud-score').textContent = this.score.toLocaleString();
       $('hud-miss').textContent = this.miss;
+      $('hud-chain').textContent = this.combo;
+      $('hud-chain-box').hidden = this.combo < 2;
     },
 
     // ---- 結果 ----
@@ -426,7 +480,11 @@
 
       $('result-subtitle').textContent = this.words.length + ' 問おわり';
       $('result-stats').innerHTML =
-        '<div class="result-row"><span>正解した単語</span><span>' + this.correct + ' / ' + this.words.length + '</span></div>' +
+        '<div class="result-row total"><span>スコア</span><span>' + this.score.toLocaleString() + '</span></div>' +
+        '<div class="result-row"><span>最大チェイン</span><span>' + this.comboMax + '</span></div>' +
+        '<div class="result-row"><span>判定</span><span>GREAT ' + this.judges.great +
+          '　GOOD ' + this.judges.good + '　OK ' + this.judges.okay + '</span></div>' +
+        '<div class="result-row"><span>正解</span><span>' + this.correct + ' / ' + this.words.length + '</span></div>' +
         '<div class="result-row"><span>ミスタイプ</span><span>' + this.miss + '</span></div>' +
         '<div class="result-row"><span>かかった時間</span><span>' + mm + ':' + ss + '</span></div>';
 

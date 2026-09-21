@@ -161,6 +161,33 @@
   .hud-item span:last-child { font-size: 1.1rem; font-variant-numeric: tabular-nums; }
   .btn-quit { margin-left: auto; padding: 8px 16px; font-size: .85rem; }
 
+  .hud-item.score span:last-child { font-size: 1.35rem; color: var(--accent); }
+
+  .hud-item.chain {
+    gap: 4px;
+    padding: 3px 12px;
+    border-radius: 999px;
+    background: rgba(251, 191, 36, .14);
+    color: #fbbf24;
+  }
+  .hud-item.chain[hidden] { display: none; }
+  .hud-item.chain #hud-chain { font-size: 1.15rem; font-weight: 700; }
+  .chain-label { font-size: .7rem; letter-spacing: .08em; }
+
+  /* 正解時に出る判定と獲得点 */
+  .judge {
+    margin-top: 10px;
+    min-height: 2em;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+  }
+  .judge .gain { margin-left: 12px; font-size: 1.05rem; font-weight: 400; color: var(--muted); }
+  .judge.great { color: #fbbf24; }
+  .judge.good  { color: var(--ok); }
+  .judge.okay  { color: var(--accent); }
+
   /* ---- 残り時間バー ---- */
   .timer {
     height: 6px;
@@ -284,6 +311,11 @@
     border-radius: 8px;
   }
   .result-row span:last-child { font-variant-numeric: tabular-nums; }
+  .result-row.total {
+    border-color: var(--accent);
+    background: rgba(59, 201, 219, .1);
+  }
+  .result-row.total span:last-child { font-size: 1.6rem; color: var(--accent); }
 
   .review {
     max-width: 560px;

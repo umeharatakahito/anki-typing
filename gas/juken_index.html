@@ -73,8 +73,11 @@
       <section id="screen-game" class="screen" hidden>
         <header class="hud">
           <div class="hud-item"><span class="hud-label">問題</span><span id="hud-progress">1 / 20</span></div>
-          <div class="hud-item"><span class="hud-label">正解</span><span id="hud-correct">0</span></div>
+          <div class="hud-item score"><span class="hud-label">スコア</span><span id="hud-score">0</span></div>
           <div class="hud-item"><span class="hud-label">ミス</span><span id="hud-miss">0</span></div>
+          <div class="hud-item chain" id="hud-chain-box" hidden>
+            <span id="hud-chain">0</span><span class="chain-label">チェイン</span>
+          </div>
           <button class="btn btn-quit" onclick="juken.quit();">やめる</button>
         </header>
 
@@ -88,6 +91,8 @@
 
           <div class="answer-line" id="answer-line"></div>
           <div class="guide" id="guide"></div>
+
+          <div class="judge" id="judge"></div>
 
           <div class="stage-actions">
             <button class="btn" id="speak-btn" onclick="juken.replay();" hidden>🔊 もう一度聞く</button>
