@@ -18,18 +18,15 @@ const AUTO_MODE_BY_PATH = {
 function doGet(e) {
   const pathInfo = (e && e.pathInfo) ? String(e.pathInfo).toLowerCase() : '';
 
-  // 大学受験モードは別アプリとして独立した画面を返す
-  if (pathInfo === 'juken') {
-    return HtmlService.createTemplateFromFile('juken_index')
-      .evaluate()
-      .setTitle('大学受験モード')
-      .addMetaTag('viewport', 'width=device-width, initial-scale=1, viewport-fit=cover');
-  }
-
-  if (pathInfo === 'versus') {
-    return HtmlService.createTemplateFromFile('juken_versus')
-      .evaluate()
-      .setTitle('対戦モード')
+  // 大学受験モードは別アプリとして独立した画面を返す。
+  // ページ内のリンクは iframe のサンドボックスURLを基準に解決されてしまうため、
+  // 実際の /exec URL をテンプレートに渡して絶対リンクを組み立てる。
+  if (pathInfo === 'juken' || pathInfo === 'versus') {
+    const isVersus = pathInfo === 'versus';
+    const template = HtmlService.createTemplateFromFile(isVersus ? 'juken_versus' : 'juken_index');
+    template.execUrl = ScriptApp.getService().getUrl();
+    return template.evaluate()
+      .setTitle(isVersus ? '対戦モード' : '大学受験モード')
       .addMetaTag('viewport', 'width=device-width, initial-scale=1, viewport-fit=cover');
   }
 

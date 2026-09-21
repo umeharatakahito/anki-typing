@@ -40,6 +40,7 @@
     comboMax: 0,
     judges: { great: 0, good: 0, okay: 0 },
     timerStartedAt: 0,
+    loadTimer: null,
     phase: 1,
     correct: 0,
     miss: 0,
@@ -229,18 +230,35 @@
       this.useExample = $('example-mode').value === 'on';
 
       this.showScreen('game');
+      this.stopTimer();
       $('banner').textContent = '';
       $('banner').className = 'banner';
       $('prompt').textContent = '読み込み中…';
       $('sub-prompt').textContent = '';
       $('answer-line').textContent = '';
       $('guide').textContent = '';
+      $('judge').textContent = '';
+      $('timer-bar').style.width = '100%';
+      ['speak-btn', 'hint-btn', 'retry-btn'].forEach(id => { $(id).hidden = true; });
+
+      // 応答が返らないまま固まらないよう、待ちきれなくなったら再試行を促す
+      if (this.loadTimer) clearTimeout(this.loadTimer);
+      this.loadTimer = setTimeout(() => {
+        if (this.playing) return;
+        $('prompt').textContent = '読み込みに時間がかかっています';
+        $('sub-prompt').textContent = '通信状況を確認して、もう一度お試しください';
+        $('retry-btn').hidden = false;
+      }, 25000);
+
+      const done = () => { if (this.loadTimer) { clearTimeout(this.loadTimer); this.loadTimer = null; } };
 
       google.script.run
         .withSuccessHandler(res => {
+          done();
           if (!res || res.error || !res.words || !res.words.length) {
             $('prompt').textContent = '出題できる単語がありません';
-            $('sub-prompt').textContent = res && res.error ? res.error : 'ページ範囲を見直してください';
+            $('sub-prompt').textContent = res && res.error ? res.error : '出題範囲を見直してください';
+            $('retry-btn').hidden = false;
             return;
           }
           this.words = res.words;
@@ -258,8 +276,10 @@
           this.showQuestion();
         })
         .withFailureHandler(err => {
+          done();
           $('prompt').textContent = 'サーバーとの通信に失敗しました';
           $('sub-prompt').textContent = err && err.message ? err.message : '';
+          $('retry-btn').hidden = false;
         })
         .getJukenWords(opts);
     },
@@ -284,6 +304,7 @@
       $('banner').className = 'banner';
       $('speak-btn').hidden = true;
       $('hint-btn').hidden = true;
+      $('retry-btn').hidden = true;
       $('judge').textContent = '';
       $('judge').className = 'judge';
 

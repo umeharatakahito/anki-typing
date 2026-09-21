@@ -23,7 +23,7 @@
             </button>
           </li>
           <li>
-            <a class="btn btn-main btn-versus" href="versus">
+            <a class="btn btn-main btn-versus" href="<?= execUrl ?>/versus">
               <span class="num">2</span>対戦モード
             </a>
           </li>
@@ -97,6 +97,7 @@
           <div class="stage-actions">
             <button class="btn" id="speak-btn" onclick="juken.replay();" hidden>🔊 もう一度聞く</button>
             <button class="btn" id="hint-btn" onclick="juken.showHint();" hidden>ヒント</button>
+            <button class="btn" id="retry-btn" onclick="juken.start();" hidden>もう一度読み込む</button>
           </div>
         </div>
 
