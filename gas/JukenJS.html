@@ -29,6 +29,8 @@
     words: [],
     matched: 0,
     index: 0,
+    useExample: true,
+    revealCount: 0,   // 制限時間の後半で頭から見せていく文字数
     phase: 1,
     correct: 0,
     miss: 0,
@@ -129,12 +131,25 @@
 
       bar.className = 'timer-bar';
       bar.style.width = '100%';
+      this.revealCount = 0;
 
       this.timerId = setInterval(() => {
-        const left = Math.max(0, TIME_LIMIT - (Date.now() - started));
+        const elapsed = Date.now() - started;
+        const left = Math.max(0, TIME_LIMIT - elapsed);
         const pct = (left / TIME_LIMIT) * 100;
         bar.style.width = pct + '%';
         bar.className = 'timer-bar' + (pct < 20 ? ' danger' : pct < 50 ? ' warn' : '');
+
+        // 半分を過ぎたら答えを頭から少しずつ見せる。時間切れの時点で全部見えている。
+        const half = TIME_LIMIT / 2;
+        const len = this.phase === 1 ? this.enTarget.length : this.kanaTokens.length;
+        const want = elapsed <= half ? 0
+          : Math.min(len, Math.ceil(((elapsed - half) / half) * len));
+        if (want !== this.revealCount) {
+          this.revealCount = want;
+          if (this.phase === 1) this.renderEn(); else this.renderKana();
+        }
+
         if (left <= 0) {
           this.stopTimer();
           this.onTimeout();
@@ -157,7 +172,10 @@
         $('banner').textContent = '時間切れ — 答えは「' + w.en + '」';
         $('banner').className = 'banner ng';
         this.speak(w.en);
-        setTimeout(() => { if (this.playing) this.toPhase2(); }, REVEAL_DELAY);
+        setTimeout(() => {
+          if (!this.playing) return;
+          if (this.useExample) this.toPhase2(); else this.next();
+        }, REVEAL_DELAY);
       } else {
         this.hintShown = true;
         this.renderKana();
@@ -198,6 +216,7 @@
         shuffle: $('order-mode').value === 'shuffle',
         kind: $('kind-mode').value
       };
+      this.useExample = $('example-mode').value === 'on';
 
       this.showScreen('game');
       $('banner').textContent = '';
@@ -241,7 +260,8 @@
       this.enPos = 0;
 
       const isIdiom = w.type === 'idiom';
-      $('phase-tag').textContent = 'STEP 1 ・ ' + (isIdiom ? '熟語' : '英単語') + 'をタイプ';
+      $('phase-tag').textContent =
+        (this.useExample ? 'STEP 1 ・ ' : '') + (isIdiom ? '熟語' : '英単語') + 'をタイプ';
       $('prompt').textContent = w.ja;
       $('sub-prompt').textContent = 'この意味の' + (isIdiom ? '熟語' : '英単語') + 'は？';
       $('guide').textContent = '';
@@ -256,10 +276,14 @@
     },
 
     renderEn: function () {
-      const done = this.enTarget.slice(0, this.enPos);
-      const rest = this.enTarget.slice(this.enPos).replace(/[a-z0-9']/g, '_');
+      const t = this.enTarget;
+      const peekEnd = Math.max(this.enPos, this.revealCount);
+      const done = t.slice(0, this.enPos);
+      const peek = t.slice(this.enPos, peekEnd);
+      const rest = t.slice(peekEnd).replace(/[a-z0-9']/g, '_');
       $('answer-line').innerHTML =
         '<span class="done">' + escapeHtml(done) + '</span>' +
+        '<span class="peek">' + escapeHtml(peek) + '</span>' +
         '<span class="rest">' + escapeHtml(rest) + '</span>';
     },
 
@@ -272,9 +296,14 @@
       $('banner').textContent = '正解！';
       $('banner').className = 'banner ok';
 
+      if (!this.useExample) {
+        this.correct++;
+        this.renderHud();
+      }
+
       setTimeout(() => {
         if (!this.playing) return;
-        this.toPhase2();
+        if (this.useExample) this.toPhase2(); else this.next();
       }, PHASE1_DELAY);
     },
 
@@ -314,8 +343,8 @@
         const tok = this.kanaTokens[i];
         if (i < this.idx1) {
           html += '<span class="done">' + escapeHtml(tok) + '</span>';
-        } else if (this.hintShown) {
-          html += '<span class="rest">' + escapeHtml(tok) + '</span>';
+        } else if (this.hintShown || i < this.revealCount) {
+          html += '<span class="peek">' + escapeHtml(tok) + '</span>';
         } else {
           html += '<span class="rest">' + '○'.repeat(tok.length) + '</span>';
         }
