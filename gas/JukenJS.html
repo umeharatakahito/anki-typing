@@ -4,6 +4,8 @@
 
   const PHASE1_DELAY = 1300;  // 英単語正解 → 例文へ
   const PHASE2_DELAY = 2000;  // 意味正解 → 次の単語へ
+  const TIME_LIMIT   = 20000; // 1問あたりの制限時間
+  const REVEAL_DELAY = 2600;  // 時間切れで答えを見せる時間
 
   const $ = id => document.getElementById(id);
 
@@ -42,6 +44,7 @@
     miss: 0,
     playing: false,
     locked: false,
+    timerId: null,
     startedAt: 0,
     missedWords: [],
     missedThisWord: false,
@@ -74,18 +77,47 @@
 
     quit: function () {
       this.playing = false;
+      this.stopTimer();
       window.speechSynthesis && window.speechSynthesis.cancel();
       this.toMenu();
     },
 
     // ---- 音声合成 ----
+    // 端末の既定voiceは機械的で聞き取りづらいものが当たることがあるため、
+    // 自然な英語voiceを優先して選ぶ。voice一覧は非同期に埋まるので都度取り直す。
+    voice: null,
+
+    pickVoice: function () {
+      if (!window.speechSynthesis) return null;
+      const voices = window.speechSynthesis.getVoices() || [];
+      if (!voices.length) return null;
+
+      const preferred = [
+        'Google US English', 'Samantha', 'Ava', 'Allison', 'Microsoft Aria',
+        'Microsoft Jenny', 'Microsoft Zira', 'Karen', 'Moira', 'Daniel'
+      ];
+      for (const name of preferred) {
+        const v = voices.find(x => x.name.indexOf(name) === 0 && /^en/i.test(x.lang));
+        if (v) return v;
+      }
+      // 名前で見つからなければ en-US の非ローカル（クラウド合成＝高品質）を優先
+      return voices.find(v => v.lang === 'en-US' && !v.localService)
+          || voices.find(v => v.lang === 'en-US')
+          || voices.find(v => /^en/i.test(v.lang))
+          || null;
+    },
+
     speak: function (text, rate) {
       if (!window.speechSynthesis) return;
       try {
         window.speechSynthesis.cancel();
+        if (!this.voice) this.voice = this.pickVoice();
         const u = new SpeechSynthesisUtterance(text);
-        u.lang = 'en-US';
-        u.rate = rate || 0.95;
+        if (this.voice) u.voice = this.voice;
+        u.lang = (this.voice && this.voice.lang) || 'en-US';
+        u.rate = rate || 1.0;
+        u.pitch = 1.05;
+        u.volume = 1;
         window.speechSynthesis.speak(u);
       } catch (e) {
         // 音声非対応の環境では読み上げなしで続行する
@@ -96,6 +128,54 @@
       const w = this.words[this.index];
       if (!w) return;
       this.speak(this.phase === 1 ? w.en : w.ex);
+    },
+
+    // ---- 制限時間 ----
+    // 答えが出ないまま固まらないよう、時間切れで答えを見せて次に進む。
+    startTimer: function () {
+      this.stopTimer();
+      const bar = $('timer-bar');
+      const started = Date.now();
+
+      bar.className = 'timer-bar';
+      bar.style.width = '100%';
+
+      this.timerId = setInterval(() => {
+        const left = Math.max(0, TIME_LIMIT - (Date.now() - started));
+        const pct = (left / TIME_LIMIT) * 100;
+        bar.style.width = pct + '%';
+        bar.className = 'timer-bar' + (pct < 20 ? ' danger' : pct < 50 ? ' warn' : '');
+        if (left <= 0) {
+          this.stopTimer();
+          this.onTimeout();
+        }
+      }, 100);
+    },
+
+    stopTimer: function () {
+      if (this.timerId) { clearInterval(this.timerId); this.timerId = null; }
+    },
+
+    onTimeout: function () {
+      if (!this.playing || this.locked) return;
+      const w = this.words[this.index];
+      this.locked = true;
+      this.countMiss(w);
+
+      if (this.phase === 1) {
+        $('answer-line').innerHTML = '<span class="reveal">' + escapeHtml(w.en) + '</span>';
+        $('banner').textContent = '時間切れ — 答えは「' + w.en + '」';
+        $('banner').className = 'banner ng';
+        this.speak(w.en);
+        setTimeout(() => { if (this.playing) this.toPhase2(); }, REVEAL_DELAY);
+      } else {
+        this.hintShown = true;
+        this.renderKana();
+        $('answer-line').innerHTML = '<span class="reveal">' + escapeHtml(w.kana) + '</span>';
+        $('banner').innerHTML = '時間切れ — ' + escapeHtml(w.exja);
+        $('banner').className = 'banner ng';
+        setTimeout(() => { if (this.playing) this.next(); }, REVEAL_DELAY);
+      }
     },
 
     // ---- 収録範囲をメニューに表示 ----
@@ -178,6 +258,7 @@
 
       this.renderEn();
       this.renderHud();
+      this.startTimer();
     },
 
     renderEn: function () {
@@ -191,6 +272,7 @@
     onPhase1Clear: function () {
       const w = this.words[this.index];
       this.locked = true;
+      this.stopTimer();
       this.speak(w.en);
       $('answer-line').innerHTML = '<span class="done">' + escapeHtml(w.en) + '</span>';
       $('banner').textContent = '正解！';
@@ -226,8 +308,9 @@
       $('speak-btn').hidden = false;
       $('hint-btn').hidden = false;
 
-      this.speak(w.ex, 0.9);
+      this.speak(w.ex, 0.95);
       this.renderKana();
+      this.startTimer();
     },
 
     renderKana: function () {
@@ -264,6 +347,7 @@
     onPhase2Clear: function () {
       const w = this.words[this.index];
       this.locked = true;
+      this.stopTimer();
       this.correct++;
       $('prompt').innerHTML = escapeHtml(w.ex);
       $('banner').innerHTML = escapeHtml(w.exja);
@@ -287,16 +371,19 @@
     },
 
     // ---- ミス ----
-    onMiss: function () {
+    countMiss: function (w) {
       this.miss++;
-      const w = this.words[this.index];
       if (!this.missedThisWord) {
         this.missedThisWord = true;
         if (!this.missedWords.some(x => x.en === w.en)) this.missedWords.push(w);
       }
+      this.renderHud();
+    },
+
+    onMiss: function () {
+      this.countMiss(this.words[this.index]);
       $('banner').textContent = '？';
       $('banner').className = 'banner ng';
-      this.renderHud();
     },
 
     renderHud: function () {
@@ -308,6 +395,7 @@
     // ---- 結果 ----
     finish: function () {
       this.playing = false;
+      this.stopTimer();
       const sec = Math.round((Date.now() - this.startedAt) / 1000);
       const mm = String(Math.floor(sec / 60)).padStart(2, '0');
       const ss = String(sec % 60).padStart(2, '0');
@@ -393,6 +481,13 @@
   });
 
   window.juken = juken;
-  window.addEventListener('load', () => juken.loadMeta());
+  window.addEventListener('load', () => {
+    juken.loadMeta();
+    // voice一覧は非同期に埋まるので、揃った時点で選び直す
+    if (window.speechSynthesis) {
+      juken.voice = juken.pickVoice();
+      window.speechSynthesis.onvoiceschanged = () => { juken.voice = juken.pickVoice(); };
+    }
+  });
 }(window, document));
 </script>

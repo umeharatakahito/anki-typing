@@ -151,6 +151,23 @@
   .hud-item span:last-child { font-size: 1.1rem; font-variant-numeric: tabular-nums; }
   .btn-quit { margin-left: auto; padding: 8px 16px; font-size: .85rem; }
 
+  /* ---- 残り時間バー ---- */
+  .timer {
+    height: 6px;
+    margin-top: 14px;
+    border-radius: 3px;
+    background: #1d2942;
+    overflow: hidden;
+  }
+  .timer-bar {
+    height: 100%;
+    width: 100%;
+    background: var(--accent);
+    transition: width .1s linear, background-color .3s;
+  }
+  .timer-bar.warn { background: #fbbf24; }
+  .timer-bar.danger { background: var(--ng); }
+
   /* ---- 出題エリア ---- */
   .stage {
     padding: 40px 0 24px;
@@ -194,6 +211,7 @@
   }
   .answer-line .done { color: var(--ok); }
   .answer-line .rest { color: #46536e; }
+  .answer-line .reveal { color: var(--ng); }
 
   .guide {
     color: var(--muted);
