@@ -1,0 +1,235 @@
+<style>
+  /* 画面キーボード。物理キーボードのイベントには一切触れないので、
+     PCでの入力は従来どおり window の keydown 側だけで処理される。 */
+  #kb {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 60;
+    display: none;
+    padding: 6px 5px calc(7px + env(safe-area-inset-bottom, 0px));
+    background: #131d30;
+    border-top: 1px solid var(--line);
+    box-shadow: 0 -8px 24px rgba(0, 0, 0, .45);
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+  body.kb-open #kb { display: block; }
+
+  .kb-bar {
+    display: flex;
+    align-items: center;
+    padding: 0 4px 5px;
+  }
+  .kb-mode {
+    color: var(--muted);
+    font-size: .72rem;
+    letter-spacing: .06em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .kb-row {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+  }
+  .kb-row:first-child { margin-top: 0; }
+  .kb-row[hidden] { display: none; }
+
+  .kb-key {
+    flex: 1 1 0;
+    min-width: 0;
+    height: 46px;
+    display: grid;
+    place-items: center;
+    border-radius: 7px;
+    border: 1px solid #2f3d5c;
+    background: #22304c;
+    color: var(--text);
+    font-family: "SF Mono", "Consolas", monospace;
+    font-size: 1.15rem;
+    line-height: 1;
+    cursor: pointer;
+    transition: background-color .08s, transform .08s;
+  }
+  .kb-key.wide { font-family: inherit; font-size: .8rem; letter-spacing: .04em; }
+  .kb-sp { flex: .5 1 0; }
+
+  .kb-key.is-down {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #06202a;
+    transform: translateY(1px);
+  }
+  .kb-key.on { border-color: var(--accent); color: var(--accent); }
+
+  /* キーボードを閉じているときだけ出る呼び出しボタン */
+  #kb-open {
+    position: fixed;
+    /* 「閉じる」キーの真上に出さない（指を離した瞬間に再度開いてしまうため） */
+    left: 14px;
+    bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+    z-index: 59;
+    display: none;
+    padding: 10px 16px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--card);
+    color: var(--muted);
+    font-family: inherit;
+    font-size: .85rem;
+    cursor: pointer;
+  }
+  body.kb-avail #kb-open { display: block; }
+
+  @media (max-width: 360px) {
+    .kb-key { height: 42px; font-size: 1.05rem; }
+    .kb-row { gap: 4px; }
+  }
+  @media (min-width: 821px) {
+    #kb { max-width: 700px; margin: 0 auto; border-radius: 12px 12px 0 0; border: 1px solid var(--line); }
+  }
+</style>
+
+<div id="kb" aria-hidden="true">
+  <div class="kb-bar">
+    <span class="kb-mode" id="kb-mode">英単語を英字で入力</span>
+  </div>
+  <div id="kb-rows"></div>
+</div>
+<button type="button" id="kb-open">⌨ キーボード</button>
+
+<script>
+(function (window, document) {
+  'use strict';
+
+  const ROWS = [
+    { id: 'kb-num', hidden: true, keys: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'] },
+    { keys: ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p'] },
+    { keys: ['sp', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'sp'] },
+    { keys: [{ k: '123', act: 'num', flex: 1.5 }, 'z', 'x', 'c', 'v', 'b', 'n', 'm', { k: '-', flex: 1.5 }] },
+    { keys: [{ k: "'", flex: 2 }, { k: ' ', label: 'space', flex: 6 }, { k: '閉じる', act: 'close', flex: 2 }] }
+  ];
+
+  const kb = document.getElementById('kb');
+  const rowsEl = document.getElementById('kb-rows');
+  const modeEl = document.getElementById('kb-mode');
+  const openBtn = document.getElementById('kb-open');
+  const numRowId = 'kb-num';
+
+  ROWS.forEach(row => {
+    const div = document.createElement('div');
+    div.className = 'kb-row';
+    if (row.id) div.id = row.id;
+    if (row.hidden) div.hidden = true;
+    row.keys.forEach(spec => {
+      if (spec === 'sp') {
+        const s = document.createElement('div');
+        s.className = 'kb-sp';
+        div.appendChild(s);
+        return;
+      }
+      const o = (typeof spec === 'string') ? { k: spec } : spec;
+      // button ではなく div にしているのは、フォーカスが乗ると
+      // スペース/Enter の物理キーがボタン起動に食われるため。
+      const el = document.createElement('div');
+      el.className = 'kb-key' + (o.act || o.label ? ' wide' : '');
+      el.setAttribute('role', 'button');
+      el.setAttribute('aria-label', o.k === ' ' ? 'space' : o.k);
+      el.textContent = o.label || o.k;
+      if (o.act) el.dataset.act = o.act; else el.dataset.k = o.k;
+      if (o.flex) el.style.flex = o.flex + ' 1 0';
+      div.appendChild(el);
+    });
+    rowsEl.appendChild(div);
+  });
+
+  function feedback(el) {
+    el.classList.add('is-down');
+    setTimeout(() => el.classList.remove('is-down'), 110);
+    try { navigator.vibrate && navigator.vibrate(8); } catch (e) { /* 非対応端末は無視 */ }
+  }
+
+  function toggleNum() {
+    const row = document.getElementById(numRowId);
+    row.hidden = !row.hidden;
+    const btn = rowsEl.querySelector('[data-act="num"]');
+    if (btn) btn.classList.toggle('on', !row.hidden);
+    syncPadding();
+  }
+
+  function onPress(event) {
+    const el = event.target.closest('.kb-key');
+    if (!el) return;
+    // フォーカス移動・ダブルタップ拡大・OSキーボードの発火を止める
+    event.preventDefault();
+    feedback(el);
+
+    if (el.dataset.act === 'num') { toggleNum(); return; }
+    if (el.dataset.act === 'close') { setVisible(false); return; }
+
+    const j = window.juken;
+    if (!j || !j.playing || j.locked) return;
+    j.handleKey(el.dataset.k);
+  }
+
+  kb.addEventListener(window.PointerEvent ? 'pointerdown' : 'touchstart', onPress, { passive: false });
+  if (!window.PointerEvent) kb.addEventListener('mousedown', onPress);
+
+  // ---- 表示制御 ----
+  const wantsKb = () =>
+    window.matchMedia('(pointer: coarse)').matches ||
+    window.matchMedia('(max-width: 820px)').matches;
+
+  let pref = null;    // null = 端末に合わせる / true / false = 利用者の指定
+  let closedAt = 0;
+
+  function syncPadding() {
+    const on = document.body.classList.contains('kb-open');
+    document.body.style.paddingBottom = on ? (kb.offsetHeight + 12) + 'px' : '';
+  }
+
+  function sync() {
+    const game = document.getElementById('screen-game');
+    const inGame = game && !game.hidden;
+    const show = inGame && (pref === null ? wantsKb() : pref);
+    document.body.classList.toggle('kb-open', !!show);
+    document.body.classList.toggle('kb-avail', !!(inGame && !show));
+    kb.setAttribute('aria-hidden', show ? 'false' : 'true');
+    syncPadding();
+  }
+
+  function setVisible(v) {
+    pref = v;
+    if (!v) closedAt = Date.now();
+    sync();
+  }
+
+  openBtn.addEventListener('click', function () {
+    this.blur();
+    if (Date.now() - closedAt < 500) return;
+    setVisible(true);
+  });
+  window.addEventListener('resize', sync);
+
+  function updateMode() {
+    const j = window.juken;
+    modeEl.textContent = (j && j.phase === 2)
+      ? 'ローマ字で意味を入力'
+      : '英字で英単語を入力';
+  }
+
+  window.addEventListener('load', () => {
+    const game = document.getElementById('screen-game');
+    if (game) new MutationObserver(sync).observe(game, { attributes: true, attributeFilter: ['hidden'] });
+    const tag = document.getElementById('phase-tag');
+    if (tag) new MutationObserver(updateMode).observe(tag, { childList: true, characterData: true, subtree: true });
+    updateMode();
+    sync();
+  });
+}(window, document));
+</script>

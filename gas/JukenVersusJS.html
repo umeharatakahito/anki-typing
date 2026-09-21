@@ -1,0 +1,687 @@
+<script>
+(function (window, document) {
+  'use strict';
+
+  const STEP_MS       = 20000;  // 1ステップの制限時間
+  const POLL_MS       = 800;    // 対戦中のポーリング間隔
+  const LOBBY_POLL_MS = 1200;   // 待合室は急がないので少し緩く
+  const PHASE1_DELAY  = 1000;   // 英単語正解 → 例文へ
+
+  const $ = id => document.getElementById(id);
+  const escapeHtml = s => String(s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const escapeRe = s => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+  // google.script.run を Promise で扱う
+  function call(fn) {
+    const args = Array.prototype.slice.call(arguments, 1);
+    return new Promise((resolve, reject) => {
+      const runner = google.script.run
+        .withSuccessHandler(resolve)
+        .withFailureHandler(err => reject(err || new Error('通信に失敗しました')));
+      runner[fn].apply(runner, args);
+    });
+  }
+
+  // 例文中の対象語を空欄にする（不規則変化も拾うため先頭一致の最長語を選ぶ）
+  function blankSentence(sentence, word) {
+    const target = String(word).toLowerCase();
+    const tokens = sentence.match(/[A-Za-z']+/g) || [];
+    let best = null, bestLen = 0;
+    for (const tok of tokens) {
+      const lower = tok.toLowerCase();
+      let n = 0;
+      while (n < lower.length && n < target.length && lower[n] === target[n]) n++;
+      if (n >= 3 && n > bestLen) { best = tok; bestLen = n; }
+    }
+    if (!best) return escapeHtml(sentence);
+    return escapeHtml(sentence)
+      .replace(new RegExp('\\b' + escapeRe(best) + '\\b'), '<span class="blank">　　　　</span>');
+  }
+
+  const vs = {
+    code: '', token: '', seat: '', other: '',
+    words: [], state: null,
+    clockOffset: 0,      // serverNow - clientNow。開始時刻や決着時刻の共有に使う
+    pollId: null,
+    timerId: null,
+    advanceId: null,
+    started: false,
+    finishedShown: false,
+    miss: 0,
+    lost: [],            // 取り逃した単語（結果画面の復習用）
+
+    round: null,         // { i, phase, settled, reported }
+
+    // STEP1
+    enTarget: '', enPos: 0,
+    // STEP2
+    kanaTokens: [], wordR: null, pattern: [], idx1: 0, idx2: 0, temp: '', hintShown: false,
+
+    // ---------------------------------------------------------
+    showScreen: function (name) {
+      ['menu', 'lobby', 'game', 'result'].forEach(s => {
+        const el = $('vs-' + s);
+        if (el) el.hidden = (s !== name);
+      });
+    },
+
+    serverTimeToLocal: function (t) { return t - this.clockOffset; },
+
+    // ---- 音声合成（1人用と同じ方針で自然な英語voiceを優先）----
+    voice: null,
+    pickVoice: function () {
+      if (!window.speechSynthesis) return null;
+      const voices = window.speechSynthesis.getVoices() || [];
+      if (!voices.length) return null;
+      const preferred = ['Google US English', 'Samantha', 'Ava', 'Allison',
+        'Microsoft Aria', 'Microsoft Jenny', 'Microsoft Zira', 'Karen', 'Moira', 'Daniel'];
+      for (const name of preferred) {
+        const v = voices.find(x => x.name.indexOf(name) === 0 && /^en/i.test(x.lang));
+        if (v) return v;
+      }
+      return voices.find(v => v.lang === 'en-US' && !v.localService)
+          || voices.find(v => v.lang === 'en-US')
+          || voices.find(v => /^en/i.test(v.lang)) || null;
+    },
+    speak: function (text, rate) {
+      if (!window.speechSynthesis) return;
+      try {
+        window.speechSynthesis.cancel();
+        if (!this.voice) this.voice = this.pickVoice();
+        const u = new SpeechSynthesisUtterance(text);
+        if (this.voice) u.voice = this.voice;
+        u.lang = (this.voice && this.voice.lang) || 'en-US';
+        u.rate = rate || 1.0;
+        u.pitch = 1.05;
+        window.speechSynthesis.speak(u);
+      } catch (e) { /* 音声非対応でも続行 */ }
+    },
+    replay: function () {
+      const w = this.words[this.round && this.round.i];
+      if (!w || !this.round) return;
+      this.speak(this.round.phase === 1 ? w.en : w.ex);
+    },
+
+    // =========================================================
+    // メニュー
+    // =========================================================
+    ruleFromForm: function () {
+      const sel = $('vs-win-mode').value;
+      if (sel === 'count') return { mode: 'count', target: Number($('vs-count').value) || 10 };
+      return { mode: 'first', target: sel === 'first10' ? 10 : 5 };
+    },
+
+    ruleText: function (rule, total) {
+      if (!rule) return '';
+      return rule.mode === 'first'
+        ? rule.target + '問先取（最大' + total + '問）'
+        : total + '問やり切り';
+    },
+
+    menuError: function (msg) { $('vs-menu-error').textContent = msg || ''; },
+
+    createRoom: function () {
+      const rule = this.ruleFromForm();
+      this.menuError('');
+      $('vs-create-btn').disabled = true;
+      call('vsCreateRoom', {
+        name: $('vs-host-name').value,
+        mode: rule.mode,
+        target: rule.target,
+        from: $('vs-from').value,
+        to: $('vs-to').value
+      }).then(res => {
+        $('vs-create-btn').disabled = false;
+        if (!res || !res.ok) { this.menuError((res && res.error) || '対戦を作れませんでした'); return; }
+        this.enterRoom(res);
+        $('vs-lobby-code').textContent = res.code;
+        $('vs-lobby-rule').textContent = this.ruleText(res.state.rule, res.state.total);
+        $('vs-lobby-me').lastElementChild.textContent = res.state.players.A.name;
+        this.showScreen('lobby');
+        this.startPolling(LOBBY_POLL_MS);
+      }).catch(err => {
+        $('vs-create-btn').disabled = false;
+        this.menuError((err && err.message) || 'サーバーとの通信に失敗しました');
+      });
+    },
+
+    joinRoom: function () {
+      const code = String($('vs-code').value || '').trim();
+      this.menuError('');
+      if (!/^\d{4}$/.test(code)) { this.menuError('4桁の数字を入力してください'); return; }
+      $('vs-join-btn').disabled = true;
+      call('vsJoinRoom', { code: code, name: $('vs-guest-name').value })
+        .then(res => {
+          $('vs-join-btn').disabled = false;
+          if (!res || !res.ok) { this.menuError((res && res.error) || '参加できませんでした'); return; }
+          this.enterRoom(res);
+          $('vs-lobby-code').textContent = res.code;
+          this.showScreen('lobby');
+          this.startPolling(POLL_MS);
+          this.onState(res.state);
+        })
+        .catch(err => {
+          $('vs-join-btn').disabled = false;
+          this.menuError((err && err.message) || 'サーバーとの通信に失敗しました');
+        });
+    },
+
+    enterRoom: function (res) {
+      this.code = res.code;
+      this.token = res.token;
+      this.seat = res.seat;
+      this.other = res.seat === 'A' ? 'B' : 'A';
+      this.state = res.state;
+      this.clockOffset = res.state.serverNow - Date.now();
+      this.started = false;
+      this.finishedShown = false;
+      this.miss = 0;
+      this.lost = [];
+      this.round = null;
+      this.words = [];
+    },
+
+    leave: function () {
+      this.stopPolling();
+      this.stopTimer();
+      if (this.advanceId) { clearTimeout(this.advanceId); this.advanceId = null; }
+      window.speechSynthesis && window.speechSynthesis.cancel();
+      if (this.code) call('vsLeaveRoom', this.code, this.token).catch(() => {});
+      this.code = ''; this.token = ''; this.round = null;
+      this.showScreen('menu');
+    },
+
+    // =========================================================
+    // ポーリング
+    // setInterval だと往復遅延でリクエストが積み上がるので、
+    // 応答を受け取ってから次を投げる setTimeout 連鎖にする。
+    // =========================================================
+    startPolling: function (interval) {
+      this.stopPolling();
+      const tick = () => {
+        if (!this.code) return;
+        call('vsSync', this.code, this.token, {
+          index: this.round ? this.round.i : 0,
+          phase: this.round ? this.round.phase : 1,
+          miss: this.miss
+        }).then(res => {
+          if (!this.code) return;
+          if (res && res.ok) this.onState(res.state);
+          else if (res && res.error) $('vs-lobby-error').textContent = res.error;
+          this.pollId = setTimeout(tick, interval);
+        }).catch(() => {
+          if (!this.code) return;
+          this.pollId = setTimeout(tick, interval * 2);   // 失敗時は間隔を空けて再試行
+        });
+      };
+      tick();
+    },
+
+    stopPolling: function () {
+      if (this.pollId) { clearTimeout(this.pollId); this.pollId = null; }
+    },
+
+    // =========================================================
+    // 共有状態の反映
+    // =========================================================
+    onState: function (state) {
+      if (!state) return;
+      this.state = state;
+      this.clockOffset = state.serverNow - Date.now();
+
+      if (!this.started && state.status === 'playing') {
+        this.started = true;
+        this.beginMatch(state);
+        return;
+      }
+      if (state.status === 'waiting') { this.renderLobby(state); return; }
+
+      this.renderBoards(state);
+
+      // 相手が先に正解した／両者時間切れ → サーバーの決着を受けて締める
+      const r = this.round;
+      if (r && !r.settled && state.claims[r.i]) {
+        this.settleRound(state.claims[r.i], state.resolvedAt[r.i]);
+        return;
+      }
+      if (state.status === 'finished' && !r) this.finish();
+    },
+
+    renderLobby: function (state) {
+      const me = state.players[this.seat];
+      const you = state.players[this.other];
+      if (me) $('vs-lobby-me').lastElementChild.textContent = me.name;
+      const youEl = $('vs-lobby-you');
+      youEl.classList.toggle('empty', !you);
+      youEl.lastElementChild.textContent = you ? you.name : 'まだ来ていません';
+      $('vs-lobby-rule').textContent = this.ruleText(state.rule, state.total);
+    },
+
+    // =========================================================
+    // 開始（両者が同じ server 時刻に始まるようカウントダウンを合わせる）
+    // =========================================================
+    beginMatch: function (state) {
+      this.stopPolling();
+      call('vsFetchQuestions', this.code, this.token).then(res => {
+        if (!res || !res.ok) { $('vs-lobby-error').textContent = (res && res.error) || '出題データを取得できませんでした'; return; }
+        this.words = res.words;
+        $('vs-me-name').textContent  = state.players[this.seat].name;
+        $('vs-you-name').textContent = state.players[this.other].name;
+        $('vs-rule-label').textContent = this.ruleText(state.rule, state.total);
+        this.renderBoards(state);
+        this.showScreen('game');
+        this.startPolling(POLL_MS);
+        this.countdown(state.startAt);
+      }).catch(() => {
+        $('vs-lobby-error').textContent = 'サーバーとの通信に失敗しました';
+      });
+    },
+
+    countdown: function (startAt) {
+      const box = $('vs-countdown');
+      box.hidden = false;
+      const tick = () => {
+        const left = this.serverTimeToLocal(startAt) - Date.now();
+        if (left <= 0) {
+          box.hidden = true;
+          this.startRound(0);
+          return;
+        }
+        box.textContent = String(Math.ceil(left / 1000));
+        setTimeout(tick, 120);
+      };
+      tick();
+    },
+
+    // =========================================================
+    // 1問
+    // =========================================================
+    startRound: function (i) {
+      if (!this.words[i]) { this.finish(); return; }
+      this.round = { i: i, phase: 1, settled: false, reported: false };
+      const w = this.words[i];
+
+      this.enTarget = w.en.toLowerCase();
+      this.enPos = 0;
+      this.hintShown = false;
+
+      $('vs-round-label').textContent = '第 ' + (i + 1) + ' 問';
+      $('vs-phase-tag').textContent = 'STEP 1 ・ 英単語をタイプ';
+      $('vs-prompt').textContent = w.ja;
+      $('vs-sub-prompt').textContent = 'この意味の英単語は？';
+      $('vs-guide').textContent = '';
+      $('vs-banner').textContent = '';
+      $('vs-banner').className = 'banner';
+      $('vs-speak-btn').hidden = true;
+      $('vs-hint-btn').hidden = true;
+
+      this.renderEn();
+      this.renderBoards(this.state);
+      this.startTimer();
+    },
+
+    toPhase2: function () {
+      const r = this.round;
+      if (!r || r.settled) return;
+      const w = this.words[r.i];
+      r.phase = 2;
+      this.hintShown = false;
+
+      const conv = kanaToRoman(w.kana);
+      this.wordR = conv[0];
+      this.kanaTokens = conv[1];
+      this.pattern = new Array(this.wordR.length).fill(0);
+      this.idx1 = 0; this.idx2 = 0; this.temp = '';
+
+      $('vs-phase-tag').textContent = 'STEP 2 ・ 意味をタイプ';
+      $('vs-prompt').innerHTML = blankSentence(w.ex, w.en);
+      $('vs-sub-prompt').textContent = '空欄に入る語の意味は？';
+      $('vs-banner').textContent = '';
+      $('vs-banner').className = 'banner';
+      $('vs-guide').textContent = '';
+      $('vs-speak-btn').hidden = false;
+      $('vs-hint-btn').hidden = false;
+
+      this.speak(w.ex, 0.95);
+      this.renderKana();
+      this.startTimer();
+    },
+
+    renderEn: function () {
+      const done = this.enTarget.slice(0, this.enPos);
+      const rest = this.enTarget.slice(this.enPos).replace(/[a-z0-9']/g, '_');
+      $('vs-answer-line').innerHTML =
+        '<span class="done">' + escapeHtml(done) + '</span>' +
+        '<span class="rest">' + escapeHtml(rest) + '</span>';
+    },
+
+    renderKana: function () {
+      let html = '';
+      for (let i = 0; i < this.kanaTokens.length; i++) {
+        const tok = this.kanaTokens[i];
+        if (i < this.idx1) html += '<span class="done">' + escapeHtml(tok) + '</span>';
+        else if (this.hintShown) html += '<span class="rest">' + escapeHtml(tok) + '</span>';
+        else html += '<span class="rest">' + '○'.repeat(tok.length) + '</span>';
+      }
+      $('vs-answer-line').innerHTML = html;
+
+      if (this.hintShown) {
+        let full = '', typed = 0;
+        for (let i = 0; i < this.wordR.length; i++) full += this.wordR[i][this.pattern[i]];
+        for (let i = 0; i < this.idx1; i++) typed += this.wordR[i][this.pattern[i]].length;
+        typed += this.idx2;
+        $('vs-guide').innerHTML =
+          '<span class="done">' + escapeHtml(full.slice(0, typed)) + '</span>' +
+          escapeHtml(full.slice(typed));
+      }
+    },
+
+    showHint: function () {
+      if (!this.round || this.round.phase !== 2 || this.round.settled) return;
+      this.hintShown = true;
+      this.renderKana();
+    },
+
+    // ---- 制限時間 ----
+    startTimer: function () {
+      this.stopTimer();
+      const bar = $('vs-timer-bar');
+      const started = Date.now();
+      bar.className = 'timer-bar';
+      bar.style.width = '100%';
+      this.timerId = setInterval(() => {
+        const left = Math.max(0, STEP_MS - (Date.now() - started));
+        const pct = (left / STEP_MS) * 100;
+        bar.style.width = pct + '%';
+        bar.className = 'timer-bar' + (pct < 20 ? ' danger' : pct < 50 ? ' warn' : '');
+        if (left <= 0) { this.stopTimer(); this.onTimeout(); }
+      }, 100);
+    },
+
+    stopTimer: function () {
+      if (this.timerId) { clearInterval(this.timerId); this.timerId = null; }
+    },
+
+    // ---- 決着報告 ----
+    onPhase1Clear: function () {
+      const w = this.words[this.round.i];
+      this.round.phase = 1.5;         // 入力を受け付けない状態
+      this.stopTimer();
+      this.speak(w.en);
+      $('vs-answer-line').innerHTML = '<span class="done">' + escapeHtml(w.en) + '</span>';
+      $('vs-banner').textContent = '正解！ 例文へ';
+      $('vs-banner').className = 'banner ok';
+      const i = this.round.i;
+      setTimeout(() => { if (this.round && this.round.i === i && !this.round.settled) this.toPhase2(); }, PHASE1_DELAY);
+    },
+
+    onPhase2Clear: function () {
+      const r = this.round;
+      if (!r || r.reported || r.settled) return;
+      r.reported = true;
+      r.phase = 1.5;
+      this.stopTimer();
+      $('vs-banner').textContent = '判定中…';
+      $('vs-banner').className = 'banner wait';
+
+      // 先着判定はサーバーに委ねる（クライアント判定だと両者が勝ちを主張してしまう）
+      call('vsReportCorrect', this.code, this.token, r.i).then(res => {
+        if (!res || !res.ok || !this.round || this.round.i !== r.i) return;
+        this.state = res.state;
+        this.clockOffset = res.state.serverNow - Date.now();
+        this.settleRound(res.state.claims[r.i], res.state.resolvedAt[r.i], res.won);
+      }).catch(() => {
+        if (this.round && this.round.i === r.i) r.reported = false;
+      });
+    },
+
+    onTimeout: function () {
+      const r = this.round;
+      if (!r || r.settled || r.reported) return;
+      r.reported = true;
+      r.phase = 1.5;
+      const w = this.words[r.i];
+      $('vs-banner').textContent = '時間切れ — あいてを待っています';
+      $('vs-banner').className = 'banner wait';
+      $('vs-answer-line').innerHTML = '<span class="reveal">' + escapeHtml(w.en + ' / ' + w.kana) + '</span>';
+      this.countMiss();
+
+      call('vsReportTimeout', this.code, this.token, r.i).then(res => {
+        if (!res || !res.ok || !this.round || this.round.i !== r.i) return;
+        this.state = res.state;
+        this.clockOffset = res.state.serverNow - Date.now();
+        if (res.state.claims[r.i]) this.settleRound(res.state.claims[r.i], res.state.resolvedAt[r.i]);
+      }).catch(() => {});
+    },
+
+    // 勝者が確定した問題を締める。次の問題へ進む時刻は server 時刻で
+    // 共有された resolvedAt を基準にするので、通知が遅れた側も同じ瞬間に始まる。
+    settleRound: function (claim, resolvedAt, wonHint) {
+      const r = this.round;
+      if (!r || r.settled) return;
+      r.settled = true;
+      this.stopTimer();
+
+      const w = this.words[r.i];
+      const won = (wonHint === true) || claim === this.seat;
+      const banner = $('vs-banner');
+
+      if (won) {
+        banner.textContent = '先取！ +1点';
+        banner.className = 'banner win';
+      } else if (claim === 'none') {
+        banner.innerHTML = '両者タイムアップ — ' + escapeHtml(w.en + '：' + w.ja);
+        banner.className = 'banner ng';
+        this.lost.push(w);
+      } else {
+        banner.innerHTML = 'あいてが先に正解 — ' + escapeHtml(w.en + '：' + w.ja);
+        banner.className = 'banner lose';
+        this.lost.push(w);
+      }
+      $('vs-answer-line').innerHTML = '<span class="' + (won ? 'done' : 'reveal') + '">' + escapeHtml(w.en) + '</span>';
+      $('vs-guide').textContent = w.kana;
+      $('vs-speak-btn').hidden = true;
+      $('vs-hint-btn').hidden = true;
+      this.renderBoards(this.state);
+
+      const revealMs = (this.state && this.state.revealMs) || 2200;
+      const at = this.serverTimeToLocal((resolvedAt || (Date.now() + this.clockOffset)) + revealMs);
+      if (this.advanceId) clearTimeout(this.advanceId);
+      this.advanceId = setTimeout(() => {
+        this.advanceId = null;
+        if (this.state && this.state.status === 'finished') { this.finish(); return; }
+        if (this.round && this.round.i === r.i) this.startRound(r.i + 1);
+      }, Math.max(400, at - Date.now()));
+    },
+
+    countMiss: function () {
+      this.miss++;
+      this.renderBoards(this.state);
+    },
+
+    onMiss: function () {
+      this.countMiss();
+      $('vs-banner').textContent = '？';
+      $('vs-banner').className = 'banner ng';
+    },
+
+    // =========================================================
+    // スコアボード
+    // =========================================================
+    pips: function (n, filled) {
+      let html = '';
+      for (let i = 0; i < n; i++) html += '<span class="pip' + (i < filled ? ' on' : '') + '"></span>';
+      return html;
+    },
+
+    renderBoards: function (state) {
+      if (!state) return;
+      const rule = state.rule;
+      const pipMax = Math.min(20, rule.mode === 'first' ? rule.target : state.total);
+      const sides = [
+        { seat: this.seat,  prefix: 'vs-me-',  local: true },
+        { seat: this.other, prefix: 'vs-you-', local: false }
+      ];
+      sides.forEach(s => {
+        const p = state.players[s.seat] || { name: '-', index: 0, phase: 1, miss: 0, online: false };
+        const score = state.scores[s.seat] || 0;
+        const idx  = s.local ? (this.round ? this.round.i : p.index) : p.index;
+        const ph   = s.local ? (this.round ? this.round.phase : p.phase) : p.phase;
+        const miss = s.local ? this.miss : p.miss;
+        $(s.prefix + 'score').textContent = score;
+        $(s.prefix + 'meta').textContent =
+          (idx + 1) + '問目 ・ STEP ' + (ph >= 2 ? 2 : 1) + ' ・ ミス ' + miss;
+        $(s.prefix + 'pips').innerHTML = this.pips(pipMax, score);
+        const dot = $(s.prefix + 'dot');
+        dot.className = 'dot' + (p.online ? '' : ' off');
+      });
+    },
+
+    // =========================================================
+    // 結果
+    // =========================================================
+    finish: function () {
+      if (this.finishedShown) return;
+      this.finishedShown = true;
+      this.stopTimer();
+      this.stopPolling();
+      if (this.advanceId) { clearTimeout(this.advanceId); this.advanceId = null; }
+      window.speechSynthesis && window.speechSynthesis.cancel();
+      this.round = null;
+
+      const st = this.state || {};
+      const myScore  = (st.scores && st.scores[this.seat])  || 0;
+      const opScore  = (st.scores && st.scores[this.other]) || 0;
+      const myName   = (st.players && st.players[this.seat]  && st.players[this.seat].name)  || 'あなた';
+      const opName   = (st.players && st.players[this.other] && st.players[this.other].name) || 'あいて';
+
+      const v = $('vs-verdict');
+      if (st.winner === this.seat)      { v.textContent = 'あなたの勝ち！'; v.className = 'verdict win'; }
+      else if (st.winner === 'draw')    { v.textContent = '引き分け';       v.className = 'verdict draw'; }
+      else if (st.winner)               { v.textContent = 'あいての勝ち';   v.className = 'verdict lose'; }
+      else                              { v.textContent = '対戦終了';       v.className = 'verdict draw'; }
+
+      $('vs-result-note').textContent = st.abandonedBy
+        ? (st.abandonedBy === this.seat ? 'あなたが退出しました' : 'あいてが退出しました')
+        : this.ruleText(st.rule, st.total);
+      $('vs-final-me').textContent = myScore;
+      $('vs-final-you').textContent = opScore;
+      $('vs-final-me-name').textContent = myName;
+      $('vs-final-you-name').textContent = opName;
+
+      const review = $('vs-review');
+      if (this.lost.length) {
+        $('vs-review-list').innerHTML = this.lost
+          .map(w => '<li><b>' + escapeHtml(w.en) + '</b><span>' + escapeHtml(w.ja) + '</span></li>')
+          .join('');
+        review.hidden = false;
+      } else {
+        review.hidden = true;
+      }
+
+      this.code = ''; this.token = '';
+      this.showScreen('result');
+    },
+
+    // =========================================================
+    // 入力
+    // =========================================================
+    handleKey: function (key) {
+      const r = this.round;
+      if (!r || r.settled || r.reported || r.phase === 1.5) return;
+
+      if (r.phase === 1) {
+        if (!/^[a-z' -]$/.test(key)) return;
+        if (key === this.enTarget[this.enPos]) {
+          this.enPos++;
+          this.renderEn();
+          if (this.enPos >= this.enTarget.length) this.onPhase1Clear();
+        } else {
+          this.onMiss();
+        }
+        return;
+      }
+
+      if (!/^[a-z0-9\-,.\s]$/.test(key)) return;
+      if (!this.wordR || this.idx1 >= this.wordR.length) return;
+
+      this.temp += key;
+      let ok = false;
+      if (key === this.wordR[this.idx1][this.pattern[this.idx1]][this.idx2]) {
+        ok = true;
+      } else {
+        // 別のローマ字表記（si / shi など）に切り替えられるか探す
+        const re = new RegExp('^' + escapeRe(this.temp));
+        for (let i = 0; i < this.wordR[this.idx1].length; i++) {
+          if (re.test(this.wordR[this.idx1][i])) {
+            this.pattern[this.idx1] = i;
+            if (key === this.wordR[this.idx1][i][this.idx2]) ok = true;
+            break;
+          }
+        }
+      }
+      if (!ok) { this.temp = this.temp.slice(0, -1); this.onMiss(); return; }
+
+      this.idx2++;
+      if (this.idx2 === this.wordR[this.idx1][this.pattern[this.idx1]].length) {
+        this.idx1++; this.idx2 = 0; this.temp = '';
+      }
+      this.renderKana();
+      if (this.idx1 >= this.wordR.length) this.onPhase2Clear();
+    }
+  };
+
+  // ---- 配線 ----
+  function bind() {
+    $('vs-create-btn').addEventListener('click', () => vs.createRoom());
+    $('vs-join-btn').addEventListener('click', () => vs.joinRoom());
+    $('vs-lobby-cancel').addEventListener('click', () => vs.leave());
+    $('vs-quit-btn').addEventListener('click', () => vs.leave());
+    $('vs-again-btn').addEventListener('click', () => vs.showScreen('menu'));
+    $('vs-speak-btn').addEventListener('click', () => vs.replay());
+    $('vs-hint-btn').addEventListener('click', () => vs.showHint());
+
+    $('vs-win-mode').addEventListener('change', e => {
+      const isCount = e.target.value === 'count';
+      $('vs-count').hidden = !isCount;
+      $('vs-count-unit').hidden = !isCount;
+    });
+    $('vs-code').addEventListener('input', e => {
+      e.target.value = e.target.value.replace(/[^0-9]/g, '').slice(0, 4);
+    });
+  }
+
+  window.addEventListener('keydown', event => {
+    if (event.isComposing || event.key === 'Process') return;
+    if (!vs.round) return;
+    if (event.key.length !== 1) return;
+    if (event.metaKey || event.ctrlKey || event.altKey) return;
+    const t = event.target;
+    if (t && /^(INPUT|SELECT|TEXTAREA)$/.test(t.tagName)) return;
+    event.preventDefault();
+    vs.handleKey(event.key.toLowerCase());
+  });
+
+  window.addEventListener('beforeunload', () => {
+    if (vs.code) { try { call('vsLeaveRoom', vs.code, vs.token); } catch (e) {} }
+  });
+
+  window.jukenVs = vs;
+
+  window.addEventListener('load', () => {
+    bind();
+    call('getJukenMeta').then(meta => {
+      if (!meta) return;
+      ['vs-from', 'vs-to'].forEach(id => { $(id).min = meta.minNo; $(id).max = meta.maxNo; });
+      $('vs-range-hint').textContent =
+        '収録: ' + meta.total + '語（見出し語番号 ' + meta.minNo + '〜' + meta.maxNo + '）　空欄なら全範囲';
+    }).catch(() => { $('vs-range-hint').textContent = '収録範囲を取得できませんでした'; });
+
+    if (window.speechSynthesis) {
+      vs.voice = vs.pickVoice();
+      window.speechSynthesis.onvoiceschanged = () => { vs.voice = vs.pickVoice(); };
+    }
+  });
+}(window, document));
+</script>
