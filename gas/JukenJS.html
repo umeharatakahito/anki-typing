@@ -14,24 +14,14 @@
 
   const escapeRe = s => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
-  // 例文中の対象語を空欄にする。acquire→acquired のような規則変化だけでなく
-  // sweep→swept のような不規則変化も拾うため、文中の各語と対象語の先頭一致を
-  // 比べていちばん長く一致する語を選ぶ。
-  function blankSentence(sentence, word) {
-    const target = String(word).toLowerCase();
-    const tokens = sentence.match(/[A-Za-z']+/g) || [];
-    let best = null, bestLen = 0;
+  // 第2問は和訳側を空欄にする。データの exja は答えにあたる箇所を【】で
+  // 囲んであるので、そこを空欄に差し替える。
+  function blankJa(exja) {
+    return escapeHtml(exja).replace(/【[^】]*】/, '<span class="blank">　　　　　</span>');
+  }
 
-    for (const tok of tokens) {
-      const lower = tok.toLowerCase();
-      let n = 0;
-      while (n < lower.length && n < target.length && lower[n] === target[n]) n++;
-      if (n >= 3 && n > bestLen) { best = tok; bestLen = n; }
-    }
-
-    if (!best) return escapeHtml(sentence);
-    return escapeHtml(sentence)
-      .replace(new RegExp('\\b' + escapeRe(best) + '\\b'), '<span class="blank">　　　　</span>');
+  function revealJa(exja) {
+    return escapeHtml(exja).replace(/【([^】]*)】/, '<span class="filled">$1</span>');
   }
 
   const juken = {
@@ -171,8 +161,9 @@
       } else {
         this.hintShown = true;
         this.renderKana();
+        $('prompt').innerHTML = revealJa(w.exja);
         $('answer-line').innerHTML = '<span class="reveal">' + escapeHtml(w.kana) + '</span>';
-        $('banner').innerHTML = '時間切れ — ' + escapeHtml(w.exja);
+        $('banner').textContent = '時間切れ';
         $('banner').className = 'banner ng';
         setTimeout(() => { if (this.playing) this.next(); }, REVEAL_DELAY);
       }
@@ -300,8 +291,9 @@
       this.temp = '';
 
       $('phase-tag').textContent = 'STEP 2 ・ 意味をタイプ';
-      $('prompt').innerHTML = blankSentence(w.ex, w.en);
-      $('sub-prompt').textContent = '空欄に入る語の意味は？';
+      $('prompt').innerHTML = blankJa(w.exja);
+      $('sub-prompt').innerHTML =
+        '<span class="context-en">' + escapeHtml(w.ex) + '</span>空欄に入る日本語は？';
       $('banner').textContent = '';
       $('banner').className = 'banner';
       $('guide').textContent = '';
@@ -349,8 +341,8 @@
       this.locked = true;
       this.stopTimer();
       this.correct++;
-      $('prompt').innerHTML = escapeHtml(w.ex);
-      $('banner').innerHTML = escapeHtml(w.exja);
+      $('prompt').innerHTML = revealJa(w.exja);
+      $('banner').textContent = '正解！';
       $('banner').className = 'banner ok';
       $('guide').textContent = '';
       this.renderHud();

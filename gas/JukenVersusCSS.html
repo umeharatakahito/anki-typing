@@ -31,7 +31,8 @@
     padding: 20px 16px 48px;
   }
 
-  .screen[hidden] { display: none; }
+  /* .btn 等のクラス指定に負けないよう hidden は強く効かせる */
+  [hidden] { display: none !important; }
 
   .title {
     margin: 26px 0 4px;

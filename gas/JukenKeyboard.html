@@ -90,6 +90,12 @@
     .kb-key { height: 42px; font-size: 1.05rem; }
     .kb-row { gap: 4px; }
   }
+  /* 横持ちでは画面の大半をキーボードが占めないよう詰める */
+  @media (max-height: 480px) {
+    .kb-bar { display: none; }
+    .kb-key { height: 34px; font-size: 1rem; }
+    .kb-row { margin-top: 4px; gap: 4px; }
+  }
   @media (min-width: 821px) {
     #kb { max-width: 700px; margin: 0 auto; border-radius: 12px 12px 0 0; border: 1px solid var(--line); }
   }
