@@ -94,6 +94,50 @@
     font-size: .85rem;
   }
 
+  /* ---- 出題設定 ---- */
+  .settings {
+    margin-top: 22px;
+    padding: 18px 20px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    display: grid;
+    gap: 14px;
+  }
+  .setting-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .setting-row label {
+    color: var(--muted);
+    font-size: .85rem;
+    letter-spacing: .06em;
+  }
+  .setting-row label.ml { margin-left: auto; }
+  .setting-row .tilde { color: var(--muted); }
+
+  .settings input,
+  .settings select {
+    padding: 9px 12px;
+    border: 1px solid var(--line);
+    border-radius: 7px;
+    background: #101a2b;
+    color: var(--text);
+    font-family: inherit;
+    font-size: .95rem;
+  }
+  .settings input { width: 6.5em; }
+  .settings input:focus,
+  .settings select:focus { outline: none; border-color: var(--accent); }
+
+  .hint {
+    margin: 0;
+    color: var(--muted);
+    font-size: .8rem;
+  }
+
   /* ---- ゲーム HUD ---- */
   .hud {
     display: flex;

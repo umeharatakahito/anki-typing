@@ -2,7 +2,6 @@
 (function (window, document) {
   'use strict';
 
-  const ROUND_SIZE = 20;
   const PHASE1_DELAY = 1300;  // 英単語正解 → 例文へ
   const PHASE2_DELAY = 2000;  // 意味正解 → 次の単語へ
 
@@ -23,7 +22,9 @@
   }
 
   const juken = {
+    meta: null,
     words: [],
+    matched: 0,
     index: 0,
     phase: 1,
     correct: 0,
@@ -86,8 +87,34 @@
       this.speak(this.phase === 1 ? w.en : w.ex);
     },
 
+    // ---- 収録範囲をメニューに表示 ----
+    loadMeta: function () {
+      google.script.run
+        .withSuccessHandler(meta => {
+          this.meta = meta;
+          $('page-from').min = meta.minPage;
+          $('page-from').max = meta.maxPage;
+          $('page-to').min = meta.minPage;
+          $('page-to').max = meta.maxPage;
+          $('range-hint').textContent =
+            '収録: ' + meta.total + '語（ページ ' + meta.minPage + '〜' + meta.maxPage +
+            '）　空欄なら全範囲から出題します';
+        })
+        .withFailureHandler(() => {
+          $('range-hint').textContent = '収録範囲を取得できませんでした';
+        })
+        .getJukenMeta();
+    },
+
     // ---- 開始 ----
     start: function () {
+      const opts = {
+        from: $('page-from').value,
+        to: $('page-to').value,
+        limit: $('round-size').value,
+        shuffle: $('order-mode').value === 'shuffle'
+      };
+
       this.showScreen('game');
       $('banner').textContent = '';
       $('banner').className = 'banner';
@@ -97,13 +124,14 @@
       $('guide').textContent = '';
 
       google.script.run
-        .withSuccessHandler(list => {
-          if (!list || list.error || !list.length) {
-            $('prompt').textContent = '単語データを読み込めませんでした';
-            $('sub-prompt').textContent = list && list.error ? list.error : '';
+        .withSuccessHandler(res => {
+          if (!res || res.error || !res.words || !res.words.length) {
+            $('prompt').textContent = '出題できる単語がありません';
+            $('sub-prompt').textContent = res && res.error ? res.error : 'ページ範囲を見直してください';
             return;
           }
-          this.words = list;
+          this.words = res.words;
+          this.matched = res.matched;
           this.index = 0;
           this.correct = 0;
           this.miss = 0;
@@ -116,7 +144,7 @@
           $('prompt').textContent = 'サーバーとの通信に失敗しました';
           $('sub-prompt').textContent = err && err.message ? err.message : '';
         })
-        .getJukenWords(ROUND_SIZE);
+        .getJukenWords(opts);
     },
 
     // ---- STEP1: 日本語 → 英単語 ----
@@ -354,5 +382,6 @@
   });
 
   window.juken = juken;
+  window.addEventListener('load', () => juken.loadMeta());
 }(window, document));
 </script>
