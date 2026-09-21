@@ -16,8 +16,17 @@ const AUTO_MODE_BY_PATH = {
   'kiwami':   '極みモード',
 };
 function doGet(e) {
-  const template = HtmlService.createTemplateFromFile('index');
   const pathInfo = (e && e.pathInfo) ? String(e.pathInfo).toLowerCase() : '';
+
+  // 大学受験モードは別アプリとして独立した画面を返す
+  if (pathInfo === 'juken') {
+    return HtmlService.createTemplateFromFile('juken_index')
+      .evaluate()
+      .setTitle('大学受験モード')
+      .addMetaTag('viewport', 'width=device-width, initial-scale=1');
+  }
+
+  const template = HtmlService.createTemplateFromFile('index');
   template.autoMode = AUTO_MODE_BY_PATH[pathInfo] || '';
   return template.evaluate()
     .setTitle('暗記タイピング')

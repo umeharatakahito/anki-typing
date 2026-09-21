@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <base target="_top">
+    <meta charset="utf-8">
+    <title>大学受験モード</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?!= include('JukenCSS'); ?>
+  </head>
+
+  <body>
+    <div id="app">
+
+      <!-- ========== メニュー ========== -->
+      <section id="screen-menu" class="screen">
+        <h1 class="title">大学受験モード</h1>
+        <p class="subtitle">TYPING FOR ENTRANCE EXAMS</p>
+
+        <ul class="menu-list">
+          <li>
+            <button class="btn btn-main" onclick="juken.start();">
+              <span class="num">1</span>英単語
+            </button>
+          </li>
+        </ul>
+
+        <p class="note">1回 <b id="round-size">20</b> 問／日本語→英単語、そのあと例文で意味を確認します</p>
+      </section>
+
+      <!-- ========== ゲーム ========== -->
+      <section id="screen-game" class="screen" hidden>
+        <header class="hud">
+          <div class="hud-item"><span class="hud-label">問題</span><span id="hud-progress">1 / 20</span></div>
+          <div class="hud-item"><span class="hud-label">正解</span><span id="hud-correct">0</span></div>
+          <div class="hud-item"><span class="hud-label">ミス</span><span id="hud-miss">0</span></div>
+          <button class="btn btn-quit" onclick="juken.quit();">やめる</button>
+        </header>
+
+        <div class="stage">
+          <div class="phase-tag" id="phase-tag">STEP 1</div>
+
+          <div class="prompt" id="prompt"></div>
+          <div class="sub-prompt" id="sub-prompt"></div>
+
+          <div class="answer-line" id="answer-line"></div>
+          <div class="guide" id="guide"></div>
+
+          <div class="stage-actions">
+            <button class="btn" id="speak-btn" onclick="juken.replay();" hidden>🔊 もう一度聞く</button>
+            <button class="btn" id="hint-btn" onclick="juken.showHint();" hidden>ヒント</button>
+          </div>
+        </div>
+
+        <div class="banner" id="banner"></div>
+      </section>
+
+      <!-- ========== 結果 ========== -->
+      <section id="screen-result" class="screen" hidden>
+        <h1 class="title">おつかれさま</h1>
+        <p class="subtitle" id="result-subtitle"></p>
+
+        <div class="result-stats" id="result-stats"></div>
+        <div class="review" id="review" hidden>
+          <h3>もう一度見直したい単語</h3>
+          <ul id="review-list"></ul>
+        </div>
+
+        <div class="result-actions">
+          <button class="btn btn-main" style="max-width:240px;" onclick="juken.start();">もう一度</button>
+          <button class="btn" onclick="juken.toMenu();">メニューに戻る</button>
+        </div>
+      </section>
+
+    </div>
+
+    <?!= include('RomajiLib'); ?>
+    <?!= include('JukenJS'); ?>
+  </body>
+</html>

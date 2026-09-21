@@ -1,0 +1,310 @@
+<script>
+// かな→ローマ字の複数パターン展開。HAMACHI-TYPE と 大学受験モード の両方から使う共通ライブラリ。
+function kanaToRoman(kana) {
+  const romanMap = {
+    'あ':['a'], 'い':['i','yi'], 'う':['u','wu'], 'え':['e'], 'お':['o'],
+    'か':['ka','ca'], 'き':['ki'], 'く':['ku','cu','qu'], 'け':['ke'], 'こ':['ko','co'],
+    'さ':['sa'], 'し':['shi','si','ci'], 'す':['su'], 'せ':['se','ce'], 'そ':['so'],
+    'た':['ta'], 'ち':['chi','ti'], 'つ':['tsu','tu'], 'て':['te'], 'と':['to'],
+    'な':['na'], 'に':['ni'], 'ぬ':['nu'], 'ね':['ne'], 'の':['no'],
+    'は':['ha'], 'ひ':['hi'], 'ふ':['fu','hu'], 'へ':['he'], 'ほ':['ho'],
+    'ま':['ma'], 'み':['mi'], 'む':['mu'], 'め':['me'], 'も':['mo'],
+    'や':['ya'], 'ゆ':['yu'], 'よ':['yo'],
+    'ら':['ra'], 'り':['ri'], 'る':['ru'], 'れ':['re'], 'ろ':['ro'],
+    'わ':['wa'], 'を':['wo'], 'ゐ':['wyi'], 'ゑ':['wye'],
+    'ん':['n'], // ベース値（実際は文脈で上書き）
+    'が':['ga'], 'ぎ':['gi'], 'ぐ':['gu'], 'げ':['ge'], 'ご':['go'],
+    'ざ':['za'], 'じ':['ji','zi'], 'ず':['zu'], 'ぜ':['ze'], 'ぞ':['zo'],
+    'だ':['da'], 'ぢ':['di'], 'づ':['du'], 'で':['de'], 'ど':['do'],
+    'ば':['ba'], 'び':['bi'], 'ぶ':['bu'], 'べ':['be'], 'ぼ':['bo'],
+    'ぱ':['pa'], 'ぴ':['pi'], 'ぷ':['pu'], 'ぺ':['pe'], 'ぽ':['po'],
+
+    // 拗音
+// ===== 拗音（x/l小母音 & 代替ローマ字をすべて列挙）=====
+'きゃ': ['kya','kixa','kila'],
+'きゅ': ['kyu','kixu','kilu'],
+'きょ': ['kyo','kixo','kilo'],
+'きぃ': ['kyi','kixi','kili'],
+'きぇ': ['kye','kixe','kile'],
+
+'しゃ': ['sha','sya','shya','shixa','shila','syixa','syila','sixa','sila','cixa','cila'],
+'しゅ': ['shu','syu','shyu','shixu','shilu','syixu','syilu','sixu','silu','cixu','cilu'],
+'しょ': ['sho','syo','shyo','shixo','shilo','syixo','syilo','sixo','silo','cixo','cilo'],
+'しぃ': ['syi','shixi','shili','sixi','sili','cixi','cili'],
+'しぇ': ['she','sye','shixe','shile','syixe','syile','sixe','sile','cixe','cile'],
+
+'ちゃ': ['cha','tya','chya','chixa','chila','tyixa','tyila','tixa','tila'],
+'ちゅ': ['chu','tyu','chyu','chixu','chilu','tyixu','tyilu','tixu','tilu'],
+'ちょ': ['cho','tyo','chyo','chixo','chilo','tyixo','tyilo','tixo','tilo'],
+'ちぃ': ['tyi','chixi','chili','tixi','tili'],
+'ちぇ': ['che','tye','chixe','chile','tyixe','tyile','tixe','tile'],
+
+'にゃ': ['nya','nixa','nila'],
+'にゅ': ['nyu','nixu','nilu'],
+'にょ': ['nyo','nixo','nilo'],
+'にぃ': ['nyi','nixi','nili'],
+'にぇ': ['nye','nixe','nile'],
+
+'ひゃ': ['hya','hixa','hila'],
+'ひゅ': ['hyu','hixu','hilu'],
+'ひょ': ['hyo','hixo','hilo'],
+'ひぃ': ['hyi','hixi','hili'],
+'ひぇ': ['hye','hixe','hile'],
+
+'みゃ': ['mya','mixa','mila'],
+'みゅ': ['myu','mixu','milu'],
+'みょ': ['myo','mixo','milo'],
+'みぃ': ['myi','mixi','mili'],
+'みぇ': ['mye','mixe','mile'],
+
+'りゃ': ['rya','rixa','rila'],
+'りゅ': ['ryu','rixu','rilu'],
+'りょ': ['ryo','rixo','rilo'],
+'りぃ': ['ryi','rixi','rili'],
+'りぇ': ['rye','rixe','rile'],
+
+'ぎゃ': ['gya','gixa','gila'],
+'ぎゅ': ['gyu','gixu','gilu'],
+'ぎょ': ['gyo','gixo','gilo'],
+'ぎぃ': ['gyi','gixi','gili'],
+'ぎぇ': ['gye','gixe','gile'],
+
+'じゃ': ['ja','zya','jya','jixa','jila','zyixa','zyila','zixa','zila'],
+'じゅ': ['ju','zyu','jyu','jixu','jilu','zyixu','zyilu','zixu','zilu'],
+'じょ': ['jo','zyo','jyo','jixo','jilo','zyixo','zyilo','zixo','zilo'],
+'じぃ': ['jyi','zyi','jixi','jili','zyixi','zyili','zixi','zili'],
+'じぇ': ['je','zye','jixe','jile','zyixe','zyile','zixe','zile'],
+
+'びゃ': ['bya','bixa','bila'],
+'びゅ': ['byu','bixu','bilu'],
+'びょ': ['byo','bixo','bilo'],
+'びぃ': ['byi','bixi','bili'],
+'びぇ': ['bye','bixe','bile'],
+
+'ぴゃ': ['pya','pixa','pila'],
+'ぴゅ': ['pyu','pixu','pilu'],
+'ぴょ': ['pyo','pixo','pilo'],
+'ぴぃ': ['pyi','pixi','pili'],
+'ぴぇ': ['pye','pixe','pile'],
+
+'ぢゃ': ['dya','dixa','dila'],
+'ぢゅ': ['dyu','dixu','dilu'],
+'ぢょ': ['dyo','dixo','dilo'],
+'ぢぃ': ['dyi','dixi','dili'],
+'ぢぇ': ['dye','dixe','dile'],
+
+'でゃ': ['dha','dya','dexya','delya'],
+'でゅ': ['dhu','dyu','dexyu','delyu'],
+'でょ': ['dho','dyo','dexyo','delyo'],
+'でぃ': ['dhi','di','dexi','deli'],
+'でぇ': ['dhe','dye','dexye','delye'],
+
+// ===== 外来音（x/l小母音 & 代替ローマ字）=====
+'ふぁ': ['fa','huxa','hula'],
+'ふぃ': ['fi','huxi','huli'],
+'ふぇ': ['fe','huxe','hule'],
+'ふぉ': ['fo','huxo','hulo'],
+
+'うぁ': ['wha','uxa','ula'],
+'うぃ': ['whi','uxi','uli'],
+'うぇ': ['whe','uxe','ule'],
+'うぉ': ['who','wo','uxo','ulo'],
+
+'くぁ': ['qa','qwa','kwa','kuxa','kula'],
+'くぃ': ['qi','qwi','kwi','kuxi','kuli'],
+'くぇ': ['qe','qwe','kwe','kuxe','kule'],
+'くぉ': ['qo','qwo','kwo','kuxo','kulo'],
+
+'とぁ': ['twa','toxa','tola'],
+'とぃ': ['twi','toxi','toli'],
+'とぅ': ['twu','toxu','tolu'],
+'とぇ': ['twe','toxe','tole'],
+'とぉ': ['two','toxo','tolo'],
+
+
+    // 小文字
+    'ぁ':['la','xa'], 'ぃ':['li','xi'], 'ぅ':['lu','xu'], 'ぇ':['le','xe'], 'ぉ':['lo','xo'],
+    'ゃ':['lya','xya'], 'ゅ':['lyu','xyu'], 'ょ':['lyo','xyo'], 'っ':['ltu','xtu'],
+
+    // て行 + 小文字母音
+      'てゃ': ['tya','tha'],
+      'てぃ': ['ti','thi','tyi','texi'],
+      'てゅ': ['tyu','thu'],
+      'てぇ': ['tye','the'],
+      'てょ': ['tyo','tho'],
+
+      // ど行 + 小文字母音（と行の対になる外来音）
+      'どぁ': ['dwa','doxa'],
+      'どぃ': ['dwi','doxi'],
+      'どぅ': ['dwu','doxu'],
+      'どぇ': ['dwe','doxe'],
+      'どぉ': ['dwo','doxo'],
+
+      // つ + 小文字母音
+      'つぁ': ['tsa'],
+      'つぃ': ['tsi'],
+      'つぇ': ['tse'],
+      'つぉ': ['tso'],
+
+      // ふ + 拗音（外来音でよく出る）
+      'ふゃ': ['fya'],
+      'ふゅ': ['fyu'],
+      'ふょ': ['fyo'],
+
+      // う + 小文字母音（一般的な wi/we も許可）
+      'うぁ': ['wha','uxa'],
+      'うぃ': ['wi','whi'],
+      'うぇ': ['we','whe'],
+      'うぉ': ['who','wo','uxo'],
+
+      // ゔ 系（外来語で必須）
+      'ゔ':   ['vu'],
+      'ゔぁ': ['va'], 'ゔぃ': ['vi'], 'ゔぇ': ['ve'], 'ゔぉ': ['vo'],
+      'ゔゃ': ['vya'], 'ゔゅ': ['vyu'], 'ゔょ': ['vyo'],
+
+      // 小書き仮名（稀だが安全のため）
+      'ゎ': ['lwa','xwa'],
+      'ゕ': ['lka','xka'],
+      'ゖ': ['lke','xke'],
+      
+    // 記号・数字
+    'ー':['-'], '、':[',',' '], '。':['.',' '], '・':['/',' '],
+    '！':['!'], '？':['?'], '％':['%'], '＝':['='],
+    '0':['0'],'1':['1'],'2':['2'],'3':['3'],'4':['4'],'5':['5'],'6':['6'],'7':['7'],'8':['8'],'9':['9'],
+    '０':['0'],'１':['1'],'２':['2'],'３':['3'],'４':['4'],'５':['5'],'６':['6'],'７':['7'],'８':['8'],'９':['9'],
+    ' ':' ','　':' ',
+
+    // A–Z / a–z → 小文字
+    'A':['a'],'B':['b'],'C':['c'],'D':['d'],'E':['e'],'F':['f'],'G':['g'],'H':['h'],'I':['i'],'J':['j'],
+    'K':['k'],'L':['l'],'M':['m'],'N':['n'],'O':['o'],'P':['p'],'Q':['q'],'R':['r'],
+    'S':['s'],'T':['t'],'U':['u'],'V':['v'],'W':['w'],'X':['x'],'Y':['y'],'Z':['z'],
+    'a':['a'],'b':['b'],'c':['c'],'d':['d'],'e':['e'],'f':['f'],'g':['g'],'h':['h'],'i':['i'],'j':['j'],
+    'k':['k'],'l':['l'],'m':['m'],'n':['n'],'o':['o'],'p':['p'],'q':['q'],'r':['r'],
+    's':['s'],'t':['t'],'u':['u'],'v':['v'],'w':['w'],'x':['x'],'y':['y'],'z':['z']
+  };
+
+  let remStr = String(kana);
+  const result = [];
+  const outkana = [];
+
+  const isSmallKana = c => /^[ぁぃぅぇぉゃゅょ]$/.test(c||'');
+  const isAscii     = c => /^[A-Za-z0-9\/\-\.,\s]$/.test(c||'');
+  const isLetter    = c => /^[a-z]$/.test(c||'');
+  const isVowelYorN = c => /[aiueoyn]/.test(c||'');
+  const uniq = a => [...new Set(a)];
+
+  function splice(){ const c = remStr.slice(0,1); remStr = remStr.slice(1); return c; }
+
+  // 次キー（拗音なら2文字）を覗く
+  function peekNextKey(){
+    const c1 = remStr.slice(0,1);
+    if (!c1) return '';
+    const c2 = remStr.slice(1,2);
+    if (isSmallKana(c2) && romanMap[c1+c2]) return c1+c2;
+    return c1;
+  }
+  // 指定キーの先頭ローマ字一文字
+  function headRomanOf(key){
+    if (!key) return '';
+    if (romanMap[key]) {
+      const s = romanMap[key][0] || '';
+      return s ? s[0] : '';
+    }
+    const h = key[0];
+    return isAscii(h) ? h.toLowerCase() : (key.toLowerCase()[0]||'');
+  }
+
+  let carryN = false; // 「ん→子音」で次トークンに n を前置可
+
+  while (remStr) {
+    let slStr = splice();
+
+    // 促音 っ
+    if (slStr === 'っ') {
+      const c1 = remStr.slice(0,1);
+      const key = (isSmallKana(remStr.slice(1,2)) && romanMap[c1+remStr.slice(1,2)]) ? c1+remStr.slice(1,2) : c1;
+      const head = headRomanOf(key);
+      const consonantHead = isLetter(head) && !isVowelYorN(head);
+
+      if (!consonantHead) {
+        result.push([...romanMap['っ']]); outkana.push('っ'); carryN = false; continue;
+      }
+      // 次まとまりを実際に消費して子音重ね
+      let k = splice();
+      if (isSmallKana(remStr[0])) k += splice();
+
+      if (romanMap[k]) {
+        const base = romanMap[k];
+        result.push(base.map(s => s[0] + s)); outkana.push('っ' + k);
+      } else if (isAscii(k[0])) {
+        let run = k; while (remStr && isAscii(remStr[0])) run += splice();
+        const low = run.toLowerCase();
+        result.push([low[0] + low]); outkana.push('っ' + run);
+      } else {
+        const low = k.toLowerCase();
+        result.push([low[0] + low]); outkana.push('っ' + k);
+      }
+      carryN = false;
+      continue;
+    }
+
+    // 拗音結合（き + ゃ → きゃ）
+    if (isSmallKana(remStr[0])) slStr += splice();
+
+    if (romanMap[slStr]) {
+      // ---- ん（撥音） ----
+      if (slStr === 'ん') {
+        const nextKey = peekNextKey();
+        const head = headRomanOf(nextKey);
+
+        let roman;
+        if (!head) {                         // 語末
+          roman = ['n','nn']; carryN = false;
+        } else if (head === 'n') {           // n行の前
+          roman = ['nn'];     carryN = false;
+        } else if ('aiueoy'.includes(head)) {// 母音/y の前
+          roman = ["n'",'nn']; carryN = false;
+        } else if (isLetter(head)) {         // ★子音の前（ここがポイント）
+          // n / nn を許可しつつ、次トークンへ n を“橋渡し”
+          roman = ['n','nn']; carryN = true;
+        } else {                              // 記号など
+          roman = ['n'];      carryN = false;
+        }
+        result.push(roman); outkana.push('ん');
+        continue;
+      }
+
+      // ---- 通常のかな ----
+      const base = [...romanMap[slStr]];
+      let roman = base;
+
+      // ★前が「ん→子音」だった場合、次トークンに n を前置した候補も許可
+      if (carryN) {
+        roman = uniq([...base.map(s => 'n' + s), ...base]); // 例: こ → ['nko','nco','ko','co']
+      }
+      carryN = false; // 使い切り
+
+      result.push(roman);
+      outkana.push(slStr);
+      continue;
+    }
+
+    // ASCII 連続はそのまま通す
+    if (isAscii(slStr)) {
+      let run = slStr;
+      while (remStr && isAscii(remStr[0])) run += splice();
+      result.push([run.toLowerCase()]);
+      outkana.push(run);
+      carryN = false;
+      continue;
+    }
+
+    // フォールバック（未知文字）
+    result.push([slStr.toLowerCase()]);
+    outkana.push(slStr);
+    carryN = false;
+  }
+
+  return [result, outkana];
+}
+</script>
