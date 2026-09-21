@@ -1,0 +1,1794 @@
+
+<script>
+// ==========================
+// GenkiModal (簡易モーダル) - 縦も小さく版（コピペ用）
+// ==========================
+(function(window, document) {
+  'use strict';
+  window.GenkiModal = {
+    open: function(o) {
+      o = o || {};
+      GenkiModal.close();
+
+      var modal = document.createElement('DIV');
+      modal.id = 'genki-modal';
+      modal.innerHTML =
+        '<div id="genki-modal-overlay"></div>' +
+        '<div id="genki-modal-body">' +
+          '<h2 id="genki-modal-header">' + (o.title ? o.title : 'Popup') + '</h2>' +
+          '<div id="genki-modal-content">' + (o.content ? o.content : '') + '</div>' +
+          '<div id="genki-modal-buttons" class="center">' +
+            (o.noClose ? '' :
+              '<button id="genki-modal-close" class="button" onclick="GenkiModal.close();">' +
+                (o.closeButtonText ? o.closeButtonText : 'Close') +
+              '</button>') +
+          '</div>' +
+        '</div>';
+
+      // OKボタン（callbackがあるときだけ＝「はい」）
+      if (o.callback) {
+        let button  = document.createElement('BUTTON');
+        let buttons = modal.querySelector('#genki-modal-buttons');
+        button.innerHTML = o.buttonText ? o.buttonText : 'OK';
+        button.id = 'genki-modal-ok';
+        button.className = 'button';
+        button.onclick = function() { o.callback(); !o.keepOpen && GenkiModal.close(); };
+        buttons.insertBefore(button, buttons.firstChild);
+      }
+
+      document.body.style.overflow = 'hidden';
+      document.body.appendChild(modal);
+
+      // ---- 小さめ（幅+高さ）スタイル ----
+      const bodyEl    = modal.querySelector('#genki-modal-body');
+      const contentEl = modal.querySelector('#genki-modal-content');
+      const headerEl  = modal.querySelector('#genki-modal-header');
+      const btnsWrap  = modal.querySelector('#genki-modal-buttons');
+
+      if (o.size === 'sm' || o.small) {
+        // 幅をコンパクトに
+        bodyEl.style.maxWidth = '360px';
+        bodyEl.style.width    = 'min(90vw, 360px)';
+        // 縦もコンパクト＋スクロール可能に
+        bodyEl.style.maxHeight = '240px';          // ← ここを好みで 200〜280px に調整可
+        bodyEl.style.display   = 'flex';
+        bodyEl.style.flexDirection = 'column';
+        bodyEl.style.padding   = '12px 16px';
+
+        // タイトル/ボタンの余白を小さく
+        headerEl.style.margin = '0 0 8px';
+        btnsWrap.style.marginTop = '8px';
+
+        // 中身ははみ出したら縦スクロール
+        contentEl.style.flex = '1 1 auto';
+        contentEl.style.minHeight = '0';           // flex子のスクロールに必要
+        contentEl.style.overflowY = 'auto';
+      }
+
+      // ---- 矢印キーでボタン巡回 / Enter で決定 ----
+      const btns = Array.from(
+        modal.querySelectorAll('#genki-modal-buttons .button')
+      ).filter(b => b.offsetParent !== null && !b.disabled);
+
+      btns.forEach(b => b.tabIndex = 0);
+
+      // 初期フォーカスは「はい」(OK) 最優先
+      if (o.focus) {
+        const target = document.querySelector(o.focus);
+        if (target) target.focus();
+      } else {
+        const okBtn = modal.querySelector('#genki-modal-ok');
+        if (okBtn) okBtn.focus();
+        else if (btns[0]) btns[0].focus();
+      }
+
+      const keyHandler = (e) => {
+        const exist = document.getElementById('genki-modal');
+        if (!exist) return;
+        const list = Array.from(
+          exist.querySelectorAll('#genki-modal-buttons .button')
+        ).filter(b => b.offsetParent !== null && !b.disabled);
+        if (!list.length) return;
+
+        const i = list.indexOf(document.activeElement);
+        if (['ArrowLeft','ArrowUp'].includes(e.key)) {
+          e.preventDefault();
+          const ni = (i <= 0 ? list.length - 1 : i - 1);
+          list[ni].focus();
+        } else if (['ArrowRight','ArrowDown'].includes(e.key)) {
+          e.preventDefault();
+          const ni = (i === -1 ? 0 : (i + 1) % list.length);
+          list[ni].focus();
+        } else if (e.key === 'Enter') {
+          if (document.activeElement && exist.contains(document.activeElement)) {
+            e.preventDefault();
+            document.activeElement.click();
+          }
+        }
+      };
+      window.addEventListener('keydown', keyHandler, true);
+      GenkiModal._keyHandler = keyHandler;
+    },
+
+    close: function() {
+      var modal = document.getElementById('genki-modal');
+      if (modal) {
+        document.body.style.overflow = '';
+        document.body.removeChild(modal);
+      }
+      if (GenkiModal._keyHandler) {
+        window.removeEventListener('keydown', GenkiModal._keyHandler, true);
+        GenkiModal._keyHandler = null;
+      }
+    }
+  };
+}(window, document));
+
+
+
+
+// ==========================
+// Main Game Logic
+// ==========================
+(function(window, document) {
+  'use strict';
+
+  // 入力進捗（カードごとに更新）
+  let wordR, idx1, idx2, pattern, temp, hiragana;
+
+  const HP_MAX = 100;
+
+  window.hamachi = {
+    // ---- 状態 ----
+    _savingScore: false,   // 送信中フラグ（連打防止）
+    _scoreSaved:  false,   // 保存済みフラグ（二度押し禁止）
+    playing: false,
+    paused: false,
+    awaitingNext: false,
+    timerInterval: null,
+    _toastTimer: null,   // トースト復元タイマー
+    gameMode: '',
+    kubun: '1',
+    progress: 0,
+    kihon_time: 10000,
+    stats: {
+      score: 0, correct: 0, missed: 0,
+      great: 0, good: 0, okay: 0,
+      misstype: 0, missCards: 0,
+      time: 0, totalTime: 0,
+      hp: HP_MAX, chain: 0, chainMax: 0
+    },
+    cache: {},
+    mode: {},
+    toplineVisibleCount: 0, // kan（上段）の可視文字数（1文字ずつ進めるためのカウンタ）
+
+    // ---- エンドレス難化 ----
+    endless: true,
+    problemsServed: 0,
+    baseTimePerCard: 10000,
+    timeMultiplier: 1.0,
+    damageMultiplier: 1.0,
+    scoreMultiplier: 1.0,
+    DIFFICULTY_STEP: 5,
+    DAMAGE_GROWTH: 1.1, // ミスダメージ倍率
+    TIME_GROWTH: 0.9,   // 制限時間倍率
+    SCORE_GROWTH: 1.1,  // スコア倍率
+
+    // ---- モード設定 ----
+    modeConfig: {
+      '練習モード': {
+        timePerCard: 20000, damagePerMiss: 3, scorePerClear: 1, healOnClear: 2,
+        hint1At: 0.95, hint2At: 0.90, allowLooseRomaji: true, showRomajiGuide: true,
+        barColor: '#81c784', clearDelayMs: 10,
+        minTimeMs: 5000 
+      },
+      '通常モード': {
+        timePerCard: 20000, damagePerMiss: 5, scorePerClear: 100, healOnClear: 2,
+        hint1At: 0.75, hint2At: 0.5, allowLooseRomaji: true, showRomajiGuide: true,
+        barColor: '#26c6da', clearDelayMs: 1000,
+        minTimeMs: 5000 
+      },
+      '極みモード': {
+        timePerCard: 20000, damagePerMiss: 10, scorePerClear: 300, healOnClear: 0,
+        hint1At: 0.0, hint2At: 0.0, allowLooseRomaji: true, showRomajiGuide: true,
+        barColor: '#ef5350', clearDelayMs: 10,
+        minTimeMs: 5000 
+      }
+    },
+
+    // ---- Kanji/Kana 可視化 ----
+    kanjiChunks: [],
+    hint1Active: false,
+    hint2Active: false,
+    isKanjiChar: function (ch) {
+      const code = ch.charCodeAt(0);
+      return (code >= 0x4E00 && code <= 0x9FFF) || (code >= 0x3400 && code <= 0x4DBF);
+    },
+    tokenizeKanMixed: function (kanMixed) {
+      const tokens = [];
+      let buf = '', inKana = null;
+      const isKana = c => /[ぁ-ゖァ-ヺー]/.test(c);
+      for (const ch of kanMixed) {
+        if (this.isKanjiChar(ch)) {
+          if (buf) { tokens.push({ type: 'kana', text: buf }); buf = ''; }
+          tokens.push({ type: 'kanji', text: ch }); inKana = null;
+        } else if (isKana(ch)) {
+          if (inKana === true) buf += ch;
+          else { if (buf) tokens.push({ type: 'kana', text: buf }); buf = ch; inKana = true; }
+        } else {
+          if (buf) { tokens.push({ type: 'kana', text: buf }); buf=''; }
+          tokens.push({ type: 'kana', text: ch }); inKana = null;
+        }
+      }
+      if (buf) tokens.push({ type: 'kana', text: buf });
+      return tokens;
+    },
+
+
+buildKanjiRuby: function (kanMixed, yomi) {
+  this.kanjiChunks = [];
+
+  const tokens = this.tokenizeKanMixed(String(kanMixed));
+  const ruby = document.createElement('ruby');
+  const rb   = document.createElement('rb');
+  const rt   = document.createElement('rt');
+
+  let pos = 0; // yomi(ひらがな)上の読み位置
+
+  for (let i = 0; i < tokens.length; i++) {
+    const t = tokens[i];
+
+    // このトークンの読み範囲[start, end)を決める
+    let start = pos, end = pos;
+
+    if (t.type === 'kana') {
+      // ★ かな・カタカナ・ASCII・記号を「1文字ずつ」span化
+      end = pos + t.text.length;
+
+      const chars = Array.from(t.text);
+      for (let k = 0; k < chars.length; k++) {
+        const cspan = document.createElement('span');
+        cspan.className = 'kan-chunk hint-fade';
+        cspan.textContent = chars[k];
+        rb.appendChild(cspan);
+
+        // 読み位置を1文字ずつ割り当て（typedKanaLen と同期）
+        const cStart = start + k;
+        const cEnd   = start + k + 1;
+
+        this.kanjiChunks.push({ el: cspan, readStart: cStart, readEnd: cEnd });
+      }
+} else {
+      // Kanji チャンク：次の「かな」トークンの開始を yomi から探して読み範囲を決める
+      let nextKanaText = '';
+      for (let j = i + 1; j < tokens.length; j++) {
+        if (tokens[j].type === 'kana') { nextKanaText = tokens[j].text; break; }
+      }
+      if (nextKanaText) {
+        const idx = yomi.indexOf(nextKanaText, pos);
+        end = (idx !== -1) ? idx : yomi.length;
+      } else {
+        end = yomi.length;
+      }
+      // 安全のため
+      if (end < start) end = start;
+
+      // ★ Kanji は1文字ずつspan化して、読み範囲を均等割りで割り当てる
+      const chars = Array.from(t.text);
+      const segLen = Math.max(1, end - start);
+
+      for (let k = 0; k < chars.length; k++) {
+        const cspan = document.createElement('span');
+        cspan.className = 'kan-chunk hint-fade';
+        cspan.textContent = chars[k];
+        rb.appendChild(cspan);
+
+        // 均等割り：ぶん配（例:「分析」⇔「ぶんせき」なら 2 文字で 4 音 → 0..1, 2..3 など）
+        const cStart = start + Math.floor(segLen *  k      / chars.length);
+        const cEnd   = start + Math.floor(segLen * (k + 1) / chars.length);
+
+        this.kanjiChunks.push({ el: cspan, readStart: cStart, readEnd: cEnd });
+      }
+    }
+
+    pos = end;
+  }
+
+  rt.textContent = yomi;
+  ruby.append(rb, rt);
+  return ruby;
+},
+
+
+
+
+    updateKanjiReveal: function (typedKanaLen) {
+      // ヒント1の間は自動可視化しない（既存の仕様を維持）
+      if (this.hint1Active && !this.hint2Active) return;
+      if (!this.kanjiChunks || !this.kanjiChunks.length) return;
+
+      // ひらがな進捗で「今この時点で見えてよい」上限（target）を決める
+      // readStart が typedKanaLen 未満のチャンク数まで表示してよい、という意味
+      let target = 0;
+      for (let i = 0; i < this.kanjiChunks.length; i++) {
+        if (typedKanaLen > this.kanjiChunks[i].readStart) target++;
+        else break; // readStart は単調増加の想定
+      }
+
+      if (this.hint2Active) {
+        // ヒント2以降は全開
+        for (let i = 0; i < this.kanjiChunks.length; i++) {
+          this.kanjiChunks[i].el.classList.add('hint-visible');
+        }
+        this.toplineVisibleCount = this.kanjiChunks.length;
+        return;
+      }
+
+      // ★ ここがポイント：一度の呼び出しで増やせるのは +1 まで
+      const nextCount = Math.min(target, (this.toplineVisibleCount || 0) + 1);
+
+      // すでに見えている分は触らず、足りない分だけ 1 つ進める
+      for (let i = this.toplineVisibleCount; i < nextCount; i++) {
+        if (this.kanjiChunks[i]) this.kanjiChunks[i].el.classList.add('hint-visible');
+      }
+      this.toplineVisibleCount = Math.max(this.toplineVisibleCount || 0, nextCount);
+    },
+
+
+    // 残り時間/ミスで判定 & 倍率
+    getJudgeAndMultiplier: function () {
+      const ratio = Math.max(0, Math.min(1, this.stats.time / this.kihon_time));
+      if (!this.madeMistakeThisCard && ratio >= 2/3) return { judge: 'GREAT!', mult: 2.0, key: 'great' };
+      if (!this.madeMistakeThisCard && ratio >= 1/3) return { judge: 'GOOD!',  mult: 1.5, key: 'good'  };
+      return { judge: 'OKAY!', mult: 1.0, key: 'okay' };
+    },
+
+    // ---- ローダ ----
+    stopLoading: function() {
+      if (/loading/.test(document.body.className) && !/fade-loader-out/.test(document.body.className)) {
+        document.body.className += ' fade-loader-out';
+        window.setTimeout(() => {
+          document.body.className = document.body.className.replace(/ loading| fade-loader-out/g, '');
+        }, 1000);
+      }
+    },
+
+    // ---- メニュー遷移 ----
+    showMenu: function(id, caller, kubun) {
+      if (kubun) { this.kubun = kubun; if (kubun < 99) this.read_card(kubun); }
+      ['menu-main', 'menu-mode', 'menu-about'].forEach(menuId => {
+        const el = document.getElementById(menuId);
+        if (el) el.style.display = 'none';
+      });
+      const tgt = document.getElementById('menu-' + id);
+      if (tgt) {
+        tgt.style.display = 'block';
+        this.enableMenuNav(tgt);
+      }
+
+      if (id === 'about') {
+        const btn = document.getElementById('rank-reload');
+        if (btn && !btn._bound) { btn.addEventListener('click', () => this.loadRanking()); btn._bound = true; }
+        ['rank-mode','rank-kubun'].forEach(sid => {
+          const sel = document.getElementById(sid);
+          if (sel && !sel._bound) { sel.addEventListener('change', () => this.loadRanking()); sel._bound = true; }
+        });
+        this.loadRanking();
+      }
+    },
+
+    // ---- ゲーム開始 ----
+    startGame: function(mode) {
+          // ★万一の多重起動対策：開始時に必ず掃除
+      if (this.timerInterval) { clearInterval(this.timerInterval); this.timerInterval = null; }
+      if (this._toastTimer)   { clearTimeout(this._toastTimer);   this._toastTimer   = null; }
+      this.gameMode = mode;
+      this.cfg = this.modeConfig ? (this.modeConfig[mode] || this.modeConfig['通常モード']) : null;
+
+      // メニューを閉じてゲーム表示
+      document.getElementById('logo').style.display = 'none';
+      document.getElementById('big-title').style.display = 'none';
+      document.getElementById('menu-main').style.display = 'none';
+      document.getElementById('menu-mode').style.display = 'none';
+      document.getElementById('game').style.display = 'block';
+      // document.body.className = document.body.className.replace('main-menu', 'playing-game ' + mode + '-mode');
+      document.body.className = document.body.className.replace('main-menu', 'playing-game');
+      const safeMode =
+        /極/.test(mode) ? 'mode-kiwami' :
+        /練/.test(mode) ? 'mode-practice' :
+                          'mode-normal';
+      document.body.classList.remove('mode-kiwami','mode-practice','mode-normal');
+      document.body.classList.add(safeMode);
+
+      this.disableMenuNav();
+      this.resetGameState();
+
+      // 難化初期化
+      this.baseTimePerCard = (this.cfg ? this.cfg.timePerCard : 10000);
+      this.timeMultiplier = 1.0;
+      this.damageMultiplier = 1.0;
+      this.scoreMultiplier = 1.0;
+      this.problemsServed = 0;
+
+      // HPバー色
+      const bar = document.getElementById('hamachi-life-bar');
+      if (bar && this.cfg && this.cfg.barColor) bar.style.background = this.cfg.barColor;
+
+      // ローマ字ガイド表示切替
+      if (this.cache.input) {
+        this.cache.input.style.display = (this.cfg && this.cfg.showRomajiGuide) ? '' : 'none';
+      }
+
+      this.updateHpDisplay();
+      this.countdown();
+    },
+
+    // ---- HPバー ----
+    updateHpDisplay: function() {
+      const hp = Math.max(0, Math.min(HP_MAX, this.stats.hp));
+      const percent = (hp / HP_MAX) * 100;
+      const el = document.getElementById('hamachi-life-bar');
+      if (el) el.style.width = percent + '%';
+    },
+
+    // ---- カウントダウン ----
+    countdown: function() {
+      const countdownEl = document.getElementById("countdown");
+      countdownEl.style.display = "block";
+      let count = 3;
+      countdownEl.innerHTML = "Ready";
+      this.cache.card.style.display = 'none';
+      this.cache.input.style.display = this.cfg.showRomajiGuide ? 'none' : 'none';
+      this.cache.keyboard.style.display = 'none';
+
+      let counter = setInterval(() => {
+        if (count === 0) {
+          countdownEl.innerHTML = "GO!";
+        } else if (count < 0) {
+          clearInterval(counter);
+          countdownEl.style.display = "none";
+          this.cache.card.style.display = '';
+          if (this.cfg.showRomajiGuide) this.cache.input.style.display = '';
+          this.cache.keyboard.style.display = '';
+          this.playing = true;
+          this.nextCard();
+        } else {
+          countdownEl.innerHTML = count;
+        }
+        count--;
+      }, 800);
+    },
+
+    // ---- 次のカード ----
+    nextCard: function () {
+      if (this.stats.hp <= 0 || !this.playing) return;
+      this.toplineVisibleCount = 0;
+
+      // ヒント1で短縮した先頭トークンを復元（保険）
+       if (this._hint1FirstChunkEl) {
+         this._hint1FirstChunkEl.textContent =
+           (this._hint1FirstChunkOrigText != null) ? this._hint1FirstChunkOrigText : this._hint1FirstChunkEl.textContent;
+         this._hint1FirstChunkEl = null;
+         this._hint1FirstChunkOrigText = null;
+       }
+
+      // 直前カードのトースト復元を止める & 帯クリア
+      if (this._toastTimer) { clearTimeout(this._toastTimer); this._toastTimer = null; }
+      {
+        const banner = document.getElementById('answer-banner');
+        if (banner) { banner.textContent = ''; banner.style.color = '#1976d2'; }
+        const romDiv = document.getElementById('card-romaji');
+        if (romDiv) romDiv.innerHTML = '';
+      }
+
+      // 前カードのタイマー停止
+      if (this.timerInterval) { clearInterval(this.timerInterval); this.timerInterval = null; }
+
+      this.madeMistakeThisCard = false;
+
+      // ヒントフラグ
+      let hint1Shown = false, hint2Shown = false;
+      const hintEl = document.getElementById('hamachi-hint');
+      if (hintEl) hintEl.style.display = 'none';
+      this.hint1Active = false;
+      this.hint2Active = false;
+
+      // データ確認
+      const cardData = this.mode['m' + this.kubun];
+      if (!cardData || cardData.length === 0) return this.endGame(false);
+
+      const cardIndex = this.progress % cardData.length;
+      const card = cardData[cardIndex];
+
+      // 入力状態リセット
+      const conversion = kanaToRoman(card.ans);
+      wordR    = conversion[0];
+      hiragana = conversion[1];
+      pattern  = new Array(wordR.length).fill(0);
+      idx1 = 0; idx2 = 0; temp = '';
+
+      // よみ
+      const yomi = Array.isArray(hiragana) ? hiragana.join('') : (hiragana || '');
+
+      // カードDOM
+      this.cache.questionCard.innerHTML =
+        '<div class="hamachi-card">' +
+          (card.img ? '<div class="card-image-container"><img class="card-image" src="' + card.img + '" alt="関連画像"></div>' : '<div class="card-image-container"></div>') +
+          '<div class="word-zone">' +
+            '<div class="helper" style="font-size:28px;">' + (card.que ?? '') + '</div>' +
+            '<div id="card-hiragana" class="words"></div>' +
+          '</div>' +
+        '</div>';
+
+      if (card.kan) {
+        const wordZone = this.cache.questionCard.querySelector('.word-zone');
+        const helperEl = wordZone ? wordZone.querySelector('.helper') : null;
+        if (wordZone && helperEl) {
+          const kanDiv = document.createElement('div');
+          kanDiv.className = 'kanji';
+          const ruby = this.buildKanjiRuby(String(card.kan), yomi);
+          if (ruby) kanDiv.appendChild(ruby);
+          helperEl.insertAdjacentElement('afterend', kanDiv);
+        }
+      }
+
+      // ひらがな初期表示
+      this.initializeCardDisplay();
+
+      // ローマ字ガイドと回答帯をクリア（保険）
+      {
+        const romDiv = document.getElementById('card-romaji');
+        if (romDiv) romDiv.innerHTML = '';
+      }
+      const banner = document.getElementById('answer-banner');
+      if (banner) banner.textContent = '';
+
+      // 出題数 + レベル更新
+      this.problemsServed++;
+      const lvEl = document.getElementById('hamachi-level');
+      if (lvEl) lvEl.textContent = this.getDifficultyLevel();
+
+      // 難化
+      if (this.problemsServed > 0 && this.problemsServed % this.DIFFICULTY_STEP === 0) {
+        this.damageMultiplier *= this.DAMAGE_GROWTH;
+        this.timeMultiplier   *= this.TIME_GROWTH;
+        this.scoreMultiplier  *= this.SCORE_GROWTH;
+        // ★ 追加：最小時間を割らないよう timeMultiplier を底上げ
+        this.clampTimeMultiplier();
+      }
+
+      // 次カウント
+      this.progress++;
+
+      // タイマー（ms）
+      this.kihon_time = Math.max(500, Math.round(this.baseTimePerCard * this.timeMultiplier));
+      // ★ 変更：モードの最小時間も考慮
+      this.clampTimeMultiplier(); // 念のため毎回クランプ
+      const floorMs = (this.cfg && this.cfg.minTimeMs) ? this.cfg.minTimeMs : 500;
+      this.kihon_time = Math.max(floorMs, Math.round(this.baseTimePerCard * this.timeMultiplier));
+      this.stats.time = this.kihon_time;
+      const timeBar = document.getElementById('hamachi-time-bar');
+
+      // 100ms刻みの減少
+      this.timerInterval = setInterval(() => {
+        // 一時停止中は止める
+        if (this.paused) return;
+
+        this.stats.time -= 100;
+        const timePercent = (this.stats.time / this.kihon_time) * 100;
+        if (timeBar) timeBar.style.width = Math.max(0, Math.min(100, timePercent)) + '%';
+
+        // ヒント1（次の1文字）
+        if (!hint1Shown && this.stats.time <= this.kihon_time * (this.cfg ? this.cfg.hint1At : 0.75)) {
+          hint1Shown = true;
+          this.hint1Active = true;
+          const ansEl = document.getElementById('answer-banner');
+          if (ansEl) {
+            const typed = Array.isArray(hiragana) ? hiragana.slice(0, idx1).join('') : '';
+            const nextCh = Array.isArray(hiragana) ? (hiragana[idx1] || '') : '';
+            ansEl.innerHTML = `<span class="typed">${typed}</span><span class="hint-next">${nextCh}</span>`;
+          }
+
+          this.revealFirstCharForHint1()
+          this.updateInputDisplay(); 
+        }
+
+        // ヒント2（全表示）
+        if (!hint2Shown && this.stats.time <= this.kihon_time * (this.cfg ? this.cfg.hint2At : 0.25) && idx1 < (wordR ? wordR.length : 0)) {
+          this.hint2Active = true;
+          this.revealFullAnswer();
+          hint2Shown = true;
+          this.updateInputDisplay();  // ★ 即座に配色を再適用
+        }
+
+        // タイムアップ
+        if (this.stats.time <= 0) {
+          clearInterval(this.timerInterval);
+          this.timerInterval = null;
+          this.hint2Active = true; // 全表示を許可
+          this.revealFullAnswer();
+          this.stats.missCards += 1;
+          this.stats.chain = 0;
+          setTimeout(() => { this.handleMiss(); this.nextCard(); }, 600);
+        }
+      }, 100);
+    },
+
+
+      // ヒント1専用：先頭の表示文字1文字だけ可視化（トークンが長い場合は一時的に1文字に縮める）
+      _hint1FirstChunkEl: null,
+      _hint1FirstChunkOrigText: null,
+
+      revealFirstCharForHint1: function () {
+        if (!this.kanjiChunks || !this.kanjiChunks.length) return;
+        const first = this.kanjiChunks[0];
+        if (!first || !first.el) return;
+
+        // 元テキストを保存（後で戻す）
+        if (!this._hint1FirstChunkEl) {
+          this._hint1FirstChunkEl = first.el;
+          this._hint1FirstChunkOrigText = first.el.textContent || '';
+        }
+        const orig = this._hint1FirstChunkOrigText || '';
+        if (!orig) return;
+
+        // 1文字だけ表示
+        first.el.classList.add('hint-visible');
+        this.toplineVisibleCount = Math.max(this.toplineVisibleCount || 0, 1); // ← 追加
+        // first.el.textContent = orig.slice(0, 1);
+      },
+
+      getTypedKanaProgressLen: function () {
+        // すでに確定したトークン分（= かな長さの総和）
+        let len = 0;
+        for (let i = 0; i < idx1; i++) {
+          len += (Array.isArray(hiragana) && hiragana[i]) ? hiragana[i].length : 0;
+        }
+
+        // カレントトークンの「部分入力」に応じた部分可視化
+        if (Array.isArray(hiragana) && idx1 < hiragana.length && wordR && wordR[idx1]) {
+          const klen = hiragana[idx1].length;                      // そのトークンの“かな長さ”
+          const roman = wordR[idx1][pattern[idx1]] || '';          // 今選ばれているローマ字形
+          if (roman.length > 0) {
+            // 入力済みローマ字の割合で、可視化する“かな”の数を決定
+            const partial = Math.min(klen, Math.ceil((idx2 / roman.length) * klen));
+            len += partial;
+          }
+        }
+        return len;
+      },
+
+
+    // ---- 表示初期化 ----
+    initializeCardDisplay: function() {
+      this.cache.input.innerHTML = '';
+      let html = '';
+      for (const ch of hiragana) html += `<span class="hint-fade">${ch}</span>`;
+      document.getElementById('card-hiragana').innerHTML = html;
+    },
+
+    // ---- タイプ途中表示更新 ----
+    updateInputDisplay: function() {
+      const spans = document.getElementById('card-hiragana').children;
+      for (let i = 0; i < spans.length; i++) {
+        if (i < idx1) { 
+          spans[i].style.color = 'blue'; 
+          spans[i].className = 'hint-visible'; 
+          spans[i].style.visibility = 'visible'; 
+          }
+      }
+      // ローマ字ガイド（カード下と白帯）
+      let romajiFull = '';
+      for (let i = 0; i < wordR.length; i++) romajiFull += wordR[i][pattern[i]];
+      let typedLen = this.getTypedRomajiLength();
+      let typedRomaji = romajiFull.slice(0, typedLen);
+      // const romDiv = document.getElementById('card-romaji');
+      // if (romDiv) romDiv.innerHTML = `<span style="color: blue;">${typedRomaji}</span>`;
+      // if (this.cfg.showRomajiGuide) this.cache.input.innerHTML = `<span style="color:#FF4500;font-weight:bold;">${typedRomaji}</span>`;
+      // else this.cache.input.innerHTML = '';
+      const romDiv = document.getElementById('card-romaji');
+      if (romDiv) {
+        romDiv.innerHTML = (this.cfg && this.cfg.showRomajiGuide)
+          ? `<span style="color: blue;">${typedRomaji}</span>`
+          : '';
+      }
+      this.cache.input.innerHTML = (this.cfg && this.cfg.showRomajiGuide)
+        ? `<span style="color:#FF4500;font-weight:bold;">${typedRomaji}</span>`
+        : '';
+
+      // かな帯にも確定部分表示
+      const banner = document.getElementById('answer-banner');
+      if (banner) {
+        const typedKanaFixed = Array.isArray(hiragana) ? hiragana.slice(0, idx1).join('') : '';
+        banner.textContent = typedKanaFixed;
+      }
+
+      // 漢字可視化
+      const typedKanaLen = this.getTypedKanaProgressLen();
+      this.updateKanjiReveal(typedKanaLen);
+      // ★ 未入力かなの表示制御：Hint1中は隠す、Hint2以降は見せる
+        for (let i = idx1; i < spans.length; i++) {
+          if (this.hint1Active && !this.hint2Active) {
+            spans[i].style.visibility = 'hidden';   // 見せない
+          } else {
+            spans[i].style.visibility = 'visible';  // 通常/Hint2は見せる（薄い表示はCSSのまま）
+            if (i >= idx1) {                        // 色を戻す（必要なら）
+              spans[i].style.removeProperty('color');
+              if (!/hint-/.test(spans[i].className)) spans[i].className = 'hint-fade';
+            }
+          }
+        }
+
+    },
+
+    // ---- 全表示 ----
+    revealFullAnswer: function() {
+
+
+      // ヒント1で短縮した先頭トークンを元に戻す
+      if (this._hint1FirstChunkEl) {
+        this._hint1FirstChunkEl.textContent =
+          (this._hint1FirstChunkOrigText != null) ? this._hint1FirstChunkOrigText : this._hint1FirstChunkEl.textContent;
+        this._hint1FirstChunkEl = null;
+        this._hint1FirstChunkOrigText = null;
+      }
+
+
+      const spans = document.getElementById('card-hiragana').children;
+      for (let i = 0; i < spans.length; i++) {
+        // spans[i].className = 'hint-visible';
+        if (i < idx1) 
+        // spans[i].style.color = 'blue';
+        // else spans[i].style.removeProperty('color');
+        // spans[i].style.visibility = 'visible';
+           spans[i].className = 'hint-visible';
+           if (i < idx1) {
+             // 入力済みだけ青
+             spans[i].style.color = 'blue';
+           } else {
+             // ★ ヒント2でも未入力は青にしない（CSS上書き対策）
+             spans[i].style.color = 'inherit';   // ← ここがポイント
+           }
+           spans[i].style.visibility = 'visible'; // 全表示なので見える化
+      }
+
+      // ★入力欄を消さない：ここで空文字にしない
+      // if (this.cache.input) this.cache.input.innerHTML = '';
+
+      // 代わりに「今までタイプした分」をそのまま表示し続ける
+      if (this.cfg.showRomajiGuide && this.cache.input) {
+        let romajiFull = '';
+        for (let i = 0; i < wordR.length; i++) romajiFull += wordR[i][pattern[i]];
+        const typedLen = this.getTypedRomajiLength();                       // これまで入力済みの長さ
+        const typedRomaji = romajiFull.slice(0, Math.min(typedLen, romajiFull.length));
+        this.cache.input.innerHTML = `<span style="color:#FF4500;font-weight:bold;">${typedRomaji}</span>`;
+      }
+
+      // ルビ（漢字）側は全開に
+      if (this.kanjiChunks && this.kanjiChunks.length) {
+        this.kanjiChunks.forEach(ch => ch.el.classList.add('hint-visible'));
+      }
+      const totalKanaLen = Array.isArray(hiragana) ? hiragana.join('').length : (hiragana || '').length;
+
+      // 第2ヒント中は可視化OK
+      this.hint2Active = true;
+      this.hint1Active = false;
+      this.updateKanjiReveal(totalKanaLen);
+
+      // 白帯は全文表示
+      const banner = document.getElementById('answer-banner');
+      if (banner) {
+        const fullYomi = Array.isArray(hiragana) ? hiragana.join('') : (hiragana || '');
+        banner.textContent = fullYomi;
+      }
+      this.toplineVisibleCount = this.kanjiChunks ? this.kanjiChunks.length : 0;
+    },
+
+
+    clearRoundUI: function () {
+      if (this.timerInterval) { clearInterval(this.timerInterval); this.timerInterval = null; }
+      if (this._toastTimer) { clearTimeout(this._toastTimer); this._toastTimer = null; }
+
+      // スコア・チェイン・レベル
+      const scoreEl = document.getElementById('hamachi-score');
+      if (scoreEl) scoreEl.textContent = '0';
+      const chainEl = this.cache.chainCount || document.getElementById('chain-count');
+      if (chainEl) chainEl.textContent = '0';
+      const lvEl = document.getElementById('hamachi-level');
+      if (lvEl) lvEl.textContent = '1';
+
+      // 入力・カード・ひらがな・バナー・ローマ字
+      if (this.cache.input) this.cache.input.innerHTML = '';
+      if (this.cache.questionCard) this.cache.questionCard.innerHTML = '';
+      const hira = document.getElementById('card-hiragana');
+      if (hira) hira.innerHTML = '';
+      const banner = document.getElementById('answer-banner');
+      if (banner) { banner.textContent = ''; banner.style.color = '#1976d2'; }
+      const rom = document.getElementById('card-romaji');
+      if (rom) rom.innerHTML = '';
+
+      // タイムバー満タン
+      const timeBar = document.getElementById('hamachi-time-bar');
+      if (timeBar) timeBar.style.width = '100%';
+
+      // 仮想キーボード点灯リセット
+      document.querySelectorAll('#virtual-keyboard .active').forEach(el => el.classList.remove('active'));
+
+      // 内部一時変数
+      idx1 = 0; idx2 = 0; temp = '';
+      wordR = null; pattern = []; hiragana = [];
+      this.kanjiChunks = [];
+      this.hint1Active = false;
+      this.hint2Active = false;
+      this.madeMistakeThisCard = false;
+    },
+
+    // ★ 追加：時間乗数を最小時間に合わせて底上げ
+    clampTimeMultiplier: function () {
+      const base = this.baseTimePerCard || 10000;
+      const floorMs = (this.cfg && this.cfg.minTimeMs) ? this.cfg.minTimeMs : 500;
+      const minRatio = Math.max(0, floorMs / base);
+      if (this.timeMultiplier < minRatio) this.timeMultiplier = minRatio;
+    },
+
+
+    // ---- ミス処理 ----
+    handleMiss: function() {
+      this.stats.misstype++;
+      this.madeMistakeThisCard = true;
+      const base = (this.cfg ? this.cfg.damagePerMiss : 2);
+      const dmg = Math.max(1, Math.round(base * this.damageMultiplier));
+      this.stats.hp -= dmg;
+      this.updateHpDisplay();
+      if (this.stats.hp <= 0) this.endGame(true);
+
+      // MISS! を白帯に一瞬出す
+      if (this._toastTimer) { clearTimeout(this._toastTimer); this._toastTimer = null; }
+
+      // 背景赤フラッシュ
+      document.body.style.backgroundColor = 'rgba(255, 0, 0, 0.3)';
+      setTimeout(() => { document.body.style.backgroundColor = ''; }, 100);
+
+      // 1問失敗カウント & チェイン切れ
+      this.stats.missCards = (this.stats.missCards || 0) + 1;
+      this.stats.chain = 0;
+
+      this.updateInputDisplay();
+    },
+
+    // ---- 表示用難易度 ----
+    getDifficultyLevel: function() {
+      return Math.floor((this.problemsServed) / this.DIFFICULTY_STEP) + 1;
+    },
+
+    // ---- 一時停止/再開/終了 ----
+    pause: function() {
+      this.paused = true;
+
+      document.getElementById('menu-main').style.display = '';
+      document.getElementById('logo').style.display = '';
+      document.getElementById('game').style.display = 'none';
+      document.querySelectorAll('#main-menu-start').forEach(el => el.style.display = 'none');
+      document.querySelector('#main-menu-resume').style.display = '';
+      document.querySelector('#main-menu-quit').style.display = '';
+      document.querySelector('#main-title').style.display = 'none';
+      document.querySelector('#main-title-paused').style.display = '';
+
+      this.enableMenuNav(document.getElementById('menu-main'));
+    },
+    resume: function() {
+      this.paused = false;
+      document.getElementById('menu-main').style.display = 'none';
+      document.getElementById('logo').style.display = 'none';
+      document.getElementById('game').style.display = '';
+      this.disableMenuNav();
+    },
+    quitGame: function() {
+      GenkiModal.open({
+        title: 'ゲーム終了',
+        content: '<p class="med-text center">学習を終了しますか？</p>',
+        callback: () => this.resetGame(),
+        buttonText: 'はい',
+        closeButtonText: 'いいえ',
+        size: 'sm', // ★ 追加：小さめ
+        focus: '#genki-modal-ok'  // ← 初期フォーカスを「はい」に固定
+      });
+    },
+
+    // ---- ゲーム終了画面 ----
+    endGame: function(isGameOver) {
+      if (this.timerInterval) { clearInterval(this.timerInterval); this.timerInterval = null; }
+      if (this._toastTimer) { clearTimeout(this._toastTimer); this._toastTimer = null; }
+      this.playing = false;
+
+      this.resetSaveButton();  // ★ 追加：保存ボタンを復活
+
+      document.getElementById('game').style.display = 'none';
+      document.getElementById('game-end').style.display = '';
+      document.getElementById(isGameOver ? 'game-over' : 'game-win').style.display = 'block';
+      document.getElementById(isGameOver ? 'game-win' : 'game-over').style.display = 'none';
+      document.getElementById('game-end-stats').innerHTML = `<p>Score: ${this.stats.score}</p>`;
+
+      try {
+        const prev = localStorage.getItem('hamachi_player_name') || '';
+        const input = document.getElementById('player-name');
+        if (input && !input.value) input.value = prev;
+      } catch (_) {}
+
+      this.enableMenuNav(document.getElementById('game-end'));
+    },
+
+    // ---- タイトルに戻る ----
+    resetGame: function() {
+      this.resetSaveButton();  // ★ 追加：保存ボタンを復活
+      
+      document.getElementById('game').style.display = 'none';
+      document.getElementById('game-end').style.display = 'none';
+      document.getElementById('menu-main').style.display = '';
+      document.getElementById('logo').style.display = '';
+      document.getElementById('big-title').style.display = '';
+      document.body.className = 'main-menu';
+
+      document.querySelectorAll('#main-menu-start').forEach(el => el.style.display = '');
+      document.querySelector('#main-menu-resume').style.display = 'none';
+      document.querySelector('#main-menu-quit').style.display = 'none';
+      document.querySelector('#main-title').style.display = '';
+      document.querySelector('#main-title-paused').style.display = 'none';
+
+      this.resetGameState();
+      this.clearRoundUI();
+      this.updateHpDisplay();
+      document.getElementById('hamachi-score').textContent = '0';
+        // 念のためナビ対象に指定（無くても 1) の補強で動くが保険）
+        ['#main-menu-resume','#main-menu-quit'].forEach(sel=>{
+          const b = document.querySelector(sel);
+          if (b) b.classList.add('menu-opt');
+        });
+      this.enableMenuNav(document.getElementById('menu-main'));
+    },
+
+    // ---- 状態初期化 ----
+    resetGameState: function() {
+      this._savingScore = false;
+      this._scoreSaved  = false;
+      // ★保険：状態初期化時にタイマー類を必ず止める
+      if (this.timerInterval) { clearInterval(this.timerInterval); this.timerInterval = null; }
+      if (this._toastTimer)   { clearTimeout(this._toastTimer);   this._toastTimer   = null; }
+      this.playing = false;
+      this.paused = false;
+      this.awaitingNext = false;
+      this.progress = 0;
+      this.hint1Active = false;
+      this.hint2Active = false;
+      this.stats = {
+        score: 0, correct: 0, missed: 0,
+        great: 0, good: 0, okay: 0,
+        misstype: 0, missCards: 0,
+        time: 0, totalTime: 0,
+        hp: HP_MAX, chain: 0, chainMax: 0
+      };
+    },
+
+    getTypedRomajiLength: function() {
+      let length = 0;
+      for (let i = 0; i < idx1; i++) length += wordR[i][pattern[i]].length;
+      length += idx2;
+      return length;
+    },
+
+    // ---- URL別入口：起動時にモードを自動開始 ----
+    autoStart: function(mode) {
+      const kubun = this.kubun; // デフォルト区分（'1'）
+      document.body.classList.add('loading');
+      google.script.run
+        .withSuccessHandler((list) => {
+          document.body.classList.remove('loading');
+          if (list && !list.error) {
+            this.mode['m' + kubun] = list;
+            this.startGame(mode);
+          } else {
+            alert('問題の読み込みに失敗しました: ' + (list ? list.error : 'unknown'));
+          }
+        })
+        .withFailureHandler((error) => {
+          document.body.classList.remove('loading');
+          alert('サーバーとの通信に失敗しました: ' + error.message);
+        })
+        .getQuestions(kubun);
+    },
+
+    // ---- 問題データ読込（GAS） ----
+    read_card: function(kbn) {
+      document.body.classList.add('loading');
+      google.script.run
+        .withSuccessHandler((output) => {
+          document.body.classList.remove('loading');
+          if (output.error) { alert('データの読み込みに失敗しました: ' + output.error); return; }
+          this.mode["m" + kbn] = output;
+          console.log(`カテゴリ${kbn}の問題をロードしました`, output);
+        })
+        .withFailureHandler((error) => {
+          document.body.classList.remove('loading');
+          alert("サーバーとの通信に失敗しました: " + error.message);
+        })
+        .getQuestions(kbn);
+    },
+
+    // ---- トースト（白帯メッセージ） ----
+    showToast: function(text) {
+      const banner = document.getElementById('answer-banner');
+      if (!banner) return;
+      const prevText  = banner.textContent;
+      const prevColor = banner.style.color;
+      banner.textContent = text || '正解！';
+      banner.style.color = '#00AA00';
+      const delay = (this.cfg && typeof this.cfg.clearDelayMs === 'number') ? this.cfg.clearDelayMs : 1000;
+
+      if (this._toastTimer) { clearTimeout(this._toastTimer); this._toastTimer = null; }
+      this._toastTimer = setTimeout(() => {
+        if (!this.awaitingNext) { // 次カードへ移行中なら復元しない
+          banner.textContent = prevText;
+          banner.style.color = prevColor || '#1976d2';
+        }
+        this._toastTimer = null;
+      }, Math.max(250, delay));
+    },
+
+    retry: function () {
+      // 画面とUIをクリア
+      document.getElementById('game-end').style.display = 'none';
+      const nameEl = document.getElementById('player-name');
+      if (nameEl) nameEl.value = '';
+      this.resetSaveButton();  // ★ 追加：保存ボタンを復活
+      // ★ ここで既存タイマーを必ず止める（保険）
+      if (this.timerInterval) { clearInterval(this.timerInterval); this.timerInterval = null; }
+      if (this._toastTimer)   { clearTimeout(this._toastTimer);   this._toastTimer   = null; }
+
+      this.resetGameState();
+      this.clearRoundUI();
+      this.updateHpDisplay();
+
+      const kubun  = this.kubun;                  // 直前の区分
+      const limit  = this.currentLimit || null;   // 任意：直前の出題数があれば
+      const mode   = this.gameMode;               // 直前のモード
+
+      // ★ 問題を再取得してから 1回だけ startGame する
+      if (window.google && google.script && google.script.run) {
+        google.script.run
+          .withSuccessHandler(list => {
+            if (list && !list.error) {
+              // ★ 実際に参照しているテーブルへ代入するのが重要
+              this.mode['m' + kubun] = list;
+              this.startGame(mode);
+            } else {
+              alert('問題の再取得エラー: ' + (list ? list.error : 'unknown'));
+            }
+          })
+          .withFailureHandler(err => alert('問題の再取得に失敗: ' + err))
+          .getQuestions(kubun, limit);
+      } else {
+        // プレビュー等：そのまま再スタート
+        this.startGame(mode);
+      }
+    },
+
+    // hamachi 内に追加
+    resetSaveButton: function () {
+      // フラグ
+      this._savingScore = false;
+      this._scoreSaved  = false;
+
+      // ボタン
+      const btn = document.getElementById('save-score');
+      if (btn) {
+        btn.disabled = false;
+        btn.classList.remove('is-saved');
+        btn.textContent = '保存';     // お好みの初期表示に
+        btn.style.pointerEvents = ''; // 念のため
+      }
+    },
+
+
+    // ---- スコア保存用ペイロード ----
+    buildScorePayload: function() {
+      const input = document.getElementById('player-name');
+      const name  = (input?.value || '').trim();
+      if (!name) { alert('ユーザー名を入力してください'); input?.focus(); return null; }
+      try { localStorage.setItem('hamachi_player_name', name); } catch(_) {}
+      return {
+        kubun: this.kubun,
+        username: name,
+        score: this.stats.score,
+        gameMode: this.gameMode,
+        misstype: this.stats.misstype,
+        chain: this.stats.chainMax,
+        great: this.stats.great,
+        good:  this.stats.good,
+        okay:  this.stats.okay,
+        miss:  this.stats.missCards || 0
+      };
+    },
+
+    // ---- エスケープ ----
+    escapeHtml: function (s) {
+      return String(s ?? '').replace(/[&<>"']/g, c =>
+        ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])
+      );
+    },
+
+      saveScore: function () {
+        if (this._scoreSaved) { alert('このスコアはすでに保存済みです。'); return; }
+        if (this._savingScore) return; // 送信中の連打防止
+        this._savingScore = true;
+        // スコア用ペイロード作成（未入力なら内部でアラートが出て null を返す）
+        const payload = this.buildScorePayload();
+        if (!payload) {
+          this._savingScore = false;
+          return;
+        }
+        // ボタンのUIロック
+        const btn = document.getElementById('save-score');
+        const originalText = btn ? btn.textContent : '';
+        if (btn) { btn.disabled = true; btn.textContent = '保存中…'; }
+
+        const finish = (ok, msg) => {
+          this._savingScore = false;
+          if (!btn) return;
+          if (ok) {
+            this._scoreSaved = true;          // ★ 二度押し禁止
+            btn.disabled = true;
+            btn.textContent = '保存済み';
+            btn.classList.add('is-saved');    // （任意：スタイル用）
+          } else {
+            btn.disabled = false;             // 失敗時のみ再挑戦可能に戻す
+            btn.textContent = originalText || '保存';
+            if (msg) alert('保存に失敗：' + msg);
+          }
+        };
+
+        // GAS 環境へ送信（プレビューや生HTMLだと google.script.run は未定義）
+        if (window.google && google.script && google.script.run) {
+          google.script.run
+            .withSuccessHandler(() => finish(true))
+            .withFailureHandler(err => finish(false, err && err.message))
+            .saveScore(payload); // ← サーバ側(GAS)の saveScore を呼ぶ
+        } else {
+          // ローカル/プレビュー用のフォールバック
+          console.log('saveScore payload (dry-run):', payload);
+          finish(true);
+        }
+      },
+
+// ---- ランキング読込（GAS） ----
+loadRanking: function () {
+  const mode  = document.getElementById('rank-mode')?.value ?? 'all';
+  const kubun = document.getElementById('rank-kubun')?.value ?? 'all';
+  const tbody = document.querySelector('#ranking-table tbody');
+  if (!tbody) return;
+
+  tbody.innerHTML = '<tr><td colspan="11" style="padding:10px;">読み込み中…</td></tr>';
+
+  const esc = s => hamachi.escapeHtml(String(s ?? ''));
+
+  // 返り値の“形”を正規化
+  const normalize = (res) => {
+    if (!res) return [];
+    if (Array.isArray(res)) return res;                 // 純配列
+    if (Array.isArray(res.rows)) return res.rows;       // {rows:[…]}
+    if (Array.isArray(res.data)) return res.data;       // {data:[…]}
+    if (typeof res === 'object') {
+      // 数字キーの連想オブジェクト → 値配列へ
+      const vals = Object.values(res);
+      if (vals.length && typeof vals[0] === 'object') return vals;
+    }
+    return [];
+  };
+
+  google.script.run
+    .withSuccessHandler(res => {
+      // デバッグ出力（必要なら開発者ツールで確認）
+      try { console.log('getRanking raw:', res); } catch (_) {}
+
+      let rows = normalize(res);
+
+      if (!rows.length) {
+        tbody.innerHTML = '<tr><td colspan="11" style="padding:10px;">データがありません</td></tr>';
+        return;
+      }
+
+      // キー名ゆれを吸収して整形
+      rows = rows.map((r, i) => ({
+        rank:     r.rank ?? (i + 1),
+        username: r.username ?? '',
+        score:    Number(r.score ?? 0),
+        mode:     r.mode ?? r.gameMode ?? '',
+        kubun:    String(r.kubun ?? ''),
+        chain:    Number(r.chain ?? 0),
+        great:    Number(r.great ?? 0),
+        good:     Number(r.good ?? 0),
+        okay:     Number(r.okay ?? 0),
+        miss:     Number(r.miss ?? r.missCards ?? 0),
+        dateStr:  r.dateStr ?? r.date ?? ''
+      }));
+
+      // クライアント側でも一応フィルタ
+      rows = rows.filter(x => (mode  === 'all') ? true : String(x.mode)  === String(mode))
+                 .filter(x => (kubun === 'all') ? true : String(x.kubun) === String(kubun))
+                 .sort((a,b) => b.score - a.score)
+                 .map((x, i) => ({ ...x, rank: x.rank ?? (i + 1) }));
+
+      if (!rows.length) {
+        tbody.innerHTML = '<tr><td colspan="11" style="padding:10px;">データがありません</td></tr>';
+        return;
+      }
+
+      const html = rows.map(r => `
+        <tr>
+          <td class="right">${r.rank}</td>
+          <td class="left">${esc(r.username)}</td>
+          <td class="right">${r.score}</td>
+          <td class="left">${esc(r.mode)}</td>
+          <td class="right">${esc(r.kubun)}</td>
+          <td class="right">${r.chain}</td>
+          <td class="right">${r.great}</td>
+          <td class="right">${r.good}</td>
+          <td class="right">${r.okay}</td>
+          <td class="right">${r.miss}</td>
+          <td class="left">${esc(r.dateStr)}</td>
+        </tr>
+      `).join('');
+      tbody.innerHTML = html;
+    })
+    .withFailureHandler(err => {
+      tbody.innerHTML =
+        `<tr><td colspan="11" style="padding:10px;color:#c00;">
+          取得に失敗：${hamachi.escapeHtml(err?.message || String(err))}
+        </td></tr>`;
+      try { console.error('getRanking failed:', err); } catch (_) {}
+    })
+    .getRanking(mode, kubun, 50);
+},
+
+
+
+    // ========= キーボードでメニュー操作（矢印＆Enter/Space） =========
+enableMenuNav(menuEl) {
+  // 既存ハンドラ解除
+  if (this._menuKeyHandler) {
+    window.removeEventListener('keydown', this._menuKeyHandler, true);
+    this._menuKeyHandler = null;
+  }
+  if (!menuEl) return;
+
+  // .menu-opt 優先。無ければ可視のボタン類を拾う
+  let btns = Array.from(menuEl.querySelectorAll('.menu-opt')).filter(b => b.offsetParent !== null);
+  if (btns.length === 0) {
+    btns = Array.from(
+      menuEl.querySelectorAll('button,[role="button"],a[href],[tabindex]:not([tabindex="-1"])')
+    ).filter(b => b.offsetParent !== null && !b.disabled);
+  }
+  if (btns.length === 0) return;
+
+  // フォーカス可能化＆初期フォーカス
+  btns.forEach(b => b.tabIndex = 0);
+  if (!menuEl.contains(document.activeElement) && btns[0]) {
+    btns[0].focus();
+  }
+
+  const getIndex = () => Math.max(0, btns.indexOf(document.activeElement));
+
+  this._menuKeyHandler = (e) => {
+    // プレイ中でも pause 中はメニュー操作OK
+    if (this.playing && !this.paused) return;
+
+    const t = e.target;
+    const tag = (t && t.tagName) ? t.tagName.toLowerCase() : '';
+    if (tag === 'input' || tag === 'textarea' || tag === 'select' || t.isContentEditable) return;
+    if (!menuEl || !menuEl.offsetParent) return;
+
+    let i = getIndex();
+
+    switch (e.key) {
+      case 'ArrowDown':
+      case 'ArrowRight':
+        e.preventDefault();
+        i = (i + 1) % btns.length;
+        btns[i].focus();
+        break;
+
+      case 'ArrowUp':
+      case 'ArrowLeft':
+        e.preventDefault();
+        i = (i - 1 + btns.length) % btns.length;
+        btns[i].focus();
+        break;
+
+      case 'Enter':
+      case ' ':
+        e.preventDefault();
+        // メニュー外 → 先頭を起動
+        if (!menuEl.contains(document.activeElement)) {
+          if (btns[0]) { btns[0].focus(); btns[0].click(); }
+          break;
+        }
+        // メニュー内：クリック可能な祖先を探して起動
+        {
+          const active = document.activeElement;
+          const clickable = active && active.closest
+            ? active.closest('button,[role="button"],a[href],.menu-opt,[tabindex]:not([tabindex="-1"])')
+            : null;
+          if (clickable && typeof clickable.click === 'function') {
+            clickable.click();
+          } else if (btns[i] && typeof btns[i].click === 'function') {
+            btns[i].click();
+          }
+        }
+        break;
+
+      default:
+        break;
+    }
+  };
+
+  window.addEventListener('keydown', this._menuKeyHandler, true);
+},
+
+    // メニュー操作の無効化
+    disableMenuNav() {
+      if (this._menuKeyHandler) {
+        window.removeEventListener('keydown', this._menuKeyHandler, true);
+        this._menuKeyHandler = null;
+      }
+    },
+
+    // ---- 初期化 ----
+    init: function() {
+      this.cache = {
+        card: document.getElementById('hamachi-card-container'),
+        questionCard: document.getElementById('hamachi-card'),
+        grade: document.getElementById('hamachi-grade'),
+        chain: document.getElementById('hamachi-chain'),
+        chainCount: document.getElementById('chain-count'),
+        input: document.getElementById('game-input'),
+        hint: document.getElementById('hamachi-hint'),
+        logo: document.getElementById('logo'),
+        game: document.getElementById('game'),
+        gameEnd: document.getElementById('game-end'),
+        gameEndStats: document.getElementById('game-end-stats'),
+        keyboard: document.getElementById("virtual-keyboard"),
+        toast: document.getElementById('correct-message') || null
+      };
+      console.log('hamachi system initialized.');
+    }
+  };
+
+function kanaToRoman(kana) {
+  const romanMap = {
+    'あ':['a'], 'い':['i','yi'], 'う':['u','wu'], 'え':['e'], 'お':['o'],
+    'か':['ka','ca'], 'き':['ki'], 'く':['ku','cu','qu'], 'け':['ke'], 'こ':['ko','co'],
+    'さ':['sa'], 'し':['shi','si','ci'], 'す':['su'], 'せ':['se','ce'], 'そ':['so'],
+    'た':['ta'], 'ち':['chi','ti'], 'つ':['tsu','tu'], 'て':['te'], 'と':['to'],
+    'な':['na'], 'に':['ni'], 'ぬ':['nu'], 'ね':['ne'], 'の':['no'],
+    'は':['ha'], 'ひ':['hi'], 'ふ':['fu','hu'], 'へ':['he'], 'ほ':['ho'],
+    'ま':['ma'], 'み':['mi'], 'む':['mu'], 'め':['me'], 'も':['mo'],
+    'や':['ya'], 'ゆ':['yu'], 'よ':['yo'],
+    'ら':['ra'], 'り':['ri'], 'る':['ru'], 'れ':['re'], 'ろ':['ro'],
+    'わ':['wa'], 'を':['wo'], 'ゐ':['wyi'], 'ゑ':['wye'],
+    'ん':['n'], // ベース値（実際は文脈で上書き）
+    'が':['ga'], 'ぎ':['gi'], 'ぐ':['gu'], 'げ':['ge'], 'ご':['go'],
+    'ざ':['za'], 'じ':['ji','zi'], 'ず':['zu'], 'ぜ':['ze'], 'ぞ':['zo'],
+    'だ':['da'], 'ぢ':['di'], 'づ':['du'], 'で':['de'], 'ど':['do'],
+    'ば':['ba'], 'び':['bi'], 'ぶ':['bu'], 'べ':['be'], 'ぼ':['bo'],
+    'ぱ':['pa'], 'ぴ':['pi'], 'ぷ':['pu'], 'ぺ':['pe'], 'ぽ':['po'],
+
+    // 拗音
+// ===== 拗音（x/l小母音 & 代替ローマ字をすべて列挙）=====
+'きゃ': ['kya','kixa','kila'],
+'きゅ': ['kyu','kixu','kilu'],
+'きょ': ['kyo','kixo','kilo'],
+'きぃ': ['kyi','kixi','kili'],
+'きぇ': ['kye','kixe','kile'],
+
+'しゃ': ['sha','sya','shya','shixa','shila','syixa','syila','sixa','sila','cixa','cila'],
+'しゅ': ['shu','syu','shyu','shixu','shilu','syixu','syilu','sixu','silu','cixu','cilu'],
+'しょ': ['sho','syo','shyo','shixo','shilo','syixo','syilo','sixo','silo','cixo','cilo'],
+'しぃ': ['syi','shixi','shili','sixi','sili','cixi','cili'],
+'しぇ': ['she','sye','shixe','shile','syixe','syile','sixe','sile','cixe','cile'],
+
+'ちゃ': ['cha','tya','chya','chixa','chila','tyixa','tyila','tixa','tila'],
+'ちゅ': ['chu','tyu','chyu','chixu','chilu','tyixu','tyilu','tixu','tilu'],
+'ちょ': ['cho','tyo','chyo','chixo','chilo','tyixo','tyilo','tixo','tilo'],
+'ちぃ': ['tyi','chixi','chili','tixi','tili'],
+'ちぇ': ['che','tye','chixe','chile','tyixe','tyile','tixe','tile'],
+
+'にゃ': ['nya','nixa','nila'],
+'にゅ': ['nyu','nixu','nilu'],
+'にょ': ['nyo','nixo','nilo'],
+'にぃ': ['nyi','nixi','nili'],
+'にぇ': ['nye','nixe','nile'],
+
+'ひゃ': ['hya','hixa','hila'],
+'ひゅ': ['hyu','hixu','hilu'],
+'ひょ': ['hyo','hixo','hilo'],
+'ひぃ': ['hyi','hixi','hili'],
+'ひぇ': ['hye','hixe','hile'],
+
+'みゃ': ['mya','mixa','mila'],
+'みゅ': ['myu','mixu','milu'],
+'みょ': ['myo','mixo','milo'],
+'みぃ': ['myi','mixi','mili'],
+'みぇ': ['mye','mixe','mile'],
+
+'りゃ': ['rya','rixa','rila'],
+'りゅ': ['ryu','rixu','rilu'],
+'りょ': ['ryo','rixo','rilo'],
+'りぃ': ['ryi','rixi','rili'],
+'りぇ': ['rye','rixe','rile'],
+
+'ぎゃ': ['gya','gixa','gila'],
+'ぎゅ': ['gyu','gixu','gilu'],
+'ぎょ': ['gyo','gixo','gilo'],
+'ぎぃ': ['gyi','gixi','gili'],
+'ぎぇ': ['gye','gixe','gile'],
+
+'じゃ': ['ja','zya','jya','jixa','jila','zyixa','zyila','zixa','zila'],
+'じゅ': ['ju','zyu','jyu','jixu','jilu','zyixu','zyilu','zixu','zilu'],
+'じょ': ['jo','zyo','jyo','jixo','jilo','zyixo','zyilo','zixo','zilo'],
+'じぃ': ['jyi','zyi','jixi','jili','zyixi','zyili','zixi','zili'],
+'じぇ': ['je','zye','jixe','jile','zyixe','zyile','zixe','zile'],
+
+'びゃ': ['bya','bixa','bila'],
+'びゅ': ['byu','bixu','bilu'],
+'びょ': ['byo','bixo','bilo'],
+'びぃ': ['byi','bixi','bili'],
+'びぇ': ['bye','bixe','bile'],
+
+'ぴゃ': ['pya','pixa','pila'],
+'ぴゅ': ['pyu','pixu','pilu'],
+'ぴょ': ['pyo','pixo','pilo'],
+'ぴぃ': ['pyi','pixi','pili'],
+'ぴぇ': ['pye','pixe','pile'],
+
+'ぢゃ': ['dya','dixa','dila'],
+'ぢゅ': ['dyu','dixu','dilu'],
+'ぢょ': ['dyo','dixo','dilo'],
+'ぢぃ': ['dyi','dixi','dili'],
+'ぢぇ': ['dye','dixe','dile'],
+
+'でゃ': ['dha','dya','dexya','delya'],
+'でゅ': ['dhu','dyu','dexyu','delyu'],
+'でょ': ['dho','dyo','dexyo','delyo'],
+'でぃ': ['dhi','di','dexi','deli'],
+'でぇ': ['dhe','dye','dexye','delye'],
+
+// ===== 外来音（x/l小母音 & 代替ローマ字）=====
+'ふぁ': ['fa','huxa','hula'],
+'ふぃ': ['fi','huxi','huli'],
+'ふぇ': ['fe','huxe','hule'],
+'ふぉ': ['fo','huxo','hulo'],
+
+'うぁ': ['wha','uxa','ula'],
+'うぃ': ['whi','uxi','uli'],
+'うぇ': ['whe','uxe','ule'],
+'うぉ': ['who','wo','uxo','ulo'],
+
+'くぁ': ['qa','qwa','kwa','kuxa','kula'],
+'くぃ': ['qi','qwi','kwi','kuxi','kuli'],
+'くぇ': ['qe','qwe','kwe','kuxe','kule'],
+'くぉ': ['qo','qwo','kwo','kuxo','kulo'],
+
+'とぁ': ['twa','toxa','tola'],
+'とぃ': ['twi','toxi','toli'],
+'とぅ': ['twu','toxu','tolu'],
+'とぇ': ['twe','toxe','tole'],
+'とぉ': ['two','toxo','tolo'],
+
+
+    // 小文字
+    'ぁ':['la','xa'], 'ぃ':['li','xi'], 'ぅ':['lu','xu'], 'ぇ':['le','xe'], 'ぉ':['lo','xo'],
+    'ゃ':['lya','xya'], 'ゅ':['lyu','xyu'], 'ょ':['lyo','xyo'], 'っ':['ltu','xtu'],
+
+    // て行 + 小文字母音
+      'てゃ': ['tya','tha'],
+      'てぃ': ['ti','thi','tyi','texi'],
+      'てゅ': ['tyu','thu'],
+      'てぇ': ['tye','the'],
+      'てょ': ['tyo','tho'],
+
+      // ど行 + 小文字母音（と行の対になる外来音）
+      'どぁ': ['dwa','doxa'],
+      'どぃ': ['dwi','doxi'],
+      'どぅ': ['dwu','doxu'],
+      'どぇ': ['dwe','doxe'],
+      'どぉ': ['dwo','doxo'],
+
+      // つ + 小文字母音
+      'つぁ': ['tsa'],
+      'つぃ': ['tsi'],
+      'つぇ': ['tse'],
+      'つぉ': ['tso'],
+
+      // ふ + 拗音（外来音でよく出る）
+      'ふゃ': ['fya'],
+      'ふゅ': ['fyu'],
+      'ふょ': ['fyo'],
+
+      // う + 小文字母音（一般的な wi/we も許可）
+      'うぁ': ['wha','uxa'],
+      'うぃ': ['wi','whi'],
+      'うぇ': ['we','whe'],
+      'うぉ': ['who','wo','uxo'],
+
+      // ゔ 系（外来語で必須）
+      'ゔ':   ['vu'],
+      'ゔぁ': ['va'], 'ゔぃ': ['vi'], 'ゔぇ': ['ve'], 'ゔぉ': ['vo'],
+      'ゔゃ': ['vya'], 'ゔゅ': ['vyu'], 'ゔょ': ['vyo'],
+
+      // 小書き仮名（稀だが安全のため）
+      'ゎ': ['lwa','xwa'],
+      'ゕ': ['lka','xka'],
+      'ゖ': ['lke','xke'],
+      
+    // 記号・数字
+    'ー':['-'], '、':[',',' '], '。':['.',' '], '・':['/',' '],
+    '！':['!'], '？':['?'], '％':['%'], '＝':['='],
+    '0':['0'],'1':['1'],'2':['2'],'3':['3'],'4':['4'],'5':['5'],'6':['6'],'7':['7'],'8':['8'],'9':['9'],
+    '０':['0'],'１':['1'],'２':['2'],'３':['3'],'４':['4'],'５':['5'],'６':['6'],'７':['7'],'８':['8'],'９':['9'],
+    ' ':' ','　':' ',
+
+    // A–Z / a–z → 小文字
+    'A':['a'],'B':['b'],'C':['c'],'D':['d'],'E':['e'],'F':['f'],'G':['g'],'H':['h'],'I':['i'],'J':['j'],
+    'K':['k'],'L':['l'],'M':['m'],'N':['n'],'O':['o'],'P':['p'],'Q':['q'],'R':['r'],
+    'S':['s'],'T':['t'],'U':['u'],'V':['v'],'W':['w'],'X':['x'],'Y':['y'],'Z':['z'],
+    'a':['a'],'b':['b'],'c':['c'],'d':['d'],'e':['e'],'f':['f'],'g':['g'],'h':['h'],'i':['i'],'j':['j'],
+    'k':['k'],'l':['l'],'m':['m'],'n':['n'],'o':['o'],'p':['p'],'q':['q'],'r':['r'],
+    's':['s'],'t':['t'],'u':['u'],'v':['v'],'w':['w'],'x':['x'],'y':['y'],'z':['z']
+  };
+
+  let remStr = String(kana);
+  const result = [];
+  const outkana = [];
+
+  const isSmallKana = c => /^[ぁぃぅぇぉゃゅょ]$/.test(c||'');
+  const isAscii     = c => /^[A-Za-z0-9\/\-\.,\s]$/.test(c||'');
+  const isLetter    = c => /^[a-z]$/.test(c||'');
+  const isVowelYorN = c => /[aiueoyn]/.test(c||'');
+  const uniq = a => [...new Set(a)];
+
+  function splice(){ const c = remStr.slice(0,1); remStr = remStr.slice(1); return c; }
+
+  // 次キー（拗音なら2文字）を覗く
+  function peekNextKey(){
+    const c1 = remStr.slice(0,1);
+    if (!c1) return '';
+    const c2 = remStr.slice(1,2);
+    if (isSmallKana(c2) && romanMap[c1+c2]) return c1+c2;
+    return c1;
+  }
+  // 指定キーの先頭ローマ字一文字
+  function headRomanOf(key){
+    if (!key) return '';
+    if (romanMap[key]) {
+      const s = romanMap[key][0] || '';
+      return s ? s[0] : '';
+    }
+    const h = key[0];
+    return isAscii(h) ? h.toLowerCase() : (key.toLowerCase()[0]||'');
+  }
+
+  let carryN = false; // 「ん→子音」で次トークンに n を前置可
+
+  while (remStr) {
+    let slStr = splice();
+
+    // 促音 っ
+    if (slStr === 'っ') {
+      const c1 = remStr.slice(0,1);
+      const key = (isSmallKana(remStr.slice(1,2)) && romanMap[c1+remStr.slice(1,2)]) ? c1+remStr.slice(1,2) : c1;
+      const head = headRomanOf(key);
+      const consonantHead = isLetter(head) && !isVowelYorN(head);
+
+      if (!consonantHead) {
+        result.push([...romanMap['っ']]); outkana.push('っ'); carryN = false; continue;
+      }
+      // 次まとまりを実際に消費して子音重ね
+      let k = splice();
+      if (isSmallKana(remStr[0])) k += splice();
+
+      if (romanMap[k]) {
+        const base = romanMap[k];
+        result.push(base.map(s => s[0] + s)); outkana.push('っ' + k);
+      } else if (isAscii(k[0])) {
+        let run = k; while (remStr && isAscii(remStr[0])) run += splice();
+        const low = run.toLowerCase();
+        result.push([low[0] + low]); outkana.push('っ' + run);
+      } else {
+        const low = k.toLowerCase();
+        result.push([low[0] + low]); outkana.push('っ' + k);
+      }
+      carryN = false;
+      continue;
+    }
+
+    // 拗音結合（き + ゃ → きゃ）
+    if (isSmallKana(remStr[0])) slStr += splice();
+
+    if (romanMap[slStr]) {
+      // ---- ん（撥音） ----
+      if (slStr === 'ん') {
+        const nextKey = peekNextKey();
+        const head = headRomanOf(nextKey);
+
+        let roman;
+        if (!head) {                         // 語末
+          roman = ['n','nn']; carryN = false;
+        } else if (head === 'n') {           // n行の前
+          roman = ['nn'];     carryN = false;
+        } else if ('aiueoy'.includes(head)) {// 母音/y の前
+          roman = ["n'",'nn']; carryN = false;
+        } else if (isLetter(head)) {         // ★子音の前（ここがポイント）
+          // n / nn を許可しつつ、次トークンへ n を“橋渡し”
+          roman = ['n','nn']; carryN = true;
+        } else {                              // 記号など
+          roman = ['n'];      carryN = false;
+        }
+        result.push(roman); outkana.push('ん');
+        continue;
+      }
+
+      // ---- 通常のかな ----
+      const base = [...romanMap[slStr]];
+      let roman = base;
+
+      // ★前が「ん→子音」だった場合、次トークンに n を前置した候補も許可
+      if (carryN) {
+        roman = uniq([...base.map(s => 'n' + s), ...base]); // 例: こ → ['nko','nco','ko','co']
+      }
+      carryN = false; // 使い切り
+
+      result.push(roman);
+      outkana.push(slStr);
+      continue;
+    }
+
+    // ASCII 連続はそのまま通す
+    if (isAscii(slStr)) {
+      let run = slStr;
+      while (remStr && isAscii(remStr[0])) run += splice();
+      result.push([run.toLowerCase()]);
+      outkana.push(run);
+      carryN = false;
+      continue;
+    }
+
+    // フォールバック（未知文字）
+    result.push([slStr.toLowerCase()]);
+    outkana.push(slStr);
+    carryN = false;
+  }
+
+  return [result, outkana];
+}
+
+
+  // ==========================
+  // キー入力（ゲーム中のみ）
+  // ==========================
+  window.addEventListener('keydown', (event) => {
+    if (event.isComposing || event.key === 'Process') return;
+    if (!hamachi.playing || hamachi.paused || hamachi.awaitingNext) return;
+
+    let key = event.key.toLowerCase();
+
+    // 画面上キーボードの点灯
+    if (key.length === 1) {
+      const targetKey = document.querySelector('.key_' + key.replace(' ', 'space'));
+      if (targetKey) {
+        targetKey.classList.add('active');
+        setTimeout(() => { targetKey.classList.remove('active'); }, 150);
+      }
+    }
+
+    if (!wordR || idx1 >= wordR.length) return;
+    if (!/^[a-z0-9\-\,\.\s]$/.test(key)) return;
+
+    temp += key;
+
+    let correctInput = false;
+
+    // 現在パターンに一致？
+    if (key === wordR[idx1][pattern[idx1]][idx2]) {
+      correctInput = true;
+    } else if (!hamachi.cfg || hamachi.cfg.allowLooseRomaji) {
+      let reg = new RegExp('^' + temp);
+      for (let i = 0; i < wordR[idx1].length; i++) {
+        if (!!wordR[idx1][i].match(reg)) {
+          pattern[idx1] = i;
+          if (key === wordR[idx1][i][idx2]) correctInput = true;
+          break;
+        }
+      }
+    }
+
+    if (correctInput) {
+      idx2++;
+      if (idx2 === wordR[idx1][pattern[idx1]].length) {
+        idx1++; idx2 = 0; temp = '';
+        hamachi.updateInputDisplay();
+
+        // 完了？
+        if (idx1 === wordR.length) {
+          if (hamachi.timerInterval) { clearInterval(hamachi.timerInterval); hamachi.timerInterval = null; }
+
+          // 最終状態を表示
+          hamachi.hint2Active = true; // 全表示許可
+          hamachi.revealFullAnswer();
+
+          // 判定
+          const jm = hamachi.getJudgeAndMultiplier();
+          hamachi.stats[jm.key] = (hamachi.stats[jm.key] || 0) + 1;
+
+          // スコア加算：ベース × 難化倍率 × 判定倍率
+          const baseScore   = (hamachi.cfg ? hamachi.cfg.scorePerClear : 100);
+          const gained      = Math.round(baseScore * hamachi.scoreMultiplier * jm.mult);
+          hamachi.stats.score += gained;
+          const s = document.getElementById('hamachi-score');
+          if (s) s.textContent = hamachi.stats.score;
+
+          // チェイン更新
+          hamachi.stats.chain += 1;
+          if (hamachi.stats.chain > hamachi.stats.chainMax) hamachi.stats.chainMax = hamachi.stats.chain;
+          const chainEl = document.getElementById('chain-count');
+          if (chainEl) chainEl.textContent = hamachi.stats.chain;
+
+          // 回復
+          if (hamachi.cfg && hamachi.cfg.healOnClear) {
+            hamachi.stats.hp = Math.min(100, hamachi.stats.hp + hamachi.cfg.healOnClear);
+            hamachi.updateHpDisplay();
+          }
+
+          // 白帯に判定文字を表示して次へ
+          hamachi.awaitingNext = true;
+          hamachi.showToast(jm.judge);
+
+          const delay =
+            (hamachi.cfg && typeof hamachi.cfg.clearDelayMs === 'number')
+              ? hamachi.cfg.clearDelayMs
+              : 1000;
+
+          if (delay <= 0) {
+            hamachi.awaitingNext = false;
+            hamachi.nextCard();
+          } else {
+            setTimeout(() => {
+              hamachi.awaitingNext = false;
+              hamachi.nextCard();
+            }, delay);
+          }
+          return;
+        }
+      }
+      hamachi.updateInputDisplay();
+    } else {
+      // ミス
+      temp = temp.slice(0, -1);
+      hamachi.handleMiss();
+    }
+  });
+
+  // ==========================
+  // 初期化
+  // ==========================
+  window.onload = function() {
+    hamachi.init();
+    hamachi.stopLoading();
+    const main = document.getElementById('menu-main');
+    hamachi.enableMenuNav(main);
+
+    if (window.HAMACHI_AUTO_MODE && hamachi.modeConfig[window.HAMACHI_AUTO_MODE]) {
+      hamachi.autoStart(window.HAMACHI_AUTO_MODE);
+    }
+  };
+
+}(window, document));
+</script>

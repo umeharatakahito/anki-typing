@@ -1,0 +1,172 @@
+<!-- index.html (fixed) -->
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <base target="_top">
+    <meta charset="utf-8">
+    <title>HAMACHI-TYPE</title> <!-- ← 閉じタグ修正 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?!= include('CSS'); ?>
+    <div id="logo" style="display:none" aria-hidden="true"></div>
+
+  </head> <!-- ← head をきちんと閉じる -->
+
+  <body class="main-menu loading">
+    <div id="big-title">HAMACHI-TYPE</div>
+    <div id="clear-bonus-art">
+      <div id="bonus-art-top">
+        <img style="display:none;" data-clear-flag="0" id="bonus-art-easy">
+      </div>
+    </div>
+    <div id="background-extras"></div>
+
+    <div id="menu-main" class="menu no-footer">
+      <div id="main-title" class="menu-title">メインメニュー</div>
+      <div id="main-title-paused" class="menu-title" style="display:none;">Paused</div>
+
+      <div class="menu-content">
+        <button id="main-menu-start" class="button menu-opt" onclick="hamachi.showMenu('mode', this,'1');">基本・応用</button>
+        <button id="main-menu-resume" class="button menu-opt" onclick="hamachi.resume();" style="display:none;">Resume</button>
+        <button class="button menu-opt" onclick="hamachi.showMenu('about', this,'99');">スコア</button>
+        <button id="main-menu-quit" class="button menu-opt opt-danger" onclick="hamachi.quitGame();" style="display:none;">Quit</button>
+      </div>
+    </div>
+
+    <div id="menu-mode" class="menu" style="display:none;">
+      <div class="menu-title">Play</div>
+      <div class="menu-content">
+        <ul id="mode-list">
+          <li><button class="button menu-opt hamachi-mode-opt" onclick="hamachi.startGame('練習モード');">練習モード</button></li>
+          <li><button class="button menu-opt hamachi-mode-opt" onclick="hamachi.startGame('通常モード');">通常モード</button></li>
+          <li><button class="button menu-opt hamachi-mode-opt" onclick="hamachi.startGame('極みモード');">極みモード</button></li>
+        </ul>
+      </div>
+      <div class="menu-footer">
+        <button class="button menu-opt" onclick="hamachi.showMenu('main', this);">戻る</button>
+      </div>
+    </div>
+
+    <div id="menu-about" class="menu" style="display:none;">
+      <div class="menu-title">スコア</div>
+      <div class="menu-content">
+        <div style="display:flex; gap:8px; align-items:center; margin:6px 0 12px;">
+          <select id="rank-mode">
+            <option value="all">全モード</option>
+            <option value="練習モード">練習モード</option>
+            <option value="通常モード">通常モード</option>
+            <option value="極みモード">極みモード</option>
+          </select>
+
+          <select id="rank-kubun">
+            <option value="all">全ての区分</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          <button class="button" id="rank-reload">更新</button>
+        </div>
+
+        <div style="overflow:auto;">
+          <table id="ranking-table" class="rank-table" style="width:100%; border-collapse:collapse;">
+            <thead>
+              <tr>
+                <th style="border-bottom:1px solid #3BD; padding:6px;">順位</th>
+                <th style="border-bottom:1px solid #3BD; padding:6px;">ユーザー名</th>
+                <th style="border-bottom:1px solid #3BD; padding:6px;">スコア</th>
+                <th style="border-bottom:1px solid #3BD; padding:6px;">モード</th>
+                <th style="border-bottom:1px solid #3BD; padding:6px;">区分</th>
+                <th style="border-bottom:1px solid #3BD; padding:6px;">最大チェイン</th>
+                <th style="border-bottom:1px solid #3BD; padding:6px;">GREAT</th>
+                <th style="border-bottom:1px solid #3BD; padding:6px;">GOOD</th>
+                <th style="border-bottom:1px solid #3BD; padding:6px;">OKAY</th>
+                <th style="border-bottom:1px solid #3BD; padding:6px;">MISS</th>
+                <th style="border-bottom:1px solid #3BD; padding:6px;">日時</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="menu-footer">
+        <button class="button menu-opt" onclick="hamachi.showMenu('main', this);">戻る</button>
+      </div>
+    </div>
+
+    <div id="game" style="display:none;">
+      <div id="game-stats">
+        <div id="game-stats-inner" class="clear">
+          <div id="hamachi-score-box">
+            <div id="hamachi-score-title">Score</div>
+            <div id="hamachi-score">0</div>
+          </div>
+
+          <div id="hamachi-status">
+            <div id="hamachi-life"><div id="hamachi-life-inner"><div id="hamachi-life-bar"></div></div></div>
+            <div id="hamachi-level-container">Lv.<span id="hamachi-level">1</span></div>
+          </div>
+
+          <div id="hamachi-chain" style="display:none;">
+            <span id="chain-count">0</span><span id="chain-label">Chain!!</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="hamachi-card-container" class="content-block">
+        <div id="hamachi-timer"><div id="hamachi-time-bar"><span id="hamachi-time"></span></div></div>
+        <div id="hamachi-card"></div>
+      </div>
+
+      <div id="answer-banner" aria-live="polite"></div>
+
+      <div id="correct-message" style="display:none; text-align:center; font-size:2em; color:#00AA00; font-weight:bold;"></div>
+
+      <div id="countdown"></div>
+
+      <div id="input-zone" class="content-block">
+        <div id="game-input"></div>
+        <br>
+        <div id="virtual-keyboard">
+          <div class="key_1">1</div><div class="key_2">2</div><div class="key_3">3</div><div class="key_4">4</div><div class="key_5">5</div><div class="key_6">6</div><div class="key_7">7</div><div class="key_8">8</div><div class="key_9">9</div><div class="key_0">0</div><div class="key_-">-</div>
+          <div class="key_q">Q</div><div class="key_w">W</div><div class="key_e">E</div><div class="key_r">R</div><div class="key_t">T</div><div class="key_y">Y</div><div class="key_u">U</div><div class="key_i">I</div><div class="key_o">O</div><div class="key_p">P</div>
+          <div class="key_a">A</div><div class="key_s">S</div><div class="key_d">D</div><div class="key_f">F</div><div class="key_g">G</div><div class="key_h">H</div><div class="key_j">J</div><div class="key_k">K</div><div class="key_l">L</div>
+          <div class="key_z">Z</div><div class="key_x">X</div><div class="key_c">C</div><div class="key_v">V</div><div class="key_b">B</div><div class="key_n">N</div><div class="key_m">M</div>
+          <div class="key_space">space</div>
+        </div>
+    <div class="vk-clear"></div> 
+          <button id="pause-btn" class="button menu-opt" onclick="hamachi.pause();">Pause</button>
+    <div id="hamachi-hint" style="display:none"></div>
+      </div>
+
+
+
+    </div>
+
+
+
+    <div id="game-end" class="menu" style="display:none;">
+      <div class="menu-title" id="game-win">Game Clear!</div>
+      <div class="menu-title" id="game-over">Game Over</div>
+
+      <div class="menu-content">
+        <div id="game-end-stats"></div>
+        <div class="form-row">
+          <label class="label" for="player-name">ユーザー名</label>
+          <input id="player-name" type="text" placeholder="おなまえ">
+        </div>
+      </div>
+
+      <div class="menu-footer">
+        <button id="save-score" type="button" class="button menu-opt" onclick="hamachi.saveScore()"> スコアを保存 </button>
+        <button class="button menu-opt" onclick="hamachi.retry();">Retry（同じ設定で再挑戦）</button>
+        <button class="button menu-opt" onclick="hamachi.resetGame();">Main Menu に戻る</button>
+      </div>
+    </div>
+
+    <script>
+      // URLパス（例: .../exec/practice）に応じて起動時に自動開始するモード名（空なら通常のメインメニュー表示）
+      window.HAMACHI_AUTO_MODE = <?!= JSON.stringify(autoMode) ?>;
+    </script>
+    <?!= include('JavaScript'); ?>
+  </body>
+</html>

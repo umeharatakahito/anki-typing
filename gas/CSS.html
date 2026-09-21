@@ -1,0 +1,378 @@
+<style>
+
+
+
+/* =========================================================
+   Animations
+   ========================================================= */
+@keyframes strobe-bg {
+  0% { background-color:#FCC } 10% { background-color:#FCF }
+  20% { background-color:#CCF } 30% { background-color:#CFF }
+  40% { background-color:#CFC } 50% { background-color:#FFC }
+  60% { background-color:#CFC } 70% { background-color:#CFF }
+  80% { background-color:#CCF } 90% { background-color:#FCF }
+  100% { background-color:#FCC }
+}
+@keyframes loading { 33%{content:"Now Loading."} 66%{content:"Now Loading.."} 100%{content:"Now Loading..."} }
+@keyframes main-slide { from{background-position:0 0} to{background-position:200px 200px} }
+@keyframes grade-slide { from{right:0%;margin-right:0;opacity:1} to{right:100%;margin-right:-150px;opacity:0} }
+@keyframes chain-increase { from{transform:scale(1);opacity:1} to{transform:scale(2);opacity:0} }
+@keyframes score-increase { from{color:#FFF;transform:scale(1);opacity:1} to{color:#FF0;transform:scale(2);opacity:0} }
+
+/* =========================================================
+   Base
+   ========================================================= */
+* { box-sizing: border-box; }
+html,body { margin:0; padding:0; }
+body{
+  color:#333; background:#FFF; font-size:13px;
+  font-family:'メイリオ','Meiryo','Osaka','ＭＳ Ｐゴシック','MS PGothic',"Hiragino Kaku Gothic ProN",Arial,sans-serif;
+}
+body.main-menu{ animation:main-slide 5s linear infinite; }
+a{ color:#039; text-decoration:none; outline:none; } a:hover,a:focus{ text-decoration:underline; }
+img{ max-width:100%; }
+.left{text-align:left;} .right{text-align:right;} .center{text-align:center;}
+.med-text{font-size:18px;} .big-text{font-size:24px;}
+
+/* Loader */
+.main-menu.loading:before{
+  content:""; position:fixed; inset:0; background:#CFF; z-index:100;
+  opacity:1; transition:opacity 1000ms;
+}
+.main-menu.loading:after{
+  content:"Now Loading..."; position:fixed; left:0; right:0; top:50%;
+  height:100px; margin-top:-100px; text-align:center;
+  color:#FFF; font-size:42px; font-weight:bold; font-style:italic; z-index:101;
+  animation:loading 2s linear infinite;
+  text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000,0 2px 3px rgba(0,0,0,.7);
+}
+#ja .main-menu.loading.fade-loader-out:after{content:"やるぜ！！"}
+.main-menu.loading.fade-loader-out:before,
+.main-menu.loading.fade-loader-out:after{ opacity:0; pointer-events:none; animation:none; }
+
+/* Logo */
+#logo{
+  display:block; height:150px; margin:5px auto; color:#3BD; font-size:32px; font-weight:bold; text-align:center;
+  text-shadow:0 2px 0 #19B; user-select:none; pointer-events:none;
+}
+
+#big-title {
+  font-size: clamp(3rem, 4vw, 4rem); /* 画面幅に応じて可変 */
+  font-weight: 900;                  /* 極太 */
+  text-align: center;                /* 中央寄せ */
+  margin: 1rem auto;
+  color: #0080ff;                    /* 鮮やかな赤 */
+  text-shadow: 0 0 10px rgba(0,0,0,0.4), 0 0 15px rgba(0, 0, 255, 0.6);
+  letter-spacing: .1em;
+  animation: title-pop 1s ease-out;
+}
+
+@keyframes title-pop {
+  0%   { transform: scale(0.6); opacity: 0; }
+  100% { transform: scale(1);   opacity: 1; }
+}
+/* =========================================================
+   Buttons
+   ========================================================= */
+.button, a.button{
+  color:#FFF; background:#3BD; border:none; border-bottom:2px solid #19B;
+  font-size:18px; font-weight:bold; text-align:center; text-decoration:none;
+  display:inline-block; padding:6px 12px; cursor:pointer; outline:none;
+  user-select:none;
+}
+.button.menu-opt{ display:block; width:100%; max-width:300px; margin:10px auto; }
+.button:hover{ background:#2AC; } .button:focus{ background:#19B; }
+.button[disabled]{ color:#CCC; background:#999; border-color:#666; cursor:default; }
+
+.button.menu-opt:focus {
+  outline: 3px solid #ff9800;
+  outline-offset: 2px;
+}
+
+
+
+/* =========================================================
+   Menus
+   ========================================================= */
+.menu{ max-width:800px; margin:0 auto 50px; background:rgba(187,238,255,.8); border:1px solid #3BD; padding-bottom:70px; position:relative; }
+.menu.no-footer{ padding-bottom:20px; }
+.menu-title{ color:#FFF; background:#3BD; font-size:28px; font-weight:bold; text-align:center; margin:-1px -1px 30px; padding:6px; }
+.menu-content{ font-size:16px; padding:0 30px; }
+.menu-footer{ border-top:1px solid #3BD; position:absolute; left:0; right:0; bottom:0; }
+.menu .menu-content .menu-opt + .menu-opt{ margin-top:14px; }
+
+/* Playメニューの黒点を消す */
+#mode-list{ list-style:none; margin:0; padding:0; }
+#mode-list li{ margin:12px 0; }
+
+/* どのボタンにも付けられるショートカット・バッジ */
+.button[data-key]{
+  position: relative;
+  padding-left: 38px;                   /* バッジの分だけ余白 */
+}
+.button[data-key]::before{
+  content: attr(data-key);
+  position: absolute;
+  left: 10px; top: 50%;
+  transform: translateY(-50%);
+  width: 22px; height: 22px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 50%;
+  background: rgba(255,255,255,.9);
+  color: #0b79b7;                        /* お好みで */
+  border: 2px solid #0b79b7;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+
+/* =========================================================
+   Game HUD
+   ========================================================= */
+#game-stats{ padding:8px 12px; }
+#game-stats-inner{ display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+
+#hamachi-score-box{ position:relative; margin:0; display:flex; flex-direction:column; align-items:center; }
+#hamachi-score-title{ font-size:12px; line-height:1.2; margin-bottom:2px; }
+#hamachi-score{ font-size:24px; line-height:1; }
+[data-score-anime]:before{ content:attr(data-score-anime); position:absolute; animation:score-increase 300ms linear 1; }
+
+/* HP & Level */
+#hamachi-status{ display:flex; align-items:center; gap:8px; }
+#hamachi-level-container{ font-weight:bold; font-size:16px; }
+#hamachi-life{
+  width: 100%;
+  display: flex;
+  justify-content: center;  /* 横中央 */
+  pointer-events: none;
+}
+#hamachi-life-track{  /* トラック本体 */
+  width: clamp(220px, 40vw, 480px);
+  height: 14px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.18);
+  box-shadow: 0 0 0 2px rgba(0,0,0,.15) inset;
+  overflow: hidden;
+}
+#hamachi-life-inner{ width:480px; height:18px; background:#ddd; border:1px solid #aaa; border-radius:9px; overflow:hidden; }
+#hamachi-life-bar{
+  height: 100%;
+  width: 100%;              /* JSが % を入れる */
+  transition: width 150ms linear;
+}
+.hp-gain #hamachi-life-inner{ background:#6F3; } .hp-gain #hamachi-life-bar{ transition:width 500ms; }
+
+/* Timer */
+#hamachi-timer{ height:25px; background:#CCC; border:1px solid #3BD; overflow:hidden; position:relative; }
+#hamachi-time-bar{ height:100%; background:#3BD; width:100%; }
+#hamachi-time{ color:#FFF; font-size:18px; text-align:center; position:absolute; inset:0; line-height:27px;
+  text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000; }
+
+/* Chain (optional) */
+#hamachi-chain{ font-weight:bold; font-style:italic; display:none; }
+#chain-count{ color:#FFF; font-size:28px;
+  text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000,0 2px 3px rgba(0,0,0,.7),0 0 10px #FFF; }
+#chain-label{ color:#FF8; font-size:15px; margin-left:10px;
+  text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000,0 2px 3px rgba(0,0,0,.7); }
+[data-chain-anime]:before{ content:attr(data-chain-anime); position:absolute; animation:chain-increase 300ms linear 1; }
+
+/* =========================================================
+   Card area
+   ========================================================= */
+.content-block{ max-width:600px; margin:50px auto; }
+#input-zone{ display:flex; flex-direction:column; align-items:center; gap:12px; }
+#game-input{
+  color:#333; background:rgba(187,238,255,.8); border:1px solid #3BD;
+  font-size:24px; text-align:center; height:50px; width:100%; padding:10px; outline:none;
+}
+#hamachi-card-container{ margin-top:20px; margin-bottom:0; user-select:none; pointer-events:none; }
+#game-stats{ user-select:none; pointer-events:none; }
+#hamachi-card{ background:#BEF; border:1px solid #3BD; min-height:0; }
+
+/* 画像表示 */
+.card-image-container{
+  height:400px; display:flex; justify-content:center; align-items:center; margin-bottom:10px;
+}
+
+/* 画像をコンテナにフィットさせて拡大（比率維持）*/
+.card-image{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;  /* 余白は出るが縦横比は崩さない */
+  display: block;
+
+  /* お好みで枠はそのまま */
+  background-color: white;
+  padding: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.1);
+}
+
+/* 問題文/かな */
+.word-zone{ text-align:center; margin:10px auto; }
+.word-zone .words{ font-size:444px; font-weight:bold; letter-spacing:.01px; color:#333; }
+
+.helper{
+  font-size: clamp(28px, 3.2vw, 30px); /* 画面に合わせて可変。固定なら 36px などでもOK */
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+/* カウントダウン */
+#countdown{ font-size:100px; font-weight:bold; color:#ff7b00; text-align:center; }
+
+/* 回答帯（白帯） */
+#answer-banner{
+  height:54px; background:#fff; border-left:1px solid #bcdde8; border-right:1px solid #bcdde8;
+  display:flex; align-items:center; justify-content:center; font-size:28px; font-weight:700; letter-spacing:.06em; color:#1976d2;
+}
+
+/* かな/漢字のヒント表示 */
+.hint-fade{ opacity:0; transition:opacity .2s; }
+.hint-visible{ color:#333 !important; opacity:1; }
+.kanji{ font-size:28px; margin:6px 0 10px; line-height:1.4; }
+.kanji:empty{ display:none; }
+.kan-chunk.hint-visible{ opacity:1; }
+ruby rt{ display:none; }  /* ふりがな帯に出すため、通常は隠す */
+
+/* =========================================================
+   Correct toast / grade ticker
+   ========================================================= */
+#hamachi-grade{ height:60px; max-width:800px; margin:0 auto; position:relative; overflow:hidden; pointer-events:none; }
+.hamachi-grade-card{ position:absolute; width:150px; opacity:0; animation:grade-slide 5s linear 1; }
+.hamachi-grade-text{ font-size:16px; font-weight:bold; text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000,0 2px 3px rgba(0,0,0,.7); }
+.grade-great .hamachi-grade-text{ color:#FF0; text-shadow:0 0 5px #FF0; }
+.grade-good  .hamachi-grade-text{ color:#0F0; text-shadow:0 0 5px #0F0; }
+.grade-okay  .hamachi-grade-text{ color:#0FF; text-shadow:0 0 5px #0FF; }
+.grade-miss  .hamachi-grade-text{ color:#F66; text-shadow:0 0 5px #F66; }
+
+/* =========================================================
+   Genki Modal
+   ========================================================= */
+#genki-modal-overlay{ position:fixed; inset:0; background:#000; opacity:.5; z-index:9999; }
+#genki-modal-body{ background:rgba(187,238,255,.8); border:1px solid #3BD; position:fixed; top:10%; left:25%; right:25%; bottom:10%; z-index:99999; }
+#genki-modal-header{ color:#FFF; background:#3BD; text-align:center; margin:0; height:10px; line-height:40px; }
+#genki-modal-content{ font-size:15px; position:absolute; top:40px; left:0; right:0; bottom:10px; overflow-y:auto; padding:6px; }
+#genki-modal-buttons{ position:absolute; left:0; right:0; bottom:0; height:40px; line-height:40px; }
+#genki-modal-buttons .button{ font-size:14px; margin:0 6px; }
+
+/* =========================================================
+   Virtual Keyboard (Flex版)
+   ========================================================= */
+#virtual-keyboard{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 616px;          /* ← 固定幅にして自然な改行を起こす */
+  margin: 0 auto;        /* 中央寄せ */
+  justify-content: flex-start;
+}
+
+/* キーのルック＆フィール（少し立体） */
+#virtual-keyboard > div{
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  border: 1px solid #d0d7de;
+  border-radius: 10px;
+  background: #fff;
+  font-weight: 700;
+  box-shadow: 0 1px 0 rgba(0,0,0,.05);
+  transition: transform .05s ease, box-shadow .1s ease, background-color .1s ease;
+}
+#virtual-keyboard > div:hover{
+  box-shadow: 0 2px 6px rgba(0,0,0,.08);
+}
+#virtual-keyboard > div.active{
+  background-color: #2db6d3 !important;
+  border-color: #2db6d3 !important;
+  color: #fff !important;
+  transform: translateY(1px);
+  box-shadow: 0 1px 0 rgba(0,0,0,.06) inset;
+}
+
+/* 各行の“段差”を出す（先頭キーだけ左にインデント） */
+#virtual-keyboard .key_q { margin-left: 22px; }  /* 2段目のQ */
+#virtual-keyboard .key_a { margin-left: 44px; }  /* 3段目のA */
+#virtual-keyboard .key_z { margin-left: 66px; }  /* 4段目のZ */
+
+/* スペースは横長＆行中央に配置 */
+#virtual-keyboard .key_space{
+  width: 308px;                 /* 44px×7 くらいの幅感 */
+  margin-left: auto;
+  margin-right: auto;           /* 行中央に寄せる */
+}
+
+/* Pause はキーボード直下に */
+#pause-btn{
+  display: block;
+  margin: 12px auto 0;
+}
+
+/* =========================================================
+   Game End
+   ========================================================= */
+#game-end .menu-footer{
+  position:static; border-top:1px solid #3BD; padding:12px 0;
+  display:flex; flex-direction:column; align-items:center; gap:10px;
+}
+#game-end .menu-content{ padding:10px 30px 20px; }
+.form-row{ display:flex; align-items:center; gap:12px; max-width:520px; margin:12px auto 8px; }
+.form-row .label{ width:auto; min-width:auto; margin:0; text-align:left; }
+#player-name{
+  flex:1; max-width:320px; width:100%;
+  padding:6px 10px; border:1px solid #3BD; border-radius:4px;
+}
+
+/* =========================================================
+   Misc
+   ========================================================= */
+#answer-banner:empty{ display:block; } /* 空でも高さを保つ */
+#card-hiragana{ display:none; }        /* かなは白帯に出す方針 */
+#pause-btn{ clear:both; }              /* 念のため回り込みを切る */
+
+/* =========================================
+   コンパクト表示（ゲーム画面のみ）
+   横は画面いっぱい、縦は約1/2スケール
+   ※ 他画面に影響しないよう .playing-game に限定
+   ========================================= */
+.playing-game #game {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+/* 共通ブロックの横幅を全幅に、縦の余白を小さめに */
+.playing-game .content-block{
+  max-width: 100vw;
+  margin: 16px auto;
+  padding: 0 12px;
+}
+
+/* タイマーを薄く・低く */
+.playing-game #hamachi-timer{ height: 18px; }
+.playing-game #hamachi-time{ font-size: 14px; line-height: 18px; }
+
+/* HPバーを短く（見た目だけ短縮） */
+.playing-game #hamachi-life-inner{
+  width: clamp(160px, 30vw, 320px) !important;  /* 旧: 480px */
+  height: 14px;
+}
+.playing-game #hamachi-life-bar{
+  height: 100%;
+}
+
+/* カード表示部を圧縮 */
+.playing-game #hamachi-card-container{ margin-top: 10px; }
+.playing-game .card-image-container{ height: 200px; }  /* 旧: 300px */
+
+
+/* カウントダウン控えめ */
+.playing-game #countdown{ font-size: 64px; }
+
+
+
+
+</style>
