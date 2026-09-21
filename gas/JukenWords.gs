@@ -85,19 +85,19 @@ const JUKEN_WORDS = [
 // ---------------------------------------------------------------
 // 収録範囲（メニューの初期表示に使う）
 function getJukenMeta() {
-  const pages = JUKEN_WORDS.map(w => w.page);
+  const nos = JUKEN_WORDS.map(w => w.no);
   return {
     total: JUKEN_WORDS.length,
-    minPage: Math.min.apply(null, pages),
-    maxPage: Math.max.apply(null, pages)
+    minNo: Math.min.apply(null, nos),
+    maxNo: Math.max.apply(null, nos)
   };
 }
 
 // ---------------------------------------------------------------
 // 出題データ取得
-//   opts.from / opts.to : ページ範囲（省略すると全範囲）
+//   opts.from / opts.to : 見出し語番号の範囲（省略すると全範囲）
 //   opts.limit          : 1回の出題数
-//   opts.shuffle        : true ならシャッフル、false ならページの若い順
+//   opts.shuffle        : true ならシャッフル、false なら番号の若い順
 function getJukenWords(opts) {
   opts = opts || {};
   const from  = Number(opts.from)  || 0;
@@ -105,7 +105,7 @@ function getJukenWords(opts) {
   const limit = Number(opts.limit) || 20;
 
   let words = JUKEN_WORDS.filter(w =>
-    (!from || w.page >= from) && (!to || w.page <= to)
+    (!from || w.no >= from) && (!to || w.no <= to)
   );
 
   const matched = words.length;

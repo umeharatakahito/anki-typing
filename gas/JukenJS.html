@@ -92,12 +92,12 @@
       google.script.run
         .withSuccessHandler(meta => {
           this.meta = meta;
-          $('page-from').min = meta.minPage;
-          $('page-from').max = meta.maxPage;
-          $('page-to').min = meta.minPage;
-          $('page-to').max = meta.maxPage;
+          ['no-from', 'no-to'].forEach(id => {
+            $(id).min = meta.minNo;
+            $(id).max = meta.maxNo;
+          });
           $('range-hint').textContent =
-            '収録: ' + meta.total + '語（ページ ' + meta.minPage + '〜' + meta.maxPage +
+            '収録: ' + meta.total + '語（見出し語番号 ' + meta.minNo + '〜' + meta.maxNo +
             '）　空欄なら全範囲から出題します';
         })
         .withFailureHandler(() => {
@@ -109,8 +109,8 @@
     // ---- 開始 ----
     start: function () {
       const opts = {
-        from: $('page-from').value,
-        to: $('page-to').value,
+        from: $('no-from').value,
+        to: $('no-to').value,
         limit: $('round-size').value,
         shuffle: $('order-mode').value === 'shuffle'
       };
