@@ -124,7 +124,7 @@
   // 1人用と対戦モードの両方から読み込まれるので、どちらの画面かを実行時に見る。
   // 状態の持ち方が違う（1人用は playing/locked/phase、対戦は round.*）ため、
   // 入力可否とフェーズはここで吸収する。
-  const game       = () => window.juken || window.jukenVs || null;
+  const game       = () => window.juken || window.jukenVs || window.kobun || null;
   const gameScreen = () => document.getElementById('screen-game') || document.getElementById('vs-game');
   const phaseTag   = () => document.getElementById('phase-tag') || document.getElementById('vs-phase-tag');
 
@@ -234,7 +234,10 @@
   window.addEventListener('resize', sync);
 
   function updateMode() {
-    modeEl.textContent = (currentPhase(game()) === 2)
+    const j = game();
+    // 画面ごとに入力するものが違うので、ゲーム側にラベルを決めさせる
+    if (j && typeof j.kbLabel === 'function') { modeEl.textContent = j.kbLabel(); return; }
+    modeEl.textContent = (currentPhase(j) === 2)
       ? 'ローマ字で意味を入力'
       : '英字で英単語を入力';
   }

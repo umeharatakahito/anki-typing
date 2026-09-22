@@ -10,21 +10,120 @@
 
   <body>
     <div id="app">
-      <section class="screen">
+
+      <!-- ========== メニュー ========== -->
+      <section id="screen-menu" class="screen">
         <a class="back-link" href="<?= execUrl ?>?p=juken">← 科目をえらぶ</a>
         <h1 class="title">古文単語</h1>
         <p class="subtitle">CLASSICAL JAPANESE</p>
 
+        <ul class="menu-list">
+          <li>
+            <button class="btn btn-main" onclick="kobun.start();">
+              <span class="num">1</span>はじめる
+            </button>
+          </li>
+        </ul>
+
         <div class="settings">
-          <p class="hint">
-            いま単語データを作っています。<br>
-            できあがると、現代語訳を見て古語をローマ字入力で答える
-            2段階のタイピングになります。
-          </p>
+          <div class="setting-row">
+            <label for="no-from">見出し語番号</label>
+            <input type="number" id="no-from" min="1" step="1" placeholder="最初">
+            <span class="tilde">〜</span>
+            <input type="number" id="no-to" min="1" step="1" placeholder="最後">
+          </div>
+          <div class="setting-row">
+            <label for="round-size">出題数</label>
+            <select id="round-size">
+              <option value="10">10問</option>
+              <option value="20" selected>20問</option>
+              <option value="30">30問</option>
+              <option value="50">50問</option>
+            </select>
+            <label for="order-mode" class="ml">順番</label>
+            <select id="order-mode">
+              <option value="no" selected>番号の若い順</option>
+              <option value="shuffle">シャッフル</option>
+            </select>
+          </div>
+          <div class="setting-row">
+            <label for="pos-mode">品詞</label>
+            <select id="pos-mode">
+              <option value="all" selected>すべて</option>
+              <option value="動">動詞</option>
+              <option value="形">形容詞</option>
+              <option value="形動">形容動詞</option>
+              <option value="名">名詞</option>
+              <option value="副">副詞</option>
+              <option value="連語">連語・その他</option>
+            </select>
+            <label for="example-mode" class="ml">例文</label>
+            <select id="example-mode">
+              <option value="on" selected>あり（2段階）</option>
+              <option value="off">なし（古語だけ）</option>
+            </select>
+          </div>
+          <p class="hint" id="range-hint">読み込み中…</p>
         </div>
 
-        <p class="note">もうしばらくお待ちください</p>
+        <p class="note">現代語訳→古語、そのあと例文で意味を確認します</p>
       </section>
+
+      <!-- ========== ゲーム ========== -->
+      <section id="screen-game" class="screen" hidden>
+        <header class="hud">
+          <div class="hud-item"><span class="hud-label">問題</span><span id="hud-progress">1 / 20</span></div>
+          <div class="hud-item score"><span class="hud-label">スコア</span><span id="hud-score">0</span></div>
+          <div class="hud-item"><span class="hud-label">ミス</span><span id="hud-miss">0</span></div>
+          <div class="hud-item chain" id="hud-chain-box" hidden>
+            <span id="hud-chain">0</span><span class="chain-label">チェイン</span>
+          </div>
+          <button class="btn btn-quit" onclick="kobun.quit();">やめる</button>
+        </header>
+
+        <div class="timer"><div class="timer-bar" id="timer-bar"></div></div>
+
+        <div class="stage">
+          <div class="phase-tag" id="phase-tag">STEP 1</div>
+
+          <div class="prompt" id="prompt"></div>
+          <div class="sub-prompt" id="sub-prompt"></div>
+
+          <div class="answer-line" id="answer-line"></div>
+          <div class="guide" id="guide"></div>
+
+          <div class="judge" id="judge"></div>
+
+          <div class="stage-actions">
+            <button class="btn" id="hint-btn" onclick="kobun.showHint();" hidden>ヒント</button>
+            <button class="btn" id="retry-btn" onclick="kobun.start();" hidden>もう一度読み込む</button>
+          </div>
+        </div>
+
+        <div class="banner" id="banner"></div>
+      </section>
+
+      <!-- ========== 結果 ========== -->
+      <section id="screen-result" class="screen" hidden>
+        <h1 class="title">おつかれさま</h1>
+        <p class="subtitle" id="result-subtitle"></p>
+
+        <div class="result-stats" id="result-stats"></div>
+        <div class="review" id="review" hidden>
+          <h3>もう一度見直したい語</h3>
+          <ul id="review-list"></ul>
+        </div>
+
+        <div class="result-actions">
+          <button class="btn btn-main" style="max-width:240px;" onclick="kobun.start();">もう一度</button>
+          <button class="btn" onclick="kobun.toMenu();">メニューに戻る</button>
+        </div>
+      </section>
+
     </div>
+
+    <?!= include('RomajiLib'); ?>
+    <?!= include('KobunJS'); ?>
+    <?!= include('JukenKeyboard'); ?>
   </body>
 </html>
