@@ -28,16 +28,6 @@
               <span class="num">2</span>対戦でやる
             </a>
           </li>
-          <li>
-            <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=shakyo&amp;s=eigo">
-              <span class="num">3</span>写経（単独）
-            </a>
-          </li>
-          <li>
-            <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=versus&amp;s=eigo&amp;m=shakyo">
-              <span class="num">4</span>写経（対戦）
-            </a>
-          </li>
         </ul>
 
         <div class="settings">
@@ -73,6 +63,11 @@
               <option value="off" selected>なし（英語だけ）</option>
               <option value="on">あり（2段階）</option>
             </select>
+          </div>
+          <div class="setting-row">
+            <label class="check" for="shakyo-mode">
+              <input type="checkbox" id="shakyo-mode">写経モード（答えを最初から見せて、速さだけを競う）
+            </label>
           </div>
           <p class="hint" id="range-hint">読み込み中…</p>
         </div>

@@ -34,6 +34,7 @@
     matched: 0,
     index: 0,
     useExample: true,
+    shakyo: false,     // 答えを最初から見せて、速さだけを競うモード
     revealCount: 0,   // 制限時間の後半で頭から見せていく文字数
     score: 0,
     combo: 0,
@@ -152,9 +153,10 @@
         bar.className = 'timer-bar' + (pct < 20 ? ' danger' : pct < 50 ? ' warn' : '');
 
         // 半分を過ぎたら答えを頭から少しずつ見せる。時間切れの時点で全部見えている。
+        // 写経はもともと全部見えているので、頭出しはしない。
         const half = TIME_LIMIT / 2;
         const len = this.phase === 1 ? this.enTarget.length : this.kanaTokens.length;
-        const want = elapsed <= half ? 0
+        const want = (this.shakyo || elapsed <= half) ? 0
           : Math.min(len, Math.ceil(((elapsed - half) / half) * len));
         if (want !== this.revealCount) {
           this.revealCount = want;
@@ -227,7 +229,9 @@
         shuffle: $('order-mode').value === 'shuffle',
         kind: $('kind-mode').value
       };
-      this.useExample = $('example-mode').value === 'on';
+      // 写経は答えが見えている勝負なので、例文ステップは付けない
+      this.shakyo = !!($('shakyo-mode') && $('shakyo-mode').checked);
+      this.useExample = !this.shakyo && $('example-mode').value === 'on';
 
       this.showScreen('game');
       this.stopTimer();
@@ -295,10 +299,14 @@
       this.revealCount = 0;   // 前の問題の頭出しを持ち越さない
 
       const isIdiom = w.type === 'idiom';
-      $('phase-tag').textContent =
-        (this.useExample ? 'STEP 1 ・ ' : '') + (isIdiom ? '熟語' : '英単語') + 'をタイプ';
+      const what = isIdiom ? '熟語' : '英単語';
+      $('phase-tag').textContent = this.shakyo
+        ? '写経 ・ 見たまま打つ'
+        : (this.useExample ? 'STEP 1 ・ ' : '') + what + 'をタイプ';
       $('prompt').textContent = w.ja;
-      $('sub-prompt').textContent = 'この意味の' + (isIdiom ? '熟語' : '英単語') + 'は？';
+      $('sub-prompt').textContent = this.shakyo
+        ? '見えている' + what + 'をそのまま打つ'
+        : 'この意味の' + what + 'は？';
       $('guide').textContent = '';
       $('banner').textContent = '';
       $('banner').className = 'banner';
@@ -318,7 +326,9 @@
       const peekEnd = Math.max(this.enPos, this.revealCount);
       const done = t.slice(0, this.enPos);
       const peek = t.slice(this.enPos, peekEnd);
-      const rest = t.slice(peekEnd).replace(/[a-z0-9']/g, '_');
+      const tail = t.slice(peekEnd);
+      // 写経は伏せない
+      const rest = this.shakyo ? tail : tail.replace(/[a-z0-9']/g, '_');
       $('answer-line').innerHTML =
         '<span class="done">' + escapeHtml(done) + '</span>' +
         '<span class="peek">' + escapeHtml(peek) + '</span>' +

@@ -44,6 +44,7 @@
     matched: 0,
     index: 0,
     useExample: true,
+    shakyo: false,     // 答えを最初から見せて、速さだけを競うモード
     revealCount: 0,
     score: 0,
     combo: 0,
@@ -114,10 +115,11 @@
         bar.style.width = pct + '%';
         bar.className = 'timer-bar' + (pct < 20 ? ' danger' : pct < 50 ? ' warn' : '');
 
-        // 半分を過ぎたら答えを頭から少しずつ見せる
+        // 半分を過ぎたら答えを頭から少しずつ見せる。
+        // 写経はもともと全部見えているので、頭出しはしない。
         const half = TIME_LIMIT / 2;
         const len = this.kanaTokens.length;
-        const want = elapsed <= half ? 0
+        const want = (this.shakyo || elapsed <= half) ? 0
           : Math.min(len, Math.ceil(((elapsed - half) / half) * len));
         if (want !== this.revealCount) {
           this.revealCount = want;
@@ -189,7 +191,9 @@
         shuffle: $('order-mode').value === 'shuffle',
         pos: $('pos-mode').value
       };
-      this.useExample = $('example-mode').value === 'on';
+      // 写経は答えが見えている勝負なので、例文ステップは付けない
+      this.shakyo = !!($('shakyo-mode') && $('shakyo-mode').checked);
+      this.useExample = !this.shakyo && $('example-mode').value === 'on';
 
       this.showScreen('game');
       this.stopTimer();
@@ -266,16 +270,17 @@
       this.missedThisWord = false;
       this.setKanaTarget(w.ko);
 
-      $('phase-tag').textContent =
-        (this.useExample && w.ex ? 'STEP 1 ・ ' : '') + '古語をタイプ';
+      $('phase-tag').textContent = this.shakyo
+        ? '写経 ・ 見たまま打つ'
+        : (this.useExample && w.ex ? 'STEP 1 ・ ' : '') + '古語をタイプ';
       $('prompt').textContent = w.ja;
       $('sub-prompt').textContent =
-        'この意味の古語は？' + (w.pos ? '（' + w.pos + '）' : '') +
-        '　見出し語 ' + w.no;
+        (this.shakyo ? '見えている古語をそのまま打つ' : 'この意味の古語は？') +
+        (w.pos ? '（' + w.pos + '）' : '') + '　見出し語 ' + w.no;
       $('guide').textContent = '';
       $('banner').textContent = '';
       $('banner').className = 'banner';
-      $('hint-btn').hidden = false;
+      $('hint-btn').hidden = this.shakyo;
       $('retry-btn').hidden = true;
       $('judge').textContent = '';
       $('judge').className = 'judge';
@@ -334,6 +339,9 @@
         const tok = this.kanaTokens[i];
         if (i < this.idx1) {
           html += '<span class="done">' + escapeHtml(tok) + '</span>';
+        } else if (this.shakyo) {
+          // 写経は伏せない
+          html += '<span class="rest">' + escapeHtml(tok) + '</span>';
         } else if (this.hintShown || i < this.revealCount) {
           html += '<span class="peek">' + escapeHtml(tok) + '</span>';
         } else {
@@ -342,7 +350,7 @@
       }
       $('answer-line').innerHTML = html;
 
-      if (this.hintShown) {
+      if (this.hintShown || this.shakyo) {
         let full = '', typed = 0;
         for (let i = 0; i < this.wordR.length; i++) full += this.wordR[i][this.pattern[i]];
         for (let i = 0; i < this.idx1; i++) typed += this.wordR[i][this.pattern[i]].length;

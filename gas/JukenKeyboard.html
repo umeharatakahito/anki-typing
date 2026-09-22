@@ -124,7 +124,7 @@
   // 1人用と対戦モードの両方から読み込まれるので、どちらの画面かを実行時に見る。
   // 状態の持ち方が違う（1人用は playing/locked/phase、対戦は round.*）ため、
   // 入力可否とフェーズはここで吸収する。
-  const game       = () => window.juken || window.jukenVs || window.kobun || window.shakyo || null;
+  const game       = () => window.juken || window.jukenVs || window.kobun || null;
   const gameScreen = () => document.getElementById('screen-game') || document.getElementById('vs-game');
   const phaseTag   = () => document.getElementById('phase-tag') || document.getElementById('vs-phase-tag');
 

@@ -13,8 +13,6 @@
   // 対戦が始まったあとは、部屋の設定（rule.subject）のほうが優先される。
   const PAGE_SUBJECT = document.body.getAttribute('data-subject') === 'kobun' ? 'kobun' : 'eigo';
 
-  // quiz = 意味から答える／shakyo = 答えが見えていて速さだけを競う
-  const PAGE_STYLE = document.body.getAttribute('data-style') === 'shakyo' ? 'shakyo' : 'quiz';
 
   const escapeHtml = s => String(s)
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -152,8 +150,8 @@
         from: $('vs-from').value,
         to: $('vs-to').value,
         subject: PAGE_SUBJECT,
-        style: PAGE_STYLE,
-        example: PAGE_STYLE === 'shakyo' ? false : $('vs-example').value === 'on'
+        style: $('vs-shakyo').checked ? 'shakyo' : 'quiz',
+        example: !$('vs-shakyo').checked && $('vs-example').value === 'on'
       }).then(res => {
         $('vs-create-btn').disabled = false;
         if (!res || !res.ok) { this.menuError((res && res.error) || '対戦を作れませんでした'); return; }
