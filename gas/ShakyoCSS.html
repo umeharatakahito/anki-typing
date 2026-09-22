@@ -1,0 +1,63 @@
+<style>
+  /* 写経モード。読ませるのは打つ文字だけなので、的を大きく中央に置く */
+  .sk-stage { padding: 48px 0 24px; }
+
+  .sk-target {
+    margin: 26px 0 10px;
+    font-family: "SF Mono", "Consolas", monospace;
+    font-size: 2.6rem;
+    letter-spacing: .1em;
+    line-height: 1.35;
+    word-break: break-all;
+    min-height: 1.4em;
+  }
+  .sk-target .done { color: var(--ok); }
+  .sk-target .rest { color: var(--text); }
+  /* 次に打つ1文字。ここだけ見ていれば進める */
+  .sk-target .cur {
+    color: #06202a;
+    background: var(--accent);
+    border-radius: 4px;
+    padding: 0 .06em;
+  }
+  .sk-target.shake { animation: sk-shake .16s; }
+  @keyframes sk-shake {
+    0%, 100% { transform: translateX(0); }
+    25%      { transform: translateX(-5px); }
+    75%      { transform: translateX(5px); }
+  }
+
+  .sk-meaning {
+    color: var(--muted);
+    font-size: 1rem;
+    min-height: 1.5em;
+  }
+
+  /* 次の語の先出し。リズムを切らさないため薄く添える */
+  .sk-next {
+    margin-top: 30px;
+    color: #46536e;
+    font-family: "SF Mono", "Consolas", monospace;
+    font-size: 1.05rem;
+    letter-spacing: .06em;
+    min-height: 1.5em;
+    word-break: break-all;
+  }
+  .sk-next .label {
+    margin-right: 10px;
+    font-family: inherit;
+    font-size: .72rem;
+    letter-spacing: .12em;
+  }
+
+  @media (max-width: 700px) {
+    .sk-stage { padding: 22px 0 10px; }
+    .sk-target { margin: 16px 0 8px; font-size: 1.8rem; letter-spacing: .06em; }
+    .sk-meaning { font-size: .88rem; }
+    .sk-next { margin-top: 20px; font-size: .9rem; }
+  }
+
+  @media (max-width: 380px) {
+    .sk-target { font-size: 1.5rem; }
+  }
+</style>

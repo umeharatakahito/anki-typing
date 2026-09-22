@@ -8,14 +8,14 @@
     <?!= include('JukenVersusCSS'); ?>
   </head>
 
-  <body>
+  <body data-subject="<?= subject ?>">
     <div id="app">
 
       <!-- ========== メニュー ========== -->
       <section id="vs-menu" class="screen">
-        <a class="back-link" href="<?= execUrl ?>?p=juken">← 科目をえらぶ</a>
+        <a class="back-link" href="<?= execUrl ?>?p=<?= backRoute ?>">← もどる</a>
         <h1 class="title">対戦モード</h1>
-        <p class="subtitle">TYPING BATTLE ・ 2 PLAYERS</p>
+        <p class="subtitle"><?= subject == 'kobun' ? '古文単語' : '英単語' ?> ・ TYPING BATTLE</p>
 
         <div class="card">
           <h2><span class="tag">つくる</span>対戦を用意する</h2>
@@ -38,6 +38,13 @@
             <input type="number" id="vs-from" class="w-num" min="1" step="1" placeholder="最初">
             <span class="tilde">〜</span>
             <input type="number" id="vs-to" class="w-num" min="1" step="1" placeholder="最後">
+          </div>
+          <div class="row">
+            <label for="vs-example">例文</label>
+            <select id="vs-example">
+              <option value="off" selected>なし</option>
+              <option value="on">あり（2段階）</option>
+            </select>
           </div>
           <p class="hint" id="vs-range-hint">読み込み中…</p>
           <div class="row" style="margin-top:14px;">

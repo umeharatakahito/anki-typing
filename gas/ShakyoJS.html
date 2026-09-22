@@ -1,0 +1,369 @@
+<script>
+(function (window, document) {
+  'use strict';
+
+  const $ = id => document.getElementById(id);
+
+  const escapeHtml = s => String(s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+  const escapeRe = s => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+  // 英単語か古文か。ページ側の data-subject で決まる
+  const SUBJECT = document.body.getAttribute('data-subject') === 'kobun' ? 'kobun' : 'eigo';
+  const IS_KANA = SUBJECT === 'kobun';
+
+  const shakyo = {
+    words: [],
+    matched: 0,
+    index: 0,
+    showMeaning: true,
+    playing: false,
+    locked: false,
+    loadTimer: null,
+    tickId: null,
+
+    // 打ち始めた時刻。読み込みの待ち時間を記録に混ぜないので、
+    // 最初の1打が入るまで計測は始まらない。
+    startedAt: 0,
+    keysOk: 0,
+    keysNg: 0,
+    stumbled: [],
+    missedThisWord: false,
+
+    // 直接入力（英語）用
+    phase: IS_KANA ? 2 : 1,
+    target: '',
+    pos: 0,
+
+    // ローマ字入力（古文）用
+    kanaTokens: [],
+    wordR: null,
+    pattern: [],
+    idx1: 0,
+    idx2: 0,
+    temp: '',
+
+    kbLabel: function () {
+      return IS_KANA ? 'ローマ字で古語を入力' : '英字で英単語を入力';
+    },
+
+    // ---- 画面切替 ----
+    showScreen: function (name) {
+      ['menu', 'game', 'result'].forEach(s => {
+        const el = $('screen-' + s);
+        if (el) el.hidden = (s !== name);
+      });
+    },
+
+    toMenu: function () {
+      this.playing = false;
+      this.stopTick();
+      this.showScreen('menu');
+    },
+
+    quit: function () {
+      if (!this.playing) { this.toMenu(); return; }
+      this.words = this.words.slice(0, this.index);
+      this.finish();
+    },
+
+    // ---- 収録範囲をメニューに表示 ----
+    loadMeta: function () {
+      const show = meta => {
+        ['no-from', 'no-to'].forEach(id => {
+          $(id).min = meta.minNo;
+          $(id).max = meta.maxNo;
+        });
+        $('range-hint').textContent =
+          '収録: ' + (IS_KANA ? '見出し語 ' + meta.total
+                              : '単語' + meta.words + ' ＋ 熟語' + meta.idioms) +
+          '（見出し語番号 ' + meta.minNo + '〜' + meta.maxNo + '）　空欄なら全範囲から';
+      };
+      const fail = () => { $('range-hint').textContent = '収録範囲を取得できませんでした'; };
+      const runner = google.script.run.withSuccessHandler(show).withFailureHandler(fail);
+      if (IS_KANA) runner.getKobunMeta(); else runner.getJukenMeta();
+    },
+
+    // ---- 開始 ----
+    start: function () {
+      const opts = {
+        from: $('no-from').value,
+        to: $('no-to').value,
+        limit: $('round-size').value,
+        shuffle: $('order-mode').value === 'shuffle'
+      };
+      if (IS_KANA) opts.pos = $('pos-mode').value;
+      else opts.kind = $('kind-mode').value;
+      this.showMeaning = $('meaning-mode').value === 'on';
+
+      this.showScreen('game');
+      this.stopTick();
+      this.playing = false;
+      $('banner').textContent = '';
+      $('banner').className = 'banner';
+      $('sk-target').textContent = '読み込み中…';
+      $('sk-meaning').textContent = '';
+      $('sk-next').textContent = '';
+      $('guide').textContent = '';
+      $('retry-btn').hidden = true;
+
+      if (this.loadTimer) clearTimeout(this.loadTimer);
+      this.loadTimer = setTimeout(() => {
+        if (this.playing) return;
+        $('sk-target').textContent = '読み込めません';
+        $('sk-meaning').textContent = '通信状況を確認して、もう一度お試しください';
+        $('retry-btn').hidden = false;
+      }, 25000);
+
+      const done = () => { if (this.loadTimer) { clearTimeout(this.loadTimer); this.loadTimer = null; } };
+
+      const runner = google.script.run
+        .withSuccessHandler(res => {
+          done();
+          if (!res || res.error || !res.words || !res.words.length) {
+            $('sk-target').textContent = '出題できる語がありません';
+            $('sk-meaning').textContent = res && res.error ? res.error : '出題範囲を見直してください';
+            $('retry-btn').hidden = false;
+            return;
+          }
+          this.words = res.words;
+          this.matched = res.matched;
+          this.index = 0;
+          this.keysOk = 0;
+          this.keysNg = 0;
+          this.stumbled = [];
+          this.startedAt = 0;
+          this.playing = true;
+          this.locked = false;
+          $('banner').textContent = '打ち始めたらスタート';
+          this.showWord();
+          this.startTick();
+        })
+        .withFailureHandler(err => {
+          done();
+          $('sk-target').textContent = 'サーバーとの通信に失敗しました';
+          $('sk-meaning').textContent = err && err.message ? err.message : '';
+          $('retry-btn').hidden = false;
+        });
+
+      if (IS_KANA) runner.getKobunWords(opts); else runner.getJukenWords(opts);
+    },
+
+    // ---- 打つ対象 ----
+    keyOf: function (w) { return IS_KANA ? w.ko : String(w.en).toLowerCase(); },
+
+    showWord: function () {
+      const w = this.words[this.index];
+      this.missedThisWord = false;
+
+      if (IS_KANA) {
+        const conv = kanaToRoman(w.ko);
+        this.wordR = conv[0];
+        this.kanaTokens = conv[1];
+        this.pattern = new Array(this.wordR.length).fill(0);
+        this.idx1 = 0;
+        this.idx2 = 0;
+        this.temp = '';
+      } else {
+        this.target = this.keyOf(w);
+        this.pos = 0;
+      }
+
+      $('sk-meaning').textContent = this.showMeaning ? (w.ja || '') : '';
+      const nxt = this.words[this.index + 1];
+      $('sk-next').innerHTML = nxt
+        ? '<span class="label">NEXT</span>' + escapeHtml(this.keyOf(nxt))
+        : '<span class="label">NEXT</span>—';
+
+      this.render();
+      this.renderHud();
+    },
+
+    render: function () {
+      const el = $('sk-target');
+      if (IS_KANA) {
+        let html = '';
+        for (let i = 0; i < this.kanaTokens.length; i++) {
+          const tok = escapeHtml(this.kanaTokens[i]);
+          if (i < this.idx1) html += '<span class="done">' + tok + '</span>';
+          else if (i === this.idx1) html += '<span class="cur">' + tok + '</span>';
+          else html += '<span class="rest">' + tok + '</span>';
+        }
+        el.innerHTML = html;
+
+        // 打ち途中のローマ字を下に出しておく（si/shi どちらでも進めるため）
+        let full = '', typed = 0;
+        for (let i = 0; i < this.wordR.length; i++) full += this.wordR[i][this.pattern[i]];
+        for (let i = 0; i < this.idx1; i++) typed += this.wordR[i][this.pattern[i]].length;
+        typed += this.idx2;
+        $('guide').innerHTML =
+          '<span class="done">' + escapeHtml(full.slice(0, typed)) + '</span>' +
+          escapeHtml(full.slice(typed));
+      } else {
+        const t = this.target;
+        el.innerHTML =
+          '<span class="done">' + escapeHtml(t.slice(0, this.pos)) + '</span>' +
+          '<span class="cur">' + escapeHtml(t.slice(this.pos, this.pos + 1)) + '</span>' +
+          '<span class="rest">' + escapeHtml(t.slice(this.pos + 1)) + '</span>';
+        $('guide').textContent = '';
+      }
+    },
+
+    // ---- 計測 ----
+    startTick: function () {
+      this.stopTick();
+      this.tickId = setInterval(() => this.renderHud(), 100);
+    },
+
+    stopTick: function () {
+      if (this.tickId) { clearInterval(this.tickId); this.tickId = null; }
+    },
+
+    elapsed: function () {
+      return this.startedAt ? (Date.now() - this.startedAt) : 0;
+    },
+
+    kpm: function () {
+      const min = this.elapsed() / 60000;
+      return min > 0 ? Math.round(this.keysOk / min) : 0;
+    },
+
+    accuracy: function () {
+      const all = this.keysOk + this.keysNg;
+      return all ? Math.round((this.keysOk / all) * 100) : 100;
+    },
+
+    renderHud: function () {
+      $('hud-progress').textContent = (this.index + 1) + ' / ' + this.words.length;
+      $('hud-kpm').textContent = this.kpm();
+      $('hud-acc').textContent = this.accuracy() + '%';
+      $('hud-time').textContent = (this.elapsed() / 1000).toFixed(1);
+    },
+
+    onMiss: function () {
+      this.keysNg++;
+      if (!this.missedThisWord) {
+        this.missedThisWord = true;
+        this.stumbled.push(this.words[this.index]);
+      }
+      const el = $('sk-target');
+      el.classList.remove('shake');
+      void el.offsetWidth;   // アニメーションを毎回やり直させる
+      el.classList.add('shake');
+    },
+
+    onWordClear: function () {
+      this.index++;
+      if (this.index >= this.words.length) { this.finish(); return; }
+      this.showWord();
+    },
+
+    // ---- 結果 ----
+    finish: function () {
+      this.playing = false;
+      this.stopTick();
+      const ms = this.elapsed();
+      const sec = ms / 1000;
+      const done = this.words.length;
+
+      $('result-subtitle').textContent = done + ' 語を写経しました';
+      $('result-stats').innerHTML =
+        '<div class="result-row total"><span>打/分</span><span>' + this.kpm() + '</span></div>' +
+        '<div class="result-row"><span>正確率</span><span>' + this.accuracy() + '%</span></div>' +
+        '<div class="result-row"><span>かかった時間</span><span>' + sec.toFixed(1) + ' 秒</span></div>' +
+        '<div class="result-row"><span>打鍵数</span><span>' + this.keysOk + '</span></div>' +
+        '<div class="result-row"><span>打ち間違い</span><span>' + this.keysNg + '</span></div>' +
+        '<div class="result-row"><span>1語あたり</span><span>' +
+          (done ? (sec / done).toFixed(2) : '0.00') + ' 秒</span></div>';
+
+      const review = $('review');
+      if (this.stumbled.length) {
+        $('review-list').innerHTML = this.stumbled
+          .map(w => '<li><b>' + escapeHtml(this.keyOf(w)) + '</b><span>' +
+                    escapeHtml(w.ja || '') + '</span></li>')
+          .join('');
+        review.hidden = false;
+      } else {
+        review.hidden = true;
+      }
+
+      this.showScreen('result');
+    },
+
+    // ---- 入力 ----
+    handleKey: function (key) {
+      if (!this.playing) return;
+      if (!this.startedAt) {
+        this.startedAt = Date.now();
+        $('banner').textContent = '';
+      }
+
+      if (!IS_KANA) {
+        if (!/^[a-z0-9' -]$/.test(key)) return;
+        if (key === this.target[this.pos]) {
+          this.pos++;
+          this.keysOk++;
+          this.render();
+          if (this.pos >= this.target.length) this.onWordClear();
+        } else {
+          this.onMiss();
+        }
+        this.renderHud();
+        return;
+      }
+
+      if (!/^[a-z0-9\-,.\s]$/.test(key)) return;
+      if (!this.wordR || this.idx1 >= this.wordR.length) return;
+
+      this.temp += key;
+      let ok = false;
+
+      if (key === this.wordR[this.idx1][this.pattern[this.idx1]][this.idx2]) {
+        ok = true;
+      } else {
+        // 別のローマ字表記（si / shi など）に切り替えられるか探す
+        const re = new RegExp('^' + escapeRe(this.temp));
+        for (let i = 0; i < this.wordR[this.idx1].length; i++) {
+          if (re.test(this.wordR[this.idx1][i])) {
+            this.pattern[this.idx1] = i;
+            if (key === this.wordR[this.idx1][i][this.idx2]) ok = true;
+            break;
+          }
+        }
+      }
+
+      if (!ok) {
+        this.temp = this.temp.slice(0, -1);
+        this.onMiss();
+        this.renderHud();
+        return;
+      }
+
+      this.keysOk++;
+      this.idx2++;
+      if (this.idx2 === this.wordR[this.idx1][this.pattern[this.idx1]].length) {
+        this.idx1++;
+        this.idx2 = 0;
+        this.temp = '';
+      }
+      this.render();
+      this.renderHud();
+
+      if (this.idx1 >= this.wordR.length) this.onWordClear();
+    }
+  };
+
+  window.addEventListener('keydown', event => {
+    if (event.isComposing || event.key === 'Process') return;
+    if (!shakyo.playing) return;
+    if (event.key.length !== 1) return;
+    if (event.metaKey || event.ctrlKey || event.altKey) return;
+    event.preventDefault();
+    shakyo.handleKey(event.key.toLowerCase());
+  });
+
+  window.shakyo = shakyo;
+  window.addEventListener('load', () => { shakyo.loadMeta(); });
+}(window, document));
+</script>

@@ -20,12 +20,17 @@
         <ul class="menu-list">
           <li>
             <button class="btn btn-main" onclick="juken.start();">
-              <span class="num">1</span>はじめる
+              <span class="num">1</span>単独でやる
             </button>
           </li>
           <li>
-            <a class="btn btn-main btn-versus" href="<?= execUrl ?>?p=versus">
-              <span class="num">2</span>対戦モード
+            <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=versus&amp;s=eigo">
+              <span class="num">2</span>対戦でやる
+            </a>
+          </li>
+          <li>
+            <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=shakyo&amp;s=eigo">
+              <span class="num">3</span>写経モード
             </a>
           </li>
         </ul>
@@ -60,14 +65,14 @@
             </select>
             <label for="example-mode" class="ml">例文</label>
             <select id="example-mode">
-              <option value="on" selected>あり（2段階）</option>
-              <option value="off">なし（英語だけ）</option>
+              <option value="off" selected>なし（英語だけ）</option>
+              <option value="on">あり（2段階）</option>
             </select>
           </div>
           <p class="hint" id="range-hint">読み込み中…</p>
         </div>
 
-        <p class="note">日本語→英単語、そのあと例文で意味を確認します</p>
+        <p class="note">日本語を見て、英単語をタイプします</p>
       </section>
 
       <!-- ========== ゲーム ========== -->

@@ -136,7 +136,10 @@ function vsNormalizeRule_(opts) {
     mode: mode,
     target: target,
     from: Number(opts && opts.from) || 0,
-    to: Number(opts && opts.to) || 0
+    to: Number(opts && opts.to) || 0,
+    // 部屋を作った側の選択が、そのまま相手にも渡る
+    subject: (opts && opts.subject === 'kobun') ? 'kobun' : 'eigo',
+    example: !!(opts && opts.example)
   };
 }
 
@@ -148,9 +151,10 @@ function vsCreateRoom(opts) {
   const rule = vsNormalizeRule_(opts);
   const need = vsNeededTotal_(rule);
 
-  const res = getJukenWords({ from: rule.from, to: rule.to, limit: need, shuffle: true });
+  const q = { from: rule.from, to: rule.to, limit: need, shuffle: true };
+  const res = (rule.subject === 'kobun') ? getKobunWords(q) : getJukenWords(q);
   const words = (res && res.words) || [];
-  if (!words.length) return vsErr_('その範囲には出題できる単語がありません');
+  if (!words.length) return vsErr_('その範囲には出題できる語がありません');
 
   const lock = LockService.getScriptLock();
   if (!lock.tryLock(VS_LOCK_MS)) return vsErr_('混み合っています。もう一度お試しください');

@@ -25,7 +25,16 @@ const JUKEN_PAGES = {
   'eigo':   { file: 'juken_index',  title: '英単語' },
   'kobun':  { file: 'juken_kobun',  title: '古文単語' },
   'versus': { file: 'juken_versus', title: '対戦モード' },
+  'shakyo': { file: 'juken_shakyo', title: '写経モード' },
 };
+
+// 対戦モードと写経モードは、英単語と古文で中身が変わる（?p=versus&s=kobun）。
+// 戻り先も科目ごとのメニューにする。
+const SUBJECTS = {
+  'eigo':  { label: '英単語' },
+  'kobun': { label: '古文単語' },
+};
+const SUBJECT_PAGES = { 'versus': '対戦モード', 'shakyo': '写経モード' };
 
 function doGet(e) {
   const param = (e && e.parameter) || {};
@@ -38,8 +47,16 @@ function doGet(e) {
   if (page) {
     const template = HtmlService.createTemplateFromFile(page.file);
     template.execUrl = ScriptApp.getService().getUrl();
+    let title = page.title;
+    if (SUBJECT_PAGES[route]) {
+      const asked = String(param.s || '').toLowerCase();
+      const key = SUBJECTS[asked] ? asked : 'eigo';
+      template.subject = key;
+      template.backRoute = key;
+      title = SUBJECT_PAGES[route] + '（' + SUBJECTS[key].label + '）';
+    }
     return template.evaluate()
-      .setTitle(page.title)
+      .setTitle(title)
       .addMetaTag('viewport', 'width=device-width, initial-scale=1, viewport-fit=cover');
   }
 
