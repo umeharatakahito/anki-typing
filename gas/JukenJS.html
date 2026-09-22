@@ -304,9 +304,11 @@
         ? '写経 ・ 見たまま打つ'
         : (this.useExample ? 'STEP 1 ・ ' : '') + what + 'をタイプ';
       $('prompt').textContent = w.ja;
-      $('sub-prompt').textContent = this.shakyo
-        ? '見えている' + what + 'をそのまま打つ'
-        : 'この意味の' + what + 'は？';
+      // 語感や使い方の一言は、データにあるときだけ小さく添える
+      $('sub-prompt').innerHTML = escapeHtml(this.shakyo
+          ? '見えている' + what + 'をそのまま打つ'
+          : 'この意味の' + what + 'は？') +
+        (w.nu ? '<span class="nuance">' + escapeHtml(w.nu) + '</span>' : '');
       $('guide').textContent = '';
       $('banner').textContent = '';
       $('banner').className = 'banner';

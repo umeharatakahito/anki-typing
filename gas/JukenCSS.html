@@ -440,4 +440,24 @@
     .answer-line { font-size: 1.3rem; }
     .hud { gap: 8px; }
   }
+
+  /* 訳だけでは伝わらない語感・使い方の一言 */
+  .nuance {
+    display: block;
+    margin-top: 6px;
+    color: #8aa6c8;
+    font-size: .85rem;
+    line-height: 1.5;
+  }
+  .nuance::before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background: var(--accent);
+    vertical-align: middle;
+    opacity: .7;
+  }
 </style>

@@ -343,9 +343,11 @@
         : (this.useExample() ? 'STEP 1 ・ ' : '') + what + 'をタイプ';
       // 写経では答えが answer-line に開いているので、prompt は意味の参考表示にとどめる
       $('vs-prompt').textContent = w.ja;
-      $('vs-sub-prompt').textContent = race
-        ? '見えている' + what + 'をそのまま打つ'
-        : 'この意味の' + what + 'は？';
+      // 語感や使い方の一言は、データにあるときだけ小さく添える
+      $('vs-sub-prompt').innerHTML = escapeHtml(race
+          ? '見えている' + what + 'をそのまま打つ'
+          : 'この意味の' + what + 'は？') +
+        (w.nu ? '<span class="nuance">' + escapeHtml(w.nu) + '</span>' : '');
       $('vs-guide').textContent = '';
       $('vs-banner').textContent = '';
       $('vs-banner').className = 'banner';
