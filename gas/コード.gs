@@ -18,19 +18,28 @@ const AUTO_MODE_BY_ROUTE = {
   'hard':     '極みモード',
   'kiwami':   '極みモード',
 };
+
+// 大学受験モードの各画面。?p= の値 → { テンプレート名, タイトル }
+const JUKEN_PAGES = {
+  'juken':  { file: 'juken_home',   title: '大学受験モード' },
+  'eigo':   { file: 'juken_index',  title: '英単語' },
+  'kobun':  { file: 'juken_kobun',  title: '古文単語' },
+  'versus': { file: 'juken_versus', title: '対戦モード' },
+};
+
 function doGet(e) {
   const param = (e && e.parameter) || {};
   const route = String(param.p || (e && e.pathInfo) || '').toLowerCase();
 
-  // 大学受験モードと対戦モードは独立した画面を返す。
+  // 大学受験モードは独立した画面を返す。
   // ページ内のリンクは iframe のサンドボックスURLを基準に解決されてしまうため、
   // 実際の /exec URL をテンプレートに渡して絶対リンクを組み立てる。
-  if (route === 'juken' || route === 'versus') {
-    const isVersus = route === 'versus';
-    const template = HtmlService.createTemplateFromFile(isVersus ? 'juken_versus' : 'juken_index');
+  const page = JUKEN_PAGES[route];
+  if (page) {
+    const template = HtmlService.createTemplateFromFile(page.file);
     template.execUrl = ScriptApp.getService().getUrl();
     return template.evaluate()
-      .setTitle(isVersus ? '対戦モード' : '大学受験モード')
+      .setTitle(page.title)
       .addMetaTag('viewport', 'width=device-width, initial-scale=1, viewport-fit=cover');
   }
 

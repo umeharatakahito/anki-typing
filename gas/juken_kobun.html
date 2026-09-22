@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <base target="_top">
+    <meta charset="utf-8">
+    <title>古文単語</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <?!= include('JukenCSS'); ?>
+  </head>
+
+  <body>
+    <div id="app">
+      <section class="screen">
+        <a class="back-link" href="<?= execUrl ?>?p=juken">← 科目をえらぶ</a>
+        <h1 class="title">古文単語</h1>
+        <p class="subtitle">CLASSICAL JAPANESE</p>
+
+        <div class="settings">
+          <p class="hint">
+            いま単語データを作っています。<br>
+            できあがると、現代語訳を見て古語をローマ字入力で答える
+            2段階のタイピングになります。
+          </p>
+        </div>
+
+        <p class="note">もうしばらくお待ちください</p>
+      </section>
+    </div>
+  </body>
+</html>

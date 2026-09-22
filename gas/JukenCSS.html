@@ -92,8 +92,30 @@
     gap: 12px;
   }
 
-  /* 対戦モードは別ページなのでリンクだが、見た目はボタンに揃える */
-  .btn-versus { text-decoration: none; }
+  /* 別ページへ飛ぶ項目はリンクだが、見た目はボタンに揃える */
+  .btn-versus,
+  .btn-link { text-decoration: none; }
+
+  /* まだ用意できていない科目につける印 */
+  .btn .soon {
+    margin-left: auto;
+    padding: 3px 10px;
+    border-radius: 999px;
+    background: rgba(147, 163, 189, .16);
+    color: var(--muted);
+    font-size: .72rem;
+    letter-spacing: .08em;
+  }
+
+  /* 画面の左上に置く戻り導線 */
+  .back-link {
+    display: inline-block;
+    margin-bottom: 4px;
+    color: var(--muted);
+    font-size: .85rem;
+    text-decoration: none;
+  }
+  .back-link:hover { color: var(--accent); }
 
   .note {
     margin-top: 24px;

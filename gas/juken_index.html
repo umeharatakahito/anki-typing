@@ -3,7 +3,7 @@
   <head>
     <base target="_top">
     <meta charset="utf-8">
-    <title>大学受験モード</title>
+    <title>英単語</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <?!= include('JukenCSS'); ?>
   </head>
@@ -13,13 +13,14 @@
 
       <!-- ========== メニュー ========== -->
       <section id="screen-menu" class="screen">
-        <h1 class="title">大学受験モード</h1>
-        <p class="subtitle">TYPING FOR ENTRANCE EXAMS</p>
+        <a class="back-link" href="<?= execUrl ?>?p=juken">← 科目をえらぶ</a>
+        <h1 class="title">英単語</h1>
+        <p class="subtitle">ENGLISH VOCABULARY</p>
 
         <ul class="menu-list">
           <li>
             <button class="btn btn-main" onclick="juken.start();">
-              <span class="num">1</span>英単語
+              <span class="num">1</span>はじめる
             </button>
           </li>
           <li>

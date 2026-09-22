@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <base target="_top">
+    <meta charset="utf-8">
+    <title>大学受験モード</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <?!= include('JukenCSS'); ?>
+  </head>
+
+  <body>
+    <div id="app">
+      <section class="screen">
+        <h1 class="title">大学受験モード</h1>
+        <p class="subtitle">TYPING FOR ENTRANCE EXAMS</p>
+
+        <ul class="menu-list">
+          <li>
+            <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=eigo">
+              <span class="num">1</span>英単語
+            </a>
+          </li>
+          <li>
+            <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=kobun">
+              <span class="num">2</span>古文単語<span class="soon">準備中</span>
+            </a>
+          </li>
+          <li>
+            <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=versus">
+              <span class="num">3</span>対戦モード
+            </a>
+          </li>
+        </ul>
+
+        <p class="note">科目をえらんでください</p>
+      </section>
+    </div>
+  </body>
+</html>
