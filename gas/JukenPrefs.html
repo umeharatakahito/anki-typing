@@ -1,0 +1,73 @@
+<script>
+// 画面の設定を覚えておく共通部品。
+// メニュー画面の input / select を丸ごと拾ってシートに預け、次に開いたときに戻す。
+(function (window, document) {
+  'use strict';
+
+  const KEY = document.body.getAttribute('data-prefs') || 'juken';
+  const ROOTS = ['#screen-menu', '#vs-menu'];
+  // 合言葉は毎回違うので覚えない
+  const SKIP = { 'vs-code': true };
+
+  function controls() {
+    const out = [];
+    ROOTS.forEach(sel => {
+      const root = document.querySelector(sel);
+      if (!root) return;
+      root.querySelectorAll('input[id], select[id]').forEach(el => {
+        if (!SKIP[el.id]) out.push(el);
+      });
+    });
+    return out;
+  }
+
+  function read() {
+    const o = {};
+    controls().forEach(el => {
+      o[el.id] = (el.type === 'checkbox') ? el.checked : el.value;
+    });
+    return o;
+  }
+
+  function apply(o) {
+    if (!o) return;
+    controls().forEach(el => {
+      if (!(el.id in o)) return;
+      if (el.type === 'checkbox') el.checked = !!o[el.id];
+      else el.value = o[el.id];
+      // 勝利条件で問題数欄を出し分けるような、値に連動する表示を働かせる
+      el.dispatchEvent(new Event('change', { bubbles: true }));
+    });
+  }
+
+  let timer = null;
+  let ready = false;
+
+  function save() {
+    if (!ready) return;
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      try {
+        google.script.run.withFailureHandler(() => {}).saveJukenPrefs(KEY, JSON.stringify(read()));
+      } catch (e) { /* 覚えられなくても遊べる */ }
+    }, 500);
+  }
+
+  document.addEventListener('change', event => {
+    if (event.target.matches && event.target.matches('input[id], select[id]')) save();
+  });
+  document.addEventListener('input', event => {
+    if (event.target.matches && event.target.matches('input[type="number"][id], input[type="text"][id]')) save();
+  });
+
+  window.addEventListener('load', () => {
+    google.script.run
+      .withSuccessHandler(s => {
+        try { apply(JSON.parse(s || '{}')); } catch (e) { /* 壊れていたら既定値のまま */ }
+        ready = true;
+      })
+      .withFailureHandler(() => { ready = true; })
+      .getJukenPrefs(KEY);
+  });
+}(window, document));
+</script>

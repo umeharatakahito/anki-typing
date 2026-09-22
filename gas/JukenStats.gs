@@ -161,3 +161,131 @@ function weakKeys_(subject) {
   });
   return out;
 }
+
+// ===============================================================
+// 画面の設定の記憶
+// 端末ごとではなくシートに持つ。GAS はページを毎回違うサブドメインの
+// iframe で出すので localStorage が消えることがあるのと、
+// iPad で決めた設定を PC でもそのまま使えるようにするため。
+// ===============================================================
+
+const PREFS_SHEET  = 'JukenPrefs';
+const PREFS_HEADER = ['key', 'value', 'at'];
+
+function getJukenPrefs(key) {
+  try {
+    const rows = statsRows_(statsSheet_(PREFS_SHEET, PREFS_HEADER), PREFS_HEADER);
+    const hit = rows.filter(r => String(r[0]) === String(key))[0];
+    return hit ? String(hit[1]) : '';
+  } catch (e) {
+    return '';
+  }
+}
+
+function saveJukenPrefs(key, value) {
+  try {
+    const sh = statsSheet_(PREFS_SHEET, PREFS_HEADER);
+    const rows = statsRows_(sh, PREFS_HEADER);
+    for (let i = 0; i < rows.length; i++) {
+      if (String(rows[i][0]) === String(key)) {
+        sh.getRange(i + 2, 2, 1, 2).setValues([[String(value), new Date()]]);
+        return { ok: true };
+      }
+    }
+    sh.appendRow([String(key), String(value), new Date()]);
+    return { ok: true };
+  } catch (e) {
+    return { ok: false, error: String(e) };
+  }
+}
+
+// ===============================================================
+// ゴースト（自分の過去の走り）
+// 同じ設定で一番よかった回を覚えておき、次はその回と同じ問題・同じ順番で
+// 出して競走する。設定ごとに1件だけ持つ。
+// ===============================================================
+
+const GHOST_SHEET  = 'JukenGhost';
+const GHOST_HEADER = ['sig', 'subject', 'score', 'seconds', 'at', 'keys', 'times'];
+
+function readGhost_(sig) {
+  const rows = statsRows_(statsSheet_(GHOST_SHEET, GHOST_HEADER), GHOST_HEADER);
+  const hit = rows.filter(r => String(r[0]) === String(sig))[0];
+  if (!hit) return null;
+  try {
+    return {
+      score: Number(hit[2]) || 0,
+      seconds: Number(hit[3]) || 0,
+      at: Utilities.formatDate(new Date(hit[4]), Session.getScriptTimeZone(), 'M/d HH:mm'),
+      keys: JSON.parse(String(hit[5]) || '[]'),
+      times: JSON.parse(String(hit[6]) || '[]')
+    };
+  } catch (e) {
+    return null;
+  }
+}
+
+function saveJukenGhost(payload) {
+  const lock = LockService.getScriptLock();
+  if (!lock.tryLock(10000)) return { ok: false, error: 'busy' };
+  try {
+    const p = payload || {};
+    const sig = String(p.sig || '');
+    if (!sig) return { ok: false, error: 'no sig' };
+
+    const sh = statsSheet_(GHOST_SHEET, GHOST_HEADER);
+    const rows = statsRows_(sh, GHOST_HEADER);
+    const row = [
+      sig, (p.subject === 'kobun') ? 'kobun' : 'eigo',
+      Number(p.score) || 0, Number(p.seconds) || 0, new Date(),
+      JSON.stringify(p.keys || []), JSON.stringify(p.times || [])
+    ];
+
+    for (let i = 0; i < rows.length; i++) {
+      if (String(rows[i][0]) !== sig) continue;
+      // 前の記録より良いときだけ塗り替える
+      if ((Number(rows[i][2]) || 0) >= row[2]) return { ok: true, kept: true };
+      sh.getRange(i + 2, 1, 1, GHOST_HEADER.length).setValues([row]);
+      return { ok: true, updated: true };
+    }
+    sh.appendRow(row);
+    return { ok: true, created: true };
+  } catch (e) {
+    return { ok: false, error: String(e) };
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+// 見出し語そのものをキーにして、ゴーストと同じ問題を同じ順番で取り出す
+function wordsByKeys_(subject, keys) {
+  const list = (subject === 'kobun') ? KOBUN_WORDS : JUKEN_WORDS;
+  const byKey = {};
+  list.forEach(w => { byKey[(subject === 'kobun') ? w.ko : w.en] = w; });
+  const words = keys.map(k => byKey[k]).filter(w => !!w);
+  return { words: words, matched: words.length };
+}
+
+// ---------------------------------------------------------------
+// 1ラウンド分の出題。ゴーストを使うときは、その回と同じ問題を返す。
+function getJukenRound(opts) {
+  opts = opts || {};
+  const subject = (opts.subject === 'kobun') ? 'kobun' : 'eigo';
+
+  let ghost = null;
+  if (opts.ghost && opts.sig) {
+    try { ghost = readGhost_(opts.sig); } catch (e) { ghost = null; }
+  }
+
+  let res;
+  if (ghost && ghost.keys && ghost.keys.length) {
+    res = wordsByKeys_(subject, ghost.keys);
+    if (!res.words.length) { ghost = null; }   // データが入れ替わっていたら普通に出す
+  }
+  if (!res || !res.words.length) {
+    res = (subject === 'kobun') ? getKobunWords(opts) : getJukenWords(opts);
+    if (ghost) ghost = null;
+  }
+
+  return { words: res.words, matched: res.matched, ghost: ghost };
+}

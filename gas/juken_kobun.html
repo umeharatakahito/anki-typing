@@ -8,7 +8,7 @@
     <?!= include('JukenCSS'); ?>
   </head>
 
-  <body>
+  <body data-prefs="kobun">
     <div id="app">
 
       <!-- ========== メニュー ========== -->
@@ -85,6 +85,11 @@
               <option value="weak">苦手な語だけ</option>
             </select>
           </div>
+          <div class="setting-row">
+            <label class="check" for="ghost-mode">
+              <input type="checkbox" id="ghost-mode">ゴーストと競走（同じ設定の自己ベストと同じ問題で走る）
+            </label>
+          </div>
           <p class="hint" id="range-hint">読み込み中…</p>
         </div>
 
@@ -99,6 +104,9 @@
           <div class="hud-item"><span class="hud-label">ミス</span><span id="hud-miss">0</span></div>
           <div class="hud-item chain" id="hud-chain-box" hidden>
             <span id="hud-chain">0</span><span class="chain-label">チェイン</span>
+          </div>
+          <div class="hud-item ghost" id="hud-ghost-box" hidden>
+            <span class="hud-label">ゴースト</span><span id="hud-ghost">0 / 0</span><span id="hud-ghost-gap" class="gap"></span>
           </div>
           <button class="btn btn-quit" onclick="kobun.quit();">やめる</button>
         </header>
@@ -157,5 +165,6 @@
     <?!= include('RomajiLib'); ?>
     <?!= include('KobunJS'); ?>
     <?!= include('JukenKeyboard'); ?>
+    <?!= include('JukenPrefs'); ?>
   </body>
 </html>

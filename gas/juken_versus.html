@@ -8,7 +8,7 @@
     <?!= include('JukenVersusCSS'); ?>
   </head>
 
-  <body data-subject="<?= subject ?>">
+  <body data-subject="<?= subject ?>" data-prefs="versus-<?= subject ?>">
     <div id="app">
 
       <!-- ========== メニュー ========== -->
@@ -181,5 +181,6 @@
     <?!= include('RomajiLib'); ?>
     <?!= include('JukenVersusJS'); ?>
     <?!= include('JukenKeyboard'); ?>
+    <?!= include('JukenPrefs'); ?>
   </body>
 </html>

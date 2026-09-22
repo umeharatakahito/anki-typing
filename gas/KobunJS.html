@@ -45,6 +45,8 @@
     index: 0,
     useExample: true,
     shakyo: false,     // 答えを最初から見せて、速さだけを競うモード
+    ghost: null,       // 同じ設定の自己ベスト。あれば並走する
+    times: [],         // 今回、各問を解き終えた時刻（開始からのミリ秒）
     revealCount: 0,
     score: 0,
     combo: 0,
@@ -126,6 +128,8 @@
           this.renderKana();
         }
 
+        this.renderGhost();
+
         if (left <= 0) {
           this.stopTimer();
           this.onTimeout();
@@ -182,6 +186,13 @@
         .getKobunMeta();
     },
 
+    // 同じ設定どうしでだけ競走できるよう、設定から鍵を作る
+    signature: function (opts) {
+      return ['kobun', this.shakyo ? 'shakyo' : 'quiz', opts.pos,
+              opts.from || '', opts.to || '', opts.limit,
+              this.useExample ? 'ex' : 'noex', opts.source].join('|');
+    },
+
     // ---- 開始 ----
     start: function () {
       const opts = {
@@ -195,6 +206,10 @@
       // 写経は答えが見えている勝負なので、例文ステップは付けない
       this.shakyo = !!($('shakyo-mode') && $('shakyo-mode').checked);
       this.useExample = !this.shakyo && $('example-mode').value === 'on';
+      opts.subject = 'kobun';
+      opts.ghost = !!($('ghost-mode') && $('ghost-mode').checked);
+      opts.sig = this.signature(opts);
+      this.sig = opts.sig;
 
       this.showScreen('game');
       this.stopTimer();
@@ -207,6 +222,7 @@
       $('judge').textContent = '';
       $('timer-bar').style.width = '100%';
       ['hint-btn', 'retry-btn'].forEach(id => { $(id).hidden = true; });
+      $('hud-ghost-box').hidden = true;
 
       if (this.loadTimer) clearTimeout(this.loadTimer);
       this.loadTimer = setTimeout(() => {
@@ -241,9 +257,16 @@
           this.judges = { great: 0, good: 0, okay: 0 };
           this.missedWords = [];
           this.clearedWords = [];
+          this.times = [];
+          this.ghost = (res.ghost && res.ghost.times && res.ghost.times.length) ? res.ghost : null;
+          $('hud-ghost-box').hidden = !this.ghost;
           this.startedAt = Date.now();
           this.playing = true;
           this.showQuestion();
+          if (this.ghost) {
+            $('banner').textContent = '自己ベスト（' + this.ghost.at + '・' +
+              this.ghost.score.toLocaleString() + '点）と同じ問題で競走';
+          }
         })
         .withFailureHandler(err => {
           done();
@@ -251,7 +274,7 @@
           $('sub-prompt').textContent = err && err.message ? err.message : '';
           $('retry-btn').hidden = false;
         })
-        .getKobunWords(opts);
+        .getJukenRound(opts);
     },
 
     // ---- 打つ対象のかなをセットする ----
@@ -396,6 +419,7 @@
     next: function () {
       const w = this.words[this.index];
       if (w && !this.missedThisWord) this.clearedWords.push(w.ko);
+      this.times.push(Date.now() - this.startedAt);
       this.index++;
       if (this.index >= this.words.length) {
         this.finish();
@@ -452,6 +476,24 @@
       $('banner').className = 'banner ng';
     },
 
+    // ゴーストの現在地と、こちらとの差
+    renderGhost: function () {
+      if (!this.ghost) return;
+      const now = Date.now() - this.startedAt;
+      const t = this.ghost.times;
+      let gi = 0;
+      while (gi < t.length && t[gi] <= now) gi++;
+      $('hud-ghost').textContent = gi + ' / ' + t.length;
+
+      const box = $('hud-ghost-box');
+      const done = this.times.length;
+      if (!done || done > t.length) { box.className = 'hud-item ghost'; return; }
+      const diff = t[done - 1] - this.times[done - 1];
+      $('hud-ghost-gap').textContent =
+        (diff >= 0 ? '+' : '−') + (Math.abs(diff) / 1000).toFixed(1);
+      box.className = 'hud-item ghost ' + (diff >= 0 ? 'lead' : 'behind');
+    },
+
     renderHud: function () {
       $('hud-progress').textContent = (this.index + 1) + ' / ' + this.words.length;
       $('hud-score').textContent = this.score.toLocaleString();
@@ -468,7 +510,7 @@
       const mm = String(Math.floor(sec / 60)).padStart(2, '0');
       const ss = String(sec % 60).padStart(2, '0');
 
-      $('result-subtitle').textContent = this.words.length + ' 問おわり';
+      $('result-subtitle').innerHTML = this.ghostVerdict() || (this.words.length + ' 問おわり');
       $('result-stats').innerHTML =
         '<div class="result-row total"><span>スコア</span><span>' + this.score.toLocaleString() + '</span></div>' +
         '<div class="result-row"><span>最大チェイン</span><span>' + this.comboMax + '</span></div>' +
@@ -490,7 +532,41 @@
       }
 
       this.saveResult(sec);
+      this.saveGhost(sec);
       this.showScreen('result');
+    },
+
+    // ゴーストとの決着。最後まで解いた回どうしで比べる。
+    ghostVerdict: function () {
+      const g = this.ghost;
+      const done = this.times.length;
+      if (!g || !done) return '';
+      const n = Math.min(done, g.times.length);
+      const diff = g.times[n - 1] - this.times[n - 1];
+      const sec = (Math.abs(diff) / 1000).toFixed(1);
+      const beat = this.score > g.score;
+      const lead = diff >= 0
+        ? '<b class="win">ゴーストに ' + sec + ' 秒勝ち</b>'
+        : '<b class="lose">ゴーストに ' + sec + ' 秒負け</b>';
+      return lead + '　（自己ベスト ' + g.score.toLocaleString() + ' 点 → 今回 ' +
+        this.score.toLocaleString() + ' 点' + (beat ? '・更新' : '') + '）';
+    },
+
+    // 今回の走りをゴーストとして預ける。前より良いときだけ残る。
+    saveGhost: function (sec) {
+      if (!this.sig || this.times.length !== this.words.length || !this.words.length) return;
+      try {
+        google.script.run
+          .withFailureHandler(() => {})
+          .saveJukenGhost({
+            sig: this.sig,
+            subject: 'kobun',
+            score: this.score,
+            seconds: sec,
+            keys: this.words.map(w => w.ko),
+            times: this.times
+          });
+      } catch (e) { /* 残せなくても続行 */ }
     },
 
     // 記録（履歴・苦手な語）をサーバーに預ける。失敗しても遊びは止めない。

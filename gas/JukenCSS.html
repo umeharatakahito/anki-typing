@@ -505,4 +505,27 @@
     .review-list-plain li { flex-wrap: wrap; gap: 4px 12px; }
     .review-list-plain li b { min-width: 0; }
   }
+
+  /* ---- ゴースト（自己ベストとの並走）---- */
+  .hud-item[hidden] { display: none; }
+  .hud-item.ghost {
+    gap: 6px;
+    padding: 3px 12px;
+    border-radius: 999px;
+    background: rgba(147, 163, 189, .14);
+    color: var(--muted);
+  }
+  .hud-item.ghost .gap { font-variant-numeric: tabular-nums; font-weight: 700; }
+  .hud-item.ghost.lead   { background: rgba(52, 211, 153, .16); color: var(--ok); }
+  .hud-item.ghost.behind { background: rgba(248, 113, 113, .16); color: var(--ng); }
+  .hud-item.ghost.lead .hud-label,
+  .hud-item.ghost.behind .hud-label { color: inherit; opacity: .75; }
+
+  #result-subtitle .win  { color: var(--ok); }
+  #result-subtitle .lose { color: var(--ng); }
+
+  @media (max-width: 700px) {
+    .hud-item.ghost { padding: 3px 8px; }
+    .hud-item.ghost + .hud-item { border-left: none; }
+  }
 </style>
