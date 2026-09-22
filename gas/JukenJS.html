@@ -362,7 +362,7 @@
       $('answer-line').innerHTML =
         '<span class="done">' + escapeHtml(done) + '</span>' +
         '<span class="peek">' + escapeHtml(peek) + '</span>' +
-        '<span class="rest">' + escapeHtml(rest) + '</span>';
+        '<span class="' + (this.shakyo ? 'show' : 'rest') + '">' + escapeHtml(rest) + '</span>';
     },
 
     onPhase1Clear: function () {

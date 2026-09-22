@@ -404,7 +404,7 @@
       const rest = this.openTarget ? tail : tail.replace(/[a-z0-9']/g, '_');
       $('vs-answer-line').innerHTML =
         '<span class="done">' + escapeHtml(done) + '</span>' +
-        '<span class="rest">' + escapeHtml(rest) + '</span>';
+        '<span class="' + (this.openTarget ? 'show' : 'rest') + '">' + escapeHtml(rest) + '</span>';
     },
 
     renderKana: function () {
@@ -412,7 +412,7 @@
       for (let i = 0; i < this.kanaTokens.length; i++) {
         const tok = this.kanaTokens[i];
         if (i < this.idx1) html += '<span class="done">' + escapeHtml(tok) + '</span>';
-        else if (this.hintShown) html += '<span class="rest">' + escapeHtml(tok) + '</span>';
+        else if (this.hintShown) html += '<span class="show">' + escapeHtml(tok) + '</span>';
         else html += '<span class="rest">' + '○'.repeat(tok.length) + '</span>';
       }
       $('vs-answer-line').innerHTML = html;

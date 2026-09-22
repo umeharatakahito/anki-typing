@@ -394,7 +394,10 @@
       } else {
         $('phase-tag').textContent = this.shakyo ? '写経 ・ 見たまま打つ' : '一問一答';
         $('prompt').textContent = w.q;
-        $('sub-prompt').innerHTML = escapeHtml(
+        // 写経は答えを競う勝負ではないので、読みだけでなく表記も先に見せる
+        $('sub-prompt').innerHTML =
+          (this.shakyo ? '<span class="context-en">' + escapeHtml(headword(w)) + '</span>' : '') +
+          escapeHtml(
             (this.shakyo ? '見えている語をそのまま打つ' : '答えは？') +
             '　プリント No.' + w.pr) +
           (w.nu ? '<span class="nuance">' + escapeHtml(w.nu) + '</span>' : '');
@@ -435,7 +438,7 @@
           html += '<span class="done">' + escapeHtml(tok) + '</span>';
         } else if (this.shakyo) {
           // 写経は伏せない
-          html += '<span class="rest">' + escapeHtml(tok) + '</span>';
+          html += '<span class="show">' + escapeHtml(tok) + '</span>';
         } else if (this.hintShown || i < this.revealCount) {
           html += '<span class="peek">' + escapeHtml(tok) + '</span>';
         } else {
