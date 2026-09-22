@@ -274,9 +274,11 @@
         ? '写経 ・ 見たまま打つ'
         : (this.useExample && w.ex ? 'STEP 1 ・ ' : '') + '古語をタイプ';
       $('prompt').textContent = w.ja;
-      $('sub-prompt').textContent =
-        (this.shakyo ? '見えている古語をそのまま打つ' : 'この意味の古語は？') +
-        (w.pos ? '（' + w.pos + '）' : '') + '　見出し語 ' + w.no;
+      // 語感や使い方の一言は、データにあるときだけ小さく添える
+      $('sub-prompt').innerHTML = escapeHtml(
+          (this.shakyo ? '見えている古語をそのまま打つ' : 'この意味の古語は？') +
+          (w.pos ? '（' + w.pos + '）' : '') + '　見出し語 ' + w.no) +
+        (w.nu ? '<span class="nuance">' + escapeHtml(w.nu) + '</span>' : '');
       $('guide').textContent = '';
       $('banner').textContent = '';
       $('banner').className = 'banner';
