@@ -28,6 +28,11 @@
               <span class="num">2</span>対戦でやる
             </a>
           </li>
+          <li>
+            <button class="btn btn-main" onclick="juken.showStats();">
+              <span class="num">3</span>記録を見る
+            </button>
+          </li>
         </ul>
 
         <div class="settings">
@@ -69,6 +74,13 @@
               <input type="checkbox" id="shakyo-mode">写経モード（答えを最初から見せて、速さだけを競う）
             </label>
           </div>
+          <div class="setting-row">
+            <label for="source-mode">出題元</label>
+            <select id="source-mode">
+              <option value="all" selected>全体から</option>
+              <option value="weak">苦手な語だけ</option>
+            </select>
+          </div>
           <p class="hint" id="range-hint">読み込み中…</p>
         </div>
 
@@ -108,6 +120,16 @@
         </div>
 
         <div class="banner" id="banner"></div>
+      </section>
+
+      <!-- ========== 記録 ========== -->
+      <section id="screen-stats" class="screen" hidden>
+        <h1 class="title">記録</h1>
+        <p class="subtitle">英単語</p>
+        <div id="stats-body"></div>
+        <div class="result-actions" style="margin-top:28px;">
+          <button class="btn" onclick="juken.toMenu();">メニューに戻る</button>
+        </div>
       </section>
 
       <!-- ========== 結果 ========== -->

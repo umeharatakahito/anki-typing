@@ -99,6 +99,36 @@
   @media (min-width: 821px) {
     #kb { max-width: 700px; margin: 0 auto; border-radius: 12px 12px 0 0; border: 1px solid var(--line); }
   }
+
+  /* 画面の高さが足りないとキーボードが出題を覆ってしまうので、
+     iPad の横向きや分割表示では幅に関係なく詰める。 */
+  @media (max-height: 720px) {
+    .kb-bar { display: none; }
+    .kb-key { height: 34px; font-size: 1rem; }
+    .kb-row { margin-top: 4px; gap: 4px; }
+  }
+  @media (max-height: 560px) {
+    .kb-key { height: 28px; font-size: .9rem; }
+    #kb { padding: 4px 4px calc(5px + env(safe-area-inset-bottom, 0px)); }
+  }
+
+  /* キーボードが出ている間は出題側も詰めて、答えの行が隠れないようにする */
+  body.kb-open .stage { padding-top: 14px; padding-bottom: 6px; }
+  body.kb-open .prompt { margin: 10px 0 4px; }
+  body.kb-open .answer-line { margin: 12px 0 6px; }
+  body.kb-open .banner { margin-top: 8px; min-height: 1.6em; }
+  body.kb-open .judge { margin-top: 4px; min-height: 1.4em; }
+  body.kb-open .stage-actions { margin-top: 12px; }
+
+  /* 物理キーの受け口。見えないが、フォーカスは置ける */
+  #kb-sink {
+    position: fixed;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+    outline: none;
+  }
 </style>
 
 <div id="kb" aria-hidden="true">
@@ -108,6 +138,7 @@
   <div id="kb-rows"></div>
 </div>
 <button type="button" id="kb-open">⌨ キーボード</button>
+<div id="kb-sink" tabindex="-1" aria-hidden="true"></div>
 
 <script>
 (function (window, document) {
@@ -136,7 +167,18 @@
   const rowsEl = document.getElementById('kb-rows');
   const modeEl = document.getElementById('kb-mode');
   const openBtn = document.getElementById('kb-open');
+  const sink = document.getElementById('kb-sink');
   const numRowId = 'kb-num';
+
+  // GAS はページを iframe の中で表示するため、画面内に
+  // フォーカスが無いと物理キーボードのイベントが届かない。
+  // 画面キーボードを閉じたときや画面を触ったときに、必ず取り戻す。
+  function grabKeys() {
+    try {
+      window.focus();
+      sink.focus({ preventScroll: true });
+    } catch (e) { /* 取れない環境は素通り */ }
+  }
 
   ROWS.forEach(row => {
     const div = document.createElement('div');
@@ -224,6 +266,17 @@
     pref = v;
     if (!v) closedAt = Date.now();
     sync();
+    grabKeys();
+    if (v) scrollAnswerIntoView();
+  }
+
+  // 答えの行がキーボードに隠れていたら、見える位置まで送る
+  function scrollAnswerIntoView() {
+    const el = document.getElementById('answer-line') || document.getElementById('vs-answer-line');
+    if (!el) return;
+    setTimeout(() => {
+      try { el.scrollIntoView({ block: 'center', behavior: 'smooth' }); } catch (e) { el.scrollIntoView(); }
+    }, 60);
   }
 
   openBtn.addEventListener('click', function () {
@@ -232,6 +285,12 @@
     setVisible(true);
   });
   window.addEventListener('resize', sync);
+
+  // 画面のどこを触ってもキー入力の受け口は自分のところに戻す
+  document.addEventListener('pointerup', event => {
+    if (event.target.closest('input, select, textarea, a')) return;
+    grabKeys();
+  });
 
   function updateMode() {
     const j = game();
@@ -249,6 +308,13 @@
     if (tag) new MutationObserver(updateMode).observe(tag, { childList: true, characterData: true, subtree: true });
     updateMode();
     sync();
+    grabKeys();
+
+    // 新しい問題が出たときだけ、答えの行が隠れていないか見直す
+    const prompt = document.getElementById('prompt') || document.getElementById('vs-prompt');
+    if (prompt) new MutationObserver(() => {
+      if (document.body.classList.contains('kb-open')) scrollAnswerIntoView();
+    }).observe(prompt, { childList: true, characterData: true, subtree: true });
   });
 }(window, document));
 </script>

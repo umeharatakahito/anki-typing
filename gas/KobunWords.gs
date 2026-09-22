@@ -361,10 +361,14 @@ function getKobunWords(opts) {
   const limit = Number(opts.limit) || 20;
   const pos   = opts.pos || 'all';
 
+  // 苦手な語だけから出すときは、範囲や品詞より苦手リストを優先する
+  const weak = (opts.source === 'weak') ? weakKeys_('kobun') : null;
+
   let words = KOBUN_WORDS.filter(w =>
     (!from || w.no >= from) &&
     (!to   || w.no <= to) &&
-    (pos === 'all' || matchesPos_(w.pos, pos))
+    (pos === 'all' || matchesPos_(w.pos, pos)) &&
+    (!weak || weak[w.ko] !== undefined)
   );
 
   const matched = words.length;
@@ -375,6 +379,9 @@ function getKobunWords(opts) {
       const j = Math.floor(Math.random() * (i + 1));
       [words[i], words[j]] = [words[j], words[i]];
     }
+  } else if (weak) {
+    // 苦手な語は、取りこぼした回数が多いものから
+    words = words.slice().sort((a, b) => weak[b.ko] - weak[a.ko]);
   } else {
     words = words.slice().sort((a, b) => a.no - b.no);
   }

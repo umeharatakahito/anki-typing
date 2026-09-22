@@ -460,4 +460,49 @@
     vertical-align: middle;
     opacity: .7;
   }
+
+  /* ---- 記録（履歴・苦手な語）---- */
+  .stats-head {
+    margin: 26px 0 10px;
+    color: var(--muted);
+    font-size: .85rem;
+    letter-spacing: .1em;
+  }
+  .stats-head:first-child { margin-top: 0; }
+  #stats-body { max-width: 560px; margin: 0 auto; }
+  #stats-body .result-row { margin-bottom: 8px; }
+  #stats-body .result-row span:first-child { font-size: .9rem; }
+
+  .review-list-plain {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 6px;
+  }
+  .review-list-plain li {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 10px 14px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    font-size: .95rem;
+  }
+  .review-list-plain li b { color: var(--accent); font-weight: 600; min-width: 8em; }
+  .review-list-plain li span { flex: 1; overflow-wrap: anywhere; }
+  .miss-count { color: var(--ng); font-style: normal; font-size: .85rem; }
+
+  /* タップで発音できる行 */
+  li.say { cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  li.say:hover { border-color: var(--accent); }
+  li.say.said { border-color: var(--accent); background: rgba(59, 201, 219, .12); }
+  .say-icon { margin-left: auto; font-style: normal; opacity: .55; font-size: .95rem; }
+  li.say:hover .say-icon { opacity: 1; }
+
+  @media (max-width: 700px) {
+    .review-list-plain li { flex-wrap: wrap; gap: 4px 12px; }
+    .review-list-plain li b { min-width: 0; }
+  }
 </style>

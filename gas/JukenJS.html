@@ -67,7 +67,7 @@
 
     // ---- 画面切替 ----
     showScreen: function (name) {
-      ['menu', 'game', 'result'].forEach(s => {
+      ['menu', 'game', 'result', 'stats'].forEach(s => {
         const el = $('screen-' + s);
         if (el) el.hidden = (s !== name);
       });
@@ -227,7 +227,8 @@
         to: $('no-to').value,
         limit: $('round-size').value,
         shuffle: $('order-mode').value === 'shuffle',
-        kind: $('kind-mode').value
+        kind: $('kind-mode').value,
+        source: $('source-mode') ? $('source-mode').value : 'all'
       };
       // 写経は答えが見えている勝負なので、例文ステップは付けない
       this.shakyo = !!($('shakyo-mode') && $('shakyo-mode').checked);
@@ -261,7 +262,10 @@
           done();
           if (!res || res.error || !res.words || !res.words.length) {
             $('prompt').textContent = '出題できる単語がありません';
-            $('sub-prompt').textContent = res && res.error ? res.error : '出題範囲を見直してください';
+            $('sub-prompt').textContent = res && res.error ? res.error
+              : (opts.source === 'weak'
+                  ? 'まだ苦手な単語 がありません。ふつうに解くと溜まります'
+                  : '出題範囲を見直してください');
             $('retry-btn').hidden = false;
             return;
           }
@@ -275,6 +279,7 @@
           this.comboMax = 0;
           this.judges = { great: 0, good: 0, okay: 0 };
           this.missedWords = [];
+          this.clearedWords = [];
           this.startedAt = Date.now();
           this.playing = true;
           this.showQuestion();
@@ -438,6 +443,8 @@
     },
 
     next: function () {
+      const w = this.words[this.index];
+      if (w && !this.missedThisWord) this.clearedWords.push(w.en);
       this.index++;
       if (this.index >= this.words.length) {
         this.finish();
@@ -525,15 +532,88 @@
 
       const review = $('review');
       if (this.missedWords.length) {
+        // 単語をタップすると発音する
         $('review-list').innerHTML = this.missedWords
-          .map(w => '<li><b>' + escapeHtml(w.en) + '</b><span>' + escapeHtml(w.ja) + '</span></li>')
+          .map(w => '<li class="say" data-say="' + escapeHtml(w.en) + '">' +
+                    '<b>' + escapeHtml(w.en) + '</b>' +
+                    '<span>' + escapeHtml(w.ja) + '</span>' +
+                    '<i class="say-icon">🔊</i></li>')
           .join('');
         review.hidden = false;
       } else {
         review.hidden = true;
       }
 
+      this.saveResult(sec);
       this.showScreen('result');
+    },
+
+    // 記録（履歴・苦手な語）をサーバーに預ける。失敗しても遊びは止めない。
+    saveResult: function (sec) {
+      try {
+        google.script.run
+          .withFailureHandler(() => {})
+          .saveJukenResult({
+            subject: 'eigo',
+            mode: this.shakyo ? 'shakyo' : 'quiz',
+            score: this.score,
+            questions: this.words.length,
+            correct: this.correct,
+            miss: this.miss,
+            combo: this.comboMax,
+            seconds: sec,
+            from: $('no-from').value,
+            to: $('no-to').value,
+            missed: this.missedWords.map(w => ({ key: w.en, no: w.no, ja: w.ja })),
+            cleared: this.clearedWords
+          });
+      } catch (e) { /* 記録は付けられなくても続行 */ }
+    },
+
+    // ---- 記録（履歴・苦手な語）----
+    showStats: function () {
+      this.showScreen('stats');
+      $('stats-body').innerHTML = '<p class="loading">読み込み中…</p>';
+      google.script.run
+        .withSuccessHandler(res => this.renderStats(res))
+        .withFailureHandler(() => {
+          $('stats-body').innerHTML = '<p class="loading">記録を読み込めませんでした</p>';
+        })
+        .getJukenStats('eigo');
+    },
+
+    renderStats: function (res) {
+      if (!res || !res.ok) {
+        $('stats-body').innerHTML = '<p class="loading">記録を読み込めませんでした</p>';
+        return;
+      }
+      if (!res.plays) {
+        $('stats-body').innerHTML = '<p class="loading">まだ記録がありません</p>';
+        return;
+      }
+      const modeName = m => m === 'shakyo' ? '写経' : '通常';
+      const row = (a, b) => '<div class="result-row"><span>' + a + '</span><span>' + b + '</span></div>';
+
+      let html = '<h3 class="stats-head">ベスト5</h3>';
+      html += res.best.map((r, i) =>
+        '<div class="result-row' + (i === 0 ? ' total' : '') + '">' +
+        '<span>' + (i + 1) + '位　' + escapeHtml(r.at) + '　' + modeName(r.mode) + '</span>' +
+        '<span>' + r.score.toLocaleString() + '</span></div>').join('');
+
+      html += '<h3 class="stats-head">最近の記録</h3>';
+      html += res.recent.map(r =>
+        row(escapeHtml(r.at) + '　' + modeName(r.mode) + '　' + r.correct + '/' + r.questions + '問',
+            r.score.toLocaleString() + '点')).join('');
+
+      html += '<h3 class="stats-head">苦手な単語　' + res.weakCount + '語</h3>';
+      html += res.weak.length
+        ? '<ul class="review-list-plain">' + res.weak.map(w =>
+            '<li class="say" data-say="' + escapeHtml(w.key) + '">' +
+            '<b>' + escapeHtml(w.key) + '</b><span>' + escapeHtml(w.ja) + '</span>' +
+            '<i class="say-icon">🔊</i><em class="miss-count">×' + w.miss + '</em></li>').join('') + '</ul>'
+        : '<p class="loading">いまのところありません</p>';
+
+      $('stats-body').innerHTML = html;
     },
 
     // ---- 入力 ----
@@ -587,6 +667,15 @@
       if (this.idx1 >= this.wordR.length) this.onPhase2Clear();
     }
   };
+
+  // ふりかえり・苦手な単語は、タップすると発音する
+  document.addEventListener('click', event => {
+    const li = event.target.closest('li.say');
+    if (!li) return;
+    juken.speak(li.dataset.say);
+    li.classList.add('said');
+    setTimeout(() => li.classList.remove('said'), 400);
+  });
 
   window.addEventListener('keydown', event => {
     if (event.isComposing || event.key === 'Process') return;

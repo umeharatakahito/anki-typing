@@ -3766,9 +3766,13 @@ function getJukenWords(opts) {
   const limit = Number(opts.limit) || 20;
   const kind  = opts.kind || 'all';
 
+  // 苦手な語だけから出すときは、範囲や種別より苦手リストを優先する
+  const weak = (opts.source === 'weak') ? weakKeys_('eigo') : null;
+
   let words = JUKEN_WORDS.filter(w =>
     (!from || w.no >= from) && (!to || w.no <= to) &&
-    (kind === 'all' || (w.type || 'word') === kind)
+    (kind === 'all' || (w.type || 'word') === kind) &&
+    (!weak || weak[w.en] !== undefined)
   );
 
   const matched = words.length;
@@ -3778,6 +3782,9 @@ function getJukenWords(opts) {
       const j = Math.floor(Math.random() * (i + 1));
       [words[i], words[j]] = [words[j], words[i]];
     }
+  } else if (weak) {
+    // 苦手な語は、取りこぼした回数が多いものから
+    words.sort((a, b) => weak[b.en] - weak[a.en]);
   } else {
     words.sort((a, b) => a.no - b.no);
   }
