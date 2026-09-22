@@ -33,6 +33,11 @@
     return escapeHtml(ex).replace(/〔([^〕]*)〕/, '<span class="target">$1</span>');
   }
 
+  // 見出し語の表示形。漢字表記があれば添える
+  function headword(w) {
+    return w.ko + (w.kanji ? '（' + w.kanji + '）' : '');
+  }
+
   const kobun = {
     meta: null,
     words: [],
@@ -139,7 +144,7 @@
       this.renderKana();
 
       if (this.phase === 1) {
-        $('answer-line').innerHTML = '<span class="reveal">' + escapeHtml(w.ko) + '</span>';
+        $('answer-line').innerHTML = '<span class="reveal">' + escapeHtml(headword(w)) + '</span>';
         $('banner').textContent = '時間切れ — 答えは「' + w.ko + '」';
         $('banner').className = 'banner ng';
         setTimeout(() => {
@@ -265,7 +270,8 @@
         (this.useExample && w.ex ? 'STEP 1 ・ ' : '') + '古語をタイプ';
       $('prompt').textContent = w.ja;
       $('sub-prompt').textContent =
-        'この意味の古語は？' + (w.pos ? '（' + w.pos + '）' : '');
+        'この意味の古語は？' + (w.pos ? '（' + w.pos + '）' : '') +
+        '　見出し語 ' + w.no;
       $('guide').textContent = '';
       $('banner').textContent = '';
       $('banner').className = 'banner';
@@ -283,11 +289,13 @@
       const w = this.words[this.index];
       this.locked = true;
       this.stopTimer();
-      let shown = w.ko;
-      if (w.kanji) shown += '（' + w.kanji + '）';
-      $('answer-line').innerHTML = '<span class="done">' + escapeHtml(shown) + '</span>';
+      $('answer-line').innerHTML = '<span class="done">' + escapeHtml(headword(w)) + '</span>';
       $('banner').textContent = '正解！';
       $('banner').className = 'banner ok';
+      // 本が同じ見出し語番号にまとめている異形も見せておく
+      if (w.alt && w.alt.length) {
+        $('guide').textContent = '同じ番号: ' + w.alt.join('・');
+      }
 
       if (!this.useExample || !w.ex) {
         this.correct++;
@@ -456,7 +464,7 @@
       const review = $('review');
       if (this.missedWords.length) {
         $('review-list').innerHTML = this.missedWords
-          .map(w => '<li><b>' + escapeHtml(w.ko + (w.kanji ? '（' + w.kanji + '）' : '')) +
+          .map(w => '<li><b>' + escapeHtml(headword(w)) +
                     '</b><span>' + escapeHtml(w.ja) + '</span></li>')
           .join('');
         review.hidden = false;
