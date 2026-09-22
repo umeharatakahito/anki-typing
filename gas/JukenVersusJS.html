@@ -9,9 +9,11 @@
 
   const $ = id => document.getElementById(id);
 
-  // このページが英単語用か古文用か。部屋を作るときの既定値になる。
+  // このページがどの科目用か。部屋を作るときの既定値になる。
   // 対戦が始まったあとは、部屋の設定（rule.subject）のほうが優先される。
-  const PAGE_SUBJECT = document.body.getAttribute('data-subject') === 'kobun' ? 'kobun' : 'eigo';
+  const SUBJECT_OK = { kobun: 1, rekishi: 1 };
+  const PAGE_SUBJECT = SUBJECT_OK[document.body.getAttribute('data-subject')]
+    ? document.body.getAttribute('data-subject') : 'eigo';
 
 
   const escapeHtml = s => String(s)
@@ -57,9 +59,10 @@
     // 出題中の科目と、例文ステップを使うか。どちらも部屋の設定で決まる。
     subjectOf: function () {
       const r = this.state && this.state.rule;
-      return (r && r.subject === 'kobun') ? 'kobun' : 'eigo';
+      return (r && SUBJECT_OK[r.subject]) ? r.subject : 'eigo';
     },
-    isKana: function () { return this.subjectOf() === 'kobun'; },
+    // かな側の科目（古文・歴史）は、答えそのものをローマ字で打つ
+    isKana: function () { return this.subjectOf() !== 'eigo'; },
     isShakyo: function () {
       const r = this.state && this.state.rule;
       return !!(r && r.style === 'shakyo');
@@ -69,6 +72,11 @@
       return !!(r && r.example);
     },
     head: function (w) { return this.isKana() ? w.ko : w.en; },
+    // 何を打たせているかの呼び名
+    whatName: function () {
+      const s = this.subjectOf();
+      return s === 'kobun' ? '古語' : s === 'rekishi' ? '答え' : '英単語';
+    },
 
     // STEP1
     enTarget: '', enPos: 0,
@@ -325,7 +333,7 @@
 
       const kana = this.isKana();
       const race = this.isShakyo();
-      const what = kana ? '古語' : '英単語';
+      const what = this.whatName();
       // 写経は答えを伏せない。かな側は hintShown が「見えている」状態にあたる。
       this.openTarget = race;
       if (kana) {
@@ -346,7 +354,7 @@
       // 語感や使い方の一言は、データにあるときだけ小さく添える
       $('vs-sub-prompt').innerHTML = escapeHtml(race
           ? '見えている' + what + 'をそのまま打つ'
-          : 'この意味の' + what + 'は？') +
+          : (this.subjectOf() === 'rekishi' ? '答えは？' : 'この意味の' + what + 'は？')) +
         (w.nu ? '<span class="nuance">' + escapeHtml(w.nu) + '</span>' : '');
       $('vs-guide').textContent = '';
       $('vs-banner').textContent = '';
@@ -652,7 +660,8 @@
         return;
       }
 
-      if (!/^[a-z0-9\-,.\s]$/.test(key)) return;
+      // ' も通す。「ん」＋母音／や行は n' と nn のどちらでも打てる
+      if (!/^[a-z0-9\-,.'\s]$/.test(key)) return;
       if (!this.wordR || this.idx1 >= this.wordR.length) return;
 
       this.temp += key;
@@ -722,14 +731,26 @@
 
   window.addEventListener('load', () => {
     bind();
-    call(PAGE_SUBJECT === 'kobun' ? 'getKobunMeta' : 'getJukenMeta').then(meta => {
+    // 歴史は一問一答なので、例文の2段階は使わない
+    if (PAGE_SUBJECT === 'rekishi') {
+      const row = $('vs-example') && $('vs-example').closest('.row');
+      if (row) row.hidden = true;
+    }
+    call(PAGE_SUBJECT === 'kobun' ? 'getKobunMeta'
+       : PAGE_SUBJECT === 'rekishi' ? 'getRekishiMeta'
+       : 'getJukenMeta').then(meta => {
       if (!meta) return;
       ['vs-from', 'vs-to'].forEach(id => { $(id).min = meta.minNo; $(id).max = meta.maxNo; });
+      const unit = meta.unit || '見出し語番号';
+      const label = document.querySelector('label[for="vs-from"]');
+      if (label) label.textContent = unit;
       $('vs-range-hint').textContent =
-        '収録: ' + meta.total + '語（見出し語番号 ' + meta.minNo + '〜' + meta.maxNo + '）　空欄なら全範囲';
+        '収録: ' + meta.total + (PAGE_SUBJECT === 'rekishi' ? '問（' : '語（') +
+        unit + ' ' + meta.minNo + '〜' + meta.maxNo + '）　空欄なら全範囲';
     }).catch(() => { $('vs-range-hint').textContent = '収録範囲を取得できませんでした'; });
 
-    if (PAGE_SUBJECT !== 'kobun' && window.speechSynthesis) {
+    // 読み上げがあるのは英単語だけ
+    if (PAGE_SUBJECT === 'eigo' && window.speechSynthesis) {
       vs.voice = vs.pickVoice();
       window.speechSynthesis.onvoiceschanged = () => { vs.voice = vs.pickVoice(); };
     }

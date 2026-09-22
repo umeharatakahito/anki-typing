@@ -2,14 +2,19 @@
 (function (window, document) {
   'use strict';
 
-  const PHASE1_DELAY = 1300;  // 英単語正解 → 例文へ
-  const PHASE2_DELAY = 2000;  // 意味正解 → 次の単語へ
-  const TIME_LIMIT   = 20000; // 1問あたりの制限時間
-  const REVEAL_DELAY = 2600;  // 時間切れで答えを見せる時間
+  const NEXT_DELAY   = 1500;  // 正解 → 次の問題へ
+  const REVEAL_DELAY = 2800;  // 時間切れで答えを見せる時間
 
-  const BASE_POINTS  = 100;
-  const COMBO_STEP   = 0.02;  // チェイン1つにつき倍率 +2%
-  const COMBO_CAP    = 50;    // 倍率は50チェイン（=2.0倍）で頭打ち
+  // 歴史の答えは「とぅーるぽわてぃえかんのたたかい」のように長いものがある。
+  // 一律の制限時間だと長い語だけ理不尽になるので、打つ字数から決める。
+  const TIME_BASE = 9000;
+  const TIME_PER_KANA = 900;
+  const TIME_MIN = 14000;
+  const TIME_MAX = 32000;
+
+  const BASE_POINTS = 100;
+  const COMBO_STEP  = 0.02;
+  const COMBO_CAP   = 50;
 
   const $ = id => document.getElementById(id);
 
@@ -18,33 +23,29 @@
 
   const escapeRe = s => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
-  // 第2問は和訳側を空欄にする。データの exja は答えにあたる箇所を【】で
-  // 囲んであるので、そこを空欄に差し替える。
-  function blankJa(exja) {
-    return escapeHtml(exja).replace(/【[^】]*】/, '<span class="blank">　　　　　</span>');
+  // 答えの表示形。別解があれば添える
+  function headword(w) {
+    return w.a + (w.alt && w.alt.length ? '（' + w.alt.join('・') + '）' : '');
   }
 
-  function revealJa(exja) {
-    return escapeHtml(exja).replace(/【([^】]*)】/, '<span class="filled">$1</span>');
-  }
-
-  const juken = {
+  const rekishi = {
     meta: null,
+    mode: 'quiz',      // quiz = 一問一答 / zu = 図表の穴埋め
+    zu: null,          // 図表モードのときの図表データ
     words: [],
     matched: 0,
     index: 0,
-    useExample: true,
     shakyo: false,     // 答えを最初から見せて、速さだけを競うモード
     ghost: null,       // 同じ設定の自己ベスト。あれば並走する
     times: [],         // 今回、各問を解き終えた時刻（開始からのミリ秒）
-    revealCount: 0,   // 制限時間の後半で頭から見せていく文字数
+    revealCount: 0,
+    limitMs: TIME_MIN,
     score: 0,
     combo: 0,
     comboMax: 0,
     judges: { great: 0, good: 0, okay: 0 },
     timerStartedAt: 0,
     loadTimer: null,
-    phase: 1,
     correct: 0,
     miss: 0,
     playing: false,
@@ -52,13 +53,10 @@
     timerId: null,
     startedAt: 0,
     missedWords: [],
+    clearedWords: [],
     missedThisWord: false,
 
-    // STEP1: 英字直接入力
-    enTarget: '',
-    enPos: 0,
-
-    // STEP2: かな（ローマ字入力）
+    // 打つ対象
     kanaTokens: [],
     wordR: null,
     pattern: [],
@@ -67,9 +65,12 @@
     temp: '',
     hintShown: false,
 
+    // 画面キーボードの見出し
+    kbLabel: function () { return 'ローマ字で答えを入力'; },
+
     // ---- 画面切替 ----
     showScreen: function (name) {
-      ['menu', 'game', 'result', 'stats'].forEach(s => {
+      ['menu', 'game', 'result', 'stats', 'zu'].forEach(s => {
         const el = $('screen-' + s);
         if (el) el.hidden = (s !== name);
       });
@@ -77,70 +78,28 @@
 
     toMenu: function () {
       this.playing = false;
+      this.stopTimer();
       this.showScreen('menu');
     },
 
     quit: function () {
-      this.playing = false;
+      if (!this.playing) { this.toMenu(); return; }
       this.stopTimer();
-      window.speechSynthesis && window.speechSynthesis.cancel();
-      this.toMenu();
+      this.words = this.words.slice(0, this.index);
+      this.finish();
     },
 
-    // ---- 音声合成 ----
-    // 端末の既定voiceは機械的で聞き取りづらいものが当たることがあるため、
-    // 自然な英語voiceを優先して選ぶ。voice一覧は非同期に埋まるので都度取り直す。
-    voice: null,
-
-    pickVoice: function () {
-      if (!window.speechSynthesis) return null;
-      const voices = window.speechSynthesis.getVoices() || [];
-      if (!voices.length) return null;
-
-      const preferred = [
-        'Google US English', 'Samantha', 'Ava', 'Allison', 'Microsoft Aria',
-        'Microsoft Jenny', 'Microsoft Zira', 'Karen', 'Moira', 'Daniel'
-      ];
-      for (const name of preferred) {
-        const v = voices.find(x => x.name.indexOf(name) === 0 && /^en/i.test(x.lang));
-        if (v) return v;
-      }
-      // 名前で見つからなければ en-US の非ローカル（クラウド合成＝高品質）を優先
-      return voices.find(v => v.lang === 'en-US' && !v.localService)
-          || voices.find(v => v.lang === 'en-US')
-          || voices.find(v => /^en/i.test(v.lang))
-          || null;
-    },
-
-    speak: function (text, rate) {
-      if (!window.speechSynthesis) return;
-      try {
-        window.speechSynthesis.cancel();
-        if (!this.voice) this.voice = this.pickVoice();
-        const u = new SpeechSynthesisUtterance(text);
-        if (this.voice) u.voice = this.voice;
-        u.lang = (this.voice && this.voice.lang) || 'en-US';
-        u.rate = rate || 1.0;
-        u.pitch = 1.05;
-        u.volume = 1;
-        window.speechSynthesis.speak(u);
-      } catch (e) {
-        // 音声非対応の環境では読み上げなしで続行する
-      }
-    },
-
-    replay: function () {
-      const w = this.words[this.index];
-      if (!w) return;
-      this.speak(this.phase === 1 ? w.en : w.ex);
+    again: function () {
+      if (this.mode === 'zu' && this.zu) this.startZu(this.zu.id);
+      else this.start();
     },
 
     // ---- 制限時間 ----
-    // 答えが出ないまま固まらないよう、時間切れで答えを見せて次に進む。
     startTimer: function () {
       this.stopTimer();
       const bar = $('timer-bar');
       const started = Date.now();
+      const limit = this.limitMs;
 
       bar.className = 'timer-bar';
       bar.style.width = '100%';
@@ -149,20 +108,20 @@
 
       this.timerId = setInterval(() => {
         const elapsed = Date.now() - started;
-        const left = Math.max(0, TIME_LIMIT - elapsed);
-        const pct = (left / TIME_LIMIT) * 100;
+        const left = Math.max(0, limit - elapsed);
+        const pct = (left / limit) * 100;
         bar.style.width = pct + '%';
         bar.className = 'timer-bar' + (pct < 20 ? ' danger' : pct < 50 ? ' warn' : '');
 
-        // 半分を過ぎたら答えを頭から少しずつ見せる。時間切れの時点で全部見えている。
+        // 半分を過ぎたら答えを頭から少しずつ見せる。
         // 写経はもともと全部見えているので、頭出しはしない。
-        const half = TIME_LIMIT / 2;
-        const len = this.phase === 1 ? this.enTarget.length : this.kanaTokens.length;
+        const half = limit / 2;
+        const len = this.kanaTokens.length;
         const want = (this.shakyo || elapsed <= half) ? 0
           : Math.min(len, Math.ceil(((elapsed - half) / half) * len));
         if (want !== this.revealCount) {
           this.revealCount = want;
-          if (this.phase === 1) this.renderEn(); else this.renderKana();
+          this.renderKana();
         }
 
         this.renderGhost();
@@ -183,25 +142,15 @@
       const w = this.words[this.index];
       this.locked = true;
       this.countMiss(w);
+      this.hintShown = true;
+      this.renderKana();
 
-      if (this.phase === 1) {
-        $('answer-line').innerHTML = '<span class="reveal">' + escapeHtml(w.en) + '</span>';
-        $('banner').textContent = '時間切れ — 答えは「' + w.en + '」';
-        $('banner').className = 'banner ng';
-        this.speak(w.en);
-        setTimeout(() => {
-          if (!this.playing) return;
-          if (this.useExample) this.toPhase2(); else this.next();
-        }, REVEAL_DELAY);
-      } else {
-        this.hintShown = true;
-        this.renderKana();
-        $('prompt').innerHTML = revealJa(w.exja);
-        $('answer-line').innerHTML = '<span class="reveal">' + escapeHtml(w.kana) + '</span>';
-        $('banner').textContent = '時間切れ';
-        $('banner').className = 'banner ng';
-        setTimeout(() => { if (this.playing) this.next(); }, REVEAL_DELAY);
-      }
+      $('answer-line').innerHTML = '<span class="reveal">' + escapeHtml(headword(w)) + '</span>';
+      $('banner').textContent = '時間切れ — 答えは「' + w.a + '」';
+      $('banner').className = 'banner ng';
+      if (this.mode === 'zu') this.markZu(this.index, 'miss');
+
+      setTimeout(() => { if (this.playing) this.next(); }, REVEAL_DELAY);
     },
 
     // ---- 収録範囲をメニューに表示 ----
@@ -210,47 +159,31 @@
         .withSuccessHandler(meta => {
           this.meta = meta;
           ['no-from', 'no-to'].forEach(id => {
-            $(id).min = meta.minNo;
-            $(id).max = meta.maxNo;
+            $(id).min = meta.minPr;
+            $(id).max = meta.maxPr;
           });
           $('range-hint').textContent =
-            '収録: 単語' + meta.words + ' ＋ 熟語' + meta.idioms +
-            '（見出し語番号 ' + meta.minNo + '〜' + meta.maxNo +
+            '収録: ' + meta.total + '問（プリント No.' + meta.minPr + '〜No.' + meta.maxPr +
             '）　空欄なら全範囲から出題します';
         })
         .withFailureHandler(() => {
           $('range-hint').textContent = '収録範囲を取得できませんでした';
         })
-        .getJukenMeta();
+        .getRekishiMeta();
     },
 
     // 同じ設定どうしでだけ競走できるよう、設定から鍵を作る
     signature: function (opts) {
-      return ['eigo', this.shakyo ? 'shakyo' : 'quiz', opts.kind,
-              opts.from || '', opts.to || '', opts.limit,
-              this.useExample ? 'ex' : 'noex', opts.source].join('|');
+      return ['rekishi', this.shakyo ? 'shakyo' : 'quiz', opts.fld,
+              opts.from || '', opts.to || '', opts.limit, opts.source].join('|');
     },
 
-    // ---- 開始 ----
-    start: function () {
-      const opts = {
-        from: $('no-from').value,
-        to: $('no-to').value,
-        limit: $('round-size').value,
-        shuffle: $('order-mode').value === 'shuffle',
-        kind: $('kind-mode').value,
-        source: $('source-mode') ? $('source-mode').value : 'all'
-      };
-      // 写経は答えが見えている勝負なので、例文ステップは付けない
-      this.shakyo = !!($('shakyo-mode') && $('shakyo-mode').checked);
-      this.useExample = !this.shakyo && $('example-mode').value === 'on';
-      opts.subject = 'eigo';
-      opts.ghost = !!($('ghost-mode') && $('ghost-mode').checked);
-      opts.sig = this.signature(opts);
-      this.sig = opts.sig;
-
+    // 読み込み中の見た目をそろえる
+    prepareStage: function (tag) {
       this.showScreen('game');
       this.stopTimer();
+      this.playing = false;
+      $('phase-tag').textContent = tag;
       $('banner').textContent = '';
       $('banner').className = 'banner';
       $('prompt').textContent = '読み込み中…';
@@ -258,11 +191,11 @@
       $('answer-line').textContent = '';
       $('guide').textContent = '';
       $('judge').textContent = '';
+      $('judge').className = 'judge';
       $('timer-bar').style.width = '100%';
-      ['speak-btn', 'hint-btn', 'retry-btn'].forEach(id => { $(id).hidden = true; });
+      ['hint-btn', 'retry-btn'].forEach(id => { $(id).hidden = true; });
       $('hud-ghost-box').hidden = true;
 
-      // 応答が返らないまま固まらないよう、待ちきれなくなったら再試行を促す
       if (this.loadTimer) clearTimeout(this.loadTimer);
       this.loadTimer = setTimeout(() => {
         if (this.playing) return;
@@ -270,37 +203,65 @@
         $('sub-prompt').textContent = '通信状況を確認して、もう一度お試しください';
         $('retry-btn').hidden = false;
       }, 25000);
+    },
 
-      const done = () => { if (this.loadTimer) { clearTimeout(this.loadTimer); this.loadTimer = null; } };
+    loadDone: function () {
+      if (this.loadTimer) { clearTimeout(this.loadTimer); this.loadTimer = null; }
+    },
+
+    resetRound: function () {
+      this.index = 0;
+      this.correct = 0;
+      this.miss = 0;
+      this.score = 0;
+      this.combo = 0;
+      this.comboMax = 0;
+      this.judges = { great: 0, good: 0, okay: 0 };
+      this.missedWords = [];
+      this.clearedWords = [];
+      this.times = [];
+      this.startedAt = Date.now();
+      this.playing = true;
+    },
+
+    // ---- 一問一答をはじめる ----
+    start: function () {
+      const opts = {
+        from: $('no-from').value,
+        to: $('no-to').value,
+        limit: $('round-size').value,
+        shuffle: $('order-mode').value === 'shuffle',
+        fld: $('fld-mode') ? $('fld-mode').value : 'all',
+        source: $('source-mode') ? $('source-mode').value : 'all'
+      };
+      this.shakyo = !!($('shakyo-mode') && $('shakyo-mode').checked);
+      this.mode = 'quiz';
+      this.zu = null;
+      opts.subject = 'rekishi';
+      opts.ghost = !!($('ghost-mode') && $('ghost-mode').checked);
+      opts.sig = this.signature(opts);
+      this.sig = opts.sig;
+
+      this.prepareStage('一問一答');
+      $('zu-wrap').hidden = true;
 
       google.script.run
         .withSuccessHandler(res => {
-          done();
+          this.loadDone();
           if (!res || res.error || !res.words || !res.words.length) {
-            $('prompt').textContent = '出題できる単語がありません';
+            $('prompt').textContent = '出題できる問題がありません';
             $('sub-prompt').textContent = res && res.error ? res.error
               : (opts.source === 'weak'
-                  ? 'まだ苦手な単語 がありません。ふつうに解くと溜まります'
+                  ? 'まだ苦手な語がありません。ふつうに解くと溜まります'
                   : '出題範囲を見直してください');
             $('retry-btn').hidden = false;
             return;
           }
           this.words = res.words;
           this.matched = res.matched;
-          this.index = 0;
-          this.correct = 0;
-          this.miss = 0;
-          this.score = 0;
-          this.combo = 0;
-          this.comboMax = 0;
-          this.judges = { great: 0, good: 0, okay: 0 };
-          this.missedWords = [];
-          this.clearedWords = [];
-          this.times = [];
+          this.resetRound();
           this.ghost = (res.ghost && res.ghost.times && res.ghost.times.length) ? res.ghost : null;
           $('hud-ghost-box').hidden = !this.ghost;
-          this.startedAt = Date.now();
-          this.playing = true;
           this.showQuestion();
           if (this.ghost) {
             $('banner').textContent = '自己ベスト（' + this.ghost.at + '・' +
@@ -308,7 +269,7 @@
           }
         })
         .withFailureHandler(err => {
-          done();
+          this.loadDone();
           $('prompt').textContent = 'サーバーとの通信に失敗しました';
           $('sub-prompt').textContent = err && err.message ? err.message : '';
           $('retry-btn').hidden = false;
@@ -316,104 +277,154 @@
         .getJukenRound(opts);
     },
 
-    // ---- STEP1: 日本語 → 英単語 ----
-    showQuestion: function () {
-      const w = this.words[this.index];
-      this.phase = 1;
-      this.locked = false;
-      this.missedThisWord = false;
-      this.enTarget = w.en.toLowerCase();
-      this.enPos = 0;
-      this.revealCount = 0;   // 前の問題の頭出しを持ち越さない
-
-      const isIdiom = w.type === 'idiom';
-      const what = isIdiom ? '熟語' : '英単語';
-      $('phase-tag').textContent = this.shakyo
-        ? '写経 ・ 見たまま打つ'
-        : (this.useExample ? 'STEP 1 ・ ' : '') + what + 'をタイプ';
-      $('prompt').textContent = w.ja;
-      // 語感や使い方の一言は、データにあるときだけ小さく添える
-      $('sub-prompt').innerHTML = escapeHtml(this.shakyo
-          ? '見えている' + what + 'をそのまま打つ'
-          : 'この意味の' + what + 'は？') +
-        (w.nu ? '<span class="nuance">' + escapeHtml(w.nu) + '</span>' : '');
-      $('guide').textContent = '';
-      $('banner').textContent = '';
-      $('banner').className = 'banner';
-      $('speak-btn').hidden = true;
-      $('hint-btn').hidden = true;
-      $('retry-btn').hidden = true;
-      $('judge').textContent = '';
-      $('judge').className = 'judge';
-
-      this.renderEn();
-      this.renderHud();
-      this.startTimer();
+    // ---- 図表えらび ----
+    showZuPicker: function () {
+      this.showScreen('zu');
+      const box = $('zu-list');
+      box.innerHTML = '<p class="loading">読み込み中…</p>';
+      google.script.run
+        .withSuccessHandler(list => {
+          if (!list || !list.length) {
+            box.innerHTML = '<p class="loading">使える図表がありません</p>';
+            return;
+          }
+          box.innerHTML = '<ul class="menu-list">' + list.map(z =>
+            '<li><button class="btn btn-main" data-zu="' + escapeHtml(z.id) + '">' +
+            escapeHtml(z.title) +
+            '<span class="soon">' + z.count + 'か所　' + escapeHtml(z.note) + '</span>' +
+            '</button></li>').join('') + '</ul>';
+          box.querySelectorAll('button[data-zu]').forEach(b => {
+            b.addEventListener('click', () => this.startZu(b.dataset.zu));
+          });
+        })
+        .withFailureHandler(() => {
+          box.innerHTML = '<p class="loading">図表を読み込めませんでした</p>';
+        })
+        .getRekishiZuList();
     },
 
-    renderEn: function () {
-      const t = this.enTarget;
-      const peekEnd = Math.max(this.enPos, this.revealCount);
-      const done = t.slice(0, this.enPos);
-      const peek = t.slice(this.enPos, peekEnd);
-      const tail = t.slice(peekEnd);
-      // 写経は伏せない
-      const rest = this.shakyo ? tail : tail.replace(/[a-z0-9']/g, '_');
-      $('answer-line').innerHTML =
-        '<span class="done">' + escapeHtml(done) + '</span>' +
-        '<span class="peek">' + escapeHtml(peek) + '</span>' +
-        '<span class="rest">' + escapeHtml(rest) + '</span>';
+    // ---- 図表の穴埋めをはじめる ----
+    startZu: function (id) {
+      this.mode = 'zu';
+      this.shakyo = false;
+      this.ghost = null;
+      this.sig = null;
+      this.prepareStage('図表を埋める');
+      $('zu-wrap').hidden = true;
+
+      google.script.run
+        .withSuccessHandler(res => {
+          this.loadDone();
+          if (!res || res.error || !res.areas || !res.areas.length) {
+            $('prompt').textContent = '図表を読み込めませんでした';
+            $('sub-prompt').textContent = (res && res.error) || '';
+            $('retry-btn').hidden = true;
+            return;
+          }
+          this.zu = res;
+          // order は出す順番。words は order の並びで作る。
+          this.words = res.order.map(i => {
+            const a = res.areas[i];
+            return { no: i + 1, a: a.a, kana: a.kana, nu: a.hint, area: i, pr: 0 };
+          });
+          this.matched = this.words.length;
+          this.resetRound();
+          this.renderZuBase();
+          this.showQuestion();
+        })
+        .withFailureHandler(err => {
+          this.loadDone();
+          $('prompt').textContent = 'サーバーとの通信に失敗しました';
+          $('sub-prompt').textContent = err && err.message ? err.message : '';
+        })
+        .getRekishiZu({ id: id, shuffle: !!($('zu-shuffle') && $('zu-shuffle').checked) });
     },
 
-    onPhase1Clear: function () {
-      const w = this.words[this.index];
-      this.locked = true;
-      this.stopTimer();
-      this.speak(w.en);
-      $('answer-line').innerHTML = '<span class="done">' + escapeHtml(w.en) + '</span>';
-      $('banner').textContent = '正解！';
-      $('banner').className = 'banner ok';
+    // 図表の画像と、伏せておく場所を並べる
+    renderZuBase: function () {
+      const wrap = $('zu-wrap');
+      const img = $('zu-img');
+      img.src = this.zu.src;
+      wrap.hidden = false;
 
-      if (!this.useExample) {
-        this.correct++;
-        this.award();
-      }
-
-      setTimeout(() => {
-        if (!this.playing) return;
-        if (this.useExample) this.toPhase2(); else this.next();
-      }, PHASE1_DELAY);
+      $('zu-layer').innerHTML = this.words.map((w, n) =>
+        '<div class="zu-mask" id="zu-m' + n + '" style="' +
+        'left:' + this.zu.areas[w.area].x + '%;' +
+        'top:' + this.zu.areas[w.area].y + '%;' +
+        'width:' + this.zu.areas[w.area].w + '%;' +
+        'height:' + this.zu.areas[w.area].h + '%;">' + (n + 1) + '</div>').join('');
     },
 
-    // ---- STEP2: 例文の空欄 → 意味をタイプ ----
-    toPhase2: function () {
-      const w = this.words[this.index];
-      this.phase = 2;
-      this.locked = false;
-      this.hintShown = false;
+    // 1か所ぶんの状態を変える。done は伏せをはずし、miss は赤枠にする。
+    markZu: function (n, state) {
+      const el = $('zu-m' + n);
+      if (!el) return;
+      el.className = 'zu-mask ' + state;
+      if (state === 'done' || state === 'miss') el.textContent = '';
+    },
 
-      const conv = kanaToRoman(w.kana);
+    // ---- 打つ対象のかなをセットする ----
+    setKanaTarget: function (kana) {
+      const conv = kanaToRoman(kana);
       this.wordR = conv[0];
       this.kanaTokens = conv[1];
       this.pattern = new Array(this.wordR.length).fill(0);
       this.idx1 = 0;
       this.idx2 = 0;
       this.temp = '';
-      this.revealCount = 0;   // STEP1 の頭出しを持ち越さない
+      this.hintShown = false;
+      this.revealCount = 0;   // 前の問題の頭出しを持ち越さない
+      this.limitMs = Math.max(TIME_MIN,
+        Math.min(TIME_MAX, TIME_BASE + this.kanaTokens.length * TIME_PER_KANA));
+    },
 
-      $('phase-tag').textContent = 'STEP 2 ・ 意味をタイプ';
-      $('prompt').innerHTML = blankJa(w.exja);
-      $('sub-prompt').innerHTML =
-        '<span class="context-en">' + escapeHtml(w.ex) + '</span>空欄に入る日本語は？';
+    // ---- 出題 ----
+    showQuestion: function () {
+      const w = this.words[this.index];
+      this.locked = false;
+      this.missedThisWord = false;
+      this.setKanaTarget(w.kana);
+
+      if (this.mode === 'zu') {
+        $('phase-tag').textContent = '図表を埋める ・ ' + this.zu.title;
+        $('prompt').textContent = (this.index + 1) + ' のところは？';
+        $('sub-prompt').innerHTML = escapeHtml(this.zu.note) +
+          (w.nu ? '<span class="nuance">' + escapeHtml(w.nu) + '</span>' : '');
+        this.markZu(this.index, 'now');
+      } else {
+        $('phase-tag').textContent = this.shakyo ? '写経 ・ 見たまま打つ' : '一問一答';
+        $('prompt').textContent = w.q;
+        $('sub-prompt').innerHTML = escapeHtml(
+            (this.shakyo ? '見えている語をそのまま打つ' : '答えは？') +
+            '　プリント No.' + w.pr) +
+          (w.nu ? '<span class="nuance">' + escapeHtml(w.nu) + '</span>' : '');
+      }
+
+      $('guide').textContent = '';
       $('banner').textContent = '';
       $('banner').className = 'banner';
-      $('guide').textContent = '';
-      $('speak-btn').hidden = false;
-      $('hint-btn').hidden = false;
+      $('hint-btn').hidden = this.shakyo;
+      $('retry-btn').hidden = true;
+      $('judge').textContent = '';
+      $('judge').className = 'judge';
 
-      this.speak(w.ex, 0.95);
       this.renderKana();
+      this.renderHud();
       this.startTimer();
+    },
+
+    onClear: function () {
+      const w = this.words[this.index];
+      this.locked = true;
+      this.stopTimer();
+      this.correct++;
+      this.award();
+      $('answer-line').innerHTML = '<span class="done">' + escapeHtml(headword(w)) + '</span>';
+      $('banner').textContent = '正解！';
+      $('banner').className = 'banner ok';
+      if (this.mode === 'zu') this.markZu(this.index, 'done');
+
+      setTimeout(() => { if (this.playing) this.next(); }, NEXT_DELAY);
     },
 
     renderKana: function () {
@@ -422,6 +433,9 @@
         const tok = this.kanaTokens[i];
         if (i < this.idx1) {
           html += '<span class="done">' + escapeHtml(tok) + '</span>';
+        } else if (this.shakyo) {
+          // 写経は伏せない
+          html += '<span class="rest">' + escapeHtml(tok) + '</span>';
         } else if (this.hintShown || i < this.revealCount) {
           html += '<span class="peek">' + escapeHtml(tok) + '</span>';
         } else {
@@ -430,7 +444,7 @@
       }
       $('answer-line').innerHTML = html;
 
-      if (this.hintShown) {
+      if (this.hintShown || this.shakyo) {
         let full = '', typed = 0;
         for (let i = 0; i < this.wordR.length; i++) full += this.wordR[i][this.pattern[i]];
         for (let i = 0; i < this.idx1; i++) typed += this.wordR[i][this.pattern[i]].length;
@@ -438,36 +452,19 @@
         $('guide').innerHTML =
           '<span class="done">' + escapeHtml(full.slice(0, typed)) + '</span>' +
           escapeHtml(full.slice(typed));
+      } else {
+        $('guide').textContent = '';
       }
     },
 
     showHint: function () {
-      if (this.phase !== 2) return;
       this.hintShown = true;
       this.renderKana();
     },
 
-    onPhase2Clear: function () {
-      const w = this.words[this.index];
-      this.locked = true;
-      this.stopTimer();
-      this.correct++;
-      this.award();
-      $('prompt').innerHTML = revealJa(w.exja);
-      $('banner').textContent = '正解！';
-      $('banner').className = 'banner ok';
-      $('guide').textContent = '';
-      this.renderHud();
-
-      setTimeout(() => {
-        if (!this.playing) return;
-        this.next();
-      }, PHASE2_DELAY);
-    },
-
     next: function () {
       const w = this.words[this.index];
-      if (w && !this.missedThisWord) this.clearedWords.push(w.en);
+      if (w && !this.missedThisWord) this.clearedWords.push(w.a);
       this.times.push(Date.now() - this.startedAt);
       this.index++;
       if (this.index >= this.words.length) {
@@ -477,13 +474,10 @@
       this.showQuestion();
     },
 
-    // ---- ミス ----
     // ---- 得点 ----
-    // 残り時間で判定を決め、チェイン（連続正解）で倍率を伸ばす。
-    // ミスした問題は判定を上げない。
     award: function () {
-      const left = Math.max(0, TIME_LIMIT - (Date.now() - this.timerStartedAt));
-      const ratio = left / TIME_LIMIT;
+      const left = Math.max(0, this.limitMs - (Date.now() - this.timerStartedAt));
+      const ratio = left / this.limitMs;
       const clean = !this.missedThisWord;
 
       let judge, mult;
@@ -517,7 +511,7 @@
       this.breakCombo();
       if (!this.missedThisWord) {
         this.missedThisWord = true;
-        if (!this.missedWords.some(x => x.en === w.en)) this.missedWords.push(w);
+        if (!this.missedWords.some(x => x.a === w.a)) this.missedWords.push(w);
       }
       this.renderHud();
     },
@@ -538,7 +532,6 @@
       $('hud-ghost').textContent = gi + ' / ' + t.length;
 
       const box = $('hud-ghost-box');
-      // 同じ問題数までにかかった時間で比べる
       const done = this.times.length;
       if (!done || done > t.length) { box.className = 'hud-item ghost'; return; }
       const diff = t[done - 1] - this.times[done - 1];
@@ -563,7 +556,8 @@
       const mm = String(Math.floor(sec / 60)).padStart(2, '0');
       const ss = String(sec % 60).padStart(2, '0');
 
-      $('result-subtitle').innerHTML = this.ghostVerdict() || (this.words.length + ' 問おわり');
+      $('result-subtitle').innerHTML = this.ghostVerdict() ||
+        ((this.mode === 'zu' ? this.zu.title + ' ' : '') + this.words.length + ' 問おわり');
       $('result-stats').innerHTML =
         '<div class="result-row total"><span>スコア</span><span>' + this.score.toLocaleString() + '</span></div>' +
         '<div class="result-row"><span>最大チェイン</span><span>' + this.comboMax + '</span></div>' +
@@ -575,12 +569,9 @@
 
       const review = $('review');
       if (this.missedWords.length) {
-        // 単語をタップすると発音する
         $('review-list').innerHTML = this.missedWords
-          .map(w => '<li class="say" data-say="' + escapeHtml(w.en) + '">' +
-                    '<b>' + escapeHtml(w.en) + '</b>' +
-                    '<span>' + escapeHtml(w.ja) + '</span>' +
-                    '<i class="say-icon">🔊</i></li>')
+          .map(w => '<li><b>' + escapeHtml(w.a) +
+                    '</b><span>' + escapeHtml(w.q || w.nu || '') + '</span></li>')
           .join('');
         review.hidden = false;
       } else {
@@ -610,16 +601,17 @@
 
     // 今回の走りをゴーストとして預ける。前より良いときだけ残る。
     saveGhost: function (sec) {
+      if (this.mode === 'zu') return;
       if (!this.sig || this.times.length !== this.words.length || !this.words.length) return;
       try {
         google.script.run
           .withFailureHandler(() => {})
           .saveJukenGhost({
             sig: this.sig,
-            subject: 'eigo',
+            subject: 'rekishi',
             score: this.score,
             seconds: sec,
-            keys: this.words.map(w => w.en),
+            keys: this.words.map(w => w.a),
             times: this.times
           });
       } catch (e) { /* 残せなくても続行 */ }
@@ -631,8 +623,8 @@
         google.script.run
           .withFailureHandler(() => {})
           .saveJukenResult({
-            subject: 'eigo',
-            mode: this.shakyo ? 'shakyo' : 'quiz',
+            subject: 'rekishi',
+            mode: this.mode === 'zu' ? 'zu' : (this.shakyo ? 'shakyo' : 'quiz'),
             score: this.score,
             questions: this.words.length,
             correct: this.correct,
@@ -641,7 +633,7 @@
             seconds: sec,
             from: $('no-from').value,
             to: $('no-to').value,
-            missed: this.missedWords.map(w => ({ key: w.en, no: w.no, ja: w.ja })),
+            missed: this.missedWords.map(w => ({ key: w.a, no: w.no, ja: w.q || w.nu || '' })),
             cleared: this.clearedWords
           });
       } catch (e) { /* 記録は付けられなくても続行 */ }
@@ -656,7 +648,7 @@
         .withFailureHandler(() => {
           $('stats-body').innerHTML = '<p class="loading">記録を読み込めませんでした</p>';
         })
-        .getJukenStats('eigo');
+        .getJukenStats('rekishi');
     },
 
     renderStats: function (res) {
@@ -668,7 +660,7 @@
         $('stats-body').innerHTML = '<p class="loading">まだ記録がありません</p>';
         return;
       }
-      const modeName = m => m === 'shakyo' ? '写経' : '通常';
+      const modeName = m => m === 'shakyo' ? '写経' : m === 'zu' ? '図表' : '一問一答';
       const row = (a, b) => '<div class="result-row"><span>' + a + '</span><span>' + b + '</span></div>';
 
       let html = '<h3 class="stats-head">ベスト5</h3>';
@@ -682,31 +674,18 @@
         row(escapeHtml(r.at) + '　' + modeName(r.mode) + '　' + r.correct + '/' + r.questions + '問',
             r.score.toLocaleString() + '点')).join('');
 
-      html += '<h3 class="stats-head">苦手な単語　' + res.weakCount + '語</h3>';
+      html += '<h3 class="stats-head">苦手な語　' + res.weakCount + '語</h3>';
       html += res.weak.length
         ? '<ul class="review-list-plain">' + res.weak.map(w =>
-            '<li class="say" data-say="' + escapeHtml(w.key) + '">' +
-            '<b>' + escapeHtml(w.key) + '</b><span>' + escapeHtml(w.ja) + '</span>' +
-            '<i class="say-icon">🔊</i><em class="miss-count">×' + w.miss + '</em></li>').join('') + '</ul>'
+            '<li><b>' + escapeHtml(w.key) + '</b><span>' + escapeHtml(w.ja) + '</span>' +
+            '<em class="miss-count">×' + w.miss + '</em></li>').join('') + '</ul>'
         : '<p class="loading">いまのところありません</p>';
 
       $('stats-body').innerHTML = html;
     },
 
-    // ---- 入力 ----
+    // ---- 入力（ローマ字→かな）----
     handleKey: function (key) {
-      if (this.phase === 1) {
-        if (!/^[a-z' -]$/.test(key)) return;
-        if (key === this.enTarget[this.enPos]) {
-          this.enPos++;
-          this.renderEn();
-          if (this.enPos >= this.enTarget.length) this.onPhase1Clear();
-        } else {
-          this.onMiss();
-        }
-        return;
-      }
-
       // ' も通す。「ん」＋母音／や行は n' と nn のどちらでも打てる
       if (!/^[a-z0-9\-,.'\s]$/.test(key)) return;
       if (!this.wordR || this.idx1 >= this.wordR.length) return;
@@ -742,36 +721,20 @@
       }
       this.renderKana();
 
-      if (this.idx1 >= this.wordR.length) this.onPhase2Clear();
+      if (this.idx1 >= this.wordR.length) this.onClear();
     }
   };
 
-  // ふりかえり・苦手な単語は、タップすると発音する
-  document.addEventListener('click', event => {
-    const li = event.target.closest('li.say');
-    if (!li) return;
-    juken.speak(li.dataset.say);
-    li.classList.add('said');
-    setTimeout(() => li.classList.remove('said'), 400);
-  });
-
   window.addEventListener('keydown', event => {
     if (event.isComposing || event.key === 'Process') return;
-    if (!juken.playing || juken.locked) return;
+    if (!rekishi.playing || rekishi.locked) return;
     if (event.key.length !== 1) return;
     if (event.metaKey || event.ctrlKey || event.altKey) return;
     event.preventDefault();
-    juken.handleKey(event.key.toLowerCase());
+    rekishi.handleKey(event.key.toLowerCase());
   });
 
-  window.juken = juken;
-  window.addEventListener('load', () => {
-    juken.loadMeta();
-    // voice一覧は非同期に埋まるので、揃った時点で選び直す
-    if (window.speechSynthesis) {
-      juken.voice = juken.pickVoice();
-      window.speechSynthesis.onvoiceschanged = () => { juken.voice = juken.pickVoice(); };
-    }
-  });
+  window.rekishi = rekishi;
+  window.addEventListener('load', () => { rekishi.loadMeta(); });
 }(window, document));
 </script>

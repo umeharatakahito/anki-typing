@@ -118,6 +118,14 @@ function vsEvaluate_(m) {
 }
 
 // ---------------------------------------------------------------
+// 部屋の科目に合わせて出題データを取り出す
+function vsWords_(rule, q) {
+  if (rule.subject === 'kobun')   return getKobunWords(q);
+  if (rule.subject === 'rekishi') return getRekishiWords(q);
+  return getJukenWords(q);
+}
+
+// ---------------------------------------------------------------
 // 出題数。先取ルールは最悪 2N-1 問で決着するのでその分だけ用意する
 function vsNeededTotal_(rule) {
   const n = (rule.mode === 'first') ? (rule.target * 2 - 1) : rule.target;
@@ -138,10 +146,12 @@ function vsNormalizeRule_(opts) {
     from: Number(opts && opts.from) || 0,
     to: Number(opts && opts.to) || 0,
     // 部屋を作った側の選択が、そのまま相手にも渡る
-    subject: (opts && opts.subject === 'kobun') ? 'kobun' : 'eigo',
+    subject: jukenSubject_(opts && opts.subject),
     // quiz = 意味から答える／shakyo = 答えが見えていて速さだけを競う
     style: (opts && opts.style === 'shakyo') ? 'shakyo' : 'quiz',
-    example: (opts && opts.style === 'shakyo') ? false : !!(opts && opts.example)
+    example: (opts && opts.style === 'shakyo') ? false
+             : (jukenSubject_(opts && opts.subject) === 'rekishi') ? false
+             : !!(opts && opts.example)
   };
 }
 
@@ -154,7 +164,7 @@ function vsCreateRoom(opts) {
   const need = vsNeededTotal_(rule);
 
   const q = { from: rule.from, to: rule.to, limit: need, shuffle: true };
-  const res = (rule.subject === 'kobun') ? getKobunWords(q) : getJukenWords(q);
+  const res = vsWords_(rule, q);
   const words = (res && res.words) || [];
   if (!words.length) return vsErr_('その範囲には出題できる語がありません');
 
