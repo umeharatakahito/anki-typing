@@ -139,7 +139,9 @@ function vsNormalizeRule_(opts) {
     to: Number(opts && opts.to) || 0,
     // 部屋を作った側の選択が、そのまま相手にも渡る
     subject: (opts && opts.subject === 'kobun') ? 'kobun' : 'eigo',
-    example: !!(opts && opts.example)
+    // quiz = 意味から答える／shakyo = 答えが見えていて速さだけを競う
+    style: (opts && opts.style === 'shakyo') ? 'shakyo' : 'quiz',
+    example: (opts && opts.style === 'shakyo') ? false : !!(opts && opts.example)
   };
 }
 

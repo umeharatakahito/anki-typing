@@ -53,7 +53,11 @@ function doGet(e) {
       const key = SUBJECTS[asked] ? asked : 'eigo';
       template.subject = key;
       template.backRoute = key;
-      title = SUBJECT_PAGES[route] + '（' + SUBJECTS[key].label + '）';
+      // 対戦は「意味を答える」と「写経」の2通り（?p=versus&s=eigo&m=shakyo）
+      const style = (String(param.m || '').toLowerCase() === 'shakyo') ? 'shakyo' : 'quiz';
+      template.style = style;
+      const what = (route === 'versus' && style === 'shakyo') ? '写経で対戦' : SUBJECT_PAGES[route];
+      title = what + '（' + SUBJECTS[key].label + '）';
     }
     return template.evaluate()
       .setTitle(title)

@@ -76,16 +76,19 @@
           <p class="hint" id="range-hint">読み込み中…</p>
         </div>
 
-        <p class="note">出てきた語をそのまま打つだけ。速さと正確さだけを競います</p>
+        <p class="note">答えは最初から見えています。速く打つほど得点が伸びます</p>
       </section>
 
       <!-- ========== ゲーム ========== -->
       <section id="screen-game" class="screen" hidden>
         <header class="hud">
           <div class="hud-item"><span class="hud-label">語</span><span id="hud-progress">1 / 50</span></div>
-          <div class="hud-item score"><span class="hud-label">打/分</span><span id="hud-kpm">0</span></div>
+          <div class="hud-item score"><span class="hud-label">スコア</span><span id="hud-score">0</span></div>
+          <div class="hud-item"><span class="hud-label">打/分</span><span id="hud-kpm">0</span></div>
           <div class="hud-item"><span class="hud-label">正確</span><span id="hud-acc">100%</span></div>
-          <div class="hud-item"><span class="hud-label">時間</span><span id="hud-time">0.0</span></div>
+          <div class="hud-item chain" id="hud-chain-box" hidden>
+            <span id="hud-chain">0</span><span class="chain-label">チェイン</span>
+          </div>
           <button class="btn btn-quit" onclick="shakyo.quit();">やめる</button>
         </header>
 

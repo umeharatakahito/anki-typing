@@ -13,6 +13,9 @@
   // 対戦が始まったあとは、部屋の設定（rule.subject）のほうが優先される。
   const PAGE_SUBJECT = document.body.getAttribute('data-subject') === 'kobun' ? 'kobun' : 'eigo';
 
+  // quiz = 意味から答える／shakyo = 答えが見えていて速さだけを競う
+  const PAGE_STYLE = document.body.getAttribute('data-style') === 'shakyo' ? 'shakyo' : 'quiz';
+
   const escapeHtml = s => String(s)
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   const escapeRe = s => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -51,6 +54,7 @@
     lost: [],            // 取り逃した単語（結果画面の復習用）
 
     round: null,         // { i, phase, settled, reported }
+    openTarget: false,   // 写経のときは答えを伏せない
 
     // 出題中の科目と、例文ステップを使うか。どちらも部屋の設定で決まる。
     subjectOf: function () {
@@ -58,6 +62,10 @@
       return (r && r.subject === 'kobun') ? 'kobun' : 'eigo';
     },
     isKana: function () { return this.subjectOf() === 'kobun'; },
+    isShakyo: function () {
+      const r = this.state && this.state.rule;
+      return !!(r && r.style === 'shakyo');
+    },
     useExample: function () {
       const r = this.state && this.state.rule;
       return !!(r && r.example);
@@ -125,9 +133,10 @@
 
     ruleText: function (rule, total) {
       if (!rule) return '';
-      return rule.mode === 'first'
+      const head = (rule.style === 'shakyo') ? '写経・' : '';
+      return head + (rule.mode === 'first'
         ? rule.target + '問先取（最大' + total + '問）'
-        : total + '問やり切り';
+        : total + '問やり切り');
     },
 
     menuError: function (msg) { $('vs-menu-error').textContent = msg || ''; },
@@ -143,7 +152,8 @@
         from: $('vs-from').value,
         to: $('vs-to').value,
         subject: PAGE_SUBJECT,
-        example: $('vs-example').value === 'on'
+        style: PAGE_STYLE,
+        example: PAGE_STYLE === 'shakyo' ? false : $('vs-example').value === 'on'
       }).then(res => {
         $('vs-create-btn').disabled = false;
         if (!res || !res.ok) { this.menuError((res && res.error) || '対戦を作れませんでした'); return; }
@@ -316,9 +326,13 @@
       const w = this.words[i];
 
       const kana = this.isKana();
+      const race = this.isShakyo();
       const what = kana ? '古語' : '英単語';
+      // 写経は答えを伏せない。かな側は hintShown が「見えている」状態にあたる。
+      this.openTarget = race;
       if (kana) {
         this.setKanaTarget(w.ko);
+        this.hintShown = race;
       } else {
         this.enTarget = w.en.toLowerCase();
         this.enPos = 0;
@@ -326,15 +340,19 @@
       }
 
       $('vs-round-label').textContent = '第 ' + (i + 1) + ' 問';
-      $('vs-phase-tag').textContent =
-        (this.useExample() ? 'STEP 1 ・ ' : '') + what + 'をタイプ';
+      $('vs-phase-tag').textContent = race
+        ? '写経 ・ 見たまま打つ'
+        : (this.useExample() ? 'STEP 1 ・ ' : '') + what + 'をタイプ';
+      // 写経では答えが answer-line に開いているので、prompt は意味の参考表示にとどめる
       $('vs-prompt').textContent = w.ja;
-      $('vs-sub-prompt').textContent = 'この意味の' + what + 'は？';
+      $('vs-sub-prompt').textContent = race
+        ? '見えている' + what + 'をそのまま打つ'
+        : 'この意味の' + what + 'は？';
       $('vs-guide').textContent = '';
       $('vs-banner').textContent = '';
       $('vs-banner').className = 'banner';
       $('vs-speak-btn').hidden = true;
-      $('vs-hint-btn').hidden = kana ? false : true;
+      $('vs-hint-btn').hidden = race ? true : (kana ? false : true);
 
       if (kana) this.renderKana(); else this.renderEn();
       this.renderBoards(this.state);
@@ -374,7 +392,8 @@
 
     renderEn: function () {
       const done = this.enTarget.slice(0, this.enPos);
-      const rest = this.enTarget.slice(this.enPos).replace(/[a-z0-9']/g, '_');
+      const tail = this.enTarget.slice(this.enPos);
+      const rest = this.openTarget ? tail : tail.replace(/[a-z0-9']/g, '_');
       $('vs-answer-line').innerHTML =
         '<span class="done">' + escapeHtml(done) + '</span>' +
         '<span class="rest">' + escapeHtml(rest) + '</span>';

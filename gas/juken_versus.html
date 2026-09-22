@@ -8,13 +8,13 @@
     <?!= include('JukenVersusCSS'); ?>
   </head>
 
-  <body data-subject="<?= subject ?>">
+  <body data-subject="<?= subject ?>" data-style="<?= style ?>">
     <div id="app">
 
       <!-- ========== メニュー ========== -->
       <section id="vs-menu" class="screen">
         <a class="back-link" href="<?= execUrl ?>?p=<?= backRoute ?>">← もどる</a>
-        <h1 class="title">対戦モード</h1>
+        <h1 class="title"><?= style == 'shakyo' ? '写経で対戦' : '対戦モード' ?></h1>
         <p class="subtitle"><?= subject == 'kobun' ? '古文単語' : '英単語' ?> ・ TYPING BATTLE</p>
 
         <div class="card">
@@ -39,6 +39,7 @@
             <span class="tilde">〜</span>
             <input type="number" id="vs-to" class="w-num" min="1" step="1" placeholder="最後">
           </div>
+          <? if (style != 'shakyo') { ?>
           <div class="row">
             <label for="vs-example">例文</label>
             <select id="vs-example">
@@ -46,6 +47,7 @@
               <option value="on">あり（2段階）</option>
             </select>
           </div>
+          <? } ?>
           <p class="hint" id="vs-range-hint">読み込み中…</p>
           <div class="row" style="margin-top:14px;">
             <button class="btn btn-main" id="vs-create-btn">対戦をつくる</button>
@@ -69,7 +71,9 @@
         </div>
 
         <p class="hint err" id="vs-menu-error"></p>
-        <p class="note">同じ問題が同じ順番で出ます。先に正解したほうが得点です。</p>
+        <p class="note"><?= style == 'shakyo'
+             ? '答えは最初から見えています。同じ語を同じ順番で打ち、先に打ち終えたほうが得点です。'
+             : '同じ問題が同じ順番で出ます。先に正解したほうが得点です。' ?></p>
       </section>
 
       <!-- ========== 待合室 ========== -->
