@@ -6,6 +6,7 @@
   const PHASE2_DELAY = 2000;  // 意味正解 → 次の単語へ
   const TIME_LIMIT   = 20000; // 1問あたりの制限時間
   const REVEAL_DELAY = 2600;  // 時間切れで答えを見せる時間
+  const RELATED_EXTRA = 1800; // 関連語を見せるときに足す時間
 
   const BASE_POINTS  = 100;
   const COMBO_STEP   = 0.02;  // チェイン1つにつき倍率 +2%
@@ -26,6 +27,16 @@
 
   function revealJa(exja) {
     return escapeHtml(exja).replace(/【([^】]*)】/, '<span class="filled">$1</span>');
+  }
+
+  // 見出し語の答えのあとに見せる「同じ番号の関連語」
+  function relatedHtml(w) {
+    if (!w || !w.rels || !w.rels.length) return '';
+    const items = w.rels.slice(0, 4).map(r =>
+      '<b>' + escapeHtml(r.en) + '</b> ' +
+      escapeHtml(String(r.ja).split('／').slice(0, 2).join('／')));
+    return '<span class="related"><span class="related-label">関連語</span>' +
+      items.join('<i>・</i>') + '</span>';
   }
 
   const juken = {
@@ -188,11 +199,13 @@
         $('answer-line').innerHTML = '<span class="reveal">' + escapeHtml(w.en) + '</span>';
         $('banner').textContent = '時間切れ — 答えは「' + w.en + '」';
         $('banner').className = 'banner ng';
+        const rel = relatedHtml(w);
+        $('guide').innerHTML = rel;
         this.speak(w.en);
         setTimeout(() => {
           if (!this.playing) return;
           if (this.useExample) this.toPhase2(); else this.next();
-        }, REVEAL_DELAY);
+        }, REVEAL_DELAY + (rel ? RELATED_EXTRA : 0));
       } else {
         this.hintShown = true;
         this.renderKana();
@@ -214,9 +227,9 @@
             $(id).max = meta.maxNo;
           });
           $('range-hint').textContent =
-            '収録: 単語' + meta.words + ' ＋ 熟語' + meta.idioms +
-            '（見出し語番号 ' + meta.minNo + '〜' + meta.maxNo +
-            '）　空欄なら全範囲から出題します';
+            '見出し語: 単語' + meta.words + ' ＋ 熟語' + meta.idioms +
+            '（関連語 ' + meta.related + '）　番号 ' + meta.minNo + '〜' + meta.maxNo +
+            '　空欄なら全範囲から出題します';
         })
         .withFailureHandler(() => {
           $('range-hint').textContent = '収録範囲を取得できませんでした';
@@ -228,7 +241,7 @@
     signature: function (opts) {
       return ['eigo', this.shakyo ? 'shakyo' : 'quiz', opts.kind,
               opts.from || '', opts.to || '', opts.limit,
-              this.useExample ? 'ex' : 'noex', opts.source].join('|');
+              this.useExample ? 'ex' : 'noex', opts.source, opts.related].join('|');
     },
 
     // ---- 開始 ----
@@ -239,6 +252,7 @@
         limit: $('round-size').value,
         shuffle: $('order-mode').value === 'shuffle',
         kind: $('kind-mode').value,
+        related: $('related-mode') ? $('related-mode').value : 'off',
         source: $('source-mode') ? $('source-mode').value : 'all'
       };
       // 写経は答えが見えている勝負なので、例文ステップは付けない
@@ -333,9 +347,10 @@
         : (this.useExample ? 'STEP 1 ・ ' : '') + what + 'をタイプ';
       $('prompt').textContent = w.ja;
       // 語感や使い方の一言は、データにあるときだけ小さく添える
-      $('sub-prompt').innerHTML = escapeHtml(this.shakyo
+      $('sub-prompt').innerHTML = escapeHtml((this.shakyo
           ? '見えている' + what + 'をそのまま打つ'
           : 'この意味の' + what + 'は？') +
+          (w.rel && w.hw ? '（見出し語 ' + w.hw + ' の関連語）' : '')) +
         (w.nu ? '<span class="nuance">' + escapeHtml(w.nu) + '</span>' : '');
       $('guide').textContent = '';
       $('banner').textContent = '';
@@ -373,6 +388,8 @@
       $('answer-line').innerHTML = '<span class="done">' + escapeHtml(w.en) + '</span>';
       $('banner').textContent = '正解！';
       $('banner').className = 'banner ok';
+      const rel = relatedHtml(w);
+      $('guide').innerHTML = rel;
 
       if (!this.useExample) {
         this.correct++;
@@ -382,7 +399,7 @@
       setTimeout(() => {
         if (!this.playing) return;
         if (this.useExample) this.toPhase2(); else this.next();
-      }, PHASE1_DELAY);
+      }, PHASE1_DELAY + (rel ? RELATED_EXTRA : 0));
     },
 
     // ---- STEP2: 例文の空欄 → 意味をタイプ ----

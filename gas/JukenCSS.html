@@ -528,4 +528,26 @@
     .hud-item.ghost { padding: 3px 8px; }
     .hud-item.ghost + .hud-item { border-left: none; }
   }
+
+  /* 見出し語の答えのあとに出す、同じ番号の関連語 */
+  .guide .related {
+    display: inline-block;
+    margin-top: 4px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: rgba(147, 163, 189, .1);
+    color: var(--text);
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", system-ui, sans-serif;
+    font-size: .92rem;
+    letter-spacing: 0;
+    line-height: 1.6;
+  }
+  .guide .related b { color: var(--accent); font-weight: 600; }
+  .guide .related i { font-style: normal; color: var(--muted); margin: 0 8px; }
+  .related-label {
+    margin-right: 10px;
+    color: var(--muted);
+    font-size: .75rem;
+    letter-spacing: .1em;
+  }
 </style>
