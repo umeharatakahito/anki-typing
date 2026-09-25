@@ -550,4 +550,15 @@
     font-size: .75rem;
     letter-spacing: .1em;
   }
+
+  /* 関連語は1語1行。語・訳・見出し語との違い */
+  .guide .related { text-align: left; }
+  .guide .related .related-label { display: block; margin-bottom: 2px; }
+  .rel-row { display: block; }
+  .rel-row b { margin-right: 10px; }
+  .rel-ja { color: var(--text); }
+  .rel-df { display: block; margin: 0 0 4px 1em; color: #8aa6c8; font-size: .82rem; }
+  .rel-df::before { content: '└ '; color: var(--muted); }
+  .nuance.rel-hint { color: #fbbf24; }
+  .nuance.rel-hint::before { background: #fbbf24; }
 </style>

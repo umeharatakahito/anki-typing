@@ -7,6 +7,7 @@
   const TIME_LIMIT   = 20000; // 1問あたりの制限時間
   const REVEAL_DELAY = 2600;  // 時間切れで答えを見せる時間
   const RELATED_EXTRA = 1800; // 関連語を見せるときに足す時間
+  const RELATED_PER   = 900;  // 関連語が2語目以降、1語ごとに足す時間
 
   const BASE_POINTS  = 100;
   const COMBO_STEP   = 0.02;  // チェイン1つにつき倍率 +2%
@@ -33,10 +34,25 @@
   function relatedHtml(w) {
     if (!w || !w.rels || !w.rels.length) return '';
     const items = w.rels.slice(0, 4).map(r =>
-      '<b>' + escapeHtml(r.en) + '</b> ' +
-      escapeHtml(String(r.ja).split('／').slice(0, 2).join('／')));
-    return '<span class="related"><span class="related-label">関連語</span>' +
-      items.join('<i>・</i>') + '</span>';
+      '<span class="rel-row"><b>' + escapeHtml(r.en) + '</b>' +
+      '<span class="rel-ja">' + escapeHtml(String(r.ja).split('／').slice(0, 2).join('／')) + '</span>' +
+      (r.df ? '<span class="rel-df">' + escapeHtml(r.df) + '</span>' : '') + '</span>');
+    return '<span class="related"><span class="related-label">関連語</span>' + items.join('') + '</span>';
+  }
+
+  // 関連語を出題するときの添え書き。見出し語の綴りに答えが含まれる組
+  // （clothes と cloth など）では、見出し語名を出すと答えが見えるので伏せる
+  function relLabel(w) {
+    if (!w.rel) return '';
+    const hw = String(w.hw || '');
+    if (!hw || hw.toLowerCase().indexOf(String(w.en).toLowerCase()) >= 0) return '（関連語）';
+    return '（見出し語 ' + hw + ' の関連語）';
+  }
+
+  // 関連語を見せる時間。語が多いほど長く
+  function relatedWait(w) {
+    const n = (w && w.rels) ? Math.min(w.rels.length, 4) : 0;
+    return n ? RELATED_EXTRA + (n - 1) * RELATED_PER : 0;
   }
 
   const juken = {
@@ -205,7 +221,7 @@
         setTimeout(() => {
           if (!this.playing) return;
           if (this.useExample) this.toPhase2(); else this.next();
-        }, REVEAL_DELAY + (rel ? RELATED_EXTRA : 0));
+        }, REVEAL_DELAY + relatedWait(w));
       } else {
         this.hintShown = true;
         this.renderKana();
@@ -350,7 +366,8 @@
       $('sub-prompt').innerHTML = escapeHtml((this.shakyo
           ? '見えている' + what + 'をそのまま打つ'
           : 'この意味の' + what + 'は？') +
-          (w.rel && w.hw ? '（見出し語 ' + w.hw + ' の関連語）' : '')) +
+          relLabel(w)) +
+        (w.rel && w.df ? '<span class="nuance rel-hint">' + escapeHtml(w.df) + '</span>' : '') +
         (w.nu ? '<span class="nuance">' + escapeHtml(w.nu) + '</span>' : '');
       $('guide').textContent = '';
       $('banner').textContent = '';
@@ -399,7 +416,7 @@
       setTimeout(() => {
         if (!this.playing) return;
         if (this.useExample) this.toPhase2(); else this.next();
-      }, PHASE1_DELAY + (rel ? RELATED_EXTRA : 0));
+      }, PHASE1_DELAY + relatedWait(w));
     },
 
     // ---- STEP2: 例文の空欄 → 意味をタイプ ----
