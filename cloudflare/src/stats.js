@@ -10,6 +10,7 @@ import {
   jukenSubject_, wordsByKeys_, withWeak
 } from './generated/gas.js';
 import { FREE_MAX_LEVEL } from './gate.js';
+import { CAT_BY_KBN } from './sets.js';
 
 // 正解が続いた語は苦手リストから外す。ミスより this だけ多く正解したら卒業。
 const WEAK_CLEAR_MARGIN = 2;
@@ -354,4 +355,56 @@ export async function getJukenRound(env, opts) {
     ghost = null;
   }
   return { words: res.words, matched: res.matched, ghost: ghost };
+}
+
+// ---------------------------------------------------------------
+// わたしの戦績（?p=me）。ログインしている人の、対戦と個人の記録をまとめる
+export async function getMyStats(env) {
+  const v = env.viewer;
+  if (!v.email) return { loggedIn: false };
+  const db = env.DB, e = v.email;
+  const label = k => (CAT_BY_KBN[k] && CAT_BY_KBN[k].label) || k;
+
+  const [vsAll, vsByPlayers, vsByMode, vsRows, solo, soloBest] = await db.batch([
+    db.prepare('SELECT COUNT(*) AS n, COALESCE(SUM(won), 0) AS wins, COALESCE(SUM(points), 0) AS points FROM vs_results WHERE email = ?').bind(e),
+    db.prepare('SELECT players, COUNT(*) AS n, SUM(won) AS wins FROM vs_results WHERE email = ? GROUP BY players ORDER BY players').bind(e),
+    db.prepare('SELECT mode, COUNT(*) AS n, SUM(won) AS wins FROM vs_results WHERE email = ? GROUP BY mode').bind(e),
+    db.prepare('SELECT played_at, kbn, mode, target, players, place, won, points, opponents FROM vs_results WHERE email = ? ORDER BY played_at DESC LIMIT 200').bind(e),
+    db.prepare(`SELECT COUNT(*) AS plays, COALESCE(MAX(score), 0) AS best,
+                       COALESCE(SUM(great + good + okay), 0) AS correct, COALESCE(MAX(level), 0) AS level
+                  FROM scores WHERE email = ?`).bind(e),
+    db.prepare(`SELECT kubun, mode, MAX(score) AS best, MAX(level) AS level, COUNT(*) AS plays, MAX(timestamp) AS last
+                  FROM scores WHERE email = ? GROUP BY kubun, mode ORDER BY best DESC LIMIT 50`).bind(e),
+  ]);
+
+  // 連勝（今の連勝と、いちばん長い連勝）。vsRows は新しい順
+  const wonList = vsRows.results.map(r => r.won);
+  let current = 0;
+  while (current < wonList.length && wonList[current]) current++;
+  let best = 0, run = 0;
+  for (const w of wonList.slice().reverse()) { run = w ? run + 1 : 0; best = Math.max(best, run); }
+
+  const a = vsAll.results[0];
+  return {
+    loggedIn: true,
+    name: v.name,
+    vs: {
+      matches: a.n, wins: a.wins, points: a.points,
+      rate: a.n ? Math.round(a.wins / a.n * 100) : 0,
+      streak: current, bestStreak: best,
+      byPlayers: vsByPlayers.results.map(r => ({ players: r.players, n: r.n, wins: r.wins })),
+      byMode: vsByMode.results.map(r => ({ mode: r.mode, n: r.n, wins: r.wins })),
+      recent: vsRows.results.slice(0, 10).map(r => ({
+        date: fmtDate(r.played_at, true), set: label(r.kbn), mode: r.mode, target: r.target,
+        players: r.players, place: r.place, won: !!r.won, points: r.points, opponents: r.opponents
+      }))
+    },
+    solo: {
+      plays: solo.results[0].plays, best: num(solo.results[0].best),
+      correct: solo.results[0].correct, level: solo.results[0].level,
+      bests: soloBest.results.map(r => ({
+        set: label(r.kubun), mode: r.mode, best: num(r.best), level: num(r.level), plays: r.plays, date: fmtDate(r.last, true)
+      }))
+    }
+  };
 }

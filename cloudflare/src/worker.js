@@ -104,6 +104,10 @@ function renderPage(url, viewer, available) {
       'width=device-width, initial-scale=1');
   }
 
+  if (route === 'me') {
+    return withHead(PAGES.mypage(vars), 'わたしの戦績', 'width=device-width, initial-scale=1, viewport-fit=cover');
+  }
+
   if (route === 'ranking') {
     vars.studySet = { groups: Object.values(STUDY_SETS).map(s => ({ title: s.title, cats: s.cats })) };
     return withHead(PAGES.ranking(vars), 'ランキング', 'width=device-width, initial-scale=1, viewport-fit=cover');
@@ -148,6 +152,7 @@ const D1_FUNCTIONS = {
   getLevelInfo: stats.getLevelInfo,
   getLevelQuestions: stats.getLevelQuestions,
   getUserRanking: stats.getUserRanking,
+  getMyStats: stats.getMyStats,
   setTheme,
   saveScore: stats.saveScore,
   getRanking: stats.getRanking,
@@ -225,7 +230,8 @@ function typingVersus(request, env, url, viewer) {
     name = 'room:' + code;
   }
   const headers = new Headers(request.headers);
-  headers.set('x-viewer', JSON.stringify({ name: viewer.email ? viewer.name : '', member: viewer.member }));
+  // 対戦の結果を戦績に残すため、ログインしている人はメールアドレスも渡す（画面には送らない）
+  headers.set('x-viewer', JSON.stringify({ name: viewer.email ? viewer.name : '', member: viewer.member, email: viewer.email || '' }));
   const stub = env.TYPING_VS.get(env.TYPING_VS.idFromName(name));
   return stub.fetch(new Request(url.toString(), { headers }));
 }

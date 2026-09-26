@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <base target="_top">
+    <meta charset="utf-8">
+    <title>わたしの戦績</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <?!= include('JukenCSS'); ?>
+    <?!= include('ThemeCSS'); ?>
+    <style>
+      .me-grid{ display:grid; grid-template-columns:repeat(auto-fit, minmax(140px, 1fr)); gap:10px; margin:0 0 18px; }
+      .me-card{ background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px; text-align:center; }
+      .me-card .v{ font-size:28px; font-weight:800; font-variant-numeric:tabular-nums; }
+      .me-card .k{ font-size:12px; color:var(--muted); margin-top:2px; }
+      h2.me-h{ font-size:1.05rem; margin:22px 0 8px; }
+      .me-wrap{ overflow-x:auto; background:var(--card); border:1px solid var(--line); border-radius:10px; }
+      .me-t{ width:100%; border-collapse:collapse; font-size:.9rem; }
+      .me-t th, .me-t td{ padding:9px 10px; border-bottom:1px solid var(--line); text-align:left; white-space:nowrap; }
+      .me-t th{ color:var(--muted); font-weight:normal; font-size:.8rem; }
+      .me-t tr:last-child td{ border-bottom:0; }
+      .me-t td.num{ text-align:right; font-variant-numeric:tabular-nums; }
+      .win{ color:#16a34a; font-weight:700; } .lose{ color:var(--muted); }
+      .me-empty{ padding:22px; text-align:center; color:var(--muted); }
+      .me-chips{ display:flex; flex-wrap:wrap; gap:6px; }
+      .me-chip{ padding:4px 10px; border-radius:999px; border:1px solid var(--line); background:var(--card); font-size:.85rem; }
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+      <section class="screen">
+        <a class="back-link" href="<?= execUrl ?>">← トップ</a>
+        <h1 class="title">わたしの戦績</h1>
+        <p class="subtitle" id="me-name">&nbsp;</p>
+        <div id="me-body"><div class="me-empty">読み込み中…</div></div>
+      </section>
+    </div>
+
+    <script>
+    (function () {
+      const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
+        ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+      const card = (v, k) => `<div class="me-card"><div class="v">${v}</div><div class="k">${k}</div></div>`;
+      const body = document.getElementById('me-body');
+
+      google.script.run
+        .withSuccessHandler(s => {
+          if (!s || !s.loggedIn) {
+            body.innerHTML = '<div class="me-empty">右上の「ログイン」から Google でログインすると、対戦や個人の記録がここに残ります。</div>';
+            return;
+          }
+          document.getElementById('me-name').textContent = s.name + ' さん';
+          const vs = s.vs, so = s.solo;
+          let html = '<h2 class="me-h">⚔ 対戦</h2>';
+          if (!vs.matches) {
+            html += '<div class="me-empty">まだ対戦の記録がありません</div>';
+          } else {
+            html += '<div class="me-grid">' +
+              card(vs.wins + ' 勝', vs.matches + ' 試合') +
+              card(vs.rate + '%', '勝率') +
+              card(vs.streak, '今の連勝') +
+              card(vs.bestStreak, 'いちばん長い連勝') +
+              card(vs.points, '取った本数（合計）') + '</div>';
+            html += '<div class="me-chips">' +
+              vs.byPlayers.map(r => `<span class="me-chip">${r.players}人対戦：${r.wins}勝 / ${r.n}試合</span>`).join('') +
+              vs.byMode.map(r => `<span class="me-chip">${esc(r.mode)}：${r.wins}勝 / ${r.n}試合</span>`).join('') + '</div>';
+            html += '<h2 class="me-h">最近の対戦</h2><div class="me-wrap"><table class="me-t"><thead><tr>' +
+              '<th>日時</th><th>結果</th><th>問題集</th><th>モード</th><th class="num">本数</th><th>相手</th></tr></thead><tbody>' +
+              vs.recent.map(r => `<tr><td>${esc(r.date)}</td>
+                <td class="${r.won ? 'win' : 'lose'}">${r.won ? '勝ち' : r.players > 2 ? r.place + '位' : '負け'}</td>
+                <td>${esc(r.set)}</td><td>${esc(r.mode.replace('モード', ''))}</td>
+                <td class="num">${r.points}/${r.target}</td><td>${esc(r.opponents)}</td></tr>`).join('') +
+              '</tbody></table></div>';
+          }
+          html += '<h2 class="me-h">✍ 個人</h2>';
+          if (!so.plays) {
+            html += '<div class="me-empty">まだ個人の記録がありません（ログインして遊ぶと自動で残ります）</div>';
+          } else {
+            html += '<div class="me-grid">' +
+              card(so.best.toLocaleString(), '最高点') +
+              card(so.plays, 'プレイ回数') +
+              card(so.correct.toLocaleString(), '正解した問題（合計）') +
+              card(so.level ? 'Lv' + so.level : '—', '到達した最高レベル') + '</div>';
+            html += '<h2 class="me-h">問題集ごとの最高点</h2><div class="me-wrap"><table class="me-t"><thead><tr>' +
+              '<th>問題集</th><th>モード</th><th class="num">最高点</th><th class="num">レベル</th><th class="num">回数</th><th>最後に遊んだ日</th></tr></thead><tbody>' +
+              so.bests.map(r => `<tr><td>${esc(r.set)}</td><td>${esc(r.mode.replace('モード', ''))}</td>
+                <td class="num">${r.best.toLocaleString()}</td><td class="num">${r.level ? 'Lv' + r.level : '—'}</td>
+                <td class="num">${r.plays}</td><td>${esc(r.date)}</td></tr>`).join('') +
+              '</tbody></table></div>';
+          }
+          body.innerHTML = html;
+        })
+        .withFailureHandler(e => { body.innerHTML = '<div class="me-empty">読み込めませんでした: ' + esc(e.message) + '</div>'; })
+        .getMyStats();
+    })();
+    </script>
+    <?!= include('MenuKeys'); ?>
+  </body>
+</html>

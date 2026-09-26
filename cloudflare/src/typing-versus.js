@@ -141,7 +141,8 @@ export class TypingVersus extends DurableObject {
     let seat = 1;
     while (this.players.some(p => p.seat === seat)) seat++;
     if (!this.room.hostSeat) this.room.hostSeat = seat;
-    const me = { ws, seat, name: viewer.name || ('ゲスト' + seat), member: !!viewer.member, again: false, out: false };
+    const me = { ws, seat, name: viewer.name || ('ゲスト' + seat), member: !!viewer.member, email: viewer.email || '',
+                 again: false, out: false };
     this.players.push(me);
     const r = this.room;
     send(ws, { t: 'room', code: r.code, kbn: r.kbn, mode: r.mode, target: r.target, seat });
@@ -177,7 +178,7 @@ export class TypingVersus extends DurableObject {
     const questions = await this.pickQuestions(allMembers, this.room.target * 3);
     if (!questions.length) { this.broadcast({ t: 'error', message: '問題が見つかりませんでした' }); return; }
     this.players.forEach(p => { p.again = false; p.out = false; });
-    this.game = { questions, r: 0, scores: {}, roundOver: false, ended: false, allMembers };
+    this.game = { questions, r: 0, scores: {}, roundOver: false, ended: false, allMembers, startPlayers: this.players.length };
     this.broadcast({ t: 'start', questions, target: this.room.target, in: COUNTDOWN_MS });
     this.armRoundTimer(COUNTDOWN_MS);
   }
@@ -268,7 +269,7 @@ export class TypingVersus extends DurableObject {
     if (this.timer) clearTimeout(this.timer);
     this.timer = setTimeout(async () => {
       if (this.game !== g || g.ended) return;
-      if (done) { g.ended = true; this.broadcast({ t: 'end', winner: seat, scores: this.scores(), left: null }); return; }
+      if (done) { g.ended = true; this.broadcast({ t: 'end', winner: seat, scores: this.scores(), left: null }); this.record(seat); return; }
       g.r++;
       g.roundOver = false;
       this.players.forEach(p => { p.out = false; });
@@ -283,6 +284,22 @@ export class TypingVersus extends DurableObject {
     }, RESULT_MS);
   }
 
+  // ログインしている人の結果を戦績（vs_results）に残す。人数は試合を始めたときの人数
+  async record(winner) {
+    const g = this.game, sc = g.scores, r = this.room;
+    const n = g.startPlayers || this.players.length;
+    const stmts = this.players.filter(p => p.email).map(p => {
+      const mine = sc[p.seat] || 0;
+      const place = 1 + this.players.filter(o => (sc[o.seat] || 0) > mine).length;
+      const opps = this.players.filter(o => o !== p).map(o => o.name).join('、');
+      return this.env.DB.prepare(
+        `INSERT INTO vs_results (email, played_at, kbn, mode, target, players, place, won, points, opponents)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+      ).bind(p.email, Date.now(), r.kbn, r.mode, r.target, n, place, p.seat === winner ? 1 : 0, mine, opps);
+    });
+    if (stmts.length) { try { await this.env.DB.batch(stmts); } catch (e) { /* 記録に失敗しても試合は続ける */ } }
+  }
+
   onLeave(me) {
     this.players = this.players.filter(p => p !== me);
     if (!this.players.length) { this.reset(); return; }
@@ -294,6 +311,7 @@ export class TypingVersus extends DurableObject {
         g.ended = true;
         if (this.timer) clearTimeout(this.timer);
         this.broadcast({ t: 'end', winner: this.players[0].seat, scores: this.scores(), left: me.seat });
+        this.record(this.players[0].seat);
       } else if (!g.roundOver && this.players.every(p => p.out)) {
         this.closeRound(null);
       }

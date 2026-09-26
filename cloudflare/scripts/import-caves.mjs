@@ -28,7 +28,10 @@ const here = dirname(fileURLToPath(import.meta.url));
 const READINGS = JSON.parse(readFileSync(join(here, '..', 'data', 'readings.json'), 'utf8'));
 // 問題に付ける図（public/fig/）。フリー画像は、答えた後の解説に作者とライセンスを出す
 // （ファイル名には答えが入っていることがあるので、解く前には出さない）
-const FIGURES = JSON.parse(readFileSync(join(here, '..', 'data', 'figures.json'), 'utf8'));
+// 図の一覧は data/figures.json と、手分けして作った data/figures-*.json をまとめて読む
+const FIGURES = Object.assign({}, ...readdirSync(join(here, '..', 'data'))
+  .filter(f => /^figures(-[\w-]+)?\.json$/.test(f)).sort()
+  .map(f => JSON.parse(readFileSync(join(here, '..', 'data', f), 'utf8'))));
 const credit = f => f.kind === 'commons'
   ? `図：${f.author}／${f.license}（Wikimedia Commons）` : '';
 

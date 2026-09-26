@@ -81,7 +81,7 @@ function compileTemplate(src) {
   return parts.join(' +\n    ');
 }
 
-const PAGE_FILES = ['home', 'ranking', 'index', 'juken_home', 'juken_index', 'juken_kobun', 'juken_rekishi', 'juken_versus'];
+const PAGE_FILES = ['home', 'ranking', 'mypage', 'index', 'juken_home', 'juken_index', 'juken_kobun', 'juken_rekishi', 'juken_versus'];
 const VARS = ['execUrl', 'subject', 'subjectLabel', 'backRoute', 'autoMode', 'studySet', 'jukenFull'];
 
 let pages = `// 自動生成（build.mjs）。編集しないこと。

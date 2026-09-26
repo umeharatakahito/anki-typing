@@ -323,7 +323,13 @@
     nameInput.readOnly = true;
     nameInput.title = 'ニックネームで保存します（右上の名前から変えられます）';
     const _endGame = h.endGame;
-    h.endGame = function () { const r = _endGame.apply(this, arguments); nameInput.value = window.ST_VIEWER.name; return r; };
+    h.endGame = function () {
+      const r = _endGame.apply(this, arguments);
+      nameInput.value = window.ST_VIEWER.name;
+      // ログインしている人は、終わったら自動で保存する（戦績・ランキングに残る）
+      if (!this.versusMode && !this._scoreSaved && this.stats.score > 0) this.saveScore();
+      return r;
+    };
   }
 
   // スマホで画面キーボードが出ている間は、自分の入力欄がキーボードに隠れないように送る
