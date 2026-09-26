@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<polygon points="0.0,260.0 600.0,260.0 600.0,300.0 0.0,300.0" fill="#bcaaa4" stroke="none" stroke-width="1.5"/>
+<polygon points="60.0,260.0 100.0,110.0 300.0,110.0 340.0,260.0" fill="#ffb74d" stroke="#f57c00" stroke-width="2"/>
+<polygon points="100.0,110.0 300.0,110.0 297.0,126.0 103.0,126.0" fill="#6d4c41" stroke="none" stroke-width="1.5"/>
+<polygon points="420.0,260.0 445.0,110.0 495.0,110.0 520.0,260.0" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2"/>
+<polygon points="445.0,110.0 495.0,110.0 493.0,126.0 447.0,126.0" fill="#6d4c41" stroke="none" stroke-width="1.5"/>
+<text x="130.0" y="95.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#3e2723" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">硬い岩層</text>
+<text x="200.0" y="200.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#4e342e" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">軟らかい岩層</text>
+<text x="470.0" y="285.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">ビュート</text>
+<line x1="200.0" y1="40.0" x2="200.0" y2="108.0" stroke="#f57c00" stroke-width="2.4"/><circle cx="200.0" cy="108.0" r="3.5" fill="#f57c00"/><circle cx="200.0" cy="40.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="200.0" y="41.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

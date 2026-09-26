@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" width="520" height="360" font-family="sans-serif">
+<rect width="520" height="360" fill="#fff"/>
+<rect x="0" y="0" width="520" height="360" fill="#dcedc8"/>
+<line x1="260" y1="180" x2="520" y2="60" stroke="#9e9e9e" stroke-width="4"/>
+<line x1="260" y1="180" x2="0" y2="90" stroke="#9e9e9e" stroke-width="4"/>
+<line x1="260" y1="180" x2="60" y2="360" stroke="#9e9e9e" stroke-width="4"/>
+<line x1="260" y1="180" x2="480" y2="360" stroke="#9e9e9e" stroke-width="4"/>
+<line x1="260" y1="180" x2="260" y2="0" stroke="#9e9e9e" stroke-width="4"/>
+<circle cx="260" cy="180" r="55" fill="#bdbdbd" stroke="#757575"/>
+<text x="260.0" y="180.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">市街地</text>
+<rect x="124" y="46" width="18" height="22" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="201" y="63" width="25" height="17" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="43" y="142" width="23" height="14" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="452" y="269" width="19" height="22" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="378" y="84" width="22" height="20" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="94" y="47" width="28" height="17" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="114" y="310" width="25" height="17" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="409" y="271" width="21" height="21" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="160" y="214" width="24" height="21" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="362" y="286" width="18" height="17" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="433" y="41" width="24" height="21" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="254" y="70" width="21" height="20" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="238" y="42" width="21" height="21" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="447" y="196" width="21" height="14" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="88" y="111" width="18" height="18" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="401" y="27" width="22" height="17" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="33" y="213" width="26" height="17" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="146" y="184" width="30" height="17" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="490" y="76" width="24" height="18" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="315" y="101" width="20" height="19" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="182" y="252" width="18" height="19" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="41" y="86" width="27" height="15" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="378" y="210" width="27" height="20" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="125" y="119" width="28" height="14" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="96" y="160" width="25" height="20" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="441" y="319" width="19" height="20" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="364" y="320" width="21" height="16" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="208" y="315" width="23" height="18" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="309" y="275" width="28" height="21" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="152" y="74" width="30" height="19" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="170" y="16" width="24" height="22" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="387" y="129" width="21" height="18" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="482" y="149" width="23" height="20" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="336" y="61" width="25" height="15" fill="#ffb74d" stroke="#f57c00" stroke-width="1.2"/>
+<rect x="10" y="318" width="250" height="34" rx="5" fill="#fff" fill-opacity="0.9"/>
+<rect x="20" y="327" width="18" height="14" fill="#ffb74d" stroke="#f57c00"/><text x="46.0" y="334.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222">住宅・商業地（間に農地が残る）</text>
+<circle cx="490.0" cy="30.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="490.0" y="31.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

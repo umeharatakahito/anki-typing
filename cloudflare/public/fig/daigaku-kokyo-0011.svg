@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<rect x="10" y="30" width="580" height="340" rx="14" fill="#f5f9ff" stroke="#f57c00" stroke-width="3"/>
+<rect x="220.0" y="150.0" width="160.0" height="70.0" rx="6" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/><text x="300.0" y="185.0" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">総会</text>
+<rect x="30.0" y="60.0" width="190.0" height="64.0" rx="6" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/><text x="125.0" y="92.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">安全保障理事会</text>
+<rect x="380.0" y="60.0" width="190.0" height="64.0" rx="6" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/><text x="475.0" y="92.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">経済社会理事会</text>
+<rect x="30.0" y="270.0" width="170.0" height="64.0" rx="6" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/><text x="115.0" y="302.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">事務局</text>
+<rect x="400.0" y="270.0" width="170.0" height="64.0" rx="6" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/><text x="485.0" y="302.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">国際司法裁判所</text>
+<rect x="215.0" y="270.0" width="160.0" height="64.0" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/><text x="295.0" y="294.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">信託統治理事会</text>
+<text x="295.0" y="309.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">（活動停止中）</text>
+<circle cx="560.0" cy="30.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="560.0" y="31.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300.0" y="20.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">主要機関</text>
+</svg>

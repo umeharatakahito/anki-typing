@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" width="600" height="280" font-family="sans-serif">
+<rect width="600" height="280" fill="#fff"/>
+<defs><marker id="af57c00" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<circle cx="60" cy="90" r="16" fill="#90caf9"/><rect x="46" y="106" width="28" height="22" rx="6" fill="#90caf9"/>
+<circle cx="110" cy="90" r="16" fill="#90caf9"/><rect x="96" y="106" width="28" height="22" rx="6" fill="#90caf9"/>
+<circle cx="160" cy="90" r="16" fill="#90caf9"/><rect x="146" y="106" width="28" height="22" rx="6" fill="#90caf9"/>
+<circle cx="60" cy="150" r="16" fill="#90caf9"/><rect x="46" y="166" width="28" height="22" rx="6" fill="#90caf9"/>
+<circle cx="110" cy="150" r="16" fill="#90caf9"/><rect x="96" y="166" width="28" height="22" rx="6" fill="#90caf9"/>
+<circle cx="160" cy="150" r="16" fill="#90caf9"/><rect x="146" y="166" width="28" height="22" rx="6" fill="#90caf9"/>
+<text x="110.0" y="220.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">現役世代</text>
+<circle cx="420" cy="120" r="16" fill="#bcaaa4"/><rect x="406" y="136" width="28" height="22" rx="6" fill="#bcaaa4"/>
+<circle cx="475" cy="120" r="16" fill="#bcaaa4"/><rect x="461" y="136" width="28" height="22" rx="6" fill="#bcaaa4"/>
+<circle cx="530" cy="120" r="16" fill="#bcaaa4"/><rect x="516" y="136" width="28" height="22" rx="6" fill="#bcaaa4"/>
+<text x="475.0" y="220.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">その時点の高齢者</text>
+<line x1="200.0" y1="130.0" x2="390.0" y2="130.0" stroke="#f57c00" stroke-width="4" marker-end="url(#af57c00)"/>
+<text x="295.0" y="110.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#e65100" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">保険料</text>
+<text x="295.0" y="152.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#e65100" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">→ 年金給付</text>
+<text x="300.0" y="260.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">（対比：自分が積み立てた資金を将来受け取る積立方式）</text>
+<circle cx="575.0" cy="25.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575.0" y="26.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

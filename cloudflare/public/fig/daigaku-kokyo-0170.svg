@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" width="600" height="260" font-family="sans-serif">
+<rect width="600" height="260" fill="#fff"/>
+<defs><marker id="a222" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker><marker id="af57c00" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="30.0" y="90.0" width="140.0" height="70.0" rx="6" fill="#fff8e1" stroke="#ffb300" stroke-width="2"/><text x="100.0" y="125.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">金</text>
+<rect x="230.0" y="90.0" width="140.0" height="70.0" rx="6" fill="#e8f5e9" stroke="#66bb6a" stroke-width="2"/><text x="300.0" y="125.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">ドル</text>
+<rect x="430.0" y="90.0" width="140.0" height="70.0" rx="6" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/><text x="500.0" y="115.6" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">各国の通貨</text>
+<text x="500.0" y="134.4" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">（円など）</text>
+<line x1="172.0" y1="125.0" x2="228.0" y2="125.0" stroke="#222" stroke-width="2.5" marker-end="url(#a222)" marker-start="url(#a222)"/>
+<text x="200.0" y="185.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">金1オンス＝35ドル</text>
+<line x1="372.0" y1="125.0" x2="428.0" y2="125.0" stroke="#222" stroke-width="2.5" marker-end="url(#a222)" marker-start="url(#a222)"/>
+<text x="400.0" y="185.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">1ドル＝360円</text>
+<text x="300.0" y="220.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">固定相場制（IMF・世界銀行が中心）</text>
+<g stroke="#f57c00" stroke-width="6" stroke-linecap="round"><line x1="185" y1="105" x2="215" y2="145"/><line x1="215" y1="105" x2="185" y2="145"/></g>
+<text x="200.0" y="60.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#e65100" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">1971年 交換停止</text>
+<circle cx="200.0" cy="30.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="200.0" y="31.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

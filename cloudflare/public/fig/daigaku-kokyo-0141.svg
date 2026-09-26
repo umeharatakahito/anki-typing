@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350" font-family="sans-serif">
+<rect width="600" height="350" fill="#fff"/>
+<text x="160.0" y="30.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">歳入</text><rect x="90" y="50" width="140" height="190" fill="#a5d6a7" stroke="#fff"/><text x="160.0" y="145.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">税収など</text><rect x="90" y="240" width="140" height="70" fill="#ef9a9a" stroke="#fff"/><text x="160.0" y="267.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">公債金</text>
+<text x="160.0" y="282.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">（借金）</text>
+<text x="440.0" y="30.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">歳出</text><rect x="370" y="50" width="140" height="200" fill="#90caf9" stroke="#fff"/><text x="440.0" y="142.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">政策的経費</text>
+<text x="440.0" y="157.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">（社会保障など）</text><rect x="370" y="250" width="140" height="60" fill="#cfd8dc" stroke="#fff"/><text x="440.0" y="272.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">国債費</text>
+<text x="440.0" y="287.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">（元利払い）</text>
+<line x1="232" y1="240" x2="368" y2="250" stroke="#f57c00" stroke-width="2.5" stroke-dasharray="6 4"/>
+<line x1="232" y1="50" x2="368" y2="50" stroke="#f57c00" stroke-width="2.5" stroke-dasharray="6 4"/>
+<circle cx="300.0" cy="150.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="300.0" y="151.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300.0" y="335.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#333" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">税収などで政策的経費をどれだけまかなえているか</text>
+</svg>

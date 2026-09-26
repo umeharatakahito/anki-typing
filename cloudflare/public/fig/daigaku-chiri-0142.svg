@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400" width="520" height="400" font-family="sans-serif">
+<rect width="520" height="400" fill="#fff"/>
+<rect width="520" height="400" fill="#fafafa"/>
+<circle cx="260" cy="200" r="140" fill="#a5d6a7" stroke="#f57c00" stroke-width="3"/>
+<circle cx="260" cy="200" r="85" fill="#bdbdbd" stroke="#757575"/>
+<text x="260.0" y="200.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">市街地</text>
+<circle cx="437" cy="272" r="22" fill="#e0e0e0" stroke="#757575"/>
+<text x="436.7" y="305.8" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">ニュータウン</text>
+<circle cx="83" cy="272" r="22" fill="#e0e0e0" stroke="#757575"/>
+<text x="83.3" y="305.8" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">ニュータウン</text>
+<circle cx="358" cy="53" r="22" fill="#e0e0e0" stroke="#757575"/>
+<text x="357.5" y="20.8" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">ニュータウン</text>
+<circle cx="260.0" cy="88.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="260.0" y="89.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

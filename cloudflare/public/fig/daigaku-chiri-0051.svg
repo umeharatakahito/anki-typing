@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<polygon points="0.0,260.0 120.0,230.0 200.0,140.0 240.0,90.0 270.0,150.0 330.0,150.0 360.0,90.0 400.0,140.0 480.0,230.0 600.0,260.0 600.0,300.0 0.0,300.0" fill="#d7ccc8" stroke="#8d6e63" stroke-width="1.5"/>
+<polygon points="262.0,132.0 338.0,132.0 330.0,150.0 270.0,150.0" fill="#90caf9" stroke="#1e88e5" stroke-width="1"/>
+<path d="M240,90 Q300,200 360,90" fill="none" stroke="#f57c00" stroke-width="3" stroke-linejoin="round" stroke-dasharray="7 4"/>
+<text x="185.0" y="90.0" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">外輪山</text>
+<polyline points="190.0,92.0 236.0,96.0" fill="none" stroke="#555" stroke-width="1" stroke-linejoin="round"/>
+<text x="415.0" y="90.0" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">外輪山</text>
+<polyline points="412.0,92.0 364.0,96.0" fill="none" stroke="#555" stroke-width="1" stroke-linejoin="round"/>
+<text x="300.0" y="118.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#1565c0" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">湖</text>
+<text x="300.0" y="240.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#4e342e" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">噴火後に山頂部が陥没してできた大きなくぼ地</text>
+<line x1="420.0" y1="40.0" x2="320.0" y2="150.0" stroke="#f57c00" stroke-width="2.4"/><circle cx="320.0" cy="150.0" r="3.5" fill="#f57c00"/><circle cx="420.0" cy="40.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="420.0" y="41.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

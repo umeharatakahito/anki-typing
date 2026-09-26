@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200" font-family="sans-serif">
+<rect width="600" height="200" fill="#fff"/>
+<rect x="20.0" y="60.0" width="150.0" height="60.0" rx="6" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/><text x="95.0" y="80.6" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">税金の</text>
+<text x="95.0" y="99.4" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">負担</text>
+<text x="190.0" y="90.0" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">＋</text>
+<rect x="210.0" y="60.0" width="170.0" height="60.0" rx="6" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/><text x="295.0" y="80.6" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">社会保険料の</text>
+<text x="295.0" y="99.4" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">負担</text>
+<text x="400.0" y="90.0" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">＝</text>
+<rect x="420.0" y="60.0" width="160.0" height="60.0" rx="6" fill="#ffb74d" stroke="#f57c00" stroke-width="2.5"/>
+<circle cx="500.0" cy="90.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="500.0" y="91.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300.0" y="160.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">いずれも国民所得に対する割合</text>
+</svg>

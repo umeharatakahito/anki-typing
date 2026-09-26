@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<polygon points="0.0,190.0 100.0,192.0 180.0,186.0 230.0,160.0 260.0,150.0 275.0,170.0 325.0,170.0 340.0,150.0 370.0,160.0 420.0,186.0 500.0,192.0 600.0,190.0 600.0,300.0 0.0,300.0" fill="#d7ccc8" stroke="#8d6e63" stroke-width="1.5"/>
+<polygon points="275.0,170.0 325.0,170.0 320.0,184.0 280.0,184.0" fill="#90caf9" stroke="#1e88e5" stroke-width="1"/>
+<polygon points="20.0,190.0 190.0,190.0 190.0,196.0 20.0,196.0" fill="#ffb74d" stroke="#f57c00" stroke-width="2"/>
+<polygon points="410.0,190.0 580.0,190.0 580.0,196.0 410.0,196.0" fill="#ffb74d" stroke="#f57c00" stroke-width="2"/>
+<rect x="237" y="138" width="16" height="12" fill="#fff" stroke="#555"/><polygon points="234.0,139.0 245.0,128.0 256.0,139.0" fill="#e57373" stroke="#555" stroke-width="1"/>
+<rect x="347" y="138" width="16" height="12" fill="#fff" stroke="#555"/><polygon points="344.0,139.0 355.0,128.0 366.0,139.0" fill="#e57373" stroke="#555" stroke-width="1"/>
+<text x="300.0" y="205.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#1565c0" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">河川</text>
+<text x="250.0" y="92.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#4e342e" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">自然堤防</text>
+<text x="250.0" y="107.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#4e342e" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">（集落・畑）</text>
+<text x="105.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#33691e" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">水田に利用</text>
+<line x1="105.0" y1="150.0" x2="105.0" y2="188.0" stroke="#f57c00" stroke-width="2.4"/><circle cx="105.0" cy="188.0" r="3.5" fill="#f57c00"/><circle cx="105.0" cy="150.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="105.0" y="151.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="495.0" y1="150.0" x2="495.0" y2="188.0" stroke="#f57c00" stroke-width="2.4"/><circle cx="495.0" cy="188.0" r="3.5" fill="#f57c00"/><circle cx="495.0" cy="150.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="495.0" y="151.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

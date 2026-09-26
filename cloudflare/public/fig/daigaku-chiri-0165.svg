@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<rect x="0" y="70" width="600" height="270" fill="#d7ccc8"/>
+<rect x="0" y="150" width="600" height="60" fill="#bcaaa4"/>
+<rect x="0" y="250" width="600" height="30" fill="#ffb74d" stroke="#f57c00" stroke-width="2"/>
+<line x1="0" y1="70" x2="600" y2="70" stroke="#6d4c41" stroke-width="2"/>
+<polygon points="70.0,70.0 100.0,10.0 130.0,70.0" fill="none" stroke="#455a64" stroke-width="3"/>
+<path d="M100,70 L100,220 Q100,265 145,265 L560,265" fill="none" stroke="#263238" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="172.0,252.0 188.0,278.0" fill="none" stroke="#263238" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="188.0,252.0 172.0,278.0" fill="none" stroke="#263238" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="217.0,252.0 233.0,278.0" fill="none" stroke="#263238" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="233.0,252.0 217.0,278.0" fill="none" stroke="#263238" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="262.0,252.0 278.0,278.0" fill="none" stroke="#263238" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="278.0,252.0 262.0,278.0" fill="none" stroke="#263238" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="307.0,252.0 323.0,278.0" fill="none" stroke="#263238" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="323.0,252.0 307.0,278.0" fill="none" stroke="#263238" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="352.0,252.0 368.0,278.0" fill="none" stroke="#263238" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="368.0,252.0 352.0,278.0" fill="none" stroke="#263238" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="397.0,252.0 413.0,278.0" fill="none" stroke="#263238" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="413.0,252.0 397.0,278.0" fill="none" stroke="#263238" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="442.0,252.0 458.0,278.0" fill="none" stroke="#263238" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="458.0,252.0 442.0,278.0" fill="none" stroke="#263238" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="487.0,252.0 503.0,278.0" fill="none" stroke="#263238" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="503.0,252.0 487.0,278.0" fill="none" stroke="#263238" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="532.0,252.0 548.0,278.0" fill="none" stroke="#263238" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="548.0,252.0 532.0,278.0" fill="none" stroke="#263238" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="140.0" y="40.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">地表の採掘設備</text>
+<text x="112.0" y="130.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">垂直に掘る</text>
+<text x="330.0" y="300.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">層に沿って水平に掘り、水圧で岩に割れ目をつくる</text>
+<line x1="540.0" y1="230.0" x2="520.0" y2="262.0" stroke="#f57c00" stroke-width="2.4"/><circle cx="520.0" cy="262.0" r="3.5" fill="#f57c00"/><circle cx="540.0" cy="230.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="540.0" y="231.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

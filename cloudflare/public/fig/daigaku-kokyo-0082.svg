@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340" width="560" height="340" font-family="sans-serif">
+<rect width="560" height="340" fill="#fff"/>
+<polygon points="220.0,90.0 340.0,90.0 280.0,30.0" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/>
+<text x="280.0" y="68.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">憲法</text>
+<polygon points="165.0,160.0 395.0,160.0 383.0,100.0 177.0,100.0" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/>
+<text x="280.0" y="138.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">法律（国会）</text>
+<polygon points="110.0,230.0 450.0,230.0 438.0,170.0 122.0,170.0" fill="#ffb74d" stroke="#f57c00" stroke-width="2"/>
+<circle cx="280.0" cy="194.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="280.0" y="195.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="280.0" y="218.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">（内閣が制定）</text>
+<polygon points="55.0,300.0 505.0,300.0 493.0,240.0 67.0,240.0" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/>
+<text x="280.0" y="278.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">省令（各省の大臣）</text>
+<text x="280.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">上位の法ほど効力が強い</text>
+</svg>

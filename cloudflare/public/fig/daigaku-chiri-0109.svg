@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="a222" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker><marker id="af57c00" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker><marker id="a1565c0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker></defs>
+<polygon points="20.0,300.0 300.0,80.0 580.0,300.0" fill="#d7ccc8" stroke="#8d6e63" stroke-width="1.5"/>
+<path d="M110,229 Q190,160 290,86 L230,120 L170,170 Z" fill="#eceff1" stroke="#b0bec5" stroke-width="1" stroke-linejoin="round"/>
+<polyline points="190.0,170.0 184.0,186.0" fill="none" stroke="#1e88e5" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="215.0,190.0 209.0,206.0" fill="none" stroke="#1e88e5" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="240.0,150.0 234.0,166.0" fill="none" stroke="#1e88e5" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="165.0,205.0 159.0,221.0" fill="none" stroke="#1e88e5" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M40,286 Q170,200 296,70" fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round" marker-end="url(#a222)"/>
+<path d="M304,70 Q430,200 560,286" fill="none" stroke="#f57c00" stroke-width="3" stroke-linecap="round" marker-end="url(#af57c00)"/>
+<text x="30.0" y="312.0" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">0m  20℃</text>
+<text x="96.0" y="236.0" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">1000m  10℃</text>
+<text x="300.0" y="55.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">3000m  0℃</text>
+<text x="570.0" y="312.0" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#b71c1c" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">0m  30℃</text>
+<text x="120.0" y="102.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#1565c0" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">風上側：雲ができて</text>
+<text x="120.0" y="117.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#1565c0" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">雨を降らせる</text>
+<text x="470.0" y="142.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#e65100" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">乾いた空気が</text>
+<text x="470.0" y="157.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#e65100" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">吹き下りる</text>
+<text x="150.0" y="330.0" font-size="11" text-anchor="start" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">100mごとに約1℃(雲の中では約0.5℃)変化</text>
+<line x1="520.0" y1="240.0" x2="490.0" y2="250.0" stroke="#f57c00" stroke-width="2.4"/><circle cx="490.0" cy="250.0" r="3.5" fill="#f57c00"/><circle cx="520.0" cy="240.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="520.0" y="241.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

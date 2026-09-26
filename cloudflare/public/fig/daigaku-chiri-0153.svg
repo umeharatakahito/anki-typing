@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<text x="150.0" y="22.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">上から見た図</text>
+<text x="450.0" y="22.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">断面図</text>
+<rect x="20" y="40" width="260" height="280" fill="#e8f5e9" stroke="#a5d6a7"/>
+<path d="M60,40 C60,110 220,90 220,160 C220,230 60,210 60,270 C60,300 120,320 150,320" fill="none" stroke="#8d6e63" stroke-width="30" stroke-linejoin="round" stroke-opacity="0.6" stroke-linecap="round"/>
+<path d="M60,40 C60,110 220,90 220,160 C220,230 60,210 60,270 C60,300 120,320 150,320" fill="none" stroke="#1e88e5" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="320.0,80.0 420.0,80.0 430.0,250.0 470.0,250.0 480.0,80.0 580.0,80.0 580.0,320.0 320.0,320.0" fill="#d7ccc8" stroke="#8d6e63" stroke-width="1.5"/>
+<polygon points="432.0,238.0 468.0,238.0 470.0,250.0 430.0,250.0" fill="#90caf9" stroke="#1e88e5" stroke-width="1"/>
+<polyline points="320.0,80.0 420.0,80.0" fill="none" stroke="#f57c00" stroke-width="0" stroke-linejoin="round"/>
+<text x="370.0" y="60.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#4e342e" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">隆起した台地</text>
+<text x="525.0" y="180.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#4e342e" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">深い谷</text>
+<defs><marker id="a6d4c41" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6d4c41"/></marker></defs>
+<line x1="340.0" y1="305.0" x2="340.0" y2="262.0" stroke="#6d4c41" stroke-width="3" marker-end="url(#a6d4c41)"/>
+<text x="352.0" y="280.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#4e342e" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">隆起</text>
+<line x1="245.0" y1="290.0" x2="205.0" y2="200.0" stroke="#f57c00" stroke-width="2.4"/><circle cx="205.0" cy="200.0" r="3.5" fill="#f57c00"/><circle cx="245.0" cy="290.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="245.0" y="291.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

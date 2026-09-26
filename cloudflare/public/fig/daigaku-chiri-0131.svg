@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 380" width="440" height="380" font-family="sans-serif">
+<rect width="440" height="380" fill="#fff"/>
+<line x1="64" y1="320.0" x2="380" y2="320.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="56.0" y="320.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#c62828">-20</text>
+<text x="388.0" y="320.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#1565c0">0</text>
+<line x1="64" y1="264.0" x2="380" y2="264.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="56.0" y="264.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#c62828">-10</text>
+<text x="388.0" y="264.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#1565c0">50</text>
+<line x1="64" y1="208.0" x2="380" y2="208.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="56.0" y="208.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#c62828">0</text>
+<text x="388.0" y="208.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#1565c0">100</text>
+<line x1="64" y1="152.0" x2="380" y2="152.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="56.0" y="152.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#c62828">10</text>
+<text x="388.0" y="152.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#1565c0">150</text>
+<line x1="64" y1="96.0" x2="380" y2="96.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="56.0" y="96.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#c62828">20</text>
+<text x="388.0" y="96.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#1565c0">200</text>
+<line x1="64" y1="40.0" x2="380" y2="40.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="56.0" y="40.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#c62828">30</text>
+<text x="388.0" y="40.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#1565c0">250</text>
+<rect x="67.0" y="314.4" width="20.3" height="5.6" fill="#64b5f6"/>
+<text x="77.2" y="334.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1</text>
+<rect x="93.3" y="313.3" width="20.3" height="6.7" fill="#64b5f6"/>
+<text x="103.5" y="334.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">2</text>
+<rect x="119.7" y="306.6" width="20.3" height="13.4" fill="#64b5f6"/>
+<text x="129.8" y="334.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">3</text>
+<rect x="146.0" y="295.4" width="20.3" height="24.6" fill="#64b5f6"/>
+<text x="156.2" y="334.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">4</text>
+<rect x="172.3" y="266.2" width="20.3" height="53.8" fill="#64b5f6"/>
+<text x="182.5" y="334.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">5</text>
+<rect x="198.7" y="213.6" width="20.3" height="106.4" fill="#64b5f6"/>
+<text x="208.8" y="334.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">6</text>
+<rect x="225.0" y="145.3" width="20.3" height="174.7" fill="#64b5f6"/>
+<text x="235.2" y="334.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">7</text>
+<rect x="251.3" y="184.5" width="20.3" height="135.5" fill="#64b5f6"/>
+<text x="261.5" y="334.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">8</text>
+<rect x="277.7" y="258.4" width="20.3" height="61.6" fill="#64b5f6"/>
+<text x="287.8" y="334.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">9</text>
+<rect x="304.0" y="290.9" width="20.3" height="29.1" fill="#64b5f6"/>
+<text x="314.2" y="334.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">10</text>
+<rect x="330.3" y="308.8" width="20.3" height="11.2" fill="#64b5f6"/>
+<text x="340.5" y="334.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">11</text>
+<rect x="356.7" y="312.2" width="20.3" height="7.8" fill="#64b5f6"/>
+<text x="366.8" y="334.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">12</text>
+<polyline points="77.2,306.6 103.5,278.6 129.8,222.6 156.2,163.2 182.5,120.6 208.8,87.6 235.2,77.5 261.5,85.9 287.8,121.8 314.2,172.7 340.5,232.6 366.8,288.6" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<circle cx="77.2" cy="306.6" r="3" fill="#c62828"/>
+<circle cx="103.5" cy="278.6" r="3" fill="#c62828"/>
+<circle cx="129.8" cy="222.6" r="3" fill="#c62828"/>
+<circle cx="156.2" cy="163.2" r="3" fill="#c62828"/>
+<circle cx="182.5" cy="120.6" r="3" fill="#c62828"/>
+<circle cx="208.8" cy="87.6" r="3" fill="#c62828"/>
+<circle cx="235.2" cy="77.5" r="3" fill="#c62828"/>
+<circle cx="261.5" cy="85.9" r="3" fill="#c62828"/>
+<circle cx="287.8" cy="121.8" r="3" fill="#c62828"/>
+<circle cx="314.2" cy="172.7" r="3" fill="#c62828"/>
+<circle cx="340.5" cy="232.6" r="3" fill="#c62828"/>
+<circle cx="366.8" cy="288.6" r="3" fill="#c62828"/>
+<line x1="64" y1="208.0" x2="380" y2="208.0" stroke="#999" stroke-width="1" stroke-dasharray="4 3"/>
+<rect x="64" y="40" width="316" height="280" fill="none" stroke="#555" stroke-width="1.2"/>
+<text x="34.0" y="22.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#c62828">気温(℃)</text>
+<text x="420.0" y="22.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#1565c0">降水量(mm)</text>
+<text x="222.0" y="352.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">(月)</text>
+<text x="222.0" y="366.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#333">年平均 5.0℃ / 年降水量 563mm</text>
+<circle cx="220.0" cy="18.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="220.0" y="19.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

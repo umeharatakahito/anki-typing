@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<defs><marker id="a222" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker><marker id="af57c00" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="200.0" y="300.0" width="200.0" height="56.0" rx="6" fill="#fff8e1" stroke="#ffb300" stroke-width="2"/><text x="300.0" y="328.0" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">住民</text>
+<rect x="30.0" y="60.0" width="190.0" height="70.0" rx="6" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/><text x="125.0" y="86.2" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">首長</text>
+<text x="125.0" y="103.8" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">（知事・市町村長）</text>
+<rect x="380.0" y="60.0" width="190.0" height="70.0" rx="6" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/><text x="475.0" y="86.2" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">議会</text>
+<text x="475.0" y="103.8" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">（議員）</text>
+<line x1="250.0" y1="298.0" x2="150.0" y2="134.0" stroke="#f57c00" stroke-width="2" marker-end="url(#af57c00)"/><text x="175.0" y="225.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#333" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">選挙</text>
+<line x1="350.0" y1="298.0" x2="450.0" y2="134.0" stroke="#f57c00" stroke-width="2" marker-end="url(#af57c00)"/><text x="425.0" y="225.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#333" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">選挙</text>
+<line x1="378.0" y1="80.0" x2="222.0" y2="80.0" stroke="#222" stroke-width="2" marker-end="url(#a222)"/><text x="300.0" y="66.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#333" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">不信任の議決</text>
+<line x1="222.0" y1="110.0" x2="378.0" y2="110.0" stroke="#222" stroke-width="2" marker-end="url(#a222)"/><text x="300.0" y="128.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#333" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">議会の解散</text>
+<circle cx="300.0" cy="240.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="300.0" y="241.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

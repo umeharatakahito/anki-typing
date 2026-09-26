@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<polygon points="0.0,220.0 180.0,220.0 240.0,110.0 260.0,100.0 340.0,100.0 360.0,110.0 420.0,220.0 600.0,220.0 600.0,300.0 0.0,300.0" fill="#d7ccc8" stroke="#8d6e63" stroke-width="1.5"/>
+<polygon points="262.0,100.0 338.0,100.0 330.0,128.0 270.0,128.0" fill="#ffb74d" stroke="#f57c00" stroke-width="2.5"/>
+<polygon points="270.0,104.0 330.0,104.0 326.0,120.0 274.0,120.0" fill="#90caf9" stroke="none" stroke-width="1.5"/>
+<polyline points="0.0,220.0 180.0,220.0" fill="none" stroke="#6d4c41" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="420.0,220.0 600.0,220.0" fill="none" stroke="#6d4c41" stroke-width="2" stroke-linejoin="round"/>
+<rect x="70" y="204" width="20" height="16" fill="#fff" stroke="#555"/><polygon points="67.0,205.0 80.0,192.0 93.0,205.0" fill="#e57373" stroke="#555" stroke-width="1"/>
+<rect x="120" y="204" width="20" height="16" fill="#fff" stroke="#555"/><polygon points="117.0,205.0 130.0,192.0 143.0,205.0" fill="#e57373" stroke="#555" stroke-width="1"/>
+<rect x="470" y="204" width="20" height="16" fill="#fff" stroke="#555"/><polygon points="467.0,205.0 480.0,192.0 493.0,205.0" fill="#e57373" stroke="#555" stroke-width="1"/>
+<rect x="520" y="204" width="20" height="16" fill="#fff" stroke="#555"/><polygon points="517.0,205.0 530.0,192.0 543.0,205.0" fill="#e57373" stroke="#555" stroke-width="1"/>
+<rect x="275" y="235" width="50" height="26" rx="12" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="300.0" y="273.1" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#333" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">道路・鉄道が川の下を</text>
+<text x="300.0" y="286.9" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#333" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">トンネルでくぐる</text>
+<text x="205.0" y="150.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">堤防</text>
+<text x="100.0" y="245.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">周囲の土地</text>
+<line x1="420.0" y1="60.0" x2="330.0" y2="112.0" stroke="#f57c00" stroke-width="2.4"/><circle cx="330.0" cy="112.0" r="3.5" fill="#f57c00"/><circle cx="420.0" cy="60.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="420.0" y="61.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

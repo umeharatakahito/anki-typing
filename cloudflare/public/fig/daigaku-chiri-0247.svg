@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400" width="520" height="400" font-family="sans-serif">
+<rect width="520" height="400" fill="#fff"/>
+<polygon points="375.0,175.0 317.5,274.6 202.5,274.6 145.0,175.0 202.5,75.4 317.5,75.4" fill="#fffde7" stroke="#f9a825" stroke-width="3"/>
+<polygon points="317.5,208.2 260.0,241.4 202.5,208.2 202.5,141.8 260.0,108.6 317.5,141.8" fill="none" stroke="#64b5f6" stroke-width="1.5"/>
+<polygon points="432.5,208.2 375.0,241.4 317.5,208.2 317.5,141.8 375.0,108.6 432.5,141.8" fill="none" stroke="#64b5f6" stroke-width="1.5"/>
+<polygon points="375.0,307.8 317.5,341.0 260.0,307.8 260.0,241.4 317.5,208.2 375.0,241.4" fill="none" stroke="#64b5f6" stroke-width="1.5"/>
+<polygon points="260.0,307.8 202.5,341.0 145.0,307.8 145.0,241.4 202.5,208.2 260.0,241.4" fill="none" stroke="#64b5f6" stroke-width="1.5"/>
+<polygon points="202.5,208.2 145.0,241.4 87.5,208.2 87.5,141.8 145.0,108.6 202.5,141.8" fill="none" stroke="#64b5f6" stroke-width="1.5"/>
+<polygon points="260.0,108.6 202.5,141.8 145.0,108.6 145.0,42.2 202.5,9.0 260.0,42.2" fill="none" stroke="#64b5f6" stroke-width="1.5"/>
+<polygon points="375.0,108.6 317.5,141.8 260.0,108.6 260.0,42.2 317.5,9.0 375.0,42.2" fill="none" stroke="#64b5f6" stroke-width="1.5"/>
+<circle cx="375.0" cy="175.0" r="7" fill="#1e88e5"/>
+<circle cx="317.5" cy="274.6" r="7" fill="#1e88e5"/>
+<circle cx="202.5" cy="274.6" r="7" fill="#1e88e5"/>
+<circle cx="145.0" cy="175.0" r="7" fill="#1e88e5"/>
+<circle cx="202.5" cy="75.4" r="7" fill="#1e88e5"/>
+<circle cx="317.5" cy="75.4" r="7" fill="#1e88e5"/>
+<circle cx="260" cy="175" r="12" fill="#e53935"/>
+<rect x="10" y="345" width="360" height="48" rx="5" fill="#fff" stroke="#ccc"/>
+<circle cx="26" cy="359" r="8" fill="#e53935"/><text x="40.0" y="359.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222">高次の中心地（黄色の広い範囲にサービス）</text>
+<circle cx="26" cy="381" r="6" fill="#1e88e5"/><text x="40.0" y="381.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222">低次の中心地（青線の狭い範囲にサービス）</text>
+<circle cx="490.0" cy="30.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="490.0" y="31.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

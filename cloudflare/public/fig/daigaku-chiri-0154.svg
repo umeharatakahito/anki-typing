@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" width="560" height="400" font-family="sans-serif">
+<rect width="560" height="400" fill="#fff"/>
+<rect x="0" y="0" width="560" height="120" fill="#d7ccc8"/>
+<polygon points="-25.0,120.0 20.0,50.0 65.0,120.0" fill="#a1887f" stroke="#6d4c41" stroke-width="1.2"/><polygon points="45.0,120.0 90.0,50.0 135.0,120.0" fill="#a1887f" stroke="#6d4c41" stroke-width="1.2"/><polygon points="115.0,120.0 160.0,50.0 205.0,120.0" fill="#a1887f" stroke="#6d4c41" stroke-width="1.2"/><polygon points="185.0,120.0 230.0,50.0 275.0,120.0" fill="#a1887f" stroke="#6d4c41" stroke-width="1.2"/><polygon points="255.0,120.0 300.0,50.0 345.0,120.0" fill="#a1887f" stroke="#6d4c41" stroke-width="1.2"/><polygon points="325.0,120.0 370.0,50.0 415.0,120.0" fill="#a1887f" stroke="#6d4c41" stroke-width="1.2"/><polygon points="395.0,120.0 440.0,50.0 485.0,120.0" fill="#a1887f" stroke="#6d4c41" stroke-width="1.2"/><polygon points="465.0,120.0 510.0,50.0 555.0,120.0" fill="#a1887f" stroke="#6d4c41" stroke-width="1.2"/>
+<rect x="0" y="120" width="560" height="280" fill="#f1f8e9"/>
+<polyline points="280.0,0.0 280.0,120.0" fill="none" stroke="#1e88e5" stroke-width="6" stroke-linejoin="round"/>
+<path d="M280,120 L90,350 Q280,410 470,350 Z" fill="#ffe0b2" stroke="#bcaaa4" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M110,326 Q280,382 450,326 L470,350 Q280,410 90,350 Z" fill="#ffb74d" stroke="#f57c00" stroke-width="2.5" stroke-linejoin="round"/>
+<polyline points="280.0,120.0 285.0,180.0" fill="none" stroke="#1e88e5" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="285.0,180.0 292.0,300.0" fill="none" stroke="#1e88e5" stroke-width="3" stroke-dasharray="6 6" stroke-linejoin="round"/>
+<polyline points="292.0,300.0 300.0,360.0 310.0,400.0" fill="none" stroke="#1e88e5" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="160" cy="345" r="4" fill="#1e88e5"/>
+<circle cx="230" cy="365" r="4" fill="#1e88e5"/>
+<circle cx="360" cy="362" r="4" fill="#1e88e5"/>
+<circle cx="420" cy="342" r="4" fill="#1e88e5"/>
+<text x="345.0" y="118.0" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">谷口</text>
+<text x="400.0" y="177.5" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#1565c0" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">川の水が地下に</text>
+<text x="400.0" y="192.5" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#1565c0" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">しみこむ（水無川）</text>
+<text x="95.0" y="385.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#1565c0" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">湧水・集落・水田</text>
+<line x1="470.0" y1="385.0" x2="440.0" y2="352.0" stroke="#f57c00" stroke-width="2.4"/><circle cx="440.0" cy="352.0" r="3.5" fill="#f57c00"/><circle cx="470.0" cy="385.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="470.0" y="386.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

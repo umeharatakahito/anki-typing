@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250" width="600" height="250" font-family="sans-serif">
+<rect width="600" height="250" fill="#fff"/>
+<defs><marker id="a222" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker></defs>
+<rect x="15.0" y="80.0" width="125.0" height="80.0" rx="6" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/><text x="77.5" y="111.9" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">各議院の総議員の</text>
+<text x="77.5" y="128.1" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">3分の2以上の賛成</text>
+<line x1="142.0" y1="120.0" x2="161.0" y2="120.0" stroke="#222" stroke-width="2.5" marker-end="url(#a222)"/>
+<rect x="163.0" y="80.0" width="125.0" height="80.0" rx="6" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/><text x="225.5" y="111.9" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">国会が</text>
+<text x="225.5" y="128.1" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">発議</text>
+<line x1="290.0" y1="120.0" x2="309.0" y2="120.0" stroke="#222" stroke-width="2.5" marker-end="url(#a222)"/>
+<rect x="311.0" y="80.0" width="125.0" height="80.0" rx="6" fill="#ffb74d" stroke="#f57c00" stroke-width="2.5"/>
+<circle cx="373.0" cy="100.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="373.0" y="101.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="373.0" y="129.9" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">過半数の</text>
+<text x="373.0" y="146.1" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">賛成</text>
+<line x1="438.0" y1="120.0" x2="457.0" y2="120.0" stroke="#222" stroke-width="2.5" marker-end="url(#a222)"/>
+<rect x="459.0" y="80.0" width="125.0" height="80.0" rx="6" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/><text x="521.5" y="111.9" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">天皇が</text>
+<text x="521.5" y="128.1" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">公布</text>
+<text x="300.0" y="210.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">日本国憲法第96条の改正手続き</text>
+</svg>

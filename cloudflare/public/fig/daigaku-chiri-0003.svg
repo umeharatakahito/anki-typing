@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 380" width="520" height="380" font-family="sans-serif">
+<rect width="520" height="380" fill="#fff"/>
+<rect x="0" y="0" width="520" height="380" fill="#e3f2fd"/>
+<polygon points="0.0,0.0 520.0,0.0 520.0,150.0 400.0,160.0 330.0,170.0 260.0,175.0 190.0,170.0 120.0,160.0 0.0,150.0" fill="#f7f5ee" stroke="#8d6e63" stroke-width="1"/>
+<path d="M170,165 Q260,175 350,165 L390,230 Q260,330 130,230 Z" fill="#ffb74d" stroke="#f57c00" stroke-width="2.5" stroke-linejoin="round"/>
+<polyline points="260.0,0.0 262.0,60.0 258.0,120.0 260.0,170.0" fill="none" stroke="#1e88e5" stroke-width="6" stroke-linejoin="round"/>
+<path d="M260,170 Q230,220 185,262" fill="none" stroke="#1e88e5" stroke-width="3" stroke-linejoin="round"/>
+<path d="M260,170 Q262,230 260,292" fill="none" stroke="#1e88e5" stroke-width="3" stroke-linejoin="round"/>
+<path d="M260,170 Q292,220 336,262" fill="none" stroke="#1e88e5" stroke-width="3" stroke-linejoin="round"/>
+<path d="M260,200 Q220,250 150,240" fill="none" stroke="#1e88e5" stroke-width="3" stroke-linejoin="round"/>
+<path d="M260,200 Q300,250 370,240" fill="none" stroke="#1e88e5" stroke-width="3" stroke-linejoin="round"/>
+<text x="300.0" y="60.0" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#1565c0" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">河川</text>
+<text x="260.0" y="355.0" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">海</text>
+<line x1="430.0" y1="290.0" x2="330.0" y2="230.0" stroke="#f57c00" stroke-width="2.4"/><circle cx="330.0" cy="230.0" r="3.5" fill="#f57c00"/><circle cx="430.0" cy="290.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="430.0" y="291.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

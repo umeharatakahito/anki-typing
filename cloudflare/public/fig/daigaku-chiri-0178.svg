@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 360" width="580" height="360" font-family="sans-serif">
+<rect width="580" height="360" fill="#fff"/>
+<defs><marker id="a1e88e5" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e88e5"/></marker></defs>
+<rect width="580" height="360" fill="#e3f2fd"/>
+<polygon points="0.0,0.0 580.0,0.0 580.0,110.0 430.0,100.0 330.0,120.0 250.0,100.0 170.0,130.0 80.0,110.0 0.0,120.0" fill="#f7f5ee" stroke="#8d6e63" stroke-width="1.2"/>
+<path d="M150,125 Q220,190 330,200 Q350,202 352,190 Q340,186 330,188 Q230,180 170,123 Z" fill="#fff3e0" stroke="#bcaaa4" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="390.0,190.0 570.0,188.0 570.0,198.0 390.0,200.0" fill="#ffb74d" stroke="#f57c00" stroke-width="2"/>
+<path d="M60,220 Q140,250 230,250" fill="none" stroke="#1e88e5" stroke-width="3" stroke-linecap="round" marker-end="url(#a1e88e5)"/>
+<text x="90.0" y="270.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#1565c0" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">海岸に沿う流れ</text>
+<text x="480.0" y="150.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#1565c0" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">潟湖</text>
+<text x="300.0" y="220.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#4e342e" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">砂嘴</text>
+<line x1="480.0" y1="260.0" x2="480.0" y2="196.0" stroke="#f57c00" stroke-width="2.4"/><circle cx="480.0" cy="196.0" r="3.5" fill="#f57c00"/><circle cx="480.0" cy="260.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="480.0" y="261.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300.0" y="340.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">海</text>
+</svg>

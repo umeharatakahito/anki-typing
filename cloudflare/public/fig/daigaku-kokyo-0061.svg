@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 330" width="600" height="330" font-family="sans-serif">
+<rect width="600" height="330" fill="#fff"/>
+<text x="300.0" y="24.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">安全保障理事会（15か国）</text>
+<rect x="30.0" y="60.0" width="100.0" height="50.0" rx="6" fill="#fff3e0" stroke="#fb8c00" stroke-width="2"/><text x="80.0" y="85.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">アメリカ</text>
+<rect x="140.0" y="60.0" width="100.0" height="50.0" rx="6" fill="#fff3e0" stroke="#fb8c00" stroke-width="2"/><text x="190.0" y="85.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">イギリス</text>
+<rect x="250.0" y="60.0" width="100.0" height="50.0" rx="6" fill="#fff3e0" stroke="#fb8c00" stroke-width="2"/><text x="300.0" y="85.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">フランス</text>
+<rect x="360.0" y="60.0" width="100.0" height="50.0" rx="6" fill="#fff3e0" stroke="#fb8c00" stroke-width="2"/><text x="410.0" y="85.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">ロシア</text>
+<rect x="470.0" y="60.0" width="100.0" height="50.0" rx="6" fill="#fff3e0" stroke="#fb8c00" stroke-width="2"/><text x="520.0" y="85.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">中国</text>
+<text x="300.0" y="128.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#e65100" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">常任理事国（5か国）</text>
+<rect x="30.0" y="160.0" width="100.0" height="36.0" rx="6" fill="#eceff1" stroke="#b0bec5" stroke-width="1.5"/><text x="80.0" y="178.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222"></text>
+<rect x="140.0" y="160.0" width="100.0" height="36.0" rx="6" fill="#eceff1" stroke="#b0bec5" stroke-width="1.5"/><text x="190.0" y="178.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222"></text>
+<rect x="250.0" y="160.0" width="100.0" height="36.0" rx="6" fill="#eceff1" stroke="#b0bec5" stroke-width="1.5"/><text x="300.0" y="178.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222"></text>
+<rect x="360.0" y="160.0" width="100.0" height="36.0" rx="6" fill="#eceff1" stroke="#b0bec5" stroke-width="1.5"/><text x="410.0" y="178.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222"></text>
+<rect x="470.0" y="160.0" width="100.0" height="36.0" rx="6" fill="#eceff1" stroke="#b0bec5" stroke-width="1.5"/><text x="520.0" y="178.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222"></text>
+<rect x="30.0" y="204.0" width="100.0" height="36.0" rx="6" fill="#eceff1" stroke="#b0bec5" stroke-width="1.5"/><text x="80.0" y="222.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222"></text>
+<rect x="140.0" y="204.0" width="100.0" height="36.0" rx="6" fill="#eceff1" stroke="#b0bec5" stroke-width="1.5"/><text x="190.0" y="222.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222"></text>
+<rect x="250.0" y="204.0" width="100.0" height="36.0" rx="6" fill="#eceff1" stroke="#b0bec5" stroke-width="1.5"/><text x="300.0" y="222.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222"></text>
+<rect x="360.0" y="204.0" width="100.0" height="36.0" rx="6" fill="#eceff1" stroke="#b0bec5" stroke-width="1.5"/><text x="410.0" y="222.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222"></text>
+<rect x="470.0" y="204.0" width="100.0" height="36.0" rx="6" fill="#eceff1" stroke="#b0bec5" stroke-width="1.5"/><text x="520.0" y="222.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222"></text>
+<text x="300.0" y="262.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#546e7a" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">非常任理事国（10か国・任期2年）</text>
+<text x="300.0" y="300.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#333" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">実質事項の決議：常任理事国の1か国でも反対すると成立しない</text>
+<circle cx="575.0" cy="85.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575.0" y="86.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

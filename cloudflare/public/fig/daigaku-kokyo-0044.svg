@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<defs><marker id="a222" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker></defs>
+<rect x="20.0" y="30.0" width="560.0" height="110.0" rx="6" fill="#fff3e0" stroke="#f57c00" stroke-width="2.5"/>
+<circle cx="50.0" cy="55.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="50.0" y="56.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="120.0" y="60.0" width="150.0" height="50.0" rx="6" fill="#fff" stroke="#fb8c00" stroke-width="2"/><text x="195.0" y="76.9" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">負担する人</text>
+<text x="195.0" y="93.1" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">＝納める人</text>
+<line x1="272.0" y1="85.0" x2="398.0" y2="85.0" stroke="#222" stroke-width="2.5" marker-end="url(#a222)"/>
+<text x="335.0" y="70.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">納税</text>
+<rect x="400.0" y="60.0" width="150.0" height="50.0" rx="6" fill="#fff" stroke="#90a4ae" stroke-width="2"/><text x="475.0" y="85.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">国・地方</text>
+<text x="300.0" y="128.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">例：所得税・法人税・住民税</text>
+<rect x="20.0" y="160.0" width="560.0" height="120.0" rx="6" fill="#eceff1" stroke="#90a4ae" stroke-width="1.5"/>
+<text x="28.0" y="180.0" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#455a64" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">比較：負担する人と納める人が異なる税</text>
+<rect x="40.0" y="200.0" width="140.0" height="46.0" rx="6" fill="#fff" stroke="#90a4ae" stroke-width="2"/><text x="110.0" y="215.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">負担する人</text>
+<text x="110.0" y="230.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">（消費者）</text>
+<line x1="182.0" y1="223.0" x2="228.0" y2="223.0" stroke="#222" stroke-width="2" marker-end="url(#a222)"/>
+<rect x="230.0" y="200.0" width="140.0" height="46.0" rx="6" fill="#fff" stroke="#90a4ae" stroke-width="2"/><text x="300.0" y="215.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">納める人</text>
+<text x="300.0" y="230.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">（事業者）</text>
+<line x1="372.0" y1="223.0" x2="418.0" y2="223.0" stroke="#222" stroke-width="2" marker-end="url(#a222)"/>
+<rect x="420.0" y="200.0" width="140.0" height="46.0" rx="6" fill="#fff" stroke="#90a4ae" stroke-width="2"/><text x="490.0" y="223.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">国・地方</text>
+<text x="300.0" y="266.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">例：消費税・酒税</text>
+</svg>

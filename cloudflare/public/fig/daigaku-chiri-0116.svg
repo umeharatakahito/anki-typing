@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<rect x="20.0" y="222.0" width="80.0" height="17.0" fill="#90caf9"/>
+<rect x="100.0" y="222.0" width="80.0" height="17.0" fill="#f48fb1"/>
+<rect x="27.5" y="204.0" width="72.5" height="17.0" fill="#90caf9"/>
+<rect x="100.0" y="204.0" width="72.5" height="17.0" fill="#f48fb1"/>
+<rect x="35.0" y="186.0" width="65.0" height="17.0" fill="#90caf9"/>
+<rect x="100.0" y="186.0" width="65.0" height="17.0" fill="#f48fb1"/>
+<rect x="42.5" y="168.0" width="57.5" height="17.0" fill="#90caf9"/>
+<rect x="100.0" y="168.0" width="57.5" height="17.0" fill="#f48fb1"/>
+<rect x="50.0" y="150.0" width="50.0" height="17.0" fill="#90caf9"/>
+<rect x="100.0" y="150.0" width="50.0" height="17.0" fill="#f48fb1"/>
+<rect x="57.5" y="132.0" width="42.5" height="17.0" fill="#90caf9"/>
+<rect x="100.0" y="132.0" width="42.5" height="17.0" fill="#f48fb1"/>
+<rect x="65.0" y="114.0" width="35.0" height="17.0" fill="#90caf9"/>
+<rect x="100.0" y="114.0" width="35.0" height="17.0" fill="#f48fb1"/>
+<rect x="72.5" y="96.0" width="27.5" height="17.0" fill="#90caf9"/>
+<rect x="100.0" y="96.0" width="27.5" height="17.0" fill="#f48fb1"/>
+<rect x="80.0" y="78.0" width="20.0" height="17.0" fill="#90caf9"/>
+<rect x="100.0" y="78.0" width="20.0" height="17.0" fill="#f48fb1"/>
+<rect x="87.5" y="60.0" width="12.5" height="17.0" fill="#90caf9"/>
+<rect x="100.0" y="60.0" width="12.5" height="17.0" fill="#f48fb1"/>
+<line x1="100" y1="55" x2="100" y2="242" stroke="#555"/>
+<text x="100.0" y="270.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">富士山型</text>
+<rect x="252.0" y="222.0" width="48.0" height="17.0" fill="#90caf9"/>
+<rect x="300.0" y="222.0" width="48.0" height="17.0" fill="#f48fb1"/>
+<rect x="252.0" y="204.0" width="48.0" height="17.0" fill="#90caf9"/>
+<rect x="300.0" y="204.0" width="48.0" height="17.0" fill="#f48fb1"/>
+<rect x="253.0" y="186.0" width="47.0" height="17.0" fill="#90caf9"/>
+<rect x="300.0" y="186.0" width="47.0" height="17.0" fill="#f48fb1"/>
+<rect x="254.0" y="168.0" width="46.0" height="17.0" fill="#90caf9"/>
+<rect x="300.0" y="168.0" width="46.0" height="17.0" fill="#f48fb1"/>
+<rect x="255.0" y="150.0" width="45.0" height="17.0" fill="#90caf9"/>
+<rect x="300.0" y="150.0" width="45.0" height="17.0" fill="#f48fb1"/>
+<rect x="257.0" y="132.0" width="43.0" height="17.0" fill="#90caf9"/>
+<rect x="300.0" y="132.0" width="43.0" height="17.0" fill="#f48fb1"/>
+<rect x="260.0" y="114.0" width="40.0" height="17.0" fill="#90caf9"/>
+<rect x="300.0" y="114.0" width="40.0" height="17.0" fill="#f48fb1"/>
+<rect x="266.0" y="96.0" width="34.0" height="17.0" fill="#90caf9"/>
+<rect x="300.0" y="96.0" width="34.0" height="17.0" fill="#f48fb1"/>
+<rect x="276.0" y="78.0" width="24.0" height="17.0" fill="#90caf9"/>
+<rect x="300.0" y="78.0" width="24.0" height="17.0" fill="#f48fb1"/>
+<rect x="290.0" y="60.0" width="10.0" height="17.0" fill="#90caf9"/>
+<rect x="300.0" y="60.0" width="10.0" height="17.0" fill="#f48fb1"/>
+<line x1="300" y1="55" x2="300" y2="242" stroke="#555"/>
+<text x="300.0" y="270.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">つりがね型</text>
+<rect x="470.0" y="222.0" width="30.0" height="17.0" fill="#ffb74d"/>
+<rect x="500.0" y="222.0" width="30.0" height="17.0" fill="#ffcc80"/>
+<rect x="466.0" y="204.0" width="34.0" height="17.0" fill="#ffb74d"/>
+<rect x="500.0" y="204.0" width="34.0" height="17.0" fill="#ffcc80"/>
+<rect x="460.0" y="186.0" width="40.0" height="17.0" fill="#ffb74d"/>
+<rect x="500.0" y="186.0" width="40.0" height="17.0" fill="#ffcc80"/>
+<rect x="456.0" y="168.0" width="44.0" height="17.0" fill="#ffb74d"/>
+<rect x="500.0" y="168.0" width="44.0" height="17.0" fill="#ffcc80"/>
+<rect x="454.0" y="150.0" width="46.0" height="17.0" fill="#ffb74d"/>
+<rect x="500.0" y="150.0" width="46.0" height="17.0" fill="#ffcc80"/>
+<rect x="454.0" y="132.0" width="46.0" height="17.0" fill="#ffb74d"/>
+<rect x="500.0" y="132.0" width="46.0" height="17.0" fill="#ffcc80"/>
+<rect x="456.0" y="114.0" width="44.0" height="17.0" fill="#ffb74d"/>
+<rect x="500.0" y="114.0" width="44.0" height="17.0" fill="#ffcc80"/>
+<rect x="462.0" y="96.0" width="38.0" height="17.0" fill="#ffb74d"/>
+<rect x="500.0" y="96.0" width="38.0" height="17.0" fill="#ffcc80"/>
+<rect x="474.0" y="78.0" width="26.0" height="17.0" fill="#ffb74d"/>
+<rect x="500.0" y="78.0" width="26.0" height="17.0" fill="#ffcc80"/>
+<rect x="488.0" y="60.0" width="12.0" height="17.0" fill="#ffb74d"/>
+<rect x="500.0" y="60.0" width="12.0" height="17.0" fill="#ffcc80"/>
+<line x1="500" y1="55" x2="500" y2="242" stroke="#555"/>
+<circle cx="500.0" cy="270.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="500.0" y="271.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300.0" y="22.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">人口ピラミッド（左：男　右：女、下が若い年齢層）</text>
+</svg>

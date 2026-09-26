@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" width="560" height="320" font-family="sans-serif">
+<rect width="560" height="320" fill="#fff"/>
+<line x1="50" y1="270" x2="530" y2="270" stroke="#555"/><line x1="50" y1="60" x2="50" y2="270" stroke="#555"/>
+<path d="M50,90 L200,92 C270,95 300,210 380,225 L530,228" fill="none" stroke="#c62828" stroke-width="3" stroke-linejoin="round"/>
+<path d="M50,100 C100,105 110,200 200,220 L530,235" fill="none" stroke="#1565c0" stroke-width="3" stroke-linejoin="round"/>
+<line x1="150" y1="60" x2="150" y2="270" stroke="#bbb" stroke-dasharray="4 4"/>
+<line x1="290" y1="60" x2="290" y2="270" stroke="#bbb" stroke-dasharray="4 4"/>
+<text x="100.0" y="48.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">多産多死</text>
+<text x="220.0" y="48.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">多産少死</text>
+<text x="410.0" y="48.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">少産少死</text>
+<text x="230.0" y="150.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#c62828" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">出生率</text>
+<text x="120.0" y="180.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#1565c0" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">死亡率</text>
+<text x="290.0" y="290.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">経済の発展 →</text>
+<circle cx="520.0" cy="30.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="520.0" y="31.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

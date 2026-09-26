@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 240" width="460" height="240" font-family="sans-serif">
+<rect width="460" height="240" fill="#fff"/>
+<path fill="none" stroke="#222" stroke-width="9.0" d="M133.8,156.8 L133.8,86.0 Q133.2,65.0 112.8,65.0 Q92.4,65.0 91.8,86.0 L91.8,156.8 L148.8,156.8"/>
+<text x="120.0" y="180.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">記念碑</text>
+<path fill="none" stroke="#222" stroke-width="9.0" d="M353.8,156.8 L353.8,86.0 Q353.2,65.0 332.8,65.0 Q312.4,65.0 311.8,86.0 L311.8,156.8 L368.8,156.8"/><path fill="none" stroke="#222" stroke-width="9.0" d="M332.8,134.0 L332.8,86.0"/>
+<circle cx="340.0" cy="190.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="340.0" y="191.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="230.0" y="222.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">地形図の地図記号（2019年に新設）</text>
+</svg>

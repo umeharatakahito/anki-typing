@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" width="560" height="320" font-family="sans-serif">
+<rect width="560" height="320" fill="#fff"/>
+<line x1="70" y1="275.0" x2="535" y2="275.0" stroke="#e0e0e0"/>
+<text x="62.0" y="275.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">-4</text>
+<line x1="70" y1="228.0" x2="535" y2="228.0" stroke="#e0e0e0"/>
+<text x="62.0" y="228.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">0</text>
+<line x1="70" y1="181.0" x2="535" y2="181.0" stroke="#e0e0e0"/>
+<text x="62.0" y="181.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">4</text>
+<line x1="70" y1="134.0" x2="535" y2="134.0" stroke="#e0e0e0"/>
+<text x="62.0" y="134.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">8</text>
+<line x1="70" y1="87.0" x2="535" y2="87.0" stroke="#e0e0e0"/>
+<text x="62.0" y="87.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">12</text>
+<line x1="70" y1="40.0" x2="535" y2="40.0" stroke="#e0e0e0"/>
+<text x="62.0" y="40.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">16</text>
+<text x="134.6" y="291.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1960</text>
+<text x="263.8" y="291.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1970</text>
+<text x="392.9" y="291.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1980</text>
+<text x="522.1" y="291.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1990</text>
+<rect x="70" y="40" width="465" height="235" fill="none" stroke="#777"/>
+<text x="40.0" y="22.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#333">日本の実質GDPの伸び率（%）</text>
+<text x="302.5" y="310.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">(年)</text>
+<rect x="77.8" y="139.9" width="10.3" height="88.1" fill="#ffb74d"/>
+<rect x="90.7" y="136.3" width="10.3" height="91.7" fill="#ffb74d"/>
+<rect x="103.6" y="155.1" width="10.3" height="72.9" fill="#ffb74d"/>
+<rect x="116.5" y="117.5" width="10.3" height="110.5" fill="#ffb74d"/>
+<rect x="129.4" y="74.1" width="10.3" height="153.9" fill="#ffb74d"/>
+<rect x="142.3" y="88.2" width="10.3" height="139.8" fill="#ffb74d"/>
+<rect x="155.3" y="126.9" width="10.3" height="101.1" fill="#ffb74d"/>
+<rect x="168.2" y="124.6" width="10.3" height="103.4" fill="#ffb74d"/>
+<rect x="181.1" y="96.4" width="10.3" height="131.6" fill="#ffb74d"/>
+<rect x="194.0" y="161.0" width="10.3" height="67.0" fill="#ffb74d"/>
+<rect x="206.9" y="108.2" width="10.3" height="119.8" fill="#ffb74d"/>
+<rect x="219.8" y="97.6" width="10.3" height="130.4" fill="#ffb74d"/>
+<rect x="232.8" y="88.2" width="10.3" height="139.8" fill="#ffb74d"/>
+<rect x="245.7" y="87.0" width="10.3" height="141.0" fill="#ffb74d"/>
+<rect x="258.6" y="107.0" width="10.3" height="121.0" fill="#ffb74d"/>
+<rect x="271.5" y="176.3" width="10.3" height="51.7" fill="#ffb74d"/>
+<rect x="284.4" y="129.3" width="10.3" height="98.7" fill="#ffb74d"/>
+<rect x="297.3" y="134.0" width="10.3" height="94.0" fill="#ffb74d"/>
+<rect x="310.2" y="228.0" width="10.3" height="14.1" fill="#90caf9"/>
+<rect x="323.2" y="191.6" width="10.3" height="36.4" fill="#90caf9"/>
+<rect x="336.1" y="181.0" width="10.3" height="47.0" fill="#90caf9"/>
+<rect x="349.0" y="176.3" width="10.3" height="51.7" fill="#90caf9"/>
+<rect x="361.9" y="165.7" width="10.3" height="62.3" fill="#90caf9"/>
+<rect x="374.8" y="163.4" width="10.3" height="64.6" fill="#90caf9"/>
+<rect x="387.7" y="195.1" width="10.3" height="32.9" fill="#90caf9"/>
+<rect x="400.7" y="178.7" width="10.3" height="49.3" fill="#90caf9"/>
+<rect x="413.6" y="189.2" width="10.3" height="38.8" fill="#90caf9"/>
+<rect x="426.5" y="186.9" width="10.3" height="41.1" fill="#90caf9"/>
+<rect x="439.4" y="175.1" width="10.3" height="52.9" fill="#90caf9"/>
+<rect x="452.3" y="154.0" width="10.3" height="74.0" fill="#90caf9"/>
+<rect x="465.2" y="195.1" width="10.3" height="32.9" fill="#90caf9"/>
+<rect x="478.2" y="179.8" width="10.3" height="48.2" fill="#90caf9"/>
+<rect x="491.1" y="144.6" width="10.3" height="83.4" fill="#90caf9"/>
+<rect x="504.0" y="164.6" width="10.3" height="63.4" fill="#90caf9"/>
+<rect x="516.9" y="162.2" width="10.3" height="65.8" fill="#90caf9"/>
+<line x1="70" y1="228.0" x2="535" y2="228.0" stroke="#555"/>
+<circle cx="192.7" cy="57.6" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="192.7" y="58.6" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" width="560" height="320" font-family="sans-serif">
+<rect width="560" height="320" fill="#fff"/>
+<line x1="70" y1="275.0" x2="535" y2="275.0" stroke="#e0e0e0"/>
+<text x="62.0" y="275.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">0</text>
+<line x1="70" y1="216.2" x2="535" y2="216.2" stroke="#e0e0e0"/>
+<text x="62.0" y="216.2" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">20</text>
+<line x1="70" y1="157.5" x2="535" y2="157.5" stroke="#e0e0e0"/>
+<text x="62.0" y="157.5" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">40</text>
+<line x1="70" y1="98.8" x2="535" y2="98.8" stroke="#e0e0e0"/>
+<text x="62.0" y="98.8" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">60</text>
+<line x1="70" y1="40.0" x2="535" y2="40.0" stroke="#e0e0e0"/>
+<text x="62.0" y="40.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">80</text>
+<text x="70.0" y="291.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1965</text>
+<text x="225.0" y="291.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1985</text>
+<text x="380.0" y="291.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">2005</text>
+<text x="535.0" y="291.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">2025</text>
+<rect x="70" y="40" width="465" height="235" fill="none" stroke="#777"/>
+<text x="40.0" y="22.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#333"></text>
+<text x="302.5" y="310.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">(年)</text>
+<polyline points="70.0,60.6 108.8,98.8 147.5,116.4 186.2,119.3 225.0,119.3 263.8,134.0 302.5,148.7 341.2,157.5 380.0,157.5 418.8,160.4 457.5,160.4 496.2,166.3 519.5,163.4" fill="none" stroke="#f57c00" stroke-width="2.8" stroke-linejoin="round"/>
+<text x="40.0" y="22.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#333">日本の</text>
+<circle cx="100.0" cy="22.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="100.0" y="23.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="120.0" y="22.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#333">（カロリーベース・%）</text>
+</svg>

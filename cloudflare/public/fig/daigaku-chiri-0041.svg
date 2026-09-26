@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340" width="560" height="340" font-family="sans-serif">
+<rect width="560" height="340" fill="#fff"/>
+<line x1="70" y1="290.0" x2="530" y2="290.0" stroke="#e0e0e0"/>
+<text x="62.0" y="290.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">0</text>
+<line x1="70" y1="218.6" x2="530" y2="218.6" stroke="#e0e0e0"/>
+<text x="62.0" y="218.6" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">10</text>
+<line x1="70" y1="147.1" x2="530" y2="147.1" stroke="#e0e0e0"/>
+<text x="62.0" y="147.1" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">20</text>
+<line x1="70" y1="75.7" x2="530" y2="75.7" stroke="#e0e0e0"/>
+<text x="62.0" y="75.7" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">30</text>
+<text x="70.0" y="306.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1950</text>
+<text x="192.7" y="306.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1970</text>
+<text x="315.3" y="306.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1990</text>
+<text x="438.0" y="306.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">2010</text>
+<rect x="70" y="40" width="460" height="250" fill="none" stroke="#777"/>
+<text x="62.0" y="22.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#333">日本の65歳以上人口の割合（%）</text>
+<text x="300.0" y="328.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">(年)</text>
+<polyline points="70.0,255.0 100.7,252.1 131.3,249.3 162.0,245.0 192.7,239.3 223.3,233.6 254.0,225.0 284.7,216.4 315.3,203.6 346.0,185.7 376.7,165.7 407.3,145.7 438.0,125.7 468.7,100.0 499.3,85.7 517.7,82.1" fill="none" stroke="#f57c00" stroke-width="2.8" stroke-linejoin="round"/>
+<circle cx="284.7" cy="118.6" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="284.7" y="119.6" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

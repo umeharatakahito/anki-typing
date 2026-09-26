@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<rect x="20.0" y="40.0" width="90.0" height="90.0" rx="6" fill="#ffebee" stroke="#90a4ae" stroke-width="1.5"/><text x="65.0" y="85.0" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">好況</text>
+<rect x="125.0" y="50.0" width="110.0" height="70.0" rx="6" fill="#fff" stroke="#b0bec5" stroke-width="2"/><text x="180.0" y="85.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">所得が増える</text>
+<rect x="250.0" y="50.0" width="190.0" height="70.0" rx="6" fill="#fff" stroke="#b0bec5" stroke-width="2"/><text x="345.0" y="77.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">累進課税で税収が増え</text>
+<text x="345.0" y="92.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">失業給付などは減る</text>
+<rect x="455.0" y="50.0" width="130.0" height="70.0" rx="6" fill="#fff" stroke="#b0bec5" stroke-width="2"/><text x="520.0" y="77.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">景気の過熱を</text>
+<text x="520.0" y="92.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">おさえる</text>
+<rect x="20.0" y="160.0" width="90.0" height="90.0" rx="6" fill="#e3f2fd" stroke="#90a4ae" stroke-width="1.5"/><text x="65.0" y="205.0" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">不況</text>
+<rect x="125.0" y="170.0" width="110.0" height="70.0" rx="6" fill="#fff" stroke="#b0bec5" stroke-width="2"/><text x="180.0" y="205.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">所得が減る</text>
+<rect x="250.0" y="170.0" width="190.0" height="70.0" rx="6" fill="#fff" stroke="#b0bec5" stroke-width="2"/><text x="345.0" y="197.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">税負担が減り</text>
+<text x="345.0" y="212.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">失業給付などが増える</text>
+<rect x="455.0" y="170.0" width="130.0" height="70.0" rx="6" fill="#fff" stroke="#b0bec5" stroke-width="2"/><text x="520.0" y="197.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">景気の落ち込みを</text>
+<text x="520.0" y="212.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">やわらげる</text>
+<text x="300.0" y="285.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">財政のしくみに組み込まれた自動的な景気安定化</text>
+<circle cx="575.0" cy="22.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575.0" y="23.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

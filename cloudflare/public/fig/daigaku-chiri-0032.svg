@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" width="560" height="320" font-family="sans-serif">
+<rect width="560" height="320" fill="#fff"/>
+<rect x="0" y="220" width="560" height="100" fill="#e3f2fd"/>
+<polygon points="560.0,50.0 430.0,50.0 420.0,100.0 320.0,110.0 310.0,160.0 210.0,170.0 200.0,220.0 130.0,226.0 80.0,320.0 560.0,320.0" fill="#d7ccc8" stroke="#8d6e63" stroke-width="1.5"/>
+<polyline points="0.0,220.0 200.0,220.0" fill="none" stroke="#1e88e5" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="430.0,50.0 560.0,50.0" fill="none" stroke="#f57c00" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="320.0,110.0 420.0,100.0" fill="none" stroke="#f57c00" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="210.0,170.0 310.0,160.0" fill="none" stroke="#f57c00" stroke-width="5" stroke-linejoin="round"/>
+<text x="60.0" y="205.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">海面</text>
+<text x="260.0" y="150.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">平らな面</text>
+<text x="300.0" y="140.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round"></text>
+<text x="470.0" y="142.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#4e342e" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">海底や波食台が</text>
+<text x="470.0" y="157.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#4e342e" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">隆起してできた</text>
+<line x1="360.0" y1="60.0" x2="370.0" y2="104.0" stroke="#f57c00" stroke-width="2.4"/><circle cx="370.0" cy="104.0" r="3.5" fill="#f57c00"/><circle cx="360.0" cy="60.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="360.0" y="61.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

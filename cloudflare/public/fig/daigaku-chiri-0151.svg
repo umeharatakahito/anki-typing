@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<defs><marker id="a222" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker><marker id="a6d4c41" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6d4c41"/></marker><marker id="af57c00" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="0" y="120" width="600" height="260" fill="#ffe0b2"/>
+<text x="300.0" y="360.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#e65100" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">マントル</text>
+<polygon points="0.0,120.0 380.0,120.0 420.0,120.0 430.0,170.0 400.0,170.0 0.0,170.0" fill="#bbdefb" stroke="none" stroke-width="1.5"/>
+<polyline points="0.0,120.0 430.0,120.0" fill="none" stroke="#1e88e5" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="0.0,170.0 400.0,170.0 440.0,180.0 520.0,260.0 560.0,330.0 540.0,340.0 500.0,280.0 430.0,200.0 400.0,195.0 0.0,195.0" fill="#a1887f" stroke="#5d4037" stroke-width="2"/>
+<polygon points="420.0,120.0 470.0,100.0 520.0,70.0 600.0,60.0 600.0,160.0 540.0,170.0 470.0,150.0 430.0,135.0" fill="#bcaaa4" stroke="#5d4037" stroke-width="2"/>
+<polygon points="60.0,170.0 80.0,150.0 100.0,170.0" fill="#a1887f" stroke="#5d4037" stroke-width="1.5"/>
+<path d="M80,215 L80,195" fill="none" stroke="#6d4c41" stroke-width="3" stroke-linecap="round" marker-end="url(#a6d4c41)"/>
+<path d="M140,182 L260,182" fill="none" stroke="#222" stroke-width="3" stroke-linecap="round" marker-end="url(#a222)"/>
+<polygon points="450.0,105.0 470.0,60.0 490.0,105.0" fill="#ffb74d" stroke="#f57c00" stroke-width="1.5"/>
+<polygon points="480.0,90.0 500.0,45.0 520.0,90.0" fill="#ffb74d" stroke="#f57c00" stroke-width="1.5"/>
+<text x="210.0" y="210.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">海洋プレート</text>
+<text x="560.0" y="130.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#3e2723" font-weight="bold">大陸プレート</text>
+<text x="80.0" y="138.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#3e2723" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">海嶺</text>
+<text x="390.0" y="100.0" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#3e2723" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">海溝</text>
+<line x1="392" y1="104" x2="428" y2="150" stroke="#555" stroke-width="1"/>
+<text x="300.0" y="145.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#1565c0" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">海</text>
+<line x1="560.0" y1="30.0" x2="505.0" y2="55.0" stroke="#f57c00" stroke-width="2.4"/><circle cx="505.0" cy="55.0" r="3.5" fill="#f57c00"/><circle cx="560.0" cy="30.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="560.0" y="31.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

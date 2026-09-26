@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" width="600" height="280" font-family="sans-serif">
+<rect width="600" height="280" fill="#fff"/>
+<rect x="40.0" y="40.0" width="160.0" height="40.0" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1"/><text x="120.0" y="60.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold"></text>
+<rect x="200.0" y="40.0" width="160.0" height="40.0" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1"/><text x="280.0" y="60.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">ラシャ1単位</text>
+<rect x="360.0" y="40.0" width="160.0" height="40.0" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1"/><text x="440.0" y="60.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">ぶどう酒1単位</text>
+<rect x="40.0" y="80.0" width="160.0" height="50.0" rx="0" fill="#fff" stroke="#b0bec5" stroke-width="1"/><text x="120.0" y="105.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">イギリス</text>
+<rect x="200.0" y="80.0" width="160.0" height="50.0" rx="0" fill="#ffe0b2" stroke="#b0bec5" stroke-width="1"/><text x="280.0" y="105.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">100人</text>
+<rect x="360.0" y="80.0" width="160.0" height="50.0" rx="0" fill="#fff" stroke="#b0bec5" stroke-width="1"/><text x="440.0" y="105.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">120人</text>
+<rect x="40.0" y="130.0" width="160.0" height="50.0" rx="0" fill="#fff" stroke="#b0bec5" stroke-width="1"/><text x="120.0" y="155.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">ポルトガル</text>
+<rect x="200.0" y="130.0" width="160.0" height="50.0" rx="0" fill="#fff" stroke="#b0bec5" stroke-width="1"/><text x="280.0" y="155.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">90人</text>
+<rect x="360.0" y="130.0" width="160.0" height="50.0" rx="0" fill="#ffe0b2" stroke="#b0bec5" stroke-width="1"/><text x="440.0" y="155.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">80人</text>
+<text x="300.0" y="210.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#333" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">生産に必要な労働量　→ 相対的に得意な財（色付き）に特化して貿易</text>
+<text x="300.0" y="240.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#333" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">するとどちらの国も利益を得る（リカード）</text>
+<circle cx="575.0" cy="25.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575.0" y="26.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

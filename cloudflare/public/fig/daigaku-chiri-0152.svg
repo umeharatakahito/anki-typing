@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<rect x="0" y="60" width="600" height="260" fill="#e3f2fd"/>
+<polygon points="0.0,40.0 80.0,50.0 110.0,60.0 300.0,90.0 360.0,230.0 420.0,280.0 600.0,290.0 600.0,320.0 0.0,320.0" fill="#d7ccc8" stroke="#8d6e63" stroke-width="1.5"/>
+<polyline points="110.0,60.0 300.0,90.0" fill="none" stroke="#f57c00" stroke-width="6" stroke-linejoin="round"/>
+<polyline points="0.0,60.0 110.0,60.0" fill="none" stroke="#1e88e5" stroke-width="0" stroke-linejoin="round"/>
+<polyline points="80.0,60.0 600.0,60.0" fill="none" stroke="#1e88e5" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="300.0,90.0 600.0,90.0" fill="none" stroke="#78909c" stroke-width="1" stroke-dasharray="5 4" stroke-linejoin="round"/>
+<text x="590.0" y="80.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#455a64" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">水深 約200m</text>
+<text x="40.0" y="30.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">陸地</text>
+<text x="380.0" y="170.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">急な斜面</text>
+<text x="510.0" y="270.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">深い海底</text>
+<line x1="205.0" y1="150.0" x2="205.0" y2="78.0" stroke="#f57c00" stroke-width="2.4"/><circle cx="205.0" cy="78.0" r="3.5" fill="#f57c00"/><circle cx="205.0" cy="150.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="205.0" y="151.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

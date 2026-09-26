@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" width="560" height="320" font-family="sans-serif">
+<rect width="560" height="320" fill="#fff"/>
+<line x1="70" y1="275.0" x2="535" y2="275.0" stroke="#e0e0e0"/>
+<text x="62.0" y="275.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">0</text>
+<line x1="70" y1="216.2" x2="535" y2="216.2" stroke="#e0e0e0"/>
+<text x="62.0" y="216.2" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">10000</text>
+<line x1="70" y1="157.5" x2="535" y2="157.5" stroke="#e0e0e0"/>
+<text x="62.0" y="157.5" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">20000</text>
+<line x1="70" y1="98.8" x2="535" y2="98.8" stroke="#e0e0e0"/>
+<text x="62.0" y="98.8" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">30000</text>
+<line x1="70" y1="40.0" x2="535" y2="40.0" stroke="#e0e0e0"/>
+<text x="62.0" y="40.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">40000</text>
+<text x="70.0" y="291.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1980</text>
+<text x="225.0" y="291.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1985</text>
+<text x="380.0" y="291.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1990</text>
+<text x="535.0" y="291.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1995</text>
+<rect x="70" y="40" width="465" height="235" fill="none" stroke="#777"/>
+<text x="40.0" y="22.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#333">日経平均株価（年末・円）</text>
+<text x="302.5" y="310.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">(年)</text>
+<polyline points="70.0,233.2 101.0,229.9 132.0,227.9 163.0,216.9 194.0,207.2 225.0,198.0 256.0,165.1 287.0,148.3 318.0,97.8 349.0,46.4 380.0,134.9 411.0,140.0 442.0,175.6 473.0,172.7 504.0,159.1 535.0,158.3" fill="none" stroke="#1565c0" stroke-width="2.8" stroke-linejoin="round"/>
+<polyline points="256.0,165.1 287.0,148.3 318.0,97.8 349.0,46.4" fill="none" stroke="#f57c00" stroke-width="6"/>
+<line x1="225.0" y1="87.0" x2="302.5" y2="128.1" stroke="#f57c00" stroke-width="2.4"/><circle cx="302.5" cy="128.1" r="3.5" fill="#f57c00"/><circle cx="225.0" cy="87.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="225.0" y="88.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

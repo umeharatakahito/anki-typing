@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" width="600" height="220" font-family="sans-serif">
+<rect width="600" height="220" fill="#fff"/>
+<rect x="30.0" y="50.0" width="220.0" height="60.0" rx="6" fill="#eceff1" stroke="#90a4ae" stroke-width="2"/><text x="140.0" y="80.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">落選した候補者の得票数</text>
+<text x="270.0" y="80.0" font-size="24" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">÷</text>
+<rect x="290.0" y="50.0" width="220.0" height="60.0" rx="6" fill="#eceff1" stroke="#90a4ae" stroke-width="2"/><text x="400.0" y="71.2" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">その選挙区の</text>
+<text x="400.0" y="88.8" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">当選者の得票数</text>
+<text x="535.0" y="80.0" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">×100</text>
+<text x="150.0" y="160.0" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#333" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">例）45,000票 ÷ 50,000票 × 100 ＝ 90%</text>
+<text x="300.0" y="200.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">比例名簿で同じ順位の重複立候補者の当落を決める</text>
+<circle cx="575.0" cy="25.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575.0" y="26.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

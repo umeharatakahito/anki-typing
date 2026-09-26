@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340" width="560" height="340" font-family="sans-serif">
+<rect width="560" height="340" fill="#fff"/>
+<path d="M0,340 Q280,230 560,340 Z" fill="#c8e6c9" stroke="#66bb6a"/>
+<rect x="268" y="240" width="24" height="36" rx="4" fill="#37474f"/><rect x="272" y="245" width="16" height="22" fill="#90caf9"/>
+<text x="280.0" y="292.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">受信機（スマートフォン・カーナビなど）</text>
+<line x1="80" y1="70" x2="280" y2="240" stroke="#fb8c00" stroke-width="1.5" stroke-dasharray="6 4"/>
+<rect x="70" y="62" width="20" height="16" fill="#78909c"/><rect x="48" y="66" width="20" height="8" fill="#42a5f5"/><rect x="92" y="66" width="20" height="8" fill="#42a5f5"/>
+<line x1="220" y1="40" x2="280" y2="240" stroke="#fb8c00" stroke-width="1.5" stroke-dasharray="6 4"/>
+<rect x="210" y="32" width="20" height="16" fill="#78909c"/><rect x="188" y="36" width="20" height="8" fill="#42a5f5"/><rect x="232" y="36" width="20" height="8" fill="#42a5f5"/>
+<line x1="360" y1="50" x2="280" y2="240" stroke="#fb8c00" stroke-width="1.5" stroke-dasharray="6 4"/>
+<rect x="350" y="42" width="20" height="16" fill="#78909c"/><rect x="328" y="46" width="20" height="8" fill="#42a5f5"/><rect x="372" y="46" width="20" height="8" fill="#42a5f5"/>
+<line x1="490" y1="90" x2="280" y2="240" stroke="#fb8c00" stroke-width="1.5" stroke-dasharray="6 4"/>
+<rect x="480" y="82" width="20" height="16" fill="#78909c"/><rect x="458" y="86" width="20" height="8" fill="#42a5f5"/><rect x="502" y="86" width="20" height="8" fill="#42a5f5"/>
+<text x="150.0" y="130.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#e65100" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">人工衛星からの電波</text>
+<text x="280.0" y="196.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#333" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">複数の衛星との距離から位置を求める</text>
+<circle cx="530.0" cy="25.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="530.0" y="26.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

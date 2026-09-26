@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" width="560" height="300" font-family="sans-serif">
+<rect width="560" height="300" fill="#fff"/>
+<text x="95.0" y="60.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round"></text>
+<text x="190.0" y="60.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">耕地A</text>
+<text x="320.0" y="60.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">耕地B</text>
+<text x="450.0" y="60.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">耕地C</text>
+<text x="80.0" y="100.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">1年目</text>
+<rect x="130.0" y="75.0" width="120.0" height="50.0" rx="6" fill="#ffe082" stroke="#888" stroke-width="2"/><text x="190.0" y="100.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">冬作物</text>
+<rect x="260.0" y="75.0" width="120.0" height="50.0" rx="6" fill="#aed581" stroke="#888" stroke-width="2"/><text x="320.0" y="100.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">夏作物</text>
+<rect x="390.0" y="75.0" width="120.0" height="50.0" rx="6" fill="#d7ccc8" stroke="#888" stroke-width="2"/><text x="450.0" y="100.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">休閑地</text>
+<text x="80.0" y="160.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">2年目</text>
+<rect x="130.0" y="135.0" width="120.0" height="50.0" rx="6" fill="#d7ccc8" stroke="#888" stroke-width="2"/><text x="190.0" y="160.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">休閑地</text>
+<rect x="260.0" y="135.0" width="120.0" height="50.0" rx="6" fill="#ffe082" stroke="#888" stroke-width="2"/><text x="320.0" y="160.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">冬作物</text>
+<rect x="390.0" y="135.0" width="120.0" height="50.0" rx="6" fill="#aed581" stroke="#888" stroke-width="2"/><text x="450.0" y="160.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">夏作物</text>
+<text x="80.0" y="220.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">3年目</text>
+<rect x="130.0" y="195.0" width="120.0" height="50.0" rx="6" fill="#aed581" stroke="#888" stroke-width="2"/><text x="190.0" y="220.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">夏作物</text>
+<rect x="260.0" y="195.0" width="120.0" height="50.0" rx="6" fill="#d7ccc8" stroke="#888" stroke-width="2"/><text x="320.0" y="220.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">休閑地</text>
+<rect x="390.0" y="195.0" width="120.0" height="50.0" rx="6" fill="#ffe082" stroke="#888" stroke-width="2"/><text x="450.0" y="220.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">冬作物</text>
+<text x="280.0" y="270.0" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">冬作物：小麦・ライ麦　夏作物：大麦・えん麦　休閑地：家畜を放牧</text>
+<circle cx="520.0" cy="30.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="520.0" y="31.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

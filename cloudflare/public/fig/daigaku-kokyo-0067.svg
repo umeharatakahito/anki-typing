@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 330" width="600" height="330" font-family="sans-serif">
+<rect width="600" height="330" fill="#fff"/>
+<defs><marker id="a222" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker></defs>
+<rect x="20.0" y="30.0" width="110.0" height="50.0" rx="6" fill="#eceff1" stroke="#90a4ae" stroke-width="1.5"/><text x="75.0" y="55.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">A銀行</text>
+<rect x="150.0" y="30.0" width="140.0" height="50.0" rx="6" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/><text x="220.0" y="55.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">預金 100万円</text>
+<rect x="310.0" y="30.0" width="120.0" height="50.0" rx="6" fill="#fff" stroke="#bdbdbd" stroke-width="2"/><text x="370.0" y="47.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">支払準備</text>
+<text x="370.0" y="62.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">10万円</text>
+<rect x="450.0" y="30.0" width="130.0" height="50.0" rx="6" fill="#fff3e0" stroke="#fb8c00" stroke-width="2"/><text x="515.0" y="55.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">貸出 90万円</text>
+<line x1="515.0" y1="82.0" x2="230.0" y2="108.0" stroke="#222" stroke-width="2" marker-end="url(#a222)"/>
+<rect x="20.0" y="110.0" width="110.0" height="50.0" rx="6" fill="#eceff1" stroke="#90a4ae" stroke-width="1.5"/><text x="75.0" y="135.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">B銀行</text>
+<rect x="150.0" y="110.0" width="140.0" height="50.0" rx="6" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/><text x="220.0" y="135.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">預金 90万円</text>
+<rect x="310.0" y="110.0" width="120.0" height="50.0" rx="6" fill="#fff" stroke="#bdbdbd" stroke-width="2"/><text x="370.0" y="127.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">支払準備</text>
+<text x="370.0" y="142.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">9万円</text>
+<rect x="450.0" y="110.0" width="130.0" height="50.0" rx="6" fill="#fff3e0" stroke="#fb8c00" stroke-width="2"/><text x="515.0" y="135.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">貸出 81万円</text>
+<line x1="515.0" y1="162.0" x2="230.0" y2="188.0" stroke="#222" stroke-width="2" marker-end="url(#a222)"/>
+<rect x="20.0" y="190.0" width="110.0" height="50.0" rx="6" fill="#eceff1" stroke="#90a4ae" stroke-width="1.5"/><text x="75.0" y="215.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">C銀行</text>
+<rect x="150.0" y="190.0" width="140.0" height="50.0" rx="6" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/><text x="220.0" y="215.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">預金 81万円</text>
+<rect x="310.0" y="190.0" width="120.0" height="50.0" rx="6" fill="#fff" stroke="#bdbdbd" stroke-width="2"/><text x="370.0" y="207.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">支払準備</text>
+<text x="370.0" y="222.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">8.1万円</text>
+<rect x="450.0" y="190.0" width="130.0" height="50.0" rx="6" fill="#fff3e0" stroke="#fb8c00" stroke-width="2"/><text x="515.0" y="215.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">貸出 72.9万円</text>
+<text x="300.0" y="280.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#333" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">支払準備率10%：最初の預金100万円 → 預金総額は最大1000万円</text>
+<text x="300.0" y="305.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">（新たに生まれた預金は900万円）</text>
+<circle cx="575.0" cy="305.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575.0" y="306.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

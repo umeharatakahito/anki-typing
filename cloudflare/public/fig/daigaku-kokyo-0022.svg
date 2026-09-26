@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<polygon points="20.0,70.0 300.0,20.0 580.0,70.0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1.5"/>
+<text x="300.0" y="55.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">日本の社会保障制度</text>
+<rect x="30.0" y="80.0" width="120.0" height="150.0" rx="6" fill="#ffb74d" stroke="#f57c00" stroke-width="2.5"/>
+<circle cx="90.0" cy="115.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="90.0" y="116.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="90.0" y="165.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#333">医療・年金</text>
+<text x="90.0" y="180.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#333">雇用・労災</text>
+<text x="90.0" y="195.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#333">介護</text>
+<rect x="170.0" y="80.0" width="120.0" height="150.0" rx="6" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/>
+<text x="230.0" y="115.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">公的扶助</text>
+<text x="230.0" y="180.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#333">生活保護</text>
+<rect x="310.0" y="80.0" width="120.0" height="150.0" rx="6" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/>
+<text x="370.0" y="115.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">社会福祉</text>
+<text x="370.0" y="165.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#333">児童・障害者</text>
+<text x="370.0" y="180.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#333">高齢者などへの</text>
+<text x="370.0" y="195.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#333">支援</text>
+<rect x="450.0" y="80.0" width="120.0" height="150.0" rx="6" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2"/>
+<text x="510.0" y="115.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">公衆衛生</text>
+<text x="510.0" y="172.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#333">感染症予防</text>
+<text x="510.0" y="187.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#333">上下水道など</text>
+<rect x="20" y="236" width="560" height="16" fill="#cfd8dc"/>
+</svg>

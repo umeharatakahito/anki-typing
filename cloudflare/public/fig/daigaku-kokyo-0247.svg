@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 380" width="560" height="380" font-family="sans-serif">
+<rect width="560" height="380" fill="#fff"/>
+<defs><marker id="a222" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker></defs>
+<line x1="326.9" y1="78.8" x2="361.5" y2="134.5" stroke="#222" stroke-width="2" marker-end="url(#a222)"/>
+<line x1="390.5" y1="183.7" x2="377.3" y2="273.8" stroke="#222" stroke-width="2" marker-end="url(#a222)"/>
+<line x1="301.4" y1="304.2" x2="258.6" y2="304.2" stroke="#222" stroke-width="2" marker-end="url(#a222)"/>
+<line x1="182.7" y1="273.8" x2="169.5" y2="183.7" stroke="#222" stroke-width="2" marker-end="url(#a222)"/>
+<line x1="198.5" y1="134.5" x2="233.1" y2="78.8" stroke="#222" stroke-width="2" marker-end="url(#a222)"/>
+<rect x="218.0" y="36.0" width="124.0" height="48.0" rx="6" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1.5"/><text x="280.0" y="60.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">原料の採取</text>
+<rect x="346.4" y="129.3" width="124.0" height="48.0" rx="6" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1.5"/><text x="408.4" y="153.3" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">製造</text>
+<rect x="297.4" y="280.2" width="124.0" height="48.0" rx="6" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1.5"/><text x="359.4" y="304.2" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">輸送・販売</text>
+<rect x="138.6" y="280.2" width="124.0" height="48.0" rx="6" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1.5"/><text x="200.6" y="304.2" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">使用</text>
+<rect x="89.6" y="129.3" width="124.0" height="48.0" rx="6" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1.5"/><text x="151.6" y="153.3" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">廃棄・再利用</text>
+<text x="280.0" y="183.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#333" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">各段階の環境負荷</text>
+<text x="280.0" y="207.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#333" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">（CO₂排出など）を評価</text>
+<circle cx="530.0" cy="25.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="530.0" y="26.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

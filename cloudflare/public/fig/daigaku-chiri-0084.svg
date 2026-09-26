@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" width="560" height="320" font-family="sans-serif">
+<rect width="560" height="320" fill="#fff"/>
+<defs><marker id="ac62828" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker><marker id="a1565c0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker></defs>
+<polygon points="0.0,290.0 140.0,250.0 280.0,60.0 420.0,250.0 560.0,290.0 560.0,320.0 0.0,320.0" fill="#d7ccc8" stroke="#8d6e63" stroke-width="1.5"/>
+<polygon points="220.0,140.0 280.0,60.0 340.0,140.0" fill="#a5d6a7" stroke="none" stroke-width="1.5"/>
+<text x="280.0" y="40.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#33691e" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">高地の牧草地</text>
+<text x="80.0" y="300.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#4e342e" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">ふもとの村</text>
+<path d="M110,262 Q170,180 238,128" fill="none" stroke="#c62828" stroke-width="4" stroke-linecap="round" marker-end="url(#ac62828)"/>
+<text x="140.0" y="180.0" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#c62828" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">夏</text>
+<path d="M320,128 Q260,230 150,276" fill="none" stroke="#1565c0" stroke-width="4" stroke-linecap="round" marker-end="url(#a1565c0)"/>
+<text x="300.0" y="215.0" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#1565c0" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">冬</text>
+<text x="420.0" y="120.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#333" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">家畜を季節ごとに移動</text>
+<circle cx="520.0" cy="30.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="520.0" y="31.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

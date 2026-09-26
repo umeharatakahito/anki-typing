@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" width="600" height="240" font-family="sans-serif">
+<rect width="600" height="240" fill="#fff"/>
+<text x="20.0" y="30.0" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#333" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">国内で1年間に生産された</text>
+<rect x="20" y="50" width="540" height="50" fill="#cfd8dc" stroke="#90a4ae"/><text x="290.0" y="75.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">総生産額</text>
+<rect x="20" y="120" width="220" height="50" fill="#eceff1" stroke="#90a4ae"/><text x="130.0" y="145.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">中間生産物（原材料など）</text>
+<rect x="240" y="120" width="320" height="50" fill="#ffb74d" stroke="#f57c00" stroke-width="2"/>
+<circle cx="400.0" cy="145.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="400.0" y="146.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="400.0" y="195.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#e65100" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">＝ 付加価値の合計</text>
+</svg>

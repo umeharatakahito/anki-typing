@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<polygon points="0.0,110.0 157.0,110.0 190.0,300.0 0.0,300.0" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2"/>
+<polygon points="167.4,170.0 282.6,170.0 260.0,300.0 190.0,300.0" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2"/>
+<polygon points="301.7,60.0 428.3,60.0 470.0,300.0 260.0,300.0" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2"/>
+<polygon points="437.0,110.0 600.0,110.0 600.0,300.0 470.0,300.0" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2"/>
+<polyline points="157.0,110.0 190.0,300.0" fill="none" stroke="#c62828" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round"/>
+<polyline points="301.7,60.0 260.0,300.0" fill="none" stroke="#c62828" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round"/>
+<polyline points="437.0,110.0 470.0,300.0" fill="none" stroke="#c62828" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round"/>
+<polygon points="162.2,140.0 287.8,140.0 282.6,170.0 167.4,170.0" fill="#ffb74d" stroke="#f57c00" stroke-width="2"/>
+<text x="225.0" y="235.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#4e342e" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">地溝</text>
+<text x="365.0" y="200.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#4e342e" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">地塁</text>
+<line x1="225.0" y1="40.0" x2="225.0" y2="155.0" stroke="#f57c00" stroke-width="2.4"/><circle cx="225.0" cy="155.0" r="3.5" fill="#f57c00"/><circle cx="225.0" cy="40.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="225.0" y="41.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="590.0" y="290.0" font-size="11" text-anchor="end" dominant-baseline="middle" fill="#c62828" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">赤の破線：断層</text>
+</svg>

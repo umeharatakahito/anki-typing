@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<defs><marker id="a222" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker></defs>
+<polygon points="0.0,230.0 400.0,230.0 430.0,150.0 460.0,150.0 470.0,200.0 560.0,200.0 570.0,150.0 600.0,150.0 600.0,320.0 0.0,320.0" fill="#d7ccc8" stroke="#8d6e63" stroke-width="1.5"/>
+<polygon points="462.0,170.0 568.0,170.0 560.0,200.0 470.0,200.0" fill="#90caf9" stroke="none" stroke-width="1.5"/>
+<text x="515.0" y="188.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#1565c0" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">河川</text>
+<text x="445.0" y="140.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">堤防</text>
+<polygon points="20.0,214.0 390.0,214.0 400.0,230.0 0.0,230.0 0.0,222.0" fill="#ffb74d" stroke="#f57c00" stroke-width="2"/>
+<rect x="60" y="176" width="36" height="38" fill="#fff" stroke="#555"/><polygon points="56.0,178.0 78.0,158.0 100.0,178.0" fill="#e57373" stroke="#555" stroke-width="1"/>
+<rect x="160" y="176" width="36" height="38" fill="#fff" stroke="#555"/><polygon points="156.0,178.0 178.0,158.0 200.0,178.0" fill="#e57373" stroke="#555" stroke-width="1"/>
+<rect x="260" y="176" width="36" height="38" fill="#fff" stroke="#555"/><polygon points="256.0,178.0 278.0,158.0 300.0,178.0" fill="#e57373" stroke="#555" stroke-width="1"/>
+<rect x="120" y="240" width="300" height="12" fill="#90a4ae"/>
+<text x="270.0" y="268.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">下水道・水路（排水が追いつかない）</text>
+<line x1="330.0" y1="246.0" x2="330.0" y2="226.0" stroke="#222" stroke-width="2" marker-end="url(#a222)"/>
+<polyline points="40.0,30.0 32.0,60.0" fill="none" stroke="#42a5f5" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="70.0,30.0 62.0,60.0" fill="none" stroke="#42a5f5" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="100.0,30.0 92.0,60.0" fill="none" stroke="#42a5f5" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="130.0,30.0 122.0,60.0" fill="none" stroke="#42a5f5" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="160.0,30.0 152.0,60.0" fill="none" stroke="#42a5f5" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="190.0,30.0 182.0,60.0" fill="none" stroke="#42a5f5" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="220.0,30.0 212.0,60.0" fill="none" stroke="#42a5f5" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="250.0,30.0 242.0,60.0" fill="none" stroke="#42a5f5" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="280.0,30.0 272.0,60.0" fill="none" stroke="#42a5f5" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="310.0,30.0 302.0,60.0" fill="none" stroke="#42a5f5" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="340.0,30.0 332.0,60.0" fill="none" stroke="#42a5f5" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="370.0,30.0 362.0,60.0" fill="none" stroke="#42a5f5" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="400.0,30.0 392.0,60.0" fill="none" stroke="#42a5f5" stroke-width="2" stroke-linejoin="round"/>
+<text x="200.0" y="80.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#1565c0" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">大雨</text>
+<line x1="200.0" y1="130.0" x2="200.0" y2="218.0" stroke="#f57c00" stroke-width="2.4"/><circle cx="200.0" cy="218.0" r="3.5" fill="#f57c00"/><circle cx="200.0" cy="130.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="200.0" y="131.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

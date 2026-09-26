@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" width="560" height="320" font-family="sans-serif">
+<rect width="560" height="320" fill="#fff"/>
+<line x1="70" y1="275.0" x2="535" y2="275.0" stroke="#e0e0e0"/>
+<text x="62.0" y="275.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">0</text>
+<line x1="70" y1="216.2" x2="535" y2="216.2" stroke="#e0e0e0"/>
+<text x="62.0" y="216.2" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">10</text>
+<line x1="70" y1="157.5" x2="535" y2="157.5" stroke="#e0e0e0"/>
+<text x="62.0" y="157.5" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">20</text>
+<line x1="70" y1="98.8" x2="535" y2="98.8" stroke="#e0e0e0"/>
+<text x="62.0" y="98.8" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">30</text>
+<line x1="70" y1="40.0" x2="535" y2="40.0" stroke="#e0e0e0"/>
+<text x="62.0" y="40.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">40</text>
+<text x="70.0" y="291.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1970</text>
+<text x="186.2" y="291.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1975</text>
+<text x="302.5" y="291.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1980</text>
+<text x="418.8" y="291.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1985</text>
+<text x="535.0" y="291.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1990</text>
+<rect x="70" y="40" width="465" height="235" fill="none" stroke="#777"/>
+<text x="40.0" y="22.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#333">原油価格（ドル/バレル）</text>
+<text x="302.5" y="310.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">(年)</text>
+<polyline points="70.0,264.4 93.2,262.1 116.5,260.3 139.8,255.6 163.0,206.9 186.2,207.4 209.5,202.2 232.8,198.6 256.0,196.3 279.2,98.8 302.5,58.8 325.8,64.1 349.0,81.1 372.2,101.7 395.5,105.8 418.8,112.8 442.0,190.4 465.2,166.9 488.5,187.5 511.8,168.1 535.0,135.8" fill="none" stroke="#1565c0" stroke-width="2.8" stroke-linejoin="round"/>
+<line x1="104.9" y1="181.0" x2="153.7" y2="228.0" stroke="#f57c00" stroke-width="2.4"/><circle cx="153.7" cy="228.0" r="3.5" fill="#f57c00"/><circle cx="104.9" cy="181.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="104.9" y="182.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="232.8" y1="98.8" x2="283.9" y2="104.6" stroke="#f57c00" stroke-width="2.4"/><circle cx="283.9" cy="104.6" r="3.5" fill="#f57c00"/><circle cx="232.8" cy="98.8" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="232.8" y="99.8" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

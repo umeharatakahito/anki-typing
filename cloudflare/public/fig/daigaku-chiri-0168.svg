@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" width="600" height="240" font-family="sans-serif">
+<rect width="600" height="240" fill="#fff"/>
+<defs><marker id="a222" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker></defs>
+<rect x="10.0" y="90.0" width="110.0" height="60.0" rx="6" fill="#fff3e0" stroke="#fb8c00" stroke-width="2"/><text x="65.0" y="111.9" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">自宅</text>
+<text x="65.0" y="128.1" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">（自動車）</text>
+<line x1="122.0" y1="120.0" x2="170.0" y2="120.0" stroke="#222" stroke-width="3" marker-end="url(#a222)"/>
+<rect x="172.0" y="80.0" width="150.0" height="80.0" rx="6" fill="#e3f2fd" stroke="#1e88e5" stroke-width="2"/><text x="247.0" y="111.9" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">郊外の駅</text>
+<text x="247.0" y="128.1" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">駐車場に車をとめる</text>
+<rect x="180" y="40" width="30" height="30" rx="4" fill="#1565c0"/><text x="195.0" y="56.0" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">P</text>
+<line x1="324.0" y1="120.0" x2="380.0" y2="120.0" stroke="#222" stroke-width="3" marker-end="url(#a222)"/>
+<text x="352.0" y="100.0" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">鉄道・バス</text>
+<rect x="382.0" y="90.0" width="100.0" height="60.0" rx="6" fill="#eceff1" stroke="#78909c" stroke-width="2"/><text x="432.0" y="120.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">都心</text>
+<text x="300.0" y="205.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">都心の渋滞や排出ガスを減らすねらい</text>
+<circle cx="560.0" cy="30.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="560.0" y="31.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

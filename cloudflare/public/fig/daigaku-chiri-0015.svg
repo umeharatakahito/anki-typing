@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340" width="560" height="340" font-family="sans-serif">
+<rect width="560" height="340" fill="#fff"/>
+<line x1="70" y1="290.0" x2="530" y2="290.0" stroke="#e0e0e0"/>
+<text x="62.0" y="290.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">0</text>
+<line x1="70" y1="234.4" x2="530" y2="234.4" stroke="#e0e0e0"/>
+<text x="62.0" y="234.4" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">20</text>
+<line x1="70" y1="178.9" x2="530" y2="178.9" stroke="#e0e0e0"/>
+<text x="62.0" y="178.9" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">40</text>
+<line x1="70" y1="123.3" x2="530" y2="123.3" stroke="#e0e0e0"/>
+<text x="62.0" y="123.3" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">60</text>
+<line x1="70" y1="67.8" x2="530" y2="67.8" stroke="#e0e0e0"/>
+<text x="62.0" y="67.8" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555">80</text>
+<text x="70.0" y="306.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1700</text>
+<text x="139.7" y="306.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1750</text>
+<text x="209.4" y="306.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1800</text>
+<text x="279.1" y="306.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1850</text>
+<text x="348.8" y="306.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1900</text>
+<text x="418.5" y="306.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1950</text>
+<text x="488.2" y="306.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">2000</text>
+<rect x="70" y="40" width="460" height="250" fill="none" stroke="#777"/>
+<text x="62.0" y="22.0" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#333">世界の人口（億人）</text>
+<text x="300.0" y="328.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">(年)</text>
+<polyline points="70.0,273.3 139.7,268.1 209.4,262.8 279.1,255.0 348.8,244.2 376.7,238.3 404.5,226.4 418.5,219.4 432.4,206.1 446.4,187.2 460.3,166.7 474.2,141.9 488.2,119.2 502.1,95.8 516.1,72.2 520.2,66.4" fill="none" stroke="#1565c0" stroke-width="2.8" stroke-linejoin="round"/>
+<polyline points="418.5,219.4 432.4,206.1 446.4,187.2 460.3,166.7 474.2,141.9 488.2,119.2" fill="none" stroke="#f57c00" stroke-width="6" stroke-linejoin="round"/>
+<line x1="404.5" y1="137.2" x2="453.3" y2="176.1" stroke="#f57c00" stroke-width="2.4"/><circle cx="453.3" cy="176.1" r="3.5" fill="#f57c00"/><circle cx="404.5" cy="137.2" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="404.5" y="138.2" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>
