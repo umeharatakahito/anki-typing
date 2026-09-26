@@ -1,7 +1,12 @@
 <style>
-  /* モードの横の「対戦」ボタン */
-  #mode-list li{ display:flex; gap:8px; justify-content:center; align-items:stretch; }
-  #mode-list .vs-open{ flex:0 0 auto; min-width:96px; }
+  /* モードごとの枠。中に「個人」と「対戦」を並べる */
+  #mode-list{ list-style:none; padding:0; margin:0 auto; max-width:560px; }
+  #mode-list li.mode-box{ display:block; margin:0 12px 14px; padding:10px 12px 12px; border:2px solid #3BD;
+    border-radius:10px; background:rgba(255,255,255,.45); }
+  html[data-theme="dark"] #mode-list li.mode-box{ border-color:#2a3651; background:rgba(16,26,43,.6); }
+  #mode-list .mode-name{ font-size:18px; font-weight:bold; text-align:center; margin:0 0 8px; }
+  #mode-list .mode-btns{ display:flex; gap:10px; }
+  #mode-list .mode-btns .button{ flex:1 1 0; width:auto; margin:0; }
   #menu-vs .vs-actions{ display:flex; flex-direction:column; gap:10px; align-items:center; }
   #menu-vs .vs-join{ display:flex; gap:8px; justify-content:center; }
   #menu-vs .vs-join input{ width:8em; padding:8px 10px; font-size:18px; text-align:center; letter-spacing:.2em;
@@ -59,7 +64,7 @@
   html[data-theme="dark"] .vs-point-card{ background:#182236; color:#e8eef7; }
   .vs-point-big{ font-size:30px; font-weight:bold; margin:0 0 8px; }
   .vs-point-ans{ font-size:22px; font-weight:bold; margin:6px 0; }
-  .vs-point-note{ font-size:14px; line-height:1.6; white-space:pre-wrap; text-align:left; opacity:.85; margin:8px 0; }
+  .vs-point-note{ font-size:14px; line-height:1.6; white-space:pre-wrap; text-align:center; opacity:.85; margin:8px 0; }
   .vs-point-score{ font-size:26px; font-weight:bold; margin-top:8px; font-variant-numeric:tabular-nums; }
   .vs-point-next{ font-size:12px; opacity:.7; margin-top:6px; }
 
@@ -144,16 +149,24 @@
     h.showMenu('mode', null);
   }
 
-  // モードの横に「対戦」ボタンを足す
+  // モードごとに枠を作り、「個人」（元のボタン）と「対戦」を並べる
   document.querySelectorAll('#mode-list .hamachi-mode-opt').forEach(btn => {
     const m = (btn.getAttribute('onclick') || '').match(/startGame\('([^']+)'\)/);
     if (!m) return;
+    const li = btn.parentNode;
+    li.className = 'mode-box';
+    const name = document.createElement('div');
+    name.className = 'mode-name';
+    name.textContent = btn.textContent.trim();
+    const row = document.createElement('div');
+    row.className = 'mode-btns';
+    btn.textContent = '個人';
     const vs = document.createElement('button');
     vs.className = 'button menu-opt vs-open';
     vs.textContent = '⚔ 対戦';
     vs.onclick = () => openVersus(m[1]);
-    btn.parentNode.appendChild(vs);
-    btn.textContent = btn.textContent + '（個人）';
+    row.append(btn, vs);
+    li.append(name, row);
   });
 
   // ---- 対戦中の画面 ----------------------------------------------------
