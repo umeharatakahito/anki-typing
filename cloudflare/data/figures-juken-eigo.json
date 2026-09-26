@@ -1,0 +1,3438 @@
+{
+ "eigo:diet": {
+  "file": "juken-eigo-diet.svg",
+  "kind": "svg"
+ },
+ "eigo:ingredient": {
+  "file": "juken-eigo-ingredient.svg",
+  "kind": "svg"
+ },
+ "eigo:roast": {
+  "file": "juken-eigo-roast.svg",
+  "kind": "svg"
+ },
+ "eigo:taste": {
+  "file": "juken-eigo-taste.svg",
+  "kind": "svg"
+ },
+ "eigo:chew": {
+  "file": "juken-eigo-chew.svg",
+  "kind": "svg"
+ },
+ "eigo:swallow": {
+  "file": "juken-eigo-swallow.svg",
+  "kind": "svg"
+ },
+ "eigo:serve": {
+  "file": "juken-eigo-serve.svg",
+  "kind": "svg"
+ },
+ "eigo:cash": {
+  "file": "juken-eigo-cash.svg",
+  "kind": "svg"
+ },
+ "eigo:discount": {
+  "file": "juken-eigo-discount.svg",
+  "kind": "svg"
+ },
+ "eigo:spend": {
+  "file": "juken-eigo-spend.svg",
+  "kind": "svg"
+ },
+ "eigo:cloth": {
+  "file": "juken-eigo-cloth.svg",
+  "kind": "svg"
+ },
+ "eigo:clothes": {
+  "file": "juken-eigo-clothes.svg",
+  "kind": "svg"
+ },
+ "eigo:housework": {
+  "file": "juken-eigo-housework.svg",
+  "kind": "svg"
+ },
+ "eigo:marriage": {
+  "file": "juken-eigo-marriage.svg",
+  "kind": "svg"
+ },
+ "eigo:floor": {
+  "file": "juken-eigo-floor.svg",
+  "kind": "svg"
+ },
+ "eigo:ceiling": {
+  "file": "juken-eigo-ceiling.svg",
+  "kind": "svg"
+ },
+ "eigo:yard": {
+  "file": "juken-eigo-yard.svg",
+  "kind": "svg"
+ },
+ "eigo:staircase": {
+  "file": "juken-eigo-staircase.svg",
+  "kind": "svg"
+ },
+ "eigo:upstairs": {
+  "file": "juken-eigo-upstairs.svg",
+  "kind": "svg"
+ },
+ "eigo:noise": {
+  "file": "juken-eigo-noise.svg",
+  "kind": "svg"
+ },
+ "eigo:split": {
+  "file": "juken-eigo-split.svg",
+  "kind": "svg"
+ },
+ "eigo:precious": {
+  "file": "juken-eigo-precious.svg",
+  "kind": "svg"
+ },
+ "eigo:neighbor": {
+  "file": "juken-eigo-neighbor.svg",
+  "kind": "svg"
+ },
+ "eigo:fun": {
+  "file": "juken-eigo-fun.svg",
+  "kind": "svg"
+ },
+ "eigo:wise": {
+  "file": "juken-eigo-wise.svg",
+  "kind": "svg"
+ },
+ "eigo:exhausted": {
+  "file": "juken-eigo-exhausted.svg",
+  "kind": "svg"
+ },
+ "eigo:salary": {
+  "file": "juken-eigo-salary.svg",
+  "kind": "svg"
+ },
+ "eigo:population": {
+  "file": "juken-eigo-population.svg",
+  "kind": "svg"
+ },
+ "eigo:satisfied": {
+  "file": "juken-eigo-satisfied.svg",
+  "kind": "svg"
+ },
+ "eigo:confused": {
+  "file": "juken-eigo-confused.svg",
+  "kind": "svg"
+ },
+ "eigo:embarrassed": {
+  "file": "juken-eigo-embarrassed.svg",
+  "kind": "svg"
+ },
+ "eigo:disappointed": {
+  "file": "juken-eigo-disappointed.svg",
+  "kind": "svg"
+ },
+ "eigo:pale": {
+  "file": "juken-eigo-pale.svg",
+  "kind": "svg"
+ },
+ "eigo:flexible": {
+  "file": "juken-eigo-flexible.svg",
+  "kind": "svg"
+ },
+ "eigo:careless": {
+  "file": "juken-eigo-careless.svg",
+  "kind": "svg"
+ },
+ "eigo:mistake": {
+  "file": "juken-eigo-mistake.svg",
+  "kind": "svg"
+ },
+ "eigo:earn": {
+  "file": "juken-eigo-earn.svg",
+  "kind": "svg"
+ },
+ "eigo:gather": {
+  "file": "juken-eigo-gather.svg",
+  "kind": "svg"
+ },
+ "eigo:courage": {
+  "file": "juken-eigo-courage.svg",
+  "kind": "svg"
+ },
+ "eigo:struggle": {
+  "file": "juken-eigo-struggle.svg",
+  "kind": "svg"
+ },
+ "eigo:handle": {
+  "file": "juken-eigo-handle.svg",
+  "kind": "svg"
+ },
+ "eigo:operate": {
+  "file": "juken-eigo-operate.svg",
+  "kind": "svg"
+ },
+ "eigo:scold": {
+  "file": "juken-eigo-scold.svg",
+  "kind": "svg"
+ },
+ "eigo:punish": {
+  "file": "juken-eigo-punish.svg",
+  "kind": "svg"
+ },
+ "eigo:blame": {
+  "file": "juken-eigo-blame.svg",
+  "kind": "svg"
+ },
+ "eigo:award": {
+  "file": "juken-eigo-award.svg",
+  "kind": "svg"
+ },
+ "eigo:reward": {
+  "file": "juken-eigo-reward.svg",
+  "kind": "svg"
+ },
+ "eigo:habit": {
+  "file": "juken-eigo-habit.svg",
+  "kind": "svg"
+ },
+ "eigo:match": {
+  "file": "juken-eigo-match.svg",
+  "kind": "svg"
+ },
+ "eigo:fit": {
+  "file": "juken-eigo-fit.svg",
+  "kind": "svg"
+ },
+ "eigo:suit": {
+  "file": "juken-eigo-suit.svg",
+  "kind": "svg"
+ },
+ "eigo:glasses": {
+  "file": "juken-eigo-glasses.svg",
+  "kind": "svg"
+ },
+ "eigo:discuss": {
+  "file": "juken-eigo-discuss.svg",
+  "kind": "svg"
+ },
+ "eigo:approach": {
+  "file": "juken-eigo-approach.svg",
+  "kind": "svg"
+ },
+ "eigo:resemble": {
+  "file": "juken-eigo-resemble.svg",
+  "kind": "svg"
+ },
+ "eigo:lend": {
+  "file": "juken-eigo-lend.svg",
+  "kind": "svg"
+ },
+ "eigo:borrow": {
+  "file": "juken-eigo-borrow.svg",
+  "kind": "svg"
+ },
+ "eigo:rent": {
+  "file": "juken-eigo-rent.svg",
+  "kind": "svg"
+ },
+ "eigo:sound": {
+  "file": "juken-eigo-sound.svg",
+  "kind": "svg"
+ },
+ "eigo:tear": {
+  "file": "juken-eigo-tear.svg",
+  "kind": "svg"
+ },
+ "eigo:note": {
+  "file": "juken-eigo-note.svg",
+  "kind": "svg"
+ },
+ "eigo:store": {
+  "file": "juken-eigo-store.svg",
+  "kind": "svg"
+ },
+ "eigo:admission": {
+  "file": "juken-eigo-admission.svg",
+  "kind": "svg"
+ },
+ "eigo:charge": {
+  "file": "juken-eigo-charge.svg",
+  "kind": "svg"
+ },
+ "eigo:fare": {
+  "file": "juken-eigo-fare.svg",
+  "kind": "svg"
+ },
+ "eigo:fine": {
+  "file": "juken-eigo-fine.svg",
+  "kind": "svg"
+ },
+ "eigo:weather": {
+  "file": "juken-eigo-weather.svg",
+  "kind": "svg"
+ },
+ "eigo:warning": {
+  "file": "juken-eigo-warning.svg",
+  "kind": "svg"
+ },
+ "eigo:landslide": {
+  "file": "juken-eigo-landslide.svg",
+  "kind": "svg"
+ },
+ "eigo:drown": {
+  "file": "juken-eigo-drown.svg",
+  "kind": "svg"
+ },
+ "eigo:temperature": {
+  "file": "juken-eigo-temperature.svg",
+  "kind": "svg"
+ },
+ "eigo:humidity": {
+  "file": "juken-eigo-humidity.svg",
+  "kind": "svg"
+ },
+ "eigo:disaster": {
+  "file": "juken-eigo-disaster.svg",
+  "kind": "svg"
+ },
+ "eigo:ocean": {
+  "file": "juken-eigo-ocean.svg",
+  "kind": "svg"
+ },
+ "eigo:continent": {
+  "file": "juken-eigo-continent.svg",
+  "kind": "svg"
+ },
+ "eigo:dessert": {
+  "file": "juken-eigo-dessert.svg",
+  "kind": "svg"
+ },
+ "eigo:evolution": {
+  "file": "juken-eigo-evolution.svg",
+  "kind": "svg"
+ },
+ "eigo:survive": {
+  "file": "juken-eigo-survive.svg",
+  "kind": "svg"
+ },
+ "eigo:revive": {
+  "file": "juken-eigo-revive.svg",
+  "kind": "svg"
+ },
+ "eigo:damage": {
+  "file": "juken-eigo-damage.svg",
+  "kind": "svg"
+ },
+ "eigo:environment": {
+  "file": "juken-eigo-environment.svg",
+  "kind": "svg"
+ },
+ "eigo:view": {
+  "file": "juken-eigo-view.svg",
+  "kind": "svg"
+ },
+ "eigo:energy": {
+  "file": "juken-eigo-energy.svg",
+  "kind": "svg"
+ },
+ "eigo:poison": {
+  "file": "juken-eigo-poison.svg",
+  "kind": "svg"
+ },
+ "eigo:pollution": {
+  "file": "juken-eigo-pollution.svg",
+  "kind": "svg"
+ },
+ "eigo:rubbish": {
+  "file": "juken-eigo-rubbish.svg",
+  "kind": "svg"
+ },
+ "eigo:litter": {
+  "file": "juken-eigo-litter.svg",
+  "kind": "svg"
+ },
+ "eigo:supply": {
+  "file": "juken-eigo-supply.svg",
+  "kind": "svg"
+ },
+ "eigo:reduce": {
+  "file": "juken-eigo-reduce.svg",
+  "kind": "svg"
+ },
+ "eigo:waist": {
+  "file": "juken-eigo-waist.svg",
+  "kind": "svg"
+ },
+ "eigo:waste": {
+  "file": "juken-eigo-waste.svg",
+  "kind": "svg"
+ },
+ "eigo:fuel": {
+  "file": "juken-eigo-fuel.svg",
+  "kind": "svg"
+ },
+ "eigo:lunar": {
+  "file": "juken-eigo-lunar.svg",
+  "kind": "svg"
+ },
+ "eigo:generate": {
+  "file": "juken-eigo-generate.svg",
+  "kind": "svg"
+ },
+ "eigo:generator": {
+  "file": "juken-eigo-generator.svg",
+  "kind": "svg"
+ },
+ "eigo:material": {
+  "file": "juken-eigo-material.svg",
+  "kind": "svg"
+ },
+ "eigo:perform": {
+  "file": "juken-eigo-perform.svg",
+  "kind": "svg"
+ },
+ "eigo:second": {
+  "file": "juken-eigo-second.svg",
+  "kind": "svg"
+ },
+ "eigo:comfortable": {
+  "file": "juken-eigo-comfortable.svg",
+  "kind": "svg"
+ },
+ "eigo:furniture": {
+  "file": "juken-eigo-furniture.svg",
+  "kind": "svg"
+ },
+ "eigo:baggage": {
+  "file": "juken-eigo-baggage.svg",
+  "kind": "svg"
+ },
+ "eigo:dairy": {
+  "file": "juken-eigo-dairy.svg",
+  "kind": "svg"
+ },
+ "eigo:rise": {
+  "file": "juken-eigo-rise.svg",
+  "kind": "svg"
+ },
+ "eigo:raise": {
+  "file": "juken-eigo-raise.svg",
+  "kind": "svg"
+ },
+ "eigo:law": {
+  "file": "juken-eigo-law.svg",
+  "kind": "svg"
+ },
+ "eigo:lawyer": {
+  "file": "juken-eigo-lawyer.svg",
+  "kind": "svg"
+ },
+ "eigo:row": {
+  "file": "juken-eigo-row.svg",
+  "kind": "svg"
+ },
+ "eigo:mail": {
+  "file": "juken-eigo-mail.svg",
+  "kind": "svg"
+ },
+ "eigo:sow": {
+  "file": "juken-eigo-sow.svg",
+  "kind": "svg"
+ },
+ "eigo:sew": {
+  "file": "juken-eigo-sew.svg",
+  "kind": "svg"
+ },
+ "eigo:bare": {
+  "file": "juken-eigo-bare.svg",
+  "kind": "svg"
+ },
+ "eigo:practice": {
+  "file": "juken-eigo-practice.svg",
+  "kind": "svg"
+ },
+ "eigo:promise": {
+  "file": "juken-eigo-promise.svg",
+  "kind": "svg"
+ },
+ "eigo:rush": {
+  "file": "juken-eigo-rush.svg",
+  "kind": "svg"
+ },
+ "eigo:propose": {
+  "file": "juken-eigo-propose.svg",
+  "kind": "svg"
+ },
+ "eigo:support": {
+  "file": "juken-eigo-support.svg",
+  "kind": "svg"
+ },
+ "eigo:assist": {
+  "file": "juken-eigo-assist.svg",
+  "kind": "svg"
+ },
+ "eigo:assistant": {
+  "file": "juken-eigo-assistant.svg",
+  "kind": "svg"
+ },
+ "eigo:memorize": {
+  "file": "juken-eigo-memorize.svg",
+  "kind": "svg"
+ },
+ "eigo:agree": {
+  "file": "juken-eigo-agree.svg",
+  "kind": "svg"
+ },
+ "eigo:beat": {
+  "file": "juken-eigo-beat.svg",
+  "kind": "svg"
+ },
+ "eigo:defeat": {
+  "file": "juken-eigo-defeat.svg",
+  "kind": "svg"
+ },
+ "eigo:explain": {
+  "file": "juken-eigo-explain.svg",
+  "kind": "svg"
+ },
+ "eigo:appear": {
+  "file": "juken-eigo-appear.svg",
+  "kind": "svg"
+ },
+ "eigo:miss": {
+  "file": "juken-eigo-miss.svg",
+  "kind": "svg"
+ },
+ "eigo:attend": {
+  "file": "juken-eigo-attend.svg",
+  "kind": "svg"
+ },
+ "eigo:experiment": {
+  "file": "juken-eigo-experiment.svg",
+  "kind": "svg"
+ },
+ "eigo:equipment": {
+  "file": "juken-eigo-equipment.svg",
+  "kind": "svg"
+ },
+ "eigo:metal": {
+  "file": "juken-eigo-metal.svg",
+  "kind": "svg"
+ },
+ "eigo:examine": {
+  "file": "juken-eigo-examine.svg",
+  "kind": "svg"
+ },
+ "eigo:analyze": {
+  "file": "juken-eigo-analyze.svg",
+  "kind": "svg"
+ },
+ "eigo:sort": {
+  "file": "juken-eigo-sort.svg",
+  "kind": "svg"
+ },
+ "eigo:measurement": {
+  "file": "juken-eigo-measurement.svg",
+  "kind": "svg"
+ },
+ "eigo:weight": {
+  "file": "juken-eigo-weight.svg",
+  "kind": "svg"
+ },
+ "eigo:web": {
+  "file": "juken-eigo-web.svg",
+  "kind": "svg"
+ },
+ "eigo:website": {
+  "file": "juken-eigo-website.svg",
+  "kind": "svg"
+ },
+ "eigo:attach": {
+  "file": "juken-eigo-attach.svg",
+  "kind": "svg"
+ },
+ "eigo:document": {
+  "file": "juken-eigo-document.svg",
+  "kind": "svg"
+ },
+ "eigo:abroad": {
+  "file": "juken-eigo-abroad.svg",
+  "kind": "svg"
+ },
+ "eigo:broadcast": {
+  "file": "juken-eigo-broadcast.svg",
+  "kind": "svg"
+ },
+ "eigo:progress": {
+  "file": "juken-eigo-progress.svg",
+  "kind": "svg"
+ },
+ "eigo:lie": {
+  "file": "juken-eigo-lie.svg",
+  "kind": "svg"
+ },
+ "eigo:lay": {
+  "file": "juken-eigo-lay.svg",
+  "kind": "svg"
+ },
+ "eigo:contain": {
+  "file": "juken-eigo-contain.svg",
+  "kind": "svg"
+ },
+ "eigo:container": {
+  "file": "juken-eigo-container.svg",
+  "kind": "svg"
+ },
+ "eigo:forward": {
+  "file": "juken-eigo-forward.svg",
+  "kind": "svg"
+ },
+ "eigo:backward": {
+  "file": "juken-eigo-backward.svg",
+  "kind": "svg"
+ },
+ "eigo:tire": {
+  "file": "juken-eigo-tire.svg",
+  "kind": "svg"
+ },
+ "eigo:steer": {
+  "file": "juken-eigo-steer.svg",
+  "kind": "svg"
+ },
+ "eigo:lane": {
+  "file": "juken-eigo-lane.svg",
+  "kind": "svg"
+ },
+ "eigo:vehicle": {
+  "file": "juken-eigo-vehicle.svg",
+  "kind": "svg"
+ },
+ "eigo:delay": {
+  "file": "juken-eigo-delay.svg",
+  "kind": "svg"
+ },
+ "eigo:depart": {
+  "file": "juken-eigo-depart.svg",
+  "kind": "svg"
+ },
+ "eigo:board": {
+  "file": "juken-eigo-board.svg",
+  "kind": "svg"
+ },
+ "eigo:crew": {
+  "file": "juken-eigo-crew.svg",
+  "kind": "svg"
+ },
+ "eigo:passenger": {
+  "file": "juken-eigo-passenger.svg",
+  "kind": "svg"
+ },
+ "eigo:traffic": {
+  "file": "juken-eigo-traffic.svg",
+  "kind": "svg"
+ },
+ "eigo:jam": {
+  "file": "juken-eigo-jam.svg",
+  "kind": "svg"
+ },
+ "eigo:reservation": {
+  "file": "juken-eigo-reservation.svg",
+  "kind": "svg"
+ },
+ "eigo:safety": {
+  "file": "juken-eigo-safety.svg",
+  "kind": "svg"
+ },
+ "eigo:reply": {
+  "file": "juken-eigo-reply.svg",
+  "kind": "svg"
+ },
+ "eigo:separate": {
+  "file": "juken-eigo-separate.svg",
+  "kind": "svg"
+ },
+ "eigo:surface": {
+  "file": "juken-eigo-surface.svg",
+  "kind": "svg"
+ },
+ "eigo:edge": {
+  "file": "juken-eigo-edge.svg",
+  "kind": "svg"
+ },
+ "eigo:corner": {
+  "file": "juken-eigo-corner.svg",
+  "kind": "svg"
+ },
+ "eigo:tip": {
+  "file": "juken-eigo-tip.svg",
+  "kind": "svg"
+ },
+ "eigo:top": {
+  "file": "juken-eigo-top.svg",
+  "kind": "svg"
+ },
+ "eigo:bottom": {
+  "file": "juken-eigo-bottom.svg",
+  "kind": "svg"
+ },
+ "eigo:sorrow": {
+  "file": "juken-eigo-sorrow.svg",
+  "kind": "svg"
+ },
+ "eigo:talent": {
+  "file": "juken-eigo-talent.svg",
+  "kind": "svg"
+ },
+ "eigo:freeze": {
+  "file": "juken-eigo-freeze.svg",
+  "kind": "svg"
+ },
+ "eigo:freezer": {
+  "file": "juken-eigo-freezer.svg",
+  "kind": "svg"
+ },
+ "eigo:seek": {
+  "file": "juken-eigo-seek.svg",
+  "kind": "svg"
+ },
+ "eigo:series": {
+  "file": "juken-eigo-series.svg",
+  "kind": "svg"
+ },
+ "eigo:range": {
+  "file": "juken-eigo-range.svg",
+  "kind": "svg"
+ },
+ "eigo:couple": {
+  "file": "juken-eigo-couple.svg",
+  "kind": "svg"
+ },
+ "eigo:reverse": {
+  "file": "juken-eigo-reverse.svg",
+  "kind": "svg"
+ },
+ "eigo:pressure": {
+  "file": "juken-eigo-pressure.svg",
+  "kind": "svg"
+ },
+ "eigo:polish": {
+  "file": "juken-eigo-polish.svg",
+  "kind": "svg"
+ },
+ "eigo:scratch": {
+  "file": "juken-eigo-scratch.svg",
+  "kind": "svg"
+ },
+ "eigo:growth": {
+  "file": "juken-eigo-growth.svg",
+  "kind": "svg"
+ },
+ "eigo:strength": {
+  "file": "juken-eigo-strength.svg",
+  "kind": "svg"
+ },
+ "eigo:flow": {
+  "file": "juken-eigo-flow.svg",
+  "kind": "svg"
+ },
+ "eigo:spill": {
+  "file": "juken-eigo-spill.svg",
+  "kind": "svg"
+ },
+ "eigo:overcome": {
+  "file": "juken-eigo-overcome.svg",
+  "kind": "svg"
+ },
+ "eigo:overtake": {
+  "file": "juken-eigo-overtake.svg",
+  "kind": "svg"
+ },
+ "eigo:beside": {
+  "file": "juken-eigo-beside.svg",
+  "kind": "svg"
+ },
+ "eigo:lecture": {
+  "file": "juken-eigo-lecture.svg",
+  "kind": "svg"
+ },
+ "eigo:professor": {
+  "file": "juken-eigo-professor.svg",
+  "kind": "svg"
+ },
+ "eigo:senior": {
+  "file": "juken-eigo-senior.svg",
+  "kind": "svg"
+ },
+ "eigo:youth": {
+  "file": "juken-eigo-youth.svg",
+  "kind": "svg"
+ },
+ "eigo:score": {
+  "file": "juken-eigo-score.svg",
+  "kind": "svg"
+ },
+ "eigo:kindergarten": {
+  "file": "juken-eigo-kindergarten.svg",
+  "kind": "svg"
+ },
+ "eigo:pupil": {
+  "file": "juken-eigo-pupil.svg",
+  "kind": "svg"
+ },
+ "eigo:review": {
+  "file": "juken-eigo-review.svg",
+  "kind": "svg"
+ },
+ "eigo:regret": {
+  "file": "juken-eigo-regret.svg",
+  "kind": "svg"
+ },
+ "eigo:remove": {
+  "file": "juken-eigo-remove.svg",
+  "kind": "svg"
+ },
+ "eigo:recover": {
+  "file": "juken-eigo-recover.svg",
+  "kind": "svg"
+ },
+ "eigo:essay": {
+  "file": "juken-eigo-essay.svg",
+  "kind": "svg"
+ },
+ "eigo:follow": {
+  "file": "juken-eigo-follow.svg",
+  "kind": "svg"
+ },
+ "eigo:instruction": {
+  "file": "juken-eigo-instruction.svg",
+  "kind": "svg"
+ },
+ "eigo:instructor": {
+  "file": "juken-eigo-instructor.svg",
+  "kind": "svg"
+ },
+ "eigo:paragraph": {
+  "file": "juken-eigo-paragraph.svg",
+  "kind": "svg"
+ },
+ "eigo:language": {
+  "file": "juken-eigo-language.svg",
+  "kind": "svg"
+ },
+ "eigo:capital": {
+  "file": "juken-eigo-capital.svg",
+  "kind": "svg"
+ },
+ "eigo:pronounce": {
+  "file": "juken-eigo-pronounce.svg",
+  "kind": "svg"
+ },
+ "eigo:doubt": {
+  "file": "juken-eigo-doubt.svg",
+  "kind": "svg"
+ },
+ "eigo:interpreter": {
+  "file": "juken-eigo-interpreter.svg",
+  "kind": "svg"
+ },
+ "eigo:recognize": {
+  "file": "juken-eigo-recognize.svg",
+  "kind": "svg"
+ },
+ "eigo:argue": {
+  "file": "juken-eigo-argue.svg",
+  "kind": "svg"
+ },
+ "eigo:complain": {
+  "file": "juken-eigo-complain.svg",
+  "kind": "svg"
+ },
+ "eigo:deny": {
+  "file": "juken-eigo-deny.svg",
+  "kind": "svg"
+ },
+ "eigo:postpone": {
+  "file": "juken-eigo-postpone.svg",
+  "kind": "svg"
+ },
+ "eigo:respect": {
+  "file": "juken-eigo-respect.svg",
+  "kind": "svg"
+ },
+ "eigo:praise": {
+  "file": "juken-eigo-praise.svg",
+  "kind": "svg"
+ },
+ "eigo:apologize": {
+  "file": "juken-eigo-apologize.svg",
+  "kind": "svg"
+ },
+ "eigo:cheat": {
+  "file": "juken-eigo-cheat.svg",
+  "kind": "svg"
+ },
+ "eigo:trick": {
+  "file": "juken-eigo-trick.svg",
+  "kind": "svg"
+ },
+ "eigo:guess": {
+  "file": "juken-eigo-guess.svg",
+  "kind": "svg"
+ },
+ "eigo:imagine": {
+  "file": "juken-eigo-imagine.svg",
+  "kind": "svg"
+ },
+ "eigo:predict": {
+  "file": "juken-eigo-predict.svg",
+  "kind": "svg"
+ },
+ "eigo:refuse": {
+  "file": "juken-eigo-refuse.svg",
+  "kind": "svg"
+ },
+ "eigo:resist": {
+  "file": "juken-eigo-resist.svg",
+  "kind": "svg"
+ },
+ "eigo:protest": {
+  "file": "juken-eigo-protest.svg",
+  "kind": "svg"
+ },
+ "eigo:amused": {
+  "file": "juken-eigo-amused.svg",
+  "kind": "svg"
+ },
+ "eigo:thrilled": {
+  "file": "juken-eigo-thrilled.svg",
+  "kind": "svg"
+ },
+ "eigo:delighted": {
+  "file": "juken-eigo-delighted.svg",
+  "kind": "svg"
+ },
+ "eigo:ashamed": {
+  "file": "juken-eigo-ashamed.svg",
+  "kind": "svg"
+ },
+ "eigo:mood": {
+  "file": "juken-eigo-mood.svg",
+  "kind": "svg"
+ },
+ "eigo:amazed": {
+  "file": "juken-eigo-amazed.svg",
+  "kind": "svg"
+ },
+ "eigo:astonished": {
+  "file": "juken-eigo-astonished.svg",
+  "kind": "svg"
+ },
+ "eigo:annoyed": {
+  "file": "juken-eigo-annoyed.svg",
+  "kind": "svg"
+ },
+ "eigo:frustrated": {
+  "file": "juken-eigo-frustrated.svg",
+  "kind": "svg"
+ },
+ "eigo:disturb": {
+  "file": "juken-eigo-disturb.svg",
+  "kind": "svg"
+ },
+ "eigo:interrupt": {
+  "file": "juken-eigo-interrupt.svg",
+  "kind": "svg"
+ },
+ "eigo:ignore": {
+  "file": "juken-eigo-ignore.svg",
+  "kind": "svg"
+ },
+ "eigo:fear": {
+  "file": "juken-eigo-fear.svg",
+  "kind": "svg"
+ },
+ "eigo:horror": {
+  "file": "juken-eigo-horror.svg",
+  "kind": "svg"
+ },
+ "eigo:chemist": {
+  "file": "juken-eigo-chemist.svg",
+  "kind": "svg"
+ },
+ "eigo:chemistry": {
+  "file": "juken-eigo-chemistry.svg",
+  "kind": "svg"
+ },
+ "eigo:astronomer": {
+  "file": "juken-eigo-astronomer.svg",
+  "kind": "svg"
+ },
+ "eigo:astronomy": {
+  "file": "juken-eigo-astronomy.svg",
+  "kind": "svg"
+ },
+ "eigo:philosophy": {
+  "file": "juken-eigo-philosophy.svg",
+  "kind": "svg"
+ },
+ "eigo:geography": {
+  "file": "juken-eigo-geography.svg",
+  "kind": "svg"
+ },
+ "eigo:biology": {
+  "file": "juken-eigo-biology.svg",
+  "kind": "svg"
+ },
+ "eigo:physics": {
+  "file": "juken-eigo-physics.svg",
+  "kind": "svg"
+ },
+ "eigo:literature": {
+  "file": "juken-eigo-literature.svg",
+  "kind": "svg"
+ },
+ "eigo:architect": {
+  "file": "juken-eigo-architect.svg",
+  "kind": "svg"
+ },
+ "eigo:architecture": {
+  "file": "juken-eigo-architecture.svg",
+  "kind": "svg"
+ },
+ "eigo:achieve": {
+  "file": "juken-eigo-achieve.svg",
+  "kind": "svg"
+ },
+ "eigo:improve": {
+  "file": "juken-eigo-improve.svg",
+  "kind": "svg"
+ },
+ "eigo:submit": {
+  "file": "juken-eigo-submit.svg",
+  "kind": "svg"
+ },
+ "eigo:debate": {
+  "file": "juken-eigo-debate.svg",
+  "kind": "svg"
+ },
+ "eigo:conductor": {
+  "file": "juken-eigo-conductor.svg",
+  "kind": "svg"
+ },
+ "eigo:conference": {
+  "file": "juken-eigo-conference.svg",
+  "kind": "svg"
+ },
+ "eigo:research": {
+  "file": "juken-eigo-research.svg",
+  "kind": "svg"
+ },
+ "eigo:lab": {
+  "file": "juken-eigo-lab.svg",
+  "kind": "svg"
+ },
+ "eigo:statistics": {
+  "file": "juken-eigo-statistics.svg",
+  "kind": "svg"
+ },
+ "eigo:percentage": {
+  "file": "juken-eigo-percentage.svg",
+  "kind": "svg"
+ },
+ "eigo:chart": {
+  "file": "juken-eigo-chart.svg",
+  "kind": "svg"
+ },
+ "eigo:calculate": {
+  "file": "juken-eigo-calculate.svg",
+  "kind": "svg"
+ },
+ "eigo:divide": {
+  "file": "juken-eigo-divide.svg",
+  "kind": "svg"
+ },
+ "eigo:itchy": {
+  "file": "juken-eigo-itchy.svg",
+  "kind": "svg"
+ },
+ "eigo:sore": {
+  "file": "juken-eigo-sore.svg",
+  "kind": "svg"
+ },
+ "eigo:throat": {
+  "file": "juken-eigo-throat.svg",
+  "kind": "svg"
+ },
+ "eigo:pain": {
+  "file": "juken-eigo-pain.svg",
+  "kind": "svg"
+ },
+ "eigo:painful": {
+  "file": "juken-eigo-painful.svg",
+  "kind": "svg"
+ },
+ "eigo:disease": {
+  "file": "juken-eigo-disease.svg",
+  "kind": "svg"
+ },
+ "eigo:alike": {
+  "file": "juken-eigo-alike.svg",
+  "kind": "svg"
+ },
+ "eigo:similar": {
+  "file": "juken-eigo-similar.svg",
+  "kind": "svg"
+ },
+ "eigo:impact": {
+  "file": "juken-eigo-impact.svg",
+  "kind": "svg"
+ },
+ "eigo:injure": {
+  "file": "juken-eigo-injure.svg",
+  "kind": "svg"
+ },
+ "eigo:symptom": {
+  "file": "juken-eigo-symptom.svg",
+  "kind": "svg"
+ },
+ "eigo:drug": {
+  "file": "juken-eigo-drug.svg",
+  "kind": "svg"
+ },
+ "eigo:operation": {
+  "file": "juken-eigo-operation.svg",
+  "kind": "svg"
+ },
+ "eigo:muscular": {
+  "file": "juken-eigo-muscular.svg",
+  "kind": "svg"
+ },
+ "eigo:feet": {
+  "file": "juken-eigo-feet.svg",
+  "kind": "svg"
+ },
+ "eigo:teeth": {
+  "file": "juken-eigo-teeth.svg",
+  "kind": "svg"
+ },
+ "eigo:identify": {
+  "file": "juken-eigo-identify.svg",
+  "kind": "svg"
+ },
+ "eigo:stable": {
+  "file": "juken-eigo-stable.svg",
+  "kind": "svg"
+ },
+ "eigo:breath": {
+  "file": "juken-eigo-breath.svg",
+  "kind": "svg"
+ },
+ "eigo:breathe": {
+  "file": "juken-eigo-breathe.svg",
+  "kind": "svg"
+ },
+ "eigo:yawn": {
+  "file": "juken-eigo-yawn.svg",
+  "kind": "svg"
+ },
+ "eigo:sauce": {
+  "file": "juken-eigo-sauce.svg",
+  "kind": "svg"
+ },
+ "eigo:protein": {
+  "file": "juken-eigo-protein.svg",
+  "kind": "svg"
+ },
+ "eigo:flu": {
+  "file": "juken-eigo-flu.svg",
+  "kind": "svg"
+ },
+ "eigo:spread": {
+  "file": "juken-eigo-spread.svg",
+  "kind": "svg"
+ },
+ "eigo:medical": {
+  "file": "juken-eigo-medical.svg",
+  "kind": "svg"
+ },
+ "eigo:insurance": {
+  "file": "juken-eigo-insurance.svg",
+  "kind": "svg"
+ },
+ "eigo:donation": {
+  "file": "juken-eigo-donation.svg",
+  "kind": "svg"
+ },
+ "eigo:bleed": {
+  "file": "juken-eigo-bleed.svg",
+  "kind": "svg"
+ },
+ "eigo:wound": {
+  "file": "juken-eigo-wound.svg",
+  "kind": "svg"
+ },
+ "eigo:heal": {
+  "file": "juken-eigo-heal.svg",
+  "kind": "svg"
+ },
+ "eigo:complicated": {
+  "file": "juken-eigo-complicated.svg",
+  "kind": "svg"
+ },
+ "eigo:shape": {
+  "file": "juken-eigo-shape.svg",
+  "kind": "svg"
+ },
+ "eigo:strike": {
+  "file": "juken-eigo-strike.svg",
+  "kind": "svg"
+ },
+ "eigo:stick": {
+  "file": "juken-eigo-stick.svg",
+  "kind": "svg"
+ },
+ "eigo:graduation": {
+  "file": "juken-eigo-graduation.svg",
+  "kind": "svg"
+ },
+ "eigo:wear": {
+  "file": "juken-eigo-wear.svg",
+  "kind": "svg"
+ },
+ "eigo:cheer": {
+  "file": "juken-eigo-cheer.svg",
+  "kind": "svg"
+ },
+ "eigo:cooperate": {
+  "file": "juken-eigo-cooperate.svg",
+  "kind": "svg"
+ },
+ "eigo:capture": {
+  "file": "juken-eigo-capture.svg",
+  "kind": "svg"
+ },
+ "eigo:release": {
+  "file": "juken-eigo-release.svg",
+  "kind": "svg"
+ },
+ "eigo:increase": {
+  "file": "juken-eigo-increase.svg",
+  "kind": "svg"
+ },
+ "eigo:decrease": {
+  "file": "juken-eigo-decrease.svg",
+  "kind": "svg"
+ },
+ "eigo:concentrate": {
+  "file": "juken-eigo-concentrate.svg",
+  "kind": "svg"
+ },
+ "eigo:distract": {
+  "file": "juken-eigo-distract.svg",
+  "kind": "svg"
+ },
+ "eigo:company": {
+  "file": "juken-eigo-company.svg",
+  "kind": "svg"
+ },
+ "eigo:encourage": {
+  "file": "juken-eigo-encourage.svg",
+  "kind": "svg"
+ },
+ "eigo:frighten": {
+  "file": "juken-eigo-frighten.svg",
+  "kind": "svg"
+ },
+ "eigo:escape": {
+  "file": "juken-eigo-escape.svg",
+  "kind": "svg"
+ },
+ "eigo:search": {
+  "file": "juken-eigo-search.svg",
+  "kind": "svg"
+ },
+ "eigo:reflection": {
+  "file": "juken-eigo-reflection.svg",
+  "kind": "svg"
+ },
+ "eigo:preserve": {
+  "file": "juken-eigo-preserve.svg",
+  "kind": "svg"
+ },
+ "eigo:conserve": {
+  "file": "juken-eigo-conserve.svg",
+  "kind": "svg"
+ },
+ "eigo:observe": {
+  "file": "juken-eigo-observe.svg",
+  "kind": "svg"
+ },
+ "eigo:direction": {
+  "file": "juken-eigo-direction.svg",
+  "kind": "svg"
+ },
+ "eigo:attract": {
+  "file": "juken-eigo-attract.svg",
+  "kind": "svg"
+ },
+ "eigo:yell": {
+  "file": "juken-eigo-yell.svg",
+  "kind": "svg"
+ },
+ "eigo:scream": {
+  "file": "juken-eigo-scream.svg",
+  "kind": "svg"
+ },
+ "eigo:solve": {
+  "file": "juken-eigo-solve.svg",
+  "kind": "svg"
+ },
+ "eigo:expand": {
+  "file": "juken-eigo-expand.svg",
+  "kind": "svg"
+ },
+ "eigo:destroy": {
+  "file": "juken-eigo-destroy.svg",
+  "kind": "svg"
+ },
+ "eigo:encounter": {
+  "file": "juken-eigo-encounter.svg",
+  "kind": "svg"
+ },
+ "eigo:offer": {
+  "file": "juken-eigo-offer.svg",
+  "kind": "svg"
+ },
+ "eigo:spare": {
+  "file": "juken-eigo-spare.svg",
+  "kind": "svg"
+ },
+ "eigo:shrine": {
+  "file": "juken-eigo-shrine.svg",
+  "kind": "svg"
+ },
+ "eigo:freedom": {
+  "file": "juken-eigo-freedom.svg",
+  "kind": "svg"
+ },
+ "eigo:remote": {
+  "file": "juken-eigo-remote.svg",
+  "kind": "svg"
+ },
+ "eigo:ancestor": {
+  "file": "juken-eigo-ancestor.svg",
+  "kind": "svg"
+ },
+ "eigo:ancient": {
+  "file": "juken-eigo-ancient.svg",
+  "kind": "svg"
+ },
+ "eigo:modern": {
+  "file": "juken-eigo-modern.svg",
+  "kind": "svg"
+ },
+ "eigo:prehistoric": {
+  "file": "juken-eigo-prehistoric.svg",
+  "kind": "svg"
+ },
+ "eigo:tradition": {
+  "file": "juken-eigo-tradition.svg",
+  "kind": "svg"
+ },
+ "eigo:heritage": {
+  "file": "juken-eigo-heritage.svg",
+  "kind": "svg"
+ },
+ "eigo:audience": {
+  "file": "juken-eigo-audience.svg",
+  "kind": "svg"
+ },
+ "eigo:spectator": {
+  "file": "juken-eigo-spectator.svg",
+  "kind": "svg"
+ },
+ "eigo:trust": {
+  "file": "juken-eigo-trust.svg",
+  "kind": "svg"
+ },
+ "eigo:discover": {
+  "file": "juken-eigo-discover.svg",
+  "kind": "svg"
+ },
+ "eigo:translate": {
+  "file": "juken-eigo-translate.svg",
+  "kind": "svg"
+ },
+ "eigo:novel": {
+  "file": "juken-eigo-novel.svg",
+  "kind": "svg"
+ },
+ "eigo:tale": {
+  "file": "juken-eigo-tale.svg",
+  "kind": "svg"
+ },
+ "eigo:musical": {
+  "file": "juken-eigo-musical.svg",
+  "kind": "svg"
+ },
+ "eigo:instrument": {
+  "file": "juken-eigo-instrument.svg",
+  "kind": "svg"
+ },
+ "eigo:author": {
+  "file": "juken-eigo-author.svg",
+  "kind": "svg"
+ },
+ "eigo:publish": {
+  "file": "juken-eigo-publish.svg",
+  "kind": "svg"
+ },
+ "eigo:article": {
+  "file": "juken-eigo-article.svg",
+  "kind": "svg"
+ },
+ "eigo:invent": {
+  "file": "juken-eigo-invent.svg",
+  "kind": "svg"
+ },
+ "eigo:complete": {
+  "file": "juken-eigo-complete.svg",
+  "kind": "svg"
+ },
+ "eigo:drawing": {
+  "file": "juken-eigo-drawing.svg",
+  "kind": "svg"
+ },
+ "eigo:painting": {
+  "file": "juken-eigo-painting.svg",
+  "kind": "svg"
+ },
+ "eigo:exhibition": {
+  "file": "juken-eigo-exhibition.svg",
+  "kind": "svg"
+ },
+ "eigo:gallery": {
+  "file": "juken-eigo-gallery.svg",
+  "kind": "svg"
+ },
+ "eigo:scenery": {
+  "file": "juken-eigo-scenery.svg",
+  "kind": "svg"
+ },
+ "eigo:machine": {
+  "file": "juken-eigo-machine.svg",
+  "kind": "svg"
+ },
+ "eigo:machinery": {
+  "file": "juken-eigo-machinery.svg",
+  "kind": "svg"
+ },
+ "eigo:stationery": {
+  "file": "juken-eigo-stationery.svg",
+  "kind": "svg"
+ },
+ "eigo:community": {
+  "file": "juken-eigo-community.svg",
+  "kind": "svg"
+ },
+ "eigo:security": {
+  "file": "juken-eigo-security.svg",
+  "kind": "svg"
+ },
+ "eigo:shortage": {
+  "file": "juken-eigo-shortage.svg",
+  "kind": "svg"
+ },
+ "eigo:volunteer": {
+  "file": "juken-eigo-volunteer.svg",
+  "kind": "svg"
+ },
+ "eigo:generation": {
+  "file": "juken-eigo-generation.svg",
+  "kind": "svg"
+ },
+ "eigo:gap": {
+  "file": "juken-eigo-gap.svg",
+  "kind": "svg"
+ },
+ "eigo:mayor": {
+  "file": "juken-eigo-mayor.svg",
+  "kind": "svg"
+ },
+ "eigo:vote": {
+  "file": "juken-eigo-vote.svg",
+  "kind": "svg"
+ },
+ "eigo:arrest": {
+  "file": "juken-eigo-arrest.svg",
+  "kind": "svg"
+ },
+ "eigo:criminal": {
+  "file": "juken-eigo-criminal.svg",
+  "kind": "svg"
+ },
+ "eigo:investigate": {
+  "file": "juken-eigo-investigate.svg",
+  "kind": "svg"
+ },
+ "eigo:collect": {
+  "file": "juken-eigo-collect.svg",
+  "kind": "svg"
+ },
+ "eigo:evidence": {
+  "file": "juken-eigo-evidence.svg",
+  "kind": "svg"
+ },
+ "eigo:steal": {
+  "file": "juken-eigo-steal.svg",
+  "kind": "svg"
+ },
+ "eigo:steel": {
+  "file": "juken-eigo-steel.svg",
+  "kind": "svg"
+ },
+ "eigo:thieves": {
+  "file": "juken-eigo-thieves.svg",
+  "kind": "svg"
+ },
+ "eigo:robbery": {
+  "file": "juken-eigo-robbery.svg",
+  "kind": "svg"
+ },
+ "eigo:court": {
+  "file": "juken-eigo-court.svg",
+  "kind": "svg"
+ },
+ "eigo:witness": {
+  "file": "juken-eigo-witness.svg",
+  "kind": "svg"
+ },
+ "eigo:clue": {
+  "file": "juken-eigo-clue.svg",
+  "kind": "svg"
+ },
+ "eigo:trial": {
+  "file": "juken-eigo-trial.svg",
+  "kind": "svg"
+ },
+ "eigo:jail": {
+  "file": "juken-eigo-jail.svg",
+  "kind": "svg"
+ },
+ "eigo:prisoner": {
+  "file": "juken-eigo-prisoner.svg",
+  "kind": "svg"
+ },
+ "eigo:government": {
+  "file": "juken-eigo-government.svg",
+  "kind": "svg"
+ },
+ "eigo:candidate": {
+  "file": "juken-eigo-candidate.svg",
+  "kind": "svg"
+ },
+ "eigo:election": {
+  "file": "juken-eigo-election.svg",
+  "kind": "svg"
+ },
+ "eigo:bomb": {
+  "file": "juken-eigo-bomb.svg",
+  "kind": "svg"
+ },
+ "eigo:explosion": {
+  "file": "juken-eigo-explosion.svg",
+  "kind": "svg"
+ },
+ "eigo:military": {
+  "file": "juken-eigo-military.svg",
+  "kind": "svg"
+ },
+ "eigo:weapon": {
+  "file": "juken-eigo-weapon.svg",
+  "kind": "svg"
+ },
+ "eigo:border": {
+  "file": "juken-eigo-border.svg",
+  "kind": "svg"
+ },
+ "eigo:battle": {
+  "file": "juken-eigo-battle.svg",
+  "kind": "svg"
+ },
+ "eigo:fight": {
+  "file": "juken-eigo-fight.svg",
+  "kind": "svg"
+ },
+ "eigo:global": {
+  "file": "juken-eigo-global.svg",
+  "kind": "svg"
+ },
+ "eigo:globe": {
+  "file": "juken-eigo-globe.svg",
+  "kind": "svg"
+ },
+ "eigo:scale": {
+  "file": "juken-eigo-scale.svg",
+  "kind": "svg"
+ },
+ "eigo:trade": {
+  "file": "juken-eigo-trade.svg",
+  "kind": "svg"
+ },
+ "eigo:vacant": {
+  "file": "juken-eigo-vacant.svg",
+  "kind": "svg"
+ },
+ "eigo:career": {
+  "file": "juken-eigo-career.svg",
+  "kind": "svg"
+ },
+ "eigo:chore": {
+  "file": "juken-eigo-chore.svg",
+  "kind": "svg"
+ },
+ "eigo:routine": {
+  "file": "juken-eigo-routine.svg",
+  "kind": "svg"
+ },
+ "eigo:commute": {
+  "file": "juken-eigo-commute.svg",
+  "kind": "svg"
+ },
+ "eigo:rest": {
+  "file": "juken-eigo-rest.svg",
+  "kind": "svg"
+ },
+ "eigo:leisure": {
+  "file": "juken-eigo-leisure.svg",
+  "kind": "svg"
+ },
+ "eigo:customer": {
+  "file": "juken-eigo-customer.svg",
+  "kind": "svg"
+ },
+ "eigo:clerk": {
+  "file": "juken-eigo-clerk.svg",
+  "kind": "svg"
+ },
+ "eigo:product": {
+  "file": "juken-eigo-product.svg",
+  "kind": "svg"
+ },
+ "eigo:hire": {
+  "file": "juken-eigo-hire.svg",
+  "kind": "svg"
+ },
+ "eigo:retire": {
+  "file": "juken-eigo-retire.svg",
+  "kind": "svg"
+ },
+ "eigo:goods": {
+  "file": "juken-eigo-goods.svg",
+  "kind": "svg"
+ },
+ "eigo:valuables": {
+  "file": "juken-eigo-valuables.svg",
+  "kind": "svg"
+ },
+ "eigo:barley": {
+  "file": "juken-eigo-barley.svg",
+  "kind": "svg"
+ },
+ "eigo:organic": {
+  "file": "juken-eigo-organic.svg",
+  "kind": "svg"
+ },
+ "eigo:farming": {
+  "file": "juken-eigo-farming.svg",
+  "kind": "svg"
+ },
+ "eigo:agriculture": {
+  "file": "juken-eigo-agriculture.svg",
+  "kind": "svg"
+ },
+ "eigo:crop": {
+  "file": "juken-eigo-crop.svg",
+  "kind": "svg"
+ },
+ "eigo:industry": {
+  "file": "juken-eigo-industry.svg",
+  "kind": "svg"
+ },
+ "eigo:advertise": {
+  "file": "juken-eigo-advertise.svg",
+  "kind": "svg"
+ },
+ "eigo:delivery": {
+  "file": "juken-eigo-delivery.svg",
+  "kind": "svg"
+ },
+ "eigo:purchase": {
+  "file": "juken-eigo-purchase.svg",
+  "kind": "svg"
+ },
+ "eigo:produce": {
+  "file": "juken-eigo-produce.svg",
+  "kind": "svg"
+ },
+ "eigo:export": {
+  "file": "juken-eigo-export.svg",
+  "kind": "svg"
+ },
+ "eigo:explore": {
+  "file": "juken-eigo-explore.svg",
+  "kind": "svg"
+ },
+ "eigo:welcome": {
+  "file": "juken-eigo-welcome.svg",
+  "kind": "svg"
+ },
+ "eigo:grind": {
+  "file": "juken-eigo-grind.svg",
+  "kind": "svg"
+ },
+ "eigo:grate": {
+  "file": "juken-eigo-grate.svg",
+  "kind": "svg"
+ },
+ "eigo:dip": {
+  "file": "juken-eigo-dip.svg",
+  "kind": "svg"
+ },
+ "eigo:dilute": {
+  "file": "juken-eigo-dilute.svg",
+  "kind": "svg"
+ },
+ "eigo:blend": {
+  "file": "juken-eigo-blend.svg",
+  "kind": "svg"
+ },
+ "eigo:stir": {
+  "file": "juken-eigo-stir.svg",
+  "kind": "svg"
+ },
+ "eigo:flour": {
+  "file": "juken-eigo-flour.svg",
+  "kind": "svg"
+ },
+ "eigo:rotten": {
+  "file": "juken-eigo-rotten.svg",
+  "kind": "svg"
+ },
+ "eigo:scent": {
+  "file": "juken-eigo-scent.svg",
+  "kind": "svg"
+ },
+ "eigo:odor": {
+  "file": "juken-eigo-odor.svg",
+  "kind": "svg"
+ },
+ "eigo:perfume": {
+  "file": "juken-eigo-perfume.svg",
+  "kind": "svg"
+ },
+ "eigo:stare": {
+  "file": "juken-eigo-stare.svg",
+  "kind": "svg"
+ },
+ "eigo:lean": {
+  "file": "juken-eigo-lean.svg",
+  "kind": "svg"
+ },
+ "eigo:construction": {
+  "file": "juken-eigo-construction.svg",
+  "kind": "svg"
+ },
+ "eigo:mansion": {
+  "file": "juken-eigo-mansion.svg",
+  "kind": "svg"
+ },
+ "eigo:withdraw": {
+  "file": "juken-eigo-withdraw.svg",
+  "kind": "svg"
+ },
+ "eigo:budget": {
+  "file": "juken-eigo-budget.svg",
+  "kind": "svg"
+ },
+ "eigo:thread": {
+  "file": "juken-eigo-thread.svg",
+  "kind": "svg"
+ },
+ "eigo:knit": {
+  "file": "juken-eigo-knit.svg",
+  "kind": "svg"
+ },
+ "eigo:weave": {
+  "file": "juken-eigo-weave.svg",
+  "kind": "svg"
+ },
+ "eigo:wool": {
+  "file": "juken-eigo-wool.svg",
+  "kind": "svg"
+ },
+ "eigo:greeting": {
+  "file": "juken-eigo-greeting.svg",
+  "kind": "svg"
+ },
+ "eigo:bedding": {
+  "file": "juken-eigo-bedding.svg",
+  "kind": "svg"
+ },
+ "eigo:dormitory": {
+  "file": "juken-eigo-dormitory.svg",
+  "kind": "svg"
+ },
+ "eigo:accommodation": {
+  "file": "juken-eigo-accommodation.svg",
+  "kind": "svg"
+ },
+ "eigo:spacious": {
+  "file": "juken-eigo-spacious.svg",
+  "kind": "svg"
+ },
+ "eigo:cozy": {
+  "file": "juken-eigo-cozy.svg",
+  "kind": "svg"
+ },
+ "eigo:mess": {
+  "file": "juken-eigo-mess.svg",
+  "kind": "svg"
+ },
+ "eigo:urban": {
+  "file": "juken-eigo-urban.svg",
+  "kind": "svg"
+ },
+ "eigo:rural": {
+  "file": "juken-eigo-rural.svg",
+  "kind": "svg"
+ },
+ "eigo:dense": {
+  "file": "juken-eigo-dense.svg",
+  "kind": "svg"
+ },
+ "eigo:countryside": {
+  "file": "juken-eigo-countryside.svg",
+  "kind": "svg"
+ },
+ "eigo:suburb": {
+  "file": "juken-eigo-suburb.svg",
+  "kind": "svg"
+ },
+ "eigo:appetite": {
+  "file": "juken-eigo-appetite.svg",
+  "kind": "svg"
+ },
+ "eigo:sweat": {
+  "file": "juken-eigo-sweat.svg",
+  "kind": "svg"
+ },
+ "eigo:digest": {
+  "file": "juken-eigo-digest.svg",
+  "kind": "svg"
+ },
+ "eigo:fatigue": {
+  "file": "juken-eigo-fatigue.svg",
+  "kind": "svg"
+ },
+ "eigo:heatstroke": {
+  "file": "juken-eigo-heatstroke.svg",
+  "kind": "svg"
+ },
+ "eigo:overweight": {
+  "file": "juken-eigo-overweight.svg",
+  "kind": "svg"
+ },
+ "eigo:organ": {
+  "file": "juken-eigo-organ.svg",
+  "kind": "svg"
+ },
+ "eigo:gene": {
+  "file": "juken-eigo-gene.svg",
+  "kind": "svg"
+ },
+ "eigo:cell": {
+  "file": "juken-eigo-cell.svg",
+  "kind": "svg"
+ },
+ "eigo:pollen": {
+  "file": "juken-eigo-pollen.svg",
+  "kind": "svg"
+ },
+ "eigo:allergy": {
+  "file": "juken-eigo-allergy.svg",
+  "kind": "svg"
+ },
+ "eigo:microbe": {
+  "file": "juken-eigo-microbe.svg",
+  "kind": "svg"
+ },
+ "eigo:infection": {
+  "file": "juken-eigo-infection.svg",
+  "kind": "svg"
+ },
+ "eigo:diagnosis": {
+  "file": "juken-eigo-diagnosis.svg",
+  "kind": "svg"
+ },
+ "eigo:vaccination": {
+  "file": "juken-eigo-vaccination.svg",
+  "kind": "svg"
+ },
+ "eigo:physician": {
+  "file": "juken-eigo-physician.svg",
+  "kind": "svg"
+ },
+ "eigo:donor": {
+  "file": "juken-eigo-donor.svg",
+  "kind": "svg"
+ },
+ "eigo:pharmacy": {
+  "file": "juken-eigo-pharmacy.svg",
+  "kind": "svg"
+ },
+ "eigo:prescription": {
+  "file": "juken-eigo-prescription.svg",
+  "kind": "svg"
+ },
+ "eigo:medication": {
+  "file": "juken-eigo-medication.svg",
+  "kind": "svg"
+ },
+ "eigo:capsule": {
+  "file": "juken-eigo-capsule.svg",
+  "kind": "svg"
+ },
+ "eigo:tablet": {
+  "file": "juken-eigo-tablet.svg",
+  "kind": "svg"
+ },
+ "eigo:antibiotic": {
+  "file": "juken-eigo-antibiotic.svg",
+  "kind": "svg"
+ },
+ "eigo:injection": {
+  "file": "juken-eigo-injection.svg",
+  "kind": "svg"
+ },
+ "eigo:hygiene": {
+  "file": "juken-eigo-hygiene.svg",
+  "kind": "svg"
+ },
+ "eigo:clinic": {
+  "file": "juken-eigo-clinic.svg",
+  "kind": "svg"
+ },
+ "eigo:athlete": {
+  "file": "juken-eigo-athlete.svg",
+  "kind": "svg"
+ },
+ "eigo:athletic": {
+  "file": "juken-eigo-athletic.svg",
+  "kind": "svg"
+ },
+ "eigo:joint": {
+  "file": "juken-eigo-joint.svg",
+  "kind": "svg"
+ },
+ "eigo:palm": {
+  "file": "juken-eigo-palm.svg",
+  "kind": "svg"
+ },
+ "eigo:creep": {
+  "file": "juken-eigo-creep.svg",
+  "kind": "svg"
+ },
+ "eigo:barrier": {
+  "file": "juken-eigo-barrier.svg",
+  "kind": "svg"
+ },
+ "eigo:obstacle": {
+  "file": "juken-eigo-obstacle.svg",
+  "kind": "svg"
+ },
+ "eigo:polar": {
+  "file": "juken-eigo-polar.svg",
+  "kind": "svg"
+ },
+ "eigo:pole": {
+  "file": "juken-eigo-pole.svg",
+  "kind": "svg"
+ },
+ "eigo:antarctic": {
+  "file": "juken-eigo-antarctic.svg",
+  "kind": "svg"
+ },
+ "eigo:arctic": {
+  "file": "juken-eigo-arctic.svg",
+  "kind": "svg"
+ },
+ "eigo:rainforest": {
+  "file": "juken-eigo-rainforest.svg",
+  "kind": "svg"
+ },
+ "eigo:level": {
+  "file": "juken-eigo-level.svg",
+  "kind": "svg"
+ },
+ "eigo:altitude": {
+  "file": "juken-eigo-altitude.svg",
+  "kind": "svg"
+ },
+ "eigo:acid": {
+  "file": "juken-eigo-acid.svg",
+  "kind": "svg"
+ },
+ "eigo:axis": {
+  "file": "juken-eigo-axis.svg",
+  "kind": "svg"
+ },
+ "eigo:hunger": {
+  "file": "juken-eigo-hunger.svg",
+  "kind": "svg"
+ },
+ "eigo:deforestation": {
+  "file": "juken-eigo-deforestation.svg",
+  "kind": "svg"
+ },
+ "eigo:toxic": {
+  "file": "juken-eigo-toxic.svg",
+  "kind": "svg"
+ },
+ "eigo:debris": {
+  "file": "juken-eigo-debris.svg",
+  "kind": "svg"
+ },
+ "eigo:emission": {
+  "file": "juken-eigo-emission.svg",
+  "kind": "svg"
+ },
+ "eigo:faucet": {
+  "file": "juken-eigo-faucet.svg",
+  "kind": "svg"
+ },
+ "eigo:tap": {
+  "file": "juken-eigo-tap.svg",
+  "kind": "svg"
+ },
+ "eigo:renewable": {
+  "file": "juken-eigo-renewable.svg",
+  "kind": "svg"
+ },
+ "eigo:adjust": {
+  "file": "juken-eigo-adjust.svg",
+  "kind": "svg"
+ },
+ "eigo:adapt": {
+  "file": "juken-eigo-adapt.svg",
+  "kind": "svg"
+ },
+ "eigo:ultraviolet": {
+  "file": "juken-eigo-ultraviolet.svg",
+  "kind": "svg"
+ },
+ "eigo:ray": {
+  "file": "juken-eigo-ray.svg",
+  "kind": "svg"
+ },
+ "eigo:layer": {
+  "file": "juken-eigo-layer.svg",
+  "kind": "svg"
+ },
+ "eigo:habitat": {
+  "file": "juken-eigo-habitat.svg",
+  "kind": "svg"
+ },
+ "eigo:wildlife": {
+  "file": "juken-eigo-wildlife.svg",
+  "kind": "svg"
+ },
+ "eigo:latitude": {
+  "file": "juken-eigo-latitude.svg",
+  "kind": "svg"
+ },
+ "eigo:longitude": {
+  "file": "juken-eigo-longitude.svg",
+  "kind": "svg"
+ },
+ "eigo:gravity": {
+  "file": "juken-eigo-gravity.svg",
+  "kind": "svg"
+ },
+ "eigo:peninsula": {
+  "file": "juken-eigo-peninsula.svg",
+  "kind": "svg"
+ },
+ "eigo:bay": {
+  "file": "juken-eigo-bay.svg",
+  "kind": "svg"
+ },
+ "eigo:coast": {
+  "file": "juken-eigo-coast.svg",
+  "kind": "svg"
+ },
+ "eigo:shore": {
+  "file": "juken-eigo-shore.svg",
+  "kind": "svg"
+ },
+ "eigo:marine": {
+  "file": "juken-eigo-marine.svg",
+  "kind": "svg"
+ },
+ "eigo:tide": {
+  "file": "juken-eigo-tide.svg",
+  "kind": "svg"
+ },
+ "eigo:stream": {
+  "file": "juken-eigo-stream.svg",
+  "kind": "svg"
+ },
+ "eigo:hemisphere": {
+  "file": "juken-eigo-hemisphere.svg",
+  "kind": "svg"
+ },
+ "eigo:sphere": {
+  "file": "juken-eigo-sphere.svg",
+  "kind": "svg"
+ },
+ "eigo:mars": {
+  "file": "juken-eigo-mars.svg",
+  "kind": "svg"
+ },
+ "eigo:probe": {
+  "file": "juken-eigo-probe.svg",
+  "kind": "svg"
+ },
+ "eigo:mosquito": {
+  "file": "juken-eigo-mosquito.svg",
+  "kind": "svg"
+ },
+ "eigo:sting": {
+  "file": "juken-eigo-sting.svg",
+  "kind": "svg"
+ },
+ "eigo:vacuum": {
+  "file": "juken-eigo-vacuum.svg",
+  "kind": "svg"
+ },
+ "eigo:rotate": {
+  "file": "juken-eigo-rotate.svg",
+  "kind": "svg"
+ },
+ "eigo:alien": {
+  "file": "juken-eigo-alien.svg",
+  "kind": "svg"
+ },
+ "eigo:eclipse": {
+  "file": "juken-eigo-eclipse.svg",
+  "kind": "svg"
+ },
+ "eigo:asteroid": {
+  "file": "juken-eigo-asteroid.svg",
+  "kind": "svg"
+ },
+ "eigo:circle": {
+  "file": "juken-eigo-circle.svg",
+  "kind": "svg"
+ },
+ "eigo:angle": {
+  "file": "juken-eigo-angle.svg",
+  "kind": "svg"
+ },
+ "eigo:triangle": {
+  "file": "juken-eigo-triangle.svg",
+  "kind": "svg"
+ },
+ "eigo:cube": {
+  "file": "juken-eigo-cube.svg",
+  "kind": "svg"
+ },
+ "eigo:oval": {
+  "file": "juken-eigo-oval.svg",
+  "kind": "svg"
+ },
+ "eigo:rectangle": {
+  "file": "juken-eigo-rectangle.svg",
+  "kind": "svg"
+ },
+ "eigo:rectangular": {
+  "file": "juken-eigo-rectangular.svg",
+  "kind": "svg"
+ },
+ "eigo:parallel": {
+  "file": "juken-eigo-parallel.svg",
+  "kind": "svg"
+ },
+ "eigo:vertical": {
+  "file": "juken-eigo-vertical.svg",
+  "kind": "svg"
+ },
+ "eigo:horizontal": {
+  "file": "juken-eigo-horizontal.svg",
+  "kind": "svg"
+ },
+ "eigo:opposite": {
+  "file": "juken-eigo-opposite.svg",
+  "kind": "svg"
+ },
+ "eigo:opponent": {
+  "file": "juken-eigo-opponent.svg",
+  "kind": "svg"
+ },
+ "eigo:solid": {
+  "file": "juken-eigo-solid.svg",
+  "kind": "svg"
+ },
+ "eigo:gas": {
+  "file": "juken-eigo-gas.svg",
+  "kind": "svg"
+ },
+ "eigo:liquid": {
+  "file": "juken-eigo-liquid.svg",
+  "kind": "svg"
+ },
+ "eigo:evaporate": {
+  "file": "juken-eigo-evaporate.svg",
+  "kind": "svg"
+ },
+ "eigo:vapor": {
+  "file": "juken-eigo-vapor.svg",
+  "kind": "svg"
+ },
+ "eigo:imaginary": {
+  "file": "juken-eigo-imaginary.svg",
+  "kind": "svg"
+ },
+ "eigo:trace": {
+  "file": "juken-eigo-trace.svg",
+  "kind": "svg"
+ },
+ "eigo:track": {
+  "file": "juken-eigo-track.svg",
+  "kind": "svg"
+ },
+ "eigo:crash": {
+  "file": "juken-eigo-crash.svg",
+  "kind": "svg"
+ },
+ "eigo:crush": {
+  "file": "juken-eigo-crush.svg",
+  "kind": "svg"
+ },
+ "eigo:burst": {
+  "file": "juken-eigo-burst.svg",
+  "kind": "svg"
+ },
+ "eigo:forbid": {
+  "file": "juken-eigo-forbid.svg",
+  "kind": "svg"
+ },
+ "eigo:beg": {
+  "file": "juken-eigo-beg.svg",
+  "kind": "svg"
+ },
+ "eigo:command": {
+  "file": "juken-eigo-command.svg",
+  "kind": "svg"
+ },
+ "eigo:insert": {
+  "file": "juken-eigo-insert.svg",
+  "kind": "svg"
+ },
+ "eigo:delete": {
+  "file": "juken-eigo-delete.svg",
+  "kind": "svg"
+ },
+ "eigo:load": {
+  "file": "juken-eigo-load.svg",
+  "kind": "svg"
+ },
+ "eigo:mobile": {
+  "file": "juken-eigo-mobile.svg",
+  "kind": "svg"
+ },
+ "eigo:device": {
+  "file": "juken-eigo-device.svg",
+  "kind": "svg"
+ },
+ "eigo:lap": {
+  "file": "juken-eigo-lap.svg",
+  "kind": "svg"
+ },
+ "eigo:laptop": {
+  "file": "juken-eigo-laptop.svg",
+  "kind": "svg"
+ },
+ "eigo:virtual": {
+  "file": "juken-eigo-virtual.svg",
+  "kind": "svg"
+ },
+ "eigo:artificial": {
+  "file": "juken-eigo-artificial.svg",
+  "kind": "svg"
+ },
+ "eigo:intelligence": {
+  "file": "juken-eigo-intelligence.svg",
+  "kind": "svg"
+ },
+ "eigo:numerous": {
+  "file": "juken-eigo-numerous.svg",
+  "kind": "svg"
+ },
+ "eigo:enormous": {
+  "file": "juken-eigo-enormous.svg",
+  "kind": "svg"
+ },
+ "eigo:vast": {
+  "file": "juken-eigo-vast.svg",
+  "kind": "svg"
+ },
+ "eigo:massive": {
+  "file": "juken-eigo-massive.svg",
+  "kind": "svg"
+ },
+ "eigo:length": {
+  "file": "juken-eigo-length.svg",
+  "kind": "svg"
+ },
+ "eigo:depth": {
+  "file": "juken-eigo-depth.svg",
+  "kind": "svg"
+ },
+ "eigo:height": {
+  "file": "juken-eigo-height.svg",
+  "kind": "svg"
+ },
+ "eigo:portion": {
+  "file": "juken-eigo-portion.svg",
+  "kind": "svg"
+ },
+ "eigo:dose": {
+  "file": "juken-eigo-dose.svg",
+  "kind": "svg"
+ },
+ "eigo:bunch": {
+  "file": "juken-eigo-bunch.svg",
+  "kind": "svg"
+ },
+ "eigo:phenomenon": {
+  "file": "juken-eigo-phenomenon.svg",
+  "kind": "svg"
+ },
+ "eigo:discard": {
+  "file": "juken-eigo-discard.svg",
+  "kind": "svg"
+ },
+ "eigo:distribute": {
+  "file": "juken-eigo-distribute.svg",
+  "kind": "svg"
+ },
+ "eigo:shipment": {
+  "file": "juken-eigo-shipment.svg",
+  "kind": "svg"
+ },
+ "eigo:canal": {
+  "file": "juken-eigo-canal.svg",
+  "kind": "svg"
+ },
+ "eigo:expressway": {
+  "file": "juken-eigo-expressway.svg",
+  "kind": "svg"
+ },
+ "eigo:toll": {
+  "file": "juken-eigo-toll.svg",
+  "kind": "svg"
+ },
+ "eigo:transport": {
+  "file": "juken-eigo-transport.svg",
+  "kind": "svg"
+ },
+ "eigo:transfer": {
+  "file": "juken-eigo-transfer.svg",
+  "kind": "svg"
+ },
+ "eigo:transmit": {
+  "file": "juken-eigo-transmit.svg",
+  "kind": "svg"
+ },
+ "eigo:aviation": {
+  "file": "juken-eigo-aviation.svg",
+  "kind": "svg"
+ },
+ "eigo:aircraft": {
+  "file": "juken-eigo-aircraft.svg",
+  "kind": "svg"
+ },
+ "eigo:spacecraft": {
+  "file": "juken-eigo-spacecraft.svg",
+  "kind": "svg"
+ },
+ "eigo:aisle": {
+  "file": "juken-eigo-aisle.svg",
+  "kind": "svg"
+ },
+ "eigo:automobile": {
+  "file": "juken-eigo-automobile.svg",
+  "kind": "svg"
+ },
+ "eigo:avenue": {
+  "file": "juken-eigo-avenue.svg",
+  "kind": "svg"
+ },
+ "eigo:destination": {
+  "file": "juken-eigo-destination.svg",
+  "kind": "svg"
+ },
+ "eigo:tourism": {
+  "file": "juken-eigo-tourism.svg",
+  "kind": "svg"
+ },
+ "eigo:congestion": {
+  "file": "juken-eigo-congestion.svg",
+  "kind": "svg"
+ },
+ "eigo:inspect": {
+  "file": "juken-eigo-inspect.svg",
+  "kind": "svg"
+ },
+ "eigo:inspector": {
+  "file": "juken-eigo-inspector.svg",
+  "kind": "svg"
+ },
+ "eigo:suspect": {
+  "file": "juken-eigo-suspect.svg",
+  "kind": "svg"
+ },
+ "eigo:nod": {
+  "file": "juken-eigo-nod.svg",
+  "kind": "svg"
+ },
+ "eigo:wander": {
+  "file": "juken-eigo-wander.svg",
+  "kind": "svg"
+ },
+ "eigo:imitate": {
+  "file": "juken-eigo-imitate.svg",
+  "kind": "svg"
+ },
+ "eigo:exaggerate": {
+  "file": "juken-eigo-exaggerate.svg",
+  "kind": "svg"
+ },
+ "eigo:negotiate": {
+  "file": "juken-eigo-negotiate.svg",
+  "kind": "svg"
+ },
+ "eigo:pursue": {
+  "file": "juken-eigo-pursue.svg",
+  "kind": "svg"
+ },
+ "eigo:arrange": {
+  "file": "juken-eigo-arrange.svg",
+  "kind": "svg"
+ },
+ "eigo:fortune": {
+  "file": "juken-eigo-fortune.svg",
+  "kind": "svg"
+ },
+ "eigo:abandon": {
+  "file": "juken-eigo-abandon.svg",
+  "kind": "svg"
+ },
+ "eigo:decay": {
+  "file": "juken-eigo-decay.svg",
+  "kind": "svg"
+ },
+ "eigo:envy": {
+  "file": "juken-eigo-envy.svg",
+  "kind": "svg"
+ },
+ "eigo:sigh": {
+  "file": "juken-eigo-sigh.svg",
+  "kind": "svg"
+ },
+ "eigo:frown": {
+  "file": "juken-eigo-frown.svg",
+  "kind": "svg"
+ },
+ "eigo:hesitate": {
+  "file": "juken-eigo-hesitate.svg",
+  "kind": "svg"
+ },
+ "eigo:tease": {
+  "file": "juken-eigo-tease.svg",
+  "kind": "svg"
+ },
+ "eigo:tempt": {
+  "file": "juken-eigo-tempt.svg",
+  "kind": "svg"
+ },
+ "eigo:affection": {
+  "file": "juken-eigo-affection.svg",
+  "kind": "svg"
+ },
+ "eigo:burden": {
+  "file": "juken-eigo-burden.svg",
+  "kind": "svg"
+ },
+ "eigo:grateful": {
+  "file": "juken-eigo-grateful.svg",
+  "kind": "svg"
+ },
+ "eigo:curious": {
+  "file": "juken-eigo-curious.svg",
+  "kind": "svg"
+ },
+ "eigo:generous": {
+  "file": "juken-eigo-generous.svg",
+  "kind": "svg"
+ },
+ "eigo:casual": {
+  "file": "juken-eigo-casual.svg",
+  "kind": "svg"
+ },
+ "eigo:miserable": {
+  "file": "juken-eigo-miserable.svg",
+  "kind": "svg"
+ },
+ "eigo:vivid": {
+  "file": "juken-eigo-vivid.svg",
+  "kind": "svg"
+ },
+ "eigo:neat": {
+  "file": "juken-eigo-neat.svg",
+  "kind": "svg"
+ },
+ "eigo:fake": {
+  "file": "juken-eigo-fake.svg",
+  "kind": "svg"
+ },
+ "eigo:odd": {
+  "file": "juken-eigo-odd.svg",
+  "kind": "svg"
+ },
+ "eigo:faint": {
+  "file": "juken-eigo-faint.svg",
+  "kind": "svg"
+ },
+ "eigo:dim": {
+  "file": "juken-eigo-dim.svg",
+  "kind": "svg"
+ },
+ "eigo:alter": {
+  "file": "juken-eigo-alter.svg",
+  "kind": "svg"
+ },
+ "eigo:dye": {
+  "file": "juken-eigo-dye.svg",
+  "kind": "svg"
+ },
+ "eigo:renovate": {
+  "file": "juken-eigo-renovate.svg",
+  "kind": "svg"
+ },
+ "eigo:emerge": {
+  "file": "juken-eigo-emerge.svg",
+  "kind": "svg"
+ },
+ "eigo:emergency": {
+  "file": "juken-eigo-emergency.svg",
+  "kind": "svg"
+ },
+ "eigo:vanish": {
+  "file": "juken-eigo-vanish.svg",
+  "kind": "svg"
+ },
+ "eigo:stain": {
+  "file": "juken-eigo-stain.svg",
+  "kind": "svg"
+ },
+ "eigo:crack": {
+  "file": "juken-eigo-crack.svg",
+  "kind": "svg"
+ },
+ "eigo:bump": {
+  "file": "juken-eigo-bump.svg",
+  "kind": "svg"
+ },
+ "eigo:rust": {
+  "file": "juken-eigo-rust.svg",
+  "kind": "svg"
+ },
+ "eigo:slip": {
+  "file": "juken-eigo-slip.svg",
+  "kind": "svg"
+ },
+ "eigo:adolescent": {
+  "file": "juken-eigo-adolescent.svg",
+  "kind": "svg"
+ },
+ "eigo:mature": {
+  "file": "juken-eigo-mature.svg",
+  "kind": "svg"
+ },
+ "eigo:wealth": {
+  "file": "juken-eigo-wealth.svg",
+  "kind": "svg"
+ },
+ "eigo:wealthy": {
+  "file": "juken-eigo-wealthy.svg",
+  "kind": "svg"
+ },
+ "eigo:poverty": {
+  "file": "juken-eigo-poverty.svg",
+  "kind": "svg"
+ },
+ "eigo:invisible": {
+  "file": "juken-eigo-invisible.svg",
+  "kind": "svg"
+ },
+ "eigo:vision": {
+  "file": "juken-eigo-vision.svg",
+  "kind": "svg"
+ },
+ "eigo:portable": {
+  "file": "juken-eigo-portable.svg",
+  "kind": "svg"
+ },
+ "eigo:evil": {
+  "file": "juken-eigo-evil.svg",
+  "kind": "svg"
+ },
+ "eigo:spirit": {
+  "file": "juken-eigo-spirit.svg",
+  "kind": "svg"
+ },
+ "eigo:restore": {
+  "file": "juken-eigo-restore.svg",
+  "kind": "svg"
+ },
+ "eigo:honor": {
+  "file": "juken-eigo-honor.svg",
+  "kind": "svg"
+ },
+ "eigo:fame": {
+  "file": "juken-eigo-fame.svg",
+  "kind": "svg"
+ },
+ "eigo:pray": {
+  "file": "juken-eigo-pray.svg",
+  "kind": "svg"
+ },
+ "eigo:meditation": {
+  "file": "juken-eigo-meditation.svg",
+  "kind": "svg"
+ },
+ "eigo:myth": {
+  "file": "juken-eigo-myth.svg",
+  "kind": "svg"
+ },
+ "eigo:superstition": {
+  "file": "juken-eigo-superstition.svg",
+  "kind": "svg"
+ },
+ "eigo:legend": {
+  "file": "juken-eigo-legend.svg",
+  "kind": "svg"
+ },
+ "eigo:frame": {
+  "file": "juken-eigo-frame.svg",
+  "kind": "svg"
+ },
+ "eigo:primitive": {
+  "file": "juken-eigo-primitive.svg",
+  "kind": "svg"
+ },
+ "eigo:artifact": {
+  "file": "juken-eigo-artifact.svg",
+  "kind": "svg"
+ },
+ "eigo:tomb": {
+  "file": "juken-eigo-tomb.svg",
+  "kind": "svg"
+ },
+ "eigo:medieval": {
+  "file": "juken-eigo-medieval.svg",
+  "kind": "svg"
+ },
+ "eigo:emperor": {
+  "file": "juken-eigo-emperor.svg",
+  "kind": "svg"
+ },
+ "eigo:empire": {
+  "file": "juken-eigo-empire.svg",
+  "kind": "svg"
+ },
+ "eigo:conquer": {
+  "file": "juken-eigo-conquer.svg",
+  "kind": "svg"
+ },
+ "eigo:invade": {
+  "file": "juken-eigo-invade.svg",
+  "kind": "svg"
+ },
+ "eigo:colony": {
+  "file": "juken-eigo-colony.svg",
+  "kind": "svg"
+ },
+ "eigo:cathedral": {
+  "file": "juken-eigo-cathedral.svg",
+  "kind": "svg"
+ },
+ "eigo:palace": {
+  "file": "juken-eigo-palace.svg",
+  "kind": "svg"
+ },
+ "eigo:spot": {
+  "file": "juken-eigo-spot.svg",
+  "kind": "svg"
+ },
+ "eigo:detect": {
+  "file": "juken-eigo-detect.svg",
+  "kind": "svg"
+ },
+ "eigo:bow": {
+  "file": "juken-eigo-bow.svg",
+  "kind": "svg"
+ },
+ "eigo:minute": {
+  "file": "juken-eigo-minute.svg",
+  "kind": "svg"
+ },
+ "eigo:classical": {
+  "file": "juken-eigo-classical.svg",
+  "kind": "svg"
+ },
+ "eigo:carve": {
+  "file": "juken-eigo-carve.svg",
+  "kind": "svg"
+ },
+ "eigo:curve": {
+  "file": "juken-eigo-curve.svg",
+  "kind": "svg"
+ },
+ "eigo:sculpture": {
+  "file": "juken-eigo-sculpture.svg",
+  "kind": "svg"
+ },
+ "eigo:craft": {
+  "file": "juken-eigo-craft.svg",
+  "kind": "svg"
+ },
+ "eigo:craftsman": {
+  "file": "juken-eigo-craftsman.svg",
+  "kind": "svg"
+ },
+ "eigo:portray": {
+  "file": "juken-eigo-portray.svg",
+  "kind": "svg"
+ },
+ "eigo:register": {
+  "file": "juken-eigo-register.svg",
+  "kind": "svg"
+ },
+ "eigo:engagement": {
+  "file": "juken-eigo-engagement.svg",
+  "kind": "svg"
+ },
+ "eigo:combine": {
+  "file": "juken-eigo-combine.svg",
+  "kind": "svg"
+ },
+ "eigo:subtract": {
+  "file": "juken-eigo-subtract.svg",
+  "kind": "svg"
+ },
+ "eigo:diversity": {
+  "file": "juken-eigo-diversity.svg",
+  "kind": "svg"
+ },
+ "eigo:thrive": {
+  "file": "juken-eigo-thrive.svg",
+  "kind": "svg"
+ },
+ "eigo:extinction": {
+  "file": "juken-eigo-extinction.svg",
+  "kind": "svg"
+ },
+ "eigo:endangered": {
+  "file": "juken-eigo-endangered.svg",
+  "kind": "svg"
+ },
+ "eigo:drain": {
+  "file": "juken-eigo-drain.svg",
+  "kind": "svg"
+ },
+ "eigo:soak": {
+  "file": "juken-eigo-soak.svg",
+  "kind": "svg"
+ },
+ "eigo:soaked": {
+  "file": "juken-eigo-soaked.svg",
+  "kind": "svg"
+ },
+ "eigo:spray": {
+  "file": "juken-eigo-spray.svg",
+  "kind": "svg"
+ },
+ "eigo:sprinkle": {
+  "file": "juken-eigo-sprinkle.svg",
+  "kind": "svg"
+ },
+ "eigo:mammal": {
+  "file": "juken-eigo-mammal.svg",
+  "kind": "svg"
+ },
+ "eigo:ape": {
+  "file": "juken-eigo-ape.svg",
+  "kind": "svg"
+ },
+ "eigo:breed": {
+  "file": "juken-eigo-breed.svg",
+  "kind": "svg"
+ },
+ "eigo:bug": {
+  "file": "juken-eigo-bug.svg",
+  "kind": "svg"
+ },
+ "eigo:cast": {
+  "file": "juken-eigo-cast.svg",
+  "kind": "svg"
+ },
+ "eigo:scatter": {
+  "file": "juken-eigo-scatter.svg",
+  "kind": "svg"
+ },
+ "eigo:shed": {
+  "file": "juken-eigo-shed.svg",
+  "kind": "svg"
+ },
+ "eigo:dump": {
+  "file": "juken-eigo-dump.svg",
+  "kind": "svg"
+ },
+ "eigo:predator": {
+  "file": "juken-eigo-predator.svg",
+  "kind": "svg"
+ },
+ "eigo:prey": {
+  "file": "juken-eigo-prey.svg",
+  "kind": "svg"
+ },
+ "eigo:tame": {
+  "file": "juken-eigo-tame.svg",
+  "kind": "svg"
+ },
+ "eigo:livestock": {
+  "file": "juken-eigo-livestock.svg",
+  "kind": "svg"
+ },
+ "eigo:harmony": {
+  "file": "juken-eigo-harmony.svg",
+  "kind": "svg"
+ },
+ "eigo:erosion": {
+  "file": "juken-eigo-erosion.svg",
+  "kind": "svg"
+ },
+ "eigo:seaweed": {
+  "file": "juken-eigo-seaweed.svg",
+  "kind": "svg"
+ },
+ "eigo:weed": {
+  "file": "juken-eigo-weed.svg",
+  "kind": "svg"
+ },
+ "eigo:stem": {
+  "file": "juken-eigo-stem.svg",
+  "kind": "svg"
+ },
+ "eigo:blossom": {
+  "file": "juken-eigo-blossom.svg",
+  "kind": "svg"
+ },
+ "eigo:cultivate": {
+  "file": "juken-eigo-cultivate.svg",
+  "kind": "svg"
+ },
+ "eigo:irrigation": {
+  "file": "juken-eigo-irrigation.svg",
+  "kind": "svg"
+ },
+ "eigo:fertilizer": {
+  "file": "juken-eigo-fertilizer.svg",
+  "kind": "svg"
+ },
+ "eigo:pest": {
+  "file": "juken-eigo-pest.svg",
+  "kind": "svg"
+ },
+ "eigo:pesticide": {
+  "file": "juken-eigo-pesticide.svg",
+  "kind": "svg"
+ },
+ "eigo:grain": {
+  "file": "juken-eigo-grain.svg",
+  "kind": "svg"
+ },
+ "eigo:meadow": {
+  "file": "juken-eigo-meadow.svg",
+  "kind": "svg"
+ },
+ "eigo:mow": {
+  "file": "juken-eigo-mow.svg",
+  "kind": "svg"
+ },
+ "eigo:lawn": {
+  "file": "juken-eigo-lawn.svg",
+  "kind": "svg"
+ },
+ "eigo:soybean": {
+  "file": "juken-eigo-soybean.svg",
+  "kind": "svg"
+ },
+ "eigo:coral": {
+  "file": "juken-eigo-coral.svg",
+  "kind": "svg"
+ },
+ "eigo:flock": {
+  "file": "juken-eigo-flock.svg",
+  "kind": "svg"
+ },
+ "eigo:swarm": {
+  "file": "juken-eigo-swarm.svg",
+  "kind": "svg"
+ },
+ "eigo:tackle": {
+  "file": "juken-eigo-tackle.svg",
+  "kind": "svg"
+ },
+ "eigo:recite": {
+  "file": "juken-eigo-recite.svg",
+  "kind": "svg"
+ },
+ "eigo:reproduce": {
+  "file": "juken-eigo-reproduce.svg",
+  "kind": "svg"
+ },
+ "eigo:cling": {
+  "file": "juken-eigo-cling.svg",
+  "kind": "svg"
+ },
+ "eigo:passion": {
+  "file": "juken-eigo-passion.svg",
+  "kind": "svg"
+ },
+ "eigo:genius": {
+  "file": "juken-eigo-genius.svg",
+  "kind": "svg"
+ },
+ "eigo:attendant": {
+  "file": "juken-eigo-attendant.svg",
+  "kind": "svg"
+ },
+ "eigo:merchant": {
+  "file": "juken-eigo-merchant.svg",
+  "kind": "svg"
+ },
+ "eigo:spouse": {
+  "file": "juken-eigo-spouse.svg",
+  "kind": "svg"
+ },
+ "eigo:sibling": {
+  "file": "juken-eigo-sibling.svg",
+  "kind": "svg"
+ },
+ "eigo:offspring": {
+  "file": "juken-eigo-offspring.svg",
+  "kind": "svg"
+ },
+ "eigo:infant": {
+  "file": "juken-eigo-infant.svg",
+  "kind": "svg"
+ },
+ "eigo:descend": {
+  "file": "juken-eigo-descend.svg",
+  "kind": "svg"
+ },
+ "eigo:pregnant": {
+  "file": "juken-eigo-pregnant.svg",
+  "kind": "svg"
+ },
+ "eigo:enclose": {
+  "file": "juken-eigo-enclose.svg",
+  "kind": "svg"
+ },
+ "eigo:embrace": {
+  "file": "juken-eigo-embrace.svg",
+  "kind": "svg"
+ },
+ "eigo:hug": {
+  "file": "juken-eigo-hug.svg",
+  "kind": "svg"
+ },
+ "eigo:embed": {
+  "file": "juken-eigo-embed.svg",
+  "kind": "svg"
+ },
+ "eigo:outstanding": {
+  "file": "juken-eigo-outstanding.svg",
+  "kind": "svg"
+ },
+ "eigo:output": {
+  "file": "juken-eigo-output.svg",
+  "kind": "svg"
+ },
+ "eigo:overlap": {
+  "file": "juken-eigo-overlap.svg",
+  "kind": "svg"
+ },
+ "eigo:overtime": {
+  "file": "juken-eigo-overtime.svg",
+  "kind": "svg"
+ },
+ "eigo:flee": {
+  "file": "juken-eigo-flee.svg",
+  "kind": "svg"
+ },
+ "eigo:twist": {
+  "file": "juken-eigo-twist.svg",
+  "kind": "svg"
+ },
+ "eigo:distort": {
+  "file": "juken-eigo-distort.svg",
+  "kind": "svg"
+ },
+ "eigo:pile": {
+  "file": "juken-eigo-pile.svg",
+  "kind": "svg"
+ },
+ "eigo:accumulate": {
+  "file": "juken-eigo-accumulate.svg",
+  "kind": "svg"
+ },
+ "eigo:glance": {
+  "file": "juken-eigo-glance.svg",
+  "kind": "svg"
+ },
+ "eigo:gaze": {
+  "file": "juken-eigo-gaze.svg",
+  "kind": "svg"
+ },
+ "eigo:peer": {
+  "file": "juken-eigo-peer.svg",
+  "kind": "svg"
+ },
+ "eigo:disgusting": {
+  "file": "juken-eigo-disgusting.svg",
+  "kind": "svg"
+ },
+ "eigo:glow": {
+  "file": "juken-eigo-glow.svg",
+  "kind": "svg"
+ },
+ "eigo:dawn": {
+  "file": "juken-eigo-dawn.svg",
+  "kind": "svg"
+ },
+ "eigo:fade": {
+  "file": "juken-eigo-fade.svg",
+  "kind": "svg"
+ },
+ "eigo:splendid": {
+  "file": "juken-eigo-splendid.svg",
+  "kind": "svg"
+ },
+ "eigo:brilliant": {
+  "file": "juken-eigo-brilliant.svg",
+  "kind": "svg"
+ },
+ "eigo:gloomy": {
+  "file": "juken-eigo-gloomy.svg",
+  "kind": "svg"
+ },
+ "eigo:suspicious": {
+  "file": "juken-eigo-suspicious.svg",
+  "kind": "svg"
+ },
+ "eigo:stubborn": {
+  "file": "juken-eigo-stubborn.svg",
+  "kind": "svg"
+ },
+ "eigo:fierce": {
+  "file": "juken-eigo-fierce.svg",
+  "kind": "svg"
+ },
+ "eigo:optimistic": {
+  "file": "juken-eigo-optimistic.svg",
+  "kind": "svg"
+ },
+ "eigo:pessimistic": {
+  "file": "juken-eigo-pessimistic.svg",
+  "kind": "svg"
+ },
+ "eigo:temporary": {
+  "file": "juken-eigo-temporary.svg",
+  "kind": "svg"
+ },
+ "eigo:bold": {
+  "file": "juken-eigo-bold.svg",
+  "kind": "svg"
+ },
+ "eigo:cautious": {
+  "file": "juken-eigo-cautious.svg",
+  "kind": "svg"
+ },
+ "eigo:reluctant": {
+  "file": "juken-eigo-reluctant.svg",
+  "kind": "svg"
+ },
+ "eigo:furious": {
+  "file": "juken-eigo-furious.svg",
+  "kind": "svg"
+ },
+ "eigo:punctual": {
+  "file": "juken-eigo-punctual.svg",
+  "kind": "svg"
+ },
+ "eigo:industrious": {
+  "file": "juken-eigo-industrious.svg",
+  "kind": "svg"
+ },
+ "eigo:vocal": {
+  "file": "juken-eigo-vocal.svg",
+  "kind": "svg"
+ },
+ "eigo:old-fashioned": {
+  "file": "juken-eigo-old-fashioned.svg",
+  "kind": "svg"
+ },
+ "eigo:outdated": {
+  "file": "juken-eigo-outdated.svg",
+  "kind": "svg"
+ },
+ "eigo:editor": {
+  "file": "juken-eigo-editor.svg",
+  "kind": "svg"
+ },
+ "eigo:comedy": {
+  "file": "juken-eigo-comedy.svg",
+  "kind": "svg"
+ },
+ "eigo:tragedy": {
+  "file": "juken-eigo-tragedy.svg",
+  "kind": "svg"
+ },
+ "eigo:chapter": {
+  "file": "juken-eigo-chapter.svg",
+  "kind": "svg"
+ },
+ "eigo:fairy": {
+  "file": "juken-eigo-fairy.svg",
+  "kind": "svg"
+ },
+ "eigo:fantasy": {
+  "file": "juken-eigo-fantasy.svg",
+  "kind": "svg"
+ },
+ "eigo:grasp": {
+  "file": "juken-eigo-grasp.svg",
+  "kind": "svg"
+ },
+ "eigo:seize": {
+  "file": "juken-eigo-seize.svg",
+  "kind": "svg"
+ },
+ "eigo:grab": {
+  "file": "juken-eigo-grab.svg",
+  "kind": "svg"
+ },
+ "eigo:rumor": {
+  "file": "juken-eigo-rumor.svg",
+  "kind": "svg"
+ },
+ "eigo:expert": {
+  "file": "juken-eigo-expert.svg",
+  "kind": "svg"
+ },
+ "eigo:scholar": {
+  "file": "juken-eigo-scholar.svg",
+  "kind": "svg"
+ },
+ "eigo:questionnaire": {
+  "file": "juken-eigo-questionnaire.svg",
+  "kind": "svg"
+ },
+ "eigo:classify": {
+  "file": "juken-eigo-classify.svg",
+  "kind": "svg"
+ },
+ "eigo:indicate": {
+  "file": "juken-eigo-indicate.svg",
+  "kind": "svg"
+ },
+ "eigo:illustrate": {
+  "file": "juken-eigo-illustrate.svg",
+  "kind": "svg"
+ },
+ "eigo:illustration": {
+  "file": "juken-eigo-illustration.svg",
+  "kind": "svg"
+ },
+ "eigo:demonstrate": {
+  "file": "juken-eigo-demonstrate.svg",
+  "kind": "svg"
+ },
+ "eigo:active": {
+  "file": "juken-eigo-active.svg",
+  "kind": "svg"
+ },
+ "eigo:passive": {
+  "file": "juken-eigo-passive.svg",
+  "kind": "svg"
+ },
+ "eigo:abstract": {
+  "file": "juken-eigo-abstract.svg",
+  "kind": "svg"
+ },
+ "eigo:unite": {
+  "file": "juken-eigo-unite.svg",
+  "kind": "svg"
+ },
+ "eigo:endure": {
+  "file": "juken-eigo-endure.svg",
+  "kind": "svg"
+ },
+ "eigo:urgent": {
+  "file": "juken-eigo-urgent.svg",
+  "kind": "svg"
+ },
+ "eigo:footprint": {
+  "file": "juken-eigo-footprint.svg",
+  "kind": "svg"
+ },
+ "eigo:divorce": {
+  "file": "juken-eigo-divorce.svg",
+  "kind": "svg"
+ },
+ "eigo:leftover": {
+  "file": "juken-eigo-leftover.svg",
+  "kind": "svg"
+ },
+ "eigo:alcohol": {
+  "file": "juken-eigo-alcohol.svg",
+  "kind": "svg"
+ },
+ "eigo:charity": {
+  "file": "juken-eigo-charity.svg",
+  "kind": "svg"
+ },
+ "eigo:launch": {
+  "file": "juken-eigo-launch.svg",
+  "kind": "svg"
+ },
+ "eigo:justice": {
+  "file": "juken-eigo-justice.svg",
+  "kind": "svg"
+ },
+ "eigo:jury": {
+  "file": "juken-eigo-jury.svg",
+  "kind": "svg"
+ },
+ "eigo:rapid": {
+  "file": "juken-eigo-rapid.svg",
+  "kind": "svg"
+ },
+ "eigo:swift": {
+  "file": "juken-eigo-swift.svg",
+  "kind": "svg"
+ },
+ "eigo:cabinet": {
+  "file": "juken-eigo-cabinet.svg",
+  "kind": "svg"
+ },
+ "eigo:royal": {
+  "file": "juken-eigo-royal.svg",
+  "kind": "svg"
+ },
+ "eigo:bribe": {
+  "file": "juken-eigo-bribe.svg",
+  "kind": "svg"
+ },
+ "eigo:immigrant": {
+  "file": "juken-eigo-immigrant.svg",
+  "kind": "svg"
+ },
+ "eigo:refugee": {
+  "file": "juken-eigo-refugee.svg",
+  "kind": "svg"
+ },
+ "eigo:shelter": {
+  "file": "juken-eigo-shelter.svg",
+  "kind": "svg"
+ },
+ "eigo:tension": {
+  "file": "juken-eigo-tension.svg",
+  "kind": "svg"
+ },
+ "eigo:expire": {
+  "file": "juken-eigo-expire.svg",
+  "kind": "svg"
+ },
+ "eigo:extract": {
+  "file": "juken-eigo-extract.svg",
+  "kind": "svg"
+ },
+ "eigo:expedition": {
+  "file": "juken-eigo-expedition.svg",
+  "kind": "svg"
+ },
+ "eigo:army": {
+  "file": "juken-eigo-army.svg",
+  "kind": "svg"
+ },
+ "eigo:navy": {
+  "file": "juken-eigo-navy.svg",
+  "kind": "svg"
+ },
+ "eigo:merge": {
+  "file": "juken-eigo-merge.svg",
+  "kind": "svg"
+ },
+ "eigo:labor": {
+  "file": "juken-eigo-labor.svg",
+  "kind": "svg"
+ },
+ "eigo:contract": {
+  "file": "juken-eigo-contract.svg",
+  "kind": "svg"
+ },
+ "eigo:retrieve": {
+  "file": "juken-eigo-retrieve.svg",
+  "kind": "svg"
+ },
+ "eigo:revolve": {
+  "file": "juken-eigo-revolve.svg",
+  "kind": "svg"
+ },
+ "eigo:revise": {
+  "file": "juken-eigo-revise.svg",
+  "kind": "svg"
+ },
+ "eigo:assembly": {
+  "file": "juken-eigo-assembly.svg",
+  "kind": "svg"
+ },
+ "eigo:stall": {
+  "file": "juken-eigo-stall.svg",
+  "kind": "svg"
+ },
+ "eigo:strategy": {
+  "file": "juken-eigo-strategy.svg",
+  "kind": "svg"
+ },
+ "eigo:fragment": {
+  "file": "juken-eigo-fragment.svg",
+  "kind": "svg"
+ },
+ "eigo:fraction": {
+  "file": "juken-eigo-fraction.svg",
+  "kind": "svg"
+ },
+ "eigo:halt": {
+  "file": "juken-eigo-halt.svg",
+  "kind": "svg"
+ },
+ "eigo:metropolitan": {
+  "file": "juken-eigo-metropolitan.svg",
+  "kind": "svg"
+ },
+ "eigo:vessel": {
+  "file": "juken-eigo-vessel.svg",
+  "kind": "svg"
+ },
+ "eigo:freight": {
+  "file": "juken-eigo-freight.svg",
+  "kind": "svg"
+ },
+ "eigo:cargo": {
+  "file": "juken-eigo-cargo.svg",
+  "kind": "svg"
+ },
+ "eigo:intersection": {
+  "file": "juken-eigo-intersection.svg",
+  "kind": "svg"
+ },
+ "eigo:pavement": {
+  "file": "juken-eigo-pavement.svg",
+  "kind": "svg"
+ },
+ "eigo:sidewalk": {
+  "file": "juken-eigo-sidewalk.svg",
+  "kind": "svg"
+ },
+ "eigo:pedestrian": {
+  "file": "juken-eigo-pedestrian.svg",
+  "kind": "svg"
+ },
+ "eigo:manual": {
+  "file": "juken-eigo-manual.svg",
+  "kind": "svg"
+ },
+ "eigo:manufacture": {
+  "file": "juken-eigo-manufacture.svg",
+  "kind": "svg"
+ },
+ "eigo:manuscript": {
+  "file": "juken-eigo-manuscript.svg",
+  "kind": "svg"
+ },
+ "eigo:script": {
+  "file": "juken-eigo-script.svg",
+  "kind": "svg"
+ },
+ "eigo:manipulate": {
+  "file": "juken-eigo-manipulate.svg",
+  "kind": "svg"
+ },
+ "eigo:luxury": {
+  "file": "juken-eigo-luxury.svg",
+  "kind": "svg"
+ },
+ "eigo:currency": {
+  "file": "juken-eigo-currency.svg",
+  "kind": "svg"
+ },
+ "eigo:debt": {
+  "file": "juken-eigo-debt.svg",
+  "kind": "svg"
+ },
+ "eigo:deposit": {
+  "file": "juken-eigo-deposit.svg",
+  "kind": "svg"
+ },
+ "eigo:soar": {
+  "file": "juken-eigo-soar.svg",
+  "kind": "svg"
+ },
+ "eigo:recession": {
+  "file": "juken-eigo-recession.svg",
+  "kind": "svg"
+ },
+ "eigo:bankrupt": {
+  "file": "juken-eigo-bankrupt.svg",
+  "kind": "svg"
+ },
+ "eigo:disguise": {
+  "file": "juken-eigo-disguise.svg",
+  "kind": "svg"
+ },
+ "eigo:defend": {
+  "file": "juken-eigo-defend.svg",
+  "kind": "svg"
+ },
+ "eigo:display": {
+  "file": "juken-eigo-display.svg",
+  "kind": "svg"
+ },
+ "eigo:isolate": {
+  "file": "juken-eigo-isolate.svg",
+  "kind": "svg"
+ }
+}
