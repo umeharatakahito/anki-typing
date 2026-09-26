@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <base target="_top">
+    <meta charset="utf-8">
+    <title>歴史</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <?!= include('JukenCSS'); ?>
+  </head>
+
+  <body data-prefs="rekishi">
+    <div id="app">
+
+      <!-- ========== メニュー ========== -->
+      <section id="screen-menu" class="screen">
+        <a class="back-link" href="<?= execUrl ?>?p=juken">← 科目をえらぶ</a>
+        <h1 class="title">歴史</h1>
+        <p class="subtitle">WORLD HISTORY</p>
+
+        <ul class="menu-list">
+          <li>
+            <button class="btn btn-main" onclick="rekishi.start();">
+              <span class="num">1</span>一問一答をやる
+            </button>
+          </li>
+          <li>
+            <button class="btn btn-main" onclick="rekishi.showZuPicker();">
+              <span class="num">2</span>図表を埋める
+            </button>
+          </li>
+          <li>
+            <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=versus&amp;s=rekishi">
+              <span class="num">3</span>対戦でやる
+            </a>
+          </li>
+          <li>
+            <button class="btn btn-main" onclick="rekishi.showStats();">
+              <span class="num">4</span>記録を見る
+            </button>
+          </li>
+        </ul>
+
+        <div class="settings">
+          <div class="setting-row">
+            <label for="no-from">プリント番号</label>
+            <input type="number" id="no-from" min="20" step="1" placeholder="最初">
+            <span class="tilde">〜</span>
+            <input type="number" id="no-to" min="20" step="1" placeholder="最後">
+          </div>
+          <div class="setting-row">
+            <label for="round-size">出題数</label>
+            <select id="round-size">
+              <option value="10">10問</option>
+              <option value="20" selected>20問</option>
+              <option value="30">30問</option>
+              <option value="50">50問</option>
+            </select>
+            <label for="order-mode" class="ml">順番</label>
+            <select id="order-mode">
+              <option value="no" selected>プリント順</option>
+              <option value="shuffle">シャッフル</option>
+            </select>
+          </div>
+          <div class="setting-row">
+            <label for="fld-mode">分野</label>
+            <select id="fld-mode">
+              <option value="all" selected>すべて</option>
+              <option value="ヨーロッパ">ヨーロッパへ広がるキリスト教</option>
+              <option value="イスラームの誕生">イスラームの誕生</option>
+              <option value="イスラーム世界の拡大">イスラーム世界の拡大</option>
+            </select>
+          </div>
+          <div class="setting-row">
+            <label class="check" for="shakyo-mode">
+              <input type="checkbox" id="shakyo-mode">写経モード（答えを最初から見せて、速さだけを競う）
+            </label>
+          </div>
+          <div class="setting-row">
+            <label for="source-mode">出題元</label>
+            <select id="source-mode">
+              <option value="all" selected>全体から</option>
+              <option value="weak">苦手な語だけ</option>
+            </select>
+          </div>
+          <div class="setting-row">
+            <label class="check" for="ghost-mode">
+              <input type="checkbox" id="ghost-mode">ゴーストと競走（同じ設定の自己ベストと同じ問題で走る）
+            </label>
+          </div>
+          <p class="hint" id="range-hint">読み込み中…</p>
+        </div>
+
+        <p class="note">問題を読んで、答えをローマ字でタイプします</p>
+      </section>
+
+      <!-- ========== 図表えらび ========== -->
+      <section id="screen-zu" class="screen" hidden>
+        <h1 class="title">図表を埋める</h1>
+        <p class="subtitle">プリントの図表をそのまま穴埋めにします</p>
+        <div id="zu-list"><p class="loading">読み込み中…</p></div>
+        <div class="setting-row" style="justify-content:center;margin-top:18px;">
+          <label class="check" for="zu-shuffle">
+            <input type="checkbox" id="zu-shuffle">順番をシャッフルする
+          </label>
+        </div>
+        <div class="result-actions" style="margin-top:20px;">
+          <button class="btn" onclick="rekishi.toMenu();">メニューに戻る</button>
+        </div>
+      </section>
+
+      <!-- ========== ゲーム ========== -->
+      <section id="screen-game" class="screen" hidden>
+        <header class="hud">
+          <div class="hud-item"><span class="hud-label">問題</span><span id="hud-progress">1 / 20</span></div>
+          <div class="hud-item score"><span class="hud-label">スコア</span><span id="hud-score">0</span></div>
+          <div class="hud-item"><span class="hud-label">ミス</span><span id="hud-miss">0</span></div>
+          <div class="hud-item chain" id="hud-chain-box" hidden>
+            <span id="hud-chain">0</span><span class="chain-label">チェイン</span>
+          </div>
+          <div class="hud-item ghost" id="hud-ghost-box" hidden>
+            <span class="hud-label">ゴースト</span><span id="hud-ghost">0 / 0</span><span id="hud-ghost-gap" class="gap"></span>
+          </div>
+          <button class="btn btn-quit" onclick="rekishi.quit();">やめる</button>
+        </header>
+
+        <div class="timer"><div class="timer-bar" id="timer-bar"></div></div>
+
+        <div class="stage">
+          <div class="phase-tag" id="phase-tag">一問一答</div>
+
+          <!-- 図表モードのときだけ出る -->
+          <div class="zu-wrap" id="zu-wrap" hidden>
+            <img id="zu-img" alt="プリントの図表">
+            <div class="zu-layer" id="zu-layer"></div>
+          </div>
+
+          <div class="prompt" id="prompt"></div>
+          <div class="sub-prompt" id="sub-prompt"></div>
+
+          <div class="answer-line" id="answer-line"></div>
+          <div class="guide" id="guide"></div>
+
+          <div class="judge" id="judge"></div>
+
+          <div class="stage-actions">
+            <button class="btn" id="hint-btn" onclick="rekishi.showHint();" hidden>ヒント</button>
+            <button class="btn" id="retry-btn" onclick="rekishi.start();" hidden>もう一度読み込む</button>
+          </div>
+        </div>
+
+        <div class="banner" id="banner"></div>
+      </section>
+
+      <!-- ========== 記録 ========== -->
+      <section id="screen-stats" class="screen" hidden>
+        <h1 class="title">記録</h1>
+        <p class="subtitle">歴史</p>
+        <div id="stats-body"></div>
+        <div class="result-actions" style="margin-top:28px;">
+          <button class="btn" onclick="rekishi.toMenu();">メニューに戻る</button>
+        </div>
+      </section>
+
+      <!-- ========== 結果 ========== -->
+      <section id="screen-result" class="screen" hidden>
+        <h1 class="title">おつかれさま</h1>
+        <p class="subtitle" id="result-subtitle"></p>
+
+        <div class="result-stats" id="result-stats"></div>
+        <div class="review" id="review" hidden>
+          <h3>もう一度見直したい語</h3>
+          <ul id="review-list"></ul>
+        </div>
+
+        <div class="result-actions">
+          <button class="btn btn-main" style="max-width:240px;" id="again-btn" onclick="rekishi.again();">もう一度</button>
+          <button class="btn" onclick="rekishi.toMenu();">メニューに戻る</button>
+        </div>
+      </section>
+
+    </div>
+
+    <?!= include('RomajiLib'); ?>
+    <?!= include('RekishiJS'); ?>
+    <?!= include('JukenKeyboard'); ?>
+    <?!= include('JukenPrefs'); ?>
+  </body>
+</html>

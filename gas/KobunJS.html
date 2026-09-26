@@ -371,7 +371,7 @@
           html += '<span class="done">' + escapeHtml(tok) + '</span>';
         } else if (this.shakyo) {
           // 写経は伏せない
-          html += '<span class="rest">' + escapeHtml(tok) + '</span>';
+          html += '<span class="show">' + escapeHtml(tok) + '</span>';
         } else if (this.hintShown || i < this.revealCount) {
           html += '<span class="peek">' + escapeHtml(tok) + '</span>';
         } else {
@@ -638,7 +638,8 @@
 
     // ---- 入力（両ステップともローマ字→かな）----
     handleKey: function (key) {
-      if (!/^[a-z0-9\-,.\s]$/.test(key)) return;
+      // ' も通す。「ん」＋母音／や行は n' と nn のどちらでも打てる
+      if (!/^[a-z0-9\-,.'\s]$/.test(key)) return;
       if (!this.wordR || this.idx1 >= this.wordR.length) return;
 
       this.temp += key;

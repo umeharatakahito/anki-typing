@@ -305,6 +305,8 @@
   }
   .answer-line .done { color: var(--ok); }
   .answer-line .rest { color: #46536e; }
+  /* 写経やヒントで「読ませる」文字。伏せ字用の .rest と違い、本文と同じ明るさにする */
+  .answer-line .show { color: var(--text); }
   .answer-line .reveal { color: var(--ng); }
   /* 残り時間が半分を切ってから頭出しされた部分 */
   .answer-line .peek { color: #fbbf24; opacity: .85; }
@@ -561,4 +563,58 @@
   .rel-df::before { content: '└ '; color: var(--muted); }
   .nuance.rel-hint { color: #fbbf24; }
   .nuance.rel-hint::before { background: #fbbf24; }
+
+  /* ---- 図表の穴埋め（歴史）---- */
+  /* プリントの図表をそのまま出して、答えの語だけを紙色の札で伏せる。
+     正解すると札が消えて、手書きの字がそのまま現れる。 */
+  .zu-wrap {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto 18px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, .35);
+  }
+  .zu-wrap[hidden] { display: none; }
+  .zu-wrap img { display: block; width: 100%; height: auto; }
+  .zu-layer { position: absolute; inset: 0; }
+
+  .zu-mask {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #dfe6f2;
+    border: 1px solid #9aa8bf;
+    color: #55627a;
+    font-size: .8rem;
+    font-weight: 700;
+    line-height: 1;
+    transition: opacity .18s ease;
+  }
+  .zu-mask.now {
+    background: rgba(59, 201, 219, .92);
+    border-color: var(--accent);
+    color: #04232a;
+    box-shadow: 0 0 0 3px rgba(59, 201, 219, .35);
+  }
+  .zu-mask.done { background: none; border-color: transparent; box-shadow: none; }
+  .zu-mask.miss {
+    background: none;
+    border: 2px solid var(--ng);
+    box-shadow: none;
+  }
+
+  /* 図表を選ぶ画面のボタンは、説明を2行目に置く */
+  #zu-list .btn-main { flex-direction: column; align-items: flex-start; gap: 4px; }
+  #zu-list .btn-main .soon { margin: 0; }
+
+  @media (max-width: 700px) {
+    .zu-wrap { margin-bottom: 12px; }
+    .zu-mask { font-size: .6rem; border-radius: 3px; }
+  }
 </style>

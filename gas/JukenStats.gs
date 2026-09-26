@@ -44,7 +44,7 @@ function saveJukenResult(payload) {
   if (!lock.tryLock(10000)) return { ok: false, error: 'busy' };
   try {
     const p = payload || {};
-    const subject = (p.subject === 'kobun') ? 'kobun' : 'eigo';
+    const subject = jukenSubject_(p.subject);
     const now = new Date();
 
     const log = statsSheet_(STATS_LOG_SHEET, STATS_LOG_HEADER);
@@ -108,7 +108,7 @@ function updateWeak_(subject, missed, cleared, now) {
 // 記録画面（ベスト・最近の記録・苦手な語）
 function getJukenStats(subject) {
   try {
-    subject = (subject === 'kobun') ? 'kobun' : 'eigo';
+    subject = jukenSubject_(subject);
     const tz = Session.getScriptTimeZone();
     const fmt = d => Utilities.formatDate(new Date(d), tz, 'M/d HH:mm');
 
@@ -148,6 +148,12 @@ function getJukenStats(subject) {
   } catch (e) {
     return { ok: false, error: String(e) };
   }
+}
+
+// 科目名の正規化。知らない名前は英単語として扱う。
+function jukenSubject_(name) {
+  name = String(name || '');
+  return (name === 'kobun' || name === 'rekishi') ? name : 'eigo';
 }
 
 // 苦手な語のキー一覧。出題を苦手な語だけに絞るときに使う。
@@ -259,10 +265,14 @@ function saveJukenGhost(payload) {
 
 // 見出し語そのものをキーにして、ゴーストと同じ問題を同じ順番で取り出す
 function wordsByKeys_(subject, keys) {
-  const list = (subject === 'kobun') ? KOBUN_WORDS : JUKEN_WORDS;
+  const list = (subject === 'kobun') ? KOBUN_WORDS
+             : (subject === 'rekishi') ? REKISHI_WORDS
+             : JUKEN_WORDS;
+  const keyOf = w => (subject === 'kobun') ? w.ko : (subject === 'rekishi') ? w.a : w.en;
   const byKey = {};
-  list.forEach(w => { byKey[(subject === 'kobun') ? w.ko : w.en] = w; });
-  const words = keys.map(k => byKey[k]).filter(w => !!w);
+  list.forEach(w => { byKey[keyOf(w)] = w; });
+  let words = keys.map(k => byKey[k]).filter(w => !!w);
+  if (subject === 'rekishi') words = words.map(decorate_);
   return { words: words, matched: words.length };
 }
 
@@ -270,7 +280,7 @@ function wordsByKeys_(subject, keys) {
 // 1ラウンド分の出題。ゴーストを使うときは、その回と同じ問題を返す。
 function getJukenRound(opts) {
   opts = opts || {};
-  const subject = (opts.subject === 'kobun') ? 'kobun' : 'eigo';
+  const subject = jukenSubject_(opts.subject);
 
   let ghost = null;
   if (opts.ghost && opts.sig) {
@@ -283,7 +293,9 @@ function getJukenRound(opts) {
     if (!res.words.length) { ghost = null; }   // データが入れ替わっていたら普通に出す
   }
   if (!res || !res.words.length) {
-    res = (subject === 'kobun') ? getKobunWords(opts) : getJukenWords(opts);
+    res = (subject === 'kobun') ? getKobunWords(opts)
+        : (subject === 'rekishi') ? getRekishiWords(opts)
+        : getJukenWords(opts);
     if (ghost) ghost = null;
   }
 
