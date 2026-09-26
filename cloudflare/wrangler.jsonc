@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "anki-typing",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-09-01",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "anki-typing",
+      // `npx wrangler d1 create anki-typing` で表示された ID に置き換える
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "durable_objects": {
+    "bindings": [{ "name": "VERSUS", "class_name": "VersusHub" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["VersusHub"] }]
+}

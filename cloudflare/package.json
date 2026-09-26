@@ -1,0 +1,14 @@
+{
+  "name": "anki-typing-cloudflare",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "npm run build && wrangler d1 migrations apply anki-typing --local && wrangler dev",
+    "deploy": "npm run build && wrangler d1 migrations apply anki-typing --remote && wrangler deploy",
+    "import:problems": "node scripts/import-problems.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.141.0"
+  }
+}
