@@ -1,0 +1,1050 @@
+{
+ "eigo:boil": {
+  "file": "core-boil-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:bake": {
+  "file": "core-bake-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:fry": {
+  "file": "core-fry-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:smell": {
+  "file": "core-smell-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:feed": {
+  "file": "core-feed-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:sweep": {
+  "file": "core-sweep-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:wipe": {
+  "file": "core-wipe-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:hang": {
+  "file": "core-hang-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:laundry": {
+  "file": "core-laundry-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:celebrate": {
+  "file": "core-celebrate-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:brick": {
+  "file": "core-brick-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:garden": {
+  "file": "core-garden-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:stairs": {
+  "file": "core-stairs-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:bill": {
+  "file": "core-bill-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:accident": {
+  "file": "core-accident-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:lift": {
+  "file": "core-lift-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:drop": {
+  "file": "core-drop-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:correct": {
+  "file": "core-correct-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:loud": {
+  "file": "core-loud-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:dangerous": {
+  "file": "core-dangerous-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:funny": {
+  "file": "core-funny-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:lucky": {
+  "file": "core-lucky-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:polite": {
+  "file": "core-polite-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:lazy": {
+  "file": "core-lazy-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:calm": {
+  "file": "core-calm-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:nervous": {
+  "file": "core-nervous-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:popular": {
+  "file": "core-popular-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:bored": {
+  "file": "core-bored-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:scared": {
+  "file": "core-scared-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:tidy": {
+  "file": "core-tidy-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:rough": {
+  "file": "core-rough-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:smooth": {
+  "file": "core-smooth-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:flat": {
+  "file": "core-flat-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:empty": {
+  "file": "core-empty-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:narrow": {
+  "file": "core-narrow-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:wide": {
+  "file": "core-wide-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:shallow": {
+  "file": "core-shallow-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:deep": {
+  "file": "core-deep-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:thick": {
+  "file": "core-thick-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:thin": {
+  "file": "core-thin-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:huge": {
+  "file": "core-huge-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:tiny": {
+  "file": "core-tiny-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:careful": {
+  "file": "core-careful-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:crowd": {
+  "file": "core-crowd-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:repair": {
+  "file": "core-repair-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:fix": {
+  "file": "core-fix-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:prize": {
+  "file": "core-prize-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:wrap": {
+  "file": "core-wrap-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:pack": {
+  "file": "core-pack-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:arm": {
+  "file": "core-arm-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:reach": {
+  "file": "core-reach-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:patient": {
+  "file": "core-patient-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:shop": {
+  "file": "core-shop-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:forecast": {
+  "file": "core-forecast-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:wind": {
+  "file": "core-wind-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:windy": {
+  "file": "core-windy-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:blow": {
+  "file": "core-blow-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:typhoon": {
+  "file": "core-typhoon-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:hit": {
+  "file": "core-hit-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:flood": {
+  "file": "core-flood-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:rescue": {
+  "file": "core-rescue-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:thunder": {
+  "file": "core-thunder-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:lightning": {
+  "file": "core-lightning-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:fog": {
+  "file": "core-fog-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:foggy": {
+  "file": "core-foggy-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:earthquake": {
+  "file": "core-earthquake-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:volcano": {
+  "file": "core-volcano-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:storm": {
+  "file": "core-storm-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:stormy": {
+  "file": "core-stormy-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:land": {
+  "file": "core-land-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:island": {
+  "file": "core-island-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:desert": {
+  "file": "core-desert-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:valley": {
+  "file": "core-valley-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:tropical": {
+  "file": "core-tropical-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:save": {
+  "file": "core-save-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:poisonous": {
+  "file": "core-poisonous-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:pollute": {
+  "file": "core-pollute-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:garbage": {
+  "file": "core-garbage-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:trash": {
+  "file": "core-trash-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:electricity": {
+  "file": "core-electricity-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:electric": {
+  "file": "core-electric-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:burn": {
+  "file": "core-burn-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:fossil": {
+  "file": "core-fossil-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:solar": {
+  "file": "core-solar-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:sun": {
+  "file": "core-sun-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:greenhouse": {
+  "file": "core-greenhouse-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:proud": {
+  "file": "core-proud-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:famous": {
+  "file": "core-famous-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:judge": {
+  "file": "core-judge-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:luggage": {
+  "file": "core-luggage-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:raw": {
+  "file": "core-raw-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:bear": {
+  "file": "core-bear-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:hurry": {
+  "file": "core-hurry-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:protect": {
+  "file": "core-protect-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:face": {
+  "file": "core-face-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:head": {
+  "file": "core-head-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:train": {
+  "file": "core-train-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:disappear": {
+  "file": "core-disappear-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:science": {
+  "file": "core-science-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:measure": {
+  "file": "core-measure-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:weigh": {
+  "file": "core-weigh-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:wheel": {
+  "file": "core-wheel-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:plant": {
+  "file": "core-plant-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:awake": {
+  "file": "core-awake-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:wake": {
+  "file": "core-wake-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:asleep": {
+  "file": "core-asleep-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:sleep": {
+  "file": "core-sleep-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:tight": {
+  "file": "core-tight-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:loose": {
+  "file": "core-loose-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:gift": {
+  "file": "core-gift-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:float": {
+  "file": "core-float-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:sink": {
+  "file": "core-sink-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:melt": {
+  "file": "core-melt-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:hide": {
+  "file": "core-hide-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:quarter": {
+  "file": "core-quarter-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:fold": {
+  "file": "core-fold-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:tie": {
+  "file": "core-tie-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:bend": {
+  "file": "core-bend-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:press": {
+  "file": "core-press-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:stretch": {
+  "file": "core-stretch-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:bury": {
+  "file": "core-bury-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:absorb": {
+  "file": "core-absorb-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:pour": {
+  "file": "core-pour-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:book": {
+  "file": "core-book-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:share": {
+  "file": "core-share-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:throw": {
+  "file": "core-throw-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:elderly": {
+  "file": "core-elderly-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:letter": {
+  "file": "core-letter-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:lead": {
+  "file": "core-lead-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:jealous": {
+  "file": "core-jealous-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:goal": {
+  "file": "core-goal-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:laboratory": {
+  "file": "core-laboratory-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:table": {
+  "file": "core-table-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:equal": {
+  "file": "core-equal-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:fever": {
+  "file": "core-fever-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:hurt": {
+  "file": "core-hurt-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:medicine": {
+  "file": "core-medicine-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:muscle": {
+  "file": "core-muscle-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:stomach": {
+  "file": "core-stomach-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:stomachache": {
+  "file": "core-stomachache-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:foot": {
+  "file": "core-foot-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:leg": {
+  "file": "core-leg-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:tooth": {
+  "file": "core-tooth-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:identical": {
+  "file": "core-identical-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:lung": {
+  "file": "core-lung-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:exercise": {
+  "file": "core-exercise-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:cough": {
+  "file": "core-cough-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:sneeze": {
+  "file": "core-sneeze-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:brain": {
+  "file": "core-brain-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:donate": {
+  "file": "core-donate-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:blood": {
+  "file": "core-blood-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:heel": {
+  "file": "core-heel-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:fill": {
+  "file": "core-fill-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:crowded": {
+  "file": "core-crowded-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:graduate": {
+  "file": "core-graduate-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:compete": {
+  "file": "core-compete-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:count": {
+  "file": "core-count-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:reflect": {
+  "file": "core-reflect-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:shout": {
+  "file": "core-shout-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:cry": {
+  "file": "core-cry-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:collapse": {
+  "file": "core-collapse-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:temple": {
+  "file": "core-temple-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:museum": {
+  "file": "core-museum-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:statue": {
+  "file": "core-statue-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:treasure": {
+  "file": "core-treasure-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:fork": {
+  "file": "core-fork-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:tail": {
+  "file": "core-tail-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:draw": {
+  "file": "core-draw-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:short": {
+  "file": "core-short-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:thief": {
+  "file": "core-thief-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:prison": {
+  "file": "core-prison-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:party": {
+  "file": "core-party-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:explode": {
+  "file": "core-explode-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:market": {
+  "file": "core-market-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:low": {
+  "file": "core-low-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:harvest": {
+  "file": "core-harvest-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:wheat": {
+  "file": "core-wheat-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:farm": {
+  "file": "core-farm-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:seed": {
+  "file": "core-seed-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:deliver": {
+  "file": "core-deliver-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:squeeze": {
+  "file": "core-squeeze-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:flower": {
+  "file": "core-flower-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:rot": {
+  "file": "core-rot-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:sour": {
+  "file": "core-sour-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:bitter": {
+  "file": "core-bitter-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:whisper": {
+  "file": "core-whisper-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:apartment": {
+  "file": "core-apartment-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:needle": {
+  "file": "core-needle-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:string": {
+  "file": "core-string-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:greet": {
+  "file": "core-greet-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:messy": {
+  "file": "core-messy-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:dirty": {
+  "file": "core-dirty-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:surgeon": {
+  "file": "core-surgeon-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:virus": {
+  "file": "core-virus-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:germ": {
+  "file": "core-germ-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:ambulance": {
+  "file": "core-ambulance-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:vaccine": {
+  "file": "core-vaccine-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:pill": {
+  "file": "core-pill-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:thumb": {
+  "file": "core-thumb-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:finger": {
+  "file": "core-finger-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:chest": {
+  "file": "core-chest-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:crawl": {
+  "file": "core-crawl-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:glacier": {
+  "file": "core-glacier-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:iceberg": {
+  "file": "core-iceberg-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:drought": {
+  "file": "core-drought-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:hungry": {
+  "file": "core-hungry-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:equator": {
+  "file": "core-equator-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:horizon": {
+  "file": "core-horizon-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:bite": {
+  "file": "core-bite-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:bee": {
+  "file": "core-bee-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:planet": {
+  "file": "core-planet-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:star": {
+  "file": "core-star-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:universe": {
+  "file": "core-universe-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:satellite": {
+  "file": "core-satellite-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:orbit": {
+  "file": "core-orbit-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:astronaut": {
+  "file": "core-astronaut-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:square": {
+  "file": "core-square-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:diameter": {
+  "file": "core-diameter-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:steam": {
+  "file": "core-steam-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:long": {
+  "file": "core-long-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:high": {
+  "file": "core-high-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:dissolve": {
+  "file": "core-dissolve-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:ship": {
+  "file": "core-ship-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:transparent": {
+  "file": "core-transparent-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:tourist": {
+  "file": "core-tourist-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:chase": {
+  "file": "core-chase-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:puzzle": {
+  "file": "core-puzzle-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:fragile": {
+  "file": "core-fragile-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:rusty": {
+  "file": "core-rusty-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:slippery": {
+  "file": "core-slippery-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:castle": {
+  "file": "core-castle-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:flame": {
+  "file": "core-flame-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:cave": {
+  "file": "core-cave-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:ruin": {
+  "file": "core-ruin-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:detective": {
+  "file": "core-detective-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:fast": {
+  "file": "core-fast-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:portrait": {
+  "file": "core-portrait-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:surround": {
+  "file": "core-surround-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:dinosaur": {
+  "file": "core-dinosaur-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:leak": {
+  "file": "core-leak-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:splash": {
+  "file": "core-splash-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:cattle": {
+  "file": "core-cattle-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:feather": {
+  "file": "core-feather-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:insect": {
+  "file": "core-insect-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:nest": {
+  "file": "core-nest-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:bush": {
+  "file": "core-bush-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:root": {
+  "file": "core-root-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:bloom": {
+  "file": "core-bloom-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:ripe": {
+  "file": "core-ripe-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:soil": {
+  "file": "core-soil-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:mud": {
+  "file": "core-mud-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:reef": {
+  "file": "core-reef-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:herd": {
+  "file": "core-herd-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:close": {
+  "file": "core-close-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:roll": {
+  "file": "core-roll-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:steep": {
+  "file": "core-steep-adjective.svg",
+  "kind": "svg"
+ },
+ "eigo:tongue": {
+  "file": "core-tongue-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:fingerprint": {
+  "file": "core-fingerprint-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:migrate": {
+  "file": "core-migrate-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:assemble": {
+  "file": "core-assemble-verb.svg",
+  "kind": "svg"
+ },
+ "eigo:money": {
+  "file": "core-money-noun.svg",
+  "kind": "svg"
+ },
+ "eigo:net": {
+  "file": "core-net-noun.svg",
+  "kind": "svg"
+ }
+}

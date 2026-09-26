@@ -165,4 +165,15 @@ export {
 `;
 writeFileSync(join(OUT, 'gas.js'), gas);
 
-console.log('built', PAGE_FILES.length, 'pages and gas.js');
+// ---------------------------------------------------------------
+// 大学受験モード（英単語・古文・歴史）の図。data/figures-juken*.json をまとめる。
+// キーは「科目:語」— eigo:<英単語（小文字）> / kobun:<番号> / rekishi:<番号>
+import { readdirSync } from 'node:fs';
+const DATA = join(here, 'data');
+const jukenFigs = Object.assign({}, ...readdirSync(DATA)
+  .filter(f => /^figures-juken[\w-]*\.json$/.test(f)).sort()
+  .map(f => JSON.parse(readFileSync(join(DATA, f), 'utf8'))));
+writeFileSync(join(OUT, 'juken-figs.js'),
+  '// 自動生成（build.mjs）。編集しないこと。\nexport const JUKEN_FIGS = ' + JSON.stringify(jukenFigs) + ';\n');
+
+console.log('built', PAGE_FILES.length, 'pages, gas.js and', Object.keys(jukenFigs).length, 'juken figures');

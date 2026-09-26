@@ -1,0 +1,39 @@
+<style>
+  /* 問題の図（英単語・古文・歴史の 1 人用画面） */
+  .q-fig{ display:flex; justify-content:center; margin:6px 0 4px; }
+  .q-fig[hidden]{ display:none; }
+  .q-fig img{ max-width:min(100%, 420px); max-height:220px; object-fit:contain; border-radius:8px;
+    background:#fff; border:1px solid var(--line); padding:4px; }
+  @media (max-width:600px){ .q-fig img{ max-height:140px; } }
+  body.kb-open .q-fig img{ max-height:120px; }
+</style>
+<script>
+// ===============================================================
+// JukenFigure.html
+// 大学受験モードの 1 人用画面（英単語・古文・歴史）で、出題中の語に図があれば問題文の上に出す。
+// 図はサーバーが語に付けて送ってくる（w.img。Cloudflare 版の worker.js / data/figures-juken*.json）。
+// 各画面の出題処理には手を入れず、問題文（#prompt）が書き換わるのを見て、今の語の図に差し替える。
+// ===============================================================
+(function (document) {
+  const prompt = document.getElementById('prompt');
+  if (!prompt) return;
+  const box = document.createElement('div');
+  box.className = 'q-fig';
+  box.hidden = true;
+  const img = document.createElement('img');
+  img.alt = '問題の図';
+  box.appendChild(img);
+  prompt.parentNode.insertBefore(box, prompt);
+
+  const game = () => window.juken || window.kobun || window.rekishi || null;
+  function sync() {
+    const g = game();
+    const w = g && g.words && g.words[g.index];
+    const src = w && w.img;
+    if (!src) { box.hidden = true; img.removeAttribute('src'); return; }
+    if (img.getAttribute('src') !== src) img.src = src;
+    box.hidden = false;
+  }
+  new MutationObserver(sync).observe(prompt, { childList: true, characterData: true, subtree: true });
+}(document));
+</script>
