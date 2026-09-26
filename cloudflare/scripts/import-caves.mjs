@@ -1,6 +1,7 @@
 // ===============================================================
 // import-caves.mjs
-// 勉強ダンジョンズ（EnglishSpelunker）の洞窟の問題を、D1 に入れる SQL にする。
+// 勉強ダンジョンズ（EnglishSpelunker）の洞窟の問題と、このリポジトリで作った問題集
+// （data/sets/）を、D1 に入れる SQL にする。
 //
 //   node scripts/import-caves.mjs ~/program/StudyQuest-wt/R/data/caves > caves.local.sql
 //   npx wrangler d1 execute anki-typing --remote --file caves.local.sql
@@ -15,7 +16,7 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { CAVES } from '../src/sets.js';
+import { CAVES, OWN_SETS } from '../src/sets.js';
 
 const root = process.argv[2];
 if (!root) {
@@ -94,5 +95,30 @@ for (const cave of CAVES) {
   console.error(`${cave.id}: ${qs.length} 問`);
   total += qs.length;
 }
+// このリポジトリで作った問題集（data/sets/<id>.json）。確かめ済み（review: verified）の問題だけ入れる。
+// reading（打つ文字）は問題ごとに書いてある
+for (const set of OWN_SETS) {
+  const file = join(here, '..', 'data', 'sets', set.id + '.json');
+  let qs;
+  try { qs = JSON.parse(readFileSync(file, 'utf8')); } catch (e) { console.error(`${set.id}: ファイルが無いので飛ばします`); continue; }
+  qs = qs.filter(q => q.review === 'verified');
+  out.push(`DELETE FROM problems WHERE src = ${sql(set.id)};`);
+  for (const q of qs) {
+    const ans = typeable(String(q.reading || ''));
+    if (!ans) throw new Error(q.id + ' の打つ文字が空です: ' + q.answer);
+    const row = {
+      kbn: set.id, src: set.id, qid: q.id, level: q.level,
+      free: q.level <= FREE_MAX_LEVEL ? 1 : 0,
+      que: esc(q.prompt), kan: q.answer, ans,
+      img: FIGURES[q.id] ? 'fig/' + FIGURES[q.id].file : '',
+      note: [q.explanation || '', FIGURES[q.id] ? credit(FIGURES[q.id]) : ''].filter(Boolean).join('\n')
+    };
+    const cols = Object.keys(row);
+    out.push(`INSERT INTO problems (${cols.join(', ')}) VALUES (${cols.map(c => sql(row[c])).join(', ')});`);
+  }
+  console.error(`${set.id}: ${qs.length} 問`);
+  total += qs.length;
+}
+
 process.stdout.write(out.join('\n') + '\n');
 console.error(`合計 ${total} 問を書き出しました`);

@@ -1,0 +1,2442 @@
+[
+ {
+  "id": "koko-kokugo-0001",
+  "level": 1,
+  "category": "漢字の読み",
+  "prompt": "「朝の空気がとても新鮮だ。」の「新鮮」の読みは？",
+  "answer": "新鮮",
+  "reading": "しんせん",
+  "explanation": "「新しくて生き生きしている」という意味だよ。「鮮」は「あざやか」とも読むんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0002",
+  "level": 1,
+  "category": "漢字の読み",
+  "prompt": "「祖母から小包が届く。」の「届く」の読みは？",
+  "answer": "届く",
+  "reading": "とどく",
+  "explanation": "「届」の訓読みは「とど（く）」だよ。「届ける」も同じ読み方なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0003",
+  "level": 1,
+  "category": "漢字の読み",
+  "prompt": "「毎朝、公園を散歩する。」の「散歩」の読みは？",
+  "answer": "散歩",
+  "reading": "さんぽ",
+  "explanation": "「歩」は「ぽ」と半濁音になるよ。「徒歩（とほ）」とくらべてみよう。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0004",
+  "level": 1,
+  "category": "漢字の読み",
+  "prompt": "「今日は快晴で気持ちがいい。」の「快晴」の読みは？",
+  "answer": "快晴",
+  "reading": "かいせい",
+  "explanation": "雲がほとんどない、よく晴れた天気のことだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0005",
+  "level": 1,
+  "category": "漢字の読み",
+  "prompt": "「授業の後で先生に質問する。」の「質問」の読みは？",
+  "answer": "質問",
+  "reading": "しつもん",
+  "explanation": "「質」は「しち」と読む言葉（質屋）もあるけど、ここは「しつ」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0006",
+  "level": 1,
+  "category": "漢字の読み",
+  "prompt": "「友達との約束を守る。」の「約束」の読みは？",
+  "answer": "約束",
+  "reading": "やくそく",
+  "explanation": "「束」は訓読みだと「たば」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0007",
+  "level": 1,
+  "category": "漢字の読み",
+  "prompt": "「弟の成長を家族で喜ぶ。」の「喜ぶ」の読みは？",
+  "answer": "喜ぶ",
+  "reading": "よろこぶ",
+  "explanation": "送りがなは「ぶ」だけだよ。「喜」は音読みで「き」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0008",
+  "level": 1,
+  "category": "漢字の読み",
+  "prompt": "「体育館でバスケットボールの練習をする。」の「練習」の読みは？",
+  "answer": "練習",
+  "reading": "れんしゅう",
+  "explanation": "「習」は「しゅう」と読むよ。くり返して身につけることなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0009",
+  "level": 1,
+  "category": "漢字の読み",
+  "prompt": "「観光客に駅までの道を案内する。」の「案内」の読みは？",
+  "answer": "案内",
+  "reading": "あんない",
+  "explanation": "「内」は「ない」と読むよ。「内側（うちがわ）」の訓読みと区別しよう。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0010",
+  "level": 1,
+  "category": "漢字の読み",
+  "prompt": "「今朝は六時に起きた。」の「今朝」の読みは？",
+  "answer": "今朝",
+  "reading": "けさ",
+  "explanation": "特別な読み方（熟字訓）の代表だよ。「こんちょう」とはふつう読まないんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0011",
+  "level": 1,
+  "category": "漢字の読み",
+  "prompt": "「大人になったら世界を旅したい。」の「大人」の読みは？",
+  "answer": "大人",
+  "reading": "おとな",
+  "explanation": "熟字訓だよ。「だいにん」と読むのは料金表などの特別な場合なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0012",
+  "level": 1,
+  "category": "漢字の読み",
+  "prompt": "「自分の部屋をきれいに片付ける。」の「部屋」の読みは？",
+  "answer": "部屋",
+  "reading": "へや",
+  "explanation": "二字まとめて「へや」と読む熟字訓だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0013",
+  "level": 1,
+  "category": "漢字の読み",
+  "prompt": "「明るい声であいさつをする。」の「明るい」の読みは？",
+  "answer": "明るい",
+  "reading": "あかるい",
+  "explanation": "送りがなは「るい」だよ。音読みは「めい」「みょう」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0014",
+  "level": 1,
+  "category": "漢字の読み",
+  "prompt": "「重い荷物を二階へ運ぶ。」の「荷物」の読みは？",
+  "answer": "荷物",
+  "reading": "にもつ",
+  "explanation": "「物」は「もつ」と読むよ。「作物（さくもつ）」も同じなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0015",
+  "level": 1,
+  "category": "漢字の読み",
+  "prompt": "「店で季節の果物を買う。」の「果物」の読みは？",
+  "answer": "果物",
+  "reading": "くだもの",
+  "explanation": "熟字訓だよ。「かぶつ」とは読まないんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0016",
+  "level": 1,
+  "category": "ことわざ",
+  "prompt": "値打ちのわからない人に貴重なものを与えても、何の役にも立たないことを表す、身近な動物と昔のお金が出てくることわざは？",
+  "answer": "猫に小判",
+  "reading": "ねこにこばん",
+  "explanation": "「豚に真珠」も似た意味のことわざだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0017",
+  "level": 1,
+  "category": "ことわざ",
+  "prompt": "その道の名人でも、ときには失敗することがあるという意味の、木登りの得意な動物が出てくることわざは？",
+  "answer": "猿も木から落ちる",
+  "reading": "さるもきからおちる",
+  "explanation": "「弘法にも筆の誤り」「河童の川流れ」も同じ意味なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0018",
+  "level": 1,
+  "category": "ことわざ",
+  "prompt": "見て楽しむ風流より、実際に役立つもののほうを選ぶことを表すことわざは？",
+  "answer": "花より団子",
+  "reading": "はなよりだんご",
+  "explanation": "花見に行ってもお団子に夢中になる様子からきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0019",
+  "level": 1,
+  "category": "ことわざ",
+  "prompt": "つらくてもがまん強く続ければ、いつかは報われるという意味のことわざは？",
+  "answer": "石の上にも三年",
+  "reading": "いしのうえにもさんねん",
+  "explanation": "冷たい石でも三年座り続ければ温まる、というたとえなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0020",
+  "level": 1,
+  "category": "慣用句",
+  "prompt": "知り合いが多く、いろいろな方面につきあいがあることを表す慣用句は？",
+  "answer": "顔が広い",
+  "reading": "かおがひろい",
+  "explanation": "「顔」は人とのつながりやその人の評判を表すことがあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0021",
+  "level": 1,
+  "category": "慣用句",
+  "prompt": "秘密にしておくべきことを、ついほかの人に話してしまう性格を表す慣用句は？",
+  "answer": "口が軽い",
+  "reading": "くちがかるい",
+  "explanation": "反対に、秘密をしっかり守る人は「口がかたい」と言うんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0022",
+  "level": 1,
+  "category": "慣用句",
+  "prompt": "自分の弱点や欠点を言われて、聞くのがつらいことを表す慣用句は？",
+  "answer": "耳が痛い",
+  "reading": "みみがいたい",
+  "explanation": "体の痛みではなく、心にこたえる様子を表しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0023",
+  "level": 1,
+  "category": "四字熟語",
+  "prompt": "考え方や好みは人によってそれぞれちがう、という意味の四字熟語は？",
+  "answer": "十人十色",
+  "reading": "じゅうにんといろ",
+  "explanation": "「色」を「いろ」と訓読みするのがポイントだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0024",
+  "level": 1,
+  "category": "四字熟語",
+  "prompt": "一つのことをして、同時に二つの利益を得ることを表す、石を投げて鳥を落とすたとえから生まれた四字熟語は？",
+  "answer": "一石二鳥",
+  "reading": "いっせきにちょう",
+  "explanation": "一つの石で二羽の鳥を落とすたとえだよ。「一挙両得」も似た意味なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0025",
+  "level": 1,
+  "category": "ことわざ",
+  "prompt": "朝早く起きると、何かしら良いことがあるという意味のことわざは？",
+  "answer": "早起きは三文の徳",
+  "reading": "はやおきはさんもんのとく",
+  "explanation": "「三文」はわずかなお金のこと。「徳」は「得」と書くこともあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0026",
+  "level": 2,
+  "category": "漢字の読み",
+  "prompt": "「春になって気温が上昇する。」の「上昇」の読みは？",
+  "answer": "上昇",
+  "reading": "じょうしょう",
+  "explanation": "「昇」は「のぼる」とも読むよ。反対の意味の言葉は「下降」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0027",
+  "level": 2,
+  "category": "漢字の読み",
+  "prompt": "「地震などの災害に備える。」の「備える」の読みは？",
+  "answer": "備える",
+  "reading": "そなえる",
+  "explanation": "「供える（神仏にささげる）」と同じ読みだけど、意味がちがうよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0028",
+  "level": 2,
+  "category": "漢字の読み",
+  "prompt": "「真っ赤な夕日が海に沈む。」の「真っ赤」の読みは？",
+  "answer": "真っ赤",
+  "reading": "まっか",
+  "explanation": "常用漢字表の特別な読みだよ。「まっあか」ではないんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0029",
+  "level": 2,
+  "category": "漢字の読み",
+  "prompt": "「雲一つない真っ青な空が広がる。」の「真っ青」の読みは？",
+  "answer": "真っ青",
+  "reading": "まっさお",
+  "explanation": "特別な読み方だよ。「まっあお」ではなく「まっさお」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0030",
+  "level": 2,
+  "category": "漢字の読み",
+  "prompt": "「日本の伝統を次の世代へ受け継ぐ。」の「伝統」の読みは？",
+  "answer": "伝統",
+  "reading": "でんとう",
+  "explanation": "「統」は「すべる」とも読むよ。「伝頭」と書き間違えないでね。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0031",
+  "level": 2,
+  "category": "漢字の読み",
+  "prompt": "「姉の意見に賛成する。」の「賛成」の読みは？",
+  "answer": "賛成",
+  "reading": "さんせい",
+  "explanation": "反対の意味の言葉は「反対」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0032",
+  "level": 2,
+  "category": "漢字の読み",
+  "prompt": "「眼鏡をかけて新聞を読む。」の「眼鏡」の読みは？",
+  "answer": "眼鏡",
+  "reading": "めがね",
+  "explanation": "熟字訓だよ。「がんきょう」と読むこともあるけど、ふつうは「めがね」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0033",
+  "level": 2,
+  "category": "漢字の読み",
+  "prompt": "「両親が出かけたので一人で留守番をする。」の「留守」の読みは？",
+  "answer": "留守",
+  "reading": "るす",
+  "explanation": "「留」を「る」、「守」を「す」と読む特別な読み方だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0034",
+  "level": 2,
+  "category": "漢字の読み",
+  "prompt": "「デパートで迷子の子どもを保護する。」の「迷子」の読みは？",
+  "answer": "迷子",
+  "reading": "まいご",
+  "explanation": "特別な読みだよ。「めいし」とは読まないんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0035",
+  "level": 2,
+  "category": "漢字の読み",
+  "prompt": "「姉と二人で映画を見に行く。」の「二人」の読みは？",
+  "answer": "二人",
+  "reading": "ふたり",
+  "explanation": "熟字訓だよ。「一人（ひとり）」も同じ仲間なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0036",
+  "level": 2,
+  "category": "漢字の読み",
+  "prompt": "「二つの商品の値段を比べる。」の「比べる」の読みは？",
+  "answer": "比べる",
+  "reading": "くらべる",
+  "explanation": "音読みは「ひ」で、「比較（ひかく）」などに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0037",
+  "level": 2,
+  "category": "漢字の読み",
+  "prompt": "「険しい山道を一歩ずつ登る。」の「険しい」の読みは？",
+  "answer": "険しい",
+  "reading": "けわしい",
+  "explanation": "「険」は音読みで「けん」。「危険」の「険」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0038",
+  "level": 2,
+  "category": "漢字の読み",
+  "prompt": "「毎日の努力がついに実を結ぶ。」の「努力」の読みは？",
+  "answer": "努力",
+  "reading": "どりょく",
+  "explanation": "「努」は訓読みで「つと（める）」だよ。「力」は「りょく」と読むんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0039",
+  "level": 2,
+  "category": "漢字の読み",
+  "prompt": "「旅行の間、ペットを知人に預ける。」の「預ける」の読みは？",
+  "answer": "預ける",
+  "reading": "あずける",
+  "explanation": "「預金（よきん）」の「預」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0040",
+  "level": 2,
+  "category": "漢字の読み",
+  "prompt": "「七夕の夜に短冊を飾る。」の「七夕」の読みは？",
+  "answer": "七夕",
+  "reading": "たなばた",
+  "explanation": "熟字訓の代表だよ。「しちせき」と読むこともあるけど、ふつうは「たなばた」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0041",
+  "level": 2,
+  "category": "ことわざ",
+  "prompt": "何かをしようとすると思わぬ災難にあう、また思いがけない幸運にあうという意味のことわざは？",
+  "answer": "犬も歩けば棒に当たる",
+  "reading": "いぬもあるけばぼうにあたる",
+  "explanation": "もとは「災難にあう」意味だったけど、今は「幸運にあう」意味でも使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0042",
+  "level": 2,
+  "category": "ことわざ",
+  "prompt": "急ぐときほど、危ない近道より確実な遠回りを選んだほうが結局早い、という意味のことわざは？",
+  "answer": "急がば回れ",
+  "reading": "いそがばまわれ",
+  "explanation": "「急いては事を仕損じる」も似た教えなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0043",
+  "level": 2,
+  "category": "ことわざ",
+  "prompt": "いくらありがたい意見を聞かせても、まったく効き目がないことのたとえのことわざは？",
+  "answer": "馬の耳に念仏",
+  "reading": "うまのみみにねんぶつ",
+  "explanation": "「馬耳東風（ばじとうふう）」も同じ意味の四字熟語だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0044",
+  "level": 2,
+  "category": "慣用句",
+  "prompt": "扱いに困って、どうしたらよいかと手こずることを表す慣用句は？",
+  "answer": "手を焼く",
+  "reading": "てをやく",
+  "explanation": "「いたずらっ子に手を焼く」のように使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0045",
+  "level": 2,
+  "category": "慣用句",
+  "prompt": "悪い仲間や好ましくない仕事から抜けて、まじめな生活に戻ることを表す慣用句は？",
+  "answer": "足を洗う",
+  "reading": "あしをあらう",
+  "explanation": "よくない世界から離れるときに使う言葉なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0046",
+  "level": 2,
+  "category": "慣用句",
+  "prompt": "家族の活躍などが誇らしく、得意に思う気持ちを表す慣用句は？",
+  "answer": "鼻が高い",
+  "reading": "はながたかい",
+  "explanation": "反対に、自慢をくじかれることは「鼻を折る」と言うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0047",
+  "level": 2,
+  "category": "四字熟語",
+  "prompt": "一生に一度だけの出会いだと思って、その機会を大切にすることを表す四字熟語は？",
+  "answer": "一期一会",
+  "reading": "いちごいちえ",
+  "explanation": "茶道から生まれた言葉だよ。「一期」を「いっき」と読まないようにね。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0048",
+  "level": 2,
+  "category": "四字熟語",
+  "prompt": "自分で自分のしたことや作品をほめることを表す四字熟語は？",
+  "answer": "自画自賛",
+  "reading": "じがじさん",
+  "explanation": "自分の絵に自分でほめる言葉を書き入れることからきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0049",
+  "level": 2,
+  "category": "ことわざ",
+  "prompt": "わずかなものでも、積み重ねれば大きなものになるという意味のことわざは？",
+  "answer": "塵も積もれば山となる",
+  "reading": "ちりもつもればやまとなる",
+  "explanation": "小さな努力の積み重ねが大切、という教えだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0050",
+  "level": 2,
+  "category": "慣用句",
+  "prompt": "隠しごとをせず、本心を打ち明けて話すことを表す慣用句は？",
+  "answer": "腹を割る",
+  "reading": "はらをわる",
+  "explanation": "「腹」は心の中や本心を表すことがあるんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0051",
+  "level": 3,
+  "category": "漢字の読み",
+  "prompt": "「家族で夏休みの旅行の計画を練る。」の「練る」の読みは？",
+  "answer": "練る",
+  "reading": "ねる",
+  "explanation": "よく考えて内容を良くすることだよ。「練習」の「練」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0052",
+  "level": 3,
+  "category": "漢字の読み",
+  "prompt": "「雪が積もって、あたりの景色が一変した。」の「景色」の読みは？",
+  "answer": "景色",
+  "reading": "けしき",
+  "explanation": "常用漢字表の特別な読みだよ。「けいしょく」とは読まないんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0053",
+  "level": 3,
+  "category": "漢字の読み",
+  "prompt": "「大雨のあとで川の水が濁る。」の「濁る」の読みは？",
+  "answer": "濁る",
+  "reading": "にごる",
+  "explanation": "反対の意味は「澄む（すむ）」だよ。音読みは「だく」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0054",
+  "level": 3,
+  "category": "漢字の読み",
+  "prompt": "「誕生日会に友人を家へ招く。」の「招く」の読みは？",
+  "answer": "招く",
+  "reading": "まねく",
+  "explanation": "「招待（しょうたい）」の「招」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0055",
+  "level": 3,
+  "category": "漢字の読み",
+  "prompt": "「工場に新しい技術を導入する。」の「導入」の読みは？",
+  "answer": "導入",
+  "reading": "どうにゅう",
+  "explanation": "「導」は訓読みで「みちび（く）」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0056",
+  "level": 3,
+  "category": "漢字の読み",
+  "prompt": "「今年の冬はいつもより暖かい。」の「今年」の読みは？",
+  "answer": "今年",
+  "reading": "ことし",
+  "explanation": "熟字訓だよ。「こんねん」と読むこともあるけど、ふつうは「ことし」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0057",
+  "level": 3,
+  "category": "漢字の読み",
+  "prompt": "「肌ざわりのよい木綿のシャツを着る。」の「木綿」の読みは？",
+  "answer": "木綿",
+  "reading": "もめん",
+  "explanation": "特別な読みだよ。「きわた」と読むと植物の名前になってしまうんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0058",
+  "level": 3,
+  "category": "漢字の読み",
+  "prompt": "「さっきの話はただの冗談だよ。」の「冗談」の読みは？",
+  "answer": "冗談",
+  "reading": "じょうだん",
+  "explanation": "「冗」はむだ、あまりという意味の漢字なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0059",
+  "level": 3,
+  "category": "漢字の読み",
+  "prompt": "「最後の試合で全力を尽くす。」の「尽くす」の読みは？",
+  "answer": "尽くす",
+  "reading": "つくす",
+  "explanation": "音読みは「じん」で、「無尽蔵」などに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0060",
+  "level": 3,
+  "category": "漢字の読み",
+  "prompt": "「夏休みに家族で河原でバーベキューをする。」の「河原」の読みは？",
+  "answer": "河原",
+  "reading": "かわら",
+  "explanation": "特別な読みだよ。「川原」と書くこともあるんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0061",
+  "level": 3,
+  "category": "漢字の読み",
+  "prompt": "「夏休みに田舎の祖父母を訪ねる。」の「田舎」の読みは？",
+  "answer": "田舎",
+  "reading": "いなか",
+  "explanation": "熟字訓だよ。都会から離れた土地のことなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0062",
+  "level": 3,
+  "category": "漢字の読み",
+  "prompt": "「窓を開けて部屋を換気する。」の「換気」の読みは？",
+  "answer": "換気",
+  "reading": "かんき",
+  "explanation": "「換」は「かえる」とも読むよ。「交換」の「換」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0063",
+  "level": 3,
+  "category": "漢字の読み",
+  "prompt": "「自分の気持ちを素直に伝える。」の「素直」の読みは？",
+  "answer": "素直",
+  "reading": "すなお",
+  "explanation": "特別な読みの言葉だよ。「そちょく」とは読まないんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0064",
+  "level": 3,
+  "category": "漢字の読み",
+  "prompt": "「エアコンで部屋の温度を調節する。」の「調節」の読みは？",
+  "answer": "調節",
+  "reading": "ちょうせつ",
+  "explanation": "「節」は「ふし」とも読むよ。ほどよく整えるという意味なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0065",
+  "level": 3,
+  "category": "漢字の読み",
+  "prompt": "「夕日に照らされて波がきらきら輝く。」の「輝く」の読みは？",
+  "answer": "輝く",
+  "reading": "かがやく",
+  "explanation": "音読みは「き」で、「光輝（こうき）」などに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0066",
+  "level": 3,
+  "category": "慣用句",
+  "prompt": "とても忙しくて、だれでもいいから手伝いがほしいことを表す慣用句は？",
+  "answer": "猫の手も借りたい",
+  "reading": "ねこのてもかりたい",
+  "explanation": "役に立ちそうにない猫の手でも借りたいほど、ということなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0067",
+  "level": 3,
+  "category": "慣用句",
+  "prompt": "良いものを見分ける力がすぐれていることを表す慣用句は？",
+  "answer": "目が高い",
+  "reading": "めがたかい",
+  "explanation": "「お目が高い」のように、ほめ言葉として使うことが多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0068",
+  "level": 3,
+  "category": "慣用句",
+  "prompt": "人のために苦労をいとわず、力をつくすことを表す慣用句は？",
+  "answer": "骨を折る",
+  "reading": "ほねをおる",
+  "explanation": "本当に骨折するわけではないよ。「骨折り損」という言葉もあるんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0069",
+  "level": 3,
+  "category": "ことわざ",
+  "prompt": "回りくどくて効き目がないこと、思うようにいかずもどかしいことのたとえのことわざは？",
+  "answer": "二階から目薬",
+  "reading": "にかいからめぐすり",
+  "explanation": "二階から目薬をさしても、うまく目に入らないよね。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0070",
+  "level": 3,
+  "category": "ことわざ",
+  "prompt": "失敗しないように、前もって用心しておくことが大切だという意味の、歩くときに使う道具が出てくることわざは？",
+  "answer": "転ばぬ先の杖",
+  "reading": "ころばぬさきのつえ",
+  "explanation": "「備えあれば憂いなし」も似た意味だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0071",
+  "level": 3,
+  "category": "四字熟語",
+  "prompt": "油断は失敗のもとになるので、もっとも恐ろしい敵だという意味の四字熟語は？",
+  "answer": "油断大敵",
+  "reading": "ゆだんたいてき",
+  "explanation": "気のゆるみを戒める言葉なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0072",
+  "level": 3,
+  "category": "四字熟語",
+  "prompt": "大勢の人が、口をそろえて同じことを言うことを表す四字熟語は？",
+  "answer": "異口同音",
+  "reading": "いくどうおん",
+  "explanation": "「異」を「い」、「口」を「く」と読むのがポイント。「いこうどうおん」ではないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0073",
+  "level": 3,
+  "category": "ことわざ",
+  "prompt": "人から何度も話を聞くより、一度自分の目で見たほうがよくわかるという意味のことわざは？",
+  "answer": "百聞は一見にしかず",
+  "reading": "ひゃくぶんはいっけんにしかず",
+  "explanation": "中国の歴史書にある言葉がもとになっているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0074",
+  "level": 3,
+  "category": "故事成語",
+  "prompt": "話のつじつまが合わないことを表す、盾と矛の話から生まれた故事成語は？",
+  "answer": "矛盾",
+  "reading": "むじゅん",
+  "explanation": "何でも突き通す矛と、何でも防ぐ盾を同時に売った商人の話からきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0075",
+  "level": 3,
+  "category": "慣用句",
+  "prompt": "人が話している途中で、横から割りこんで口を出すことを表す慣用句は？",
+  "answer": "口を挟む",
+  "reading": "くちをはさむ",
+  "explanation": "「口を出す」とも言うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0076",
+  "level": 4,
+  "category": "漢字の読み",
+  "prompt": "「朗らかな笑顔であいさつをする。」の「朗らか」の読みは？",
+  "answer": "朗らか",
+  "reading": "ほがらか",
+  "explanation": "明るく晴れやかな様子のことだよ。音読みは「ろう」で「明朗」などに使うんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0077",
+  "level": 4,
+  "category": "漢字の読み",
+  "prompt": "「クラス全員の意見を尊重する。」の「尊重」の読みは？",
+  "answer": "尊重",
+  "reading": "そんちょう",
+  "explanation": "「重」は「じゅう」ではなく「ちょう」と読むよ。「貴重」も同じなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0078",
+  "level": 4,
+  "category": "漢字の読み",
+  "prompt": "「部屋の隅にほこりがたまる。」の「隅」の読みは？",
+  "answer": "隅",
+  "reading": "すみ",
+  "explanation": "音読みは「ぐう」で、「一隅（いちぐう）」などに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0079",
+  "level": 4,
+  "category": "漢字の読み",
+  "prompt": "「全国大会の優勝を目指して練習に励む。」の「励む」の読みは？",
+  "answer": "励む",
+  "reading": "はげむ",
+  "explanation": "「励ます（はげます）」も同じ漢字だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0080",
+  "level": 4,
+  "category": "漢字の読み",
+  "prompt": "「祖父はいつも穏やかな話し方をする。」の「穏やか」の読みは？",
+  "answer": "穏やか",
+  "reading": "おだやか",
+  "explanation": "「穏」の音読みは「おん」で、「平穏」などに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0081",
+  "level": 4,
+  "category": "漢字の読み",
+  "prompt": "「時間がないので細かい説明を省く。」の「省く」の読みは？",
+  "answer": "省く",
+  "reading": "はぶく",
+  "explanation": "「省みる（かえりみる）」という読み方もあるよ。送りがなで区別しよう。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0082",
+  "level": 4,
+  "category": "漢字の読み",
+  "prompt": "「将来の夢を作文に書く。」の「将来」の読みは？",
+  "answer": "将来",
+  "reading": "しょうらい",
+  "explanation": "「将」は「しょう」と読むよ。これから先のことなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0083",
+  "level": 4,
+  "category": "漢字の読み",
+  "prompt": "「転校先の新しい環境に慣れる。」の「慣れる」の読みは？",
+  "answer": "慣れる",
+  "reading": "なれる",
+  "explanation": "「習慣」の「慣」だよ。「馴れる」と書くこともあるんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0084",
+  "level": 4,
+  "category": "漢字の読み",
+  "prompt": "「今年は例年より梅雨入りが早い。」の「梅雨入り」の読みは？",
+  "answer": "梅雨入り",
+  "reading": "つゆいり",
+  "explanation": "「梅雨」は熟字訓で「つゆ」と読むよ。「ばいう」とも読むけど、「梅雨入り」「梅雨明け」はふつう「つゆ」で読むんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0085",
+  "level": 4,
+  "category": "漢字の読み",
+  "prompt": "「時計の針を正しい時刻に合わせる。」の「時計」の読みは？",
+  "answer": "時計",
+  "reading": "とけい",
+  "explanation": "常用漢字表の特別な読みだよ。「じけい」とは読まないんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0086",
+  "level": 4,
+  "category": "漢字の読み",
+  "prompt": "「彼は会議で率直に意見を述べた。」の「率直」の読みは？",
+  "answer": "率直",
+  "reading": "そっちょく",
+  "explanation": "「率」は「りつ」とも読むけど、ここは「そつ」。つまって「そっちょく」になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0087",
+  "level": 4,
+  "category": "漢字の読み",
+  "prompt": "「博物館で貴重な資料を展示する。」の「貴重」の読みは？",
+  "answer": "貴重",
+  "reading": "きちょう",
+  "explanation": "「重」を「ちょう」と読むよ。とても大切で価値があることなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0088",
+  "level": 4,
+  "category": "漢字の読み",
+  "prompt": "「長い文章の内容を百字に要約する。」の「要約」の読みは？",
+  "answer": "要約",
+  "reading": "ようやく",
+  "explanation": "「ようやく（やっと）」と同じ音だけど、意味はまったくちがうよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0089",
+  "level": 4,
+  "category": "漢字の読み",
+  "prompt": "「地域の人に情報を提供する。」の「提供」の読みは？",
+  "answer": "提供",
+  "reading": "ていきょう",
+  "explanation": "「供」は「きょう」と読むよ。「子供（こども）」の「ども」とは読み方がちがうんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0090",
+  "level": 4,
+  "category": "漢字の読み",
+  "prompt": "「兄は何事にも真面目に取り組む。」の「真面目」の読みは？",
+  "answer": "真面目",
+  "reading": "まじめ",
+  "explanation": "三字まとめて「まじめ」と読む熟字訓だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0091",
+  "level": 4,
+  "category": "慣用句",
+  "prompt": "思いがけないことに驚いて、目を大きく見開くことを表す慣用句は？",
+  "answer": "目を丸くする",
+  "reading": "めをまるくする",
+  "explanation": "驚きのあまり目がまんまるになる様子なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0092",
+  "level": 4,
+  "category": "慣用句",
+  "prompt": "対立している一方の味方をして、ひいきすることを表す慣用句は？",
+  "answer": "肩を持つ",
+  "reading": "かたをもつ",
+  "explanation": "「肩入れする」も同じような意味だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0093",
+  "level": 4,
+  "category": "慣用句",
+  "prompt": "相手のすぐれた腕前に、ひどく感心して驚くことを表す慣用句は？",
+  "answer": "舌を巻く",
+  "reading": "したをまく",
+  "explanation": "驚きのあまり言葉が出ない様子から生まれた言葉なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0095",
+  "level": 4,
+  "category": "ことわざ",
+  "prompt": "身近なことは、かえって気づきにくいという意味のことわざは？",
+  "answer": "灯台下暗し",
+  "reading": "とうだいもとくらし",
+  "explanation": "この「灯台」は昔の室内の明かりの台のこと。「下」を「もと」と読むのがポイントだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0097",
+  "level": 4,
+  "category": "故事成語",
+  "prompt": "よけいなもの、付け加えなくてもよいもののたとえの故事成語は？",
+  "answer": "蛇足",
+  "reading": "だそく",
+  "explanation": "蛇の絵に足まで描いて競争に負けた人の話からきているんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0098",
+  "level": 4,
+  "category": "四字熟語",
+  "prompt": "漢詩の構成から生まれた、文章や物語の組み立て方を表す四字熟語は？",
+  "answer": "起承転結",
+  "reading": "きしょうてんけつ",
+  "explanation": "始まり、受け、転換、まとめの四つの段階を表しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0099",
+  "level": 4,
+  "category": "四字熟語",
+  "prompt": "これまでに一度も聞いたことがないような、とても珍しいことを表す四字熟語は？",
+  "answer": "前代未聞",
+  "reading": "ぜんだいみもん",
+  "explanation": "「聞」を「もん」と読むのがポイント。「みぶん」ではないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0100",
+  "level": 4,
+  "category": "ことわざ",
+  "prompt": "何の苦労もしないで、思いがけない幸運が舞いこむことを表すことわざは？",
+  "answer": "棚からぼたもち",
+  "reading": "たなからぼたもち",
+  "explanation": "略して「たなぼた」とも言うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0101",
+  "level": 5,
+  "category": "漢字の読み",
+  "prompt": "「ボランティア活動で地域の発展に貢献する。」の「貢献」の読みは？",
+  "answer": "貢献",
+  "reading": "こうけん",
+  "explanation": "「献」は「けん」と読むよ。ある物事のために力をつくすことなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0102",
+  "level": 5,
+  "category": "漢字の読み",
+  "prompt": "「神社で厳かな式典が行われた。」の「厳か」の読みは？",
+  "answer": "厳か",
+  "reading": "おごそか",
+  "explanation": "「厳しい（きびしい）」と同じ漢字だよ。送りがなで読み分けよう。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0103",
+  "level": 5,
+  "category": "漢字の読み",
+  "prompt": "「図書館で昔の新聞を閲覧する。」の「閲覧」の読みは？",
+  "answer": "閲覧",
+  "reading": "えつらん",
+  "explanation": "本や資料を調べながら読むことだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0104",
+  "level": 5,
+  "category": "漢字の読み",
+  "prompt": "「山頂からの眺めは格別だった。」の「眺め」の読みは？",
+  "answer": "眺め",
+  "reading": "ながめ",
+  "explanation": "音読みは「ちょう」で、「眺望」などに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0105",
+  "level": 5,
+  "category": "漢字の読み",
+  "prompt": "「次の世代を担う若者を育てる。」の「担う」の読みは？",
+  "answer": "担う",
+  "reading": "になう",
+  "explanation": "「担ぐ（かつぐ）」という読み方もあるよ。送りがなで区別しよう。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0106",
+  "level": 5,
+  "category": "漢字の読み",
+  "prompt": "「自分の過ちを素直に認める。」の「過ち」の読みは？",
+  "answer": "過ち",
+  "reading": "あやまち",
+  "explanation": "「過ぎる（すぎる）」と同じ漢字だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0107",
+  "level": 5,
+  "category": "漢字の読み",
+  "prompt": "「旅行先でお土産を買って帰る。」の「土産」の読みは？",
+  "answer": "土産",
+  "reading": "みやげ",
+  "explanation": "熟字訓だよ。「どさん」と読むとその土地の産物という別の意味になるんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0108",
+  "level": 5,
+  "category": "漢字の読み",
+  "prompt": "「着物に合わせて白い足袋をはく。」の「足袋」の読みは？",
+  "answer": "足袋",
+  "reading": "たび",
+  "explanation": "熟字訓だよ。「旅（たび）」と同じ音なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0109",
+  "level": 5,
+  "category": "漢字の読み",
+  "prompt": "「彼の返事はいつも曖昧だ。」の「曖昧」の読みは？",
+  "answer": "曖昧",
+  "reading": "あいまい",
+  "explanation": "はっきりしない様子のことだよ。二字とも常用漢字なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0110",
+  "level": 5,
+  "category": "漢字の読み",
+  "prompt": "「事件の概要をニュースで伝える。」の「概要」の読みは？",
+  "answer": "概要",
+  "reading": "がいよう",
+  "explanation": "「概」は「がい」と読むよ。おおよその内容のことなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0111",
+  "level": 5,
+  "category": "漢字の読み",
+  "prompt": "「最終的な判断を専門家に委ねる。」の「委ねる」の読みは？",
+  "answer": "委ねる",
+  "reading": "ゆだねる",
+  "explanation": "「委員（いいん）」の「委」だけど、訓読みは「ゆだ（ねる）」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0112",
+  "level": 5,
+  "category": "漢字の読み",
+  "prompt": "「雨のため、運動会は延期になった。」の「延期」の読みは？",
+  "answer": "延期",
+  "reading": "えんき",
+  "explanation": "「延」は訓読みで「の（びる）」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0113",
+  "level": 5,
+  "category": "漢字の読み",
+  "prompt": "「年をとって体力の衰えを感じる。」の「衰え」の読みは？",
+  "answer": "衰え",
+  "reading": "おとろえ",
+  "explanation": "「衰退（すいたい）」の「衰」だよ。「哀（あわれ）」と形が似ているので注意しよう。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0114",
+  "level": 5,
+  "category": "漢字の読み",
+  "prompt": "「発表会で料理の腕前を披露する。」の「披露」の読みは？",
+  "answer": "披露",
+  "reading": "ひろう",
+  "explanation": "「疲労（ひろう）」と同じ音だけど、意味は「広く見せること」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0115",
+  "level": 5,
+  "category": "漢字の読み",
+  "prompt": "「台所をいつも清潔に保つ。」の「清潔」の読みは？",
+  "answer": "清潔",
+  "reading": "せいけつ",
+  "explanation": "「潔」は訓読みで「いさぎよ（い）」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0116",
+  "level": 5,
+  "category": "慣用句",
+  "prompt": "あることがきっかけで、急に物事の本当の姿がわかるようになることを表す慣用句は？",
+  "answer": "目から鱗が落ちる",
+  "reading": "めからうろこがおちる",
+  "explanation": "もとは聖書にある話からきた言葉なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0117",
+  "level": 5,
+  "category": "慣用句",
+  "prompt": "おたがいに気持ちがよく通じ合い、気が合うことを表す慣用句は？",
+  "answer": "馬が合う",
+  "reading": "うまがあう",
+  "explanation": "乗り手と馬の息がぴったり合う様子からきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0118",
+  "level": 5,
+  "category": "慣用句",
+  "prompt": "気持ちを引きしめ、姿勢や態度を正しくすることを表す慣用句は？",
+  "answer": "襟を正す",
+  "reading": "えりをただす",
+  "explanation": "服の乱れを直して身なりを整える様子からきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0119",
+  "level": 5,
+  "category": "ことわざ",
+  "prompt": "人に親切にすると、めぐりめぐって自分に良い報いが返ってくる、という意味のことわざは？",
+  "answer": "情けは人のためならず",
+  "reading": "なさけはひとのためならず",
+  "explanation": "「甘やかすのはその人のためにならない」という意味だと誤解されやすいので注意だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0120",
+  "level": 5,
+  "category": "故事成語",
+  "prompt": "一度してしまったことは、取り返しがつかないことを表す故事成語は？",
+  "answer": "覆水盆に返らず",
+  "reading": "ふくすいぼんにかえらず",
+  "explanation": "こぼれた水はお盆に戻らない、という中国の故事からきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0121",
+  "level": 5,
+  "category": "故事成語",
+  "prompt": "二者が争っているすきに、第三者が苦労せず利益を横取りすることを表す故事成語は？",
+  "answer": "漁夫の利",
+  "reading": "ぎょふのり",
+  "explanation": "鳥と貝が争っている間に漁師が両方とも捕まえた話からきているんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0122",
+  "level": 5,
+  "category": "四字熟語",
+  "prompt": "昔のことを学び、そこから新しい知識や考えを得ることを表す四字熟語は？",
+  "answer": "温故知新",
+  "reading": "おんこちしん",
+  "explanation": "『論語』にある言葉で、「故きを温ねて新しきを知る」と読み下すよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0123",
+  "level": 5,
+  "category": "四字熟語",
+  "prompt": "追いつめられて、どうにも逃れようのない状態を表す四字熟語は？",
+  "answer": "絶体絶命",
+  "reading": "ぜったいぜつめい",
+  "explanation": "「絶対」と書き間違えやすいので注意。正しくは「絶体」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0124",
+  "level": 5,
+  "category": "ことわざ",
+  "prompt": "自分がした悪い行いのせいで、自分自身が苦しむことを表すことわざは？",
+  "answer": "身から出た錆",
+  "reading": "みからでたさび",
+  "explanation": "刀の本体から出た錆が、刀そのものをだめにすることからきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0125",
+  "level": 5,
+  "category": "慣用句",
+  "prompt": "あとで問題にならないよう、前もって念を押しておくことを表す慣用句は？",
+  "answer": "釘を刺す",
+  "reading": "くぎをさす",
+  "explanation": "釘でしっかり固定しておく様子からきた言葉なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0126",
+  "level": 6,
+  "category": "漢字の読み",
+  "prompt": "「成績のいい友人をつい羨む。」の「羨む」の読みは？",
+  "answer": "羨む",
+  "reading": "うらやむ",
+  "explanation": "「羨望（せんぼう）」の「羨」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0127",
+  "level": 6,
+  "category": "漢字の読み",
+  "prompt": "「与えられた任務を最後まで遂行する。」の「遂行」の読みは？",
+  "answer": "遂行",
+  "reading": "すいこう",
+  "explanation": "「遂」は訓読みで「と（げる）」。文章を練り直す「推敲」と同じ音なので注意だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0128",
+  "level": 6,
+  "category": "漢字の読み",
+  "prompt": "「川が緩やかに流れていく。」の「緩やか」の読みは？",
+  "answer": "緩やか",
+  "reading": "ゆるやか",
+  "explanation": "「緩い（ゆるい）」と同じ漢字だよ。音読みは「かん」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0129",
+  "level": 6,
+  "category": "漢字の読み",
+  "prompt": "「世界記録に挑む。」の「挑む」の読みは？",
+  "answer": "挑む",
+  "reading": "いどむ",
+  "explanation": "「挑戦（ちょうせん）」の「挑」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0130",
+  "level": 6,
+  "category": "漢字の読み",
+  "prompt": "「夜道で怪しい人影を見かけた。」の「怪しい」の読みは？",
+  "answer": "怪しい",
+  "reading": "あやしい",
+  "explanation": "音読みは「かい」で、「怪物」などに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0131",
+  "level": 6,
+  "category": "漢字の読み",
+  "prompt": "「相手の申し出を承諾する。」の「承諾」の読みは？",
+  "answer": "承諾",
+  "reading": "しょうだく",
+  "explanation": "「諾」は「だく」と読むよ。相手の頼みを引き受けることなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0132",
+  "level": 6,
+  "category": "漢字の読み",
+  "prompt": "「言葉を巧みに操って人を説得する。」の「巧み」の読みは？",
+  "answer": "巧み",
+  "reading": "たくみ",
+  "explanation": "音読みは「こう」で、「巧妙」などに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0133",
+  "level": 6,
+  "category": "漢字の読み",
+  "prompt": "「駅前に開店したパン屋が繁盛している。」の「繁盛」の読みは？",
+  "answer": "繁盛",
+  "reading": "はんじょう",
+  "explanation": "「盛」を「じょう」と読むのがポイントだよ。「はんせい」ではないんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0134",
+  "level": 6,
+  "category": "漢字の読み",
+  "prompt": "「春が近づき、冬の寒さが和らぐ。」の「和らぐ」の読みは？",
+  "answer": "和らぐ",
+  "reading": "やわらぐ",
+  "explanation": "「和む（なごむ）」という読み方もあるよ。送りがなで読み分けよう。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0135",
+  "level": 6,
+  "category": "漢字の読み",
+  "prompt": "「若人の祭典として体育大会が開かれる。」の「若人」の読みは？",
+  "answer": "若人",
+  "reading": "わこうど",
+  "explanation": "常用漢字表の特別な読みだよ。若い人のことなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0136",
+  "level": 6,
+  "category": "漢字の読み",
+  "prompt": "「木々の芽吹きに春の息吹を感じる。」の「息吹」の読みは？",
+  "answer": "息吹",
+  "reading": "いぶき",
+  "explanation": "特別な読みの言葉だよ。「いきぶき」ではないんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0137",
+  "level": 6,
+  "category": "漢字の読み",
+  "prompt": "「大雨で川が氾濫するおそれがある。」の「氾濫」の読みは？",
+  "answer": "氾濫",
+  "reading": "はんらん",
+  "explanation": "水があふれ出ることだよ。「反乱」と同じ音なので注意しよう。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0138",
+  "level": 6,
+  "category": "漢字の読み",
+  "prompt": "「祖父母は山あいの村で農業を営む。」の「営む」の読みは？",
+  "answer": "営む",
+  "reading": "いとなむ",
+  "explanation": "「営業（えいぎょう）」の「営」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0139",
+  "level": 6,
+  "category": "漢字の読み",
+  "prompt": "「混乱した事態をようやく収拾する。」の「収拾」の読みは？",
+  "answer": "収拾",
+  "reading": "しゅうしゅう",
+  "explanation": "混乱をまとめることだよ。集めるという意味の「収集」と区別しよう。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0140",
+  "level": 6,
+  "category": "漢字の読み",
+  "prompt": "「春先の山では雪崩に注意が必要だ。」の「雪崩」の読みは？",
+  "answer": "雪崩",
+  "reading": "なだれ",
+  "explanation": "熟字訓だよ。「崩」は「くず（れる）」とも読むんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0141",
+  "level": 6,
+  "category": "慣用句",
+  "prompt": "本当の性格を隠して、おとなしそうに見せかけることを表す慣用句は？",
+  "answer": "猫をかぶる",
+  "reading": "ねこをかぶる",
+  "explanation": "おとなしい猫のふりをする、というイメージだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0142",
+  "level": 6,
+  "category": "慣用句",
+  "prompt": "調子にのって、つけあがることを表す慣用句は？",
+  "answer": "図に乗る",
+  "reading": "ずにのる",
+  "explanation": "「図」はもともと仏教の歌の調子を表す言葉だったといわれているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0143",
+  "level": 6,
+  "category": "慣用句",
+  "prompt": "たいしたことはないと、物事を軽く見て油断することを表す慣用句は？",
+  "answer": "高をくくる",
+  "reading": "たかをくくる",
+  "explanation": "「高」は数量の見積もりのこと。見積もりを軽くしてしまう様子なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0144",
+  "level": 6,
+  "category": "ことわざ",
+  "prompt": "すらすらとよどみなく話すことのたとえのことわざは？",
+  "answer": "立て板に水",
+  "reading": "たていたにみず",
+  "explanation": "立てかけた板に水を流すと勢いよく流れ落ちることからきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0145",
+  "level": 6,
+  "category": "ことわざ",
+  "prompt": "実力のある人ほど、それを見せびらかさないことを表すことわざは？",
+  "answer": "能ある鷹は爪を隠す",
+  "reading": "のうあるたかはつめをかくす",
+  "explanation": "すぐれた鷹は獲物をねらうまで爪を見せない、というたとえだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0146",
+  "level": 6,
+  "category": "故事成語",
+  "prompt": "心配する必要のないことを、あれこれ心配することを表す故事成語は？",
+  "answer": "杞憂",
+  "reading": "きゆう",
+  "explanation": "杞の国の人が「天が落ちてこないか」と心配した話からきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0147",
+  "level": 6,
+  "category": "故事成語",
+  "prompt": "逃げ場のない状況に自分を置いて、全力で物事に取り組むことを表す故事成語は？",
+  "answer": "背水の陣",
+  "reading": "はいすいのじん",
+  "explanation": "川を背にして陣をしき、兵士を必死に戦わせた漢の将軍の話からきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0149",
+  "level": 6,
+  "category": "四字熟語",
+  "prompt": "大人物は、若いころは目立たなくても年をとってから大成することを表す四字熟語は？",
+  "answer": "大器晩成",
+  "reading": "たいきばんせい",
+  "explanation": "大きなうつわは完成まで時間がかかる、という『老子』の言葉からきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0150",
+  "level": 6,
+  "category": "慣用句",
+  "prompt": "説明を聞いても納得できず、すっきりしないことを表す慣用句は？",
+  "answer": "腑に落ちない",
+  "reading": "ふにおちない",
+  "explanation": "「腑」は内臓のことで、心の中を表しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0151",
+  "level": 7,
+  "category": "漢字の読み",
+  "prompt": "「家具が何もない殺風景な部屋だ。」の「殺風景」の読みは？",
+  "answer": "殺風景",
+  "reading": "さっぷうけい",
+  "explanation": "「殺」を「さっ」と読むよ。おもしろみや飾りけがないことなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0152",
+  "level": 7,
+  "category": "漢字の読み",
+  "prompt": "「話し合いを円滑に進める。」の「円滑」の読みは？",
+  "answer": "円滑",
+  "reading": "えんかつ",
+  "explanation": "「滑」は「かつ」と読むよ。訓読みは「すべ（る）」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0153",
+  "level": 7,
+  "category": "漢字の読み",
+  "prompt": "「地域につくした人の功績をたたえる。」の「功績」の読みは？",
+  "answer": "功績",
+  "reading": "こうせき",
+  "explanation": "「功」は「こう」と読むよ。「年の功」の「功」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0154",
+  "level": 7,
+  "category": "漢字の読み",
+  "prompt": "「古い写真を見て幼い頃を懐かしむ。」の「懐かしむ」の読みは？",
+  "answer": "懐かしむ",
+  "reading": "なつかしむ",
+  "explanation": "音読みは「かい」で、「懐中電灯」などに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0155",
+  "level": 7,
+  "category": "漢字の読み",
+  "prompt": "「大きな岩が行く手を阻む。」の「阻む」の読みは？",
+  "answer": "阻む",
+  "reading": "はばむ",
+  "explanation": "「阻止（そし）」の「阻」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0156",
+  "level": 7,
+  "category": "漢字の読み",
+  "prompt": "「長年の目的をついに遂げる。」の「遂げる」の読みは？",
+  "answer": "遂げる",
+  "reading": "とげる",
+  "explanation": "「遂行（すいこう）」の「遂」の訓読みだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0157",
+  "level": 7,
+  "category": "漢字の読み",
+  "prompt": "「これまでの経験を踏まえて判断する。」の「踏まえて」の読みは？",
+  "answer": "踏まえて",
+  "reading": "ふまえて",
+  "explanation": "「踏む」と同じ漢字だよ。あることを根拠にするという意味なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0158",
+  "level": 7,
+  "category": "漢字の読み",
+  "prompt": "「新しい考え方が社会に浸透する。」の「浸透」の読みは？",
+  "answer": "浸透",
+  "reading": "しんとう",
+  "explanation": "「浸」は訓読みで「ひた（す）」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0159",
+  "level": 7,
+  "category": "漢字の読み",
+  "prompt": "「この作業は素人にはとても難しい。」の「素人」の読みは？",
+  "answer": "素人",
+  "reading": "しろうと",
+  "explanation": "常用漢字表の特別な読みだよ。反対の意味は「玄人（くろうと）」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0160",
+  "level": 7,
+  "category": "漢字の読み",
+  "prompt": "「彼の料理の腕前は玄人も驚くほどだ。」の「玄人」の読みは？",
+  "answer": "玄人",
+  "reading": "くろうと",
+  "explanation": "特別な読みだよ。その道の専門家のことなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0161",
+  "level": 7,
+  "category": "漢字の読み",
+  "prompt": "「大会の規則を厳密に守る。」の「厳密」の読みは？",
+  "answer": "厳密",
+  "reading": "げんみつ",
+  "explanation": "細かいところまで厳しく正確にすることだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0162",
+  "level": 7,
+  "category": "漢字の読み",
+  "prompt": "「時代が変わり、古い習慣が廃れる。」の「廃れる」の読みは？",
+  "answer": "廃れる",
+  "reading": "すたれる",
+  "explanation": "音読みは「はい」で、「廃止」などに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0163",
+  "level": 7,
+  "category": "漢字の読み",
+  "prompt": "「お礼の手紙を添えて品物を贈る。」の「添えて」の読みは？",
+  "answer": "添えて",
+  "reading": "そえて",
+  "explanation": "「添付（てんぷ）」の「添」の訓読みだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0164",
+  "level": 7,
+  "category": "漢字の読み",
+  "prompt": "「社会の秩序を保つ。」の「秩序」の読みは？",
+  "answer": "秩序",
+  "reading": "ちつじょ",
+  "explanation": "「秩」は「ちつ」と読むよ。物事の正しい順序やきまりのことなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0165",
+  "level": 7,
+  "category": "漢字の読み",
+  "prompt": "「どちらを選ぶべきか、心の葛藤に苦しむ。」の「葛藤」の読みは？",
+  "answer": "葛藤",
+  "reading": "かっとう",
+  "explanation": "「葛」はつる草の「くず」、「藤」は「ふじ」。つるがからみ合う様子からきているんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0166",
+  "level": 7,
+  "category": "慣用句",
+  "prompt": "心配ごとや不快なことがあって、顔をしかめることを表す慣用句は？",
+  "answer": "眉をひそめる",
+  "reading": "まゆをひそめる",
+  "explanation": "「眉」は音読みだと「び」だけど、ここでは「まゆ」と読むよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0167",
+  "level": 7,
+  "category": "慣用句",
+  "prompt": "遠慮や気づかいをする必要がなく、心から打ち解けられることを表す慣用句は？",
+  "answer": "気が置けない",
+  "reading": "きがおけない",
+  "explanation": "「油断できない」という意味だと誤解されやすいので注意しよう。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0168",
+  "level": 7,
+  "category": "慣用句",
+  "prompt": "相手の態度が冷たく、話を進めるきっかけさえつかめないことを表す慣用句は？",
+  "answer": "取り付く島もない",
+  "reading": "とりつくしまもない",
+  "explanation": "「取り付く暇もない」と言い間違えやすいので注意だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0169",
+  "level": 7,
+  "category": "ことわざ",
+  "prompt": "苦労しないで、たやすく多くの利益を得ることを表すことわざは？",
+  "answer": "濡れ手で粟",
+  "reading": "ぬれてであわ",
+  "explanation": "濡れた手で粟をつかむと、粒がたくさんくっついてくることからきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0171",
+  "level": 7,
+  "category": "故事成語",
+  "prompt": "他人のつまらない言動も、自分をみがく参考になるという意味の故事成語は？",
+  "answer": "他山の石",
+  "reading": "たざんのいし",
+  "explanation": "よその山の粗い石も、自分の宝石をみがく砥石になるという『詩経』の言葉からきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0172",
+  "level": 7,
+  "category": "故事成語",
+  "prompt": "詩や文章の表現を、何度も練り直すことを表す故事成語は？",
+  "answer": "推敲",
+  "reading": "すいこう",
+  "explanation": "「推す」か「敲く」かで悩んだ唐の詩人の話からきているよ。「遂行」と同じ音なので注意だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0173",
+  "level": 7,
+  "category": "四字熟語",
+  "prompt": "その場の状況に合わせて、適切に対応を変えることを表す四字熟語は？",
+  "answer": "臨機応変",
+  "reading": "りんきおうへん",
+  "explanation": "「応」を「おう」と読むよ。「臨」は「のぞ（む）」とも読むんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0174",
+  "level": 7,
+  "category": "四字熟語",
+  "prompt": "自分の考えを持たず、すぐに他人の意見に同調することを表す四字熟語は？",
+  "answer": "付和雷同",
+  "reading": "ふわらいどう",
+  "explanation": "雷が鳴ると万物がそれに応じて響く、というたとえからきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0175",
+  "level": 7,
+  "category": "慣用句",
+  "prompt": "隠していた本当の姿や悪事がばれることを表す、芝居で動物の役を演じる役者の話から生まれた慣用句は？",
+  "answer": "馬脚を現す",
+  "reading": "ばきゃくをあらわす",
+  "explanation": "芝居で馬の脚を演じる役者が姿を見せてしまうことからきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0176",
+  "level": 8,
+  "category": "漢字の読み",
+  "prompt": "「苦手な水泳を練習で克服する。」の「克服」の読みは？",
+  "answer": "克服",
+  "reading": "こくふく",
+  "explanation": "「克」は「こく」と読むよ。努力して困難に打ち勝つことなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0177",
+  "level": 8,
+  "category": "漢字の読み",
+  "prompt": "「作家が新しい小説を執筆する。」の「執筆」の読みは？",
+  "answer": "執筆",
+  "reading": "しっぴつ",
+  "explanation": "「執」を「しつ」と読み、つまって「しっぴつ」になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0178",
+  "level": 8,
+  "category": "漢字の読み",
+  "prompt": "「美術館で名画を鑑賞する。」の「鑑賞」の読みは？",
+  "answer": "鑑賞",
+  "reading": "かんしょう",
+  "explanation": "芸術を味わうことだよ。自然などを見て楽しむ「観賞」と区別しよう。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0179",
+  "level": 8,
+  "category": "漢字の読み",
+  "prompt": "「試合が中止になり、選手たちは落胆した。」の「落胆」の読みは？",
+  "answer": "落胆",
+  "reading": "らくたん",
+  "explanation": "がっかりすることだよ。「胆」は「きも」とも読むんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0180",
+  "level": 8,
+  "category": "漢字の読み",
+  "prompt": "「長年の懸案がやっと解決した。」の「懸案」の読みは？",
+  "answer": "懸案",
+  "reading": "けんあん",
+  "explanation": "前から問題になっていて、まだ解決していない事柄のことだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0181",
+  "level": 8,
+  "category": "漢字の読み",
+  "prompt": "「職人が一生をかけて技を究める。」の「究める」の読みは？",
+  "answer": "究める",
+  "reading": "きわめる",
+  "explanation": "「極める」「窮める」も同じ読みだけど、学問や技を深めるときは「究める」を使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0182",
+  "level": 8,
+  "category": "漢字の読み",
+  "prompt": "「人手が足りず、仕事が滞る。」の「滞る」の読みは？",
+  "answer": "滞る",
+  "reading": "とどこおる",
+  "explanation": "音読みは「たい」で、「渋滞」などに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0183",
+  "level": 8,
+  "category": "漢字の読み",
+  "prompt": "「科学雑誌の定期購読を申しこむ。」の「購読」の読みは？",
+  "answer": "購読",
+  "reading": "こうどく",
+  "explanation": "本や新聞などを買って読むことだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0184",
+  "level": 8,
+  "category": "漢字の読み",
+  "prompt": "「計画の是非を話し合う。」の「是非」の読みは？",
+  "answer": "是非",
+  "reading": "ぜひ",
+  "explanation": "「良いことと悪いこと」という意味だよ。「ぜひ来てね」の「ぜひ」と同じ漢字なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0185",
+  "level": 8,
+  "category": "漢字の読み",
+  "prompt": "「師走に入り、町が慌ただしくなる。」の「師走」の読みは？",
+  "answer": "師走",
+  "reading": "しわす",
+  "explanation": "陰暦十二月の呼び名で、熟字訓だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0186",
+  "level": 8,
+  "category": "漢字の読み",
+  "prompt": "「祭りの日に山車が町を練り歩く。」の「山車」の読みは？",
+  "answer": "山車",
+  "reading": "だし",
+  "explanation": "常用漢字表の特別な読みだよ。祭りで引いて歩く飾りの車なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0187",
+  "level": 8,
+  "category": "漢字の読み",
+  "prompt": "「祖母は白髪染めをやめることにした。」の「白髪染め」の読みは？",
+  "answer": "白髪染め",
+  "reading": "しらがぞめ",
+  "explanation": "「白髪」は熟字訓で「しらが」と読むよ。「はくはつ」とも読むけど、「白髪染め」は「しらがぞめ」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0188",
+  "level": 8,
+  "category": "漢字の読み",
+  "prompt": "「友人の頼みを快く引き受ける。」の「快く」の読みは？",
+  "answer": "快く",
+  "reading": "こころよく",
+  "explanation": "「快い（こころよい）」の連用形だよ。音読みは「かい」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0189",
+  "level": 8,
+  "category": "漢字の読み",
+  "prompt": "「相手チームの実力を侮る。」の「侮る」の読みは？",
+  "answer": "侮る",
+  "reading": "あなどる",
+  "explanation": "音読みは「ぶ」で、「侮辱」などに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0190",
+  "level": 8,
+  "category": "漢字の読み",
+  "prompt": "「集まりの趣旨を最初に説明する。」の「趣旨」の読みは？",
+  "answer": "趣旨",
+  "reading": "しゅし",
+  "explanation": "ある事をする目的やねらいのことだよ。「趣」は「おもむき」とも読むんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0191",
+  "level": 8,
+  "category": "慣用句",
+  "prompt": "すばらしいものにふれて、心の奥から深く感動することを表す慣用句は？",
+  "answer": "琴線に触れる",
+  "reading": "きんせんにふれる",
+  "explanation": "「琴線」は琴の糸のこと。「怒りを買う」という意味で使うのは誤りだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0192",
+  "level": 8,
+  "category": "慣用句",
+  "prompt": "うまい言い回しにだまされることを表す慣用句は？",
+  "answer": "口車に乗る",
+  "reading": "くちぐるまにのる",
+  "explanation": "「口車」は、うまく言いくるめる話しぶりのことだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0193",
+  "level": 8,
+  "category": "慣用句",
+  "prompt": "思い切れずに、ためらうことを表す慣用句は？",
+  "answer": "二の足を踏む",
+  "reading": "にのあしをふむ",
+  "explanation": "一歩目は出たのに二歩目で足踏みしてしまう様子からきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0194",
+  "level": 8,
+  "category": "ことわざ",
+  "prompt": "つまらないものでも、ないよりはましだという意味のことわざは？",
+  "answer": "枯れ木も山のにぎわい",
+  "reading": "かれきもやまのにぎわい",
+  "explanation": "自分をへりくだって言うときに使う言葉で、人に対して使うと失礼になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0195",
+  "level": 8,
+  "category": "故事成語",
+  "prompt": "人に疑われるようなまぎらわしい行動はしないほうがよい、という意味の、果物の木の下でのふるまいにたとえた故事成語は？",
+  "answer": "李下に冠を正さず",
+  "reading": "りかにかんむりをたださず",
+  "explanation": "すももの木の下で冠を直すと、実を盗むように見えることからきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0196",
+  "level": 8,
+  "category": "故事成語",
+  "prompt": "仲の悪い者どうしが、同じ場所に居合わせたり協力したりすることを表す故事成語は？",
+  "answer": "呉越同舟",
+  "reading": "ごえつどうしゅう",
+  "explanation": "対立していた呉と越の人が同じ舟に乗り合わせた話からきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0197",
+  "level": 8,
+  "category": "故事成語",
+  "prompt": "目先のちがいにとらわれて、結果が同じことに気づかないことを表す故事成語は？",
+  "answer": "朝三暮四",
+  "reading": "ちょうさんぼし",
+  "explanation": "猿に木の実を「朝三つ夕方四つ」と言ったら怒り、「朝四つ夕方三つ」と言ったら喜んだ話からきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0198",
+  "level": 8,
+  "category": "四字熟語",
+  "prompt": "自分に都合のよいように物事を進めたり、言ったりすることを表す四字熟語は？",
+  "answer": "我田引水",
+  "reading": "がでんいんすい",
+  "explanation": "自分の田んぼにだけ水を引き入れることからきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0199",
+  "level": 8,
+  "category": "四字熟語",
+  "prompt": "大切なことと、どうでもよいことを取りちがえることを表す四字熟語は？",
+  "answer": "本末転倒",
+  "reading": "ほんまつてんとう",
+  "explanation": "「本」は根本、「末」は先端のこと。それが逆になってしまう様子なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0200",
+  "level": 8,
+  "category": "四字熟語",
+  "prompt": "わずかな時間、短い期間のことを表す四字熟語は？",
+  "answer": "一朝一夕",
+  "reading": "いっちょういっせき",
+  "explanation": "「一朝一夕にはできない」のように、打ち消しの形で使うことが多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0201",
+  "level": 9,
+  "category": "漢字の読み",
+  "prompt": "「旅行の費用をおこづかいで賄う。」の「賄う」の読みは？",
+  "answer": "賄う",
+  "reading": "まかなう",
+  "explanation": "音読みは「わい」で、「賄賂（わいろ）」などに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0202",
+  "level": 9,
+  "category": "漢字の読み",
+  "prompt": "「災害にあった地域への寄付を募る。」の「募る」の読みは？",
+  "answer": "募る",
+  "reading": "つのる",
+  "explanation": "「募集（ぼしゅう）」の「募」の訓読みだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0203",
+  "level": 9,
+  "category": "漢字の読み",
+  "prompt": "「大声を出して場の雰囲気を損なう。」の「損なう」の読みは？",
+  "answer": "損なう",
+  "reading": "そこなう",
+  "explanation": "「損ねる（そこねる）」も同じ漢字だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0204",
+  "level": 9,
+  "category": "漢字の読み",
+  "prompt": "「古い家が並ぶ、風情のある町並み。」の「風情」の読みは？",
+  "answer": "風情",
+  "reading": "ふぜい",
+  "explanation": "「情」を「ぜい」と読む特別な読みだよ。「ふうじょう」ではないんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0206",
+  "level": 9,
+  "category": "漢字の読み",
+  "prompt": "「静かな神社の境内を散策する。」の「境内」の読みは？",
+  "answer": "境内",
+  "reading": "けいだい",
+  "explanation": "「境」を「けい」、「内」を「だい」と読む特別な読み方だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0207",
+  "level": 9,
+  "category": "漢字の読み",
+  "prompt": "「おたがいの貸し借りを相殺する。」の「相殺」の読みは？",
+  "answer": "相殺",
+  "reading": "そうさい",
+  "explanation": "「殺」を「さい」と読むのがポイント。「そうさつ」ではないんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0208",
+  "level": 9,
+  "category": "漢字の読み",
+  "prompt": "「木々のつぼみに春の兆しが見える。」の「兆し」の読みは？",
+  "answer": "兆し",
+  "reading": "きざし",
+  "explanation": "物事が起こりそうな前ぶれのことだよ。音読みは「ちょう」なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0209",
+  "level": 9,
+  "category": "漢字の読み",
+  "prompt": "「先生が生徒の自主的な行動を促す。」の「促す」の読みは？",
+  "answer": "促す",
+  "reading": "うながす",
+  "explanation": "「催促（さいそく）」の「促」の訓読みだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0210",
+  "level": 9,
+  "category": "漢字の読み",
+  "prompt": "「苦しい登山のすえ、ついに山の頂に立つ。」の「頂」の読みは？",
+  "answer": "頂",
+  "reading": "いただき",
+  "explanation": "山のいちばん高いところのことだよ。音読みは「ちょう」で、「頂上」に使うんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0211",
+  "level": 9,
+  "category": "漢字の読み",
+  "prompt": "「地図を読む前に凡例を確認する。」の「凡例」の読みは？",
+  "answer": "凡例",
+  "reading": "はんれい",
+  "explanation": "「凡」を「はん」と読むのがポイント。「ぼんれい」ではないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0212",
+  "level": 9,
+  "category": "漢字の読み",
+  "prompt": "「会議で新しい案に異論を唱える。」の「唱える」の読みは？",
+  "answer": "唱える",
+  "reading": "となえる",
+  "explanation": "「合唱（がっしょう）」の「唱」の訓読みだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0213",
+  "level": 9,
+  "category": "漢字の読み",
+  "prompt": "「資金不足で計画が頓挫する。」の「頓挫」の読みは？",
+  "answer": "頓挫",
+  "reading": "とんざ",
+  "explanation": "勢いよく進んでいた物事が、途中でだめになることだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0214",
+  "level": 9,
+  "category": "漢字の読み",
+  "prompt": "「休日は専ら読書をして過ごす。」の「専ら」の読みは？",
+  "answer": "専ら",
+  "reading": "もっぱら",
+  "explanation": "「専門（せんもん）」の「専」の訓読みだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0215",
+  "level": 9,
+  "category": "漢字の読み",
+  "prompt": "「母は体調をくずした祖母の身を案じる。」の「案じる」の読みは？",
+  "answer": "案じる",
+  "reading": "あんじる",
+  "explanation": "心配するという意味だよ。「案ずるより産むが易し」の「案ずる」も同じなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0216",
+  "level": 9,
+  "category": "慣用句",
+  "prompt": "不義理や面目ないことがあって、その人の家へ行きにくいことを表す慣用句は？",
+  "answer": "敷居が高い",
+  "reading": "しきいがたかい",
+  "explanation": "「高級で入りにくい」という意味で使うのは本来の意味ではないとされているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0217",
+  "level": 9,
+  "category": "ことわざ",
+  "prompt": "元気をなくして、しょんぼりしている様子のたとえのことわざは？",
+  "answer": "青菜に塩",
+  "reading": "あおなにしお",
+  "explanation": "青菜に塩をかけると、しおれてしまうことからきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0218",
+  "level": 9,
+  "category": "慣用句",
+  "prompt": "ひどく無愛想で、冷たくそっけない対応をすることを表す慣用句は？",
+  "answer": "木で鼻をくくる",
+  "reading": "きではなをくくる",
+  "explanation": "もとは「木で鼻をこくる（こする）」だったといわれているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0219",
+  "level": 9,
+  "category": "ことわざ",
+  "prompt": "中途半端で、何の役にも立たないことのたとえのことわざは？",
+  "answer": "帯に短したすきに長し",
+  "reading": "おびにみじかしたすきにながし",
+  "explanation": "帯にするには短く、たすきにするには長い布のたとえなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0220",
+  "level": 9,
+  "category": "故事成語",
+  "prompt": "苦労して学問にはげみ、その成果が表れることを表す故事成語は？",
+  "answer": "蛍雪の功",
+  "reading": "けいせつのこう",
+  "explanation": "蛍の光や雪明かりで本を読んで勉強した人の話からきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0221",
+  "level": 9,
+  "category": "故事成語",
+  "prompt": "最後に大切な部分を仕上げて、物事を完成させることを表す故事成語は？",
+  "answer": "画竜点睛",
+  "reading": "がりょうてんせい",
+  "explanation": "竜の絵に瞳を描き入れたら竜が天に昇った話からきているよ。「点睛」を「点晴」と書くのは誤りだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0222",
+  "level": 9,
+  "category": "四字熟語",
+  "prompt": "見かけはりっぱだが、中身がそれにともなわないことを表す四字熟語は？",
+  "answer": "羊頭狗肉",
+  "reading": "ようとうくにく",
+  "explanation": "羊の頭を看板に出して、実際は犬の肉を売ることからきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0223",
+  "level": 9,
+  "category": "四字熟語",
+  "prompt": "手がかりがないまま、あれこれやってみることを表す四字熟語は？",
+  "answer": "暗中模索",
+  "reading": "あんちゅうもさく",
+  "explanation": "暗やみの中で手さぐりで探す様子からきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0224",
+  "level": 9,
+  "category": "ことわざ",
+  "prompt": "だれでも身なりを整えれば、りっぱに見えるという意味のことわざは？",
+  "answer": "馬子にも衣装",
+  "reading": "まごにもいしょう",
+  "explanation": "「馬子」は馬を引いて人や荷物を運んだ人のこと。人をほめるときに使うと失礼になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0225",
+  "level": 9,
+  "category": "ことわざ",
+  "prompt": "困っているときに、ちょうど都合のよいことが起こることのたとえのことわざは？",
+  "answer": "渡りに船",
+  "reading": "わたりにふね",
+  "explanation": "川を渡ろうとしたときに、ちょうど船が来ることからきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0226",
+  "level": 10,
+  "category": "漢字の読み",
+  "prompt": "「もめごとを穏便に済ませる。」の「穏便」の読みは？",
+  "answer": "穏便",
+  "reading": "おんびん",
+  "explanation": "「便」を「びん」と読むのがポイント。「おんべん」ではないんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0227",
+  "level": 10,
+  "category": "漢字の読み",
+  "prompt": "「現場で工事の進捗を確認する。」の「進捗」の読みは？",
+  "answer": "進捗",
+  "reading": "しんちょく",
+  "explanation": "物事がはかどることだよ。「捗」は「はかど（る）」とも読むんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0228",
+  "level": 10,
+  "category": "漢字の読み",
+  "prompt": "「正月に家族で神社に詣でる。」の「詣でる」の読みは？",
+  "answer": "詣でる",
+  "reading": "もうでる",
+  "explanation": "「初詣（はつもうで）」の「詣」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0229",
+  "level": 10,
+  "category": "漢字の読み",
+  "prompt": "「選挙の候補者が各地を遊説する。」の「遊説」の読みは？",
+  "answer": "遊説",
+  "reading": "ゆうぜい",
+  "explanation": "「説」を「ぜい」と読む特別な読み方だよ。「ゆうせつ」ではないんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0230",
+  "level": 10,
+  "category": "漢字の読み",
+  "prompt": "「凸凹の道を自転車で走る。」の「凸凹」の読みは？",
+  "answer": "凸凹",
+  "reading": "でこぼこ",
+  "explanation": "常用漢字表の特別な読みだよ。「凸」は「とつ」、「凹」は「おう」とも読むんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0231",
+  "level": 10,
+  "category": "漢字の読み",
+  "prompt": "「ニュースで為替の相場を確認する。」の「為替」の読みは？",
+  "answer": "為替",
+  "reading": "かわせ",
+  "explanation": "常用漢字表の特別な読みだよ。現金を直接送らずにお金をやりとりするしくみのことなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0232",
+  "level": 10,
+  "category": "漢字の読み",
+  "prompt": "「人のために尽くして功徳を積む。」の「功徳」の読みは？",
+  "answer": "功徳",
+  "reading": "くどく",
+  "explanation": "「功」を「く」と読む仏教の言葉だよ。「こうとく」ではないんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0233",
+  "level": 10,
+  "category": "漢字の読み",
+  "prompt": "「寺の本堂から読経の声が響く。」の「読経」の読みは？",
+  "answer": "読経",
+  "reading": "どきょう",
+  "explanation": "「読」を「ど」、「経」を「きょう」と読むよ。「度胸」と同じ音なんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0234",
+  "level": 10,
+  "category": "漢字の読み",
+  "prompt": "「部活動を通して忍耐力を培う。」の「培う」の読みは？",
+  "answer": "培う",
+  "reading": "つちかう",
+  "explanation": "土をかけて植物を育てることから、能力などを養うという意味になったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0235",
+  "level": 10,
+  "category": "漢字の読み",
+  "prompt": "「由緒ある古い寺を訪ねる。」の「由緒」の読みは？",
+  "answer": "由緒",
+  "reading": "ゆいしょ",
+  "explanation": "「由」を「ゆい」、「緒」を「しょ」と読むよ。物事の起こりや歴史のことなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0236",
+  "level": 10,
+  "category": "漢字の読み",
+  "prompt": "「職務の怠慢を上司に指摘される。」の「怠慢」の読みは？",
+  "answer": "怠慢",
+  "reading": "たいまん",
+  "explanation": "なまけて、するべきことをしないことだよ。「怠」は「おこた（る）」とも読むんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0237",
+  "level": 10,
+  "category": "漢字の読み",
+  "prompt": "「町のあちこちに昔の面影が残る。」の「面影」の読みは？",
+  "answer": "面影",
+  "reading": "おもかげ",
+  "explanation": "「面」を「おも」と読むよ。記憶に残る姿やありさまのことなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0238",
+  "level": 10,
+  "category": "漢字の読み",
+  "prompt": "「創業者が会社の礎を築く。」の「礎」の読みは？",
+  "answer": "礎",
+  "reading": "いしずえ",
+  "explanation": "建物の土台の石のことだよ。音読みは「そ」で、「基礎」に使うんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0239",
+  "level": 10,
+  "category": "漢字の読み",
+  "prompt": "「温泉に入って一日の疲れを癒やす。」の「癒やす」の読みは？",
+  "answer": "癒やす",
+  "reading": "いやす",
+  "explanation": "「癒す」と書くこともあるけど、常用漢字表では「癒やす」と送るよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0240",
+  "level": 10,
+  "category": "漢字の読み",
+  "prompt": "「稚拙な文章を何度も書き直す。」の「稚拙」の読みは？",
+  "answer": "稚拙",
+  "reading": "ちせつ",
+  "explanation": "「稚」は「ち」、「拙」は「せつ」。幼くてへたなことだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0241",
+  "level": 10,
+  "category": "ことわざ",
+  "prompt": "前もってあれこれ心配するより、実際にやってみると意外にうまくいく、という意味のことわざは？",
+  "answer": "案ずるより産むが易し",
+  "reading": "あんずるよりうむがやすし",
+  "explanation": "出産は心配するより実際には案外たやすい、というたとえからきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0242",
+  "level": 10,
+  "category": "故事成語",
+  "prompt": "弟子が先生をこえるほどすぐれた人になることを、染料の色にたとえた『荀子』の一文で、「出藍の誉れ」のもとになった故事成語は？",
+  "answer": "青は藍より出でて藍より青し",
+  "reading": "あおはあいよりいでてあいよりあおし",
+  "explanation": "青い染料は藍という草から取るのに、藍よりも青い、という『荀子』の言葉だよ。「出藍の誉れ」とも言うんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0243",
+  "level": 10,
+  "category": "故事成語",
+  "prompt": "欠点がまったくなく、完全であることを表す故事成語は？",
+  "answer": "完璧",
+  "reading": "かんぺき",
+  "explanation": "傷のない宝玉「璧」を無事に持ち帰った話からきているよ。「完壁」と書くのは誤りなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0244",
+  "level": 10,
+  "category": "故事成語",
+  "prompt": "周りがすべて敵で、味方がいないことを表す故事成語は？",
+  "answer": "四面楚歌",
+  "reading": "しめんそか",
+  "explanation": "項羽が四方から故郷の楚の歌を聞き、楚の人々まで敵に降ったと嘆いた話からきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0245",
+  "level": 10,
+  "category": "故事成語",
+  "prompt": "危険をおかさなければ、大きな成功は得られないという意味の故事成語は？",
+  "answer": "虎穴に入らずんば虎子を得ず",
+  "reading": "こけつにいらずんばこじをえず",
+  "explanation": "虎の子をとるには虎のすむ穴に入るしかない、という話からきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0246",
+  "level": 10,
+  "category": "故事成語",
+  "prompt": "目的を果たすために、長い間苦労を重ねることを表す故事成語は？",
+  "answer": "臥薪嘗胆",
+  "reading": "がしんしょうたん",
+  "explanation": "薪の上に寝て、苦い胆をなめて復讐を誓った呉と越の王の話からきているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0247",
+  "level": 10,
+  "category": "四字熟語",
+  "prompt": "恥を恥とも思わず、ずうずうしいことを表す四字熟語は？",
+  "answer": "厚顔無恥",
+  "reading": "こうがんむち",
+  "explanation": "「顔の皮が厚い」ということ。「無知」と書き間違えないようにね。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0248",
+  "level": 10,
+  "category": "四字熟語",
+  "prompt": "周りの人を気にせず、自分勝手にふるまうことを表す四字熟語は？",
+  "answer": "傍若無人",
+  "reading": "ぼうじゃくぶじん",
+  "explanation": "「傍らに人無きが若し」と読み下すよ。「無」を「ぶ」と読むのがポイントなんだ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-kokugo-0249",
+  "level": 10,
+  "category": "四字熟語",
+  "prompt": "落ち着いていて、どんなことにも動じない様子を表す四字熟語は？",
+  "answer": "泰然自若",
+  "reading": "たいぜんじじゃく",
+  "explanation": "「若」を「じゃく」と読むよ。「自若」は落ち着いている様子なんだ。",
+  "review": "verified"
+ }
+]

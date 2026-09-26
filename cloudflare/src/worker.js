@@ -65,7 +65,7 @@ function withHead(html, title, viewport) {
 const JUKEN_ONLY = ['eigo', 'kobun', 'rekishi', 'versus'];
 
 // HTML の文字列か、よそへ回すときは Response を返す
-function renderPage(url, viewer) {
+function renderPage(url, viewer, available) {
   const route = String(url.searchParams.get('p') || url.pathname.replace(/^\/+|\/+$/g, '')).toLowerCase();
   const vars = { execUrl: '/', subject: '', subjectLabel: '', backRoute: '', autoMode: '', studySet: null,
                  jukenFull: viewer.juken };
@@ -95,6 +95,8 @@ function renderPage(url, viewer) {
   if (setKey) {
     vars.autoMode = AUTO_MODE_BY_ROUTE[route] || '';
     vars.studySet = Object.assign({ key: setKey }, STUDY_SETS[setKey], {
+      // 問題がまだ入っていない問題集はメニューに出さない
+      cats: STUDY_SETS[setKey].cats.filter(c => !available || available.has(c.kbn)),
       // ランキングに他の問題集の記録が混ざっても名前で出せるように
       labels: Object.fromEntries(Object.entries(CAT_BY_KBN).map(([k, c]) => [k, c.label]))
     });
@@ -196,6 +198,18 @@ async function callFunction(env, fn, args) {
   throw err;
 }
 
+// 問題が入っている問題集（kbn）。問題の入れ直しはまれなので、しばらく覚えておく
+let AVAILABLE_ = null, AVAILABLE_AT_ = 0;
+async function availableKbns(env) {
+  if (AVAILABLE_ && Date.now() - AVAILABLE_AT_ < 5 * 60 * 1000) return AVAILABLE_;
+  try {
+    const { results } = await env.DB.prepare('SELECT DISTINCT kbn FROM problems').all();
+    AVAILABLE_ = new Set(results.map(r => r.kbn));
+    AVAILABLE_AT_ = Date.now();
+  } catch (e) { /* 読めなければ全部出す */ }
+  return AVAILABLE_;
+}
+
 // タイピングの対戦。部屋番号ごとの Durable Object（自動マッチは待合室）へ回す
 function typingVersus(request, env, url, viewer) {
   if (request.headers.get('upgrade') !== 'websocket') return new Response('WebSocket で接続してください', { status: 426 });
@@ -268,7 +282,7 @@ export default {
       const pref = await env.DB.prepare('SELECT theme FROM user_prefs WHERE email = ?').bind(viewer.email).first();
       theme = pref ? pref.theme : '';
     }
-    const page = renderPage(url, viewer);
+    const page = renderPage(url, viewer, await availableKbns(env));
     if (page instanceof Response) return page;
     return new Response(decorate(page, viewer, env, theme), {
       headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store' }

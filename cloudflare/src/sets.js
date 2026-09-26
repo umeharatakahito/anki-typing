@@ -19,8 +19,22 @@ export const CAVES = [
   { id: 'phrases',        label: '会話フレーズ' },
 ];
 
+// このリポジトリで作った問題集（data/sets/<id>.json。作り方は data/sets/README.md）
+export const OWN_SETS = [
+  { id: 'koko-kokugo',          label: '国語（漢字・語句）' },
+  { id: 'koko-eigo',            label: '英語（中学英単語）' },
+  { id: 'daigaku-nengo-nihon',  label: '年号（日本史）' },
+  { id: 'daigaku-nengo-sekai',  label: '年号（世界史）' },
+  { id: 'daigaku-seibutsu',     label: '生物' },
+  { id: 'daigaku-kagaku',       label: '化学' },
+  { id: 'daigaku-chiri',        label: '地理' },
+  { id: 'daigaku-kokyo',        label: '公共（政治・経済）' },
+  { id: 'daigaku-kanbun',       label: '漢文' },
+  { id: 'daigaku-gendai',       label: '現代文（語彙）' },
+];
+
 const cave = id => {
-  const c = CAVES.find(c => c.id === id);
+  const c = CAVES.find(c => c.id === id) || OWN_SETS.find(c => c.id === id);
   return { kbn: c.id, label: c.label, levels: true };
 };
 
@@ -37,12 +51,16 @@ export const STUDY_SETS = {
   koko: {
     title: '高校受験',
     back: { href: '', label: 'トップ' },
-    cats: [cave('jh-social'), cave('jh-science')],
+    cats: [cave('jh-social'), cave('jh-science'), cave('koko-kokugo'), cave('koko-eigo')],
   },
   ichimon: {
-    title: '一問一答',
+    title: '大学受験 暗記科目',
     back: { href: '?p=juken', label: '大学受験' },
-    cats: [cave('jhistory'), cave('whistory')],
+    cats: [
+      cave('jhistory'), cave('whistory'), cave('daigaku-nengo-nihon'), cave('daigaku-nengo-sekai'),
+      cave('daigaku-seibutsu'), cave('daigaku-kagaku'), cave('daigaku-chiri'), cave('daigaku-kokyo'),
+      cave('daigaku-kanbun'), cave('daigaku-gendai'),
+    ],
   },
   english: {
     title: '英語',
