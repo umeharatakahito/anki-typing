@@ -412,6 +412,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
       this.scoreMultiplier = 1.0;
       this.problemsServed = 0;
       if (this.levelMode) this.resetLevels();
+      if (this.versusMode) this.vsPrepare();
 
       // HPバー色
       const bar = document.getElementById('hamachi-life-bar');
@@ -498,7 +499,11 @@ buildKanjiRuby: function (kanMixed, yomi) {
 
       // データ確認
       let card;
-      if (this.levelMode) {
+      if (this.versusMode) {
+        // 対戦：決まった問題を順に。打ち終えたら相手を待つ
+        card = this.vsNextCard();
+        if (!card) return this.vsLocalDone();
+      } else if (this.levelMode) {
         card = this.pickLevelCard();
         if (!card) return this.endGame(false);
       } else {
@@ -1414,9 +1419,17 @@ enableMenuNav(menuEl) {
   // ==========================
   window.addEventListener('keydown', (event) => {
     if (event.isComposing || event.key === 'Process') return;
-    if (!hamachi.playing || hamachi.paused || hamachi.awaitingNext) return;
+    if (!hamachi.playing || hamachi.paused) return;
 
     let key = event.key.toLowerCase();
+
+    // 最後の「ん」を n 1 回で打ち終えた直後の n は、「nn」と打つ癖の 2 つ目なので読み捨てる
+    if (hamachi._swallowN) {
+      const recent = Date.now() - hamachi._swallowN < 1500;
+      hamachi._swallowN = 0;
+      if (key === 'n' && recent) return;
+    }
+    if (hamachi.awaitingNext) return;
 
     // 画面上キーボードの点灯
     if (key.length === 1) {
@@ -1457,9 +1470,13 @@ enableMenuNav(menuEl) {
         idx1++; idx2 = 0; temp = '';
         skipAutoChunks();
         hamachi.updateInputDisplay();
+        // 対戦の進み具合（かな単位なので chu / tyu などの打ち方の違いは出ない）
+        if (hamachi.onChunk) hamachi.onChunk(idx1, wordR.length);
 
         // 完了？
         if (idx1 === wordR.length) {
+          const last = wordR.length - 1;
+          if (hiragana[last] === 'ん' && wordR[last][pattern[last]] === 'n') hamachi._swallowN = Date.now();
           if (hamachi.timerInterval) { clearInterval(hamachi.timerInterval); hamachi.timerInterval = null; }
 
           // 最終状態を表示
