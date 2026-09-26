@@ -3,6 +3,8 @@
   "name": "anki-typing",
   "main": "src/worker.js",
   "compatibility_date": "2026-09-01",
+  // 暗記タイピングの画像（scripts/fetch-images.mjs で取ってくる）
+  "assets": { "directory": "public" },
   "d1_databases": [
     {
       "binding": "DB",

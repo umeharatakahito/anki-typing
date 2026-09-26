@@ -149,6 +149,10 @@ export default {
     if (request.method !== 'GET' && request.method !== 'HEAD') {
       return new Response('Method Not Allowed', { status: 405 });
     }
+    // public/img/ にコピーが無い画像（あとから足した問題など）はドライブのものを出す
+    const img = url.pathname.match(/^\/img\/([\w-]+)\.png$/);
+    if (img) return Response.redirect('https://drive.google.com/thumbnail?id=' + img[1], 302);
+
     if (url.pathname === '/favicon.ico') return new Response(null, { status: 404 });
 
     return new Response(renderPage(url), {

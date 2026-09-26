@@ -11,33 +11,12 @@
 // ===============================================================
 
 import { readFileSync } from 'node:fs';
+import { parseCsv } from './csv.mjs';
 
 const file = process.argv[2];
 if (!file) {
   console.error('usage: node scripts/import-problems.mjs <problems.csv>');
   process.exit(1);
-}
-
-// RFC 4180 の CSV（"" のエスケープ、セル内改行あり）
-function parseCsv(text) {
-  const rows = [];
-  let row = [], cell = '', quoted = false;
-  text = text.replace(/^﻿/, '');
-  for (let i = 0; i < text.length; i++) {
-    const c = text[i];
-    if (quoted) {
-      if (c === '"' && text[i + 1] === '"') { cell += '"'; i++; }
-      else if (c === '"') quoted = false;
-      else cell += c;
-    } else if (c === '"') quoted = true;
-    else if (c === ',') { row.push(cell); cell = ''; }
-    else if (c === '\n' || c === '\r') {
-      if (c === '\r' && text[i + 1] === '\n') i++;
-      row.push(cell); rows.push(row); row = []; cell = '';
-    } else cell += c;
-  }
-  if (cell !== '' || row.length) { row.push(cell); rows.push(row); }
-  return rows.filter(r => r.some(v => v !== ''));
 }
 
 const rows = parseCsv(readFileSync(file, 'utf8'));

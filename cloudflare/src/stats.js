@@ -40,7 +40,8 @@ export async function getQuestions(env, category) {
       que: r.que || '',
       kan: r.kan || '',
       ans: r.ans || '',
-      img: r.img ? 'https://drive.google.com/thumbnail?id=' + r.img : ''
+      // 画像は public/img/ に置いたコピー。無いものは worker.js がドライブへ回す
+      img: r.img ? '/img/' + encodeURIComponent(r.img) + '.png' : ''
     }));
   } catch (e) {
     return { error: e.message };

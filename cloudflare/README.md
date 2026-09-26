@@ -34,7 +34,15 @@ npx wrangler d1 execute anki-typing --remote --file problems.local.sql
 ```
 
 入れ直すたびに problems テーブルは丸ごと置き換わる。
-画像列（`img`）は GAS 版と同じく Google ドライブのファイル ID のまま使う。
+画像列（`img`）は Google ドライブのファイル ID。画像そのものは `public/img/<ID>.png` にコピーを置いて
+Cloudflare から出す（ドライブが消えても表示できる）。問題を入れ直したら新しい画像も取ってきて公開し直す:
+
+```sh
+node scripts/fetch-images.mjs problems.csv   # まだ無い画像だけ取ってくる
+npm run deploy
+```
+
+コピーが無い画像は、ドライブの画像を代わりに表示する。
 
 ## 手元で動かす
 
