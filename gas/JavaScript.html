@@ -624,6 +624,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
           this.stats.missCards += 1;
           this.stats.chain = 0;
           if (this.afterCard) this.afterCard(false);
+          if (this.versusMode) { this.awaitingNext = true; return; }
           setTimeout(() => { this.handleMiss(); this.nextCard(); }, 600);
         }
       }, 100);
@@ -851,11 +852,16 @@ buildKanjiRuby: function (kanMixed, yomi) {
     handleMiss: function() {
       this.stats.misstype++;
       this.madeMistakeThisCard = true;
-      const base = (this.cfg ? this.cfg.damagePerMiss : 2);
-      const dmg = Math.max(1, Math.round(base * this.damageMultiplier));
-      this.stats.hp -= dmg;
-      this.updateHpDisplay();
-      if (this.stats.hp <= 0) this.endGame(true);
+      if (this.versusMode) {
+        // 対戦は HP を使わない（1 問 10 ミスで打てなくなる決まりは StudyVersus.html が見る）
+        if (this.onMiss) this.onMiss();
+      } else {
+        const base = (this.cfg ? this.cfg.damagePerMiss : 2);
+        const dmg = Math.max(1, Math.round(base * this.damageMultiplier));
+        this.stats.hp -= dmg;
+        this.updateHpDisplay();
+        if (this.stats.hp <= 0) this.endGame(true);
+      }
 
       // MISS! を白帯に一瞬出す
       if (this._toastTimer) { clearTimeout(this._toastTimer); this._toastTimer = null; }
@@ -1408,6 +1414,18 @@ enableMenuNav(menuEl) {
     return [w, h];
   }
 
+  // どこまで打ったか（対戦で相手の画面に出す）。done / total はかな単位、typed は打ったローマ字
+  hamachi.typedSoFar = function () {
+    if (!wordR) return { done: 0, total: 0, typed: '' };
+    let typed = '';
+    for (let i = 0; i < idx1 && i < wordR.length; i++) typed += wordR[i][pattern[i]] || wordR[i][0];
+    if (idx1 < wordR.length) typed += (wordR[idx1][pattern[idx1]] || '').slice(0, idx2);
+    return { done: idx1, total: wordR.length, typed };
+  };
+
+  // 答えを、打つときと同じ区切りのかなに分ける（対戦で相手の進み具合を出すのに使う）
+  hamachi.chunksOf = function (ans) { return splitAsciiRuns(kanaToRoman(ans))[1]; };
+
   function skipAutoChunks() {
     while (wordR && idx1 < wordR.length && wordR[idx1].length === 1 && AUTO_CHUNKS.test(wordR[idx1][0])) {
       idx1++;
@@ -1470,8 +1488,7 @@ enableMenuNav(menuEl) {
         idx1++; idx2 = 0; temp = '';
         skipAutoChunks();
         hamachi.updateInputDisplay();
-        // 対戦の進み具合（かな単位なので chu / tyu などの打ち方の違いは出ない）
-        if (hamachi.onChunk) hamachi.onChunk(idx1, wordR.length);
+        if (hamachi.onType) hamachi.onType();
 
         // 完了？
         if (idx1 === wordR.length) {
@@ -1512,6 +1529,7 @@ enableMenuNav(menuEl) {
           // 白帯に判定文字を表示して次へ
           hamachi.awaitingNext = true;
           hamachi.showToast(jm.judge);
+          if (hamachi.versusMode) return;   // awaitingNext のまま、サーバーの合図で次へ
 
           const delay =
             (hamachi.cfg && typeof hamachi.cfg.clearDelayMs === 'number')
@@ -1531,6 +1549,7 @@ enableMenuNav(menuEl) {
         }
       }
       hamachi.updateInputDisplay();
+      if (hamachi.onType) hamachi.onType();
     } else {
       // ミス
       temp = temp.slice(0, -1);

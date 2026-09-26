@@ -6,25 +6,67 @@
   #menu-vs .vs-join{ display:flex; gap:8px; justify-content:center; }
   #menu-vs .vs-join input{ width:8em; padding:8px 10px; font-size:18px; text-align:center; letter-spacing:.2em;
     border:1px solid #3BD; border-radius:6px; }
+  #menu-vs .vs-target{ display:flex; gap:8px; align-items:center; justify-content:center; font-size:15px; }
+  #menu-vs .vs-target select{ padding:6px 10px; font-size:16px; border:1px solid #3BD; border-radius:6px; }
+  #menu-vs .vs-rule{ margin:12px auto 0; max-width:30em; font-size:13px; line-height:1.6; opacity:.8; }
   #vs-status{ min-height:1.6em; margin:14px 0 0; text-align:center; font-size:15px; }
   #vs-status .vs-code{ display:block; font-size:40px; font-weight:bold; letter-spacing:.25em; margin:6px 0; }
-  /* 対戦中の進み具合 */
-  #vs-bar{ display:none; max-width:600px; margin:6px auto 0; font-size:13px; }
+
+  /* ---- 対戦中 ---- */
+  #vs-bar{ display:none; max-width:900px; margin:4px auto 0; text-align:center; }
   body.vs-on #vs-bar{ display:block; }
-  body.vs-on #pause-btn{ display:none; }
-  .vs-row{ display:flex; align-items:center; gap:8px; margin:3px 0; }
-  .vs-name{ width:7em; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-weight:bold; }
-  .vs-track{ flex:1; height:12px; border-radius:6px; background:rgba(0,0,0,.12); overflow:hidden; }
-  .vs-fill{ height:100%; width:0; border-radius:6px; transition:width .15s linear; }
-  .vs-row.me .vs-fill{ background:#f8717a; }
-  .vs-row.you .vs-fill{ background:#60a5fa; }
-  .vs-count{ width:4.5em; text-align:right; font-variant-numeric:tabular-nums; }
+  body.vs-on #pause-btn, body.vs-on #hamachi-life, body.vs-on #last-note{ display:none !important; }
+  .vs-score{ display:flex; align-items:center; justify-content:center; gap:14px; font-weight:bold; }
+  .vs-score .vs-who{ max-width:10em; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .vs-me{ color:#e5484d; } .vs-you{ color:#2f7fe0; }
+  .vs-score .vs-pts{ font-size:28px; font-variant-numeric:tabular-nums; }
+  .vs-score .vs-dash{ opacity:.5; }
+  .vs-sub{ font-size:12px; opacity:.75; }
+
+  /* 入力欄を左右（自分・相手）に分ける */
+  #vs-split{ display:none; }
+  body.vs-on #vs-split{ display:grid; grid-template-columns:1fr 1fr; gap:12px; width:100%; }
+  body.vs-on #input-zone{ max-width:900px; }
+  .vs-panel{ border:2px solid transparent; border-radius:10px; padding:8px 10px; min-width:0;
+    background:rgba(187,238,255,.35); }
+  .vs-panel.me{ border-color:#f8a1a4; } .vs-panel.you{ border-color:#9cc3f5; }
+  .vs-panel.out{ opacity:.55; }
+  .vs-head{ display:flex; justify-content:space-between; align-items:baseline; font-size:13px; margin-bottom:4px; }
+  .vs-head b{ max-width:9em; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .vs-kana{ font-size:22px; font-weight:bold; letter-spacing:.04em; word-break:break-all; min-height:1.4em; }
+  .vs-kana .d{ color:#e5484d; } .vs-panel.you .vs-kana .d{ color:#2f7fe0; }
+  .vs-kana .r{ opacity:.35; }
+  .vs-typed{ font-size:18px; font-family:ui-monospace, Menlo, monospace; min-height:1.4em; word-break:break-all; color:#2f7fe0; }
+  .vs-panel #game-input{ height:auto; min-height:44px; margin:0; }
+  .vs-miss.warn{ color:#e5484d; font-weight:bold; }
+  .vs-state{ font-size:13px; font-weight:bold; color:#e5484d; min-height:1.2em; }
+  /* スマホ：相手は小さく、打った文字だけ */
+  @media (max-width:799px){
+    body.vs-on #vs-split{ grid-template-columns:1fr; gap:6px; }
+    .vs-panel.you{ order:-1; padding:4px 8px; }
+    .vs-panel.you .vs-kana{ display:none; }
+    .vs-panel.you .vs-typed{ font-size:13px; min-height:1.1em; }
+    .vs-panel.you .vs-head{ margin:0; font-size:12px; }
+    .vs-panel.me .vs-kana{ display:none; }   /* 自分のかなは問題カードに出ている */
+  }
+
+  /* 1 本ごとの結果 */
+  #vs-point{ display:none; position:fixed; inset:0; z-index:9000; align-items:center; justify-content:center;
+    background:rgba(0,0,0,.45); }
+  #vs-point.show{ display:flex; }
+  .vs-point-card{ width:min(92vw, 520px); border-radius:14px; padding:20px 22px; text-align:center;
+    background:#fff; color:#17394b; box-shadow:0 10px 30px rgba(0,0,0,.3); }
+  html[data-theme="dark"] .vs-point-card{ background:#182236; color:#e8eef7; }
+  .vs-point-big{ font-size:30px; font-weight:bold; margin:0 0 8px; }
+  .vs-point-ans{ font-size:22px; font-weight:bold; margin:6px 0; }
+  .vs-point-note{ font-size:14px; line-height:1.6; white-space:pre-wrap; text-align:left; opacity:.85; margin:8px 0; }
+  .vs-point-score{ font-size:26px; font-weight:bold; margin-top:8px; font-variant-numeric:tabular-nums; }
+  .vs-point-next{ font-size:12px; opacity:.7; margin-top:6px; }
+
   .vs-result{ text-align:center; }
   .vs-result .vs-big{ font-size:34px; font-weight:bold; margin:4px 0 10px; }
-  .vs-result table{ margin:0 auto; border-collapse:collapse; }
-  .vs-result td, .vs-result th{ padding:4px 12px; }
-  body.vs-on #save-score, body.vs-on #player-name, body.vs-on label[for="player-name"],
-  body.vs-on #game-end .form-row{ display:none; }
+  .vs-result .vs-final{ font-size:30px; font-weight:bold; margin:0 0 10px; font-variant-numeric:tabular-nums; }
+  body.vs-on #save-score, body.vs-on #game-end .form-row{ display:none; }
   body.vs-on #game-end .menu-footer .vs-hide{ display:none; }
 </style>
 
@@ -32,12 +74,22 @@
   <div class="menu-title" id="vs-title">対戦</div>
   <div class="menu-content">
     <div class="vs-actions" id="vs-actions">
+      <label class="vs-target">
+        <select id="vs-target">
+          <option value="3">3本先取</option>
+          <option value="5" selected>5本先取</option>
+          <option value="7">7本先取</option>
+        </select>
+      </label>
       <button class="button menu-opt" id="vs-match">だれかと対戦（自動マッチ）</button>
       <button class="button menu-opt" id="vs-create">部屋を作る（友達と対戦）</button>
       <div class="vs-join">
         <input id="vs-code" inputmode="numeric" maxlength="5" placeholder="部屋番号" autocomplete="off">
         <button class="button menu-opt" id="vs-join">入る</button>
       </div>
+      <p class="vs-rule">同じ問題を 2 人で同時に打ちます。先に打ち終えた方が 1 本。
+        1 問で 10 回ミスすると、その問題はもう打てません（相手を待ちます）。先に決めた本数を取った方の勝ち。
+        部屋に入る人の本数は、部屋を作った人に合わせます。</p>
     </div>
     <div id="vs-status" aria-live="polite"></div>
   </div>
@@ -46,26 +98,33 @@
   </div>
 </div>
 
+<div id="vs-point" role="dialog" aria-live="assertive"><div class="vs-point-card" id="vs-point-card"></div></div>
+
 <script>
 // ===============================================================
 // StudyVersus.html
-// タイピングの対戦。サーバー（cloudflare/src/typing-versus.js）と WebSocket でつなぎ、
-// 同じ 10 問を 2 人で同時に打つ。先に全問を終えた人の勝ち。
+// タイピングの対戦。サーバー（cloudflare/src/typing-versus.js）と WebSocket でつなぐ。
+//   ・同じ問題を 2 人で同時に打ち、先に打ち終えた方が 1 本
+//   ・1 問 10 ミスでその問題は打てなくなる
+//   ・1 本ごとに結果を見せてから次の問題（次へ進む合図はサーバーが出す）
+//   ・先に target 本取った方の勝ち
 // 打つ画面・判定は 1 人用（HAMACHI-TYPE）のまま。ここでは
 //   ・出題を決まった問題にする（vsNextCard）
-//   ・1 問ごとの結果と進み具合を送る（afterCard / onChunk）
-//   ・ミスで HP を減らさない（対戦は速さを競う）
+//   ・打った様子・ミス・打ち終わりを送る（onType / onMiss / afterCard）
+//   ・入力欄の横に相手の入力を出す
 // だけを差し替える。
 // ===============================================================
 (function (window, document) {
+  const MISS_LIMIT = 10;
   const h = window.hamachi;
   const $ = id => document.getElementById(id);
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
     ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
-  let ws = null, mode = '', seat = 0, questions = [], qIndex = 0, missAt = 0, lastState = null, lastProg = 0;
+  let ws = null, mode = '', seat = 0, target = 5, names = {};
+  let questions = [], r = 0, scores = {}, cardMiss = 0, out = false, progTimer = null, lastProgAt = 0, opp = null;
 
-  // ---- 画面 ------------------------------------------------------------
+  // ---- メニュー --------------------------------------------------------
   function status(html) { $('vs-status').innerHTML = html; }
   function showActions(on) { $('vs-actions').style.display = on ? '' : 'none'; }
 
@@ -97,24 +156,96 @@
     btn.textContent = btn.textContent + '（個人）';
   });
 
-  // 対戦の進み具合（ゲーム画面の上）
+  // ---- 対戦中の画面 ----------------------------------------------------
+  // 本数（ゲーム画面の上）
   const bar = document.createElement('div');
   bar.id = 'vs-bar';
   const game = $('game');
   if (game) game.insertBefore(bar, game.firstChild);
 
+  const otherSeat = () => Object.keys(names).map(Number).find(s => s !== seat);
+
   function renderBar() {
-    const st = lastState;
-    if (!st) { bar.innerHTML = ''; return; }
-    const n = questions.length || 1;
-    bar.innerHTML = st.players.slice().sort((a, b) => (a.seat === seat ? -1 : b.seat === seat ? 1 : 0)).map(p => {
-      const pos = Math.min(n, p.q + (p.done ? 0 : p.frac));
-      return `<div class="vs-row ${p.seat === seat ? 'me' : 'you'}">
-        <span class="vs-name">${p.seat === seat ? 'あなた' : esc(p.name)}</span>
-        <span class="vs-track"><span class="vs-fill" style="width:${(pos / n * 100).toFixed(1)}%"></span></span>
-        <span class="vs-count">${Math.min(p.q + (p.done ? 0 : 1), n)}/${n}</span></div>`;
-    }).join('');
+    const other = otherSeat();
+    bar.innerHTML = `<div class="vs-score">
+        <span class="vs-who vs-me">あなた</span><span class="vs-pts vs-me">${scores[seat] || 0}</span>
+        <span class="vs-dash">−</span>
+        <span class="vs-pts vs-you">${scores[other] || 0}</span><span class="vs-who vs-you">${esc(names[other] || '相手')}</span>
+      </div><div class="vs-sub">${target}本先取 ・ ${r + 1}問目</div>`;
   }
+
+  // 入力欄を左右に分ける：左が自分（今の入力欄をそのまま入れる）、右が相手
+  const split = document.createElement('div');
+  split.id = 'vs-split';
+  split.innerHTML = `
+    <div class="vs-panel me" id="vs-me">
+      <div class="vs-head"><b>あなた</b><span class="vs-miss" id="vs-me-miss"></span></div>
+      <div class="vs-kana" id="vs-me-kana"></div>
+      <div id="vs-me-input"></div>
+      <div class="vs-state" id="vs-me-state"></div>
+    </div>
+    <div class="vs-panel you" id="vs-you">
+      <div class="vs-head"><b id="vs-you-name">相手</b><span class="vs-miss" id="vs-you-miss"></span></div>
+      <div class="vs-kana" id="vs-you-kana"></div>
+      <div class="vs-typed" id="vs-you-typed"></div>
+      <div class="vs-state" id="vs-you-state"></div>
+    </div>`;
+  const inputZone = $('input-zone'), gameInput = $('game-input');
+  if (inputZone && gameInput) inputZone.insertBefore(split, gameInput);
+
+  function placeInput(inSplit) {
+    if (!gameInput) return;
+    if (inSplit) $('vs-me-input').appendChild(gameInput);
+    else inputZone.insertBefore(gameInput, split.nextSibling);
+  }
+
+  function kanaHtml(chunks, done) {
+    return chunks.map((c, i) => `<span class="${i < done ? 'd' : 'r'}">${esc(c)}</span>`).join('');
+  }
+
+  function renderMe() {
+    const t = h.typedSoFar ? h.typedSoFar() : { done: 0 };
+    const q = questions[r];
+    $('vs-me-kana').innerHTML = q ? kanaHtml(h.chunksOf(q.ans), t.done) : '';
+    const mm = $('vs-me-miss');
+    mm.textContent = `ミス ${cardMiss}/${MISS_LIMIT}`;
+    mm.className = 'vs-miss' + (cardMiss >= MISS_LIMIT - 3 ? ' warn' : '');
+    $('vs-me').classList.toggle('out', out);
+    $('vs-me-state').textContent = out
+      ? (cardMiss >= MISS_LIMIT ? '10ミス：この問題はもう打てません' : '時間切れ') + '（相手を待っています）' : '';
+  }
+
+  function renderYou(m) {
+    const q = questions[r];
+    const done = m ? (m.done || 0) : 0;
+    $('vs-you-kana').innerHTML = q ? kanaHtml(h.chunksOf(q.ans), done) : '';
+    if (m && m.typed !== undefined) $('vs-you-typed').textContent = m.typed;
+    else if (!m) $('vs-you-typed').textContent = '';
+    const miss = m ? (m.miss || 0) : 0;
+    const ym = $('vs-you-miss');
+    ym.textContent = `ミス ${miss}/${MISS_LIMIT}`;
+    ym.className = 'vs-miss' + (miss >= MISS_LIMIT - 3 ? ' warn' : '');
+    const o = !!(m && m.out);
+    $('vs-you').classList.toggle('out', o);
+    $('vs-you-state').textContent = o ? 'この問題はもう打てません' : '';
+  }
+
+  // 1 本ごとの結果
+  function showPoint(m) {
+    const q = questions[m.r] || {};
+    const cls = m.seat == null ? '' : m.seat === seat ? 'vs-me' : 'vs-you';
+    const other = otherSeat();
+    const title = m.seat == null ? 'どちらも取れず'
+      : m.seat === seat ? 'あなたが 1 本！' : esc(names[m.seat] || '相手') + ' が 1 本';
+    $('vs-point-card').innerHTML = `
+      <div class="vs-point-big ${cls}">${title}</div>
+      <div class="vs-point-ans">${esc(q.kan)}</div>
+      ${q.note ? `<div class="vs-point-note">${esc(q.note)}</div>` : ''}
+      <div class="vs-point-score"><span class="vs-me">${m.scores[seat] || 0}</span> − <span class="vs-you">${m.scores[other] || 0}</span></div>
+      <div class="vs-point-next">${m.final ? '決着！' : '次の問題へ…'}</div>`;
+    $('vs-point').classList.add('show');
+  }
+  function hidePoint() { $('vs-point').classList.remove('show'); }
 
   // ---- 通信 ------------------------------------------------------------
   function closeWs() {
@@ -123,66 +254,121 @@
 
   function connect(params) {
     closeWs();
-    const q = new URLSearchParams(params).toString();
-    const sock = new WebSocket((location.protocol === 'https:' ? 'wss://' : 'ws://') + location.host + '/vs/ws?' + q);
+    const sock = new WebSocket((location.protocol === 'https:' ? 'wss://' : 'ws://') + location.host +
+      '/vs/ws?' + new URLSearchParams(params).toString());
     ws = sock;
-    sock.onmessage = ev => { if (ws === sock) onMessage(JSON.parse(ev.data), params); };
+    sock.onmessage = ev => {
+      if (ws !== sock) return;
+      const m = JSON.parse(ev.data);
+      if (m.t === 'error') sock.gotError = true;
+      onMessage(m, params);
+    };
     sock.onclose = () => {
       if (ws !== sock) return;
       ws = null;
-      if (h.versusMode && h.playing) status('通信が切れました');
-      else if (!h.versusMode) status('通信が切れました。もう一度お試しください');
+      // サーバーが理由を伝えてから閉じたときは、その理由を残す
+      if (!sock.gotError) status('通信が切れました。もう一度お試しください');
+      showActions(true);
     };
-    return sock;
   }
 
   const send = msg => { if (ws && ws.readyState === 1) ws.send(JSON.stringify(msg)); };
 
+  function sendProg() {
+    progTimer = null; lastProgAt = Date.now();
+    const t = h.typedSoFar();
+    send({ t: 'prog', r, done: t.done, total: t.total, typed: t.typed, miss: cardMiss });
+  }
+  // 打つたびに送る（速く打っても送りすぎないよう、60ms にまとめる）
+  function queueProg() {
+    if (progTimer) return;
+    progTimer = setTimeout(sendProg, Math.max(0, 60 - (Date.now() - lastProgAt)));
+  }
+
   function onMessage(m, params) {
     if (m.t === 'error') {
-      if (m.message === 'busy') { connect({ create: 1, kbn: h.kubun, mode }); return; }   // 番号がかぶったら作り直す
+      if (m.message === 'busy') { connect(Object.assign({}, params)); return; }   // 番号がかぶったら作り直す
       status(esc(m.message)); showActions(true); return;
     }
     if (m.t === 'matched') {
       status('相手が見つかりました！');
-      // 2 人とも同じ番号に入る（先に着いた方が部屋を用意する）
-      connect({ code: m.code, kbn: m.kbn, mode: m.mode });
+      connect({ code: m.code, kbn: m.kbn, mode: m.mode, target: m.target });   // 2 人とも同じ番号に入る
       return;
     }
     if (m.t === 'room') {
-      seat = m.seat;
+      seat = m.seat; target = m.target;
       if (params.match || String(m.code).length > 4) status('相手が見つかりました。まもなく始まります');
-      else status(`部屋番号<span class="vs-code">${esc(m.code)}</span>友達にこの番号を伝えて、「入る」から入ってもらってください`);
+      else status(`部屋番号<span class="vs-code">${esc(m.code)}</span>友達にこの番号を伝えて、「入る」から入ってもらってください（${m.target}本先取）`);
       return;
     }
     if (m.t === 'players') {
-      if (!h.versusMode && m.players.length < 2 && m.left) status(esc(m.left) + ' さんが抜けました');
+      names = Object.fromEntries(m.players.map(p => [p.seat, p.name]));
+      const other = m.players.find(p => p.seat !== seat);
+      $('vs-you-name').textContent = other ? other.name : '相手';
+      if (m.left && !h.versusMode) status(esc(m.left) + ' さんが抜けました');
+      const again = $('vs-again');
+      if (again && other && other.again && !again.disabled) again.textContent = 'もう一度（相手は準備OK）';
       return;
     }
     if (m.t === 'start') { startMatch(m); return; }
-    if (m.t === 'state') { lastState = m; renderBar(); return; }
+    if (m.t === 'more') { questions.push(...m.questions); return; }
+    // 相手の様子は、届いた分だけ前の様子に重ねる（「打てない」の知らせには進み具合が入っていない）
+    if (m.t === 'opp') { if (m.r === r) { opp = Object.assign({}, opp, m); renderYou(opp); } return; }
+    if (m.t === 'point') { onPoint(m); return; }
+    if (m.t === 'round') { nextRound(m.r); return; }
     if (m.t === 'end') { endMatch(m); return; }
   }
 
-  // ---- 対戦の始まりと終わり ----------------------------------------------
+  // ---- 試合の流れ --------------------------------------------------------
+  function resetCard() {
+    cardMiss = 0; out = false; opp = null;
+    renderMe(); renderYou(null); renderBar();
+  }
+
   function startMatch(m) {
-    questions = m.questions; qIndex = 0; lastState = null;
+    questions = m.questions.slice(); r = 0; target = m.target;
+    scores = {};
     h.versusMode = true;
     h.levelMode = false;
     document.body.classList.add('vs-on');
+    placeInput(true);
+    hidePoint();
     $('menu-vs').style.display = 'none';
     $('game-end').style.display = 'none';
+    resetCard();
     // 画面のカウントダウン（約 3 秒）が終わるころにサーバーも受付を始める
     setTimeout(() => h.startGame(mode), Math.max(0, (m.in || 3500) - 3200));
   }
 
-  function endMatch(m) {
+  function stopTyping() {
     if (h.timerInterval) { clearInterval(h.timerInterval); h.timerInterval = null; }
+    h.awaitingNext = true;
+  }
+
+  function onPoint(m) {
+    stopTyping();
+    if (progTimer) { clearTimeout(progTimer); progTimer = null; }
+    scores = m.scores;
+    renderBar();
+    showPoint(m);
+  }
+
+  function nextRound(n) {
+    hidePoint();
+    r = n;
+    resetCard();
+    h.awaitingNext = false;
+    h.nextCard();
+    renderMe();
+  }
+
+  function endMatch(m) {
+    stopTyping();
+    hidePoint();
     h.playing = false;
-    const me = m.results.find(r => r.seat === seat) || {};
-    const you = m.results.find(r => r.seat !== seat);
+    scores = m.scores;
+    const other = otherSeat();
     const win = m.winner === seat;
-    const sec = r => r && r.done ? (r.ms / 1000).toFixed(1) + '秒' : '—';
     document.body.classList.add('vs-on');
     const marker = $('screen-game');
     if (marker) marker.hidden = true;
@@ -195,13 +381,12 @@
     $('game-end-stats').innerHTML = `<div class="vs-result">
       <div class="vs-big">${win ? '勝ち！' : m.winner == null ? '引き分け' : '負け'}</div>
       ${m.left ? '<p>相手が抜けました</p>' : ''}
-      <table><tr><th></th><th>あなた</th><th>${esc(you ? you.name : '相手')}</th></tr>
-        <tr><th>タイム</th><td>${sec(me)}</td><td>${sec(you)}</td></tr>
-        <tr><th>打てた数</th><td>${me.cleared ?? 0}/${questions.length}</td><td>${you ? you.cleared : 0}/${questions.length}</td></tr>
-        <tr><th>ミス</th><td>${me.miss ?? 0}</td><td>${you ? you.miss : 0}</td></tr></table>
-      <p><button class="button menu-opt" id="vs-again">もう一度（同じ相手）</button></p>
+      <div class="vs-final"><span class="vs-me">あなた ${scores[seat] || 0}</span> − <span class="vs-you">${scores[other] || 0} ${esc(names[other] || '相手')}</span></div>
+      <p class="vs-sub">${target}本先取</p>
+      ${m.left ? '' : '<p><button class="button menu-opt" id="vs-again">もう一度（同じ相手）</button></p>'}
     </div>`;
-    $('vs-again').onclick = () => { send({ t: 'again' }); $('vs-again').textContent = '相手を待っています…'; $('vs-again').disabled = true; };
+    const again = $('vs-again');
+    if (again) again.onclick = () => { send({ t: 'again' }); again.textContent = '相手を待っています…'; again.disabled = true; };
     document.querySelectorAll('#game-end .menu-footer button').forEach(b => {
       if (/Retry/.test(b.textContent)) b.classList.add('vs-hide');
     });
@@ -210,41 +395,31 @@
   // ---- 1 人用の画面への差し込み ------------------------------------------
   Object.assign(h, {
     versusMode: false,
-
-    vsPrepare() {
-      // 対戦はミスで HP を減らさない（止まらずに最後まで打つ）
-      this.cfg = Object.assign({}, this.cfg, { damagePerMiss: 0, healOnClear: 0 });
-      qIndex = 0; missAt = this.stats.misstype || 0; lastProg = 0;
-      renderBar();
-    },
-
-    vsNextCard() { return questions[qIndex] || null; },
-
-    vsLocalDone() {
-      if (this.timerInterval) { clearInterval(this.timerInterval); this.timerInterval = null; }
-      status('');
-      const q = this.cache.questionCard;
-      if (q) q.innerHTML = '<div class="hamachi-card"><div class="word-zone"><div class="helper">全問おわり！ 相手を待っています…</div></div></div>';
-    },
-
-    onChunk(done, total) {
-      if (!this.versusMode) return;
-      const now = Date.now();
-      if (now - lastProg < 120 && done < total) return;   // 送りすぎない
-      lastProg = now;
-      send({ t: 'prog', q: qIndex, frac: total ? done / total : 0 });
+    vsPrepare() { renderBar(); },
+    vsNextCard() { return questions[r] || null; },
+    vsLocalDone() {},
+    onType() { if (this.versusMode && !out) { renderMe(); queueProg(); } },
+    onMiss() {
+      if (out) return;
+      cardMiss++;
+      renderMe();
+      queueProg();
+      if (cardMiss >= MISS_LIMIT) {
+        out = true;
+        stopTyping();
+        renderMe();
+        send({ t: 'out', r, miss: cardMiss });
+      }
     }
   });
 
-  // 1 問終わるたびに結果を送って次の問題へ
+  // 1 問終わったとき：打ち終えたら 1 本を取りに行く、時間切れならこの問題は打てない
   const baseAfterCard = h.afterCard;
   h.afterCard = function (ok, jm) {
-    if (baseAfterCard) baseAfterCard.call(this, ok, jm);
-    if (!this.versusMode) return;
-    const miss = (this.stats.misstype || 0) - missAt;
-    missAt = this.stats.misstype || 0;
-    send({ t: 'card', q: qIndex, ok: !!ok, miss });
-    qIndex++;
+    if (!this.versusMode) { if (baseAfterCard) baseAfterCard.call(this, ok, jm); return; }
+    if (progTimer) { clearTimeout(progTimer); progTimer = null; }
+    if (ok) { sendProg(); send({ t: 'win', r }); }
+    else if (!out) { out = true; renderMe(); send({ t: 'out', r, miss: cardMiss }); }
   };
 
   // メニューに戻るときは対戦をやめる
@@ -253,6 +428,8 @@
     if (this.versusMode) {
       this.versusMode = false;
       document.body.classList.remove('vs-on');
+      placeInput(false);
+      hidePoint();
       closeWs();
       $('game-win').textContent = 'Game Clear!';
       $('game-over').textContent = 'Game Over';
@@ -261,16 +438,17 @@
   };
 
   // ---- ボタン ------------------------------------------------------------
+  const tgt = () => $('vs-target').value;
   $('vs-back').onclick = backToModes;
   $('vs-match').onclick = () => {
     showActions(false);
-    status('相手を探しています…（同じ問題集・同じモードを選んだ人と組みます）');
-    connect({ match: 1, kbn: h.kubun, mode });
+    status(`相手を探しています…（同じ問題集・同じモード・${tgt()}本先取を選んだ人と組みます）`);
+    connect({ match: 1, kbn: h.kubun, mode, target: tgt() });
   };
   $('vs-create').onclick = () => {
     showActions(false);
     status('部屋を作っています…');
-    connect({ create: 1, kbn: h.kubun, mode });
+    connect({ create: 1, kbn: h.kubun, mode, target: tgt() });
   };
   $('vs-join').onclick = () => {
     const code = $('vs-code').value.replace(/\D/g, '');

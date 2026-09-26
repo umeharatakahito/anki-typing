@@ -285,9 +285,14 @@
   // （終了画面では閉じる。終了画面でも body は playing-game のままなので、終わった時にも隠す）
   const marker = document.getElementById('screen-game');
   if (marker) {
-    new MutationObserver(() => {
-      marker.hidden = !document.body.classList.contains('playing-game');
-    }).observe(document.body, { attributes: true, attributeFilter: ['class'] });
+    // ゲーム画面（#game）が見えている間だけ。終了画面では #game が隠れる
+    const sync = () => {
+      const g = document.getElementById('game');
+      marker.hidden = !document.body.classList.contains('playing-game') || !g || g.style.display === 'none';
+    };
+    new MutationObserver(sync).observe(document.body, { attributes: true, attributeFilter: ['class'] });
+    const g = document.getElementById('game');
+    if (g) new MutationObserver(sync).observe(g, { attributes: true, attributeFilter: ['style'] });
     const baseEnd = h.endGame;
     h.endGame = function () { const r = baseEnd.apply(this, arguments); marker.hidden = true; return r; };
     const baseStart = h.startGame;
