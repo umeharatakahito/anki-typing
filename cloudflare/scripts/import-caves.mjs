@@ -6,7 +6,12 @@
 //   node scripts/import-caves.mjs ~/program/StudyQuest-wt/R/data/caves > caves.local.sql
 //   npx wrangler d1 execute anki-typing --remote --file caves.local.sql
 //
-// 入れ直すたびに、洞窟ごとの問題は丸ごと置き換える（スプレッドシートの問題はそのまま）。
+// D1 の無料枠は 1 日に書ける行数に上限がある（10 万行。全部を入れ直すと 1 回で 1 万行を超える）。
+// ふだんは変わった分だけにする:
+//   --only=koko-eigo,daigaku-chiri   … その問題集だけ入れ直す
+//   --figures=data/figures-it.json   … そのファイルに載っている問題の図と解説だけ書き換える（UPDATE）
+//
+// 入れ直すたびに、問題集ごとの問題は丸ごと置き換える（スプレッドシートの問題はそのまま）。
 //   que  … 問題文        kan … 表示する正解     ans … 打つ文字（ひらがな・英字）
 //   level … 1〜10        free … 会員でなくても出す（レベル 1〜3）
 //   note … 正解の後に見せる解説
@@ -18,7 +23,11 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { CAVES, OWN_SETS } from '../src/sets.js';
 
-const root = process.argv[2];
+const args = process.argv.slice(2);
+const opt = name => (args.find(a => a.startsWith('--' + name + '=')) || '').split('=')[1] || '';
+const root = args.find(a => !a.startsWith('--'));
+const ONLY = opt('only') ? new Set(opt('only').split(',')) : null;
+const FIG_ONLY = opt('figures') ? new Set(Object.keys(JSON.parse(readFileSync(opt('figures'), 'utf8')))) : null;
 if (!root) {
   console.error('usage: node scripts/import-caves.mjs <勉強ダンジョンズの data/caves>');
   process.exit(1);
@@ -84,14 +93,28 @@ function jaPrompt(q) {
 
 const out = [];
 let total = 0;
+// 1 行ぶんを出す。--figures のときは、図のある問題の img と note だけを書き換える
+function emit(row) {
+  if (FIG_ONLY) {
+    const base = row.qid.replace(/-ja$/, '');
+    if (!FIG_ONLY.has(base)) return;
+    out.push(`UPDATE problems SET img = ${sql(row.img)}, note = ${sql(row.note)} WHERE src = ${sql(row.src)} AND qid = ${sql(row.qid)};`);
+    return;
+  }
+  const cols = Object.keys(row);
+  out.push(`INSERT INTO problems (${cols.join(', ')}) VALUES (${cols.map(c => sql(row[c])).join(', ')});`);
+}
+const wanted = id => !ONLY || ONLY.has(id);
+
 for (const cave of CAVES) {
+  if (!wanted(cave.id)) continue;
   const dir = join(root, cave.src || cave.id);
   const meta = JSON.parse(readFileSync(join(dir, 'cave.json'), 'utf8'));
   const files = readdirSync(join(dir, 'questions')).filter(f => f.endsWith('.json') && f !== 'chaser.json').sort();
   const qs = files.flatMap(f => JSON.parse(readFileSync(join(dir, 'questions', f), 'utf8')))
     .filter(q => q.review === 'verified');
 
-  out.push(`DELETE FROM problems WHERE src = ${sql(cave.id)};`);
+  if (!FIG_ONLY) out.push(`DELETE FROM problems WHERE src = ${sql(cave.id)};`);
   for (const q of qs) {
     const level = q.level * (cave.levelScale || 1);
     const ans = reading(q, meta.language);
@@ -104,8 +127,7 @@ for (const cave of CAVES) {
       img: FIGURES[q.id] ? 'fig/' + FIGURES[q.id].file : '',
       note: [note(q, meta.language), FIGURES[q.id] ? credit(FIGURES[q.id]) : ''].filter(Boolean).join('\n')
     };
-    const cols = Object.keys(row);
-    out.push(`INSERT INTO problems (${cols.join(', ')}) VALUES (${cols.map(c => sql(row[c])).join(', ')});`);
+    emit(row);
   }
   console.error(`${cave.id}: ${qs.length} 問`);
   total += qs.length;
@@ -113,11 +135,12 @@ for (const cave of CAVES) {
 // このリポジトリで作った問題集（data/sets/<id>.json）。確かめ済み（review: verified）の問題だけ入れる。
 // reading（打つ文字）は問題ごとに書いてある
 for (const set of OWN_SETS) {
+  if (!wanted(set.id)) continue;
   const file = join(here, '..', 'data', 'sets', set.id + '.json');
   let qs;
   try { qs = JSON.parse(readFileSync(file, 'utf8')); } catch (e) { console.error(`${set.id}: ファイルが無いので飛ばします`); continue; }
   qs = qs.filter(q => q.review === 'verified');
-  out.push(`DELETE FROM problems WHERE src = ${sql(set.id)};`);
+  if (!FIG_ONLY) out.push(`DELETE FROM problems WHERE src = ${sql(set.id)};`);
   for (const q of qs) {
     const ans = typeable(String(q.reading || ''));
     if (!ans) throw new Error(q.id + ' の打つ文字が空です: ' + q.answer);
@@ -128,8 +151,7 @@ for (const set of OWN_SETS) {
       img: FIGURES[q.id] ? 'fig/' + FIGURES[q.id].file : '',
       note: [q.explanation || '', FIGURES[q.id] ? credit(FIGURES[q.id]) : ''].filter(Boolean).join('\n')
     };
-    const cols = Object.keys(row);
-    out.push(`INSERT INTO problems (${cols.join(', ')}) VALUES (${cols.map(c => sql(row[c])).join(', ')});`);
+    emit(row);
   }
   console.error(`${set.id}: ${qs.length} 問`);
   total += qs.length;
