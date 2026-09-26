@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<defs><marker id="jhsocialciv0013m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="jhsocialciv0013m388e3c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#388e3c"/></marker></defs>
+<circle cx="70" cy="90" r="16" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="52" y="108" width="36" height="30" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="130" cy="90" r="16" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="112" y="108" width="36" height="30" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="190" cy="90" r="16" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="172" y="108" width="36" height="30" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="130" y="160" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >株主（出資者）</text>
+<rect x="360" y="60" width="200" height="110" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<circle cx="460" cy="115" r="18" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="460" y="116" font-size="23.94" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="230" y1="90" x2="356" y2="90" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsocialciv0013m37474f)"/>
+<text x="293" y="72" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >出資（お金）</text>
+<line x1="356" y1="125" x2="230" y2="125" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsocialciv0013m37474f)"/>
+<text x="293" y="145" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >株式</text>
+<path d="M460,172 C460,260 130,260 130,176" fill="none" stroke="#388e3c" stroke-width="2.5" marker-end="url(#jhsocialciv0013m388e3c)"/>
+<text x="295" y="262" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >利益の一部を配当として分ける</text>
+<text x="300" y="320" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" >株主総会で経営の方針を決める</text>
+</svg>

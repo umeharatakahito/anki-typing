@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<ellipse cx="300" cy="180" rx="210" ry="90" fill="#d7ccc8" stroke="#8d6e63" stroke-width="3" />
+<circle cx="300" cy="70" r="22" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="300" y="70" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >首相</text>
+<circle cx="222.072" cy="291.606" r="15" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<circle cx="152.589" cy="273.119" r="15" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<circle cx="99.08" cy="244.54" r="15" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<circle cx="67.3439" cy="208.967" r="15" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<circle cx="60.8197" cy="170.256" r="15" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<circle cx="80.2144" cy="132.6" r="15" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<circle cx="123.426" cy="100.081" r="15" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<circle cx="185.773" cy="76.2221" r="15" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<circle cx="260.497" cy="63.6094" r="15" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<circle cx="339.503" cy="63.6094" r="15" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<circle cx="414.227" cy="76.2221" r="15" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<circle cx="476.574" cy="100.081" r="15" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<circle cx="519.786" cy="132.6" r="15" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<circle cx="539.18" cy="170.256" r="15" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<circle cx="532.656" cy="208.967" r="15" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<circle cx="500.92" cy="244.54" r="15" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<circle cx="447.411" cy="273.119" r="15" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<circle cx="377.928" cy="291.606" r="15" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<text x="300" y="180" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#5d4037" font-weight="bold" >国務大臣</text>
+<circle cx="80" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="80" y="51" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="325" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" >内閣の方針を決める会議（全員一致が原則）</text>
+</svg>

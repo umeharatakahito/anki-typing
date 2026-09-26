@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" font-family="sans-serif">
+<rect width="600" height="420" fill="#fff"/>
+<defs><marker id="jhscienceextra0019mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="0" y="0" width="600" height="420" rx="0" fill="#1a2340" stroke="none" stroke-width="0" />
+<path d="M270.5,197.0 A40,40 0 0 0 327.0,199.5" fill="none" stroke="#fff59d" stroke-width="2.5" opacity="0.8"/>
+<circle cx="326.981" cy="199.53" r="3" fill="#fff" stroke="none" stroke-width="0" />
+<path d="M246.7,222.8 A75,75 0 0 0 352.8,223.3" fill="none" stroke="#fff59d" stroke-width="2.5" opacity="0.8"/>
+<circle cx="352.798" cy="223.267" r="3" fill="#fff" stroke="none" stroke-width="0" />
+<path d="M319.6,61.8 A110,110 0 0 0 191.8,150.4" fill="none" stroke="#fff59d" stroke-width="2.5" opacity="0.8"/>
+<circle cx="191.765" cy="150.372" r="3" fill="#fff" stroke="none" stroke-width="0" />
+<path d="M277.7,26.7 A145,145 0 0 0 156.7,192.3" fill="none" stroke="#fff59d" stroke-width="2.5" opacity="0.8"/>
+<circle cx="156.729" cy="192.326" r="3" fill="#fff" stroke="none" stroke-width="0" />
+<path d="M431.1,293.4 A180,180 0 0 0 423.4,38.9" fill="none" stroke="#fff59d" stroke-width="2.5" opacity="0.8"/>
+<circle cx="423.383" cy="38.9405" r="3" fill="#fff" stroke="none" stroke-width="0" />
+<rect x="0" y="350" width="600" height="70" rx="0" fill="#2e3b24" stroke="none" stroke-width="0" />
+<line x1="0" y1="350" x2="600" y2="350" stroke="#7cb342" stroke-width="2"/>
+<text x="300" y="385" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold" >北</text>
+<circle cx="300" cy="170" r="6" fill="#fff" stroke="none" stroke-width="0" />
+<line x1="300" y1="170" x2="180" y2="60" stroke="#ccc" stroke-width="1.2"/>
+<text x="160" y="50" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#fff" >北極星</text>
+<g>
+<path d="M373.5,372.0 A215,215 0 0 0 511.7,132.7" fill="none" stroke="#f57c00" stroke-width="5" marker-end="url(#jhscienceextra0019mf57c00)"/>
+</g>
+<line x1="560" y1="120" x2="510" y2="170" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="510" cy="170" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="560" cy="120" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="121" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="470" y="320" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#fff" >1日に1回まわって見える</text>
+</svg>

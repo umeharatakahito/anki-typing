@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<text x="150" y="24" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >雌花</text>
+<path d="M150,300 L150,230" fill="none" stroke="#8d6e63" stroke-width="5" />
+<path d="M80,220 Q150,180 220,220 Q150,234 80,220 Z" fill="#bcaaa4" stroke="#6d4c41" stroke-width="2" />
+<path d="M90,190 Q150,150 210,190 Q150,204 90,190 Z" fill="#bcaaa4" stroke="#6d4c41" stroke-width="2" />
+<path d="M100,160 Q150,120 200,160 Q150,174 100,160 Z" fill="#bcaaa4" stroke="#6d4c41" stroke-width="2" />
+<path d="M110,130 Q150,90 190,130 Q150,144 110,130 Z" fill="#bcaaa4" stroke="#6d4c41" stroke-width="2" />
+<path d="M120,100 Q150,60 180,100 Q150,114 120,100 Z" fill="#bcaaa4" stroke="#6d4c41" stroke-width="2" />
+<circle cx="150" cy="100" r="60" fill="none" stroke="#f57c00" stroke-width="2" stroke-dasharray="5,4"/>
+<line x1="210" y1="100" x2="290" y2="150" stroke="#f57c00" stroke-width="2" stroke-dasharray="5,4"/>
+<text x="450" y="24" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >りん片1枚</text>
+<path d="M340,300 L450,60 L560,300 Z" fill="#d7ccc8" stroke="#6d4c41" stroke-width="2.6" />
+<circle cx="410" cy="270" r="20" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<circle cx="490" cy="270" r="20" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<line x1="580" y1="200" x2="506" y2="262" stroke="#555" stroke-width="1.2"/>
+<circle cx="506" cy="262" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="580" y="200" font-size="17" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >胚珠</text>
+<text x="450" y="320" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >子房がなく、胚珠がむき出し</text>
+<line x1="60" y1="60" x2="110" y2="110" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="110" cy="110" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="60" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="60" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

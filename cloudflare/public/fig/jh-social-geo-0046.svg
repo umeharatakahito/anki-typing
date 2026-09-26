@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" width="600" height="440" font-family="sans-serif">
+<rect width="600" height="440" fill="#fff"/>
+<circle cx="250" cy="225" r="185" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<line x1="250" y1="225" x2="250" y2="40" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="297.882" y2="46.3037" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="342.5" y2="64.7853" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="380.815" y2="94.1852" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="410.215" y2="132.5" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="428.696" y2="177.118" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="435" y2="225" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="428.696" y2="272.882" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="410.215" y2="317.5" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="380.815" y2="355.815" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="342.5" y2="385.215" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="297.882" y2="403.696" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="250" y2="410" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="202.118" y2="403.696" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="157.5" y2="385.215" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="119.185" y2="355.815" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="89.7853" y2="317.5" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="71.3037" y2="272.882" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="65" y2="225" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="71.3037" y2="177.118" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="89.7853" y2="132.5" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="119.185" y2="94.1852" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="157.5" y2="64.7853" stroke="#90a4ae" stroke-width="1"/>
+<line x1="250" y1="225" x2="202.118" y2="46.3037" stroke="#90a4ae" stroke-width="1"/>
+<path d="M250,225 L250.0,40.0 A185,185 0 0 1 297.9,46.3 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<circle cx="250" cy="225" r="6" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<text x="250" y="247" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >北極</text>
+<line x1="370" y1="30" x2="263.281" y2="124.12" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="263.281" cy="124.12" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="370" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="370" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="18" font-size="1" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" ></text>
+<rect x="455" y="150" width="135" height="120" rx="6" fill="#fff" stroke="#90a4ae" stroke-width="2" />
+<text x="522.5" y="171.6" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >1周 360°</text>
+<text x="522.5" y="190.8" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >＝24時間</text>
+<text x="522.5" y="210" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" ></text>
+<text x="522.5" y="229.2" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >1区分で</text>
+<text x="522.5" y="248.4" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >1時間の差</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="jhsocialciv0088m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="jhsocialciv0088mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="20" y="40" width="170" height="70" rx="6" fill="#90caf9" stroke="#1976d2" stroke-width="2" />
+<text x="105" y="75" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >所得の多い人</text>
+<rect x="410" y="40" width="170" height="70" rx="6" fill="#ffe0b2" stroke="#fb8c00" stroke-width="2" />
+<text x="495" y="75" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >所得の少ない人</text>
+<rect x="215" y="200" width="170" height="70" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="300" y="235" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >国・地方</text>
+<line x1="105" y1="112" x2="230" y2="198" stroke="#37474f" stroke-width="3" marker-end="url(#jhsocialciv0088m37474f)"/>
+<text x="110" y="170" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >多くの税</text>
+<line x1="370" y1="198" x2="495" y2="112" stroke="#f57c00" stroke-width="3" marker-end="url(#jhsocialciv0088mf57c00)"/>
+<text x="500" y="170" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >社会保障など</text>
+<circle cx="300" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="110" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >格差を縮める</text>
+<text x="300" y="320" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" >累進課税で集め、社会保障で配る</text>
+</svg>

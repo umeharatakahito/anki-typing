@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<rect x="140" y="260" width="320" height="70" rx="0" fill="#ffe0b2" stroke="#8d6e63" stroke-width="2.5" />
+<ellipse cx="380" cy="295" rx="30" ry="18" fill="#5d4037" stroke="none" stroke-width="0" />
+<path d="M240,260 L240,230 L300,230 L300,260" fill="none" stroke="#37474f" stroke-width="6" />
+<path d="M220,80 L220,200 Q220,230 270,230 Q320,230 320,200 L320,80" fill="none" stroke="#f57c00" stroke-width="14" />
+<path d="M220,80 L220,200 Q220,230 270,230 Q320,230 320,200 L320,80" fill="none" stroke="#ffcc80" stroke-width="8" />
+<line x1="270" y1="230" x2="270" y2="262" stroke="#f57c00" stroke-width="10"/>
+<line x1="430" y1="90" x2="340" y2="110" stroke="#8d6e63" stroke-width="5"/>
+<circle cx="335" cy="112" r="12" fill="#bcaaa4" stroke="#37474f" stroke-width="2" />
+<text x="470" y="70" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ゴムのついたハンマー</text>
+<line x1="120" y1="120" x2="218" y2="140" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="218" cy="140" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="120" cy="120" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="120" y="121" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="120" y="160" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >U字形の金属</text>
+<text x="300" y="360" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >決まった高さの音を出す</text>
+</svg>

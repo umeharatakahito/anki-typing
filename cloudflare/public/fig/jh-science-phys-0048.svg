@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<path d="M230,180 C230,140 370,140 370,180" fill="none" stroke="#f57c00" stroke-width="2.5" />
+<path d="M230,180 C230,220 370,220 370,180" fill="none" stroke="#f57c00" stroke-width="2.5" />
+<path d="M230,180 C230,100 370,100 370,180" fill="none" stroke="#f57c00" stroke-width="2.5" />
+<path d="M230,180 C230,260 370,260 370,180" fill="none" stroke="#f57c00" stroke-width="2.5" />
+<path d="M230,180 C230,50 370,50 370,180" fill="none" stroke="#f57c00" stroke-width="2.5" />
+<path d="M230,180 C230,310 370,310 370,180" fill="none" stroke="#f57c00" stroke-width="2.5" />
+<path d="M230,180 C150,120 80,156.0 60,180" fill="none" stroke="#f57c00" stroke-width="2" stroke-dasharray="4 4"/>
+<path d="M370,180 C450,120 520,156.0 540,180" fill="none" stroke="#f57c00" stroke-width="2" stroke-dasharray="4 4"/>
+<path d="M230,180 C150,70 80,136.0 60,180" fill="none" stroke="#f57c00" stroke-width="2" stroke-dasharray="4 4"/>
+<path d="M370,180 C450,70 520,136.0 540,180" fill="none" stroke="#f57c00" stroke-width="2" stroke-dasharray="4 4"/>
+<rect x="200" y="160" width="100" height="40" rx="0" fill="#ef5350" stroke="#37474f" stroke-width="2" />
+<rect x="300" y="160" width="100" height="40" rx="0" fill="#42a5f5" stroke="#37474f" stroke-width="2" />
+<text x="250" y="180" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold" >N</text>
+<text x="350" y="180" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold" >S</text>
+<circle cx="300" cy="60" r="14" fill="#fff" stroke="#37474f" stroke-width="2" />
+<polygon points="290,60 300,56 300,64" fill="#d32f2f" stroke="#d32f2f" stroke-width="1" stroke-linejoin="round" />
+<polygon points="310,60 300,56 300,64" fill="#90a4ae" stroke="#90a4ae" stroke-width="1" stroke-linejoin="round" />
+<circle cx="300" cy="305" r="14" fill="#fff" stroke="#37474f" stroke-width="2" />
+<polygon points="290,305 300,301 300,309" fill="#d32f2f" stroke="#d32f2f" stroke-width="1" stroke-linejoin="round" />
+<polygon points="310,305 300,301 300,309" fill="#90a4ae" stroke="#90a4ae" stroke-width="1" stroke-linejoin="round" />
+<line x1="500" y1="60" x2="340" y2="125" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="340" cy="125" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="500" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="345" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >磁力がはたらく空間</text>
+</svg>

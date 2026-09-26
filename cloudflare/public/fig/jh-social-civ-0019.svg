@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<text x="300" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" >学級で意見を決める（例）</text>
+<rect x="60" y="60" width="240" height="170" rx="10" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="180" y="84" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >A案に賛成</text>
+<circle cx="86" cy="119.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M77.0,137.2 Q86.0,122.8 95.0,137.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="94" y1="116" x2="98" y2="102" stroke="#37474f" stroke-width="2"/>
+<circle cx="117" cy="119.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M108.0,137.2 Q117.0,122.8 126.0,137.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="125" y1="116" x2="129" y2="102" stroke="#37474f" stroke-width="2"/>
+<circle cx="148" cy="119.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M139.0,137.2 Q148.0,122.8 157.0,137.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="156" y1="116" x2="160" y2="102" stroke="#37474f" stroke-width="2"/>
+<circle cx="179" cy="119.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M170.0,137.2 Q179.0,122.8 188.0,137.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="187" y1="116" x2="191" y2="102" stroke="#37474f" stroke-width="2"/>
+<circle cx="210" cy="119.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M201.0,137.2 Q210.0,122.8 219.0,137.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="218" y1="116" x2="222" y2="102" stroke="#37474f" stroke-width="2"/>
+<circle cx="241" cy="119.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M232.0,137.2 Q241.0,122.8 250.0,137.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="249" y1="116" x2="253" y2="102" stroke="#37474f" stroke-width="2"/>
+<circle cx="272" cy="119.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M263.0,137.2 Q272.0,122.8 281.0,137.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="280" y1="116" x2="284" y2="102" stroke="#37474f" stroke-width="2"/>
+<circle cx="86" cy="157.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M77.0,175.2 Q86.0,160.8 95.0,175.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="94" y1="154" x2="98" y2="140" stroke="#37474f" stroke-width="2"/>
+<circle cx="117" cy="157.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M108.0,175.2 Q117.0,160.8 126.0,175.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="125" y1="154" x2="129" y2="140" stroke="#37474f" stroke-width="2"/>
+<circle cx="148" cy="157.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M139.0,175.2 Q148.0,160.8 157.0,175.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="156" y1="154" x2="160" y2="140" stroke="#37474f" stroke-width="2"/>
+<circle cx="179" cy="157.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M170.0,175.2 Q179.0,160.8 188.0,175.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="187" y1="154" x2="191" y2="140" stroke="#37474f" stroke-width="2"/>
+<circle cx="210" cy="157.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M201.0,175.2 Q210.0,160.8 219.0,175.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="218" y1="154" x2="222" y2="140" stroke="#37474f" stroke-width="2"/>
+<circle cx="241" cy="157.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M232.0,175.2 Q241.0,160.8 250.0,175.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="249" y1="154" x2="253" y2="140" stroke="#37474f" stroke-width="2"/>
+<circle cx="272" cy="157.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M263.0,175.2 Q272.0,160.8 281.0,175.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="280" y1="154" x2="284" y2="140" stroke="#37474f" stroke-width="2"/>
+<circle cx="86" cy="195.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M77.0,213.2 Q86.0,198.8 95.0,213.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="94" y1="192" x2="98" y2="178" stroke="#37474f" stroke-width="2"/>
+<circle cx="117" cy="195.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M108.0,213.2 Q117.0,198.8 126.0,213.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="125" y1="192" x2="129" y2="178" stroke="#37474f" stroke-width="2"/>
+<circle cx="148" cy="195.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M139.0,213.2 Q148.0,198.8 157.0,213.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="156" y1="192" x2="160" y2="178" stroke="#37474f" stroke-width="2"/>
+<circle cx="179" cy="195.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M170.0,213.2 Q179.0,198.8 188.0,213.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="187" y1="192" x2="191" y2="178" stroke="#37474f" stroke-width="2"/>
+<circle cx="210" cy="195.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M201.0,213.2 Q210.0,198.8 219.0,213.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="218" y1="192" x2="222" y2="178" stroke="#37474f" stroke-width="2"/>
+<circle cx="241" cy="195.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M232.0,213.2 Q241.0,198.8 250.0,213.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="249" y1="192" x2="253" y2="178" stroke="#37474f" stroke-width="2"/>
+<circle cx="272" cy="195.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M263.0,213.2 Q272.0,198.8 281.0,213.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="280" y1="192" x2="284" y2="178" stroke="#37474f" stroke-width="2"/>
+<text x="180" y="250" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >21人</text>
+<rect x="340" y="60" width="240" height="170" rx="10" fill="#eceff1" stroke="#90a4ae" stroke-width="1.5" />
+<text x="460" y="84" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >B案に賛成</text>
+<circle cx="366" cy="119.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M357.0,137.2 Q366.0,122.8 375.0,137.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="374" y1="116" x2="378" y2="102" stroke="#37474f" stroke-width="2"/>
+<circle cx="397" cy="119.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M388.0,137.2 Q397.0,122.8 406.0,137.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="405" y1="116" x2="409" y2="102" stroke="#37474f" stroke-width="2"/>
+<circle cx="428" cy="119.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M419.0,137.2 Q428.0,122.8 437.0,137.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="436" y1="116" x2="440" y2="102" stroke="#37474f" stroke-width="2"/>
+<circle cx="459" cy="119.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M450.0,137.2 Q459.0,122.8 468.0,137.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="467" y1="116" x2="471" y2="102" stroke="#37474f" stroke-width="2"/>
+<circle cx="490" cy="119.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M481.0,137.2 Q490.0,122.8 499.0,137.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="498" y1="116" x2="502" y2="102" stroke="#37474f" stroke-width="2"/>
+<circle cx="521" cy="119.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M512.0,137.2 Q521.0,122.8 530.0,137.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="529" y1="116" x2="533" y2="102" stroke="#37474f" stroke-width="2"/>
+<circle cx="552" cy="119.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M543.0,137.2 Q552.0,122.8 561.0,137.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="560" y1="116" x2="564" y2="102" stroke="#37474f" stroke-width="2"/>
+<circle cx="366" cy="157.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M357.0,175.2 Q366.0,160.8 375.0,175.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="374" y1="154" x2="378" y2="140" stroke="#37474f" stroke-width="2"/>
+<circle cx="397" cy="157.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M388.0,175.2 Q397.0,160.8 406.0,175.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="405" y1="154" x2="409" y2="140" stroke="#37474f" stroke-width="2"/>
+<circle cx="428" cy="157.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M419.0,175.2 Q428.0,160.8 437.0,175.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="436" y1="154" x2="440" y2="140" stroke="#37474f" stroke-width="2"/>
+<circle cx="459" cy="157.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M450.0,175.2 Q459.0,160.8 468.0,175.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="467" y1="154" x2="471" y2="140" stroke="#37474f" stroke-width="2"/>
+<circle cx="490" cy="157.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M481.0,175.2 Q490.0,160.8 499.0,175.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="498" y1="154" x2="502" y2="140" stroke="#37474f" stroke-width="2"/>
+<circle cx="521" cy="157.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M512.0,175.2 Q521.0,160.8 530.0,175.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="529" y1="154" x2="533" y2="140" stroke="#37474f" stroke-width="2"/>
+<circle cx="552" cy="157.2" r="6.3" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<path d="M543.0,175.2 Q552.0,160.8 561.0,175.2 Z" fill="#fff" stroke="#37474f" stroke-width="1.2" />
+<line x1="560" y1="154" x2="564" y2="140" stroke="#37474f" stroke-width="2"/>
+<text x="460" y="250" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >14人</text>
+<text x="180" y="285" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >→ 採用</text>
+<circle cx="560" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

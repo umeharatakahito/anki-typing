@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<path d="M240,370 C160,370 150,280 220,250 L286,100 L314,100 L380,250 C450,280 440,370 360,370 Z" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2.4" />
+<ellipse cx="300" cy="94" rx="40" ry="16" fill="#aed581" stroke="#2e7d32" stroke-width="2.4" />
+<ellipse cx="300" cy="318" rx="50" ry="36" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.6" />
+<circle cx="300" cy="88" r="9" fill="#fff176" stroke="#f9a825" stroke-width="2" />
+<path d="M300,96 C296,160 306,220 300,300" fill="none" stroke="#f57c00" stroke-width="4" />
+<line x1="460" y1="90" x2="338" y2="94" stroke="#555" stroke-width="1.2"/>
+<circle cx="338" cy="94" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="460" y="90" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >柱頭</text>
+<line x1="460" y1="320" x2="318" y2="318" stroke="#555" stroke-width="1.2"/>
+<circle cx="318" cy="318" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="460" y="320" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >胚珠</text>
+<line x1="120" y1="330" x2="250" y2="330" stroke="#555" stroke-width="1.2"/>
+<circle cx="250" cy="330" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="120" y="330" font-size="16" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >子房</text>
+<text x="100" y="40" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >受粉したあと</text>
+<line x1="120" y1="180" x2="298" y2="200" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="298" cy="200" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="120" cy="180" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="120" y="181" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

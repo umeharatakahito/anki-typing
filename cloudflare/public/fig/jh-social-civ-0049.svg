@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<defs><marker id="jhsocialciv0049mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<text x="40" y="90" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >はじめ</text>
+<circle cx="170" cy="90" r="34" fill="#c8e6c9" stroke="#37474f" stroke-width="2" />
+<text x="170" y="90" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1ドル</text>
+<text x="240" y="90" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＝</text>
+<circle cx="290" cy="90" r="16" fill="#ffe082" stroke="#f9a825" stroke-width="1.5" />
+<circle cx="326" cy="90" r="16" fill="#ffe082" stroke="#f9a825" stroke-width="1.5" />
+<circle cx="362" cy="90" r="16" fill="#ffe082" stroke="#f9a825" stroke-width="1.5" />
+<circle cx="398" cy="90" r="16" fill="#ffe082" stroke="#f9a825" stroke-width="1.5" />
+<circle cx="434" cy="90" r="16" fill="#ffe082" stroke="#f9a825" stroke-width="1.5" />
+<circle cx="470" cy="90" r="16" fill="#ffe082" stroke="#f9a825" stroke-width="1.5" />
+<text x="510" y="90" font-size="20" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >120円</text>
+<text x="40" y="240" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >その後</text>
+<circle cx="170" cy="240" r="34" fill="#c8e6c9" stroke="#37474f" stroke-width="2" />
+<text x="170" y="240" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1ドル</text>
+<text x="240" y="240" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＝</text>
+<circle cx="290" cy="240" r="16" fill="#ffe082" stroke="#f9a825" stroke-width="1.5" />
+<circle cx="326" cy="240" r="16" fill="#ffe082" stroke="#f9a825" stroke-width="1.5" />
+<circle cx="362" cy="240" r="16" fill="#ffe082" stroke="#f9a825" stroke-width="1.5" />
+<circle cx="398" cy="240" r="16" fill="#ffe082" stroke="#f9a825" stroke-width="1.5" />
+<circle cx="434" cy="240" r="16" fill="#ffe082" stroke="#f9a825" stroke-width="1.5" />
+<text x="474" y="240" font-size="20" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >100円</text>
+<line x1="470" y1="105" x2="470" y2="215" stroke="#f57c00" stroke-width="3" marker-end="url(#jhsocialciv0049mf57c00)"/>
+<line x1="530" y1="160" x2="472" y2="160" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="472" cy="160" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="530" cy="160" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="530" y="161" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="300" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" >少ない円で1ドルと交換できる（円の価値が上がる）</text>
+</svg>

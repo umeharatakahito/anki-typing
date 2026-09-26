@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 370" width="600" height="370" font-family="sans-serif">
+<rect width="600" height="370" fill="#fff"/>
+<defs><marker id="jhsocialhist10012m7b1fa2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7b1fa2"/></marker></defs>
+<rect x="250" y="14" width="100" height="50" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="300" y="40" font-size="28" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<line x1="300" y1="64" x2="300" y2="88" stroke="#37474f" stroke-width="2"/>
+<line x1="75" y1="88" x2="525" y2="88" stroke="#37474f" stroke-width="2"/>
+<line x1="75" y1="88" x2="75" y2="108" stroke="#37474f" stroke-width="2"/>
+<rect x="30" y="108" width="90" height="40" rx="6" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<text x="75" y="128" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" >彰子</text>
+<line x1="72" y1="148" x2="72" y2="176" stroke="#d32f2f" stroke-width="1.6"/>
+<line x1="78" y1="148" x2="78" y2="176" stroke="#d32f2f" stroke-width="1.6"/>
+<rect x="11" y="176" width="128" height="40" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="75" y="196" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >一条天皇</text>
+<line x1="225" y1="88" x2="225" y2="108" stroke="#37474f" stroke-width="2"/>
+<rect x="180" y="108" width="90" height="40" rx="6" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<text x="225" y="128" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" >妍子</text>
+<line x1="222" y1="148" x2="222" y2="176" stroke="#d32f2f" stroke-width="1.6"/>
+<line x1="228" y1="148" x2="228" y2="176" stroke="#d32f2f" stroke-width="1.6"/>
+<rect x="161" y="176" width="128" height="40" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="225" y="196" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >三条天皇</text>
+<line x1="375" y1="88" x2="375" y2="108" stroke="#37474f" stroke-width="2"/>
+<rect x="330" y="108" width="90" height="40" rx="6" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<text x="375" y="128" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" >威子</text>
+<line x1="372" y1="148" x2="372" y2="176" stroke="#d32f2f" stroke-width="1.6"/>
+<line x1="378" y1="148" x2="378" y2="176" stroke="#d32f2f" stroke-width="1.6"/>
+<rect x="311" y="176" width="128" height="40" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="375" y="196" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >後一条天皇</text>
+<line x1="525" y1="88" x2="525" y2="108" stroke="#37474f" stroke-width="2"/>
+<rect x="480" y="108" width="90" height="40" rx="6" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<text x="525" y="128" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" >嬉子</text>
+<line x1="522" y1="148" x2="522" y2="176" stroke="#d32f2f" stroke-width="1.6"/>
+<line x1="528" y1="148" x2="528" y2="176" stroke="#d32f2f" stroke-width="1.6"/>
+<rect x="461" y="176" width="128" height="40" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="525" y="196" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >後朱雀天皇</text>
+<text x="300" y="128" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >娘</text>
+<path d="M75,216 Q75,262 225,262 Q375,262 375,222" fill="none" stroke="#7b1fa2" stroke-width="2.2" marker-end="url(#jhsocialhist10012m7b1fa2)"/>
+<path d="M225,262 Q525,262 525,222" fill="none" stroke="#7b1fa2" stroke-width="2.2" marker-end="url(#jhsocialhist10012m7b1fa2)"/>
+<text x="150" y="284" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#7b1fa2" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >彰子の子が天皇に</text>
+<text x="300" y="326" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >娘を次々と天皇のきさきにした</text>
+<text x="300" y="352" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＝（二重線）は結婚</text>
+</svg>

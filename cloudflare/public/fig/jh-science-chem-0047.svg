@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<path d="M170,160 L430,160 L400,200 L200,200 Z" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<path d="M220,160 Q300,140 380,160 Z" fill="#212121" stroke="#f57c00" stroke-width="2.4" />
+<rect x="150" y="216" width="300" height="8" rx="0" fill="#90a4ae" stroke="#37474f" stroke-width="1.5" />
+<rect x="292.8" y="234" width="14.4" height="56" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<rect x="272.8" y="290" width="54.4" height="11.2" rx="3" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<path d="M292.0,234 C288.8,214.8 298.4,202.0 300,189.2 C301.6,202.0 311.2,214.8 308.0,234 Z" fill="#90caf9" stroke="#1e88e5" stroke-width="1.6" />
+<path d="M296.0,234 C295.2,224.4 300,216.4 300,211.6 C300,216.4 304.8,224.4 304.0,234 Z" fill="#e3f2fd" stroke="#1e88e5" stroke-width="1" />
+<line x1="500" y1="110" x2="310" y2="150" stroke="#555" stroke-width="1.2"/>
+<circle cx="310" cy="150" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="500" y="110" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >加熱後：黒色に変化</text>
+<text x="300" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >銅の粉末（赤かっ色）をステンレス皿で加熱</text>
+<line x1="100" y1="120" x2="250" y2="156" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="250" cy="156" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="100" cy="120" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="100" y="121" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460" width="600" height="460" font-family="sans-serif">
+<rect width="600" height="460" fill="#fff"/>
+<defs><marker id="jhsocialciv0007m546e7a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#546e7a"/></marker><marker id="jhsocialciv0007mffa000" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffa000"/></marker></defs>
+<line x1="232" y1="94" x2="118" y2="356" stroke="#546e7a" stroke-width="2" marker-end="url(#jhsocialciv0007m546e7a)"/>
+<text x="112" y="166.5" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#37474f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >内閣総理大臣の指名</text>
+<text x="112" y="183.5" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#37474f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >内閣不信任の決議</text>
+<line x1="142" y1="356" x2="256" y2="94" stroke="#546e7a" stroke-width="2" marker-end="url(#jhsocialciv0007m546e7a)"/>
+<text x="95" y="291.5" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#37474f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >衆議院の解散</text>
+<text x="95" y="308.5" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#37474f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >国会の召集</text>
+<line x1="344" y1="94" x2="458" y2="356" stroke="#546e7a" stroke-width="2" marker-end="url(#jhsocialciv0007m546e7a)"/>
+<text x="470" y="180" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#37474f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >弾劾裁判</text>
+<line x1="482" y1="356" x2="368" y2="94" stroke="#546e7a" stroke-width="2" marker-end="url(#jhsocialciv0007m546e7a)"/>
+<text x="525" y="300" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#37474f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >法律の違憲審査</text>
+<line x1="180" y1="378" x2="420" y2="378" stroke="#546e7a" stroke-width="2" marker-end="url(#jhsocialciv0007m546e7a)"/>
+<text x="300" y="350" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#37474f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >最高裁長官の指名・裁判官の任命</text>
+<line x1="420" y1="402" x2="180" y2="402" stroke="#546e7a" stroke-width="2" marker-end="url(#jhsocialciv0007m546e7a)"/>
+<text x="300" y="432" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#37474f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >命令・規則・処分の違憲・違法審査</text>
+<rect x="222" y="28" width="156" height="64" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="300" y="52" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >国会</text>
+<text x="300" y="77" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#37474f" >立法権</text>
+<rect x="22" y="358" width="156" height="64" rx="8" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="100" y="382" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >内閣</text>
+<text x="100" y="407" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#37474f" >行政権</text>
+<rect x="422" y="358" width="156" height="64" rx="8" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" />
+<text x="500" y="382" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >裁判所</text>
+<text x="500" y="407" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#37474f" >司法権</text>
+<circle cx="300" cy="215" r="38" fill="#fff8e1" stroke="#ffb300" stroke-width="2.5" />
+<text x="300" y="215" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >国民</text>
+<line x1="300" y1="176" x2="300" y2="96" stroke="#ffa000" stroke-width="2.2" stroke-dasharray="5 4" marker-end="url(#jhsocialciv0007mffa000)"/>
+<text x="318" y="140" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#e65100" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >選挙</text>
+<line x1="272" y1="243" x2="176" y2="356" stroke="#ffa000" stroke-width="2.2" stroke-dasharray="5 4" marker-end="url(#jhsocialciv0007mffa000)"/>
+<text x="240" y="312" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#e65100" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >世論</text>
+<line x1="328" y1="243" x2="424" y2="356" stroke="#ffa000" stroke-width="2.2" stroke-dasharray="5 4" marker-end="url(#jhsocialciv0007mffa000)"/>
+<text x="362" y="312" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#e65100" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >国民審査</text>
+<circle cx="560" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

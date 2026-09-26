@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<path d="M180,80 L180,320 L420,320 L420,80" fill="#f1f8fe" stroke="#78909c" stroke-width="2.4" />
+<rect x="170" y="66" width="260" height="14" rx="3" fill="#cfd8dc" stroke="#37474f" stroke-width="1.6" />
+<text x="300" y="110" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >CO₂</text>
+<line x1="300" y1="66" x2="300" y2="200" stroke="#9e9e9e" stroke-width="5"/>
+<circle cx="300" cy="210" r="24" fill="#fff" stroke="#fdd835" stroke-width="3" />
+<circle cx="345.603" cy="313.27" r="5" fill="#fff" stroke="#bdbdbd" stroke-width="1" />
+<circle cx="255.655" cy="301.188" r="5" fill="#fff" stroke="#bdbdbd" stroke-width="1" />
+<circle cx="333.55" cy="310.304" r="5" fill="#fff" stroke="#bdbdbd" stroke-width="1" />
+<circle cx="316.973" cy="304.314" r="5" fill="#fff" stroke="#bdbdbd" stroke-width="1" />
+<circle cx="310.594" cy="308.495" r="5" fill="#fff" stroke="#bdbdbd" stroke-width="1" />
+<circle cx="308.12" cy="302.217" r="5" fill="#fff" stroke="#bdbdbd" stroke-width="1" />
+<circle cx="293.067" cy="305.509" r="5" fill="#fff" stroke="#bdbdbd" stroke-width="1" />
+<circle cx="322.301" cy="313.927" r="5" fill="#fff" stroke="#bdbdbd" stroke-width="1" />
+<circle cx="344.94" cy="307.618" r="5" fill="#fff" stroke="#bdbdbd" stroke-width="1" />
+<circle cx="294.485" cy="303.755" r="5" fill="#fff" stroke="#bdbdbd" stroke-width="1" />
+<circle cx="253.592" cy="300.384" r="5" fill="#fff" stroke="#bdbdbd" stroke-width="1" />
+<circle cx="296.489" cy="304.459" r="5" fill="#fff" stroke="#bdbdbd" stroke-width="1" />
+<circle cx="288.001" cy="312.052" r="5" fill="#212121" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="302.575" cy="306.089" r="5" fill="#212121" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="273.612" cy="296.429" r="5" fill="#212121" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="282.514" cy="298.461" r="5" fill="#212121" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="301.022" cy="313.976" r="5" fill="#212121" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="317.448" cy="299.273" r="5" fill="#212121" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="339.357" cy="310.342" r="5" fill="#212121" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="323.44" cy="312.319" r="5" fill="#212121" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="326.289" cy="310.215" r="5" fill="#212121" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="285.379" cy="313.658" r="5" fill="#212121" stroke="#f57c00" stroke-width="1.4" />
+<line x1="80" y1="200" x2="290" y2="190" stroke="#555" stroke-width="1.2"/>
+<circle cx="290" cy="190" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="80" y="200" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Mgリボン</text>
+<line x1="520" y1="260" x2="350" y2="306" stroke="#555" stroke-width="1.2"/>
+<circle cx="350" cy="306" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="520" y="260" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >白い物質</text>
+<line x1="100" y1="290" x2="256" y2="306" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="256" cy="306" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="100" cy="290" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="100" y="291" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

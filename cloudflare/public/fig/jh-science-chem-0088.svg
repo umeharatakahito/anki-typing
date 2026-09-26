@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="jhsciencechem0088m1976d2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1976d2"/></marker></defs>
+<rect x="162" y="225" width="196" height="73" rx="0" fill="#fafafa" stroke="none" stroke-width="0" />
+<path d="M154,150 L160,156 L160,300 L360,300 L360,156 L366,150" fill="none" stroke="#78909c" stroke-width="2.4" />
+<circle cx="201.498" cy="285.846" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="302.204" cy="250.304" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="259.27" cy="261.969" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="284.255" cy="282.323" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="195.018" cy="236.701" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="313.722" cy="260.966" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="301.965" cy="235.126" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="251.262" cy="278.292" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="216.602" cy="291.716" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="324.228" cy="236.835" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="184.071" cy="267.485" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="330.264" cy="257.872" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="214.656" cy="260.327" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="184.647" cy="248.301" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="250.062" cy="264.749" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="217.294" cy="248.852" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="215.005" cy="262.576" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="226.365" cy="236.289" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="314.012" cy="268.387" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="282.767" cy="246.154" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="338.807" cy="286.597" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="199.342" cy="254.962" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="295.438" cy="277.672" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="329.83" cy="260.326" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="312.806" cy="275.218" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="228.539" cy="270.255" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="321.197" cy="285.772" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="260.845" cy="270.34" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="185.524" cy="249.564" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="307.585" cy="259.859" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="207.681" cy="267.928" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="292.487" cy="275.469" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="239.952" cy="261.338" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="261.348" cy="281.707" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="263.35" cy="258.595" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="258.351" cy="236.774" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="186.958" cy="277.203" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="337.31" cy="270.591" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="242.976" cy="245.221" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<circle cx="260.358" cy="293.925" r="5" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<rect x="294" y="40" width="12" height="240" rx="6" fill="#fafafa" stroke="#37474f" stroke-width="1.6" />
+<circle cx="300" cy="286" r="11" fill="#1976d2" stroke="#37474f" stroke-width="1.6" />
+<rect x="297" y="230" width="6" height="54" rx="0" fill="#1976d2" stroke="none" stroke-width="0" />
+<line x1="420" y1="90" x2="420" y2="250" stroke="#1976d2" stroke-width="4" marker-end="url(#jhsciencechem0088m1976d2)"/>
+<text x="470" y="170" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >温度が下がる</text>
+<line x1="40" y1="320" x2="190" y2="280" stroke="#555" stroke-width="1.2"/>
+<circle cx="190" cy="280" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="40" y="320" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >塩化アンモニウム＋水酸化バリウム</text>
+<line x1="80" y1="60" x2="200" y2="250" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="200" cy="250" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="80" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="80" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

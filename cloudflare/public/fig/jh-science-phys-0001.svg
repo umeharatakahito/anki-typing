@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<rect x="80" y="300" width="440" height="16" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<line x1="90" y1="316" x2="80" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="108" y1="316" x2="98" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="126" y1="316" x2="116" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="144" y1="316" x2="134" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="162" y1="316" x2="152" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="180" y1="316" x2="170" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="198" y1="316" x2="188" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="216" y1="316" x2="206" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="234" y1="316" x2="224" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="252" y1="316" x2="242" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="270" y1="316" x2="260" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="288" y1="316" x2="278" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="306" y1="316" x2="296" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="324" y1="316" x2="314" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="342" y1="316" x2="332" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="360" y1="316" x2="350" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="378" y1="316" x2="368" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="396" y1="316" x2="386" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="414" y1="316" x2="404" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="432" y1="316" x2="422" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="450" y1="316" x2="440" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="468" y1="316" x2="458" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="486" y1="316" x2="476" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="504" y1="316" x2="494" y2="330" stroke="#37474f" stroke-width="1.2"/>
+<line x1="300" y1="300" x2="300" y2="70" stroke="#9e9e9e" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="132.875" y1="100.828" x2="300" y2="300" stroke="#e53935" stroke-width="2.5"/>
+<polygon points="223.123,208.381 219.746,194.244 209.787,202.601" fill="#e53935" stroke="#e53935" stroke-width="1" stroke-linejoin="round" />
+<line x1="300" y1="300" x2="467.125" y2="100.828" stroke="#f57c00" stroke-width="3.5"/>
+<polygon points="390.247,192.447 376.912,198.228 386.87,206.584" fill="#f57c00" stroke="#f57c00" stroke-width="1" stroke-linejoin="round" />
+<circle cx="300" cy="300" r="7" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<line x1="470" y1="250" x2="305" y2="296" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="305" cy="296" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="470" cy="250" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="470" y="251" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="560" y1="80" x2="460" y2="110" stroke="#555" stroke-width="1.2"/>
+<circle cx="460" cy="110" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="560" y="80" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >はね返った光</text>
+<line x1="80" y1="60" x2="160" y2="110" stroke="#555" stroke-width="1.2"/>
+<circle cx="160" cy="110" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="80" y="60" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >光源からの光</text>
+<text x="540" y="330" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >鏡</text>
+</svg>

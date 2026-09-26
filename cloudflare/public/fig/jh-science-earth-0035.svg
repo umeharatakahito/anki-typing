@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<defs><marker id="jhscienceearth0035m1976d2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1976d2"/></marker></defs>
+<rect x="0" y="0" width="600" height="380" rx="0" fill="#f5fbff" stroke="none" stroke-width="0" />
+<path d="M0,150 C60,150 90,150 130,150 C170,120 200,120 240,150 L470,150 L470,380 L0,380 Z" fill="#bbdefb" stroke="none" stroke-width="0" />
+<path d="M0,150 C60,150 90,150 130,150 C170,120 200,120 240,150 L460,150" fill="none" stroke="#1976d2" stroke-width="2" />
+<path d="M300,150 C340,150 360,80 400,80 C430,80 440,110 470,120" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<path d="M300,150 C340,150 360,80 400,80 C430,80 440,110 470,120 L470,150 Z" fill="#ffcc80" stroke="none" stroke-width="0" />
+<polygon points="440,380 440,150 470,118 600,110 600,380" fill="#c5e1a5" stroke="#7cb342" stroke-width="2" stroke-linejoin="round" />
+<rect x="500" y="92" width="24" height="20" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<polygon points="497,92 512,80 527,92" fill="#e57373" stroke="#37474f" stroke-width="1.5" stroke-linejoin="round" />
+<rect x="540" y="92" width="24" height="20" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<polygon points="537,92 552,80 567,92" fill="#e57373" stroke="#37474f" stroke-width="1.5" stroke-linejoin="round" />
+<path d="M0,300 L200,300 C240,300 280,280 320,262 L440,210 L440,380 L0,380 Z" fill="#d7ccc8" stroke="#6d4c41" stroke-width="2" />
+<line x1="200" y1="305" x2="330" y2="260" stroke="#6d4c41" stroke-width="1.5"/>
+<polygon points="250,287 253.439,295.267 262.364,295.983 255.564,301.808 257.641,310.517 250,305.85 242.359,310.517 244.436,301.808 237.636,295.983 246.561,295.267" fill="#d32f2f" stroke="#d32f2f" stroke-width="1" stroke-linejoin="round" />
+<line x1="120" y1="340" x2="244" y2="302" stroke="#555" stroke-width="1.2"/>
+<circle cx="244" cy="302" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="120" y="340" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >海底で地震</text>
+<path d="M185,210 L185,160" fill="none" stroke="#1976d2" stroke-width="2.5" marker-end="url(#jhscienceearth0035m1976d2)"/>
+<path d="M220,160 L380,140" fill="none" stroke="#1976d2" stroke-width="2" marker-end="url(#jhscienceearth0035m1976d2)"/>
+<text x="185" y="230" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >海水がもち上がる</text>
+<line x1="390" y1="40" x2="395" y2="84" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="395" cy="84" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="390" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="390" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="530" y="40" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >沿岸におし寄せる</text>
+</svg>

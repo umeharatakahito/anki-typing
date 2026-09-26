@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<rect x="330" y="40" width="230" height="90" rx="8" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="445" y="70" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >会社が倒産</text>
+<text x="445" y="100" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#c62828" >借金（負債）が残る</text>
+<circle cx="120" cy="90" r="18" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="100" y="110" width="40" height="34" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="120" y="165" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >株主</text>
+<rect x="60" y="210" width="120" height="50" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="120" y="235" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >出資した額</text>
+<rect x="200" y="210" width="360" height="50" rx="6" fill="#fff" stroke="#c62828" stroke-width="1.5" />
+<text x="380" y="235" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#c62828" >それ以上の借金は返さなくてよい</text>
+<line x1="190" y1="200" x2="190" y2="272" stroke="#37474f" stroke-width="2.5"/>
+<text x="120" y="290" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >失うのはここまで</text>
+<line x1="30" y1="180" x2="60" y2="222" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="60" cy="222" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="30" cy="180" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="30" y="181" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

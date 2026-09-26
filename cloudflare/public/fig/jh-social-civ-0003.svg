@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" font-family="sans-serif">
+<rect width="600" height="420" fill="#fff"/>
+<rect x="174.5" y="354" width="103.5" height="15" rx="0" fill="#b3e5fc" stroke="#0288d1" stroke-width="1" />
+<rect x="322" y="354" width="99" height="15" rx="0" fill="#b3e5fc" stroke="#0288d1" stroke-width="1" />
+<text x="300" y="361.5" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#555" >0</text>
+<rect x="161" y="337" width="117" height="15" rx="0" fill="#b3e5fc" stroke="#0288d1" stroke-width="1" />
+<rect x="322" y="337" width="112.5" height="15" rx="0" fill="#b3e5fc" stroke="#0288d1" stroke-width="1" />
+<rect x="156.5" y="320" width="121.5" height="15" rx="0" fill="#b3e5fc" stroke="#0288d1" stroke-width="1" />
+<rect x="322" y="320" width="117" height="15" rx="0" fill="#b3e5fc" stroke="#0288d1" stroke-width="1" />
+<text x="300" y="327.5" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#555" >10</text>
+<rect x="147.5" y="303" width="130.5" height="15" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1" />
+<rect x="322" y="303" width="121.5" height="15" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1" />
+<rect x="134" y="286" width="144" height="15" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1" />
+<rect x="322" y="286" width="135" height="15" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1" />
+<text x="300" y="293.5" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#555" >20</text>
+<rect x="134" y="269" width="144" height="15" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1" />
+<rect x="322" y="269" width="135" height="15" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1" />
+<rect x="125" y="252" width="153" height="15" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1" />
+<rect x="322" y="252" width="148.5" height="15" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1" />
+<text x="300" y="259.5" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#555" >30</text>
+<rect x="107" y="235" width="171" height="15" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1" />
+<rect x="322" y="235" width="166.5" height="15" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1" />
+<rect x="84.5" y="218" width="193.5" height="15" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1" />
+<rect x="322" y="218" width="189" height="15" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1" />
+<text x="300" y="225.5" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#555" >40</text>
+<rect x="53" y="201" width="225" height="15" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1" />
+<rect x="322" y="201" width="220.5" height="15" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1" />
+<rect x="84.5" y="184" width="193.5" height="15" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1" />
+<rect x="322" y="184" width="193.5" height="15" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1" />
+<text x="300" y="191.5" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#555" >50</text>
+<rect x="102.5" y="167" width="175.5" height="15" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1" />
+<rect x="322" y="167" width="175.5" height="15" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1" />
+<rect x="116" y="150" width="162" height="15" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1" />
+<rect x="322" y="150" width="166.5" height="15" rx="0" fill="#cfd8dc" stroke="#90a4ae" stroke-width="1" />
+<text x="300" y="157.5" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#555" >60</text>
+<rect x="98" y="133" width="180" height="15" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1" />
+<rect x="322" y="133" width="189" height="15" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1" />
+<rect x="89" y="116" width="189" height="15" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1" />
+<rect x="322" y="116" width="211.5" height="15" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1" />
+<text x="300" y="123.5" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#555" >70</text>
+<rect x="138.5" y="99" width="139.5" height="15" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1" />
+<rect x="322" y="99" width="171" height="15" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1" />
+<rect x="179" y="82" width="99" height="15" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1" />
+<rect x="322" y="82" width="139.5" height="15" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1" />
+<text x="300" y="89.5" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#555" >80</text>
+<rect x="224" y="65" width="54" height="15" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1" />
+<rect x="322" y="65" width="99" height="15" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1" />
+<rect x="255.5" y="48" width="22.5" height="15" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1" />
+<rect x="322" y="48" width="67.5" height="15" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1" />
+<text x="300" y="55.5" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#555" >90</text>
+<text x="300" y="384" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#555" >（歳）</text>
+<text x="150" y="25" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >男</text>
+<text x="450" y="25" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >女</text>
+<line x1="520" y1="90" x2="460" y2="115" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="460" cy="115" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="520" cy="90" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="91" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="520" y="130" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >65歳以上</text>
+<text x="95" y="350" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#0288d1" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0〜14歳</text>
+<text x="300" y="405" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" >日本の人口ピラミッド（2020年ごろ・概数）</text>
+</svg>

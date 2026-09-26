@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<defs><marker id="jhsciencephys0085m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="40" y="100" width="90" height="160" rx="0" fill="#ef5350" stroke="#37474f" stroke-width="2" />
+<text x="85" y="180" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold" >N</text>
+<rect x="470" y="100" width="90" height="160" rx="0" fill="#42a5f5" stroke="#37474f" stroke-width="2" />
+<text x="515" y="180" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold" >S</text>
+<path d="M290,210 L180,210 L180,110 L420,110 L420,210 L310,210" fill="none" stroke="#f57c00" stroke-width="5" />
+<path d="M290,210 L284,266 M310,210 L316,266" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M270,285 A30,22 0 0 1 296,265 L296,305 A30,22 0 0 1 270,285 Z" fill="#ffcc80" stroke="#8d6e63" stroke-width="2.5" />
+<path d="M330,285 A30,22 0 0 0 304,265 L304,305 A30,22 0 0 0 330,285 Z" fill="#ffcc80" stroke="#8d6e63" stroke-width="2.5" />
+<rect x="230" y="279" width="30" height="14" rx="0" fill="#616161" stroke="#37474f" stroke-width="1.5" />
+<rect x="340" y="279" width="30" height="14" rx="0" fill="#616161" stroke="#37474f" stroke-width="1.5" />
+<line x1="230" y1="285" x2="180" y2="285" stroke="#37474f" stroke-width="2"/>
+<line x1="370" y1="285" x2="420" y2="285" stroke="#37474f" stroke-width="2"/>
+<line x1="180" y1="285" x2="180" y2="350" stroke="#37474f" stroke-width="2"/>
+<line x1="420" y1="285" x2="420" y2="350" stroke="#37474f" stroke-width="2"/>
+<line x1="180" y1="350" x2="420" y2="350" stroke="#37474f" stroke-width="2"/>
+<rect x="292" y="328" width="16" height="44" rx="0" fill="#fff" stroke="none" stroke-width="0" />
+<line x1="295" y1="330" x2="295" y2="370" stroke="#37474f" stroke-width="2.5"/>
+<line x1="305" y1="340" x2="305" y2="360" stroke="#37474f" stroke-width="5"/>
+<path d="M204.7,135.0 A110,30 0 0 1 395.3,135.0" fill="none" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsciencephys0085m37474f)"/>
+<rect x="30" y="90" width="540" height="280" rx="12" fill="none" stroke="#f57c00" stroke-width="2.5" stroke-dasharray="8 5"/>
+<line x1="300" y1="60" x2="300" y2="90" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="300" cy="90" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="300" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="470" y="60" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >電流を流すと回転</text>
+</svg>

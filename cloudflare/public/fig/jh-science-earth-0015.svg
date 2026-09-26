@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" width="600" height="260" font-family="sans-serif">
+<rect width="600" height="260" fill="#fff"/>
+<circle cx="90" cy="110" r="38" fill="#fff" stroke="#37474f" stroke-width="3" />
+<circle cx="230" cy="110" r="38" fill="#fff" stroke="#37474f" stroke-width="3" />
+<line x1="230" y1="72" x2="230" y2="148" stroke="#37474f" stroke-width="3"/>
+<text x="230" y="190" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >晴れ</text>
+<circle cx="370" cy="110" r="38" fill="#fff" stroke="#37474f" stroke-width="3" />
+<circle cx="370" cy="110" r="20" fill="#fff" stroke="#37474f" stroke-width="3" />
+<text x="370" y="190" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >くもり</text>
+<circle cx="510" cy="110" r="38" fill="#fff" stroke="#37474f" stroke-width="3" />
+<circle cx="510" cy="110" r="38" fill="#37474f" stroke="#37474f" stroke-width="3" />
+<text x="510" y="190" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >雨</text>
+<rect x="40" y="50" width="100" height="170" rx="10" fill="none" stroke="#f57c00" stroke-width="3" />
+<circle cx="90" cy="195" r="18" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="90" y="196" font-size="23.94" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="245" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >天気記号</text>
+</svg>

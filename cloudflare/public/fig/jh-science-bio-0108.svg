@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350" font-family="sans-serif">
+<rect width="600" height="350" fill="#fff"/>
+<path d="M120,130.0 L120,270.0 A20.0,20.0 0 0 0 160,270.0 L160,130.0 Z" fill="#a5d6a7" stroke="none"/>
+<path d="M120,90 L120,270.0 A20.0,20.0 0 0 0 160,270.0 L160,90" fill="none" stroke="#37474f" stroke-width="2.2" />
+<path d="M360,130.0 L360,270.0 A20.0,20.0 0 0 0 400,270.0 L400,130.0 Z" fill="#a5d6a7" stroke="none"/>
+<path d="M360,90 L360,270.0 A20.0,20.0 0 0 0 400,270.0 L400,90" fill="none" stroke="#37474f" stroke-width="2.2" />
+<path d="M140,270 C136,220 146,180 140,140" fill="none" stroke="#2e7d32" stroke-width="3" />
+<path d="M140,150 l-12,-6 M140,150 l12,-6" fill="none" stroke="#2e7d32" stroke-width="2.4" />
+<path d="M140,170 l-12,-6 M140,170 l12,-6" fill="none" stroke="#2e7d32" stroke-width="2.4" />
+<path d="M140,190 l-12,-6 M140,190 l12,-6" fill="none" stroke="#2e7d32" stroke-width="2.4" />
+<path d="M140,210 l-12,-6 M140,210 l12,-6" fill="none" stroke="#2e7d32" stroke-width="2.4" />
+<path d="M140,230 l-12,-6 M140,230 l12,-6" fill="none" stroke="#2e7d32" stroke-width="2.4" />
+<path d="M140,250 l-12,-6 M140,250 l12,-6" fill="none" stroke="#2e7d32" stroke-width="2.4" />
+<rect x="114" y="70" width="52" height="22" rx="3" fill="#bcaaa4" stroke="#6d4c41" stroke-width="1.6" />
+<rect x="354" y="70" width="52" height="22" rx="3" fill="#bcaaa4" stroke="#6d4c41" stroke-width="1.6" />
+<text x="140" y="330" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >オオカナダモあり</text>
+<text x="380" y="330" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >なし（緑のまま）</text>
+<circle cx="560" cy="50" r="26" fill="#fff176" stroke="#f9a825" stroke-width="2" />
+<path d="M104,84 L176,84 L184,300 L96,300 Z" fill="#cfd8dc" stroke="#607d8b" stroke-width="2.4" opacity="0.95"/>
+<path d="M344,84 L416,84 L424,300 L336,300 Z" fill="#cfd8dc" stroke="#607d8b" stroke-width="2.4" opacity="0.95"/>
+<text x="140" y="190" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >アルミ</text>
+<text x="140" y="210" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >はく</text>
+<text x="380" y="190" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >アルミ</text>
+<text x="380" y="210" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >はく</text>
+<text x="260" y="24" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >息をふきこんで緑色にしたBTB溶液</text>
+<line x1="60" y1="150" x2="116" y2="200" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="116" cy="200" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="60" cy="150" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="60" y="151" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

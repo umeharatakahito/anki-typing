@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<defs><marker id="jhscienceearth0063m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="0" y="0" width="600" height="400" rx="0" fill="#f5fbff" stroke="none" stroke-width="0" />
+<polygon points="20,150 300,150 288,190 20,190" fill="#ffe0b2" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="300,100 580,100 580,140 288,140" fill="#ffe0b2" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="20,190 288,190 276,230 20,230" fill="#d7ccc8" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="288,140 580,140 580,180 276,180" fill="#d7ccc8" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="20,230 276,230 264,270 20,270" fill="#fff9c4" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="276,180 580,180 580,220 264,220" fill="#fff9c4" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="20,270 264,270 252,310 20,310" fill="#c8e6c9" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="264,220 580,220 580,260 252,260" fill="#c8e6c9" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="20,310 252,310 240,350 20,350" fill="#ffe0b2" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="252,260 580,260 580,300 240,300" fill="#ffe0b2" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="20,350 240,350 228,390 20,390" fill="#d7ccc8" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="240,300 580,300 580,340 228,340" fill="#d7ccc8" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="300,100 300,150 20,150 20,150" fill="#f5fbff" stroke="none" stroke-width="0" stroke-linejoin="round" />
+<line x1="20" y1="150" x2="300" y2="150" stroke="#6d4c41" stroke-width="2.5"/>
+<line x1="300" y1="100" x2="580" y2="100" stroke="#6d4c41" stroke-width="2.5"/>
+<line x1="300" y1="100" x2="228" y2="390" stroke="#f57c00" stroke-width="4"/>
+<line x1="300" y1="100" x2="300" y2="150" stroke="#6d4c41" stroke-width="2"/>
+<path d="M340,230 L340,180" fill="none" stroke="#37474f" stroke-width="3" marker-end="url(#jhscienceearth0063m37474f)"/>
+<path d="M250,200 L250,250" fill="none" stroke="#37474f" stroke-width="3" marker-end="url(#jhscienceearth0063m37474f)"/>
+<line x1="160" y1="70" x2="270" y2="225" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="270" cy="225" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="160" cy="70" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="160" y="71" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="430" y="50" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >くり返しずれ、今後もずれるおそれ</text>
+<text x="450" y="75" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（段差）</text>
+</svg>

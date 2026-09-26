@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<rect x="80" y="230" width="260" height="26" rx="13" fill="#fafafa" stroke="#37474f" stroke-width="2" />
+<g transform="rotate(-60 350 243)">
+<rect x="350" y="232" width="220" height="22" rx="11" fill="#fafafa" stroke="#37474f" stroke-width="2" />
+</g>
+<circle cx="350" cy="243" r="18" fill="#fafafa" stroke="#37474f" stroke-width="2" />
+<text x="200" y="290" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >骨</text>
+<path d="M130,228 C160,150 290,150 330,200 C310,215 180,225 130,228 Z" fill="#ef9a9a" stroke="#d32f2f" stroke-width="2" />
+<text x="230" y="180" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >筋肉</text>
+<line x1="100" y1="232" x2="132" y2="228" stroke="#f57c00" stroke-width="6"/>
+<line x1="330" y1="200" x2="380" y2="200" stroke="#f57c00" stroke-width="6"/>
+<line x1="470" y1="120" x2="378" y2="198" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="378" cy="198" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="470" cy="120" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="470" y="121" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="470" y1="120" x2="100" y2="232" stroke="#f57c00" stroke-width="1.6" stroke-dasharray="4 4"/>
+<line x1="470" y1="320" x2="356" y2="256" stroke="#555" stroke-width="1.2"/>
+<circle cx="356" cy="256" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="470" y="320" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >関節</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<rect x="120" y="40" width="360" height="260" rx="14" fill="#eceff1" stroke="#37474f" stroke-width="3" />
+<path d="M160,200 A150,150 0 0 1 440,200" fill="#fff" stroke="#37474f" stroke-width="2" />
+<line x1="187.417" y1="155" x2="174.426" y2="147.5" stroke="#37474f" stroke-width="2"/>
+<text x="203.005" y="164" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0</text>
+<line x1="203.391" y1="133.013" x2="192.244" y2="122.976" stroke="#37474f" stroke-width="2"/>
+<line x1="223.588" y1="114.828" x2="214.771" y2="102.693" stroke="#37474f" stroke-width="2"/>
+<text x="234.168" y="129.39" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1</text>
+<line x1="247.124" y1="101.239" x2="241.023" y2="87.5359" stroke="#37474f" stroke-width="2"/>
+<line x1="272.971" y1="92.8408" x2="269.853" y2="78.1686" stroke="#37474f" stroke-width="2"/>
+<text x="276.714" y="110.447" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2</text>
+<line x1="300" y1="90" x2="300" y2="75" stroke="#37474f" stroke-width="2"/>
+<line x1="327.029" y1="92.8408" x2="330.147" y2="78.1686" stroke="#37474f" stroke-width="2"/>
+<text x="323.286" y="110.447" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >3</text>
+<line x1="352.876" y1="101.239" x2="358.977" y2="87.5359" stroke="#37474f" stroke-width="2"/>
+<line x1="376.412" y1="114.828" x2="385.229" y2="102.693" stroke="#37474f" stroke-width="2"/>
+<text x="365.832" y="129.39" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >4</text>
+<line x1="396.609" y1="133.013" x2="407.756" y2="122.976" stroke="#37474f" stroke-width="2"/>
+<line x1="412.583" y1="155" x2="425.574" y2="147.5" stroke="#37474f" stroke-width="2"/>
+<text x="396.995" y="164" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >5</text>
+<line x1="300" y1="220" x2="328.068" y2="87.9501" stroke="#d32f2f" stroke-width="3"/>
+<circle cx="300" cy="220" r="6" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<circle cx="180" cy="330" r="16" fill="#37474f" stroke="#37474f" stroke-width="2" />
+<text x="180" y="362" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >−</text>
+<circle cx="260" cy="330" r="16" fill="#e53935" stroke="#37474f" stroke-width="2" />
+<text x="260" y="362" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >50m</text>
+<circle cx="340" cy="330" r="16" fill="#e53935" stroke="#37474f" stroke-width="2" />
+<text x="340" y="362" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >500m</text>
+<circle cx="420" cy="330" r="16" fill="#e53935" stroke="#37474f" stroke-width="2" />
+<text x="420" y="362" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >5</text>
+
+<circle cx="300" cy="180" r="16" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="181" font-size="21.28" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="470" y="385" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（電流計の端子と目盛り）</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<path d="M40,300 Q250,200 330,40" fill="none" stroke="#2e7d32" stroke-width="4" />
+<ellipse cx="34" cy="282" rx="34" ry="12" transform="rotate(-65 34 282)" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8"/>
+<circle cx="30" cy="280" r="5" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<ellipse cx="86" cy="318" rx="34" ry="12" transform="rotate(-15 86 318)" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8"/>
+<circle cx="90" cy="320" r="5" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<ellipse cx="75.4286" cy="244.857" rx="34" ry="12" transform="rotate(-65 75.4286 244.857)" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8"/>
+<circle cx="71.4286" cy="242.857" r="5" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<ellipse cx="127.429" cy="280.857" rx="34" ry="12" transform="rotate(-15 127.429 280.857)" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8"/>
+<circle cx="131.429" cy="282.857" r="5" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<ellipse cx="116.857" cy="207.714" rx="34" ry="12" transform="rotate(-65 116.857 207.714)" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8"/>
+<circle cx="112.857" cy="205.714" r="5" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<ellipse cx="168.857" cy="243.714" rx="34" ry="12" transform="rotate(-15 168.857 243.714)" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8"/>
+<circle cx="172.857" cy="245.714" r="5" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<ellipse cx="158.286" cy="170.571" rx="34" ry="12" transform="rotate(-65 158.286 170.571)" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8"/>
+<circle cx="154.286" cy="168.571" r="5" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<ellipse cx="210.286" cy="206.571" rx="34" ry="12" transform="rotate(-15 210.286 206.571)" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8"/>
+<circle cx="214.286" cy="208.571" r="5" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<ellipse cx="199.714" cy="133.429" rx="34" ry="12" transform="rotate(-65 199.714 133.429)" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8"/>
+<circle cx="195.714" cy="131.429" r="5" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<ellipse cx="251.714" cy="169.429" rx="34" ry="12" transform="rotate(-15 251.714 169.429)" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8"/>
+<circle cx="255.714" cy="171.429" r="5" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<ellipse cx="241.143" cy="96.2857" rx="34" ry="12" transform="rotate(-65 241.143 96.2857)" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8"/>
+<circle cx="237.143" cy="94.2857" r="5" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<ellipse cx="293.143" cy="132.286" rx="34" ry="12" transform="rotate(-15 293.143 132.286)" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8"/>
+<circle cx="297.143" cy="134.286" r="5" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<ellipse cx="282.571" cy="59.1429" rx="34" ry="12" transform="rotate(-65 282.571 59.1429)" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8"/>
+<circle cx="278.571" cy="57.1429" r="5" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<ellipse cx="334.571" cy="95.1429" rx="34" ry="12" transform="rotate(-15 334.571 95.1429)" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8"/>
+<circle cx="338.571" cy="97.1429" r="5" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<text x="120" y="320" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >葉の裏</text>
+<circle cx="275" cy="115" r="14" fill="none" stroke="#f57c00" stroke-width="2.5" />
+<line x1="289" y1="115" x2="380" y2="120" stroke="#f57c00" stroke-width="2" stroke-dasharray="5,4"/>
+<circle cx="470" cy="170" r="110" fill="#fafafa" stroke="#90a4ae" stroke-width="2" />
+<path d="M470,275 L470,215" fill="none" stroke="#6d4c41" stroke-width="4" />
+<path d="M420,170 C420,110 520,110 520,170 C520,215 420,215 420,170 Z" fill="#a1887f" stroke="#5d4037" stroke-width="2.4" />
+<path d="M470,125 C474,140 474,150 470,160" fill="none" stroke="#5d4037" stroke-width="2" />
+<circle cx="547.085" cy="103.314" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" />
+<circle cx="423.881" cy="117.763" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" />
+<circle cx="526.016" cy="93.1352" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" />
+<circle cx="494.799" cy="93.6675" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" />
+<circle cx="489.096" cy="80.756" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" />
+<circle cx="481.664" cy="95.8055" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" />
+<circle cx="461.195" cy="86.828" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" />
+<circle cx="514.538" cy="74.6899" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" />
+<circle cx="533.086" cy="110.632" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" />
+<circle cx="463.764" cy="91.1101" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" />
+<circle cx="424.247" cy="120.787" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" />
+<circle cx="466.417" cy="89.1206" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" />
+<circle cx="449.225" cy="70.5664" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" />
+<circle cx="475.792" cy="80.5169" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" />
+<circle cx="441.552" cy="106.635" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" />
+<circle cx="449.47" cy="98.8115" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" />
+<text x="470" y="300" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >拡大</text>
+<line x1="560" y1="60" x2="530" y2="82" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="530" cy="82" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="560" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

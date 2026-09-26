@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<text x="300" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" >ある小選挙区の開票結果（例）</text>
+<text x="110" y="90" font-size="16" text-anchor="end" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >A候補</text>
+<rect x="120" y="70" width="360" height="40" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="2" />
+<text x="490" y="90" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >45%  当選</text>
+<text x="110" y="160" font-size="16" text-anchor="end" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >B候補</text>
+<rect x="120" y="140" width="280" height="40" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="410" y="160" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >35%  落選</text>
+<text x="110" y="230" font-size="16" text-anchor="end" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >C候補</text>
+<rect x="120" y="210" width="160" height="40" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="290" y="230" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >20%  落選</text>
+<line x1="470" y1="280" x2="220" y2="232" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="220" cy="232" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="470" cy="280" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="470" y="281" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="320" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" >落選した候補者への票は議席に結びつかない</text>
+</svg>

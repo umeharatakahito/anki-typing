@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<defs><marker id="jhsciencebio0073mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker><marker id="jhsciencebio0073m1976d2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1976d2"/></marker></defs>
+<rect x="220" y="20" width="160" height="60" rx="6" fill="#f8bbd0" stroke="#c2185b" stroke-width="2" />
+<text x="300" y="50" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" >肺</text>
+<rect x="220" y="300" width="160" height="60" rx="6" fill="#ffe0b2" stroke="#a1887f" stroke-width="2" />
+<text x="300" y="330" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" >全身</text>
+<rect x="240" y="160" width="120" height="60" rx="6" fill="#ef9a9a" stroke="#c62828" stroke-width="2" />
+<text x="300" y="190" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" >心臓</text>
+<path d="M380,50 C470,60 470,160 364,180" fill="none" stroke="#f57c00" stroke-width="6" marker-end="url(#jhsciencebio0073mf57c00)"/>
+<path d="M340,222 C380,260 360,280 350,296" fill="none" stroke="#f57c00" stroke-width="6" marker-end="url(#jhsciencebio0073mf57c00)"/>
+<path d="M250,300 C180,260 190,230 236,210" fill="none" stroke="#1976d2" stroke-width="5" marker-end="url(#jhsciencebio0073m1976d2)"/>
+<path d="M240,170 C140,150 150,60 216,52" fill="none" stroke="#1976d2" stroke-width="5" marker-end="url(#jhsciencebio0073m1976d2)"/>
+<text x="520" y="110" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >肺で酸素を</text>
+<text x="520" y="130" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >受け取った血液</text>
+<line x1="530" y1="200" x2="454" y2="120" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="454" cy="120" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="530" cy="200" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="530" y="201" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

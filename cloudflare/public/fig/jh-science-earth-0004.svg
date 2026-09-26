@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" width="600" height="440" font-family="sans-serif">
+<rect width="600" height="440" fill="#fff"/>
+<rect x="0" y="0" width="600" height="250" rx="0" fill="#f5fbff" stroke="none" stroke-width="0" />
+<rect x="0" y="250" width="600" height="190" rx="0" fill="#d7ccc8" stroke="none" stroke-width="0" />
+<polygon points="170,250 290,110 330,110 450,250" fill="#bcaaa4" stroke="#6d4c41" stroke-width="2" stroke-linejoin="round" />
+<line x1="0" y1="250" x2="600" y2="250" stroke="#6d4c41" stroke-width="2"/>
+<rect x="300" y="112" width="18" height="240" rx="0" fill="#ef9a9a" stroke="none" stroke-width="0" />
+<path d="M325,112 C350,150 370,185 400,215 C420,232 440,244 452,250 L420,250 C400,236 380,220 362,200 C345,180 330,150 320,115 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<path d="M190,440 C170,390 200,350 260,340 C300,335 330,345 360,340 C420,335 450,380 430,440 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<line x1="90" y1="40" x2="300" y2="120" stroke="#555" stroke-width="1.2"/>
+<circle cx="300" cy="120" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="90" y="40" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >火口</text>
+<text x="520" y="180" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >地表付近で固まる</text>
+<text x="515" y="300" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >地下深くで固まる</text>
+<line x1="540" y1="240" x2="425" y2="238" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="425" cy="238" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="540" cy="240" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="540" y="241" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="540" y1="240" x2="405" y2="380" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="405" cy="380" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<text x="80" y="400" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >マグマが冷えて</text>
+<text x="80" y="420" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >固まった岩石</text>
+</svg>

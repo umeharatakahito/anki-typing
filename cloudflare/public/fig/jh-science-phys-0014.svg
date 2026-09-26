@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<defs><marker id="jhsciencephys0014mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="200" y="10" width="200" height="14" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<line x1="300" y1="24" x2="300" y2="60" stroke="#37474f" stroke-width="2"/>
+<polyline points="300,60 312,70 288,80 312,90 288,100 312,110 288,120 312,130 288,140 312,150 288,160 300,175" fill="none" stroke="#37474f" stroke-width="2.5" stroke-linejoin="round" />
+<rect x="260" y="175" width="80" height="70" rx="4" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<text x="300" y="210" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" >100g</text>
+<line x1="300" y1="245" x2="300" y2="330" stroke="#f57c00" stroke-width="4" marker-end="url(#jhsciencephys0014mf57c00)"/>
+<text x="330" y="300" font-size="22" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >約1</text>
+<circle cx="385" cy="300" r="17" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="385" y="301" font-size="22.61" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="470" y="150" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（地球上）</text>
+</svg>

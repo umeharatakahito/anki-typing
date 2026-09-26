@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<path d="M30,250 L270,250 L270,300 L30,300 Z" fill="#fff59d" stroke="#f9a825" stroke-width="2" />
+<path d="M50.0,250 Q150,270 250.0,250" fill="#fff" stroke="none" stroke-width="0" />
+<rect x="60" y="200" width="180" height="60" rx="0" fill="#ef9a9a" stroke="#d32f2f" stroke-width="2" />
+<rect x="60" y="256" width="180" height="8" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="48" y1="260" x2="48" y2="260.1" stroke="#37474f" stroke-width="1"/>
+<path d="M310,250 L550,250 L550,300 L310,300 Z" fill="#fff59d" stroke="#f9a825" stroke-width="2" />
+<path d="M390.0,250 Q430,320 470.0,250" fill="#fff" stroke="none" stroke-width="0" />
+<rect x="400" y="105" width="60" height="180" rx="0" fill="#ef9a9a" stroke="#d32f2f" stroke-width="2" />
+<rect x="400" y="281" width="60" height="8" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="388" y1="285" x2="388" y2="285.1" stroke="#37474f" stroke-width="1"/>
+<text x="150" y="320" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >へこみ小</text>
+<text x="430" y="320" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >へこみ大</text>
+<text x="300" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >同じれんがをスポンジにのせる</text>
+<circle cx="300" cy="150" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="151" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="185" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1m²あたりの</text>
+<text x="300" y="203" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >おす力</text>
+</svg>

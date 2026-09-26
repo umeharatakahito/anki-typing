@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<rect x="0" y="230" width="600" height="110" rx="0" fill="#efebe9" stroke="none" stroke-width="0" />
+<line x1="0" y1="230" x2="600" y2="230" stroke="#8d6e63" stroke-width="2"/>
+<path d="M200,120 C200,40 400,40 400,120 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.6" />
+<line x1="215" y1="120" x2="300" y2="128" stroke="#e65100" stroke-width="1"/>
+<line x1="236" y1="120" x2="300" y2="128" stroke="#e65100" stroke-width="1"/>
+<line x1="257" y1="120" x2="300" y2="128" stroke="#e65100" stroke-width="1"/>
+<line x1="278" y1="120" x2="300" y2="128" stroke="#e65100" stroke-width="1"/>
+<line x1="299" y1="120" x2="300" y2="128" stroke="#e65100" stroke-width="1"/>
+<line x1="320" y1="120" x2="300" y2="128" stroke="#e65100" stroke-width="1"/>
+<line x1="341" y1="120" x2="300" y2="128" stroke="#e65100" stroke-width="1"/>
+<line x1="362" y1="120" x2="300" y2="128" stroke="#e65100" stroke-width="1"/>
+<line x1="383" y1="120" x2="300" y2="128" stroke="#e65100" stroke-width="1"/>
+<rect x="285" y="120" width="30" height="110" rx="0" fill="#fff3e0" stroke="#f57c00" stroke-width="2.4" />
+<path d="M300,230 L300,300 M300,240 C260,260 240,280 200,300 M300,240 C340,270 380,270 420,310 M290,250 C250,300 180,300 140,320 M310,260 C360,300 450,300 500,290" fill="none" stroke="#fff" stroke-width="4" />
+<path d="M300,230 L300,300 M300,240 C260,260 240,280 200,300 M300,240 C340,270 380,270 420,310 M290,250 C250,300 180,300 140,320 M310,260 C360,300 450,300 500,290" fill="none" stroke="#bcaaa4" stroke-width="1.6" />
+<line x1="440" y1="170" x2="370" y2="124" stroke="#555" stroke-width="1.2"/>
+<circle cx="370" cy="124" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="440" y="170" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ひだ（胞子をつくる）</text>
+<line x1="80" y1="300" x2="180" y2="300" stroke="#555" stroke-width="1.2"/>
+<circle cx="180" cy="300" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="80" y="300" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >菌糸</text>
+<line x1="80" y1="200" x2="288" y2="200" stroke="#555" stroke-width="1.2"/>
+<circle cx="288" cy="200" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="80" y="200" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >柄</text>
+<text x="300" y="16" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >キノコのからだ</text>
+<line x1="470" y1="50" x2="380" y2="80" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="380" cy="80" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="470" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="470" y="51" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

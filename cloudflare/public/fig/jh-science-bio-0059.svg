@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<path d="M300,320 L300,250" fill="none" stroke="#2e7d32" stroke-width="4" />
+<path d="M290,250 L310,250 L360,120 L240,120 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<ellipse cx="300" cy="110" rx="130" ry="42" fill="#ffcc80" stroke="#f57c00" stroke-width="2.6" />
+<line x1="300" y1="110" x2="428" y2="110" stroke="#fff" stroke-width="2"/>
+<line x1="300" y1="110" x2="339.554" y2="148.042" stroke="#fff" stroke-width="2"/>
+<line x1="300" y1="110" x2="196.446" y2="133.511" stroke="#fff" stroke-width="2"/>
+<line x1="300" y1="110" x2="196.446" y2="86.4886" stroke="#fff" stroke-width="2"/>
+<line x1="300" y1="110" x2="339.554" y2="71.9577" stroke="#fff" stroke-width="2"/>
+<ellipse cx="300" cy="110" rx="18" ry="8" fill="#fff" stroke="#f57c00" stroke-width="1.5" />
+<path d="M280,255 L300,236 L320,255 Z" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2" />
+<text x="300" y="20" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >花弁のようす</text>
+<line x1="500" y1="280" x2="316" y2="250" stroke="#555" stroke-width="1.2"/>
+<circle cx="316" cy="250" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="500" y="280" font-size="16" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >がく</text>
+<text x="120" y="290" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（アサガオ）</text>
+<line x1="520" y1="60" x2="420" y2="100" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="420" cy="100" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="520" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

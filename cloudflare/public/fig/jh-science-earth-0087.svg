@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<rect x="0" y="0" width="600" height="400" rx="0" fill="#fff" stroke="none" stroke-width="0" />
+<ellipse cx="200" cy="120" rx="52" ry="40" fill="none" stroke="#b0bec5" stroke-width="1.5" />
+<ellipse cx="200" cy="120" rx="104" ry="80" fill="none" stroke="#b0bec5" stroke-width="1.5" />
+<text x="190" y="110" font-size="24" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >低</text>
+<line x1="210" y1="130" x2="290" y2="200" stroke="#7b1fa2" stroke-width="4"/>
+<polygon points="230,148.5 244,162.5 246,144.5" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="1" stroke-linejoin="round" />
+<polygon points="262,176.5 276,190.5 278,172.5" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="1" stroke-linejoin="round" />
+<polyline points="290,200 240,280 170,350" fill="none" stroke="#1976d2" stroke-width="4" stroke-linejoin="round" />
+<polygon points="254,237 270,253 276,233" fill="#1976d2" stroke="#1976d2" stroke-width="1" stroke-linejoin="round" />
+<polygon points="197,307 213,323 219,303" fill="#1976d2" stroke="#1976d2" stroke-width="1" stroke-linejoin="round" />
+<polyline points="290,200 380,220 470,230" fill="none" stroke="#d32f2f" stroke-width="4" stroke-linejoin="round" />
+<path d="M331,212 A9,9 0 0 0 349,214 Z" fill="#d32f2f" stroke="#d32f2f" stroke-width="1" />
+<path d="M411,225 A9,9 0 0 0 429,227 Z" fill="#d32f2f" stroke="#d32f2f" stroke-width="1" />
+<line x1="110" y1="230" x2="250" y2="165" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="250" cy="165" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="110" cy="230" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="110" y="231" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="80" y1="370" x2="205" y2="315" stroke="#555" stroke-width="1.2"/>
+<circle cx="205" cy="315" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="80" y="370" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >寒冷前線</text>
+<line x1="530" y1="290" x2="440" y2="228" stroke="#555" stroke-width="1.2"/>
+<circle cx="440" cy="228" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="530" y="290" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >温暖前線</text>
+<text x="430" y="100" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >寒冷前線が温暖前線に</text>
+<text x="430" y="122" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >追いついたところ</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<defs><marker id="jhsocialhist10031m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="40" y1="170" x2="575" y2="170" stroke="#37474f" stroke-width="3" marker-end="url(#jhsocialhist10031m37474f)"/>
+<circle cx="95" cy="170" r="7" fill="#37474f" stroke="#fff" stroke-width="2" />
+<text x="95" y="196" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >701年</text>
+<rect x="31" y="100" width="128" height="44" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="95" y="122" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >大宝律令</text>
+<text x="95" y="232" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >土地は国のもの</text>
+<circle cx="245" cy="170" r="7" fill="#37474f" stroke="#fff" stroke-width="2" />
+<text x="245" y="196" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >723年</text>
+<rect x="181" y="100" width="128" height="44" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="245" y="122" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >三世一身法</text>
+<text x="245" y="232" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >開墾した土地は</text>
+<text x="245" y="254" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >3代まで私有</text>
+<circle cx="395" cy="170" r="7" fill="#37474f" stroke="#fff" stroke-width="2" />
+<text x="395" y="196" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >743年</text>
+<rect x="331" y="100" width="128" height="44" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="395" y="123" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<line x1="395" y1="144" x2="395" y2="163" stroke="#f57c00" stroke-width="2.5"/>
+<text x="395" y="232" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >開墾した土地は</text>
+<text x="395" y="254" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >いつまでも私有</text>
+<circle cx="525" cy="170" r="7" fill="#37474f" stroke="#fff" stroke-width="2" />
+<text x="525" y="140" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >のちに…</text>
+<text x="525" y="232" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >貴族・寺社の</text>
+<text x="525" y="254" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >私有地が広がる</text>
+<text x="300" y="40" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >奈良時代の土地の制度の移り変わり</text>
+</svg>

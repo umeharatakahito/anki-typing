@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<rect x="172" y="110" width="256" height="198" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" />
+<path d="M164,60 L170,66 L170,310 L430,310 L430,66 L436,60" fill="none" stroke="#78909c" stroke-width="2.4" />
+<rect x="233.931" y="139.538" width="16" height="16" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<rect x="269.133" y="148.345" width="16" height="16" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<rect x="196.633" y="190.27" width="16" height="16" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<rect x="383.95" y="258.077" width="16" height="16" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<rect x="350.336" y="159.728" width="16" height="16" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<rect x="300.07" y="169.036" width="16" height="16" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<rect x="219.986" y="140.051" width="16" height="16" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<rect x="229.168" y="279.671" width="16" height="16" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<rect x="364.362" y="259.131" width="16" height="16" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<rect x="358.099" y="154.884" width="16" height="16" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<rect x="250.167" y="228.586" width="16" height="16" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<rect x="343.017" y="267.29" width="16" height="16" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<rect x="375.611" y="136.742" width="16" height="16" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<rect x="315.287" y="236.189" width="16" height="16" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<line x1="500" y1="110" x2="420" y2="130" stroke="#555" stroke-width="1.2"/>
+<circle cx="420" cy="130" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="500" y="110" font-size="17" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >水</text>
+<text x="300" y="30" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >砂糖水</text>
+<line x1="70" y1="180" x2="233.931" y2="147.538" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="233.931" cy="147.538" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="70" cy="180" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="70" y="181" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

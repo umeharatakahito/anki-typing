@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<line x1="300" y1="58" x2="300" y2="90" stroke="#37474f" stroke-width="2"/>
+<line x1="300" y1="134" x2="300" y2="156" stroke="#37474f" stroke-width="2"/>
+<rect x="240" y="14" width="120" height="44" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="300" y="36" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >将軍</text>
+<rect x="240" y="90" width="120" height="44" rx="6" fill="#fff3e0" stroke="#8d6e63" stroke-width="2" />
+<text x="300" y="112" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >執権</text>
+<text x="372" y="112" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >北条氏</text>
+<line x1="90" y1="156" x2="510" y2="156" stroke="#37474f" stroke-width="2"/>
+<line x1="90" y1="156" x2="90" y2="176" stroke="#37474f" stroke-width="2"/>
+<rect x="30" y="176" width="120" height="42" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="90" y="197" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >侍所</text>
+<text x="90" y="233" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >御家人の統率</text>
+<line x1="230" y1="156" x2="230" y2="176" stroke="#37474f" stroke-width="2"/>
+<rect x="170" y="176" width="120" height="42" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="230" y="197" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >政所</text>
+<text x="230" y="233" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >財政・政務</text>
+<line x1="370" y1="156" x2="370" y2="176" stroke="#37474f" stroke-width="2"/>
+<rect x="310" y="176" width="120" height="42" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="370" y="198" font-size="24" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<text x="370" y="233" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >裁判</text>
+<line x1="20" y1="250" x2="580" y2="250" stroke="#b0bec5" stroke-width="1" stroke-dasharray="5 4"/>
+<text x="560" y="238" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >中央</text>
+<text x="560" y="266" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >地方</text>
+<line x1="510" y1="156" x2="510" y2="272" stroke="#37474f" stroke-width="2"/>
+<rect x="436" y="272" width="148" height="42" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="510" y="293" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >六波羅探題</text>
+<text x="510" y="329" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >京都：朝廷の監視</text>
+<line x1="40" y1="156" x2="90" y2="156" stroke="#37474f" stroke-width="2"/>
+<line x1="40" y1="156" x2="40" y2="258" stroke="#37474f" stroke-width="2"/>
+<line x1="40" y1="258" x2="290" y2="258" stroke="#37474f" stroke-width="2"/>
+<line x1="120" y1="258" x2="120" y2="272" stroke="#37474f" stroke-width="2"/>
+<rect x="60" y="272" width="120" height="42" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="120" y="293" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >守護</text>
+<text x="120" y="329" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >国ごと</text>
+<line x1="290" y1="258" x2="290" y2="272" stroke="#37474f" stroke-width="2"/>
+<rect x="230" y="272" width="120" height="42" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="290" y="293" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >地頭</text>
+<text x="290" y="329" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >荘園・公領ごと</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<rect x="210" y="70" width="180" height="130" rx="12" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<circle cx="300" cy="120" r="28" fill="#ef9a9a" stroke="#c62828" stroke-width="1.8" />
+<text x="300" y="121" font-size="26.6" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >O</text>
+<circle cx="272" cy="145.2" r="18.2" fill="#fff" stroke="#37474f" stroke-width="1.8" />
+<text x="272" y="146.2" font-size="17.29" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >H</text>
+<circle cx="328" cy="145.2" r="18.2" fill="#fff" stroke="#37474f" stroke-width="1.8" />
+<text x="328" y="146.2" font-size="17.29" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >H</text>
+<circle cx="90" cy="120" r="24" fill="#ef9a9a" stroke="#c62828" stroke-width="1.8" />
+<text x="90" y="121" font-size="22.8" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >O</text>
+<circle cx="510" cy="120" r="24" fill="#ef9a9a" stroke="#c62828" stroke-width="1.8" />
+<text x="510" y="121" font-size="22.8" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >O</text>
+<circle cx="60" cy="190" r="16" fill="#fff" stroke="#37474f" stroke-width="1.8" />
+<text x="60" y="191" font-size="15.2" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >H</text>
+<circle cx="110" cy="200" r="16" fill="#fff" stroke="#37474f" stroke-width="1.8" />
+<text x="110" y="201" font-size="15.2" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >H</text>
+<text x="90" y="250" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ばらばらの原子</text>
+<text x="300" y="240" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >結びついたまとまり（水）</text>
+<line x1="420" y1="50" x2="386" y2="80" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="386" cy="80" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="420" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="420" y="51" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

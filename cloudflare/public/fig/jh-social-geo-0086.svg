@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<ellipse cx="280" cy="200" rx="250" ry="175" fill="none" stroke="#37474f" stroke-width="1.1" />
+<ellipse cx="283" cy="201.5" rx="232" ry="162.5" fill="none" stroke="#37474f" stroke-width="1.1" />
+<ellipse cx="286" cy="203" rx="214" ry="150" fill="none" stroke="#37474f" stroke-width="1.1" />
+<ellipse cx="289" cy="204.5" rx="196" ry="137.5" fill="none" stroke="#37474f" stroke-width="1.1" />
+<ellipse cx="292" cy="206" rx="178" ry="125" fill="none" stroke="#f57c00" stroke-width="4" />
+<ellipse cx="295" cy="207.5" rx="160" ry="112.5" fill="none" stroke="#37474f" stroke-width="1.1" />
+<ellipse cx="298" cy="209" rx="142" ry="100" fill="none" stroke="#37474f" stroke-width="1.1" />
+<ellipse cx="301" cy="210.5" rx="124" ry="87.5" fill="none" stroke="#37474f" stroke-width="1.1" />
+<ellipse cx="304" cy="212" rx="106" ry="75" fill="none" stroke="#37474f" stroke-width="1.1" />
+<ellipse cx="307" cy="213.5" rx="88" ry="62.5" fill="none" stroke="#f57c00" stroke-width="4" />
+<ellipse cx="310" cy="215" rx="70" ry="50" fill="none" stroke="#37474f" stroke-width="1.1" />
+<ellipse cx="313" cy="216.5" rx="52" ry="37.5" fill="none" stroke="#37474f" stroke-width="1.1" />
+<ellipse cx="316" cy="218" rx="34" ry="25" fill="none" stroke="#37474f" stroke-width="1.1" />
+<text x="472" y="202" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >100m</text>
+<text x="397" y="209.5" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >200m</text>
+<line x1="520" y1="40" x2="352" y2="87" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="352" cy="87" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="520" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="560" y1="360" x2="346" y2="230" stroke="#555" stroke-width="1.2"/>
+<circle cx="346" cy="230" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="560" y="360" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >細い線は20mごと</text>
+<text x="160" y="385" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" >5万分の1の地形図（模式図）</text>
+</svg>

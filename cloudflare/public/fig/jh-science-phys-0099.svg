@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<defs><marker id="jhsciencephys0099m1976d2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1976d2"/></marker><marker id="jhsciencephys0099md32f2f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d32f2f"/></marker></defs>
+<line x1="40" y1="220" x2="160" y2="200" stroke="#1976d2" stroke-width="4" marker-end="url(#jhsciencephys0099m1976d2)"/>
+<line x1="40" y1="220" x2="80" y2="110" stroke="#1976d2" stroke-width="4" marker-end="url(#jhsciencephys0099m1976d2)"/>
+<circle cx="40" cy="220" r="4" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<line x1="380" y1="220" x2="540" y2="90" stroke="#d32f2f" stroke-width="4.5" marker-end="url(#jhsciencephys0099md32f2f)"/>
+<circle cx="380" cy="220" r="4" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<text x="110" y="260" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2つの力</text>
+<text x="460" y="260" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1つの力</text>
+<polygon points="230,170 320,170 320,180 350,160 320,140 320,150 230,150" fill="#ffcc80" stroke="#f57c00" stroke-width="2" stroke-linejoin="round" />
+<line x1="285" y1="80" x2="285" y2="148" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="285" cy="148" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="285" cy="80" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="285" y="81" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="300" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >同じはたらきをする</text>
+</svg>

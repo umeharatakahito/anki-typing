@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="jhsciencechem0008m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<polygon points="120,110 240,110 240,230 120,230" fill="#b0bec5" stroke="#37474f" stroke-width="2.4" stroke-linejoin="round" />
+<polygon points="120,110 160,70 280,70 240,110" fill="#cfd8dc" stroke="#37474f" stroke-width="2.4" stroke-linejoin="round" />
+<polygon points="240,110 280,70 280,190 240,230" fill="#90a4ae" stroke="#37474f" stroke-width="2.4" stroke-linejoin="round" />
+<text x="180" y="252" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1cm</text>
+<text x="94" y="170" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1cm</text>
+<text x="290" y="160" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1cm</text>
+<text x="200" y="300" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >鉄 1cm³</text>
+<line x1="330" y1="170" x2="390" y2="170" stroke="#37474f" stroke-width="3" marker-end="url(#jhsciencechem0008m37474f)"/>
+<rect x="400" y="130" width="170" height="80" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="485" y="158" font-size="24" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >7.87 g</text>
+<text x="485" y="190" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >（1cm³あたり）</text>
+<line x1="560" y1="70" x2="540" y2="130" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="540" cy="130" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="560" cy="70" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="71" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

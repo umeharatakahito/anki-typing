@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<ellipse cx="300" cy="150" rx="200" ry="120" fill="#f1f8e9" stroke="#2e7d32" stroke-width="2.4" />
+<text x="300" y="20" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >細胞分裂中の細胞</text>
+<path d="M180,109.90662118665298 L200,161.90662118665298 M200,109.90662118665298 L180,161.90662118665298" fill="none" stroke="#f57c00" stroke-width="7" stroke-linecap="round"/>
+<path d="M210,96.06793391396016 L230,148.06793391396016 M230,96.06793391396016 L210,148.06793391396016" fill="none" stroke="#f57c00" stroke-width="7" stroke-linecap="round"/>
+<path d="M240,136.0747578431883 L260,188.0747578431883 M260,136.0747578431883 L240,188.0747578431883" fill="none" stroke="#f57c00" stroke-width="7" stroke-linecap="round"/>
+<path d="M270,89.79490293340342 L290,141.79490293340342 M290,89.79490293340342 L270,141.79490293340342" fill="none" stroke="#f57c00" stroke-width="7" stroke-linecap="round"/>
+<path d="M300,126.87056034453514 L320,178.87056034453514 M320,126.87056034453514 L300,178.87056034453514" fill="none" stroke="#f57c00" stroke-width="7" stroke-linecap="round"/>
+<path d="M330,113.25511335300683 L350,165.25511335300683 M350,113.25511335300683 L330,165.25511335300683" fill="none" stroke="#f57c00" stroke-width="7" stroke-linecap="round"/>
+<path d="M360,88.63991398197655 L380,140.63991398197655 M380,88.63991398197655 L360,140.63991398197655" fill="none" stroke="#f57c00" stroke-width="7" stroke-linecap="round"/>
+<path d="M390,124.59485865515362 L410,176.59485865515362 M410,124.59485865515362 L390,176.59485865515362" fill="none" stroke="#f57c00" stroke-width="7" stroke-linecap="round"/>
+<line x1="520" y1="50" x2="400" y2="130" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="400" cy="130" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="520" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="51" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<defs><marker id="jhsocialhist20037mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<text x="20" y="24" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >田畑のうち自作地・小作地の割合（概数）</text>
+<text x="20" y="82" font-size="17" text-anchor="start" dominant-baseline="middle" fill="#222" >1940年</text>
+<rect x="150" y="60" width="226.8" height="44" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<rect x="376.8" y="60" width="193.2" height="44" rx="0" fill="#ffe0b2" stroke="#8d6e63" stroke-width="1.5" />
+<text x="263.4" y="82" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >自作地 54%</text>
+<text x="473.4" y="82" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >46%</text>
+<text x="20" y="222" font-size="17" text-anchor="start" dominant-baseline="middle" fill="#222" >1950年</text>
+<rect x="150" y="200" width="378" height="44" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<rect x="528" y="200" width="42" height="44" rx="0" fill="#ffe0b2" stroke="#8d6e63" stroke-width="1.5" />
+<text x="339" y="222" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >自作地 90%</text>
+<text x="549" y="222" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >10%</text>
+<text x="510" y="50" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#8d6e63" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >小作地</text>
+<line x1="360" y1="110" x2="360" y2="192" stroke="#f57c00" stroke-width="4" marker-end="url(#jhsocialhist20037mf57c00)"/>
+<circle cx="410" cy="150" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="410" y="151" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="436" y="150" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >戦後の民主化</text>
+<text x="300" y="290" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >地主の土地を政府が買い上げ、小作人に安く売った</text>
+</svg>

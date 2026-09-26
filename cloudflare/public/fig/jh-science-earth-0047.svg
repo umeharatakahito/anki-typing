@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<defs><marker id="jhscienceearth0047m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="30" y="52" width="200" height="76" rx="10" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="130" y="90" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" >サンゴ</text>
+<line x1="240" y1="90" x2="350" y2="90" stroke="#37474f" stroke-width="3" marker-end="url(#jhscienceearth0047m37474f)"/>
+<rect x="360" y="52" width="210" height="76" rx="10" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="465" y="90" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >あたたかくて浅い海</text>
+<rect x="30" y="157" width="200" height="76" rx="10" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="130" y="195" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" >シジミ</text>
+<line x1="240" y1="195" x2="350" y2="195" stroke="#37474f" stroke-width="3" marker-end="url(#jhscienceearth0047m37474f)"/>
+<rect x="360" y="157" width="210" height="76" rx="10" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="465" y="195" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >河口や湖</text>
+<rect x="30" y="262" width="200" height="76" rx="10" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="130" y="300" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" >ブナ（葉）</text>
+<line x1="240" y1="300" x2="350" y2="300" stroke="#37474f" stroke-width="3" marker-end="url(#jhscienceearth0047m37474f)"/>
+<rect x="360" y="262" width="210" height="76" rx="10" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="465" y="300" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >やや寒い気候の陸地</text>
+<circle cx="130" cy="24" r="16" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="130" y="25" font-size="21.28" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="465" y="24" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >地層ができた当時のようす</text>
+</svg>

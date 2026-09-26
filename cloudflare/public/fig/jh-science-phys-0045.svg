@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<circle cx="170" cy="130" r="70" fill="#fff59d" stroke="#f9a825" stroke-width="3" />
+<path d="M150,200 L190,200 L185,240 L155,240 Z" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<path d="M150,140 Q160,110 170,140 Q180,110 190,140" fill="none" stroke="#e65100" stroke-width="2" />
+<rect x="90" y="260" width="160" height="40" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="150" y="280" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >100V 60</text>
+<circle cx="222" cy="280" r="14" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="222" y="281" font-size="18.62" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<path d="M360,100 L500,100 Q530,130 500,160 L360,160 Z" fill="#b3e5fc" stroke="#37474f" stroke-width="2.5" />
+<rect x="400" y="160" width="40" height="90" rx="6" fill="#b3e5fc" stroke="#37474f" stroke-width="2.5" />
+<rect x="360" y="260" width="170" height="40" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="430" y="280" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >100V 1200</text>
+<circle cx="510" cy="280" r="14" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="281" font-size="18.62" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >電気器具の表示</text>
+</svg>

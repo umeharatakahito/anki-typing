@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<circle cx="300" cy="190" r="60" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<circle cx="300" cy="190" r="20" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="191" font-size="26.6" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="200" y="22" width="200" height="56" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="300" y="50" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >紙幣を発行する</text>
+<line x1="300" y1="128" x2="300" y2="80" stroke="#b0bec5" stroke-width="2"/>
+<rect x="10" y="272" width="200" height="56" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="110" y="300" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >政府のお金を預かる</text>
+<line x1="246.344" y1="221.064" x2="144.617" y2="284.969" stroke="#b0bec5" stroke-width="2"/>
+<rect x="390" y="272" width="200" height="56" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="490" y="300" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >銀行にお金を貸す</text>
+<line x1="353.656" y1="221.064" x2="455.383" y2="284.969" stroke="#b0bec5" stroke-width="2"/>
+<text x="300" y="360" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" >中央銀行の三つの役割</text>
+</svg>

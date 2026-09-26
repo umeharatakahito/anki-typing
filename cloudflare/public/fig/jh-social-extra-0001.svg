@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<defs><marker id="jhsocialextra0001m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="0" y="0" width="600" height="360" rx="0" fill="#e3f2fd" stroke="none" stroke-width="0" />
+<path d="M0,0 L90,0 C110,80 70,200 100,360 L0,360 Z" fill="#e8e3d3" stroke="#78909c" stroke-width="2" />
+<text x="40" y="180" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >陸地</text>
+<rect x="100" y="120" width="60" height="120" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<rect x="160" y="120" width="360" height="120" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<rect x="520" y="120" width="80" height="120" rx="0" fill="#e3f2fd" stroke="#90a4ae" stroke-width="1.5" />
+<text x="130" y="180" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >領海</text>
+<text x="560" y="180" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >公海</text>
+<circle cx="340" cy="180" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="340" y="181" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="100" y1="280" x2="160" y2="280" stroke="#37474f" stroke-width="1.5" marker-end="url(#jhsocialextra0001m37474f)" marker-start="url(#jhsocialextra0001m37474f)"/>
+<text x="130" y="300" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >12海里</text>
+<line x1="100" y1="320" x2="520" y2="320" stroke="#37474f" stroke-width="1.5" marker-end="url(#jhsocialextra0001m37474f)" marker-start="url(#jhsocialextra0001m37474f)"/>
+<text x="310" y="340" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >海岸線から200海里（約370km）</text>
+<text x="300" y="60" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" >上から見た模式図</text>
+<text x="470" y="90" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" >（1海里＝約1852m）</text>
+</svg>

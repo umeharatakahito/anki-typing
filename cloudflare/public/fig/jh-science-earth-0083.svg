@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<defs><marker id="jhscienceearth0083m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="jhscienceearth0083md32f2f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d32f2f"/></marker></defs>
+<rect x="0" y="0" width="600" height="380" rx="0" fill="#f5fbff" stroke="none" stroke-width="0" />
+<rect x="0" y="120" width="600" height="60" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" />
+<rect x="0" y="175" width="600" height="205" rx="0" fill="#ffccbc" stroke="none" stroke-width="0" />
+<text x="560" y="360" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >マントル</text>
+<path d="M0,160 L250,160 C300,165 360,200 480,300 L520,340 L470,360 C350,250 300,210 250,205 L0,205 Z" fill="#b0bec5" stroke="#37474f" stroke-width="2" />
+<path d="M268,152 C300,160 360,190 470,280 L600,280 L600,110 L420,110 L390,70 L350,90 L320,130 Z" fill="#d7ccc8" stroke="#6d4c41" stroke-width="2" />
+<path d="M0,120 L250,120" fill="none" stroke="#1976d2" stroke-width="2" />
+<text x="110" y="185" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >海のプレート</text>
+<text x="530" y="200" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >陸のプレート</text>
+<text x="400" y="55" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >日本列島</text>
+<path d="M60,230 L200,230" fill="none" stroke="#37474f" stroke-width="3" marker-end="url(#jhscienceearth0083m37474f)"/>
+<text x="40" y="100" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >海</text>
+<polygon points="330,174 334.232,184.175 345.217,185.056 336.848,192.225 339.405,202.944 330,197.2 320.595,202.944 323.152,192.225 314.783,185.056 325.768,184.175" fill="#f57c00" stroke="#f57c00" stroke-width="1" stroke-linejoin="round" />
+<path d="M300,110 C310,95 330,95 345,100" fill="none" stroke="#d32f2f" stroke-width="3" marker-end="url(#jhscienceearth0083md32f2f)"/>
+<text x="450" y="320" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >引きずられた陸のプレートの先</text>
+<text x="450" y="340" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >がはね返る</text>
+<line x1="250" y1="290" x2="322" y2="198" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="322" cy="198" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="250" cy="290" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="250" y="291" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

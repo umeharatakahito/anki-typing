@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" width="600" height="440" font-family="sans-serif">
+<rect width="600" height="440" fill="#fff"/>
+<rect x="0" y="0" width="600" height="250" rx="0" fill="#f5fbff" stroke="none" stroke-width="0" />
+<rect x="0" y="250" width="600" height="190" rx="0" fill="#d7ccc8" stroke="none" stroke-width="0" />
+<polygon points="170,250 290,110 330,110 450,250" fill="#bcaaa4" stroke="#6d4c41" stroke-width="2" stroke-linejoin="round" />
+<line x1="0" y1="250" x2="600" y2="250" stroke="#6d4c41" stroke-width="2"/>
+<rect x="300" y="112" width="18" height="240" rx="0" fill="#ef9a9a" stroke="none" stroke-width="0" />
+<path d="M325,112 C350,150 370,185 400,215 C420,232 440,244 452,250 L420,250 C400,236 380,220 362,200 C345,180 330,150 320,115 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<path d="M190,440 C170,390 200,350 260,340 C300,335 330,345 360,340 C420,335 450,380 430,440 Z" fill="#ef9a9a" stroke="#c62828" stroke-width="2.5" />
+<line x1="520" y1="170" x2="420" y2="235" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="420" cy="235" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="520" cy="170" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="171" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="520" y="205" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >急に冷える</text>
+<line x1="520" y1="330" x2="410" y2="390" stroke="#555" stroke-width="1.2"/>
+<circle cx="410" cy="390" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="520" y="330" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ゆっくり冷える</text>
+<text x="90" y="210" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >地表・地表付近</text>
+</svg>

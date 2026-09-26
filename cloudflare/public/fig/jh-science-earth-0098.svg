@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<defs><marker id="jhscienceearth0098md32f2f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d32f2f"/></marker></defs>
+<rect x="0" y="0" width="600" height="380" rx="0" fill="#f5fbff" stroke="none" stroke-width="0" />
+<path d="M0,330 L600,330" fill="none" stroke="#6d4c41" stroke-width="3" />
+<path d="M120,330 C250,300 420,190 600,90 L600,330 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="520" y="280" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >寒気</text>
+<text x="80" y="150" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >暖気</text>
+<path d="M60,260 C200,240 330,170 470,90" fill="none" stroke="#d32f2f" stroke-width="2.5" marker-end="url(#jhscienceearth0098md32f2f)"/>
+<path d="M170,300 C200,250 250,230 330,210 C380,195 410,190 430,200 C420,240 360,280 300,300 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<line x1="220" y1="300" x2="214" y2="330" stroke="#1976d2" stroke-width="1.6"/>
+<line x1="238" y1="296.4" x2="232" y2="330" stroke="#1976d2" stroke-width="1.6"/>
+<line x1="256" y1="292.8" x2="250" y2="330" stroke="#1976d2" stroke-width="1.6"/>
+<line x1="274" y1="289.2" x2="268" y2="330" stroke="#1976d2" stroke-width="1.6"/>
+<line x1="292" y1="285.6" x2="286" y2="330" stroke="#1976d2" stroke-width="1.6"/>
+<line x1="310" y1="282" x2="304" y2="330" stroke="#1976d2" stroke-width="1.6"/>
+<line x1="328" y1="278.4" x2="322" y2="330" stroke="#1976d2" stroke-width="1.6"/>
+<line x1="346" y1="274.8" x2="340" y2="330" stroke="#1976d2" stroke-width="1.6"/>
+<line x1="364" y1="271.2" x2="358" y2="330" stroke="#1976d2" stroke-width="1.6"/>
+<line x1="382" y1="267.6" x2="376" y2="330" stroke="#1976d2" stroke-width="1.6"/>
+<path d="M430,150 C460,130 520,110 580,95 C585,110 540,125 460,160 Z" fill="#eceff1" stroke="#90a4ae" stroke-width="1.5" />
+<path d="M470,90 C500,70 550,55 590,50" fill="none" stroke="#90a4ae" stroke-width="2" />
+<line x1="250" y1="120" x2="300" y2="220" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="300" cy="220" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="250" cy="120" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="250" y="121" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="320" y="360" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >おだやかな雨が長く降る</text>
+</svg>

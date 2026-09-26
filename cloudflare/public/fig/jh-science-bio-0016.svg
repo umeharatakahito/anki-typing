@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="jhsciencebio0016m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<text x="150" y="24" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >日光に当てる（右半分をおおう）</text>
+<path d="M150,310 L150,270" fill="none" stroke="#2e7d32" stroke-width="4" />
+<path d="M150,270 C40,230 40,90 150,50 C260,90 260,230 150,270 Z" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2.4" />
+<path d="M150,270 C260,230 260,90 150,50 L150,270 Z" fill="#90a4ae" stroke="#37474f" stroke-width="1.5" />
+<line x1="150" y1="60" x2="150" y2="265" stroke="#2e7d32" stroke-width="1.5"/>
+<line x1="290" y1="300" x2="190" y2="200" stroke="#555" stroke-width="1.2"/>
+<circle cx="190" cy="200" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="290" y="300" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >アルミニウムはく</text>
+<line x1="270" y1="160" x2="330" y2="160" stroke="#37474f" stroke-width="3" marker-end="url(#jhsciencebio0016m37474f)"/>
+<text x="300" y="140" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ヨウ素液</text>
+<text x="450" y="24" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >脱色してヨウ素液をかける</text>
+<path d="M450,310 L450,270" fill="none" stroke="#2e7d32" stroke-width="4" />
+<path d="M450,270 C340,230 340,90 450,50 C560,90 560,230 450,270 Z" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2.4" />
+<path d="M450,270 C340,230 340,90 450,50 L450,270 Z" fill="#ffcc80" stroke="none" stroke-width="0" />
+<path d="M450,270 C340,230 340,90 450,50 L450,270 Z" fill="#7e57c2" stroke="none" stroke-width="0" opacity="0.55"/>
+<path d="M450,270 C560,230 560,90 450,50 L450,270 Z" fill="#fff8e1" stroke="none" stroke-width="0" />
+<path d="M450,270 C340,230 340,90 450,50 C560,90 560,230 450,270 Z" fill="none" stroke="#2e7d32" stroke-width="2.4" />
+<line x1="450" y1="60" x2="450" y2="265" stroke="#9e9d24" stroke-width="1.5"/>
+<text x="415" y="235" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#4527a0" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >青紫色</text>
+<line x1="355" y1="70" x2="415" y2="150" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="415" cy="150" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="355" cy="70" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="355" y="71" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

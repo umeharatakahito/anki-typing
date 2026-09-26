@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<rect x="160" y="130" width="260" height="50" rx="0" fill="#9e9e9e" stroke="#37474f" stroke-width="2" />
+<path d="M180,122 C190,122 190,188 180,188" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M196,122 C206,122 206,188 196,188" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M212,122 C222,122 222,188 212,188" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M228,122 C238,122 238,188 228,188" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M244,122 C254,122 254,188 244,188" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M260,122 C270,122 270,188 260,188" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M276,122 C286,122 286,188 276,188" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M292,122 C302,122 302,188 292,188" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M308,122 C318,122 318,188 308,188" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M324,122 C334,122 334,188 324,188" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M340,122 C350,122 350,188 340,188" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M356,122 C366,122 366,188 356,188" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M372,122 C382,122 382,188 372,188" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M388,122 C398,122 398,188 388,188" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M404,122 C414,122 414,188 404,188" fill="none" stroke="#f57c00" stroke-width="3" />
+<line x1="180" y1="188" x2="150" y2="260" stroke="#f57c00" stroke-width="3"/>
+<line x1="404" y1="188" x2="440" y2="260" stroke="#f57c00" stroke-width="3"/>
+<line x1="150" y1="260" x2="440" y2="260" stroke="#37474f" stroke-width="2"/>
+<rect x="292" y="238" width="16" height="44" rx="0" fill="#fff" stroke="none" stroke-width="0" />
+<line x1="295" y1="240" x2="295" y2="280" stroke="#37474f" stroke-width="2.5"/>
+<line x1="305" y1="250" x2="305" y2="270" stroke="#37474f" stroke-width="5"/>
+<path d="M460,140 l20,0 a5,5 0 0 1 0,10 l-18,0 a4,4 0 0 1 0,-8 l14,0" fill="none" stroke="#607d8b" stroke-width="2" />
+<path d="M470,175 l20,0 a5,5 0 0 1 0,10 l-18,0 a4,4 0 0 1 0,-8 l14,0" fill="none" stroke="#607d8b" stroke-width="2" />
+<path d="M455,200 l20,0 a5,5 0 0 1 0,10 l-18,0 a4,4 0 0 1 0,-8 l14,0" fill="none" stroke="#607d8b" stroke-width="2" />
+<line x1="200" y1="60" x2="290" y2="150" stroke="#555" stroke-width="1.2"/>
+<circle cx="290" cy="150" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="200" y="60" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >鉄しん</text>
+<line x1="100" y1="110" x2="180" y2="140" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="180" cy="140" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="100" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="100" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="490" y="115" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >クリップを引きつける</text>
+</svg>

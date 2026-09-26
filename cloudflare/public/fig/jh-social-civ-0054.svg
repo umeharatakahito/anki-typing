@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="jhsocialciv0054mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker><marker id="jhsocialciv0054m388e3c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#388e3c"/></marker></defs>
+<rect x="40" y="90" width="190" height="150" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2.5" />
+<text x="135" y="110" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#37474f" >国会</text>
+<rect x="60" y="125" width="150" height="50" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="135" y="150" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >衆議院</text>
+<rect x="60" y="185" width="150" height="45" rx="6" fill="#fff" stroke="#b0bec5" stroke-width="1.5" />
+<text x="135" y="207" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#78909c" >参議院</text>
+<rect x="390" y="110" width="170" height="100" rx="8" fill="#e8f5e9" stroke="#388e3c" stroke-width="2.5" />
+<text x="475" y="160" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >内閣</text>
+<line x1="212" y1="150" x2="386" y2="150" stroke="#f57c00" stroke-width="3.5" marker-end="url(#jhsocialciv0054mf57c00)"/>
+<line x1="300" y1="100" x2="300" y2="150" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="300" cy="150" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="300" cy="100" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="101" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="386" y1="190" x2="212" y2="190" stroke="#388e3c" stroke-width="2" marker-end="url(#jhsocialciv0054m388e3c)"/>
+<text x="300" y="210" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#37474f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >可決されたら 10日以内に</text>
+<text x="300" y="228" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#37474f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >衆議院を解散するか、総辞職</text>
+<text x="300" y="300" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" >参議院にはない、衆議院だけの権限</text>
+</svg>

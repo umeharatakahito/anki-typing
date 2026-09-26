@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<defs><marker id="jhsocialciv0009m1976d2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1976d2"/></marker></defs>
+<rect x="160" y="110" width="400" height="230" rx="10" fill="#e8f5e9" stroke="#388e3c" stroke-width="2.5" />
+<text x="360" y="135" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >内閣</text>
+<circle cx="360" cy="200" r="34" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<circle cx="360" cy="200" r="16" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="360" y="201" font-size="21.28" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<circle cx="200" cy="290" r="18" fill="#fff" stroke="#388e3c" stroke-width="2" />
+<circle cx="253" cy="290" r="18" fill="#fff" stroke="#388e3c" stroke-width="2" />
+<circle cx="306" cy="290" r="18" fill="#fff" stroke="#388e3c" stroke-width="2" />
+<circle cx="359" cy="290" r="18" fill="#fff" stroke="#388e3c" stroke-width="2" />
+<circle cx="412" cy="290" r="18" fill="#fff" stroke="#388e3c" stroke-width="2" />
+<circle cx="465" cy="290" r="18" fill="#fff" stroke="#388e3c" stroke-width="2" />
+<circle cx="518" cy="290" r="18" fill="#fff" stroke="#388e3c" stroke-width="2" />
+<text x="360" y="325" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#37474f" >内閣のほかのメンバー</text>
+<rect x="10" y="170" width="110" height="60" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="65" y="200" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >国会</text>
+<line x1="122" y1="200" x2="322" y2="200" stroke="#1976d2" stroke-width="2.5" marker-end="url(#jhsocialciv0009m1976d2)"/>
+<text x="220" y="185" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >指名</text>
+<line x1="360" y1="234" x2="360" y2="268" stroke="#388e3c" stroke-width="1.5"/>
+<text x="372" y="250" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#388e3c" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >任命</text>
+<text x="300" y="40" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#555" >内閣の長</text>
+</svg>

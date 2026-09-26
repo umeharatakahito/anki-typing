@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="jhsciencebio0071m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<path d="M170,120 L170,310 L430,310 L430,120" fill="#e3f2fd" stroke="#1976d2" stroke-width="2.4" />
+<rect x="172" y="160" width="256" height="148" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" />
+<text x="390" y="290" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >湯</text>
+<path d="M280,191.0 L280,270.0 A20.0,20.0 0 0 0 320,270.0 L320,191.0 Z" fill="#ffcc80" stroke="none"/>
+<path d="M280,70 L280,270.0 A20.0,20.0 0 0 0 320,270.0 L320,70" fill="none" stroke="#37474f" stroke-width="2.2" />
+<ellipse cx="300" cy="272" rx="16" ry="10" fill="#8d3a1e" stroke="#5d1a0a" stroke-width="1" />
+<circle cx="200" cy="200" r="5" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<circle cx="230" cy="250" r="5" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<circle cx="360" cy="230" r="5" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<circle cx="390" cy="180" r="5" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<line x1="80" y1="280" x2="294" y2="272" stroke="#555" stroke-width="1.2"/>
+<circle cx="294" cy="272" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="80" y="280" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >赤かっ色の沈殿</text>
+<line x1="80" y1="200" x2="290" y2="220" stroke="#555" stroke-width="1.2"/>
+<circle cx="290" cy="220" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="80" y="200" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >麦芽糖などをふくむ液</text>
+<rect x="470" y="120" width="80" height="130" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<rect x="492" y="90" width="36" height="32" rx="0" fill="#90a4ae" stroke="#37474f" stroke-width="2" />
+<line x1="470" y1="160" x2="420" y2="150" stroke="#37474f" stroke-width="2" marker-end="url(#jhsciencebio0071m37474f)"/>
+<text x="510" y="280" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >加える薬品</text>
+<line x1="560" y1="60" x2="530" y2="110" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="530" cy="110" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="560" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

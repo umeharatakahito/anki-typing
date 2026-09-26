@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<defs><marker id="jhsocialciv0017mf9a825" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f9a825"/></marker><marker id="jhsocialciv0017md32f2f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d32f2f"/></marker></defs>
+<rect x="0" y="0" width="600" height="380" rx="0" fill="#f5fbff" stroke="none" stroke-width="0" />
+<circle cx="70" cy="70" r="40" fill="#ffe082" stroke="#f9a825" stroke-width="2" />
+<path d="M0,300 Q300,250 600,300 L600,380 L0,380 Z" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<path d="M0,150 Q300,100 600,150" fill="none" stroke="#90a4ae" stroke-width="12" opacity="0.5"/>
+<text x="470" y="108" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#546e7a" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >温室効果ガス（二酸化炭素など）</text>
+<line x1="100" y1="100" x2="250" y2="280" stroke="#f9a825" stroke-width="3" marker-end="url(#jhsocialciv0017mf9a825)"/>
+<line x1="260" y1="280" x2="330" y2="140" stroke="#d32f2f" stroke-width="2.5" marker-end="url(#jhsocialciv0017md32f2f)"/>
+<line x1="330" y1="140" x2="380" y2="275" stroke="#d32f2f" stroke-width="2.5" marker-end="url(#jhsocialciv0017md32f2f)"/>
+<text x="400" y="200" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >熱が宇宙へ逃げにくい</text>
+<rect x="470" y="250" width="24" height="50" rx="0" fill="#90a4ae" stroke="#37474f" stroke-width="1.5" />
+<path d="M482,250 q-10,-20 5,-40 q12,-18 -2,-36" fill="none" stroke="#9e9e9e" stroke-width="5" opacity="0.6"/>
+<rect x="520" y="250" width="24" height="50" rx="0" fill="#90a4ae" stroke="#37474f" stroke-width="1.5" />
+<path d="M532,250 q-10,-20 5,-40 q12,-18 -2,-36" fill="none" stroke="#9e9e9e" stroke-width="5" opacity="0.6"/>
+<rect x="40" y="200" width="18" height="90" rx="9" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<rect x="44" y="230" width="10" height="58" rx="5" fill="#d32f2f" stroke="none" stroke-width="0" />
+<line x1="110" y1="220" x2="58" y2="230" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="58" cy="230" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="110" cy="220" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="110" y="221" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="49" y="310" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >平均気温</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<path d="M60,160 C120,70 330,60 450,150 L540,90 L520,160 L540,230 L450,170 C330,260 120,250 60,160 Z" fill="#e3f2fd" stroke="#90a4ae" stroke-width="2" />
+<circle cx="115" cy="145" r="8" fill="#fff" stroke="#37474f" stroke-width="2" />
+<circle cx="115" cy="145" r="3" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<path d="M150,160 L460,160" fill="none" stroke="#f57c00" stroke-width="7" stroke-linecap="round"/>
+<line x1="170" y1="160" x2="160" y2="139" stroke="#90a4ae" stroke-width="2"/>
+<line x1="170" y1="160" x2="160" y2="181" stroke="#90a4ae" stroke-width="2"/>
+<rect x="166" y="155" width="8" height="10" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<line x1="190" y1="160" x2="180" y2="136" stroke="#90a4ae" stroke-width="2"/>
+<line x1="190" y1="160" x2="180" y2="184" stroke="#90a4ae" stroke-width="2"/>
+<rect x="186" y="155" width="8" height="10" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<line x1="210" y1="160" x2="200" y2="133" stroke="#90a4ae" stroke-width="2"/>
+<line x1="210" y1="160" x2="200" y2="187" stroke="#90a4ae" stroke-width="2"/>
+<rect x="206" y="155" width="8" height="10" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<line x1="230" y1="160" x2="220" y2="130" stroke="#90a4ae" stroke-width="2"/>
+<line x1="230" y1="160" x2="220" y2="190" stroke="#90a4ae" stroke-width="2"/>
+<rect x="226" y="155" width="8" height="10" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<line x1="250" y1="160" x2="240" y2="127" stroke="#90a4ae" stroke-width="2"/>
+<line x1="250" y1="160" x2="240" y2="193" stroke="#90a4ae" stroke-width="2"/>
+<rect x="246" y="155" width="8" height="10" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<line x1="270" y1="160" x2="260" y2="124" stroke="#90a4ae" stroke-width="2"/>
+<line x1="270" y1="160" x2="260" y2="196" stroke="#90a4ae" stroke-width="2"/>
+<rect x="266" y="155" width="8" height="10" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<line x1="290" y1="160" x2="280" y2="121" stroke="#90a4ae" stroke-width="2"/>
+<line x1="290" y1="160" x2="280" y2="199" stroke="#90a4ae" stroke-width="2"/>
+<rect x="286" y="155" width="8" height="10" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<line x1="310" y1="160" x2="300" y2="118" stroke="#90a4ae" stroke-width="2"/>
+<line x1="310" y1="160" x2="300" y2="202" stroke="#90a4ae" stroke-width="2"/>
+<rect x="306" y="155" width="8" height="10" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<line x1="330" y1="160" x2="320" y2="121" stroke="#90a4ae" stroke-width="2"/>
+<line x1="330" y1="160" x2="320" y2="199" stroke="#90a4ae" stroke-width="2"/>
+<rect x="326" y="155" width="8" height="10" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<line x1="350" y1="160" x2="340" y2="124" stroke="#90a4ae" stroke-width="2"/>
+<line x1="350" y1="160" x2="340" y2="196" stroke="#90a4ae" stroke-width="2"/>
+<rect x="346" y="155" width="8" height="10" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<line x1="370" y1="160" x2="360" y2="127" stroke="#90a4ae" stroke-width="2"/>
+<line x1="370" y1="160" x2="360" y2="193" stroke="#90a4ae" stroke-width="2"/>
+<rect x="366" y="155" width="8" height="10" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<line x1="390" y1="160" x2="380" y2="130" stroke="#90a4ae" stroke-width="2"/>
+<line x1="390" y1="160" x2="380" y2="190" stroke="#90a4ae" stroke-width="2"/>
+<rect x="386" y="155" width="8" height="10" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<line x1="410" y1="160" x2="400" y2="133" stroke="#90a4ae" stroke-width="2"/>
+<line x1="410" y1="160" x2="400" y2="187" stroke="#90a4ae" stroke-width="2"/>
+<rect x="406" y="155" width="8" height="10" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<line x1="430" y1="160" x2="420" y2="136" stroke="#90a4ae" stroke-width="2"/>
+<line x1="430" y1="160" x2="420" y2="184" stroke="#90a4ae" stroke-width="2"/>
+<rect x="426" y="155" width="8" height="10" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<path d="M120,120 Q108,160 120,200" fill="none" stroke="#90a4ae" stroke-width="3" />
+<text x="300" y="290" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >からだの内部を通る骨</text>
+<line x1="360" y1="260" x2="320" y2="165" stroke="#555" stroke-width="1.2"/>
+<circle cx="320" cy="165" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="360" y="260" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >背骨</text>
+<circle cx="520" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

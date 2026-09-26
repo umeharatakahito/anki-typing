@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="jhsciencebio0075m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<text x="60" y="70" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >親</text>
+<circle cx="200" cy="70" r="30" fill="#dce775" stroke="#827717" stroke-width="2" />
+<text x="200" y="120" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >丸形（純系）</text>
+<text x="300" y="70" font-size="24" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >×</text>
+<polygon points="428.714,70 426.884,77.2036 423.035,83.2991 414.219,84.2194 411.882,90.5809 407.172,96.7665 400,98.8858 393.634,93.7591 389.874,87.538 382.267,87.733 376.195,83.7439 371.324,77.6838 378.314,70 378.201,64.1591 379.387,58.0991 378.581,48.5812 386.682,46.9332 394.128,48.0838 400,48.4858 406.678,45.0764 415.074,43.8903 417.905,52.0948 419.843,58.5439 420.006,64.6393" fill="#dce775" stroke="#827717" stroke-width="2" stroke-linejoin="round" />
+<path d="M385.0,64.0 q9.0,9.0 21.0,3.0 M391.0,80.5 q12.0,-6.0 24.0,0" fill="none" stroke="#827717" stroke-width="1.3" />
+<text x="400" y="120" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >しわ形（純系）</text>
+<line x1="300" y1="140" x2="300" y2="190" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsciencebio0075m37474f)"/>
+<text x="60" y="250" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >子</text>
+<circle cx="180" cy="250" r="28" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="260" cy="250" r="28" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="340" cy="250" r="28" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="420" cy="250" r="28" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="300" y="310" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >すべて丸形になった</text>
+<line x1="520" y1="250" x2="430" y2="250" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="430" cy="250" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="520" cy="250" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="251" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

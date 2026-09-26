@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="jhsciencephys0029md32f2f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d32f2f"/></marker></defs>
+<rect x="90" y="220" width="120" height="70" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<line x1="150" y1="220" x2="470" y2="110" stroke="#d32f2f" stroke-width="5" marker-end="url(#jhsciencephys0029md32f2f)"/>
+<circle cx="150" cy="220" r="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<line x1="80" y1="100" x2="146" y2="214" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="146" cy="214" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="80" cy="100" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="80" y="101" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="470" y="60" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >矢印の向き＝力の向き</text>
+<text x="470" y="85" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >矢印の長さ＝力の大きさ</text>
+<text x="80" y="140" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（矢印の始点）</text>
+</svg>

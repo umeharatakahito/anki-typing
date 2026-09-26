@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<ellipse cx="300" cy="300" rx="250" ry="70" fill="#f1f8e9" stroke="#7cb342" stroke-width="2" />
+<path d="M50,300 A250,240 0 0 1 550,300" fill="none" stroke="#b0bec5" stroke-width="1.5" stroke-dasharray="6 4"/>
+<path d="M83,265 Q300,-125 517,265" fill="none" stroke="#f57c00" stroke-width="4" />
+<path d="M50,300 Q300,-40 550,300" fill="none" stroke="#37474f" stroke-width="2.5" />
+<path d="M83,335 Q300,55 517,335" fill="none" stroke="#37474f" stroke-width="2.5" />
+<text x="300" y="390" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >南</text>
+<text x="30" y="300" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >東</text>
+<text x="570" y="300" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >西</text>
+<text x="300" y="245" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >北</text>
+<text x="300" y="148" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >春分・秋分</text>
+<text x="300" y="213" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >冬至</text>
+<line x1="480" y1="60" x2="400" y2="100" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="400" cy="100" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="480" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="480" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<circle cx="300" cy="300" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<text x="350" y="330" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >観測者</text>
+</svg>

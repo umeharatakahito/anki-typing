@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<defs><marker id="jhsocialciv0105m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="80" y1="300" x2="80" y2="30" stroke="#37474f" stroke-width="2" marker-end="url(#jhsocialciv0105m37474f)"/>
+<line x1="80" y1="300" x2="560" y2="300" stroke="#37474f" stroke-width="2" marker-end="url(#jhsocialciv0105m37474f)"/>
+<text x="560" y="322" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >時間</text>
+<polyline points="80,110 200,112 300,110 420,111 540,110" fill="none" stroke="#f57c00" stroke-width="4" stroke-linejoin="round" />
+<polyline points="80,150 200,170 300,200 420,230 540,255" fill="none" stroke="#388e3c" stroke-width="3" stroke-linejoin="round" />
+<text x="540" y="90" font-size="16" text-anchor="end" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >価格</text>
+<text x="540" y="238" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#388e3c" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >生産にかかる費用</text>
+<line x1="300" y1="50" x2="300" y2="110" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="300" cy="110" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="300" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="51" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="335" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" >寡占の市場で見られる例（模式図）</text>
+</svg>

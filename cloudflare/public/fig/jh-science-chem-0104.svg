@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<rect x="287.4" y="170" width="25.2" height="98" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<rect x="252.4" y="268" width="95.2" height="19.6" rx="3" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<path d="M284,170 C272,110 290,60 300,20 C310,60 328,110 316,170 Z" fill="#ef5350" stroke="#c62828" stroke-width="2" />
+<line x1="420" y1="110" x2="316" y2="120" stroke="#9e9e9e" stroke-width="3"/>
+<circle cx="318" cy="120" r="5" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<line x1="590" y1="60" x2="420" y2="110" stroke="#555" stroke-width="1.2"/>
+<circle cx="420" cy="110" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="590" y="60" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >白金線（試料をつける）</text>
+<rect x="30" y="60" width="40" height="36" rx="4" fill="#e53935" stroke="#37474f" stroke-width="1.4" />
+<text x="100" y="78" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Li</text>
+<rect x="30" y="110" width="40" height="36" rx="4" fill="#fdd835" stroke="#37474f" stroke-width="1.4" />
+<text x="100" y="128" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Na</text>
+<rect x="30" y="160" width="40" height="36" rx="4" fill="#ab47bc" stroke="#37474f" stroke-width="1.4" />
+<text x="100" y="178" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >K</text>
+<rect x="30" y="210" width="40" height="36" rx="4" fill="#26a69a" stroke="#37474f" stroke-width="1.4" />
+<text x="100" y="228" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Cu</text>
+<rect x="30" y="260" width="40" height="36" rx="4" fill="#ef6c00" stroke="#37474f" stroke-width="1.4" />
+<text x="100" y="278" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Ca</text>
+<line x1="230" y1="60" x2="290" y2="90" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="290" cy="90" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="230" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="230" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

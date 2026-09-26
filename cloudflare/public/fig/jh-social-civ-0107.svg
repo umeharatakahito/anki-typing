@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="jhsocialciv0107mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<text x="300" y="26" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" >ある年の年金のお金の流れ</text>
+<circle cx="70" cy="113.2" r="9.8" fill="#bbdefb" stroke="#1976d2" stroke-width="1.2" />
+<path d="M56.0,141.2 Q70.0,118.8 84.0,141.2 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="1.2" />
+<circle cx="110" cy="113.2" r="9.8" fill="#bbdefb" stroke="#1976d2" stroke-width="1.2" />
+<path d="M96.0,141.2 Q110.0,118.8 124.0,141.2 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="1.2" />
+<circle cx="150" cy="113.2" r="9.8" fill="#bbdefb" stroke="#1976d2" stroke-width="1.2" />
+<path d="M136.0,141.2 Q150.0,118.8 164.0,141.2 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="1.2" />
+<circle cx="190" cy="113.2" r="9.8" fill="#bbdefb" stroke="#1976d2" stroke-width="1.2" />
+<path d="M176.0,141.2 Q190.0,118.8 204.0,141.2 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="1.2" />
+<circle cx="230" cy="113.2" r="9.8" fill="#bbdefb" stroke="#1976d2" stroke-width="1.2" />
+<path d="M216.0,141.2 Q230.0,118.8 244.0,141.2 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="1.2" />
+<text x="150" y="180" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >働く世代</text>
+<circle cx="440" cy="113.2" r="9.8" fill="#e0e0e0" stroke="#757575" stroke-width="1.2" />
+<path d="M426.0,141.2 Q440.0,118.8 454.0,141.2 Z" fill="#e0e0e0" stroke="#757575" stroke-width="1.2" />
+<line x1="452" y1="115" x2="452" y2="148" stroke="#757575" stroke-width="2"/>
+<circle cx="485" cy="113.2" r="9.8" fill="#e0e0e0" stroke="#757575" stroke-width="1.2" />
+<path d="M471.0,141.2 Q485.0,118.8 499.0,141.2 Z" fill="#e0e0e0" stroke="#757575" stroke-width="1.2" />
+<line x1="497" y1="115" x2="497" y2="148" stroke="#757575" stroke-width="2"/>
+<circle cx="530" cy="113.2" r="9.8" fill="#e0e0e0" stroke="#757575" stroke-width="1.2" />
+<path d="M516.0,141.2 Q530.0,118.8 544.0,141.2 Z" fill="#e0e0e0" stroke="#757575" stroke-width="1.2" />
+<line x1="542" y1="115" x2="542" y2="148" stroke="#757575" stroke-width="2"/>
+<text x="485" y="180" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >高齢者</text>
+<line x1="250" y1="120" x2="410" y2="120" stroke="#f57c00" stroke-width="4" marker-end="url(#jhsocialciv0107mf57c00)"/>
+<text x="330" y="100" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >保険料</text>
+<text x="330" y="145" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >→ 年金として支給</text>
+<line x1="330" y1="230" x2="330" y2="122" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="330" cy="122" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="330" cy="230" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="330" y="231" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="300" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" >（自分で積み立てたお金を後で受け取る方式とは別）</text>
+</svg>

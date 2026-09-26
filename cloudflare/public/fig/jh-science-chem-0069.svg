@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<path d="M160,152.0 L160,242.0 A18.0,18.0 0 0 0 196,242.0 L196,152.0 Z" fill="#fff176"/>
+<path d="M160,80 L160,242.0 A18.0,18.0 0 0 0 196,242.0 L196,80" fill="none" stroke="#78909c" stroke-width="2.2" />
+<text x="178" y="290" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >酸性</text>
+<path d="M290,152.0 L290,242.0 A18.0,18.0 0 0 0 326,242.0 L326,152.0 Z" fill="#81c784"/>
+<path d="M290,80 L290,242.0 A18.0,18.0 0 0 0 326,242.0 L326,80" fill="none" stroke="#78909c" stroke-width="2.2" />
+<text x="308" y="290" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >中性</text>
+<path d="M420,152.0 L420,242.0 A18.0,18.0 0 0 0 456,242.0 L456,152.0 Z" fill="#64b5f6"/>
+<path d="M420,80 L420,242.0 A18.0,18.0 0 0 0 456,242.0 L456,80" fill="none" stroke="#78909c" stroke-width="2.2" />
+<text x="438" y="290" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >アルカリ性</text>
+<rect x="500" y="120" width="70" height="110" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<rect x="518" y="94" width="34" height="28" rx="0" fill="#90a4ae" stroke="#37474f" stroke-width="2" />
+<text x="535" y="250" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >指示薬</text>
+<text x="300" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >同じ薬品を加えたときの色</text>
+<line x1="80" y1="150" x2="158" y2="180" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="158" cy="180" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="80" cy="150" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="80" y="151" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

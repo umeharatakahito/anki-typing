@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" font-family="sans-serif">
+<rect width="600" height="420" fill="#fff"/>
+<rect x="0" y="0" width="600" height="420" rx="0" fill="#e3f2fd" stroke="none" stroke-width="0" />
+<path d="M-284.2,382.5 L0.0,382.5 L23.7,367.5 L34.7,345.0 L55.3,307.5 L61.6,286.5 L42.6,261.0 L18.9,228.0 L36.3,210.0 L72.6,189.0 L42.6,183.0 L14.2,189.0 L-4.7,172.5 L0.0,162.0 L23.7,153.0 L47.4,136.5 L66.3,142.5 L56.8,157.5 L50.5,168.0 L67.9,162.0 L101.1,151.5 L101.1,151.5 L113.7,169.5 L132.6,186.0 L129.5,198.0 L134.2,220.5 L131.1,232.5 L150.0,229.5 L167.4,223.5 L178.4,220.5 L180.8,202.5 L173.7,181.5 L162.6,169.5 L150.0,153.0 L170.5,141.0 L186.3,135.0 L200.5,115.5 L200.5,115.5 L221.1,102.0 L244.7,108.0 L276.3,91.5 L307.9,66.0 L331.6,45.0 L353.7,22.5 L360.0,-7.5 L366.3,-37.5 L426.3,-150.0 L-284.2,-150.0 Z" fill="#f1f8e9" stroke="#7cb342" stroke-width="1.5" />
+<path d="M378.9,60.0 L402.6,51.0 L394.7,30.0 L397.9,10.5 L413.7,12.0 L397.9,-15.0 L399.5,-37.5 L382.1,-30.0 L380.5,30.0 L378.9,60.0 Z" fill="#f1f8e9" stroke="#7cb342" stroke-width="1.5" />
+<path d="M374.2,68.2 L383.7,75.0 L397.9,84.0 L415.3,90.0 L431.1,84.7 L427.9,96.0 L438.9,99.7 L429.5,103.5 L416.8,105.7 L399.5,120.0 L385.3,115.5 L372.6,111.0 L363.2,115.5 L356.8,112.5 L361.6,123.0 L353.7,127.5 L347.4,128.2 L345.8,117.0 L352.1,109.5 L353.7,100.5 L369.5,101.2 L373.4,85.5 L374.2,68.2 Z" fill="#f1f8e9" stroke="#7cb342" stroke-width="1.5" />
+<path d="M361.6,127.5 L370.3,129.0 L370.3,142.5 L379.7,157.5 L372.6,174.0 L363.2,177.8 L363.2,195.0 L356.8,210.0 L360.8,214.5 L353.7,222.8 L345.0,226.5 L343.4,219.7 L334.7,222.0 L329.2,231.0 L322.1,230.3 L304.7,231.0 L298.4,235.5 L287.4,246.0 L280.3,248.2 L270.0,237.0 L272.4,230.3 L252.6,231.0 L236.8,234.0 L225.8,235.5 L205.3,240.7 L206.8,234.0 L227.4,219.7 L241.6,216.8 L257.4,216.0 L276.3,216.8 L284.2,210.7 L295.3,198.0 L296.8,189.7 L305.5,187.5 L300.0,197.2 L318.9,192.8 L331.6,181.5 L341.1,170.3 L347.4,153.0 L346.6,141.0 L352.1,132.0 L361.6,127.5 Z" fill="#f1f8e9" stroke="#7cb342" stroke-width="1.5" />
+<path d="M236.1,239.3 L251.1,234.0 L262.9,237.0 L263.7,242.2 L255.8,251.2 L241.6,249.0 L236.1,259.2 L228.9,255.0 L227.4,248.2 L221.8,243.8 L236.1,239.3 Z" fill="#f1f8e9" stroke="#7cb342" stroke-width="1.5" />
+<path d="M203.7,240.7 L213.2,246.0 L219.5,253.5 L216.3,262.5 L210.0,279.0 L201.3,285.0 L192.6,280.5 L195.0,270.8 L198.2,261.0 L192.6,258.0 L186.3,259.5 L183.9,251.2 L195.8,245.3 L203.7,240.7 Z" fill="#f1f8e9" stroke="#7cb342" stroke-width="1.5" />
+<polygon points="144.855,118.575 265.7,191.082 260.555,199.657 300,200 281.135,165.357 275.99,173.932 155.145,101.425" fill="#ffcc80" stroke="#f57c00" stroke-width="2" stroke-linejoin="round" />
+<polygon points="546.402,382.318 452.521,304.084 458.923,296.402 420,290 433.316,327.131 439.718,319.448 533.598,397.682" fill="#ffcc80" stroke="#f57c00" stroke-width="2" stroke-linejoin="round" />
+<text x="120" y="90" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >冬</text>
+<text x="560" y="405" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >夏</text>
+<text x="100" y="240" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >大陸</text>
+<text x="520" y="250" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >太平洋</text>
+<circle cx="320" cy="90" r="17" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="320" y="91" font-size="22.61" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="320" y1="107" x2="250" y2="165" stroke="#f57c00" stroke-width="2.4"/>
+<line x1="320" y1="107" x2="470" y2="330" stroke="#f57c00" stroke-width="2.4"/>
+</svg>

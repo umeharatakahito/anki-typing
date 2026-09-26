@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<rect x="182" y="163" width="236" height="145" rx="0" fill="#90caf9" stroke="none" stroke-width="0" />
+<path d="M174,100 L180,106 L180,310 L420,310 L420,106 L426,100" fill="none" stroke="#78909c" stroke-width="2.4" />
+<rect x="280" y="60" width="40" height="240" rx="0" fill="#b0bec5" stroke="#455a64" stroke-width="2" />
+<circle cx="276" cy="200" r="7" fill="#e64a19" stroke="#bf360c" stroke-width="1" />
+<circle cx="318" cy="230" r="7" fill="#e64a19" stroke="#bf360c" stroke-width="1" />
+<circle cx="276" cy="260" r="7" fill="#e64a19" stroke="#bf360c" stroke-width="1" />
+<circle cx="318" cy="180" r="7" fill="#e64a19" stroke="#bf360c" stroke-width="1" />
+<circle cx="276" cy="290" r="7" fill="#e64a19" stroke="#bf360c" stroke-width="1" />
+<line x1="80" y1="220" x2="272" y2="230" stroke="#555" stroke-width="1.2"/>
+<circle cx="272" cy="230" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="80" y="220" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >赤い物質が付着</text>
+<line x1="520" y1="80" x2="318" y2="80" stroke="#555" stroke-width="1.2"/>
+<circle cx="318" cy="80" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="520" y="80" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >亜鉛板</text>
+<line x1="520" y1="290" x2="414" y2="290" stroke="#555" stroke-width="1.2"/>
+<circle cx="414" cy="290" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="520" y="290" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >硫酸銅水溶液</text>
+<text x="300" y="330" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Zn → Zn²+ ＋ 2e−　　Cu²+ ＋ 2e− → Cu</text>
+<line x1="80" y1="60" x2="280" y2="120" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="280" cy="120" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="80" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="80" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

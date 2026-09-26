@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<defs><marker id="jhsciencephys0054m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="60" y1="30" x2="60" y2="270" stroke="#37474f" stroke-width="2" marker-start="url(#jhsciencephys0054m37474f)"/>
+<line x1="60" y1="150" x2="560" y2="150" stroke="#37474f" stroke-width="2" marker-end="url(#jhsciencephys0054m37474f)"/>
+<text x="560" y="175" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >時間</text>
+<text x="70" y="25" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >電流</text>
+<line x1="60" y1="80" x2="540" y2="80" stroke="#f57c00" stroke-width="4"/>
+<line x1="300" y1="40" x2="300" y2="78" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="300" cy="78" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="300" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="230" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >乾電池から流れる電流</text>
+</svg>

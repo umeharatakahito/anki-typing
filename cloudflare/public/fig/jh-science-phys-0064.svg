@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<defs><marker id="jhsciencephys0064mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="130" y="20" width="40" height="110" rx="6" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<text x="200" y="70" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1.0N</text>
+<line x1="150" y1="130" x2="150" y2="200" stroke="#37474f" stroke-width="1.5"/>
+<rect x="120" y="200" width="60" height="70" rx="0" fill="#bcaaa4" stroke="#37474f" stroke-width="2" />
+<rect x="400" y="20" width="40" height="110" rx="6" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<text x="470" y="70" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0.6N</text>
+<line x1="420" y1="130" x2="420" y2="200" stroke="#37474f" stroke-width="1.5"/>
+<rect x="390" y="200" width="60" height="70" rx="0" fill="#bcaaa4" stroke="#37474f" stroke-width="2" />
+<path d="M330,150 L330,360 L510,360 L510,150" fill="none" stroke="#37474f" stroke-width="2.5" />
+<rect x="332" y="175" width="176" height="183" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" fill-opacity="0.7"/>
+<line x1="420" y1="330" x2="420" y2="240" stroke="#f57c00" stroke-width="5" marker-end="url(#jhsciencephys0064mf57c00)"/>
+<circle cx="420" cy="330" r="4" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<text x="150" y="300" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >空気中</text>
+<text x="420" y="385" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >水中</text>
+<line x1="540" y1="250" x2="424" y2="270" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="424" cy="270" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="540" cy="250" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="540" y="251" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="560" y="300" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >上向きの力</text>
+</svg>

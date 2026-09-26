@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<path d="M240,120 L240,290 L280,290 L280,120 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<rect x="228" y="160" width="64" height="20" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<rect x="222" y="230" width="76" height="22" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<path d="M180,340 L340,340 L320,290 L200,290 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<path d="M320,320 L440,320" fill="none" stroke="#37474f" stroke-width="10" />
+<path d="M320,320 L440,320" fill="none" stroke="#ef9a9a" stroke-width="6" />
+<circle cx="460" cy="320" r="14" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<path d="M244,118 C234,70 254,40 260,0 C266,40 286,70 276,118 Z" fill="#90caf9" stroke="#1e88e5" stroke-width="2" />
+<path d="M252,118 C250,96 260,80 260,66 C260,80 270,96 268,118 Z" fill="#e3f2fd" stroke="#1e88e5" stroke-width="1.4" />
+<line x1="430" y1="170" x2="294" y2="170" stroke="#555" stroke-width="1.2"/>
+<circle cx="294" cy="170" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="430" y="170" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >空気調節ねじ</text>
+<line x1="430" y1="240" x2="300" y2="241" stroke="#555" stroke-width="1.2"/>
+<circle cx="300" cy="241" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="430" y="240" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >下の調節ねじ</text>
+<line x1="530" y1="370" x2="460" y2="334" stroke="#555" stroke-width="1.2"/>
+<circle cx="460" cy="334" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="530" y="370" font-size="16" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >元せん</text>
+<line x1="430" y1="60" x2="272" y2="70" stroke="#555" stroke-width="1.2"/>
+<circle cx="272" cy="70" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="430" y="60" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >青い炎</text>
+<line x1="100" y1="200" x2="240" y2="200" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="240" cy="200" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="100" cy="200" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="100" y="201" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

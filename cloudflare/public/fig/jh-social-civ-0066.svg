@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="jhsocialciv0066m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="30" y="40" width="200" height="60" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="130" y="70" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >衆議院：可決</text>
+<rect x="370" y="40" width="200" height="60" rx="6" fill="#fce4ec" stroke="#c2185b" stroke-width="2" />
+<text x="470" y="70" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >参議院：否決</text>
+<text x="300" y="70" font-size="30" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >≠</text>
+<line x1="130" y1="102" x2="250" y2="160" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsocialciv0066m37474f)"/>
+<line x1="470" y1="102" x2="350" y2="160" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsocialciv0066m37474f)"/>
+<rect x="220" y="164" width="160" height="60" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<circle cx="300" cy="194" r="18" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="195" font-size="23.94" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="244" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >両方の議院の代表が意見を調整</text>
+<line x1="300" y1="256" x2="300" y2="280" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsocialciv0066m37474f)"/>
+<text x="300" y="300" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（予算・条約・首相指名で意見が一致しないとき</text>
+<text x="300" y="320" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >→ 衆議院の議決が国会の議決になる）</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<defs><marker id="jhsciencephys0078mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<line x1="40" y1="150" x2="560" y2="150" stroke="#37474f" stroke-width="3"/>
+<circle cx="60" cy="150" r="8" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<circle cx="540" cy="150" r="8" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<text x="60" y="180" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >A駅</text>
+<text x="540" y="180" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >B駅</text>
+<path d="M60,150 C120,90 160,100 200,120 C260,150 300,60 360,90 C420,120 480,100 540,150" fill="none" stroke="#9e9e9e" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="300" y="60" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >途中で速さは変わる</text>
+<line x1="60" y1="210" x2="540" y2="210" stroke="#f57c00" stroke-width="3" marker-end="url(#jhsciencephys0078mf57c00)" marker-start="url(#jhsciencephys0078mf57c00)"/>
+<text x="300" y="235" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >120km を 2時間</text>
+<circle cx="300" cy="275" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="276" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="430" y="275" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＝ 60km/h</text>
+</svg>

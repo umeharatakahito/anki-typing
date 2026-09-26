@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" width="600" height="260" font-family="sans-serif">
+<rect width="600" height="260" fill="#fff"/>
+<defs><linearGradient id="jhsciencephys0093g"><stop offset="0" stop-color="#ffb74d"/><stop offset="1" stop-color="#eceff1"/></linearGradient></defs>
+<rect x="40" y="90" width="520" height="40" rx="6" fill="url(#jhsciencephys0093g)" stroke="#37474f" stroke-width="2" />
+<text x="40" y="70" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >電気を通しやすい</text>
+<text x="560" y="70" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >通しにくい</text>
+<text x="100" y="160" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >金属</text>
+<text x="500" y="160" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ゴム・ガラス</text>
+<rect x="250" y="84" width="100" height="52" rx="6" fill="none" stroke="#f57c00" stroke-width="3.5" />
+<line x1="300" y1="190" x2="300" y2="138" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="300" cy="138" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="300" cy="190" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="191" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="235" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ケイ素など</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="jhsocialciv0064m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="220" y="150" width="160" height="120" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<rect x="260" y="150" width="80" height="10" rx="0" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<text x="300" y="225" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >投票箱</text>
+<rect x="65" y="60" width="90" height="60" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="110" y="90" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >賛成</text>
+<line x1="150" y1="110" x2="270" y2="148" stroke="#37474f" stroke-width="2" marker-end="url(#jhsocialciv0064m37474f)"/>
+<rect x="445" y="60" width="90" height="60" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="490" y="90" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >反対</text>
+<line x1="450" y1="110" x2="330" y2="148" stroke="#37474f" stroke-width="2" marker-end="url(#jhsocialciv0064m37474f)"/>
+<text x="300" y="40" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" >地域の重要な問題について</text>
+<text x="300" y="305" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" >住民が直接、賛否を示す</text>
+<line x1="470" y1="220" x2="382" y2="210" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="382" cy="210" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="470" cy="220" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="470" y="221" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<polygon points="400,50 290,160 389,190" fill="#ffe0b2" stroke="#f57c00" stroke-width="2.2" stroke-linejoin="round" />
+<polygon points="400,50 389,190 499,154" fill="#ffcc80" stroke="#f57c00" stroke-width="2.2" stroke-linejoin="round" />
+<polygon points="400,270 290,160 389,190" fill="#ffb74d" stroke="#f57c00" stroke-width="2.2" stroke-linejoin="round" />
+<polygon points="400,270 389,190 499,154" fill="#ffcc80" stroke="#f57c00" stroke-width="2.2" stroke-linejoin="round" />
+<path d="M400,50 L422.0,124 L400,270 M290,160 L422.0,124 L499.0,154" fill="none" stroke="#f57c00" stroke-width="1.2" stroke-dasharray="4,4"/>
+<polygon points="80,150 150,150 150,220 80,220" fill="#eceff1" stroke="#37474f" stroke-width="2" stroke-linejoin="round" />
+<polygon points="80,150 105,125 175,125 150,150" fill="#fafafa" stroke="#37474f" stroke-width="2" stroke-linejoin="round" />
+<polygon points="150,150 175,125 175,195 150,220" fill="#cfd8dc" stroke="#37474f" stroke-width="2" stroke-linejoin="round" />
+<text x="125" y="270" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >食塩（立方体）</text>
+<text x="400" y="300" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >正八面体の結晶</text>
+<line x1="540" y1="60" x2="440" y2="100" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="440" cy="100" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="540" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="540" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

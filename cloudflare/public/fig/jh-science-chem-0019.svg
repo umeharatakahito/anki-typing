@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<g transform="rotate(-8 300 160)">
+<ellipse cx="170" cy="160" rx="50" ry="34" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<path d="M214,146 L230,146 L230,174 L214,174 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<path d="M230,142 L470,148 L540,158 L540,162 L470,172 L230,178 Z" fill="#f1f8fe" stroke="#f57c00" stroke-width="2.4" />
+<rect x="470" y="150" width="60" height="20" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" />
+</g>
+<line x1="120" y1="60" x2="160" y2="132" stroke="#555" stroke-width="1.2"/>
+<circle cx="160" cy="132" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="120" y="60" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ゴム球</text>
+<text x="300" y="280" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >少量の液体を移す</text>
+<line x1="400" y1="70" x2="380" y2="144" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="380" cy="144" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="400" cy="70" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="400" y="71" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

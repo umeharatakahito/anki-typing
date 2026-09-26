@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" width="600" height="280" font-family="sans-serif">
+<rect width="600" height="280" fill="#fff"/>
+<defs><marker id="jhsciencebio0107m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="18" y="70" width="124" height="124" rx="8" fill="#f1f8e9" stroke="#2e7d32" stroke-width="2.2" />
+<line x1="144" y1="132" x2="166" y2="132" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsciencebio0107m37474f)"/>
+<text x="80" y="220" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >①</text>
+<rect x="168" y="70" width="124" height="124" rx="8" fill="#f1f8e9" stroke="#2e7d32" stroke-width="2.2" />
+<line x1="294" y1="132" x2="316" y2="132" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsciencebio0107m37474f)"/>
+<text x="230" y="220" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >②</text>
+<rect x="318" y="70" width="124" height="124" rx="8" fill="#f1f8e9" stroke="#2e7d32" stroke-width="2.2" />
+<line x1="444" y1="132" x2="466" y2="132" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsciencebio0107m37474f)"/>
+<text x="380" y="220" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >③</text>
+<rect x="468" y="70" width="124" height="124" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2.2" />
+<text x="530" y="220" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >④</text>
+<circle cx="80" cy="132" r="36" fill="#ede7f6" stroke="#7b1fa2" stroke-width="1.6" />
+<path d="M206,112 l8,26" fill="none" stroke="#d32f2f" stroke-width="5" stroke-linecap="round"/>
+<path d="M220,126 l8,26" fill="none" stroke="#d32f2f" stroke-width="5" stroke-linecap="round"/>
+<path d="M234,112 l8,26" fill="none" stroke="#d32f2f" stroke-width="5" stroke-linecap="round"/>
+<path d="M248,126 l8,26" fill="none" stroke="#d32f2f" stroke-width="5" stroke-linecap="round"/>
+<line x1="380" y1="78" x2="380" y2="186" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="4,3"/>
+<line x1="380" y1="100" x2="380" y2="112" stroke="#d32f2f" stroke-width="9"/>
+<line x1="380" y1="118" x2="380" y2="130" stroke="#d32f2f" stroke-width="9"/>
+<line x1="380" y1="136" x2="380" y2="148" stroke="#d32f2f" stroke-width="9"/>
+<line x1="380" y1="154" x2="380" y2="166" stroke="#d32f2f" stroke-width="9"/>
+<text x="380" y="50" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >中央に並ぶ</text>
+<circle cx="530" cy="132" r="22" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="530" y="133" font-size="29.26" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="262" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >体細胞分裂の順序</text>
+</svg>

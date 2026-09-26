@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<path d="M80,250 L520,250 L480,290 L120,290 Z" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<path d="M180,250 Q220,210 260,250 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<path d="M190,250 Q220,224 250,250 Z" fill="#fff" stroke="none" stroke-width="0" />
+<path d="M252.0,250 Q300,202.0 348.0,250 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<path d="M264.0,250 Q300,218.8 336.0,250 Z" fill="#fff" stroke="none" stroke-width="0" />
+<path d="M344.0,250 Q380,214.0 416.0,250 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<path d="M353.0,250 Q380,226.6 407.0,250 Z" fill="#fff" stroke="none" stroke-width="0" />
+<line x1="60" y1="150" x2="220" y2="100" stroke="#9e9e9e" stroke-width="5"/>
+<line x1="80" y1="80" x2="140" y2="126" stroke="#555" stroke-width="1.2"/>
+<circle cx="140" cy="126" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="80" y="80" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Mgリボン（燃やす前）</text>
+<text x="300" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >強い光を出して燃えたあと</text>
+<line x1="470" y1="160" x2="380" y2="232" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="380" cy="232" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="470" cy="160" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="470" y="161" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

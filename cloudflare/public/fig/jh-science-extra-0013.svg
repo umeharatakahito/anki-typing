@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460" width="600" height="460" font-family="sans-serif">
+<rect width="600" height="460" fill="#fff"/>
+<circle cx="300" cy="60" r="40" fill="#ffe0b2" stroke="#37474f" stroke-width="2" />
+<path d="M240,110 L360,110 L380,280 L340,280 L340,440 L310,440 L300,300 L290,440 L260,440 L260,280 L220,280 Z" fill="#fff3e0" stroke="#37474f" stroke-width="2" />
+<path d="M240,115 L160,260 L180,270 L250,150 Z" fill="#fff3e0" stroke="#37474f" stroke-width="2" />
+<path d="M360,115 L440,260 L420,270 L350,150 Z" fill="#fff3e0" stroke="#37474f" stroke-width="2" />
+<ellipse cx="300" cy="52" rx="26" ry="20" fill="#90a4ae" stroke="#37474f" stroke-width="1.5" />
+<line x1="300" y1="72" x2="300" y2="290" stroke="#546e7a" stroke-width="7"/>
+<path d="M300,130 L250,150 L190,260" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M300,130 L350,150 L410,260" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M300,290 L275,440" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M300,290 L325,440" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M300,180 L250,200" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M300,180 L350,200" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M300,230 L260,250" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M300,230 L340,250" fill="none" stroke="#f57c00" stroke-width="3" />
+<line x1="100" y1="50" x2="276" y2="50" stroke="#555" stroke-width="1.2"/>
+<circle cx="276" cy="50" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="100" y="50" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >脳</text>
+<line x1="100" y1="200" x2="296" y2="220" stroke="#555" stroke-width="1.2"/>
+<circle cx="296" cy="220" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="100" y="200" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >せきずい</text>
+<line x1="500" y1="330" x2="318" y2="380" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="318" cy="380" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="500" cy="330" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="331" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="500" y1="330" x2="400" y2="240" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="400" cy="240" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<text x="500" y="380" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >全身にはりめぐらされている</text>
+</svg>

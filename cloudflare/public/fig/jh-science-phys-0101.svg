@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<rect x="0" y="0" width="600" height="170" rx="0" fill="#f5fbff" stroke="none" stroke-width="0" />
+<rect x="0" y="170" width="600" height="210" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" />
+<line x1="0" y1="170" x2="600" y2="170" stroke="#1976d2" stroke-width="2.5"/>
+<text x="40" y="150" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >空気</text>
+<text x="40" y="360" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >水</text>
+<line x1="344.17" y1="90" x2="344.17" y2="360" stroke="#9e9e9e" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="140" y1="350" x2="344.17" y2="170" stroke="#f57c00" stroke-width="3.5"/>
+<polygon points="250.252,252.8 236.202,256.521 244.799,266.273" fill="#f57c00" stroke="#f57c00" stroke-width="1" stroke-linejoin="round" />
+<line x1="344.17" y1="170" x2="590" y2="169" stroke="#f57c00" stroke-width="3.5"/>
+<polygon points="476.918,169.46 463.892,163.013 463.945,176.013" fill="#f57c00" stroke="#f57c00" stroke-width="1" stroke-linejoin="round" />
+<path d="M344.16992286597304,170 L344.2,230.0 A60,60 0 0 1 299.2,209.7 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<line x1="234.17" y1="290" x2="322.17" y2="220" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="322.17" cy="220" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="234.17" cy="290" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="234.17" y="291" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="470" y="140" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >屈折した光が境界面にそう</text>
+<line x1="140" y1="350" x2="368.531" y2="230" stroke="#90a4ae" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="500" y="330" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >これより大きいと全反射</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<rect x="80" y="90" width="440" height="160" rx="0" fill="none" stroke="#37474f" stroke-width="2.5" />
+<rect x="292" y="228" width="16" height="44" rx="0" fill="#fff" stroke="none" stroke-width="0" />
+<line x1="295" y1="230" x2="295" y2="270" stroke="#37474f" stroke-width="2.5"/>
+<line x1="305" y1="240" x2="305" y2="260" stroke="#37474f" stroke-width="5"/>
+<rect x="220" y="60" width="160" height="60" rx="0" fill="#fff" stroke="none" stroke-width="0" />
+<polyline points="220,90 230,70 242,110 254,70 266,110 278,70 290,110 302,70 314,110 326,70 338,110 350,70 362,110 374,70 380,90" fill="none" stroke="#f57c00" stroke-width="4" stroke-linejoin="round" />
+<path d="M250,50 q-8,-12 0,-24 q8,-12 0,-24" fill="none" stroke="#ff7043" stroke-width="2" />
+<path d="M275,50 q-8,-12 0,-24 q8,-12 0,-24" fill="none" stroke="#ff7043" stroke-width="2" />
+<path d="M300,50 q-8,-12 0,-24 q8,-12 0,-24" fill="none" stroke="#ff7043" stroke-width="2" />
+<path d="M325,50 q-8,-12 0,-24 q8,-12 0,-24" fill="none" stroke="#ff7043" stroke-width="2" />
+<path d="M350,50 q-8,-12 0,-24 q8,-12 0,-24" fill="none" stroke="#ff7043" stroke-width="2" />
+<line x1="470" y1="40" x2="380" y2="90" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="380" cy="90" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="470" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="470" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="300" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >電流を流すと発熱する（ドライヤー・電気ストーブ）</text>
+</svg>

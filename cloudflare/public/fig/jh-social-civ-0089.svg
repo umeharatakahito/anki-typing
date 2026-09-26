@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="jhsocialciv0089m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="jhsocialciv0089m555" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect x="20" y="60" width="160" height="60" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="100" y="90" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >衆議院で可決</text>
+<rect x="220" y="60" width="160" height="60" rx="6" fill="#fce4ec" stroke="#c2185b" stroke-width="2" />
+<text x="300" y="90" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >参議院で否決</text>
+<rect x="420" y="60" width="160" height="60" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="500" y="90" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >衆議院で再可決</text>
+<line x1="182" y1="90" x2="218" y2="90" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsocialciv0089m37474f)"/>
+<line x1="382" y1="90" x2="418" y2="90" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsocialciv0089m37474f)"/>
+<text x="300" y="30" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#555" >法律案の議決</text>
+<text x="500" y="150" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >必要な賛成</text>
+<rect x="40" y="180" width="520" height="40" rx="0" fill="#eceff1" stroke="#b0bec5" stroke-width="1.5" />
+<rect x="40" y="180" width="346.667" height="40" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<circle cx="213.333" cy="200" r="16" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="213.333" y="201" font-size="21.28" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="386.667" y1="170" x2="386.667" y2="232" stroke="#37474f" stroke-width="2"/>
+<line x1="500" y1="160" x2="500" y2="176" stroke="#555" stroke-width="1.5" marker-end="url(#jhsocialciv0089m555)"/>
+<text x="40" y="250" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0</text>
+<text x="560" y="250" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >100%</text>
+</svg>

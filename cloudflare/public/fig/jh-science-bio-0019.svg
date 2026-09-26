@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<defs><marker id="jhsciencebio0019mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="20" y="130" width="88" height="52" rx="6" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<text x="64" y="156" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >イネ</text>
+<line x1="110" y1="156" x2="136" y2="156" stroke="#f57c00" stroke-width="3" marker-end="url(#jhsciencebio0019mf57c00)"/>
+<rect x="138" y="130" width="88" height="52" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="182" y="156" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >バッタ</text>
+<line x1="228" y1="156" x2="254" y2="156" stroke="#f57c00" stroke-width="3" marker-end="url(#jhsciencebio0019mf57c00)"/>
+<rect x="256" y="130" width="88" height="52" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="300" y="156" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >カエル</text>
+<line x1="346" y1="156" x2="372" y2="156" stroke="#f57c00" stroke-width="3" marker-end="url(#jhsciencebio0019mf57c00)"/>
+<rect x="374" y="130" width="88" height="52" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="418" y="156" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >ヘビ</text>
+<line x1="464" y1="156" x2="490" y2="156" stroke="#f57c00" stroke-width="3" marker-end="url(#jhsciencebio0019mf57c00)"/>
+<rect x="492" y="130" width="88" height="52" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="536" y="156" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >タカ</text>
+<text x="300" y="220" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >矢印は「食べられるもの → 食べるもの」</text>
+<path d="M20,110 Q300,60 580,110" fill="none" stroke="#f57c00" stroke-width="2.5" stroke-dasharray="6,4"/>
+<circle cx="300" cy="72" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="73" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

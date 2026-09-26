@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<path d="M80,120 L80,170 C30,190 30,300 110,300 C190,300 190,190 140,170 L140,120" fill="#f1f8fe" stroke="#78909c" stroke-width="2.4" />
+<rect x="78" y="104" width="64" height="20" rx="3" fill="#bcaaa4" stroke="#6d4c41" stroke-width="1.6" />
+<rect x="84" y="250" width="52" height="30" rx="0" fill="none" stroke="none" stroke-width="0" />
+<circle cx="72" cy="280" r="7" fill="#424242" stroke="#5d4037" stroke-width="1" />
+<circle cx="90" cy="280" r="7" fill="#424242" stroke="#5d4037" stroke-width="1" />
+<circle cx="108" cy="280" r="7" fill="#424242" stroke="#5d4037" stroke-width="1" />
+<circle cx="126" cy="280" r="7" fill="#424242" stroke="#5d4037" stroke-width="1" />
+<circle cx="144" cy="280" r="7" fill="#424242" stroke="#5d4037" stroke-width="1" />
+<circle cx="72" cy="266" r="7" fill="#424242" stroke="#5d4037" stroke-width="1" />
+<circle cx="90" cy="266" r="7" fill="#424242" stroke="#5d4037" stroke-width="1" />
+<circle cx="108" cy="266" r="7" fill="#424242" stroke="#5d4037" stroke-width="1" />
+<circle cx="126" cy="266" r="7" fill="#424242" stroke="#5d4037" stroke-width="1" />
+<path d="M100,104 L100,40 M90,40 L60,10 L140,10 L110,40" fill="none" stroke="#78909c" stroke-width="2" />
+<path d="M64,14 L136,14 L110,38 L90,38 Z" fill="#bbdefb" stroke="none" stroke-width="0" />
+<text x="165" y="20" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >うすい塩酸</text>
+<line x1="20" y1="330" x2="90" y2="282" stroke="#555" stroke-width="1.2"/>
+<circle cx="90" cy="282" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="20" y="330" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >FeS</text>
+<path d="M122,104 L122,70 L300,70 L300,200" fill="none" stroke="#78909c" stroke-width="4" />
+<path d="M380,120 L380,310 L480,310 L480,120" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<path d="M300,200 L300,110 M300,200" fill="none" stroke="none" stroke-width="0" />
+<path d="M300,200 L300,110" fill="none" stroke="none" stroke-width="0" />
+<path d="M300,70 L430,70 L430,290" fill="none" stroke="#78909c" stroke-width="4" />
+<text x="430" y="336" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >空気より重い</text>
+<line x1="550" y1="60" x2="430" y2="200" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="430" cy="200" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="550" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="550" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

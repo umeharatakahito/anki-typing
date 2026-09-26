@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<defs><marker id="jhsciencephys0102m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<path d="M230,200 C220,250 240,300 300,310 C360,315 380,280 370,240 L340,200 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<line x1="270" y1="220" x2="270" y2="60" stroke="#f57c00" stroke-width="22"/>
+<line x1="270" y1="220" x2="470" y2="220" stroke="#f57c00" stroke-width="22"/>
+<line x1="270" y1="220" x2="140" y2="330" stroke="#f57c00" stroke-width="22"/>
+<line x1="270" y1="220" x2="270" y2="60" stroke="#ffcc80" stroke-width="16" stroke-linecap="round"/>
+<line x1="270" y1="220" x2="470" y2="220" stroke="#ffcc80" stroke-width="16" stroke-linecap="round"/>
+<line x1="270" y1="220" x2="140" y2="330" stroke="#ffcc80" stroke-width="16" stroke-linecap="round"/>
+<line x1="270" y1="50" x2="270" y2="20" stroke="#37474f" stroke-width="3" marker-end="url(#jhsciencephys0102m37474f)"/>
+<line x1="480" y1="220" x2="520" y2="220" stroke="#37474f" stroke-width="3" marker-end="url(#jhsciencephys0102m37474f)"/>
+<line x1="130" y1="338" x2="105" y2="360" stroke="#37474f" stroke-width="3" marker-end="url(#jhsciencephys0102m37474f)"/>
+<text x="290" y="30" font-size="17" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >力</text>
+<text x="520" y="195" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >磁界</text>
+<text x="100" y="335" font-size="17" text-anchor="end" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >電流</text>
+<text x="470" y="60" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >3本の指で表す</text>
+<line x1="470" y1="320" x2="330" y2="290" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="330" cy="290" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="470" cy="320" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="470" y="321" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<defs><marker id="jhsciencephys0012m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="jhsciencephys0012mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="20" y="80" width="30" height="140" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<line x1="50" y1="150" x2="70" y2="150" stroke="#37474f" stroke-width="2.5"/>
+<polyline points="70,150 80,125 100,175 120,125 140,175 160,125 180,175 200,125 220,175 240,125 260,175 280,125 300,175 320,125 340,175 360,150" fill="none" stroke="#37474f" stroke-width="2.5" stroke-linejoin="round" />
+<line x1="360" y1="150" x2="390" y2="150" stroke="#37474f" stroke-width="2.5"/>
+<path d="M390,120 C430,110 460,120 470,150 C460,180 430,190 390,180 Z" fill="#ffe0b2" stroke="#37474f" stroke-width="2" />
+<text x="440" y="210" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >手</text>
+<line x1="480" y1="110" x2="560" y2="110" stroke="#37474f" stroke-width="3" marker-end="url(#jhsciencephys0012m37474f)"/>
+<text x="530" y="90" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >引く</text>
+<line x1="390" y1="150" x2="300" y2="150" stroke="#f57c00" stroke-width="5" marker-end="url(#jhsciencephys0012mf57c00)"/>
+<line x1="330" y1="60" x2="330" y2="146" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="330" cy="146" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="330" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="330" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="210" y="260" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >のびたばねがもとに戻ろうとする力</text>
+</svg>

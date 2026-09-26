@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<rect x="130" y="90" width="60" height="180" rx="4" fill="#64b5f6" stroke="#37474f" stroke-width="2" />
+<rect x="130" y="90" width="60" height="60" rx="4" fill="#ef5350" stroke="#37474f" stroke-width="2" />
+<line x1="160" y1="20" x2="160" y2="60" stroke="#37474f" stroke-width="2"/>
+<circle cx="160" cy="72" r="7" fill="#fff59d" stroke="#f9a825" stroke-width="1.5" />
+<text x="160" y="300" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >青色→赤色</text>
+<rect x="370" y="90" width="60" height="180" rx="4" fill="#ef5350" stroke="#37474f" stroke-width="2" />
+<rect x="370" y="90" width="60" height="60" rx="4" fill="#ef5350" stroke="#37474f" stroke-width="2" />
+<line x1="400" y1="20" x2="400" y2="60" stroke="#37474f" stroke-width="2"/>
+<circle cx="400" cy="72" r="7" fill="#fff59d" stroke="#f9a825" stroke-width="1.5" />
+<text x="400" y="300" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >赤色のまま</text>
+<text x="300" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >酸性の水溶液をつける</text>
+<rect x="110" y="80" width="340" height="200" rx="10" fill="none" stroke="#f57c00" stroke-width="3" stroke-dasharray="8 5"/>
+<line x1="540" y1="180" x2="450" y2="180" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="450" cy="180" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="540" cy="180" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="540" y="181" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="340" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（2種類の紙）</text>
+</svg>

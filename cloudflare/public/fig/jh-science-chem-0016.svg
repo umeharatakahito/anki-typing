@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<path d="M80,120 L80,170 C30,190 30,300 110,300 C190,300 190,190 140,170 L140,120" fill="#f1f8fe" stroke="#78909c" stroke-width="2.4" />
+<rect x="78" y="104" width="64" height="20" rx="3" fill="#bcaaa4" stroke="#6d4c41" stroke-width="1.6" />
+<rect x="84" y="250" width="52" height="30" rx="0" fill="none" stroke="none" stroke-width="0" />
+<circle cx="72" cy="280" r="7" fill="#eeeeee" stroke="#5d4037" stroke-width="1" />
+<circle cx="90" cy="280" r="7" fill="#eeeeee" stroke="#5d4037" stroke-width="1" />
+<circle cx="108" cy="280" r="7" fill="#eeeeee" stroke="#5d4037" stroke-width="1" />
+<circle cx="126" cy="280" r="7" fill="#eeeeee" stroke="#5d4037" stroke-width="1" />
+<circle cx="144" cy="280" r="7" fill="#eeeeee" stroke="#5d4037" stroke-width="1" />
+<circle cx="72" cy="266" r="7" fill="#eeeeee" stroke="#5d4037" stroke-width="1" />
+<circle cx="90" cy="266" r="7" fill="#eeeeee" stroke="#5d4037" stroke-width="1" />
+<circle cx="108" cy="266" r="7" fill="#eeeeee" stroke="#5d4037" stroke-width="1" />
+<circle cx="126" cy="266" r="7" fill="#eeeeee" stroke="#5d4037" stroke-width="1" />
+<path d="M100,104 L100,40 M90,40 L60,10 L140,10 L110,40" fill="none" stroke="#78909c" stroke-width="2" />
+<path d="M64,14 L136,14 L110,38 L90,38 Z" fill="#bbdefb" stroke="none" stroke-width="0" />
+<text x="165" y="20" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >うすい塩酸</text>
+<line x1="20" y1="330" x2="90" y2="282" stroke="#555" stroke-width="1.2"/>
+<circle cx="90" cy="282" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="20" y="330" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >石灰石</text>
+<path d="M122,104 L122,70 L300,70 L300,200" fill="none" stroke="#78909c" stroke-width="4" />
+<rect x="230" y="170" width="330" height="150" rx="0" fill="#bbdefb" stroke="#78909c" stroke-width="2.4" />
+<path d="M240,160 L240,320" fill="none" stroke="none" stroke-width="0" />
+<path d="M390,60 L390,280 C390,300 440,300 440,280 L440,60 Z" fill="none" stroke="none" stroke-width="0" />
+<path d="M380,300 L380,110 C380,90 470,90 470,110 L470,300" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<rect x="382" y="240" width="86" height="58" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" />
+<path d="M300,200 L300,290 L420,290" fill="none" stroke="#78909c" stroke-width="4" />
+<circle cx="420" cy="270" r="5" fill="#fff" stroke="#1976d2" stroke-width="1.2" />
+<circle cx="426" cy="248" r="5" fill="#fff" stroke="#1976d2" stroke-width="1.2" />
+<circle cx="416" cy="226" r="5" fill="#fff" stroke="#1976d2" stroke-width="1.2" />
+<line x1="540" y1="60" x2="425" y2="160" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="425" cy="160" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="540" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="540" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

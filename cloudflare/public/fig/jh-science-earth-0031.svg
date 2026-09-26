@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<path d="M150,190 C190,120 290,100 340,110 C390,120 450,150 470,190 C450,230 390,260 340,268 C290,272 190,258 150,190 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<path d="M150,190 C120,178 100,190 80,170 M470,190 C500,200 510,180 540,195" fill="none" stroke="#f57c00" stroke-width="5" />
+<path d="M200,150 C260,170 320,160 400,150" fill="none" stroke="#bf6d20" stroke-width="1.5" />
+<path d="M190,220 C260,210 330,230 420,220" fill="none" stroke="#bf6d20" stroke-width="1.5" />
+<path d="M230,130 C280,150 330,140 380,128" fill="none" stroke="#bf6d20" stroke-width="1.5" />
+<line x1="310" y1="50" x2="310" y2="108" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="310" cy="108" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="310" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="310" y="51" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="150" y1="320" x2="350" y2="320" stroke="#37474f" stroke-width="2.5"/>
+<line x1="150" y1="312" x2="150" y2="328" stroke="#37474f" stroke-width="2"/>
+<line x1="350" y1="312" x2="350" y2="328" stroke="#37474f" stroke-width="2"/>
+<text x="250" y="345" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >約20cm</text>
+<text x="470" y="60" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >空中で冷え固まった</text>
+<text x="470" y="80" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >紡錘形のかたまり</text>
+</svg>

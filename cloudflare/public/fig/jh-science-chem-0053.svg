@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<defs><marker id="jhsciencechem0053m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<circle cx="130" cy="150" r="70" fill="none" stroke="#90a4ae" stroke-width="1.6" stroke-dasharray="4,4"/>
+<circle cx="130" cy="150" r="24" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<text x="130" y="150" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" >＋</text>
+<circle cx="130" cy="80" r="11" fill="#bbdefb" stroke="#1976d2" stroke-width="1.8" />
+<text x="130" y="80" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >－</text>
+<circle cx="190.622" cy="185" r="11" fill="#bbdefb" stroke="#1976d2" stroke-width="1.8" />
+<text x="190.622" y="185" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >－</text>
+<circle cx="69.3782" cy="185" r="11" fill="#bbdefb" stroke="#1976d2" stroke-width="1.8" />
+<text x="69.3782" y="185" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >－</text>
+<text x="130" y="260" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >原子</text>
+<line x1="230" y1="150" x2="350" y2="150" stroke="#37474f" stroke-width="3" marker-end="url(#jhsciencechem0053m37474f)"/>
+<circle cx="300" cy="100" r="11" fill="#bbdefb" stroke="#1976d2" stroke-width="1.8" />
+<text x="300" y="100" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >－</text>
+<text x="300" y="70" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >電子を失う</text>
+<circle cx="460" cy="150" r="76" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<circle cx="460" cy="150" r="70" fill="none" stroke="#90a4ae" stroke-width="1.6" stroke-dasharray="4,4"/>
+<circle cx="460" cy="150" r="24" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<text x="460" y="150" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" >＋</text>
+<circle cx="460" cy="80" r="11" fill="#bbdefb" stroke="#1976d2" stroke-width="1.8" />
+<text x="460" y="80" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >－</text>
+<circle cx="460" cy="220" r="11" fill="#bbdefb" stroke="#1976d2" stroke-width="1.8" />
+<text x="460" y="220" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >－</text>
+<circle cx="540" cy="70" r="16" fill="#fff" stroke="#d32f2f" stroke-width="2" />
+<text x="540" y="71" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" >＋</text>
+<line x1="460" y1="270" x2="460" y2="228" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="460" cy="228" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="460" cy="270" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="460" y="271" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

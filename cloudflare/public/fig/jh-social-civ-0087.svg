@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<defs><marker id="jhsocialciv0087m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="80" y1="290" x2="80" y2="40" stroke="#37474f" stroke-width="2" marker-end="url(#jhsocialciv0087m37474f)"/>
+<line x1="80" y1="290" x2="560" y2="290" stroke="#37474f" stroke-width="2"/>
+<text x="86" y="30" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >所得にしめる消費税の割合</text>
+<rect x="170" y="90" width="120" height="200" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="230" y="312" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >所得が少ない人</text>
+<rect x="390" y="215" width="120" height="75" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="2" />
+<text x="450" y="312" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >所得が多い人</text>
+<line x1="230" y1="60" x2="230" y2="88" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="230" cy="88" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="230" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="230" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="340" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" >同じ買い物をしても、所得が少ないほど負担が重く感じられる（模式図）</text>
+</svg>

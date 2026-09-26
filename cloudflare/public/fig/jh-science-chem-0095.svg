@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<polygon points="156,70 138,82.1244 102,82.1244 84,70 102,57.8756 138,57.8756" fill="none" stroke="#f57c00" stroke-width="2.4" stroke-linejoin="round" />
+<circle cx="156" cy="70" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="138" cy="82.1244" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="102" cy="82.1244" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="84" cy="70" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="102" cy="57.8756" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="138" cy="57.8756" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<polygon points="246,70 228,82.1244 192,82.1244 174,70 192,57.8756 228,57.8756" fill="none" stroke="#f57c00" stroke-width="2.4" stroke-linejoin="round" />
+<circle cx="246" cy="70" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="228" cy="82.1244" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="192" cy="82.1244" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="174" cy="70" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="192" cy="57.8756" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="228" cy="57.8756" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<polygon points="336,70 318,82.1244 282,82.1244 264,70 282,57.8756 318,57.8756" fill="none" stroke="#f57c00" stroke-width="2.4" stroke-linejoin="round" />
+<circle cx="336" cy="70" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="318" cy="82.1244" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="282" cy="82.1244" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="264" cy="70" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="282" cy="57.8756" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="318" cy="57.8756" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<polygon points="426,70 408,82.1244 372,82.1244 354,70 372,57.8756 408,57.8756" fill="none" stroke="#f57c00" stroke-width="2.4" stroke-linejoin="round" />
+<circle cx="426" cy="70" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="408" cy="82.1244" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="372" cy="82.1244" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="354" cy="70" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="372" cy="57.8756" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="408" cy="57.8756" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<polygon points="516,70 498,82.1244 462,82.1244 444,70 462,57.8756 498,57.8756" fill="none" stroke="#f57c00" stroke-width="2.4" stroke-linejoin="round" />
+<circle cx="516" cy="70" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="498" cy="82.1244" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="462" cy="82.1244" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="444" cy="70" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="462" cy="57.8756" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="498" cy="57.8756" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<line x1="40" y1="115" x2="560" y2="115" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="4,6"/>
+<polygon points="186,160 168,172.124 132,172.124 114,160 132,147.876 168,147.876" fill="none" stroke="#f57c00" stroke-width="2.4" stroke-linejoin="round" />
+<circle cx="186" cy="160" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="168" cy="172.124" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="132" cy="172.124" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="114" cy="160" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="132" cy="147.876" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="168" cy="147.876" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<polygon points="276,160 258,172.124 222,172.124 204,160 222,147.876 258,147.876" fill="none" stroke="#f57c00" stroke-width="2.4" stroke-linejoin="round" />
+<circle cx="276" cy="160" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="258" cy="172.124" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="222" cy="172.124" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="204" cy="160" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="222" cy="147.876" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="258" cy="147.876" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<polygon points="366,160 348,172.124 312,172.124 294,160 312,147.876 348,147.876" fill="none" stroke="#f57c00" stroke-width="2.4" stroke-linejoin="round" />
+<circle cx="366" cy="160" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="348" cy="172.124" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="312" cy="172.124" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="294" cy="160" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="312" cy="147.876" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="348" cy="147.876" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<polygon points="456,160 438,172.124 402,172.124 384,160 402,147.876 438,147.876" fill="none" stroke="#f57c00" stroke-width="2.4" stroke-linejoin="round" />
+<circle cx="456" cy="160" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="438" cy="172.124" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="402" cy="172.124" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="384" cy="160" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="402" cy="147.876" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="438" cy="147.876" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<polygon points="546,160 528,172.124 492,172.124 474,160 492,147.876 528,147.876" fill="none" stroke="#f57c00" stroke-width="2.4" stroke-linejoin="round" />
+<circle cx="546" cy="160" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="528" cy="172.124" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="492" cy="172.124" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="474" cy="160" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="492" cy="147.876" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="528" cy="147.876" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<line x1="40" y1="205" x2="560" y2="205" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="4,6"/>
+<polygon points="156,250 138,262.124 102,262.124 84,250 102,237.876 138,237.876" fill="none" stroke="#f57c00" stroke-width="2.4" stroke-linejoin="round" />
+<circle cx="156" cy="250" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="138" cy="262.124" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="102" cy="262.124" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="84" cy="250" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="102" cy="237.876" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="138" cy="237.876" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<polygon points="246,250 228,262.124 192,262.124 174,250 192,237.876 228,237.876" fill="none" stroke="#f57c00" stroke-width="2.4" stroke-linejoin="round" />
+<circle cx="246" cy="250" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="228" cy="262.124" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="192" cy="262.124" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="174" cy="250" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="192" cy="237.876" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="228" cy="237.876" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<polygon points="336,250 318,262.124 282,262.124 264,250 282,237.876 318,237.876" fill="none" stroke="#f57c00" stroke-width="2.4" stroke-linejoin="round" />
+<circle cx="336" cy="250" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="318" cy="262.124" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="282" cy="262.124" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="264" cy="250" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="282" cy="237.876" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="318" cy="237.876" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<polygon points="426,250 408,262.124 372,262.124 354,250 372,237.876 408,237.876" fill="none" stroke="#f57c00" stroke-width="2.4" stroke-linejoin="round" />
+<circle cx="426" cy="250" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="408" cy="262.124" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="372" cy="262.124" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="354" cy="250" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="372" cy="237.876" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="408" cy="237.876" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<polygon points="516,250 498,262.124 462,262.124 444,250 462,237.876 498,237.876" fill="none" stroke="#f57c00" stroke-width="2.4" stroke-linejoin="round" />
+<circle cx="516" cy="250" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="498" cy="262.124" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="462" cy="262.124" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="444" cy="250" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="462" cy="237.876" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="498" cy="237.876" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<line x1="40" y1="295" x2="560" y2="295" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="4,6"/>
+<text x="300" y="20" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >原子が平面状に結びつき、層が重なったつくり</text>
+<text x="300" y="305" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >層の間を電子が動きやすい</text>
+<line x1="560" y1="120" x2="530" y2="160" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="530" cy="160" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="560" cy="120" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="121" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

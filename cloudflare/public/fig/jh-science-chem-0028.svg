@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<polygon points="140,180 210,180 210,250 140,250" fill="#ffcc80" stroke="#f57c00" stroke-width="2.2" stroke-linejoin="round" />
+<polygon points="140,180 164.5,155.5 234.5,155.5 210,180" fill="#ffe0b2" stroke="#f57c00" stroke-width="2.2" stroke-linejoin="round" />
+<polygon points="210,180 234.5,155.5 234.5,225.5 210,250" fill="#ffb74d" stroke="#f57c00" stroke-width="2.2" stroke-linejoin="round" />
+<polygon points="330,150 420,150 420,240 330,240" fill="#ffcc80" stroke="#f57c00" stroke-width="2.2" stroke-linejoin="round" />
+<polygon points="330,150 361.5,118.5 451.5,118.5 420,150" fill="#ffe0b2" stroke="#f57c00" stroke-width="2.2" stroke-linejoin="round" />
+<polygon points="420,150 451.5,118.5 451.5,208.5 420,240" fill="#ffb74d" stroke="#f57c00" stroke-width="2.2" stroke-linejoin="round" />
+<polygon points="480,210 530,210 530,260 480,260" fill="#ffcc80" stroke="#f57c00" stroke-width="2.2" stroke-linejoin="round" />
+<polygon points="480,210 497.5,192.5 547.5,192.5 530,210" fill="#ffe0b2" stroke="#f57c00" stroke-width="2.2" stroke-linejoin="round" />
+<polygon points="530,210 547.5,192.5 547.5,242.5 530,260" fill="#ffb74d" stroke="#f57c00" stroke-width="2.2" stroke-linejoin="round" />
+<text x="300" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >食塩のつぶを拡大したようす</text>
+<line x1="80" y1="100" x2="150" y2="190" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="150" cy="190" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="80" cy="100" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="80" y="101" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

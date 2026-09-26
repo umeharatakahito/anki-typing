@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<defs><marker id="jhsocialhist10046m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="jhsocialhist10046mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<text x="300" y="26" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >11世紀の末から</text>
+<rect x="40" y="50" width="170" height="60" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2.5" />
+<text x="125" y="80" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >天皇</text>
+<path d="M125,114 Q125,180 194,190" fill="none" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsocialhist10046m37474f)"/>
+<text x="40" y="170" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >位をゆずる</text>
+<rect x="200" y="160" width="200" height="64" rx="6" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2.5" />
+<text x="300" y="192" font-size="24" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >上皇</text>
+<rect x="400" y="284" width="170" height="60" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="485" y="314" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" >天皇（子や孫）</text>
+<path d="M402,200 Q485,210 485,278" fill="none" stroke="#f57c00" stroke-width="3" marker-end="url(#jhsocialhist10046mf57c00)"/>
+<text x="496" y="234" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#f57c00" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >実権をにぎる</text>
+<circle cx="70" cy="262" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="70" y="263" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="96" y="262" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＝ 位をゆずった後も実権をにぎる政治</text>
+</svg>

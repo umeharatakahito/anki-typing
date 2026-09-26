@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<path d="M180,80 L180,330 L420,330 L420,80" fill="#f1f8fe" stroke="#78909c" stroke-width="2.4" />
+<rect x="170" y="66" width="260" height="14" rx="3" fill="#cfd8dc" stroke="#37474f" stroke-width="1.6" />
+<line x1="300" y1="66" x2="300" y2="210" stroke="#37474f" stroke-width="2"/>
+<path d="M270,210 C270,230 330,230 330,210 Z" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<ellipse cx="300" cy="212" rx="24" ry="6" fill="#fff176" stroke="#f9a825" stroke-width="1.6" />
+<path d="M288,206 C284,190 296,180 300,168 C304,180 316,190 312,206 Z" fill="#7986cb" stroke="#303f9f" stroke-width="1.5" />
+<circle cx="324.58" cy="255.775" r="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<circle cx="359.039" cy="297.915" r="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<circle cx="347.98" cy="293.688" r="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<circle cx="205.801" cy="197.781" r="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<circle cx="388.671" cy="236.285" r="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<circle cx="380.18" cy="123.773" r="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<circle cx="293.814" cy="151.78" r="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<circle cx="308.752" cy="220.528" r="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<circle cx="202.623" cy="145.513" r="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<circle cx="255.896" cy="292.433" r="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<circle cx="353.145" cy="133.517" r="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<circle cx="359.429" cy="129.141" r="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<circle cx="323.491" cy="126.607" r="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<circle cx="200.355" cy="282.995" r="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<line x1="80" y1="250" x2="280" y2="214" stroke="#555" stroke-width="1.2"/>
+<circle cx="280" cy="214" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="80" y="250" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >燃焼さじ（黄色の粉末）</text>
+<text x="300" y="350" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >青い炎を出して燃える</text>
+<line x1="510" y1="120" x2="402" y2="150" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="402" cy="150" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="510" cy="120" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="121" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

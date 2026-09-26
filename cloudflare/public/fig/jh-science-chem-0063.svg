@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="jhsciencechem0063m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="310" y="70" width="260" height="220" rx="0" fill="none" stroke="none" stroke-width="0" />
+<circle cx="100" cy="170" r="22" fill="#fff" stroke="#37474f" stroke-width="1.8" />
+<text x="100" y="171" font-size="20.9" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >H</text>
+<circle cx="140" cy="170" r="26" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.8" />
+<text x="140" y="171" font-size="24.7" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >Cl</text>
+<line x1="220" y1="170" x2="290" y2="170" stroke="#37474f" stroke-width="4" marker-end="url(#jhsciencechem0063m37474f)"/>
+<text x="255" y="145" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >水にとかす</text>
+<rect x="312" y="114" width="256" height="174" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" />
+<path d="M304,70 L310,76 L310,290 L570,290 L570,76 L576,70" fill="none" stroke="#78909c" stroke-width="2.4" />
+<circle cx="359.121" cy="161.165" r="20" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="359.121" y="162.165" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >H</text>
+<text x="376.121" y="144.165" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" >+</text>
+<circle cx="421.131" cy="147.358" r="20" fill="#a5d6a7" stroke="#388e3c" stroke-width="2" />
+<text x="421.131" y="148.358" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >Cl</text>
+<text x="438.131" y="130.358" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >−</text>
+<circle cx="516.71" cy="157.776" r="20" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="516.71" y="158.776" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >H</text>
+<text x="533.71" y="140.776" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" >+</text>
+<circle cx="353.395" cy="220.93" r="20" fill="#a5d6a7" stroke="#388e3c" stroke-width="2" />
+<text x="353.395" y="221.93" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >Cl</text>
+<text x="370.395" y="203.93" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >−</text>
+<circle cx="432.119" cy="225.709" r="20" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="432.119" y="226.709" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >H</text>
+<text x="449.119" y="208.709" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" >+</text>
+<circle cx="511.624" cy="218.534" r="20" fill="#a5d6a7" stroke="#388e3c" stroke-width="2" />
+<text x="511.624" y="219.534" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >Cl</text>
+<text x="528.624" y="201.534" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >−</text>
+<text x="300" y="320" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >HCl  →  H+ ＋ Cl−</text>
+<line x1="120" y1="80" x2="120" y2="142" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="120" cy="142" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="120" cy="80" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="120" y="81" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

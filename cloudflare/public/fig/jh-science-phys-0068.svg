@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" width="600" height="440" font-family="sans-serif">
+<rect width="600" height="440" fill="#fff"/>
+<circle cx="250" cy="40" r="10" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="250" cy="50" r="10" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="250" cy="80" r="10" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="250" cy="130" r="10" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="250" cy="200" r="10" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="250" cy="290" r="10" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="250" cy="400" r="10" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="250" y1="20" x2="250" y2="430" stroke="#b0bec5" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="120" y1="200" x2="238" y2="200" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="238" cy="200" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="120" cy="200" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="120" y="201" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="440" y="120" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >静止した状態から真下へ</text>
+<text x="440" y="145" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >間隔がしだいに広がる</text>
+<text x="440" y="400" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（一定時間ごとの位置）</text>
+</svg>

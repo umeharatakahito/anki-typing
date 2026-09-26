@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<rect x="202" y="215" width="196" height="103" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" />
+<path d="M194,170 L200,176 L200,320 L400,320 L400,176 L406,170" fill="none" stroke="#78909c" stroke-width="2.4" />
+<line x1="250" y1="120" x2="250" y2="300" stroke="#78909c" stroke-width="8"/>
+<line x1="350" y1="120" x2="350" y2="300" stroke="#78909c" stroke-width="8"/>
+<path d="M250,120 L250,60 L260,60 M340,60 L350,60 L350,120" fill="none" stroke="#37474f" stroke-width="2" />
+<circle cx="300" cy="60" r="26" fill="#fff59d" stroke="#f9a825" stroke-width="2" />
+<line x1="332" y1="60" x2="344" y2="60" stroke="#fdd835" stroke-width="3"/>
+<line x1="322.627" y1="82.6274" x2="331.113" y2="91.1127" stroke="#fdd835" stroke-width="3"/>
+<line x1="300" y1="92" x2="300" y2="104" stroke="#fdd835" stroke-width="3"/>
+<line x1="277.373" y1="82.6274" x2="268.887" y2="91.1127" stroke="#fdd835" stroke-width="3"/>
+<line x1="268" y1="60" x2="256" y2="60" stroke="#fdd835" stroke-width="3"/>
+<line x1="277.373" y1="37.3726" x2="268.887" y2="28.8873" stroke="#fdd835" stroke-width="3"/>
+<line x1="300" y1="28" x2="300" y2="16" stroke="#fdd835" stroke-width="3"/>
+<line x1="322.627" y1="37.3726" x2="331.113" y2="28.8873" stroke="#fdd835" stroke-width="3"/>
+<rect x="430" y="40" width="110" height="50" rx="6" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<text x="485" y="65" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >電源</text>
+<path d="M326,60 L430,60 M274,60 L180,60 L180,20 L560,20 L560,60 L540,60" fill="none" stroke="#37474f" stroke-width="2" />
+<text x="300" y="340" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >食塩水（豆電球がつく）</text>
+<circle cx="237.842" cy="298.795" r="7" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="366.842" cy="251.406" r="7" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="299.224" cy="266.959" r="7" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="325.771" cy="294.098" r="7" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="230.956" cy="233.268" r="7" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="379.08" cy="265.621" r="7" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="366.588" cy="231.168" r="7" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="290.716" cy="288.723" r="7" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="275.89" cy="306.622" r="7" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<circle cx="368.243" cy="233.447" r="7" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<line x1="80" y1="220" x2="216" y2="230" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="216" cy="230" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="80" cy="220" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="80" y="221" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

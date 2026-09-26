@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<defs><marker id="jhsciencebio0007mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<path d="M280,340 C220,340 210,280 250,250 L290,110 L310,110 L350,250 C390,280 380,340 320,340 Z" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2.4" />
+<ellipse cx="300" cy="100" rx="42" ry="18" fill="#aed581" stroke="#2e7d32" stroke-width="2.4" />
+<circle cx="280" cy="95" r="7" fill="#fff176" stroke="#f9a825" stroke-width="2" />
+<circle cx="300" cy="88" r="7" fill="#fff176" stroke="#f9a825" stroke-width="2" />
+<circle cx="318" cy="96" r="7" fill="#fff176" stroke="#f9a825" stroke-width="2" />
+<line x1="430" y1="100" x2="340" y2="100" stroke="#555" stroke-width="1.2"/>
+<circle cx="340" cy="100" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="430" y="100" font-size="17" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >柱頭</text>
+<line x1="430" y1="290" x2="360" y2="290" stroke="#555" stroke-width="1.2"/>
+<circle cx="360" cy="290" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="430" y="290" font-size="17" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >子房</text>
+<path d="M60,340 Q70,200 110,150" fill="none" stroke="#8d6e63" stroke-width="4" />
+<ellipse cx="118" cy="136" rx="16" ry="26" fill="#ffe082" stroke="#b28704" stroke-width="2" transform="rotate(30 118 136)"/>
+<line x1="60" y1="110" x2="110" y2="128" stroke="#555" stroke-width="1.2"/>
+<circle cx="110" cy="128" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="60" y="110" font-size="17" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >やく</text>
+<circle cx="160" cy="110" r="6" fill="#fff176" stroke="#f9a825" stroke-width="2" />
+<circle cx="200" cy="96" r="6" fill="#fff176" stroke="#f9a825" stroke-width="2" />
+<circle cx="240" cy="92" r="6" fill="#fff176" stroke="#f9a825" stroke-width="2" />
+<path d="M140,120 Q200,70 262,86" fill="none" stroke="#f57c00" stroke-width="3" marker-end="url(#jhsciencebio0007mf57c00)"/>
+<line x1="200" y1="40" x2="240" y2="88" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="240" cy="88" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="200" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="200" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

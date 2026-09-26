@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 370" width="600" height="370" font-family="sans-serif">
+<rect width="600" height="370" fill="#fff"/>
+<defs><marker id="jhsciencechem0010m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="80" y1="320" x2="570" y2="320" stroke="#37474f" stroke-width="2" marker-end="url(#jhsciencechem0010m37474f)"/>
+<line x1="80" y1="320" x2="80" y2="20" stroke="#37474f" stroke-width="2" marker-end="url(#jhsciencechem0010m37474f)"/>
+<text x="530" y="344" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >加熱時間</text>
+<text x="90" y="16" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >温度 [℃]</text>
+<polyline points="80,300 160,240 280,240 360,90 500,90 560,40" fill="none" stroke="#d32f2f" stroke-width="3.4" stroke-linejoin="round" />
+<line x1="74" y1="240" x2="80" y2="240" stroke="#37474f" stroke-width="1.5"/>
+<text x="68" y="240" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0</text>
+<line x1="74" y1="90" x2="80" y2="90" stroke="#37474f" stroke-width="1.5"/>
+<text x="68" y="90" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >100</text>
+<text x="115" y="300" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >固体</text>
+<text x="220" y="262" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >固体＋液体</text>
+<text x="330" y="180" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >液体</text>
+<text x="430" y="112" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >液体＋気体</text>
+<text x="545" y="96" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >気体</text>
+<line x1="80" y1="240" x2="280" y2="240" stroke="#f57c00" stroke-width="2" stroke-dasharray="6,4"/>
+<line x1="160" y1="240" x2="280" y2="240" stroke="#f57c00" stroke-width="6"/>
+<text x="300" y="356" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >水（氷）を加熱したときの温度変化</text>
+<line x1="110" y1="210" x2="170" y2="240" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="170" cy="240" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="110" cy="210" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="110" y="211" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

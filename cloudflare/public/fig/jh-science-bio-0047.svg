@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<path d="M150,40 C60,60 60,300 180,310 C300,320 420,300 430,180 C440,60 300,20 150,40 Z" fill="#fce4ec" stroke="#c2185b" stroke-width="2.4" />
+<text x="120" y="300" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#c2185b" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >母親の子宮</text>
+<ellipse cx="360" cy="110" rx="55" ry="28" fill="#e57373" stroke="#c62828" stroke-width="2" transform="rotate(30 360 110)"/>
+<line x1="520" y1="70" x2="380" y2="100" stroke="#555" stroke-width="1.2"/>
+<circle cx="380" cy="100" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="520" y="70" font-size="16" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >胎盤</text>
+<circle cx="210" cy="140" r="40" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<path d="M240,170 C300,180 320,250 270,270 C220,290 170,260 180,220 C184,200 200,180 240,170 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<path d="M260,220 C300,200 320,160 340,120" fill="none" stroke="#c62828" stroke-width="4" />
+<line x1="520" y1="240" x2="300" y2="196" stroke="#555" stroke-width="1.2"/>
+<circle cx="300" cy="196" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="520" y="240" font-size="16" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >へそのお</text>
+<line x1="80" y1="100" x2="180" y2="130" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="180" cy="130" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="80" cy="100" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="80" y="101" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

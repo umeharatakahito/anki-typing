@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<circle cx="300" cy="200" r="150" fill="#fafafa" stroke="#b0bec5" stroke-width="1.5" />
+<line x1="300" y1="60" x2="300" y2="50" stroke="#90a4ae" stroke-width="1.5"/>
+<text x="300" y="28" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >北</text>
+<line x1="353.576" y1="70.6569" x2="357.403" y2="61.4181" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="398.995" y1="101.005" x2="406.066" y2="93.934" stroke="#90a4ae" stroke-width="1.5"/>
+<text x="421.622" y="78.3776" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >北東</text>
+<line x1="429.343" y1="146.424" x2="438.582" y2="142.597" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="440" y1="200" x2="450" y2="200" stroke="#90a4ae" stroke-width="1.5"/>
+<text x="472" y="200" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >東</text>
+<line x1="429.343" y1="253.576" x2="438.582" y2="257.403" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="398.995" y1="298.995" x2="406.066" y2="306.066" stroke="#90a4ae" stroke-width="1.5"/>
+<text x="421.622" y="321.622" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >南東</text>
+<line x1="353.576" y1="329.343" x2="357.403" y2="338.582" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="300" y1="340" x2="300" y2="350" stroke="#90a4ae" stroke-width="1.5"/>
+<text x="300" y="372" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >南</text>
+<line x1="246.424" y1="329.343" x2="242.597" y2="338.582" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="201.005" y1="298.995" x2="193.934" y2="306.066" stroke="#90a4ae" stroke-width="1.5"/>
+<text x="178.378" y="321.622" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >南西</text>
+<line x1="170.657" y1="253.576" x2="161.418" y2="257.403" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="160" y1="200" x2="150" y2="200" stroke="#90a4ae" stroke-width="1.5"/>
+<text x="128" y="200" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >西</text>
+<line x1="170.657" y1="146.424" x2="161.418" y2="142.597" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="201.005" y1="101.005" x2="193.934" y2="93.934" stroke="#90a4ae" stroke-width="1.5"/>
+<text x="178.378" y="78.3776" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >北西</text>
+<line x1="246.424" y1="70.6569" x2="242.597" y2="61.4181" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="314.142" y1="185.858" x2="384.853" y2="115.147" stroke="#f57c00" stroke-width="5"/>
+<line x1="384.853" y1="115.147" x2="373.02" y2="89.7706" stroke="#37474f" stroke-width="3"/>
+<line x1="373.539" y1="126.461" x2="361.706" y2="101.084" stroke="#37474f" stroke-width="3"/>
+<line x1="362.225" y1="137.775" x2="350.392" y2="112.398" stroke="#37474f" stroke-width="3"/>
+<circle cx="300" cy="200" r="20" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<line x1="300" y1="180" x2="300" y2="220" stroke="#37474f" stroke-width="2.5"/>
+<line x1="470" y1="120" x2="356.569" y2="143.431" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="356.569" cy="143.431" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="470" cy="120" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="470" y="121" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="120" y1="330" x2="250" y2="205" stroke="#555" stroke-width="1.2"/>
+<circle cx="250" cy="205" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="120" y="330" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >天気</text>
+<line x1="500" y1="45" x2="364.853" y2="89.1472" stroke="#555" stroke-width="1.2"/>
+<circle cx="364.853" cy="89.1472" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="500" y="45" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >羽の数</text>
+</svg>

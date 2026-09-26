@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<rect x="0" y="0" width="600" height="400" rx="0" fill="#f5fbff" stroke="none" stroke-width="0" />
+<line x1="107" y1="70" x2="115" y2="70" stroke="#f9a825" stroke-width="3"/>
+<line x1="99.0919" y1="89.0919" x2="104.749" y2="94.7487" stroke="#f9a825" stroke-width="3"/>
+<line x1="80" y1="97" x2="80" y2="105" stroke="#f9a825" stroke-width="3"/>
+<line x1="60.9081" y1="89.0919" x2="55.2513" y2="94.7487" stroke="#f9a825" stroke-width="3"/>
+<line x1="53" y1="70" x2="45" y2="70" stroke="#f9a825" stroke-width="3"/>
+<line x1="60.9081" y1="50.9081" x2="55.2513" y2="45.2513" stroke="#f9a825" stroke-width="3"/>
+<line x1="80" y1="43" x2="80" y2="35" stroke="#f9a825" stroke-width="3"/>
+<line x1="99.0919" y1="50.9081" x2="104.749" y2="45.2513" stroke="#f9a825" stroke-width="3"/>
+<circle cx="80" cy="70" r="22" fill="#fff59d" stroke="#f9a825" stroke-width="2" />
+<text x="80" y="125" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >昼は熱く</text>
+<circle cx="200" cy="60" r="18" fill="#e8eaf6" stroke="#5c6bc0" stroke-width="2" />
+<circle cx="210" cy="54" r="16" fill="#f5fbff" stroke="none" stroke-width="0" />
+<text x="205" y="105" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >夜は冷える</text>
+<line x1="330" y1="30" x2="322" y2="55" stroke="#1976d2" stroke-width="2"/>
+<line x1="354" y1="38" x2="346" y2="63" stroke="#1976d2" stroke-width="2"/>
+<line x1="378" y1="46" x2="370" y2="71" stroke="#1976d2" stroke-width="2"/>
+<line x1="402" y1="30" x2="394" y2="55" stroke="#1976d2" stroke-width="2"/>
+<line x1="426" y1="38" x2="418" y2="63" stroke="#1976d2" stroke-width="2"/>
+<line x1="450" y1="46" x2="442" y2="71" stroke="#1976d2" stroke-width="2"/>
+<line x1="474" y1="30" x2="466" y2="55" stroke="#1976d2" stroke-width="2"/>
+<line x1="498" y1="38" x2="490" y2="63" stroke="#1976d2" stroke-width="2"/>
+<line x1="522" y1="46" x2="514" y2="71" stroke="#1976d2" stroke-width="2"/>
+<line x1="546" y1="30" x2="538" y2="55" stroke="#1976d2" stroke-width="2"/>
+<text x="440" y="95" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >雨水</text>
+<rect x="0" y="340" width="600" height="60" rx="0" fill="#d7ccc8" stroke="none" stroke-width="0" />
+<path d="M150,340 L170,200 L230,160 L330,150 L420,180 L450,260 L470,340 Z" fill="#bcaaa4" stroke="#6d4c41" stroke-width="2.5" />
+<path d="M230,160 L250,220 L240,280" fill="none" stroke="#6d4c41" stroke-width="2" />
+<path d="M330,150 L320,210 L350,260 L340,330" fill="none" stroke="#6d4c41" stroke-width="2" />
+<path d="M420,180 L390,240" fill="none" stroke="#6d4c41" stroke-width="2" />
+<path d="M180,260 L220,280 L210,330" fill="none" stroke="#6d4c41" stroke-width="2" />
+<circle cx="480" cy="330" r="9" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="500" cy="334" r="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="125" cy="332" r="8" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="140" cy="336" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="495" cy="320" r="4" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="460" cy="326" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<path d="M430,210 L452,264 L470,338 L445,338 L438,270 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<line x1="560" y1="240" x2="455" y2="290" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="455" cy="290" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="560" cy="240" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="241" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="560" y="275" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >もろくなり</text>
+<text x="560" y="293" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >くずれる</text>
+</svg>

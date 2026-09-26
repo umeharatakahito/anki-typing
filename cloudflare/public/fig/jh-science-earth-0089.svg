@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<defs><marker id="jhscienceearth0089m9e9e9e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9e9e9e"/></marker></defs>
+<circle cx="40" cy="150" r="6" fill="#bdbdbd" stroke="#37474f" stroke-width="1.5" />
+<circle cx="80" cy="150" r="11" fill="#ffe082" stroke="#37474f" stroke-width="1.5" />
+<circle cx="125" cy="150" r="12" fill="#64b5f6" stroke="#37474f" stroke-width="1.5" />
+<circle cx="165" cy="150" r="8" fill="#ef8a65" stroke="#37474f" stroke-width="1.5" />
+<circle cx="250" cy="150" r="42" fill="#d7b899" stroke="#37474f" stroke-width="1.5" />
+<circle cx="360" cy="150" r="36" fill="#f0dca0" stroke="#37474f" stroke-width="1.5" />
+<circle cx="460" cy="150" r="20" fill="#b2ebf2" stroke="#37474f" stroke-width="1.5" />
+<circle cx="545" cy="150" r="20" fill="#7986cb" stroke="#37474f" stroke-width="1.5" />
+<line x1="40" y1="215" x2="560" y2="215" stroke="#9e9e9e" stroke-width="1.5" marker-end="url(#jhscienceearth0089m9e9e9e)"/>
+<text x="300" y="232" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >太陽に近い順</text>
+<path d="M20,240 L20,255 L185,255 L185,240" fill="none" stroke="#f57c00" stroke-width="3" />
+<rect x="20" y="105" width="165" height="90" rx="10" fill="none" stroke="#f57c00" stroke-width="3" stroke-dasharray="7 4"/>
+<line x1="102" y1="285" x2="102" y2="255" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="102" cy="255" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="102" cy="285" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="102" y="286" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="410" y="280" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >小型・岩石・密度が大きい</text>
+<text x="300" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >太陽系の8つの惑星（大きさの比較）</text>
+</svg>

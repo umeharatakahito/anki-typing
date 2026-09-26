@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<path d="M120,150 C150,90 340,80 420,130 C450,150 450,170 420,180 C340,220 150,210 120,150 Z" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2.6" />
+<path d="M125,140 C80,100 50,110 30,80" fill="none" stroke="#2e7d32" stroke-width="2.4" />
+<ellipse cx="200" cy="140" rx="14" ry="8" fill="#43a047" stroke="#1b5e20" stroke-width="1" />
+<ellipse cx="240" cy="170" rx="14" ry="8" fill="#43a047" stroke="#1b5e20" stroke-width="1" />
+<ellipse cx="280" cy="130" rx="14" ry="8" fill="#43a047" stroke="#1b5e20" stroke-width="1" />
+<ellipse cx="330" cy="165" rx="14" ry="8" fill="#43a047" stroke="#1b5e20" stroke-width="1" />
+<ellipse cx="370" cy="140" rx="14" ry="8" fill="#43a047" stroke="#1b5e20" stroke-width="1" />
+<ellipse cx="230" cy="115" rx="14" ry="8" fill="#43a047" stroke="#1b5e20" stroke-width="1" />
+<circle cx="150" cy="138" r="7" fill="#e53935" stroke="#b71c1c" stroke-width="1" />
+<circle cx="300" cy="150" r="14" fill="#b39ddb" stroke="#7b1fa2" stroke-width="1.2" />
+<line x1="60" y1="220" x2="60" y2="100" stroke="#555" stroke-width="1.2"/>
+<circle cx="60" cy="100" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="60" y="220" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >べん毛</text>
+<line x1="360" y1="260" x2="330" y2="165" stroke="#555" stroke-width="1.2"/>
+<circle cx="330" cy="165" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="360" y="260" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >葉緑体</text>
+<text x="300" y="20" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >顕微鏡で見たようす（1つの細胞）</text>
+<line x1="520" y1="70" x2="430" y2="140" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="430" cy="140" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="520" cy="70" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="71" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

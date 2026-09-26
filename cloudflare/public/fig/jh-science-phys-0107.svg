@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<g transform="rotate(-10 150 160)">
+<rect x="20" y="140" width="200" height="36" rx="18" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2.5" />
+<text x="50" y="158" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >−</text>
+<text x="86" y="158" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >−</text>
+<text x="122" y="158" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >−</text>
+<text x="158" y="158" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >−</text>
+<text x="194" y="158" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >−</text>
+</g>
+<text x="120" y="220" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >−の電気を帯びた棒</text>
+<circle cx="400" cy="160" r="90" fill="#eceff1" stroke="#37474f" stroke-width="2.5" />
+<text x="330" y="130" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" >+</text>
+<text x="325" y="170" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" >+</text>
+<text x="335" y="205" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" >+</text>
+<text x="470" y="130" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >−</text>
+<text x="475" y="170" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >−</text>
+<text x="465" y="205" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >−</text>
+<rect x="308" y="110" width="40" height="110" rx="10" fill="none" stroke="#f57c00" stroke-width="3" />
+<rect x="452" y="110" width="40" height="110" rx="10" fill="none" stroke="#f57c00" stroke-width="3" />
+<line x1="400" y1="300" x2="400" y2="250" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="400" cy="250" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="400" cy="300" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="400" y="301" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="400" y1="285" x2="330" y2="222" stroke="#f57c00" stroke-width="2"/>
+<line x1="400" y1="285" x2="470" y2="222" stroke="#f57c00" stroke-width="2"/>
+<text x="400" y="40" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >金属球</text>
+</svg>

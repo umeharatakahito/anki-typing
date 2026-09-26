@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<defs><marker id="jhsciencebio0089md32f2f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d32f2f"/></marker></defs>
+<polygon points="270,60 330,60 385,140 215,140" fill="#eceff1" stroke="#37474f" stroke-width="2.2" stroke-linejoin="round" />
+<text x="300" y="100" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >肉食動物</text>
+<polygon points="215,140 385,140 440,220 160,220" fill="#eceff1" stroke="#37474f" stroke-width="2.2" stroke-linejoin="round" />
+<text x="300" y="180" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >草食動物</text>
+<polygon points="160,220 440,220 495,300 105,300" fill="#ffcc80" stroke="#f57c00" stroke-width="2.2" stroke-linejoin="round" />
+<text x="300" y="260" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >植物</text>
+<rect x="150" y="144" width="300" height="72" rx="0" fill="none" stroke="#d32f2f" stroke-width="3" stroke-dasharray="6,4"/>
+<line x1="480" y1="200" x2="480" y2="150" stroke="#d32f2f" stroke-width="4" marker-end="url(#jhsciencebio0089md32f2f)"/>
+<text x="530" y="176" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >急にふえた</text>
+<text x="300" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >つり合いのとれた生態系</text>
+<line x1="80" y1="260" x2="200" y2="260" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="200" cy="260" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="80" cy="260" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="80" y="261" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

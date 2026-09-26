@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<rect x="0" y="240" width="600" height="80" rx="0" fill="#efebe9" stroke="none" stroke-width="0" />
+<line x1="0" y1="240" x2="600" y2="240" stroke="#8d6e63" stroke-width="2"/>
+<ellipse cx="73.2" cy="162" rx="28.6" ry="18.2" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2"/>
+<line x1="120" y1="240" x2="73.2" y2="175" stroke="#2e7d32" stroke-width="2"/>
+<ellipse cx="120" cy="162" rx="28.6" ry="18.2" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2"/>
+<line x1="120" y1="240" x2="120" y2="175" stroke="#2e7d32" stroke-width="2"/>
+<ellipse cx="166.8" cy="162" rx="28.6" ry="18.2" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2"/>
+<line x1="120" y1="240" x2="166.8" y2="175" stroke="#2e7d32" stroke-width="2"/>
+<path d="M120,240 q-10,20 -15.0,40" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M120,240 q0,20 0.0,40" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M120,240 q10,20 15.0,40" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M150,236 C250,200 330,200 440,236" fill="none" stroke="#2e7d32" stroke-width="3.4" />
+<ellipse cx="417.6" cy="186" rx="19.8" ry="12.6" fill="#ffcc80" stroke="#f57c00" stroke-width="2"/>
+<line x1="450" y1="240" x2="417.6" y2="195" stroke="#f57c00" stroke-width="2"/>
+<ellipse cx="450" cy="186" rx="19.8" ry="12.6" fill="#ffcc80" stroke="#f57c00" stroke-width="2"/>
+<line x1="450" y1="240" x2="450" y2="195" stroke="#f57c00" stroke-width="2"/>
+<ellipse cx="482.4" cy="186" rx="19.8" ry="12.6" fill="#ffcc80" stroke="#f57c00" stroke-width="2"/>
+<line x1="450" y1="240" x2="482.4" y2="195" stroke="#f57c00" stroke-width="2"/>
+<path d="M450,240 q-10,20 -15.0,40" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M450,240 q0,20 0.0,40" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M450,240 q10,20 15.0,40" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<line x1="290" y1="150" x2="300" y2="210" stroke="#555" stroke-width="1.2"/>
+<circle cx="300" cy="210" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="290" y="150" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >のびた茎（ほふく茎）</text>
+<text x="120" y="300" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >親</text>
+<text x="450" y="300" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >新しい株</text>
+<text x="300" y="20" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >オランダイチゴ</text>
+<line x1="540" y1="110" x2="480" y2="175" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="480" cy="175" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="540" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="540" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

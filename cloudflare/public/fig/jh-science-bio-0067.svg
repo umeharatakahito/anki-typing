@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<defs><marker id="jhsciencebio0067m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<ellipse cx="90" cy="150" rx="60" ry="26" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2" />
+<circle cx="90" cy="150" r="8" fill="#b39ddb" stroke="#7b1fa2" stroke-width="1.2" />
+<line x1="165" y1="150" x2="205" y2="150" stroke="#37474f" stroke-width="3" marker-end="url(#jhsciencebio0067m37474f)"/>
+<path d="M230,150 C230,120 300,120 300,135 C300,120 370,120 370,150 C370,180 300,180 300,165 C300,180 230,180 230,150 Z" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2" />
+<circle cx="270" cy="150" r="7" fill="#b39ddb" stroke="#7b1fa2" stroke-width="1.2" />
+<circle cx="330" cy="150" r="7" fill="#b39ddb" stroke="#7b1fa2" stroke-width="1.2" />
+<line x1="390" y1="150" x2="430" y2="150" stroke="#37474f" stroke-width="3" marker-end="url(#jhsciencebio0067m37474f)"/>
+<ellipse cx="510" cy="100" rx="50" ry="22" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<ellipse cx="510" cy="200" rx="50" ry="22" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="300" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1つの細胞が2つに分かれる（ゾウリムシ）</text>
+<text x="300" y="270" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >雄と雌の区別がない</text>
+<circle cx="570" cy="150" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="570" y="151" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

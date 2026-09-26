@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="jhsciencephys0039m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<g transform="rotate(-20 250 170)">
+<rect x="100" y="150" width="300" height="40" rx="20" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="140" y="170" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >−</text>
+<text x="180" y="170" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >−</text>
+<text x="220" y="170" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >−</text>
+<text x="260" y="170" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >−</text>
+<text x="300" y="170" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >−</text>
+<text x="340" y="170" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >−</text>
+</g>
+<path d="M380,60 C430,40 500,60 520,110 C530,150 470,160 430,140 C400,120 390,90 380,60 Z" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" />
+<text x="430" y="90" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" >+</text>
+<text x="470" y="110" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" >+</text>
+<text x="500" y="85" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" >+</text>
+<text x="470" y="180" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >布</text>
+<path d="M330,40 C360,20 400,20 420,40" fill="none" stroke="#37474f" stroke-width="2" marker-end="url(#jhsciencephys0039m37474f)"/>
+<text x="330" y="15" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >こする</text>
+<line x1="120" y1="60" x2="180" y2="190" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="180" cy="190" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="120" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="120" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="250" y="320" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ストロー（プラスチック）と布をこすり合わせる</text>
+</svg>

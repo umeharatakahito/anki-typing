@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<rect x="0" y="0" width="600" height="360" rx="0" fill="#1a2340" stroke="none" stroke-width="0" />
+<line x1="99" y1="180" x2="107" y2="180" stroke="#f9a825" stroke-width="3"/>
+<line x1="87.5772" y1="207.577" x2="93.234" y2="213.234" stroke="#f9a825" stroke-width="3"/>
+<line x1="60" y1="219" x2="60" y2="227" stroke="#f9a825" stroke-width="3"/>
+<line x1="32.4228" y1="207.577" x2="26.766" y2="213.234" stroke="#f9a825" stroke-width="3"/>
+<line x1="21" y1="180" x2="13" y2="180" stroke="#f9a825" stroke-width="3"/>
+<line x1="32.4228" y1="152.423" x2="26.766" y2="146.766" stroke="#f9a825" stroke-width="3"/>
+<line x1="60" y1="141" x2="60" y2="133" stroke="#f9a825" stroke-width="3"/>
+<line x1="87.5772" y1="152.423" x2="93.234" y2="146.766" stroke="#f9a825" stroke-width="3"/>
+<circle cx="60" cy="180" r="34" fill="#fff59d" stroke="#f9a825" stroke-width="2" />
+<line x1="0" y1="180" x2="600" y2="180" stroke="#90a4ae" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="190" y="165" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#b0bec5" >太陽と地球を結ぶ面</text>
+<circle cx="400" cy="180" r="22" fill="#64b5f6" stroke="#1e88e5" stroke-width="2" />
+<g transform="rotate(-12 400 180)">
+<ellipse cx="400" cy="180" rx="150" ry="36" fill="none" stroke="#f57c00" stroke-width="3" />
+</g>
+<circle cx="253.278" cy="211.187" r="10" fill="#9e9e9e" stroke="#e0e0e0" stroke-width="1.5" />
+<text x="253.278" y="187.187" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#fff" >新月</text>
+<line x1="520" y1="70" x2="510" y2="150" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="510" cy="150" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="520" cy="70" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="71" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="400" y="230" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#fff" >地球</text>
+<text x="200" y="330" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#fff" >新月でも影が地球に届かないことが多い</text>
+</svg>

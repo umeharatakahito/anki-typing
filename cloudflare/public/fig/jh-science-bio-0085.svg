@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="jhsciencebio0085mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<polygon points="270,60 330,60 385,140 215,140" fill="#eceff1" stroke="#37474f" stroke-width="2.2" stroke-linejoin="round" />
+<text x="300" y="100" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >肉食動物</text>
+<polygon points="215,140 385,140 440,220 160,220" fill="#eceff1" stroke="#37474f" stroke-width="2.2" stroke-linejoin="round" />
+<text x="300" y="180" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >草食動物</text>
+<polygon points="160,220 440,220 495,300 105,300" fill="#c8e6c9" stroke="#388e3c" stroke-width="2.2" stroke-linejoin="round" />
+<text x="300" y="260" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >植物</text>
+<circle cx="291.262" cy="67.8867" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="294.199" cy="73.8057" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="290.042" cy="73.1262" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="296.349" cy="66.3572" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="294.332" cy="72.7539" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="308.783" cy="74.8458" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="299.192" cy="70.6365" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="308.444" cy="67.6" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="304.43" cy="77.3791" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="293.797" cy="70.5465" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="301.78" cy="66.5524" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="303.295" cy="71.874" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="292.159" cy="68.6192" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="299.386" cy="70.9365" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="355.886" cy="158.79" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="230.717" cy="197.313" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="253.822" cy="170.005" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="348.365" cy="165.234" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="254.652" cy="202.845" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="249.253" cy="183.927" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="367.989" cy="178.791" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="381.3" cy="240.79" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="373.643" cy="250.835" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="330.143" cy="290" r="4" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<text x="300" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >●＝分解されにくい物質</text>
+<line x1="520" y1="290" x2="520" y2="70" stroke="#f57c00" stroke-width="3" marker-end="url(#jhsciencebio0085mf57c00)"/>
+<text x="560" y="180" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >体内の濃度</text>
+<circle cx="560" cy="70" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="71" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

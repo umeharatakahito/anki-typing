@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<ellipse cx="300" cy="90" rx="26" ry="22" fill="#8d6e63" stroke="#3e2723" stroke-width="2.4" />
+<ellipse cx="300" cy="140" rx="40" ry="30" fill="#8d6e63" stroke="#3e2723" stroke-width="2.4" />
+<ellipse cx="300" cy="225" rx="60" ry="70" fill="#8d6e63" stroke="#3e2723" stroke-width="2.4" />
+<line x1="250" y1="200" x2="350" y2="200" stroke="#3e2723" stroke-width="1.2"/>
+<line x1="250" y1="218" x2="350" y2="218" stroke="#3e2723" stroke-width="1.2"/>
+<line x1="250" y1="236" x2="350" y2="236" stroke="#3e2723" stroke-width="1.2"/>
+<line x1="250" y1="254" x2="350" y2="254" stroke="#3e2723" stroke-width="1.2"/>
+<path d="M288,72 Q260,30 230,24 M312,72 Q340,30 370,24" fill="none" stroke="#3e2723" stroke-width="2.4" />
+<polyline points="270,130 210,110 170,140" fill="none" stroke="#f57c00" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="210" cy="110" r="5" fill="#fff" stroke="#f57c00" stroke-width="2" />
+<polyline points="330,130 390,110 430,140" fill="none" stroke="#f57c00" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="390" cy="110" r="5" fill="#fff" stroke="#f57c00" stroke-width="2" />
+<polyline points="268,150 200,170 170,220" fill="none" stroke="#f57c00" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="200" cy="170" r="5" fill="#fff" stroke="#f57c00" stroke-width="2" />
+<polyline points="332,150 400,170 430,220" fill="none" stroke="#f57c00" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="400" cy="170" r="5" fill="#fff" stroke="#f57c00" stroke-width="2" />
+<polyline points="262,190 210,240 190,300" fill="none" stroke="#f57c00" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="210" cy="240" r="5" fill="#fff" stroke="#f57c00" stroke-width="2" />
+<polyline points="338,190 390,240 410,300" fill="none" stroke="#f57c00" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="390" cy="240" r="5" fill="#fff" stroke="#f57c00" stroke-width="2" />
+<line x1="430" y1="80" x2="318" y2="136" stroke="#555" stroke-width="1.2"/>
+<circle cx="318" cy="136" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="430" y="80" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >かたい殻（外骨格）</text>
+<line x1="90" y1="60" x2="272" y2="90" stroke="#555" stroke-width="1.2"/>
+<circle cx="272" cy="90" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="90" y="60" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >頭部</text>
+<line x1="90" y1="300" x2="250" y2="240" stroke="#555" stroke-width="1.2"/>
+<circle cx="250" cy="240" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="90" y="300" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >腹部</text>
+<line x1="470" y1="300" x2="392" y2="242" stroke="#555" stroke-width="1.2"/>
+<circle cx="392" cy="242" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="470" y="300" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >あしの節</text>
+<line x1="80" y1="180" x2="196" y2="168" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="196" cy="168" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="80" cy="180" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="80" y="181" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" width="600" height="260" font-family="sans-serif">
+<rect width="600" height="260" fill="#fff"/>
+<defs><marker id="jhsciencechem0067m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="60" y="130" width="200" height="50" rx="4" fill="#64b5f6" stroke="#37474f" stroke-width="2" />
+<text x="160" y="210" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >リトマス紙</text>
+<line x1="290" y1="155" x2="330" y2="155" stroke="#37474f" stroke-width="3" marker-end="url(#jhsciencechem0067m37474f)"/>
+<rect x="360" y="130" width="200" height="50" rx="4" fill="#64b5f6" stroke="#37474f" stroke-width="2" />
+<rect x="420" y="130" width="80" height="50" rx="0" fill="#ef5350" stroke="none" stroke-width="0" />
+<rect x="360" y="130" width="200" height="50" rx="4" fill="none" stroke="#37474f" stroke-width="2" />
+<circle cx="430" cy="90" r="13" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="441" y="79" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >+</text>
+<circle cx="470" cy="70" r="13" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="481" y="59" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >+</text>
+<circle cx="500" cy="100" r="13" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="511" y="89" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >+</text>
+<text x="460" y="210" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >水溶液をつけると</text>
+<text x="300" y="30" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >青色 → 赤色</text>
+<line x1="560" y1="60" x2="510" y2="90" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="510" cy="90" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="560" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

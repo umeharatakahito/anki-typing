@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<defs><marker id="jhsciencebio0037m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<text x="150" y="24" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >低倍率</text>
+<circle cx="150" cy="160" r="110" fill="#fffde7" stroke="#37474f" stroke-width="3" />
+<defs><clipPath id="bio37c"><circle cx="150" cy="160" r="108"/></clipPath></defs><g clip-path="url(#bio37c)">
+<rect x="40" y="50" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="40" y="86" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="40" y="122" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="40" y="158" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="40" y="194" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="40" y="230" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="40" y="266" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="76" y="50" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="76" y="86" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="76" y="122" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="76" y="158" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="76" y="194" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="76" y="230" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="76" y="266" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="112" y="50" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="112" y="86" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="112" y="122" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="112" y="158" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="112" y="194" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="112" y="230" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="112" y="266" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="148" y="50" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="148" y="86" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="148" y="122" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="148" y="158" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="148" y="194" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="148" y="230" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="148" y="266" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="184" y="50" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="184" y="86" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="184" y="122" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="184" y="158" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="184" y="194" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="184" y="230" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="184" y="266" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="220" y="50" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="220" y="86" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="220" y="122" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="220" y="158" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="220" y="194" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="220" y="230" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="220" y="266" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="256" y="50" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="256" y="86" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="256" y="122" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="256" y="158" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="256" y="194" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="256" y="230" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+<rect x="256" y="266" width="34" height="34" rx="0" fill="#dcedc8" stroke="#8bc34a" stroke-width="1.2" />
+</g>
+<circle cx="150" cy="160" r="110" fill="none" stroke="#37474f" stroke-width="3" />
+<line x1="270" y1="160" x2="330" y2="160" stroke="#37474f" stroke-width="3" marker-end="url(#jhsciencebio0037m37474f)"/>
+<text x="450" y="24" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >高倍率</text>
+<circle cx="450" cy="160" r="110" fill="#f5f5f5" stroke="#f57c00" stroke-width="3" stroke-dasharray="8,5"/>
+<circle cx="450" cy="160" r="22" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="450" y="161" font-size="29.26" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="300" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >視野の明るさ・見える範囲は？</text>
+</svg>

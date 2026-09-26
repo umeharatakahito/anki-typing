@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400" font-family="sans-serif">
+<rect width="500" height="400" fill="#fff"/>
+<defs><marker id="jhsciencebio0101mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<path d="M200,20 C150,30 120,60 118,110 L112,360 C150,390 350,390 388,360 L382,110 C380,60 350,30 300,20 Z" fill="#ffe0b2" stroke="#a1887f" stroke-width="2" />
+<path d="M252,20 L252,120" fill="#f8bbd0" stroke="#c2185b" stroke-width="9" stroke-linecap="round"/>
+<path d="M252,20 L252,120" fill="none" stroke="#fce4ec" stroke-width="5" stroke-linecap="round"/>
+<path d="M252,118 C262,104 300,100 318,118 C338,140 330,190 296,200 C272,206 262,190 270,176 C282,160 262,146 252,140 Z" fill="#f48fb1" stroke="#c2185b" stroke-width="2.2" />
+<path d="M128,120 C170,100 240,104 290,122 C270,150 240,166 200,176 C168,184 140,178 130,166 Z" fill="#bcaaa4" stroke="#5d4037" stroke-width="2.4" />
+<ellipse cx="186" cy="182" rx="13" ry="10" fill="#aed581" stroke="#558b2f" stroke-width="2" />
+<path d="M220,212 C250,202 300,204 330,210 C320,222 260,226 222,224 Z" fill="#fff59d" stroke="#9e9d24" stroke-width="2" />
+<path d="M160,300 L160,232 C160,222 170,218 180,218 L330,218 C340,218 350,224 350,236 L350,320 C350,340 300,342 262,344" fill="none" stroke="#a1887f" stroke-width="18" stroke-linejoin="round"/>
+<path d="M160,300 L160,232 C160,222 170,218 180,218 L330,218 C340,218 350,224 350,236 L350,320 C350,340 300,342 262,344" fill="none" stroke="#d7ccc8" stroke-width="13" stroke-linejoin="round"/>
+<path d="M190,250 C220,236 300,236 320,256 C300,270 210,262 196,280 C214,296 300,288 320,300 C300,318 214,310 200,320 C220,334 260,330 262,344" fill="none" stroke="#e57373" stroke-width="9" stroke-linecap="round"/>
+<path d="M190,250 C220,236 300,236 320,256 C300,270 210,262 196,280 C214,296 300,288 320,300 C300,318 214,310 200,320 C220,334 260,330 262,344" fill="none" stroke="#ffcdd2" stroke-width="5" stroke-linecap="round"/>
+<line x1="430" y1="60" x2="254" y2="70" stroke="#555" stroke-width="1.2"/>
+<circle cx="254" cy="70" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="430" y="60" font-size="17" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >食道</text>
+<line x1="430" y1="130" x2="312" y2="150" stroke="#555" stroke-width="1.2"/>
+<circle cx="312" cy="150" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="430" y="130" font-size="17" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >胃</text>
+<line x1="430" y1="310" x2="300" y2="300" stroke="#555" stroke-width="1.2"/>
+<circle cx="300" cy="300" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="430" y="310" font-size="17" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >小腸</text>
+<line x1="70" y1="110" x2="160" y2="140" stroke="#555" stroke-width="1.2"/>
+<circle cx="160" cy="140" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="70" y="110" font-size="17" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >肝臓</text>
+<line x1="70" y1="210" x2="180" y2="188" stroke="#555" stroke-width="1.2"/>
+<circle cx="180" cy="188" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="70" y="210" font-size="17" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >胆のう</text>
+<path d="M240,300 C230,250 240,220 230,200 C222,180 210,170 200,160" fill="none" stroke="#f57c00" stroke-width="6" />
+<line x1="200" y1="160" x2="196" y2="156" stroke="#f57c00" stroke-width="6" marker-end="url(#jhsciencebio0101mf57c00)"/>
+<line x1="60" y1="300" x2="236" y2="260" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="236" cy="260" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="60" cy="300" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="60" y="301" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

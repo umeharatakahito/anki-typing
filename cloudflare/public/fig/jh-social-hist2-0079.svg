@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350" font-family="sans-serif">
+<rect width="600" height="350" fill="#fff"/>
+<line x1="60" y1="306" x2="581" y2="306" stroke="#cfd8dc" stroke-width="1"/>
+<text x="52" y="306" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" >-2</text>
+<line x1="60" y1="276" x2="581" y2="276" stroke="#37474f" stroke-width="1.6"/>
+<text x="52" y="276" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" >0</text>
+<line x1="60" y1="246" x2="581" y2="246" stroke="#cfd8dc" stroke-width="1"/>
+<text x="52" y="246" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" >2</text>
+<line x1="60" y1="216" x2="581" y2="216" stroke="#cfd8dc" stroke-width="1"/>
+<text x="52" y="216" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" >4</text>
+<line x1="60" y1="186" x2="581" y2="186" stroke="#cfd8dc" stroke-width="1"/>
+<text x="52" y="186" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" >6</text>
+<line x1="60" y1="156" x2="581" y2="156" stroke="#cfd8dc" stroke-width="1"/>
+<text x="52" y="156" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" >8</text>
+<line x1="60" y1="126" x2="581" y2="126" stroke="#cfd8dc" stroke-width="1"/>
+<text x="52" y="126" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" >10</text>
+<line x1="60" y1="96" x2="581" y2="96" stroke="#cfd8dc" stroke-width="1"/>
+<text x="52" y="96" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" >12</text>
+<line x1="60" y1="66" x2="581" y2="66" stroke="#cfd8dc" stroke-width="1"/>
+<text x="52" y="66" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" >14</text>
+<rect x="64" y="163.5" width="15.6" height="112.5" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<rect x="84.6" y="159" width="15.6" height="117" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<rect x="105.2" y="183" width="15.6" height="93" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<rect x="125.8" y="135" width="15.6" height="141" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<rect x="146.4" y="79.5" width="15.6" height="196.5" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<text x="154.2" y="322" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >1960</text>
+<line x1="154.2" y1="302" x2="154.2" y2="310" stroke="#37474f" stroke-width="1"/>
+<rect x="167" y="97.5" width="15.6" height="178.5" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<rect x="187.6" y="147" width="15.6" height="129" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<rect x="208.2" y="144" width="15.6" height="132" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<rect x="228.8" y="108" width="15.6" height="168" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<rect x="249.4" y="190.5" width="15.6" height="85.5" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<text x="257.2" y="322" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >1965</text>
+<line x1="257.2" y1="302" x2="257.2" y2="310" stroke="#37474f" stroke-width="1"/>
+<rect x="270" y="123" width="15.6" height="153" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<rect x="290.6" y="109.5" width="15.6" height="166.5" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<rect x="311.2" y="97.5" width="15.6" height="178.5" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<rect x="331.8" y="96" width="15.6" height="180" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<rect x="352.4" y="121.5" width="15.6" height="154.5" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<text x="360.2" y="322" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >1970</text>
+<line x1="360.2" y1="302" x2="360.2" y2="310" stroke="#37474f" stroke-width="1"/>
+<rect x="373" y="210" width="15.6" height="66" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<rect x="393.6" y="150" width="15.6" height="126" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<rect x="414.2" y="156" width="15.6" height="120" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<rect x="434.8" y="276" width="15.6" height="18" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1" />
+<rect x="455.4" y="229.5" width="15.6" height="46.5" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<text x="463.2" y="322" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >1975</text>
+<line x1="463.2" y1="302" x2="463.2" y2="310" stroke="#37474f" stroke-width="1"/>
+<rect x="476" y="216" width="15.6" height="60" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<rect x="496.6" y="210" width="15.6" height="66" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<rect x="517.2" y="196.5" width="15.6" height="79.5" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<rect x="537.8" y="193.5" width="15.6" height="82.5" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<rect x="558.4" y="234" width="15.6" height="42" rx="0" fill="#90caf9" stroke="#1976d2" stroke-width="1" />
+<text x="566.2" y="322" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >1980</text>
+<line x1="566.2" y1="302" x2="566.2" y2="310" stroke="#37474f" stroke-width="1"/>
+<text x="12" y="20" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >日本の実質GDPの前年度からの伸び（%）</text>
+<text x="590" y="342" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#555" >内閣府の資料による概数</text>
+<line x1="442.6" y1="111" x2="442.6" y2="274" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="442.6" cy="274" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="442.6" cy="111" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="442.6" y="112" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="464.6" y="111" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1974年</text>
+</svg>

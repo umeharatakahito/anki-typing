@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<defs><marker id="jhsciencechem0046mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<circle cx="54" cy="150" r="18" fill="#ffab91" stroke="#bf360c" stroke-width="1.8" />
+<text x="54" y="151" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >Cu</text>
+<circle cx="86" cy="150" r="18" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<text x="86" y="151" font-size="17.1" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >O</text>
+<circle cx="134" cy="150" r="18" fill="#ffab91" stroke="#bf360c" stroke-width="1.8" />
+<text x="134" y="151" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >Cu</text>
+<circle cx="166" cy="150" r="18" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<text x="166" y="151" font-size="17.1" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >O</text>
+<text x="206" y="150" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＋</text>
+<circle cx="254" cy="150" r="18" fill="#616161" stroke="#212121" stroke-width="1.8" />
+<text x="254" y="151" font-size="17.1" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold" >C</text>
+<text x="300" y="150" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >→</text>
+<circle cx="348" cy="150" r="18" fill="#ffab91" stroke="#bf360c" stroke-width="1.8" />
+<text x="348" y="151" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >Cu</text>
+<circle cx="388" cy="150" r="18" fill="#ffab91" stroke="#bf360c" stroke-width="1.8" />
+<text x="388" y="151" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >Cu</text>
+<text x="434" y="150" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＋</text>
+<circle cx="486" cy="150" r="12.6" fill="#ef9a9a" stroke="#c62828" stroke-width="1.8" />
+<text x="486" y="151" font-size="11.97" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >O</text>
+<circle cx="528" cy="150" r="12.6" fill="#ef9a9a" stroke="#c62828" stroke-width="1.8" />
+<text x="528" y="151" font-size="11.97" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >O</text>
+<circle cx="507" cy="150" r="14" fill="#616161" stroke="#212121" stroke-width="1.8" />
+<text x="507" y="151" font-size="13.3" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold" >C</text>
+<text x="110" y="200" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >酸化銅</text>
+<text x="254" y="200" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >炭素</text>
+<text x="364" y="200" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >銅</text>
+<text x="503" y="200" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >二酸化炭素</text>
+<path d="M146,124 C200,60 440,60 490,126" fill="none" stroke="#f57c00" stroke-width="3" marker-end="url(#jhsciencechem0046mf57c00)"/>
+<text x="300" y="270" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >酸化物から酸素がうばわれる</text>
+<circle cx="300" cy="44" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="45" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<defs><marker id="jhsciencechem0072mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="142" y="200" width="316" height="148" rx="0" fill="#e3f2fd" stroke="none" stroke-width="0" />
+<path d="M134,150 L140,156 L140,350 L460,350 L460,156 L466,150" fill="none" stroke="#78909c" stroke-width="2.4" />
+<rect x="190" y="110" width="20" height="220" rx="0" fill="#b0bec5" stroke="#455a64" stroke-width="2" />
+<rect x="390" y="110" width="20" height="220" rx="0" fill="#ffab91" stroke="#bf360c" stroke-width="2" />
+<path d="M200,110 L200,60 L260,60 M340,60 L400,60 L400,110" fill="none" stroke="#37474f" stroke-width="2" />
+<circle cx="300" cy="60" r="36" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<text x="300" y="61" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >M</text>
+<path d="M280,40 q20,-26 40,0" fill="none" stroke="#f57c00" stroke-width="2.4" />
+<line x1="318" y1="38" x2="324" y2="44" stroke="#f57c00" stroke-width="2.4" marker-end="url(#jhsciencechem0072mf57c00)"/>
+<line x1="80" y1="200" x2="190" y2="200" stroke="#555" stroke-width="1.2"/>
+<circle cx="190" cy="200" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="80" y="200" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >亜鉛板</text>
+<line x1="520" y1="200" x2="410" y2="200" stroke="#555" stroke-width="1.2"/>
+<circle cx="410" cy="200" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="520" y="200" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >銅板</text>
+<text x="300" y="380" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >うすい塩酸</text>
+<text x="300" y="16" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >モーターが回る</text>
+<circle cx="540" cy="300" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="540" y="301" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<defs><marker id="jhsciencechem0032m90a4ae" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#90a4ae"/></marker><marker id="jhsciencechem0032mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="60" y="230" width="130" height="90" rx="6" fill="#fafafa" stroke="#90a4ae" stroke-width="1.6" />
+<circle cx="92" cy="304" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="92" cy="284" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="92" cy="264" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="114" cy="304" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="114" cy="284" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="114" cy="264" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="136" cy="304" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="136" cy="284" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="136" cy="264" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="158" cy="304" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="158" cy="284" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="158" cy="264" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<text x="125" y="340" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >固体</text>
+<rect x="410" y="230" width="130" height="90" rx="6" fill="#fafafa" stroke="#90a4ae" stroke-width="1.6" />
+<circle cx="424.428" cy="306.177" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="445.22" cy="306.416" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="466.754" cy="304.262" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="483.079" cy="307.35" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="504.556" cy="304.937" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="428.974" cy="287.881" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="448.019" cy="287.905" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="466.834" cy="286.602" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="486.809" cy="289.472" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="506.139" cy="288.965" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="427.028" cy="268.256" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="447.549" cy="270.364" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<text x="475" y="340" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >液体</text>
+<rect x="235" y="30" width="130" height="90" rx="6" fill="#fafafa" stroke="#90a4ae" stroke-width="1.6" />
+<circle cx="273.272" cy="77.7422" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="286.735" cy="81.443" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="312.823" cy="48.0628" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="250.343" cy="95.9231" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="275.454" cy="58.5285" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<circle cx="350.556" cy="73.1563" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.4" />
+<text x="300" y="140" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >気体</text>
+<line x1="200" y1="262" x2="400" y2="262" stroke="#90a4ae" stroke-width="2.4" marker-end="url(#jhsciencechem0032m90a4ae)"/>
+<line x1="400" y1="300" x2="200" y2="300" stroke="#90a4ae" stroke-width="2.4" marker-end="url(#jhsciencechem0032m90a4ae)"/>
+<line x1="440" y1="220" x2="360" y2="110" stroke="#90a4ae" stroke-width="2.4" marker-end="url(#jhsciencechem0032m90a4ae)"/>
+<line x1="330" y1="125" x2="410" y2="232" stroke="#90a4ae" stroke-width="2.4" marker-end="url(#jhsciencechem0032m90a4ae)"/>
+<line x1="120" y1="220" x2="200" y2="110" stroke="#f57c00" stroke-width="4" marker-end="url(#jhsciencechem0032mf57c00)"/>
+<line x1="230" y1="128" x2="160" y2="222" stroke="#90a4ae" stroke-width="2.4" marker-end="url(#jhsciencechem0032m90a4ae)"/>
+<text x="300" y="346" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >例：ドライアイス</text>
+<line x1="120" y1="150" x2="150" y2="180" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="150" cy="180" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="120" cy="150" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="120" y="151" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

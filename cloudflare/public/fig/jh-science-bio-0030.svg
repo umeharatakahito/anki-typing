@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<path d="M230,190 L230,330 L370,330 L370,190" fill="#e3f2fd" stroke="#1976d2" stroke-width="2.4" />
+<rect x="232" y="200" width="136" height="128" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" />
+<rect x="232" y="200" width="136" height="8" rx="0" fill="#ffe082" stroke="none" stroke-width="0" />
+<line x1="385" y1="235" x2="360" y2="205" stroke="#555" stroke-width="1.2"/>
+<circle cx="360" cy="205" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="385" y="235" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >油（水面からの蒸発を防ぐ）</text>
+<path d="M300,320 L300,80" fill="none" stroke="#2e7d32" stroke-width="4" />
+<path transform="translate(300,100) rotate(-150) scale(1.1)" d="M0,0 C20,-18 50,-18 70,0 C50,18 20,18 0,0 Z" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2"/>
+<path transform="translate(300,140) rotate(-30) scale(1.1)" d="M0,0 C20,-18 50,-18 70,0 C50,18 20,18 0,0 Z" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2"/>
+<path transform="translate(300,180) rotate(-150) scale(1.1)" d="M0,0 C20,-18 50,-18 70,0 C50,18 20,18 0,0 Z" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2"/>
+<line x1="80" y1="300" x2="300" y2="290" stroke="#555" stroke-width="1.2"/>
+<circle cx="300" cy="290" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="80" y="300" font-size="16" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >茎</text>
+<path d="M200,60 q-8,-10 0,-20 q8,-10 0,-20" fill="none" stroke="#f57c00" stroke-width="2.4" />
+<path d="M410,110 q-8,-10 0,-20 q8,-10 0,-20" fill="none" stroke="#f57c00" stroke-width="2.4" />
+<path d="M170,140 q-8,-10 0,-20 q8,-10 0,-20" fill="none" stroke="#f57c00" stroke-width="2.4" />
+<path d="M440,60 q-8,-10 0,-20 q8,-10 0,-20" fill="none" stroke="#f57c00" stroke-width="2.4" />
+<line x1="80" y1="200" x2="222" y2="172" stroke="#555" stroke-width="1.2"/>
+<circle cx="222" cy="172" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="80" y="200" font-size="16" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >葉の気孔</text>
+<line x1="560" y1="40" x2="450" y2="50" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="450" cy="50" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="560" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

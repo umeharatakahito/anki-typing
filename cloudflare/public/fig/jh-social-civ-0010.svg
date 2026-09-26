@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<defs><marker id="jhsocialciv0010mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="170" y="30" width="260" height="56" rx="6" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" />
+<text x="300" y="58" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >最高裁判所</text>
+<rect x="170" y="170" width="260" height="56" rx="6" fill="#ede7f6" stroke="#7b1fa2" stroke-width="2" />
+<text x="300" y="198" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >高等裁判所</text>
+<rect x="30" y="310" width="170" height="56" rx="6" fill="#f5f5f5" stroke="#37474f" stroke-width="2" />
+<text x="115" y="338" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >地方裁判所</text>
+<rect x="215" y="310" width="170" height="56" rx="6" fill="#f5f5f5" stroke="#37474f" stroke-width="2" />
+<text x="300" y="338" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >家庭裁判所</text>
+<rect x="400" y="310" width="170" height="56" rx="6" fill="#f5f5f5" stroke="#37474f" stroke-width="2" />
+<text x="485" y="338" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >簡易裁判所</text>
+<line x1="115" y1="308" x2="250" y2="228" stroke="#f57c00" stroke-width="3" marker-end="url(#jhsocialciv0010mf57c00)"/>
+<text x="152.5" y="268" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >控訴</text>
+<line x1="300" y1="308" x2="300" y2="228" stroke="#f57c00" stroke-width="3" marker-end="url(#jhsocialciv0010mf57c00)"/>
+<text x="324" y="268" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >控訴</text>
+<line x1="485" y1="308" x2="350" y2="228" stroke="#f57c00" stroke-width="3" marker-end="url(#jhsocialciv0010mf57c00)"/>
+<text x="447.5" y="268" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >控訴</text>
+<line x1="300" y1="168" x2="300" y2="88" stroke="#f57c00" stroke-width="3" marker-end="url(#jhsocialciv0010mf57c00)"/>
+<text x="324" y="128" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >上告</text>
+<text x="560" y="58" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >3回目</text>
+<text x="560" y="198" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2回目</text>
+<text x="300" y="388" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1回目の裁判</text>
+<circle cx="80" cy="130" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="80" y="131" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

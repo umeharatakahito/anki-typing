@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="jhsciencechem0020mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="182" y="205.5" width="236" height="102.5" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" />
+<path d="M174,120 L180,126 L180,310 L420,310 L420,126 L426,120" fill="none" stroke="#78909c" stroke-width="2.4" />
+<circle cx="201.76" cy="225.5" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.8" />
+<circle cx="225.932" cy="225.5" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.8" />
+<circle cx="247.91" cy="225.5" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.8" />
+<circle cx="270.57" cy="225.5" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.8" />
+<circle cx="293.003" cy="225.5" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.8" />
+<circle cx="320.977" cy="225.5" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.8" />
+<circle cx="343.822" cy="225.5" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.8" />
+<circle cx="369.558" cy="225.5" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.8" />
+<circle cx="391.239" cy="225.5" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.8" />
+<circle cx="201.621" cy="249.5" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.8" />
+<circle cx="222.636" cy="249.5" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.8" />
+<circle cx="249.811" cy="249.5" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.8" />
+<circle cx="273.379" cy="249.5" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.8" />
+<circle cx="295.484" cy="249.5" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.8" />
+<circle cx="320.23" cy="249.5" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.8" />
+<circle cx="345.092" cy="249.5" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.8" />
+<circle cx="366.158" cy="249.5" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.8" />
+<circle cx="392.322" cy="249.5" r="9" fill="#90caf9" stroke="#1976d2" stroke-width="1.8" />
+<circle cx="250" cy="60" r="9" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<circle cx="330" cy="40" r="9" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<circle cx="380" cy="90" r="9" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<circle cx="290" cy="100" r="9" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<line x1="300" y1="209.5" x2="300" y2="70" stroke="#f57c00" stroke-width="2.4" stroke-dasharray="5,4" marker-end="url(#jhsciencechem0020mf57c00)"/>
+<text x="500" y="60" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >室温（約20℃）</text>
+<line x1="510" y1="250" x2="418" y2="250" stroke="#555" stroke-width="1.2"/>
+<circle cx="418" cy="250" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="510" y="250" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >水</text>
+<text x="300" y="330" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >液面の粒子が少しずつ空気中へ</text>
+<line x1="140" y1="60" x2="244" y2="60" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="244" cy="60" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="140" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="140" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<rect x="40" y="50" width="520" height="160" rx="10" fill="#1e3a5f" stroke="#0d2238" stroke-width="3" />
+<text x="300" y="110" font-size="64" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold" >서울역</text>
+<text x="300" y="175" font-size="30" text-anchor="middle" dominant-baseline="middle" fill="#cfe3ff" >안녕하세요</text>
+<line x1="575" y1="30" x2="520" y2="90" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="520" cy="90" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="575" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="575" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="250" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" >駅の案内板の例（ソウル駅）と「こんにちは」</text>
+</svg>

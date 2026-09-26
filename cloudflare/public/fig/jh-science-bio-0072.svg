@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<defs><marker id="jhsciencebio0072mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<path d="M150,40 L450,40 L500,330 L100,330 Z" fill="#ffe0b2" stroke="#a1887f" stroke-width="2" />
+<line x1="300" y1="20" x2="300" y2="110" stroke="#ce93d8" stroke-width="12"/>
+<path d="M300,110 L260,130 M300,110 L340,130" fill="none" stroke="#ce93d8" stroke-width="10" />
+<path d="M260,130 C170,110 150,200 170,270 C200,280 240,270 280,250 L280,140 Z" fill="#f8bbd0" stroke="#c2185b" stroke-width="2.4" />
+<path d="M340,130 C430,110 450,200 430,270 C400,280 360,270 320,250 L320,140 Z" fill="#f8bbd0" stroke="#c2185b" stroke-width="2.4" />
+<path d="M130,300 C200,240 400,240 470,300" fill="none" stroke="#f57c00" stroke-width="8" stroke-linecap="round"/>
+<path d="M270,210 C310,200 330,240 300,260 C280,260 260,240 270,210 Z" fill="#ef9a9a" stroke="#c62828" stroke-width="2" />
+<line x1="560" y1="180" x2="434" y2="180" stroke="#555" stroke-width="1.2"/>
+<circle cx="434" cy="180" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="560" y="180" font-size="17" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >肺</text>
+<line x1="560" y1="60" x2="306" y2="70" stroke="#555" stroke-width="1.2"/>
+<circle cx="306" cy="70" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="560" y="60" font-size="16" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >気管</text>
+<line x1="50" y1="150" x2="160" y2="160" stroke="#555" stroke-width="1.2"/>
+<circle cx="160" cy="160" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="50" y="150" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ろっ骨の内側</text>
+<line x1="560" y1="280" x2="560" y2="330" stroke="#f57c00" stroke-width="3" marker-end="url(#jhsciencebio0072mf57c00)"/>
+<text x="590" y="356" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#f57c00" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >息を吸うとき下がる</text>
+<line x1="80" y1="300" x2="150" y2="290" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="150" cy="290" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="80" cy="300" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="80" y="301" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<defs><marker id="jhsciencebio0054m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="jhsciencebio0054m8d6e63" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8d6e63"/></marker><marker id="jhsciencebio0054m1976d2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1976d2"/></marker></defs>
+<rect x="40" y="40" width="140" height="56" rx="6" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<text x="110" y="68" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >植物</text>
+<rect x="230" y="40" width="140" height="56" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="300" y="68" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >草食動物</text>
+<rect x="420" y="40" width="140" height="56" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="490" y="68" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >肉食動物</text>
+<line x1="182" y1="68" x2="226" y2="68" stroke="#37474f" stroke-width="2.4" marker-end="url(#jhsciencebio0054m37474f)"/>
+<line x1="372" y1="68" x2="416" y2="68" stroke="#37474f" stroke-width="2.4" marker-end="url(#jhsciencebio0054m37474f)"/>
+<rect x="150" y="190" width="300" height="70" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="300" y="225" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >土の中の小動物・菌類・細菌類</text>
+<line x1="110" y1="98" x2="170" y2="186" stroke="#8d6e63" stroke-width="2.4" stroke-dasharray="6,4" marker-end="url(#jhsciencebio0054m8d6e63)"/>
+<line x1="300" y1="98" x2="300" y2="186" stroke="#8d6e63" stroke-width="2.4" stroke-dasharray="6,4" marker-end="url(#jhsciencebio0054m8d6e63)"/>
+<line x1="490" y1="98" x2="430" y2="186" stroke="#8d6e63" stroke-width="2.4" stroke-dasharray="6,4" marker-end="url(#jhsciencebio0054m8d6e63)"/>
+<text x="470" y="150" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#8d6e63" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >死がい・ふん</text>
+<line x1="300" y1="262" x2="300" y2="310" stroke="#1976d2" stroke-width="2.4" marker-end="url(#jhsciencebio0054m1976d2)"/>
+<text x="300" y="330" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >二酸化炭素・水・無機物</text>
+<path d="M150,300 Q80,300 90,100" fill="none" stroke="#1976d2" stroke-width="2.4" marker-end="url(#jhsciencebio0054m1976d2)"/>
+<line x1="490" y1="225" x2="450" y2="225" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="450" cy="225" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="490" cy="225" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="490" y="226" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<defs><marker id="jhsocialciv0028m1976d2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1976d2"/></marker><marker id="jhsocialciv0028m388e3c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#388e3c"/></marker><marker id="jhsocialciv0028mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="40" y="130" width="170" height="110" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2.5" />
+<rect x="390" y="130" width="170" height="110" rx="8" fill="#e8f5e9" stroke="#388e3c" stroke-width="2.5" />
+<text x="125" y="173" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >国会</text>
+<text x="125" y="197" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >（衆議院・参議院）</text>
+<text x="475" y="173" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >内閣</text>
+<text x="475" y="197" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >（総理大臣・国務大臣）</text>
+<line x1="215" y1="150" x2="385" y2="150" stroke="#1976d2" stroke-width="2.5" marker-end="url(#jhsocialciv0028m1976d2)"/>
+<text x="300" y="130" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >内閣総理大臣の指名</text>
+<line x1="215" y1="175" x2="385" y2="175" stroke="#1976d2" stroke-width="2.5" marker-end="url(#jhsocialciv0028m1976d2)"/>
+<text x="300" y="196" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >内閣不信任の決議（衆議院）</text>
+<line x1="385" y1="215" x2="215" y2="215" stroke="#388e3c" stroke-width="2.5" marker-end="url(#jhsocialciv0028m388e3c)"/>
+<text x="300" y="236" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >衆議院の解散</text>
+<path d="M475,245 C475,330 125,330 125,245" fill="none" stroke="#f57c00" stroke-width="3" marker-end="url(#jhsocialciv0028mf57c00)"/>
+<text x="300" y="342" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >国会に対して連帯して責任を負う</text>
+<text x="300" y="60" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" >内閣は国会の信任の上に成り立つ</text>
+<circle cx="560" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

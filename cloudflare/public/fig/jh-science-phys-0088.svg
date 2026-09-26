@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<defs><marker id="jhsciencephys0088mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker><marker id="jhsciencephys0088m1976d2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1976d2"/></marker></defs>
+<path d="M150,80 L150,300 Q150,320 170,320 L430,320 Q450,320 450,300 L450,80" fill="#e3f2fd" stroke="#37474f" stroke-width="3" />
+<path d="M250,300 C250,200 250,160 260,110" fill="none" stroke="none" stroke-width="0" />
+<path d="M290,290 L290,120" fill="none" stroke="#f57c00" stroke-width="4" marker-end="url(#jhsciencephys0088mf57c00)"/>
+<path d="M280,110 C200,100 170,110 170,160" fill="none" stroke="#f57c00" stroke-width="4" marker-end="url(#jhsciencephys0088mf57c00)"/>
+<path d="M170,170 L170,270" fill="none" stroke="#1976d2" stroke-width="4" marker-end="url(#jhsciencephys0088m1976d2)"/>
+<path d="M175,290 C200,305 250,305 280,295" fill="none" stroke="#1976d2" stroke-width="4" marker-end="url(#jhsciencephys0088m1976d2)"/>
+<path d="M310,290 L310,120" fill="none" stroke="#f57c00" stroke-width="4" marker-end="url(#jhsciencephys0088mf57c00)"/>
+<path d="M320,110 C400,100 430,110 430,160" fill="none" stroke="#f57c00" stroke-width="4" marker-end="url(#jhsciencephys0088mf57c00)"/>
+<path d="M430,170 L430,270" fill="none" stroke="#1976d2" stroke-width="4" marker-end="url(#jhsciencephys0088m1976d2)"/>
+<path d="M425,290 C400,305 350,305 320,295" fill="none" stroke="#1976d2" stroke-width="4" marker-end="url(#jhsciencephys0088m1976d2)"/>
+<path d="M270,370 C260,340 290,330 300,320 C310,330 340,340 330,370 Z" fill="#ff7043" stroke="#e64a19" stroke-width="2" />
+<line x1="520" y1="120" x2="440" y2="130" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="440" cy="130" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="520" cy="120" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="121" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="520" y="170" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >あたたまった水が</text>
+<text x="520" y="188" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >上へ動く</text>
+</svg>

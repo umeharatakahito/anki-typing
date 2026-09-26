@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<polygon points="40,80 300,20 560,80" fill="#eceff1" stroke="#37474f" stroke-width="2" stroke-linejoin="round" />
+<text x="300" y="62" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >日本の社会保障制度</text>
+<rect x="50" y="90" width="110" height="190" rx="0" fill="#f5f5f5" stroke="#37474f" stroke-width="1.5" />
+<text x="105" y="130" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >社会保険</text>
+<text x="105" y="190" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#37474f" >医療・年金・介護</text>
+<text x="105" y="210" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#37474f" >など</text>
+<rect x="180" y="90" width="110" height="190" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<circle cx="235" cy="130" r="18" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="235" y="131" font-size="23.94" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="235" y="190" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#37474f" >生活保護</text>
+<rect x="310" y="90" width="110" height="190" rx="0" fill="#f5f5f5" stroke="#37474f" stroke-width="1.5" />
+<text x="365" y="130" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >社会福祉</text>
+<text x="365" y="190" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#37474f" >高齢者・障がいの</text>
+<text x="365" y="210" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#37474f" >ある人・子ども</text>
+<rect x="440" y="90" width="110" height="190" rx="0" fill="#f5f5f5" stroke="#37474f" stroke-width="1.5" />
+<text x="495" y="130" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >公衆衛生</text>
+<text x="495" y="190" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#37474f" >感染症の予防</text>
+<text x="495" y="210" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#37474f" >ごみ処理など</text>
+<rect x="30" y="280" width="540" height="16" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="1.5" />
+<text x="300" y="320" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" >憲法第25条（生存権）にもとづく</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<defs><marker id="jhsciencebio0092m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="20" y="110" width="140" height="60" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="90" y="140" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >アミノ酸</text>
+<line x1="162" y1="140" x2="200" y2="140" stroke="#37474f" stroke-width="3" marker-end="url(#jhsciencebio0092m37474f)"/>
+<rect x="204" y="110" width="140" height="60" rx="6" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<text x="274" y="140" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >アンモニア</text>
+<line x1="346" y1="140" x2="384" y2="140" stroke="#37474f" stroke-width="3" marker-end="url(#jhsciencebio0092m37474f)"/>
+<text x="365" y="110" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >肝臓</text>
+<rect x="390" y="110" width="120" height="60" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="450" cy="140" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="450" y="141" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="450" y1="172" x2="450" y2="230" stroke="#37474f" stroke-width="3" marker-end="url(#jhsciencebio0092m37474f)"/>
+<rect x="380" y="232" width="140" height="50" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="450" y="257" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >じん臓へ運ばれる</text>
+<text x="275" y="190" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >有害</text>
+</svg>

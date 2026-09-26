@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<rect x="0" y="0" width="600" height="300" rx="0" fill="#f5fbff" stroke="none" stroke-width="0" />
+<rect x="0" y="300" width="600" height="80" rx="0" fill="#e8f5e9" stroke="none" stroke-width="0" />
+<line x1="20" y1="300" x2="580" y2="300" stroke="#388e3c" stroke-width="2.5"/>
+<line x1="241.259" y1="64.9019" x2="249.259" y2="64.9019" stroke="#f9a825" stroke-width="3"/>
+<line x1="234.522" y1="81.1654" x2="240.179" y2="86.8223" stroke="#f9a825" stroke-width="3"/>
+<line x1="218.259" y1="87.9019" x2="218.259" y2="95.9019" stroke="#f9a825" stroke-width="3"/>
+<line x1="201.995" y1="81.1654" x2="196.338" y2="86.8223" stroke="#f9a825" stroke-width="3"/>
+<line x1="195.259" y1="64.9019" x2="187.259" y2="64.9019" stroke="#f9a825" stroke-width="3"/>
+<line x1="201.995" y1="48.6385" x2="196.338" y2="42.9816" stroke="#f9a825" stroke-width="3"/>
+<line x1="218.259" y1="41.9019" x2="218.259" y2="33.9019" stroke="#f9a825" stroke-width="3"/>
+<line x1="234.522" y1="48.6385" x2="240.179" y2="42.9816" stroke="#f9a825" stroke-width="3"/>
+<circle cx="218.259" cy="64.9019" r="18" fill="#fff59d" stroke="#f9a825" stroke-width="2" />
+<line x1="170" y1="300" x2="214.237" y2="84.4934" stroke="#f9a825" stroke-width="3"/>
+<path d="M240,300 A70,70 0 0 0 184.1,231.4" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<line x1="330" y1="240" x2="230" y2="270" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="230" cy="270" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="330" cy="240" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="330" y="241" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<circle cx="170" cy="300" r="6" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<text x="560" y="325" font-size="18" text-anchor="end" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >南</text>
+<text x="40" y="325" font-size="18" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >北</text>
+<text x="430" y="110" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >北緯35°の地点</text>
+<text x="430" y="135" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >夏至の日の南中</text>
+<text x="430" y="175" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >地軸の傾き 23.4°</text>
+</svg>

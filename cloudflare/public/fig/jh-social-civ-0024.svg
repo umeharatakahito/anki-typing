@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<rect x="20" y="60" width="135" height="200" rx="8" fill="#f5f5f5" stroke="#b0bec5" stroke-width="1.5" />
+<text x="87" y="80" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1区</text>
+<circle cx="50" cy="134.4" r="9.1" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<path d="M37.0,160.4 Q50.0,139.6 63.0,160.4 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<circle cx="88" cy="134.4" r="9.1" fill="#eceff1" stroke="#90a4ae" stroke-width="1.2" />
+<path d="M75.0,160.4 Q88.0,139.6 101.0,160.4 Z" fill="#eceff1" stroke="#90a4ae" stroke-width="1.2" />
+<circle cx="126" cy="134.4" r="9.1" fill="#eceff1" stroke="#90a4ae" stroke-width="1.2" />
+<path d="M113.0,160.4 Q126.0,139.6 139.0,160.4 Z" fill="#eceff1" stroke="#90a4ae" stroke-width="1.2" />
+<text x="87" y="210" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >当選 1人</text>
+<rect x="165" y="60" width="135" height="200" rx="8" fill="#f5f5f5" stroke="#b0bec5" stroke-width="1.5" />
+<text x="232" y="80" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >2区</text>
+<circle cx="195" cy="134.4" r="9.1" fill="#eceff1" stroke="#90a4ae" stroke-width="1.2" />
+<path d="M182.0,160.4 Q195.0,139.6 208.0,160.4 Z" fill="#eceff1" stroke="#90a4ae" stroke-width="1.2" />
+<circle cx="233" cy="134.4" r="9.1" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<path d="M220.0,160.4 Q233.0,139.6 246.0,160.4 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<circle cx="271" cy="134.4" r="9.1" fill="#eceff1" stroke="#90a4ae" stroke-width="1.2" />
+<path d="M258.0,160.4 Q271.0,139.6 284.0,160.4 Z" fill="#eceff1" stroke="#90a4ae" stroke-width="1.2" />
+<text x="232" y="210" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >当選 1人</text>
+<rect x="310" y="60" width="135" height="200" rx="8" fill="#f5f5f5" stroke="#b0bec5" stroke-width="1.5" />
+<text x="377" y="80" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >3区</text>
+<circle cx="340" cy="134.4" r="9.1" fill="#eceff1" stroke="#90a4ae" stroke-width="1.2" />
+<path d="M327.0,160.4 Q340.0,139.6 353.0,160.4 Z" fill="#eceff1" stroke="#90a4ae" stroke-width="1.2" />
+<circle cx="378" cy="134.4" r="9.1" fill="#eceff1" stroke="#90a4ae" stroke-width="1.2" />
+<path d="M365.0,160.4 Q378.0,139.6 391.0,160.4 Z" fill="#eceff1" stroke="#90a4ae" stroke-width="1.2" />
+<circle cx="416" cy="134.4" r="9.1" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<path d="M403.0,160.4 Q416.0,139.6 429.0,160.4 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<text x="377" y="210" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >当選 1人</text>
+<rect x="455" y="60" width="135" height="200" rx="8" fill="#f5f5f5" stroke="#b0bec5" stroke-width="1.5" />
+<text x="522" y="80" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >4区</text>
+<circle cx="485" cy="134.4" r="9.1" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<path d="M472.0,160.4 Q485.0,139.6 498.0,160.4 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" />
+<circle cx="523" cy="134.4" r="9.1" fill="#eceff1" stroke="#90a4ae" stroke-width="1.2" />
+<path d="M510.0,160.4 Q523.0,139.6 536.0,160.4 Z" fill="#eceff1" stroke="#90a4ae" stroke-width="1.2" />
+<circle cx="561" cy="134.4" r="9.1" fill="#eceff1" stroke="#90a4ae" stroke-width="1.2" />
+<path d="M548.0,160.4 Q561.0,139.6 574.0,160.4 Z" fill="#eceff1" stroke="#90a4ae" stroke-width="1.2" />
+<text x="522" y="210" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >当選 1人</text>
+<circle cx="300" cy="300" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="301" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" >一つの選挙区から</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" font-family="sans-serif">
+<rect width="600" height="420" fill="#fff"/>
+<path d="M40,90 C120,40 260,50 330,70 C420,95 520,60 570,110 C590,190 560,300 470,360 C380,400 250,390 160,360 C70,330 20,250 30,170 Z" fill="#f1f8e9" stroke="#7cb342" stroke-width="2" />
+<polygon points="250,207 253.439,215.267 262.364,215.983 255.564,221.808 257.641,230.517 250,225.85 242.359,230.517 244.436,221.808 237.636,215.983 246.561,215.267" fill="#d32f2f" stroke="#d32f2f" stroke-width="1" stroke-linejoin="round" />
+<text x="250" y="248" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >震央</text>
+<circle cx="210" cy="170" r="17" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="210" y="171" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >5強</text>
+<circle cx="310" cy="190" r="17" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="310" y="191" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >5弱</text>
+<circle cx="290" cy="270" r="17" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="290" y="271" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >5弱</text>
+<circle cx="190" cy="275" r="17" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="190" y="276" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >4</text>
+<circle cx="380" cy="150" r="17" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="380" y="151" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >4</text>
+<circle cx="140" cy="150" r="17" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="140" y="151" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >4</text>
+<circle cx="400" cy="280" r="17" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="400" y="281" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >3</text>
+<circle cx="460" cy="190" r="17" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="460" y="191" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >3</text>
+<circle cx="110" cy="250" r="17" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="110" y="251" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >3</text>
+<circle cx="500" cy="300" r="17" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="500" y="301" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >2</text>
+<circle cx="520" cy="130" r="17" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="520" y="131" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >2</text>
+<circle cx="80" cy="120" r="17" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="80" y="121" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >2</text>
+<circle cx="330" cy="340" r="17" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="330" y="341" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >3</text>
+<line x1="470" y1="70" x2="392" y2="138" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="392" cy="138" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="470" cy="70" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="470" y="71" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="400" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >各地の観測地点でのゆれの大きさ（数字）</text>
+</svg>

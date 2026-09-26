@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450" font-family="sans-serif">
+<rect width="600" height="450" fill="#fff"/>
+<path d="M260,40 L260,140 C170,170 170,300 300,300 C430,300 430,170 340,140 L340,40" fill="#f1f8fe" stroke="#78909c" stroke-width="2.4" />
+<path d="M190,220 C200,280 240,298 300,298 C360,298 400,280 410,220 Z" fill="#bbdefb" stroke="none" stroke-width="0" />
+<polygon points="262,285 267,278 276,279 278,288 270,291" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" stroke-linejoin="round" />
+<polygon points="292,290 297,283 306,284 308,293 300,296" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" stroke-linejoin="round" />
+<polygon points="322,284 327,277 336,278 338,287 330,290" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" stroke-linejoin="round" />
+<polygon points="280,278 285,271 294,272 296,281 288,284" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" stroke-linejoin="round" />
+<circle cx="265" cy="250" r="4" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<circle cx="310" cy="240" r="4" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<circle cx="340" cy="260" r="4" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<rect x="150" y="300" width="300" height="8" rx="0" fill="#90a4ae" stroke="#37474f" stroke-width="1.5" />
+<path d="M180,308 L160,440 M420,308 L440,440" fill="none" stroke="#37474f" stroke-width="3" />
+<rect x="292.8" y="360" width="14.4" height="56" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<rect x="272.8" y="416" width="54.4" height="11.2" rx="3" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<path d="M292.0,360 C288.8,340.8 298.4,328.0 300,315.2 C301.6,328.0 311.2,340.8 308.0,360 Z" fill="#90caf9" stroke="#1e88e5" stroke-width="1.6" />
+<path d="M296.0,360 C295.2,350.4 300,342.4 300,337.6 C300,342.4 304.8,350.4 304.0,360 Z" fill="#e3f2fd" stroke="#1e88e5" stroke-width="1" />
+<line x1="500" y1="200" x2="400" y2="240" stroke="#555" stroke-width="1.2"/>
+<circle cx="400" cy="240" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="500" y="200" font-size="16" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >液体</text>
+<text x="300" y="20" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >液体を加熱するとき</text>
+<line x1="100" y1="260" x2="268" y2="282" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="268" cy="282" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="100" cy="260" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="100" y="261" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

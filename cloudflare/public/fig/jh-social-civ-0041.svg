@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<rect x="0" y="0" width="600" height="360" rx="0" fill="#f5fbff" stroke="none" stroke-width="0" />
+<circle cx="80" cy="60" r="35" fill="#ffe082" stroke="#f9a825" stroke-width="2" />
+<rect x="0" y="310" width="600" height="50" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="0" />
+<rect x="200" y="60" width="140" height="250" rx="0" fill="#b0bec5" stroke="#37474f" stroke-width="2" />
+<rect x="212" y="72" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="244" y="72" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="276" y="72" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="308" y="72" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="212" y="101" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="244" y="101" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="276" y="101" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="308" y="101" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="212" y="130" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="244" y="130" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="276" y="130" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="308" y="130" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="212" y="159" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="244" y="159" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="276" y="159" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="308" y="159" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="212" y="188" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="244" y="188" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="276" y="188" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="308" y="188" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="212" y="217" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="244" y="217" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="276" y="217" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="308" y="217" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="212" y="246" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="244" y="246" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="276" y="246" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="308" y="246" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="212" y="275" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="244" y="275" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="276" y="275" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<rect x="308" y="275" width="20" height="16" rx="0" fill="#eceff1" stroke="#78909c" stroke-width="1" />
+<polygon points="340,310 340,150 600,310" fill="#455a64" stroke="none" stroke-width="0" stroke-linejoin="round" opacity="0.25"/>
+<polygon points="420,310 420,260 460,230 500,260 500,310" fill="#fff" stroke="#37474f" stroke-width="2" stroke-linejoin="round" />
+<text x="460" y="330" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >家</text>
+<text x="270" y="330" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >高い建物</text>
+<text x="470" y="210" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#37474f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >日かげ</text>
+<line x1="560" y1="70" x2="470" y2="250" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="470" cy="250" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="560" cy="70" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="71" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="560" y="110" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >日当たり・静かさ</text>
+</svg>

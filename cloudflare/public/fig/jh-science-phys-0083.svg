@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<rect x="30" y="110" width="130" height="80" rx="8" fill="#fff9c4" stroke="#f9a825" stroke-width="2.5" />
+<text x="95" y="150" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >電気</text>
+<text x="95" y="172" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >エネルギー</text>
+<text x="95" y="130" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >100</text>
+<path d="M160,120 C260,120 280,60 380,60 L380,100 C300,100 280,150 160,150 Z" fill="#fff59d" stroke="#f9a825" stroke-width="1.5" />
+<path d="M160,150 C260,150 280,220 380,220 L380,260 C280,260 250,190 160,190 Z" fill="#ffccbc" stroke="#e64a19" stroke-width="1.5" />
+<rect x="390" y="50" width="120" height="50" rx="6" fill="#fff59d" stroke="#f9a825" stroke-width="2" />
+<text x="450" y="75" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >光 20</text>
+<rect x="390" y="210" width="120" height="60" rx="6" fill="#ffccbc" stroke="#e64a19" stroke-width="2" />
+<text x="450" y="240" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >熱など 80</text>
+<text x="300" y="20" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >電球</text>
+<text x="560" y="160" font-size="16" text-anchor="end" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >合計 100</text>
+<line x1="560" y1="200" x2="560" y2="175" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="560" cy="175" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="560" cy="200" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="201" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="305" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ほかの種類に移り変わっても総量は？</text>
+</svg>

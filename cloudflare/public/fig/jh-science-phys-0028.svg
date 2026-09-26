@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="jhsciencephys0028md32f2f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d32f2f"/></marker><marker id="jhsciencephys0028mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="90" y="220" width="120" height="70" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<line x1="150" y1="220" x2="470" y2="110" stroke="#d32f2f" stroke-width="5" marker-end="url(#jhsciencephys0028md32f2f)"/>
+<circle cx="150" cy="220" r="8" fill="#d32f2f" stroke="#d32f2f" stroke-width="2.5" />
+<line x1="140.248" y1="191.629" x2="460.248" y2="81.6294" stroke="#f57c00" stroke-width="3" marker-end="url(#jhsciencephys0028mf57c00)" marker-start="url(#jhsciencephys0028mf57c00)"/>
+<line x1="290.495" y1="108.259" x2="300.248" y2="136.629" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="300.248" cy="136.629" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="290.495" cy="108.259" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="290.495" y="109.259" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="80" y1="60" x2="150" y2="220" stroke="#555" stroke-width="1.2"/>
+<circle cx="150" cy="220" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="80" y="60" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >作用点</text>
+<line x1="560" y1="60" x2="470" y2="110" stroke="#555" stroke-width="1.2"/>
+<circle cx="470" cy="110" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="560" y="60" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >向き</text>
+</svg>

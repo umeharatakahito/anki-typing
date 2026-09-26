@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="jhsciencechem0026mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="62" y="160" width="176" height="138" rx="0" fill="#ffe0b2" stroke="none" stroke-width="0" />
+<path d="M54,100 L60,106 L60,300 L240,300 L240,106 L246,100" fill="none" stroke="#78909c" stroke-width="2.4" />
+<text x="150" y="70" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >60℃の水溶液</text>
+<line x1="270" y1="200" x2="330" y2="200" stroke="#f57c00" stroke-width="4" marker-end="url(#jhsciencechem0026mf57c00)"/>
+<text x="300" y="170" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >冷やす</text>
+<rect x="362" y="160" width="176" height="138" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" />
+<path d="M354,100 L360,106 L360,300 L540,300 L540,106 L546,100" fill="none" stroke="#78909c" stroke-width="2.4" />
+<polygon points="380,296 387,282 394,296" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" stroke-linejoin="round" />
+<polygon points="397,296 404,277 411,296" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" stroke-linejoin="round" />
+<polygon points="414,296 421,272 428,296" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" stroke-linejoin="round" />
+<polygon points="431,296 438,282 445,296" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" stroke-linejoin="round" />
+<polygon points="448,296 455,277 462,296" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" stroke-linejoin="round" />
+<polygon points="465,296 472,272 479,296" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" stroke-linejoin="round" />
+<polygon points="482,296 489,282 496,296" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" stroke-linejoin="round" />
+<polygon points="499,296 506,277 513,296" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" stroke-linejoin="round" />
+<polygon points="516,296 523,272 530,296" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" stroke-linejoin="round" />
+<rect x="420" y="200" width="12" height="12" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<rect x="480" y="230" width="12" height="12" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<rect x="450" y="180" width="12" height="12" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<text x="450" y="70" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >20℃</text>
+<line x1="560" y1="240" x2="530" y2="280" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="530" cy="280" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="560" cy="240" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="241" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

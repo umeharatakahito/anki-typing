@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 310" width="600" height="310" font-family="sans-serif">
+<rect width="600" height="310" fill="#fff"/>
+<rect x="20" y="40" width="560" height="250" rx="30" fill="#fff3e0" stroke="#e57373" stroke-width="3" />
+<text x="300" y="20" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >血液をうすくのばして見たようす</text>
+<ellipse cx="70" cy="90" rx="26" ry="24" fill="#ef9a9a" stroke="#c62828" stroke-width="2" />
+<ellipse cx="70" cy="90" rx="11" ry="10" fill="#fff" stroke="none" stroke-width="0" opacity="0.7"/>
+<ellipse cx="140" cy="150" rx="26" ry="24" fill="#ef9a9a" stroke="#c62828" stroke-width="2" />
+<ellipse cx="140" cy="150" rx="11" ry="10" fill="#fff" stroke="none" stroke-width="0" opacity="0.7"/>
+<ellipse cx="90" cy="230" rx="26" ry="24" fill="#ef9a9a" stroke="#c62828" stroke-width="2" />
+<ellipse cx="90" cy="230" rx="11" ry="10" fill="#fff" stroke="none" stroke-width="0" opacity="0.7"/>
+<ellipse cx="220" cy="90" rx="26" ry="24" fill="#ef9a9a" stroke="#c62828" stroke-width="2" />
+<ellipse cx="220" cy="90" rx="11" ry="10" fill="#fff" stroke="none" stroke-width="0" opacity="0.7"/>
+<ellipse cx="250" cy="200" rx="26" ry="24" fill="#ef9a9a" stroke="#c62828" stroke-width="2" />
+<ellipse cx="250" cy="200" rx="11" ry="10" fill="#fff" stroke="none" stroke-width="0" opacity="0.7"/>
+<ellipse cx="330" cy="250" rx="26" ry="24" fill="#ef9a9a" stroke="#c62828" stroke-width="2" />
+<ellipse cx="330" cy="250" rx="11" ry="10" fill="#fff" stroke="none" stroke-width="0" opacity="0.7"/>
+<ellipse cx="380" cy="110" rx="26" ry="24" fill="#ef9a9a" stroke="#c62828" stroke-width="2" />
+<ellipse cx="380" cy="110" rx="11" ry="10" fill="#fff" stroke="none" stroke-width="0" opacity="0.7"/>
+<ellipse cx="460" cy="180" rx="26" ry="24" fill="#ef9a9a" stroke="#c62828" stroke-width="2" />
+<ellipse cx="460" cy="180" rx="11" ry="10" fill="#fff" stroke="none" stroke-width="0" opacity="0.7"/>
+<ellipse cx="520" cy="90" rx="26" ry="24" fill="#ef9a9a" stroke="#c62828" stroke-width="2" />
+<ellipse cx="520" cy="90" rx="11" ry="10" fill="#fff" stroke="none" stroke-width="0" opacity="0.7"/>
+<ellipse cx="530" cy="250" rx="26" ry="24" fill="#ef9a9a" stroke="#c62828" stroke-width="2" />
+<ellipse cx="530" cy="250" rx="11" ry="10" fill="#fff" stroke="none" stroke-width="0" opacity="0.7"/>
+<ellipse cx="170" cy="250" rx="26" ry="24" fill="#ef9a9a" stroke="#c62828" stroke-width="2" />
+<ellipse cx="170" cy="250" rx="11" ry="10" fill="#fff" stroke="none" stroke-width="0" opacity="0.7"/>
+<ellipse cx="300" cy="140" rx="26" ry="24" fill="#ef9a9a" stroke="#c62828" stroke-width="2" />
+<ellipse cx="300" cy="140" rx="11" ry="10" fill="#fff" stroke="none" stroke-width="0" opacity="0.7"/>
+<ellipse cx="430" cy="260" rx="26" ry="24" fill="#ef9a9a" stroke="#c62828" stroke-width="2" />
+<ellipse cx="430" cy="260" rx="11" ry="10" fill="#fff" stroke="none" stroke-width="0" opacity="0.7"/>
+<path d="M170,175 C168,149 194,141 210,147 C234,153 234,183 226,195 C214,211 180,207 170,175 Z" fill="#e8eaf6" stroke="#5c6bc0" stroke-width="2.2" />
+<path d="M186,169 q8,-12 16,-2 q8,8 14,-2" fill="none" stroke="#7b1fa2" stroke-width="6" stroke-linecap="round"/>
+<path d="M440,90 C438,64 464,56 480,62 C504,68 504,98 496,110 C484,126 450,122 440,90 Z" fill="#e8eaf6" stroke="#5c6bc0" stroke-width="2.2" />
+<path d="M456,84 q8,-12 16,-2 q8,8 14,-2" fill="none" stroke="#7b1fa2" stroke-width="6" stroke-linecap="round"/>
+<polygon points="303,202 309,197 317,201 315,210 306,211" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" stroke-linejoin="round" />
+<polygon points="323,77 329,72 337,76 335,85 326,86" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" stroke-linejoin="round" />
+<polygon points="393,212 399,207 407,211 405,220 396,221" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" stroke-linejoin="round" />
+<polygon points="103,187 109,182 117,186 115,195 106,196" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" stroke-linejoin="round" />
+<polygon points="523,157 529,152 537,156 535,165 526,166" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" stroke-linejoin="round" />
+<polygon points="53,147 59,142 67,146 65,155 56,156" fill="#ffcc80" stroke="#f57c00" stroke-width="1.6" stroke-linejoin="round" />
+<line x1="200" y1="300" x2="200" y2="200" stroke="#555" stroke-width="1.2"/>
+<circle cx="200" cy="200" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="200" y="300" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >白血球</text>
+<line x1="470" y1="300" x2="460" y2="200" stroke="#555" stroke-width="1.2"/>
+<circle cx="460" cy="200" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="470" y="300" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >赤血球</text>
+<line x1="560" y1="30" x2="330" y2="80" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="330" cy="80" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="560" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

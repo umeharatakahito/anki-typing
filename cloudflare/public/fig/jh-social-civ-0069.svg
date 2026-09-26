@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<path d="M200,200 L200.0,60.0 A140,140 0 0 1 251.5,330.2 Z" fill="#90caf9" stroke="#fff" stroke-width="2" />
+<text x="285.263" y="183.735" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >地方税</text>
+<path d="M200,200 L251.5,330.2 A140,140 0 0 1 97.9,295.8 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<circle cx="181.065" cy="284.71" r="16" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="181.065" y="285.71" font-size="21.28" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<path d="M200,200 L97.9,295.8 A140,140 0 0 1 64.4,165.2 Z" fill="#c8e6c9" stroke="#fff" stroke-width="2" />
+<text x="115.927" y="221.586" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >国庫支出金</text>
+<path d="M200,200 L64.4,165.2 A140,140 0 0 1 117.7,86.7 Z" fill="#e1bee7" stroke="#fff" stroke-width="2" />
+<text x="128.209" y="151.211" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >地方債</text>
+<path d="M200,200 L117.7,86.7 A140,140 0 0 1 200.0,60.0 Z" fill="#eceff1" stroke="#fff" stroke-width="2" />
+<text x="173.177" y="117.448" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >その他</text>
+<text x="200" y="28" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" >地方財政の収入（おおよその割合）</text>
+<rect x="380" y="150" width="200" height="110" rx="6" fill="#fff" stroke="#f57c00" stroke-width="2" />
+<text x="480" y="179.8" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >国から配られる</text>
+<text x="480" y="196.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >使いみちは自由</text>
+<text x="480" y="213.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >地域の格差を</text>
+<text x="480" y="230.2" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >おさえる</text>
+</svg>

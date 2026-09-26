@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<rect x="0" y="0" width="600" height="190" rx="0" fill="#f5fbff" stroke="none" stroke-width="0" />
+<rect x="0" y="190" width="600" height="190" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" />
+<line x1="0" y1="190" x2="600" y2="190" stroke="#1976d2" stroke-width="2.5"/>
+<line x1="300" y1="30" x2="300" y2="360" stroke="#9e9e9e" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="40" y="170" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >空気</text>
+<text x="40" y="215" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >水</text>
+<line x1="96.2101" y1="19" x2="300" y2="190" stroke="#e53935" stroke-width="2.5"/>
+<polygon points="206.257,111.34 200.476,98.0045 192.12,107.963" fill="#e53935" stroke="#e53935" stroke-width="1" stroke-linejoin="round" />
+<line x1="300" y1="190" x2="410.399" y2="360" stroke="#e53935" stroke-width="2.5"/>
+<polygon points="359.616,281.8 357.987,267.357 347.084,274.437" fill="#e53935" stroke="#e53935" stroke-width="1" stroke-linejoin="round" />
+<line x1="300" y1="190" x2="502.598" y2="360" stroke="#bdbdbd" stroke-width="1.5" stroke-dasharray="4 4"/>
+<circle cx="300" cy="190" r="9" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<line x1="470" y1="110" x2="306" y2="185" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="306" cy="185" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="470" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="470" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="470" y="150" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >境界面で折れ曲がる</text>
+</svg>

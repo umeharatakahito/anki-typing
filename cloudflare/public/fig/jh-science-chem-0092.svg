@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" width="600" height="260" font-family="sans-serif">
+<rect width="600" height="260" fill="#fff"/>
+<rect x="30" y="100" width="36" height="50" rx="0" fill="#d32f2f" stroke="none" stroke-width="0" />
+<text x="48" y="170" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0</text>
+<rect x="66" y="100" width="36" height="50" rx="0" fill="#e53935" stroke="none" stroke-width="0" />
+<text x="84" y="170" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1</text>
+<rect x="102" y="100" width="36" height="50" rx="0" fill="#f4511e" stroke="none" stroke-width="0" />
+<text x="120" y="170" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2</text>
+<rect x="138" y="100" width="36" height="50" rx="0" fill="#fb8c00" stroke="none" stroke-width="0" />
+<text x="156" y="170" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >3</text>
+<rect x="174" y="100" width="36" height="50" rx="0" fill="#fdd835" stroke="none" stroke-width="0" />
+<text x="192" y="170" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >4</text>
+<rect x="210" y="100" width="36" height="50" rx="0" fill="#c0ca33" stroke="none" stroke-width="0" />
+<text x="228" y="170" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >5</text>
+<rect x="246" y="100" width="36" height="50" rx="0" fill="#7cb342" stroke="none" stroke-width="0" />
+<text x="264" y="170" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >6</text>
+<rect x="282" y="100" width="36" height="50" rx="0" fill="#43a047" stroke="none" stroke-width="0" />
+<text x="300" y="170" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >7</text>
+<rect x="318" y="100" width="36" height="50" rx="0" fill="#00897b" stroke="none" stroke-width="0" />
+<text x="336" y="170" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >8</text>
+<rect x="354" y="100" width="36" height="50" rx="0" fill="#00acc1" stroke="none" stroke-width="0" />
+<text x="372" y="170" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >9</text>
+<rect x="390" y="100" width="36" height="50" rx="0" fill="#1e88e5" stroke="none" stroke-width="0" />
+<text x="408" y="170" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >10</text>
+<rect x="426" y="100" width="36" height="50" rx="0" fill="#3949ab" stroke="none" stroke-width="0" />
+<text x="444" y="170" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >11</text>
+<rect x="462" y="100" width="36" height="50" rx="0" fill="#5e35b1" stroke="none" stroke-width="0" />
+<text x="480" y="170" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >12</text>
+<rect x="498" y="100" width="36" height="50" rx="0" fill="#6a1b9a" stroke="none" stroke-width="0" />
+<text x="516" y="170" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >13</text>
+<rect x="534" y="100" width="36" height="50" rx="0" fill="#4a148c" stroke="none" stroke-width="0" />
+<text x="552" y="170" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >14</text>
+<rect x="30" y="100" width="540" height="50" rx="0" fill="none" stroke="#37474f" stroke-width="2" />
+<text x="120" y="200" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >← 酸性が強い</text>
+<text x="300" y="200" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >中性</text>
+<line x1="300" y1="150" x2="300" y2="186" stroke="#37474f" stroke-width="1.4"/>
+<text x="480" y="200" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >アルカリ性が強い →</text>
+<line x1="300" y1="50" x2="300" y2="96" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="300" cy="96" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="300" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="51" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

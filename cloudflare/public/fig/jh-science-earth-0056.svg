@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<path d="M120,330 C100,280 130,230 200,220 C280,205 360,215 420,240 C470,260 480,310 460,330 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<defs><pattern id="jhscienceearth0056lim" width="24" height="16" patternUnits="userSpaceOnUse"><path d="M0,8 H24 M8,0 V8 M20,8 V16" stroke="#80cbc4" stroke-width="1.2"/></pattern></defs>
+<path d="M120,330 C100,280 130,230 200,220 C280,205 360,215 420,240 C470,260 480,310 460,330 Z" fill="url(#jhscienceearth0056lim)" stroke="none" stroke-width="0" />
+<rect x="283" y="40" width="24" height="80" rx="4" fill="#e3f2fd" stroke="#37474f" stroke-width="2" />
+<ellipse cx="295" cy="40" rx="16" ry="12" fill="#90a4ae" stroke="#37474f" stroke-width="2" />
+<path d="M290,120 L300,120 L297,150 L293,150 Z" fill="#e3f2fd" stroke="#37474f" stroke-width="1.5" />
+<circle cx="295" cy="175" r="5" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<circle cx="270" cy="205" r="6" fill="#fff" stroke="#78909c" stroke-width="1.5" />
+<circle cx="300" cy="195" r="5" fill="#fff" stroke="#78909c" stroke-width="1.5" />
+<circle cx="320" cy="206" r="7" fill="#fff" stroke="#78909c" stroke-width="1.5" />
+<circle cx="285" cy="185" r="4" fill="#fff" stroke="#78909c" stroke-width="1.5" />
+<circle cx="330" cy="188" r="4" fill="#fff" stroke="#78909c" stroke-width="1.5" />
+<circle cx="310" cy="175" r="3" fill="#fff" stroke="#78909c" stroke-width="1.5" />
+<line x1="470" y1="80" x2="307" y2="80" stroke="#555" stroke-width="1.2"/>
+<circle cx="307" cy="80" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="470" y="80" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >うすい塩酸</text>
+<line x1="480" y1="175" x2="332" y2="190" stroke="#555" stroke-width="1.2"/>
+<circle cx="332" cy="190" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="480" y="175" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >二酸化炭素のあわ</text>
+<line x1="90" y1="200" x2="150" y2="260" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="150" cy="260" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="90" cy="200" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="90" y="201" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

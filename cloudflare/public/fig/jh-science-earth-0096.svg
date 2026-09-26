@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<defs><marker id="jhscienceearth0096m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<defs><pattern id="jhscienceearth0096grv" width="24" height="20" patternUnits="userSpaceOnUse"><rect width="24" height="20" fill="#ffe0b2"/><ellipse cx="6" cy="6" rx="5" ry="4" fill="#fff" stroke="#8d6e63" stroke-width="1.2"/><ellipse cx="17" cy="15" rx="5.5" ry="3.8" fill="#fff" stroke="#8d6e63" stroke-width="1.2"/></pattern></defs>
+<defs><pattern id="jhscienceearth0096snd" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#fff9c4"/><circle cx="3" cy="3" r="1.3" fill="#a1887f"/><circle cx="9" cy="8" r="1.3" fill="#a1887f"/></pattern></defs>
+<defs><pattern id="jhscienceearth0096mud" width="16" height="8" patternUnits="userSpaceOnUse"><rect width="16" height="8" fill="#d7ccc8"/><line x1="2" y1="4" x2="12" y2="4" stroke="#8d6e63" stroke-width="1"/></pattern></defs>
+<rect x="160" y="40" width="150" height="100" rx="0" fill="url(#jhscienceearth0096mud)" stroke="#6d4c41" stroke-width="1.5" />
+<rect x="160" y="140" width="150" height="100" rx="0" fill="url(#jhscienceearth0096snd)" stroke="#6d4c41" stroke-width="1.5" />
+<rect x="160" y="240" width="150" height="100" rx="0" fill="url(#jhscienceearth0096grv)" stroke="#6d4c41" stroke-width="1.5" />
+<line x1="60" y1="90" x2="160" y2="90" stroke="#555" stroke-width="1.2"/>
+<circle cx="160" cy="90" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="60" y="90" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >泥</text>
+<line x1="60" y1="190" x2="160" y2="190" stroke="#555" stroke-width="1.2"/>
+<circle cx="160" cy="190" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="60" y="190" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >砂</text>
+<line x1="60" y1="290" x2="160" y2="290" stroke="#555" stroke-width="1.2"/>
+<circle cx="160" cy="290" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="60" y="290" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >れき</text>
+<path d="M340,330 L340,50" fill="none" stroke="#37474f" stroke-width="3" marker-end="url(#jhscienceearth0096m37474f)"/>
+<text x="380" y="320" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >古い</text>
+<text x="380" y="60" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >新しい</text>
+<circle cx="490" cy="190" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="490" y="191" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="490" y="230" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >当時の海の</text>
+<text x="490" y="250" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >深さの変化</text>
+<text x="235" y="370" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（下ほど古い）</text>
+</svg>

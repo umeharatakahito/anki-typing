@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" font-family="sans-serif">
+<rect width="600" height="420" fill="#fff"/>
+<circle cx="300" cy="210" r="180" fill="#e3f2fd" stroke="#1976d2" stroke-width="2.5" />
+<ellipse cx="300" cy="365.885" rx="90" ry="16.2" fill="none" stroke="#90a4ae" stroke-width="1.2" />
+<ellipse cx="300" cy="300" rx="155.885" ry="28.0592" fill="none" stroke="#90a4ae" stroke-width="1.2" />
+<ellipse cx="300" cy="210" rx="180" ry="32.4" fill="none" stroke="#90a4ae" stroke-width="1.2" />
+<ellipse cx="300" cy="120" rx="155.885" ry="28.0592" fill="none" stroke="#90a4ae" stroke-width="1.2" />
+<ellipse cx="300" cy="54.1154" rx="90" ry="16.2" fill="none" stroke="#90a4ae" stroke-width="1.2" />
+<path d="M300,30 A155.9,180 0 0 0 300,390" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M300,30 A90.0,180 0 0 0 300,390" fill="none" stroke="#f57c00" stroke-width="3" />
+<line x1="300" y1="30" x2="300" y2="390" stroke="#f57c00" stroke-width="3"/>
+<path d="M300,30 A90.0,180 0 0 1 300,390" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M300,30 A155.9,180 0 0 1 300,390" fill="none" stroke="#f57c00" stroke-width="3" />
+<circle cx="300" cy="30" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<text x="300" y="14" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >北極</text>
+<circle cx="300" cy="390" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<text x="300" y="406" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >南極</text>
+<line x1="560" y1="120" x2="428" y2="150" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="428" cy="150" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="560" cy="120" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="121" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="530" y1="330" x2="420" y2="303" stroke="#555" stroke-width="1.2"/>
+<circle cx="420" cy="303" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="530" y="330" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >緯線</text>
+</svg>

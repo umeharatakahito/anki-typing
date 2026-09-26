@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<rect x="60" y="90" width="120" height="180" rx="10" fill="#bcaaa4" stroke="#37474f" stroke-width="2" />
+<rect x="80" y="130" width="80" height="20" rx="6" fill="#ff7043" stroke="#e64a19" stroke-width="1.5" />
+<rect x="80" y="170" width="80" height="20" rx="6" fill="#ff7043" stroke="#e64a19" stroke-width="1.5" />
+<rect x="80" y="210" width="80" height="20" rx="6" fill="#ff7043" stroke="#e64a19" stroke-width="1.5" />
+<text x="120" y="295" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ストーブ</text>
+<path d="M190,120 Q205,108 220,120 Q235,132 250,120 Q265,108 280,120 Q295,132 310,120 Q325,108 340,120 Q355,132 370,120 Q385,108 400,120 Q415,132 430,120" fill="none" stroke="#f57c00" stroke-width="3" />
+<polygon points="440,120 426,113 426,127" fill="#f57c00" stroke="#f57c00" stroke-width="1" stroke-linejoin="round" />
+<path d="M190,170 Q205,158 220,170 Q235,182 250,170 Q265,158 280,170 Q295,182 310,170 Q325,158 340,170 Q355,182 370,170 Q385,158 400,170 Q415,182 430,170" fill="none" stroke="#f57c00" stroke-width="3" />
+<polygon points="440,170 426,163 426,177" fill="#f57c00" stroke="#f57c00" stroke-width="1" stroke-linejoin="round" />
+<path d="M190,220 Q205,208 220,220 Q235,232 250,220 Q265,208 280,220 Q295,232 310,220 Q325,208 340,220 Q355,232 370,220 Q385,208 400,220 Q415,232 430,220" fill="none" stroke="#f57c00" stroke-width="3" />
+<polygon points="440,220 426,213 426,227" fill="#f57c00" stroke="#f57c00" stroke-width="1" stroke-linejoin="round" />
+<circle cx="500" cy="110" r="22" fill="#ffe0b2" stroke="#37474f" stroke-width="2" />
+<line x1="500" y1="132" x2="500" y2="220" stroke="#37474f" stroke-width="5"/>
+<line x1="500" y1="220" x2="480" y2="280" stroke="#37474f" stroke-width="5"/>
+<line x1="500" y1="220" x2="520" y2="280" stroke="#37474f" stroke-width="5"/>
+<line x1="500" y1="160" x2="470" y2="190" stroke="#37474f" stroke-width="5"/>
+<line x1="300" y1="40" x2="300" y2="110" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="300" cy="110" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="300" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="320" y="290" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >空気を介さず直接伝わる</text>
+</svg>

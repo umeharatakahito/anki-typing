@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<rect x="110" y="20" width="120" height="12" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<polyline points="170,32 182,40 158,57 182,74 158,91 182,108 158,125 182,142 158,159 182,176 158,193 170,215" fill="none" stroke="#37474f" stroke-width="2.5" stroke-linejoin="round" />
+<rect x="140" y="215" width="60" height="50" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="170" y="240" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >物体</text>
+<text x="170" y="330" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >地球上</text>
+<rect x="370" y="20" width="120" height="12" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<polyline points="430,32 442,40 418,46 442,52 418,58 442,64 418,70 442,76 418,82 442,88 418,94 430,105" fill="none" stroke="#37474f" stroke-width="2.5" stroke-linejoin="round" />
+<rect x="400" y="105" width="60" height="50" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="430" y="130" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >物体</text>
+<text x="430" y="330" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >月面上</text>
+<text x="300" y="300" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >約6分の1</text>
+<circle cx="300" cy="150" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="151" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="300" y1="150" x2="200" y2="240" stroke="#f57c00" stroke-width="2"/>
+<line x1="300" y1="150" x2="400" y2="130" stroke="#f57c00" stroke-width="2"/>
+<text x="560" y="90" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ばねばかり</text>
+</svg>

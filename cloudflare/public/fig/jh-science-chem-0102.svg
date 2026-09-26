@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<rect x="30" y="70" width="250" height="150" rx="12" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<rect x="320" y="70" width="250" height="150" rx="12" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<circle cx="155" cy="140" r="22" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<text x="155" y="140" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" >＋</text>
+<circle cx="215" cy="140" r="0" fill="none" stroke="none" stroke-width="0" />
+<circle cx="430" cy="140" r="22" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<text x="430" y="140" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" >＋</text>
+<circle cx="460" cy="140" r="20" fill="#e0e0e0" stroke="#37474f" stroke-width="2" />
+<circle cx="516" cy="140" r="0" fill="none" stroke="none" stroke-width="0" />
+<text x="155" y="250" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >陽子1・中性子0</text>
+<text x="445" y="250" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >陽子1・中性子1</text>
+<text x="300" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >どちらも水素（原子核のようす）</text>
+<circle cx="430" cy="140" r="0" fill="none" stroke="none" stroke-width="0" />
+<circle cx="300" cy="145" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="146" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

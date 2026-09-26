@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<rect x="30" y="50" width="260" height="200" rx="8" fill="#f5f5f5" stroke="#b0bec5" stroke-width="1.5" />
+<text x="160" y="72" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >A選挙区</text>
+<circle cx="60" cy="113.2" r="9.8" fill="#cfd8dc" stroke="#78909c" stroke-width="1.2" />
+<path d="M46.0,141.2 Q60.0,118.8 74.0,141.2 Z" fill="#cfd8dc" stroke="#78909c" stroke-width="1.2" />
+<circle cx="108" cy="113.2" r="9.8" fill="#cfd8dc" stroke="#78909c" stroke-width="1.2" />
+<path d="M94.0,141.2 Q108.0,118.8 122.0,141.2 Z" fill="#cfd8dc" stroke="#78909c" stroke-width="1.2" />
+<text x="160" y="175" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >有権者 20万人</text>
+<text x="160" y="215" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >議員 1人</text>
+<rect x="320" y="50" width="260" height="200" rx="8" fill="#f5f5f5" stroke="#b0bec5" stroke-width="1.5" />
+<text x="450" y="72" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >B選挙区</text>
+<circle cx="350" cy="113.2" r="9.8" fill="#cfd8dc" stroke="#78909c" stroke-width="1.2" />
+<path d="M336.0,141.2 Q350.0,118.8 364.0,141.2 Z" fill="#cfd8dc" stroke="#78909c" stroke-width="1.2" />
+<circle cx="398" cy="113.2" r="9.8" fill="#cfd8dc" stroke="#78909c" stroke-width="1.2" />
+<path d="M384.0,141.2 Q398.0,118.8 412.0,141.2 Z" fill="#cfd8dc" stroke="#78909c" stroke-width="1.2" />
+<circle cx="446" cy="113.2" r="9.8" fill="#cfd8dc" stroke="#78909c" stroke-width="1.2" />
+<path d="M432.0,141.2 Q446.0,118.8 460.0,141.2 Z" fill="#cfd8dc" stroke="#78909c" stroke-width="1.2" />
+<circle cx="494" cy="113.2" r="9.8" fill="#cfd8dc" stroke="#78909c" stroke-width="1.2" />
+<path d="M480.0,141.2 Q494.0,118.8 508.0,141.2 Z" fill="#cfd8dc" stroke="#78909c" stroke-width="1.2" />
+<circle cx="542" cy="113.2" r="9.8" fill="#cfd8dc" stroke="#78909c" stroke-width="1.2" />
+<path d="M528.0,141.2 Q542.0,118.8 556.0,141.2 Z" fill="#cfd8dc" stroke="#78909c" stroke-width="1.2" />
+<text x="450" y="175" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >有権者 50万人</text>
+<text x="450" y="215" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >議員 1人</text>
+<text x="300" y="280" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >同じ1人の議員を、B区は2.5倍の有権者で選ぶ</text>
+<circle cx="560" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

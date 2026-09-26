@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<defs><marker id="jhsciencephys0104m1976d2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1976d2"/></marker></defs>
+<path d="M120,120 L120,330 L300,330 L300,120" fill="#fff" stroke="#37474f" stroke-width="3" />
+<rect x="123" y="150" width="174" height="177" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" />
+<path d="M300,150 L350,160 L350,170 L300,165" fill="#bbdefb" stroke="#37474f" stroke-width="2" />
+<rect x="170" y="180" width="70" height="80" rx="0" fill="#bcaaa4" stroke="#37474f" stroke-width="2" />
+<line x1="205" y1="60" x2="205" y2="180" stroke="#37474f" stroke-width="1.5"/>
+<line x1="205" y1="250" x2="205" y2="170" stroke="#1976d2" stroke-width="4" marker-end="url(#jhsciencephys0104m1976d2)"/>
+<text x="160" y="90" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >浮力</text>
+<line x1="355" y1="180" x2="357" y2="190" stroke="#1976d2" stroke-width="3"/>
+<line x1="355" y1="198" x2="357" y2="208" stroke="#1976d2" stroke-width="3"/>
+<line x1="355" y1="216" x2="357" y2="226" stroke="#1976d2" stroke-width="3"/>
+<line x1="355" y1="234" x2="357" y2="244" stroke="#1976d2" stroke-width="3"/>
+<path d="M340,260 L340,340 L440,340 L440,260" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<rect x="343" y="300" width="94" height="37" rx="0" fill="#90caf9" stroke="none" stroke-width="0" />
+<text x="490" y="250" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >おしのけられた水</text>
+<text x="490" y="270" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >の重さ</text>
+<text x="300" y="30" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >浮力 ＝ おしのけた液体の重さ</text>
+<line x1="520" y1="330" x2="440" y2="320" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="440" cy="320" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="520" cy="330" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="331" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

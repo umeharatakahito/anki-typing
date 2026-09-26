@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<defs><marker id="jhsciencebio0035m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<circle cx="60" cy="100" r="12" fill="#fff59d" stroke="#9e9d24" stroke-width="2" />
+<circle cx="88" cy="100" r="12" fill="#fff59d" stroke="#9e9d24" stroke-width="2" />
+<circle cx="116" cy="100" r="12" fill="#fff59d" stroke="#9e9d24" stroke-width="2" />
+<circle cx="144" cy="100" r="12" fill="#fff59d" stroke="#9e9d24" stroke-width="2" />
+<circle cx="172" cy="100" r="12" fill="#fff59d" stroke="#9e9d24" stroke-width="2" />
+<circle cx="200" cy="100" r="12" fill="#fff59d" stroke="#9e9d24" stroke-width="2" />
+<circle cx="228" cy="100" r="12" fill="#fff59d" stroke="#9e9d24" stroke-width="2" />
+<circle cx="256" cy="100" r="12" fill="#fff59d" stroke="#9e9d24" stroke-width="2" />
+<text x="160" y="60" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >デンプン</text>
+<path d="M260,160 C240,120 300,110 320,140 L300,150 L320,160 C300,190 240,190 260,160 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<text x="290" y="210" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >だ液の中</text>
+<line x1="330" y1="110" x2="380" y2="110" stroke="#37474f" stroke-width="3" marker-end="url(#jhsciencebio0035m37474f)"/>
+<circle cx="410" cy="80" r="12" fill="#fff59d" stroke="#9e9d24" stroke-width="2" />
+<circle cx="436" cy="80" r="12" fill="#fff59d" stroke="#9e9d24" stroke-width="2" />
+<circle cx="500" cy="80" r="12" fill="#fff59d" stroke="#9e9d24" stroke-width="2" />
+<circle cx="526" cy="80" r="12" fill="#fff59d" stroke="#9e9d24" stroke-width="2" />
+<circle cx="410" cy="150" r="12" fill="#fff59d" stroke="#9e9d24" stroke-width="2" />
+<circle cx="436" cy="150" r="12" fill="#fff59d" stroke="#9e9d24" stroke-width="2" />
+<circle cx="500" cy="150" r="12" fill="#fff59d" stroke="#9e9d24" stroke-width="2" />
+<circle cx="526" cy="150" r="12" fill="#fff59d" stroke="#9e9d24" stroke-width="2" />
+<text x="470" y="240" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >麦芽糖など</text>
+<line x1="240" y1="110" x2="262" y2="142" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="262" cy="142" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="240" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="240" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

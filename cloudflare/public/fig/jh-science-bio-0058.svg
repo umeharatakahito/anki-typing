@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<path d="M470,140 C420,70 300,60 200,80 C140,92 100,130 120,170 C150,200 190,200 220,190 C280,180 320,200 340,240 C300,250 270,240 260,220" fill="#ef9a9a" stroke="#c62828" stroke-width="2.4" />
+<path d="M220,80 C228,120 228,160 216,190" fill="none" stroke="#c62828" stroke-width="1.5" />
+<path d="M260,78 C268,120 268,160 256,190" fill="none" stroke="#c62828" stroke-width="1.5" />
+<path d="M300,76 C308,120 308,160 296,190" fill="none" stroke="#c62828" stroke-width="1.5" />
+<path d="M340,74 C348,120 348,160 336,190" fill="none" stroke="#c62828" stroke-width="1.5" />
+<path d="M380,72 C388,120 388,160 376,190" fill="none" stroke="#c62828" stroke-width="1.5" />
+<path d="M420,70 C428,120 428,160 416,190" fill="none" stroke="#c62828" stroke-width="1.5" />
+<path d="M470,140 L560,110 M470,140 L560,160 M480,135 L520,60" fill="none" stroke="#c62828" stroke-width="2" />
+<circle cx="455" cy="120" r="6" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<polyline points="300,170 290,210 296,240" fill="none" stroke="#c62828" stroke-width="2" stroke-linejoin="round" />
+<polyline points="330,170 320,210 326,240" fill="none" stroke="#c62828" stroke-width="2" stroke-linejoin="round" />
+<polyline points="360,170 350,210 356,240" fill="none" stroke="#c62828" stroke-width="2" stroke-linejoin="round" />
+<polyline points="390,170 380,210 386,240" fill="none" stroke="#c62828" stroke-width="2" stroke-linejoin="round" />
+<polyline points="420,170 410,210 416,240" fill="none" stroke="#c62828" stroke-width="2" stroke-linejoin="round" />
+<path d="M120,170 L60,150 L80,190 L40,210 Z" fill="#ef9a9a" stroke="#c62828" stroke-width="2" />
+<ellipse cx="400" cy="150" rx="36" ry="22" fill="#ffe0e0" stroke="#c62828" stroke-width="1.4" stroke-dasharray="4,3"/>
+<line x1="420" y1="270" x2="400" y2="166" stroke="#555" stroke-width="1.2"/>
+<circle cx="400" cy="166" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="420" y="270" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >えら（殻の内側）</text>
+<line x1="560" y1="60" x2="522" y2="70" stroke="#555" stroke-width="1.2"/>
+<circle cx="522" cy="70" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="560" y="60" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >触角</text>
+<line x1="160" y1="40" x2="220" y2="90" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="220" cy="90" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="160" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="160" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

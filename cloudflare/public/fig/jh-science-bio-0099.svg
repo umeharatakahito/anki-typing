@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<rect x="0" y="250" width="600" height="150" rx="0" fill="#efebe9" stroke="none" stroke-width="0" />
+<line x1="0" y1="250" x2="600" y2="250" stroke="#8d6e63" stroke-width="2"/>
+<path d="M60,285 C200,275 400,295 560,280" fill="none" stroke="#f57c00" stroke-width="16" stroke-linecap="round"/>
+<path d="M60,285 C200,275 400,295 560,280" fill="none" stroke="#ffcc80" stroke-width="11" stroke-linecap="round"/>
+<path d="M100,290 q-14,30 -21.0,60" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M100,290 q0,30 0.0,60" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M100,290 q14,30 21.0,60" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M180,290 q-14,30 -21.0,60" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M180,290 q0,30 0.0,60" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M180,290 q14,30 21.0,60" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M260,290 q-14,30 -21.0,60" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M260,290 q0,30 0.0,60" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M260,290 q14,30 21.0,60" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M340,290 q-14,30 -21.0,60" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M340,290 q0,30 0.0,60" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M340,290 q14,30 21.0,60" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M420,290 q-14,30 -21.0,60" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M420,290 q0,30 0.0,60" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M420,290 q14,30 21.0,60" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M500,290 q-14,30 -21.0,60" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M500,290 q0,30 0.0,60" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M500,290 q14,30 21.0,60" fill="none" stroke="#6d4c41" stroke-width="1.5" />
+<path d="M170,282 Q158.0,150.0 130,50" fill="none" stroke="#2e7d32" stroke-width="3" />
+<path d="M170,228 l-52,-16 M170,228 l52,-16" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M168,206 l-47,-14 M168,206 l47,-14" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M166,183 l-41,-12 M166,183 l41,-12" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M162,161 l-36,-11 M162,161 l36,-11" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M158,139 l-30,-9 M158,139 l30,-9" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M152,117 l-25,-7 M152,117 l25,-7" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M146,94 l-19,-6 M146,94 l19,-6" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M138,72 l-14,-4 M138,72 l14,-4" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M300,282 Q303.0,135.0 310,20" fill="none" stroke="#2e7d32" stroke-width="3" />
+<path d="M300,224 l-52,-16 M300,224 l52,-16" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M300,199 l-47,-14 M300,199 l47,-14" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M301,173 l-41,-12 M301,173 l41,-12" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M302,148 l-36,-11 M302,148 l36,-11" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M303,122 l-30,-9 M303,122 l30,-9" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M304,97 l-25,-7 M304,97 l25,-7" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M306,71 l-19,-6 M306,71 l19,-6" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M308,46 l-14,-4 M308,46 l14,-4" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M440,282 Q452.0,155.0 480,60" fill="none" stroke="#2e7d32" stroke-width="3" />
+<path d="M440,229 l-52,-16 M440,229 l52,-16" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M442,208 l-47,-14 M442,208 l47,-14" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M444,187 l-41,-12 M444,187 l41,-12" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M448,166 l-36,-11 M448,166 l36,-11" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M452,144 l-30,-9 M452,144 l30,-9" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M458,123 l-25,-7 M458,123 l25,-7" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M464,102 l-19,-6 M464,102 l19,-6" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M472,81 l-14,-4 M472,81 l14,-4" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" fill="none"/>
+<line x1="560" y1="60" x2="470" y2="90" stroke="#555" stroke-width="1.2"/>
+<circle cx="470" cy="90" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="560" y="60" font-size="16" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >葉</text>
+<line x1="40" y1="370" x2="100" y2="330" stroke="#555" stroke-width="1.2"/>
+<circle cx="100" cy="330" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="40" y="370" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >根</text>
+<text x="300" y="20" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >イヌワラビ</text>
+<text x="40" y="238" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#6d4c41" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >地面</text>
+<line x1="400" y1="350" x2="380" y2="290" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="380" cy="290" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="400" cy="350" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="400" y="351" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

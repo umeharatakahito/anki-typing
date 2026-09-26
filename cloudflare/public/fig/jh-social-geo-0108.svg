@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<rect x="0" y="0" width="600" height="380" rx="0" fill="#e8e3d3" stroke="none" stroke-width="0" />
+<path d="M600,60 L600,380 L430,380 L360,300 L300,250 L220,215 L120,200 L0,196 L0,186 L120,180 L220,168 L310,135 L380,95 L460,40 L520,0 L600,0 Z" fill="#e3f2fd" stroke="#90caf9" stroke-width="2" />
+<path d="M0,191 L120,190 L220,191" fill="none" stroke="#64b5f6" stroke-width="8" />
+<path d="M120,180 L220,168 L310,135 L380,95 L460,40 M120,200 L220,215 L300,250 L360,300 L430,380" fill="none" stroke="#f57c00" stroke-width="4" />
+<text x="60" y="170" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#0d47a1" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >川</text>
+<text x="540" y="250" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#0d47a1" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >海</text>
+<line x1="330" y1="50" x2="330" y2="190" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="330" cy="190" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="330" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="330" y="51" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<polygon points="241,120 241,110 250,102 259,110 259,120" fill="#ffffff" stroke="#37474f" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="171,250 171,240 180,232 189,240 189,250" fill="#ffffff" stroke="#37474f" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="281,300 281,290 290,282 299,290 299,300" fill="#ffffff" stroke="#37474f" stroke-width="1.2" stroke-linejoin="round" />
+<text x="170" y="350" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" >上から見た模式図</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<defs><marker id="jhscienceearth0044m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="0" y="0" width="600" height="360" rx="0" fill="#fff" stroke="none" stroke-width="0" />
+<path d="M0,200 C150,190 450,190 600,200 L600,360 L0,360 Z" fill="#ffccbc" stroke="#e64a19" stroke-width="1.5" />
+<path d="M4,100 L176,100 L176,190 L4,190 Z" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<path d="M184,100 L376,100 L376,190 L184,190 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<path d="M384,100 L596,100 L596,190 L384,190 Z" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<path d="M150,145 L90,145" fill="none" stroke="#37474f" stroke-width="3" marker-end="url(#jhscienceearth0044m37474f)"/>
+<path d="M240,145 L320,145" fill="none" stroke="#37474f" stroke-width="3" marker-end="url(#jhscienceearth0044m37474f)"/>
+<path d="M520,145 L440,145" fill="none" stroke="#37474f" stroke-width="3" marker-end="url(#jhscienceearth0044m37474f)"/>
+<text x="300" y="280" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >マントル</text>
+<line x1="280" y1="50" x2="280" y2="100" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="280" cy="100" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="280" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="280" y="51" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="590" y1="100" x2="590" y2="190" stroke="#37474f" stroke-width="1.5" marker-end="url(#jhscienceearth0044m37474f)" marker-start="url(#jhscienceearth0044m37474f)"/>
+<text x="592" y="60" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >厚さ約100km</text>
+<line x1="560" y1="72" x2="588" y2="98" stroke="#555" stroke-width="1.2"/>
+<text x="300" y="20" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >地球の表面をおおう岩盤（十数枚）</text>
+</svg>

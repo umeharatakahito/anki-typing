@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<rect x="0" y="0" width="600" height="400" rx="0" fill="#1a2340" stroke="none" stroke-width="0" />
+<ellipse cx="300" cy="200" rx="245" ry="160" fill="none" stroke="#f57c00" stroke-width="4" />
+<text x="300" y="40" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#fff" >おうし座</text>
+<text x="177.5" y="61.4359" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#fff" >ふたご座</text>
+<text x="87.8238" y="120" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#fff" >かに座</text>
+<text x="55" y="200" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#fff" >しし座</text>
+<text x="87.8238" y="280" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#fff" >おとめ座</text>
+<text x="177.5" y="338.564" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#fff" >てんびん座</text>
+<text x="300" y="360" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#fff" >さそり座</text>
+<text x="422.5" y="338.564" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#fff" >いて座</text>
+<text x="512.176" y="280" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#fff" >やぎ座</text>
+<text x="545" y="200" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#fff" >みずがめ座</text>
+<text x="512.176" y="120" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#fff" >うお座</text>
+<text x="422.5" y="61.4359" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#fff" >おひつじ座</text>
+<ellipse cx="300" cy="200" rx="120" ry="60" fill="none" stroke="#90a4ae" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="321" y1="200" x2="329" y2="200" stroke="#f9a825" stroke-width="3"/>
+<line x1="314.849" y1="214.849" x2="320.506" y2="220.506" stroke="#f9a825" stroke-width="3"/>
+<line x1="300" y1="221" x2="300" y2="229" stroke="#f9a825" stroke-width="3"/>
+<line x1="285.151" y1="214.849" x2="279.494" y2="220.506" stroke="#f9a825" stroke-width="3"/>
+<line x1="279" y1="200" x2="271" y2="200" stroke="#f9a825" stroke-width="3"/>
+<line x1="285.151" y1="185.151" x2="279.494" y2="179.494" stroke="#f9a825" stroke-width="3"/>
+<line x1="300" y1="179" x2="300" y2="171" stroke="#f9a825" stroke-width="3"/>
+<line x1="314.849" y1="185.151" x2="320.506" y2="179.494" stroke="#f9a825" stroke-width="3"/>
+<circle cx="300" cy="200" r="16" fill="#fff59d" stroke="#f9a825" stroke-width="2" />
+<circle cx="258.958" cy="256.382" r="9" fill="#64b5f6" stroke="#1e88e5" stroke-width="1.5" />
+<line x1="258.958" y1="256.382" x2="379.605" y2="57.1667" stroke="#fff" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="288.958" y="272.382" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#fff" >地球</text>
+<line x1="540" y1="60" x2="487.681" y2="97.154" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="487.681" cy="97.154" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="540" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="540" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="385" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#fff" >太陽が星座の間を動いて見える通り道</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<defs><marker id="jhsciencechem0098m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="90" y1="330" x2="560" y2="330" stroke="#37474f" stroke-width="2" marker-end="url(#jhsciencechem0098m37474f)"/>
+<line x1="90" y1="330" x2="90" y2="30" stroke="#37474f" stroke-width="2" marker-end="url(#jhsciencechem0098m37474f)"/>
+<text x="550" y="314" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >温度 [℃]</text>
+<text x="96" y="18" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >100gの水にとける質量 [g]</text>
+<line x1="90" y1="330" x2="90" y2="336" stroke="#37474f" stroke-width="1.4"/>
+<text x="90" y="344" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0</text>
+<line x1="202.5" y1="330" x2="202.5" y2="336" stroke="#37474f" stroke-width="1.4"/>
+<text x="202.5" y="344" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >20</text>
+<line x1="315" y1="330" x2="315" y2="336" stroke="#37474f" stroke-width="1.4"/>
+<text x="315" y="344" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >40</text>
+<line x1="427.5" y1="330" x2="427.5" y2="336" stroke="#37474f" stroke-width="1.4"/>
+<text x="427.5" y="344" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >60</text>
+<line x1="540" y1="330" x2="540" y2="336" stroke="#37474f" stroke-width="1.4"/>
+<text x="540" y="344" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >80</text>
+<line x1="84" y1="244.706" x2="90" y2="244.706" stroke="#37474f" stroke-width="1.4"/>
+<text x="80" y="244.706" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >50</text>
+<line x1="90" y1="244.706" x2="540" y2="244.706" stroke="#eceff1" stroke-width="1"/>
+<line x1="84" y1="159.412" x2="90" y2="159.412" stroke="#37474f" stroke-width="1.4"/>
+<text x="80" y="159.412" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >100</text>
+<line x1="90" y1="159.412" x2="540" y2="159.412" stroke="#eceff1" stroke-width="1"/>
+<line x1="84" y1="74.1176" x2="90" y2="74.1176" stroke="#37474f" stroke-width="1.4"/>
+<text x="80" y="74.1176" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >150</text>
+<line x1="90" y1="74.1176" x2="540" y2="74.1176" stroke="#eceff1" stroke-width="1"/>
+<polyline points="90,307.824 146.25,292.471 202.5,275.412 258.75,251.529 315,220.824 371.25,185 427.5,144.059 483.75,94.5882 540,41.7059" fill="none" stroke="#f57c00" stroke-width="3.6" stroke-linejoin="round" />
+<polyline points="90,269.1 202.5,268.929 315,268.076 427.5,266.712 540,265.176" fill="none" stroke="#388e3c" stroke-width="3" stroke-linejoin="round" />
+<polyline points="90,320.276 202.5,310.553 315,289.4 427.5,232.082 540,208.882" fill="none" stroke="#7b1fa2" stroke-width="3" stroke-linejoin="round" />
+<text x="530" y="249.176" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#388e3c" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >塩化ナトリウム</text>
+<text x="530" y="186.882" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#7b1fa2" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ミョウバン</text>
+<line x1="378.75" y1="123.824" x2="438.75" y2="133.824" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="438.75" cy="133.824" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="378.75" cy="123.824" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="378.75" y="124.824" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="jhsciencephys0031mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="100" y="80" width="400" height="180" rx="0" fill="none" stroke="#37474f" stroke-width="2.5" />
+<rect x="292" y="238" width="16" height="44" rx="0" fill="#fff" stroke="none" stroke-width="0" />
+<line x1="295" y1="240" x2="295" y2="280" stroke="#37474f" stroke-width="2.5"/>
+<line x1="305" y1="250" x2="305" y2="270" stroke="#37474f" stroke-width="5"/>
+<text x="284" y="300" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >+</text>
+<text x="318" y="300" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >−</text>
+<circle cx="300" cy="80" r="18" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<line x1="288" y1="68" x2="312" y2="92" stroke="#37474f" stroke-width="2"/>
+<line x1="288" y1="92" x2="312" y2="68" stroke="#37474f" stroke-width="2"/>
+<line x1="180" y1="70" x2="240" y2="70" stroke="#f57c00" stroke-width="4" marker-end="url(#jhsciencephys0031mf57c00)"/>
+<line x1="360" y1="70" x2="420" y2="70" stroke="#f57c00" stroke-width="4" marker-end="url(#jhsciencephys0031mf57c00)"/>
+<line x1="510" y1="120" x2="510" y2="200" stroke="#f57c00" stroke-width="4" marker-end="url(#jhsciencephys0031mf57c00)"/>
+<line x1="420" y1="272" x2="360" y2="272" stroke="#f57c00" stroke-width="4" marker-end="url(#jhsciencephys0031mf57c00)"/>
+<line x1="240" y1="272" x2="180" y2="272" stroke="#f57c00" stroke-width="4" marker-end="url(#jhsciencephys0031mf57c00)"/>
+<line x1="90" y1="200" x2="90" y2="120" stroke="#f57c00" stroke-width="4" marker-end="url(#jhsciencephys0031mf57c00)"/>
+<line x1="420" y1="272" x2="360" y2="272" stroke="#f57c00" stroke-width="4" marker-end="url(#jhsciencephys0031mf57c00)"/>
+<line x1="560" y1="40" x2="510" y2="150" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="510" cy="150" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="560" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="330" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＋極から出て−極へもどる流れ</text>
+</svg>

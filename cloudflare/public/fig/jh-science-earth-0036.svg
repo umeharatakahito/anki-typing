@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<clipPath id="jhscienceearth0036rc0"><circle cx="210" cy="180" r="150"/></clipPath><g clip-path="url(#jhscienceearth0036rc0)">
+<rect x="60" y="30" width="300" height="300" rx="0" fill="#ffe0b2" stroke="none" stroke-width="0" />
+<ellipse cx="59.4286" cy="30.7173" rx="21.4695" ry="13.7939" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="56.2159" cy="72.1429" rx="19.4092" ry="15.7579" fill="#e0e0e0" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="59.3591" cy="109.702" rx="18.7709" ry="16.3423" fill="#e0e0e0" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="61.1452" cy="154.754" rx="18.171" ry="15.4335" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="61.4775" cy="201.98" rx="15.4422" ry="11.2139" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="61.1954" cy="243.337" rx="17.2841" ry="14.5458" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="60.2295" cy="283.684" rx="18.4984" ry="14.9747" fill="#90a4ae" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="61.8576" cy="322.881" rx="18.8589" ry="16.5901" fill="#e0e0e0" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="108.494" cy="27.7833" rx="16.6077" ry="12.7342" fill="#e0e0e0" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="106.758" cy="67.2951" rx="15.7546" ry="12.7454" fill="#e0e0e0" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="111.497" cy="118.168" rx="15.0038" ry="12.2583" fill="#e0e0e0" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="105.64" cy="161.764" rx="17.782" ry="11.4382" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="109.342" cy="195.237" rx="15.61" ry="12.9955" fill="#90a4ae" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="109.096" cy="235.416" rx="16.7247" ry="11.6063" fill="#e0e0e0" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="105.579" cy="281.842" rx="19.7745" ry="12.1303" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="111.823" cy="327.234" rx="17.9346" ry="13.3025" fill="#90a4ae" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="151.049" cy="26.5544" rx="16.8886" ry="16.8256" fill="#fafafa" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="157.975" cy="66.2356" rx="16.3112" ry="16.975" fill="#e0e0e0" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="146.505" cy="109.756" rx="18.0908" ry="11.0575" fill="#fafafa" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="155.963" cy="154.634" rx="15.52" ry="12.2524" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="146.186" cy="196.424" rx="19.355" ry="11.7633" fill="#90a4ae" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="155.988" cy="235.629" rx="17.7027" ry="14.7635" fill="#fafafa" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="156.901" cy="285.814" rx="16.7465" ry="12.1388" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="154.244" cy="322.659" rx="18.3776" ry="11.471" fill="#e0e0e0" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="193.246" cy="24.4644" rx="21.7388" ry="12.4304" fill="#90a4ae" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="195.084" cy="75.8846" rx="19.1753" ry="12.7606" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="203.151" cy="119.726" rx="15.8848" ry="13.8758" fill="#e0e0e0" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="195.363" cy="161.008" rx="16.4279" ry="11.0994" fill="#fafafa" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="196.937" cy="194.989" rx="15.3262" ry="12.6918" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="193.106" cy="235.661" rx="18.1524" ry="12.9858" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="199.079" cy="287.083" rx="18.3236" ry="13.1448" fill="#fafafa" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="203.553" cy="318.255" rx="19.4533" ry="13.8934" fill="#fafafa" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="241.827" cy="35.9923" rx="15.5268" ry="14.2766" fill="#e0e0e0" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="248.802" cy="74.8451" rx="19.9258" ry="15.7596" fill="#fafafa" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="242.222" cy="116.222" rx="21.3059" ry="16.2266" fill="#90a4ae" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="249.331" cy="150.363" rx="18.4995" ry="11.0872" fill="#90a4ae" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="242.55" cy="192.149" rx="15.5057" ry="11.5439" fill="#e0e0e0" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="249.92" cy="244.558" rx="20.0974" ry="13.3306" fill="#90a4ae" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="243.286" cy="286.06" rx="15.5865" ry="15.5013" fill="#e0e0e0" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="241.723" cy="319.053" rx="15.156" ry="16.7444" fill="#e0e0e0" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="289.967" cy="31.374" rx="21.4432" ry="12.535" fill="#e0e0e0" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="288.415" cy="67.7186" rx="19.2823" ry="14.1104" fill="#fafafa" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="291.92" cy="113.303" rx="21.2421" ry="12.9618" fill="#fafafa" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="286.382" cy="155.171" rx="20.6419" ry="16.4853" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="288.613" cy="198.997" rx="17.2154" ry="11.8171" fill="#90a4ae" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="288.209" cy="244.748" rx="15.284" ry="11.3848" fill="#fafafa" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="293.862" cy="277.354" rx="18.2995" ry="16.5544" fill="#90a4ae" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="288.591" cy="324.24" rx="19.705" ry="15.2977" fill="#90a4ae" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="333.844" cy="33.9447" rx="16.9469" ry="14.6453" fill="#fafafa" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="336.847" cy="69.7084" rx="20.5406" ry="11.1147" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="334.862" cy="110.279" rx="20.3845" ry="12.5985" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="339.562" cy="161.808" rx="15.8071" ry="11.6541" fill="#fafafa" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="341.502" cy="200.214" rx="16.3954" ry="13.8509" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="338.571" cy="243.061" rx="18.7439" ry="11.2171" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="333.268" cy="280.149" rx="19.8812" ry="14.1225" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.5" />
+<ellipse cx="334.722" cy="327.503" rx="21.3437" ry="11.5233" fill="#90a4ae" stroke="#5d4037" stroke-width="1.5" />
+</g>
+<circle cx="210" cy="180" r="150" fill="none" stroke="#f57c00" stroke-width="3.5" />
+<line x1="450" y1="90" x2="330" y2="110" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="330" cy="110" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="450" cy="90" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="450" y="91" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="420" y1="250" x2="560" y2="250" stroke="#37474f" stroke-width="2"/>
+<text x="490" y="230" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >粒の直径2mm以上</text>
+<text x="490" y="280" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >丸みを帯びた粒</text>
+</svg>

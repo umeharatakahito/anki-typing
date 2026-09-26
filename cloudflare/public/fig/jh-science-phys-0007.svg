@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<circle cx="130" cy="150" r="50" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<rect x="110" y="200" width="40" height="30" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<line x1="192" y1="150" x2="215" y2="150" stroke="#ffb300" stroke-width="3"/>
+<line x1="173.841" y1="193.841" x2="190.104" y2="210.104" stroke="#ffb300" stroke-width="3"/>
+<line x1="130" y1="212" x2="130" y2="235" stroke="#ffb300" stroke-width="3"/>
+<line x1="86.1594" y1="193.841" x2="69.8959" y2="210.104" stroke="#ffb300" stroke-width="3"/>
+<line x1="68" y1="150" x2="45" y2="150" stroke="#ffb300" stroke-width="3"/>
+<line x1="86.1594" y1="106.159" x2="69.8959" y2="89.8959" stroke="#ffb300" stroke-width="3"/>
+<line x1="130" y1="88" x2="130" y2="65" stroke="#ffb300" stroke-width="3"/>
+<line x1="173.841" y1="106.159" x2="190.104" y2="89.8959" stroke="#ffb300" stroke-width="3"/>
+<line x1="220" y1="150" x2="370" y2="150" stroke="#e53935" stroke-width="2.5"/>
+<polygon points="301,150 288,143.5 288,156.5" fill="#e53935" stroke="#e53935" stroke-width="1" stroke-linejoin="round" />
+<rect x="370" y="110" width="60" height="80" rx="0" fill="#a5d6a7" stroke="#388e3c" stroke-width="2" />
+<text x="400" y="215" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >もの</text>
+<line x1="400" y1="110" x2="490" y2="70" stroke="#e53935" stroke-width="2.5"/>
+<polygon points="448.6,88.4 434.081,87.74 439.36,99.6196" fill="#e53935" stroke="#e53935" stroke-width="1" stroke-linejoin="round" />
+<ellipse cx="530" cy="60" rx="26" ry="16" fill="#fff" stroke="#37474f" stroke-width="2" />
+<circle cx="530" cy="60" r="8" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<text x="530" y="100" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >目</text>
+<line x1="60" y1="40" x2="100" y2="110" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="100" cy="110" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="60" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="60" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="130" y="280" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >自ら光を出す</text>
+</svg>

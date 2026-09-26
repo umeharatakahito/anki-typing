@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 390" width="600" height="390" font-family="sans-serif">
+<rect width="600" height="390" fill="#fff"/>
+<defs><marker id="jhscienceearth0053m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="90" y1="330" x2="570" y2="330" stroke="#37474f" stroke-width="2" marker-end="url(#jhscienceearth0053m37474f)"/>
+<line x1="90" y1="330" x2="90" y2="30" stroke="#37474f" stroke-width="2" marker-end="url(#jhscienceearth0053m37474f)"/>
+<text x="570" y="372" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >地震発生からの時間〔秒〕</text>
+<text x="80" y="20" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >震源からの距離〔km〕</text>
+<line x1="180" y1="330" x2="180" y2="50" stroke="#eceff1" stroke-width="1"/>
+<text x="180" y="346" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >10</text>
+<line x1="90" y1="275" x2="570" y2="275" stroke="#eceff1" stroke-width="1"/>
+<text x="82" y="275" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >60</text>
+<line x1="270" y1="330" x2="270" y2="50" stroke="#eceff1" stroke-width="1"/>
+<text x="270" y="346" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >20</text>
+<line x1="90" y1="220" x2="570" y2="220" stroke="#eceff1" stroke-width="1"/>
+<text x="82" y="220" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >120</text>
+<line x1="360" y1="330" x2="360" y2="50" stroke="#eceff1" stroke-width="1"/>
+<text x="360" y="346" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >30</text>
+<line x1="90" y1="165" x2="570" y2="165" stroke="#eceff1" stroke-width="1"/>
+<text x="82" y="165" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >180</text>
+<line x1="450" y1="330" x2="450" y2="50" stroke="#eceff1" stroke-width="1"/>
+<text x="450" y="346" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >40</text>
+<line x1="90" y1="110" x2="570" y2="110" stroke="#eceff1" stroke-width="1"/>
+<text x="82" y="110" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >240</text>
+<line x1="540" y1="330" x2="540" y2="50" stroke="#eceff1" stroke-width="1"/>
+<text x="540" y="346" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >50</text>
+<line x1="90" y1="55" x2="570" y2="55" stroke="#eceff1" stroke-width="1"/>
+<text x="82" y="55" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >300</text>
+<line x1="90" y1="330" x2="540" y2="55" stroke="#f57c00" stroke-width="3.5"/>
+<line x1="90" y1="330" x2="558" y2="163.167" stroke="#d32f2f" stroke-width="2.5"/>
+<line x1="220" y1="90" x2="315" y2="192.5" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="315" cy="192.5" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="220" cy="90" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="220" y="91" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="470" y="190" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >S波</text>
+</svg>

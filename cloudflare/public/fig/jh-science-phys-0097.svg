@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<defs><marker id="jhsciencephys0097me53935" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e53935"/></marker></defs>
+<path d="M40,110 C200,110 350,110 560,110 L560,190 C350,190 200,190 40,190 Z" fill="#e1f5fe" stroke="#0288d1" stroke-width="2.5" />
+<path d="M40,120 L560,120 L560,180 L40,180 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" fill-opacity="0.6"/>
+<polyline points="40,150 60,122 116,178 172,122 228,178 284,122 340,178 396,122 452,178 508,122" fill="none" stroke="#e53935" stroke-width="2.5" stroke-linejoin="round" />
+<line x1="10" y1="150" x2="40" y2="150" stroke="#e53935" stroke-width="2.5" marker-end="url(#jhsciencephys0097me53935)"/>
+<line x1="300" y1="50" x2="300" y2="120" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="300" cy="120" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="300" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="51" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="240" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >内部で全反射をくり返して光を送る</text>
+<text x="300" y="265" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（細いガラスの線）</text>
+</svg>

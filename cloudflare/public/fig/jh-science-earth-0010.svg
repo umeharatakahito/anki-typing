@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<rect x="0" y="0" width="600" height="400" rx="0" fill="#f5fbff" stroke="none" stroke-width="0" />
+<defs><pattern id="jhscienceearth0010grv" width="24" height="20" patternUnits="userSpaceOnUse"><rect width="24" height="20" fill="#ffe0b2"/><ellipse cx="6" cy="6" rx="5" ry="4" fill="#fff" stroke="#8d6e63" stroke-width="1.2"/><ellipse cx="17" cy="15" rx="5.5" ry="3.8" fill="#fff" stroke="#8d6e63" stroke-width="1.2"/></pattern></defs>
+<defs><pattern id="jhscienceearth0010snd" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#fff9c4"/><circle cx="3" cy="3" r="1.3" fill="#a1887f"/><circle cx="9" cy="8" r="1.3" fill="#a1887f"/></pattern></defs>
+<defs><pattern id="jhscienceearth0010mud" width="16" height="8" patternUnits="userSpaceOnUse"><rect width="16" height="8" fill="#d7ccc8"/><line x1="2" y1="4" x2="12" y2="4" stroke="#8d6e63" stroke-width="1"/></pattern></defs>
+<path d="M60,70 L430,70 L520,380 L60,380 Z" fill="none" stroke="none" stroke-width="0" />
+<polygon points="60,70 430,70 444.5,120 60,120" fill="url(#jhscienceearth0010snd)" stroke="#f57c00" stroke-width="1.5" stroke-linejoin="round" />
+<polygon points="60,120 444.5,120 459,170 60,170" fill="url(#jhscienceearth0010mud)" stroke="#f57c00" stroke-width="1.5" stroke-linejoin="round" />
+<polygon points="60,170 459,170 472.05,215 60,215" fill="url(#jhscienceearth0010grv)" stroke="#f57c00" stroke-width="1.5" stroke-linejoin="round" />
+<polygon points="60,215 472.05,215 488,270 60,270" fill="url(#jhscienceearth0010snd)" stroke="#f57c00" stroke-width="1.5" stroke-linejoin="round" />
+<polygon points="60,270 488,270 502.5,320 60,320" fill="url(#jhscienceearth0010mud)" stroke="#f57c00" stroke-width="1.5" stroke-linejoin="round" />
+<polygon points="60,320 502.5,320 519.9,380 60,380" fill="url(#jhscienceearth0010grv)" stroke="#f57c00" stroke-width="1.5" stroke-linejoin="round" />
+<path d="M60,70 L430,70 L520,380" fill="none" stroke="#f57c00" stroke-width="3" />
+<path d="M40,70 C40,40 120,40 160,60 C200,40 300,40 430,70" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<line x1="540" y1="150" x2="440" y2="150" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="440" cy="150" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="540" cy="150" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="540" y="151" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="560" y1="60" x2="430" y2="90" stroke="#555" stroke-width="1.2"/>
+<circle cx="430" cy="90" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="560" y="60" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >がけ</text>
+<text x="250" y="395" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >れき・砂・泥の層</text>
+</svg>

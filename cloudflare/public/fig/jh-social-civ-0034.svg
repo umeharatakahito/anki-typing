@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<defs><marker id="jhsocialciv0034m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="jhsocialciv0034mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="20" y="110" width="150" height="70" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="95" y="145" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >消費者</text>
+<rect x="225" y="110" width="150" height="70" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="300" y="145" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >お店</text>
+<rect x="430" y="110" width="150" height="70" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="505" y="145" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >税務署</text>
+<line x1="172" y1="145" x2="222" y2="145" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsocialciv0034m37474f)"/>
+<text x="197" y="100" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >代金＋税</text>
+<line x1="377" y1="145" x2="427" y2="145" stroke="#f57c00" stroke-width="3" marker-end="url(#jhsocialciv0034mf57c00)"/>
+<text x="402" y="100" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >税を納める</text>
+<text x="95" y="210" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >税を負担する人</text>
+<text x="300" y="210" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >税を納める人</text>
+<text x="300" y="270" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >負担する人 ≠ 納める人</text>
+<circle cx="470" cy="270" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="470" y="271" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="40" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" >例：消費税</text>
+</svg>

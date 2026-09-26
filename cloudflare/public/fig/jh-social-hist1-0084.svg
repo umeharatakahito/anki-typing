@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350" font-family="sans-serif">
+<rect width="600" height="350" fill="#fff"/>
+<defs><marker id="jhsocialhist10084mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="40" y="30" width="150" height="50" rx="6" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" />
+<text x="115" y="55" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >藤原氏</text>
+<rect x="250" y="30" width="150" height="50" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="325" y="55" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >天皇</text>
+<line x1="115" y1="80" x2="115" y2="124" stroke="#37474f" stroke-width="2"/>
+<rect x="40" y="124" width="150" height="44" rx="6" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<text x="115" y="146" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" >娘</text>
+<line x1="190" y1="143" x2="325" y2="143" stroke="#d32f2f" stroke-width="1.6"/>
+<line x1="190" y1="149" x2="325" y2="149" stroke="#d32f2f" stroke-width="1.6"/>
+<line x1="325" y1="80" x2="325" y2="143" stroke="#d32f2f" stroke-width="2"/>
+<text x="258" y="128" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >きさき</text>
+<line x1="258" y1="149" x2="258" y2="196" stroke="#37474f" stroke-width="2"/>
+<rect x="180" y="196" width="156" height="48" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="258" y="220" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" >孫が天皇に</text>
+<path d="M115,28 Q115,8 250,8 L420,8 Q505,8 505,96" fill="none" stroke="#f57c00" stroke-width="2.5" marker-end="url(#jhsocialhist10084mf57c00)"/>
+<rect x="420" y="104" width="170" height="60" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="505" y="124.4" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >母方の祖父として</text>
+<text x="505" y="143.6" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >実権をにぎる</text>
+<line x1="336" y1="220" x2="470" y2="220" stroke="#f57c00" stroke-width="2" stroke-dasharray="5 4"/>
+<line x1="470" y1="220" x2="470" y2="166" stroke="#f57c00" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="300" y="284" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >天皇が幼いとき → 摂政</text>
+<text x="300" y="314" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >天皇が成人後 → 関白</text>
+<circle cx="160" cy="299" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="160" y="300" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

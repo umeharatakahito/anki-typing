@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<rect x="100" y="80" width="400" height="180" rx="0" fill="none" stroke="#37474f" stroke-width="2.5" />
+<rect x="292" y="238" width="16" height="44" rx="0" fill="#fff" stroke="none" stroke-width="0" />
+<line x1="295" y1="240" x2="295" y2="280" stroke="#37474f" stroke-width="2.5"/>
+<line x1="305" y1="250" x2="305" y2="270" stroke="#37474f" stroke-width="5"/>
+<circle cx="300" cy="260" r="34" fill="none" stroke="#f57c00" stroke-width="3" stroke-dasharray="6 4"/>
+<rect x="270" y="69" width="60" height="22" rx="0" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<line x1="250" y1="80" x2="250" y2="30" stroke="#37474f" stroke-width="2"/>
+<line x1="350" y1="80" x2="350" y2="30" stroke="#37474f" stroke-width="2"/>
+<line x1="250" y1="30" x2="280" y2="30" stroke="#37474f" stroke-width="2"/>
+<line x1="320" y1="30" x2="350" y2="30" stroke="#37474f" stroke-width="2"/>
+<circle cx="300" cy="30" r="20" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<text x="300" y="31" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >V</text>
+<line x1="420" y1="200" x2="330" y2="250" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="330" cy="250" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="420" cy="200" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="420" y="201" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="470" y="300" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >電流を流そうとするはたらき</text>
+</svg>

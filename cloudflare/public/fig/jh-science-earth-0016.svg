@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<rect x="0" y="0" width="600" height="400" rx="0" fill="#263238" stroke="none" stroke-width="0" />
+<circle cx="270" cy="200" r="170" fill="#ffe082" stroke="#ffb300" stroke-width="3" />
+<circle cx="270" cy="200" r="150" fill="none" stroke="#ffd54f" stroke-width="20" opacity="0.5"/>
+<ellipse cx="210" cy="150" rx="16" ry="11" fill="#3e2723" stroke="#3e2723" stroke-width="1" />
+<ellipse cx="210" cy="150" rx="21" ry="15" fill="none" stroke="#6d4c41" stroke-width="2" opacity="0.6"/>
+<ellipse cx="232" cy="160" rx="9" ry="7" fill="#3e2723" stroke="#3e2723" stroke-width="1" />
+<ellipse cx="232" cy="160" rx="14" ry="11" fill="none" stroke="#6d4c41" stroke-width="2" opacity="0.6"/>
+<ellipse cx="330" cy="240" rx="20" ry="14" fill="#3e2723" stroke="#3e2723" stroke-width="1" />
+<ellipse cx="330" cy="240" rx="25" ry="18" fill="none" stroke="#6d4c41" stroke-width="2" opacity="0.6"/>
+<ellipse cx="350" cy="232" rx="10" ry="7" fill="#3e2723" stroke="#3e2723" stroke-width="1" />
+<ellipse cx="350" cy="232" rx="15" ry="11" fill="none" stroke="#6d4c41" stroke-width="2" opacity="0.6"/>
+<ellipse cx="200" cy="270" rx="8" ry="6" fill="#3e2723" stroke="#3e2723" stroke-width="1" />
+<ellipse cx="200" cy="270" rx="13" ry="10" fill="none" stroke="#6d4c41" stroke-width="2" opacity="0.6"/>
+<ellipse cx="300" cy="120" rx="7" ry="5" fill="#3e2723" stroke="#3e2723" stroke-width="1" />
+<ellipse cx="300" cy="120" rx="12" ry="9" fill="none" stroke="#6d4c41" stroke-width="2" opacity="0.6"/>
+<line x1="500" y1="300" x2="345" y2="245" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="345" cy="245" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="500" cy="300" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="301" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="510" y="340" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#fff" >黒く見える部分</text>
+<text x="70" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#fff" >太陽の表面</text>
+</svg>

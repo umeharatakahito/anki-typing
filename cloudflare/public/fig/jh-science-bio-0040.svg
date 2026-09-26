@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<rect x="0" y="0" width="600" height="300" rx="0" fill="#e3f2fd" stroke="none" stroke-width="0" />
+<path d="M40,150 C80,80 260,70 420,110 C470,120 500,130 520,110 L560,70 L560,130 L580,180 L520,150 C480,190 300,230 150,210 C90,200 50,190 40,150 Z" fill="#607d8b" stroke="#263238" stroke-width="2.4" />
+<path d="M60,165 C150,200 300,200 420,170" fill="none" stroke="#cfd8dc" stroke-width="3" />
+<circle cx="110" cy="140" r="5" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<path d="M220,190 L250,250 L280,196" fill="#607d8b" stroke="#263238" stroke-width="2" />
+<path d="M150,90 q-10,-30 -30,-40 M150,90 q10,-30 30,-40" fill="none" stroke="#90caf9" stroke-width="3" />
+<line x1="300" y1="40" x2="150" y2="92" stroke="#555" stroke-width="1.2"/>
+<circle cx="150" cy="92" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="300" y="40" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >鼻の穴（頭の上）で息をする</text>
+<line x1="360" y1="270" x2="262" y2="230" stroke="#555" stroke-width="1.2"/>
+<circle cx="262" cy="230" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="360" y="270" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >むなびれ</text>
+<line x1="470" y1="250" x2="400" y2="180" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="400" cy="180" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="470" cy="250" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="470" y="251" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

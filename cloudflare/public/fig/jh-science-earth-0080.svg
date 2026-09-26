@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<rect x="0" y="0" width="600" height="400" rx="0" fill="#1a2340" stroke="none" stroke-width="0" />
+<ellipse cx="300" cy="200" rx="230" ry="110" fill="none" stroke="#90a4ae" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="335" y1="200" x2="343" y2="200" stroke="#f9a825" stroke-width="3"/>
+<line x1="324.749" y1="224.749" x2="330.406" y2="230.406" stroke="#f9a825" stroke-width="3"/>
+<line x1="300" y1="235" x2="300" y2="243" stroke="#f9a825" stroke-width="3"/>
+<line x1="275.251" y1="224.749" x2="269.594" y2="230.406" stroke="#f9a825" stroke-width="3"/>
+<line x1="265" y1="200" x2="257" y2="200" stroke="#f9a825" stroke-width="3"/>
+<line x1="275.251" y1="175.251" x2="269.594" y2="169.594" stroke="#f9a825" stroke-width="3"/>
+<line x1="300" y1="165" x2="300" y2="157" stroke="#f9a825" stroke-width="3"/>
+<line x1="324.749" y1="175.251" x2="330.406" y2="169.594" stroke="#f9a825" stroke-width="3"/>
+<circle cx="300" cy="200" r="30" fill="#fff59d" stroke="#f9a825" stroke-width="2" />
+<circle cx="70" cy="200" r="20" fill="#64b5f6" stroke="#1e88e5" stroke-width="2" />
+<line x1="55.7027" y1="233.039" x2="84.2973" y2="166.961" stroke="#f57c00" stroke-width="3"/>
+<text x="70" y="242" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#fff" >夏至</text>
+<circle cx="530" cy="200" r="20" fill="#64b5f6" stroke="#1e88e5" stroke-width="2" />
+<line x1="515.703" y1="233.039" x2="544.297" y2="166.961" stroke="#f57c00" stroke-width="3"/>
+<text x="530" y="242" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#fff" >冬至</text>
+<circle cx="300" cy="310" r="20" fill="#64b5f6" stroke="#1e88e5" stroke-width="2" />
+<line x1="285.703" y1="343.039" x2="314.297" y2="276.961" stroke="#f57c00" stroke-width="3"/>
+<text x="300" y="352" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#fff" >秋分</text>
+<circle cx="300" cy="90" r="20" fill="#64b5f6" stroke="#1e88e5" stroke-width="2" />
+<line x1="285.703" y1="123.039" x2="314.297" y2="56.9608" stroke="#f57c00" stroke-width="3"/>
+<text x="300" y="48" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#fff" >春分</text>
+<line x1="70" y1="200" x2="70" y2="140" stroke="#fff" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="80" y1="60" x2="82" y2="170" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="82" cy="170" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="80" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="80" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="470" y="380" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#fff" >（北半球の季節）</text>
+</svg>

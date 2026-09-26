@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<rect x="0" y="0" width="600" height="380" rx="0" fill="#263238" stroke="none" stroke-width="0" />
+<clipPath id="jhscienceearth0029jc"><circle cx="260" cy="190" r="150"/></clipPath>
+<circle cx="260" cy="190" r="150" fill="#f3e5d0" stroke="#a1887f" stroke-width="2" />
+<g clip-path="url(#jhscienceearth0029jc)">
+<rect x="110" y="70" width="300" height="30" rx="0" fill="#d7b899" stroke="none" stroke-width="0" />
+<rect x="110" y="120" width="300" height="22" rx="0" fill="#c8a07a" stroke="none" stroke-width="0" />
+<rect x="110" y="160" width="300" height="18" rx="0" fill="#e8cfb2" stroke="none" stroke-width="0" />
+<rect x="110" y="200" width="300" height="26" rx="0" fill="#bf8f65" stroke="none" stroke-width="0" />
+<rect x="110" y="250" width="300" height="20" rx="0" fill="#d9b48f" stroke="none" stroke-width="0" />
+<rect x="110" y="290" width="300" height="26" rx="0" fill="#c8a07a" stroke="none" stroke-width="0" />
+<ellipse cx="310" cy="240" rx="34" ry="18" fill="#c0503a" stroke="#8e3b2a" stroke-width="1.5" />
+</g>
+<circle cx="510" cy="300" r="13" fill="#64b5f6" stroke="#1e88e5" stroke-width="2" />
+<text x="510" y="335" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#fff" >地球（同じ縮尺）</text>
+<line x1="480" y1="90" x2="380" y2="120" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="380" cy="120" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="480" cy="90" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="480" y="91" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="480" y1="210" x2="320" y2="245" stroke="#ccc" stroke-width="1.2"/>
+<text x="480" y="200" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#fff" >大きなうず</text>
+</svg>

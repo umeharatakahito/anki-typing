@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<defs><marker id="jhscienceearth0019mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="0" y="0" width="600" height="400" rx="0" fill="#263238" stroke="none" stroke-width="0" />
+<line x1="232.485" y1="366.018" x2="367.515" y2="53.9817" stroke="#fff" stroke-width="2" stroke-dasharray="6 4"/>
+<circle cx="300" cy="210" r="120" fill="#64b5f6" stroke="#1e88e5" stroke-width="2" />
+<ellipse cx="300" cy="210" rx="120" ry="30" fill="none" stroke="#bbdefb" stroke-width="1.5" transform="rotate(23.4 300 210)"/>
+<g transform="rotate(23.4 300 210)">
+<path d="M182,216 A120,30 0 0 0 418,216" fill="none" stroke="#f57c00" stroke-width="5" marker-end="url(#jhscienceearth0019mf57c00)"/>
+</g>
+<line x1="480" y1="330" x2="360" y2="265" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="360" cy="265" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="480" cy="330" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="480" y="331" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="130" y1="80" x2="363.544" y2="63.1593" stroke="#ccc" stroke-width="1.2"/>
+<text x="130" y="70" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#fff" >地軸</text>
+<text x="540" y="300" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#fff" >（西→東）</text>
+<text x="470" y="375" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#fff" >約1日で1回転</text>
+</svg>

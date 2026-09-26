@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<ellipse cx="130" cy="120" rx="70" ry="20" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<path d="M60,120 L60,210 A70,20 0 0 0 200,210 L200,120" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<line x1="170" y1="40" x2="150" y2="110" stroke="#8d6e63" stroke-width="5"/>
+<path d="M238.0,118.0 A40,40 0 0 1 238.0,182.0" fill="none" stroke="#1976d2" stroke-width="2.5" />
+<path d="M244.0,94.0 A70,70 0 0 1 244.0,206.0" fill="none" stroke="#1976d2" stroke-width="2.5" />
+<path d="M250.0,70.0 A100,100 0 0 1 250.0,230.0" fill="none" stroke="#1976d2" stroke-width="2.5" />
+<path d="M470,110 C520,80 560,120 540,160 C530,190 500,190 500,215 C500,240 460,240 460,210" fill="#ffe0b2" stroke="#37474f" stroke-width="2.5" />
+<text x="510" y="270" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >耳</text>
+<line x1="70" y1="40" x2="100" y2="110" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="100" cy="110" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="70" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="70" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="130" y="270" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >振動して音を出す</text>
+<text x="380" y="50" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >空気の振動が伝わる</text>
+</svg>

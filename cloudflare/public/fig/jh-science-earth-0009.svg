@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<defs><marker id="jhscienceearth0009mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="0" y="0" width="600" height="380" rx="0" fill="#f5fbff" stroke="none" stroke-width="0" />
+<path d="M0,60 L180,80 L270,290 L330,290 L420,80 L600,60 L600,380 L0,380 Z" fill="#bcaaa4" stroke="#6d4c41" stroke-width="2.5" />
+<path d="M262,270 C280,285 320,285 338,270 L330,290 L270,290 Z" fill="#64b5f6" stroke="#1976d2" stroke-width="1.5" />
+<text x="300" y="320" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >川の流れ</text>
+<path d="M258,230 L272,288 L328,288 L342,230" fill="none" stroke="#f57c00" stroke-width="5" />
+<path d="M230,200 L262,250" fill="none" stroke="#f57c00" stroke-width="3" marker-end="url(#jhscienceearth0009mf57c00)"/>
+<path d="M370,200 L338,250" fill="none" stroke="#f57c00" stroke-width="3" marker-end="url(#jhscienceearth0009mf57c00)"/>
+<line x1="470" y1="250" x2="340" y2="260" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="340" cy="260" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="470" cy="250" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="470" y="251" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="470" y="285" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >底や岸をけずる</text>
+<text x="300" y="30" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >V字形の谷（上流）</text>
+</svg>

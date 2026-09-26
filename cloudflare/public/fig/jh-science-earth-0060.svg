@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<rect x="0" y="0" width="600" height="380" rx="0" fill="#263238" stroke="none" stroke-width="0" />
+<line x1="331" y1="170" x2="339" y2="170" stroke="#f9a825" stroke-width="3"/>
+<line x1="321.92" y1="191.92" x2="327.577" y2="197.577" stroke="#f9a825" stroke-width="3"/>
+<line x1="300" y1="201" x2="300" y2="209" stroke="#f9a825" stroke-width="3"/>
+<line x1="278.08" y1="191.92" x2="272.423" y2="197.577" stroke="#f9a825" stroke-width="3"/>
+<line x1="269" y1="170" x2="261" y2="170" stroke="#f9a825" stroke-width="3"/>
+<line x1="278.08" y1="148.08" x2="272.423" y2="142.423" stroke="#f9a825" stroke-width="3"/>
+<line x1="300" y1="139" x2="300" y2="131" stroke="#f9a825" stroke-width="3"/>
+<line x1="321.92" y1="148.08" x2="327.577" y2="142.423" stroke="#f9a825" stroke-width="3"/>
+<circle cx="300" cy="170" r="26" fill="#fff59d" stroke="#f9a825" stroke-width="2" />
+<circle cx="300" cy="170" r="90" fill="none" stroke="#90a4ae" stroke-width="1.5" stroke-dasharray="5 4"/>
+<circle cx="300" cy="170" r="150" fill="none" stroke="#90a4ae" stroke-width="1.5" stroke-dasharray="5 4"/>
+<circle cx="300" cy="320" r="13" fill="#64b5f6" stroke="#1e88e5" stroke-width="2" />
+<text x="340" y="335" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#fff" >地球</text>
+<circle cx="368.944" cy="227.851" r="11" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<line x1="300" y1="320" x2="368.944" y2="227.851" stroke="#fff" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="500" y1="280" x2="376.944" y2="233.851" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="376.944" cy="233.851" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="500" cy="280" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="281" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="470" y="40" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#fff" >地球のすぐ内側を公転</text>
+<text x="300" y="125" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#fff" >太陽</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<rect x="182" y="222" width="216" height="86" rx="0" fill="#e8f5e9" stroke="none" stroke-width="0" />
+<path d="M174,150 L180,156 L180,310 L400,310 L400,156 L406,150" fill="none" stroke="#78909c" stroke-width="2.4" />
+<rect x="324" y="40" width="12" height="250" rx="6" fill="#fafafa" stroke="#37474f" stroke-width="1.6" />
+<circle cx="330" cy="296" r="11" fill="#d32f2f" stroke="#37474f" stroke-width="1.6" />
+<rect x="327" y="80" width="6" height="214" rx="0" fill="#d32f2f" stroke="none" stroke-width="0" />
+<path d="M150,40 C150,16 190,16 190,40 L190,70 L150,70 Z" fill="#90a4ae" stroke="#37474f" stroke-width="2" />
+<path d="M154,70 L186,70 L174,150 L166,150 Z" fill="#f5f5f5" stroke="#37474f" stroke-width="2" />
+<line x1="60" y1="110" x2="160" y2="100" stroke="#555" stroke-width="1.2"/>
+<circle cx="160" cy="100" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="60" y="110" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >NaOH水溶液</text>
+<line x1="520" y1="260" x2="398" y2="260" stroke="#555" stroke-width="1.2"/>
+<circle cx="398" cy="260" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="520" y="260" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >うすい塩酸</text>
+<path d="M430,110 q-16,-20 0,-40 q16,-20 0,-40 M470,120 q-16,-20 0,-40 q16,-20 0,-40" fill="none" stroke="#f57c00" stroke-width="3" />
+<text x="470" y="150" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >温度が上がる</text>
+<line x1="540" y1="50" x2="470" y2="60" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="470" cy="60" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="540" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="540" y="51" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

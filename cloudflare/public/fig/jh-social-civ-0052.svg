@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<defs><marker id="jhsocialciv0052m388e3c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#388e3c"/></marker><marker id="jhsocialciv0052mffb300" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffb300"/></marker></defs>
+<rect x="30" y="40" width="160" height="60" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="110" y="70" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >内閣</text>
+<rect x="220" y="40" width="160" height="60" rx="6" fill="#fff8e1" stroke="#ffb300" stroke-width="2" />
+<text x="300" y="70" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >天皇</text>
+<line x1="192" y1="70" x2="216" y2="70" stroke="#388e3c" stroke-width="2.5" marker-end="url(#jhsocialciv0052m388e3c)"/>
+<text x="205" y="118" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >助言と承認</text>
+<rect x="60" y="150" width="480" height="180" rx="10" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<circle cx="560" cy="150" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="151" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="90" y="175" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" >・法律・条約などの公布</text>
+<text x="90" y="201" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" >・国会の召集</text>
+<text x="90" y="227" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" >・衆議院の解散</text>
+<text x="90" y="253" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" >・内閣総理大臣の任命（国会の指名による）</text>
+<text x="90" y="279" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" >・最高裁判所長官の任命（内閣の指名による）</text>
+<text x="90" y="305" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" >・栄典の授与 など</text>
+<line x1="300" y1="102" x2="300" y2="146" stroke="#ffb300" stroke-width="2.5" marker-end="url(#jhsocialciv0052mffb300)"/>
+</svg>

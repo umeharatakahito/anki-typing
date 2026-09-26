@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 410" width="600" height="410" font-family="sans-serif">
+<rect width="600" height="410" fill="#fff"/>
+<rect x="0" y="0" width="600" height="410" rx="0" fill="#1a2340" stroke="none" stroke-width="0" />
+<line x1="165" y1="190" x2="173" y2="190" stroke="#f9a825" stroke-width="3"/>
+<line x1="160.607" y1="200.607" x2="166.263" y2="206.263" stroke="#f9a825" stroke-width="3"/>
+<line x1="150" y1="205" x2="150" y2="213" stroke="#f9a825" stroke-width="3"/>
+<line x1="139.393" y1="200.607" x2="133.737" y2="206.263" stroke="#f9a825" stroke-width="3"/>
+<line x1="135" y1="190" x2="127" y2="190" stroke="#f9a825" stroke-width="3"/>
+<line x1="139.393" y1="179.393" x2="133.737" y2="173.737" stroke="#f9a825" stroke-width="3"/>
+<line x1="150" y1="175" x2="150" y2="167" stroke="#f9a825" stroke-width="3"/>
+<line x1="160.607" y1="179.393" x2="166.263" y2="173.737" stroke="#f9a825" stroke-width="3"/>
+<circle cx="150" cy="190" r="10" fill="#fff59d" stroke="#f9a825" stroke-width="2" />
+<ellipse cx="150" cy="190" rx="250" ry="150" fill="none" stroke="#90a4ae" stroke-width="1.5" />
+<ellipse cx="200" cy="190" rx="330" ry="170" fill="none" stroke="#f57c00" stroke-width="2" stroke-dasharray="7 5"/>
+<circle cx="341.511" cy="93.5819" r="10" fill="#7986cb" stroke="#c5cae9" stroke-width="1.5" />
+<text x="390" y="50" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#fff" >海王星</text>
+<circle cx="510.099" cy="248.143" r="7" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="-125.043" cy="234.04" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="434.151" cy="349.015" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="541.436" cy="197.906" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="454.171" cy="81.9033" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="-128.415" cy="123.294" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="523.386" cy="238.639" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="102.405" cy="4.35401" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="149.886" cy="8.40828" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="223.963" cy="371.755" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="-166.441" cy="181.734" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="-101.615" cy="79.7851" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="-65.1803" cy="326.098" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="464.241" cy="302.331" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="37.3366" cy="9.41549" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="-79.5097" cy="275.67" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="165.964" cy="374.611" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="129.926" cy="392.081" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="313.762" cy="388.216" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="428.85" cy="66.0163" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="-46.8772" cy="324.691" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="533.416" cy="218.365" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="465.006" cy="88.8673" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="-61.7837" cy="85.6066" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="-121.305" cy="90.8408" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="290.802" cy="361.059" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="497.653" cy="288.608" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="514.983" cy="209.864" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="-166.476" cy="194.295" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="-94.1092" cy="282.401" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="-4.28181" cy="50.9538" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="-82.4528" cy="101.384" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="-85.7806" cy="56.5899" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="525.037" cy="255.892" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="-51.7025" cy="76.2305" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="157.417" cy="400.922" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="519.031" cy="187.664" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="98.279" cy="-12.6322" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="228.872" cy="388.592" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="521.469" cy="240.998" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<circle cx="40.8081" cy="13.5723" r="1.8" fill="#b0bec5" stroke="none" stroke-width="0" />
+<line x1="520" y1="330" x2="510.099" y2="254.143" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="510.099" cy="254.143" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="520" cy="330" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="331" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="250" y="392" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#fff" >球形に近いが軌道付近に他の天体が残る</text>
+<text x="150" y="215" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#fff" >太陽</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<rect x="100" y="90" width="400" height="160" rx="0" fill="none" stroke="#37474f" stroke-width="2.5" />
+<rect x="292" y="228" width="16" height="44" rx="0" fill="#fff" stroke="none" stroke-width="0" />
+<line x1="295" y1="230" x2="295" y2="270" stroke="#37474f" stroke-width="2.5"/>
+<line x1="305" y1="240" x2="305" y2="260" stroke="#37474f" stroke-width="5"/>
+<rect x="240" y="70" width="120" height="40" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<circle cx="273.796" cy="90.8846" r="3.5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="286.996" cy="92.0784" r="3.5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="312.572" cy="81.3106" r="3.5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="251.317" cy="96.7494" r="3.5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="275.935" cy="84.6866" r="3.5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="349.564" cy="89.4053" r="3.5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="333.646" cy="89.5271" r="3.5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="313.907" cy="83.0123" r="3.5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="313.486" cy="97.3609" r="3.5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="302.318" cy="94.825" r="3.5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<line x1="300" y1="30" x2="300" y2="70" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="300" cy="70" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="300" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="470" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >電流の流れにくさ</text>
+<text x="300" y="300" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >電熱線などの</text>
+</svg>

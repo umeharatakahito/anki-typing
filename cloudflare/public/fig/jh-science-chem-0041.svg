@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<rect x="20" y="40" width="270" height="230" rx="10" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<rect x="310" y="40" width="270" height="230" rx="10" fill="#fafafa" stroke="#90a4ae" stroke-width="2" />
+<circle cx="76.5" cy="110" r="18" fill="#ef9a9a" stroke="#c62828" stroke-width="1.8" />
+<text x="76.5" y="111" font-size="17.1" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >O</text>
+<circle cx="103.5" cy="110" r="18" fill="#ef9a9a" stroke="#c62828" stroke-width="1.8" />
+<text x="103.5" y="111" font-size="17.1" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >O</text>
+<text x="90" y="150" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >酸素</text>
+<circle cx="180" cy="90" r="16" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.8" />
+<text x="180" y="91" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >Fe</text>
+<circle cx="180" cy="124" r="16" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.8" />
+<text x="180" y="125" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >Fe</text>
+<circle cx="214" cy="90" r="16" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.8" />
+<text x="214" y="91" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >Fe</text>
+<circle cx="214" cy="124" r="16" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.8" />
+<text x="214" y="125" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >Fe</text>
+<circle cx="248" cy="90" r="16" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.8" />
+<text x="248" y="91" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >Fe</text>
+<circle cx="248" cy="124" r="16" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.8" />
+<text x="248" y="125" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >Fe</text>
+<text x="214" y="160" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >鉄</text>
+<circle cx="96.5" cy="210" r="18" fill="#ef9a9a" stroke="#c62828" stroke-width="1.8" />
+<text x="96.5" y="211" font-size="17.1" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >O</text>
+<circle cx="123.5" cy="210" r="18" fill="#ef9a9a" stroke="#c62828" stroke-width="1.8" />
+<text x="123.5" y="211" font-size="17.1" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >O</text>
+<circle cx="380" cy="110" r="20" fill="#ef9a9a" stroke="#c62828" stroke-width="1.8" />
+<text x="380" y="111" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >O</text>
+<circle cx="360" cy="128" r="13" fill="#fff" stroke="#37474f" stroke-width="1.8" />
+<text x="360" y="129" font-size="12.35" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >H</text>
+<circle cx="400" cy="128" r="13" fill="#fff" stroke="#37474f" stroke-width="1.8" />
+<text x="400" y="129" font-size="12.35" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >H</text>
+<text x="380" y="160" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >水</text>
+<circle cx="476" cy="110" r="14.4" fill="#ef9a9a" stroke="#c62828" stroke-width="1.8" />
+<text x="476" y="111" font-size="13.68" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >O</text>
+<circle cx="524" cy="110" r="14.4" fill="#ef9a9a" stroke="#c62828" stroke-width="1.8" />
+<text x="524" y="111" font-size="13.68" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >O</text>
+<circle cx="500" cy="110" r="16" fill="#616161" stroke="#212121" stroke-width="1.8" />
+<text x="500" y="111" font-size="15.2" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold" >C</text>
+<text x="500" y="160" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >二酸化炭素</text>
+<circle cx="420" cy="220" r="16" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.8" />
+<text x="420" y="221" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >Fe</text>
+<circle cx="450" cy="220" r="16" fill="#fff59d" stroke="#9e9d24" stroke-width="1.8" />
+<text x="450" y="221" font-size="15.2" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >S</text>
+<text x="435" y="250" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >硫化鉄</text>
+<text x="300" y="300" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1種類の元素だけ？ 2種類以上？</text>
+<circle cx="270" cy="20" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="270" y="21" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<rect x="0" y="0" width="600" height="360" rx="0" fill="#f5fbff" stroke="none" stroke-width="0" />
+<path d="M0,280 L80,282 L170,284 L215,262 L255,250 L268,262 L332,262 L345,250 L385,262 L430,284 L520,282 L600,280 L600,360 L0,360 Z" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2" />
+<path d="M268,262 L270,244 L330,244 L332,262 Z" fill="#64b5f6" stroke="none" stroke-width="0" />
+<path d="M270,244 L330,244" fill="none" stroke="#1976d2" stroke-width="2" />
+<polygon points="170,284 215,262 255,250 268,262 268,290 170,290" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" stroke-linejoin="round" />
+<polygon points="332,290 332,262 345,250 385,262 430,284 430,290" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" stroke-linejoin="round" />
+<polygon points="207.35,258 207.35,249.5 215,242.7 222.65,249.5 222.65,258" fill="#ffffff" stroke="#37474f" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="232.35,251 232.35,242.5 240,235.7 247.65,242.5 247.65,251" fill="#ffffff" stroke="#37474f" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="352.35,251 352.35,242.5 360,235.7 367.65,242.5 367.65,251" fill="#ffffff" stroke="#37474f" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="377.35,258 377.35,249.5 385,242.7 392.65,249.5 392.65,258" fill="#ffffff" stroke="#37474f" stroke-width="1.2" stroke-linejoin="round" />
+<rect x="53" y="276" width="34" height="5" rx="0" fill="#c5e1a5" stroke="#388e3c" stroke-width="1" />
+<line x1="58" y1="276" x2="58" y2="270" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="66" y1="276" x2="66" y2="270" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="74" y1="276" x2="74" y2="270" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="82" y1="276" x2="82" y2="270" stroke="#388e3c" stroke-width="1.2"/>
+<rect x="103" y="276" width="34" height="5" rx="0" fill="#c5e1a5" stroke="#388e3c" stroke-width="1" />
+<line x1="108" y1="276" x2="108" y2="270" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="116" y1="276" x2="116" y2="270" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="124" y1="276" x2="124" y2="270" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="132" y1="276" x2="132" y2="270" stroke="#388e3c" stroke-width="1.2"/>
+<rect x="463" y="276" width="34" height="5" rx="0" fill="#c5e1a5" stroke="#388e3c" stroke-width="1" />
+<line x1="468" y1="276" x2="468" y2="270" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="476" y1="276" x2="476" y2="270" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="484" y1="276" x2="484" y2="270" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="492" y1="276" x2="492" y2="270" stroke="#388e3c" stroke-width="1.2"/>
+<rect x="513" y="276" width="34" height="5" rx="0" fill="#c5e1a5" stroke="#388e3c" stroke-width="1" />
+<line x1="518" y1="276" x2="518" y2="270" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="526" y1="276" x2="526" y2="270" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="534" y1="276" x2="534" y2="270" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="542" y1="276" x2="542" y2="270" stroke="#388e3c" stroke-width="1.2"/>
+<text x="300" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" >川の周りの断面図（高さを強調）</text>
+<line x1="300" y1="190" x2="300" y2="246" stroke="#555" stroke-width="1.2"/>
+<circle cx="300" cy="246" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="300" y="190" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >川</text>
+<circle cx="300" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="300" y1="110" x2="235" y2="262" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="235" cy="262" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<line x1="300" y1="110" x2="365" y2="262" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="365" cy="262" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<line x1="90" y1="200" x2="95" y2="284" stroke="#555" stroke-width="1.2"/>
+<circle cx="95" cy="284" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="90" y="200" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >後背湿地</text>
+<text x="500" y="330" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >水田</text>
+<text x="100" y="330" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >水田</text>
+<text x="300" y="330" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#5d4037" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >集落・畑</text>
+</svg>

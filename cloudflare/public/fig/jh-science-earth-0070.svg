@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" font-family="sans-serif">
+<rect width="600" height="420" fill="#fff"/>
+<rect x="0" y="0" width="600" height="420" rx="0" fill="#1a2340" stroke="none" stroke-width="0" />
+<path d="M344.0,155.8 A100,100 0 0 0 331.9,132.6" fill="none" stroke="#fff59d" stroke-width="3" />
+<path d="M381.6,142.1 A140,140 0 0 0 364.7,109.7" fill="none" stroke="#fff59d" stroke-width="3" />
+<path d="M428.5,125.0 A190,190 0 0 0 405.6,81.0" fill="none" stroke="#fff59d" stroke-width="3" />
+<circle cx="250" cy="190" r="6" fill="#fff" stroke="none" stroke-width="0" />
+<text x="230" y="216" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#fff" >北極星</text>
+<line x1="250" y1="190" x2="428.542" y2="125.016" stroke="#b0bec5" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="250" y1="190" x2="405.639" y2="81.0205" stroke="#b0bec5" stroke-width="1.5" stroke-dasharray="5 4"/>
+<path d="M306.4,169.5 A60,60 0 0 0 299.1,155.6" fill="none" stroke="#f57c00" stroke-width="4" />
+<line x1="360" y1="330" x2="303.46" y2="162.761" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="303.46" cy="162.761" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="360" cy="330" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="360" y="331" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="423.939" y="51.6262" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#fff" >1時間後</text>
+<text x="453.286" y="128.003" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#fff" >観測開始</text>
+<rect x="0" y="370" width="600" height="50" rx="0" fill="#2e3b24" stroke="none" stroke-width="0" />
+<text x="300" y="395" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#fff" >北の空</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<rect x="30" y="50" width="540" height="250" rx="12" fill="#fafafa" stroke="#37474f" stroke-width="2" />
+<text x="300" y="30" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >国会</text>
+<rect x="60" y="90" width="220" height="180" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2.5" />
+<rect x="320" y="90" width="220" height="180" rx="8" fill="#fce4ec" stroke="#c2185b" stroke-width="2.5" />
+<text x="170" y="118" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >衆議院</text>
+<text x="430" y="118" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >参議院</text>
+<text x="170" y="160" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >定数 465人</text>
+<text x="170" y="190" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >任期 4年</text>
+<text x="170" y="220" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >解散あり</text>
+<text x="430" y="160" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >定数 248人</text>
+<text x="430" y="190" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >任期 6年</text>
+<text x="430" y="220" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >3年ごとに半数改選</text>
+<line x1="560" y1="30" x2="540" y2="60" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="540" cy="60" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="560" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

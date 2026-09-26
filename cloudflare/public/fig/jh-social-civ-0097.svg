@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<defs><marker id="jhsocialciv0097m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<path d="M150,180 L150.0,70.0 A110,110 0 0 1 184.0,284.6 Z" fill="#ffcc80" stroke="#fff" stroke-width="2" />
+<text x="215.187" y="169.675" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >A社</text>
+<path d="M150,180 L184.0,284.6 A110,110 0 0 1 40.0,180.0 Z" fill="#ffe0b2" stroke="#fff" stroke-width="2" />
+<text x="111.206" y="233.395" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >B社</text>
+<path d="M150,180 L40.0,180.0 A110,110 0 0 1 116.0,75.4 Z" fill="#fff3e0" stroke="#fff" stroke-width="2" />
+<text x="96.6049" y="141.206" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >C社</text>
+<path d="M150,180 L116.0,75.4 A110,110 0 0 1 150.0,70.0 Z" fill="#eceff1" stroke="#fff" stroke-width="2" />
+<text x="139.675" y="114.813" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >他</text>
+<text x="150" y="40" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555" >少数の企業が市場を占める（寡占）</text>
+<rect x="330" y="60" width="230" height="60" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="445" y="81" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >A社（先導者）が</text>
+<text x="445" y="99" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >価格を決める</text>
+<line x1="445" y1="122" x2="400" y2="180" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsocialciv0097m37474f)"/>
+<line x1="445" y1="122" x2="500" y2="180" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsocialciv0097m37474f)"/>
+<rect x="330" y="184" width="110" height="50" rx="6" fill="#fff" stroke="#b0bec5" stroke-width="2" />
+<text x="385" y="200.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >B社も</text>
+<text x="385" y="217.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >同じ価格</text>
+<rect x="450" y="184" width="110" height="50" rx="6" fill="#fff" stroke="#b0bec5" stroke-width="2" />
+<text x="505" y="200.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >C社も</text>
+<text x="505" y="217.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >同じ価格</text>
+<line x1="445" y1="290" x2="445" y2="236" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="445" cy="236" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="445" cy="290" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="445" y="291" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<path d="M400,180 L400.0,50.0 A130,130 0 1 1 272.3,155.6 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<path d="M400,180 L272.3,155.6 A130,130 0 0 1 391.8,50.3 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<path d="M400,180 L391.8,50.3 A130,130 0 0 1 400.0,50.0 Z" fill="#e0e0e0" stroke="#37474f" stroke-width="2" />
+<text x="440" y="230" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >約78%</text>
+<line x1="40" y1="150" x2="347.095" y2="119.991" stroke="#555" stroke-width="1.2"/>
+<circle cx="347.095" cy="119.991" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="40" y="150" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >酸素 約21%</text>
+<line x1="40" y1="60" x2="396.389" y2="70.0593" stroke="#555" stroke-width="1.2"/>
+<circle cx="396.389" cy="70.0593" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="40" y="60" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >その他 約1%</text>
+<text x="140" y="300" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >空気の成分（体積の割合）</text>
+<circle cx="470" cy="180" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="470" y="181" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<defs><marker id="jhsocialciv0078m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="jhsocialciv0078m78909c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#78909c"/></marker></defs>
+<rect x="20" y="110" width="150" height="70" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="95" y="135.4" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >家計</text>
+<text x="95" y="154.6" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >（預金者）</text>
+<rect x="225" y="100" width="150" height="90" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="300" y="145" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >銀行</text>
+<rect x="430" y="110" width="150" height="70" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="505" y="145" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" >企業</text>
+<line x1="172" y1="135" x2="222" y2="135" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsocialciv0078m37474f)"/>
+<text x="197" y="110" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >預金</text>
+<line x1="377" y1="135" x2="427" y2="135" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsocialciv0078m37474f)"/>
+<text x="402" y="110" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >貸し出し</text>
+<line x1="222" y1="165" x2="172" y2="165" stroke="#78909c" stroke-width="1.5" marker-end="url(#jhsocialciv0078m78909c)"/>
+<text x="197" y="186" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#78909c" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >利子</text>
+<line x1="427" y1="165" x2="377" y2="165" stroke="#78909c" stroke-width="1.5" marker-end="url(#jhsocialciv0078m78909c)"/>
+<text x="402" y="186" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#78909c" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >利子</text>
+<line x1="300" y1="40" x2="300" y2="98" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="300" cy="98" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="300" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<path d="M95,182 C95,290 505,290 505,182" fill="none" stroke="#b0bec5" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="300" y="290" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#78909c" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >株式・債券を買う（直接お金を出す）</text>
+</svg>

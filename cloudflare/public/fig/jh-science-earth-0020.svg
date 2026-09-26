@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<defs><marker id="jhscienceearth0020mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="0" y="0" width="600" height="380" rx="0" fill="#263238" stroke="none" stroke-width="0" />
+<ellipse cx="300" cy="190" rx="240" ry="130" fill="none" stroke="#f57c00" stroke-width="3" />
+<line x1="341" y1="190" x2="349" y2="190" stroke="#f9a825" stroke-width="3"/>
+<line x1="328.991" y1="218.991" x2="334.648" y2="224.648" stroke="#f9a825" stroke-width="3"/>
+<line x1="300" y1="231" x2="300" y2="239" stroke="#f9a825" stroke-width="3"/>
+<line x1="271.009" y1="218.991" x2="265.352" y2="224.648" stroke="#f9a825" stroke-width="3"/>
+<line x1="259" y1="190" x2="251" y2="190" stroke="#f9a825" stroke-width="3"/>
+<line x1="271.009" y1="161.009" x2="265.352" y2="155.352" stroke="#f9a825" stroke-width="3"/>
+<line x1="300" y1="149" x2="300" y2="141" stroke="#f9a825" stroke-width="3"/>
+<line x1="328.991" y1="161.009" x2="334.648" y2="155.352" stroke="#f9a825" stroke-width="3"/>
+<circle cx="300" cy="190" r="36" fill="#fff59d" stroke="#f9a825" stroke-width="2" />
+<text x="300" y="260" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#fff" >太陽</text>
+<circle cx="420" cy="302.583" r="16" fill="#64b5f6" stroke="#1e88e5" stroke-width="2" />
+<circle cx="92.1539" cy="255" r="16" fill="#64b5f6" stroke="#1e88e5" stroke-width="2" />
+<circle cx="180" cy="77.4167" r="16" fill="#64b5f6" stroke="#1e88e5" stroke-width="2" />
+<circle cx="507.846" cy="125" r="16" fill="#64b5f6" stroke="#1e88e5" stroke-width="2" />
+<path d="M382.1,312.2 A240,130 0 0 1 116.1,273.6" fill="none" stroke="#f57c00" stroke-width="4" marker-end="url(#jhscienceearth0020mf57c00)"/>
+<line x1="80" y1="330" x2="217.915" y2="312.16" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="217.915" cy="312.16" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="80" cy="330" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="80" y="331" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="470" y="355" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#fff" >地球：約1年で1周</text>
+</svg>

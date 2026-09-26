@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" font-family="sans-serif">
+<rect width="600" height="420" fill="#fff"/>
+<path d="M220,30 L220,370 M300,30 L300,370" fill="none" stroke="#f57c00" stroke-width="2.6" />
+<path d="M200,370 L320,370 L340,400 L180,400 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<path d="M214,30 L306,30" fill="none" stroke="#f57c00" stroke-width="2.6" />
+<rect x="222" y="190" width="76" height="178" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" />
+<path d="M222,184 Q260,204 298,184" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<line x1="300" y1="350" x2="275" y2="350" stroke="#37474f" stroke-width="1.4"/>
+<line x1="300" y1="330" x2="285" y2="330" stroke="#37474f" stroke-width="1.4"/>
+<line x1="300" y1="310" x2="285" y2="310" stroke="#37474f" stroke-width="1.4"/>
+<line x1="300" y1="290" x2="285" y2="290" stroke="#37474f" stroke-width="1.4"/>
+<line x1="300" y1="270" x2="285" y2="270" stroke="#37474f" stroke-width="1.4"/>
+<line x1="300" y1="250" x2="275" y2="250" stroke="#37474f" stroke-width="1.4"/>
+<line x1="300" y1="230" x2="285" y2="230" stroke="#37474f" stroke-width="1.4"/>
+<line x1="300" y1="210" x2="285" y2="210" stroke="#37474f" stroke-width="1.4"/>
+<line x1="300" y1="190" x2="285" y2="190" stroke="#37474f" stroke-width="1.4"/>
+<line x1="300" y1="170" x2="285" y2="170" stroke="#37474f" stroke-width="1.4"/>
+<line x1="300" y1="150" x2="275" y2="150" stroke="#37474f" stroke-width="1.4"/>
+<line x1="300" y1="130" x2="285" y2="130" stroke="#37474f" stroke-width="1.4"/>
+<line x1="300" y1="110" x2="285" y2="110" stroke="#37474f" stroke-width="1.4"/>
+<line x1="300" y1="90" x2="285" y2="90" stroke="#37474f" stroke-width="1.4"/>
+<line x1="300" y1="70" x2="285" y2="70" stroke="#37474f" stroke-width="1.4"/>
+<line x1="300" y1="50" x2="275" y2="50" stroke="#37474f" stroke-width="1.4"/>
+<ellipse cx="470" cy="194" rx="22" ry="12" fill="#fff" stroke="#37474f" stroke-width="2" />
+<circle cx="462" cy="194" r="6" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<line x1="440" y1="194" x2="310" y2="194" stroke="#555" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="120" y1="150" x2="258" y2="192" stroke="#555" stroke-width="1.2"/>
+<circle cx="258" cy="192" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="120" y="150" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >液面のへこんだ下の面</text>
+<text x="470" y="230" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >真横から読む</text>
+<line x1="100" y1="300" x2="222" y2="300" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="222" cy="300" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="100" cy="300" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="100" y="301" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

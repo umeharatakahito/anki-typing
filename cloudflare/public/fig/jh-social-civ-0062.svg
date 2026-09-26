@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<defs><marker id="jhsocialciv0062m78909c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#78909c"/></marker></defs>
+<polygon points="300,40 400,110 200,110" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" stroke-linejoin="round" />
+<text x="300" y="85" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >憲法</text>
+<polygon points="200,110 400,110 460,180 140,180" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" stroke-linejoin="round" />
+<text x="300" y="146" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >法律</text>
+<polygon points="140,180 460,180 520,250 80,250" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" stroke-linejoin="round" />
+<text x="300" y="216" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >命令（政令など）</text>
+<polygon points="80,250 520,250 580,320 20,320" fill="#f5f5f5" stroke="#37474f" stroke-width="1.5" stroke-linejoin="round" />
+<text x="300" y="286" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >条例・規則</text>
+<line x1="470" y1="70" x2="330" y2="90" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="330" cy="90" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="470" cy="70" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="470" y="71" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="470" y="130" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >反する法律や命令は</text>
+<text x="470" y="150" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >効力をもたない</text>
+<line x1="30" y1="320" x2="30" y2="60" stroke="#78909c" stroke-width="2" marker-end="url(#jhsocialciv0062m78909c)"/>
+<text x="40" y="330" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#78909c" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >上位ほど強い効力</text>
+</svg>

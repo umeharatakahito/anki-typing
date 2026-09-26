@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<defs><marker id="jhsciencebio0083mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<circle cx="120" cy="160" r="70" fill="#eceff1" stroke="#37474f" stroke-width="2.4" />
+<line x1="100" y1="130" x2="100" y2="190" stroke="#d32f2f" stroke-width="8"/>
+<line x1="140" y1="130" x2="140" y2="190" stroke="#1976d2" stroke-width="8"/>
+<text x="100" y="110" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >A</text>
+<text x="140" y="110" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >a</text>
+<text x="120" y="260" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >親の細胞（Aa）</text>
+<line x1="200" y1="130" x2="330" y2="80" stroke="#f57c00" stroke-width="3.5" marker-end="url(#jhsciencebio0083mf57c00)"/>
+<line x1="200" y1="190" x2="330" y2="240" stroke="#f57c00" stroke-width="3.5" marker-end="url(#jhsciencebio0083mf57c00)"/>
+<circle cx="400" cy="80" r="50" fill="#ffebee" stroke="#d32f2f" stroke-width="2" />
+<line x1="400" y1="60" x2="400" y2="100" stroke="#d32f2f" stroke-width="8"/>
+<text x="470" y="80" font-size="20" text-anchor="start" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >A</text>
+<circle cx="400" cy="240" r="50" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<line x1="400" y1="220" x2="400" y2="260" stroke="#1976d2" stroke-width="8"/>
+<text x="470" y="240" font-size="20" text-anchor="start" dominant-baseline="middle" fill="#1976d2" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >a</text>
+<text x="480" y="160" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >生殖細胞</text>
+<circle cx="260" cy="160" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="260" y="161" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

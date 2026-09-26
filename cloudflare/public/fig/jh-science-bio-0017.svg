@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<defs><marker id="jhsciencebio0017mf9a825" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f9a825"/></marker><marker id="jhsciencebio0017m1976d2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1976d2"/></marker><marker id="jhsciencebio0017md32f2f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d32f2f"/></marker></defs>
+<path d="M300,330 L300,280" fill="none" stroke="#2e7d32" stroke-width="4" />
+<path d="M300,280 C170,240 170,100 300,60 C430,100 430,240 300,280 Z" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2.4" />
+<ellipse cx="300" cy="170" rx="60" ry="34" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<ellipse cx="270" cy="165" rx="10" ry="6" fill="#66bb6a" stroke="#2e7d32" stroke-width="1.2" />
+<ellipse cx="300" cy="155" rx="10" ry="6" fill="#66bb6a" stroke="#2e7d32" stroke-width="1.2" />
+<ellipse cx="325" cy="175" rx="10" ry="6" fill="#66bb6a" stroke="#2e7d32" stroke-width="1.2" />
+<ellipse cx="290" cy="185" rx="10" ry="6" fill="#66bb6a" stroke="#2e7d32" stroke-width="1.2" />
+<line x1="470" y1="210" x2="330" y2="180" stroke="#555" stroke-width="1.2"/>
+<circle cx="330" cy="180" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="470" y="210" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >葉緑体</text>
+<circle cx="60" cy="50" r="26" fill="#fff176" stroke="#f9a825" stroke-width="2" />
+<line x1="90" y1="70" x2="220" y2="130" stroke="#f9a825" stroke-width="3" marker-end="url(#jhsciencebio0017mf9a825)"/>
+<text x="120" y="118" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >光</text>
+<line x1="40" y1="180" x2="200" y2="180" stroke="#1976d2" stroke-width="3" marker-end="url(#jhsciencebio0017m1976d2)"/>
+<text x="90" y="164" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >二酸化炭素</text>
+<line x1="300" y1="345" x2="300" y2="300" stroke="#1976d2" stroke-width="3" marker-end="url(#jhsciencebio0017m1976d2)"/>
+<text x="350" y="340" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >水（根から）</text>
+<line x1="400" y1="120" x2="540" y2="80" stroke="#d32f2f" stroke-width="3" marker-end="url(#jhsciencebio0017md32f2f)"/>
+<text x="520" y="60" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >酸素</text>
+<line x1="360" y1="250" x2="500" y2="290" stroke="#d32f2f" stroke-width="3" marker-end="url(#jhsciencebio0017md32f2f)"/>
+<text x="520" y="314" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >デンプンなど</text>
+<circle cx="300" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

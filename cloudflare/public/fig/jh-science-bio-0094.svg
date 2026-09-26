@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<path d="M180,340 L180,120 C180,20 420,20 420,120 L420,340" fill="#ffe0b2" stroke="#e65100" stroke-width="2.4" />
+<path d="M210,100 C260,82 340,118 390,100" fill="none" stroke="#e53935" stroke-width="3" />
+<path d="M210,140 C260,122 340,158 390,140" fill="none" stroke="#e53935" stroke-width="3" />
+<path d="M210,180 C260,162 340,198 390,180" fill="none" stroke="#e53935" stroke-width="3" />
+<path d="M210,220 C260,202 340,238 390,220" fill="none" stroke="#e53935" stroke-width="3" />
+<path d="M210,260 C260,242 340,278 390,260" fill="none" stroke="#e53935" stroke-width="3" />
+<path d="M210,300 C260,282 340,318 390,300" fill="none" stroke="#e53935" stroke-width="3" />
+<path d="M210,340 L210,100 C210,50 390,50 390,100 L390,340" fill="none" stroke="#e53935" stroke-width="3" />
+<path d="M300,340 L300,80" fill="none" stroke="#f57c00" stroke-width="12" stroke-linecap="round"/>
+<path d="M300,340 L300,80" fill="none" stroke="#ffcc80" stroke-width="7" stroke-linecap="round"/>
+<line x1="520" y1="150" x2="390" y2="140" stroke="#555" stroke-width="1.2"/>
+<circle cx="390" cy="140" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="520" y="150" font-size="16" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >毛細血管</text>
+<text x="300" y="20" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >小腸の柔毛</text>
+<line x1="80" y1="300" x2="180" y2="300" stroke="#555" stroke-width="1.2"/>
+<circle cx="180" cy="300" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="80" y="300" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >表面</text>
+<line x1="80" y1="180" x2="296" y2="200" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="296" cy="200" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="80" cy="180" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="80" y="181" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

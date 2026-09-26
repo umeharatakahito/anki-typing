@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<rect x="202" y="215" width="196" height="103" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" />
+<path d="M194,170 L200,176 L200,320 L400,320 L400,176 L406,170" fill="none" stroke="#78909c" stroke-width="2.4" />
+<line x1="250" y1="120" x2="250" y2="300" stroke="#78909c" stroke-width="8"/>
+<line x1="350" y1="120" x2="350" y2="300" stroke="#78909c" stroke-width="8"/>
+<path d="M250,120 L250,60 L260,60 M340,60 L350,60 L350,120" fill="none" stroke="#37474f" stroke-width="2" />
+<circle cx="300" cy="60" r="26" fill="#eeeeee" stroke="#37474f" stroke-width="2" />
+<rect x="430" y="40" width="110" height="50" rx="6" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<text x="485" y="65" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >電源</text>
+<path d="M326,60 L430,60 M274,60 L180,60 L180,20 L560,20 L560,60 L540,60" fill="none" stroke="#37474f" stroke-width="2" />
+<text x="300" y="340" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >砂糖水（豆電球がつかない）</text>
+<rect x="231.842" y="292.795" width="12" height="12" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<rect x="360.842" y="245.406" width="12" height="12" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<rect x="293.224" y="260.959" width="12" height="12" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<rect x="319.771" y="288.098" width="12" height="12" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<rect x="224.956" y="227.268" width="12" height="12" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<rect x="373.08" y="259.621" width="12" height="12" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<rect x="360.588" y="225.168" width="12" height="12" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<rect x="284.716" y="282.723" width="12" height="12" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<rect x="269.89" y="300.622" width="12" height="12" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<rect x="362.243" y="227.447" width="12" height="12" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="1.4" />
+<line x1="80" y1="220" x2="216" y2="230" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="216" cy="230" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="80" cy="220" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="80" y="221" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

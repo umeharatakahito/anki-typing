@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<ellipse cx="260" cy="160" rx="190" ry="70" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<ellipse cx="260" cy="160" rx="160" ry="59" fill="none" stroke="#bf6d20" stroke-width="1.5" />
+<ellipse cx="260" cy="160" rx="130" ry="48" fill="none" stroke="#bf6d20" stroke-width="1.5" />
+<ellipse cx="260" cy="160" rx="100" ry="37" fill="none" stroke="#bf6d20" stroke-width="1.5" />
+<ellipse cx="260" cy="160" rx="70" ry="26" fill="none" stroke="#bf6d20" stroke-width="1.5" />
+<ellipse cx="260" cy="160" rx="40" ry="15" fill="none" stroke="#bf6d20" stroke-width="1.5" />
+<line x1="100" y1="125.248" x2="100" y2="194.752" stroke="#bf6d20" stroke-width="1"/>
+<line x1="120" y1="115.675" x2="120" y2="204.325" stroke="#bf6d20" stroke-width="1"/>
+<line x1="140" y1="108.728" x2="140" y2="211.272" stroke="#bf6d20" stroke-width="1"/>
+<line x1="160" y1="103.48" x2="160" y2="216.52" stroke="#bf6d20" stroke-width="1"/>
+<line x1="180" y1="99.5075" x2="180" y2="220.493" stroke="#bf6d20" stroke-width="1"/>
+<line x1="200" y1="96.582" x2="200" y2="223.418" stroke="#bf6d20" stroke-width="1"/>
+<line x1="220" y1="94.5688" x2="220" y2="225.431" stroke="#bf6d20" stroke-width="1"/>
+<line x1="240" y1="93.3889" x2="240" y2="226.611" stroke="#bf6d20" stroke-width="1"/>
+<line x1="260" y1="93" x2="260" y2="227" stroke="#bf6d20" stroke-width="1"/>
+<line x1="280" y1="93.3889" x2="280" y2="226.611" stroke="#bf6d20" stroke-width="1"/>
+<line x1="300" y1="94.5688" x2="300" y2="225.431" stroke="#bf6d20" stroke-width="1"/>
+<line x1="320" y1="96.582" x2="320" y2="223.418" stroke="#bf6d20" stroke-width="1"/>
+<line x1="340" y1="99.5075" x2="340" y2="220.493" stroke="#bf6d20" stroke-width="1"/>
+<line x1="360" y1="103.48" x2="360" y2="216.52" stroke="#bf6d20" stroke-width="1"/>
+<line x1="380" y1="108.728" x2="380" y2="211.272" stroke="#bf6d20" stroke-width="1"/>
+<line x1="400" y1="115.675" x2="400" y2="204.325" stroke="#bf6d20" stroke-width="1"/>
+<line x1="420" y1="125.248" x2="420" y2="194.752" stroke="#bf6d20" stroke-width="1"/>
+<line x1="500" y1="60" x2="400" y2="120" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="400" cy="120" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="500" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="70" y1="280" x2="450" y2="280" stroke="#37474f" stroke-width="2.5"/>
+<line x1="70" y1="272" x2="70" y2="288" stroke="#37474f" stroke-width="2"/>
+<line x1="450" y1="272" x2="450" y2="288" stroke="#37474f" stroke-width="2"/>
+<text x="260" y="305" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >実物の大きさ 約5mm（米粒ほど）</text>
+<text x="500" y="250" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >古生代</text>
+</svg>

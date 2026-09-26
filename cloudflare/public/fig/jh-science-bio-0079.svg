@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<defs><marker id="jhsciencebio0079m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<circle cx="120" cy="150" r="80" fill="#eceff1" stroke="#37474f" stroke-width="2.4" />
+<text x="120" y="150" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >46本</text>
+<text x="120" y="260" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >体細胞</text>
+<line x1="220" y1="150" x2="330" y2="150" stroke="#37474f" stroke-width="3" marker-end="url(#jhsciencebio0079m37474f)"/>
+<text x="275" y="120" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >減数分裂</text>
+<circle cx="450" cy="150" r="60" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<circle cx="450" cy="150" r="20" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="450" y="151" font-size="26.6" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="450" y="260" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >卵</text>
+</svg>

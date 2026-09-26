@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" font-family="sans-serif">
+<rect width="600" height="420" fill="#fff"/>
+<rect x="0" y="0" width="600" height="420" rx="0" fill="#f1f8e9" stroke="none" stroke-width="0" />
+<rect x="0" y="0" width="600" height="110" rx="0" fill="#d7ccc8" stroke="none" stroke-width="0" />
+<path d="M-30,110 L30,40 L90,110 Z" fill="#a1887f" stroke="#5d4037" stroke-width="2" />
+<path d="M48,110 L108,52 L168,110 Z" fill="#a1887f" stroke="#5d4037" stroke-width="2" />
+<path d="M126,110 L186,64 L246,110 Z" fill="#a1887f" stroke="#5d4037" stroke-width="2" />
+<path d="M204,110 L264,40 L324,110 Z" fill="#a1887f" stroke="#5d4037" stroke-width="2" />
+<path d="M282,110 L342,52 L402,110 Z" fill="#a1887f" stroke="#5d4037" stroke-width="2" />
+<path d="M360,110 L420,64 L480,110 Z" fill="#a1887f" stroke="#5d4037" stroke-width="2" />
+<path d="M438,110 L498,40 L558,110 Z" fill="#a1887f" stroke="#5d4037" stroke-width="2" />
+<path d="M516,110 L576,52 L636,110 Z" fill="#a1887f" stroke="#5d4037" stroke-width="2" />
+<path d="M300,0 L300,110" fill="none" stroke="#1e88e5" stroke-width="7" />
+<path d="M300.0,110.0 L248.4,183.7 A90,90 0 0 0 351.6,183.7 L300.0,110.0 Z" fill="#fff3e0" stroke="#bcaaa4" stroke-width="1.5" />
+<path d="M248.4,183.7 L179.5,282.0 A210,210 0 0 0 420.5,282.0 L351.6,183.7 A90,90 0 0 1 248.4,183.7 Z" fill="#fff3e0" stroke="#bcaaa4" stroke-width="1.5" />
+<path d="M179.5,282.0 L139.4,339.4 A280,280 0 0 0 460.6,339.4 L420.5,282.0 A210,210 0 0 1 179.5,282.0 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<path d="M300,110 L302,200" fill="none" stroke="#1e88e5" stroke-width="4" />
+<path d="M302,200 L306,318" fill="none" stroke="#1e88e5" stroke-width="3" stroke-dasharray="6 6"/>
+<path d="M306,318 L312,400" fill="none" stroke="#1e88e5" stroke-width="4" />
+<line x1="341.599" y1="270.766" x2="341.599" y2="262.766" stroke="#6d4c41" stroke-width="2"/>
+<circle cx="341.599" cy="257.766" r="7" fill="#81c784" stroke="#388e3c" stroke-width="1.2" />
+<line x1="381.148" y1="272.424" x2="381.148" y2="264.424" stroke="#6d4c41" stroke-width="2"/>
+<circle cx="381.148" cy="259.424" r="7" fill="#81c784" stroke="#388e3c" stroke-width="1.2" />
+<line x1="375.578" y1="269.601" x2="375.578" y2="261.601" stroke="#6d4c41" stroke-width="2"/>
+<circle cx="375.578" cy="256.601" r="7" fill="#81c784" stroke="#388e3c" stroke-width="1.2" />
+<line x1="295.947" y1="222.538" x2="295.947" y2="214.538" stroke="#6d4c41" stroke-width="2"/>
+<circle cx="295.947" cy="209.538" r="7" fill="#81c784" stroke="#388e3c" stroke-width="1.2" />
+<line x1="330.283" y1="302.535" x2="330.283" y2="294.535" stroke="#6d4c41" stroke-width="2"/>
+<circle cx="330.283" cy="289.535" r="7" fill="#81c784" stroke="#388e3c" stroke-width="1.2" />
+<line x1="224.702" y1="285.619" x2="224.702" y2="277.619" stroke="#6d4c41" stroke-width="2"/>
+<circle cx="224.702" cy="272.619" r="7" fill="#81c784" stroke="#388e3c" stroke-width="1.2" />
+<line x1="260.076" y1="256.887" x2="260.076" y2="248.887" stroke="#6d4c41" stroke-width="2"/>
+<circle cx="260.076" cy="243.887" r="7" fill="#81c784" stroke="#388e3c" stroke-width="1.2" />
+<line x1="312.294" y1="268.462" x2="312.294" y2="260.462" stroke="#6d4c41" stroke-width="2"/>
+<circle cx="312.294" cy="255.462" r="7" fill="#81c784" stroke="#388e3c" stroke-width="1.2" />
+<line x1="267.501" y1="216.324" x2="267.501" y2="208.324" stroke="#6d4c41" stroke-width="2"/>
+<circle cx="267.501" cy="203.324" r="7" fill="#81c784" stroke="#388e3c" stroke-width="1.2" />
+<line x1="357.077" y1="232.51" x2="357.077" y2="224.51" stroke="#6d4c41" stroke-width="2"/>
+<circle cx="357.077" cy="219.51" r="7" fill="#81c784" stroke="#388e3c" stroke-width="1.2" />
+<line x1="237.566" y1="277.668" x2="237.566" y2="269.668" stroke="#6d4c41" stroke-width="2"/>
+<circle cx="237.566" cy="264.668" r="7" fill="#81c784" stroke="#388e3c" stroke-width="1.2" />
+<line x1="232.878" y1="278.894" x2="232.878" y2="270.894" stroke="#6d4c41" stroke-width="2"/>
+<circle cx="232.878" cy="265.894" r="7" fill="#81c784" stroke="#388e3c" stroke-width="1.2" />
+<line x1="236.911" y1="263.08" x2="236.911" y2="255.08" stroke="#6d4c41" stroke-width="2"/>
+<circle cx="236.911" cy="250.08" r="7" fill="#81c784" stroke="#388e3c" stroke-width="1.2" />
+<line x1="341.773" y1="211.932" x2="341.773" y2="203.932" stroke="#6d4c41" stroke-width="2"/>
+<circle cx="341.773" cy="198.932" r="7" fill="#81c784" stroke="#388e3c" stroke-width="1.2" />
+<polygon points="184.272,343.646 184.272,334.646 192.372,327.446 200.472,334.646 200.472,343.646" fill="#ffffff" stroke="#37474f" stroke-width="1.2" stroke-linejoin="round" />
+<rect x="211.907" y="354.076" width="30" height="5" rx="0" fill="#c5e1a5" stroke="#388e3c" stroke-width="1" />
+<line x1="216.907" y1="354.076" x2="216.907" y2="348.076" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="223.574" y1="354.076" x2="223.574" y2="348.076" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="230.24" y1="354.076" x2="230.24" y2="348.076" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="236.907" y1="354.076" x2="236.907" y2="348.076" stroke="#388e3c" stroke-width="1.2"/>
+<polygon points="254.948,365.254 254.948,356.254 263.048,349.054 271.148,356.254 271.148,365.254" fill="#ffffff" stroke="#37474f" stroke-width="1.2" stroke-linejoin="round" />
+<rect x="285" y="365" width="30" height="5" rx="0" fill="#c5e1a5" stroke="#388e3c" stroke-width="1" />
+<line x1="290" y1="365" x2="290" y2="359" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="296.667" y1="365" x2="296.667" y2="359" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="303.333" y1="365" x2="303.333" y2="359" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="310" y1="365" x2="310" y2="359" stroke="#388e3c" stroke-width="1.2"/>
+<polygon points="328.852,365.254 328.852,356.254 336.952,349.054 345.052,356.254 345.052,365.254" fill="#ffffff" stroke="#37474f" stroke-width="1.2" stroke-linejoin="round" />
+<rect x="358.093" y="354.076" width="30" height="5" rx="0" fill="#c5e1a5" stroke="#388e3c" stroke-width="1" />
+<line x1="363.093" y1="354.076" x2="363.093" y2="348.076" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="369.76" y1="354.076" x2="369.76" y2="348.076" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="376.426" y1="354.076" x2="376.426" y2="348.076" stroke="#388e3c" stroke-width="1.2"/>
+<line x1="383.093" y1="354.076" x2="383.093" y2="348.076" stroke="#388e3c" stroke-width="1.2"/>
+<polygon points="399.528,343.646 399.528,334.646 407.628,327.446 415.728,334.646 415.728,343.646" fill="#ffffff" stroke="#37474f" stroke-width="1.2" stroke-linejoin="round" />
+<circle cx="220.583" cy="306.563" r="4" fill="#4fc3f7" stroke="#0277bd" stroke-width="1" />
+<circle cx="266.836" cy="319.39" r="4" fill="#4fc3f7" stroke="#0277bd" stroke-width="1" />
+<circle cx="314.788" cy="321.484" r="4" fill="#4fc3f7" stroke="#0277bd" stroke-width="1" />
+<circle cx="361.983" cy="312.737" r="4" fill="#4fc3f7" stroke="#0277bd" stroke-width="1" />
+<circle cx="406" cy="293.597" r="4" fill="#4fc3f7" stroke="#0277bd" stroke-width="1" />
+<line x1="150" y1="150" x2="300" y2="150" stroke="#555" stroke-width="1.2"/>
+<circle cx="300" cy="150" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="150" y="150" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >扇頂</text>
+<line x1="120" y1="250" x2="215" y2="230" stroke="#555" stroke-width="1.2"/>
+<circle cx="215" cy="230" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="120" y="250" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >扇央</text>
+<line x1="90" y1="370" x2="180" y2="325" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="180" cy="325" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="90" cy="370" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="90" y="371" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="470" y="150" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#4e342e" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >山地</text>
+<text x="520" y="400" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >平地</text>
+<circle cx="430" cy="250" r="4" fill="#4fc3f7" stroke="#0277bd" stroke-width="1" />
+<text x="440" y="250" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＝わき水</text>
+<line x1="430" y1="282" x2="430" y2="274" stroke="#6d4c41" stroke-width="2"/>
+<circle cx="430" cy="269" r="7" fill="#81c784" stroke="#388e3c" stroke-width="1.2" />
+<text x="440" y="276" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＝果樹園</text>
+<text x="440" y="302" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#1565c0" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >点線＝水が地下を流れる</text>
+</svg>

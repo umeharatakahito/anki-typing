@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 330" width="600" height="330" font-family="sans-serif">
+<rect width="600" height="330" fill="#fff"/>
+<text x="80" y="105" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >白熱電球</text>
+<rect x="160" y="80" width="400" height="50" rx="0" fill="#ffccbc" stroke="#e64a19" stroke-width="1.5" />
+<rect x="160" y="80" width="40" height="50" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="180" y="105" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >光</text>
+<text x="380" y="105" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >熱など</text>
+<text x="80" y="235" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >LED電球</text>
+<rect x="160" y="210" width="400" height="50" rx="0" fill="#ffccbc" stroke="#e64a19" stroke-width="1.5" />
+<rect x="160" y="210" width="120" height="50" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="220" y="235" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >光</text>
+<text x="420" y="235" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >熱など</text>
+<line x1="40" y1="30" x2="180" y2="80" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="180" cy="80" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="40" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="40" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="340" y="30" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >使ったエネルギーのうち光になった割合</text>
+<text x="360" y="310" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（使った電気エネルギー全体を100とする）</text>
+</svg>

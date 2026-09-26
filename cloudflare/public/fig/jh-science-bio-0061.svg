@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 420" width="500" height="420" font-family="sans-serif">
+<rect width="500" height="420" fill="#fff"/>
+<circle cx="250" cy="60" r="42" fill="#ffe0b2" stroke="#a1887f" stroke-width="2" />
+<path d="M190,110 L310,110 L330,260 L300,260 L300,410 L262,410 L256,280 L244,280 L238,410 L200,410 L200,260 L170,260 Z" fill="#ffe0b2" stroke="#a1887f" stroke-width="2" />
+<path d="M190,110 L120,250 L136,256 L200,150 M310,110 L380,250 L364,256 L300,150" fill="#ffe0b2" stroke="#a1887f" stroke-width="2" />
+<ellipse cx="250" cy="52" rx="30" ry="24" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<line x1="250" y1="78" x2="250" y2="250" stroke="#f57c00" stroke-width="7"/>
+<line x1="250" y1="130" x2="140" y2="240" stroke="#78909c" stroke-width="1.6"/>
+<line x1="250" y1="130" x2="360" y2="240" stroke="#78909c" stroke-width="1.6"/>
+<line x1="250" y1="240" x2="220" y2="400" stroke="#78909c" stroke-width="1.6"/>
+<line x1="250" y1="240" x2="280" y2="400" stroke="#78909c" stroke-width="1.6"/>
+<line x1="250" y1="180" x2="200" y2="200" stroke="#78909c" stroke-width="1.6"/>
+<line x1="250" y1="180" x2="300" y2="200" stroke="#78909c" stroke-width="1.6"/>
+<line x1="430" y1="60" x2="282" y2="52" stroke="#555" stroke-width="1.2"/>
+<circle cx="282" cy="52" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="430" y="60" font-size="16" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >脳</text>
+<line x1="430" y1="180" x2="254" y2="180" stroke="#555" stroke-width="1.2"/>
+<circle cx="254" cy="180" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="430" y="180" font-size="16" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >せきずい</text>
+<line x1="60" y1="300" x2="150" y2="230" stroke="#555" stroke-width="1.2"/>
+<circle cx="150" cy="230" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="60" y="300" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >からだの各部へ</text>
+<line x1="70" y1="80" x2="222" y2="56" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="222" cy="56" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="70" cy="80" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="70" y="81" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

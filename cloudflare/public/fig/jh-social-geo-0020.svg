@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" width="600" height="440" font-family="sans-serif">
+<rect width="600" height="440" fill="#fff"/>
+<rect x="0" y="0" width="600" height="440" rx="0" fill="#fff" stroke="none" stroke-width="0" />
+<ellipse cx="230" cy="150" rx="170" ry="110" fill="none" stroke="#37474f" stroke-width="1.5" />
+<ellipse cx="236" cy="153" rx="135" ry="88" fill="none" stroke="#37474f" stroke-width="1.5" />
+<ellipse cx="242" cy="156" rx="100" ry="66" fill="none" stroke="#f57c00" stroke-width="3" />
+<ellipse cx="248" cy="159" rx="68" ry="45" fill="none" stroke="#37474f" stroke-width="1.5" />
+<ellipse cx="254" cy="162" rx="38" ry="25" fill="none" stroke="#37474f" stroke-width="1.5" />
+<polygon points="248,166 254,156 260,166" fill="#37474f" stroke="#37474f" stroke-width="1" stroke-linejoin="round" />
+<text x="264" y="160" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >山頂</text>
+<line x1="480" y1="120" x2="342" y2="156" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="342" cy="156" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="480" cy="120" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="480" y="121" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="470" y="60" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" >上から見た図</text>
+<polygon points="60,420 60,420 101,392 142,364 180,336 216,308 254,288 292,308 316,336 342,364 371,392 400,420 400,420" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2" stroke-linejoin="round" />
+<line x1="30" y1="420" x2="460" y2="420" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="480" y="420" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#555" >0m</text>
+<line x1="60" y1="150" x2="60" y2="420" stroke="#90a4ae" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="30" y1="392" x2="460" y2="392" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="480" y="392" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#555" >20m</text>
+<line x1="101" y1="153" x2="101" y2="392" stroke="#90a4ae" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="30" y1="364" x2="460" y2="364" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="480" y="364" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#555" >40m</text>
+<line x1="142" y1="156" x2="142" y2="364" stroke="#f57c00" stroke-width="2" stroke-dasharray="4 4"/>
+<line x1="30" y1="336" x2="460" y2="336" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="480" y="336" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#555" >60m</text>
+<line x1="180" y1="159" x2="180" y2="336" stroke="#90a4ae" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="30" y1="308" x2="460" y2="308" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="480" y="308" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#555" >80m</text>
+<line x1="216" y1="162" x2="216" y2="308" stroke="#90a4ae" stroke-width="1.2" stroke-dasharray="4 4"/>
+<text x="90" y="300" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#555" >横から見た図</text>
+</svg>

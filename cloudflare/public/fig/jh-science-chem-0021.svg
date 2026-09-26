@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<defs><marker id="jhsciencechem0021m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="40" y="250" width="520" height="40" rx="0" fill="#90a4ae" stroke="#37474f" stroke-width="2" />
+<rect x="90" y="200" width="90" height="50" rx="4" fill="#bdbdbd" stroke="#37474f" stroke-width="2" />
+<text x="135" y="280" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >たたく前</text>
+<line x1="200" y1="225" x2="250" y2="225" stroke="#37474f" stroke-width="3" marker-end="url(#jhsciencechem0021m37474f)"/>
+<path d="M280,236 L540,236 L530,250 L290,250 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<rect x="360" y="110" width="90" height="44" rx="4" fill="#795548" stroke="#3e2723" stroke-width="2" />
+<line x1="450" y1="132" x2="560" y2="80" stroke="#a1887f" stroke-width="10"/>
+<path d="M400,170 l-10,20 M420,170 l0,24 M440,170 l10,20" fill="none" stroke="#37474f" stroke-width="2" />
+<text x="410" y="280" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >うすく広がる</text>
+<line x1="290" y1="180" x2="320" y2="238" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="320" cy="238" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="290" cy="180" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="290" y="181" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

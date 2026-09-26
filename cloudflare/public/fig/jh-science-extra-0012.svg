@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="sans-serif">
+<rect width="600" height="380" fill="#fff"/>
+<path d="M150,60 C120,60 110,110 150,150 C200,200 180,280 250,320 C330,360 450,320 470,240 C490,160 430,120 380,150 C330,180 300,160 260,110 C230,70 190,50 150,60 Z" fill="#f8bbd0" stroke="#ad1457" stroke-width="3" />
+<text x="330" y="250" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >胃</text>
+<circle cx="360" cy="60" r="10" fill="#81c784" stroke="#388e3c" stroke-width="1.5" />
+<line x1="370" y1="60" x2="376" y2="60" stroke="#388e3c" stroke-width="2"/>
+<circle cx="386" cy="60" r="10" fill="#81c784" stroke="#388e3c" stroke-width="1.5" />
+<line x1="396" y1="60" x2="402" y2="60" stroke="#388e3c" stroke-width="2"/>
+<circle cx="412" cy="60" r="10" fill="#81c784" stroke="#388e3c" stroke-width="1.5" />
+<line x1="422" y1="60" x2="428" y2="60" stroke="#388e3c" stroke-width="2"/>
+<circle cx="438" cy="60" r="10" fill="#81c784" stroke="#388e3c" stroke-width="1.5" />
+<circle cx="464" cy="60" r="10" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5" />
+<line x1="474" y1="60" x2="480" y2="60" stroke="#388e3c" stroke-width="2"/>
+<circle cx="490" cy="60" r="10" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5" />
+<line x1="500" y1="60" x2="506" y2="60" stroke="#388e3c" stroke-width="2"/>
+<circle cx="516" cy="60" r="10" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5" />
+<line x1="526" y1="60" x2="532" y2="60" stroke="#388e3c" stroke-width="2"/>
+<circle cx="542" cy="60" r="10" fill="#a5d6a7" stroke="#388e3c" stroke-width="1.5" />
+<text x="450" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >タンパク質</text>
+<circle cx="451" cy="60" r="7" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<line x1="520" y1="130" x2="451" y2="68" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="451" cy="68" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="520" cy="130" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="131" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="520" y="165" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >分解するはたらき</text>
+<line x1="100" y1="300" x2="190" y2="240" stroke="#555" stroke-width="1.2"/>
+<circle cx="190" cy="240" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="100" y="300" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >胃液</text>
+</svg>

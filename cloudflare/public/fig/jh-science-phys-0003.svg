@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<polyline points="70,272.687 90,286.949 110,285.275 130,275.101 150,279.909 170,278.99 190,283.032 210,285.774 230,271.877 250,270.567 270,286.715 290,278.655 310,285.246 330,270.042 350,278.908 370,284.431 390,274.575 410,288.905 430,288.029 450,270.612 470,270.509 490,280.828 510,288.783 530,277.624 530,320 70,320" fill="#ffcc80" stroke="#f57c00" stroke-width="3" stroke-linejoin="round" />
+<line x1="90" y1="60" x2="180" y2="280" stroke="#e53935" stroke-width="2.5"/>
+<polygon points="138.6,178.8 139.694,164.307 127.662,169.229" fill="#e53935" stroke="#e53935" stroke-width="1" stroke-linejoin="round" />
+<line x1="180" y1="280" x2="105.566" y2="250.683" stroke="#ef9a9a" stroke-width="1.8"/>
+<line x1="180" y1="280" x2="149.596" y2="206.003" stroke="#ef9a9a" stroke-width="1.8"/>
+<line x1="180" y1="280" x2="188.183" y2="200.42" stroke="#ef9a9a" stroke-width="1.8"/>
+<line x1="180" y1="280" x2="242.739" y2="230.364" stroke="#ef9a9a" stroke-width="1.8"/>
+<line x1="210" y1="60" x2="300" y2="280" stroke="#e53935" stroke-width="2.5"/>
+<polygon points="258.6,178.8 259.694,164.307 247.662,169.229" fill="#e53935" stroke="#e53935" stroke-width="1" stroke-linejoin="round" />
+<line x1="300" y1="280" x2="229.454" y2="242.274" stroke="#ef9a9a" stroke-width="1.8"/>
+<line x1="300" y1="280" x2="272.474" y2="204.885" stroke="#ef9a9a" stroke-width="1.8"/>
+<line x1="300" y1="280" x2="316.623" y2="201.746" stroke="#ef9a9a" stroke-width="1.8"/>
+<line x1="300" y1="280" x2="362.977" y2="230.666" stroke="#ef9a9a" stroke-width="1.8"/>
+<line x1="330" y1="60" x2="420" y2="280" stroke="#e53935" stroke-width="2.5"/>
+<polygon points="378.6,178.8 379.694,164.307 367.662,169.229" fill="#e53935" stroke="#e53935" stroke-width="1" stroke-linejoin="round" />
+<line x1="420" y1="280" x2="345.599" y2="250.598" stroke="#ef9a9a" stroke-width="1.8"/>
+<line x1="420" y1="280" x2="391.055" y2="205.42" stroke="#ef9a9a" stroke-width="1.8"/>
+<line x1="420" y1="280" x2="438.938" y2="202.274" stroke="#ef9a9a" stroke-width="1.8"/>
+<line x1="420" y1="280" x2="477.201" y2="224.072" stroke="#ef9a9a" stroke-width="1.8"/>
+<line x1="560" y1="200" x2="480" y2="285" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="480" cy="285" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="560" cy="200" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="201" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="345" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >表面に細かいでこぼこがある物体</text>
+</svg>

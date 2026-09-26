@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<defs><marker id="jhsocialgeo0069m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="15" y="45" width="570" height="90" rx="12" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="300" y="30" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >人の手で育てる</text>
+<rect x="30" y="66" width="140" height="48" rx="6" fill="#fff" stroke="#1976d2" stroke-width="2" />
+<text x="100" y="90" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >卵をかえす</text>
+<rect x="230" y="66" width="140" height="48" rx="6" fill="#fff" stroke="#1976d2" stroke-width="2" />
+<text x="300" y="90" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >稚魚を育てる</text>
+<rect x="430" y="66" width="140" height="48" rx="6" fill="#fff" stroke="#1976d2" stroke-width="2" />
+<text x="500" y="90" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >海や川へ放流</text>
+<rect x="430" y="226" width="140" height="48" rx="6" fill="#f1f8e9" stroke="#388e3c" stroke-width="2" />
+<text x="500" y="250" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >自然の中で育つ</text>
+<rect x="70" y="226" width="200" height="48" rx="6" fill="#f1f8e9" stroke="#388e3c" stroke-width="2" />
+<text x="170" y="250" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >大きくなってからとる</text>
+<line x1="172" y1="90" x2="228" y2="90" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsocialgeo0069m37474f)"/>
+<line x1="372" y1="90" x2="428" y2="90" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsocialgeo0069m37474f)"/>
+<line x1="500" y1="116" x2="500" y2="224" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsocialgeo0069m37474f)"/>
+<line x1="428" y1="250" x2="272" y2="250" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhsocialgeo0069m37474f)"/>
+<line x1="560" y1="175" x2="540" y2="132" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="540" cy="132" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="560" cy="175" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="560" y="176" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<ellipse cx="250" cy="320" rx="14" ry="7" fill="#90caf9" stroke="#1976d2" stroke-width="1.2" />
+<polygon points="262,320 272,313 272,327" fill="#90caf9" stroke="#1976d2" stroke-width="1.2" stroke-linejoin="round" />
+<ellipse cx="300" cy="330" rx="14" ry="7" fill="#90caf9" stroke="#1976d2" stroke-width="1.2" />
+<polygon points="312,330 322,323 322,337" fill="#90caf9" stroke="#1976d2" stroke-width="1.2" stroke-linejoin="round" />
+<ellipse cx="350" cy="315" rx="14" ry="7" fill="#90caf9" stroke="#1976d2" stroke-width="1.2" />
+<polygon points="362,315 372,308 372,322" fill="#90caf9" stroke="#1976d2" stroke-width="1.2" stroke-linejoin="round" />
+</svg>

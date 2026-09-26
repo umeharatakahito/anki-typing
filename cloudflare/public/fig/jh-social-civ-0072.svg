@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 430" width="600" height="430" font-family="sans-serif">
+<rect width="600" height="430" fill="#fff"/>
+<rect x="210" y="10" width="180" height="40" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="300" y="30" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >基本的人権</text>
+<path d="M60,95 L40,95 L40,50 L210,50" fill="none" stroke="#b0bec5" stroke-width="1" />
+<rect x="60" y="75" width="120" height="40" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="120" y="95" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >平等権</text>
+<line x1="180" y1="95" x2="196" y2="95" stroke="#b0bec5" stroke-width="1"/>
+<rect x="200" y="81" width="92" height="28" rx="4" fill="#fff" stroke="#b0bec5" stroke-width="1" />
+<text x="246" y="95" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >法の下の平等</text>
+<rect x="298" y="81" width="118" height="28" rx="4" fill="#fff" stroke="#b0bec5" stroke-width="1" />
+<text x="357" y="95" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >両性の本質的平等</text>
+<path d="M60,165 L40,165 L40,50 L210,50" fill="none" stroke="#b0bec5" stroke-width="1" />
+<rect x="60" y="145" width="120" height="40" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="120" y="165" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >自由権</text>
+<line x1="180" y1="165" x2="196" y2="165" stroke="#b0bec5" stroke-width="1"/>
+<rect x="200" y="151" width="79" height="28" rx="4" fill="#fff" stroke="#b0bec5" stroke-width="1" />
+<text x="239.5" y="165" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >精神の自由</text>
+<rect x="285" y="151" width="79" height="28" rx="4" fill="#fff" stroke="#b0bec5" stroke-width="1" />
+<text x="324.5" y="165" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >身体の自由</text>
+<rect x="370" y="151" width="60" height="28" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="400" cy="165" r="12" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="400" y="166" font-size="15.96" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<path d="M60,235 L40,235 L40,50 L210,50" fill="none" stroke="#b0bec5" stroke-width="1" />
+<rect x="60" y="215" width="120" height="40" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="120" y="235" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >社会権</text>
+<line x1="180" y1="235" x2="196" y2="235" stroke="#b0bec5" stroke-width="1"/>
+<rect x="200" y="221" width="53" height="28" rx="4" fill="#fff" stroke="#b0bec5" stroke-width="1" />
+<text x="226.5" y="235" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >生存権</text>
+<rect x="259" y="221" width="118" height="28" rx="4" fill="#fff" stroke="#b0bec5" stroke-width="1" />
+<text x="318" y="235" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >教育を受ける権利</text>
+<rect x="383" y="221" width="79" height="28" rx="4" fill="#fff" stroke="#b0bec5" stroke-width="1" />
+<text x="422.5" y="235" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >勤労の権利</text>
+<rect x="468" y="221" width="79" height="28" rx="4" fill="#fff" stroke="#b0bec5" stroke-width="1" />
+<text x="507.5" y="235" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >労働基本権</text>
+<path d="M60,305 L40,305 L40,50 L210,50" fill="none" stroke="#b0bec5" stroke-width="1" />
+<rect x="60" y="285" width="120" height="40" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="120" y="305" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >参政権</text>
+<line x1="180" y1="305" x2="196" y2="305" stroke="#b0bec5" stroke-width="1"/>
+<rect x="200" y="291" width="118" height="28" rx="4" fill="#fff" stroke="#b0bec5" stroke-width="1" />
+<text x="259" y="305" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >選挙権・被選挙権</text>
+<rect x="324" y="291" width="183" height="28" rx="4" fill="#fff" stroke="#b0bec5" stroke-width="1" />
+<text x="415.5" y="305" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >最高裁判所裁判官の国民審査</text>
+<path d="M60,375 L40,375 L40,50 L210,50" fill="none" stroke="#b0bec5" stroke-width="1" />
+<rect x="60" y="355" width="120" height="40" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="120" y="375" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >請求権</text>
+<line x1="180" y1="375" x2="196" y2="375" stroke="#b0bec5" stroke-width="1"/>
+<rect x="200" y="361" width="118" height="28" rx="4" fill="#fff" stroke="#b0bec5" stroke-width="1" />
+<text x="259" y="375" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >裁判を受ける権利</text>
+<rect x="324" y="361" width="105" height="28" rx="4" fill="#fff" stroke="#b0bec5" stroke-width="1" />
+<text x="376.5" y="375" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >国家賠償請求権</text>
+<rect x="435" y="361" width="105" height="28" rx="4" fill="#fff" stroke="#b0bec5" stroke-width="1" />
+<text x="487.5" y="375" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >刑事補償請求権</text>
+</svg>

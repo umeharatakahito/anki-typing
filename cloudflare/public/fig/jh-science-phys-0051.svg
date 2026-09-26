@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<defs><marker id="jhsciencephys0051m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="80" y1="300" x2="560" y2="300" stroke="#37474f" stroke-width="2" marker-end="url(#jhsciencephys0051m37474f)"/>
+<line x1="80" y1="300" x2="80" y2="30" stroke="#37474f" stroke-width="2" marker-end="url(#jhsciencephys0051m37474f)"/>
+<text x="560" y="325" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >電圧〔V〕</text>
+<text x="70" y="18" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >電流〔A〕</text>
+<circle cx="180" cy="240" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<text x="180" y="316" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2</text>
+<circle cx="280" cy="180" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<text x="280" y="316" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >4</text>
+<circle cx="380" cy="120" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<text x="380" y="316" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >6</text>
+<circle cx="480" cy="60" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<text x="480" y="316" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >8</text>
+<line x1="80" y1="300" x2="530" y2="30" stroke="#f57c00" stroke-width="3.5"/>
+<line x1="260" y1="80" x2="330" y2="150" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="330" cy="150" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="260" cy="80" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="260" y="81" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="430" y="220" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >電熱線に加える電圧と電流</text>
+</svg>

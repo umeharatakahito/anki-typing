@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<defs><marker id="jhsciencechem0005m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<path d="M100,60 L100,320 L260,320 L260,60" fill="#f1f8fe" stroke="#78909c" stroke-width="2.4" />
+<rect x="90" y="46" width="180" height="14" rx="3" fill="#cfd8dc" stroke="#37474f" stroke-width="1.6" />
+<line x1="180" y1="46" x2="180" y2="200" stroke="#37474f" stroke-width="2"/>
+<path d="M150,200 C150,220 210,220 210,200 Z" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<ellipse cx="180" cy="202" rx="22" ry="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<path d="M170,196 C166,180 178,170 180,156 C182,170 194,180 190,196 Z" fill="#ffab40" stroke="#e65100" stroke-width="1.5" />
+<line x1="40" y1="250" x2="170" y2="205" stroke="#555" stroke-width="1.2"/>
+<circle cx="170" cy="205" r="2.2" fill="#555" stroke="#555" stroke-width="0" />
+<text x="40" y="250" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >燃焼さじ（砂糖）</text>
+<line x1="290" y1="190" x2="350" y2="190" stroke="#37474f" stroke-width="3" marker-end="url(#jhsciencechem0005m37474f)"/>
+<text x="320" y="160" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >燃えたあと</text>
+<text x="320" y="214" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >石灰水を</text>
+<text x="320" y="234" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >入れてふる</text>
+<path d="M380,60 L380,320 L540,320 L540,60" fill="#f1f8fe" stroke="#78909c" stroke-width="2.4" />
+<rect x="382" y="250" width="156" height="68" rx="0" fill="#f5f5f5" stroke="none" stroke-width="0" />
+<rect x="382" y="250" width="156" height="68" rx="0" fill="#e0e0e0" stroke="none" stroke-width="0" opacity="0.8"/>
+<text x="460" y="290" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >白くにごる</text>
+<line x1="60" y1="140" x2="170" y2="200" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="170" cy="200" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="60" cy="140" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="60" y="141" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>
