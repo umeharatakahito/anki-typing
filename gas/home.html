@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <base target="_top">
+    <meta charset="utf-8">
+    <title>Study Type</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <?!= include('JukenCSS'); ?>
+  </head>
+
+  <body>
+    <div id="app">
+      <section class="screen">
+        <h1 class="title">Study Type</h1>
+        <p class="subtitle">TYPING FOR STUDY</p>
+
+        <ul class="menu-list">
+          <li>
+            <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=it">
+              <span class="num">1</span>IT
+            </a>
+          </li>
+          <li>
+            <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=juken">
+              <span class="num">2</span>大学受験
+            </a>
+          </li>
+        </ul>
+
+        <p class="note">分野をえらんでください</p>
+      </section>
+    </div>
+  </body>
+</html>

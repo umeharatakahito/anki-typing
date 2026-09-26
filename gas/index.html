@@ -4,7 +4,7 @@
   <head>
     <base target="_top">
     <meta charset="utf-8">
-    <title>HAMACHI-TYPE</title> <!-- ← 閉じタグ修正 -->
+    <title>Study Type</title> <!-- ← 閉じタグ修正 -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?!= include('CSS'); ?>
     <div id="logo" style="display:none" aria-hidden="true"></div>
@@ -12,7 +12,8 @@
   </head> <!-- ← head をきちんと閉じる -->
 
   <body class="main-menu loading">
-    <div id="big-title">HAMACHI-TYPE</div>
+    <a id="home-link" href="<?= execUrl ?>" style="position:absolute; top:8px; left:12px; font-size:.85rem; color:#3BD; text-decoration:none;">← トップ</a>
+    <div id="big-title">Study Type</div>
     <div id="clear-bonus-art">
       <div id="bonus-art-top">
         <img style="display:none;" data-clear-flag="0" id="bonus-art-easy">

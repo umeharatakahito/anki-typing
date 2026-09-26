@@ -22,7 +22,7 @@ npm run deploy                        # ビルド → D1 のテーブル作成 �
 ```
 
 公開先は `https://anki-typing.<アカウント>.workers.dev/`。
-大学受験モードは `/?p=juken`（英単語 `?p=eigo`・古文 `?p=kobun`・歴史 `?p=rekishi`）。
+トップは Study Type のメニュー。IT（暗記タイピング）は `/?p=it`、大学受験モードは `/?p=juken`（英単語 `?p=eigo`・古文 `?p=kobun`・歴史 `?p=rekishi`）。
 
 ## 暗記タイピングの問題（problems シート）を入れる
 

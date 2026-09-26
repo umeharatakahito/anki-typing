@@ -62,11 +62,22 @@ function doGet(e) {
       .addMetaTag('viewport', 'width=device-width, initial-scale=1, viewport-fit=cover');
   }
 
-  const template = HtmlService.createTemplateFromFile('index');
-  template.autoMode = AUTO_MODE_BY_ROUTE[route] || '';
+  // IT（暗記タイピング）。練習モードなどの直行ルートもここ
+  if (route === 'it' || AUTO_MODE_BY_ROUTE[route]) {
+    const template = HtmlService.createTemplateFromFile('index');
+    template.execUrl = ScriptApp.getService().getUrl();
+    template.autoMode = AUTO_MODE_BY_ROUTE[route] || '';
+    return template.evaluate()
+      .setTitle('Study Type（IT）')
+      .addMetaTag('viewport', 'width=device-width, initial-scale=1');
+  }
+
+  // それ以外はトップメニュー
+  const template = HtmlService.createTemplateFromFile('home');
+  template.execUrl = ScriptApp.getService().getUrl();
   return template.evaluate()
-    .setTitle('暗記タイピング')
-    .addMetaTag('viewport', 'width=device-width, initial-scale=1');
+    .setTitle('Study Type')
+    .addMetaTag('viewport', 'width=device-width, initial-scale=1, viewport-fit=cover');
 }
 function include(filename) {
   return HtmlService.createHtmlOutputFromFile(filename).getContent();

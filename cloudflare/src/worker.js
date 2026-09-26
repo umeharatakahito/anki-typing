@@ -71,8 +71,15 @@ function renderPage(url) {
       'width=device-width, initial-scale=1, viewport-fit=cover');
   }
 
-  vars.autoMode = AUTO_MODE_BY_ROUTE[route] || '';
-  return withHead(PAGES.index(vars), '暗記タイピング', 'width=device-width, initial-scale=1');
+  // IT（暗記タイピング）。練習モードなどの直行ルートもここ
+  if (route === 'it' || AUTO_MODE_BY_ROUTE[route]) {
+    vars.autoMode = AUTO_MODE_BY_ROUTE[route] || '';
+    return withHead(PAGES.index(vars), 'Study Type（IT）', 'width=device-width, initial-scale=1');
+  }
+
+  // それ以外はトップメニュー
+  return withHead(PAGES.home(vars), 'Study Type',
+    'width=device-width, initial-scale=1, viewport-fit=cover');
 }
 
 // ---------------------------------------------------------------
