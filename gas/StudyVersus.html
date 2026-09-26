@@ -15,6 +15,8 @@
   #menu-vs .vs-target select{ padding:6px 10px; font-size:16px; border:1px solid #3BD; border-radius:6px; }
   #menu-vs .vs-rule{ margin:12px auto 0; max-width:30em; font-size:13px; line-height:1.6; opacity:.8; }
   #vs-status{ min-height:1.6em; margin:14px 0 0; text-align:center; font-size:15px; }
+  /* 部屋番号で入るだけのとき（問題集・モードを選ぶ前）は、作る・自動マッチ・本数を出さない */
+  #menu-vs.join-only #vs-match, #menu-vs.join-only #vs-create, #menu-vs.join-only .vs-target{ display:none; }
   #vs-status .vs-code{ display:block; font-size:40px; font-weight:bold; letter-spacing:.25em; margin:6px 0; }
 
   /* ---- 対戦中 ---- */
@@ -80,20 +82,21 @@
   <div class="menu-content">
     <div class="vs-actions" id="vs-actions">
       <label class="vs-target">
-        <select id="vs-target">
+        <select id="vs-target" class="menu-opt">
           <option value="3">3本先取</option>
           <option value="5" selected>5本先取</option>
           <option value="7">7本先取</option>
+          <option value="10">10本先取</option>
         </select>
       </label>
       <button class="button menu-opt" id="vs-match">だれかと対戦（自動マッチ）</button>
       <button class="button menu-opt" id="vs-create">部屋を作る（友達と対戦）</button>
       <div class="vs-join">
-        <input id="vs-code" inputmode="numeric" maxlength="5" placeholder="部屋番号" autocomplete="off">
+        <input id="vs-code" class="menu-opt" inputmode="numeric" maxlength="5" placeholder="部屋番号" autocomplete="off">
         <button class="button menu-opt" id="vs-join">入る</button>
       </div>
       <p class="vs-rule">同じ問題を 2 人で同時に打ちます。先に打ち終えた方が 1 本。
-        1 問で 10 回ミスすると、その問題はもう打てません（相手を待ちます）。先に決めた本数を取った方の勝ち。
+        1 問で 10 回（極みモードは 5 回）ミスすると、その問題はもう打てません（相手を待ちます）。先に決めた本数を取った方の勝ち。
         部屋に入る人の本数は、部屋を作った人に合わせます。</p>
     </div>
     <div id="vs-status" aria-live="polite"></div>
@@ -110,7 +113,7 @@
 // StudyVersus.html
 // タイピングの対戦。サーバー（cloudflare/src/typing-versus.js）と WebSocket でつなぐ。
 //   ・同じ問題を 2 人で同時に打ち、先に打ち終えた方が 1 本
-//   ・1 問 10 ミスでその問題は打てなくなる
+//   ・1 問 10 ミス（極みモードは 5 ミス）でその問題は打てなくなる
 //   ・1 本ごとに結果を見せてから次の問題（次へ進む合図はサーバーが出す）
 //   ・先に target 本取った方の勝ち
 // 打つ画面・判定は 1 人用（HAMACHI-TYPE）のまま。ここでは
@@ -120,7 +123,8 @@
 // だけを差し替える。
 // ===============================================================
 (function (window, document) {
-  const MISS_LIMIT = 10;
+  // 1 問で打てなくなるミスの数。極みモードは厳しく 5 回
+  const missLimit = () => (mode === '極みモード' ? 5 : 10);
   const h = window.hamachi;
   const $ = id => document.getElementById(id);
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
@@ -133,20 +137,24 @@
   function status(html) { $('vs-status').innerHTML = html; }
   function showActions(on) { $('vs-actions').style.display = on ? '' : 'none'; }
 
+  // m が無いときは「部屋番号で入る」だけ（問題集とモードは部屋を作った人に合わせる）
   function openVersus(m) {
-    mode = m;
-    $('vs-title').textContent = '対戦（' + m.replace('モード', '') + '）';
+    mode = m || '';
+    $('vs-title').textContent = m ? '対戦（' + m.replace('モード', '') + '）' : '部屋番号で対戦に入る';
     ['menu-main', 'menu-mode', 'menu-about'].forEach(id => { const el = $(id); if (el) el.style.display = 'none'; });
     $('menu-vs').style.display = 'block';
+    $('menu-vs').classList.toggle('join-only', !m);
     showActions(true);
     status('');
     if (h.enableMenuNav) h.enableMenuNav($('menu-vs'));
+    if (!m) $('vs-code').focus();
   }
+  h.openVersusJoin = () => openVersus(null);
 
   function backToModes() {
     closeWs();
     $('menu-vs').style.display = 'none';
-    h.showMenu('mode', null);
+    h.showMenu(mode ? 'mode' : 'main', null);
   }
 
   // モードごとに枠を作り、「個人」（元のボタン）と「対戦」を並べる
@@ -184,7 +192,7 @@
         <span class="vs-who vs-me">あなた</span><span class="vs-pts vs-me">${scores[seat] || 0}</span>
         <span class="vs-dash">−</span>
         <span class="vs-pts vs-you">${scores[other] || 0}</span><span class="vs-who vs-you">${esc(names[other] || '相手')}</span>
-      </div><div class="vs-sub">${target}本先取 ・ ${r + 1}問目</div>`;
+      </div><div class="vs-sub">${target}本先取 ・ ${r + 1}問目${questions[r] && questions[r].level ? ' ・ Lv' + questions[r].level : ''}</div>`;
   }
 
   // 入力欄を左右に分ける：左が自分（今の入力欄をそのまま入れる）、右が相手
@@ -221,11 +229,12 @@
     const q = questions[r];
     $('vs-me-kana').innerHTML = q ? kanaHtml(h.chunksOf(q.ans), t.done) : '';
     const mm = $('vs-me-miss');
-    mm.textContent = `ミス ${cardMiss}/${MISS_LIMIT}`;
-    mm.className = 'vs-miss' + (cardMiss >= MISS_LIMIT - 3 ? ' warn' : '');
+    const lim = missLimit();
+    mm.textContent = `ミス ${cardMiss}/${lim}`;
+    mm.className = 'vs-miss' + (cardMiss >= lim - 2 ? ' warn' : '');
     $('vs-me').classList.toggle('out', out);
     $('vs-me-state').textContent = out
-      ? (cardMiss >= MISS_LIMIT ? '10ミス：この問題はもう打てません' : '時間切れ') + '（相手を待っています）' : '';
+      ? (cardMiss >= lim ? lim + 'ミス：この問題はもう打てません' : '時間切れ') + '（相手を待っています）' : '';
   }
 
   function renderYou(m) {
@@ -236,8 +245,8 @@
     else if (!m) $('vs-you-typed').textContent = '';
     const miss = m ? (m.miss || 0) : 0;
     const ym = $('vs-you-miss');
-    ym.textContent = `ミス ${miss}/${MISS_LIMIT}`;
-    ym.className = 'vs-miss' + (miss >= MISS_LIMIT - 3 ? ' warn' : '');
+    ym.textContent = `ミス ${miss}/${missLimit()}`;
+    ym.className = 'vs-miss' + (miss >= missLimit() - 2 ? ' warn' : '');
     const o = !!(m && m.out);
     $('vs-you').classList.toggle('out', o);
     $('vs-you-state').textContent = o ? 'この問題はもう打てません' : '';
@@ -309,7 +318,9 @@
       return;
     }
     if (m.t === 'room') {
-      seat = m.seat; target = m.target;
+      // 問題集・モード・本数は部屋に合わせる（番号で入った人も同じ条件で遊ぶ）
+      seat = m.seat; target = m.target; mode = m.mode; h.kubun = m.kbn;
+      $('vs-title').textContent = '対戦（' + (h.catLabel ? h.catLabel(m.kbn) : m.kbn) + '・' + m.mode.replace('モード', '') + '）';
       if (params.match || String(m.code).length > 4) status('相手が見つかりました。まもなく始まります');
       else status(`部屋番号<span class="vs-code">${esc(m.code)}</span>友達にこの番号を伝えて、「入る」から入ってもらってください（${m.target}本先取）`);
       return;
@@ -403,6 +414,8 @@
     document.querySelectorAll('#game-end .menu-footer button').forEach(b => {
       if (/Retry/.test(b.textContent)) b.classList.add('vs-hide');
     });
+    // キーボードでも「もう一度」「メニューに戻る」を選べるように
+    if (h.enableMenuNav) h.enableMenuNav($('game-end'));
   }
 
   // ---- 1 人用の画面への差し込み ------------------------------------------
@@ -417,7 +430,7 @@
       cardMiss++;
       renderMe();
       queueProg();
-      if (cardMiss >= MISS_LIMIT) {
+      if (cardMiss >= missLimit()) {
         out = true;
         stopTyping();
         renderMe();
@@ -463,6 +476,37 @@
     status('部屋を作っています…');
     connect({ create: 1, kbn: h.kubun, mode, target: tgt() });
   };
+  // 部屋番号の欄で Enter を押したら入る。欄の上下キーでボタンへ移れるように
+  $('vs-code').addEventListener('keydown', e => {
+    if (e.key === 'Enter') { e.preventDefault(); $('vs-join').click(); }
+    else if (e.key === 'ArrowDown') { e.preventDefault(); $('vs-join').focus(); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); (mode ? $('vs-create') : $('vs-back')).focus(); }
+  });
+  $('vs-target').addEventListener('keydown', e => {
+    if (e.key === 'ArrowDown' && !e.altKey) { e.preventDefault(); $('vs-match').focus(); }
+  });
+
+  // メインメニューに「部屋番号で対戦に入る」を足す
+  const mainContent = document.querySelector('#menu-main .menu-content');
+  const about = mainContent && mainContent.querySelector('[onclick*="about"]');
+  if (about) {
+    const jb = document.createElement('button');
+    jb.className = 'button menu-opt';
+    jb.textContent = '⚔ 部屋番号で対戦に入る';
+    jb.onclick = () => openVersus(null);
+    about.parentNode.insertBefore(jb, about);
+  }
+
+  // トップページなどから ?join=1234 で来たら、そのまま入る
+  const joinCode = new URLSearchParams(location.search).get('join');
+  if (joinCode && /^\d{4,5}$/.test(joinCode)) {
+    window.addEventListener('load', () => {
+      openVersus(null);
+      $('vs-code').value = joinCode;
+      $('vs-join').click();
+    });
+  }
+
   $('vs-join').onclick = () => {
     const code = $('vs-code').value.replace(/\D/g, '');
     if (code.length < 4) { status('4 桁の部屋番号を入れてください'); return; }

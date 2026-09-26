@@ -10,7 +10,7 @@
 //
 // 決まり
 //   ・1 問ずつ勝負。先に打ち終えた人が 1 本取る
-//   ・1 問で MISS_LIMIT 回ミスすると、その問題はもう打てない（相手を待つ）
+//   ・1 問で 10 回（極みモードは 5 回）ミスすると、その問題はもう打てない（相手を待つ。数えるのは画面側）
 //   ・2 人とも打てなくなるか時間切れになったら、その問題はだれも取らない
 //   ・1 本決まるたびに結果を RESULT_MS 見せてから次の問題へ
 //   ・target 本を先に取った人の勝ち。相手が抜けたら残った人の勝ち
@@ -39,8 +39,7 @@ import { FREE_MAX_LEVEL } from './gate.js';
 import { CAT_BY_KBN } from './sets.js';
 import { toCardImg } from './stats.js';
 
-export const MISS_LIMIT = 10;
-export const TARGETS = [3, 5, 7];
+export const TARGETS = [3, 5, 7, 10];
 const DEFAULT_TARGET = 5;
 const COUNTDOWN_MS = 3500;
 const RESULT_MS = 3000;          // 1 本ごとの結果を見せる時間

@@ -13,6 +13,23 @@
   @keyframes lv-pop{ 0%{ transform:scale(1.8); color:#1a8f3c; } 100%{ transform:scale(1); } }
   .level-cap{ font-size:14px; opacity:.85; }
   body.playing-game #home-link{ display:none; }
+  /* 一時停止（Resume / Quit）と終了画面は、画面の真ん中に出す */
+  body.playing-game #menu-main, #game-end{
+    position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); z-index:60;
+    width:min(94vw, 800px); max-height:92vh; overflow:auto; margin:0;
+  }
+  /* スマホでプレイ中は詰めて、問題と自分の入力欄がキーボードの上に収まるようにする */
+  @media (max-width:600px){
+    body.playing-game .word-zone .helper{ font-size:17px !important; line-height:1.45; }
+    body.playing-game .word-zone{ margin:6px auto; }
+    body.playing-game .kanji{ font-size:22px; }
+    body.playing-game .card-image-container{ height:110px !important; margin-bottom:4px; }
+    body.playing-game #hamachi-card-container{ margin-top:6px; }
+    body.playing-game #answer-banner{ height:34px; font-size:20px; }
+    body.playing-game .content-block{ margin:10px auto; }
+    body.playing-game #game-stats{ transform:scale(.85); transform-origin:left top; }
+    body.vs-on #vs-bar .vs-pts{ font-size:20px; }
+  }
   /* 画像の無い問題では、画像の場所を空けない */
   .card-image-container:empty{ display:none; }
   /* 左上の戻るボタン。押しやすい大きさにする */
@@ -308,6 +325,23 @@
     const _endGame = h.endGame;
     h.endGame = function () { const r = _endGame.apply(this, arguments); nameInput.value = window.ST_VIEWER.name; return r; };
   }
+
+  // スマホで画面キーボードが出ている間は、自分の入力欄がキーボードに隠れないように送る
+  function keepInputVisible() {
+    if (!document.body.classList.contains('kb-open') || !document.body.classList.contains('playing-game')) return;
+    const input = document.getElementById('game-input'), kb = document.getElementById('kb');
+    if (!input || !kb) return;
+    const ib = input.getBoundingClientRect(), kt = kb.getBoundingClientRect().top;
+    if (ib.bottom > kt - 8) window.scrollBy(0, ib.bottom - kt + 12);
+    else if (ib.top < 0) window.scrollBy(0, ib.top - 12);
+  }
+  h.keepInputVisible = () => requestAnimationFrame(keepInputVisible);
+  const baseNext = h.nextCard;
+  h.nextCard = function () { const r = baseNext.apply(this, arguments); h.keepInputVisible(); return r; };
+  // 図の読み込みで問題カードの高さが変わったときも
+  document.addEventListener('load', e => { if (e.target && e.target.classList && e.target.classList.contains('card-image')) h.keepInputVisible(); }, true);
+  window.addEventListener('resize', () => h.keepInputVisible());
+  new MutationObserver(() => h.keepInputVisible()).observe(document.body, { attributes: true, attributeFilter: ['class'] });
 
   buildMenu();
 }(window, document));

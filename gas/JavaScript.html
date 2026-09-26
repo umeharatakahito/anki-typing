@@ -880,6 +880,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
     // ---- 表示用難易度 ----
     getDifficultyLevel: function() {
       if (this.levelMode) return this.lv;
+      if (this.versusMode && this.currentCard && this.currentCard.level) return this.currentCard.level;
       return Math.floor((this.problemsServed) / this.DIFFICULTY_STEP) + 1;
     },
 

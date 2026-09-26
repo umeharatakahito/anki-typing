@@ -40,7 +40,25 @@
 
         <p class="note">分野をえらんでください</p>
         <p class="note"><a class="back-link" href="<?= execUrl ?>?p=ranking">🏆 ランキング</a></p>
+
+        <!-- どの問題集からでも、部屋番号で友達の対戦に入れる -->
+        <form class="join-form" id="join-form" action="<?= execUrl ?>" method="get">
+          <input type="hidden" name="p" value="it">
+          <label for="join-code">⚔ 部屋番号で対戦に入る</label>
+          <input id="join-code" class="menu-keys" name="join" inputmode="numeric" pattern="[0-9]{4,5}"
+                 maxlength="5" placeholder="1234" autocomplete="off" required>
+          <button type="submit" class="menu-keys">入る</button>
+        </form>
+        <style>
+          .join-form{ display:flex; flex-wrap:wrap; gap:8px; align-items:center; justify-content:center; margin-top:18px; }
+          .join-form label{ width:100%; text-align:center; color:var(--muted); font-size:.9rem; }
+          .join-form input{ width:7em; padding:10px 12px; font-size:18px; letter-spacing:.2em; text-align:center;
+            border:1px solid var(--line); border-radius:8px; background:var(--card); color:var(--text); }
+          .join-form button{ padding:10px 18px; border:0; border-radius:8px; background:var(--accent); color:#fff;
+            font:inherit; font-weight:700; cursor:pointer; }
+        </style>
       </section>
     </div>
+    <?!= include('MenuKeys'); ?>
   </body>
 </html>

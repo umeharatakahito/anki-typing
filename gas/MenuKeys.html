@@ -1,0 +1,47 @@
+<script>
+// ===============================================================
+// MenuKeys.html
+// ボタンが縦に並ぶだけの画面（トップ・大学受験のメニュー・ランキング）を、キーボードだけで操作する。
+//   ↑ ↓      … 次・前の項目へ
+//   Enter    … 選んだ項目を開く（リンク・ボタンはブラウザの動きのまま）
+//   1〜9     … メニューの n 番目を開く（入力欄に文字を打っているときは除く）
+//   Esc      … 「← 戻る」のリンクへ
+// 開いたときは最初のメニュー項目にフォーカスを置く。
+// ===============================================================
+(function (document) {
+  const items = () => Array.from(document.querySelectorAll(
+    '.back-link, .menu-list a, .menu-list button, .menu-keys'
+  )).filter(el => el.offsetParent !== null && !el.disabled);
+  const menu = () => Array.from(document.querySelectorAll('.menu-list a, .menu-list button'))
+    .filter(el => el.offsetParent !== null);
+
+  window.addEventListener('load', () => {
+    const first = menu()[0];
+    if (first && !document.querySelector('dialog[open]')) first.focus({ preventScroll: true });
+  });
+
+  document.addEventListener('keydown', e => {
+    if (e.altKey || e.ctrlKey || e.metaKey || document.querySelector('dialog[open]')) return;
+    const t = e.target, tag = (t.tagName || '').toLowerCase();
+    const typing = tag === 'input' || tag === 'textarea' || tag === 'select' || t.isContentEditable;
+    const list = items();
+    const i = list.indexOf(document.activeElement);
+
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      if (tag === 'select') return;   // 選択肢の切り替えはそのまま
+      e.preventDefault();
+      const n = e.key === 'ArrowDown' ? (i + 1) % list.length : (i - 1 + list.length) % list.length;
+      if (list[n]) list[n].focus();
+      return;
+    }
+    if (typing) return;
+    if (/^[1-9]$/.test(e.key)) {
+      const m = menu()[Number(e.key) - 1];
+      if (m) { e.preventDefault(); m.click(); }
+    } else if (e.key === 'Escape') {
+      const back = document.querySelector('.screen > .back-link');
+      if (back) back.focus();
+    }
+  });
+}(document));
+</script>
