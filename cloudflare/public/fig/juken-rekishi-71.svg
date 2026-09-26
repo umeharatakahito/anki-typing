@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 380" width="520" height="380" font-family="sans-serif">
+<rect width="520" height="380" fill="#fff"/>
+<polygon points="260,20 260,20 318,100 202,100" fill="#e3f2fd" stroke="#78909c" stroke-width="1.5"/>
+<text x="260.0" y="68.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">国王</text>
+<polygon points="202,100 318,100 375,180 145,180" fill="#e8f5e9" stroke="#78909c" stroke-width="1.5"/>
+<text x="260.0" y="140.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">諸侯</text>
+<polygon points="145,180 375,180 432,260 88,260" fill="#fffde7" stroke="#78909c" stroke-width="1.5"/>
+<text x="260.0" y="220.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">騎士</text>
+<polygon points="88,260 432,260 490,340 30,340" fill="#fff3e0" stroke="#f57c00" stroke-width="3"/>
+<circle cx="260.0" cy="300.0" r="16" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="260.0" y="301.0" font-size="21.28" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="260.0" y="362.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555">封建社会の身分の階層（移動の自由をもたない農民）</text>
+</svg>

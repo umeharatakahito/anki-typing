@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="rk64m78909c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#78909c"/></marker></defs>
+<rect x="20" y="110" width="130" height="60" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="85.0" y="140.0" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">国王の役人</text>
+<rect x="360" y="70" width="160" height="140" rx="6" fill="#fff3e0" stroke="#f57c00" stroke-width="3"/>
+<text x="440" y="100.0" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">領主の所領</text>
+<circle cx="440" cy="165" r="18" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="440" y="166" font-size="23.94" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="155" y1="125" x2="350" y2="125" stroke="#78909c" stroke-width="3" marker-end="url(#rk64m78909c)"/>
+<line x1="155" y1="160" x2="350" y2="160" stroke="#78909c" stroke-width="3" marker-end="url(#rk64m78909c)"/>
+<text x="250" y="112.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">立ち入り</text>
+<text x="250" y="176.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">課税</text>
+<g stroke="#c62828" stroke-width="5" stroke-linecap="round"><line x1="288" y1="113" x2="312" y2="137"/><line x1="288" y1="137" x2="312" y2="113"/></g>
+<g stroke="#c62828" stroke-width="5" stroke-linecap="round"><line x1="288" y1="148" x2="312" y2="172"/><line x1="288" y1="172" x2="312" y2="148"/></g>
+<text x="270" y="265.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555">国王の役人の立ち入りや課税を拒める、領主の特権</text>
+</svg>

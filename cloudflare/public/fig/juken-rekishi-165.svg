@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" width="580" height="300" font-family="sans-serif">
+<rect width="580" height="300" fill="#fff"/>
+<defs><marker id="rk165m78909c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#78909c"/></marker></defs>
+<text x="85" y="50.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">インド</text>
+<rect x="173" y="26" width="34" height="48" rx="6" fill="#fff3e0" stroke="#f57c00" stroke-width="2.5"/>
+<text x="190" y="50.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">०</text>
+<text x="228" y="50.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">१</text>
+<text x="266" y="50.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">२</text>
+<text x="304" y="50.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">३</text>
+<text x="342" y="50.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">४</text>
+<text x="380" y="50.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">५</text>
+<text x="418" y="50.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">६</text>
+<text x="456" y="50.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">७</text>
+<text x="494" y="50.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">८</text>
+<text x="532" y="50.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">९</text>
+<line x1="360" y1="78" x2="360" y2="110" stroke="#78909c" stroke-width="2" marker-end="url(#rk165m78909c)"/>
+<text x="85" y="140.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">イスラーム世界（東方）</text>
+<rect x="173" y="116" width="34" height="48" rx="6" fill="#fff3e0" stroke="#f57c00" stroke-width="2.5"/>
+<text x="190" y="140.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">٠</text>
+<text x="228" y="140.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">١</text>
+<text x="266" y="140.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">٢</text>
+<text x="304" y="140.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">٣</text>
+<text x="342" y="140.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">٤</text>
+<text x="380" y="140.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">٥</text>
+<text x="418" y="140.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">٦</text>
+<text x="456" y="140.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">٧</text>
+<text x="494" y="140.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">٨</text>
+<text x="532" y="140.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">٩</text>
+<line x1="360" y1="168" x2="360" y2="200" stroke="#78909c" stroke-width="2" marker-end="url(#rk165m78909c)"/>
+<text x="85" y="230.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">ヨーロッパ（現在）</text>
+<rect x="173" y="206" width="34" height="48" rx="6" fill="#fff3e0" stroke="#f57c00" stroke-width="2.5"/>
+<text x="190" y="230.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">0</text>
+<text x="228" y="230.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">1</text>
+<text x="266" y="230.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">2</text>
+<text x="304" y="230.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">3</text>
+<text x="342" y="230.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">4</text>
+<text x="380" y="230.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">5</text>
+<text x="418" y="230.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">6</text>
+<text x="456" y="230.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">7</text>
+<text x="494" y="230.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">8</text>
+<text x="532" y="230.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#222">9</text>
+<circle cx="172" cy="20" r="14" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="172" y="21" font-size="18.62" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="290" y="285.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">インドで考え出され、イスラーム世界に取り入れられた「何もない」を表す考え方</text>
+</svg>

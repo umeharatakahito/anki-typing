@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" width="520" height="360" font-family="sans-serif">
+<rect width="520" height="360" fill="#fff"/>
+<defs><marker id="rk68m1565c0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker><marker id="rk68m2e7d32" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker></defs>
+<rect x="170" y="30" width="180" height="56" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="260.0" y="58.0" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">主君</text>
+<rect x="170" y="236" width="180" height="56" rx="6" fill="#e8f5e9" stroke="#1565c0" stroke-width="1.5"/>
+<text x="260.0" y="264.0" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">家臣</text>
+<line x1="215" y1="90" x2="215" y2="230" stroke="#1565c0" stroke-width="3" marker-end="url(#rk68m1565c0)"/>
+<line x1="305" y1="232" x2="305" y2="92" stroke="#2e7d32" stroke-width="3" marker-end="url(#rk68m2e7d32)"/>
+<rect x="40" y="150" width="120" height="50" rx="6" fill="#fff3e0" stroke="#f57c00" stroke-width="3"/>
+<text x="100.0" y="176.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold">?</text>
+<text x="100" y="215.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold">与えられる所領</text>
+<line x1="160" y1="175" x2="212" y2="160" stroke="#f57c00" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="315" y="131.2" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#1b5e20">忠誠を誓い</text>
+<text x="315" y="148.8" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#1b5e20">軍役を務める</text>
+<text x="225" y="119.9" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#0d47a1">与えて</text>
+<text x="225" y="136.1" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#0d47a1">保護</text>
+<text x="260" y="322.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555">主君が家臣に与え、保護した所領を何という？</text>
+</svg>

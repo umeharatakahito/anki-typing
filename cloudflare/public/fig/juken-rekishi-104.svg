@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="500" height="300" font-family="sans-serif">
+<rect width="500" height="300" fill="#fff"/>
+<path d="M150,150 L150.0,35.0 A115,115 0 0 1 228.7,66.2 Z" fill="#b0bec5" stroke="#fff" stroke-width="3"/>
+<path d="M150,150 L228.7,66.2 A115,115 0 1 1 150.0,35.0 Z" fill="#f57c00" stroke="#fff" stroke-width="3"/>
+<line x1="200" y1="60" x2="300" y2="70" stroke="#555" stroke-width="1.5"/>
+<line x1="120" y1="220" x2="300" y2="200" stroke="#555" stroke-width="1.5"/>
+<text x="310" y="70.0" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold">シーア派 約10〜15％</text>
+<circle cx="320" cy="200" r="17" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="320" y="201" font-size="22.61" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="345" y="200.0" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222">約85〜90％</text>
+<text x="250" y="285.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555">ムハンマドの言行を規範とする多数派</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 230" width="560" height="230" font-family="sans-serif">
+<rect width="560" height="230" fill="#fff"/>
+<defs><marker id="rk91m78909c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#78909c"/></marker></defs>
+<text x="280" y="24.0" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">選挙で選ばれた4人の後継者（632〜661年）</text>
+<rect x="10" y="70" width="70" height="60" rx="6" fill="#eceff1" stroke="#1565c0" stroke-width="1.5"/>
+<text x="45.0" y="92.2" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">ムハン</text>
+<text x="45.0" y="107.8" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">マド</text>
+<line x1="82" y1="100" x2="96" y2="100" stroke="#78909c" stroke-width="2" marker-end="url(#rk91m78909c)"/>
+<rect x="100" y="70" width="100" height="60" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="150.0" y="100.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">アブー＝バクル</text>
+<text x="150" y="148.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555">初代</text>
+<line x1="197" y1="100" x2="211" y2="100" stroke="#78909c" stroke-width="2" marker-end="url(#rk91m78909c)"/>
+<rect x="215" y="70" width="100" height="60" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="265.0" y="100.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">ウマル</text>
+<text x="265" y="148.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555">第2代</text>
+<line x1="312" y1="100" x2="326" y2="100" stroke="#78909c" stroke-width="2" marker-end="url(#rk91m78909c)"/>
+<rect x="330" y="70" width="100" height="60" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="380.0" y="100.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">ウスマーン</text>
+<text x="380" y="148.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555">第3代</text>
+<line x1="427" y1="100" x2="441" y2="100" stroke="#78909c" stroke-width="2" marker-end="url(#rk91m78909c)"/>
+<rect x="445" y="70" width="100" height="60" rx="6" fill="#fff3e0" stroke="#f57c00" stroke-width="3"/>
+<text x="495.0" y="101.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold">?</text>
+<text x="495" y="148.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555">第4代</text>
+<text x="280" y="195.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555">シーア派が正統と仰ぐ人物</text>
+</svg>
