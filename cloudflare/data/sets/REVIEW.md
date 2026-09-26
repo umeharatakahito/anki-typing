@@ -20,3 +20,60 @@
   - koko-kokugo-0205 発足：ほっそく／はっそく の両読みあり
   - koko-kokugo-0250 手をこまねく：こまねく／こまぬく の両形あり（「指をくわえる」も近い）
 - レベル別の問題数：1=25, 2=25, 3=25, 4=23, 5=25, 6=24, 7=24, 8=25, 9=24, 10=24
+
+## koko-eigo（高校受験 英語）
+
+- 件数: 残した 327 問 / 修正 49 問 / 削除 0 問（全問 review=verified）
+- 修正内容:
+  - koko-eigo-0029: 「目が覚める」の wake up と区別するため頭文字ヒントを追加
+  - koko-eigo-0036: drawing / painting も入りうるため頭文字ヒントを追加
+  - koko-eigo-0040: holiday も入りうるため頭文字ヒントを追加
+  - koko-eigo-0051: simple も入りうるため頭文字ヒントを追加
+  - koko-eigo-0079: 「arrive at Tokyo」が解説（広い場所は in）と矛盾していたため Tokyo Station に修正
+  - koko-eigo-0083: ill も入りうるため頭文字ヒントを追加
+  - koko-eigo-0121: overseas も入りうるため頭文字ヒントを追加
+  - koko-eigo-0131: 解説「n が2回出てくる」が誤り（n は3回）→ 解説を修正
+  - koko-eigo-0136: custom も入りうるため頭文字ヒントを追加
+  - koko-eigo-0152: helpful も入りうるため頭文字ヒントを追加
+  - koko-eigo-0171: opportunity も入りうるため頭文字ヒントを追加
+  - koko-eigo-0174: 解説の日本語の重複を修正
+  - koko-eigo-0175: save も入りうるため頭文字ヒントを追加
+  - koko-eigo-0176: get も入りうるため頭文字ヒントを追加
+  - koko-eigo-0178: pick も入りうるため頭文字ヒントを追加
+  - koko-eigo-0184: scared も入りうるため頭文字ヒントを追加
+  - koko-eigo-0188: nearly も入りうるため頭文字ヒントを追加
+  - koko-eigo-0191: I'm の後では looking forward to になり答えと合わないため、文を I ＿＿＿ seeing you again. に修正
+  - koko-eigo-0194: switch off も入りうるため頭文字ヒントを追加
+  - koko-eigo-0202: dream / aim も入りうるため頭文字ヒントを追加
+  - koko-eigo-0206: improve 以外（better など）と迷わないよう頭文字ヒントを追加
+  - koko-eigo-0210: notice も入りうるため頭文字ヒントを追加
+  - koko-eigo-0215: useful も入りうるため頭文字ヒントを追加
+  - koko-eigo-0217: old も入りうるため頭文字ヒントを追加
+  - koko-eigo-0222: over も入りうるため頭文字ヒントを追加
+  - koko-eigo-0236: tradition も入りうるため頭文字ヒントを追加
+  - koko-eigo-0241: rely も入りうるため頭文字ヒントを追加
+  - koko-eigo-0245: selected / picked も入りうるため頭文字ヒントを追加
+  - koko-eigo-0250: many / different も入りうるため頭文字ヒントを追加
+  - koko-eigo-0261: get away も入りうるため頭文字ヒントを追加
+  - koko-eigo-0265: power も入りうるため頭文字ヒントを追加
+  - koko-eigo-0271: grow も入りうるため頭文字ヒントを追加
+  - koko-eigo-0273: live も入りうるため頭文字ヒントを追加し、和訳を「生き残れない」に修正
+  - koko-eigo-0274: make も入りうるため頭文字ヒントを追加
+  - koko-eigo-0275: find も入りうるため頭文字ヒントを追加
+  - koko-eigo-0279: first も入りうるため頭文字ヒントを追加
+  - koko-eigo-0282: precious も入りうるため頭文字ヒントを追加
+  - koko-eigo-0285: anyway の位置が不自然だったため文末に移動
+  - koko-eigo-0288: over も入りうるため頭文字ヒントを追加
+  - koko-eigo-0292: stay in touch も入りうるため頭文字ヒントを追加
+  - koko-eigo-0296: area も入りうるため頭文字ヒントを追加
+  - koko-eigo-0300: talk も入りうるため頭文字ヒントを追加
+  - koko-eigo-0301: business も入りうるため頭文字ヒントを追加
+  - koko-eigo-0302: view も入りうるため頭文字ヒントを追加
+  - koko-eigo-0303: reconsider / think about と迷わないよう頭文字ヒントを追加
+  - koko-eigo-0314: known も入りうるため頭文字ヒントを追加
+  - koko-eigo-0315: entire も入りうるため頭文字ヒントを追加
+  - koko-eigo-0317: slowly も入りうるため頭文字ヒントを追加
+  - koko-eigo-0318: just も入りうるため頭文字ヒントを追加
+- 確認済みで変更なし（作成者の指摘語のうち）: finally（1語指定で at last と区別可）、these days（2語指定で nowadays と区別可）、go home（Let's の後で get home は不自然）、small（too little は不自然）は現状維持。
+
+- （追記・仕上げ）頭文字では絞れなかった 3 問に文字数などのヒントを追加：0047 teach（5文字。tell と区別）、0196 a little（a l で始まる。a bit と区別）、0287 beside（6文字。by と区別）

@@ -1,0 +1,3272 @@
+[
+ {
+  "id": "koko-eigo-0001",
+  "level": 1,
+  "category": "名詞",
+  "prompt": "朝食（名詞）\nI eat ＿＿＿ at seven every morning.（毎朝7時に朝食を食べる。）",
+  "answer": "breakfast",
+  "reading": "breakfast",
+  "explanation": "昼食は lunch、夕食は dinner だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0002",
+  "level": 1,
+  "category": "名詞",
+  "prompt": "図書館（名詞）\nI borrowed two books from the ＿＿＿.（図書館で本を2冊借りた。）",
+  "answer": "library",
+  "reading": "library",
+  "explanation": "liberty（自由）と見た目が似ているから注意だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0003",
+  "level": 1,
+  "category": "名詞",
+  "prompt": "友達（名詞）\nKen is my best ＿＿＿.（ケンは私の一番の友達だ。）",
+  "answer": "friend",
+  "reading": "friend",
+  "explanation": "つづりは fri-end。ie の順番に気をつけよう。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0004",
+  "level": 1,
+  "category": "名詞",
+  "prompt": "先生（名詞）\nOur English ＿＿＿ is from Canada.（私たちの英語の先生はカナダ出身だ。）",
+  "answer": "teacher",
+  "reading": "teacher",
+  "explanation": "teach（教える）＋ er で「教える人」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0005",
+  "level": 1,
+  "category": "名詞",
+  "prompt": "家族（名詞）\nThere are five people in my ＿＿＿.（私の家族は5人だ。）",
+  "answer": "family",
+  "reading": "family",
+  "explanation": "複数形は families になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0006",
+  "level": 1,
+  "category": "名詞",
+  "prompt": "朝（名詞）\nI walk my dog in the ＿＿＿.（朝、犬の散歩をする。）",
+  "answer": "morning",
+  "reading": "morning",
+  "explanation": "「午後に」は in the afternoon、「夜に」は at night だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0007",
+  "level": 1,
+  "category": "名詞",
+  "prompt": "水（名詞）\nCan I have a glass of ＿＿＿?（水を1杯もらえますか。）",
+  "answer": "water",
+  "reading": "water",
+  "explanation": "water は数えられない名詞だから a glass of で数えるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0008",
+  "level": 1,
+  "category": "名詞",
+  "prompt": "音楽（名詞）\nI like listening to ＿＿＿.（音楽を聞くのが好きだ。）",
+  "answer": "music",
+  "reading": "music",
+  "explanation": "「音楽家」は musician だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0009",
+  "level": 1,
+  "category": "名詞",
+  "prompt": "誕生日（名詞）\nHappy ＿＿＿, Yuki!（ユキ、誕生日おめでとう！）",
+  "answer": "birthday",
+  "reading": "birthday",
+  "explanation": "birth（誕生）＋ day でできた語だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0010",
+  "level": 1,
+  "category": "名詞",
+  "prompt": "週（名詞）\nI play tennis three times a ＿＿＿.（週に3回テニスをする。）",
+  "answer": "week",
+  "reading": "week",
+  "explanation": "weak（弱い）と発音が同じだから注意だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0011",
+  "level": 1,
+  "category": "名詞",
+  "prompt": "色（名詞）\nWhat ＿＿＿ do you like?（何色が好き？）",
+  "answer": "color",
+  "reading": "color",
+  "explanation": "イギリス英語では colour とつづるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0012",
+  "level": 1,
+  "category": "動詞",
+  "prompt": "（スポーツを）する（動詞）\nLet's ＿＿＿ soccer after school.（放課後サッカーをしよう。）",
+  "answer": "play",
+  "reading": "play",
+  "explanation": "楽器を演奏するときは play the piano のように the をつけるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0013",
+  "level": 1,
+  "category": "動詞",
+  "prompt": "好きだ（動詞）\nI ＿＿＿ cats very much.（私はネコがとても好きだ。）",
+  "answer": "like",
+  "reading": "like",
+  "explanation": "like は前置詞で「〜のような」の意味もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0014",
+  "level": 1,
+  "category": "動詞",
+  "prompt": "食べる（動詞）\nPandas ＿＿＿ bamboo.（パンダは竹を食べる。）",
+  "answer": "eat",
+  "reading": "eat",
+  "explanation": "過去形は ate、過去分詞は eaten だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0015",
+  "level": 1,
+  "category": "動詞",
+  "prompt": "行く（動詞）\nI ＿＿＿ to school by bus.（私はバスで学校に行く。）",
+  "answer": "go",
+  "reading": "go",
+  "explanation": "過去形は went、過去分詞は gone だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0016",
+  "level": 1,
+  "category": "動詞",
+  "prompt": "来る（動詞）\nPlease ＿＿＿ to my house tomorrow.（明日、私の家に来てください。）",
+  "answer": "come",
+  "reading": "come",
+  "explanation": "過去形は came、過去分詞は come だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0017",
+  "level": 1,
+  "category": "動詞",
+  "prompt": "開ける（動詞）\nPlease ＿＿＿ the window.（窓を開けてください。）",
+  "answer": "open",
+  "reading": "open",
+  "explanation": "反対の「閉める」は close だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0018",
+  "level": 1,
+  "category": "動詞",
+  "prompt": "読む（動詞）\nI ＿＿＿ a book before bed.（寝る前に本を読む。）",
+  "answer": "read",
+  "reading": "read",
+  "explanation": "過去形も read とつづるけど、発音は「レッド」になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0019",
+  "level": 1,
+  "category": "動詞",
+  "prompt": "書く（動詞）\nPlease ＿＿＿ your name here.（ここに名前を書いてください。）",
+  "answer": "write",
+  "reading": "write",
+  "explanation": "最初の w は発音しないよ。right と同じ発音だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0020",
+  "level": 1,
+  "category": "動詞",
+  "prompt": "掃除する（動詞）\nWe ＿＿＿ our classroom every day.（私たちは毎日教室を掃除する。）",
+  "answer": "clean",
+  "reading": "clean",
+  "explanation": "形容詞で「きれいな」の意味もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0021",
+  "level": 1,
+  "category": "形容詞",
+  "prompt": "小さい（形容詞）\nThis T-shirt is too ＿＿＿ for me.（このTシャツは私には小さすぎる。）",
+  "answer": "small",
+  "reading": "small",
+  "explanation": "反対の意味は big や large だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0022",
+  "level": 1,
+  "category": "形容詞",
+  "prompt": "新しい（形容詞）\nI bought a ＿＿＿ bike yesterday.（昨日、新しい自転車を買った。）",
+  "answer": "new",
+  "reading": "new",
+  "explanation": "反対の意味は old（古い）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0023",
+  "level": 1,
+  "category": "形容詞",
+  "prompt": "暑い（形容詞）\nIt is very ＿＿＿ today.（今日はとても暑い。）",
+  "answer": "hot",
+  "reading": "hot",
+  "explanation": "「寒い」は cold、「暖かい」は warm だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0024",
+  "level": 1,
+  "category": "形容詞",
+  "prompt": "空腹の（形容詞）\nI'm ＿＿＿. Let's eat lunch.（おなかがすいた。お昼を食べよう。）",
+  "answer": "hungry",
+  "reading": "hungry",
+  "explanation": "「のどがかわいた」は thirsty だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0025",
+  "level": 1,
+  "category": "副詞",
+  "prompt": "よく・しばしば（副詞）\nI ＿＿＿ go to the park with my dog.（私はよく犬と公園に行く。）",
+  "answer": "often",
+  "reading": "often",
+  "explanation": "頻度の副詞はふつう一般動詞の前に置くよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0026",
+  "level": 1,
+  "category": "副詞",
+  "prompt": "いつも（副詞）\nMy mother ＿＿＿ gets up at six.（母はいつも6時に起きる。）",
+  "answer": "always",
+  "reading": "always",
+  "explanation": "always → usually → often → sometimes の順に頻度が下がるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0027",
+  "level": 1,
+  "category": "副詞",
+  "prompt": "ときどき（副詞）\nI ＿＿＿ cook dinner for my family.（私はときどき家族のために夕食を作る。）",
+  "answer": "sometimes",
+  "reading": "sometimes",
+  "explanation": "some ＋ times でできた語だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0028",
+  "level": 1,
+  "category": "前置詞・接続詞",
+  "prompt": "〜の下に（前置詞・接続詞）\nThe cat is ＿＿＿ the table.（ネコはテーブルの下にいる。）",
+  "answer": "under",
+  "reading": "under",
+  "explanation": "「〜の上に（接して）」は on だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0029",
+  "level": 1,
+  "category": "熟語",
+  "prompt": "起きる（熟語・2語）（g で始まる）\nI ＿＿＿ at six every morning.（毎朝6時に起きる。）",
+  "answer": "get up",
+  "reading": "get up",
+  "explanation": "wake up は「目が覚める」、get up は「起き上がる」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0030",
+  "level": 1,
+  "category": "熟語",
+  "prompt": "座る（熟語・2語）\nPlease ＿＿＿ on this chair.（このいすに座ってください。）",
+  "answer": "sit down",
+  "reading": "sit down",
+  "explanation": "反対の「立ち上がる」は stand up だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0031",
+  "level": 1,
+  "category": "熟語",
+  "prompt": "立ち上がる（熟語・2語）\nEveryone, please ＿＿＿ and say hello.（みなさん、立ってあいさつをしてください。）",
+  "answer": "stand up",
+  "reading": "stand up",
+  "explanation": "反対の「座る」は sit down だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0032",
+  "level": 1,
+  "category": "熟語",
+  "prompt": "入る（熟語・2語）\nKnock, knock. — ＿＿＿, please.（トントン。―どうぞ、入って。）",
+  "answer": "come in",
+  "reading": "come in",
+  "explanation": "come into the room のように into を使う言い方もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0033",
+  "level": 2,
+  "category": "名詞",
+  "prompt": "宿題（名詞）\nI have a lot of ＿＿＿ today.（今日は宿題がたくさんある。）",
+  "answer": "homework",
+  "reading": "homework",
+  "explanation": "homework は数えられない名詞だから s はつけないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0034",
+  "level": 2,
+  "category": "名詞",
+  "prompt": "駅（名詞）\nLet's meet at the ＿＿＿ at ten.（10時に駅で会おう。）",
+  "answer": "station",
+  "reading": "station",
+  "explanation": "「バス停」は bus stop だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0035",
+  "level": 2,
+  "category": "名詞",
+  "prompt": "病院（名詞）\nMy grandfather is in the ＿＿＿ now.（祖父は今入院している。）",
+  "answer": "hospital",
+  "reading": "hospital",
+  "explanation": "in the hospital で「入院中」の意味になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0036",
+  "level": 2,
+  "category": "名詞",
+  "prompt": "絵（名詞）（p で始まる）\nShe drew a ＿＿＿ of her dog.（彼女は自分の犬の絵を描いた。）",
+  "answer": "picture",
+  "reading": "picture",
+  "explanation": "take a picture で「写真をとる」の意味にもなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0037",
+  "level": 2,
+  "category": "名詞",
+  "prompt": "国（名詞）\nAustralia is a big ＿＿＿.（オーストラリアは大きな国だ。）",
+  "answer": "country",
+  "reading": "country",
+  "explanation": "the country で「いなか」の意味もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0038",
+  "level": 2,
+  "category": "名詞",
+  "prompt": "天気（名詞）\nHow is the ＿＿＿ in Tokyo today?（今日の東京の天気はどう？）",
+  "answer": "weather",
+  "reading": "weather",
+  "explanation": "whether（〜かどうか）と発音が同じだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0039",
+  "level": 2,
+  "category": "名詞",
+  "prompt": "教科（名詞）\nWhat ＿＿＿ do you like the best?（何の教科が一番好き？）",
+  "answer": "subject",
+  "reading": "subject",
+  "explanation": "「主語」という意味もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0040",
+  "level": 2,
+  "category": "名詞",
+  "prompt": "（長期の）休暇（名詞）（v で始まる）\nWe went to Okinawa during summer ＿＿＿.（夏休みの間に沖縄へ行った。）",
+  "answer": "vacation",
+  "reading": "vacation",
+  "explanation": "イギリス英語では holiday をよく使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0041",
+  "level": 2,
+  "category": "動詞",
+  "prompt": "答える（動詞）\nPlease ＿＿＿ my question.（私の質問に答えてください。）",
+  "answer": "answer",
+  "reading": "answer",
+  "explanation": "名詞で「答え」の意味もあるよ。w は発音しないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0042",
+  "level": 2,
+  "category": "動詞",
+  "prompt": "買う（動詞）\nI want to ＿＿＿ a new computer.（新しいコンピューターを買いたい。）",
+  "answer": "buy",
+  "reading": "buy",
+  "explanation": "過去形は bought だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0043",
+  "level": 2,
+  "category": "動詞",
+  "prompt": "手伝う（動詞）\nCan you ＿＿＿ me with my homework?（宿題を手伝ってくれる？）",
+  "answer": "help",
+  "reading": "help",
+  "explanation": "help 人 with 物 で「人の物を手伝う」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0044",
+  "level": 2,
+  "category": "動詞",
+  "prompt": "住む（動詞）\nMy aunt and uncle ＿＿＿ in Osaka.（おばとおじは大阪に住んでいる。）",
+  "answer": "live",
+  "reading": "live",
+  "explanation": "形容詞で「生の・ライブの」の意味もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0045",
+  "level": 2,
+  "category": "動詞",
+  "prompt": "知っている（動詞）\nDo you ＿＿＿ that girl?（あの女の子を知ってる？）",
+  "answer": "know",
+  "reading": "know",
+  "explanation": "最初の k は発音しないよ。過去形は knew だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0046",
+  "level": 2,
+  "category": "動詞",
+  "prompt": "使う（動詞）\nMay I ＿＿＿ your pen?（あなたのペンを使ってもいいですか。）",
+  "answer": "use",
+  "reading": "use",
+  "explanation": "形容詞 useful は「役に立つ」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0047",
+  "level": 2,
+  "category": "動詞",
+  "prompt": "教える（動詞・5文字）\nCan you ＿＿＿ me how to play the guitar?（ギターのひき方を教えてくれる？）",
+  "answer": "teach",
+  "reading": "teach",
+  "explanation": "過去形・過去分詞は taught だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0048",
+  "level": 2,
+  "category": "動詞",
+  "prompt": "泳ぐ（動詞）\nI can ＿＿＿ fast.（私は速く泳げる。）",
+  "answer": "swim",
+  "reading": "swim",
+  "explanation": "-ing 形は m を重ねて swimming だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0049",
+  "level": 2,
+  "category": "形容詞",
+  "prompt": "美しい（形容詞）\nThe sunset is so ＿＿＿.（夕日がとても美しい。）",
+  "answer": "beautiful",
+  "reading": "beautiful",
+  "explanation": "beauty（美しさ）＋ ful だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0050",
+  "level": 2,
+  "category": "形容詞",
+  "prompt": "忙しい（形容詞）\nI'm very ＿＿＿ this week.（今週はとても忙しい。）",
+  "answer": "busy",
+  "reading": "busy",
+  "explanation": "名詞 business（仕事）も busy から来ているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0051",
+  "level": 2,
+  "category": "形容詞",
+  "prompt": "簡単な（形容詞）（e で始まる）\nThis question is ＿＿＿.（この問題は簡単だ。）",
+  "answer": "easy",
+  "reading": "easy",
+  "explanation": "副詞は easily（簡単に）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0052",
+  "level": 2,
+  "category": "形容詞",
+  "prompt": "背が高い（形容詞）\nMy brother is ＿＿＿.（兄は背が高い。）",
+  "answer": "tall",
+  "reading": "tall",
+  "explanation": "反対の「背が低い」は short だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0053",
+  "level": 2,
+  "category": "形容詞",
+  "prompt": "お気に入りの（形容詞）\nMy ＿＿＿ food is curry.（私の大好きな食べ物はカレーだ。）",
+  "answer": "favorite",
+  "reading": "favorite",
+  "explanation": "イギリス英語では favourite とつづるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0054",
+  "level": 2,
+  "category": "副詞",
+  "prompt": "一緒に（副詞）\nLet's go ＿＿＿.（一緒に行こう。）",
+  "answer": "together",
+  "reading": "together",
+  "explanation": "to-get-her と区切ると覚えやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0055",
+  "level": 2,
+  "category": "副詞",
+  "prompt": "ここに（副詞）\nCome ＿＿＿, please.（ここに来てください。）",
+  "answer": "here",
+  "reading": "here",
+  "explanation": "「そこに」は there だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0056",
+  "level": 2,
+  "category": "副詞",
+  "prompt": "たいてい（副詞）\nI ＿＿＿ walk to school.（私はたいてい歩いて学校に行く。）",
+  "answer": "usually",
+  "reading": "usually",
+  "explanation": "形容詞は usual（いつもの）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0057",
+  "level": 2,
+  "category": "前置詞・接続詞",
+  "prompt": "〜と一緒に（前置詞・接続詞）\nI went shopping ＿＿＿ my sister.（姉と一緒に買い物に行った。）",
+  "answer": "with",
+  "reading": "with",
+  "explanation": "反対の「〜なしで」は without だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0058",
+  "level": 2,
+  "category": "前置詞・接続詞",
+  "prompt": "なぜなら〜だから（前置詞・接続詞）\nI stayed home ＿＿＿ it was raining.（雨が降っていたので家にいた。）",
+  "answer": "because",
+  "reading": "because",
+  "explanation": "Why? と聞かれたら Because 〜. で答えられるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0059",
+  "level": 2,
+  "category": "熟語",
+  "prompt": "たくさんの（熟語・3語）\nI have ＿＿＿ friends in this town.（この町にはたくさんの友達がいる。）",
+  "answer": "a lot of",
+  "reading": "a lot of",
+  "explanation": "数えられる名詞にも数えられない名詞にも使えるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0060",
+  "level": 2,
+  "category": "熟語",
+  "prompt": "〜を見る（熟語・2語）\n＿＿＿ this picture.（この写真を見て。）",
+  "answer": "look at",
+  "reading": "look at",
+  "explanation": "意識して見るときは look at、自然に目に入るときは see だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0061",
+  "level": 2,
+  "category": "熟語",
+  "prompt": "〜を聞く（熟語・2語）\nI like to ＿＿＿ the radio.（ラジオを聞くのが好きだ。）",
+  "answer": "listen to",
+  "reading": "listen to",
+  "explanation": "hear は「自然に聞こえる」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0062",
+  "level": 2,
+  "category": "熟語",
+  "prompt": "寝る（熟語・3語）\nI usually ＿＿＿ at eleven.（たいてい11時に寝る。）",
+  "answer": "go to bed",
+  "reading": "go to bed",
+  "explanation": "bed に a や the はつけないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0063",
+  "level": 2,
+  "category": "熟語",
+  "prompt": "家に帰る（熟語・2語）\nIt's getting dark. Let's ＿＿＿.（暗くなってきた。家に帰ろう。）",
+  "answer": "go home",
+  "reading": "go home",
+  "explanation": "home は副詞だから go to home とは言わないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0064",
+  "level": 2,
+  "category": "熟語",
+  "prompt": "毎日（熟語・2語）\nI practice the piano ＿＿＿.（毎日ピアノを練習する。）",
+  "answer": "every day",
+  "reading": "every day",
+  "explanation": "1語の everyday は「毎日の・日常の」という形容詞だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0065",
+  "level": 2,
+  "category": "熟語",
+  "prompt": "家で（熟語・2語）\nI stayed ＿＿＿ yesterday.（昨日は家にいた。）",
+  "answer": "at home",
+  "reading": "at home",
+  "explanation": "Make yourself at home. は「くつろいでね」の意味だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0066",
+  "level": 3,
+  "category": "名詞",
+  "prompt": "辞書（名詞）\nLook up the word in your ＿＿＿.（その単語を辞書で調べなさい。）",
+  "answer": "dictionary",
+  "reading": "dictionary",
+  "explanation": "複数形は dictionaries だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0067",
+  "level": 3,
+  "category": "名詞",
+  "prompt": "レストラン（名詞）\nWe had dinner at a French ＿＿＿.（フランス料理のレストランで夕食をとった。）",
+  "answer": "restaurant",
+  "reading": "restaurant",
+  "explanation": "つづりの au を忘れやすいから注意だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0068",
+  "level": 3,
+  "category": "名詞",
+  "prompt": "博物館・美術館（名詞）\nWe visited an art ＿＿＿ in Paris.（パリの美術館を訪れた。）",
+  "answer": "museum",
+  "reading": "museum",
+  "explanation": "アクセントは mu-SE-um の se にあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0069",
+  "level": 3,
+  "category": "名詞",
+  "prompt": "山（名詞）\nMt. Fuji is the highest ＿＿＿ in Japan.（富士山は日本で一番高い山だ。）",
+  "answer": "mountain",
+  "reading": "mountain",
+  "explanation": "Mt. は Mount の略だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0070",
+  "level": 3,
+  "category": "名詞",
+  "prompt": "川（名詞）\nThe Shinano is the longest ＿＿＿ in Japan.（信濃川は日本で一番長い川だ。）",
+  "answer": "river",
+  "reading": "river",
+  "explanation": "川の名前には the をつけるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0071",
+  "level": 3,
+  "category": "名詞",
+  "prompt": "季節（名詞）\nWhich ＿＿＿ do you like, summer or winter?（夏と冬、どちらの季節が好き？）",
+  "answer": "season",
+  "reading": "season",
+  "explanation": "「春」は spring、「秋」は fall（autumn）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0072",
+  "level": 3,
+  "category": "名詞",
+  "prompt": "将来・未来（名詞）\nI want to be a doctor in the ＿＿＿.（将来は医者になりたい。）",
+  "answer": "future",
+  "reading": "future",
+  "explanation": "「過去」は past、「現在」は present だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0073",
+  "level": 3,
+  "category": "名詞",
+  "prompt": "言語（名詞）\nChinese is a difficult ＿＿＿ to learn.（中国語は学ぶのが難しい言語だ。）",
+  "answer": "language",
+  "reading": "language",
+  "explanation": "つづりの gua を gue と書きまちがえやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0074",
+  "level": 3,
+  "category": "動詞",
+  "prompt": "訪れる（動詞）\nI want to ＿＿＿ Kyoto someday.（いつか京都を訪れたい。）",
+  "answer": "visit",
+  "reading": "visit",
+  "explanation": "「訪問者」は visitor だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0075",
+  "level": 3,
+  "category": "動詞",
+  "prompt": "待つ（動詞）\nPlease ＿＿＿ here for a minute.（ここで少し待ってください。）",
+  "answer": "wait",
+  "reading": "wait",
+  "explanation": "weight（重さ）と発音が同じだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0076",
+  "level": 3,
+  "category": "動詞",
+  "prompt": "忘れる（動詞）\nDon't ＿＿＿ your umbrella.（かさを忘れないでね。）",
+  "answer": "forget",
+  "reading": "forget",
+  "explanation": "過去形は forgot、過去分詞は forgotten だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0077",
+  "level": 3,
+  "category": "動詞",
+  "prompt": "覚えている（動詞）\nDo you ＿＿＿ his name?（彼の名前を覚えてる？）",
+  "answer": "remember",
+  "reading": "remember",
+  "explanation": "反対の意味は forget だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0078",
+  "level": 3,
+  "category": "動詞",
+  "prompt": "楽しむ（動詞）\nDid you ＿＿＿ the party?（パーティーは楽しかった？）",
+  "answer": "enjoy",
+  "reading": "enjoy",
+  "explanation": "「〜して楽しむ」は enjoy -ing の形にするよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0079",
+  "level": 3,
+  "category": "動詞",
+  "prompt": "到着する（動詞）\nThe train will ＿＿＿ at Tokyo Station at noon.（電車は正午に東京駅に到着する。）",
+  "answer": "arrive",
+  "reading": "arrive",
+  "explanation": "arrive at（せまい場所）、arrive in（広い場所）と使い分けるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0080",
+  "level": 3,
+  "category": "動詞",
+  "prompt": "行く（動詞・過去形）\nI ＿＿＿ to the zoo last Sunday.（この前の日曜日に動物園に行った。）",
+  "answer": "went",
+  "reading": "went",
+  "explanation": "go の過去形。過去分詞は gone だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0081",
+  "level": 3,
+  "category": "形容詞",
+  "prompt": "おもしろい・興味深い（形容詞）\nThis book is very ＿＿＿.（この本はとてもおもしろい。）",
+  "answer": "interesting",
+  "reading": "interesting",
+  "explanation": "人が「興味をもった」ときは interested を使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0082",
+  "level": 3,
+  "category": "形容詞",
+  "prompt": "有名な（形容詞）\nKyoto is ＿＿＿ for its old temples.（京都は古い寺で有名だ。）",
+  "answer": "famous",
+  "reading": "famous",
+  "explanation": "be famous for 〜 で「〜で有名だ」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0083",
+  "level": 3,
+  "category": "形容詞",
+  "prompt": "病気の（形容詞）（s で始まる）\nMy mother is ＿＿＿ in bed.（母は病気で寝ている。）",
+  "answer": "sick",
+  "reading": "sick",
+  "explanation": "ill もほぼ同じ意味だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0084",
+  "level": 3,
+  "category": "形容詞",
+  "prompt": "とてもおいしい（形容詞）\nThis cake is ＿＿＿!（このケーキはとてもおいしい！）",
+  "answer": "delicious",
+  "reading": "delicious",
+  "explanation": "very をつけずにそのままで「とてもおいしい」の意味だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0085",
+  "level": 3,
+  "category": "形容詞",
+  "prompt": "疲れた（形容詞）\nI'm ＿＿＿ after soccer practice.（サッカーの練習のあとで疲れている。）",
+  "answer": "tired",
+  "reading": "tired",
+  "explanation": "tire は「疲れさせる」、tired で「疲れた」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0086",
+  "level": 3,
+  "category": "副詞",
+  "prompt": "早く（副詞）\nI got up ＿＿＿ this morning.（今朝は早く起きた。）",
+  "answer": "early",
+  "reading": "early",
+  "explanation": "時間が「早い」は early、速度が「速い」は fast だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0087",
+  "level": 3,
+  "category": "副詞",
+  "prompt": "あとで（副詞）\nSee you ＿＿＿.（またあとでね。）",
+  "answer": "later",
+  "reading": "later",
+  "explanation": "late（遅い）の比較級からできた語だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0088",
+  "level": 3,
+  "category": "副詞",
+  "prompt": "もう一度・再び（副詞）\nPlease say that ＿＿＿.（もう一度言ってください。）",
+  "answer": "again",
+  "reading": "again",
+  "explanation": "ai のつづりに注意しよう。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0089",
+  "level": 3,
+  "category": "前置詞・接続詞",
+  "prompt": "〜の前に（時間）（前置詞・接続詞）\nWash your hands ＿＿＿ dinner.（夕食の前に手を洗いなさい。）",
+  "answer": "before",
+  "reading": "before",
+  "explanation": "場所の「〜の前に」は in front of だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0090",
+  "level": 3,
+  "category": "前置詞・接続詞",
+  "prompt": "〜のあとで（前置詞・接続詞）\nLet's play soccer ＿＿＿ school.（放課後サッカーをしよう。）",
+  "answer": "after",
+  "reading": "after",
+  "explanation": "反対の「〜の前に」は before だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0091",
+  "level": 3,
+  "category": "熟語",
+  "prompt": "〜の世話をする（熟語・3語）\nI ＿＿＿ my little sister on Sundays.（日曜日は妹の世話をする。）",
+  "answer": "take care of",
+  "reading": "take care of",
+  "explanation": "Take care. だけだと「気をつけてね」のあいさつになるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0092",
+  "level": 3,
+  "category": "熟語",
+  "prompt": "〜を待つ（熟語・2語）\nLet's ＿＿＿ the bus here.（ここでバスを待とう。）",
+  "answer": "wait for",
+  "reading": "wait for",
+  "explanation": "wait のあとに人や物が来るときは for が必要だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0093",
+  "level": 3,
+  "category": "熟語",
+  "prompt": "〜をさがす（熟語・2語）\nCan you help me ＿＿＿ my key?（かぎをさがすのを手伝ってくれる？）",
+  "answer": "look for",
+  "reading": "look for",
+  "explanation": "find は「見つける」、look for は「さがす」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0094",
+  "level": 3,
+  "category": "熟語",
+  "prompt": "〜に着く（熟語・2語）\nHow can I ＿＿＿ the station?（駅にはどうやって行けますか。）",
+  "answer": "get to",
+  "reading": "get to",
+  "explanation": "arrive at とほぼ同じ意味だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0095",
+  "level": 3,
+  "category": "熟語",
+  "prompt": "カップ1杯の（熟語・3語）\nWould you like ＿＿＿ tea?（紅茶を1杯いかがですか。）",
+  "answer": "a cup of",
+  "reading": "a cup of",
+  "explanation": "冷たい飲み物は a glass of を使うことが多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0096",
+  "level": 3,
+  "category": "熟語",
+  "prompt": "（乗り物を）降りる（熟語・2語）\nLet's ＿＿＿ the bus at the next stop.（次の停留所でバスを降りよう。）",
+  "answer": "get off",
+  "reading": "get off",
+  "explanation": "反対の「乗る」は get on だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0097",
+  "level": 3,
+  "category": "熟語",
+  "prompt": "世界中で（熟語・4語）\nThis song is popular ＿＿＿.（この歌は世界中で人気がある。）",
+  "answer": "all over the world",
+  "reading": "all over the world",
+  "explanation": "around the world も同じような意味だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0098",
+  "level": 4,
+  "category": "名詞",
+  "prompt": "空港（名詞）\nMy father picked me up at the ＿＿＿.（父が空港まで迎えに来てくれた。）",
+  "answer": "airport",
+  "reading": "airport",
+  "explanation": "air（空）＋ port（港）でできた語だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0099",
+  "level": 4,
+  "category": "名詞",
+  "prompt": "寺（名詞）\nKinkakuji is an old ＿＿＿ in Kyoto.（金閣寺は京都にある古い寺だ。）",
+  "answer": "temple",
+  "reading": "temple",
+  "explanation": "「神社」は shrine だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0100",
+  "level": 4,
+  "category": "名詞",
+  "prompt": "文化（名詞）\nI'm interested in Japanese ＿＿＿.（日本の文化に興味がある。）",
+  "answer": "culture",
+  "reading": "culture",
+  "explanation": "形容詞は cultural（文化の）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0101",
+  "level": 4,
+  "category": "名詞",
+  "prompt": "祭り（名詞）\nWe went to the summer ＿＿＿ in yukata.（浴衣を着て夏祭りに行った。）",
+  "answer": "festival",
+  "reading": "festival",
+  "explanation": "school festival は「文化祭」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0102",
+  "level": 4,
+  "category": "名詞",
+  "prompt": "ボランティア（名詞）\nI worked as a ＿＿＿ at the event.（そのイベントでボランティアとして働いた。）",
+  "answer": "volunteer",
+  "reading": "volunteer",
+  "explanation": "動詞で「進んで引き受ける」の意味もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0103",
+  "level": 4,
+  "category": "名詞",
+  "prompt": "問題（名詞）\nWe have to solve this ＿＿＿.（私たちはこの問題を解決しなければならない。）",
+  "answer": "problem",
+  "reading": "problem",
+  "explanation": "No problem. は「いいよ・どういたしまして」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0104",
+  "level": 4,
+  "category": "名詞",
+  "prompt": "考え・アイデア（名詞）\nThat's a good ＿＿＿!（それはいい考えだね！）",
+  "answer": "idea",
+  "reading": "idea",
+  "explanation": "母音で始まるから an idea になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0105",
+  "level": 4,
+  "category": "名詞",
+  "prompt": "一員・メンバー（名詞）\nI'm a ＿＿＿ of the brass band.（私は吹奏楽部の一員だ。）",
+  "answer": "member",
+  "reading": "member",
+  "explanation": "be a member of 〜 で「〜に所属している」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0106",
+  "level": 4,
+  "category": "動詞",
+  "prompt": "練習する（動詞）\nWe ＿＿＿ basketball every day.（私たちは毎日バスケットボールを練習する。）",
+  "answer": "practice",
+  "reading": "practice",
+  "explanation": "名詞で「練習」の意味もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0107",
+  "level": 4,
+  "category": "動詞",
+  "prompt": "決める（動詞）\nI can't ＿＿＿ which cake to buy.（どのケーキを買うか決められない。）",
+  "answer": "decide",
+  "reading": "decide",
+  "explanation": "decide to 〜 で「〜することに決める」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0108",
+  "level": 4,
+  "category": "動詞",
+  "prompt": "試す・やってみる（動詞）\n＿＿＿ this cake. It's really good.（このケーキを食べてみて。本当においしいよ。）",
+  "answer": "try",
+  "reading": "try",
+  "explanation": "try to 〜 は「〜しようとする」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0109",
+  "level": 4,
+  "category": "動詞",
+  "prompt": "借りる（動詞）\nCan I ＿＿＿ your eraser?（消しゴムを借りてもいい？）",
+  "answer": "borrow",
+  "reading": "borrow",
+  "explanation": "反対の「貸す」は lend だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0110",
+  "level": 4,
+  "category": "動詞",
+  "prompt": "貸す（動詞）\nCould you ＿＿＿ me your pen?（ペンを貸してくれませんか。）",
+  "answer": "lend",
+  "reading": "lend",
+  "explanation": "過去形は lent だよ。borrow と混同しないように。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0111",
+  "level": 4,
+  "category": "動詞",
+  "prompt": "運ぶ（動詞）\nCan you ＿＿＿ this box for me?（この箱を運んでくれる？）",
+  "answer": "carry",
+  "reading": "carry",
+  "explanation": "3人称単数は carries になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0112",
+  "level": 4,
+  "category": "動詞",
+  "prompt": "書く（動詞・過去形）\nI ＿＿＿ a letter to my grandmother.（祖母に手紙を書いた。）",
+  "answer": "wrote",
+  "reading": "wrote",
+  "explanation": "write の過去形。過去分詞は written だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0113",
+  "level": 4,
+  "category": "動詞",
+  "prompt": "作る（動詞・過去形）\nMom ＿＿＿ a cake for my birthday.（母が私の誕生日にケーキを作ってくれた。）",
+  "answer": "made",
+  "reading": "made",
+  "explanation": "make の過去形・過去分詞だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0114",
+  "level": 4,
+  "category": "形容詞",
+  "prompt": "大切な（形容詞）\nFriends are ＿＿＿ to me.（友達は私にとって大切だ。）",
+  "answer": "important",
+  "reading": "important",
+  "explanation": "名詞は importance（重要性）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0115",
+  "level": 4,
+  "category": "形容詞",
+  "prompt": "違った（形容詞）\nMy idea is ＿＿＿ from yours.（私の考えはあなたのとは違う。）",
+  "answer": "different",
+  "reading": "different",
+  "explanation": "be different from 〜 で「〜と違う」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0116",
+  "level": 4,
+  "category": "形容詞",
+  "prompt": "人気のある（形容詞）\nThis song is ＿＿＿ among young people.（この歌は若い人たちの間で人気がある。）",
+  "answer": "popular",
+  "reading": "popular",
+  "explanation": "popular among 〜 で「〜の間で人気の」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0117",
+  "level": 4,
+  "category": "形容詞",
+  "prompt": "危険な（形容詞）\nIt is ＿＿＿ to swim in this river.（この川で泳ぐのは危険だ。）",
+  "answer": "dangerous",
+  "reading": "dangerous",
+  "explanation": "名詞は danger（危険）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0118",
+  "level": 4,
+  "category": "形容詞",
+  "prompt": "必要な（形容詞）\nWater is ＿＿＿ for all living things.（水はすべての生き物に必要だ。）",
+  "answer": "necessary",
+  "reading": "necessary",
+  "explanation": "c が1つ、s が2つのつづりに注意だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0119",
+  "level": 4,
+  "category": "形容詞",
+  "prompt": "静かな（形容詞）\nPlease be ＿＿＿ in the library.（図書館では静かにしてください。）",
+  "answer": "quiet",
+  "reading": "quiet",
+  "explanation": "quite（かなり）とつづりが似ているから注意だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0120",
+  "level": 4,
+  "category": "形容詞",
+  "prompt": "高価な（形容詞）\nThis watch is too ＿＿＿.（この腕時計は高すぎる。）",
+  "answer": "expensive",
+  "reading": "expensive",
+  "explanation": "反対の「安い」は cheap だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0121",
+  "level": 4,
+  "category": "副詞",
+  "prompt": "外国へ・外国で（副詞）（a で始まる）\nI want to study ＿＿＿.（留学したい。）",
+  "answer": "abroad",
+  "reading": "abroad",
+  "explanation": "副詞だから go to abroad とは言わないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0122",
+  "level": 4,
+  "category": "副詞",
+  "prompt": "一度（副詞）\nI have been to Hawaii ＿＿＿.（ハワイに一度行ったことがある。）",
+  "answer": "once",
+  "reading": "once",
+  "explanation": "2回は twice、3回以上は three times のように言うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0123",
+  "level": 4,
+  "category": "前置詞・接続詞",
+  "prompt": "〜の間に（前置詞・接続詞）\nI fell asleep ＿＿＿ the movie.（映画の間に眠ってしまった。）",
+  "answer": "during",
+  "reading": "during",
+  "explanation": "during のあとには期間を表す名詞が来るよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0124",
+  "level": 4,
+  "category": "前置詞・接続詞",
+  "prompt": "〜まで（ずっと）（前置詞・接続詞）\nWait here ＿＿＿ I come back.（私が戻るまでここで待っていて。）",
+  "answer": "until",
+  "reading": "until",
+  "explanation": "期限の「〜までに」は by だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0125",
+  "level": 4,
+  "category": "前置詞・接続詞",
+  "prompt": "もし〜ならば（前置詞・接続詞）\n＿＿＿ it rains tomorrow, I will stay home.（もし明日雨が降ったら家にいるよ。）",
+  "answer": "if",
+  "reading": "if",
+  "explanation": "if の文では未来のことも現在形で表すよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0126",
+  "level": 4,
+  "category": "熟語",
+  "prompt": "〜のために（理由）（熟語・2語）\nThe game was canceled ＿＿＿ the rain.（雨のために試合は中止になった。）",
+  "answer": "because of",
+  "reading": "because of",
+  "explanation": "because のあとは文、because of のあとは名詞が来るよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0127",
+  "level": 4,
+  "category": "熟語",
+  "prompt": "例えば（熟語・2語）\nI like sports, ＿＿＿, soccer and tennis.（私はスポーツが好きだ。例えばサッカーやテニスだ。）",
+  "answer": "for example",
+  "reading": "for example",
+  "explanation": "such as 〜 も「〜のような」と例を挙げるときに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0128",
+  "level": 4,
+  "category": "熟語",
+  "prompt": "〜を着る（動作）（熟語・2語）\n＿＿＿ your coat. It's cold outside.（コートを着なさい。外は寒いよ。）",
+  "answer": "put on",
+  "reading": "put on",
+  "explanation": "「着ている（状態）」は wear だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0129",
+  "level": 4,
+  "category": "熟語",
+  "prompt": "〜を脱ぐ（熟語・2語）\nPlease ＿＿＿ your shoes here.（ここでくつを脱いでください。）",
+  "answer": "take off",
+  "reading": "take off",
+  "explanation": "「（飛行機が）離陸する」の意味もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0130",
+  "level": 4,
+  "category": "熟語",
+  "prompt": "初めて（熟語・4語）\nI saw snow ＿＿＿ last winter.（去年の冬、初めて雪を見た。）",
+  "answer": "for the first time",
+  "reading": "for the first time",
+  "explanation": "at first（最初は）と混同しないようにね。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0131",
+  "level": 5,
+  "category": "名詞",
+  "prompt": "環境（名詞）\nWe must protect the ＿＿＿.（私たちは環境を守らなければならない。）",
+  "answer": "environment",
+  "reading": "environment",
+  "explanation": "つづりは en-vi-ron-ment。途中の n を忘れやすいから注意だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0132",
+  "level": 5,
+  "category": "名詞",
+  "prompt": "エネルギー（名詞）\nSolar ＿＿＿ is clean.（太陽エネルギーはクリーンだ。）",
+  "answer": "energy",
+  "reading": "energy",
+  "explanation": "英語の発音は「エナジー」に近いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0133",
+  "level": 5,
+  "category": "名詞",
+  "prompt": "経験（名詞）\nIt was a good ＿＿＿ for me.（それは私にとって良い経験だった。）",
+  "answer": "experience",
+  "reading": "experience",
+  "explanation": "動詞で「経験する」の意味もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0134",
+  "level": 5,
+  "category": "名詞",
+  "prompt": "情報（名詞）\nI got the ＿＿＿ on the Internet.（インターネットでその情報を得た。）",
+  "answer": "information",
+  "reading": "information",
+  "explanation": "数えられない名詞だから s はつけないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0135",
+  "level": 5,
+  "category": "名詞",
+  "prompt": "伝言（名詞）\nCan I leave a ＿＿＿?（伝言をお願いできますか。）",
+  "answer": "message",
+  "reading": "message",
+  "explanation": "Can I take a message? は「伝言をうかがいましょうか」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0136",
+  "level": 5,
+  "category": "名詞",
+  "prompt": "伝統（名詞）（t で始まる）\nIt is a Japanese ＿＿＿ to eat soba on New Year's Eve.（大みそかにそばを食べるのは日本の伝統だ。）",
+  "answer": "tradition",
+  "reading": "tradition",
+  "explanation": "形容詞は traditional（伝統的な）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0137",
+  "level": 5,
+  "category": "名詞",
+  "prompt": "近所の人（名詞）\nMy ＿＿＿ gave us some apples.（近所の人がリンゴをくれた。）",
+  "answer": "neighbor",
+  "reading": "neighbor",
+  "explanation": "gh は発音しないよ。イギリス英語では neighbour だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0138",
+  "level": 5,
+  "category": "名詞",
+  "prompt": "村（名詞）\nHe lives in a small ＿＿＿ in the mountains.（彼は山の中の小さな村に住んでいる。）",
+  "answer": "village",
+  "reading": "village",
+  "explanation": "town は「町」、city は「市・都市」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0139",
+  "level": 5,
+  "category": "動詞",
+  "prompt": "紹介する（動詞）\nLet me ＿＿＿ myself.（自己紹介させてください。）",
+  "answer": "introduce",
+  "reading": "introduce",
+  "explanation": "名詞は introduction（紹介）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0140",
+  "level": 5,
+  "category": "動詞",
+  "prompt": "招待する（動詞）\nI'll ＿＿＿ Tom to my party.（トムをパーティーに招待するつもりだ。）",
+  "answer": "invite",
+  "reading": "invite",
+  "explanation": "名詞は invitation（招待）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0141",
+  "level": 5,
+  "category": "動詞",
+  "prompt": "信じる（動詞）\nI can't ＿＿＿ it!（信じられない！）",
+  "answer": "believe",
+  "reading": "believe",
+  "explanation": "ie のつづりに注意。lie（うそ）が中に入っていると覚えよう。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0142",
+  "level": 5,
+  "category": "動詞",
+  "prompt": "理解する（動詞）\nI don't ＿＿＿ this sentence.（この文が理解できない。）",
+  "answer": "understand",
+  "reading": "understand",
+  "explanation": "過去形・過去分詞は understood だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0143",
+  "level": 5,
+  "category": "動詞",
+  "prompt": "起こる（動詞）\nWhat will ＿＿＿ next?（次に何が起こるだろう。）",
+  "answer": "happen",
+  "reading": "happen",
+  "explanation": "What happened? は「何があったの？」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0144",
+  "level": 5,
+  "category": "動詞",
+  "prompt": "育てる（動詞）\nWe ＿＿＿ tomatoes in our garden.（庭でトマトを育てている。）",
+  "answer": "grow",
+  "reading": "grow",
+  "explanation": "過去形は grew、過去分詞は grown だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0145",
+  "level": 5,
+  "category": "動詞",
+  "prompt": "捕まえる（動詞）\nMy brother can ＿＿＿ fish with his hands.（兄は手で魚を捕まえられる。）",
+  "answer": "catch",
+  "reading": "catch",
+  "explanation": "過去形・過去分詞は caught だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0146",
+  "level": 5,
+  "category": "動詞",
+  "prompt": "教える（動詞・過去形）\nMs. Brown ＿＿＿ us English last year.（ブラウン先生は去年私たちに英語を教えてくれた。）",
+  "answer": "taught",
+  "reading": "taught",
+  "explanation": "teach の過去形・過去分詞。gh は発音しないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0147",
+  "level": 5,
+  "category": "動詞",
+  "prompt": "思う（動詞・過去形）\nI ＿＿＿ the test was easy.（テストは簡単だと思った。）",
+  "answer": "thought",
+  "reading": "thought",
+  "explanation": "think の過去形。名詞で「考え」の意味もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0148",
+  "level": 5,
+  "category": "動詞",
+  "prompt": "見る（動詞・過去形）\nI ＿＿＿ a rainbow yesterday.（昨日、虹を見た。）",
+  "answer": "saw",
+  "reading": "saw",
+  "explanation": "see の過去形。過去分詞は seen だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0149",
+  "level": 5,
+  "category": "形容詞",
+  "prompt": "注意深い（形容詞）\nBe ＿＿＿ when you cross the street.（通りを渡るときは気をつけて。）",
+  "answer": "careful",
+  "reading": "careful",
+  "explanation": "care（注意）＋ ful。副詞は carefully だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0150",
+  "level": 5,
+  "category": "形容詞",
+  "prompt": "強い（形容詞）\nThe wind was very ＿＿＿ yesterday.（昨日は風がとても強かった。）",
+  "answer": "strong",
+  "reading": "strong",
+  "explanation": "反対の「弱い」は weak だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0151",
+  "level": 5,
+  "category": "形容詞",
+  "prompt": "健康な（形容詞）\nEat vegetables to stay ＿＿＿.（健康でいるために野菜を食べなさい。）",
+  "answer": "healthy",
+  "reading": "healthy",
+  "explanation": "名詞は health（健康）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0152",
+  "level": 5,
+  "category": "形容詞",
+  "prompt": "役に立つ（形容詞）（u で始まる）\nThis map is very ＿＿＿.（この地図はとても役に立つ。）",
+  "answer": "useful",
+  "reading": "useful",
+  "explanation": "use（使う）＋ ful で「役に立つ」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0153",
+  "level": 5,
+  "category": "形容詞",
+  "prompt": "外国の（形容詞）\nI want to learn a ＿＿＿ language.（外国語を学びたい。）",
+  "answer": "foreign",
+  "reading": "foreign",
+  "explanation": "g は発音しないよ。「外国人」は foreigner だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0154",
+  "level": 5,
+  "category": "形容詞",
+  "prompt": "十分な（形容詞）\nWe have ＿＿＿ time.（時間は十分にある。）",
+  "answer": "enough",
+  "reading": "enough",
+  "explanation": "gh は「フ」と発音するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0155",
+  "level": 5,
+  "category": "副詞",
+  "prompt": "すでに・もう（副詞）\nI have ＿＿＿ finished my homework.（もう宿題を終えてしまった。）",
+  "answer": "already",
+  "reading": "already",
+  "explanation": "現在完了の「完了」でよく使うよ。l は1つだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0156",
+  "level": 5,
+  "category": "副詞",
+  "prompt": "（否定文で）まだ（副詞）\nI have not eaten lunch ＿＿＿.（まだお昼ごはんを食べていない。）",
+  "answer": "yet",
+  "reading": "yet",
+  "explanation": "疑問文では「もう」の意味になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0157",
+  "level": 5,
+  "category": "前置詞・接続詞",
+  "prompt": "〜なしで（前置詞・接続詞）\nI can't live ＿＿＿ music.（音楽なしでは生きられない。）",
+  "answer": "without",
+  "reading": "without",
+  "explanation": "with（〜と一緒に）の反対だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0158",
+  "level": 5,
+  "category": "前置詞・接続詞",
+  "prompt": "〜する間に（前置詞・接続詞）\nMy mother called me ＿＿＿ I was taking a bath.（私がおふろに入っている間に母が電話してきた。）",
+  "answer": "while",
+  "reading": "while",
+  "explanation": "名詞で for a while「しばらくの間」とも使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0159",
+  "level": 5,
+  "category": "熟語",
+  "prompt": "お互い（熟語・2語）\nWe help ＿＿＿.（私たちはお互いに助け合う。）",
+  "answer": "each other",
+  "reading": "each other",
+  "explanation": "代名詞だから help to each other とはしないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0160",
+  "level": 5,
+  "category": "熟語",
+  "prompt": "最初は（熟語・2語）\n＿＿＿, I didn't like natto.（最初は納豆が好きではなかった。）",
+  "answer": "at first",
+  "reading": "at first",
+  "explanation": "「初めて」は for the first time だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0161",
+  "level": 5,
+  "category": "熟語",
+  "prompt": "〜に似ている（熟語・2語）\nYou ＿＿＿ your mother.（あなたはお母さんに似ているね。）",
+  "answer": "look like",
+  "reading": "look like",
+  "explanation": "look ＋ 形容詞は「〜に見える」、look like ＋ 名詞は「〜のように見える」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0162",
+  "level": 5,
+  "category": "熟語",
+  "prompt": "〜から便りがある（熟語・2語）\nI was happy to ＿＿＿ you.（あなたから便りがあってうれしかった。）",
+  "answer": "hear from",
+  "reading": "hear from",
+  "explanation": "hear of 〜 は「〜のうわさを聞く」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0163",
+  "level": 5,
+  "category": "熟語",
+  "prompt": "ある日（熟語・2語）\n＿＿＿, a boy found a little cat.（ある日、少年は小さなネコを見つけた。）",
+  "answer": "one day",
+  "reading": "one day",
+  "explanation": "物語の始まりによく出てくるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0164",
+  "level": 6,
+  "category": "名詞",
+  "prompt": "自然（名詞）\nI love the beautiful ＿＿＿ of Hokkaido.（北海道の美しい自然が大好きだ。）",
+  "answer": "nature",
+  "reading": "nature",
+  "explanation": "形容詞は natural（自然の）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0165",
+  "level": 6,
+  "category": "名詞",
+  "prompt": "理科・科学（名詞）\n＿＿＿ is my favorite subject.（理科は私の一番好きな教科だ。）",
+  "answer": "science",
+  "reading": "science",
+  "explanation": "sc のつづりに注意。「科学者」は scientist だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0166",
+  "level": 6,
+  "category": "名詞",
+  "prompt": "歴史（名詞）\nKyoto has a long ＿＿＿.（京都には長い歴史がある。）",
+  "answer": "history",
+  "reading": "history",
+  "explanation": "形容詞 historical は「歴史の」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0167",
+  "level": 6,
+  "category": "名詞",
+  "prompt": "健康（名詞）\nWalking is good for your ＿＿＿.（歩くことは健康に良い。）",
+  "answer": "health",
+  "reading": "health",
+  "explanation": "形容詞は healthy（健康な）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0168",
+  "level": 6,
+  "category": "名詞",
+  "prompt": "社会（名詞）\nWe live in an aging ＿＿＿.（私たちは高齢化社会に生きている。）",
+  "answer": "society",
+  "reading": "society",
+  "explanation": "形容詞は social（社会の）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0169",
+  "level": 6,
+  "category": "名詞",
+  "prompt": "意見（名詞）\nWhat's your ＿＿＿ about this plan?（この計画についてのあなたの意見は？）",
+  "answer": "opinion",
+  "reading": "opinion",
+  "explanation": "in my opinion で「私の意見では」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0170",
+  "level": 6,
+  "category": "名詞",
+  "prompt": "理由（名詞）\nTell me the ＿＿＿ you were late.（遅れた理由を教えて。）",
+  "answer": "reason",
+  "reading": "reason",
+  "explanation": "the reason why 〜 の形でもよく使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0171",
+  "level": 6,
+  "category": "名詞",
+  "prompt": "機会（名詞）（c で始まる）\nI had a ＿＿＿ to talk with him.（彼と話す機会があった。）",
+  "answer": "chance",
+  "reading": "chance",
+  "explanation": "「可能性」の意味もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0172",
+  "level": 6,
+  "category": "名詞",
+  "prompt": "地球（名詞）\nThe ＿＿＿ goes around the sun.（地球は太陽のまわりを回っている。）",
+  "answer": "earth",
+  "reading": "earth",
+  "explanation": "Earth と大文字で書くこともあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0173",
+  "level": 6,
+  "category": "動詞",
+  "prompt": "説明する（動詞）\nCan you ＿＿＿ this rule to me?（このルールを説明してくれる？）",
+  "answer": "explain",
+  "reading": "explain",
+  "explanation": "名詞は explanation（説明）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0174",
+  "level": 6,
+  "category": "動詞",
+  "prompt": "賛成する（動詞）\nI ＿＿＿ with you.（あなたに賛成だ。）",
+  "answer": "agree",
+  "reading": "agree",
+  "explanation": "「反対する」は disagree だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0175",
+  "level": 6,
+  "category": "動詞",
+  "prompt": "守る（動詞）（p で始まる）\nWe should ＿＿＿ the forests.（私たちは森を守るべきだ。）",
+  "answer": "protect",
+  "reading": "protect",
+  "explanation": "protect A from B で「B から A を守る」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0176",
+  "level": 6,
+  "category": "動詞",
+  "prompt": "受け取る（動詞）（r で始まる）\nDid you ＿＿＿ my letter?（私の手紙を受け取った？）",
+  "answer": "receive",
+  "reading": "receive",
+  "explanation": "ei のつづりに注意だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0177",
+  "level": 6,
+  "category": "動詞",
+  "prompt": "心配する（動詞）\nDon't ＿＿＿. You'll be fine.（心配しないで。大丈夫だよ。）",
+  "answer": "worry",
+  "reading": "worry",
+  "explanation": "worry about 〜 で「〜について心配する」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0178",
+  "level": 6,
+  "category": "動詞",
+  "prompt": "選ぶ（動詞）（c で始まる）\n＿＿＿ one card from these.（この中からカードを1枚選んで。）",
+  "answer": "choose",
+  "reading": "choose",
+  "explanation": "過去形は chose、過去分詞は chosen だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0179",
+  "level": 6,
+  "category": "動詞",
+  "prompt": "話す（動詞・過去分詞）\nEnglish is ＿＿＿ in many countries.（英語は多くの国で話されている。）",
+  "answer": "spoken",
+  "reading": "spoken",
+  "explanation": "speak - spoke - spoken と変化するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0180",
+  "level": 6,
+  "category": "動詞",
+  "prompt": "書く（動詞・過去分詞）\nThis book was ＿＿＿ by a famous writer.（この本は有名な作家によって書かれた。）",
+  "answer": "written",
+  "reading": "written",
+  "explanation": "t を2つ重ねるのを忘れないでね。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0181",
+  "level": 6,
+  "category": "動詞",
+  "prompt": "知る（動詞・過去分詞）\nHe is ＿＿＿ as a great singer.（彼はすばらしい歌手として知られている。）",
+  "answer": "known",
+  "reading": "known",
+  "explanation": "be known to 〜 は「〜に知られている」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0182",
+  "level": 6,
+  "category": "形容詞",
+  "prompt": "驚いた（形容詞）\nI was ＿＿＿ at the news.（その知らせに驚いた。）",
+  "answer": "surprised",
+  "reading": "surprised",
+  "explanation": "物事が「驚くべき」ときは surprising だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0183",
+  "level": 6,
+  "category": "形容詞",
+  "prompt": "わくわくした（形容詞）\nThe children were ＿＿＿ about the trip.（子どもたちは旅行にわくわくしていた。）",
+  "answer": "excited",
+  "reading": "excited",
+  "explanation": "物事が「わくわくさせる」ときは exciting だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0184",
+  "level": 6,
+  "category": "形容詞",
+  "prompt": "怖がって（形容詞）（a で始まる）\nMy sister is ＿＿＿ of dogs.（妹は犬を怖がっている。）",
+  "answer": "afraid",
+  "reading": "afraid",
+  "explanation": "I'm afraid 〜 は「残念ながら〜」の意味にもなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0185",
+  "level": 6,
+  "category": "形容詞",
+  "prompt": "伝統的な（形容詞）\nKimono is ＿＿＿ Japanese clothing.（着物は伝統的な日本の衣服だ。）",
+  "answer": "traditional",
+  "reading": "traditional",
+  "explanation": "名詞は tradition（伝統）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0186",
+  "level": 6,
+  "category": "形容詞",
+  "prompt": "国際的な（形容詞）\nOur town has an ＿＿＿ school.（私たちの町には国際学校がある。）",
+  "answer": "international",
+  "reading": "international",
+  "explanation": "inter（〜の間）＋ national（国の）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0187",
+  "level": 6,
+  "category": "副詞",
+  "prompt": "たぶん（副詞）\nIt will ＿＿＿ rain tomorrow.（明日はたぶん雨が降るだろう。）",
+  "answer": "probably",
+  "reading": "probably",
+  "explanation": "maybe より確信が強いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0188",
+  "level": 6,
+  "category": "副詞",
+  "prompt": "ほとんど（副詞）（a で始まる）\nI'm ＿＿＿ done.（ほとんど終わったよ。）",
+  "answer": "almost",
+  "reading": "almost",
+  "explanation": "l は1つだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0189",
+  "level": 6,
+  "category": "副詞",
+  "prompt": "代わりに（副詞）\nI didn't have tea. I had coffee ＿＿＿.（紅茶は飲まなかった。代わりにコーヒーを飲んだ。）",
+  "answer": "instead",
+  "reading": "instead",
+  "explanation": "instead of 〜 で「〜の代わりに」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0190",
+  "level": 6,
+  "category": "前置詞・接続詞",
+  "prompt": "〜を通り抜けて（前置詞・接続詞）\nThe train went ＿＿＿ a long tunnel.（電車は長いトンネルを通り抜けた。）",
+  "answer": "through",
+  "reading": "through",
+  "explanation": "though（〜だけれども）とつづりが似ているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0191",
+  "level": 6,
+  "category": "熟語",
+  "prompt": "〜を楽しみに待つ（熟語・3語）\nI ＿＿＿ seeing you again.（また会えるのを楽しみにしている。）",
+  "answer": "look forward to",
+  "reading": "look forward to",
+  "explanation": "to のあとは名詞か -ing 形が来るよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0192",
+  "level": 6,
+  "category": "熟語",
+  "prompt": "少しの（数）（熟語・2語）\nI have ＿＿＿ questions.（いくつか質問がある。）",
+  "answer": "a few",
+  "reading": "a few",
+  "explanation": "量の「少しの」は a little だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0193",
+  "level": 6,
+  "category": "熟語",
+  "prompt": "〜のような（熟語・2語）\nI like fruits ＿＿＿ apples and bananas.（リンゴやバナナのような果物が好きだ。）",
+  "answer": "such as",
+  "reading": "such as",
+  "explanation": "例を挙げるときに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0194",
+  "level": 6,
+  "category": "熟語",
+  "prompt": "（明かりなどを）消す（熟語・2語）（t で始まる）\nPlease ＿＿＿ the light.（明かりを消してください。）",
+  "answer": "turn off",
+  "reading": "turn off",
+  "explanation": "反対の「つける」は turn on だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0195",
+  "level": 6,
+  "category": "熟語",
+  "prompt": "調べて知る・見つけ出す（熟語・2語）\nLet's ＿＿＿ the truth.（真実を突き止めよう。）",
+  "answer": "find out",
+  "reading": "find out",
+  "explanation": "物を「見つける」だけなら find だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0196",
+  "level": 6,
+  "category": "熟語",
+  "prompt": "少し（量・程度）（熟語・2語・a l で始まる）\nI can speak English ＿＿＿.（英語を少し話せる。）",
+  "answer": "a little",
+  "reading": "a little",
+  "explanation": "数の「少しの」は a few だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0197",
+  "level": 7,
+  "category": "名詞",
+  "prompt": "政府（名詞）\nThe ＿＿＿ made a new law.（政府は新しい法律を作った。）",
+  "answer": "government",
+  "reading": "government",
+  "explanation": "govern（治める）＋ ment。n を忘れやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0198",
+  "level": 7,
+  "category": "名詞",
+  "prompt": "人口（名詞）\nThe ＿＿＿ of Japan is decreasing.（日本の人口は減っている。）",
+  "answer": "population",
+  "reading": "population",
+  "explanation": "「多い・少ない」は large / small で表すよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0199",
+  "level": 7,
+  "category": "名詞",
+  "prompt": "汚染（名詞）\nAir ＿＿＿ is a big problem in some cities.（いくつかの都市では大気汚染が大きな問題だ。）",
+  "answer": "pollution",
+  "reading": "pollution",
+  "explanation": "動詞は pollute（汚染する）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0200",
+  "level": 7,
+  "category": "名詞",
+  "prompt": "科学技術（名詞）\n＿＿＿ makes our lives easier.（科学技術は私たちの生活をより楽にする。）",
+  "answer": "technology",
+  "reading": "technology",
+  "explanation": "ch は「ク」と発音するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0201",
+  "level": 7,
+  "category": "名詞",
+  "prompt": "努力（名詞）\nHe made a great ＿＿＿ to win.（彼は勝つために大いに努力した。）",
+  "answer": "effort",
+  "reading": "effort",
+  "explanation": "make an effort で「努力する」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0202",
+  "level": 7,
+  "category": "名詞",
+  "prompt": "目標（名詞）（g で始まる）\nMy ＿＿＿ is to become a nurse.（私の目標は看護師になることだ。）",
+  "answer": "goal",
+  "reading": "goal",
+  "explanation": "サッカーなどの「ゴール」も同じ語だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0203",
+  "level": 7,
+  "category": "名詞",
+  "prompt": "災害（名詞）\nAn earthquake is a natural ＿＿＿.（地震は自然災害だ。）",
+  "answer": "disaster",
+  "reading": "disaster",
+  "explanation": "アクセントは dis-AS-ter の as にあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0204",
+  "level": 7,
+  "category": "名詞",
+  "prompt": "状況（名詞）\nThe ＿＿＿ is getting worse.（状況は悪化している。）",
+  "answer": "situation",
+  "reading": "situation",
+  "explanation": "tion で終わる名詞はその直前にアクセントが来るよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0205",
+  "level": 7,
+  "category": "動詞",
+  "prompt": "意思を伝え合う（動詞）\nWe can ＿＿＿ with people around the world.（私たちは世界中の人々と意思を伝え合える。）",
+  "answer": "communicate",
+  "reading": "communicate",
+  "explanation": "名詞は communication だよ。m は2つだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0206",
+  "level": 7,
+  "category": "動詞",
+  "prompt": "向上させる（動詞）（i で始まる）\nI want to ＿＿＿ my English.（英語の力を伸ばしたい。）",
+  "answer": "improve",
+  "reading": "improve",
+  "explanation": "get better とほぼ同じ意味だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0207",
+  "level": 7,
+  "category": "動詞",
+  "prompt": "減らす（動詞）\nWe must ＿＿＿ plastic waste.（私たちはプラスチックごみを減らさなければならない。）",
+  "answer": "reduce",
+  "reading": "reduce",
+  "explanation": "3R は reduce / reuse / recycle だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0208",
+  "level": 7,
+  "category": "動詞",
+  "prompt": "解決する・解く（動詞）\nLet's ＿＿＿ this puzzle together.（一緒にこのパズルを解こう。）",
+  "answer": "solve",
+  "reading": "solve",
+  "explanation": "名詞は solution（解決策）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0209",
+  "level": 7,
+  "category": "動詞",
+  "prompt": "続ける（動詞）\nPlease ＿＿＿ your story.（話を続けてください。）",
+  "answer": "continue",
+  "reading": "continue",
+  "explanation": "continue to 〜 / continue -ing どちらも使えるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0210",
+  "level": 7,
+  "category": "動詞",
+  "prompt": "気づく・悟る（動詞）（r で始まる）\nI didn't ＿＿＿ how important it was.（それがどれほど大切か気づかなかった。）",
+  "answer": "realize",
+  "reading": "realize",
+  "explanation": "「実現する」の意味もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0211",
+  "level": 7,
+  "category": "動詞",
+  "prompt": "分け合う・共有する（動詞）\nLet's ＿＿＿ this pizza.（このピザを分け合おう。）",
+  "answer": "share",
+  "reading": "share",
+  "explanation": "名詞で「分け前・割合」の意味もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0212",
+  "level": 7,
+  "category": "動詞",
+  "prompt": "開く・催す（動詞・過去分詞）\nThe Olympics were ＿＿＿ in Tokyo in 2021.（オリンピックは2021年に東京で開かれた。）",
+  "answer": "held",
+  "reading": "held",
+  "explanation": "hold - held - held と変化するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0213",
+  "level": 7,
+  "category": "動詞",
+  "prompt": "建てる（動詞・過去分詞）\nThis temple was ＿＿＿ about 1,000 years ago.（この寺は約1000年前に建てられた。）",
+  "answer": "built",
+  "reading": "built",
+  "explanation": "build - built - built と変化するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0214",
+  "level": 7,
+  "category": "形容詞",
+  "prompt": "深刻な（形容詞）\nGlobal warming is a ＿＿＿ problem.（地球温暖化は深刻な問題だ。）",
+  "answer": "serious",
+  "reading": "serious",
+  "explanation": "「まじめな」の意味もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0215",
+  "level": 7,
+  "category": "形容詞",
+  "prompt": "便利な（形容詞）（c で始まる）\nThis bag is ＿＿＿ for traveling.（このかばんは旅行に便利だ。）",
+  "answer": "convenient",
+  "reading": "convenient",
+  "explanation": "名詞 convenience store は「コンビニ」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0216",
+  "level": 7,
+  "category": "形容詞",
+  "prompt": "地球規模の（形容詞）\n＿＿＿ warming is getting worse.（地球温暖化はひどくなっている。）",
+  "answer": "global",
+  "reading": "global",
+  "explanation": "globe（地球・地球儀）の形容詞だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0217",
+  "level": 7,
+  "category": "形容詞",
+  "prompt": "年配の（形容詞）（e で始まる）\nWe should be kind to ＿＿＿ people.（私たちはお年寄りに親切にするべきだ。）",
+  "answer": "elderly",
+  "reading": "elderly",
+  "explanation": "old よりていねいな言い方だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0218",
+  "level": 7,
+  "category": "形容詞",
+  "prompt": "地元の（形容詞）\nI buy vegetables from ＿＿＿ farmers.（私は地元の農家から野菜を買う。）",
+  "answer": "local",
+  "reading": "local",
+  "explanation": "「いなかの」という意味ではないから注意だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0219",
+  "level": 7,
+  "category": "副詞",
+  "prompt": "特に（副詞）\nI like fruit, ＿＿＿ peaches.（果物が好きで、特に桃が好きだ。）",
+  "answer": "especially",
+  "reading": "especially",
+  "explanation": "special（特別な）から来た語だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0220",
+  "level": 7,
+  "category": "副詞",
+  "prompt": "しかし（副詞）\nI wanted to go. ＿＿＿, I was sick.（行きたかった。しかし、具合が悪かった。）",
+  "answer": "however",
+  "reading": "however",
+  "explanation": "but より改まった言い方で、あとにコンマを置くことが多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0221",
+  "level": 7,
+  "category": "前置詞・接続詞",
+  "prompt": "（3つ以上）の間で（前置詞・接続詞）\nThis singer is popular ＿＿＿ students.（この歌手は学生の間で人気がある。）",
+  "answer": "among",
+  "reading": "among",
+  "explanation": "2つの間は between だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0222",
+  "level": 7,
+  "category": "前置詞・接続詞",
+  "prompt": "〜を横切って（前置詞・接続詞）（a で始まる）\nWe walked ＿＿＿ the bridge.（私たちは橋を歩いて渡った。）",
+  "answer": "across",
+  "reading": "across",
+  "explanation": "c は1つ、s は2つだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0223",
+  "level": 7,
+  "category": "熟語",
+  "prompt": "ところで（熟語・3語）\n＿＿＿, where did you buy that bag?（ところで、そのかばんはどこで買ったの？）",
+  "answer": "by the way",
+  "reading": "by the way",
+  "explanation": "話題を変えるときに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0224",
+  "level": 7,
+  "category": "熟語",
+  "prompt": "〜の前に（場所）（熟語・3語）\nLet's meet ＿＿＿ the station.（駅の前で会おう。）",
+  "answer": "in front of",
+  "reading": "in front of",
+  "explanation": "反対の「〜の後ろに」は behind だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0225",
+  "level": 7,
+  "category": "熟語",
+  "prompt": "〜のおかげで（熟語・2語）\n＿＿＿ your help, I finished my work.（あなたの助けのおかげで仕事を終えた。）",
+  "answer": "thanks to",
+  "reading": "thanks to",
+  "explanation": "because of より良い結果に使うことが多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0226",
+  "level": 7,
+  "category": "熟語",
+  "prompt": "拾い上げる（熟語・2語）\nPlease ＿＿＿ the trash on the floor.（床のごみを拾ってください。）",
+  "answer": "pick up",
+  "reading": "pick up",
+  "explanation": "「車で迎えに行く」の意味もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0227",
+  "level": 7,
+  "category": "熟語",
+  "prompt": "捨てる（熟語・2語）\nDon't ＿＿＿ plastic bottles here.（ここにペットボトルを捨てないで。）",
+  "answer": "throw away",
+  "reading": "throw away",
+  "explanation": "throw の過去形は threw だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0228",
+  "level": 7,
+  "category": "熟語",
+  "prompt": "近ごろ（熟語・2語）\n＿＿＿, many people use smartphones.（近ごろ、多くの人がスマートフォンを使っている。）",
+  "answer": "these days",
+  "reading": "these days",
+  "explanation": "現在形の文で使うよ。in those days は「当時は」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0229",
+  "level": 8,
+  "category": "名詞",
+  "prompt": "助言・アドバイス（名詞）\nCan you give me some ＿＿＿?（何かアドバイスをくれる？）",
+  "answer": "advice",
+  "reading": "advice",
+  "explanation": "数えられない名詞だよ。動詞は advise とつづるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0230",
+  "level": 8,
+  "category": "名詞",
+  "prompt": "能力（名詞）\nShe has the ＿＿＿ to speak four languages.（彼女は4か国語を話す能力がある。）",
+  "answer": "ability",
+  "reading": "ability",
+  "explanation": "形容詞 able（〜できる）の名詞形だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0231",
+  "level": 8,
+  "category": "名詞",
+  "prompt": "関係（名詞）\nWe have a good ＿＿＿ with our neighbors.（私たちは近所の人たちと良い関係にある。）",
+  "answer": "relationship",
+  "reading": "relationship",
+  "explanation": "relation ＋ ship でできた語だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0232",
+  "level": 8,
+  "category": "名詞",
+  "prompt": "世紀（名詞）\nThis castle was built in the 16th ＿＿＿.（この城は16世紀に建てられた。）",
+  "answer": "century",
+  "reading": "century",
+  "explanation": "cent は「100」を表すよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0233",
+  "level": 8,
+  "category": "名詞",
+  "prompt": "薬（名詞）\nTake this ＿＿＿ after meals.（この薬を食後に飲みなさい。）",
+  "answer": "medicine",
+  "reading": "medicine",
+  "explanation": "薬を「飲む」は drink ではなく take だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0234",
+  "level": 8,
+  "category": "名詞",
+  "prompt": "資源（名詞）\nOil is an important natural ＿＿＿.（石油は重要な天然資源だ。）",
+  "answer": "resource",
+  "reading": "resource",
+  "explanation": "re-source のつづりに注意だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0235",
+  "level": 8,
+  "category": "名詞",
+  "prompt": "目的（名詞）\nWhat is the ＿＿＿ of your visit?（訪問の目的は何ですか。）",
+  "answer": "purpose",
+  "reading": "purpose",
+  "explanation": "入国審査でよく聞かれる質問だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0236",
+  "level": 8,
+  "category": "名詞",
+  "prompt": "慣習（名詞）（c で始まる）\nBowing is a Japanese ＿＿＿.（おじぎは日本の慣習だ。）",
+  "answer": "custom",
+  "reading": "custom",
+  "explanation": "customs と複数形にすると「税関」の意味になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0237",
+  "level": 8,
+  "category": "動詞",
+  "prompt": "準備する（動詞）\nI have to ＿＿＿ for the test.（テストの準備をしなければならない。）",
+  "answer": "prepare",
+  "reading": "prepare",
+  "explanation": "名詞は preparation（準備）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0238",
+  "level": 8,
+  "category": "動詞",
+  "prompt": "表現する（動詞）\nIt's hard to ＿＿＿ my feelings in English.（英語で気持ちを表現するのは難しい。）",
+  "answer": "express",
+  "reading": "express",
+  "explanation": "名詞は expression（表現）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0239",
+  "level": 8,
+  "category": "動詞",
+  "prompt": "提案する（動詞）\nI ＿＿＿ that we take a short break.（少し休憩しようと提案します。）",
+  "answer": "suggest",
+  "reading": "suggest",
+  "explanation": "g が2つ続くつづりに注意だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0240",
+  "level": 8,
+  "category": "動詞",
+  "prompt": "発展させる（動詞）\nThe country wants to ＿＿＿ its economy.（その国は経済を発展させたいと思っている。）",
+  "answer": "develop",
+  "reading": "develop",
+  "explanation": "developing country は「発展途上国」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0241",
+  "level": 8,
+  "category": "動詞",
+  "prompt": "頼る（動詞）（d で始まる）\nYou can ＿＿＿ on me.（私を頼っていいよ。）",
+  "answer": "depend",
+  "reading": "depend",
+  "explanation": "It depends. は「場合によるね」の意味だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0242",
+  "level": 8,
+  "category": "動詞",
+  "prompt": "交換する（動詞）\nLet's ＿＿＿ e-mail addresses.（メールアドレスを交換しよう。）",
+  "answer": "exchange",
+  "reading": "exchange",
+  "explanation": "exchange student は「交換留学生」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0243",
+  "level": 8,
+  "category": "動詞",
+  "prompt": "尊敬する（動詞）\nI ＿＿＿ my father.（私は父を尊敬している。）",
+  "answer": "respect",
+  "reading": "respect",
+  "explanation": "名詞で「尊敬」の意味もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0244",
+  "level": 8,
+  "category": "動詞",
+  "prompt": "過ごす（動詞・過去形）\nI ＿＿＿ my summer vacation in Hokkaido.（夏休みを北海道で過ごした。）",
+  "answer": "spent",
+  "reading": "spent",
+  "explanation": "spend の過去形。お金を「使う」の意味もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0245",
+  "level": 8,
+  "category": "動詞",
+  "prompt": "選ぶ（動詞・過去分詞）（c で始まる）\nShe was ＿＿＿ as captain of the team.（彼女はチームのキャプテンに選ばれた。）",
+  "answer": "chosen",
+  "reading": "chosen",
+  "explanation": "choose - chose - chosen と変化するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0246",
+  "level": 8,
+  "category": "形容詞",
+  "prompt": "古代の（形容詞）\nWe learned about ＿＿＿ Egypt.（古代エジプトについて学んだ。）",
+  "answer": "ancient",
+  "reading": "ancient",
+  "explanation": "ci は「シ」と発音するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0247",
+  "level": 8,
+  "category": "形容詞",
+  "prompt": "似ている（形容詞）\nMy bag is ＿＿＿ to yours.（私のかばんはあなたのに似ている。）",
+  "answer": "similar",
+  "reading": "similar",
+  "explanation": "be similar to 〜 で「〜に似ている」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0248",
+  "level": 8,
+  "category": "形容詞",
+  "prompt": "不可能な（形容詞）\nIt's ＿＿＿ to finish this in an hour.（これを1時間で終えるのは不可能だ。）",
+  "answer": "impossible",
+  "reading": "impossible",
+  "explanation": "im ＋ possible で反対の意味になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0249",
+  "level": 8,
+  "category": "形容詞",
+  "prompt": "快適な（形容詞）\nThis sofa is very ＿＿＿.（このソファーはとても座り心地がいい。）",
+  "answer": "comfortable",
+  "reading": "comfortable",
+  "explanation": "comfort（快適さ）＋ able だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0250",
+  "level": 8,
+  "category": "形容詞",
+  "prompt": "さまざまな（形容詞）（v で始まる）\nThere are ＿＿＿ kinds of fish in this sea.（この海にはさまざまな種類の魚がいる。）",
+  "answer": "various",
+  "reading": "various",
+  "explanation": "名詞 variety（多様性）と関係があるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0251",
+  "level": 8,
+  "category": "副詞",
+  "prompt": "実は（副詞）\n＿＿＿, I've never been there.（実は、そこに行ったことがないんだ。）",
+  "answer": "actually",
+  "reading": "actually",
+  "explanation": "形容詞 actual（実際の）＋ ly で、l は2つだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0252",
+  "level": 8,
+  "category": "副詞",
+  "prompt": "ついに（副詞）\n＿＿＿, we reached the top of the mountain.（ついに山頂に着いた。）",
+  "answer": "finally",
+  "reading": "finally",
+  "explanation": "at last とほぼ同じ意味だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0253",
+  "level": 8,
+  "category": "副詞",
+  "prompt": "突然（副詞）\n＿＿＿, the lights went out.（突然、明かりが消えた。）",
+  "answer": "suddenly",
+  "reading": "suddenly",
+  "explanation": "d が2つ続くつづりに注意だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0254",
+  "level": 8,
+  "category": "前置詞・接続詞",
+  "prompt": "〜に反対して（前置詞・接続詞）\nI'm ＿＿＿ the plan.（私はその計画に反対だ。）",
+  "answer": "against",
+  "reading": "against",
+  "explanation": "賛成は for で表せるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0255",
+  "level": 8,
+  "category": "前置詞・接続詞",
+  "prompt": "〜の後ろに（前置詞・接続詞）\nThe ball is ＿＿＿ the door.（ボールはドアの後ろにある。）",
+  "answer": "behind",
+  "reading": "behind",
+  "explanation": "反対は in front of だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0256",
+  "level": 8,
+  "category": "熟語",
+  "prompt": "〜に参加する（熟語・3語）\nI will ＿＿＿ the speech contest.（スピーチコンテストに参加するつもりだ。）",
+  "answer": "take part in",
+  "reading": "take part in",
+  "explanation": "join とほぼ同じ意味だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0257",
+  "level": 8,
+  "category": "熟語",
+  "prompt": "あきらめる（熟語・2語）\nDon't ＿＿＿. You can do it!（あきらめないで。君ならできる！）",
+  "answer": "give up",
+  "reading": "give up",
+  "explanation": "give up -ing で「〜するのをやめる」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0258",
+  "level": 8,
+  "category": "熟語",
+  "prompt": "〜するとすぐに（熟語・3語）\n＿＿＿ I got home, it started to rain.（家に着くとすぐに雨が降り始めた。）",
+  "answer": "as soon as",
+  "reading": "as soon as",
+  "explanation": "as soon as possible は「できるだけ早く」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0259",
+  "level": 8,
+  "category": "熟語",
+  "prompt": "成長する（熟語・2語）\nI want to be a pilot when I ＿＿＿.（大人になったらパイロットになりたい。）",
+  "answer": "grow up",
+  "reading": "grow up",
+  "explanation": "grow up は人が「大人になる」ときに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0260",
+  "level": 8,
+  "category": "熟語",
+  "prompt": "実現する（熟語・2語）\nI hope your dream will ＿＿＿.（あなたの夢が実現するといいね。）",
+  "answer": "come true",
+  "reading": "come true",
+  "explanation": "true は形容詞。「本当になる」というイメージだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0261",
+  "level": 8,
+  "category": "熟語",
+  "prompt": "逃げる（熟語・2語）（r で始まる）\nThe thief tried to ＿＿＿.（泥棒は逃げようとした。）",
+  "answer": "run away",
+  "reading": "run away",
+  "explanation": "run の過去形は ran だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0262",
+  "level": 9,
+  "category": "名詞",
+  "prompt": "知識（名詞）\nHe has a lot of ＿＿＿ about space.（彼は宇宙について多くの知識を持っている。）",
+  "answer": "knowledge",
+  "reading": "knowledge",
+  "explanation": "know の名詞形。k と d は発音しないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0263",
+  "level": 9,
+  "category": "名詞",
+  "prompt": "地域社会（名詞）\nWe clean the park for our ＿＿＿.（私たちは地域のために公園を掃除する。）",
+  "answer": "community",
+  "reading": "community",
+  "explanation": "m を2つ重ねるつづりに注意だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0264",
+  "level": 9,
+  "category": "名詞",
+  "prompt": "経済（名詞）\nThe ＿＿＿ of this country is growing.（この国の経済は成長している。）",
+  "answer": "economy",
+  "reading": "economy",
+  "explanation": "economical は「節約できる」、economic は「経済の」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0265",
+  "level": 9,
+  "category": "名詞",
+  "prompt": "電気（名詞）（e で始まる）\nWe use a lot of ＿＿＿ in summer.（夏には電気をたくさん使う。）",
+  "answer": "electricity",
+  "reading": "electricity",
+  "explanation": "形容詞は electric（電気の）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0266",
+  "level": 9,
+  "category": "名詞",
+  "prompt": "気温・温度（名詞）\nThe ＿＿＿ will be 30 degrees today.（今日の気温は30度になるだろう。）",
+  "answer": "temperature",
+  "reading": "temperature",
+  "explanation": "体温も temperature と言うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0267",
+  "level": 9,
+  "category": "名詞",
+  "prompt": "観客・聴衆（名詞）\nThe ＿＿＿ clapped their hands.（観客は拍手をした。）",
+  "answer": "audience",
+  "reading": "audience",
+  "explanation": "au のつづりに注意。audio と同じ「聞く」の意味から来ているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0268",
+  "level": 9,
+  "category": "動詞",
+  "prompt": "消える（動詞）\nMany animals may ＿＿＿ from the earth.（多くの動物が地球上から消えてしまうかもしれない。）",
+  "answer": "disappear",
+  "reading": "disappear",
+  "explanation": "dis ＋ appear（現れる）で反対の意味になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0269",
+  "level": 9,
+  "category": "動詞",
+  "prompt": "〜のほうを好む（動詞）\nI ＿＿＿ tea to coffee.（私はコーヒーより紅茶のほうが好きだ。）",
+  "answer": "prefer",
+  "reading": "prefer",
+  "explanation": "prefer A to B で「B より A を好む」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0270",
+  "level": 9,
+  "category": "動詞",
+  "prompt": "許す（動詞）\nMy parents don't ＿＿＿ me to stay out late.（両親は私が夜遅くまで外にいるのを許さない。）",
+  "answer": "allow",
+  "reading": "allow",
+  "explanation": "allow 人 to 〜 で「人が〜するのを許す」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0271",
+  "level": 9,
+  "category": "動詞",
+  "prompt": "増える（動詞）（i で始まる）\nThe number of tourists will ＿＿＿.（旅行者の数は増えるだろう。）",
+  "answer": "increase",
+  "reading": "increase",
+  "explanation": "反対の「減る」は decrease だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0272",
+  "level": 9,
+  "category": "動詞",
+  "prompt": "破壊する（動詞）\nThe typhoon may ＿＿＿ many houses.（台風が多くの家を破壊するかもしれない。）",
+  "answer": "destroy",
+  "reading": "destroy",
+  "explanation": "名詞は destruction（破壊）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0273",
+  "level": 9,
+  "category": "動詞",
+  "prompt": "生き残る（動詞）（s で始まる）\nPlants cannot ＿＿＿ without water.（植物は水がないと生き残れない。）",
+  "answer": "survive",
+  "reading": "survive",
+  "explanation": "名詞は survival（生存）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0274",
+  "level": 9,
+  "category": "動詞",
+  "prompt": "生産する（動詞）（p で始まる）\nThis factory can ＿＿＿ 1,000 cars a day.（この工場は1日に1000台の車を生産できる。）",
+  "answer": "produce",
+  "reading": "produce",
+  "explanation": "「製品」は product、「生産」は production だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0275",
+  "level": 9,
+  "category": "動詞",
+  "prompt": "発見する（動詞）（d で始まる）\nScientists hope to ＿＿＿ a new planet.（科学者たちは新しい惑星を発見したいと思っている。）",
+  "answer": "discover",
+  "reading": "discover",
+  "explanation": "dis ＋ cover（おおい）で「おおいを取る」イメージだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0276",
+  "level": 9,
+  "category": "動詞",
+  "prompt": "卒業する（動詞）\nI will ＿＿＿ from junior high school next March.（来年の3月に中学校を卒業する。）",
+  "answer": "graduate",
+  "reading": "graduate",
+  "explanation": "graduate from 〜 のように from が必要だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0277",
+  "level": 9,
+  "category": "動詞",
+  "prompt": "捕まえる（動詞・過去形）\nI ＿＿＿ a big fish yesterday.（昨日、大きな魚を釣った。）",
+  "answer": "caught",
+  "reading": "caught",
+  "explanation": "catch の過去形・過去分詞。gh は発音しないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0278",
+  "level": 9,
+  "category": "動詞",
+  "prompt": "持ってくる（動詞・過去形）\nShe ＿＿＿ some cookies to the party.（彼女はパーティーにクッキーを持ってきた。）",
+  "answer": "brought",
+  "reading": "brought",
+  "explanation": "bring の過去形・過去分詞。bought（買った）と混同しないでね。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0279",
+  "level": 9,
+  "category": "形容詞",
+  "prompt": "母国の・生まれた土地の（形容詞）（n で始まる）\nHer ＿＿＿ language is Spanish.（彼女の母語はスペイン語だ。）",
+  "answer": "native",
+  "reading": "native",
+  "explanation": "native speaker は「母語話者」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0280",
+  "level": 9,
+  "category": "形容詞",
+  "prompt": "誇りに思って（形容詞）\nI'm ＿＿＿ of my team.（私は自分のチームを誇りに思う。）",
+  "answer": "proud",
+  "reading": "proud",
+  "explanation": "be proud of 〜 で「〜を誇りに思う」。名詞は pride だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0281",
+  "level": 9,
+  "category": "形容詞",
+  "prompt": "責任がある（形容詞）\nWho is ＿＿＿ for this project?（このプロジェクトの責任者はだれ？）",
+  "answer": "responsible",
+  "reading": "responsible",
+  "explanation": "名詞は responsibility（責任）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0282",
+  "level": 9,
+  "category": "形容詞",
+  "prompt": "貴重な（形容詞）（v で始まる）\nThank you for your ＿＿＿ advice.（貴重なアドバイスをありがとう。）",
+  "answer": "valuable",
+  "reading": "valuable",
+  "explanation": "value（価値）＋ able だよ。e が消えるのに注意。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0283",
+  "level": 9,
+  "category": "形容詞",
+  "prompt": "正直な（形容詞）\nPlease be ＿＿＿ with me.（私には正直に言ってね。）",
+  "answer": "honest",
+  "reading": "honest",
+  "explanation": "h は発音しないから an honest boy になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0284",
+  "level": 9,
+  "category": "形容詞",
+  "prompt": "前向きな（形容詞）\nTry to keep a ＿＿＿ attitude.（前向きな態度を保つようにしよう。）",
+  "answer": "positive",
+  "reading": "positive",
+  "explanation": "反対の「否定的な」は negative だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0285",
+  "level": 9,
+  "category": "副詞",
+  "prompt": "とにかく（副詞）\nIt was hard, but we finished it ＿＿＿.（大変だったけれど、とにかくやり終えた。）",
+  "answer": "anyway",
+  "reading": "anyway",
+  "explanation": "any ＋ way で1語につなげて書くよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0286",
+  "level": 9,
+  "category": "副詞",
+  "prompt": "永遠に（副詞）\nI'll remember this day ＿＿＿.（この日を永遠に忘れない。）",
+  "answer": "forever",
+  "reading": "forever",
+  "explanation": "for ＋ ever で1語につなげて書くよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0287",
+  "level": 9,
+  "category": "前置詞・接続詞",
+  "prompt": "〜のそばに（前置詞・接続詞・6文字）\nShe sat ＿＿＿ me.（彼女は私のそばに座った。）",
+  "answer": "beside",
+  "reading": "beside",
+  "explanation": "besides（〜に加えて）と区別しよう。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0288",
+  "level": 9,
+  "category": "前置詞・接続詞",
+  "prompt": "〜の上方に（前置詞・接続詞）（a で始まる）\nThe sun rose ＿＿＿ the mountains.（太陽が山々の上に昇った。）",
+  "answer": "above",
+  "reading": "above",
+  "explanation": "離れて上にあるときは above、接しているときは on だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0289",
+  "level": 9,
+  "category": "熟語",
+  "prompt": "〜と友達になる（熟語・3語）\nI want to ＿＿＿ people from other countries.（ほかの国の人たちと友達になりたい。）",
+  "answer": "make friends with",
+  "reading": "make friends with",
+  "explanation": "friends と複数形にするのがポイントだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0290",
+  "level": 9,
+  "category": "熟語",
+  "prompt": "〜と仲良くやる（熟語・3語）\nI ＿＿＿ my classmates.（私はクラスメートと仲良くやっている。）",
+  "answer": "get along with",
+  "reading": "get along with",
+  "explanation": "get on with とも言うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0291",
+  "level": 9,
+  "category": "熟語",
+  "prompt": "一方で（熟語・4語）\nCats are quiet. ＿＿＿, dogs are more active.（ネコは静かだ。一方で、犬はもっと活発だ。）",
+  "answer": "on the other hand",
+  "reading": "on the other hand",
+  "explanation": "2つのことを比べるときに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0292",
+  "level": 9,
+  "category": "熟語",
+  "prompt": "連絡を取り合う（熟語・3語）（k で始まる）\nLet's ＿＿＿ after graduation.（卒業後も連絡を取り合おう。）",
+  "answer": "keep in touch",
+  "reading": "keep in touch",
+  "explanation": "touch は「接触・連絡」の意味だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0293",
+  "level": 9,
+  "category": "熟語",
+  "prompt": "何百もの（熟語・2語）\n＿＿＿ people came to the concert.（何百人もの人がコンサートに来た。）",
+  "answer": "hundreds of",
+  "reading": "hundreds of",
+  "explanation": "hundred に s をつけて of を続けるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0294",
+  "level": 9,
+  "category": "熟語",
+  "prompt": "ますます多くの（熟語・3語）\n＿＿＿ tourists visit Japan every year.（毎年ますます多くの旅行者が日本を訪れる。）",
+  "answer": "more and more",
+  "reading": "more and more",
+  "explanation": "比較級 and 比較級で「ますます〜」になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0295",
+  "level": 10,
+  "category": "名詞",
+  "prompt": "雰囲気（名詞）\nThis café has a warm ＿＿＿.（このカフェは温かい雰囲気がある。）",
+  "answer": "atmosphere",
+  "reading": "atmosphere",
+  "explanation": "「大気」の意味もあるよ。ph は f の音だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0296",
+  "level": 10,
+  "category": "名詞",
+  "prompt": "近所・地域（名詞）（n で始まる）\nThere is a nice park in my ＿＿＿.（私の家の近所にすてきな公園がある。）",
+  "answer": "neighborhood",
+  "reading": "neighborhood",
+  "explanation": "neighbor（近所の人）＋ hood だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0297",
+  "level": 10,
+  "category": "名詞",
+  "prompt": "発明（名詞）\nThe telephone was a great ＿＿＿.（電話は偉大な発明だった。）",
+  "answer": "invention",
+  "reading": "invention",
+  "explanation": "動詞は invent、「発明家」は inventor だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0298",
+  "level": 10,
+  "category": "名詞",
+  "prompt": "注意（名詞）\nMay I have your ＿＿＿, please?（ご注目いただけますか。）",
+  "answer": "attention",
+  "reading": "attention",
+  "explanation": "pay attention to 〜 で「〜に注意を払う」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0299",
+  "level": 10,
+  "category": "名詞",
+  "prompt": "思い出（名詞）\nThis trip will be a wonderful ＿＿＿.（この旅行はすばらしい思い出になるだろう。）",
+  "answer": "memory",
+  "reading": "memory",
+  "explanation": "「記憶」の意味もあるよ。複数形は memories だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0300",
+  "level": 10,
+  "category": "名詞",
+  "prompt": "会話（名詞）（c で始まる）\nI had a long ＿＿＿ with him.（彼と長い会話をした。）",
+  "answer": "conversation",
+  "reading": "conversation",
+  "explanation": "ver のつづりに注意だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0301",
+  "level": 10,
+  "category": "名詞",
+  "prompt": "産業（名詞）（i で始まる）\nTourism is an important ＿＿＿ in Okinawa.（観光業は沖縄の重要な産業だ。）",
+  "answer": "industry",
+  "reading": "industry",
+  "explanation": "形容詞は industrial（産業の）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0302",
+  "level": 10,
+  "category": "名詞",
+  "prompt": "景色（名詞）（s で始まる）\nThe ＿＿＿ from the top was beautiful.（頂上からの景色は美しかった。）",
+  "answer": "scenery",
+  "reading": "scenery",
+  "explanation": "数えられない名詞だから a はつけないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0303",
+  "level": 10,
+  "category": "動詞",
+  "prompt": "よく考える（動詞）（c で始まる）\nPlease ＿＿＿ my idea again.（私の考えをもう一度よく考えてください。）",
+  "answer": "consider",
+  "reading": "consider",
+  "explanation": "consider -ing で「〜しようかと考える」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0304",
+  "level": 10,
+  "category": "動詞",
+  "prompt": "励ます（動詞）\nHer words will ＿＿＿ many people.（彼女の言葉は多くの人を励ますだろう。）",
+  "answer": "encourage",
+  "reading": "encourage",
+  "explanation": "encourage 人 to 〜 で「人を〜するよう励ます」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0305",
+  "level": 10,
+  "category": "動詞",
+  "prompt": "勧める（動詞）\nI ＿＿＿ this book to everyone.（この本をみんなに勧めるよ。）",
+  "answer": "recommend",
+  "reading": "recommend",
+  "explanation": "c は1つ、m は2つのつづりに注意だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0306",
+  "level": 10,
+  "category": "動詞",
+  "prompt": "想像する（動詞）\nI can't ＿＿＿ life without smartphones.（スマートフォンのない生活は想像できない。）",
+  "answer": "imagine",
+  "reading": "imagine",
+  "explanation": "名詞は imagination（想像力）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0307",
+  "level": 10,
+  "category": "動詞",
+  "prompt": "謝る（動詞）\nYou should ＿＿＿ to her.（彼女に謝るべきだよ。）",
+  "answer": "apologize",
+  "reading": "apologize",
+  "explanation": "apologize to 人 for 事 で「人に事を謝る」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0308",
+  "level": 10,
+  "category": "動詞",
+  "prompt": "忘れる（動詞・過去分詞）\nI have ＿＿＿ his phone number.（彼の電話番号を忘れてしまった。）",
+  "answer": "forgotten",
+  "reading": "forgotten",
+  "explanation": "forget - forgot - forgotten と変化するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0309",
+  "level": 10,
+  "category": "動詞",
+  "prompt": "落ちる（動詞・過去分詞）\nMany leaves have ＿＿＿ on the ground.（たくさんの葉が地面に落ちている。）",
+  "answer": "fallen",
+  "reading": "fallen",
+  "explanation": "fall - fell - fallen と変化するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0310",
+  "level": 10,
+  "category": "動詞",
+  "prompt": "隠す（動詞・過去分詞）\nThe treasure was ＿＿＿ under the tree.（宝物は木の下に隠されていた。）",
+  "answer": "hidden",
+  "reading": "hidden",
+  "explanation": "hide - hid - hidden と変化するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0311",
+  "level": 10,
+  "category": "形容詞",
+  "prompt": "がっかりした（形容詞）\nI was ＿＿＿ with the result.（その結果にがっかりした。）",
+  "answer": "disappointed",
+  "reading": "disappointed",
+  "explanation": "物事が「がっかりさせる」ときは disappointing だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0312",
+  "level": 10,
+  "category": "形容詞",
+  "prompt": "忍耐強い（形容詞）\nBe ＿＿＿. It takes time to learn a language.（辛抱強くね。言語を学ぶには時間がかかるよ。）",
+  "answer": "patient",
+  "reading": "patient",
+  "explanation": "名詞で「患者」の意味もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0313",
+  "level": 10,
+  "category": "形容詞",
+  "prompt": "好奇心の強い（形容詞）\nChildren are ＿＿＿ about everything.（子どもは何にでも好奇心を持つ。）",
+  "answer": "curious",
+  "reading": "curious",
+  "explanation": "名詞は curiosity（好奇心）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0314",
+  "level": 10,
+  "category": "形容詞",
+  "prompt": "よく知られた・なじみのある（形容詞）（f で始まる）\nThis song is ＿＿＿ to everyone in Japan.（この歌は日本のだれもがよく知っている。）",
+  "answer": "familiar",
+  "reading": "familiar",
+  "explanation": "family と同じ語源だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0315",
+  "level": 10,
+  "category": "形容詞",
+  "prompt": "全体の（形容詞）（w で始まる）\nI ate the ＿＿＿ cake by myself.（ケーキを丸ごと一人で食べた。）",
+  "answer": "whole",
+  "reading": "whole",
+  "explanation": "hole（穴）と発音が同じだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0316",
+  "level": 10,
+  "category": "副詞",
+  "prompt": "不運にも・残念ながら（副詞）\n＿＿＿, it rained on the day of the festival.（残念ながら、祭りの日は雨が降った。）",
+  "answer": "unfortunately",
+  "reading": "unfortunately",
+  "explanation": "反対は fortunately（幸運にも）だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0317",
+  "level": 10,
+  "category": "副詞",
+  "prompt": "徐々に（副詞）（g で始まる）\nIt is ＿＿＿ getting warmer.（徐々に暖かくなってきている。）",
+  "answer": "gradually",
+  "reading": "gradually",
+  "explanation": "step by step とほぼ同じ意味だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0318",
+  "level": 10,
+  "category": "副詞",
+  "prompt": "正確に・まさに（副詞）（e で始まる）\nThat's ＿＿＿ what I wanted.（それはまさに私が欲しかったものだ。）",
+  "answer": "exactly",
+  "reading": "exactly",
+  "explanation": "相づちで Exactly! と言うと「その通り！」だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0319",
+  "level": 10,
+  "category": "前置詞・接続詞",
+  "prompt": "〜以来（前置詞・接続詞）\nI have lived here ＿＿＿ 2015.（2015年からここに住んでいる。）",
+  "answer": "since",
+  "reading": "since",
+  "explanation": "期間の長さを表すときは for を使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0320",
+  "level": 10,
+  "category": "熟語",
+  "prompt": "〜によれば（熟語・2語）\n＿＿＿ the news, a typhoon is coming.（ニュースによれば、台風が近づいている。）",
+  "answer": "according to",
+  "reading": "according to",
+  "explanation": "情報の出どころを示すときに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0321",
+  "level": 10,
+  "category": "熟語",
+  "prompt": "〜するために（熟語・3語）\nHe ran ＿＿＿ catch the bus.（彼はバスに間に合うために走った。）",
+  "answer": "in order to",
+  "reading": "in order to",
+  "explanation": "目的をはっきり示す言い方だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0322",
+  "level": 10,
+  "category": "熟語",
+  "prompt": "その結果（熟語・3語）\nHe practiced hard. ＿＿＿, he won the game.（彼は一生懸命練習した。その結果、試合に勝った。）",
+  "answer": "as a result",
+  "reading": "as a result",
+  "explanation": "結果を述べる文の最初によく置くよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0323",
+  "level": 10,
+  "category": "熟語",
+  "prompt": "〜だけでなく（熟語・2語）\nShe speaks ＿＿＿ English but also French.（彼女は英語だけでなくフランス語も話す。）",
+  "answer": "not only",
+  "reading": "not only",
+  "explanation": "not only A but also B の形で覚えよう。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0324",
+  "level": 10,
+  "category": "熟語",
+  "prompt": "〜の代わりに（熟語・2語）\nLet's walk ＿＿＿ taking a taxi.（タクシーに乗る代わりに歩こう。）",
+  "answer": "instead of",
+  "reading": "instead of",
+  "explanation": "of のあとの動詞は -ing 形にするよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0325",
+  "level": 10,
+  "category": "熟語",
+  "prompt": "行動を起こす（熟語・2語）\nWe must ＿＿＿ to stop global warming.（地球温暖化を止めるために行動を起こさなければならない。）",
+  "answer": "take action",
+  "reading": "take action",
+  "explanation": "action は「行動」、動詞 act の名詞形だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0326",
+  "level": 10,
+  "category": "熟語",
+  "prompt": "もはや〜ない（熟語・2語）\nHe is ＿＿＿ a child.（彼はもはや子どもではない。）",
+  "answer": "no longer",
+  "reading": "no longer",
+  "explanation": "not 〜 any longer とも言えるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "koko-eigo-0327",
+  "level": 10,
+  "category": "熟語",
+  "prompt": "〜から遠い（熟語・2語）\nMy house is ＿＿＿ the station.（私の家は駅から遠い。）",
+  "answer": "far from",
+  "reading": "far from",
+  "explanation": "「〜に近い」は near や close to だよ。",
+  "review": "verified"
+ }
+]
