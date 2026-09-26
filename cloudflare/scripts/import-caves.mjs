@@ -67,10 +67,22 @@ function note(q, lang) {
 
 const sql = s => "'" + String(s ?? '').replace(/'/g, "''") + "'";
 
+// 「日本語 → 英語」の入り口の問題文。日本語だけだと同じ意味の語がいくつも当てはまるので、
+// 品詞・頭文字・文字数（熟語は語数と頭文字）を添えて答えを 1 つにする。例文の和訳があれば付ける
+const POS = { noun: '名詞', verb: '動詞', adjective: '形容詞', adverb: '副詞' };
+function jaPrompt(q) {
+  const ans = String(q.answer);
+  const words = ans.split(/\s+/);
+  const hint = words.length > 1
+    ? `熟語・${words.length}語・${words[0][0]} で始まる`
+    : `${POS[q.category] || '単語'}・${ans[0]} で始まる${ans.length}文字`;
+  return esc(`${q.answer_ja}（${hint}）` + (q.example_ja ? '\n' + q.example_ja : ''));
+}
+
 const out = [];
 let total = 0;
 for (const cave of CAVES) {
-  const dir = join(root, cave.id);
+  const dir = join(root, cave.src || cave.id);
   const meta = JSON.parse(readFileSync(join(dir, 'cave.json'), 'utf8'));
   const files = readdirSync(join(dir, 'questions')).filter(f => f.endsWith('.json') && f !== 'chaser.json').sort();
   const qs = files.flatMap(f => JSON.parse(readFileSync(join(dir, 'questions', f), 'utf8')))
@@ -82,10 +94,10 @@ for (const cave of CAVES) {
     const ans = reading(q, meta.language);
     if (!ans) throw new Error(q.id + ' の打つ文字が空になりました: ' + q.answer);
     const row = {
-      kbn: cave.id, src: cave.id, qid: q.id, level,
+      kbn: cave.id, src: cave.id, qid: cave.ja ? q.id + '-ja' : q.id, level,
       free: level <= FREE_MAX_LEVEL ? 1 : 0,
       // 英英の定義文がある問題（英語早押し）は、なぞなぞではなく定義文から出す
-      que: esc(q.definition || q.prompt), kan: q.answer, ans,
+      que: cave.ja ? jaPrompt(q) : esc(q.definition || q.prompt), kan: q.answer, ans,
       img: FIGURES[q.id] ? 'fig/' + FIGURES[q.id].file : '',
       note: [note(q, meta.language), FIGURES[q.id] ? credit(FIGURES[q.id]) : ''].filter(Boolean).join('\n')
     };

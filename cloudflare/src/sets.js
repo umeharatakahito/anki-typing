@@ -5,7 +5,8 @@
 // import-caves.mjs も CAVES を見て、勉強ダンジョンズのどの洞窟を入れるか決める。
 // ===============================================================
 
-// 勉強ダンジョンズの洞窟。levelScale は、レベルが 1〜5 しかない洞窟を 2,4,…,10 に広げるため
+// 勉強ダンジョンズの洞窟。levelScale は、レベルが 1〜5 しかない洞窟を 2,4,…,10 に広げるため。
+// ja: true は、同じ洞窟（src）の問題を「日本語の意味 → 英語」で出す入り口
 export const CAVES = [
   { id: 'itpass',         label: 'ITパスポート' },
   { id: 'genai',          label: '生成AI', levelScale: 2 },
@@ -14,8 +15,10 @@ export const CAVES = [
   { id: 'jh-science',     label: '中学理科' },
   { id: 'jhistory',       label: '日本史' },
   { id: 'whistory',       label: '世界史' },
-  { id: 'english-buzzer', label: '英単語' },
-  { id: 'idioms',         label: '英熟語' },
+  { id: 'english-buzzer-ja', src: 'english-buzzer', label: '英単語（日本語→英語）', ja: true },
+  { id: 'english-buzzer',    label: '英単語（英英）' },
+  { id: 'idioms-ja',         src: 'idioms', label: '英熟語（日本語→英語）', ja: true },
+  { id: 'idioms',            label: '英熟語（英英）' },
   { id: 'phrases',        label: '会話フレーズ' },
 ];
 
@@ -65,7 +68,7 @@ export const STUDY_SETS = {
   english: {
     title: '英語',
     back: { href: '', label: 'トップ' },
-    cats: [cave('english-buzzer'), cave('idioms'), cave('phrases')],
+    cats: [cave('english-buzzer-ja'), cave('english-buzzer'), cave('idioms-ja'), cave('idioms'), cave('phrases')],
   },
 };
 

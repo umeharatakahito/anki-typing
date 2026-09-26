@@ -1,0 +1,2002 @@
+[
+ {
+  "id": "daigaku-nengo-sekai-0001",
+  "level": 1,
+  "category": "古代",
+  "prompt": "紀元前、秦の始皇帝が中国を統一した年は？",
+  "answer": "前221年",
+  "reading": "221",
+  "explanation": "郡県制を全国に広げ、度量衡・貨幣・文字を統一したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0002",
+  "level": 1,
+  "category": "古代",
+  "prompt": "コンスタンティヌス帝がミラノ勅令を出し、キリスト教を公認した年は？",
+  "answer": "313年",
+  "reading": "313",
+  "explanation": "ディオクレティアヌス帝の大迫害からわずか10年ほどで公認されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0003",
+  "level": 1,
+  "category": "古代",
+  "prompt": "ゲルマン人傭兵隊長オドアケルによって西ローマ帝国が滅ぼされた年は？",
+  "answer": "476年",
+  "reading": "476",
+  "explanation": "この年は古代の終わり・中世の始まりの目安とされることも多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0004",
+  "level": 1,
+  "category": "中世",
+  "prompt": "フランク王国のカール大帝がローマ教皇レオ3世から西ローマ皇帝の帝冠を受けた年は？",
+  "answer": "800年",
+  "reading": "800",
+  "explanation": "ローマ・キリスト教・ゲルマンの要素が融合した西ヨーロッパ世界の成立を象徴する出来事だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0005",
+  "level": 1,
+  "category": "中世",
+  "prompt": "神聖ローマ皇帝ハインリヒ4世が教皇グレゴリウス7世に破門の解除を願ったカノッサの屈辱の年は？",
+  "answer": "1077年",
+  "reading": "1077",
+  "explanation": "聖職叙任権闘争の中で起こった事件で、教皇権の強さを示すよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0006",
+  "level": 1,
+  "category": "近世",
+  "prompt": "コロンブスがスペイン女王イサベルの援助を受けて西インド諸島に到達した年は？",
+  "answer": "1492年",
+  "reading": "1492",
+  "explanation": "「意欲に（1492）燃えるコロンブス」と覚えよう。コロンブスはインドに着いたと信じていたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0007",
+  "level": 1,
+  "category": "近世",
+  "prompt": "ルターが「九十五カ条の論題」を発表し、宗教改革が始まった年は？",
+  "answer": "1517年",
+  "reading": "1517",
+  "explanation": "「以後いいな（1517）宗教改革」などと覚えるよ。贖宥状（免罪符）の販売を批判したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0008",
+  "level": 1,
+  "category": "近世",
+  "prompt": "ベーメン（ボヘミア）の新教徒の反乱をきっかけに三十年戦争が始まった年は？",
+  "answer": "1618年",
+  "reading": "1618",
+  "explanation": "国際戦争に発展し、ドイツは大きく荒廃したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0009",
+  "level": 1,
+  "category": "近世",
+  "prompt": "アメリカ独立宣言が発表された年は？",
+  "answer": "1776年",
+  "reading": "1776",
+  "explanation": "トマス＝ジェファソンらが起草し、7月4日に発表されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0010",
+  "level": 1,
+  "category": "近代",
+  "prompt": "パリの民衆がバスティーユ牢獄を襲撃し、フランス革命が始まった年は？",
+  "answer": "1789年",
+  "reading": "1789",
+  "explanation": "「火縄くすぶる（1789）バスティーユ」と覚えよう。同じ年に人権宣言も出されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0011",
+  "level": 1,
+  "category": "近代",
+  "prompt": "ナポレオン失脚後の秩序を話し合うウィーン会議が始まった年は？",
+  "answer": "1814年",
+  "reading": "1814",
+  "explanation": "オーストリアのメッテルニヒが議長を務め、正統主義が原則とされたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0012",
+  "level": 1,
+  "category": "近代",
+  "prompt": "清とイギリスの間でアヘン戦争が始まった年は？",
+  "answer": "1840年",
+  "reading": "1840",
+  "explanation": "林則徐のアヘン取り締まりにイギリスが反発して始まったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0013",
+  "level": 1,
+  "category": "近代",
+  "prompt": "プロイセン王ヴィルヘルム1世がヴェルサイユ宮殿でドイツ皇帝に即位し、ドイツ帝国が成立した年は？",
+  "answer": "1871年",
+  "reading": "1871",
+  "explanation": "ビスマルクが帝国宰相となったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0014",
+  "level": 1,
+  "category": "現代",
+  "prompt": "サライェヴォ事件をきっかけに第一次世界大戦が始まった年は？",
+  "answer": "1914年",
+  "reading": "1914",
+  "explanation": "オーストリアの帝位継承者夫妻がセルビア人青年に暗殺されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0015",
+  "level": 1,
+  "category": "現代",
+  "prompt": "ロシアで二月（三月）革命と十月（十一月）革命が起こった年は？",
+  "answer": "1917年",
+  "reading": "1917",
+  "explanation": "十月革命でレーニンらボリシェヴィキが政権を握ったよ。この年アメリカも参戦したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0016",
+  "level": 1,
+  "category": "現代",
+  "prompt": "ニューヨーク株式市場の株価暴落から世界恐慌が始まった年は？",
+  "answer": "1929年",
+  "reading": "1929",
+  "explanation": "10月24日の「暗黒の木曜日」がきっかけだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0017",
+  "level": 1,
+  "category": "現代",
+  "prompt": "ドイツのポーランド侵攻によって第二次世界大戦が始まった年は？",
+  "answer": "1939年",
+  "reading": "1939",
+  "explanation": "直前にドイツはソ連と独ソ不可侵条約を結んでいたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0018",
+  "level": 1,
+  "category": "現代",
+  "prompt": "毛沢東を主席とする中華人民共和国が成立した年は？",
+  "answer": "1949年",
+  "reading": "1949",
+  "explanation": "敗れた国民党の蔣介石は台湾に逃れたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0019",
+  "level": 1,
+  "category": "現代",
+  "prompt": "北朝鮮軍が北緯38度線を越えて朝鮮戦争が始まった年は？",
+  "answer": "1950年",
+  "reading": "1950",
+  "explanation": "国連軍と中国人民義勇軍が参戦し、1953年に休戦協定が結ばれたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0020",
+  "level": 1,
+  "category": "現代",
+  "prompt": "東西冷戦の象徴だったベルリンの壁が開放された年は？",
+  "answer": "1989年",
+  "reading": "1989",
+  "explanation": "同じ年の12月には米ソ首脳がマルタ会談で冷戦の終結を宣言したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0021",
+  "level": 2,
+  "category": "古代",
+  "prompt": "西ゴート人がドナウ川を渡り、ゲルマン人の大移動が始まった年は？",
+  "answer": "375年",
+  "reading": "375",
+  "explanation": "アジア系のフン人に圧迫されたことが大移動のきっかけだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0022",
+  "level": 2,
+  "category": "古代",
+  "prompt": "テオドシウス帝の死後、ローマ帝国が東西に分裂した年は？",
+  "answer": "395年",
+  "reading": "395",
+  "explanation": "2人の子がそれぞれ東西を分けて統治したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0023",
+  "level": 2,
+  "category": "中世",
+  "prompt": "李淵が隋を倒して唐を建てた年は？",
+  "answer": "618年",
+  "reading": "618",
+  "explanation": "都は長安で、2代太宗の「貞観の治」で国家の基礎が固まったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0024",
+  "level": 2,
+  "category": "中世",
+  "prompt": "ムハンマドがメッカからメディナに移住した、イスラーム暦元年にあたる年は？",
+  "answer": "622年",
+  "reading": "622",
+  "explanation": "この移住をヒジュラ（聖遷）と呼ぶよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0025",
+  "level": 2,
+  "category": "中世",
+  "prompt": "ヴェルダン条約でフランク王国が3つに分割された年は？",
+  "answer": "843年",
+  "reading": "843",
+  "explanation": "東フランク・西フランク・中部フランク（ロタール領）に分かれたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0026",
+  "level": 2,
+  "category": "中世",
+  "prompt": "テムジンがクリルタイでチンギス＝ハンの称号を受け、大モンゴル国を建てた年は？",
+  "answer": "1206年",
+  "reading": "1206",
+  "explanation": "千戸制による軍事・行政組織をつくり、大征服を始めたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0027",
+  "level": 2,
+  "category": "中世",
+  "prompt": "イギリスのジョン王が大憲章（マグナ＝カルタ）を認めた年は？",
+  "answer": "1215年",
+  "reading": "1215",
+  "explanation": "課税には貴族らの同意が必要とされ、立憲政治の基礎となったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0028",
+  "level": 2,
+  "category": "中世",
+  "prompt": "朱元璋（洪武帝）が明を建てた年は？",
+  "answer": "1368年",
+  "reading": "1368",
+  "explanation": "都は南京で、同じ年に元をモンゴル高原へ追いやったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0029",
+  "level": 2,
+  "category": "中世",
+  "prompt": "オスマン帝国のメフメト2世がコンスタンティノープルを攻略し、ビザンツ帝国が滅びた年は？",
+  "answer": "1453年",
+  "reading": "1453",
+  "explanation": "同じ年に百年戦争も終わったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0030",
+  "level": 2,
+  "category": "近世",
+  "prompt": "ヴァスコ＝ダ＝ガマがアフリカ南端を回ってインドのカリカットに到達した年は？",
+  "answer": "1498年",
+  "reading": "1498",
+  "explanation": "これでヨーロッパからアジアへの新航路が開かれたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0031",
+  "level": 2,
+  "category": "近世",
+  "prompt": "三十年戦争を終わらせたウェストファリア条約が結ばれた年は？",
+  "answer": "1648年",
+  "reading": "1648",
+  "explanation": "スイスとオランダの独立が認められ、主権国家体制が確立したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0032",
+  "level": 2,
+  "category": "近世",
+  "prompt": "イギリスでジェームズ2世が追放された名誉革命の年は？",
+  "answer": "1688年",
+  "reading": "1688",
+  "explanation": "オランダからメアリ2世とウィレム3世（ウィリアム3世）が迎えられたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0033",
+  "level": 2,
+  "category": "近代",
+  "prompt": "フランスで二月革命が起こり、第二共和政が成立した年は？",
+  "answer": "1848年",
+  "reading": "1848",
+  "explanation": "その影響はヨーロッパ各地に広がり、「諸国民の春」と呼ばれたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0034",
+  "level": 2,
+  "category": "近代",
+  "prompt": "アメリカで南北戦争が始まった年は？",
+  "answer": "1861年",
+  "reading": "1861",
+  "explanation": "奴隷制や貿易政策をめぐって北部と南部が対立したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0035",
+  "level": 2,
+  "category": "近代",
+  "prompt": "武昌の軍隊の蜂起から辛亥革命が始まった年は？",
+  "answer": "1911年",
+  "reading": "1911",
+  "explanation": "各省が次々と清からの独立を宣言したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0036",
+  "level": 2,
+  "category": "現代",
+  "prompt": "パリ講和会議の結果、ヴェルサイユ条約が結ばれた年は？",
+  "answer": "1919年",
+  "reading": "1919",
+  "explanation": "ドイツはすべての植民地を失い、巨額の賠償金を課されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0037",
+  "level": 2,
+  "category": "現代",
+  "prompt": "国際連合が発足した年は？",
+  "answer": "1945年",
+  "reading": "1945",
+  "explanation": "サンフランシスコ会議で国際連合憲章が採択され、10月に正式に発足したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0038",
+  "level": 2,
+  "category": "現代",
+  "prompt": "ソ連のミサイル基地建設をめぐってキューバ危機が起こった年は？",
+  "answer": "1962年",
+  "reading": "1962",
+  "explanation": "米ソは核戦争寸前までいったけれど、ソ連がミサイルを撤去して回避されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0039",
+  "level": 2,
+  "category": "現代",
+  "prompt": "東西ドイツが統一された年は？",
+  "answer": "1990年",
+  "reading": "1990",
+  "explanation": "西ドイツが東ドイツを編入する形で統一されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0040",
+  "level": 2,
+  "category": "現代",
+  "prompt": "ソヴィエト連邦が解体した年は？",
+  "answer": "1991年",
+  "reading": "1991",
+  "explanation": "独立国家共同体（CIS）が結成され、ゴルバチョフは大統領を辞任したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0041",
+  "level": 3,
+  "category": "中世",
+  "prompt": "隋の文帝（楊堅）が陳を滅ぼして中国を統一した年は？",
+  "answer": "589年",
+  "reading": "589",
+  "explanation": "文帝は科挙を始めるなど中央集権体制を整えたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0042",
+  "level": 3,
+  "category": "中世",
+  "prompt": "ムアーウィヤがウマイヤ朝を開いた年は？",
+  "answer": "661年",
+  "reading": "661",
+  "explanation": "都はダマスクスで、カリフ位の世襲が始まったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0043",
+  "level": 3,
+  "category": "中世",
+  "prompt": "東フランク王オットー1世がローマ教皇から帝冠を受けた年は？",
+  "answer": "962年",
+  "reading": "962",
+  "explanation": "これが神聖ローマ帝国の始まりとされるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0044",
+  "level": 3,
+  "category": "近世",
+  "prompt": "イギリス王ヘンリ8世が首長法（国王至上法）を制定した年は？",
+  "answer": "1534年",
+  "reading": "1534",
+  "explanation": "離婚問題で教皇と対立し、イギリス国教会を成立させたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0045",
+  "level": 3,
+  "category": "近世",
+  "prompt": "イギリスがスペインの無敵艦隊（アルマダ）を破った年は？",
+  "answer": "1588年",
+  "reading": "1588",
+  "explanation": "エリザベス1世のもとでイギリスが海上進出を強めるきっかけになったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0046",
+  "level": 3,
+  "category": "近世",
+  "prompt": "アンリ4世がナントの勅令を出し、ユグノーに信仰の自由を認めた年は？",
+  "answer": "1598年",
+  "reading": "1598",
+  "explanation": "これでユグノー戦争は終わったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0047",
+  "level": 3,
+  "category": "近世",
+  "prompt": "イギリス東インド会社が設立された年は？",
+  "answer": "1600年",
+  "reading": "1600",
+  "explanation": "エリザベス1世の特許状によって設立され、アジア貿易を独占したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0048",
+  "level": 3,
+  "category": "近世",
+  "prompt": "イギリスで王党派と議会派の内戦が始まり、ピューリタン革命が起こった年は？",
+  "answer": "1642年",
+  "reading": "1642",
+  "explanation": "クロムウェルの鉄騎隊が活躍し、議会派が勝利したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0049",
+  "level": 3,
+  "category": "近世",
+  "prompt": "レキシントン・コンコードの戦いでアメリカ独立戦争が始まった年は？",
+  "answer": "1775年",
+  "reading": "1775",
+  "explanation": "翌年、トマス＝ペインが『コモン＝センス』を出版したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0050",
+  "level": 3,
+  "category": "近世",
+  "prompt": "パリ条約でイギリスがアメリカ合衆国の独立を承認した年は？",
+  "answer": "1783年",
+  "reading": "1783",
+  "explanation": "アメリカはミシシッピ川以東のルイジアナも獲得したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0051",
+  "level": 3,
+  "category": "近代",
+  "prompt": "インドでシパーヒー（セポイ）の反乱をきっかけにインド大反乱が起こった年は？",
+  "answer": "1857年",
+  "reading": "1857",
+  "explanation": "翌年、ムガル帝国は滅び、東インド会社も解散したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0052",
+  "level": 3,
+  "category": "近代",
+  "prompt": "ヴィットーリオ＝エマヌエーレ2世を国王とするイタリア王国が成立した年は？",
+  "answer": "1861年",
+  "reading": "1861",
+  "explanation": "サルデーニャ首相カヴールと、南イタリアを献上したガリバルディの活躍があったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0053",
+  "level": 3,
+  "category": "近代",
+  "prompt": "孫文を臨時大総統とする中華民国が南京で成立した年は？",
+  "answer": "1912年",
+  "reading": "1912",
+  "explanation": "同じ年、宣統帝（溥儀）が退位して清は滅んだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0054",
+  "level": 3,
+  "category": "現代",
+  "prompt": "ドイツ革命が起こり、ドイツが休戦協定に調印して第一次世界大戦が終わった年は？",
+  "answer": "1918年",
+  "reading": "1918",
+  "explanation": "キール軍港の水兵反乱から革命が広がり、皇帝が退位したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0055",
+  "level": 3,
+  "category": "現代",
+  "prompt": "国際連盟が発足した年は？",
+  "answer": "1920年",
+  "reading": "1920",
+  "explanation": "本部はジュネーヴで、提唱国のアメリカは上院の反対で加盟しなかったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0056",
+  "level": 3,
+  "category": "現代",
+  "prompt": "ソヴィエト社会主義共和国連邦が成立した年は？",
+  "answer": "1922年",
+  "reading": "1922",
+  "explanation": "ロシア・ウクライナ・ベラルーシ・ザカフカースの4共和国で結成されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0057",
+  "level": 3,
+  "category": "現代",
+  "prompt": "ヒトラーが首相に任命され、ナチ党政権が成立した年は？",
+  "answer": "1933年",
+  "reading": "1933",
+  "explanation": "同じ年に全権委任法を成立させ、一党独裁体制を築いたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0058",
+  "level": 3,
+  "category": "現代",
+  "prompt": "北大西洋条約機構（NATO）が結成された年は？",
+  "answer": "1949年",
+  "reading": "1949",
+  "explanation": "アメリカと西欧諸国による集団防衛機構だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0059",
+  "level": 3,
+  "category": "現代",
+  "prompt": "毛沢東の主導で中国でプロレタリア文化大革命が始まった年は？",
+  "answer": "1966年",
+  "reading": "1966",
+  "explanation": "紅衛兵が動員され、劉少奇や鄧小平が失脚したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0060",
+  "level": 3,
+  "category": "現代",
+  "prompt": "マーストリヒト条約が発効し、ヨーロッパ連合（EU）が発足した年は？",
+  "answer": "1993年",
+  "reading": "1993",
+  "explanation": "前年に調印され、共通通貨ユーロの導入も決められたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0061",
+  "level": 4,
+  "category": "古代",
+  "prompt": "紀元前、アレクサンドロス大王が東方遠征を開始した年は？",
+  "answer": "前334年",
+  "reading": "334",
+  "explanation": "遠征はインダス川流域まで及び、ヘレニズム時代が始まったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0062",
+  "level": 4,
+  "category": "中世",
+  "prompt": "フランク王国の宮宰カール＝マルテルがイスラーム軍を破ったトゥール・ポワティエ間の戦いの年は？",
+  "answer": "732年",
+  "reading": "732",
+  "explanation": "キリスト教世界を守ったとして、カロリング家の権威が高まったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0063",
+  "level": 4,
+  "category": "中世",
+  "prompt": "節度使の安禄山と史思明が唐に反乱を起こした安史の乱の年は？",
+  "answer": "755年",
+  "reading": "755",
+  "explanation": "乱は約9年続き、唐の律令体制は崩れていったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0064",
+  "level": 4,
+  "category": "中世",
+  "prompt": "ノルマンディー公ウィリアムがイングランドを征服し、ノルマン朝を開いたノルマン＝コンクェストの年は？",
+  "answer": "1066年",
+  "reading": "1066",
+  "explanation": "ヘースティングズの戦いに勝ってウィリアム1世として即位したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0065",
+  "level": 4,
+  "category": "中世",
+  "prompt": "教皇ウルバヌス2世がクレルモン宗教会議で十字軍の派遣を提唱した年は？",
+  "answer": "1095年",
+  "reading": "1095",
+  "explanation": "ビザンツ皇帝がセルジューク朝の圧迫を受けて救援を求めたことがきっかけだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0066",
+  "level": 4,
+  "category": "中世",
+  "prompt": "第1回十字軍が出発した年は？",
+  "answer": "1096年",
+  "reading": "1096",
+  "explanation": "十字軍は3年後にイェルサレムを占領し、イェルサレム王国を建てたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0067",
+  "level": 4,
+  "category": "中世",
+  "prompt": "イギリスとフランスの間で百年戦争が始まった年は？",
+  "answer": "1339年",
+  "reading": "1339",
+  "explanation": "イギリス王エドワード3世がフランス王位継承権を主張して始まったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0068",
+  "level": 4,
+  "category": "近世",
+  "prompt": "ドイツでアウクスブルクの和議が結ばれた年は？",
+  "answer": "1555年",
+  "reading": "1555",
+  "explanation": "諸侯にカトリックかルター派かの選択権が認められたけれど、個人の信仰の自由はなかったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0069",
+  "level": 4,
+  "category": "近世",
+  "prompt": "イギリスで権利の章典が制定された年は？",
+  "answer": "1689年",
+  "reading": "1689",
+  "explanation": "前年の名誉革命を受けたもので、議会主権にもとづく立憲王政の基礎となったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0070",
+  "level": 4,
+  "category": "近代",
+  "prompt": "フランスで国王ルイ16世が処刑された年は？",
+  "answer": "1793年",
+  "reading": "1793",
+  "explanation": "これに対してイギリスのピットの提唱で第1回対仏大同盟が結成されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0071",
+  "level": 4,
+  "category": "近代",
+  "prompt": "ナポレオンがブリュメール18日のクーデタで統領政府を樹立した年は？",
+  "answer": "1799年",
+  "reading": "1799",
+  "explanation": "ナポレオンは第一統領として実権を握ったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0072",
+  "level": 4,
+  "category": "近代",
+  "prompt": "ナポレオンが国民投票で皇帝に即位し、第一帝政が始まった年は？",
+  "answer": "1804年",
+  "reading": "1804",
+  "explanation": "この年に民法典（ナポレオン法典）も制定されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0073",
+  "level": 4,
+  "category": "近代",
+  "prompt": "ナポレオンがロシア遠征を行った年は？",
+  "answer": "1812年",
+  "reading": "1812",
+  "explanation": "ロシアの焦土作戦と冬の寒さで大敗し、ナポレオン没落のきっかけとなったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0074",
+  "level": 4,
+  "category": "近代",
+  "prompt": "フランスでシャルル10世が倒された七月革命の年は？",
+  "answer": "1830年",
+  "reading": "1830",
+  "explanation": "ルイ＝フィリップが即位して七月王政が始まったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0075",
+  "level": 4,
+  "category": "近代",
+  "prompt": "アヘン戦争の講和条約である南京条約が結ばれた年は？",
+  "answer": "1842年",
+  "reading": "1842",
+  "explanation": "香港島の割譲や上海など5港の開港が決まったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0076",
+  "level": 4,
+  "category": "近代",
+  "prompt": "洪秀全が太平天国を建てて挙兵した年は？",
+  "answer": "1851年",
+  "reading": "1851",
+  "explanation": "「滅満興漢」を掲げ、1853年には南京を占領して天京と改称したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0077",
+  "level": 4,
+  "category": "近代",
+  "prompt": "ロシアのアレクサンドル2世が農奴解放令を出した年は？",
+  "answer": "1861年",
+  "reading": "1861",
+  "explanation": "クリミア戦争の敗北をきっかけに近代化を進めたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0078",
+  "level": 4,
+  "category": "近代",
+  "prompt": "南北戦争中、リンカンが奴隷解放宣言を正式に発布した年は？",
+  "answer": "1863年",
+  "reading": "1863",
+  "explanation": "前年9月に予備宣言を出し、この年の1月1日に正式に発布したよ。同じ年、ゲティスバーグで「人民の、人民による、人民のための政治」の演説をしたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0079",
+  "level": 4,
+  "category": "現代",
+  "prompt": "中国で五・四運動が起こった年は？",
+  "answer": "1919年",
+  "reading": "1919",
+  "explanation": "パリ講和会議で山東の旧ドイツ権益返還が認められなかったことに抗議したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0080",
+  "level": 4,
+  "category": "現代",
+  "prompt": "中国で民主化を求める学生・市民が弾圧された天安門事件の年は？",
+  "answer": "1989年",
+  "reading": "1989",
+  "explanation": "北京の天安門広場に集まった人々を軍が武力で鎮圧したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0081",
+  "level": 5,
+  "category": "古代",
+  "prompt": "紀元前、オクタウィアヌスが元老院からアウグストゥスの称号を与えられた年は？",
+  "answer": "前27年",
+  "reading": "27",
+  "explanation": "自らをプリンケプス（市民の第一人者）と称したので、その政治を元首政（プリンキパトゥス）と呼ぶよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0082",
+  "level": 5,
+  "category": "古代",
+  "prompt": "コンスタンティヌス帝がニケーア公会議を開いた年は？",
+  "answer": "325年",
+  "reading": "325",
+  "explanation": "アタナシウス派が正統とされ、アリウス派は異端とされたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0083",
+  "level": 5,
+  "category": "中世",
+  "prompt": "アブー＝アルアッバースがウマイヤ朝を倒し、アッバース朝を開いた年は？",
+  "answer": "750年",
+  "reading": "750",
+  "explanation": "アラブ人の特権を廃し、ムスリムの平等を実現したイスラーム帝国となったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0084",
+  "level": 5,
+  "category": "中世",
+  "prompt": "節度使の朱全忠によって唐が滅ぼされた年は？",
+  "answer": "907年",
+  "reading": "907",
+  "explanation": "朱全忠は後梁を建て、五代十国の時代が始まったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0085",
+  "level": 5,
+  "category": "中世",
+  "prompt": "趙匡胤（太祖）が宋（北宋）を建てた年は？",
+  "answer": "960年",
+  "reading": "960",
+  "explanation": "武断政治を改めて文治主義をとり、科挙に殿試を加えたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0086",
+  "level": 5,
+  "category": "中世",
+  "prompt": "フビライが国号を元と定めた年は？",
+  "answer": "1271年",
+  "reading": "1271",
+  "explanation": "都を大都（現在の北京）に置いたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0087",
+  "level": 5,
+  "category": "中世",
+  "prompt": "フランス王フィリップ4世が初めて三部会を開いた年は？",
+  "answer": "1302年",
+  "reading": "1302",
+  "explanation": "聖職者・貴族・平民の代表を集め、教皇との対立で国内の支持を得たよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0088",
+  "level": 5,
+  "category": "中世",
+  "prompt": "明の永楽帝の命で鄭和が南海遠征を始めた年は？",
+  "answer": "1405年",
+  "reading": "1405",
+  "explanation": "遠征は7回に及び、艦隊の一部はアフリカ東岸にまで達したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0089",
+  "level": 5,
+  "category": "近世",
+  "prompt": "イギリスでチャールズ1世が処刑され、共和政が始まった年は？",
+  "answer": "1649年",
+  "reading": "1649",
+  "explanation": "クロムウェルは後に護国卿となって独裁を行ったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0090",
+  "level": 5,
+  "category": "近代",
+  "prompt": "フランスで王政が廃止され、第一共和政が始まった年は？",
+  "answer": "1792年",
+  "reading": "1792",
+  "explanation": "男子普通選挙による国民公会が成立し、王政廃止を宣言したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0091",
+  "level": 5,
+  "category": "近代",
+  "prompt": "ネルソン率いるイギリス艦隊がフランス・スペイン連合艦隊を破ったトラファルガーの海戦の年は？",
+  "answer": "1805年",
+  "reading": "1805",
+  "explanation": "同じ年、ナポレオンは陸上ではアウステルリッツの戦い（三帝会戦）に勝利したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0092",
+  "level": 5,
+  "category": "近代",
+  "prompt": "ナポレオンがベルリンで大陸封鎖令を出した年は？",
+  "answer": "1806年",
+  "reading": "1806",
+  "explanation": "この年ライン同盟が結成され、神聖ローマ帝国は消滅したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0093",
+  "level": 5,
+  "category": "近代",
+  "prompt": "アメリカ大統領モンローがヨーロッパとアメリカ大陸の相互不干渉を唱えた年は？",
+  "answer": "1823年",
+  "reading": "1823",
+  "explanation": "ラテンアメリカ諸国の独立運動へのヨーロッパの干渉に反対したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0094",
+  "level": 5,
+  "category": "近代",
+  "prompt": "義和団が北京の公使館区域を包囲し、8カ国連合軍が出兵した年は？",
+  "answer": "1900年",
+  "reading": "1900",
+  "explanation": "「扶清滅洋」を掲げた運動で、翌年北京議定書が結ばれたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0095",
+  "level": 5,
+  "category": "現代",
+  "prompt": "陳独秀らによって中国共産党が結成された年は？",
+  "answer": "1921年",
+  "reading": "1921",
+  "explanation": "上海で第1回全国代表大会が開かれたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0096",
+  "level": 5,
+  "category": "現代",
+  "prompt": "中国国民党と中国共産党の間で第1次国共合作が成立した年は？",
+  "answer": "1924年",
+  "reading": "1924",
+  "explanation": "孫文が「連ソ・容共・扶助工農」を掲げたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0097",
+  "level": 5,
+  "category": "現代",
+  "prompt": "フランクリン＝ローズヴェルト大統領がニューディールを始めた年は？",
+  "answer": "1933年",
+  "reading": "1933",
+  "explanation": "農業調整法（AAA）や全国産業復興法（NIRA）、TVAなどの政策を行ったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0098",
+  "level": 5,
+  "category": "現代",
+  "prompt": "インドとパキスタンがイギリスから分離独立した年は？",
+  "answer": "1947年",
+  "reading": "1947",
+  "explanation": "ヒンドゥー教徒とイスラーム教徒の対立から2つの国に分かれたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0099",
+  "level": 5,
+  "category": "現代",
+  "prompt": "アメリカ大統領トルーマンが共産主義の封じ込め政策を宣言した年は？",
+  "answer": "1947年",
+  "reading": "1947",
+  "explanation": "ギリシアとトルコへの援助を表明し、冷戦が本格化したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0100",
+  "level": 5,
+  "category": "現代",
+  "prompt": "湾岸戦争が起こった年は？",
+  "answer": "1991年",
+  "reading": "1991",
+  "explanation": "前年にクウェートに侵攻したイラクに対し、アメリカ中心の多国籍軍が攻撃したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0101",
+  "level": 6,
+  "category": "古代",
+  "prompt": "紀元前、テミストクレス率いるギリシア海軍がペルシア海軍を破ったサラミスの海戦の年は？",
+  "answer": "前480年",
+  "reading": "480",
+  "explanation": "三段櫂船のこぎ手として活躍した無産市民の発言力が高まったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0102",
+  "level": 6,
+  "category": "古代",
+  "prompt": "紀元前、アテネとスパルタの間でペロポネソス戦争が始まった年は？",
+  "answer": "前431年",
+  "reading": "431",
+  "explanation": "デロス同盟とペロポネソス同盟の争いで、スパルタが勝利したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0103",
+  "level": 6,
+  "category": "古代",
+  "prompt": "紀元前、ローマとカルタゴの間でポエニ戦争が始まった年は？",
+  "answer": "前264年",
+  "reading": "264",
+  "explanation": "第1回ポエニ戦争に勝ったローマはシチリアを最初の属州としたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0104",
+  "level": 6,
+  "category": "古代",
+  "prompt": "紀元前、劉邦が項羽を破って漢を建国した年は？",
+  "answer": "前202年",
+  "reading": "202",
+  "explanation": "都は長安で、郡県制と封建制を併用した郡国制をとったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0105",
+  "level": 6,
+  "category": "古代",
+  "prompt": "紀元前、オクタウィアヌスがアントニウスとクレオパトラの連合軍を破ったアクティウムの海戦の年は？",
+  "answer": "前31年",
+  "reading": "31",
+  "explanation": "翌年プトレマイオス朝エジプトが滅び、地中海世界はローマに統一されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0106",
+  "level": 6,
+  "category": "古代",
+  "prompt": "曹丕が後漢の献帝から禅譲を受けて魏を建てた年は？",
+  "answer": "220年",
+  "reading": "220",
+  "explanation": "魏では九品中正が始められたよ。翌年には劉備が蜀を建てたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0107",
+  "level": 6,
+  "category": "中世",
+  "prompt": "唐軍がアッバース朝軍に敗れたタラス河畔の戦いの年は？",
+  "answer": "751年",
+  "reading": "751",
+  "explanation": "この戦いの捕虜から製紙法が西方に伝わったと言われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0108",
+  "level": 6,
+  "category": "中世",
+  "prompt": "キリスト教会がローマ＝カトリック教会とギリシア正教会に分裂した年は？",
+  "answer": "1054年",
+  "reading": "1054",
+  "explanation": "ローマ教皇とコンスタンティノープル総主教が互いに破門しあったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0109",
+  "level": 6,
+  "category": "近世",
+  "prompt": "スペインなどの連合艦隊がオスマン帝国海軍を破ったレパントの海戦の年は？",
+  "answer": "1571年",
+  "reading": "1571",
+  "explanation": "この後もオスマン帝国の地中海での優位はすぐには崩れなかったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0110",
+  "level": 6,
+  "category": "近世",
+  "prompt": "オランダ東インド会社が設立された年は？",
+  "answer": "1602年",
+  "reading": "1602",
+  "explanation": "世界初の株式会社とされ、ジャワのバタヴィアを拠点としたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0111",
+  "level": 6,
+  "category": "近世",
+  "prompt": "イギリス議会がチャールズ1世に権利の請願を提出した年は？",
+  "answer": "1628年",
+  "reading": "1628",
+  "explanation": "議会の同意のない課税や不当な逮捕を禁じることを求めたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0112",
+  "level": 6,
+  "category": "近世",
+  "prompt": "李自成の反乱軍によって明が滅ぼされた年は？",
+  "answer": "1644年",
+  "reading": "1644",
+  "explanation": "同じ年、清は北京に入り、中国支配を始めたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0113",
+  "level": 6,
+  "category": "近世",
+  "prompt": "スペイン継承戦争を終わらせたユトレヒト条約が結ばれた年は？",
+  "answer": "1713年",
+  "reading": "1713",
+  "explanation": "イギリスはジブラルタルやハドソン湾地方などを獲得したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0114",
+  "level": 6,
+  "category": "近世",
+  "prompt": "七年戦争が始まった年は？",
+  "answer": "1756年",
+  "reading": "1756",
+  "explanation": "オーストリアは宿敵フランスと手を結ぶ「外交革命」を行ったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0115",
+  "level": 6,
+  "category": "近世",
+  "prompt": "アメリカで合衆国憲法が制定された年は？",
+  "answer": "1787年",
+  "reading": "1787",
+  "explanation": "連邦主義と三権分立を特色とし、2年後にワシントンが初代大統領となったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0116",
+  "level": 6,
+  "category": "近代",
+  "prompt": "イギリスで第1回選挙法改正が行われた年は？",
+  "answer": "1832年",
+  "reading": "1832",
+  "explanation": "腐敗選挙区が廃止され、産業資本家が選挙権を得たよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0117",
+  "level": 6,
+  "category": "近代",
+  "prompt": "ウィーンとベルリンで三月革命が起こり、メッテルニヒが失脚した年は？",
+  "answer": "1848年",
+  "reading": "1848",
+  "explanation": "同じ年、ドイツ統一をめざすフランクフルト国民議会も開かれたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0118",
+  "level": 6,
+  "category": "近代",
+  "prompt": "フランス人レセップスが建設したスエズ運河が開通した年は？",
+  "answer": "1869年",
+  "reading": "1869",
+  "explanation": "同じ年、アメリカでは大陸横断鉄道が開通したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0119",
+  "level": 6,
+  "category": "現代",
+  "prompt": "ソ連と東欧諸国がワルシャワ条約機構を結成した年は？",
+  "answer": "1955年",
+  "reading": "1955",
+  "explanation": "西ドイツのNATO加盟に対抗してつくられたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0120",
+  "level": 6,
+  "category": "現代",
+  "prompt": "アフリカで17カ国が独立し、「アフリカの年」と呼ばれた年は？",
+  "answer": "1960年",
+  "reading": "1960",
+  "explanation": "同じ年、コンゴ動乱も起こったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0121",
+  "level": 7,
+  "category": "古代",
+  "prompt": "太平道の張角が指導した黄巾の乱が起こった年は？",
+  "answer": "184年",
+  "reading": "184",
+  "explanation": "反乱は鎮圧されたけれど後漢は衰え、群雄割拠の時代になったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0122",
+  "level": 7,
+  "category": "古代",
+  "prompt": "テオドシウス帝がキリスト教を国教とし、他の宗教を禁止した年は？",
+  "answer": "392年",
+  "reading": "392",
+  "explanation": "テオドシウス帝は3年後に亡くなり、帝国は東西に分割されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0123",
+  "level": 7,
+  "category": "中世",
+  "prompt": "李成桂が朝鮮王朝（李朝）を建てた年は？",
+  "answer": "1392年",
+  "reading": "1392",
+  "explanation": "都は漢城で、朱子学を官学としたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0124",
+  "level": 7,
+  "category": "近世",
+  "prompt": "バーブルがパーニーパットの戦いに勝ち、ムガル帝国を建てた年は？",
+  "answer": "1526年",
+  "reading": "1526",
+  "explanation": "3代アクバルのときに帝国の基礎が固まったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0125",
+  "level": 7,
+  "category": "近世",
+  "prompt": "ネーデルラントがスペインに対して独立戦争を始めた年は？",
+  "answer": "1568年",
+  "reading": "1568",
+  "explanation": "オラニエ公ウィレムが指導したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0126",
+  "level": 7,
+  "category": "近世",
+  "prompt": "イギリスでチャールズ2世が即位し、王政復古となった年は？",
+  "answer": "1660年",
+  "reading": "1660",
+  "explanation": "クロムウェルの死後、議会が国王を迎えたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0127",
+  "level": 7,
+  "category": "近世",
+  "prompt": "オーストリア継承戦争が始まった年は？",
+  "answer": "1740年",
+  "reading": "1740",
+  "explanation": "マリア＝テレジアの即位に反対してプロイセンのフリードリヒ2世がシュレジエンを占領したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0128",
+  "level": 7,
+  "category": "近世",
+  "prompt": "イギリス東インド会社のクライヴがプラッシーの戦いでフランスとベンガル太守の連合軍を破った年は？",
+  "answer": "1757年",
+  "reading": "1757",
+  "explanation": "これをきっかけにイギリスのインド支配が本格化したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0129",
+  "level": 7,
+  "category": "近世",
+  "prompt": "七年戦争とフレンチ＝インディアン戦争を終わらせたパリ条約が結ばれた年は？",
+  "answer": "1763年",
+  "reading": "1763",
+  "explanation": "イギリスはフランスからカナダやミシシッピ川以東のルイジアナを獲得したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0130",
+  "level": 7,
+  "category": "近代",
+  "prompt": "ナポレオンがワーテルローの戦いで敗れた年は？",
+  "answer": "1815年",
+  "reading": "1815",
+  "explanation": "この後ナポレオンはセントヘレナ島に流されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0131",
+  "level": 7,
+  "category": "近代",
+  "prompt": "ルイ＝ナポレオンが皇帝ナポレオン3世となり、第二帝政が始まった年は？",
+  "answer": "1852年",
+  "reading": "1852",
+  "explanation": "国民投票によって皇帝に即位したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0132",
+  "level": 7,
+  "category": "近代",
+  "prompt": "プロイセンとフランスの間で普仏戦争（プロイセン＝フランス戦争）が起こった年は？",
+  "answer": "1870年",
+  "reading": "1870",
+  "explanation": "ナポレオン3世はスダンで捕虜となり、第二帝政は崩壊したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0133",
+  "level": 7,
+  "category": "近代",
+  "prompt": "ヴィクトリア女王がインド皇帝を兼ねるインド帝国が成立した年は？",
+  "answer": "1877年",
+  "reading": "1877",
+  "explanation": "同じ年、ロシア＝トルコ（露土）戦争が始まったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0134",
+  "level": 7,
+  "category": "近代",
+  "prompt": "ビスマルクがベルリン会議を主催し、ロシアの南下を抑えた年は？",
+  "answer": "1878年",
+  "reading": "1878",
+  "explanation": "サン＝ステファノ条約が破棄され、ベルリン条約が結ばれたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0135",
+  "level": 7,
+  "category": "近代",
+  "prompt": "ドイツ・オーストリア・イタリアが三国同盟を結んだ年は？",
+  "answer": "1882年",
+  "reading": "1882",
+  "explanation": "ビスマルクがフランスを孤立させるために結んだ同盟だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0136",
+  "level": 7,
+  "category": "近代",
+  "prompt": "ロシアで血の日曜日事件が起こり、第1次ロシア革命が始まった年は？",
+  "answer": "1905年",
+  "reading": "1905",
+  "explanation": "ニコライ2世は十月宣言を出し、国会（ドゥーマ）の開設を約束したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0137",
+  "level": 7,
+  "category": "現代",
+  "prompt": "アメリカ大統領ウィルソンが十四カ条の平和原則を発表した年は？",
+  "answer": "1918年",
+  "reading": "1918",
+  "explanation": "秘密外交の廃止や民族自決、国際平和機構の設立などを提唱したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0138",
+  "level": 7,
+  "category": "現代",
+  "prompt": "ローズヴェルト・チャーチル・スターリンがヤルタ会談を行った年は？",
+  "answer": "1945年",
+  "reading": "1945",
+  "explanation": "ドイツの戦後処理とソ連の対日参戦が話し合われたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0139",
+  "level": 7,
+  "category": "現代",
+  "prompt": "パレスチナでイスラエルが建国を宣言した年は？",
+  "answer": "1948年",
+  "reading": "1948",
+  "explanation": "これに反発したアラブ諸国との間で第1次中東戦争が起こったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0140",
+  "level": 7,
+  "category": "現代",
+  "prompt": "第4次中東戦争をきっかけに第1次石油危機が起こった年は？",
+  "answer": "1973年",
+  "reading": "1973",
+  "explanation": "アラブ産油国が石油戦略を発動し、世界経済が混乱したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0141",
+  "level": 8,
+  "category": "古代",
+  "prompt": "紀元前、ポンペイウス・カエサル・クラッススが第1回三頭政治を始めた年は？",
+  "answer": "前60年",
+  "reading": "60",
+  "explanation": "元老院に対抗するための私的な盟約だったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0142",
+  "level": 8,
+  "category": "中世",
+  "prompt": "フラグ率いるモンゴル軍がバグダードを攻略し、アッバース朝が滅んだ年は？",
+  "answer": "1258年",
+  "reading": "1258",
+  "explanation": "フラグはイル＝ハン国を建てたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0143",
+  "level": 8,
+  "category": "中世",
+  "prompt": "シモン＝ド＝モンフォールが貴族・聖職者に加え州や都市の代表を集めた議会を開いた年は？",
+  "answer": "1265年",
+  "reading": "1265",
+  "explanation": "イギリス議会の起源とされるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0144",
+  "level": 8,
+  "category": "近世",
+  "prompt": "イスマーイール1世がイランにサファヴィー朝を建てた年は？",
+  "answer": "1501年",
+  "reading": "1501",
+  "explanation": "シーア派を国教とし、アッバース1世のときに最盛期を迎えたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0145",
+  "level": 8,
+  "category": "近世",
+  "prompt": "オスマン帝国のスレイマン1世が第1次ウィーン包囲を行った年は？",
+  "answer": "1529年",
+  "reading": "1529",
+  "explanation": "ウィーンは陥落しなかったけれど、ヨーロッパに大きな衝撃を与えたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0146",
+  "level": 8,
+  "category": "近世",
+  "prompt": "クロムウェル政権がオランダの中継貿易に打撃を与える航海法を制定した年は？",
+  "answer": "1651年",
+  "reading": "1651",
+  "explanation": "翌年、イギリス＝オランダ戦争が始まったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0147",
+  "level": 8,
+  "category": "近世",
+  "prompt": "清の康熙帝がロシアとネルチンスク条約を結んだ年は？",
+  "answer": "1689年",
+  "reading": "1689",
+  "explanation": "アルグン川と外興安嶺を国境とした、清が外国と結んだ最初の対等な条約だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0148",
+  "level": 8,
+  "category": "近代",
+  "prompt": "テルミドールの反動でロベスピエールが処刑された年は？",
+  "answer": "1794年",
+  "reading": "1794",
+  "explanation": "恐怖政治は終わり、翌年に総裁政府が成立したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0149",
+  "level": 8,
+  "category": "近代",
+  "prompt": "イギリスで穀物法が廃止された年は？",
+  "answer": "1846年",
+  "reading": "1846",
+  "explanation": "コブデンやブライトの運動によって自由貿易が進んだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0150",
+  "level": 8,
+  "category": "近代",
+  "prompt": "マルクスとエンゲルスが『共産党宣言』を発表した年は？",
+  "answer": "1848年",
+  "reading": "1848",
+  "explanation": "「万国の労働者、団結せよ」の言葉で結ばれているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0151",
+  "level": 8,
+  "category": "近代",
+  "prompt": "ロシアとオスマン帝国の間でクリミア戦争が始まった年は？",
+  "answer": "1853年",
+  "reading": "1853",
+  "explanation": "イギリス・フランスがオスマン帝国側で参戦し、ロシアは敗れたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0152",
+  "level": 8,
+  "category": "近代",
+  "prompt": "プロイセンとオーストリアの間で普墺戦争（プロイセン＝オーストリア戦争）が起こった年は？",
+  "answer": "1866年",
+  "reading": "1866",
+  "explanation": "プロイセンが勝ち、翌年北ドイツ連邦をつくったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0153",
+  "level": 8,
+  "category": "近代",
+  "prompt": "アメリカ国務長官ジョン＝ヘイが中国の門戸開放を提唱した年は？",
+  "answer": "1899年",
+  "reading": "1899",
+  "explanation": "翌年には領土保全も加えた3原則を示したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0154",
+  "level": 8,
+  "category": "近代",
+  "prompt": "英露協商が結ばれ、三国協商が成立した年は？",
+  "answer": "1907年",
+  "reading": "1907",
+  "explanation": "イラン・アフガニスタン・チベットでの勢力範囲を取り決めたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0155",
+  "level": 8,
+  "category": "現代",
+  "prompt": "ムッソリーニがローマ進軍を行い、政権を握った年は？",
+  "answer": "1922年",
+  "reading": "1922",
+  "explanation": "国王が組閣を命じ、ファシスト党の政権が成立したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0156",
+  "level": 8,
+  "category": "現代",
+  "prompt": "ムスタファ＝ケマルのもとでトルコ共和国が成立した年は？",
+  "answer": "1923年",
+  "reading": "1923",
+  "explanation": "前年にスルタン制が廃止され、オスマン帝国は滅んでいたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0157",
+  "level": 8,
+  "category": "現代",
+  "prompt": "ソ連がベルリン封鎖を行った年は？",
+  "answer": "1948年",
+  "reading": "1948",
+  "explanation": "西側は物資を空輸して対抗し、翌年に封鎖は解除されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0158",
+  "level": 8,
+  "category": "現代",
+  "prompt": "インドネシアのバンドンでアジア＝アフリカ会議が開かれた年は？",
+  "answer": "1955年",
+  "reading": "1955",
+  "explanation": "平和十原則が採択され、第三世界の連帯が示されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0159",
+  "level": 8,
+  "category": "現代",
+  "prompt": "フルシチョフがソ連共産党大会でスターリン批判を行った年は？",
+  "answer": "1956年",
+  "reading": "1956",
+  "explanation": "同じ年、ポーランドとハンガリーで反ソ暴動が起こったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0160",
+  "level": 8,
+  "category": "現代",
+  "prompt": "ニクソン大統領が金とドルの交換停止を発表した年は？",
+  "answer": "1971年",
+  "reading": "1971",
+  "explanation": "ドル＝ショックと呼ばれ、ブレトン＝ウッズ体制は崩れたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0161",
+  "level": 9,
+  "category": "古代",
+  "prompt": "紀元前、ローマで王が追放され、貴族共和政が始まったとされる年は？",
+  "answer": "前509年",
+  "reading": "509",
+  "explanation": "エトルリア人の王を追放し、2名のコンスルを中心とする共和政になったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0162",
+  "level": 9,
+  "category": "古代",
+  "prompt": "紀元前、ペルシア戦争でアテネ軍がペルシア軍を破ったマラトンの戦いの年は？",
+  "answer": "前490年",
+  "reading": "490",
+  "explanation": "重装歩兵の密集隊が活躍し、勝利を伝える伝令の話がマラソンの由来とされるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0163",
+  "level": 9,
+  "category": "中世",
+  "prompt": "ユーグ＝カペーがフランス王となり、カペー朝を開いた年は？",
+  "answer": "987年",
+  "reading": "987",
+  "explanation": "当初の王権は弱く、パリ周辺を支配するだけだったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0164",
+  "level": 9,
+  "category": "中世",
+  "prompt": "教皇庁が南フランスのアヴィニョンに移された、「教皇のバビロン捕囚」が始まった年は？",
+  "answer": "1309年",
+  "reading": "1309",
+  "explanation": "約70年間続き、教皇権の衰退を示す出来事だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0165",
+  "level": 9,
+  "category": "近世",
+  "prompt": "カトリック教会がトリエント公会議を開いた年は？",
+  "answer": "1545年",
+  "reading": "1545",
+  "explanation": "教皇の至上権を確認し、対抗宗教改革を進めたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0166",
+  "level": 9,
+  "category": "近世",
+  "prompt": "フランスでユグノー戦争が始まった年は？",
+  "answer": "1562年",
+  "reading": "1562",
+  "explanation": "ナントの勅令で終結するまで30年以上続いたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0167",
+  "level": 9,
+  "category": "近世",
+  "prompt": "ヌルハチが女真を統一して後金（アイシン）を建てた年は？",
+  "answer": "1616年",
+  "reading": "1616",
+  "explanation": "八旗を組織し、次のホンタイジが国号を清と改めたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0168",
+  "level": 9,
+  "category": "近世",
+  "prompt": "プロイセン・ロシア・オーストリアによる第1回ポーランド分割が行われた年は？",
+  "answer": "1772年",
+  "reading": "1772",
+  "explanation": "3回の分割を経て、ポーランドは地図から消えたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0169",
+  "level": 9,
+  "category": "近代",
+  "prompt": "プロイセンを中心にドイツ関税同盟が発足した年は？",
+  "answer": "1834年",
+  "reading": "1834",
+  "explanation": "経済的な統一がドイツの政治的統一の土台となったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0170",
+  "level": 9,
+  "category": "近代",
+  "prompt": "パリの民衆が自治政府パリ＝コミューンを樹立した年は？",
+  "answer": "1871年",
+  "reading": "1871",
+  "explanation": "約2カ月で臨時政府軍に鎮圧されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0171",
+  "level": 9,
+  "category": "近代",
+  "prompt": "アメリカ＝スペイン（米西）戦争が起こった年は？",
+  "answer": "1898年",
+  "reading": "1898",
+  "explanation": "勝ったアメリカはフィリピン・グアム・プエルトリコを獲得したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0172",
+  "level": 9,
+  "category": "現代",
+  "prompt": "男女普通選挙や社会権を定めたヴァイマル憲法が制定された年は？",
+  "answer": "1919年",
+  "reading": "1919",
+  "explanation": "当時最も民主的な憲法と言われたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0173",
+  "level": 9,
+  "category": "現代",
+  "prompt": "戦争放棄を約束した不戦条約（ブリアン・ケロッグ条約）が結ばれた年は？",
+  "answer": "1928年",
+  "reading": "1928",
+  "explanation": "アメリカ国務長官ケロッグとフランス外相ブリアンの提唱によるものだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0174",
+  "level": 9,
+  "category": "現代",
+  "prompt": "張学良が蔣介石を監禁して内戦停止を迫った西安事件の年は？",
+  "answer": "1936年",
+  "reading": "1936",
+  "explanation": "これをきっかけに第2次国共合作への道が開かれたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0175",
+  "level": 9,
+  "category": "現代",
+  "prompt": "ドイツのズデーテン地方併合を英仏が認めたミュンヘン会談の年は？",
+  "answer": "1938年",
+  "reading": "1938",
+  "explanation": "イギリスのネヴィル＝チェンバレン首相による宥和政策の典型だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0176",
+  "level": 9,
+  "category": "現代",
+  "prompt": "ドイツがソ連に侵攻し、独ソ戦が始まった年は？",
+  "answer": "1941年",
+  "reading": "1941",
+  "explanation": "同じ年、ローズヴェルトとチャーチルが大西洋憲章を発表したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0177",
+  "level": 9,
+  "category": "現代",
+  "prompt": "東南アジア諸国連合（ASEAN）が結成された年は？",
+  "answer": "1967年",
+  "reading": "1967",
+  "explanation": "インドネシア・マレーシア・フィリピン・シンガポール・タイの5カ国で発足したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0178",
+  "level": 9,
+  "category": "現代",
+  "prompt": "チェコスロヴァキアで「プラハの春」と呼ばれる民主化運動が起こった年は？",
+  "answer": "1968年",
+  "reading": "1968",
+  "explanation": "ソ連を中心とするワルシャワ条約機構軍が軍事介入して抑え込んだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0179",
+  "level": 9,
+  "category": "現代",
+  "prompt": "イランでホメイニを指導者とするイラン＝イスラーム革命が起こった年は？",
+  "answer": "1979年",
+  "reading": "1979",
+  "explanation": "パフレヴィー朝が倒れ、第2次石油危機のきっかけとなったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0180",
+  "level": 9,
+  "category": "現代",
+  "prompt": "ゴルバチョフがソ連共産党書記長に就任した年は？",
+  "answer": "1985年",
+  "reading": "1985",
+  "explanation": "ペレストロイカ（改革）とグラスノスチ（情報公開）を進めたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0181",
+  "level": 10,
+  "category": "古代",
+  "prompt": "紀元前、周が犬戎の侵入を受けて都を東の洛邑に移し、春秋時代が始まった年は？",
+  "answer": "前770年",
+  "reading": "770",
+  "explanation": "この東遷以前を西周、以後を東周と呼ぶよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0182",
+  "level": 10,
+  "category": "古代",
+  "prompt": "紀元前、終身独裁官となったカエサルが暗殺された年は？",
+  "answer": "前44年",
+  "reading": "44",
+  "explanation": "ブルートゥスらの共和派に暗殺されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0183",
+  "level": 10,
+  "category": "古代",
+  "prompt": "劉秀（光武帝）が漢を再興し、後漢を建てた年は？",
+  "answer": "25年",
+  "reading": "25",
+  "explanation": "都は洛陽で、57年には倭の奴国の使いに印綬を与えたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0184",
+  "level": 10,
+  "category": "中世",
+  "prompt": "クローヴィスがフランク王国を建て、メロヴィング朝を開いた年は？",
+  "answer": "481年",
+  "reading": "481",
+  "explanation": "クローヴィスは後にアタナシウス派に改宗し、ローマ人の支持を得たよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0185",
+  "level": 10,
+  "category": "中世",
+  "prompt": "ウマイヤ家の一族がイベリア半島に後ウマイヤ朝を建てた年は？",
+  "answer": "756年",
+  "reading": "756",
+  "explanation": "都はコルドバで、10世紀にはカリフを称したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0186",
+  "level": 10,
+  "category": "中世",
+  "prompt": "メルセン条約で中部フランクの北部が東西フランクに分割された年は？",
+  "answer": "870年",
+  "reading": "870",
+  "explanation": "これで後のドイツ・フランス・イタリアの原型ができたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0187",
+  "level": 10,
+  "category": "中世",
+  "prompt": "叙任権闘争を終わらせたヴォルムス協約が結ばれた年は？",
+  "answer": "1122年",
+  "reading": "1122",
+  "explanation": "聖職叙任権は教皇にあることが確認されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0188",
+  "level": 10,
+  "category": "中世",
+  "prompt": "元が南宋を滅ぼした年は？",
+  "answer": "1279年",
+  "reading": "1279",
+  "explanation": "元は中国全土を支配し、日本にも2度遠征したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0189",
+  "level": 10,
+  "category": "中世",
+  "prompt": "明の正統帝がオイラトのエセン＝ハンに捕らえられた土木の変の年は？",
+  "answer": "1449年",
+  "reading": "1449",
+  "explanation": "この後、明は北方防衛のため万里の長城を修築したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0190",
+  "level": 10,
+  "category": "近世",
+  "prompt": "マゼランがスペイン王の援助で世界周航に出発した年は？",
+  "answer": "1519年",
+  "reading": "1519",
+  "explanation": "マゼランはフィリピンで殺されたけれど、部下が航海を続けて世界周航を達成したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0191",
+  "level": 10,
+  "category": "近世",
+  "prompt": "イグナティウス＝ロヨラらがイエズス会を結成した年は？",
+  "answer": "1534年",
+  "reading": "1534",
+  "explanation": "対抗宗教改革の中心となり、ザビエルらがアジアで布教したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0192",
+  "level": 10,
+  "category": "近世",
+  "prompt": "ミハイル＝ロマノフが即位し、ロシアでロマノフ朝が始まった年は？",
+  "answer": "1613年",
+  "reading": "1613",
+  "explanation": "ロマノフ朝はロシア革命まで約300年続いたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0193",
+  "level": 10,
+  "category": "近世",
+  "prompt": "ボストン茶会事件が起こった年は？",
+  "answer": "1773年",
+  "reading": "1773",
+  "explanation": "茶法に反発した急進派が東インド会社の茶を海に投げ捨てたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0194",
+  "level": 10,
+  "category": "近代",
+  "prompt": "アロー号事件をきっかけに、英仏と清の間でアロー戦争が始まった年は？",
+  "answer": "1856年",
+  "reading": "1856",
+  "explanation": "この戦争の結果、天津条約と北京条約が結ばれたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0195",
+  "level": 10,
+  "category": "近代",
+  "prompt": "ムガル帝国が滅亡し、インドがイギリス政府の直接統治下に置かれた年は？",
+  "answer": "1858年",
+  "reading": "1858",
+  "explanation": "インド大反乱をきっかけに東インド会社が解散したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0196",
+  "level": 10,
+  "category": "近代",
+  "prompt": "アロー戦争の講和として清と英仏の間に北京条約が結ばれた年は？",
+  "answer": "1860年",
+  "reading": "1860",
+  "explanation": "天津の開港や九竜半島南部の割譲が決まったよ。ロシアも沿海州を獲得したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0197",
+  "level": 10,
+  "category": "近代",
+  "prompt": "光緒帝のもとで康有為らが変法運動を進めたが、西太后らのクーデタで失敗した年は？",
+  "answer": "1898年",
+  "reading": "1898",
+  "explanation": "戊戌の変法・戊戌の政変と呼ばれ、改革は約100日で終わったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0198",
+  "level": 10,
+  "category": "現代",
+  "prompt": "スペイン内戦が始まった年は？",
+  "answer": "1936年",
+  "reading": "1936",
+  "explanation": "人民戦線政府にフランコが反乱を起こし、ドイツ・イタリアがフランコを支援したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0199",
+  "level": 10,
+  "category": "現代",
+  "prompt": "サイゴンが陥落し、ベトナム戦争が終結した年は？",
+  "answer": "1975年",
+  "reading": "1975",
+  "explanation": "翌年、南北が統一されてベトナム社会主義共和国が成立したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-nengo-sekai-0200",
+  "level": 10,
+  "category": "現代",
+  "prompt": "ソ連がアフガニスタンに軍事侵攻した年は？",
+  "answer": "1979年",
+  "reading": "1979",
+  "explanation": "新冷戦の始まりとなり、翌年のモスクワ・オリンピックを西側諸国がボイコットしたよ。",
+  "review": "verified"
+ }
+]
