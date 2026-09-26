@@ -1,0 +1,2502 @@
+[
+ {
+  "id": "daigaku-chiri-0001",
+  "level": 1,
+  "category": "地形",
+  "prompt": "氷河に削られた谷に海水が入り込んでできた、奥行きの深い入り江は？",
+  "answer": "フィヨルド",
+  "reading": "ふぃよるど",
+  "explanation": "ノルウェーやチリ南部の海岸で見られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0002",
+  "level": 1,
+  "category": "地形",
+  "prompt": "河川が山地から平野に出るところに、土砂が堆積してできた扇形の地形は？",
+  "answer": "扇状地",
+  "reading": "せんじょうち",
+  "explanation": "扇頂・扇央・扇端に分かれ、扇央は水が得にくいので果樹園などに使われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0003",
+  "level": 1,
+  "category": "地形",
+  "prompt": "河川が海や湖に注ぐ河口付近に、細かい土砂が堆積してできた低く平らな地形は？（漢字3字で）",
+  "answer": "三角州",
+  "reading": "さんかくす",
+  "explanation": "デルタとも呼ばれ、水田や都市に利用されることが多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0004",
+  "level": 1,
+  "category": "地形",
+  "prompt": "山地が沈水して谷に海水が入り込み、のこぎりの歯のように入り組んだ海岸は？（「〜式」を付けない現在の用語で）",
+  "answer": "リアス海岸",
+  "reading": "りあすかいがん",
+  "explanation": "三陸海岸や志摩半島で見られ、波が穏やかなので養殖業が盛んだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0005",
+  "level": 1,
+  "category": "地形",
+  "prompt": "地球の表面を覆う、十数枚の硬い岩盤のことを何という？",
+  "answer": "プレート",
+  "reading": "ぷれーと",
+  "explanation": "プレートどうしの境界では地震や火山活動が起こりやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0006",
+  "level": 1,
+  "category": "気候",
+  "prompt": "赤道付近に広がり、一年中高温多雨で常緑広葉樹の密林が茂る気候は？",
+  "answer": "熱帯雨林気候",
+  "reading": "ねったいうりんきこう",
+  "explanation": "ケッペンの記号はAfで、午後にスコールが降ることが多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0007",
+  "level": 1,
+  "category": "気候",
+  "prompt": "乾燥帯のうち、降水量が特に少なく、砂や岩の荒れ地が広がる気候は？",
+  "answer": "砂漠気候",
+  "reading": "さばくきこう",
+  "explanation": "ケッペンの記号はBWで、オアシスで農業が行われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0008",
+  "level": 1,
+  "category": "気候",
+  "prompt": "夏は高温で乾燥し、冬に雨が多くなる温帯の気候は？（海の名を含む呼び名で）",
+  "answer": "地中海性気候",
+  "reading": "ちちゅうかいせいきこう",
+  "explanation": "ケッペンの記号はCsで、オリーブやぶどうの栽培が盛んだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0009",
+  "level": 1,
+  "category": "気候",
+  "prompt": "大陸の西岸に見られ、偏西風と暖流の影響で一年を通して降水があり、冬も比較的温暖な気候は？",
+  "answer": "西岸海洋性気候",
+  "reading": "せいがんかいようせいきこう",
+  "explanation": "ケッペンの記号はCfbで、ロンドンやパリがこの気候だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0010",
+  "level": 1,
+  "category": "気候",
+  "prompt": "季節によって風向きが大きく変わり、東アジアや南アジアの気候に大きな影響を与える風は？（漢字で）",
+  "answer": "季節風",
+  "reading": "きせつふう",
+  "explanation": "モンスーンとも言い、夏は海から、冬は大陸から吹くよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0011",
+  "level": 1,
+  "category": "農業",
+  "prompt": "熱帯で、欧米の資本などにより大規模に単一の商品作物を栽培する大農園は？",
+  "answer": "プランテーション",
+  "reading": "ぷらんてーしょん",
+  "explanation": "天然ゴムや油やし、コーヒーなどが栽培されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0012",
+  "level": 1,
+  "category": "農業",
+  "prompt": "乾燥地域などで、水と草を求めて家畜とともに移動しながら暮らす牧畜は？",
+  "answer": "遊牧",
+  "reading": "ゆうぼく",
+  "explanation": "モンゴルやアラビア半島などで見られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0013",
+  "level": 1,
+  "category": "農業",
+  "prompt": "熱帯で森林を焼き払い、その灰を肥料として作物を育て、地力が衰えると別の場所へ移る農業は？（「〜農業」の形で）",
+  "answer": "焼畑農業",
+  "reading": "やきはたのうぎょう",
+  "explanation": "キャッサバやタロいもなどが栽培されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0014",
+  "level": 1,
+  "category": "鉱工業",
+  "prompt": "石油輸出国の利益を守るため、1960年に結成された石油輸出国機構の略称は？（略称をアルファベットで）",
+  "answer": "OPEC",
+  "reading": "opec",
+  "explanation": "サウジアラビアなど中東の産油国を中心に構成されているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0015",
+  "level": 1,
+  "category": "人口",
+  "prompt": "死亡率が下がる一方で出生率が高いまま続き、人口が急激に増加する現象は？",
+  "answer": "人口爆発",
+  "reading": "じんこうばくはつ",
+  "explanation": "第二次世界大戦後のアジア・アフリカなどで顕著だったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0016",
+  "level": 1,
+  "category": "民族・宗教",
+  "prompt": "ムハンマドが開き、聖典をクルアーン（コーラン）とする宗教は？（「教」を付けず、長音を含む表記で）",
+  "answer": "イスラーム",
+  "reading": "いすらーむ",
+  "explanation": "西アジアや北アフリカ、東南アジアなどに信者が多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0017",
+  "level": 1,
+  "category": "民族・宗教",
+  "prompt": "インドで最も信者が多く、牛を神聖視する民族宗教は？（小さい「ゥ」を使う表記で）",
+  "answer": "ヒンドゥー教",
+  "reading": "ひんどぅーきょう",
+  "explanation": "カースト制度と深く結びついてきたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0018",
+  "level": 1,
+  "category": "地誌",
+  "prompt": "世界で最も面積が大きい国は？",
+  "answer": "ロシア",
+  "reading": "ろしあ",
+  "explanation": "ユーラシア大陸の北部に広がり、11の時間帯をもつよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0019",
+  "level": 1,
+  "category": "地誌",
+  "prompt": "エジプトを流れて地中海に注ぐ、世界最長とされる川は？",
+  "answer": "ナイル川",
+  "reading": "ないるがわ",
+  "explanation": "「エジプトはナイルの賜物」という言葉で知られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0020",
+  "level": 1,
+  "category": "地誌",
+  "prompt": "流域面積が世界最大で、南アメリカ大陸の赤道付近を東へ流れる川は？",
+  "answer": "アマゾン川",
+  "reading": "あまぞんがわ",
+  "explanation": "流域にはセルバと呼ばれる熱帯雨林が広がっているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0021",
+  "level": 1,
+  "category": "地誌",
+  "prompt": "南アメリカ大陸の西側を南北に走る、長大な山脈は？",
+  "answer": "アンデス山脈",
+  "reading": "あんですさんみゃく",
+  "explanation": "新期造山帯に属し、高地ではじゃがいもの栽培やリャマの飼育が行われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0022",
+  "level": 1,
+  "category": "日本",
+  "prompt": "沖縄県に属し、台湾に近い日本の最西端の島は？",
+  "answer": "与那国島",
+  "reading": "よなぐにじま",
+  "explanation": "天気がよい日には台湾が見えることもあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0023",
+  "level": 1,
+  "category": "日本",
+  "prompt": "東京都に属する日本の最南端の島で、水没を防ぐ護岸工事が行われた島は？",
+  "answer": "沖ノ鳥島",
+  "reading": "おきのとりしま",
+  "explanation": "広い排他的経済水域を確保するうえで重要な島だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0024",
+  "level": 1,
+  "category": "日本",
+  "prompt": "日本列島の太平洋側を北上する暖流は？（漢字2字の通称で）",
+  "answer": "黒潮",
+  "reading": "くろしお",
+  "explanation": "日本海流とも呼ばれ、沿岸の気候を温暖にしているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0025",
+  "level": 1,
+  "category": "日本",
+  "prompt": "千島列島方面から日本の太平洋側を南下する寒流は？（漢字2字の通称で）",
+  "answer": "親潮",
+  "reading": "おやしお",
+  "explanation": "千島海流とも呼ばれ、プランクトンが豊富で好漁場をつくるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0026",
+  "level": 2,
+  "category": "地図",
+  "prompt": "イギリスの旧グリニッジ天文台を通る、経度0度の経線は？",
+  "answer": "本初子午線",
+  "reading": "ほんしょしごせん",
+  "explanation": "ここより東を東経、西を西経と呼ぶよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0027",
+  "level": 2,
+  "category": "地図",
+  "prompt": "ほぼ経度180度に沿って設けられ、ここを越えると日付を調整する線は？",
+  "answer": "日付変更線",
+  "reading": "ひづけへんこうせん",
+  "explanation": "西から東へ越えるときは日付を1日戻すよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0028",
+  "level": 2,
+  "category": "地図",
+  "prompt": "経線と緯線が直交し、2点を結ぶ直線が等角航路となるため海図に使われる図法は？",
+  "answer": "メルカトル図法",
+  "reading": "めるかとるずほう",
+  "explanation": "高緯度ほど面積が大きく表されるのが欠点だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0029",
+  "level": 2,
+  "category": "地図",
+  "prompt": "コンピュータ上で様々な地理情報を重ね合わせて分析する地理情報システムの略称は？（略称をアルファベットで）",
+  "answer": "GIS",
+  "reading": "gis",
+  "explanation": "ハザードマップの作成や商圏分析などに活用されているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0030",
+  "level": 2,
+  "category": "地形",
+  "prompt": "石灰岩が雨水や地下水に溶かされてできた地形は？",
+  "answer": "カルスト地形",
+  "reading": "かるすとちけい",
+  "explanation": "山口県の秋吉台が代表例で、鍾乳洞も見られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0031",
+  "level": 2,
+  "category": "地形",
+  "prompt": "河川沿いに見られる、平らな面と急な崖が階段状に並ぶ地形は？",
+  "answer": "河岸段丘",
+  "reading": "かがんだんきゅう",
+  "explanation": "平らな段丘面は集落や畑に利用されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0032",
+  "level": 2,
+  "category": "地形",
+  "prompt": "海底の隆起や海面の低下によってできた、海岸沿いの階段状の地形は？",
+  "answer": "海岸段丘",
+  "reading": "かいがんだんきゅう",
+  "explanation": "高知県の室戸岬などで見られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0033",
+  "level": 2,
+  "category": "地形",
+  "prompt": "自然堤防の背後に広がる、水はけの悪い低湿地は？",
+  "answer": "後背湿地",
+  "reading": "こうはいしっち",
+  "explanation": "水田として利用されることが多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0034",
+  "level": 2,
+  "category": "気候",
+  "prompt": "一年中寒さが厳しく、短い夏にこけ類や地衣類が育つ寒帯の気候は？",
+  "answer": "ツンドラ気候",
+  "reading": "つんどらきこう",
+  "explanation": "ケッペンの記号はETで、トナカイの遊牧などが行われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0035",
+  "level": 2,
+  "category": "気候",
+  "prompt": "熱帯のうち、雨季と乾季がはっきり分かれ、丈の長い草原に樹木がまばらに生える気候は？（「ン」を入れない教科書の表記で）",
+  "answer": "サバナ気候",
+  "reading": "さばなきこう",
+  "explanation": "ケッペンの記号はAwで、ゾウやキリンなどが生息するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0036",
+  "level": 2,
+  "category": "気候",
+  "prompt": "大陸の東岸に多く、夏は高温多雨で冬は比較的寒くなる温帯の気候は？",
+  "answer": "温暖湿潤気候",
+  "reading": "おんだんしつじゅんきこう",
+  "explanation": "ケッペンの記号はCfaで、東京もこの気候だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0037",
+  "level": 2,
+  "category": "農業",
+  "prompt": "アメリカ合衆国などで、大型機械を使って輸出向けの小麦などを大規模に生産する農業は？",
+  "answer": "企業的穀物農業",
+  "reading": "きぎょうてきこくもつのうぎょう",
+  "explanation": "労働生産性は高いけれど、土地生産性は低めだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0038",
+  "level": 2,
+  "category": "農業",
+  "prompt": "作物栽培と家畜飼育を組み合わせた、ヨーロッパで発達した農業は？",
+  "answer": "混合農業",
+  "reading": "こんごうのうぎょう",
+  "explanation": "輪作で地力を保ちながら、飼料作物を育てて家畜を飼うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0039",
+  "level": 2,
+  "category": "農業",
+  "prompt": "乳牛を飼育し、牛乳やバター、チーズなどを生産する農業は？",
+  "answer": "酪農",
+  "reading": "らくのう",
+  "explanation": "冷涼な地域や大都市の近郊で発達しやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0040",
+  "level": 2,
+  "category": "鉱工業",
+  "prompt": "鉄鉱石と石炭を主な原料として、機械工業などの基礎素材をつくる工業は？",
+  "answer": "鉄鋼業",
+  "reading": "てっこうぎょう",
+  "explanation": "原料を輸入する日本では、臨海部に製鉄所が立地しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0041",
+  "level": 2,
+  "category": "人口",
+  "prompt": "人口に占める65歳以上の人の割合が高まっていく現象は？",
+  "answer": "高齢化",
+  "reading": "こうれいか",
+  "explanation": "日本は世界でも特に高齢化が進んだ国だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0042",
+  "level": 2,
+  "category": "都市",
+  "prompt": "都市の中心部で人口が減り、郊外で人口が増える現象は？",
+  "answer": "ドーナツ化現象",
+  "reading": "どーなつかげんしょう",
+  "explanation": "地価の高騰などで住宅が郊外へ移ることで起こるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0043",
+  "level": 2,
+  "category": "都市",
+  "prompt": "都市が無秩序に郊外へ広がり、虫食い状に開発が進む現象は？",
+  "answer": "スプロール現象",
+  "reading": "すぷろーるげんしょう",
+  "explanation": "道路や下水道の整備が追いつかないことが問題になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0044",
+  "level": 2,
+  "category": "地誌",
+  "prompt": "中国で最も長い川で、シャンハイ付近で東シナ海に注ぐ川は？（「揚子江」ではない、中国での呼び名で）",
+  "answer": "長江",
+  "reading": "ちょうこう",
+  "explanation": "流域は稲作が盛んで、三峡ダムも建設されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0045",
+  "level": 2,
+  "category": "地誌",
+  "prompt": "中国の華北を流れ、黄土を運ぶため黄色く濁っている川は？",
+  "answer": "黄河",
+  "reading": "こうが",
+  "explanation": "流域は小麦などの畑作が中心だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0046",
+  "level": 2,
+  "category": "地誌",
+  "prompt": "太平洋とカリブ海（大西洋）を結ぶ、中央アメリカの運河は？",
+  "answer": "パナマ運河",
+  "reading": "ぱなまうんが",
+  "explanation": "閘門式の運河で、2016年に拡張されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0047",
+  "level": 2,
+  "category": "日本",
+  "prompt": "自然災害の被害が想定される範囲や避難場所などを示した地図は？（カタカナで）",
+  "answer": "ハザードマップ",
+  "reading": "はざーどまっぷ",
+  "explanation": "市町村などが作成し、防災に役立てられているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0048",
+  "level": 2,
+  "category": "日本",
+  "prompt": "自動車工業を中心に、製造品出荷額が全国最大の工業地帯は？",
+  "answer": "中京工業地帯",
+  "reading": "ちゅうきょうこうぎょうちたい",
+  "explanation": "工業統計で長く全国1位を続けているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0049",
+  "level": 2,
+  "category": "日本",
+  "prompt": "人口が大きく減り、地域社会の維持が難しくなっている状態は？",
+  "answer": "過疎",
+  "reading": "かそ",
+  "explanation": "山間部や離島で深刻になっているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0050",
+  "level": 2,
+  "category": "地誌",
+  "prompt": "アラビア半島の大部分を占め、イスラームの聖地メッカがある世界有数の産油国は？",
+  "answer": "サウジアラビア",
+  "reading": "さうじあらびあ",
+  "explanation": "OPECの中心的な国だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0051",
+  "level": 3,
+  "category": "地形",
+  "prompt": "火山の噴火の後などに、山頂部が陥没してできた大きなくぼ地は？",
+  "answer": "カルデラ",
+  "reading": "かるでら",
+  "explanation": "熊本県の阿蘇山のものは世界有数の規模だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0052",
+  "level": 3,
+  "category": "地形",
+  "prompt": "沿岸流で運ばれた砂や礫が、海に細長く突き出すように堆積した地形は？",
+  "answer": "砂嘴",
+  "reading": "さし",
+  "explanation": "北海道の野付半島や静岡県の三保松原が例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0053",
+  "level": 3,
+  "category": "地形",
+  "prompt": "中生代以降の造山運動でできた、高く険しい山脈が連なる地帯は？",
+  "answer": "新期造山帯",
+  "reading": "しんきぞうざんたい",
+  "explanation": "アルプス＝ヒマラヤ造山帯と環太平洋造山帯があるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0054",
+  "level": 3,
+  "category": "地形",
+  "prompt": "古生代の造山運動でできた、長い侵食でなだらかになった山地の地帯は？",
+  "answer": "古期造山帯",
+  "reading": "こきぞうざんたい",
+  "explanation": "アパラチア山脈などが代表で、石炭が多く産出するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0055",
+  "level": 3,
+  "category": "気候",
+  "prompt": "緯度20～30度付近にできる高圧帯で、砂漠ができる原因となるものは？（「中緯度高圧帯」ではない呼び名で）",
+  "answer": "亜熱帯高圧帯",
+  "reading": "あねったいこうあつたい",
+  "explanation": "下降気流が生じるため雨が降りにくいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0056",
+  "level": 3,
+  "category": "気候",
+  "prompt": "亜熱帯高圧帯から赤道付近の低圧帯に向かって吹く東寄りの風は？",
+  "answer": "貿易風",
+  "reading": "ぼうえきふう",
+  "explanation": "英語の trade wind の訳で、帆船の航海に利用されてきた風だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0057",
+  "level": 3,
+  "category": "気候",
+  "prompt": "南アメリカのペルー沖で、海面水温が平年より高い状態が続く現象は？",
+  "answer": "エルニーニョ現象",
+  "reading": "えるにーにょげんしょう",
+  "explanation": "世界各地に異常気象をもたらすよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0058",
+  "level": 3,
+  "category": "農業",
+  "prompt": "アジアの季節風地帯で、多くの労働力を使って米を集約的に栽培する農業は？",
+  "answer": "集約的稲作農業",
+  "reading": "しゅうやくてきいなさくのうぎょう",
+  "explanation": "中国南部や東南アジアで盛んだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0059",
+  "level": 3,
+  "category": "農業",
+  "prompt": "アメリカ合衆国の中西部に広がる、とうもろこしと大豆の大産地は？",
+  "answer": "コーンベルト",
+  "reading": "こーんべると",
+  "explanation": "とうもろこしは主に家畜の飼料として使われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0060",
+  "level": 3,
+  "category": "農業",
+  "prompt": "穀物の集荷・流通・輸出や種子開発などを世界規模で行う巨大企業は？",
+  "answer": "穀物メジャー",
+  "reading": "こくもつめじゃー",
+  "explanation": "世界の穀物市場に大きな影響力をもっているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0061",
+  "level": 3,
+  "category": "鉱工業",
+  "prompt": "半導体などの先端技術産業が集積する、カリフォルニア州サンノゼ周辺の地域の通称は？",
+  "answer": "シリコンバレー",
+  "reading": "しりこんばれー",
+  "explanation": "大学と企業が連携し、多くのIT企業が生まれたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0062",
+  "level": 3,
+  "category": "鉱工業",
+  "prompt": "アメリカ合衆国で北緯37度付近より南に広がり、1970年代以降に工業が発展した温暖な地域は？",
+  "answer": "サンベルト",
+  "reading": "さんべると",
+  "explanation": "安い労働力や広い土地を求めて工場が進出したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0063",
+  "level": 3,
+  "category": "鉱工業",
+  "prompt": "燃焼時の二酸化炭素排出量が石炭や石油より少なく、冷却して液化して運ばれることもある化石燃料は？",
+  "answer": "天然ガス",
+  "reading": "てんねんがす",
+  "explanation": "液化したものはLNGと呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0064",
+  "level": 3,
+  "category": "人口",
+  "prompt": "1979年から中国で実施された、夫婦の子どもの数を原則1人に制限した政策は？",
+  "answer": "一人っ子政策",
+  "reading": "ひとりっこせいさく",
+  "explanation": "少子高齢化が進んだため2015年に廃止が決まったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0065",
+  "level": 3,
+  "category": "都市",
+  "prompt": "発展途上国の大都市で、低所得者が集まって住む、生活環境の悪い居住地区は？",
+  "answer": "スラム",
+  "reading": "すらむ",
+  "explanation": "上下水道などの基盤が整っていないことが多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0066",
+  "level": 3,
+  "category": "都市",
+  "prompt": "大都市へ通勤する人が多く住み、昼間人口が夜間人口より少ない郊外の都市は？（和製英語のカタカナで）",
+  "answer": "ベッドタウン",
+  "reading": "べっどたうん",
+  "explanation": "住宅衛星都市とも呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0067",
+  "level": 3,
+  "category": "民族・宗教",
+  "prompt": "トルコ・イラク・イランなどにまたがって住み、独自の国家をもたない民族は？",
+  "answer": "クルド人",
+  "reading": "くるどじん",
+  "explanation": "国家をもたない最大級の民族で、独立を求める運動が続いているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0068",
+  "level": 3,
+  "category": "民族・宗教",
+  "prompt": "一つの国の中で、複数の民族の文化を尊重して共存をめざす考え方は？",
+  "answer": "多文化主義",
+  "reading": "たぶんかしゅぎ",
+  "explanation": "カナダやオーストラリアが政策として掲げているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0069",
+  "level": 3,
+  "category": "民族・宗教",
+  "prompt": "中国の人口の9割以上を占める民族は？（「〜民族」の形で）",
+  "answer": "漢民族",
+  "reading": "かんみんぞく",
+  "explanation": "このほかに55の少数民族が暮らしているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0070",
+  "level": 3,
+  "category": "地誌",
+  "prompt": "東南アジアの国々が結成した、東南アジア諸国連合の略称は？（略称をアルファベットで）",
+  "answer": "ASEAN",
+  "reading": "asean",
+  "explanation": "1967年に5か国で結成され、2025年に東ティモールが加わって11か国になったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0071",
+  "level": 3,
+  "category": "地誌",
+  "prompt": "南アメリカで唯一、ポルトガル語を公用語とする国は？",
+  "answer": "ブラジル",
+  "reading": "ぶらじる",
+  "explanation": "かつてポルトガルの植民地だったからだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0072",
+  "level": 3,
+  "category": "地誌",
+  "prompt": "特定の一次産品の生産や輸出に依存する経済は？",
+  "answer": "モノカルチャー経済",
+  "reading": "ものかるちゃーけいざい",
+  "explanation": "価格変動の影響を受けやすく、経済が不安定になりがちだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0073",
+  "level": 3,
+  "category": "日本",
+  "prompt": "兵庫県の都市で、日本の標準時子午線である東経135度線が通るのは？",
+  "answer": "明石市",
+  "reading": "あかしし",
+  "explanation": "世界標準時との時差は9時間だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0074",
+  "level": 3,
+  "category": "日本",
+  "prompt": "日本で最も長い川で、新潟県で日本海に注ぐのは？",
+  "answer": "信濃川",
+  "reading": "しなのがわ",
+  "explanation": "長野県では千曲川と呼ばれているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0075",
+  "level": 3,
+  "category": "日本",
+  "prompt": "地震の揺れで、水分を多く含む地盤が液体のようになる現象は？",
+  "answer": "液状化現象",
+  "reading": "えきじょうかげんしょう",
+  "explanation": "埋立地や旧河道で起こりやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0076",
+  "level": 4,
+  "category": "地形",
+  "prompt": "海洋プレートが沈み込む場所にできる、細長く深い海底の溝は？",
+  "answer": "海溝",
+  "reading": "かいこう",
+  "explanation": "日本海溝やマリアナ海溝がその例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0077",
+  "level": 4,
+  "category": "地形",
+  "prompt": "地下水が石灰岩を溶かしてできた洞窟は？",
+  "answer": "鍾乳洞",
+  "reading": "しょうにゅうどう",
+  "explanation": "山口県の秋芳洞が有名だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0078",
+  "level": 4,
+  "category": "地形",
+  "prompt": "湿潤地域に水源をもち、乾燥地域を貫いて流れる川は？",
+  "answer": "外来河川",
+  "reading": "がいらいかせん",
+  "explanation": "ナイル川やティグリス川・ユーフラテス川が例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0079",
+  "level": 4,
+  "category": "気候",
+  "prompt": "ケッペンの気候区分で、最暖月平均気温が10℃未満の気候帯は？",
+  "answer": "寒帯",
+  "reading": "かんたい",
+  "explanation": "記号はEで、樹木が育たない気候帯だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0080",
+  "level": 4,
+  "category": "気候",
+  "prompt": "標高が高いため、低緯度でも一年中気温が穏やかな気候は？",
+  "answer": "高山気候",
+  "reading": "こうざんきこう",
+  "explanation": "アンデス山脈のキトやラパスがこの気候だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0081",
+  "level": 4,
+  "category": "気候",
+  "prompt": "北西太平洋で発達する熱帯低気圧のうち、最大風速が約17m/s以上のものは？",
+  "answer": "台風",
+  "reading": "たいふう",
+  "explanation": "インド洋などではサイクロン、大西洋などではハリケーンと呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0082",
+  "level": 4,
+  "category": "農業",
+  "prompt": "イランなどの乾燥地域で、山麓の地下水を地下水路で集落まで導く施設は？",
+  "answer": "カナート",
+  "reading": "かなーと",
+  "explanation": "蒸発を防ぐため地下に水路を掘っているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0083",
+  "level": 4,
+  "category": "農業",
+  "prompt": "夏に乾燥する地域で、オリーブやぶどうなどの果樹と、冬に小麦を栽培する農業は？",
+  "answer": "地中海式農業",
+  "reading": "ちちゅうかいしきのうぎょう",
+  "explanation": "夏の乾燥に強い樹木作物が中心だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0084",
+  "level": 4,
+  "category": "農業",
+  "prompt": "家畜を季節によって平地と山地の間で移動させて飼育する牧畜は？",
+  "answer": "移牧",
+  "reading": "いぼく",
+  "explanation": "アルプス地方の例が有名だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0085",
+  "level": 4,
+  "category": "鉱工業",
+  "prompt": "アルミニウムの原料となる鉱石は？",
+  "answer": "ボーキサイト",
+  "reading": "ぼーきさいと",
+  "explanation": "熱帯の土壌に多く、オーストラリアやギニアで多く産出するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0086",
+  "level": 4,
+  "category": "鉱工業",
+  "prompt": "埋蔵量が少なかったり採掘が難しかったりする、ハイテク製品に欠かせない金属の総称は？",
+  "answer": "レアメタル",
+  "reading": "れあめたる",
+  "explanation": "産出国が偏っているため、安定供給が課題だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0087",
+  "level": 4,
+  "category": "鉱工業",
+  "prompt": "企業が生産拠点を海外に移し、国内の製造業が衰退することを何という？",
+  "answer": "産業の空洞化",
+  "reading": "さんぎょうのくうどうか",
+  "explanation": "日本では1980年代後半以降の円高で問題になったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0088",
+  "level": 4,
+  "category": "人口",
+  "prompt": "1人の女性が一生のうちに産む子どもの数の平均を示す指標は？",
+  "answer": "合計特殊出生率",
+  "reading": "ごうけいとくしゅしゅっしょうりつ",
+  "explanation": "約2.1を下回る状態が続くと、人口は減少していくよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0089",
+  "level": 4,
+  "category": "人口",
+  "prompt": "出生数が死亡数を上回ることによる人口の増加は？（「〜増加」の形で）",
+  "answer": "自然増加",
+  "reading": "しぜんぞうか",
+  "explanation": "転入・転出による増減は社会増加と呼んで区別するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0090",
+  "level": 4,
+  "category": "都市",
+  "prompt": "大都市の郊外に計画的に建設された、大規模な住宅都市は？",
+  "answer": "ニュータウン",
+  "reading": "にゅーたうん",
+  "explanation": "東京の多摩や大阪の千里などが例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0091",
+  "level": 4,
+  "category": "都市",
+  "prompt": "複数の巨大都市が帯状に連なり、機能的に強く結びついた地域は？",
+  "answer": "メガロポリス",
+  "reading": "めがろぽりす",
+  "explanation": "アメリカ北東部のボストンからワシントンまでの地域が代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0092",
+  "level": 4,
+  "category": "民族・宗教",
+  "prompt": "ユダヤ教・キリスト教・イスラームの聖地が集まる都市は？",
+  "answer": "エルサレム",
+  "reading": "えるされむ",
+  "explanation": "嘆きの壁や岩のドームがあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0093",
+  "level": 4,
+  "category": "民族・宗教",
+  "prompt": "イスラームで、日の出から日没まで飲食を断つ月は？（長音を含む表記で）",
+  "answer": "ラマダーン",
+  "reading": "らまだーん",
+  "explanation": "断食はイスラームの五行の一つだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0094",
+  "level": 4,
+  "category": "民族・宗教",
+  "prompt": "英語やドイツ語、オランダ語などが属する、インド＝ヨーロッパ語族の語派は？",
+  "answer": "ゲルマン語派",
+  "reading": "げるまんごは",
+  "explanation": "ヨーロッパ北西部に多く分布しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0095",
+  "level": 4,
+  "category": "地誌",
+  "prompt": "ヨーロッパ連合（EU）の多くの加盟国で使われている共通通貨は？",
+  "answer": "ユーロ",
+  "reading": "ゆーろ",
+  "explanation": "加盟国すべてが導入しているわけではないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0096",
+  "level": 4,
+  "category": "地誌",
+  "prompt": "モスクワとウラジオストクを結ぶ、ロシアの長大な鉄道は？",
+  "answer": "シベリア鉄道",
+  "reading": "しべりあてつどう",
+  "explanation": "全長は約9,300kmにもなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0097",
+  "level": 4,
+  "category": "地誌",
+  "prompt": "マレー半島とスマトラ島の間にある、海上交通の要衝の海峡は？",
+  "answer": "マラッカ海峡",
+  "reading": "まらっかかいきょう",
+  "explanation": "中東から東アジアへ原油を運ぶ船が多く通るよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0098",
+  "level": 4,
+  "category": "日本",
+  "prompt": "2万5千分の1地形図などを作成している、国土の測量を担う国の機関は？",
+  "answer": "国土地理院",
+  "reading": "こくどちりいん",
+  "explanation": "地理院地図もウェブで公開しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0099",
+  "level": 4,
+  "category": "日本",
+  "prompt": "大雨などをきっかけに、山の土砂や石が水と一体になって一気に流れ下る現象は？",
+  "answer": "土石流",
+  "reading": "どせきりゅう",
+  "explanation": "谷の出口にある扇状地などで被害が出やすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0100",
+  "level": 4,
+  "category": "人口",
+  "prompt": "ある時期に出生数が急増する現象は？",
+  "answer": "ベビーブーム",
+  "reading": "べびーぶーむ",
+  "explanation": "日本では1947～49年と1971～74年ごろにあったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0101",
+  "level": 5,
+  "category": "地形",
+  "prompt": "断層に挟まれて落ち込んだ、細長い低地は？",
+  "answer": "地溝",
+  "reading": "ちこう",
+  "explanation": "ドイツのライン地溝帯が例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0102",
+  "level": 5,
+  "category": "地形",
+  "prompt": "アフリカ東部を南北に走る、プレートの広がる境界にあたる大規模な地溝帯は？（漢字を含む名称で）",
+  "answer": "アフリカ大地溝帯",
+  "reading": "あふりかだいちこうたい",
+  "explanation": "グレートリフトバレーとも呼ばれ、細長い湖が並んでいるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0103",
+  "level": 5,
+  "category": "地形",
+  "prompt": "カルスト地形で見られる、石灰岩が溶けてできたすり鉢状の小さなくぼ地は？",
+  "answer": "ドリーネ",
+  "reading": "どりーね",
+  "explanation": "これがつながって大きくなったものをウバーレと呼ぶよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0104",
+  "level": 5,
+  "category": "地形",
+  "prompt": "ロシアのシベリアにある、世界で最も深い湖は？",
+  "answer": "バイカル湖",
+  "reading": "ばいかるこ",
+  "explanation": "断層によってできた湖で、最大水深は1,600mを超えるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0105",
+  "level": 5,
+  "category": "植生・土壌",
+  "prompt": "ウクライナから西シベリアにかけて分布する、肥沃な黒色土は？",
+  "answer": "チェルノーゼム",
+  "reading": "ちぇるのーぜむ",
+  "explanation": "世界有数の小麦地帯となっているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0106",
+  "level": 5,
+  "category": "植生・土壌",
+  "prompt": "アマゾン川流域に広がる熱帯雨林の呼び名は？",
+  "answer": "セルバ",
+  "reading": "せるば",
+  "explanation": "大規模な開発による森林破壊が問題になっているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0107",
+  "level": 5,
+  "category": "植生・土壌",
+  "prompt": "アルゼンチンのラプラタ川流域に広がる温帯草原は？",
+  "answer": "パンパ",
+  "reading": "ぱんぱ",
+  "explanation": "小麦の栽培や牛の放牧が盛んだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0108",
+  "level": 5,
+  "category": "植生・土壌",
+  "prompt": "北アメリカの中央部に広がる、肥沃な長草草原は？",
+  "answer": "プレーリー",
+  "reading": "ぷれーりー",
+  "explanation": "現在は小麦やとうもろこしの大産地になっているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0109",
+  "level": 5,
+  "category": "気候",
+  "prompt": "山を越えた風が、ふもとに吹き下りて高温で乾燥した風となる現象は？",
+  "answer": "フェーン現象",
+  "reading": "ふぇーんげんしょう",
+  "explanation": "日本でも日本海側で気温が急上昇する原因になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0110",
+  "level": 5,
+  "category": "気候",
+  "prompt": "大陸西岸の低緯度で、沖を流れる寒流の影響で雨が降りにくくなってできた砂漠は？",
+  "answer": "海岸砂漠",
+  "reading": "かいがんさばく",
+  "explanation": "チリのアタカマ砂漠やアフリカのナミブ砂漠が例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0111",
+  "level": 5,
+  "category": "気候",
+  "prompt": "初夏から夏に、オホーツク海高気圧から東北地方の太平洋側に吹く、冷たく湿った北東風は？",
+  "answer": "やませ",
+  "reading": "やませ",
+  "explanation": "日照不足や低温で冷害の原因となるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0112",
+  "level": 5,
+  "category": "農業",
+  "prompt": "アメリカ合衆国などで、とうもろこしなどの濃厚飼料を与えて肉牛を短期間で太らせる大規模な肥育場は？",
+  "answer": "フィードロット",
+  "reading": "ふぃーどろっと",
+  "explanation": "効率よく牛肉を生産するしくみだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0113",
+  "level": 5,
+  "category": "農業",
+  "prompt": "1960年代以降、高収量品種の導入などで発展途上国の穀物生産が急増したことを何という？",
+  "answer": "緑の革命",
+  "reading": "みどりのかくめい",
+  "explanation": "灌漑や化学肥料が必要で、農民間の格差が広がる面もあったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0114",
+  "level": 5,
+  "category": "鉱工業",
+  "prompt": "1980年代以降の中国で、外国企業を税制面などで優遇して誘致するため沿岸部に設けられた地区は？",
+  "answer": "経済特区",
+  "reading": "けいざいとっく",
+  "explanation": "シェンチェン（深圳）などが指定されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0115",
+  "level": 5,
+  "category": "鉱工業",
+  "prompt": "複数の国に子会社や工場をもち、世界規模で事業を展開する企業は？",
+  "answer": "多国籍企業",
+  "reading": "たこくせききぎょう",
+  "explanation": "グローバル化の中で影響力を強めているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0116",
+  "level": 5,
+  "category": "人口",
+  "prompt": "人口ピラミッドのうち、出生率・死亡率がともに低く、若い世代が少ないすぼまった形のものは？",
+  "answer": "つぼ型",
+  "reading": "つぼがた",
+  "explanation": "日本など少子高齢化が進んだ国で見られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0117",
+  "level": 5,
+  "category": "人口",
+  "prompt": "65歳以上の人口の割合が21％を超えた社会は？",
+  "answer": "超高齢社会",
+  "reading": "ちょうこうれいしゃかい",
+  "explanation": "日本は2007年にこの段階に入ったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0118",
+  "level": 5,
+  "category": "人口",
+  "prompt": "転入数が転出数を上回ることによる人口の増加は？（「〜増加」の形で）",
+  "answer": "社会増加",
+  "reading": "しゃかいぞうか",
+  "explanation": "大都市では社会増加で人口が増えることが多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0119",
+  "level": 5,
+  "category": "民族・宗教",
+  "prompt": "カナダで英語とともに公用語となっている言語は？",
+  "answer": "フランス語",
+  "reading": "ふらんすご",
+  "explanation": "ケベック州ではフランス語系住民が多数を占めるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0120",
+  "level": 5,
+  "category": "民族・宗教",
+  "prompt": "ロシア語やポーランド語、チェコ語などが属する語派は？（「ヴ」を使わない表記で）",
+  "answer": "スラブ語派",
+  "reading": "すらぶごは",
+  "explanation": "ヨーロッパ東部に多く分布しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0121",
+  "level": 5,
+  "category": "地誌",
+  "prompt": "東南アジアを流れ、中国・ラオス・タイ・カンボジア・ベトナムなどを通る国際河川は？",
+  "answer": "メコン川",
+  "reading": "めこんがわ",
+  "explanation": "下流のデルタは世界有数の稲作地帯だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0122",
+  "level": 5,
+  "category": "地誌",
+  "prompt": "ペルシア湾の出入口にあり、原油輸送の要衝となっている海峡は？",
+  "answer": "ホルムズ海峡",
+  "reading": "ほるむずかいきょう",
+  "explanation": "中東の原油の多くがここを通って運ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0123",
+  "level": 5,
+  "category": "地誌",
+  "prompt": "EUに加盟せず、北海油田の開発や水力発電で豊かな北ヨーロッパの国は？",
+  "answer": "ノルウェー",
+  "reading": "のるうぇー",
+  "explanation": "海岸にはフィヨルドが発達しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0124",
+  "level": 5,
+  "category": "地誌",
+  "prompt": "金やダイヤモンド、白金などの鉱産資源が豊富な、アフリカ大陸最南部の国は？（「共和国」まで含めて）",
+  "answer": "南アフリカ共和国",
+  "reading": "みなみあふりかきょうわこく",
+  "explanation": "かつてアパルトヘイトと呼ばれる人種隔離政策が行われていたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0125",
+  "level": 5,
+  "category": "地図",
+  "prompt": "人工衛星からの電波を受信して位置を測定するシステムの総称は？（略称をアルファベットで）",
+  "answer": "GNSS",
+  "reading": "gnss",
+  "explanation": "アメリカのGPSや日本のみちびきなどがこれにあたるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0126",
+  "level": 6,
+  "category": "地形",
+  "prompt": "陸地から離れて発達し、陸地との間に礁湖をもつサンゴ礁は？",
+  "answer": "堡礁",
+  "reading": "ほしょう",
+  "explanation": "オーストラリアのグレートバリアリーフが代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0127",
+  "level": 6,
+  "category": "地形",
+  "prompt": "島が沈んで、サンゴ礁だけが輪のように残ったものは？",
+  "answer": "環礁",
+  "reading": "かんしょう",
+  "explanation": "モルディブやツバルなどで見られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0128",
+  "level": 6,
+  "category": "地形",
+  "prompt": "島や陸地の海岸を縁取るように発達したサンゴ礁は？",
+  "answer": "裾礁",
+  "reading": "きょしょう",
+  "explanation": "沖縄の島々の多くで見られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0129",
+  "level": 6,
+  "category": "地形",
+  "prompt": "火山噴出物が厚く堆積してできた、南九州に広がる台地は？",
+  "answer": "シラス台地",
+  "reading": "しらすだいち",
+  "explanation": "水はけがよく、畑作や畜産が盛んだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0130",
+  "level": 6,
+  "category": "気候",
+  "prompt": "ケッペンの気候区分で、一年中降水があり、冬の寒さが厳しい亜寒帯（冷帯）の気候は？（「亜寒帯」を使う名称で）",
+  "answer": "亜寒帯湿潤気候",
+  "reading": "あかんたいしつじゅんきこう",
+  "explanation": "記号はDfで、北海道もこの気候だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0131",
+  "level": 6,
+  "category": "気候",
+  "prompt": "ケッペンの気候区分で、冬に乾燥し、気温の年較差がきわめて大きい亜寒帯（冷帯）の気候は？（「亜寒帯」を使う名称で）",
+  "answer": "亜寒帯冬季少雨気候",
+  "reading": "あかんたいとうきしょううきこう",
+  "explanation": "記号はDwで、シベリア東部や中国東北部に分布するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0132",
+  "level": 6,
+  "category": "気候",
+  "prompt": "ケッペンの気候区分で、冬に乾燥し夏に雨が多い温帯の気候は？（「温帯」で始まる名称で）",
+  "answer": "温帯冬季少雨気候",
+  "reading": "おんたいとうきしょううきこう",
+  "explanation": "記号はCwで、温暖冬季少雨気候とも呼ばれ、中国南部やインド北部などに分布するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0133",
+  "level": 6,
+  "category": "気候",
+  "prompt": "熱帯のうち、季節風の影響で短い弱い乾季をもつ気候は？（カタカナを含む名称で）",
+  "answer": "熱帯モンスーン気候",
+  "reading": "ねったいもんすーんきこう",
+  "explanation": "記号はAmで、熱帯雨林気候とサバナ気候の中間的な気候だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0134",
+  "level": 6,
+  "category": "農業",
+  "prompt": "アンデス山脈の高地で飼育され、良質な毛がとれるラクダ科の家畜は？",
+  "answer": "アルパカ",
+  "reading": "あるぱか",
+  "explanation": "同じラクダ科のリャマは主に荷物の運搬に使われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0135",
+  "level": 6,
+  "category": "農業",
+  "prompt": "マレーシアやインドネシアで大規模に栽培され、果実からとれる油が食品や洗剤の原料となる植物は？",
+  "answer": "油やし",
+  "reading": "あぶらやし",
+  "explanation": "パーム油の原料で、熱帯林の伐採が問題になっているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0136",
+  "level": 6,
+  "category": "農業",
+  "prompt": "チョコレートの原料で、コートジボワールやガーナなどギニア湾岸で多く生産される作物は？",
+  "answer": "カカオ",
+  "reading": "かかお",
+  "explanation": "近年の統計でもこの2か国が生産量の上位を占めているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0137",
+  "level": 6,
+  "category": "鉱工業",
+  "prompt": "イギリス南部からイタリア北部にかけて、ヨーロッパの人口や産業が集中する地域の通称は？",
+  "answer": "ブルーバナナ",
+  "reading": "ぶるーばなな",
+  "explanation": "「青いバナナ」とも呼ばれ、バナナのような形に連なっているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0138",
+  "level": 6,
+  "category": "鉱工業",
+  "prompt": "オーストラリア北西部のピルバラ地区で大量に露天掘りされ、日本や中国へ輸出される資源は？",
+  "answer": "鉄鉱石",
+  "reading": "てっこうせき",
+  "explanation": "東部では石炭が多く産出するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0139",
+  "level": 6,
+  "category": "鉱工業",
+  "prompt": "中国で、沿岸部と内陸部の経済格差を縮めるため2000年から進められた開発政策は？",
+  "answer": "西部大開発",
+  "reading": "せいぶだいかいはつ",
+  "explanation": "内陸部の交通網やエネルギー開発が進められたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0140",
+  "level": 6,
+  "category": "人口",
+  "prompt": "中国から海外に移住し、移住先の国籍を取得した中国系の人々は？",
+  "answer": "華人",
+  "reading": "かじん",
+  "explanation": "東南アジアに多く、経済に大きな影響力をもっているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0141",
+  "level": 6,
+  "category": "人口",
+  "prompt": "生まれた子どものうち、1歳未満で死亡する子どもの割合を示す指標は？",
+  "answer": "乳児死亡率",
+  "reading": "にゅうじしぼうりつ",
+  "explanation": "医療や衛生の水準を示す指標として使われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0142",
+  "level": 6,
+  "category": "都市",
+  "prompt": "都市の周囲に開発を規制した緑地帯を設け、市街地の無秩序な拡大を防ぐしくみは？",
+  "answer": "グリーンベルト",
+  "reading": "ぐりーんべると",
+  "explanation": "ロンドンの大ロンドン計画で導入されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0143",
+  "level": 6,
+  "category": "都市",
+  "prompt": "衰退した都心部の古い市街地が再開発され、比較的所得の高い人々が流入する現象は？",
+  "answer": "ジェントリフィケーション",
+  "reading": "じぇんとりふぃけーしょん",
+  "explanation": "家賃が上がり、もとの住民が住み続けられなくなる問題もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0144",
+  "level": 6,
+  "category": "民族・宗教",
+  "prompt": "スペイン北部とフランス南西部にまたがって住み、系統不明の独自の言語をもつ民族は？",
+  "answer": "バスク人",
+  "reading": "ばすくじん",
+  "explanation": "スペインでは自治の拡大や独立を求める動きがあったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0145",
+  "level": 6,
+  "category": "民族・宗教",
+  "prompt": "アメリカ合衆国で、メキシコなどの中南米のスペイン語圏から移住してきた人々とその子孫は？（「ラティーノ」ではない呼び名で）",
+  "answer": "ヒスパニック",
+  "reading": "ひすぱにっく",
+  "explanation": "南西部を中心に人口が増えているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0146",
+  "level": 6,
+  "category": "民族・宗教",
+  "prompt": "インド北西部のパンジャーブ地方に信者が多く、男性がターバンを巻く習慣で知られる宗教は？",
+  "answer": "シク教",
+  "reading": "しくきょう",
+  "explanation": "ヒンドゥー教とイスラームの影響を受けて成立したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0147",
+  "level": 6,
+  "category": "地誌",
+  "prompt": "アフリカ最大の人口をもち、原油が輸出の大部分を占めるギニア湾岸の国は？",
+  "answer": "ナイジェリア",
+  "reading": "ないじぇりあ",
+  "explanation": "典型的なモノカルチャー経済の国だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0148",
+  "level": 6,
+  "category": "日本",
+  "prompt": "国土地理院が2019年に新しく定めた、過去の災害の教訓を伝える石碑などを示す地図記号は？",
+  "answer": "自然災害伝承碑",
+  "reading": "しぜんさいがいでんしょうひ",
+  "explanation": "記念碑の記号に縦線を加えた形だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0149",
+  "level": 6,
+  "category": "日本",
+  "prompt": "65歳以上の住民が半数を超え、共同生活の維持が難しくなっている集落は？",
+  "answer": "限界集落",
+  "reading": "げんかいしゅうらく",
+  "explanation": "山間部などで増加していて、地域の維持が課題になっているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0150",
+  "level": 6,
+  "category": "日本",
+  "prompt": "積乱雲が次々と発生して線状に並び、同じ場所に長時間激しい雨を降らせる現象は？",
+  "answer": "線状降水帯",
+  "reading": "せんじょうこうすいたい",
+  "explanation": "近年の豪雨災害の大きな原因になっているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0151",
+  "level": 7,
+  "category": "地形",
+  "prompt": "海洋プレートの沈み込み帯に沿って、弓のような形に連なる島々は？（漢字4字で）",
+  "answer": "弧状列島",
+  "reading": "こじょうれっとう",
+  "explanation": "日本列島が代表例で、島弧とも呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0152",
+  "level": 7,
+  "category": "地形",
+  "prompt": "大陸の周辺に広がる、水深約200mまでの緩やかな傾斜の海底は？",
+  "answer": "大陸棚",
+  "reading": "たいりくだな",
+  "explanation": "好漁場となり、石油や天然ガスの開発も行われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0153",
+  "level": 7,
+  "category": "地形",
+  "prompt": "土地の隆起によって、蛇行していた河川がそのまま深い谷を刻んだものは？（嵌入蛇行ともいう。もう一方の呼び名で）",
+  "answer": "穿入蛇行",
+  "reading": "せんにゅうだこう",
+  "explanation": "四国の四万十川などで見られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0154",
+  "level": 7,
+  "category": "地形",
+  "prompt": "扇状地のうち、地下水が湧き出すため集落や水田が立地しやすい末端部は？",
+  "answer": "扇端",
+  "reading": "せんたん",
+  "explanation": "扇頂・扇央に比べて水が得やすい部分だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0155",
+  "level": 7,
+  "category": "地形",
+  "prompt": "頂部に水平で硬い岩層が残り、周囲が急な崖となったテーブル状の台地は？",
+  "answer": "メサ",
+  "reading": "めさ",
+  "explanation": "アメリカ西部のコロラド高原などで見られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0156",
+  "level": 7,
+  "category": "気候",
+  "prompt": "都市の中心部の気温が周辺部より高くなる現象は？",
+  "answer": "ヒートアイランド現象",
+  "reading": "ひーとあいらんどげんしょう",
+  "explanation": "アスファルトや人工排熱が原因だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0157",
+  "level": 7,
+  "category": "気候",
+  "prompt": "寒冷地で、一年中凍結したままの土壌は？",
+  "answer": "永久凍土",
+  "reading": "えいきゅうとうど",
+  "explanation": "地球温暖化による融解が心配されているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0158",
+  "level": 7,
+  "category": "農業",
+  "prompt": "旧ソ連で、土地や農具を共有して集団で経営した集団農場は？",
+  "answer": "コルホーズ",
+  "reading": "こるほーず",
+  "explanation": "国営農場はソフホーズと呼ばれたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0159",
+  "level": 7,
+  "category": "農業",
+  "prompt": "中国で1950年代に設立された、農業の集団化と行政が一体となった組織は？",
+  "answer": "人民公社",
+  "reading": "じんみんこうしゃ",
+  "explanation": "1980年代に解体されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0160",
+  "level": 7,
+  "category": "農業",
+  "prompt": "中国で1980年代に広まった、農家が請け負った生産量を超えた分を自由に販売できる制度は？（漢字5字で）",
+  "answer": "生産責任制",
+  "reading": "せいさんせきにんせい",
+  "explanation": "農民の生産意欲が高まり、生産が大きく増えたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0161",
+  "level": 7,
+  "category": "農業",
+  "prompt": "中国の農村部で発展した、町や村、個人などが経営する中小企業は？",
+  "answer": "郷鎮企業",
+  "reading": "ごうちんきぎょう",
+  "explanation": "農村の余った労働力を吸収したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0162",
+  "level": 7,
+  "category": "鉱工業",
+  "prompt": "ソフトウェア産業が集積し「インドのシリコンバレー」と呼ばれる、インド南部の都市は？（現在の公式な呼び名で）",
+  "answer": "ベンガルール",
+  "reading": "べんがるーる",
+  "explanation": "かつてはバンガロールと呼ばれていたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0163",
+  "level": 7,
+  "category": "鉱工業",
+  "prompt": "世界最大の産出量を誇り、輸出の大きな割合を占めているチリの鉱産資源は？",
+  "answer": "銅",
+  "reading": "どう",
+  "explanation": "電線などに使われ、チリ北部には巨大な露天掘り鉱山があるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0164",
+  "level": 7,
+  "category": "鉱工業",
+  "prompt": "イギリスとノルウェーの間の海域で、1970年代から本格的に開発された油田は？",
+  "answer": "北海油田",
+  "reading": "ほっかいゆでん",
+  "explanation": "両国の経済を支える資源になったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0165",
+  "level": 7,
+  "category": "鉱工業",
+  "prompt": "頁岩の地層から新技術で採掘され、2000年代後半からアメリカの生産を急増させた天然ガスは？",
+  "answer": "シェールガス",
+  "reading": "しぇーるがす",
+  "explanation": "この変化はシェール革命と呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0166",
+  "level": 7,
+  "category": "人口",
+  "prompt": "1960年代の西ドイツが、トルコなどから受け入れた外国人労働者の呼び名は？",
+  "answer": "ガストアルバイター",
+  "reading": "がすとあるばいたー",
+  "explanation": "「客人労働者」という意味で、そのまま定住した人も多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0167",
+  "level": 7,
+  "category": "都市",
+  "prompt": "都市の中心部にあり、官公庁や大企業の本社などが集まる地区は？（漢字で）",
+  "answer": "中心業務地区",
+  "reading": "ちゅうしんぎょうむちく",
+  "explanation": "CBDとも呼ばれ、昼間人口が夜間人口を大きく上回るよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0168",
+  "level": 7,
+  "category": "都市",
+  "prompt": "郊外の駅の駐車場に自家用車をとめ、公共交通機関に乗り換えて都心へ向かう方式は？",
+  "answer": "パークアンドライド",
+  "reading": "ぱーくあんどらいど",
+  "explanation": "都心の交通渋滞や大気汚染の緩和をめざす取り組みだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0169",
+  "level": 7,
+  "category": "民族・宗教",
+  "prompt": "オーストラリアの先住民は？（カタカナで、語末を伸ばさない表記で）",
+  "answer": "アボリジニ",
+  "reading": "あぼりじに",
+  "explanation": "かつての白豪主義のもとで差別や同化政策を受けたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0170",
+  "level": 7,
+  "category": "民族・宗教",
+  "prompt": "ニュージーランドの先住民は？",
+  "answer": "マオリ",
+  "reading": "まおり",
+  "explanation": "マオリ語は公用語の一つになっているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0171",
+  "level": 7,
+  "category": "民族・宗教",
+  "prompt": "オーストラリアで1970年代まで続いた、白人以外の移民を制限した政策は？",
+  "answer": "白豪主義",
+  "reading": "はくごうしゅぎ",
+  "explanation": "廃止後は多文化主義に転換し、アジアからの移民も増えたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0172",
+  "level": 7,
+  "category": "民族・宗教",
+  "prompt": "カナダの北極圏などに住み、アザラシ猟などを営んできた先住民は？",
+  "answer": "イヌイット",
+  "reading": "いぬいっと",
+  "explanation": "カナダにはヌナブト準州という自治地域があるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0173",
+  "level": 7,
+  "category": "地誌",
+  "prompt": "東南アジア諸国連合（ASEAN）の本部がある都市は？",
+  "answer": "ジャカルタ",
+  "reading": "じゃかるた",
+  "explanation": "インドネシアの首都だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0174",
+  "level": 7,
+  "category": "地誌",
+  "prompt": "ヨーロッパとアジアの境界となる、トルコのイスタンブールを通る海峡は？",
+  "answer": "ボスポラス海峡",
+  "reading": "ぼすぽらすかいきょう",
+  "explanation": "黒海と地中海を結ぶ要衝だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0175",
+  "level": 7,
+  "category": "日本",
+  "prompt": "都市部で、大雨の排水が追いつかず下水道や水路からあふれて浸水する水害は？",
+  "answer": "内水氾濫",
+  "reading": "ないすいはんらん",
+  "explanation": "川の水が堤防を越える外水氾濫と区別されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0176",
+  "level": 8,
+  "category": "地形",
+  "prompt": "氷河が運んだ土砂や岩くずが堆積してできた丘は？（カタカナで）",
+  "answer": "モレーン",
+  "reading": "もれーん",
+  "explanation": "堆石とも呼ばれ、氷河の末端などにできるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0177",
+  "level": 8,
+  "category": "地形",
+  "prompt": "更新世の大陸氷河の侵食などでできた、北アメリカ北部や北ヨーロッパに多い湖は？",
+  "answer": "氷河湖",
+  "reading": "ひょうがこ",
+  "explanation": "五大湖やフィンランドの湖が代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0178",
+  "level": 8,
+  "category": "地形",
+  "prompt": "海岸から少し離れた沖合に、海岸と平行に細長く発達した砂の堆積地形は？",
+  "answer": "沿岸州",
+  "reading": "えんがんしゅう",
+  "explanation": "アメリカの大西洋岸やメキシコ湾岸で見られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0179",
+  "level": 8,
+  "category": "地形",
+  "prompt": "インド＝オーストラリアプレートが衝突してヒマラヤ山脈をつくった相手のプレートは？",
+  "answer": "ユーラシアプレート",
+  "reading": "ゆーらしあぷれーと",
+  "explanation": "衝突が続いているため、今も山脈は隆起しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0180",
+  "level": 8,
+  "category": "地形",
+  "prompt": "新潟県の日本海岸から長野県を経て太平洋岸へ延び、フォッサマグナの西縁にあたる大断層線は？",
+  "answer": "糸魚川静岡構造線",
+  "reading": "いといがわしずおかこうぞうせん",
+  "explanation": "東北日本と西南日本の境目の一つだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0181",
+  "level": 8,
+  "category": "地形",
+  "prompt": "西南日本を内帯と外帯に分ける大断層線は？",
+  "answer": "中央構造線",
+  "reading": "ちゅうおうこうぞうせん",
+  "explanation": "九州から関東まで延びているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0182",
+  "level": 8,
+  "category": "地形",
+  "prompt": "本州の中央部を南北に横切る、ラテン語で「大きな溝」を意味する地溝帯は？",
+  "answer": "フォッサマグナ",
+  "reading": "ふぉっさまぐな",
+  "explanation": "東北日本と西南日本の境界にあたるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0183",
+  "level": 8,
+  "category": "気候",
+  "prompt": "陸地の分布の関係で、北半球にだけ分布し南半球には見られない気候帯は？（「冷帯」ではない名称で）",
+  "answer": "亜寒帯",
+  "reading": "あかんたい",
+  "explanation": "冷帯とも言い、ケッペンの記号はDだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0184",
+  "level": 8,
+  "category": "気候",
+  "prompt": "ロシアのシベリア東部にあり、北半球の寒極として知られる村は？",
+  "answer": "オイミャコン",
+  "reading": "おいみゃこん",
+  "explanation": "−70℃近い気温が記録されたことがあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0185",
+  "level": 8,
+  "category": "気候",
+  "prompt": "大部分が厚い氷床に覆われ、デンマーク領である世界最大の島は？",
+  "answer": "グリーンランド",
+  "reading": "ぐりーんらんど",
+  "explanation": "南極大陸とともに氷雪気候が広がっているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0186",
+  "level": 8,
+  "category": "農業",
+  "prompt": "サハラ砂漠の南縁に広がり、干ばつや過放牧などで砂漠化が深刻な地域は？",
+  "answer": "サヘル",
+  "reading": "さへる",
+  "explanation": "アラビア語で「岸辺」という意味だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0187",
+  "level": 8,
+  "category": "農業",
+  "prompt": "中世ヨーロッパで行われた、耕地を冬作物・夏作物・休閑地の3つに分けて輪番で使う農法は？",
+  "answer": "三圃式農業",
+  "reading": "さんぽしきのうぎょう",
+  "explanation": "のちに休閑地をなくした輪栽式農業へ発展したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0188",
+  "level": 8,
+  "category": "農業",
+  "prompt": "中央アジアで、綿花栽培のための大規模な灌漑によって面積が大きく縮小した湖は？",
+  "answer": "アラル海",
+  "reading": "あらるかい",
+  "explanation": "20世紀最大級の環境破壊と言われているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0189",
+  "level": 8,
+  "category": "鉱工業",
+  "prompt": "アパラチア炭田を背景に鉄鋼業で発展した、ペンシルベニア州の都市は？",
+  "answer": "ピッツバーグ",
+  "reading": "ぴっつばーぐ",
+  "explanation": "現在は医療や先端技術の都市へ転換しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0190",
+  "level": 8,
+  "category": "鉱工業",
+  "prompt": "アメリカ合衆国ミシガン州にある、自動車工業の中心として発展した都市は？",
+  "answer": "デトロイト",
+  "reading": "でとろいと",
+  "explanation": "自動車産業の衰退で2013年に財政破綻したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0191",
+  "level": 8,
+  "category": "鉱工業",
+  "prompt": "日本の自動車メーカーなどが多く進出し、「アジアのデトロイト」とも呼ばれる東南アジアの国は？",
+  "answer": "タイ",
+  "reading": "たい",
+  "explanation": "首都バンコクの周辺に自動車産業が集積しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0192",
+  "level": 8,
+  "category": "人口",
+  "prompt": "経済発展に伴い、多産多死から多産少死、少産少死へと移り変わる人口の変化は？",
+  "answer": "人口転換",
+  "reading": "じんこうてんかん",
+  "explanation": "多産少死の段階で人口が急増するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0193",
+  "level": 8,
+  "category": "都市",
+  "prompt": "大都市で、都心の機能の一部を分担する副次的な中心地は？",
+  "answer": "副都心",
+  "reading": "ふくとしん",
+  "explanation": "東京では新宿・渋谷・池袋などが代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0194",
+  "level": 8,
+  "category": "民族・宗教",
+  "prompt": "南アフリカ共和国で1991年まで続いた人種隔離政策は？",
+  "answer": "アパルトヘイト",
+  "reading": "あぱるとへいと",
+  "explanation": "撤廃後の1994年にマンデラが大統領となったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0195",
+  "level": 8,
+  "category": "民族・宗教",
+  "prompt": "ベルギー北部に多く住む、オランダ語系の人々は？",
+  "answer": "フラマン人",
+  "reading": "ふらまんじん",
+  "explanation": "南部にはフランス語系のワロン人が住んでいるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0196",
+  "level": 8,
+  "category": "民族・宗教",
+  "prompt": "スリランカで、仏教徒のシンハラ人と対立し、長く内戦が続いたヒンドゥー教徒の少数派民族は？",
+  "answer": "タミル人",
+  "reading": "たみるじん",
+  "explanation": "内戦は2009年に終結したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0197",
+  "level": 8,
+  "category": "民族・宗教",
+  "prompt": "イスラームの二大宗派のうち、イランで多数派を占める宗派は？",
+  "answer": "シーア派",
+  "reading": "しーあは",
+  "explanation": "世界全体ではスンナ派が多数派だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0198",
+  "level": 8,
+  "category": "民族・宗教",
+  "prompt": "マレーシアで行われてきた、マレー系住民を教育や雇用で優遇する政策は？",
+  "answer": "ブミプトラ政策",
+  "reading": "ぶみぷとらせいさく",
+  "explanation": "「土地の子」という意味の言葉から名付けられたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0199",
+  "level": 8,
+  "category": "民族・宗教",
+  "prompt": "フィリピンで最も信者の多い、キリスト教の宗派は？",
+  "answer": "カトリック",
+  "reading": "かとりっく",
+  "explanation": "かつてスペインの植民地だったことが影響しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0200",
+  "level": 8,
+  "category": "日本",
+  "prompt": "北海道の石狩平野などに広がり、他の土地から土を運び入れる客土で改良された、植物の遺骸が堆積した土地は？",
+  "answer": "泥炭地",
+  "reading": "でいたんち",
+  "explanation": "改良された結果、石狩平野は稲作地帯になったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0201",
+  "level": 9,
+  "category": "地形",
+  "prompt": "石灰岩の塔状の岩山が林立するカルスト地形で、中国のコイリン（桂林）で見られるものは？",
+  "answer": "タワーカルスト",
+  "reading": "たわーかるすと",
+  "explanation": "高温多雨の地域で発達しやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0202",
+  "level": 9,
+  "category": "地形",
+  "prompt": "河床に土砂が積もり、堤防のかさ上げを繰り返した結果、周囲の土地より高い所を流れるようになった川は？",
+  "answer": "天井川",
+  "reading": "てんじょうがわ",
+  "explanation": "川の下を道路や鉄道のトンネルがくぐることもあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0203",
+  "level": 9,
+  "category": "地形",
+  "prompt": "ミシシッピ川河口に見られる、鳥の足のような形の三角州は？",
+  "answer": "鳥趾状三角州",
+  "reading": "ちょうしじょうさんかくす",
+  "explanation": "河川の運ぶ土砂が多く、波の作用が弱いとできやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0204",
+  "level": 9,
+  "category": "地形",
+  "prompt": "ナイル川河口に見られる、弓のような形の三角州は？",
+  "answer": "円弧状三角州",
+  "reading": "えんこじょうさんかくす",
+  "explanation": "海岸線に沿って弧を描くように広がっているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0205",
+  "level": 9,
+  "category": "地形",
+  "prompt": "断層運動で両側が落ち込み、相対的に持ち上がった細長い地塊は？",
+  "answer": "地塁",
+  "reading": "ちるい",
+  "explanation": "地溝と対になる地形だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0206",
+  "level": 9,
+  "category": "気候",
+  "prompt": "アフリカ南西部の大西洋岸に広がり、寒流のベンゲラ海流の影響でできた海岸砂漠は？",
+  "answer": "ナミブ砂漠",
+  "reading": "なみぶさばく",
+  "explanation": "世界最古級の砂漠とも言われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0207",
+  "level": 9,
+  "category": "気候",
+  "prompt": "チリ北部に広がり、世界で最も乾燥した地域の一つとされる海岸砂漠は？",
+  "answer": "アタカマ砂漠",
+  "reading": "あたかまさばく",
+  "explanation": "寒流のペルー海流の影響でできたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0208",
+  "level": 9,
+  "category": "気候",
+  "prompt": "アドリア海沿岸に、冬に内陸から吹き下ろす冷たく乾いた北東風は？",
+  "answer": "ボラ",
+  "reading": "ぼら",
+  "explanation": "バルカン半島の地方風だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0209",
+  "level": 9,
+  "category": "農業",
+  "prompt": "ブラジルで、大土地所有制のもとで経営される大農園は？",
+  "answer": "ファゼンダ",
+  "reading": "ふぁぜんだ",
+  "explanation": "コーヒー栽培などが行われてきたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0210",
+  "level": 9,
+  "category": "農業",
+  "prompt": "アルゼンチンのパンパで見られる、大土地所有制による大農場は？",
+  "answer": "エスタンシア",
+  "reading": "えすたんしあ",
+  "explanation": "小麦栽培や牛の放牧が行われているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0211",
+  "level": 9,
+  "category": "農業",
+  "prompt": "メキシコなど中南米のスペイン語圏で見られた、大土地所有制による大農園は？",
+  "answer": "アシエンダ",
+  "reading": "あしえんだ",
+  "explanation": "土地を持たない農民が多く働いていたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0212",
+  "level": 9,
+  "category": "農業",
+  "prompt": "北アフリカのサハラ砂漠で見られる地下水路の呼び名は？",
+  "answer": "フォガラ",
+  "reading": "ふぉがら",
+  "explanation": "イランのカナートと同じしくみだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0213",
+  "level": 9,
+  "category": "農業",
+  "prompt": "アフガニスタンやパキスタンで見られる地下水路の呼び名は？",
+  "answer": "カレーズ",
+  "reading": "かれーず",
+  "explanation": "カナートやフォガラと同じしくみの地下水路だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0214",
+  "level": 9,
+  "category": "農業",
+  "prompt": "インドで1970年代以降、酪農協同組合の発展などで牛乳の生産が急増したことを何という？",
+  "answer": "白い革命",
+  "reading": "しろいかくめい",
+  "explanation": "インドは世界有数の牛乳生産国になったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0215",
+  "level": 9,
+  "category": "農業",
+  "prompt": "グレートプレーンズの地下にあり、センターピボット灌漑の水源として使われ枯渇が心配されている帯水層は？",
+  "answer": "オガララ帯水層",
+  "reading": "おがららたいすいそう",
+  "explanation": "くみ上げる量が補給される量を上回っているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0216",
+  "level": 9,
+  "category": "鉱工業",
+  "prompt": "資源をもつ国が、その資源の開発や利用を自国で管理しようとする考え方は？",
+  "answer": "資源ナショナリズム",
+  "reading": "しげんなしょなりずむ",
+  "explanation": "1970年代に高まり、石油の国有化などが進んだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0217",
+  "level": 9,
+  "category": "鉱工業",
+  "prompt": "インド東部で、豊富な石炭と鉄鉱石を背景に鉄鋼業が発達した都市は？",
+  "answer": "ジャムシェドプル",
+  "reading": "じゃむしぇどぷる",
+  "explanation": "タタ財閥の製鉄所があることで知られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0218",
+  "level": 9,
+  "category": "都市",
+  "prompt": "1960年に内陸部に建設された、ブラジルの首都となった計画都市は？",
+  "answer": "ブラジリア",
+  "reading": "ぶらじりあ",
+  "explanation": "飛行機のような形の都市計画で知られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0219",
+  "level": 9,
+  "category": "都市",
+  "prompt": "シドニーとメルボルンの間に建設された、オーストラリアの首都となった計画都市は？",
+  "answer": "キャンベラ",
+  "reading": "きゃんべら",
+  "explanation": "二大都市の首都争いを避けるため新たにつくられたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0220",
+  "level": 9,
+  "category": "民族・宗教",
+  "prompt": "スペイン北東部にあり、バルセロナを中心に独立運動が起きている地方は？（現地語に近い呼び方で）",
+  "answer": "カタルーニャ",
+  "reading": "かたるーにゃ",
+  "explanation": "独自の言語であるカタルーニャ語が使われているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0221",
+  "level": 9,
+  "category": "民族・宗教",
+  "prompt": "ユダヤ人が故郷を追われ、世界各地に離散したことを何という？",
+  "answer": "ディアスポラ",
+  "reading": "でぃあすぽら",
+  "explanation": "第二次世界大戦後の1948年にイスラエルが建国されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0222",
+  "level": 9,
+  "category": "地誌",
+  "prompt": "2002年に、アフリカ統一機構を発展させて発足した地域機構の略称は？（略称をアルファベットで）",
+  "answer": "AU",
+  "reading": "au",
+  "explanation": "アフリカ連合のことで、アフリカのほぼすべての国・地域が加盟しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0223",
+  "level": 9,
+  "category": "地誌",
+  "prompt": "ブラジル・アルゼンチンなどが結成した、南アメリカの関税同盟は？（カタカナで、「スー」と伸ばす表記で）",
+  "answer": "メルコスール",
+  "reading": "めるこすーる",
+  "explanation": "南米南部共同市場のことで、域内の関税撤廃と対外共通関税を定めているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0224",
+  "level": 9,
+  "category": "地誌",
+  "prompt": "2020年に北米自由貿易協定（NAFTA）に代わって発効した、3か国の協定の略称は？（略称をアルファベットで）",
+  "answer": "USMCA",
+  "reading": "usmca",
+  "explanation": "アメリカ・メキシコ・カナダ協定のことだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0225",
+  "level": 9,
+  "category": "日本",
+  "prompt": "千葉県の九十九里平野のように、浅い海底が隆起して陸地になってできた平野は？",
+  "answer": "海岸平野",
+  "reading": "かいがんへいや",
+  "explanation": "海岸線が単調で、砂浜が続くことが多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0226",
+  "level": 10,
+  "category": "地形",
+  "prompt": "長い侵食で平坦になった大地に、硬い岩石が取り残されてできた孤立した丘は？（漢字で）",
+  "answer": "残丘",
+  "reading": "ざんきゅう",
+  "explanation": "モナドノックとも呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0227",
+  "level": 10,
+  "category": "気候",
+  "prompt": "フランスのローヌ川沿いに、地中海へ吹き下ろす冷たく乾いた北風は？",
+  "answer": "ミストラル",
+  "reading": "みすとらる",
+  "explanation": "冬から春にかけて強く吹く地方風だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0228",
+  "level": 10,
+  "category": "気候",
+  "prompt": "春先などにサハラ砂漠から地中海沿岸に吹く、高温で砂ぼこりを含んだ南風は？",
+  "answer": "シロッコ",
+  "reading": "しろっこ",
+  "explanation": "イタリア南部などに吹く地方風だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0229",
+  "level": 10,
+  "category": "農業",
+  "prompt": "オーストラリア東部の内陸にあり、掘り抜き井戸の水を利用して牧羊が行われる盆地は？（漢字で）",
+  "answer": "大鑽井盆地",
+  "reading": "だいさんせいぼんち",
+  "explanation": "グレートアーテジアン盆地とも呼ばれ、井戸水は塩分を含むため主に家畜用に使われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0230",
+  "level": 10,
+  "category": "地形",
+  "prompt": "メサがさらに侵食されて小さくなった、塔のような形の丘は？",
+  "answer": "ビュート",
+  "reading": "びゅーと",
+  "explanation": "アメリカのモニュメントバレーで見られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0231",
+  "level": 10,
+  "category": "地形",
+  "prompt": "滋賀県の琵琶湖のように、断層運動でできた低地に水がたまった湖は？（「構造湖」ではない呼び名で）",
+  "answer": "断層湖",
+  "reading": "だんそうこ",
+  "explanation": "構造湖とも呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0232",
+  "level": 10,
+  "category": "地形",
+  "prompt": "カルスト地形で、ドリーネがいくつもつながってできた、より大きなくぼ地は？",
+  "answer": "ウバーレ",
+  "reading": "うばーれ",
+  "explanation": "さらに大規模な溶食盆地はポリエと呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0233",
+  "level": 10,
+  "category": "地形",
+  "prompt": "カルスト地形で見られる、長さ数kmから数十kmに及ぶ大規模な溶食盆地は？",
+  "answer": "ポリエ",
+  "reading": "ぽりえ",
+  "explanation": "底に平地が広がり、耕地として利用されることもあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0234",
+  "level": 10,
+  "category": "地形",
+  "prompt": "山地が長い侵食を受けて低くなだらかになり、ほぼ平坦になった地形は？",
+  "answer": "準平原",
+  "reading": "じゅんへいげん",
+  "explanation": "アメリカの地形学者デービスが侵食輪廻の最終段階として示したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0235",
+  "level": 10,
+  "category": "気候",
+  "prompt": "ケッペン区分で乾燥限界を求めるとき、年平均気温とともに用いる値は？",
+  "answer": "年降水量",
+  "reading": "ねんこうすいりょう",
+  "explanation": "年降水量が乾燥限界に満たないとB気候に分類されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0236",
+  "level": 10,
+  "category": "気候",
+  "prompt": "極付近で冷やされた空気が下降してできる高圧帯は？",
+  "answer": "極高圧帯",
+  "reading": "きょくこうあつたい",
+  "explanation": "ここから極偏東風が吹き出すよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0237",
+  "level": 10,
+  "category": "気候",
+  "prompt": "緯度60度付近で、偏西風と極偏東風がぶつかってできる低圧帯は？（「高緯度低圧帯」ではない呼び名で）",
+  "answer": "亜寒帯低圧帯",
+  "reading": "あかんたいていあつたい",
+  "explanation": "寒帯前線が形成され、雨や雪が多くなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0238",
+  "level": 10,
+  "category": "気候",
+  "prompt": "インド北東部のアッサム地方にあり、世界有数の多雨地として知られる地点は？（語末を伸ばさない表記で）",
+  "answer": "チェラプンジ",
+  "reading": "ちぇらぷんじ",
+  "explanation": "夏の季節風が山地にぶつかって大量の雨を降らせるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0239",
+  "level": 10,
+  "category": "農業",
+  "prompt": "中国でホワイ川（淮河）とともに、北の畑作地域と南の稲作地域の境界とされる山脈は？（カタカナの現地音で）",
+  "answer": "チンリン山脈",
+  "reading": "ちんりんさんみゃく",
+  "explanation": "年降水量約1,000mmの線とほぼ一致するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0240",
+  "level": 10,
+  "category": "鉱工業",
+  "prompt": "工業立地論を体系化し、輸送費が最小となる地点に工場が立地すると考えたドイツの経済学者は？（「ヴ」を使わない表記で）",
+  "answer": "ウェーバー",
+  "reading": "うぇーばー",
+  "explanation": "原料指向型・市場指向型などの考え方のもとになったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0241",
+  "level": 10,
+  "category": "鉱工業",
+  "prompt": "セメント工業のように、原料が製品より重く、原料産地に立地しやすい工業の立地型は？（「〜指向型」の形で）",
+  "answer": "原料指向型",
+  "reading": "げんりょうしこうがた",
+  "explanation": "原料の重量が製造の過程で大きく減る工業が当てはまるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0242",
+  "level": 10,
+  "category": "鉱工業",
+  "prompt": "ビール工業のように、製品の輸送費がかかるため消費地の近くに立地しやすい工業の立地型は？（「〜指向型」の形で）",
+  "answer": "市場指向型",
+  "reading": "しじょうしこうがた",
+  "explanation": "原料の水はどこでも得やすいので、消費地の近くが有利になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0243",
+  "level": 10,
+  "category": "鉱工業",
+  "prompt": "アルミニウム精錬のように大量の電気を使い、電力の安い地域に立地しやすい工業の立地型は？（「〜指向型」の形で）",
+  "answer": "電力指向型",
+  "reading": "でんりょくしこうがた",
+  "explanation": "水力発電が豊富な地域に立地することが多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0244",
+  "level": 10,
+  "category": "都市",
+  "prompt": "都心から同心円状に地域が広がるとした、都市の内部構造モデルは？",
+  "answer": "同心円モデル",
+  "reading": "どうしんえんもでる",
+  "explanation": "バージェスがシカゴを例に提唱したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0245",
+  "level": 10,
+  "category": "都市",
+  "prompt": "交通路に沿って扇形に地域が広がるとした、都市の内部構造モデルは？（漢字を含む名称で）",
+  "answer": "扇形モデル",
+  "reading": "せんけいもでる",
+  "explanation": "ホイトが提唱したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0246",
+  "level": 10,
+  "category": "都市",
+  "prompt": "都市の中に複数の核があるとした、都市の内部構造モデルは？",
+  "answer": "多核心モデル",
+  "reading": "たかくしんもでる",
+  "explanation": "ハリスとウルマンが提唱したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0247",
+  "level": 10,
+  "category": "都市",
+  "prompt": "中心地の階層と分布を理論化し、六角形の市場圏を考えたドイツの地理学者クリスタラーの理論は？",
+  "answer": "中心地理論",
+  "reading": "ちゅうしんちりろん",
+  "explanation": "大きな中心地ほど数が少なく、広い範囲にサービスを提供するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0248",
+  "level": 10,
+  "category": "民族・宗教",
+  "prompt": "旧ユーゴスラビア解体後に内戦が起き、ボシュニャク人・セルビア人・クロアチア人が暮らす国は？（「ヴ」を使わない表記で）",
+  "answer": "ボスニア・ヘルツェゴビナ",
+  "reading": "ぼすにあへるつぇごびな",
+  "explanation": "1995年のデイトン合意で内戦が終結したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0249",
+  "level": 10,
+  "category": "民族・宗教",
+  "prompt": "ロシア連邦の北カフカス地方にあり、独立をめぐって紛争が起きた共和国は？（「共和国」まで含めて）",
+  "answer": "チェチェン共和国",
+  "reading": "ちぇちぇんきょうわこく",
+  "explanation": "住民の多くはイスラームを信仰しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-chiri-0250",
+  "level": 10,
+  "category": "民族・宗教",
+  "prompt": "イスラームで信者が守るべき、信仰告白・礼拝・喜捨・断食・巡礼の5つの義務は？",
+  "answer": "五行",
+  "reading": "ごぎょう",
+  "explanation": "巡礼はメッカへの巡礼のことだよ。",
+  "review": "verified"
+ }
+]

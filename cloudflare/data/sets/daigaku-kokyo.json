@@ -1,0 +1,2502 @@
+[
+ {
+  "id": "daigaku-kokyo-0001",
+  "level": 1,
+  "category": "憲法",
+  "prompt": "日本国憲法の三大原則は、国民主権・平和主義と何？",
+  "answer": "基本的人権の尊重",
+  "reading": "きほんてきじんけんのそんちょう",
+  "explanation": "人が生まれながらにもつ権利を、侵すことのできない永久の権利として保障しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0002",
+  "level": 1,
+  "category": "憲法",
+  "prompt": "日本国憲法第1条で、天皇は日本国と日本国民統合の何と定められている？",
+  "answer": "象徴",
+  "reading": "しょうちょう",
+  "explanation": "天皇は国政に関する権能をもたないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0003",
+  "level": 1,
+  "category": "憲法",
+  "prompt": "国の政治のあり方を最終的に決める力が国民にあるという原則は？",
+  "answer": "国民主権",
+  "reading": "こくみんしゅけん",
+  "explanation": "日本国憲法の三大原則の一つだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0004",
+  "level": 1,
+  "category": "憲法",
+  "prompt": "日本国憲法第9条第1項で、武力による威嚇・武力の行使とともに、国際紛争を解決する手段としては永久に放棄するとされた「国権の発動たる」何？",
+  "answer": "戦争",
+  "reading": "せんそう",
+  "explanation": "第2項では戦力の不保持と交戦権の否認を定めているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0005",
+  "level": 1,
+  "category": "国会",
+  "prompt": "国会を構成する2つの議院のうち、任期4年で解散があるのは？",
+  "answer": "衆議院",
+  "reading": "しゅうぎいん",
+  "explanation": "任期が短く解散もあるため、国民の意思を反映しやすいとされるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0006",
+  "level": 1,
+  "category": "国会",
+  "prompt": "任期6年で、3年ごとに議員の半数が改選される議院は？",
+  "answer": "参議院",
+  "reading": "さんぎいん",
+  "explanation": "解散はないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0007",
+  "level": 1,
+  "category": "国会",
+  "prompt": "日本国憲法第41条で、国会は「国権の最高機関」であり、国の唯一の何機関とされている？",
+  "answer": "立法機関",
+  "reading": "りっぽうきかん",
+  "explanation": "法律を制定できるのは国会だけだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0008",
+  "level": 1,
+  "category": "内閣",
+  "prompt": "国会議員の中から国会の議決で指名される、内閣の長は？（憲法上の正式な名称で）",
+  "answer": "内閣総理大臣",
+  "reading": "ないかくそうりだいじん",
+  "explanation": "天皇が任命するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0009",
+  "level": 1,
+  "category": "裁判所",
+  "prompt": "国家権力を立法・行政・司法に分け、互いに抑制と均衡を図るしくみは？（「権力分立」ではない、数字を含む呼び方で）",
+  "answer": "三権分立",
+  "reading": "さんけんぶんりつ",
+  "explanation": "権力の集中を防いで国民の自由を守るしくみだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0010",
+  "level": 1,
+  "category": "地方自治",
+  "prompt": "都道府県の執行機関の長で、住民の直接選挙で選ばれるのは？",
+  "answer": "知事",
+  "reading": "ちじ",
+  "explanation": "任期は4年で、被選挙権は30歳以上だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0011",
+  "level": 1,
+  "category": "国際政治",
+  "prompt": "1945年に発足し、本部をニューヨークに置く国際機関は？（略さない名称で）",
+  "answer": "国際連合",
+  "reading": "こくさいれんごう",
+  "explanation": "国際平和と安全の維持を主な目的としているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0012",
+  "level": 1,
+  "category": "国際政治",
+  "prompt": "国際連合で、国際の平和と安全の維持に主要な責任を負う機関は？（略さない名称で）",
+  "answer": "安全保障理事会",
+  "reading": "あんぜんほしょうりじかい",
+  "explanation": "5つの常任理事国と10の非常任理事国で構成されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0013",
+  "level": 1,
+  "category": "経済",
+  "prompt": "一定期間に国内で新たに生み出された付加価値の合計を示す、国内総生産の略称は？（略称をアルファベットで）",
+  "answer": "GDP",
+  "reading": "gdp",
+  "explanation": "国の経済規模を示す代表的な指標だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0014",
+  "level": 1,
+  "category": "経済",
+  "prompt": "物価が継続的に上昇し、お金の価値が下がる現象は？（略さない形で）",
+  "answer": "インフレーション",
+  "reading": "いんふれーしょん",
+  "explanation": "略してインフレと呼ぶよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0015",
+  "level": 1,
+  "category": "経済",
+  "prompt": "物価が継続的に下落する現象は？（略さない形で）",
+  "answer": "デフレーション",
+  "reading": "でふれーしょん",
+  "explanation": "企業の利益が減り、不況が長引く原因になることがあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0016",
+  "level": 1,
+  "category": "金融",
+  "prompt": "資金に余裕のある人から、資金を必要とする人へお金を融通することは？",
+  "answer": "金融",
+  "reading": "きんゆう",
+  "explanation": "銀行などの金融機関がその仲立ちをしているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0017",
+  "level": 1,
+  "category": "財政",
+  "prompt": "国や地方公共団体が行う経済活動は？",
+  "answer": "財政",
+  "reading": "ざいせい",
+  "explanation": "税金などを集め、公共サービスなどに支出しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0018",
+  "level": 1,
+  "category": "財政",
+  "prompt": "所得が多い人ほど高い税率を適用するしくみは？",
+  "answer": "累進課税",
+  "reading": "るいしんかぜい",
+  "explanation": "所得税などで採用され、所得の再分配の役割を果たすよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0019",
+  "level": 1,
+  "category": "財政",
+  "prompt": "商品の購入やサービスの利用にかかる、代表的な間接税は？",
+  "answer": "消費税",
+  "reading": "しょうひぜい",
+  "explanation": "税を負担する人と納める人が異なる間接税の代表で、所得の低い人ほど負担が重くなる逆進性が指摘されているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0020",
+  "level": 1,
+  "category": "貿易・国際経済",
+  "prompt": "外国から輸入される商品にかけられる税は？",
+  "answer": "関税",
+  "reading": "かんぜい",
+  "explanation": "国内の産業を守る役割があるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0021",
+  "level": 1,
+  "category": "労働",
+  "prompt": "労働基準法・労働組合法・労働関係調整法をまとめて何という？",
+  "answer": "労働三法",
+  "reading": "ろうどうさんぽう",
+  "explanation": "労働者の権利を守る基本的な法律だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0022",
+  "level": 1,
+  "category": "社会保障",
+  "prompt": "病気や老齢などに備えて、人々があらかじめ保険料を出し合う社会保障の制度は？",
+  "answer": "社会保険",
+  "reading": "しゃかいほけん",
+  "explanation": "医療保険や年金保険などがあり、日本の社会保障の中心だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0023",
+  "level": 1,
+  "category": "環境",
+  "prompt": "温室効果ガスの増加などにより、地球全体の平均気温が上昇する現象は？",
+  "answer": "地球温暖化",
+  "reading": "ちきゅうおんだんか",
+  "explanation": "海面上昇や異常気象などの原因になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0024",
+  "level": 1,
+  "category": "倫理・法",
+  "prompt": "青年期に「自分とは何者か」という確信をもつことを、エリクソンは何と呼んだ？（カタカナで、語末を伸ばさない表記で）",
+  "answer": "アイデンティティ",
+  "reading": "あいでんてぃてぃ",
+  "explanation": "自我同一性とも訳されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0025",
+  "level": 1,
+  "category": "倫理・法",
+  "prompt": "儒教の祖で、仁と礼を説いた古代中国の思想家は？",
+  "answer": "孔子",
+  "reading": "こうし",
+  "explanation": "弟子たちが言行を『論語』にまとめたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0026",
+  "level": 2,
+  "category": "憲法",
+  "prompt": "日本国憲法の改正で、国会の発議の後に最終的な承認のため行われる投票は？",
+  "answer": "国民投票",
+  "reading": "こくみんとうひょう",
+  "explanation": "第96条で、過半数の賛成が必要と定めているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0027",
+  "level": 2,
+  "category": "憲法",
+  "prompt": "内閣の助言と承認に基づいて天皇が行う、形式的・儀礼的な行為は？",
+  "answer": "国事行為",
+  "reading": "こくじこうい",
+  "explanation": "内閣総理大臣の任命や国会の召集などがあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0028",
+  "level": 2,
+  "category": "人権",
+  "prompt": "日本国憲法第25条が保障する、健康で文化的な最低限度の生活を営む権利は？",
+  "answer": "生存権",
+  "reading": "せいぞんけん",
+  "explanation": "社会権の中心となる権利だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0029",
+  "level": 2,
+  "category": "人権",
+  "prompt": "生存権・教育を受ける権利・勤労の権利・労働基本権をまとめて何という？",
+  "answer": "社会権",
+  "reading": "しゃかいけん",
+  "explanation": "1919年のワイマール憲法で初めて規定されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0030",
+  "level": 2,
+  "category": "国会",
+  "prompt": "毎年1回、1月に召集され、主に次年度の予算を審議する国会は？（「常会」ではない一般的な呼び名で）",
+  "answer": "通常国会",
+  "reading": "つうじょうこっかい",
+  "explanation": "常会とも呼ばれ、会期は150日だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0031",
+  "level": 2,
+  "category": "国会",
+  "prompt": "衆議院の解散による総選挙の日から30日以内に召集される国会は？（「特別会」ではない一般的な呼び名で）",
+  "answer": "特別国会",
+  "reading": "とくべつこっかい",
+  "explanation": "特別会とも言い、内閣総理大臣の指名を行うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0032",
+  "level": 2,
+  "category": "内閣",
+  "prompt": "内閣が国会の信任に基づいて成立し、国会に対して連帯して責任を負う制度は？",
+  "answer": "議院内閣制",
+  "reading": "ぎいんないかくせい",
+  "explanation": "イギリスで発達した制度だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0033",
+  "level": 2,
+  "category": "内閣",
+  "prompt": "衆議院が内閣を信任しないことを表明する決議は？",
+  "answer": "内閣不信任決議",
+  "reading": "ないかくふしんにんけつぎ",
+  "explanation": "可決されると内閣は10日以内に衆議院を解散しない限り総辞職するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0034",
+  "level": 2,
+  "category": "裁判所",
+  "prompt": "国民から選ばれた人が、重大な刑事裁判に裁判官とともに参加する制度は？",
+  "answer": "裁判員制度",
+  "reading": "さいばんいんせいど",
+  "explanation": "2009年に始まったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0035",
+  "level": 2,
+  "category": "裁判所",
+  "prompt": "判決に不服があれば上級の裁判所に訴え、原則3回まで裁判を受けられるしくみは？",
+  "answer": "三審制",
+  "reading": "さんしんせい",
+  "explanation": "慎重な裁判で人権を守るためのしくみだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0036",
+  "level": 2,
+  "category": "選挙・政党",
+  "prompt": "1つの選挙区から1人の議員を選ぶ選挙制度は？",
+  "answer": "小選挙区制",
+  "reading": "しょうせんきょくせい",
+  "explanation": "大政党に有利で、死票が多くなりやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0037",
+  "level": 2,
+  "category": "地方自治",
+  "prompt": "地方公共団体が、法律の範囲内で議会の議決によって制定する独自のきまりは？",
+  "answer": "条例",
+  "reading": "じょうれい",
+  "explanation": "罰則を設けることもできるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0038",
+  "level": 2,
+  "category": "国際政治",
+  "prompt": "アメリカやヨーロッパ諸国などが結成した、北大西洋条約機構の略称は？（略称をアルファベットで）",
+  "answer": "NATO",
+  "reading": "nato",
+  "explanation": "1949年に結成された集団防衛の同盟だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0039",
+  "level": 2,
+  "category": "国際政治",
+  "prompt": "先進国と発展途上国の間の経済格差をめぐる問題は？",
+  "answer": "南北問題",
+  "reading": "なんぼくもんだい",
+  "explanation": "先進国の多くが北半球、途上国の多くが南側にあることから名付けられたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0040",
+  "level": 2,
+  "category": "経済",
+  "prompt": "株式を発行して多くの人から資金を集めて設立される会社は？",
+  "answer": "株式会社",
+  "reading": "かぶしきがいしゃ",
+  "explanation": "株主は出資額の範囲内で責任を負う有限責任だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0041",
+  "level": 2,
+  "category": "経済",
+  "prompt": "独占禁止法を運用し、企業の公正な競争を確保する行政委員会は？（略さない名称で）",
+  "answer": "公正取引委員会",
+  "reading": "こうせいとりひきいいんかい",
+  "explanation": "カルテルなどを取り締まっているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0042",
+  "level": 2,
+  "category": "経済",
+  "prompt": "1950年代半ばから1973年まで続いた、日本の急速な経済成長は？（「〜経済成長」の形で）",
+  "answer": "高度経済成長",
+  "reading": "こうどけいざいせいちょう",
+  "explanation": "年平均でおよそ10％の実質経済成長率を記録したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0043",
+  "level": 2,
+  "category": "経済",
+  "prompt": "訪問販売などで契約した場合に、一定期間内なら無条件で契約を解除できる制度は？",
+  "answer": "クーリングオフ",
+  "reading": "くーりんぐおふ",
+  "explanation": "訪問販売では8日以内に書面などで通知するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0044",
+  "level": 2,
+  "category": "財政",
+  "prompt": "所得税や法人税のように、税を負担する人と納める人が同じ税は？",
+  "answer": "直接税",
+  "reading": "ちょくせつぜい",
+  "explanation": "消費税のように両者が異なる税は間接税だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0045",
+  "level": 2,
+  "category": "貿易・国際経済",
+  "prompt": "1ドル＝120円から1ドル＝100円になるように、ドルに対して円の価値が上がることは？",
+  "answer": "円高",
+  "reading": "えんだか",
+  "explanation": "輸出には不利、輸入には有利になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0046",
+  "level": 2,
+  "category": "労働",
+  "prompt": "労働者が団結して、賃金などの労働条件の改善をめざす団体は？",
+  "answer": "労働組合",
+  "reading": "ろうどうくみあい",
+  "explanation": "団結権によって結成が保障されているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0047",
+  "level": 2,
+  "category": "社会保障",
+  "prompt": "生活に困っている人に、国が最低限度の生活を保障する制度は？",
+  "answer": "生活保護",
+  "reading": "せいかつほご",
+  "explanation": "公的扶助の中心となる制度だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0048",
+  "level": 2,
+  "category": "環境",
+  "prompt": "1997年に採択された、先進国に温室効果ガスの削減を義務づけた議定書は？",
+  "answer": "京都議定書",
+  "reading": "きょうとぎていしょ",
+  "explanation": "COP3で採択されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0049",
+  "level": 2,
+  "category": "環境",
+  "prompt": "太陽光や風力、地熱など、枯渇せずに繰り返し利用できるエネルギーは？",
+  "answer": "再生可能エネルギー",
+  "reading": "さいせいかのうえねるぎー",
+  "explanation": "発電時に二酸化炭素をほとんど出さないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0050",
+  "level": 2,
+  "category": "倫理・法",
+  "prompt": "「人間は考える葦である」と述べたフランスの思想家は？",
+  "answer": "パスカル",
+  "reading": "ぱすかる",
+  "explanation": "著書『パンセ』に記された言葉だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0051",
+  "level": 3,
+  "category": "憲法",
+  "prompt": "政府が「自衛のための必要最小限度の実力」として保持している組織は？",
+  "answer": "自衛隊",
+  "reading": "じえいたい",
+  "explanation": "憲法第9条との関係がたびたび議論されてきたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0052",
+  "level": 3,
+  "category": "人権",
+  "prompt": "私生活をみだりに公開されない権利は？（「〜の権利」の形で）",
+  "answer": "プライバシーの権利",
+  "reading": "ぷらいばしーのけんり",
+  "explanation": "『宴のあと』事件で認められた新しい人権だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0053",
+  "level": 3,
+  "category": "人権",
+  "prompt": "良好な環境の中で生活する権利として主張されている新しい人権は？",
+  "answer": "環境権",
+  "reading": "かんきょうけん",
+  "explanation": "憲法第13条や第25条を根拠に主張されているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0054",
+  "level": 3,
+  "category": "人権",
+  "prompt": "国や地方公共団体がもつ情報の公開を求める権利は？",
+  "answer": "知る権利",
+  "reading": "しるけんり",
+  "explanation": "情報公開制度の根拠となる新しい人権だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0055",
+  "level": 3,
+  "category": "人権",
+  "prompt": "1985年に制定された、雇用における男女の差別を禁止する法律は？",
+  "answer": "男女雇用機会均等法",
+  "reading": "だんじょこようきかいきんとうほう",
+  "explanation": "女子差別撤廃条約の批准に合わせて制定されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0056",
+  "level": 3,
+  "category": "国会",
+  "prompt": "予算の議決や条約の承認などで、衆議院の議決が優先されることを何という？",
+  "answer": "衆議院の優越",
+  "reading": "しゅうぎいんのゆうえつ",
+  "explanation": "予算の先議権や内閣不信任決議権も衆議院だけがもつよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0057",
+  "level": 3,
+  "category": "内閣",
+  "prompt": "内閣総理大臣と国務大臣で構成され、原則として全会一致で意思を決定する会議は？",
+  "answer": "閣議",
+  "reading": "かくぎ",
+  "explanation": "非公開で行われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0058",
+  "level": 3,
+  "category": "裁判所",
+  "prompt": "何が犯罪で、どんな刑罰が科されるかをあらかじめ法律で定めておかなければならないという原則は？",
+  "answer": "罪刑法定主義",
+  "reading": "ざいけいほうていしゅぎ",
+  "explanation": "国家による恣意的な処罰を防ぐための原則だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0059",
+  "level": 3,
+  "category": "選挙・政党",
+  "prompt": "議員1人あたりの有権者数が選挙区ごとに異なり、投票の価値に差が生じる問題は？",
+  "answer": "一票の格差",
+  "reading": "いっぴょうのかくさ",
+  "explanation": "最高裁が違憲や違憲状態と判断したこともあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0060",
+  "level": 3,
+  "category": "地方自治",
+  "prompt": "住民が一定数の署名を集め、条例の制定・改廃や首長の解職などを求める権利は？",
+  "answer": "直接請求権",
+  "reading": "ちょくせつせいきゅうけん",
+  "explanation": "地方自治法で定められているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0061",
+  "level": 3,
+  "category": "国際政治",
+  "prompt": "安全保障理事会の常任理事国がもつ、1か国でも反対すれば重要な決議が成立しない権限は？",
+  "answer": "拒否権",
+  "reading": "きょひけん",
+  "explanation": "五大国一致の原則に基づくよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0062",
+  "level": 3,
+  "category": "国際政治",
+  "prompt": "オランダのハーグにあり、国家間の紛争を国際法に基づいて裁く国連の主要機関は？（漢字で）",
+  "answer": "国際司法裁判所",
+  "reading": "こくさいしほうさいばんしょ",
+  "explanation": "裁判を始めるには当事国双方の同意が必要だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0063",
+  "level": 3,
+  "category": "国際政治",
+  "prompt": "先進国の政府が発展途上国に行う資金や技術の援助の略称は？（略称をアルファベットで）",
+  "answer": "ODA",
+  "reading": "oda",
+  "explanation": "政府開発援助のことだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0064",
+  "level": 3,
+  "category": "経済",
+  "prompt": "1980年代後半に、株価や地価が実体経済からかけ離れて高騰した経済は？（「〜経済」の形で）",
+  "answer": "バブル経済",
+  "reading": "ばぶるけいざい",
+  "explanation": "1990年代初めに崩壊し、長い不況につながったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0065",
+  "level": 3,
+  "category": "経済",
+  "prompt": "1973年の第4次中東戦争をきっかけに原油価格が急騰し、世界経済が混乱したできごとは？（漢字4字で）",
+  "answer": "石油危機",
+  "reading": "せきゆきき",
+  "explanation": "オイル・ショックとも言い、1979年の第2次と区別して第1次と呼ばれるよ。日本の高度経済成長が終わるきっかけになったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0066",
+  "level": 3,
+  "category": "経済",
+  "prompt": "国内で消費される食料のうち、国内生産でまかなえる割合は？",
+  "answer": "食料自給率",
+  "reading": "しょくりょうじきゅうりつ",
+  "explanation": "日本はカロリーベースで先進国の中でも低い水準が続いているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0067",
+  "level": 3,
+  "category": "金融",
+  "prompt": "銀行が預金と貸し出しを繰り返すことで、最初の預金の何倍もの預金通貨がつくられるしくみは？",
+  "answer": "信用創造",
+  "reading": "しんようそうぞう",
+  "explanation": "預金準備率が低いほど大きくなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0068",
+  "level": 3,
+  "category": "財政",
+  "prompt": "国が歳入の不足を補うために発行する債券は？",
+  "answer": "国債",
+  "reading": "こくさい",
+  "explanation": "国の借金にあたり、将来世代の負担になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0069",
+  "level": 3,
+  "category": "貿易・国際経済",
+  "prompt": "為替レートを外国為替市場の需要と供給によって決める制度は？",
+  "answer": "変動相場制",
+  "reading": "へんどうそうばせい",
+  "explanation": "日本は1973年に移行したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0070",
+  "level": 3,
+  "category": "貿易・国際経済",
+  "prompt": "加盟国の為替の安定や、国際収支が悪化した国への短期融資を行う国際通貨基金の略称は？（略称をアルファベットで）",
+  "answer": "IMF",
+  "reading": "imf",
+  "explanation": "1945年に設立されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0071",
+  "level": 3,
+  "category": "労働",
+  "prompt": "賃金や労働時間など、労働条件の最低基準を定めた法律は？",
+  "answer": "労働基準法",
+  "reading": "ろうどうきじゅんほう",
+  "explanation": "1日8時間・週40時間の法定労働時間を定めているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0072",
+  "level": 3,
+  "category": "社会保障",
+  "prompt": "40歳以上の人が保険料を納め、介護が必要になったときにサービスを受けられる制度は？",
+  "answer": "介護保険",
+  "reading": "かいごほけん",
+  "explanation": "2000年に始まった制度だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0073",
+  "level": 3,
+  "category": "環境",
+  "prompt": "2015年に採択された、すべての国が温室効果ガス削減の目標を定めて取り組む国際的な枠組みは？",
+  "answer": "パリ協定",
+  "reading": "ぱりきょうてい",
+  "explanation": "産業革命前からの気温上昇を2℃未満、できれば1.5℃に抑えることをめざしているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0074",
+  "level": 3,
+  "category": "環境",
+  "prompt": "2015年に国連で採択された、2030年までに達成をめざす17の目標の略称は？（アルファベットで、すべて小文字入力でよい）",
+  "answer": "SDGs",
+  "reading": "sdgs",
+  "explanation": "持続可能な開発目標のことだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0075",
+  "level": 3,
+  "category": "倫理・法",
+  "prompt": "「無知の知」を自覚することの大切さを説いた古代ギリシャの哲学者は？",
+  "answer": "ソクラテス",
+  "reading": "そくらてす",
+  "explanation": "対話を通して相手に無知を気づかせる問答法を用いたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0076",
+  "level": 4,
+  "category": "憲法",
+  "prompt": "1919年に制定され、世界で初めて社会権を規定したドイツの憲法は？（「ヴ」を使わない、「ワ」で始まる表記で）",
+  "answer": "ワイマール憲法",
+  "reading": "わいまーるけんぽう",
+  "explanation": "「人間に値する生存」の保障をうたったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0077",
+  "level": 4,
+  "category": "憲法",
+  "prompt": "権力者も法に従わなければならないという、イギリスで発達した考え方は？",
+  "answer": "法の支配",
+  "reading": "ほうのしはい",
+  "explanation": "「国王といえども神と法の下にある」という言葉が有名だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0078",
+  "level": 4,
+  "category": "人権",
+  "prompt": "人権どうしが衝突したときに調整を図る原理として、日本国憲法が用いている言葉は？",
+  "answer": "公共の福祉",
+  "reading": "こうきょうのふくし",
+  "explanation": "第12条や第13条などに登場するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0079",
+  "level": 4,
+  "category": "人権",
+  "prompt": "1948年に国連総会で採択された、すべての人と国が達成すべき人権の基準を示した宣言は？",
+  "answer": "世界人権宣言",
+  "reading": "せかいじんけんせんげん",
+  "explanation": "法的拘束力はなく、のちに国際人権規約で条約化されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0080",
+  "level": 4,
+  "category": "国会",
+  "prompt": "国会の会期中に、首相と野党の党首が直接議論を行う制度は？",
+  "answer": "党首討論",
+  "reading": "とうしゅとうろん",
+  "explanation": "イギリス議会のクエスチョン・タイムを参考に導入されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0081",
+  "level": 4,
+  "category": "国会",
+  "prompt": "衆議院の解散中に緊急の必要があるとき、内閣の求めによって開かれる参議院の会合は？",
+  "answer": "緊急集会",
+  "reading": "きんきゅうしゅうかい",
+  "explanation": "ここでとった措置は、次の国会で衆議院の同意が必要だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0082",
+  "level": 4,
+  "category": "内閣",
+  "prompt": "法律を実施するためなどに、内閣が制定する命令は？",
+  "answer": "政令",
+  "reading": "せいれい",
+  "explanation": "法律の委任がなければ罰則を設けることはできないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0083",
+  "level": 4,
+  "category": "内閣",
+  "prompt": "公正取引委員会や人事院などのように、内閣から独立して職権を行使する合議制の行政機関は？",
+  "answer": "行政委員会",
+  "reading": "ぎょうせいいいんかい",
+  "explanation": "政治的中立性や専門性が求められる分野に置かれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0084",
+  "level": 4,
+  "category": "裁判所",
+  "prompt": "最高裁判所の裁判官が適任かどうかを、衆議院議員総選挙の際に国民が審査する制度は？",
+  "answer": "国民審査",
+  "reading": "こくみんしんさ",
+  "explanation": "罷免を可とする票が過半数だと罷免されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0085",
+  "level": 4,
+  "category": "裁判所",
+  "prompt": "検察官が起訴しなかった判断が妥当かどうかを、くじで選ばれた市民が審査する機関は？",
+  "answer": "検察審査会",
+  "reading": "けんさつしんさかい",
+  "explanation": "11人の審査員で構成されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0086",
+  "level": 4,
+  "category": "選挙・政党",
+  "prompt": "選挙の四原則は、普通選挙・平等選挙・直接選挙と何？",
+  "answer": "秘密選挙",
+  "reading": "ひみつせんきょ",
+  "explanation": "誰に投票したかを他人に知られない原則だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0087",
+  "level": 4,
+  "category": "選挙・政党",
+  "prompt": "政党が選挙の際に示す、数値目標や期限、財源などを明らかにした政権公約は？",
+  "answer": "マニフェスト",
+  "reading": "まにふぇすと",
+  "explanation": "有権者が政策を比較しやすくなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0088",
+  "level": 4,
+  "category": "地方自治",
+  "prompt": "地方公共団体の仕事のうち、本来は国が果たすべき役割を法律で委託されたものは？",
+  "answer": "法定受託事務",
+  "reading": "ほうていじゅたくじむ",
+  "explanation": "国政選挙の事務や旅券の交付などがあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0089",
+  "level": 4,
+  "category": "地方自治",
+  "prompt": "地方公共団体の仕事のうち、法定受託事務以外の、自らの判断で行うものは？",
+  "answer": "自治事務",
+  "reading": "じちじむ",
+  "explanation": "都市計画や病院の設置などがあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0090",
+  "level": 4,
+  "category": "国際政治",
+  "prompt": "国際法のうち、国家間で長く続いた慣行が法として認められたものは？",
+  "answer": "国際慣習法",
+  "reading": "こくさいかんしゅうほう",
+  "explanation": "公海自由の原則などがその例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0091",
+  "level": 4,
+  "category": "国際政治",
+  "prompt": "国連が紛争地域で停戦監視などを行う平和維持活動の略称は？（略称をアルファベットで）",
+  "answer": "PKO",
+  "reading": "pko",
+  "explanation": "日本の自衛隊もカンボジアなどで参加したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0092",
+  "level": 4,
+  "category": "経済",
+  "prompt": "道路や公園、消防のように、市場のしくみでは十分に供給されにくい財は？",
+  "answer": "公共財",
+  "reading": "こうきょうざい",
+  "explanation": "政府が税金を使って供給するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0093",
+  "level": 4,
+  "category": "経済",
+  "prompt": "不況の中で物価が上昇し続ける現象は？",
+  "answer": "スタグフレーション",
+  "reading": "すたぐふれーしょん",
+  "explanation": "石油危機後の1970年代に先進国で見られたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0094",
+  "level": 4,
+  "category": "経済",
+  "prompt": "第二次世界大戦後の経済民主化のための三大改革は、財閥解体・労働の民主化と何？",
+  "answer": "農地改革",
+  "reading": "のうちかいかく",
+  "explanation": "自作農を大幅に増やしたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0095",
+  "level": 4,
+  "category": "金融",
+  "prompt": "家計の預金を銀行などの金融機関が集め、企業などに貸し出すという資金調達のしくみは？",
+  "answer": "間接金融",
+  "reading": "かんせつきんゆう",
+  "explanation": "戦後の日本企業はこのしくみに大きく頼ってきたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0096",
+  "level": 4,
+  "category": "財政",
+  "prompt": "国の一般会計の歳出のうち、国債の返済や利払いにあてる費用は？",
+  "answer": "国債費",
+  "reading": "こくさいひ",
+  "explanation": "社会保障関係費と並んで大きな割合を占めているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0097",
+  "level": 4,
+  "category": "労働",
+  "prompt": "労働組合と使用者が、労働条件などについて団体交渉で合意し、書面で結んだ約束は？",
+  "answer": "労働協約",
+  "reading": "ろうどうきょうやく",
+  "explanation": "就業規則よりも優先されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0098",
+  "level": 4,
+  "category": "社会保障",
+  "prompt": "すべての国民がいずれかの公的医療保険に加入するしくみは？",
+  "answer": "国民皆保険",
+  "reading": "こくみんかいほけん",
+  "explanation": "日本では1961年に実現したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0099",
+  "level": 4,
+  "category": "環境",
+  "prompt": "将来の世代の必要を損なわずに、現在の世代の必要を満たす開発は？",
+  "answer": "持続可能な開発",
+  "reading": "じぞくかのうなかいはつ",
+  "explanation": "1992年の地球サミットの基本理念になったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0100",
+  "level": 4,
+  "category": "倫理・法",
+  "prompt": "国家は、人々が自然権を守るために結んだ契約によって成立するという考え方は？",
+  "answer": "社会契約説",
+  "reading": "しゃかいけいやくせつ",
+  "explanation": "ホッブズ・ロック・ルソーが代表的な思想家だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0101",
+  "level": 5,
+  "category": "憲法",
+  "prompt": "1689年に、イギリス議会が国王に認めさせた、議会の権利を定めた法は？",
+  "answer": "権利章典",
+  "reading": "けんりしょうてん",
+  "explanation": "名誉革命の成果として制定されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0102",
+  "level": 5,
+  "category": "人権",
+  "prompt": "逮捕や捜索には、原則として裁判官が発する令状が必要とする原則は？",
+  "answer": "令状主義",
+  "reading": "れいじょうしゅぎ",
+  "explanation": "現行犯逮捕は例外とされているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0103",
+  "level": 5,
+  "category": "人権",
+  "prompt": "無罪が確定した行為について、再び刑事上の責任を問われないという原則は？",
+  "answer": "一事不再理",
+  "reading": "いちじふさいり",
+  "explanation": "日本国憲法第39条に定められているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0104",
+  "level": 5,
+  "category": "人権",
+  "prompt": "取り調べや裁判で、自分に不利益な供述を強要されない権利は？",
+  "answer": "黙秘権",
+  "reading": "もくひけん",
+  "explanation": "日本国憲法第38条に基づく権利だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0105",
+  "level": 5,
+  "category": "国会",
+  "prompt": "政権を担当していない政党は？",
+  "answer": "野党",
+  "reading": "やとう",
+  "explanation": "政府を監視・批判する役割を担うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0106",
+  "level": 5,
+  "category": "内閣",
+  "prompt": "退職した官僚が、在職中に関係の深かった企業や団体に再就職することは？",
+  "answer": "天下り",
+  "reading": "あまくだり",
+  "explanation": "官民の癒着を招くとして批判されてきたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0107",
+  "level": 5,
+  "category": "裁判所",
+  "prompt": "高度な政治性をもつ国家の行為については、裁判所が違憲かどうかの判断を控えるべきだという考え方は？",
+  "answer": "統治行為論",
+  "reading": "とうちこういろん",
+  "explanation": "砂川事件や苫米地事件で示されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0108",
+  "level": 5,
+  "category": "選挙・政党",
+  "prompt": "選挙の当日に用事がある人などが、事前に投票できる制度は？",
+  "answer": "期日前投票",
+  "reading": "きじつぜんとうひょう",
+  "explanation": "2003年に導入されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0109",
+  "level": 5,
+  "category": "地方自治",
+  "prompt": "国が地方公共団体の財政格差を調整するため、使いみちを限定せずに配分するお金は？",
+  "answer": "地方交付税",
+  "reading": "ちほうこうふぜい",
+  "explanation": "所得税や法人税などの一定割合が財源になっているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0110",
+  "level": 5,
+  "category": "国際政治",
+  "prompt": "第二次世界大戦後の、アメリカを中心とする西側とソ連を中心とする東側の対立は？",
+  "answer": "冷戦",
+  "reading": "れいせん",
+  "explanation": "直接の戦争にならなかったことから「冷たい戦争」と呼ばれたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0111",
+  "level": 5,
+  "category": "国際政治",
+  "prompt": "対立する国も含めた国々が、侵略した国に集団で制裁を加えることで平和を保つしくみは？",
+  "answer": "集団安全保障",
+  "reading": "しゅうだんあんぜんほしょう",
+  "explanation": "国際連盟や国際連合で採用されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0112",
+  "level": 5,
+  "category": "経済",
+  "prompt": "アダム・スミスが、市場の価格調整のはたらきをたとえた言葉は？（「神の」を付けない、文語的な表現で）",
+  "answer": "見えざる手",
+  "reading": "みえざるて",
+  "explanation": "『国富論』の中で述べられたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0113",
+  "level": 5,
+  "category": "経済",
+  "prompt": "製品の欠陥による被害について、製造者の過失を証明しなくても損害賠償を求められるようにした法律は？（漢字で）",
+  "answer": "製造物責任法",
+  "reading": "せいぞうぶつせきにんほう",
+  "explanation": "PL法とも呼ばれ、1994年に制定されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0114",
+  "level": 5,
+  "category": "金融",
+  "prompt": "銀行などが貸し出したお金のうち、回収が難しくなったものは？",
+  "answer": "不良債権",
+  "reading": "ふりょうさいけん",
+  "explanation": "バブル崩壊後の日本で大きな問題になったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0115",
+  "level": 5,
+  "category": "財政",
+  "prompt": "景気変動に応じて、累進課税や社会保障給付が自動的に景気を安定させるしくみは？（カタカナで）",
+  "answer": "ビルトインスタビライザー",
+  "reading": "びるといんすたびらいざー",
+  "explanation": "自動安定化装置とも呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0116",
+  "level": 5,
+  "category": "貿易・国際経済",
+  "prompt": "各国が比較的得意な財の生産に特化して貿易すれば互いに利益が得られるという、リカードの説は？",
+  "answer": "比較生産費説",
+  "reading": "ひかくせいさんひせつ",
+  "explanation": "自由貿易を支える理論になったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0117",
+  "level": 5,
+  "category": "貿易・国際経済",
+  "prompt": "世界貿易機関（WTO）の前身となった、関税と貿易に関する一般協定の略称は？（略称をアルファベットで）",
+  "answer": "GATT",
+  "reading": "gatt",
+  "explanation": "1947年に調印されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0118",
+  "level": 5,
+  "category": "貿易・国際経済",
+  "prompt": "特定の国や地域の間で、関税などの貿易障壁を撤廃する協定の略称は？（略称をアルファベットで）",
+  "answer": "FTA",
+  "reading": "fta",
+  "explanation": "自由貿易協定のことだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0119",
+  "level": 5,
+  "category": "労働",
+  "prompt": "使用者が、労働組合の結成や活動を妨害する行為は？",
+  "answer": "不当労働行為",
+  "reading": "ふとうろうどうこうい",
+  "explanation": "労働組合法で禁止されているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0120",
+  "level": 5,
+  "category": "社会保障",
+  "prompt": "日本の社会保障制度の4つの柱は、社会保険・公的扶助・公衆衛生と何？",
+  "answer": "社会福祉",
+  "reading": "しゃかいふくし",
+  "explanation": "児童や高齢者、障害のある人などに支援を行うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0121",
+  "level": 5,
+  "category": "環境",
+  "prompt": "1992年にリオデジャネイロで開かれた、国連環境開発会議の通称は？",
+  "answer": "地球サミット",
+  "reading": "ちきゅうさみっと",
+  "explanation": "気候変動枠組条約や生物多様性条約が署名されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0122",
+  "level": 5,
+  "category": "環境",
+  "prompt": "大規模な開発を行う前に、環境への影響を調査・予測・評価する制度は？（カタカナを含む名称で）",
+  "answer": "環境アセスメント",
+  "reading": "かんきょうあせすめんと",
+  "explanation": "環境影響評価とも言い、1997年に法律が制定されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0123",
+  "level": 5,
+  "category": "環境",
+  "prompt": "熊本県で、化学工場の排水に含まれた有機水銀が原因で発生した四大公害病は？",
+  "answer": "水俣病",
+  "reading": "みなまたびょう",
+  "explanation": "新潟県の阿賀野川流域でも同様の公害病が発生したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0124",
+  "level": 5,
+  "category": "環境",
+  "prompt": "富山県の神通川流域で、鉱山から流れたカドミウムが原因で発生した四大公害病は？",
+  "answer": "イタイイタイ病",
+  "reading": "いたいいたいびょう",
+  "explanation": "骨がもろくなり、激しい痛みに苦しむ病気だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0125",
+  "level": 5,
+  "category": "環境",
+  "prompt": "1993年に制定された、日本の環境政策の基本理念を定めた法律は？",
+  "answer": "環境基本法",
+  "reading": "かんきょうきほんほう",
+  "explanation": "公害対策基本法に代わって制定されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0126",
+  "level": 6,
+  "category": "憲法",
+  "prompt": "他国への武力攻撃を、自国が攻撃されていなくても、密接な関係にある国と共同で阻止する権利は？",
+  "answer": "集団的自衛権",
+  "reading": "しゅうだんてきじえいけん",
+  "explanation": "2014年の閣議決定で限定的な行使が容認されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0127",
+  "level": 6,
+  "category": "憲法",
+  "prompt": "1960年に改定された、日本とアメリカの安全保障に関する条約は？（「安保」と略さない通称で）",
+  "answer": "日米安全保障条約",
+  "reading": "にちべいあんぜんほしょうじょうやく",
+  "explanation": "日本の領域での共同防衛などを定めているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0128",
+  "level": 6,
+  "category": "人権",
+  "prompt": "1975年に最高裁が薬局開設の距離制限規定を違憲としたとき、侵害されたとされた自由は？",
+  "answer": "職業選択の自由",
+  "reading": "しょくぎょうせんたくのじゆう",
+  "explanation": "経済活動の自由の一つだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0129",
+  "level": 6,
+  "category": "人権",
+  "prompt": "憲法第25条は国の政治的な努力目標を示したもので、国民に具体的な権利を与えたものではないとする考え方は？",
+  "answer": "プログラム規定説",
+  "reading": "ぷろぐらむきていせつ",
+  "explanation": "朝日訴訟などの最高裁判決でとられた考え方だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0130",
+  "level": 6,
+  "category": "人権",
+  "prompt": "行政機関がもつ文書の開示を請求できることを定め、1999年に制定された法律は？",
+  "answer": "情報公開法",
+  "reading": "じょうほうこうかいほう",
+  "explanation": "知る権利を具体化する法律だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0131",
+  "level": 6,
+  "category": "人権",
+  "prompt": "個人情報を取り扱う事業者などに、適切な取り扱いを義務づけた法律は？",
+  "answer": "個人情報保護法",
+  "reading": "こじんじょうほうほごほう",
+  "explanation": "2003年に制定されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0132",
+  "level": 6,
+  "category": "国会",
+  "prompt": "国会議員が、議院で行った演説や討論、表決について院外で責任を問われない特権は？",
+  "answer": "免責特権",
+  "reading": "めんせきとっけん",
+  "explanation": "日本国憲法第51条に定められているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0133",
+  "level": 6,
+  "category": "内閣",
+  "prompt": "2001年の中央省庁再編で、内閣の機能を強化するために新設された機関は？",
+  "answer": "内閣府",
+  "reading": "ないかくふ",
+  "explanation": "内閣総理大臣が長を務めるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0134",
+  "level": 6,
+  "category": "裁判所",
+  "prompt": "民事裁判で、訴えを起こした側の当事者は？",
+  "answer": "原告",
+  "reading": "げんこく",
+  "explanation": "訴えられた側は被告と呼ぶよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0135",
+  "level": 6,
+  "category": "選挙・政党",
+  "prompt": "比例代表選挙で、各政党の得票数を1、2、3…の整数で割り、商の大きい順に議席を配分する方式は？",
+  "answer": "ドント式",
+  "reading": "どんとしき",
+  "explanation": "ベルギーの法学者の名前に由来するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0136",
+  "level": 6,
+  "category": "選挙・政党",
+  "prompt": "選挙で、落選者に投じられて議席に結びつかなかった票は？",
+  "answer": "死票",
+  "reading": "しひょう",
+  "explanation": "小選挙区制では特に多くなりやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0137",
+  "level": 6,
+  "category": "地方自治",
+  "prompt": "住民が、首長や議員の解職を請求することを英語由来の言葉で何という？",
+  "answer": "リコール",
+  "reading": "りこーる",
+  "explanation": "請求後の住民投票で過半数の同意があれば失職するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0138",
+  "level": 6,
+  "category": "国際政治",
+  "prompt": "国連の専門機関のうち、教育・科学・文化を通じて平和に貢献する機関の略称は？（略称をアルファベットで）",
+  "answer": "UNESCO",
+  "reading": "unesco",
+  "explanation": "世界遺産の登録も行っているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0139",
+  "level": 6,
+  "category": "経済",
+  "prompt": "株式会社で、会社を所有する株主と、実際に経営を担う専門の経営者が分かれていることを何という？",
+  "answer": "所有と経営の分離",
+  "reading": "しょゆうとけいえいのぶんり",
+  "explanation": "大企業ほどこの傾向が強いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0140",
+  "level": 6,
+  "category": "金融",
+  "prompt": "金融機関が破綻したときに、預金を元本1,000万円とその利息まで保護する制度は？",
+  "answer": "ペイオフ",
+  "reading": "ぺいおふ",
+  "explanation": "預金保険機構が払い戻しを行うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0141",
+  "level": 6,
+  "category": "財政",
+  "prompt": "国債の元利払いなどを除いた歳出を、税収などでどれだけまかなえているかを示す収支は？（カタカナで）",
+  "answer": "プライマリーバランス",
+  "reading": "ぷらいまりーばらんす",
+  "explanation": "基礎的財政収支とも言うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0142",
+  "level": 6,
+  "category": "貿易・国際経済",
+  "prompt": "国際収支のうち、貿易・サービス収支、第一次所得収支、第二次所得収支を合わせたものは？",
+  "answer": "経常収支",
+  "reading": "けいじょうしゅうし",
+  "explanation": "日本は長く黒字が続いているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0143",
+  "level": 6,
+  "category": "貿易・国際経済",
+  "prompt": "1944年の協定に基づき、IMFと世界銀行を中心に築かれた戦後の国際通貨体制は？（協定が結ばれた地名を冠した呼び名で）",
+  "answer": "ブレトンウッズ体制",
+  "reading": "ぶれとんうっずたいせい",
+  "explanation": "金と交換できるドルを基軸とする固定相場制だったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0144",
+  "level": 6,
+  "category": "貿易・国際経済",
+  "prompt": "1985年に、先進5か国がドル高を是正するため協調介入に合意したことは？",
+  "answer": "プラザ合意",
+  "reading": "ぷらざごうい",
+  "explanation": "その後、日本では急激な円高が進んだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0145",
+  "level": 6,
+  "category": "労働",
+  "prompt": "一定の期間内で、始業と終業の時刻を労働者が自分で決められる制度は？",
+  "answer": "フレックスタイム制",
+  "reading": "ふれっくすたいむせい",
+  "explanation": "コアタイムを設けることが多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0146",
+  "level": 6,
+  "category": "社会保障",
+  "prompt": "会社員や公務員が、国民年金に上乗せして加入する公的年金は？",
+  "answer": "厚生年金",
+  "reading": "こうせいねんきん",
+  "explanation": "保険料は労使で折半するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0147",
+  "level": 6,
+  "category": "社会保障",
+  "prompt": "現役世代が納める保険料を、その時点の高齢者の年金給付にあてる方式は？",
+  "answer": "賦課方式",
+  "reading": "ふかほうしき",
+  "explanation": "少子高齢化が進むと現役世代の負担が重くなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0148",
+  "level": 6,
+  "category": "環境",
+  "prompt": "公害などによる汚染の防止や被害回復の費用は、汚染を生じさせた者が支払うべきだという原則は？（漢字を含む名称で）",
+  "answer": "汚染者負担の原則",
+  "reading": "おせんしゃふたんのげんそく",
+  "explanation": "PPPとも呼ばれ、OECDが提唱したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0149",
+  "level": 6,
+  "category": "倫理・法",
+  "prompt": "人間の本性はもともと善であるという性善説を説いた、古代中国の思想家は？",
+  "answer": "孟子",
+  "reading": "もうし",
+  "explanation": "仁義に基づく王道政治を理想としたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0150",
+  "level": 6,
+  "category": "倫理・法",
+  "prompt": "道徳法則に自ら従う意志の自律を説き、『実践理性批判』を著したドイツの哲学者は？",
+  "answer": "カント",
+  "reading": "かんと",
+  "explanation": "人格を手段としてではなく目的として扱うべきだと説いたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0151",
+  "level": 7,
+  "category": "憲法",
+  "prompt": "日本国憲法前文に示されている、全世界の国民が恐怖と欠乏から免かれ、平和のうちに生存する権利は？",
+  "answer": "平和的生存権",
+  "reading": "へいわてきせいぞんけん",
+  "explanation": "長沼ナイキ基地訴訟の第一審判決でも取り上げられたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0152",
+  "level": 7,
+  "category": "憲法",
+  "prompt": "1952年に警察予備隊が改組されて生まれ、1954年に自衛隊となった組織は？",
+  "answer": "保安隊",
+  "reading": "ほあんたい",
+  "explanation": "自衛隊発足までの過渡的な組織だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0153",
+  "level": 7,
+  "category": "人権",
+  "prompt": "日本国憲法第22条が保障する、住む場所を自由に選び移り住むことができる自由は？",
+  "answer": "居住・移転の自由",
+  "reading": "きょじゅういてんのじゆう",
+  "explanation": "経済活動の自由の一つに分類されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0154",
+  "level": 7,
+  "category": "人権",
+  "prompt": "自由権は精神の自由・身体の自由と、もう1つ何に分類される？（「〜活動の自由」の形で）",
+  "answer": "経済活動の自由",
+  "reading": "けいざいかつどうのじゆう",
+  "explanation": "職業選択の自由や財産権などを含むよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0155",
+  "level": 7,
+  "category": "国会",
+  "prompt": "国会の委員会で、専門家や利害関係者から意見を聞くために開かれる会は？",
+  "answer": "公聴会",
+  "reading": "こうちょうかい",
+  "explanation": "総予算の審議では必ず開かなければならないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0156",
+  "level": 7,
+  "category": "内閣",
+  "prompt": "衆議院議員総選挙の後に初めて国会が召集されたときなどに、内閣が必ず行わなければならないことは？",
+  "answer": "総辞職",
+  "reading": "そうじしょく",
+  "explanation": "その後、国会で新たな内閣総理大臣が指名されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0157",
+  "level": 7,
+  "category": "内閣",
+  "prompt": "行政処分や行政指導などの手続きの公正と透明性を確保するため、1993年に制定された法律は？",
+  "answer": "行政手続法",
+  "reading": "ぎょうせいてつづきほう",
+  "explanation": "行政指導には法的強制力がないことを明記しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0158",
+  "level": 7,
+  "category": "裁判所",
+  "prompt": "日本国憲法第76条が設置を禁止している、戦前の軍法会議のような通常の裁判所の系列に属さない裁判所は？",
+  "answer": "特別裁判所",
+  "reading": "とくべつさいばんしょ",
+  "explanation": "なお、弾劾裁判所は憲法自身が認めた例外だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0159",
+  "level": 7,
+  "category": "選挙・政党",
+  "prompt": "支持する政党をもたない有権者の層は？",
+  "answer": "無党派層",
+  "reading": "むとうはそう",
+  "explanation": "選挙結果を左右する存在になっているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0160",
+  "level": 7,
+  "category": "選挙・政党",
+  "prompt": "政治家の政治資金の流れを公開させ、寄付などを規制する法律は？",
+  "answer": "政治資金規正法",
+  "reading": "せいじしきんきせいほう",
+  "explanation": "「規制」ではなく「規正」と書く点に注意が必要だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0161",
+  "level": 7,
+  "category": "地方自治",
+  "prompt": "地方自治の本旨のうち、住民自治と並ぶ、国から独立した団体が自らの意思で地域の政治を行うという要素は？",
+  "answer": "団体自治",
+  "reading": "だんたいじち",
+  "explanation": "住民自治は民主主義的な要素、団体自治は自由主義的な要素とされるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0162",
+  "level": 7,
+  "category": "地方自治",
+  "prompt": "2002年に創設された、地域を限定して規制の特例を認め、地域の活性化をめざす制度は？",
+  "answer": "構造改革特区",
+  "reading": "こうぞうかいかくとっく",
+  "explanation": "どぶろく特区などが話題になったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0163",
+  "level": 7,
+  "category": "国際政治",
+  "prompt": "1648年に結ばれ、主権国家を単位とする国際社会の成立につながった条約は？（教科書で一般的な「ウェ」で始まる表記で）",
+  "answer": "ウェストファリア条約",
+  "reading": "うぇすとふぁりあじょうやく",
+  "explanation": "三十年戦争を終結させた講和条約だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0164",
+  "level": 7,
+  "category": "国際政治",
+  "prompt": "1968年に採択された、核兵器保有国を限定して核の拡散を防ぐ条約の略称は？（略称をアルファベットで）",
+  "answer": "NPT",
+  "reading": "npt",
+  "explanation": "核拡散防止条約のことだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0165",
+  "level": 7,
+  "category": "国際政治",
+  "prompt": "2017年に国連で採択され、2021年に発効した、核兵器の開発や保有、使用などを全面的に禁止する条約は？",
+  "answer": "核兵器禁止条約",
+  "reading": "かくへいききんしじょうやく",
+  "explanation": "唯一の戦争被爆国である日本は、2026年時点で署名・批准していないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0166",
+  "level": 7,
+  "category": "経済",
+  "prompt": "ケインズが重視した、実際の購買力を伴う需要は？",
+  "answer": "有効需要",
+  "reading": "ゆうこうじゅよう",
+  "explanation": "政府が公共投資などで創出すべきだと主張したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0167",
+  "level": 7,
+  "category": "経済",
+  "prompt": "1949年に実施された、超均衡予算などで戦後日本のインフレを収束させた経済政策は？",
+  "answer": "ドッジ・ライン",
+  "reading": "どっじらいん",
+  "explanation": "1ドル＝360円の単一為替レートも設定されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0168",
+  "level": 7,
+  "category": "金融",
+  "prompt": "日本銀行が金融機関から国債などを買い入れて、市場に資金を供給する操作は？（略さない形で）",
+  "answer": "買いオペレーション",
+  "reading": "かいおぺれーしょん",
+  "explanation": "金利を引き下げる方向に作用するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0169",
+  "level": 7,
+  "category": "財政",
+  "prompt": "所得税で、給与所得者・自営業者・農業者の所得の捕捉率が9割・6割・4割と差があることを表す言葉は？（カタカナで）",
+  "answer": "クロヨン",
+  "reading": "くろよん",
+  "explanation": "10割・5割・3割（政治家を含む）を表すトーゴーサンという言葉もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0170",
+  "level": 7,
+  "category": "貿易・国際経済",
+  "prompt": "1971年に、アメリカが金とドルの交換を停止したことは？（大統領の名を冠した呼び名で）",
+  "answer": "ニクソンショック",
+  "reading": "にくそんしょっく",
+  "explanation": "ブレトンウッズ体制が崩れるきっかけになったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0171",
+  "level": 7,
+  "category": "労働",
+  "prompt": "同じ内容の仕事をしている人には、雇用形態にかかわらず同じ賃金を支払うべきだという考え方は？",
+  "answer": "同一労働同一賃金",
+  "reading": "どういつろうどうどういつちんぎん",
+  "explanation": "正規雇用と非正規雇用の格差是正をめざすよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0172",
+  "level": 7,
+  "category": "社会保障",
+  "prompt": "1942年にイギリスで出され、「ゆりかごから墓場まで」の社会保障の理念を示した報告書は？（「ヴ」を使わない表記で）",
+  "answer": "ベバリッジ報告",
+  "reading": "べばりっじほうこく",
+  "explanation": "戦後イギリスの福祉国家建設の土台になったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0173",
+  "level": 7,
+  "category": "環境",
+  "prompt": "水鳥の生息地として国際的に重要な湿地を保護する条約は？",
+  "answer": "ラムサール条約",
+  "reading": "らむさーるじょうやく",
+  "explanation": "日本では釧路湿原が最初に登録されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0174",
+  "level": 7,
+  "category": "環境",
+  "prompt": "絶滅のおそれのある野生動植物の国際的な取引を規制する条約は？",
+  "answer": "ワシントン条約",
+  "reading": "わしんとんじょうやく",
+  "explanation": "1973年に採択されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0175",
+  "level": 7,
+  "category": "倫理・法",
+  "prompt": "「最大多数の最大幸福」を唱えたイギリスの功利主義の思想家は？",
+  "answer": "ベンサム",
+  "reading": "べんさむ",
+  "explanation": "快楽を量的に計算できると考えたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0176",
+  "level": 8,
+  "category": "憲法",
+  "prompt": "日本国憲法の制定過程で、GHQが作成し日本政府に示した憲法草案は？（人名を冠した呼び名で）",
+  "answer": "マッカーサー草案",
+  "reading": "まっかーさーそうあん",
+  "explanation": "これをもとに政府案がつくられたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0177",
+  "level": 8,
+  "category": "憲法",
+  "prompt": "自衛隊の合憲性が争われ、1973年に札幌地裁が自衛隊を違憲とする判決を出した訴訟は？（「〜基地訴訟」の形で）",
+  "answer": "長沼ナイキ基地訴訟",
+  "reading": "ながぬまないききちそしょう",
+  "explanation": "控訴審と上告審では憲法判断は示されなかったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0178",
+  "level": 8,
+  "category": "人権",
+  "prompt": "米軍基地の拡張に反対する人々が基地内に立ち入って起訴され、日米安全保障条約の合憲性が争われた事件は？",
+  "answer": "砂川事件",
+  "reading": "すながわじけん",
+  "explanation": "1959年に最高裁が統治行為論的な判断を示したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0179",
+  "level": 8,
+  "category": "人権",
+  "prompt": "学生運動歴を隠していたことを理由に本採用を拒否されたことが争われ、私人間における憲法の効力が問題となった事件は？",
+  "answer": "三菱樹脂事件",
+  "reading": "みつびしじゅしじけん",
+  "explanation": "最高裁は企業の雇用の自由を重視したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0180",
+  "level": 8,
+  "category": "人権",
+  "prompt": "生活保護の基準が生存権を侵害するとして、1957年に提訴された訴訟は？",
+  "answer": "朝日訴訟",
+  "reading": "あさひそしょう",
+  "explanation": "「人間裁判」とも呼ばれたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0181",
+  "level": 8,
+  "category": "人権",
+  "prompt": "国や地方公共団体の行為が、その目的が宗教的意義をもち、効果が宗教を援助・助長するかで政教分離違反を判断する基準は？",
+  "answer": "目的効果基準",
+  "reading": "もくてきこうかきじゅん",
+  "explanation": "津地鎮祭訴訟の最高裁判決で示されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0182",
+  "level": 8,
+  "category": "人権",
+  "prompt": "表現の自由などの精神的自由の規制は、経済的自由の規制よりも厳しい基準で審査すべきだという考え方は？（「〜の基準」の形で）",
+  "answer": "二重の基準",
+  "reading": "にじゅうのきじゅん",
+  "explanation": "民主政治の過程を守るために精神的自由を重視する考え方だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0183",
+  "level": 8,
+  "category": "内閣",
+  "prompt": "国の事業のうち、効率化のため各省庁から切り離して法人格を与えて運営するものは？",
+  "answer": "独立行政法人",
+  "reading": "どくりつぎょうせいほうじん",
+  "explanation": "国立美術館や造幣局などがあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0184",
+  "level": 8,
+  "category": "内閣",
+  "prompt": "各省庁が自らの権限や利益を優先し、横の連携が不十分になっている行政の状態は？",
+  "answer": "縦割り行政",
+  "reading": "たてわりぎょうせい",
+  "explanation": "行政改革の課題とされてきたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0185",
+  "level": 8,
+  "category": "裁判所",
+  "prompt": "最高裁判所の長官を指名するのは？",
+  "answer": "内閣",
+  "reading": "ないかく",
+  "explanation": "任命は天皇が行うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0186",
+  "level": 8,
+  "category": "裁判所",
+  "prompt": "特許など知的財産に関する事件を専門に扱うため、2005年に東京高裁の特別の支部として設置された裁判所は？（略さない名称で）",
+  "answer": "知的財産高等裁判所",
+  "reading": "ちてきざいさんこうとうさいばんしょ",
+  "explanation": "知財高裁と略されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0187",
+  "level": 8,
+  "category": "選挙・政党",
+  "prompt": "衆議院議員選挙で、小選挙区と比例代表の両方に立候補した人の比例名簿の順位を決めるときに使われる、当選者の得票数に対する得票数の割合は？",
+  "answer": "惜敗率",
+  "reading": "せきはいりつ",
+  "explanation": "同じ順位の候補者の中で、惜敗率が高い人から当選するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0188",
+  "level": 8,
+  "category": "地方自治",
+  "prompt": "1999年に制定され、国と地方の関係を「上下・主従」から「対等・協力」の関係に改めた法律は？",
+  "answer": "地方分権一括法",
+  "reading": "ちほうぶんけんいっかつほう",
+  "explanation": "2000年に施行されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0189",
+  "level": 8,
+  "category": "国際政治",
+  "prompt": "安全保障理事会が拒否権で機能しないとき、総会が集団的措置を勧告できるとした1950年の決議は？",
+  "answer": "平和のための結集決議",
+  "reading": "へいわのためのけっしゅうけつぎ",
+  "explanation": "朝鮮戦争をきっかけに採択されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0190",
+  "level": 8,
+  "category": "経済",
+  "prompt": "技術革新（イノベーション）による「創造的破壊」が経済発展の原動力だと説いた経済学者は？",
+  "answer": "シュンペーター",
+  "reading": "しゅんぺーたー",
+  "explanation": "新しい生産方法や新しい市場の開拓などを重視したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0191",
+  "level": 8,
+  "category": "金融",
+  "prompt": "日本銀行の金融政策の方針を決める、政策委員会の会合は？",
+  "answer": "金融政策決定会合",
+  "reading": "きんゆうせいさくけっていかいごう",
+  "explanation": "総裁・副総裁・審議委員の9人で構成されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0192",
+  "level": 8,
+  "category": "財政",
+  "prompt": "財政法では原則として発行が禁止されているが、特例法を制定して発行される国債は？（「特例国債」ではない通称で）",
+  "answer": "赤字国債",
+  "reading": "あかじこくさい",
+  "explanation": "特例国債とも呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0193",
+  "level": 8,
+  "category": "貿易・国際経済",
+  "prompt": "国際収支のうち、海外からの利子や配当、雇用者報酬などの受け取りと支払いの差額は？",
+  "answer": "第一次所得収支",
+  "reading": "だいいちじしょとくしゅうし",
+  "explanation": "近年の日本の経常収支の黒字を支えているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0194",
+  "level": 8,
+  "category": "労働",
+  "prompt": "パートやアルバイト、派遣社員、契約社員など、正社員以外の雇用形態は？",
+  "answer": "非正規雇用",
+  "reading": "ひせいきこよう",
+  "explanation": "雇用者全体の約4割を占めているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0195",
+  "level": 8,
+  "category": "社会保障",
+  "prompt": "原則として75歳以上の人が加入する医療保険制度は？",
+  "answer": "後期高齢者医療制度",
+  "reading": "こうきこうれいしゃいりょうせいど",
+  "explanation": "2008年に始まったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0196",
+  "level": 8,
+  "category": "環境",
+  "prompt": "1962年に『沈黙の春』を著し、農薬による環境汚染に警鐘を鳴らしたアメリカの生物学者は？（フルネームで）",
+  "answer": "レイチェル・カーソン",
+  "reading": "れいちぇるかーそん",
+  "explanation": "環境保護運動に大きな影響を与えたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0197",
+  "level": 8,
+  "category": "倫理・法",
+  "prompt": "『リヴァイアサン』で、自然状態を「万人の万人に対する闘争」ととらえた思想家は？（語末が「ズ」の表記で）",
+  "answer": "ホッブズ",
+  "reading": "ほっぶず",
+  "explanation": "人々は自然権を国家に譲り渡すと考えたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0198",
+  "level": 8,
+  "category": "倫理・法",
+  "prompt": "『統治二論』を著し、政府が信託に反した場合の抵抗権を認めたイギリスの思想家は？",
+  "answer": "ロック",
+  "reading": "ろっく",
+  "explanation": "アメリカ独立宣言に大きな影響を与えたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0199",
+  "level": 8,
+  "category": "倫理・法",
+  "prompt": "『社会契約論』で、人民の一般意志に基づく直接民主制を説いたフランスの思想家は？",
+  "answer": "ルソー",
+  "reading": "るそー",
+  "explanation": "『エミール』では青年期を「第二の誕生」と呼んだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0200",
+  "level": 8,
+  "category": "倫理・法",
+  "prompt": "『法の精神』を著し、三権分立を説いたフランスの思想家は？",
+  "answer": "モンテスキュー",
+  "reading": "もんてすきゅー",
+  "explanation": "アメリカ合衆国憲法に大きな影響を与えたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0201",
+  "level": 9,
+  "category": "憲法",
+  "prompt": "大日本帝国憲法の下で、天皇がもつ陸海軍の最高指揮権は？",
+  "answer": "統帥権",
+  "reading": "とうすいけん",
+  "explanation": "内閣や議会から独立しているとされ、軍部の台頭につながったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0202",
+  "level": 9,
+  "category": "憲法",
+  "prompt": "改正に通常の法律より厳しい手続きが必要とされる憲法は？",
+  "answer": "硬性憲法",
+  "reading": "こうせいけんぽう",
+  "explanation": "日本国憲法もこれにあたるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0203",
+  "level": 9,
+  "category": "人権",
+  "prompt": "2002年に最高裁が、郵便物の事故に対する国の損害賠償責任を制限した規定を違憲とした法律は？",
+  "answer": "郵便法",
+  "reading": "ゆうびんほう",
+  "explanation": "国家賠償請求権を侵害するとされたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0204",
+  "level": 9,
+  "category": "人権",
+  "prompt": "社会権が「国家による自由」と呼ばれるのに対し、自由権は何と呼ばれる？",
+  "answer": "国家からの自由",
+  "reading": "こっかからのじゆう",
+  "explanation": "国家権力の介入を排除することで保障される権利だからだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0205",
+  "level": 9,
+  "category": "国会",
+  "prompt": "政府委員制度を廃止し、党首討論の導入や副大臣の設置などを定めた1999年の法律は？",
+  "answer": "国会審議活性化法",
+  "reading": "こっかいしんぎかっせいかほう",
+  "explanation": "官僚主導から政治主導への転換をめざしたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0206",
+  "level": 9,
+  "category": "内閣",
+  "prompt": "19世紀の自由放任の時代に見られた、国家の役割を国防や治安維持などに限定する国家観を、ラッサールが批判的に呼んだ言葉は？",
+  "answer": "夜警国家",
+  "reading": "やけいこっか",
+  "explanation": "消極国家とも呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0207",
+  "level": 9,
+  "category": "内閣",
+  "prompt": "社会保障の充実などを通じて、国民生活の安定に積極的に関与する20世紀以降の国家は？（「積極国家」ではない呼び名で）",
+  "answer": "福祉国家",
+  "reading": "ふくしこっか",
+  "explanation": "積極国家とも呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0208",
+  "level": 9,
+  "category": "裁判所",
+  "prompt": "裁判によらずに、仲裁や調停などで民事上の紛争を解決する手続きの略称は？（略称をアルファベットで）",
+  "answer": "ADR",
+  "reading": "adr",
+  "explanation": "裁判外紛争解決手続のことだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0209",
+  "level": 9,
+  "category": "選挙・政党",
+  "prompt": "1994年の政治改革以前の衆議院で採用されていた、1つの選挙区から原則3～5人を選ぶ制度は？",
+  "answer": "中選挙区制",
+  "reading": "ちゅうせんきょくせい",
+  "explanation": "同じ政党の候補者どうしが争うことが問題視されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0210",
+  "level": 9,
+  "category": "選挙・政党",
+  "prompt": "参議院の比例代表で2019年から導入された、政党が優先的に当選させたい候補者を個人の得票に関係なく名簿の上位に置ける制度は？",
+  "answer": "特定枠",
+  "reading": "とくていわく",
+  "explanation": "合区で選挙区から立候補できない人の救済策として導入されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0211",
+  "level": 9,
+  "category": "地方自治",
+  "prompt": "地方公共団体で、首長と議員がそれぞれ住民から直接選ばれるしくみは？",
+  "answer": "二元代表制",
+  "reading": "にげんだいひょうせい",
+  "explanation": "国の議院内閣制とは異なるしくみだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0212",
+  "level": 9,
+  "category": "地方自治",
+  "prompt": "都道府県を廃止・再編して、より広い地域をまとめた自治体を設ける構想は？",
+  "answer": "道州制",
+  "reading": "どうしゅうせい",
+  "explanation": "地方分権を進める方法の一つとして議論されてきたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0213",
+  "level": 9,
+  "category": "国際政治",
+  "prompt": "国連海洋法条約で、領海の外側に基線から24海里まで設定でき、通関や出入国管理などの規制ができる水域は？",
+  "answer": "接続水域",
+  "reading": "せつぞくすいいき",
+  "explanation": "領海は基線から12海里までだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0214",
+  "level": 9,
+  "category": "国際政治",
+  "prompt": "海洋に関する国際的なルールを定め、1982年に採択された条約は？（「国連」を含む通称で）",
+  "answer": "国連海洋法条約",
+  "reading": "こくれんかいようほうじょうやく",
+  "explanation": "排他的経済水域などについて定めているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0215",
+  "level": 9,
+  "category": "経済",
+  "prompt": "ある選択をしたとき、選ばなかった選択肢のうち最善のものから得られたはずの利益は？",
+  "answer": "機会費用",
+  "reading": "きかいひよう",
+  "explanation": "トレードオフを考えるときの重要な概念だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0216",
+  "level": 9,
+  "category": "経済",
+  "prompt": "アダム・スミスらの自由放任主義を表すフランス語は？",
+  "answer": "レッセフェール",
+  "reading": "れっせふぇーる",
+  "explanation": "「なすに任せよ」という意味だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0217",
+  "level": 9,
+  "category": "金融",
+  "prompt": "中央銀行が保有する金の量に応じて通貨を発行する制度は？",
+  "answer": "金本位制",
+  "reading": "きんほんいせい",
+  "explanation": "1930年代の世界恐慌を機に各国が離脱したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0218",
+  "level": 9,
+  "category": "金融",
+  "prompt": "金の保有量に関係なく、中央銀行が通貨の発行量を調節する制度は？",
+  "answer": "管理通貨制度",
+  "reading": "かんりつうかせいど",
+  "explanation": "景気に応じた柔軟な金融政策が可能になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0219",
+  "level": 9,
+  "category": "財政",
+  "prompt": "年度の始まりまでに本予算が成立しないとき、必要な経費を一時的に支出するために組まれる予算は？",
+  "answer": "暫定予算",
+  "reading": "ざんていよさん",
+  "explanation": "本予算が成立すると吸収されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0220",
+  "level": 9,
+  "category": "財政",
+  "prompt": "年度の途中で、当初の予算の内容を変更するために組まれる予算は？",
+  "answer": "補正予算",
+  "reading": "ほせいよさん",
+  "explanation": "景気対策や災害対応などのために組まれることが多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0221",
+  "level": 9,
+  "category": "貿易・国際経済",
+  "prompt": "1971年末に固定相場制を再建するため結ばれ、1ドル＝308円とした合意は？",
+  "answer": "スミソニアン協定",
+  "reading": "すみそにあんきょうてい",
+  "explanation": "1973年には主要国が変動相場制に移行したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0222",
+  "level": 9,
+  "category": "労働",
+  "prompt": "労働争議に際して、使用者が工場などを閉鎖して労働者の就労を拒否する行為は？",
+  "answer": "ロックアウト",
+  "reading": "ろっくあうと",
+  "explanation": "使用者側の争議行為だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0223",
+  "level": 9,
+  "category": "社会保障",
+  "prompt": "国民所得に対する、税金と社会保険料の負担の合計の割合は？",
+  "answer": "国民負担率",
+  "reading": "こくみんふたんりつ",
+  "explanation": "日本はヨーロッパ諸国より低めの水準だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0224",
+  "level": 9,
+  "category": "環境",
+  "prompt": "1967年に制定され、1993年に環境基本法に引き継がれた公害対策の基本法は？",
+  "answer": "公害対策基本法",
+  "reading": "こうがいたいさくきほんほう",
+  "explanation": "1970年の「公害国会」で経済との調和条項が削除されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0225",
+  "level": 9,
+  "category": "倫理・法",
+  "prompt": "道具主義を説き、アメリカのプラグマティズムを大成した思想家は？",
+  "answer": "デューイ",
+  "reading": "でゅーい",
+  "explanation": "知識は問題を解決するための道具だと考えたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0226",
+  "level": 10,
+  "category": "憲法",
+  "prompt": "1999年に制定された、日本周辺で日本の平和と安全に重要な影響を与える事態に米軍を後方支援することを定めた法律は？",
+  "answer": "周辺事態法",
+  "reading": "しゅうへんじたいほう",
+  "explanation": "2015年に重要影響事態法へ改められたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0227",
+  "level": 10,
+  "category": "憲法",
+  "prompt": "1992年に制定され、自衛隊の国連平和維持活動への参加を可能にした法律は？（略称部分はアルファベットで、「〜協力法」の形で）",
+  "answer": "PKO協力法",
+  "reading": "pkoきょうりょくほう",
+  "explanation": "最初の派遣先はカンボジアだったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0228",
+  "level": 10,
+  "category": "人権",
+  "prompt": "選挙の定数配分を違憲としながら、選挙を無効にすると混乱が大きいとして選挙自体は有効とする判決の手法は？",
+  "answer": "事情判決",
+  "reading": "じじょうはんけつ",
+  "explanation": "行政事件訴訟法の考え方を応用したものだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0229",
+  "level": 10,
+  "category": "人権",
+  "prompt": "国家公務員の政治的行為の禁止の合憲性が争われ、1974年に最高裁が合憲とした事件は？",
+  "answer": "猿払事件",
+  "reading": "さるふつじけん",
+  "explanation": "北海道の郵便局員が選挙ポスターを掲示したことが発端だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0230",
+  "level": 10,
+  "category": "人権",
+  "prompt": "大学構内の学生劇団の公演に私服警察官が入り込んだことから、学問の自由と大学の自治が争われた事件は？（大学名を含めて）",
+  "answer": "東大ポポロ事件",
+  "reading": "とうだいぽぽろじけん",
+  "explanation": "最高裁は学生の集会を大学の自治の対象外としたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0231",
+  "level": 10,
+  "category": "人権",
+  "prompt": "市が体育館の起工式で神式の儀式に公金を支出したことが政教分離に反するかが争われ、最高裁が合憲とした訴訟は？",
+  "answer": "津地鎮祭訴訟",
+  "reading": "つじちんさいそしょう",
+  "explanation": "1977年の判決で目的効果基準が示されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0232",
+  "level": 10,
+  "category": "国会",
+  "prompt": "議員が長時間の演説などを行って、議事の進行を意図的に遅らせる戦術は？",
+  "answer": "フィリバスター",
+  "reading": "ふぃりばすたー",
+  "explanation": "議事妨害とも呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0233",
+  "level": 10,
+  "category": "内閣",
+  "prompt": "外交・安全保障政策の司令塔として、2013年に内閣に設置された会議は？",
+  "answer": "国家安全保障会議",
+  "reading": "こっかあんぜんほしょうかいぎ",
+  "explanation": "日本版NSCとも呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0234",
+  "level": 10,
+  "category": "裁判所",
+  "prompt": "裁判員裁判で、裁判官と裁判員が有罪か無罪か、どのような刑にするかを話し合うことは？",
+  "answer": "評議",
+  "reading": "ひょうぎ",
+  "explanation": "意見がまとまらないときは多数決で決めるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0235",
+  "level": 10,
+  "category": "裁判所",
+  "prompt": "検察審査会が2度にわたって起訴すべきと議決した場合に、裁判所が指定した弁護士によって行われる起訴は？",
+  "answer": "強制起訴",
+  "reading": "きょうせいきそ",
+  "explanation": "2009年から法的拘束力のある議決が導入されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0236",
+  "level": 10,
+  "category": "選挙・政党",
+  "prompt": "衆議院の議席を人口比に応じて都道府県に配分するため、2022年以降の区割りで導入された計算方式は？",
+  "answer": "アダムズ方式",
+  "reading": "あだむずほうしき",
+  "explanation": "アメリカの第6代大統領が考案したとされる方式だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0237",
+  "level": 10,
+  "category": "選挙・政党",
+  "prompt": "2016年の参議院議員選挙から導入された、人口の少ない隣接する2つの県を1つの選挙区にすることは？",
+  "answer": "合区",
+  "reading": "ごうく",
+  "explanation": "鳥取県と島根県、徳島県と高知県で行われているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0238",
+  "level": 10,
+  "category": "地方自治",
+  "prompt": "地方公共団体財政健全化法で、財政状況が悪化し自主的な改善努力が求められる段階の団体は？",
+  "answer": "早期健全化団体",
+  "reading": "そうきけんぜんかだんたい",
+  "explanation": "さらに悪化すると財政再生団体になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0239",
+  "level": 10,
+  "category": "国際政治",
+  "prompt": "1928年に結ばれ、国家の政策の手段としての戦争を放棄することを定めた条約は？（漢字で）",
+  "answer": "不戦条約",
+  "reading": "ふせんじょうやく",
+  "explanation": "ケロッグ＝ブリアン条約とも呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0240",
+  "level": 10,
+  "category": "国際政治",
+  "prompt": "1967年に発効した、宇宙空間の探査と利用の自由や天体の領有禁止などを定めた条約は？",
+  "answer": "宇宙条約",
+  "reading": "うちゅうじょうやく",
+  "explanation": "宇宙空間はどの国の主権も及ばない領域とされているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0241",
+  "level": 10,
+  "category": "国際政治",
+  "prompt": "1959年に採択された、特定の大陸について領有権の主張を凍結し、平和利用を定めた条約は？",
+  "answer": "南極条約",
+  "reading": "なんきょくじょうやく",
+  "explanation": "軍事利用や核実験も禁止しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0242",
+  "level": 10,
+  "category": "国際政治",
+  "prompt": "カナダ政府やNGOの主導で1997年に採択された、特定の兵器を全面的に禁止する条約は？（「オタワ条約」ではない、漢字10字の名称で）",
+  "answer": "対人地雷全面禁止条約",
+  "reading": "たいじんじらいぜんめんきんしじょうやく",
+  "explanation": "オタワ条約とも呼ばれ、NGOの連合体はノーベル平和賞を受賞したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0243",
+  "level": 10,
+  "category": "貿易・国際経済",
+  "prompt": "1974年の国連資源特別総会で樹立宣言が採択された、途上国の天然資源に対する恒久主権などを盛り込んだ経済秩序は？（漢字で）",
+  "answer": "新国際経済秩序",
+  "reading": "しんこくさいけいざいちつじょ",
+  "explanation": "NIEOとも呼ばれ、資源ナショナリズムの高まりを反映しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0244",
+  "level": 10,
+  "category": "経済",
+  "prompt": "ケインズが1936年に著し、有効需要の原理を説いた主著は？（略さない書名で）",
+  "answer": "雇用・利子および貨幣の一般理論",
+  "reading": "こようりしおよびかへいのいっぱんりろん",
+  "explanation": "政府が積極的に経済に介入する根拠となったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0245",
+  "level": 10,
+  "category": "経済",
+  "prompt": "他の人の消費のしかたに影響されて、自分の消費が増えることを指す言葉は？",
+  "answer": "デモンストレーション効果",
+  "reading": "でもんすとれーしょんこうか",
+  "explanation": "デューゼンベリーが指摘したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0246",
+  "level": 10,
+  "category": "経済",
+  "prompt": "価格が変化したときに、需要量がどれだけ変化するかの度合いは？",
+  "answer": "需要の価格弾力性",
+  "reading": "じゅようのかかくだんりょくせい",
+  "explanation": "生活必需品は小さく、ぜいたく品は大きい傾向があるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0247",
+  "level": 10,
+  "category": "環境",
+  "prompt": "製品の原料の採取から生産、使用、廃棄までの全過程で、環境への負荷を評価する手法は？（カタカナで）",
+  "answer": "ライフサイクルアセスメント",
+  "reading": "らいふさいくるあせすめんと",
+  "explanation": "LCAとも呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0248",
+  "level": 10,
+  "category": "倫理・法",
+  "prompt": "『正義論』で「公正としての正義」を説き、最も不遇な人々の利益を最大化する格差原理を示した哲学者は？",
+  "answer": "ロールズ",
+  "reading": "ろーるず",
+  "explanation": "無知のヴェールという思考実験でも知られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0249",
+  "level": 10,
+  "category": "倫理・法",
+  "prompt": "人々が実際に選べる生き方の幅である「潜在能力（ケイパビリティ）」を広げることを重視したインドの経済学者は？（フルネームで）",
+  "answer": "アマルティア・セン",
+  "reading": "あまるてぃあせん",
+  "explanation": "1998年にノーベル経済学賞を受賞したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kokyo-0250",
+  "level": 10,
+  "category": "倫理・法",
+  "prompt": "『菊と刀』で、日本文化を「恥の文化」と特徴づけたアメリカの文化人類学者は？（姓のみで）",
+  "answer": "ベネディクト",
+  "reading": "べねでぃくと",
+  "explanation": "西洋の「罪の文化」と対比したよ。",
+  "review": "verified"
+ }
+]
