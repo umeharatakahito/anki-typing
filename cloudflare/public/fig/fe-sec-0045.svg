@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="fesec0045mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker><marker id="fesec0045md32f2f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d32f2f"/></marker></defs>
+<text x="130" y="30" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >盗んだ値</text>
+<rect x="40" y="50" width="180" height="40" rx="4" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<text x="130" y="70" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >5f4d…cc99</text>
+<line x1="222" y1="70" x2="280" y2="110" stroke="#f57c00" stroke-width="3" marker-end="url(#fesec0045mf57c00)"/>
+<rect x="280" y="40" width="240" height="190" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<circle cx="520" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="400" y="58" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >前もって計算しておいた対応表</text>
+<rect x="295" y="72" width="110" height="34" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="350" y="90" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >値</text>
+<rect x="405" y="72" width="100" height="34" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="455" y="90" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >元の文字列</text>
+<rect x="295" y="106" width="110" height="34" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="350" y="124" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >0cc1…a8b2</text>
+<rect x="405" y="106" width="100" height="34" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="455" y="124" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >abc123</text>
+<rect x="295" y="140" width="110" height="34" rx="0" fill="#fff9c4" stroke="#607d8b" stroke-width="1.2" />
+<text x="350" y="158" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >5f4d…cc99</text>
+<rect x="405" y="140" width="100" height="34" rx="0" fill="#fff9c4" stroke="#607d8b" stroke-width="1.2" />
+<text x="455" y="158" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >password</text>
+<rect x="295" y="174" width="110" height="34" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="350" y="192" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >e10a…883e</text>
+<rect x="405" y="174" width="100" height="34" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="455" y="192" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >123456</text>
+<line x1="400" y1="232" x2="400" y2="262" stroke="#d32f2f" stroke-width="2.5" marker-end="url(#fesec0045md32f2f)"/>
+<text x="400" y="282" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >「password」と判明</text>
+<text x="130" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >計算しなおさず</text>
+<text x="130" y="170" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >表を引くだけ</text>
+</svg>

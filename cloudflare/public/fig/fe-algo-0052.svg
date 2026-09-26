@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="fealgo0052m90a4ae" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#90a4ae"/></marker><marker id="fealgo0052mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<line x1="77.3649" y1="130.077" x2="180.899" y2="70.9151" stroke="#90a4ae" stroke-width="2" marker-end="url(#fealgo0052m90a4ae)"/>
+<text x="136.946" y="112.155" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >4</text>
+<line x1="77.3649" y1="149.923" x2="180.899" y2="209.085" stroke="#f57c00" stroke-width="3.5" marker-end="url(#fealgo0052mf57c00)"/>
+<text x="123.054" y="192.155" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2</text>
+<line x1="200" y1="200" x2="200" y2="82" stroke="#f57c00" stroke-width="3.5" marker-end="url(#fealgo0052mf57c00)"/>
+<text x="214" y="140" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >-3</text>
+<line x1="220" y1="60" x2="338" y2="60" stroke="#f57c00" stroke-width="3.5" marker-end="url(#fealgo0052mf57c00)"/>
+<text x="280" y="74" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >3</text>
+<line x1="220" y1="220" x2="338" y2="220" stroke="#90a4ae" stroke-width="2" marker-end="url(#fealgo0052m90a4ae)"/>
+<text x="280" y="234" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >6</text>
+<line x1="376.641" y1="71.094" x2="461.695" y2="127.797" stroke="#f57c00" stroke-width="3.5" marker-end="url(#fealgo0052mf57c00)"/>
+<text x="412.234" y="111.649" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2</text>
+<line x1="376.641" y1="208.906" x2="461.695" y2="152.203" stroke="#90a4ae" stroke-width="2" marker-end="url(#fealgo0052m90a4ae)"/>
+<text x="427.766" y="191.649" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >3</text>
+<line x1="360" y1="80" x2="360" y2="198" stroke="#90a4ae" stroke-width="2" marker-end="url(#fealgo0052m90a4ae)"/>
+<text x="346" y="140" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1</text>
+<circle cx="60" cy="140" r="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="60" y="140" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >S</text>
+<rect x="44" y="162" width="32" height="20" rx="3" fill="#fff9c4" stroke="#f9a825" stroke-width="1" />
+<text x="60" y="172" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >0</text>
+<circle cx="200" cy="60" r="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="200" y="60" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >A</text>
+<rect x="184" y="82" width="32" height="20" rx="3" fill="#fff9c4" stroke="#f9a825" stroke-width="1" />
+<text x="200" y="92" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >-1</text>
+<circle cx="200" cy="220" r="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="200" y="220" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >B</text>
+<rect x="184" y="242" width="32" height="20" rx="3" fill="#fff9c4" stroke="#f9a825" stroke-width="1" />
+<text x="200" y="252" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >2</text>
+<circle cx="360" cy="60" r="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="360" y="60" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >C</text>
+<rect x="344" y="82" width="32" height="20" rx="3" fill="#fff9c4" stroke="#f9a825" stroke-width="1" />
+<text x="360" y="92" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >2</text>
+<circle cx="480" cy="140" r="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="480" y="140" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >G</text>
+<rect x="464" y="162" width="32" height="20" rx="3" fill="#fff9c4" stroke="#f9a825" stroke-width="1" />
+<text x="480" y="172" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >4</text>
+<circle cx="360" cy="220" r="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="360" y="220" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >D</text>
+<rect x="344" y="242" width="32" height="20" rx="3" fill="#fff9c4" stroke="#f9a825" stroke-width="1" />
+<text x="360" y="252" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >3</text>
+<circle cx="510" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="285" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >負の重み（−3）があっても、すべての辺の緩和を繰り返す</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<defs><marker id="fehw0041m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="fehw0041m388e3c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#388e3c"/></marker><marker id="fehw0041m90a4ae" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#90a4ae"/></marker></defs>
+<rect x="20" y="110" width="110" height="50" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="75" y="135" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >仮想アドレス</text>
+<line x1="132" y1="135" x2="180" y2="135" stroke="#37474f" stroke-width="2" marker-end="url(#fehw0041m37474f)"/>
+<rect x="180" y="80" width="160" height="110" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="260" y="98" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >変換結果の一時置き場</text>
+<rect x="205" y="110" width="55" height="24" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="232.5" y="123" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >仮想</text>
+<rect x="260" y="110" width="55" height="24" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="287.5" y="123" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >実</text>
+<rect x="205" y="134" width="55" height="24" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="232.5" y="147" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >12</text>
+<rect x="260" y="134" width="55" height="24" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="287.5" y="147" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >5</text>
+<rect x="205" y="158" width="55" height="24" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="232.5" y="171" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >7</text>
+<rect x="260" y="158" width="55" height="24" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="287.5" y="171" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >2</text>
+<circle cx="340" cy="80" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="340" y="81" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="342" y1="135" x2="390" y2="135" stroke="#388e3c" stroke-width="2.5" marker-end="url(#fehw0041m388e3c)"/>
+<text x="365" y="120" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ヒット</text>
+<rect x="390" y="110" width="130" height="50" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="455" y="135" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >実アドレス</text>
+<path d="M260,192 Q260,240 330,240 L420,240 L452,164" fill="none" stroke="#90a4ae" stroke-width="2" marker-end="url(#fehw0041m90a4ae)" stroke-dasharray="5 4"/>
+<text x="360" y="262" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >なければ主記憶のページ表を見る（遅い）</text>
+</svg>

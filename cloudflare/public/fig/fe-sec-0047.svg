@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<rect x="40" y="90" width="120" height="120" rx="8" fill="#eceff1" stroke="#37474f" stroke-width="2.5" />
+<text x="100" y="140" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >ICカード</text>
+<text x="100" y="160" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >（暗号処理中）</text>
+<line x1="162" y1="150" x2="220" y2="150" stroke="#f57c00" stroke-width="2.5"/>
+<rect x="220" y="60" width="290" height="170" rx="6" fill="#fff" stroke="#f57c00" stroke-width="2.5" />
+<text x="365" y="78" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >外から観測した消費電力</text>
+<polyline points="230,139 235,136 240,143 245,147 250,134 255,132 260,147 265,165 270,164 275,163 280,172 285,172 290,169 295,161 300,139 305,136 310,148 315,144 320,132 325,134 330,137 335,158 340,166 345,157 350,165 355,172 360,169 365,170 370,144 375,146 380,136 385,143 390,135 395,133 400,136 405,172 410,163 415,165 420,170 425,166 430,170 435,173 440,144 445,143 450,145 455,139 460,142 465,132 470,140 475,162 480,167 485,160 490,163 495,165 500,166 505,160" fill="none" stroke="#1976d2" stroke-width="2" stroke-linejoin="round" />
+<text x="365" y="216" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >処理時間・電力の変化</text>
+<circle cx="510" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="270" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >鍵のビットによる違いから鍵を推測</text>
+</svg>

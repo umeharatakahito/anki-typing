@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<rect x="60" y="240" width="420" height="36" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="270" y="258" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >ハードウェア（物理サーバ1台）</text>
+<rect x="60" y="196" width="420" height="36" rx="6" fill="#fff9c4" stroke="#f9a825" stroke-width="2" />
+<text x="270" y="214" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >制御ソフト</text>
+<rect x="60" y="50" width="130" height="140" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="125" y="66" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >マシン1</text>
+<rect x="70" y="80" width="110" height="40" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="125" y="100" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >アプリ</text>
+<rect x="70" y="130" width="110" height="40" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="125" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >Windows</text>
+<rect x="205" y="50" width="130" height="140" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="270" y="66" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >マシン2</text>
+<rect x="215" y="80" width="110" height="40" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="270" y="100" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >アプリ</text>
+<rect x="215" y="130" width="110" height="40" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="270" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >Linux</text>
+<rect x="350" y="50" width="130" height="140" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="415" y="66" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >マシン3</text>
+<rect x="360" y="80" width="110" height="40" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="415" y="100" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >アプリ</text>
+<rect x="360" y="130" width="110" height="40" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="415" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >Linux</text>
+<circle cx="480" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="480" y="51" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="26" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1台の上で複数のOSを同時に動かす</text>
+</svg>

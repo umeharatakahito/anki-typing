@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<defs><marker id="itpasscmp0064mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="40" y="60" width="180" height="150" rx="8" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="130" y="230" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >物理サーバ1</text>
+<rect x="320" y="60" width="180" height="150" rx="8" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="410" y="230" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >物理サーバ2</text>
+<rect x="60" y="90" width="140" height="90" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="130" y="135" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >仮想マシン</text>
+<rect x="340" y="90" width="140" height="90" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="410" y="125" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >仮想マシン</text>
+<text x="410" y="150" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >稼働したまま</text>
+<path d="M200,120 Q270,90 336,120" fill="none" stroke="#f57c00" stroke-width="4" marker-end="url(#itpasscmp0064mf57c00)"/>
+<circle cx="270" cy="70" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="270" y="71" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="265" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >利用者はサービスが止まったことに気づかない</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 230" width="540" height="230" font-family="sans-serif">
+<rect width="540" height="230" fill="#fff"/>
+<defs><marker id="genairisk0071m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<path d="M30,74 L30,136 A50,14 0 0 0 130,136 L130,74" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<ellipse cx="80" cy="74" rx="50" ry="14" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="80" y="112" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >個人データ</text>
+<line x1="132" y1="105" x2="180" y2="105" stroke="#37474f" stroke-width="2" marker-end="url(#genairisk0071m37474f)"/>
+<rect x="180" y="80" width="110" height="50" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="235" y="98.4" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >集計：平均年収</text>
+<text x="235" y="111.6" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >= 512万円</text>
+<text x="320" y="105" font-size="24" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＋</text>
+<rect x="345" y="80" width="80" height="50" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="385" y="105" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >計算した雑音</text>
+<circle cx="425" cy="80" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="425" y="81" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="427" y1="105" x2="460" y2="105" stroke="#37474f" stroke-width="2" marker-end="url(#genairisk0071m37474f)"/>
+<text x="495" y="105" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >509万円</text>
+<text x="270" y="180" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1人が入っても抜けても結果がほぼ変わらない → 個人を特定されにくい</text>
+</svg>

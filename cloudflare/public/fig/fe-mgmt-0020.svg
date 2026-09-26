@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="femgmt0020m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<circle cx="70" cy="77.4" r="8.1" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M56.5,106.2 Q56.5,88.2 70,88.2 Q83.5,88.2 83.5,106.2 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="70" y="118.8" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Aさん</text>
+<rect x="15" y="150" width="110" height="40" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="70" y="170" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >申請</text>
+<circle cx="205" cy="77.4" r="8.1" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M191.5,106.2 Q191.5,88.2 205,88.2 Q218.5,88.2 218.5,106.2 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="205" y="118.8" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Bさん</text>
+<rect x="150" y="150" width="110" height="40" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="205" y="170" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >承認</text>
+<line x1="127" y1="170" x2="148" y2="170" stroke="#37474f" stroke-width="2" marker-end="url(#femgmt0020m37474f)"/>
+<circle cx="340" cy="77.4" r="8.1" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M326.5,106.2 Q326.5,88.2 340,88.2 Q353.5,88.2 353.5,106.2 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="340" y="118.8" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Cさん</text>
+<rect x="285" y="150" width="110" height="40" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="340" y="170" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >記録</text>
+<line x1="262" y1="170" x2="283" y2="170" stroke="#37474f" stroke-width="2" marker-end="url(#femgmt0020m37474f)"/>
+<circle cx="475" cy="77.4" r="8.1" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M461.5,106.2 Q461.5,88.2 475,88.2 Q488.5,88.2 488.5,106.2 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="475" y="118.8" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Dさん</text>
+<rect x="420" y="150" width="110" height="40" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="475" y="170" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >現物の保管</text>
+<line x1="397" y1="170" x2="418" y2="170" stroke="#37474f" stroke-width="2" marker-end="url(#femgmt0020m37474f)"/>
+<circle cx="510" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="230" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >一連の業務を別々の人に分けて、不正や誤りを防ぐ</text>
+</svg>

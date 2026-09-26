@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<rect x="40" y="30" width="220" height="90" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="150" y="56" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >政治（Politics）</text>
+<text x="150" y="88" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >法改正・規制</text>
+<rect x="280" y="30" width="220" height="90" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="390" y="56" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >経済（Economy）</text>
+<text x="390" y="88" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >景気・為替</text>
+<rect x="40" y="140" width="220" height="90" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="150" y="166" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >社会（Society）</text>
+<text x="150" y="198" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >人口・流行</text>
+<rect x="280" y="140" width="220" height="90" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="390" y="166" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >技術（Technology）</text>
+<text x="390" y="198" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >新技術</text>
+<circle cx="520" cy="20" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="21" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="260" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >自社を取り巻く大きな流れ（マクロ環境）を捉える</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="itpassdev0013m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<text x="70" y="150" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >入力</text>
+<line x1="95" y1="150" x2="175" y2="150" stroke="#37474f" stroke-width="2.5" marker-end="url(#itpassdev0013m37474f)"/>
+<rect x="180" y="50" width="180" height="200" rx="8" fill="#37474f" stroke="#f57c00" stroke-width="3.5" />
+<text x="270" y="150" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold" >中は見ない</text>
+<circle cx="360" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="360" y="51" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="365" y1="150" x2="445" y2="150" stroke="#37474f" stroke-width="2.5" marker-end="url(#itpassdev0013m37474f)"/>
+<text x="475" y="150" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >出力</text>
+<text x="270" y="280" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >仕様どおりの入力と出力の関係だけを確かめる</text>
+</svg>

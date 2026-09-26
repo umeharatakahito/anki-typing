@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="genaigen0073m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="70" y1="220" x2="490" y2="220" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0073m37474f)"/>
+<line x1="70" y1="220" x2="70" y2="20" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0073m37474f)"/>
+<text x="488" y="240" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >計算量・データ量・モデルの大きさ（対数）</text>
+<text x="78" y="12" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >誤差（対数）</text>
+<line x1="80" y1="60" x2="470" y2="200" stroke="#f57c00" stroke-width="3.5"/>
+<circle cx="100" cy="67.1795" r="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<circle cx="170" cy="92.3077" r="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<circle cx="240" cy="117.436" r="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<circle cx="310" cy="142.564" r="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<circle cx="380" cy="167.692" r="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<circle cx="450" cy="192.821" r="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="300" y="90" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >増やすほど予測できる形で性能が上がる</text>
+<circle cx="500" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

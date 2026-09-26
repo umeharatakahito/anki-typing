@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<rect x="120" y="30" width="300" height="45" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="52.5" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >ビジネス（業務）</text>
+<rect x="120" y="85" width="300" height="45" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="107.5" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >データ</text>
+<rect x="120" y="140" width="300" height="45" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="162.5" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >アプリケーション</text>
+<rect x="120" y="195" width="300" height="45" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="217.5" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >テクノロジ</text>
+<rect x="110" y="22" width="320" height="222" rx="8" fill="none" stroke="#f57c00" stroke-width="3" />
+<circle cx="430" cy="22" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="430" y="23" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="265" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >組織全体の業務とシステムを4つの体系で整理し全体最適化</text>
+</svg>

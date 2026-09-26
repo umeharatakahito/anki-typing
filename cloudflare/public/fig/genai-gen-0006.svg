@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<rect x="40" y="60" width="48" height="36" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="64" y="78" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >今日</text>
+<rect x="94" y="60" width="33" height="36" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="110.5" y="78" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >は</text>
+<rect x="133" y="60" width="48" height="36" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="157" y="78" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >天気</text>
+<rect x="187" y="60" width="33" height="36" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="203.5" y="78" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >が</text>
+<rect x="250" y="60" width="60" height="36" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="280" y="78" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<circle cx="310" cy="58" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="310" y="59" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="330" y="132" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >良い</text>
+<rect x="340" y="120" width="165" height="22" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.2" />
+<text x="511" y="132" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >55%</text>
+<text x="330" y="162" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >悪い</text>
+<rect x="340" y="150" width="75" height="22" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.2" />
+<text x="421" y="162" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >25%</text>
+<text x="330" y="192" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >いい</text>
+<rect x="340" y="180" width="45" height="22" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.2" />
+<text x="391" y="192" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >15%</text>
+<text x="330" y="222" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >猫</text>
+<rect x="340" y="210" width="3" height="22" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.2" />
+<text x="349" y="222" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1%</text>
+<text x="170" y="150" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >続きの候補ごとに確率を計算し</text>
+<text x="170" y="170" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1つ選ぶ → 付け足す → くり返す</text>
+</svg>

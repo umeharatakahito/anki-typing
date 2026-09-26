@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="fehw0036mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker><marker id="fehw0036m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="30" y="110" width="110" height="50" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="85" y="135" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >命令：×2</text>
+<circle cx="140" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="140" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="220" y="40" width="60" height="36" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="250" y="58" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >3</text>
+<line x1="142" y1="135" x2="216" y2="58" stroke="#f57c00" stroke-width="2" marker-end="url(#fehw0036mf57c00)"/>
+<line x1="282" y1="58" x2="340" y2="58" stroke="#37474f" stroke-width="2" marker-end="url(#fehw0036m37474f)"/>
+<rect x="340" y="40" width="60" height="36" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="370" y="58" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >6</text>
+<rect x="220" y="90" width="60" height="36" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="250" y="108" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >5</text>
+<line x1="142" y1="135" x2="216" y2="108" stroke="#f57c00" stroke-width="2" marker-end="url(#fehw0036mf57c00)"/>
+<line x1="282" y1="108" x2="340" y2="108" stroke="#37474f" stroke-width="2" marker-end="url(#fehw0036m37474f)"/>
+<rect x="340" y="90" width="60" height="36" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="370" y="108" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >10</text>
+<rect x="220" y="140" width="60" height="36" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="250" y="158" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >7</text>
+<line x1="142" y1="135" x2="216" y2="158" stroke="#f57c00" stroke-width="2" marker-end="url(#fehw0036mf57c00)"/>
+<line x1="282" y1="158" x2="340" y2="158" stroke="#37474f" stroke-width="2" marker-end="url(#fehw0036m37474f)"/>
+<rect x="340" y="140" width="60" height="36" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="370" y="158" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >14</text>
+<rect x="220" y="190" width="60" height="36" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="250" y="208" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >9</text>
+<line x1="142" y1="135" x2="216" y2="208" stroke="#f57c00" stroke-width="2" marker-end="url(#fehw0036mf57c00)"/>
+<line x1="282" y1="208" x2="340" y2="208" stroke="#37474f" stroke-width="2" marker-end="url(#fehw0036m37474f)"/>
+<rect x="340" y="190" width="60" height="36" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="370" y="208" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >18</text>
+<text x="470" y="130" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1つの命令で</text>
+<text x="470" y="148" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >複数データを</text>
+<text x="470" y="166" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >同時に処理</text>
+</svg>

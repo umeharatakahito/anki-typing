@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 255" width="540" height="255" font-family="sans-serif">
+<rect width="540" height="255" fill="#fff"/>
+<circle cx="270" cy="125" r="90" fill="#e3f2fd" stroke="#1976d2" stroke-width="3" fill-opacity="0.4"/>
+<circle cx="270" cy="126" r="9" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M255,158 Q255,138 270,138 Q285,138 285,158 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="270" y="172" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >利用者</text>
+<rect x="200" y="78" width="40" height="24" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<rect x="300" y="78" width="40" height="24" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<rect x="195" y="148" width="40" height="24" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<rect x="305" y="148" width="40" height="24" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<rect x="58" y="48" width="44" height="24" rx="4" fill="#eee" stroke="#bbb" stroke-width="1.5" />
+<rect x="438" y="58" width="44" height="24" rx="4" fill="#eee" stroke="#bbb" stroke-width="1.5" />
+<rect x="48" y="188" width="44" height="24" rx="4" fill="#eee" stroke="#bbb" stroke-width="1.5" />
+<rect x="448" y="178" width="44" height="24" rx="4" fill="#eee" stroke="#bbb" stroke-width="1.5" />
+<text x="270" y="240" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >おすすめで好みの情報ばかり → 泡の中のように視野が狭まる</text>
+<circle cx="360" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="360" y="51" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

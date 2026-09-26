@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 250" width="560" height="250" font-family="sans-serif">
+<rect width="560" height="250" fill="#fff"/>
+<rect x="20" y="80" width="72.8" height="72.8" rx="4" fill="#fff" stroke="#90a4ae" stroke-width="1.5" />
+<polygon points="35.6,111.2 40.8,93 51.2,106" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="77.2,111.2 72,93 61.6,106" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<circle cx="56.4" cy="121.6" r="19.5" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" />
+<circle cx="48.6" cy="119" r="2.6" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="64.2" cy="119" r="2.6" fill="#333" stroke="#333" stroke-width="0" />
+<rect x="120" y="70" width="50" height="50" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<rect x="126" y="76" width="50" height="50" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<rect x="132" y="82" width="50" height="50" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<text x="150" y="170" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >畳み込み</text>
+<rect x="210" y="60" width="36" height="36" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<rect x="216" y="66" width="36" height="36" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<rect x="222" y="72" width="36" height="36" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<text x="240" y="170" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >プーリング</text>
+<rect x="300" y="70" width="50" height="50" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<rect x="306" y="76" width="50" height="50" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<rect x="312" y="82" width="50" height="50" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<text x="330" y="170" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >畳み込み</text>
+<rect x="390" y="60" width="36" height="36" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<rect x="396" y="66" width="36" height="36" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<rect x="402" y="72" width="36" height="36" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<text x="420" y="170" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >プーリング</text>
+<line x1="480" y1="60" x2="530" y2="83" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="480" y1="60" x2="530" y2="127" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="480" y1="90" x2="530" y2="83" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="480" y1="90" x2="530" y2="127" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="480" y1="120" x2="530" y2="83" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="480" y1="120" x2="530" y2="127" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="480" y1="150" x2="530" y2="83" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="480" y1="150" x2="530" y2="127" stroke="#b0bec5" stroke-width="1.2"/>
+<circle cx="480" cy="60" r="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="480" cy="90" r="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="480" cy="120" r="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="480" cy="150" r="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="530" cy="83" r="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="530" cy="127" r="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="505" y="170" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >全結合</text>
+<text x="280" y="220" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >画像から特徴を取り出して認識</text>
+<circle cx="540" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="540" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

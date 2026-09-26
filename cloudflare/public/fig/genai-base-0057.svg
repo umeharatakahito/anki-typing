@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" width="540" height="270" font-family="sans-serif">
+<rect width="540" height="270" fill="#fff"/>
+<defs><marker id="genaibase0057m1976d2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1976d2"/></marker><marker id="genaibase0057mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<line x1="80" y1="81" x2="186.667" y2="59" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="80" y1="81" x2="186.667" y2="103" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="80" y1="81" x2="186.667" y2="147" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="80" y1="81" x2="186.667" y2="191" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="80" y1="125" x2="186.667" y2="59" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="80" y1="125" x2="186.667" y2="103" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="80" y1="125" x2="186.667" y2="147" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="80" y1="125" x2="186.667" y2="191" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="80" y1="169" x2="186.667" y2="59" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="80" y1="169" x2="186.667" y2="103" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="80" y1="169" x2="186.667" y2="147" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="80" y1="169" x2="186.667" y2="191" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="186.667" y1="59" x2="293.333" y2="59" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="186.667" y1="59" x2="293.333" y2="103" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="186.667" y1="59" x2="293.333" y2="147" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="186.667" y1="59" x2="293.333" y2="191" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="186.667" y1="103" x2="293.333" y2="59" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="186.667" y1="103" x2="293.333" y2="103" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="186.667" y1="103" x2="293.333" y2="147" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="186.667" y1="103" x2="293.333" y2="191" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="186.667" y1="147" x2="293.333" y2="59" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="186.667" y1="147" x2="293.333" y2="103" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="186.667" y1="147" x2="293.333" y2="147" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="186.667" y1="147" x2="293.333" y2="191" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="186.667" y1="191" x2="293.333" y2="59" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="186.667" y1="191" x2="293.333" y2="103" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="186.667" y1="191" x2="293.333" y2="147" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="186.667" y1="191" x2="293.333" y2="191" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="293.333" y1="59" x2="400" y2="103" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="293.333" y1="59" x2="400" y2="147" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="293.333" y1="103" x2="400" y2="103" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="293.333" y1="103" x2="400" y2="147" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="293.333" y1="147" x2="400" y2="103" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="293.333" y1="147" x2="400" y2="147" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="293.333" y1="191" x2="400" y2="103" stroke="#b0bec5" stroke-width="1.2"/>
+<line x1="293.333" y1="191" x2="400" y2="147" stroke="#b0bec5" stroke-width="1.2"/>
+<circle cx="80" cy="81" r="11" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="80" cy="125" r="11" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="80" cy="169" r="11" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="186.667" cy="59" r="11" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="186.667" cy="103" r="11" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="186.667" cy="147" r="11" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="186.667" cy="191" r="11" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="293.333" cy="59" r="11" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="293.333" cy="103" r="11" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="293.333" cy="147" r="11" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="293.333" cy="191" r="11" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="400" cy="103" r="11" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="400" cy="147" r="11" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<path d="M150,30 L400,30" fill="none" stroke="#1976d2" stroke-width="2.5" marker-end="url(#genaibase0057m1976d2)"/>
+<text x="270" y="18" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >順方向：予測</text>
+<rect x="430" y="100" width="90" height="50" rx="6" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<text x="475" y="125" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >ずれ</text>
+<path d="M420,235 L90,235" fill="none" stroke="#f57c00" stroke-width="4" marker-end="url(#genaibase0057mf57c00)"/>
+<text x="270" y="255" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ずれを出力側から入力側へさかのぼらせ、各重みの直し方を求める</text>
+<circle cx="90" cy="210" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="90" y="211" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

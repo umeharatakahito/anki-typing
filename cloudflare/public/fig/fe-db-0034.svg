@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" width="540" height="270" font-family="sans-serif">
+<rect width="540" height="270" fill="#fff"/>
+<path d="M230,51.2 L230,98.8 A40,11.2 0 0 0 310,98.8 L310,51.2" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<ellipse cx="270" cy="51.2" rx="40" ry="11.2" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="80.6" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >データX</text>
+<circle cx="80" cy="66" r="9" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M65,98 Q65,78 80,78 Q95,78 95,98 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="80" y="112" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >T1</text>
+<text x="80" y="128" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >更新中</text>
+<line x1="104" y1="75" x2="226" y2="75" stroke="#37474f" stroke-width="2.5"/>
+<rect x="240" y="118" width="60" height="40" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<path d="M263,132 L263,124 A7,7 0 0 1 277,124 L277,132" fill="none" stroke="#f57c00" stroke-width="2.5" />
+<rect x="259" y="131" width="22" height="17" rx="2" fill="#fff" stroke="#f57c00" stroke-width="2" />
+<circle cx="270" cy="139" r="2.2" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="300" cy="118" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="119" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<circle cx="470" cy="47.4" r="8.1" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M456.5,76.2 Q456.5,58.2 470,58.2 Q483.5,58.2 483.5,76.2 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="470" y="94" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >T2：読みたい</text>
+<line x1="446" y1="60" x2="314" y2="90" stroke="#bbb" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="372" y1="67" x2="388" y2="83" stroke="#d32f2f" stroke-width="3.5"/>
+<line x1="372" y1="83" x2="388" y2="67" stroke="#d32f2f" stroke-width="3.5"/>
+<circle cx="470" cy="157.4" r="8.1" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M456.5,186.2 Q456.5,168.2 470,168.2 Q483.5,168.2 483.5,186.2 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="470" y="204" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >T3：書きたい</text>
+<line x1="446" y1="170" x2="314" y2="90" stroke="#bbb" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="372" y1="122" x2="388" y2="138" stroke="#d32f2f" stroke-width="3.5"/>
+<line x1="372" y1="138" x2="388" y2="122" stroke="#d32f2f" stroke-width="3.5"/>
+<text x="270" y="250" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >読み取りも書き込みも許さない</text>
+</svg>

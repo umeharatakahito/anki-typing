@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" width="540" height="270" font-family="sans-serif">
+<rect width="540" height="270" fill="#fff"/>
+<defs><marker id="fealgo0032mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<line x1="180" y1="50" x2="110" y2="120" stroke="#37474f" stroke-width="2"/>
+<line x1="180" y1="50" x2="250" y2="120" stroke="#37474f" stroke-width="2"/>
+<line x1="110" y1="120" x2="70" y2="190" stroke="#37474f" stroke-width="2"/>
+<line x1="110" y1="120" x2="150" y2="190" stroke="#37474f" stroke-width="2"/>
+<line x1="250" y1="120" x2="220" y2="190" stroke="#37474f" stroke-width="2"/>
+<circle cx="180" cy="50" r="20" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="180" y="50" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >9</text>
+<circle cx="110" cy="120" r="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="110" y="120" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >7</text>
+<circle cx="250" cy="120" r="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="250" y="120" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >8</text>
+<circle cx="70" cy="190" r="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="70" y="190" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >3</text>
+<circle cx="150" cy="190" r="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="150" y="190" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >5</text>
+<circle cx="220" cy="190" r="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="220" y="190" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >6</text>
+<path d="M205,45 Q300,20 360,50" fill="none" stroke="#f57c00" stroke-width="3" marker-end="url(#fealgo0032mf57c00)"/>
+<text x="420" y="50" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >最大の9から</text>
+<text x="420" y="70" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >取り出す</text>
+<text x="400" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >入れた順ではなく</text>
+<text x="400" y="170" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >値の大きさで決まる</text>
+<circle cx="500" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

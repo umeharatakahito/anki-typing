@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<rect x="20" y="230" width="500" height="40" rx="0" fill="#d7ccc8" stroke="#6d4c41" stroke-width="2" />
+<text x="270" y="285" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >地盤</text>
+<path d="M40,250 l10,-6 l10,12 l10,-12 l10,12 l10,-6" fill="none" stroke="#6d4c41" stroke-width="2" />
+<path d="M120,250 l10,-6 l10,12 l10,-12 l10,12 l10,-6" fill="none" stroke="#6d4c41" stroke-width="2" />
+<path d="M200,250 l10,-6 l10,12 l10,-12 l10,12 l10,-6" fill="none" stroke="#6d4c41" stroke-width="2" />
+<path d="M280,250 l10,-6 l10,12 l10,-12 l10,12 l10,-6" fill="none" stroke="#6d4c41" stroke-width="2" />
+<path d="M360,250 l10,-6 l10,12 l10,-12 l10,12 l10,-6" fill="none" stroke="#6d4c41" stroke-width="2" />
+<path d="M440,250 l10,-6 l10,12 l10,-12 l10,12 l10,-6" fill="none" stroke="#6d4c41" stroke-width="2" />
+<rect x="140" y="60" width="260" height="150" rx="2" fill="#e3f2fd" stroke="#1976d2" stroke-width="2.5" />
+<rect x="160" y="76" width="40" height="28" rx="0" fill="#fff" stroke="#1976d2" stroke-width="1.5" />
+<rect x="220" y="76" width="40" height="28" rx="0" fill="#fff" stroke="#1976d2" stroke-width="1.5" />
+<rect x="280" y="76" width="40" height="28" rx="0" fill="#fff" stroke="#1976d2" stroke-width="1.5" />
+<rect x="340" y="76" width="40" height="28" rx="0" fill="#fff" stroke="#1976d2" stroke-width="1.5" />
+<rect x="160" y="120" width="40" height="28" rx="0" fill="#fff" stroke="#1976d2" stroke-width="1.5" />
+<rect x="220" y="120" width="40" height="28" rx="0" fill="#fff" stroke="#1976d2" stroke-width="1.5" />
+<rect x="280" y="120" width="40" height="28" rx="0" fill="#fff" stroke="#1976d2" stroke-width="1.5" />
+<rect x="340" y="120" width="40" height="28" rx="0" fill="#fff" stroke="#1976d2" stroke-width="1.5" />
+<rect x="160" y="164" width="40" height="28" rx="0" fill="#fff" stroke="#1976d2" stroke-width="1.5" />
+<rect x="220" y="164" width="40" height="28" rx="0" fill="#fff" stroke="#1976d2" stroke-width="1.5" />
+<rect x="280" y="164" width="40" height="28" rx="0" fill="#fff" stroke="#1976d2" stroke-width="1.5" />
+<rect x="340" y="164" width="40" height="28" rx="0" fill="#fff" stroke="#1976d2" stroke-width="1.5" />
+<rect x="148" y="210" width="44" height="20" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<line x1="148" y1="214" x2="192" y2="214" stroke="#f57c00" stroke-width="1"/>
+<line x1="148" y1="219" x2="192" y2="219" stroke="#f57c00" stroke-width="1"/>
+<line x1="148" y1="224" x2="192" y2="224" stroke="#f57c00" stroke-width="1"/>
+<rect x="248" y="210" width="44" height="20" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<line x1="248" y1="214" x2="292" y2="214" stroke="#f57c00" stroke-width="1"/>
+<line x1="248" y1="219" x2="292" y2="219" stroke="#f57c00" stroke-width="1"/>
+<line x1="248" y1="224" x2="292" y2="224" stroke="#f57c00" stroke-width="1"/>
+<rect x="348" y="210" width="44" height="20" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<line x1="348" y1="214" x2="392" y2="214" stroke="#f57c00" stroke-width="1"/>
+<line x1="348" y1="219" x2="392" y2="219" stroke="#f57c00" stroke-width="1"/>
+<line x1="348" y1="224" x2="392" y2="224" stroke="#f57c00" stroke-width="1"/>
+<circle cx="420" cy="210" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="420" y="211" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="480" y="190" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >積層ゴム</text>
+<text x="470" y="80" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >揺れが</text>
+<text x="470" y="100" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >伝わりにくい</text>
+<path d="M50,210 l10,-10 l10,10 l10,-10 l10,10" fill="none" stroke="#d32f2f" stroke-width="2.5" />
+<text x="70" y="190" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >揺れ</text>
+</svg>

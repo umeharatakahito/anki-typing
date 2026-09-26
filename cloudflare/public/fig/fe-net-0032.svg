@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" width="560" height="300" font-family="sans-serif">
+<rect width="560" height="300" fill="#fff"/>
+<text x="30" y="60" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >端末A</text>
+<line x1="90" y1="80" x2="540" y2="80" stroke="#37474f" stroke-width="2"/>
+<rect x="90" y="90" width="100" height="54" rx="4" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="140" y="108" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >電波が空いて</text>
+<text x="140" y="126" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >いるか確認</text>
+<rect x="190" y="90" width="100" height="54" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="240" y="108" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >ランダムな</text>
+<text x="240" y="126" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >時間待つ</text>
+<rect x="290" y="90" width="130" height="54" rx="4" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<text x="355" y="117" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >送信</text>
+<rect x="430" y="90" width="80" height="54" rx="4" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" />
+<text x="470" y="117" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >受信確認</text>
+<text x="470" y="160" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（相手から）</text>
+<circle cx="190" cy="84" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="190" y="85" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="30" y="210" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >端末B</text>
+<rect x="90" y="222" width="150" height="40" rx="4" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="165" y="242" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >確認</text>
+<rect x="240" y="222" width="110" height="40" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="295" y="242" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >別の長さ待つ</text>
+<text x="450" y="242" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >→ 送信がずれて衝突を避ける</text>
+<text x="300" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >無線LANで送る前の手順</text>
+</svg>

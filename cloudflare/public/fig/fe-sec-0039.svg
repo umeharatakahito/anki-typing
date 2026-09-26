@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" width="520" height="300" font-family="sans-serif">
+<rect width="520" height="300" fill="#fff"/>
+<defs><marker id="fesec0039m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="fesec0039mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<text x="110" y="26" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >利用者</text>
+<text x="410" y="26" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >サーバ</text>
+<line x1="110" y1="40" x2="110" y2="280" stroke="#37474f" stroke-width="2"/>
+<line x1="410" y1="40" x2="410" y2="280" stroke="#37474f" stroke-width="2"/>
+<line x1="112" y1="60" x2="406" y2="76" stroke="#37474f" stroke-width="2" marker-end="url(#fesec0039m37474f)"/>
+<text x="260" y="56" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >① ログインしたい</text>
+<line x1="408" y1="110" x2="114" y2="126" stroke="#f57c00" stroke-width="2.5" marker-end="url(#fesec0039mf57c00)"/>
+<text x="260" y="106" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >② 毎回ちがう乱数「7361」</text>
+<rect x="20" y="150" width="180" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="110" y="164" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >乱数とパスワード</text>
+<text x="110" y="182" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >から値を計算</text>
+<circle cx="200" cy="150" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="200" y="151" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="112" y1="220" x2="406" y2="236" stroke="#37474f" stroke-width="2" marker-end="url(#fesec0039m37474f)"/>
+<text x="260" y="216" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >③ 計算した値（パスワードは送らない）</text>
+<text x="470" y="250" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >④ 自分も</text>
+<text x="470" y="266" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >計算して照合</text>
+</svg>

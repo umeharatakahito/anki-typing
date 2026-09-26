@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 280" width="560" height="280" font-family="sans-serif">
+<rect width="560" height="280" fill="#fff"/>
+<path d="M280,140 C220,60 80,60 80,140 C80,220 220,220 280,140 C340,60 480,60 480,140 C480,220 340,220 280,140 Z" fill="none" stroke="#f57c00" stroke-width="8" />
+<text x="130" y="70" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >計画</text>
+<text x="85" y="110" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >コード</text>
+<text x="90" y="180" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ビルド</text>
+<text x="160" y="215" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >テスト</text>
+<text x="390" y="68" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >リリース</text>
+<text x="470" y="105" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >デプロイ</text>
+<text x="470" y="180" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >監視</text>
+<text x="400" y="222" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >フィードバック</text>
+<text x="180" y="140" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#666" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >作る側</text>
+<text x="380" y="140" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#666" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >動かす側</text>
+<circle cx="280" cy="90" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="280" y="91" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="280" y="262" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >協力＋自動化で、素早く安定したリリースを続ける</text>
+</svg>

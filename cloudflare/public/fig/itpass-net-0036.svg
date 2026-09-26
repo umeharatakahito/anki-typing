@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" width="520" height="300" font-family="sans-serif">
+<rect width="520" height="300" fill="#fff"/>
+<defs><marker id="itpassnet0036mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="240" y="53" width="40" height="54" rx="3" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<line x1="246" y1="66" x2="274" y2="66" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="271" cy="71" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="246" y1="81" x2="274" y2="81" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="271" cy="86" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="246" y1="96" x2="274" y2="96" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="271" cy="101" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<circle cx="260" cy="80" r="20" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<line x1="260" y1="80" x2="251.34" y2="75" stroke="#37474f" stroke-width="3"/>
+<line x1="260" y1="80" x2="260" y2="64" stroke="#37474f" stroke-width="2"/>
+<text x="330" y="80" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >正確な時刻</text>
+<rect x="70.2" y="211.1" width="39.6" height="27" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="73.8" y="214.7" width="32.4" height="19.8" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M77.4,247.1 L102.6,247.1 L97.2,238.1 L82.8,238.1 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="90" cy="200" r="16" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<line x1="90" y1="200" x2="83.2529" y2="195.702" stroke="#37474f" stroke-width="3"/>
+<line x1="90" y1="200" x2="96.4" y2="188.915" stroke="#37474f" stroke-width="2"/>
+<line x1="260" y1="110" x2="90" y2="176" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpassnet0036mf57c00)" marker-start="url(#itpassnet0036mf57c00)"/>
+<rect x="240.2" y="211.1" width="39.6" height="27" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="243.8" y="214.7" width="32.4" height="19.8" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M247.4,247.1 L272.6,247.1 L267.2,238.1 L252.8,238.1 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="260" cy="200" r="16" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<line x1="260" y1="200" x2="252.81" y2="196.493" stroke="#37474f" stroke-width="3"/>
+<line x1="260" y1="200" x2="250.488" y2="191.435" stroke="#37474f" stroke-width="2"/>
+<line x1="260" y1="110" x2="260" y2="176" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpassnet0036mf57c00)" marker-start="url(#itpassnet0036mf57c00)"/>
+<rect x="410.2" y="211.1" width="39.6" height="27" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="413.8" y="214.7" width="32.4" height="19.8" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M417.4,247.1 L442.6,247.1 L437.2,238.1 L422.8,238.1 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="430" cy="200" r="16" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<line x1="430" y1="200" x2="423.107" y2="195.94" stroke="#37474f" stroke-width="3"/>
+<line x1="430" y1="200" x2="431.338" y2="187.27" stroke="#37474f" stroke-width="2"/>
+<line x1="260" y1="110" x2="430" y2="176" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpassnet0036mf57c00)" marker-start="url(#itpassnet0036mf57c00)"/>
+<circle cx="170" cy="140" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="170" y="141" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="260" y="285" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ネットワーク経由で各機器の時計をそろえる</text>
+</svg>

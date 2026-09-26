@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<defs><marker id="fehw0053m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="60" y="30" width="160" height="44" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="140" y="52" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >CPU1</text>
+<rect x="60" y="96" width="160" height="50" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2.5" />
+<text x="140" y="112" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >高速メモリ</text>
+<text x="140" y="132" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >x = 5 → 9</text>
+<line x1="140" y1="76" x2="140" y2="94" stroke="#37474f" stroke-width="2" marker-end="url(#fehw0053m37474f)" marker-start="url(#fehw0053m37474f)"/>
+<line x1="140" y1="148" x2="140" y2="196" stroke="#37474f" stroke-width="2"/>
+<rect x="320" y="30" width="160" height="44" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="400" y="52" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >CPU2</text>
+<rect x="320" y="96" width="160" height="50" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="400" y="112" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >高速メモリ</text>
+<text x="400" y="132" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >x = 5</text>
+<line x1="400" y1="76" x2="400" y2="94" stroke="#37474f" stroke-width="2" marker-end="url(#fehw0053m37474f)" marker-start="url(#fehw0053m37474f)"/>
+<line x1="400" y1="148" x2="400" y2="196" stroke="#37474f" stroke-width="2"/>
+<line x1="60" y1="196" x2="480" y2="196" stroke="#37474f" stroke-width="3"/>
+<rect x="170" y="216" width="200" height="40" rx="6" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" />
+<text x="270" y="236" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >主記憶 x = 5</text>
+<line x1="270" y1="196" x2="270" y2="214" stroke="#37474f" stroke-width="2"/>
+<text x="400" y="170" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >古い値のまま！</text>
+<circle cx="480" cy="96" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="480" y="97" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="280" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >写しどうしの内容を食い違わないように保つ</text>
+</svg>

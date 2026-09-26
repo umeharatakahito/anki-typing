@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="genaigen0021m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="genaigen0021mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="60" y="50" width="180" height="190" rx="10" fill="#f5f5f5" stroke="#90a4ae" stroke-width="1.5" />
+<rect x="80" y="180" width="140" height="34" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="150" y="197" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >語の埋め込み＋位置</text>
+<rect x="80" y="130" width="140" height="40" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="150" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >注意の仕組み</text>
+<rect x="80" y="80" width="140" height="34" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="150" y="97" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >全結合</text>
+<text x="150" y="260" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >入力の文</text>
+<line x1="150" y1="178" x2="150" y2="172" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0021m37474f)"/>
+<line x1="150" y1="128" x2="150" y2="116" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0021m37474f)"/>
+<rect x="300" y="50" width="180" height="190" rx="10" fill="#f5f5f5" stroke="#90a4ae" stroke-width="1.5" />
+<rect x="320" y="180" width="140" height="34" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="390" y="197" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >語の埋め込み＋位置</text>
+<rect x="320" y="130" width="140" height="40" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="390" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >注意の仕組み</text>
+<rect x="320" y="80" width="140" height="34" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="390" y="97" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >全結合</text>
+<text x="390" y="260" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >これまでの出力</text>
+<line x1="390" y1="178" x2="390" y2="172" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0021m37474f)"/>
+<line x1="390" y1="128" x2="390" y2="116" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0021m37474f)"/>
+<line x1="242" y1="150" x2="318" y2="150" stroke="#f57c00" stroke-width="2.5" marker-end="url(#genaigen0021mf57c00)"/>
+<rect x="320" y="10" width="140" height="30" rx="6" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<text x="390" y="25" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >次の語の確率</text>
+<line x1="390" y1="48" x2="390" y2="42" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0021m37474f)"/>
+<circle cx="500" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="51" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="285" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >語どうしの関係を注意の仕組みでとらえる構造</text>
+</svg>

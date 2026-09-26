@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="fenet0039m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<text x="270" y="26" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >example.jp の登録情報</text>
+<rect x="50" y="44" width="170" height="36" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="135" y="63" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >名前</text>
+<rect x="220" y="44" width="90" height="36" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="265" y="63" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >種類</text>
+<rect x="310" y="44" width="180" height="36" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="400" y="63" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >内容</text>
+<rect x="50" y="80" width="170" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="135" y="99" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >www.example.jp</text>
+<rect x="220" y="80" width="90" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="265" y="99" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >A</text>
+<rect x="310" y="80" width="180" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="400" y="99" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >203.0.113.10</text>
+<rect x="50" y="116" width="170" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="135" y="135" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >example.jp</text>
+<rect x="220" y="116" width="90" height="36" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<rect x="310" y="116" width="180" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="400" y="135" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >mail.example.jp</text>
+<rect x="50" y="152" width="170" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="135" y="171" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >mail.example.jp</text>
+<rect x="220" y="152" width="90" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="265" y="171" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >A</text>
+<rect x="310" y="152" width="180" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="400" y="171" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >203.0.113.25</text>
+<text x="265" y="134" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<circle cx="310" cy="118" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="310" y="119" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="440" y="213" width="40" height="54" rx="3" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<line x1="446" y1="226" x2="474" y2="226" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="471" cy="231" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="446" y1="241" x2="474" y2="241" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="471" cy="246" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="446" y1="256" x2="474" y2="256" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="471" cy="261" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<text x="460" y="290" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >mail.example.jp</text>
+<rect x="62.4" y="223.2" width="35.2" height="24" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="65.6" y="226.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M68.8,255.2 L91.2,255.2 L86.4,247.2 L73.6,247.2 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="80" y="266.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >送信側</text>
+<line x1="110" y1="230" x2="430" y2="230" stroke="#37474f" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#fenet0039m37474f)"/>
+<text x="270" y="212" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >「@example.jp あてのメールはどこへ？」</text>
+</svg>

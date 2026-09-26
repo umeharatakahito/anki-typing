@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="genaibase0078m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="60" y1="230" x2="490" y2="230" stroke="#37474f" stroke-width="2" marker-end="url(#genaibase0078m37474f)"/>
+<line x1="60" y1="230" x2="60" y2="20" stroke="#37474f" stroke-width="2" marker-end="url(#genaibase0078m37474f)"/>
+<line x1="70" y1="226" x2="460" y2="76" stroke="#1976d2" stroke-width="3"/>
+<rect x="90" y="218.308" width="6.17329" height="6.17329" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" fill-opacity="0.6"/>
+<circle cx="90" cy="224.481" r="4" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<rect x="142.857" y="197.978" width="32.4189" height="32.4189" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" fill-opacity="0.6"/>
+<circle cx="142.857" cy="230.397" r="4" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<rect x="195.714" y="177.648" width="15.4956" height="15.4956" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" fill-opacity="0.6"/>
+<circle cx="195.714" cy="193.144" r="4" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<rect x="248.571" y="157.319" width="16.047" height="16.047" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" fill-opacity="0.6"/>
+<circle cx="248.571" cy="173.366" r="4" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<rect x="301.429" y="136.989" width="10.7939" height="10.7939" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" fill-opacity="0.6"/>
+<circle cx="301.429" cy="147.783" r="4" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<rect x="354.286" y="116.659" width="7.95567" height="7.95567" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" fill-opacity="0.6"/>
+<circle cx="354.286" cy="124.615" r="4" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<rect x="407.143" y="96.3297" width="11.8963" height="11.8963" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" fill-opacity="0.6"/>
+<circle cx="407.143" cy="108.226" r="4" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<rect x="460" y="76" width="3.95496" height="3.95496" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.2" fill-opacity="0.6"/>
+<circle cx="460" cy="79.955" r="4" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<text x="270" y="252" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >予測と実際の差でできる正方形の大きさで評価</text>
+<circle cx="500" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<rect x="0" y="110" width="540" height="180" rx="0" fill="#e3f2fd" stroke="none" stroke-width="0" />
+<line x1="0" y1="110" x2="540" y2="110" stroke="#1976d2" stroke-width="2"/>
+<polygon points="270,30 340,110 200,110" fill="#fff" stroke="#37474f" stroke-width="2" stroke-linejoin="round" />
+<text x="270" y="90" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >導入費用</text>
+<polygon points="200,110 340,110 430,270 110,270" fill="#eceff1" stroke="#37474f" stroke-width="2" stroke-linejoin="round" />
+<text x="270" y="140" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >運用費</text>
+<text x="270" y="170" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >保守費</text>
+<text x="270" y="200" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >教育費</text>
+<text x="270" y="230" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >廃棄費用</text>
+<text x="460" y="80" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >見えやすい</text>
+<text x="470" y="190" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >見えにくい</text>
+<rect x="100" y="24" width="340" height="252" rx="8" fill="none" stroke="#f57c00" stroke-width="3" stroke-dasharray="6 4"/>
+<circle cx="440" cy="24" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="440" y="25" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

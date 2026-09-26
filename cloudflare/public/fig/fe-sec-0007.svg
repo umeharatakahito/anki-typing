@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="fesec0007mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="47.9" y="28.45" width="24.2" height="16.5" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="50.1" y="30.65" width="19.8" height="12.1" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M52.3,50.45 L67.7,50.45 L64.4,44.95 L55.6,44.95 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<line x1="80" y1="40" x2="360" y2="122" stroke="#f57c00" stroke-width="1.8" marker-end="url(#fesec0007mf57c00)"/>
+<rect x="47.9" y="60.45" width="24.2" height="16.5" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="50.1" y="62.65" width="19.8" height="12.1" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M52.3,82.45 L67.7,82.45 L64.4,76.95 L55.6,76.95 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<line x1="80" y1="72" x2="360" y2="130" stroke="#f57c00" stroke-width="1.8" marker-end="url(#fesec0007mf57c00)"/>
+<rect x="47.9" y="92.45" width="24.2" height="16.5" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="50.1" y="94.65" width="19.8" height="12.1" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M52.3,114.45 L67.7,114.45 L64.4,108.95 L55.6,108.95 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<line x1="80" y1="104" x2="360" y2="138" stroke="#f57c00" stroke-width="1.8" marker-end="url(#fesec0007mf57c00)"/>
+<rect x="47.9" y="124.45" width="24.2" height="16.5" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="50.1" y="126.65" width="19.8" height="12.1" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M52.3,146.45 L67.7,146.45 L64.4,140.95 L55.6,140.95 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<line x1="80" y1="136" x2="360" y2="146" stroke="#f57c00" stroke-width="1.8" marker-end="url(#fesec0007mf57c00)"/>
+<rect x="47.9" y="156.45" width="24.2" height="16.5" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="50.1" y="158.65" width="19.8" height="12.1" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M52.3,178.45 L67.7,178.45 L64.4,172.95 L55.6,172.95 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<line x1="80" y1="168" x2="360" y2="154" stroke="#f57c00" stroke-width="1.8" marker-end="url(#fesec0007mf57c00)"/>
+<rect x="47.9" y="188.45" width="24.2" height="16.5" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="50.1" y="190.65" width="19.8" height="12.1" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M52.3,210.45 L67.7,210.45 L64.4,204.95 L55.6,204.95 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<line x1="80" y1="200" x2="360" y2="162" stroke="#f57c00" stroke-width="1.8" marker-end="url(#fesec0007mf57c00)"/>
+<rect x="47.9" y="220.45" width="24.2" height="16.5" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="50.1" y="222.65" width="19.8" height="12.1" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M52.3,242.45 L67.7,242.45 L64.4,236.95 L55.6,236.95 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<line x1="80" y1="232" x2="360" y2="170" stroke="#f57c00" stroke-width="1.8" marker-end="url(#fesec0007mf57c00)"/>
+<rect x="47.9" y="252.45" width="24.2" height="16.5" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="50.1" y="254.65" width="19.8" height="12.1" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M52.3,274.45 L67.7,274.45 L64.4,268.95 L55.6,268.95 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<line x1="80" y1="264" x2="360" y2="178" stroke="#f57c00" stroke-width="1.8" marker-end="url(#fesec0007mf57c00)"/>
+<rect x="374" y="114.9" width="52" height="70.2" rx="3" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<line x1="381.8" y1="131.8" x2="418.2" y2="131.8" stroke="#d32f2f" stroke-width="1.5"/>
+<circle cx="414.3" cy="138.3" r="2.6" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<line x1="381.8" y1="151.3" x2="418.2" y2="151.3" stroke="#d32f2f" stroke-width="1.5"/>
+<circle cx="414.3" cy="157.8" r="2.6" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<line x1="381.8" y1="170.8" x2="418.2" y2="170.8" stroke="#d32f2f" stroke-width="1.5"/>
+<circle cx="414.3" cy="177.3" r="2.6" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<text x="400" y="205" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >処理しきれない</text>
+<circle cx="250" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="250" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="474.6" y="235.3" width="30.8" height="21" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="477.4" y="238.1" width="25.2" height="15.4" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M480.2,263.3 L499.8,263.3 L495.6,256.3 L484.4,256.3 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="490" y="273.1" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >利用者</text>
+<line x1="470" y1="240" x2="430" y2="200" stroke="#bbb" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="443" y1="213" x2="457" y2="227" stroke="#d32f2f" stroke-width="3.5"/>
+<line x1="443" y1="227" x2="457" y2="213" stroke="#d32f2f" stroke-width="3.5"/>
+<text x="220" y="285" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >大量の要求を送りつける</text>
+</svg>

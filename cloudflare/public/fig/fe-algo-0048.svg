@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="fealgo0048m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<circle cx="100" cy="110" r="26" fill="#e3f2fd" stroke="#1976d2" stroke-width="2.5" />
+<text x="100" y="110" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >p</text>
+<circle cx="260" cy="110" r="26" fill="#e3f2fd" stroke="#1976d2" stroke-width="2.5" />
+<text x="260" y="110" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >q</text>
+<circle cx="260" cy="110" r="20" fill="none" stroke="#1976d2" stroke-width="2" />
+<path d="M126,110 L232,110" fill="none" stroke="#37474f" stroke-width="2" marker-end="url(#fealgo0048m37474f)"/>
+<text x="180" y="94" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >b</text>
+<text x="100" y="55" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >a を読むたび</text>
+<text x="100" y="71" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1つ積む</text>
+<text x="260" y="55" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >b を読むたび</text>
+<text x="260" y="71" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1つ取り出す</text>
+<path d="M380,60 L380,220 L470,220 L470,60" fill="none" stroke="#f57c00" stroke-width="3" />
+<rect x="390" y="176" width="70" height="34" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="425" y="193" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >a</text>
+<rect x="390" y="136" width="70" height="34" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="425" y="153" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >a</text>
+<rect x="390" y="96" width="70" height="34" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="425" y="113" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >a</text>
+<text x="425" y="244" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >記憶用の積み重ね</text>
+<circle cx="480" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="480" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="180" y="200" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >例：aⁿbⁿ（aとbが同じ数）を受理</text>
+</svg>

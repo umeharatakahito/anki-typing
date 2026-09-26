@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" width="560" height="300" font-family="sans-serif">
+<rect width="560" height="300" fill="#fff"/>
+<defs><marker id="fedev0002m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<circle cx="80" cy="130" r="48" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="80" y="102" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >計画</text>
+<text x="108" y="130" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >設計</text>
+<text x="80" y="158" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >実装</text>
+<text x="52" y="130" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >テスト</text>
+<text x="80" y="196" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1回目</text>
+<line x1="130" y1="130" x2="158" y2="130" stroke="#37474f" stroke-width="2" marker-end="url(#fedev0002m37474f)"/>
+<rect x="50" y="216" width="60" height="24" rx="4" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="80" y="228" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >動く機能</text>
+<circle cx="210" cy="130" r="48" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="210" y="102" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >計画</text>
+<text x="238" y="130" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >設計</text>
+<text x="210" y="158" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >実装</text>
+<text x="182" y="130" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >テスト</text>
+<text x="210" y="196" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2回目</text>
+<line x1="260" y1="130" x2="288" y2="130" stroke="#37474f" stroke-width="2" marker-end="url(#fedev0002m37474f)"/>
+<rect x="180" y="216" width="60" height="24" rx="4" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="210" y="228" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >動く機能</text>
+<circle cx="340" cy="130" r="48" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="340" y="102" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >計画</text>
+<text x="368" y="130" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >設計</text>
+<text x="340" y="158" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >実装</text>
+<text x="312" y="130" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >テスト</text>
+<text x="340" y="196" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >3回目</text>
+<line x1="390" y1="130" x2="418" y2="130" stroke="#37474f" stroke-width="2" marker-end="url(#fedev0002m37474f)"/>
+<rect x="310" y="216" width="60" height="24" rx="4" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="340" y="228" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >動く機能</text>
+<circle cx="470" cy="130" r="48" fill="#fff" stroke="#bbb" stroke-width="2.5" stroke-dasharray="5 4"/>
+<text x="470" y="102" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >計画</text>
+<text x="498" y="130" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >設計</text>
+<text x="470" y="158" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >実装</text>
+<text x="442" y="130" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >テスト</text>
+<text x="470" y="196" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >…</text>
+<text x="280" y="40" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1〜4週間ほどの短い期間を繰り返す</text>
+<circle cx="40" cy="70" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="40" y="71" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="280" y="275" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >少しずつ届けて、変化に柔軟に対応</text>
+</svg>

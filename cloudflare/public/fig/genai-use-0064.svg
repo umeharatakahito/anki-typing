@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<defs><marker id="genaiuse0064m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="genaiuse0064m90a4ae" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#90a4ae"/></marker></defs>
+<circle cx="90" cy="100" r="34" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="90" y="100" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >AI</text>
+<text x="90" y="152" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >調べる係</text>
+<circle cx="270" cy="100" r="34" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="270" y="100" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >AI</text>
+<text x="270" y="152" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >書く係</text>
+<circle cx="450" cy="100" r="34" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="450" y="100" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >AI</text>
+<text x="450" y="152" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >確かめる係</text>
+<line x1="126" y1="100" x2="232" y2="100" stroke="#37474f" stroke-width="2.5" marker-end="url(#genaiuse0064m37474f)"/>
+<line x1="306" y1="100" x2="414" y2="100" stroke="#37474f" stroke-width="2.5" marker-end="url(#genaiuse0064m37474f)"/>
+<path d="M450,170 Q270,230 90,170" fill="none" stroke="#90a4ae" stroke-width="2" marker-end="url(#genaiuse0064m90a4ae)" stroke-dasharray="5 4"/>
+<text x="270" y="225" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >直してほしい点を戻す</text>
+<circle cx="500" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="51" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

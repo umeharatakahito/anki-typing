@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<defs><marker id="fesec0023md32f2f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d32f2f"/></marker></defs>
+<circle cx="60" cy="126" r="9" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M45,158 Q45,138 60,138 Q75,138 75,158 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="60" y="172" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Aさん</text>
+<circle cx="480" cy="126" r="9" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M465,158 Q465,138 480,138 Q495,138 495,158 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="480" y="172" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Bさん</text>
+<line x1="84" y1="110" x2="456" y2="110" stroke="#bbb" stroke-width="2" stroke-dasharray="5 5"/>
+<text x="270" y="92" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#777" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >本来は直接やり取り</text>
+<circle cx="270" cy="186" r="9" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<path d="M255,218 Q255,198 270,198 Q285,198 285,218 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="300" cy="170" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="171" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="86" y1="150" x2="244" y2="200" stroke="#d32f2f" stroke-width="2.5" marker-end="url(#fesec0023md32f2f)" marker-start="url(#fesec0023md32f2f)"/>
+<line x1="296" y1="200" x2="454" y2="150" stroke="#d32f2f" stroke-width="2.5" marker-end="url(#fesec0023md32f2f)" marker-start="url(#fesec0023md32f2f)"/>
+<text x="150" y="205" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Bのふり</text>
+<text x="390" y="205" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Aのふり</text>
+<text x="270" y="262" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >割り込んで盗み見・書き換え</text>
+</svg>

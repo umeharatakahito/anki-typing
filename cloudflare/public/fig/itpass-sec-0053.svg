@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="itpasssec0053m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="itpasssec0053mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="20" y="40" width="150" height="110" rx="6" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<text x="95" y="58" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >サイトAから流出</text>
+<text x="95" y="84" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >taro / tr2020</text>
+<text x="95" y="106" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >hana / hn!77</text>
+<text x="95" y="128" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ken / kn0909</text>
+<circle cx="95" cy="196" r="9" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<path d="M80,228 Q80,208 95,208 Q110,208 110,228 Z" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<text x="95" y="242" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >犯人</text>
+<line x1="95" y1="152" x2="95" y2="180" stroke="#37474f" stroke-width="2" marker-end="url(#itpasssec0053m37474f)"/>
+<rect x="380" y="40" width="140" height="60" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="450" y="70" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >サイトB</text>
+<line x1="125" y1="205" x2="376" y2="70" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpasssec0053mf57c00)"/>
+<polyline points="341,70 347.3,76.3 359,62.8" fill="none" stroke="#388e3c" stroke-width="3.5" stroke-linejoin="round" />
+<rect x="380" y="125" width="140" height="60" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="450" y="155" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >サイトC</text>
+<line x1="125" y1="205" x2="376" y2="155" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpasssec0053mf57c00)"/>
+<line x1="341" y1="146" x2="359" y2="164" stroke="#d32f2f" stroke-width="3.5"/>
+<line x1="341" y1="164" x2="359" y2="146" stroke="#d32f2f" stroke-width="3.5"/>
+<rect x="380" y="210" width="140" height="60" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="450" y="240" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >サイトD</text>
+<line x1="125" y1="205" x2="376" y2="240" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpasssec0053mf57c00)"/>
+<polyline points="341,240 347.3,246.3 359,232.8" fill="none" stroke="#388e3c" stroke-width="3.5" stroke-linejoin="round" />
+<circle cx="250" cy="120" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="250" y="121" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="290" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >同じ組を使い回していると入られてしまう</text>
+</svg>

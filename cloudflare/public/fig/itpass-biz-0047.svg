@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<rect x="30" y="30" width="220" height="136" rx="10" fill="#fff9c4" stroke="#f9a825" stroke-width="2" />
+<text x="140" y="48" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >操作がむずかしい</text>
+<rect x="50" y="62" width="180" height="26" rx="3" fill="#fff" stroke="#90a4ae" stroke-width="1.2" />
+<text x="140" y="75" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ボタンが多い</text>
+<rect x="50" y="94" width="180" height="26" rx="3" fill="#fff" stroke="#90a4ae" stroke-width="1.2" />
+<text x="140" y="107" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >説明が不親切</text>
+<rect x="50" y="126" width="180" height="26" rx="3" fill="#fff" stroke="#90a4ae" stroke-width="1.2" />
+<text x="140" y="139" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >字が小さい</text>
+<rect x="290" y="30" width="220" height="104" rx="10" fill="#fff9c4" stroke="#f9a825" stroke-width="2" />
+<text x="400" y="48" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >価格への不満</text>
+<rect x="310" y="62" width="180" height="26" rx="3" fill="#fff" stroke="#90a4ae" stroke-width="1.2" />
+<text x="400" y="75" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >高い</text>
+<rect x="310" y="94" width="180" height="26" rx="3" fill="#fff" stroke="#90a4ae" stroke-width="1.2" />
+<text x="400" y="107" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >送料がかかる</text>
+<rect x="150" y="170" width="220" height="104" rx="10" fill="#fff9c4" stroke="#f9a825" stroke-width="2" />
+<text x="260" y="188" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >配送の不満</text>
+<rect x="170" y="202" width="180" height="26" rx="3" fill="#fff" stroke="#90a4ae" stroke-width="1.2" />
+<text x="260" y="215" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >届くのが遅い</text>
+<rect x="170" y="234" width="180" height="26" rx="3" fill="#fff" stroke="#90a4ae" stroke-width="1.2" />
+<text x="260" y="247" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >箱がつぶれた</text>
+<circle cx="520" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="430" y="250" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >近い内容の</text>
+<text x="430" y="266" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >カードをまとめる</text>
+</svg>

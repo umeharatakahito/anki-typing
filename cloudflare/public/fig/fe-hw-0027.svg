@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="fehw0027m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="fehw0027m90a4ae" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#90a4ae"/></marker></defs>
+<text x="110" y="30" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >プログラム</text>
+<rect x="50" y="45" width="120" height="34" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="110" y="62" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >0</text>
+<rect x="50" y="83" width="120" height="34" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="110" y="100" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1</text>
+<rect x="50" y="121" width="120" height="34" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="110" y="138" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >2</text>
+<rect x="50" y="159" width="120" height="34" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="110" y="176" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >3</text>
+<rect x="50" y="197" width="120" height="34" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="110" y="214" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >4</text>
+<rect x="50" y="235" width="120" height="34" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="110" y="252" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >5</text>
+<path d="M176,45 L176,51 L176,51 L176,45" fill="none" stroke="#f57c00" stroke-width="2" />
+<text x="40" y="64" font-size="1" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" ></text>
+<circle cx="175" cy="45" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="175" y="46" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="110" y="290" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >決まった大きさに区切る</text>
+<text x="330" y="30" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >主記憶</text>
+<rect x="280" y="45" width="100" height="34" rx="2" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="330" y="62" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >2</text>
+<rect x="280" y="83" width="100" height="34" rx="2" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="330" y="100" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >0</text>
+<rect x="280" y="121" width="100" height="34" rx="2" fill="#fff" stroke="#1976d2" stroke-width="1.5" />
+<text x="330" y="138" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" ></text>
+<rect x="280" y="159" width="100" height="34" rx="2" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="330" y="176" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >5</text>
+<path d="M420,184 L420,256 A50,14 0 0 0 520,256 L520,184" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<ellipse cx="470" cy="184" rx="50" ry="14" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="470" y="227" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >補助記憶</text>
+<line x1="382" y1="150" x2="430" y2="185" stroke="#37474f" stroke-width="2" marker-end="url(#fehw0027m37474f)" marker-start="url(#fehw0027m37474f)"/>
+<text x="470" y="130" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >この単位で</text>
+<text x="470" y="146" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >出し入れ</text>
+<line x1="172" y1="62" x2="278" y2="100" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#fehw0027m90a4ae)"/>
+<line x1="172" y1="138" x2="278" y2="62" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#fehw0027m90a4ae)"/>
+</svg>

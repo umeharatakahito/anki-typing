@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<rect x="60" y="30" width="80" height="38" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="100" y="49" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >思考</text>
+<rect x="150" y="30" width="300" height="38" rx="6" fill="#e3f2fd" stroke="#90a4ae" stroke-width="1.5" />
+<text x="165" y="49" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" >人口を調べる必要がある</text>
+<rect x="60" y="78" width="80" height="38" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="100" y="97" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >行動</text>
+<rect x="150" y="78" width="300" height="38" rx="6" fill="#fff3e0" stroke="#90a4ae" stroke-width="1.5" />
+<text x="165" y="97" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" >検索「東京 人口」</text>
+<rect x="60" y="126" width="80" height="38" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="100" y="145" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >観察</text>
+<rect x="150" y="126" width="300" height="38" rx="6" fill="#e8f5e9" stroke="#90a4ae" stroke-width="1.5" />
+<text x="165" y="145" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" >約1400万人</text>
+<rect x="60" y="174" width="80" height="38" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="100" y="193" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >思考</text>
+<rect x="150" y="174" width="300" height="38" rx="6" fill="#e3f2fd" stroke="#90a4ae" stroke-width="1.5" />
+<text x="165" y="193" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" >答えが分かった</text>
+<circle cx="470" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="470" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="238" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >考えと行動と観察を交互にくり返す</text>
+</svg>

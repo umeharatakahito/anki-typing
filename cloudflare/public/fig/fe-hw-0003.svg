@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 290" width="580" height="290" font-family="sans-serif">
+<rect width="580" height="290" fill="#fff"/>
+<defs><marker id="fehw0003m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<polygon points="200,30 260,30 305,90 155,90" fill="#e3f2fd" stroke="#78909c" stroke-width="1.5" stroke-linejoin="round" />
+<text x="230" y="60" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >レジスタ</text>
+<polygon points="155,90 305,90 350,150 110,150" fill="#ffcc80" stroke="#f57c00" stroke-width="3" stroke-linejoin="round" />
+<text x="230" y="120" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<circle cx="362" cy="120" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="362" y="121" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<polygon points="110,150 350,150 395,210 65,210" fill="#f3e5f5" stroke="#78909c" stroke-width="1.5" stroke-linejoin="round" />
+<text x="230" y="180" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >主記憶</text>
+<polygon points="65,210 395,210 440,270 20,270" fill="#eceff1" stroke="#78909c" stroke-width="1.5" stroke-linejoin="round" />
+<text x="230" y="240" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >補助記憶（SSD・HDD）</text>
+<line x1="470" y1="40" x2="470" y2="260" stroke="#37474f" stroke-width="2" marker-end="url(#fehw0003m37474f)"/>
+<text x="485" y="50" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >速い・高価</text>
+<text x="485" y="250" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >大容量・安価</text>
+<text x="485" y="70" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >小容量</text>
+</svg>

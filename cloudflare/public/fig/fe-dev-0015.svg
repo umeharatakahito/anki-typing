@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="fedev0015m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="40" y="70" width="170" height="150" rx="4" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="40" y="70" width="170" height="36" rx="4" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="125" y="88" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >人クラス</text>
+<line x1="40" y1="150" x2="210" y2="150" stroke="#1976d2" stroke-width="1.5"/>
+<text x="52" y="120" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" >名前</text>
+<text x="52" y="138" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" >年齢</text>
+<text x="52" y="172" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" >あいさつする()</text>
+<rect x="330" y="60" width="170" height="70" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="415" y="82" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >田中さん</text>
+<text x="415" y="108" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >名前=田中, 年齢=30</text>
+<line x1="214" y1="145" x2="326" y2="95" stroke="#37474f" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#fedev0015m37474f)"/>
+<rect x="330" y="170" width="170" height="70" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="415" y="192" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >佐藤さん</text>
+<text x="415" y="218" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >名前=佐藤, 年齢=25</text>
+<line x1="214" y1="145" x2="326" y2="205" stroke="#37474f" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#fedev0015m37474f)"/>
+<circle cx="500" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="285" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ひな形から作った個々の実体</text>
+</svg>

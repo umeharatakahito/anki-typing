@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="fedev0006m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="20" y="110" width="140" height="60" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="90" y="140" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >モジュールA</text>
+<rect x="200" y="110" width="140" height="60" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="140" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >モジュールB</text>
+<rect x="380" y="110" width="140" height="60" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="450" y="140" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >モジュールC</text>
+<line x1="162" y1="140" x2="196" y2="140" stroke="#37474f" stroke-width="2" marker-end="url(#fedev0006m37474f)" marker-start="url(#fedev0006m37474f)"/>
+<line x1="342" y1="140" x2="376" y2="140" stroke="#37474f" stroke-width="2" marker-end="url(#fedev0006m37474f)" marker-start="url(#fedev0006m37474f)"/>
+<rect x="240" y="70" width="60" height="28" rx="4" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<text x="270" y="84" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" >修正</text>
+<polyline points="80,200 87,207 100,192" fill="none" stroke="#f57c00" stroke-width="3.5" stroke-linejoin="round" />
+<polyline points="440,200 447,207 460,192" fill="none" stroke="#f57c00" stroke-width="3.5" stroke-linejoin="round" />
+<text x="270" y="230" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >直していない部分に悪影響が出ていないか</text>
+<text x="270" y="252" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >もう一度確かめる</text>
+<circle cx="90" cy="96" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="90" y="97" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

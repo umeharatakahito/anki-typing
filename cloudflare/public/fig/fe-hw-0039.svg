@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<rect x="60" y="240" width="420" height="36" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="270" y="258" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >ハードウェア（物理サーバ1台）</text>
+<rect x="60" y="196" width="420" height="36" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="270" y="214" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >ホストOS（カーネルを共有）</text>
+<rect x="60" y="90" width="130" height="100" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<rect x="70" y="102" width="110" height="34" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="125" y="119" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >アプリ</text>
+<rect x="70" y="144" width="110" height="34" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="125" y="161" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ライブラリ</text>
+<rect x="205" y="90" width="130" height="100" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<rect x="215" y="102" width="110" height="34" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="270" y="119" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >アプリ</text>
+<rect x="215" y="144" width="110" height="34" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="270" y="161" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ライブラリ</text>
+<rect x="350" y="90" width="130" height="100" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<rect x="360" y="102" width="110" height="34" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="415" y="119" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >アプリ</text>
+<rect x="360" y="144" width="110" height="34" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="415" y="161" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ライブラリ</text>
+<circle cx="480" cy="90" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="480" y="91" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="60" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >OSは入れず、実行環境だけを分けて軽く動かす</text>
+</svg>

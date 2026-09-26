@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<rect x="110" y="50" width="190" height="100" rx="0" fill="#c8e6c9" stroke="#90a4ae" stroke-width="1.5" />
+<text x="205" y="100" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >強み</text>
+<rect x="300" y="50" width="190" height="100" rx="0" fill="#ffcdd2" stroke="#90a4ae" stroke-width="1.5" />
+<text x="395" y="100" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >弱み</text>
+<rect x="110" y="150" width="190" height="100" rx="0" fill="#e3f2fd" stroke="#90a4ae" stroke-width="1.5" />
+<text x="205" y="200" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >機会</text>
+<rect x="300" y="150" width="190" height="100" rx="0" fill="#fff9c4" stroke="#90a4ae" stroke-width="1.5" />
+<text x="395" y="200" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >脅威</text>
+<text x="205" y="36" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >プラス要因</text>
+<text x="395" y="36" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >マイナス要因</text>
+<text x="60" y="100" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >内部環境</text>
+<text x="60" y="200" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >外部環境</text>
+<circle cx="510" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

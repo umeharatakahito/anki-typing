@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" width="540" height="270" font-family="sans-serif">
+<rect width="540" height="270" fill="#fff"/>
+<line x1="95.726" y1="107.552" x2="130" y2="100" stroke="#bbdefb" stroke-width="1.2"/>
+<circle cx="95.726" cy="107.552" r="5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<line x1="157.86" y1="89.7358" x2="130" y2="100" stroke="#bbdefb" stroke-width="1.2"/>
+<circle cx="157.86" cy="89.7358" r="5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<line x1="92.7886" y1="98.6894" x2="130" y2="100" stroke="#bbdefb" stroke-width="1.2"/>
+<circle cx="92.7886" cy="98.6894" r="5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<line x1="143.384" y1="121.964" x2="130" y2="100" stroke="#bbdefb" stroke-width="1.2"/>
+<circle cx="143.384" cy="121.964" r="5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<line x1="95.9555" y1="74.1427" x2="130" y2="100" stroke="#bbdefb" stroke-width="1.2"/>
+<circle cx="95.9555" cy="74.1427" r="5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<line x1="149.766" y1="109.482" x2="130" y2="100" stroke="#bbdefb" stroke-width="1.2"/>
+<circle cx="149.766" cy="109.482" r="5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<line x1="172.946" y1="119.649" x2="130" y2="100" stroke="#bbdefb" stroke-width="1.2"/>
+<circle cx="172.946" cy="119.649" r="5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<line x1="127.15" y1="94.5153" x2="130" y2="100" stroke="#bbdefb" stroke-width="1.2"/>
+<circle cx="127.15" cy="94.5153" r="5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<line x1="201.975" y1="94.224" x2="130" y2="100" stroke="#bbdefb" stroke-width="1.2"/>
+<circle cx="201.975" cy="94.224" r="5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<path d="M120,90 L140,110 M120,110 L140,90" fill="none" stroke="#f57c00" stroke-width="4" />
+<line x1="308.022" y1="57.2331" x2="330" y2="80" stroke="#c8e6c9" stroke-width="1.2"/>
+<circle cx="308.022" cy="57.2331" r="5" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="332.673" y1="82.9063" x2="330" y2="80" stroke="#c8e6c9" stroke-width="1.2"/>
+<circle cx="332.673" cy="82.9063" r="5" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="320.344" y1="78.7568" x2="330" y2="80" stroke="#c8e6c9" stroke-width="1.2"/>
+<circle cx="320.344" cy="78.7568" r="5" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="337.647" y1="93.8479" x2="330" y2="80" stroke="#c8e6c9" stroke-width="1.2"/>
+<circle cx="337.647" cy="93.8479" r="5" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="360.71" y1="84.1963" x2="330" y2="80" stroke="#c8e6c9" stroke-width="1.2"/>
+<circle cx="360.71" cy="84.1963" r="5" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="279.886" y1="94.0345" x2="330" y2="80" stroke="#c8e6c9" stroke-width="1.2"/>
+<circle cx="279.886" cy="94.0345" r="5" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="290.248" y1="76.5717" x2="330" y2="80" stroke="#c8e6c9" stroke-width="1.2"/>
+<circle cx="290.248" cy="76.5717" r="5" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="288.734" y1="80.042" x2="330" y2="80" stroke="#c8e6c9" stroke-width="1.2"/>
+<circle cx="288.734" cy="80.042" r="5" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="308.2" y1="84.2777" x2="330" y2="80" stroke="#c8e6c9" stroke-width="1.2"/>
+<circle cx="308.2" cy="84.2777" r="5" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<path d="M320,70 L340,90 M320,90 L340,70" fill="none" stroke="#f57c00" stroke-width="4" />
+<line x1="342.409" y1="199.028" x2="250" y2="200" stroke="#e1bee7" stroke-width="1.2"/>
+<circle cx="342.409" cy="199.028" r="5" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="0" />
+<line x1="273.585" y1="173.533" x2="250" y2="200" stroke="#e1bee7" stroke-width="1.2"/>
+<circle cx="273.585" cy="173.533" r="5" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="0" />
+<line x1="241.934" y1="213.25" x2="250" y2="200" stroke="#e1bee7" stroke-width="1.2"/>
+<circle cx="241.934" cy="213.25" r="5" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="0" />
+<line x1="247.405" y1="207.404" x2="250" y2="200" stroke="#e1bee7" stroke-width="1.2"/>
+<circle cx="247.405" cy="207.404" r="5" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="0" />
+<line x1="252.893" y1="179.877" x2="250" y2="200" stroke="#e1bee7" stroke-width="1.2"/>
+<circle cx="252.893" cy="179.877" r="5" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="0" />
+<line x1="265.785" y1="183.759" x2="250" y2="200" stroke="#e1bee7" stroke-width="1.2"/>
+<circle cx="265.785" cy="183.759" r="5" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="0" />
+<line x1="302.409" y1="189.896" x2="250" y2="200" stroke="#e1bee7" stroke-width="1.2"/>
+<circle cx="302.409" cy="189.896" r="5" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="0" />
+<line x1="269.211" y1="200.047" x2="250" y2="200" stroke="#e1bee7" stroke-width="1.2"/>
+<circle cx="269.211" cy="200.047" r="5" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="0" />
+<line x1="276.668" y1="187.957" x2="250" y2="200" stroke="#e1bee7" stroke-width="1.2"/>
+<circle cx="276.668" cy="187.957" r="5" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="0" />
+<path d="M240,190 L260,210 M240,210 L260,190" fill="none" stroke="#f57c00" stroke-width="4" />
+<text x="470" y="90" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >× ＝グループの中心</text>
+<text x="470" y="120" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >k = 3 個に分ける</text>
+<text x="270" y="255" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >中心との距離で所属を決め、中心を更新して繰り返す</text>
+<circle cx="510" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

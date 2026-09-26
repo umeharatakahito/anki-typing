@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<line x1="270" y1="40" x2="150" y2="110" stroke="#37474f" stroke-width="2"/>
+<line x1="270" y1="40" x2="390" y2="110" stroke="#37474f" stroke-width="2"/>
+<line x1="150" y1="110" x2="90" y2="190" stroke="#37474f" stroke-width="2"/>
+<line x1="150" y1="110" x2="210" y2="190" stroke="#37474f" stroke-width="2"/>
+<line x1="390" y1="110" x2="330" y2="190" stroke="#ccc" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="390" y1="110" x2="450" y2="190" stroke="#ccc" stroke-width="2" stroke-dasharray="4 3"/>
+<circle cx="270" cy="40" r="18" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="150" cy="110" r="18" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="150" y="80" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >上限90</text>
+<circle cx="390" cy="110" r="18" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="390" y="80" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >上限60</text>
+<circle cx="90" cy="190" r="18" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="90" y="222" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >70</text>
+<circle cx="210" cy="190" r="18" fill="#c8e6c9" stroke="#1976d2" stroke-width="2" />
+<text x="210" y="222" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >85</text>
+<circle cx="330" cy="190" r="18" fill="#eee" stroke="#bbb" stroke-width="2" />
+<circle cx="450" cy="190" r="18" fill="#eee" stroke="#bbb" stroke-width="2" />
+<text x="470" y="140" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >暫定の最良解85を</text>
+<text x="470" y="156" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >超えられない</text>
+<line x1="378" y1="138" x2="402" y2="162" stroke="#f57c00" stroke-width="3.5"/>
+<line x1="378" y1="162" x2="402" y2="138" stroke="#f57c00" stroke-width="3.5"/>
+<text x="390" y="240" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >この先は調べない</text>
+<circle cx="40" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="40" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

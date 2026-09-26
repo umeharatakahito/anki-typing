@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" width="540" height="270" font-family="sans-serif">
+<rect width="540" height="270" fill="#fff"/>
+<rect x="40" y="50" width="150" height="170" rx="10" fill="none" stroke="#f57c00" stroke-width="2.5" stroke-dasharray="6 4"/>
+<text x="115" y="70" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >20代・都市部</text>
+<circle cx="70" cy="101.6" r="5.4" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<path d="M61,120.8 Q61,108.8 70,108.8 Q79,108.8 79,120.8 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="115" cy="101.6" r="5.4" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<path d="M106,120.8 Q106,108.8 115,108.8 Q124,108.8 124,120.8 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="160" cy="101.6" r="5.4" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<path d="M151,120.8 Q151,108.8 160,108.8 Q169,108.8 169,120.8 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="70" cy="161.6" r="5.4" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<path d="M61,180.8 Q61,168.8 70,168.8 Q79,168.8 79,180.8 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="115" cy="161.6" r="5.4" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<path d="M106,180.8 Q106,168.8 115,168.8 Q124,168.8 124,180.8 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="160" cy="161.6" r="5.4" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<path d="M151,180.8 Q151,168.8 160,168.8 Q169,168.8 169,180.8 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<rect x="205" y="50" width="150" height="170" rx="10" fill="none" stroke="#f57c00" stroke-width="2.5" stroke-dasharray="6 4"/>
+<text x="280" y="70" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >子育て世帯</text>
+<circle cx="235" cy="101.6" r="5.4" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<path d="M226,120.8 Q226,108.8 235,108.8 Q244,108.8 244,120.8 Z" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<circle cx="280" cy="101.6" r="5.4" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<path d="M271,120.8 Q271,108.8 280,108.8 Q289,108.8 289,120.8 Z" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<circle cx="325" cy="101.6" r="5.4" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<path d="M316,120.8 Q316,108.8 325,108.8 Q334,108.8 334,120.8 Z" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<circle cx="235" cy="161.6" r="5.4" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<path d="M226,180.8 Q226,168.8 235,168.8 Q244,168.8 244,180.8 Z" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<circle cx="280" cy="161.6" r="5.4" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<path d="M271,180.8 Q271,168.8 280,168.8 Q289,168.8 289,180.8 Z" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<circle cx="325" cy="161.6" r="5.4" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<path d="M316,180.8 Q316,168.8 325,168.8 Q334,168.8 334,180.8 Z" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<rect x="370" y="50" width="150" height="170" rx="10" fill="none" stroke="#f57c00" stroke-width="2.5" stroke-dasharray="6 4"/>
+<text x="445" y="70" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >シニア</text>
+<circle cx="400" cy="101.6" r="5.4" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" />
+<path d="M391,120.8 Q391,108.8 400,108.8 Q409,108.8 409,120.8 Z" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" />
+<circle cx="445" cy="101.6" r="5.4" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" />
+<path d="M436,120.8 Q436,108.8 445,108.8 Q454,108.8 454,120.8 Z" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" />
+<circle cx="490" cy="101.6" r="5.4" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" />
+<path d="M481,120.8 Q481,108.8 490,108.8 Q499,108.8 499,120.8 Z" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" />
+<circle cx="400" cy="161.6" r="5.4" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" />
+<path d="M391,180.8 Q391,168.8 400,168.8 Q409,168.8 409,180.8 Z" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" />
+<circle cx="445" cy="161.6" r="5.4" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" />
+<path d="M436,180.8 Q436,168.8 445,168.8 Q454,168.8 454,180.8 Z" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" />
+<circle cx="490" cy="161.6" r="5.4" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" />
+<path d="M481,180.8 Q481,168.8 490,168.8 Q499,168.8 499,180.8 Z" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" />
+<circle cx="520" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="250" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >市場を似た性質のグループに分ける</text>
+</svg>

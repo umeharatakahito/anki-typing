@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<rect x="40" y="50" width="220" height="150" rx="8" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="150" y="70" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >プログラム</text>
+<circle cx="172.122" cy="164.179" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="203.135" cy="184.245" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="193.182" cy="182.232" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="65.2209" cy="136.562" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="229.804" cy="154.897" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="222.162" cy="101.321" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="144.432" cy="114.657" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="157.877" cy="147.394" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="62.3606" cy="111.673" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="110.307" cy="181.635" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="197.831" cy="105.96" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="203.486" cy="103.877" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="171.141" cy="102.67" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="60.3195" cy="177.14" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="97.7021" cy="111.548" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="236.836" cy="177.241" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="112.075" cy="186.148" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="157.06" cy="157.783" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="96.8603" cy="184.098" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="184.316" cy="186.656" r="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="220.874" cy="119.879" r="5" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<circle cx="125.014" cy="106.596" r="5" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<circle cx="86.2263" cy="96.514" r="5" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<circle cx="114.245" cy="150.311" r="5" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<circle cx="60.609" cy="157.793" r="5" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<circle cx="120.821" cy="120.996" r="5" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<circle cx="207.333" cy="138.075" r="5" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<circle cx="116.843" cy="138.122" r="5" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<circle cx="186.84" cy="95.7001" r="5" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<circle cx="235.518" cy="92.2866" r="5" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<circle cx="194.963" cy="174.488" r="5" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<circle cx="63.2522" cy="168.774" r="5" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<circle cx="300" cy="60" r="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<text x="312" y="60" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >わざと入れた誤り 20個</text>
+<circle cx="300" cy="84" r="6" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<text x="312" y="84" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >本当の誤り</text>
+<rect x="290" y="110" width="230" height="90" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="405" y="130" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >テストで見つかった数</text>
+<text x="405" y="152" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >入れた誤り 16/20（80%）</text>
+<text x="405" y="174" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >本当の誤り 40</text>
+<circle cx="520" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="240" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >→ 本当の誤りは全部で約50、残り約10と推定</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<defs><marker id="itpassbiz0059m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="145.241" y1="69.3675" x2="220.235" y2="129.781" stroke="#37474f" stroke-width="2" marker-end="url(#itpassbiz0059m37474f)"/>
+<line x1="394.759" y1="69.3675" x2="319.765" y2="129.781" stroke="#37474f" stroke-width="2" marker-end="url(#itpassbiz0059m37474f)"/>
+<line x1="144.189" y1="219.706" x2="221.392" y2="151.229" stroke="#37474f" stroke-width="2" marker-end="url(#itpassbiz0059m37474f)"/>
+<line x1="314.189" y1="150.294" x2="391.392" y2="218.771" stroke="#37474f" stroke-width="2" marker-end="url(#itpassbiz0059m37474f)"/>
+<line x1="395.279" y1="220.161" x2="149.193" y2="70.7331" stroke="#37474f" stroke-width="2" marker-end="url(#itpassbiz0059m37474f)"/>
+<line x1="390.761" y1="233.823" x2="324.163" y2="255.829" stroke="#37474f" stroke-width="2" marker-end="url(#itpassbiz0059m37474f)"/>
+<line x1="220.761" y1="256.177" x2="154.163" y2="234.171" stroke="#37474f" stroke-width="2" marker-end="url(#itpassbiz0059m37474f)"/>
+<ellipse cx="270" cy="140" rx="62" ry="22" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="270" y="140" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >残業が多い</text>
+<ellipse cx="100" cy="60" rx="62" ry="22" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="100" y="60" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >人手不足</text>
+<ellipse cx="440" cy="60" rx="62" ry="22" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="440" y="60" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >会議が長い</text>
+<ellipse cx="100" cy="230" rx="62" ry="22" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="100" y="230" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >手作業が多い</text>
+<ellipse cx="440" cy="230" rx="62" ry="22" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="440" y="230" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >離職が増える</text>
+<ellipse cx="270" cy="260" rx="62" ry="22" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="260" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >引継ぎ不足</text>
+<circle cx="510" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

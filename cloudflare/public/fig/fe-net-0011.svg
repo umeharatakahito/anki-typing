@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<defs><marker id="fenet0011m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="fenet0011mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="28" y="129" width="44" height="30" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="32" y="133" width="36" height="22" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M36,169 L64,169 L58,159 L42,159 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="50" y="183" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >送る人</text>
+<rect x="160" y="123" width="40" height="54" rx="3" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<line x1="166" y1="136" x2="194" y2="136" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="191" cy="141" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="166" y1="151" x2="194" y2="151" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="191" cy="156" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="166" y1="166" x2="194" y2="166" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="191" cy="171" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<text x="180" y="191" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >送信側</text>
+<rect x="310" y="123" width="40" height="54" rx="3" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<line x1="316" y1="136" x2="344" y2="136" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="341" cy="141" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="316" y1="151" x2="344" y2="151" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="341" cy="156" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="316" y1="166" x2="344" y2="166" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="341" cy="171" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<text x="330" y="191" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >受信側</text>
+<line x1="78" y1="140" x2="156" y2="140" stroke="#37474f" stroke-width="2" marker-end="url(#fenet0011m37474f)"/>
+<line x1="204" y1="140" x2="306" y2="140" stroke="#37474f" stroke-width="2" marker-end="url(#fenet0011m37474f)"/>
+<text x="117" y="122" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >SMTP</text>
+<text x="255" y="122" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >SMTP</text>
+<rect x="318" y="204" width="30" height="20" rx="1" fill="none" stroke="#bbb" stroke-width="1.2" stroke-dasharray="3 3"/>
+<rect x="321" y="207" width="30" height="20" rx="1" fill="none" stroke="#bbb" stroke-width="1.2" stroke-dasharray="3 3"/>
+<rect x="324" y="210" width="30" height="20" rx="1" fill="none" stroke="#bbb" stroke-width="1.2" stroke-dasharray="3 3"/>
+<text x="330" y="250" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >取り込み後は</text>
+<text x="330" y="265" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >サーバに残らない</text>
+<line x1="354" y1="150" x2="440" y2="150" stroke="#f57c00" stroke-width="3" marker-end="url(#fenet0011mf57c00)"/>
+<circle cx="398" cy="120" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="398" y="121" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="448" y="129" width="44" height="30" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="452" y="133" width="36" height="22" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M456,169 L484,169 L478,159 L462,159 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="470" y="183" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >受け取る人</text>
+<rect x="452" y="200" width="30" height="20" rx="1" fill="#fff" stroke="#f57c00" stroke-width="1.5" />
+<rect x="456" y="204" width="30" height="20" rx="1" fill="#fff" stroke="#f57c00" stroke-width="1.5" />
+<rect x="460" y="208" width="30" height="20" rx="1" fill="#fff" stroke="#f57c00" stroke-width="1.5" />
+<text x="470" y="250" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >端末で保管</text>
+</svg>

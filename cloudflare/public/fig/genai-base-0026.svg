@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<rect x="50" y="40" width="90" height="36" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="95" y="59" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >広さ(㎡)</text>
+<rect x="140" y="40" width="90" height="36" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="185" y="59" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >駅まで(分)</text>
+<rect x="230" y="40" width="90" height="36" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="275" y="59" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >築年数</text>
+<rect x="320" y="40" width="90" height="36" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="365" y="59" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >家賃</text>
+<rect x="50" y="76" width="90" height="36" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="95" y="95" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >25</text>
+<rect x="140" y="76" width="90" height="36" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="185" y="95" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >5</text>
+<rect x="230" y="76" width="90" height="36" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="275" y="95" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >10</text>
+<rect x="320" y="76" width="90" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="365" y="95" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >8万</text>
+<rect x="50" y="112" width="90" height="36" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="95" y="131" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >40</text>
+<rect x="140" y="112" width="90" height="36" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="185" y="131" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >12</text>
+<rect x="230" y="112" width="90" height="36" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="275" y="131" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >3</text>
+<rect x="320" y="112" width="90" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="365" y="131" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >11万</text>
+<rect x="50" y="148" width="90" height="36" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="95" y="167" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >18</text>
+<rect x="140" y="148" width="90" height="36" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="185" y="167" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >3</text>
+<rect x="230" y="148" width="90" height="36" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="275" y="167" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >25</text>
+<rect x="320" y="148" width="90" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="365" y="167" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >6万</text>
+<circle cx="320" cy="34" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="320" y="35" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="185" y="200" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >予測の手がかりにする列（数値で表す）</text>
+<text x="455" y="200" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >予測したい値</text>
+</svg>

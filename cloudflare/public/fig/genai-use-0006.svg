@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<text x="140" y="30" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >小さくすると</text>
+<rect x="40" y="80" width="34" height="120" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<text x="57" y="214" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >晴れ</text>
+<rect x="82" y="182" width="34" height="18" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<text x="99" y="214" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >くもり</text>
+<rect x="124" y="192.5" width="34" height="7.5" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<text x="141" y="214" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >雨</text>
+<rect x="166" y="197" width="34" height="3" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<text x="183" y="214" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >雪</text>
+<rect x="208" y="198.5" width="34" height="1.5" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<text x="225" y="214" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >虹</text>
+<text x="390" y="30" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >大きくすると</text>
+<rect x="290" y="147.5" width="34" height="52.5" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<text x="307" y="214" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >晴れ</text>
+<rect x="332" y="162.5" width="34" height="37.5" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<text x="349" y="214" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >くもり</text>
+<rect x="374" y="170" width="34" height="30" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<text x="391" y="214" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >雨</text>
+<rect x="416" y="182" width="34" height="18" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<text x="433" y="214" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >雪</text>
+<rect x="458" y="188" width="34" height="12" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<text x="475" y="214" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >虹</text>
+<text x="165" y="244" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >安定した答え</text>
+<text x="415" y="244" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >多様で意外な答え</text>
+<circle cx="270" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="270" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

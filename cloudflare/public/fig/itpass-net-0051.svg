@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="itpassnet0051mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<path d="M60,220 L80,90 L100,220 Z" fill="none" stroke="#37474f" stroke-width="2.5" />
+<text x="80" y="240" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >基地局</text>
+<line x1="104" y1="120" x2="250" y2="150" stroke="#1976d2" stroke-width="4"/>
+<text x="108" y="111" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#1976d2" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >800MHz帯</text>
+<line x1="104" y1="150" x2="250" y2="150" stroke="#388e3c" stroke-width="4"/>
+<text x="108" y="141" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#388e3c" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2GHz帯</text>
+<line x1="104" y1="180" x2="250" y2="150" stroke="#7b1fa2" stroke-width="4"/>
+<text x="108" y="171" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#7b1fa2" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >3.5GHz帯</text>
+<rect x="250" y="130" width="150" height="40" rx="20" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="325" y="150" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >束ねて同時に</text>
+<circle cx="400" cy="128" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="400" y="129" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="402" y1="150" x2="450" y2="150" stroke="#f57c00" stroke-width="4" marker-end="url(#itpassnet0051mf57c00)"/>
+<rect x="456" y="120" width="36" height="64" rx="6" fill="#263238" stroke="#263238" stroke-width="1" />
+<text x="474" y="200" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >スマホ</text>
+<text x="270" y="40" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >異なる周波数帯の電波を組み合わせて高速化</text>
+</svg>

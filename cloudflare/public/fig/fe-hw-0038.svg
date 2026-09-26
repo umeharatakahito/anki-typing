@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" width="540" height="270" font-family="sans-serif">
+<rect width="540" height="270" fill="#fff"/>
+<defs><marker id="fehw0038m388e3c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#388e3c"/></marker></defs>
+<rect x="114" y="84.9" width="52" height="70.2" rx="3" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<line x1="121.8" y1="101.8" x2="158.2" y2="101.8" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="154.3" cy="108.3" r="2.6" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="121.8" y1="121.3" x2="158.2" y2="121.3" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="154.3" cy="127.8" r="2.6" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="121.8" y1="140.8" x2="158.2" y2="140.8" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="154.3" cy="147.3" r="2.6" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<text x="140" y="180" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >主系（稼働中）</text>
+<rect x="374" y="84.9" width="52" height="70.2" rx="3" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="381.8" y1="101.8" x2="418.2" y2="101.8" stroke="#f57c00" stroke-width="1.5"/>
+<circle cx="414.3" cy="108.3" r="2.6" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<line x1="381.8" y1="121.3" x2="418.2" y2="121.3" stroke="#f57c00" stroke-width="1.5"/>
+<circle cx="414.3" cy="127.8" r="2.6" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<line x1="381.8" y1="140.8" x2="418.2" y2="140.8" stroke="#f57c00" stroke-width="1.5"/>
+<circle cx="414.3" cy="147.3" r="2.6" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<text x="400" y="180" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >予備側</text>
+<text x="400" y="198" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >同じ業務を起動済み</text>
+<line x1="184" y1="110" x2="356" y2="110" stroke="#388e3c" stroke-width="2.5" marker-end="url(#fehw0038m388e3c)" marker-start="url(#fehw0038m388e3c)"/>
+<text x="270" y="92" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >データを同期</text>
+<circle cx="440" cy="76" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="440" y="77" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="250" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >障害時にすぐ切り替えられる</text>
+</svg>

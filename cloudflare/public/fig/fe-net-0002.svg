@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320" font-family="sans-serif">
+<rect width="540" height="320" fill="#fff"/>
+<defs><marker id="fenet0002m1976d2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1976d2"/></marker><marker id="fenet0002m388e3c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#388e3c"/></marker><marker id="fenet0002m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="48" y="129" width="44" height="30" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="52" y="133" width="36" height="22" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M56,169 L84,169 L78,159 L62,159 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="70" y="183" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >パソコン</text>
+<rect x="280" y="43" width="40" height="54" rx="3" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="286" y1="56" x2="314" y2="56" stroke="#f57c00" stroke-width="1.5"/>
+<circle cx="311" cy="61" r="2" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<line x1="286" y1="71" x2="314" y2="71" stroke="#f57c00" stroke-width="1.5"/>
+<circle cx="311" cy="76" r="2" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<line x1="286" y1="86" x2="314" y2="86" stroke="#f57c00" stroke-width="1.5"/>
+<circle cx="311" cy="91" r="2" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="330" cy="42" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="330" y="43" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="440" y="203" width="40" height="54" rx="3" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<line x1="446" y1="216" x2="474" y2="216" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="471" cy="221" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="446" y1="231" x2="474" y2="231" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="471" cy="236" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="446" y1="246" x2="474" y2="246" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="471" cy="251" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<text x="460" y="271" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Webサーバ</text>
+<text x="460" y="290" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >203.0.113.10</text>
+<line x1="100" y1="130" x2="270" y2="78" stroke="#1976d2" stroke-width="2" marker-end="url(#fenet0002m1976d2)"/>
+<rect x="90" y="64" width="150" height="42" rx="4" fill="#fff" stroke="#1976d2" stroke-width="1.5" />
+<text x="165" y="76" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >www.example.jp</text>
+<text x="165" y="95" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >はどこ？</text>
+<line x1="272" y1="100" x2="104" y2="148" stroke="#388e3c" stroke-width="2" marker-end="url(#fenet0002m388e3c)"/>
+<rect x="180" y="135" width="130" height="30" rx="4" fill="#fff" stroke="#388e3c" stroke-width="1.5" />
+<text x="245" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >203.0.113.10</text>
+<line x1="100" y1="175" x2="430" y2="230" stroke="#37474f" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#fenet0002m37474f)"/>
+<text x="250" y="225" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >教わった番号で接続</text>
+</svg>

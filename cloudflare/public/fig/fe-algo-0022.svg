@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" width="540" height="270" font-family="sans-serif">
+<rect width="540" height="270" fill="#fff"/>
+<rect x="102" y="20" width="44" height="38" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="124" y="40" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >6</text>
+<rect x="146" y="20" width="44" height="38" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="168" y="40" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >2</text>
+<rect x="190" y="20" width="44" height="38" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="212" y="40" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >7</text>
+<rect x="234" y="20" width="44" height="38" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="256" y="40" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >3</text>
+<text x="330" y="39" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" ></text>
+<rect x="87" y="82" width="44" height="38" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="109" y="102" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >6</text>
+<rect x="131" y="82" width="44" height="38" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="153" y="102" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >2</text>
+<rect x="205" y="82" width="44" height="38" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="227" y="102" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >7</text>
+<rect x="249" y="82" width="44" height="38" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="271" y="102" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >3</text>
+<text x="330" y="101" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >半分に分ける</text>
+<rect x="87" y="144" width="44" height="38" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="109" y="164" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >2</text>
+<rect x="131" y="144" width="44" height="38" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="153" y="164" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >6</text>
+<rect x="205" y="144" width="44" height="38" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="227" y="164" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >3</text>
+<rect x="249" y="144" width="44" height="38" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="271" y="164" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >7</text>
+<text x="330" y="163" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >短い列を整列</text>
+<rect x="102" y="206" width="44" height="38" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="124" y="226" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >2</text>
+<rect x="146" y="206" width="44" height="38" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="168" y="226" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >3</text>
+<rect x="190" y="206" width="44" height="38" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="212" y="226" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >6</text>
+<rect x="234" y="206" width="44" height="38" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="256" y="226" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >7</text>
+<text x="330" y="225" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >整列済みどうしを併合</text>
+<circle cx="510" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

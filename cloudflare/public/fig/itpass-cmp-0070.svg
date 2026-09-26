@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 240" width="540" height="240" font-family="sans-serif">
+<rect width="540" height="240" fill="#fff"/>
+<rect x="57" y="88.5" width="66" height="45" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="63" y="94.5" width="54" height="33" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M69,148.5 L111,148.5 L102,133.5 L78,133.5 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="90" y="169.5" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >パソコン</text>
+<path d="M130,130 C200,130 220,160 300,160 L380,160" fill="none" stroke="#37474f" stroke-width="5" />
+<text x="250" y="190" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >USBケーブル1本</text>
+<rect x="380" y="130" width="110" height="60" rx="8" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="435" y="160" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >外付けHDD</text>
+<path d="M240,110 L230,130 L244,130 L234,152" fill="none" stroke="#f57c00" stroke-width="3" />
+<text x="270" y="80" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >データと一緒に電気も受け取る</text>
+<circle cx="270" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="270" y="51" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="435" y="215" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ACアダプタ不要</text>
+</svg>

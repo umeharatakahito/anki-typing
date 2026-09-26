@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<rect x="20" y="110" width="70" height="40" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="55" y="130" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >今日</text>
+<line x1="92" y1="130" x2="150" y2="60" stroke="#f57c00" stroke-width="3"/>
+<rect x="150" y="42" width="70" height="36" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="185" y="60" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >は 0.5</text>
+<line x1="92" y1="130" x2="150" y2="130" stroke="#f57c00" stroke-width="3"/>
+<rect x="150" y="112" width="70" height="36" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="185" y="130" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >も 0.3</text>
+<line x1="92" y1="130" x2="150" y2="200" stroke="#ccc" stroke-width="1.5"/>
+<rect x="150" y="182" width="70" height="36" rx="6" fill="#f5f5f5" stroke="#ccc" stroke-width="2" />
+<text x="185" y="200" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >の 0.2</text>
+<line x1="222" y1="60" x2="300" y2="30" stroke="#ccc" stroke-width="1.5"/>
+<rect x="300" y="14" width="80" height="32" rx="6" fill="#f5f5f5" stroke="#ccc" stroke-width="2" />
+<text x="340" y="30" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >晴れ 0.4</text>
+<line x1="222" y1="60" x2="300" y2="85" stroke="#ccc" stroke-width="1.5"/>
+<rect x="300" y="69" width="80" height="32" rx="6" fill="#f5f5f5" stroke="#ccc" stroke-width="2" />
+<text x="340" y="85" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >雨 0.35</text>
+<line x1="222" y1="130" x2="300" y2="150" stroke="#f57c00" stroke-width="3"/>
+<rect x="300" y="134" width="80" height="32" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="340" y="150" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >晴れ 0.9</text>
+<line x1="222" y1="130" x2="300" y2="205" stroke="#ccc" stroke-width="1.5"/>
+<rect x="300" y="189" width="80" height="32" rx="6" fill="#f5f5f5" stroke="#ccc" stroke-width="2" />
+<text x="340" y="205" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >雨 0.1</text>
+<text x="460" y="110" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >候補の列を</text>
+<text x="460" y="128" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >複数（ここでは2）</text>
+<text x="460" y="146" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >保ったまま進み、</text>
+<text x="460" y="164" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >全体でよい文を選ぶ</text>
+<text x="460" y="190" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0.3×0.9=0.27 ＞ 0.5×0.4</text>
+<circle cx="520" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

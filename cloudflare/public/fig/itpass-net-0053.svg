@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 310" width="540" height="310" font-family="sans-serif">
+<rect width="540" height="310" fill="#fff"/>
+<defs><marker id="itpassnet0053mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker><marker id="itpassnet0053m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="20" y="40" width="230" height="120" rx="6" fill="#fff" stroke="#37474f" stroke-width="1.8" />
+<text x="135" y="58" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >パソコンのネットワーク設定</text>
+<text x="32" y="84" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" >IPアドレス</text>
+<text x="238" y="84" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" >192.168.1.10</text>
+<text x="32" y="108" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" >サブネットマスク</text>
+<text x="238" y="108" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" >255.255.255.0</text>
+<rect x="26" y="122" width="218" height="28" rx="3" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="36" y="136" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<text x="238" y="136" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" font-weight="bold" >192.168.1.1</text>
+<circle cx="250" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="250" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="62.4" y="213.2" width="35.2" height="24" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="65.6" y="216.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M68.8,245.2 L91.2,245.2 L86.4,237.2 L73.6,237.2 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="80" y="256.4" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >192.168.1.10</text>
+<ellipse cx="290" cy="230" rx="22" ry="13.64" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="287.58" y1="230" x2="302.1" y2="230" stroke="#f57c00" stroke-width="1.6"/>
+<line x1="290" y1="228.46" x2="290" y2="237.7" stroke="#f57c00" stroke-width="1.6"/>
+<line x1="292.42" y1="230" x2="277.9" y2="230" stroke="#f57c00" stroke-width="1.6"/>
+<line x1="290" y1="231.54" x2="290" y2="222.3" stroke="#f57c00" stroke-width="1.6"/>
+<text x="290" y="257.64" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >192.168.1.1</text>
+<path d="M399,255 C367,255 367,215 399,215 C399,180 447,175 459,197.5 C479,175 523,185 515,217.5 C543,220 543,255 511,255 Z" fill="#f5f5f5" stroke="#78909c" stroke-width="2" />
+<text x="455" y="228" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >別のネットワーク</text>
+<line x1="108" y1="225" x2="264" y2="225" stroke="#f57c00" stroke-width="3" marker-end="url(#itpassnet0053mf57c00)"/>
+<line x1="314" y1="225" x2="392" y2="225" stroke="#37474f" stroke-width="2" marker-end="url(#itpassnet0053m37474f)"/>
+<text x="185" y="205" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >まずここへ</text>
+</svg>

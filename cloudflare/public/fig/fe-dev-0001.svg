@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 565 310" width="565" height="310" font-family="sans-serif">
+<rect width="565" height="310" fill="#fff"/>
+<defs><marker id="fedev0001m1976d2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1976d2"/></marker><marker id="fedev0001m999" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#999"/></marker></defs>
+<rect x="20" y="30" width="110" height="34" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="75" y="47" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >要件定義</text>
+<rect x="105" y="72" width="110" height="34" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="160" y="89" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >外部設計</text>
+<path d="M40,64 L40,89 L103,89" fill="none" stroke="#1976d2" stroke-width="2" marker-end="url(#fedev0001m1976d2)"/>
+<rect x="190" y="114" width="110" height="34" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="245" y="131" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >内部設計</text>
+<path d="M125,106 L125,131 L188,131" fill="none" stroke="#1976d2" stroke-width="2" marker-end="url(#fedev0001m1976d2)"/>
+<rect x="275" y="156" width="110" height="34" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="330" y="173" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >プログラミング</text>
+<path d="M210,148 L210,173 L273,173" fill="none" stroke="#1976d2" stroke-width="2" marker-end="url(#fedev0001m1976d2)"/>
+<rect x="360" y="198" width="110" height="34" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="415" y="215" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >テスト</text>
+<path d="M295,190 L295,215 L358,215" fill="none" stroke="#1976d2" stroke-width="2" marker-end="url(#fedev0001m1976d2)"/>
+<rect x="445" y="240" width="110" height="34" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="500" y="257" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >運用・保守</text>
+<path d="M380,232 L380,257 L443,257" fill="none" stroke="#1976d2" stroke-width="2" marker-end="url(#fedev0001m1976d2)"/>
+<path d="M273,190 Q220,200 214,152" fill="none" stroke="#999" stroke-width="2" marker-end="url(#fedev0001m999)" stroke-dasharray="4 4"/>
+<line x1="232" y1="182" x2="248" y2="198" stroke="#d32f2f" stroke-width="3.5"/>
+<line x1="232" y1="198" x2="248" y2="182" stroke="#d32f2f" stroke-width="3.5"/>
+<text x="140" y="240" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >上から順に進め、</text>
+<text x="140" y="262" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >原則として前の工程に戻らない</text>
+<circle cx="510" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

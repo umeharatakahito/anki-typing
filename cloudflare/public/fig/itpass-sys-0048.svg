@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<defs><marker id="itpasssys0048mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker><marker id="itpasssys0048m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="30" y="90" width="140" height="70" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="100" y="117.2" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >汎用の</text>
+<text x="100" y="132.8" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >学習済みモデル</text>
+<path d="M210,40 L240,40 L250,50 L250,90 L210,90 Z" fill="#fff" stroke="#37474f" stroke-width="1.8" />
+<path d="M240,40 L240,50 L250,50" fill="none" stroke="#37474f" stroke-width="1.2" />
+<line x1="216" y1="56" x2="242" y2="56" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="216" y1="64" x2="242" y2="64" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="216" y1="72" x2="242" y2="72" stroke="#90a4ae" stroke-width="1.5"/>
+<text x="230" y="30" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >社内の問合せ記録など</text>
+<line x1="172" y1="125" x2="290" y2="125" stroke="#f57c00" stroke-width="3.5" marker-end="url(#itpasssys0048mf57c00)"/>
+<line x1="230" y1="92" x2="230" y2="118" stroke="#37474f" stroke-width="2" marker-end="url(#itpasssys0048m37474f)"/>
+<text x="230" y="150" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >追加で学習</text>
+<rect x="300" y="90" width="160" height="70" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="380" y="117.2" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >特定の用途に</text>
+<text x="380" y="132.8" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >合わせたモデル</text>
+<circle cx="460" cy="90" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="460" y="91" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="220" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >目的に合うよう重みを調整する</text>
+</svg>

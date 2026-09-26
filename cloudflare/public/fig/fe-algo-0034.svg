@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<defs><marker id="fealgo0034m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="40" y1="120" x2="96" y2="120" stroke="#37474f" stroke-width="2" marker-end="url(#fealgo0034m37474f)"/>
+<text x="60" y="104" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >開始</text>
+<circle cx="120" cy="120" r="26" fill="#e3f2fd" stroke="#1976d2" stroke-width="2.5" />
+<text x="120" y="120" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >q0</text>
+<circle cx="300" cy="120" r="26" fill="#e3f2fd" stroke="#1976d2" stroke-width="2.5" />
+<circle cx="300" cy="120" r="20" fill="none" stroke="#1976d2" stroke-width="2" />
+<text x="300" y="120" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >q1</text>
+<path d="M146,110 Q210,80 274,110" fill="none" stroke="#37474f" stroke-width="2" marker-end="url(#fealgo0034m37474f)"/>
+<text x="210" y="82" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1</text>
+<path d="M274,132 Q210,160 146,132" fill="none" stroke="#37474f" stroke-width="2" marker-end="url(#fealgo0034m37474f)"/>
+<text x="210" y="162" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1</text>
+<path d="M100,100 Q90,50 120,54 Q150,50 140,100" fill="none" stroke="#37474f" stroke-width="2" marker-end="url(#fealgo0034m37474f)"/>
+<text x="120" y="44" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0</text>
+<path d="M280,100 Q270,50 300,54 Q330,50 320,100" fill="none" stroke="#37474f" stroke-width="2" marker-end="url(#fealgo0034m37474f)"/>
+<text x="300" y="44" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0</text>
+<text x="430" y="110" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >二重丸＝受理</text>
+<text x="430" y="130" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >記憶はなし</text>
+<text x="270" y="215" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >入力記号で状態を移る（1が奇数個なら受理）</text>
+<circle cx="510" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

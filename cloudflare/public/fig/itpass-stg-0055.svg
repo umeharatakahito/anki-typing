@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" width="540" height="270" font-family="sans-serif">
+<rect width="540" height="270" fill="#fff"/>
+<defs><marker id="itpassstg0055m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="20" y="110" width="95" height="50" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="67.5" y="135" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >研究</text>
+<rect x="155" y="110" width="95" height="50" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="202.5" y="135" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >開発</text>
+<rect x="290" y="110" width="95" height="50" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="337.5" y="135" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >事業化</text>
+<rect x="425" y="110" width="95" height="50" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="472.5" y="135" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >産業化</text>
+<path d="M115,160 Q135,220 155,160" fill="#eceff1" stroke="#90a4ae" stroke-width="2.5" />
+<text x="135" y="88" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >魔の川</text>
+<line x1="115" y1="124" x2="155" y2="124" stroke="#37474f" stroke-width="1.5" marker-end="url(#itpassstg0055m37474f)"/>
+<path d="M250,160 Q270,220 290,160" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="270" y="88" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >?</text>
+<circle cx="300" cy="66" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="67" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="250" y1="124" x2="290" y2="124" stroke="#37474f" stroke-width="1.5" marker-end="url(#itpassstg0055m37474f)"/>
+<path d="M385,160 Q405,220 425,160" fill="#eceff1" stroke="#90a4ae" stroke-width="2.5" />
+<text x="405" y="88" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ダーウィンの海</text>
+<line x1="385" y1="124" x2="425" y2="124" stroke="#37474f" stroke-width="1.5" marker-end="url(#itpassstg0055m37474f)"/>
+<text x="270" y="250" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >研究から産業化までの3つの障壁</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 240" width="540" height="240" font-family="sans-serif">
+<rect width="540" height="240" fill="#fff"/>
+<defs><marker id="genaigen0071m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="20" y="80" width="70" height="70" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="55" y="115" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >画像</text>
+<line x1="92" y1="115" x2="130" y2="115" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0071m37474f)"/>
+<text x="110" y="100" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >圧縮</text>
+<rect x="130" y="50" width="280" height="130" rx="10" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="270" y="70" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >圧縮した特徴の空間</text>
+<rect x="150" y="100" width="12" height="12" rx="0" fill="rgb(103,103,82)" stroke="none" stroke-width="0" />
+<rect x="162" y="100" width="12" height="12" rx="0" fill="rgb(118,118,94)" stroke="none" stroke-width="0" />
+<rect x="174" y="100" width="12" height="12" rx="0" fill="rgb(179,179,143)" stroke="none" stroke-width="0" />
+<rect x="186" y="100" width="12" height="12" rx="0" fill="rgb(208,208,166)" stroke="none" stroke-width="0" />
+<rect x="150" y="112" width="12" height="12" rx="0" fill="rgb(162,162,129)" stroke="none" stroke-width="0" />
+<rect x="162" y="112" width="12" height="12" rx="0" fill="rgb(162,162,129)" stroke="none" stroke-width="0" />
+<rect x="174" y="112" width="12" height="12" rx="0" fill="rgb(93,93,74)" stroke="none" stroke-width="0" />
+<rect x="186" y="112" width="12" height="12" rx="0" fill="rgb(200,200,160)" stroke="none" stroke-width="0" />
+<rect x="150" y="124" width="12" height="12" rx="0" fill="rgb(169,169,135)" stroke="none" stroke-width="0" />
+<rect x="162" y="124" width="12" height="12" rx="0" fill="rgb(129,129,103)" stroke="none" stroke-width="0" />
+<rect x="174" y="124" width="12" height="12" rx="0" fill="rgb(71,71,56)" stroke="none" stroke-width="0" />
+<rect x="186" y="124" width="12" height="12" rx="0" fill="rgb(164,164,131)" stroke="none" stroke-width="0" />
+<rect x="150" y="136" width="12" height="12" rx="0" fill="rgb(204,204,163)" stroke="none" stroke-width="0" />
+<rect x="162" y="136" width="12" height="12" rx="0" fill="rgb(118,118,94)" stroke="none" stroke-width="0" />
+<rect x="174" y="136" width="12" height="12" rx="0" fill="rgb(143,143,114)" stroke="none" stroke-width="0" />
+<rect x="186" y="136" width="12" height="12" rx="0" fill="rgb(209,209,167)" stroke="none" stroke-width="0" />
+<line x1="202" y1="124" x2="234" y2="124" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0071m37474f)"/>
+<rect x="238" y="100" width="12" height="12" rx="0" fill="rgb(241,241,192)" stroke="none" stroke-width="0" />
+<rect x="250" y="100" width="12" height="12" rx="0" fill="rgb(170,170,136)" stroke="none" stroke-width="0" />
+<rect x="262" y="100" width="12" height="12" rx="0" fill="rgb(178,178,142)" stroke="none" stroke-width="0" />
+<rect x="274" y="100" width="12" height="12" rx="0" fill="rgb(229,229,183)" stroke="none" stroke-width="0" />
+<rect x="238" y="112" width="12" height="12" rx="0" fill="rgb(205,205,164)" stroke="none" stroke-width="0" />
+<rect x="250" y="112" width="12" height="12" rx="0" fill="rgb(110,110,88)" stroke="none" stroke-width="0" />
+<rect x="262" y="112" width="12" height="12" rx="0" fill="rgb(89,89,71)" stroke="none" stroke-width="0" />
+<rect x="274" y="112" width="12" height="12" rx="0" fill="rgb(176,176,140)" stroke="none" stroke-width="0" />
+<rect x="238" y="124" width="12" height="12" rx="0" fill="rgb(245,245,196)" stroke="none" stroke-width="0" />
+<rect x="250" y="124" width="12" height="12" rx="0" fill="rgb(152,152,121)" stroke="none" stroke-width="0" />
+<rect x="262" y="124" width="12" height="12" rx="0" fill="rgb(71,71,56)" stroke="none" stroke-width="0" />
+<rect x="274" y="124" width="12" height="12" rx="0" fill="rgb(211,211,168)" stroke="none" stroke-width="0" />
+<rect x="238" y="136" width="12" height="12" rx="0" fill="rgb(178,178,142)" stroke="none" stroke-width="0" />
+<rect x="250" y="136" width="12" height="12" rx="0" fill="rgb(254,254,203)" stroke="none" stroke-width="0" />
+<rect x="262" y="136" width="12" height="12" rx="0" fill="rgb(210,210,168)" stroke="none" stroke-width="0" />
+<rect x="274" y="136" width="12" height="12" rx="0" fill="rgb(182,182,145)" stroke="none" stroke-width="0" />
+<line x1="290" y1="124" x2="322" y2="124" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0071m37474f)"/>
+<rect x="326" y="100" width="12" height="12" rx="0" fill="rgb(235,235,188)" stroke="none" stroke-width="0" />
+<rect x="338" y="100" width="12" height="12" rx="0" fill="rgb(236,236,188)" stroke="none" stroke-width="0" />
+<rect x="350" y="100" width="12" height="12" rx="0" fill="rgb(253,253,202)" stroke="none" stroke-width="0" />
+<rect x="362" y="100" width="12" height="12" rx="0" fill="rgb(253,253,202)" stroke="none" stroke-width="0" />
+<rect x="326" y="112" width="12" height="12" rx="0" fill="rgb(238,238,190)" stroke="none" stroke-width="0" />
+<rect x="338" y="112" width="12" height="12" rx="0" fill="rgb(60,60,48)" stroke="none" stroke-width="0" />
+<rect x="350" y="112" width="12" height="12" rx="0" fill="rgb(61,61,48)" stroke="none" stroke-width="0" />
+<rect x="362" y="112" width="12" height="12" rx="0" fill="rgb(248,248,198)" stroke="none" stroke-width="0" />
+<rect x="326" y="124" width="12" height="12" rx="0" fill="rgb(242,242,193)" stroke="none" stroke-width="0" />
+<rect x="338" y="124" width="12" height="12" rx="0" fill="rgb(62,62,49)" stroke="none" stroke-width="0" />
+<rect x="350" y="124" width="12" height="12" rx="0" fill="rgb(63,63,50)" stroke="none" stroke-width="0" />
+<rect x="362" y="124" width="12" height="12" rx="0" fill="rgb(251,251,200)" stroke="none" stroke-width="0" />
+<rect x="326" y="136" width="12" height="12" rx="0" fill="rgb(246,246,196)" stroke="none" stroke-width="0" />
+<rect x="338" y="136" width="12" height="12" rx="0" fill="rgb(247,247,197)" stroke="none" stroke-width="0" />
+<rect x="350" y="136" width="12" height="12" rx="0" fill="rgb(240,240,192)" stroke="none" stroke-width="0" />
+<rect x="362" y="136" width="12" height="12" rx="0" fill="rgb(235,235,188)" stroke="none" stroke-width="0" />
+<circle cx="410" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="410" y="51" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="412" y1="115" x2="450" y2="115" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0071m37474f)"/>
+<rect x="450" y="80" width="70" height="70" rx="0" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<text x="485" y="115" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >画像</text>
+<text x="270" y="210" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >画像そのものより小さい空間でノイズを除くので計算が軽い</text>
+</svg>

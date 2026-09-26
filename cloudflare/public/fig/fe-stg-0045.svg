@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="festg0045m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="20" y="110" width="90" height="60" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="65" y="132.2" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >期首の</text>
+<text x="65" y="147.8" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >現金</text>
+<rect x="160" y="40" width="200" height="56" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="260" y="60.8" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >営業活動</text>
+<text x="260" y="75.2" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >本業での出入り</text>
+<line x1="112" y1="140" x2="156" y2="68" stroke="#37474f" stroke-width="1.5" marker-end="url(#festg0045m37474f)"/>
+<line x1="362" y1="68" x2="420" y2="140" stroke="#37474f" stroke-width="1.5" marker-end="url(#festg0045m37474f)"/>
+<rect x="160" y="110" width="200" height="56" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="260" y="128" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<text x="260" y="150" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >設備の購入・売却</text>
+<circle cx="360" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="360" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="112" y1="140" x2="156" y2="138" stroke="#37474f" stroke-width="1.5" marker-end="url(#festg0045m37474f)"/>
+<line x1="362" y1="138" x2="420" y2="140" stroke="#37474f" stroke-width="1.5" marker-end="url(#festg0045m37474f)"/>
+<rect x="160" y="180" width="200" height="56" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="260" y="200.8" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >財務活動</text>
+<text x="260" y="215.2" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >借入れ・返済</text>
+<line x1="112" y1="140" x2="156" y2="208" stroke="#37474f" stroke-width="1.5" marker-end="url(#festg0045m37474f)"/>
+<line x1="362" y1="208" x2="420" y2="140" stroke="#37474f" stroke-width="1.5" marker-end="url(#festg0045m37474f)"/>
+<rect x="420" y="110" width="100" height="60" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="470" y="132.2" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >期末の</text>
+<text x="470" y="147.8" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >現金</text>
+<text x="270" y="280" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >一会計期間の資金の増減を3つに分けて示す</text>
+</svg>

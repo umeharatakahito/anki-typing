@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<defs><marker id="itpasssys0034mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="40" y="30" width="140" height="80" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="110" y="50" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >A社</text>
+<text x="110" y="80" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >本業</text>
+<line x1="110" y1="180" x2="110" y2="114" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpasssys0034mf57c00)"/>
+<rect x="210" y="30" width="140" height="80" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="280" y="50" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >B社</text>
+<text x="280" y="80" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >本業</text>
+<line x1="280" y1="180" x2="280" y2="114" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpasssys0034mf57c00)"/>
+<rect x="380" y="30" width="140" height="80" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="450" y="50" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >C社</text>
+<text x="450" y="80" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >本業</text>
+<line x1="450" y1="180" x2="450" y2="114" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpasssys0034mf57c00)"/>
+<rect x="40" y="180" width="480" height="60" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="280" y="210" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >経理・人事などを1つの専門組織に集約して提供</text>
+<circle cx="520" cy="180" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="181" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

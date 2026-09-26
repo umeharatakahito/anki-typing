@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" width="560" height="320" font-family="sans-serif">
+<rect width="560" height="320" fill="#fff"/>
+<text x="130" y="47" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >第7層</text>
+<rect x="145" y="30" width="230" height="34" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="260" y="47" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >アプリケーション層</text>
+<text x="130" y="87" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >第6層</text>
+<rect x="145" y="70" width="230" height="34" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="260" y="87" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >プレゼンテーション層</text>
+<text x="130" y="127" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >第5層</text>
+<rect x="145" y="110" width="230" height="34" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="260" y="127" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >セッション層</text>
+<text x="130" y="167" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >第4層</text>
+<rect x="145" y="150" width="230" height="34" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="260" y="167" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >トランスポート層</text>
+<text x="130" y="207" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >第3層</text>
+<rect x="145" y="190" width="230" height="34" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="260" y="207" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >ネットワーク層</text>
+<text x="130" y="247" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >第2層</text>
+<rect x="145" y="230" width="230" height="34" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="260" y="247" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >?</text>
+<circle cx="371" cy="232" r="13" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="371" y="233" font-size="17.29" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="130" y="287" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >第1層</text>
+<rect x="145" y="270" width="230" height="34" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="260" y="287" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >物理層</text>
+<text x="465" y="250" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >隣り合う機器どうし</text>
+<text x="465" y="270" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >MACアドレスで転送</text>
+</svg>

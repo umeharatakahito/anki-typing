@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<rect x="15" y="110" width="110" height="100" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="70" y="128" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >本社</text>
+<rect x="54.6" y="160.3" width="30.8" height="21" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="57.4" y="163.1" width="25.2" height="15.4" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M60.2,188.3 L79.8,188.3 L75.6,181.3 L64.4,181.3 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="415" y="110" width="110" height="100" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="470" y="128" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >支店</text>
+<rect x="454.6" y="160.3" width="30.8" height="21" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="457.4" y="163.1" width="25.2" height="15.4" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M460.2,188.3 L479.8,188.3 L475.6,181.3 L464.4,181.3 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<path d="M179,214 C127,214 127,142 179,142 C179,79 257,70 276.5,110.5 C309,70 380.5,88 367.5,146.5 C413,151 413,214 361,214 Z" fill="#f5f5f5" stroke="#78909c" stroke-width="2" />
+<text x="270" y="118" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >インターネット</text>
+<path d="M125,150 L415,150 L415,180 L125,180 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" fill-opacity="0.8"/>
+<text x="270" y="165" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >仮想の専用線</text>
+<path d="M144.4,136.8 L144.4,130.4 A5.6,5.6 0 0 1 155.6,130.4 L155.6,136.8" fill="none" stroke="#6d4c41" stroke-width="2" />
+<rect x="141.2" y="136" width="17.6" height="13.6" rx="2" fill="#ffe082" stroke="#6d4c41" stroke-width="2" />
+<circle cx="150" cy="142.4" r="1.76" fill="#6d4c41" stroke="#6d4c41" stroke-width="0" />
+<path d="M384.4,136.8 L384.4,130.4 A5.6,5.6 0 0 1 395.6,130.4 L395.6,136.8" fill="none" stroke="#6d4c41" stroke-width="2" />
+<rect x="381.2" y="136" width="17.6" height="13.6" rx="2" fill="#ffe082" stroke="#6d4c41" stroke-width="2" />
+<circle cx="390" cy="142.4" r="1.76" fill="#6d4c41" stroke="#6d4c41" stroke-width="0" />
+<text x="270" y="205" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >暗号化などで守る</text>
+<circle cx="415" cy="140" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="415" y="141" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

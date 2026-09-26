@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<defs><marker id="genaigen0061mbbb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bbb"/></marker></defs>
+<rect x="40" y="40" width="33" height="36" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="56.5" y="58" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >昔</text>
+<rect x="79" y="40" width="70" height="36" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="114" y="58" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >むかし</text>
+<rect x="40" y="95" width="33" height="36" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="56.5" y="113" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >昔</text>
+<rect x="79" y="95" width="63" height="36" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="110.5" y="113" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >むかし</text>
+<rect x="148" y="95" width="70" height="36" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="183" y="113" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >ある</text>
+<path d="M183.0,77 L183.0,93" fill="none" stroke="#bbb" stroke-width="1.5" marker-end="url(#genaigen0061mbbb)"/>
+<rect x="40" y="150" width="33" height="36" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="56.5" y="168" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >昔</text>
+<rect x="79" y="150" width="63" height="36" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="110.5" y="168" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >むかし</text>
+<rect x="148" y="150" width="48" height="36" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="172" y="168" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >ある</text>
+<rect x="202" y="150" width="70" height="36" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="237" y="168" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >ところ</text>
+<path d="M237.0,132 L237.0,148" fill="none" stroke="#bbb" stroke-width="1.5" marker-end="url(#genaigen0061mbbb)"/>
+<text x="270" y="220" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >それまでに出した内容を手がかりに、次の要素を1つずつ予測</text>
+<circle cx="500" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 240" width="540" height="240" font-family="sans-serif">
+<rect width="540" height="240" fill="#fff"/>
+<rect x="40" y="80" width="322" height="60" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<text x="201" y="110" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >訓練用</text>
+<text x="201" y="160" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >70%</text>
+<rect x="362" y="80" width="69" height="60" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="396.5" y="110" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<text x="396.5" y="160" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >15%</text>
+<circle cx="431" cy="80" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="431" y="81" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="431" y="80" width="69" height="60" rx="0" fill="#e1bee7" stroke="#7b1fa2" stroke-width="1.5" />
+<text x="465.5" y="110" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >テスト用</text>
+<text x="465.5" y="160" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >15%</text>
+<text x="270" y="50" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >集めたデータ全体</text>
+<text x="270" y="205" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ハイパーパラメータの調整・モデル選び</text>
+</svg>

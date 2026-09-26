@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320" font-family="sans-serif">
+<rect width="540" height="320" fill="#fff"/>
+<defs><marker id="itpassnet0012m1976d2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1976d2"/></marker><marker id="itpassnet0012m388e3c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#388e3c"/></marker></defs>
+<rect x="48" y="89" width="44" height="30" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="52" y="93" width="36" height="22" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M56,129 L84,129 L78,119 L62,119 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="70" y="143" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >つないだばかり</text>
+<text x="70" y="160" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（設定なし）</text>
+<rect x="400" y="83" width="40" height="54" rx="3" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="406" y1="96" x2="434" y2="96" stroke="#f57c00" stroke-width="1.5"/>
+<circle cx="431" cy="101" r="2" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<line x1="406" y1="111" x2="434" y2="111" stroke="#f57c00" stroke-width="1.5"/>
+<circle cx="431" cy="116" r="2" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<line x1="406" y1="126" x2="434" y2="126" stroke="#f57c00" stroke-width="1.5"/>
+<circle cx="431" cy="131" r="2" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="450" cy="80" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="450" y="81" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="110" y1="90" x2="390" y2="90" stroke="#1976d2" stroke-width="2" marker-end="url(#itpassnet0012m1976d2)"/>
+<text x="250" y="72" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >① 設定をください（全員あて）</text>
+<line x1="390" y1="125" x2="110" y2="125" stroke="#388e3c" stroke-width="2" marker-end="url(#itpassnet0012m388e3c)"/>
+<text x="250" y="142" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >② 使ってよい設定</text>
+<rect x="110" y="190" width="320" height="112" rx="6" fill="#fff" stroke="#388e3c" stroke-width="1.8" />
+<text x="126" y="210" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >IPアドレス</text>
+<text x="418" y="210" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" >192.168.1.23</text>
+<text x="126" y="235" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >サブネットマスク</text>
+<text x="418" y="235" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" >255.255.255.0</text>
+<text x="126" y="260" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >出口のルータ</text>
+<text x="418" y="260" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" >192.168.1.1</text>
+<text x="126" y="285" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >名前解決サーバ</text>
+<text x="418" y="285" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" >192.168.1.2</text>
+<text x="250" y="305" font-size="1" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" ></text>
+</svg>

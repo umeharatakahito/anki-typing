@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<defs><marker id="festg0013m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="70" y1="250" x2="490" y2="250" stroke="#37474f" stroke-width="2" marker-end="url(#festg0013m37474f)"/>
+<line x1="70" y1="250" x2="70" y2="30" stroke="#37474f" stroke-width="2" marker-end="url(#festg0013m37474f)"/>
+<text x="488" y="270" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >売上高（販売量）</text>
+<text x="78" y="22" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >金額</text>
+<line x1="70" y1="250" x2="450" y2="60" stroke="#1976d2" stroke-width="3"/>
+<text x="440" y="50" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >売上高</text>
+<line x1="70" y1="170" x2="480" y2="170" stroke="#f57c00" stroke-width="3"/>
+<line x1="70" y1="170" x2="450" y2="90" stroke="#d32f2f" stroke-width="3"/>
+<text x="470" y="100" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >総費用</text>
+<text x="150" y="158" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >?</text>
+<circle cx="180" cy="158" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="180" y="159" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="150" y="190" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >販売量が増えても一定</text>
+<text x="420" y="190" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#777" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >変動費</text>
+<circle cx="346.364" cy="111.818" r="5" fill="#fff" stroke="#37474f" stroke-width="2" />
+</svg>

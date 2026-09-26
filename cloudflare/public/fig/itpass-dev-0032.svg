@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="itpassdev0032m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="40" y1="150" x2="510" y2="150" stroke="#37474f" stroke-width="2.5" marker-end="url(#itpassdev0032m37474f)"/>
+<rect x="160" y="138" width="240" height="24" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="280" y="118" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >有効（0〜100）</text>
+<text x="95" y="118" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >無効</text>
+<text x="460" y="118" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >無効</text>
+<rect x="40" y="138" width="120" height="24" rx="0" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<rect x="400" y="138" width="105" height="24" rx="0" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<circle cx="100" cy="150" r="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="100" y="185" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >-30</text>
+<circle cx="280" cy="150" r="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="280" y="185" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >50</text>
+<circle cx="450" cy="150" r="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="450" y="185" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >150</text>
+<text x="270" y="215" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >グループごとに代表の値を1つ</text>
+<circle cx="280" cy="240" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="280" y="241" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="30" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >入力できる値：0〜100</text>
+</svg>

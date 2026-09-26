@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<text x="140" y="26" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >本来の全体</text>
+<circle cx="40" cy="62.3" r="4.95" fill="#bbdefb" stroke="#607d8b" stroke-width="2" />
+<path d="M31.75,79.9 Q31.75,68.9 40,68.9 Q48.25,68.9 48.25,79.9 Z" fill="#bbdefb" stroke="#607d8b" stroke-width="2" />
+<circle cx="80" cy="62.3" r="4.95" fill="#c8e6c9" stroke="#607d8b" stroke-width="2" />
+<path d="M71.75,79.9 Q71.75,68.9 80,68.9 Q88.25,68.9 88.25,79.9 Z" fill="#c8e6c9" stroke="#607d8b" stroke-width="2" />
+<circle cx="120" cy="62.3" r="4.95" fill="#e1bee7" stroke="#607d8b" stroke-width="2" />
+<path d="M111.75,79.9 Q111.75,68.9 120,68.9 Q128.25,68.9 128.25,79.9 Z" fill="#e1bee7" stroke="#607d8b" stroke-width="2" />
+<circle cx="160" cy="62.3" r="4.95" fill="#bbdefb" stroke="#607d8b" stroke-width="2" />
+<path d="M151.75,79.9 Q151.75,68.9 160,68.9 Q168.25,68.9 168.25,79.9 Z" fill="#bbdefb" stroke="#607d8b" stroke-width="2" />
+<circle cx="200" cy="62.3" r="4.95" fill="#c8e6c9" stroke="#607d8b" stroke-width="2" />
+<path d="M191.75,79.9 Q191.75,68.9 200,68.9 Q208.25,68.9 208.25,79.9 Z" fill="#c8e6c9" stroke="#607d8b" stroke-width="2" />
+<circle cx="240" cy="62.3" r="4.95" fill="#e1bee7" stroke="#607d8b" stroke-width="2" />
+<path d="M231.75,79.9 Q231.75,68.9 240,68.9 Q248.25,68.9 248.25,79.9 Z" fill="#e1bee7" stroke="#607d8b" stroke-width="2" />
+<circle cx="40" cy="122.3" r="4.95" fill="#bbdefb" stroke="#607d8b" stroke-width="2" />
+<path d="M31.75,139.9 Q31.75,128.9 40,128.9 Q48.25,128.9 48.25,139.9 Z" fill="#bbdefb" stroke="#607d8b" stroke-width="2" />
+<circle cx="80" cy="122.3" r="4.95" fill="#c8e6c9" stroke="#607d8b" stroke-width="2" />
+<path d="M71.75,139.9 Q71.75,128.9 80,128.9 Q88.25,128.9 88.25,139.9 Z" fill="#c8e6c9" stroke="#607d8b" stroke-width="2" />
+<circle cx="120" cy="122.3" r="4.95" fill="#e1bee7" stroke="#607d8b" stroke-width="2" />
+<path d="M111.75,139.9 Q111.75,128.9 120,128.9 Q128.25,128.9 128.25,139.9 Z" fill="#e1bee7" stroke="#607d8b" stroke-width="2" />
+<circle cx="160" cy="122.3" r="4.95" fill="#bbdefb" stroke="#607d8b" stroke-width="2" />
+<path d="M151.75,139.9 Q151.75,128.9 160,128.9 Q168.25,128.9 168.25,139.9 Z" fill="#bbdefb" stroke="#607d8b" stroke-width="2" />
+<circle cx="200" cy="122.3" r="4.95" fill="#c8e6c9" stroke="#607d8b" stroke-width="2" />
+<path d="M191.75,139.9 Q191.75,128.9 200,128.9 Q208.25,128.9 208.25,139.9 Z" fill="#c8e6c9" stroke="#607d8b" stroke-width="2" />
+<circle cx="240" cy="122.3" r="4.95" fill="#e1bee7" stroke="#607d8b" stroke-width="2" />
+<path d="M231.75,139.9 Q231.75,128.9 240,128.9 Q248.25,128.9 248.25,139.9 Z" fill="#e1bee7" stroke="#607d8b" stroke-width="2" />
+<text x="400" y="26" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >集めた学習データ</text>
+<rect x="300" y="40" width="200" height="140" rx="10" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<circle cx="330" cy="72.3" r="4.95" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<path d="M321.75,89.9 Q321.75,78.9 330,78.9 Q338.25,78.9 338.25,89.9 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="390" cy="72.3" r="4.95" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<path d="M381.75,89.9 Q381.75,78.9 390,78.9 Q398.25,78.9 398.25,89.9 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="450" cy="72.3" r="4.95" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<path d="M441.75,89.9 Q441.75,78.9 450,78.9 Q458.25,78.9 458.25,89.9 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="330" cy="127.3" r="4.95" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<path d="M321.75,144.9 Q321.75,133.9 330,133.9 Q338.25,133.9 338.25,144.9 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="390" cy="127.3" r="4.95" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<path d="M381.75,144.9 Q381.75,133.9 390,133.9 Q398.25,133.9 398.25,144.9 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="450" cy="127.3" r="4.95" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<path d="M441.75,144.9 Q441.75,133.9 450,133.9 Q458.25,133.9 458.25,144.9 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="500" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="225" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >一部の地域・年代からだけ集め、全体を正しく表さない</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<path d="M60,20 L40,70 L60,70 L40,120" fill="none" stroke="#f9a825" stroke-width="5" />
+<line x1="20" y1="140" x2="520" y2="140" stroke="#37474f" stroke-width="3"/>
+<text x="40" y="160" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >電源線・通信線</text>
+<path d="M110,140 L130,140 L140,80 L150,140 L170,140" fill="none" stroke="#d32f2f" stroke-width="3" />
+<text x="140" y="70" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >瞬間的な高電圧</text>
+<rect x="230" y="110" width="90" height="60" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<circle cx="320" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="320" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<path d="M340,140 L500,140" fill="none" stroke="#388e3c" stroke-width="4" />
+<rect x="448" y="179" width="44" height="30" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="452" y="183" width="36" height="22" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M456,219 L484,219 L478,209 L462,209 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="470" y="233" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >パソコンなど</text>
+<line x1="470" y1="140" x2="470" y2="168" stroke="#37474f" stroke-width="2"/>
+<text x="230" y="262" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >異常な電圧を逃がして、つながった装置を守る</text>
+</svg>

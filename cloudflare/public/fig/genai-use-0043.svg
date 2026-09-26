@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="genaiuse0043m90a4ae" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#90a4ae"/></marker></defs>
+<rect x="40" y="40" width="460" height="110" rx="8" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="60" y="70" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >次の商品の紹介文を100字で書いて。</text>
+<text x="60" y="100" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >商品名：</text>
+<rect x="120" y="86" width="110" height="28" rx="4" fill="#fff9c4" stroke="#f9a825" stroke-width="1.5" />
+<text x="175" y="100" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >{商品名}</text>
+<text x="250" y="100" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >特徴：</text>
+<rect x="300" y="86" width="90" height="28" rx="4" fill="#fff9c4" stroke="#f9a825" stroke-width="1.5" />
+<text x="345" y="100" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >{特徴}</text>
+<rect x="34" y="34" width="472" height="122" rx="10" fill="none" stroke="#f57c00" stroke-width="3" />
+<circle cx="506" cy="34" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="506" y="35" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="60" y="190" width="130" height="34" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="125" y="207" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >保温ボトル</text>
+<line x1="125" y1="188" x2="175" y2="118" stroke="#90a4ae" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#genaiuse0043m90a4ae)"/>
+<rect x="210" y="190" width="130" height="34" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="275" y="207" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >折りたたみ傘</text>
+<line x1="275" y1="188" x2="175" y2="118" stroke="#90a4ae" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#genaiuse0043m90a4ae)"/>
+<rect x="360" y="190" width="130" height="34" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="425" y="207" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >ノート</text>
+<line x1="425" y1="188" x2="175" y2="118" stroke="#90a4ae" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#genaiuse0043m90a4ae)"/>
+<text x="270" y="250" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >よく使う指示を型にして使い回す</text>
+</svg>

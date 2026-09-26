@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="genaibase0070m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<text x="40" y="65" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ねこ</text>
+<rect x="70" y="50" width="70" height="30" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="105" y="65" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >2.0</text>
+<rect x="330" y="50" width="118.62" height="30" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="458.62" y="65" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0.66</text>
+<line x1="142" y1="65" x2="196" y2="130" stroke="#37474f" stroke-width="1.5" marker-end="url(#genaibase0070m37474f)"/>
+<line x1="284" y1="130" x2="328" y2="65" stroke="#37474f" stroke-width="1.5" marker-end="url(#genaibase0070m37474f)"/>
+<text x="40" y="125" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >いぬ</text>
+<rect x="70" y="110" width="70" height="30" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="105" y="125" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >1.0</text>
+<rect x="330" y="110" width="43.6379" height="30" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="383.638" y="125" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0.24</text>
+<line x1="142" y1="125" x2="196" y2="130" stroke="#37474f" stroke-width="1.5" marker-end="url(#genaibase0070m37474f)"/>
+<line x1="284" y1="130" x2="328" y2="125" stroke="#37474f" stroke-width="1.5" marker-end="url(#genaibase0070m37474f)"/>
+<text x="40" y="185" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >とり</text>
+<rect x="70" y="170" width="70" height="30" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="105" y="185" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >0.1</text>
+<rect x="330" y="170" width="17.7419" height="30" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="357.742" y="185" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0.10</text>
+<line x1="142" y1="185" x2="196" y2="130" stroke="#37474f" stroke-width="1.5" marker-end="url(#genaibase0070m37474f)"/>
+<line x1="284" y1="130" x2="328" y2="185" stroke="#37474f" stroke-width="1.5" marker-end="url(#genaibase0070m37474f)"/>
+<rect x="200" y="100" width="80" height="60" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="240" y="131" font-size="30" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<circle cx="280" cy="100" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="280" y="101" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="105" y="30" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >スコア</text>
+<text x="420" y="30" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >確率のような値</text>
+<text x="420" y="238" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >合計すると 1</text>
+</svg>

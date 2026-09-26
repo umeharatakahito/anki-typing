@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<rect x="30" y="40" width="220" height="150" rx="0" fill="#ffcc80" stroke="#90a4ae" stroke-width="1.5" />
+<path d="M110,115 m-50,0 a50,50 0 1,0 100,0 a50,50 0 1,0 -100,0" fill="#fff" stroke="none"/>
+<path d="M170,115 m-50,0 a50,50 0 1,0 100,0 a50,50 0 1,0 -100,0" fill="#fff" stroke="none"/>
+<circle cx="110" cy="115" r="50" fill="#ffcc80" stroke="none"/>
+<circle cx="170" cy="115" r="50" fill="#ffcc80" stroke="none"/>
+<path d="M140,75 A50,50 0 0,1 140,155 A50,50 0 0,1 140,75 Z" fill="#fff"/>
+<circle cx="110" cy="115" r="50" fill="none" stroke="#37474f" stroke-width="2" />
+<circle cx="170" cy="115" r="50" fill="none" stroke="#37474f" stroke-width="2" />
+<text x="85" y="115" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >A</text>
+<text x="195" y="115" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >B</text>
+<rect x="290" y="40" width="220" height="150" rx="0" fill="#ffcc80" stroke="#90a4ae" stroke-width="1.5" />
+<path d="M370,115 m-50,0 a50,50 0 1,0 100,0 a50,50 0 1,0 -100,0" fill="#fff" stroke="none"/>
+<path d="M430,115 m-50,0 a50,50 0 1,0 100,0 a50,50 0 1,0 -100,0" fill="#fff" stroke="none"/>
+<circle cx="370" cy="115" r="50" fill="#ffcc80" stroke="none"/>
+<circle cx="430" cy="115" r="50" fill="#ffcc80" stroke="none"/>
+<path d="M400,75 A50,50 0 0,1 400,155 A50,50 0 0,1 400,75 Z" fill="#fff"/>
+<circle cx="370" cy="115" r="50" fill="none" stroke="#37474f" stroke-width="2" />
+<circle cx="430" cy="115" r="50" fill="none" stroke="#37474f" stroke-width="2" />
+<text x="345" y="115" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >A</text>
+<text x="455" y="115" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >B</text>
+<text x="270" y="115" font-size="30" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＝</text>
+<text x="140" y="215" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >NOT (A AND B)</text>
+<text x="400" y="215" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >(NOT A) OR (NOT B)</text>
+<circle cx="510" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

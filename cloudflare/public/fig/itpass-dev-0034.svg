@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<rect x="110" y="60" width="48" height="24" rx="0" fill="#eceff1" stroke="#b0bec5" stroke-width="1" />
+<text x="134" y="72" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >1週</text>
+<rect x="158" y="60" width="48" height="24" rx="0" fill="#eceff1" stroke="#b0bec5" stroke-width="1" />
+<text x="182" y="72" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >2週</text>
+<rect x="206" y="60" width="48" height="24" rx="0" fill="#eceff1" stroke="#b0bec5" stroke-width="1" />
+<text x="230" y="72" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >3週</text>
+<rect x="254" y="60" width="48" height="24" rx="0" fill="#eceff1" stroke="#b0bec5" stroke-width="1" />
+<text x="278" y="72" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >4週</text>
+<rect x="302" y="60" width="48" height="24" rx="0" fill="#eceff1" stroke="#b0bec5" stroke-width="1" />
+<text x="326" y="72" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >5週</text>
+<rect x="350" y="60" width="48" height="24" rx="0" fill="#eceff1" stroke="#b0bec5" stroke-width="1" />
+<text x="374" y="72" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >6週</text>
+<rect x="398" y="60" width="48" height="24" rx="0" fill="#eceff1" stroke="#b0bec5" stroke-width="1" />
+<text x="422" y="72" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >7週</text>
+<rect x="446" y="60" width="48" height="24" rx="0" fill="#eceff1" stroke="#b0bec5" stroke-width="1" />
+<text x="470" y="72" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >8週</text>
+<rect x="20" y="84" width="90" height="34" rx="0" fill="#fafafa" stroke="#b0bec5" stroke-width="1" />
+<text x="100" y="101" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" >設計</text>
+<rect x="110" y="84" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="158" y="84" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="206" y="84" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="254" y="84" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="302" y="84" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="350" y="84" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="398" y="84" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="446" y="84" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="112" y="92" width="140" height="18" rx="4" fill="#bbdefb" stroke="#1976d2" stroke-width="1.8" />
+<rect x="20" y="118" width="90" height="34" rx="0" fill="#fafafa" stroke="#b0bec5" stroke-width="1" />
+<text x="100" y="135" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" >製造</text>
+<rect x="110" y="118" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="158" y="118" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="206" y="118" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="254" y="118" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="302" y="118" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="350" y="118" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="398" y="118" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="446" y="118" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="256" y="126" width="140" height="18" rx="4" fill="#bbdefb" stroke="#1976d2" stroke-width="1.8" />
+<rect x="20" y="152" width="90" height="34" rx="0" fill="#fafafa" stroke="#b0bec5" stroke-width="1" />
+<text x="100" y="169" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" >テスト</text>
+<rect x="110" y="152" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="158" y="152" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="206" y="152" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="254" y="152" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="302" y="152" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="350" y="152" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="398" y="152" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="446" y="152" width="48" height="34" rx="0" fill="#fff" stroke="#eceff1" stroke-width="1" />
+<rect x="400" y="160" width="92" height="18" rx="4" fill="#bbdefb" stroke="#1976d2" stroke-width="1.8" />
+<polygon points="254,30 266,44 254,58 242,44" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" stroke-linejoin="round" />
+<line x1="254" y1="58" x2="254" y2="186" stroke="#f57c00" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="254" y="20" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >設計完了</text>
+<polygon points="494,30 506,44 494,58 482,44" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" stroke-linejoin="round" />
+<line x1="494" y1="58" x2="494" y2="186" stroke="#f57c00" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="494" y="20" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >納品</text>
+<circle cx="270" cy="250" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="270" y="251" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="275" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >進み具合を確かめる重要な節目</text>
+</svg>

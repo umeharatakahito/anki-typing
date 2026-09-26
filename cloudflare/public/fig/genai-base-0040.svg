@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" width="540" height="270" font-family="sans-serif">
+<rect width="540" height="270" fill="#fff"/>
+<defs><marker id="genaibase0040m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="60" y1="230" x2="490" y2="230" stroke="#37474f" stroke-width="2" marker-end="url(#genaibase0040m37474f)"/>
+<line x1="60" y1="230" x2="60" y2="20" stroke="#37474f" stroke-width="2" marker-end="url(#genaibase0040m37474f)"/>
+<line x1="70" y1="226" x2="460" y2="76" stroke="#1976d2" stroke-width="3"/>
+<line x1="90" y1="205.854" x2="90" y2="218.308" stroke="#f57c00" stroke-width="2.5"/>
+<circle cx="90" cy="205.854" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<line x1="131.111" y1="190.667" x2="131.111" y2="202.496" stroke="#f57c00" stroke-width="2.5"/>
+<circle cx="131.111" cy="190.667" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<line x1="172.222" y1="196.923" x2="172.222" y2="186.684" stroke="#f57c00" stroke-width="2.5"/>
+<circle cx="172.222" cy="196.923" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<line x1="213.333" y1="145.806" x2="213.333" y2="170.872" stroke="#f57c00" stroke-width="2.5"/>
+<circle cx="213.333" cy="145.806" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<line x1="254.444" y1="156.057" x2="254.444" y2="155.06" stroke="#f57c00" stroke-width="2.5"/>
+<circle cx="254.444" cy="156.057" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<line x1="295.556" y1="115.149" x2="295.556" y2="139.248" stroke="#f57c00" stroke-width="2.5"/>
+<circle cx="295.556" cy="115.149" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<line x1="336.667" y1="139.878" x2="336.667" y2="123.436" stroke="#f57c00" stroke-width="2.5"/>
+<circle cx="336.667" cy="139.878" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<line x1="377.778" y1="113.546" x2="377.778" y2="107.624" stroke="#f57c00" stroke-width="2.5"/>
+<circle cx="377.778" cy="113.546" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<line x1="418.889" y1="111.831" x2="418.889" y2="91.812" stroke="#f57c00" stroke-width="2.5"/>
+<circle cx="418.889" cy="111.831" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<line x1="460" y1="73.9498" x2="460" y2="76" stroke="#f57c00" stroke-width="2.5"/>
+<circle cx="460" cy="73.9498" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<text x="470" y="70" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#1976d2" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >予測</text>
+<rect x="300" y="180" width="210" height="60" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="405" y="200" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >ずれ（オレンジ）の大きさ</text>
+<text x="405" y="220" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >を1つの数値に → 小さくする</text>
+<circle cx="510" cy="180" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="181" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<defs><marker id="fedev0037m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<circle cx="50" cy="140" r="10" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<rect x="110" y="116" width="120" height="48" rx="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="170" y="140" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >待機中</text>
+<rect x="330" y="36" width="120" height="48" rx="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="390" y="60" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >運転中</text>
+<rect x="330" y="196" width="120" height="48" rx="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="390" y="220" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >一時停止</text>
+<line x1="62" y1="140" x2="108" y2="140" stroke="#37474f" stroke-width="2" marker-end="url(#fedev0037m37474f)"/>
+<path d="M230,128 Q300,70 328,64" fill="none" stroke="#37474f" stroke-width="2" marker-end="url(#fedev0037m37474f)"/>
+<text x="270" y="80" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >開始</text>
+<path d="M390,86 L390,194" fill="none" stroke="#37474f" stroke-width="2" marker-end="url(#fedev0037m37474f)"/>
+<text x="415" y="140" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >停止</text>
+<path d="M330,224 Q260,220 222,158" fill="none" stroke="#37474f" stroke-width="2" marker-end="url(#fedev0037m37474f)"/>
+<text x="255" y="215" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >リセット</text>
+<path d="M450,212 Q510,140 452,70" fill="none" stroke="#37474f" stroke-width="2" marker-end="url(#fedev0037m37474f)"/>
+<text x="500" y="140" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >再開</text>
+<circle cx="30" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="30" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="278" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >イベントを受けてどう移り変わるか</text>
+</svg>

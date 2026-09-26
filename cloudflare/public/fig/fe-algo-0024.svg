@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<defs><marker id="fealgo0024mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="60" y="40" width="260" height="50" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="76" y="65" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" >f(3) = 3 × f(2)</text>
+<rect x="130" y="110" width="230" height="50" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="146" y="135" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" >f(2) = 2 × f(1)</text>
+<path d="M90,90 Q90,135 126,135" fill="none" stroke="#f57c00" stroke-width="2.5" marker-end="url(#fealgo0024mf57c00)"/>
+<rect x="200" y="180" width="200" height="50" rx="8" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<text x="216" y="205" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" >f(1) = 1</text>
+<path d="M160,160 Q160,205 196,205" fill="none" stroke="#f57c00" stroke-width="2.5" marker-end="url(#fealgo0024mf57c00)"/>
+<text x="430" y="70" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >関数の中で</text>
+<text x="430" y="90" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >同じ関数を</text>
+<text x="430" y="110" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >呼び出す</text>
+<circle cx="40" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="40" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="262" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >戻りながら計算：1 → 2 → 6</text>
+</svg>

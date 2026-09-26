@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<ellipse cx="270" cy="150" rx="60" ry="30" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="270" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >ターゲット</text>
+<rect x="50" y="30" width="160" height="60" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="130" y="51.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >Product</text>
+<text x="130" y="68.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >製品</text>
+<rect x="330" y="30" width="160" height="60" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="410" y="51.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >Price</text>
+<text x="410" y="68.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >価格</text>
+<rect x="50" y="210" width="160" height="60" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="130" y="231.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >Place</text>
+<text x="130" y="248.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >流通</text>
+<rect x="330" y="210" width="160" height="60" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="410" y="231.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >Promotion</text>
+<text x="410" y="248.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >販売促進</text>
+<circle cx="520" cy="20" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="21" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="290" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >4つの要素を組み合わせる</text>
+</svg>

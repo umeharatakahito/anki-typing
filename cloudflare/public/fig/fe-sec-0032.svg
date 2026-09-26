@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="fesec0032m90a4ae" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#90a4ae"/></marker></defs>
+<circle cx="270" cy="155" r="100" fill="none" stroke="#90a4ae" stroke-width="3" stroke-dasharray="2 0"/>
+<circle cx="270" cy="55" r="32" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="48" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >Plan</text>
+<text x="270" y="65" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >計画</text>
+<line x1="331.737" y1="76.3329" x2="348.667" y2="93.2628" stroke="#90a4ae" stroke-width="3" marker-end="url(#fesec0032m90a4ae)"/>
+<circle cx="370" cy="155" r="32" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="370" y="148" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >Do</text>
+<text x="370" y="165" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >実行</text>
+<line x1="348.667" y1="216.737" x2="331.737" y2="233.667" stroke="#90a4ae" stroke-width="3" marker-end="url(#fesec0032m90a4ae)"/>
+<circle cx="270" cy="255" r="32" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="248" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >Check</text>
+<text x="270" y="265" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >評価</text>
+<line x1="208.263" y1="233.667" x2="191.333" y2="216.737" stroke="#90a4ae" stroke-width="3" marker-end="url(#fesec0032m90a4ae)"/>
+<circle cx="170" cy="155" r="32" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="170" y="148" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >Act</text>
+<text x="170" y="165" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >改善</text>
+<line x1="191.333" y1="93.2628" x2="208.263" y2="76.3329" stroke="#90a4ae" stroke-width="3" marker-end="url(#fesec0032m90a4ae)"/>
+<rect x="200" y="129" width="140" height="52" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="270" y="147" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >情報資産を守る</text>
+<text x="270" y="167" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >リスク評価→対策</text>
+<circle cx="340" cy="129" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="340" y="130" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

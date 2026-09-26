@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="genaigen0062mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="30" y="40" width="200" height="40" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="130" y="60" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >生成AIは便利</text>
+<line x1="232" y1="60" x2="280" y2="60" stroke="#f57c00" stroke-width="3" marker-end="url(#genaigen0062mf57c00)"/>
+<rect x="280" y="30" width="90" height="60" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="325" y="61" font-size="30" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<circle cx="370" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="370" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="372" y1="60" x2="410" y2="60" stroke="#f57c00" stroke-width="3" marker-end="url(#genaigen0062mf57c00)"/>
+<rect x="60" y="130" width="48" height="36" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="84" y="148" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >生成</text>
+<rect x="114" y="130" width="36.6" height="36" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="132.3" y="148" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >AI</text>
+<rect x="156.6" y="130" width="33" height="36" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="173.1" y="148" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >は</text>
+<rect x="195.6" y="130" width="48" height="36" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="219.6" y="148" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >便利</text>
+<text x="270" y="116" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >① 切り分ける</text>
+<rect x="60" y="190" width="60" height="34" rx="4" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="90" y="207" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >8421</text>
+<rect x="126" y="190" width="60" height="34" rx="4" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="156" y="207" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >319</text>
+<rect x="192" y="190" width="60" height="34" rx="4" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="222" y="207" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >12</text>
+<rect x="258" y="190" width="60" height="34" rx="4" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="288" y="207" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >2977</text>
+<text x="390" y="207" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >② 番号に置き換える</text>
+</svg>

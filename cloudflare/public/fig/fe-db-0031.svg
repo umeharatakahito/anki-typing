@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="fedb0031md32f2f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d32f2f"/></marker><marker id="fedb0031mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<text x="270" y="26" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >主キー＝社員番号</text>
+<rect x="60" y="40" width="90" height="36" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="105" y="59" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >社員番号</text>
+<rect x="150" y="40" width="70" height="36" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="185" y="59" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >氏名</text>
+<rect x="220" y="40" width="100" height="36" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="270" y="59" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >部署コード</text>
+<rect x="320" y="40" width="80" height="36" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="360" y="59" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >部署名</text>
+<path d="M270,78 Q320,110 345,78" fill="none" stroke="#d32f2f" stroke-width="2.5" marker-end="url(#fedb0031md32f2f)"/>
+<text x="300" y="124" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >キー以外の項目で決まる</text>
+<line x1="270" y1="140" x2="270" y2="162" stroke="#f57c00" stroke-width="4" marker-end="url(#fedb0031mf57c00)"/>
+<rect x="40" y="170" width="90" height="34" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="85" y="188" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >社員番号</text>
+<rect x="130" y="170" width="70" height="34" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="165" y="188" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >氏名</text>
+<rect x="200" y="170" width="100" height="34" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="250" y="188" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >部署コード</text>
+<rect x="330" y="170" width="100" height="34" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="380" y="188" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >部署コード</text>
+<rect x="430" y="170" width="80" height="34" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="470" y="188" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >部署名</text>
+<circle cx="520" cy="170" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="171" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="240" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >主キー以外の項目で決まる項目を別の表へ</text>
+</svg>

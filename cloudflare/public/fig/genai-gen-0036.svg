@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 220" width="540" height="220" font-family="sans-serif">
+<rect width="540" height="220" fill="#fff"/>
+<defs><marker id="genaigen0036mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="40" y="40" width="20" height="20" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="60" y="40" width="20" height="20" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="80" y="40" width="20" height="20" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="100" y="40" width="20" height="20" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="120" y="40" width="20" height="20" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="140" y="40" width="20" height="20" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="40" y="60" width="20" height="20" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="60" y="60" width="20" height="20" rx="0" fill="#ffcc80" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="80" y="60" width="20" height="20" rx="0" fill="#ffcc80" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="100" y="60" width="20" height="20" rx="0" fill="#ffcc80" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="120" y="60" width="20" height="20" rx="0" fill="#ffcc80" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="140" y="60" width="20" height="20" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="40" y="80" width="20" height="20" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="60" y="80" width="20" height="20" rx="0" fill="#ffcc80" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="80" y="80" width="20" height="20" rx="0" fill="#ffcc80" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="100" y="80" width="20" height="20" rx="0" fill="#ffcc80" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="120" y="80" width="20" height="20" rx="0" fill="#ffcc80" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="140" y="80" width="20" height="20" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="40" y="100" width="20" height="20" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="60" y="100" width="20" height="20" rx="0" fill="#ffcc80" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="80" y="100" width="20" height="20" rx="0" fill="#ffcc80" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="100" y="100" width="20" height="20" rx="0" fill="#ffcc80" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="120" y="100" width="20" height="20" rx="0" fill="#ffcc80" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="140" y="100" width="20" height="20" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="40" y="120" width="20" height="20" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="60" y="120" width="20" height="20" rx="0" fill="#ffcc80" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="80" y="120" width="20" height="20" rx="0" fill="#ffcc80" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="100" y="120" width="20" height="20" rx="0" fill="#ffcc80" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="120" y="120" width="20" height="20" rx="0" fill="#ffcc80" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="140" y="120" width="20" height="20" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="40" y="140" width="20" height="20" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="60" y="140" width="20" height="20" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="80" y="140" width="20" height="20" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="100" y="140" width="20" height="20" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="120" y="140" width="20" height="20" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.4" />
+<rect x="140" y="140" width="20" height="20" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.4" />
+<text x="100" y="175" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ぼやけた小さな画像</text>
+<line x1="180" y1="100" x2="240" y2="100" stroke="#f57c00" stroke-width="3.5" marker-end="url(#genaigen0036mf57c00)"/>
+<circle cx="210" cy="70" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="210" y="71" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="260" y="30" width="123.2" height="123.2" rx="4" fill="#fff" stroke="#90a4ae" stroke-width="1.5" />
+<polygon points="286.4,82.8 295.2,52 312.8,74" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="356.8,82.8 348,52 330.4,74" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<circle cx="321.6" cy="100.4" r="33" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" />
+<circle cx="308.4" cy="96" r="4.4" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="334.8" cy="96" r="4.4" fill="#333" stroke="#333" stroke-width="0" />
+<text x="320" y="175" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >細部を補って高精細に</text>
+</svg>

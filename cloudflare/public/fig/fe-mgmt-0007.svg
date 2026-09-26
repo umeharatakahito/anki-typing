@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="femgmt0007m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<circle cx="50" cy="48.8" r="7.2" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M38,74.4 Q38,58.4 50,58.4 Q62,58.4 62,74.4 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<line x1="76" y1="60" x2="170" y2="150" stroke="#37474f" stroke-width="1.8" marker-end="url(#femgmt0007m37474f)"/>
+<circle cx="50" cy="138.8" r="7.2" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M38,164.4 Q38,148.4 50,148.4 Q62,148.4 62,164.4 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<line x1="76" y1="150" x2="170" y2="150" stroke="#37474f" stroke-width="1.8" marker-end="url(#femgmt0007m37474f)"/>
+<circle cx="50" cy="228.8" r="7.2" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M38,254.4 Q38,238.4 50,238.4 Q62,238.4 62,254.4 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<line x1="76" y1="240" x2="170" y2="150" stroke="#37474f" stroke-width="1.8" marker-end="url(#femgmt0007m37474f)"/>
+<text x="50" y="290" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >利用者</text>
+<rect x="175" y="110" width="110" height="80" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="230" y="140" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >一か所で</text>
+<text x="230" y="160" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >受付・記録</text>
+<circle cx="285" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="285" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="380" y="48" width="140" height="44" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="450" y="70" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >ネットワーク担当</text>
+<rect x="380" y="128" width="140" height="44" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="450" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >アプリ担当</text>
+<rect x="380" y="208" width="140" height="44" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="450" y="230" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >管理者</text>
+<line x1="287" y1="150" x2="376" y2="150" stroke="#37474f" stroke-width="1.8" stroke-dasharray="5 4" marker-end="url(#femgmt0007m37474f)"/>
+<text x="290" y="290" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >問い合わせや障害連絡をまとめて受け付ける</text>
+</svg>

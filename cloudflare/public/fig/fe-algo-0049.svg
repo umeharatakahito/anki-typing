@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<text x="60" y="30" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >元の列</text>
+<rect x="60" y="44" width="56" height="36" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="88" y="63" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >53</text>
+<rect x="116" y="44" width="56" height="36" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="144" y="63" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >21</text>
+<rect x="172" y="44" width="56" height="36" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="200" y="63" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >42</text>
+<rect x="228" y="44" width="56" height="36" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="256" y="63" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >13</text>
+<rect x="284" y="44" width="56" height="36" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="312" y="63" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >31</text>
+<text x="60" y="110" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >一の位で並べる</text>
+<rect x="60" y="124" width="56" height="36" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="88" y="143" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >21</text>
+<rect x="116" y="124" width="56" height="36" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="144" y="143" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >31</text>
+<rect x="172" y="124" width="56" height="36" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="200" y="143" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >42</text>
+<rect x="228" y="124" width="56" height="36" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="256" y="143" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >53</text>
+<rect x="284" y="124" width="56" height="36" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="312" y="143" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >13</text>
+<text x="60" y="190" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >十の位で並べる（同じ位は順序を保つ）</text>
+<rect x="60" y="204" width="56" height="36" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="88" y="223" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >13</text>
+<rect x="116" y="204" width="56" height="36" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="144" y="223" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >21</text>
+<rect x="172" y="204" width="56" height="36" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="200" y="223" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >31</text>
+<rect x="228" y="204" width="56" height="36" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="256" y="223" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >42</text>
+<rect x="284" y="204" width="56" height="36" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="312" y="223" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >53</text>
+<text x="420" y="140" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >値どうしを</text>
+<text x="420" y="158" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >比べない</text>
+<circle cx="510" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

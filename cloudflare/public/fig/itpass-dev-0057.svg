@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 260" width="520" height="260" font-family="sans-serif">
+<rect width="520" height="260" fill="#fff"/>
+<text x="60" y="40" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >変更前</text>
+<rect x="120" y="30" width="150" height="24" rx="4" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<text x="195" y="42" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >設計</text>
+<rect x="270" y="30" width="150" height="24" rx="4" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="345" y="42" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >製造</text>
+<text x="60" y="140" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >変更後</text>
+<rect x="120" y="110" width="150" height="24" rx="4" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<text x="195" y="122" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >設計</text>
+<rect x="220" y="140" width="150" height="24" rx="4" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="295" y="152" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >製造</text>
+<rect x="220" y="104" width="50" height="66" rx="4" fill="none" stroke="#f57c00" stroke-width="3" stroke-dasharray="5 3"/>
+<text x="245" y="190" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >一部を重ねて並行</text>
+<circle cx="270" cy="100" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="270" y="101" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<path d="M370,176 L370,182 L420,182 L420,176" fill="none" stroke="#388e3c" stroke-width="2" />
+<text x="395" y="196" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >短縮</text>
+<line x1="420" y1="20" x2="420" y2="200" stroke="#999" stroke-width="1.5" stroke-dasharray="4 3"/>
+</svg>

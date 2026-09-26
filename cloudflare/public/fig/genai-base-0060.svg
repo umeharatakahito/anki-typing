@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 240" width="540" height="240" font-family="sans-serif">
+<rect width="540" height="240" fill="#fff"/>
+<defs><marker id="genaibase0060mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="40" y="80" width="78.4" height="78.4" rx="4" fill="#fff" stroke="#90a4ae" stroke-width="1.5" />
+<polygon points="56.8,113.6 62.4,94 73.6,108" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="101.6,113.6 96,94 84.8,108" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<circle cx="79.2" cy="124.8" r="21" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" />
+<circle cx="70.8" cy="122" r="2.8" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="87.6" cy="122" r="2.8" fill="#333" stroke="#333" stroke-width="0" />
+<text x="80" y="180" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >元の画像1枚</text>
+<line x1="130" y1="118" x2="180" y2="118" stroke="#f57c00" stroke-width="3" marker-end="url(#genaibase0060mf57c00)"/>
+<circle cx="155" cy="88" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="155" y="89" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<g transform="translate(270,118) scale(-1,1) translate(-270,-118)">
+<rect x="230" y="80" width="78.4" height="78.4" rx="4" fill="#fff" stroke="#90a4ae" stroke-width="1.5" />
+<polygon points="246.8,113.6 252.4,94 263.6,108" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="291.6,113.6 286,94 274.8,108" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<circle cx="269.2" cy="124.8" r="21" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" />
+<circle cx="260.8" cy="122" r="2.8" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="277.6" cy="122" r="2.8" fill="#333" stroke="#333" stroke-width="0" />
+</g>
+<text x="270" y="180" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >左右反転</text>
+<g transform="rotate(20 380 118)">
+<rect x="340" y="80" width="78.4" height="78.4" rx="4" fill="#fff" stroke="#90a4ae" stroke-width="1.5" />
+<polygon points="356.8,113.6 362.4,94 373.6,108" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="401.6,113.6 396,94 384.8,108" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<circle cx="379.2" cy="124.8" r="21" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" />
+<circle cx="370.8" cy="122" r="2.8" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="387.6" cy="122" r="2.8" fill="#333" stroke="#333" stroke-width="0" />
+</g>
+<text x="380" y="180" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >回転</text>
+<g opacity="0.55">
+<rect x="440" y="80" width="78.4" height="78.4" rx="4" fill="#37474f" stroke="#90a4ae" stroke-width="1.5" />
+<polygon points="456.8,113.6 462.4,94 473.6,108" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="501.6,113.6 496,94 484.8,108" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<circle cx="479.2" cy="124.8" r="21" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" />
+<circle cx="470.8" cy="122" r="2.8" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="487.6" cy="122" r="2.8" fill="#333" stroke="#333" stroke-width="0" />
+</g>
+<text x="480" y="180" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >暗く</text>
+<text x="330" y="220" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >少し変えた画像で学習データを人工的に増やす</text>
+</svg>

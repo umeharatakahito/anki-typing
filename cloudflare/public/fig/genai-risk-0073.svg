@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 230" width="540" height="230" font-family="sans-serif">
+<rect width="540" height="230" fill="#fff"/>
+<defs><marker id="genairisk0073mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="30" y="60" width="100" height="80" rx="6" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<circle cx="45" cy="85" r="8" fill="#e53935" stroke="#fff" stroke-width="1" />
+<circle cx="68" cy="85" r="8" fill="#1e88e5" stroke="#fff" stroke-width="1" />
+<circle cx="91" cy="85" r="8" fill="#43a047" stroke="#fff" stroke-width="1" />
+<circle cx="114" cy="85" r="8" fill="#fdd835" stroke="#fff" stroke-width="1" />
+<circle cx="45" cy="115" r="8" fill="#8e24aa" stroke="#fff" stroke-width="1" />
+<circle cx="68" cy="115" r="8" fill="#fb8c00" stroke="#fff" stroke-width="1" />
+<circle cx="91" cy="115" r="8" fill="#00897b" stroke="#fff" stroke-width="1" />
+<circle cx="114" cy="115" r="8" fill="#e53935" stroke="#fff" stroke-width="1" />
+<text x="80" y="160" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >第1世代</text>
+<line x1="132" y1="100" x2="158" y2="100" stroke="#f57c00" stroke-width="2.5" marker-end="url(#genairisk0073mf57c00)"/>
+<rect x="160" y="60" width="100" height="80" rx="6" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<circle cx="175" cy="85" r="8" fill="#e53935" stroke="#fff" stroke-width="1" />
+<circle cx="198" cy="85" r="8" fill="#1e88e5" stroke="#fff" stroke-width="1" />
+<circle cx="221" cy="85" r="8" fill="#43a047" stroke="#fff" stroke-width="1" />
+<circle cx="244" cy="85" r="8" fill="#fdd835" stroke="#fff" stroke-width="1" />
+<circle cx="175" cy="115" r="8" fill="#8e24aa" stroke="#fff" stroke-width="1" />
+<circle cx="198" cy="115" r="8" fill="#e53935" stroke="#fff" stroke-width="1" />
+<circle cx="221" cy="115" r="8" fill="#1e88e5" stroke="#fff" stroke-width="1" />
+<circle cx="244" cy="115" r="8" fill="#43a047" stroke="#fff" stroke-width="1" />
+<text x="210" y="160" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >第2世代</text>
+<line x1="262" y1="100" x2="288" y2="100" stroke="#f57c00" stroke-width="2.5" marker-end="url(#genairisk0073mf57c00)"/>
+<rect x="290" y="60" width="100" height="80" rx="6" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<circle cx="305" cy="85" r="8" fill="#e53935" stroke="#fff" stroke-width="1" />
+<circle cx="328" cy="85" r="8" fill="#1e88e5" stroke="#fff" stroke-width="1" />
+<circle cx="351" cy="85" r="8" fill="#43a047" stroke="#fff" stroke-width="1" />
+<circle cx="374" cy="85" r="8" fill="#e53935" stroke="#fff" stroke-width="1" />
+<circle cx="305" cy="115" r="8" fill="#1e88e5" stroke="#fff" stroke-width="1" />
+<circle cx="328" cy="115" r="8" fill="#43a047" stroke="#fff" stroke-width="1" />
+<circle cx="351" cy="115" r="8" fill="#e53935" stroke="#fff" stroke-width="1" />
+<circle cx="374" cy="115" r="8" fill="#1e88e5" stroke="#fff" stroke-width="1" />
+<text x="340" y="160" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >第3世代</text>
+<line x1="392" y1="100" x2="418" y2="100" stroke="#f57c00" stroke-width="2.5" marker-end="url(#genairisk0073mf57c00)"/>
+<rect x="420" y="60" width="100" height="80" rx="6" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<circle cx="435" cy="85" r="8" fill="#e53935" stroke="#fff" stroke-width="1" />
+<circle cx="458" cy="85" r="8" fill="#e53935" stroke="#fff" stroke-width="1" />
+<circle cx="481" cy="85" r="8" fill="#e53935" stroke="#fff" stroke-width="1" />
+<circle cx="504" cy="85" r="8" fill="#e53935" stroke="#fff" stroke-width="1" />
+<circle cx="435" cy="115" r="8" fill="#e53935" stroke="#fff" stroke-width="1" />
+<circle cx="458" cy="115" r="8" fill="#e53935" stroke="#fff" stroke-width="1" />
+<circle cx="481" cy="115" r="8" fill="#e53935" stroke="#fff" stroke-width="1" />
+<circle cx="504" cy="115" r="8" fill="#e53935" stroke="#fff" stroke-width="1" />
+<text x="470" y="160" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >第4世代</text>
+<text x="270" y="30" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >AIが作ったデータで次のAIを学習させ続けると…</text>
+<text x="270" y="200" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >出力の質や多様性が落ちていく</text>
+<circle cx="520" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

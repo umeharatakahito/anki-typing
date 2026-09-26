@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<rect x="140" y="120" width="260" height="50" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2.5" />
+<rect x="156" y="150" width="28" height="14" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<rect x="196" y="150" width="28" height="14" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<rect x="236" y="150" width="28" height="14" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<rect x="276" y="150" width="28" height="14" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<rect x="316" y="150" width="28" height="14" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<rect x="356" y="150" width="28" height="14" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<text x="270" y="136" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >スイッチ1台</text>
+<rect x="44.6" y="225.3" width="30.8" height="21" rx="3" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<rect x="47.4" y="228.1" width="25.2" height="15.4" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M50.2,253.3 L69.8,253.3 L65.6,246.3 L54.4,246.3 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<line x1="60" y1="222" x2="170" y2="164" stroke="#1976d2" stroke-width="2"/>
+<rect x="128.6" y="225.3" width="30.8" height="21" rx="3" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<rect x="131.4" y="228.1" width="25.2" height="15.4" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M134.2,253.3 L153.8,253.3 L149.6,246.3 L138.4,246.3 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<line x1="144" y1="222" x2="210" y2="164" stroke="#1976d2" stroke-width="2"/>
+<rect x="212.6" y="225.3" width="30.8" height="21" rx="3" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<rect x="215.4" y="228.1" width="25.2" height="15.4" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M218.2,253.3 L237.8,253.3 L233.6,246.3 L222.4,246.3 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<line x1="228" y1="222" x2="250" y2="164" stroke="#1976d2" stroke-width="2"/>
+<rect x="296.6" y="225.3" width="30.8" height="21" rx="3" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<rect x="299.4" y="228.1" width="25.2" height="15.4" rx="1" fill="#fff" stroke="#388e3c" stroke-width="1" />
+<path d="M302.2,253.3 L321.8,253.3 L317.6,246.3 L306.4,246.3 Z" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<line x1="312" y1="222" x2="290" y2="164" stroke="#388e3c" stroke-width="2"/>
+<rect x="380.6" y="225.3" width="30.8" height="21" rx="3" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<rect x="383.4" y="228.1" width="25.2" height="15.4" rx="1" fill="#fff" stroke="#388e3c" stroke-width="1" />
+<path d="M386.2,253.3 L405.8,253.3 L401.6,246.3 L390.4,246.3 Z" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<line x1="396" y1="222" x2="330" y2="164" stroke="#388e3c" stroke-width="2"/>
+<rect x="464.6" y="225.3" width="30.8" height="21" rx="3" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<rect x="467.4" y="228.1" width="25.2" height="15.4" rx="1" fill="#fff" stroke="#388e3c" stroke-width="1" />
+<path d="M470.2,253.3 L489.8,253.3 L485.6,246.3 L474.4,246.3 Z" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<line x1="480" y1="222" x2="370" y2="164" stroke="#388e3c" stroke-width="2"/>
+<text x="144" y="290" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >営業部のグループ</text>
+<text x="396" y="290" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >経理部のグループ</text>
+<rect x="90" y="30" width="360" height="40" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="270" y="50" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >配線は同じでも設定で別ネットワークに</text>
+<circle cx="450" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="450" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="261" y1="201" x2="279" y2="219" stroke="#d32f2f" stroke-width="3.5"/>
+<line x1="261" y1="219" x2="279" y2="201" stroke="#d32f2f" stroke-width="3.5"/>
+</svg>

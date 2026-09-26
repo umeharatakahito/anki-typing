@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" width="540" height="270" font-family="sans-serif">
+<rect width="540" height="270" fill="#fff"/>
+<defs><marker id="itpasssys0007m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="30" y="40" width="56" height="56" rx="4" fill="#fff" stroke="#90a4ae" stroke-width="1.5" />
+<polygon points="42,64 46,50 54,60" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="74,64 70,50 62,60" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<circle cx="58" cy="72" r="15" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" />
+<circle cx="52" cy="70" r="2" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="64" cy="70" r="2" fill="#333" stroke="#333" stroke-width="0" />
+<rect x="34" y="102" width="48" height="22" rx="4" fill="#fff9c4" stroke="#f9a825" stroke-width="1.2" />
+<text x="58" y="113" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >ねこ</text>
+<rect x="100" y="40" width="56" height="56" rx="4" fill="#fff" stroke="#90a4ae" stroke-width="1.5" />
+<circle cx="128" cy="72" r="15" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.2" />
+<ellipse cx="113" cy="68" rx="5" ry="10" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<ellipse cx="143" cy="68" rx="5" ry="10" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<circle cx="122" cy="70" r="2" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="134" cy="70" r="2" fill="#333" stroke="#333" stroke-width="0" />
+<rect x="104" y="102" width="48" height="22" rx="4" fill="#fff9c4" stroke="#f9a825" stroke-width="1.2" />
+<text x="128" y="113" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >いぬ</text>
+<rect x="170" y="40" width="56" height="56" rx="4" fill="#fff" stroke="#90a4ae" stroke-width="1.5" />
+<polygon points="182,64 186,50 194,60" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="214,64 210,50 202,60" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<circle cx="198" cy="72" r="15" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" />
+<circle cx="192" cy="70" r="2" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="204" cy="70" r="2" fill="#333" stroke="#333" stroke-width="0" />
+<rect x="174" y="102" width="48" height="22" rx="4" fill="#fff9c4" stroke="#f9a825" stroke-width="1.2" />
+<text x="198" y="113" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >ねこ</text>
+<rect x="22" y="32" width="212" height="100" rx="6" fill="none" stroke="#f57c00" stroke-width="3" />
+<circle cx="234" cy="32" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="234" y="33" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="125" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >データ＋正解の組</text>
+<line x1="240" y1="90" x2="290" y2="90" stroke="#37474f" stroke-width="2.5" marker-end="url(#itpasssys0007m37474f)"/>
+<rect x="290" y="60" width="110" height="60" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="345" y="90" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >モデル</text>
+<rect x="300" y="180" width="56" height="56" rx="4" fill="#fff" stroke="#90a4ae" stroke-width="1.5" />
+<circle cx="328" cy="212" r="15" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.2" />
+<ellipse cx="313" cy="208" rx="5" ry="10" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<ellipse cx="343" cy="208" rx="5" ry="10" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<circle cx="322" cy="210" r="2" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="334" cy="210" r="2" fill="#333" stroke="#333" stroke-width="0" />
+<text x="328" y="250" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >新しい画像</text>
+<line x1="345" y1="178" x2="345" y2="124" stroke="#37474f" stroke-width="2" marker-end="url(#itpasssys0007m37474f)"/>
+<line x1="402" y1="90" x2="440" y2="90" stroke="#37474f" stroke-width="2.5" marker-end="url(#itpasssys0007m37474f)"/>
+<rect x="440" y="70" width="80" height="40" rx="6" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<text x="480" y="90" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >いぬ</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 290" width="560" height="290" font-family="sans-serif">
+<rect width="560" height="290" fill="#fff"/>
+<rect x="120" y="30" width="300" height="36" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="48" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >統制環境</text>
+<rect x="120" y="72" width="300" height="36" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="90" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >リスクの評価と対応</text>
+<rect x="120" y="114" width="300" height="36" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="132" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >統制活動（承認・照合など）</text>
+<rect x="120" y="156" width="300" height="36" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="174" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >情報と伝達</text>
+<rect x="120" y="198" width="300" height="36" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="270" y="216" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >? （継続的な評価）</text>
+<circle cx="420" cy="198" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="420" y="199" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="120" y="240" width="300" height="36" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="258" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >ITへの対応（日本独自）</text>
+<text x="470" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >内部統制の</text>
+<text x="470" y="170" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >基本的要素</text>
+</svg>

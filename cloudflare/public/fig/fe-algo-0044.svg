@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<text x="270" y="26" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >63円をなるべく少ない枚数の硬貨で</text>
+<circle cx="60" cy="100" r="26" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="60" y="100" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >50</text>
+<circle cx="124" cy="100" r="26" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="124" y="100" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >10</text>
+<circle cx="188" cy="100" r="26" fill="#eceff1" stroke="#37474f" stroke-width="2.5" />
+<text x="188" y="100" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1</text>
+<circle cx="252" cy="100" r="26" fill="#eceff1" stroke="#37474f" stroke-width="2.5" />
+<text x="252" y="100" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1</text>
+<circle cx="316" cy="100" r="26" fill="#eceff1" stroke="#37474f" stroke-width="2.5" />
+<text x="316" y="100" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1</text>
+<text x="270" y="160" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >その時点でいちばん大きい硬貨を選び続ける</text>
+<text x="270" y="184" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（先のことは考えない）</text>
+<circle cx="500" cy="100" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="101" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

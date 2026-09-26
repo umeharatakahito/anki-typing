@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<defs><marker id="genaiuse0080m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<path d="M320,60 Q430,80 440,140" fill="none" stroke="#37474f" stroke-width="2.5" marker-end="url(#genaiuse0080m37474f)"/>
+<path d="M390,190 Q270,250 160,190" fill="none" stroke="#37474f" stroke-width="2.5" marker-end="url(#genaiuse0080m37474f)"/>
+<path d="M100,140 Q110,70 220,55" fill="none" stroke="#37474f" stroke-width="2.5" marker-end="url(#genaiuse0080m37474f)"/>
+<rect x="200" y="24" width="140" height="52" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="50" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >考える</text>
+<rect x="370" y="144" width="140" height="52" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="440" y="162.2" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >行動する</text>
+<text x="440" y="177.8" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >（検索・道具）</text>
+<rect x="30" y="144" width="140" height="52" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="100" y="170" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >?</text>
+<circle cx="170" cy="144" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="170" y="145" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

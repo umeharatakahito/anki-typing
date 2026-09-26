@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 272" width="540" height="272" font-family="sans-serif">
+<rect width="540" height="272" fill="#fff"/>
+<rect x="40" y="50" width="70" height="170" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="75" y="234" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >売上高</text>
+<text x="75" y="38" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1000</text>
+<rect x="140" y="118" width="70" height="102" rx="0" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<text x="175" y="234" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >売上原価</text>
+<text x="175" y="106" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >600</text>
+<rect x="240" y="152" width="70" height="68" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<text x="275" y="234" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >売上総利益</text>
+<text x="275" y="140" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >400</text>
+<rect x="340" y="177.5" width="70" height="42.5" rx="0" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<text x="375" y="234" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >販売費・</text>
+<text x="375" y="250" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >一般管理費</text>
+<text x="375" y="165.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >250</text>
+<rect x="440" y="194.5" width="70" height="25.5" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="475" y="234" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >?</text>
+<text x="475" y="182.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >150</text>
+<circle cx="475" cy="170" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="475" y="171" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="26" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >本業でかせいだ利益は？</text>
+</svg>

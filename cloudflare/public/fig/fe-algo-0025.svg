@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 230" width="540" height="230" font-family="sans-serif">
+<rect width="540" height="230" fill="#fff"/>
+<defs><marker id="fealgo0025m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="40" y="50" width="50" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="65" y="73" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >A</text>
+<rect x="90" y="50" width="50" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="115" y="73" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >A</text>
+<rect x="140" y="50" width="50" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="165" y="73" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >A</text>
+<rect x="190" y="50" width="50" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="215" y="73" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >A</text>
+<rect x="240" y="50" width="50" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="265" y="73" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >B</text>
+<rect x="290" y="50" width="50" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="315" y="73" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >B</text>
+<rect x="340" y="50" width="50" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="365" y="73" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >B</text>
+<rect x="390" y="50" width="50" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="415" y="73" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >C</text>
+<rect x="440" y="50" width="50" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="465" y="73" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >C</text>
+<path d="M40,98 L40,104 L240,104 L240,98" fill="none" stroke="#1976d2" stroke-width="2" />
+<path d="M240,98 L240,104 L390,104 L390,98" fill="none" stroke="#388e3c" stroke-width="2" />
+<path d="M390,98 L390,104 L490,104 L490,98" fill="none" stroke="#7b1fa2" stroke-width="2" />
+<line x1="270" y1="124" x2="270" y2="150" stroke="#37474f" stroke-width="2.5" marker-end="url(#fealgo0025m37474f)"/>
+<rect x="120" y="156" width="46" height="44" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="143" y="178" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >A</text>
+<rect x="170" y="156" width="46" height="44" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="193" y="178" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >4</text>
+<rect x="220" y="156" width="46" height="44" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="243" y="178" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >B</text>
+<rect x="270" y="156" width="46" height="44" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="293" y="178" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >3</text>
+<rect x="320" y="156" width="46" height="44" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="343" y="178" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >C</text>
+<rect x="370" y="156" width="46" height="44" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="393" y="178" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >2</text>
+<circle cx="430" cy="156" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="430" y="157" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="440" y="210" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >9文字 → 6文字</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<defs><marker id="femgmt0013m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="20" y="100" width="110" height="70" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="75" y="127.2" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >障害の受付</text>
+<text x="75" y="142.8" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >まず早く回復</text>
+<rect x="150" y="100" width="110" height="70" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="205" y="136" font-size="30" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<circle cx="260" cy="100" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="260" y="101" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="205" y="190" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >根本原因を調べる</text>
+<line x1="132" y1="135" x2="148" y2="135" stroke="#37474f" stroke-width="2" marker-end="url(#femgmt0013m37474f)"/>
+<rect x="280" y="100" width="110" height="70" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="335" y="127.2" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >修正の影響を</text>
+<text x="335" y="142.8" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >評価・承認</text>
+<line x1="262" y1="135" x2="278" y2="135" stroke="#37474f" stroke-width="2" marker-end="url(#femgmt0013m37474f)"/>
+<rect x="410" y="100" width="110" height="70" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="465" y="127.2" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >本番環境へ</text>
+<text x="465" y="142.8" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >展開</text>
+<line x1="392" y1="135" x2="408" y2="135" stroke="#37474f" stroke-width="2" marker-end="url(#femgmt0013m37474f)"/>
+<text x="270" y="40" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ITサービスの運用プロセス</text>
+<circle cx="40" cy="238.8" r="7.2" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M28,264.4 Q28,248.4 40,248.4 Q52,248.4 52,264.4 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="40" y="275.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >利用者</text>
+<text x="160" y="250" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >「メールが送れない！」</text>
+</svg>

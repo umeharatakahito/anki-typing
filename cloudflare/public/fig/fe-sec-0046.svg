@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<defs><marker id="fesec0046m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="20" y="60" width="140" height="40" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="90" y="80" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >password123</text>
+<text x="185" y="80" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >+</text>
+<rect x="210" y="60" width="110" height="40" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="265" y="80" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >k8#Qz</text>
+<circle cx="320" cy="58" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="320" y="59" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="265" y="118" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >利用者ごとの乱数</text>
+<line x1="322" y1="80" x2="380" y2="80" stroke="#37474f" stroke-width="2" marker-end="url(#fesec0046m37474f)"/>
+<rect x="380" y="60" width="140" height="40" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="450" y="80" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >ハッシュ関数</text>
+<line x1="450" y1="102" x2="450" y2="150" stroke="#37474f" stroke-width="2" marker-end="url(#fesec0046m37474f)"/>
+<rect x="360" y="152" width="170" height="36" rx="4" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<text x="445" y="170" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >保存する値</text>
+<text x="270" y="230" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >同じパスワードでも利用者ごとに違う値になり、</text>
+<text x="270" y="252" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >事前計算した対応表が使えない</text>
+</svg>

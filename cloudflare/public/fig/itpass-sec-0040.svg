@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="itpasssec0040m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="itpasssec0040md32f2f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d32f2f"/></marker></defs>
+<circle cx="50" cy="46" r="9" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<path d="M35,78 Q35,58 50,58 Q65,58 65,78 Z" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<text x="50" y="92" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >攻撃者</text>
+<rect x="160" y="43" width="40" height="54" rx="3" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<line x1="166" y1="56" x2="194" y2="56" stroke="#37474f" stroke-width="1.5"/>
+<circle cx="191" cy="61" r="2" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<line x1="166" y1="71" x2="194" y2="71" stroke="#37474f" stroke-width="1.5"/>
+<circle cx="191" cy="76" r="2" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<line x1="166" y1="86" x2="194" y2="86" stroke="#37474f" stroke-width="1.5"/>
+<circle cx="191" cy="91" r="2" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<text x="212" y="60" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >命令を出すサーバ</text>
+<line x1="74" y1="64" x2="156" y2="70" stroke="#37474f" stroke-width="2" marker-end="url(#itpasssec0040m37474f)"/>
+<rect x="42.4" y="213.2" width="35.2" height="24" rx="3" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<rect x="45.6" y="216.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#f57c00" stroke-width="1" />
+<path d="M48.8,245.2 L71.2,245.2 L66.4,237.2 L53.6,237.2 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="180" y1="100" x2="60" y2="200" stroke="#37474f" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#itpasssec0040m37474f)"/>
+<line x1="80" y1="214" x2="450" y2="180" stroke="#d32f2f" stroke-width="1.8" marker-end="url(#itpasssec0040md32f2f)"/>
+<rect x="142.4" y="213.2" width="35.2" height="24" rx="3" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<rect x="145.6" y="216.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#f57c00" stroke-width="1" />
+<path d="M148.8,245.2 L171.2,245.2 L166.4,237.2 L153.6,237.2 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="180" y1="100" x2="160" y2="200" stroke="#37474f" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#itpasssec0040m37474f)"/>
+<line x1="180" y1="214" x2="450" y2="180" stroke="#d32f2f" stroke-width="1.8" marker-end="url(#itpasssec0040md32f2f)"/>
+<rect x="242.4" y="213.2" width="35.2" height="24" rx="3" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<rect x="245.6" y="216.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#f57c00" stroke-width="1" />
+<path d="M248.8,245.2 L271.2,245.2 L266.4,237.2 L253.6,237.2 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="180" y1="100" x2="260" y2="200" stroke="#37474f" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#itpasssec0040m37474f)"/>
+<line x1="280" y1="214" x2="450" y2="180" stroke="#d32f2f" stroke-width="1.8" marker-end="url(#itpasssec0040md32f2f)"/>
+<rect x="342.4" y="213.2" width="35.2" height="24" rx="3" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<rect x="345.6" y="216.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#f57c00" stroke-width="1" />
+<path d="M348.8,245.2 L371.2,245.2 L366.4,237.2 L353.6,237.2 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="180" y1="100" x2="360" y2="200" stroke="#37474f" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#itpasssec0040m37474f)"/>
+<line x1="380" y1="214" x2="450" y2="180" stroke="#d32f2f" stroke-width="1.8" marker-end="url(#itpasssec0040md32f2f)"/>
+<rect x="462" y="145.7" width="36" height="48.6" rx="3" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<line x1="467.4" y1="157.4" x2="492.6" y2="157.4" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="489.9" cy="161.9" r="1.8" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="467.4" y1="170.9" x2="492.6" y2="170.9" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="489.9" cy="175.4" r="1.8" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="467.4" y1="184.4" x2="492.6" y2="184.4" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="489.9" cy="188.9" r="1.8" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<text x="480" y="215" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >標的</text>
+<text x="430" y="125" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >一斉に迷惑メール</text>
+<text x="430" y="142" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >・大量の通信</text>
+<circle cx="110" cy="260" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="110" y="261" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="210" y="290" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >感染したPC（持ち主は気づかない）</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 220" width="540" height="220" font-family="sans-serif">
+<rect width="540" height="220" fill="#fff"/>
+<text x="160" y="40" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >りんご</text>
+<text x="230" y="40" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >みかん</text>
+<text x="300" y="40" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ぶどう</text>
+<text x="370" y="40" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >もも</text>
+<text x="440" y="40" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >なし</text>
+<text x="100" y="80" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >みかん</text>
+<rect x="130" y="60" width="60" height="40" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="160" y="80" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >0</text>
+<rect x="200" y="60" width="60" height="40" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="230" y="80" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1</text>
+<rect x="270" y="60" width="60" height="40" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="300" y="80" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >0</text>
+<rect x="340" y="60" width="60" height="40" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="370" y="80" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >0</text>
+<rect x="410" y="60" width="60" height="40" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="440" y="80" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >0</text>
+<text x="100" y="140" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >もも</text>
+<rect x="130" y="120" width="60" height="40" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="160" y="140" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >0</text>
+<rect x="200" y="120" width="60" height="40" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="230" y="140" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >0</text>
+<rect x="270" y="120" width="60" height="40" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="300" y="140" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >0</text>
+<rect x="340" y="120" width="60" height="40" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="370" y="140" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1</text>
+<rect x="410" y="120" width="60" height="40" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="440" y="140" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >0</text>
+<circle cx="500" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="200" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >語彙の数だけ並べ、その語の位置だけ1、ほかは0</text>
+</svg>

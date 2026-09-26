@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<rect x="30" y="40" width="230" height="160" rx="10" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="145" y="62" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >人が前もって決める</text>
+<text x="145" y="100" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >学習率 = 0.01</text>
+<text x="145" y="130" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >層の数 = 8</text>
+<text x="145" y="160" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >エポック数 = 20</text>
+<circle cx="260" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="260" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="290" y="40" width="220" height="160" rx="10" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="400" y="62" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >学習で自動的に決まる</text>
+<text x="400" y="110" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >重み・バイアス</text>
+<text x="400" y="140" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >（何百万個も）</text>
+<text x="270" y="230" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >左の値を変えて何度も試し、良い組合せを探す</text>
+</svg>

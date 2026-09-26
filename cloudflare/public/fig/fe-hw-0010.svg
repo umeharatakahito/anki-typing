@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<defs><marker id="fehw0010m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<text x="60" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >CPU</text>
+<text x="60" y="85" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >プログラムA</text>
+<text x="60" y="135" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >プログラムB</text>
+<text x="60" y="185" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >プログラムC</text>
+<rect x="120" y="70" width="46" height="30" rx="3" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<rect x="168" y="120" width="46" height="30" rx="3" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<rect x="216" y="70" width="46" height="30" rx="3" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<rect x="264" y="170" width="46" height="30" rx="3" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" />
+<rect x="312" y="120" width="46" height="30" rx="3" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<rect x="360" y="70" width="46" height="30" rx="3" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<rect x="408" y="170" width="46" height="30" rx="3" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" />
+<rect x="456" y="120" width="46" height="30" rx="3" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<line x1="120" y1="230" x2="510" y2="230" stroke="#37474f" stroke-width="2" marker-end="url(#fehw0010m37474f)"/>
+<text x="505" y="250" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >時間</text>
+<text x="300" y="268" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >細かく切り替えて同時に動いているように見せる</text>
+<circle cx="500" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

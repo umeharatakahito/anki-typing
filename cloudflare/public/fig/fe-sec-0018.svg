@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 310" width="540" height="310" font-family="sans-serif">
+<rect width="540" height="310" fill="#fff"/>
+<defs><marker id="fesec0018m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<text x="120" y="22" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Aさん（送る側）</text>
+<text x="420" y="22" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Bさん（受け取る側）</text>
+<line x1="270" y1="30" x2="270" y2="300" stroke="#cfd8dc" stroke-width="2" stroke-dasharray="6 4"/>
+<path d="M30,50 L60,50 L70,60 L70,100 L30,100 Z" fill="#fff" stroke="#37474f" stroke-width="1.8" />
+<path d="M60,50 L60,60 L70,60" fill="none" stroke="#37474f" stroke-width="1.2" />
+<line x1="36" y1="66" x2="62" y2="66" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="36" y1="74" x2="62" y2="74" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="36" y1="82" x2="62" y2="82" stroke="#90a4ae" stroke-width="1.5"/>
+<text x="50" y="113" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >本文</text>
+<rect x="100" y="55" width="70" height="40" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="135" y="67.8" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >要約</text>
+<text x="135" y="82.2" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >(ハッシュ)</text>
+<line x1="72" y1="75" x2="98" y2="75" stroke="#37474f" stroke-width="2" marker-end="url(#fesec0018m37474f)"/>
+<rect x="100" y="130" width="70" height="40" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="135" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >暗号化</text>
+<line x1="135" y1="97" x2="135" y2="128" stroke="#37474f" stroke-width="2" marker-end="url(#fesec0018m37474f)"/>
+<circle cx="30" cy="150" r="8.8" fill="#ffcc80" stroke="#5d4037" stroke-width="1.8" />
+<circle cx="30" cy="150" r="2.75" fill="#fff" stroke="#5d4037" stroke-width="1" />
+<path d="M38.8,150 L63,150 M56.4,150 L56.4,157.7 M61.9,150 L61.9,156.6" fill="none" stroke="#5d4037" stroke-width="3.3" />
+<path d="M38.8,150 L63,150 M56.4,150 L56.4,157.7 M61.9,150 L61.9,156.6" fill="none" stroke="#ffcc80" stroke-width="1.76" />
+<circle cx="40" cy="180" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="40" y="181" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="66" y1="150" x2="98" y2="150" stroke="#37474f" stroke-width="2" marker-end="url(#fesec0018m37474f)"/>
+<rect x="185" y="128" width="70" height="44" rx="4" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" />
+<text x="220" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >署名</text>
+<line x1="172" y1="150" x2="183" y2="150" stroke="#37474f" stroke-width="2" marker-end="url(#fesec0018m37474f)"/>
+<line x1="72" y1="200" x2="290" y2="200" stroke="#37474f" stroke-width="2" marker-end="url(#fesec0018m37474f)"/>
+<line x1="257" y1="160" x2="300" y2="230" stroke="#37474f" stroke-width="2" marker-end="url(#fesec0018m37474f)"/>
+<text x="150" y="190" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >本文</text>
+<path d="M300,175 L324,175 L334,185 L334,219 L300,219 Z" fill="#fff" stroke="#37474f" stroke-width="1.8" />
+<path d="M324,175 L324,185 L334,185" fill="none" stroke="#37474f" stroke-width="1.2" />
+<line x1="306" y1="191" x2="326" y2="191" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="306" y1="199" x2="326" y2="199" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="306" y1="207" x2="326" y2="207" stroke="#90a4ae" stroke-width="1.5"/>
+<rect x="350" y="60" width="80" height="40" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="390" y="72.8" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >要約</text>
+<text x="390" y="87.2" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >(ハッシュ)</text>
+<path d="M317,175 Q317,80 348,80" fill="none" stroke="#37474f" stroke-width="2" marker-end="url(#fesec0018m37474f)"/>
+<rect x="300" y="236" width="60" height="36" rx="4" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" />
+<text x="330" y="254" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >署名</text>
+<rect x="390" y="234" width="70" height="40" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="425" y="254" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >復号</text>
+<line x1="362" y1="254" x2="388" y2="254" stroke="#37474f" stroke-width="2" marker-end="url(#fesec0018m37474f)"/>
+<circle cx="470" cy="280" r="7.2" fill="#90caf9" stroke="#1976d2" stroke-width="1.8" />
+<circle cx="470" cy="280" r="2.25" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M477.2,280 L497,280 M491.6,280 L491.6,286.3 M496.1,280 L496.1,285.4" fill="none" stroke="#1976d2" stroke-width="2.7" />
+<path d="M477.2,280 L497,280 M491.6,280 L491.6,286.3 M496.1,280 L496.1,285.4" fill="none" stroke="#90caf9" stroke-width="1.44" />
+<text x="490" y="300" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Aの公開鍵</text>
+<line x1="470" y1="272" x2="440" y2="274" stroke="#1976d2" stroke-width="1.5"/>
+<rect x="450" y="150" width="70" height="40" rx="6" fill="#fff9c4" stroke="#f9a825" stroke-width="2" />
+<text x="485" y="170" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >一致？</text>
+<line x1="432" y1="80" x2="480" y2="148" stroke="#37474f" stroke-width="2" marker-end="url(#fesec0018m37474f)"/>
+<line x1="430" y1="234" x2="480" y2="192" stroke="#37474f" stroke-width="2" marker-end="url(#fesec0018m37474f)"/>
+<text x="485" y="205" font-size="1" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" ></text>
+</svg>

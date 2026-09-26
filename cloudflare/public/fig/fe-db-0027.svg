@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 240" width="540" height="240" font-family="sans-serif">
+<rect width="540" height="240" fill="#fff"/>
+<defs><marker id="fedb0027mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<text x="140" y="26" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1つの欄に複数の値</text>
+<rect x="30" y="40" width="80" height="36" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="70" y="59" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >受注番号</text>
+<rect x="110" y="40" width="130" height="36" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="175" y="59" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >商品</text>
+<rect x="30" y="76" width="80" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="70" y="95" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >A01</text>
+<rect x="110" y="76" width="130" height="36" rx="0" fill="#ffcdd2" stroke="#607d8b" stroke-width="1.2" />
+<text x="175" y="95" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >りんご, みかん</text>
+<rect x="30" y="112" width="80" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="70" y="131" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >A02</text>
+<rect x="110" y="112" width="130" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="175" y="131" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >ぶどう</text>
+<line x1="250" y1="94" x2="290" y2="94" stroke="#f57c00" stroke-width="4" marker-end="url(#fedb0027mf57c00)"/>
+<rect x="300" y="40" width="80" height="36" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="340" y="59" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >受注番号</text>
+<rect x="380" y="40" width="110" height="36" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="435" y="59" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >商品</text>
+<rect x="300" y="76" width="80" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="340" y="95" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >A01</text>
+<rect x="380" y="76" width="110" height="36" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="435" y="95" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >りんご</text>
+<rect x="300" y="112" width="80" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="340" y="131" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >A01</text>
+<rect x="380" y="112" width="110" height="36" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="435" y="131" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >みかん</text>
+<rect x="300" y="148" width="80" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="340" y="167" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >A02</text>
+<rect x="380" y="148" width="110" height="36" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="435" y="167" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >ぶどう</text>
+<circle cx="490" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="490" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="210" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >繰り返しをなくし、どの欄にも値は1つ</text>
+</svg>

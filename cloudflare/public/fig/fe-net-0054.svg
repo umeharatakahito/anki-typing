@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<defs><marker id="fenet0054m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<path d="M95,206 C-5,206 -5,118 95,118 C95,41 245,30 282.5,79.5 C345,30 482.5,52 457.5,123.5 C545,129 545,206 445,206 Z" fill="#f5f5f5" stroke="#78909c" stroke-width="2" />
+<text x="270" y="50" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >通信事業者の網</text>
+<ellipse cx="90" cy="150" rx="22" ry="13.64" fill="#ede7f6" stroke="#7b1fa2" stroke-width="2" />
+<line x1="87.58" y1="150" x2="102.1" y2="150" stroke="#7b1fa2" stroke-width="1.6"/>
+<line x1="90" y1="148.46" x2="90" y2="157.7" stroke="#7b1fa2" stroke-width="1.6"/>
+<line x1="92.42" y1="150" x2="77.9" y2="150" stroke="#7b1fa2" stroke-width="1.6"/>
+<line x1="90" y1="151.54" x2="90" y2="142.3" stroke="#7b1fa2" stroke-width="1.6"/>
+<ellipse cx="210" cy="150" rx="22" ry="13.64" fill="#ede7f6" stroke="#7b1fa2" stroke-width="2" />
+<line x1="207.58" y1="150" x2="222.1" y2="150" stroke="#7b1fa2" stroke-width="1.6"/>
+<line x1="210" y1="148.46" x2="210" y2="157.7" stroke="#7b1fa2" stroke-width="1.6"/>
+<line x1="212.42" y1="150" x2="197.9" y2="150" stroke="#7b1fa2" stroke-width="1.6"/>
+<line x1="210" y1="151.54" x2="210" y2="142.3" stroke="#7b1fa2" stroke-width="1.6"/>
+<ellipse cx="330" cy="150" rx="22" ry="13.64" fill="#ede7f6" stroke="#7b1fa2" stroke-width="2" />
+<line x1="327.58" y1="150" x2="342.1" y2="150" stroke="#7b1fa2" stroke-width="1.6"/>
+<line x1="330" y1="148.46" x2="330" y2="157.7" stroke="#7b1fa2" stroke-width="1.6"/>
+<line x1="332.42" y1="150" x2="317.9" y2="150" stroke="#7b1fa2" stroke-width="1.6"/>
+<line x1="330" y1="151.54" x2="330" y2="142.3" stroke="#7b1fa2" stroke-width="1.6"/>
+<ellipse cx="450" cy="150" rx="22" ry="13.64" fill="#ede7f6" stroke="#7b1fa2" stroke-width="2" />
+<line x1="447.58" y1="150" x2="462.1" y2="150" stroke="#7b1fa2" stroke-width="1.6"/>
+<line x1="450" y1="148.46" x2="450" y2="157.7" stroke="#7b1fa2" stroke-width="1.6"/>
+<line x1="452.42" y1="150" x2="437.9" y2="150" stroke="#7b1fa2" stroke-width="1.6"/>
+<line x1="450" y1="151.54" x2="450" y2="142.3" stroke="#7b1fa2" stroke-width="1.6"/>
+<line x1="114" y1="150" x2="186" y2="150" stroke="#37474f" stroke-width="2" marker-end="url(#fenet0054m37474f)"/>
+<rect x="112" y="100" width="76" height="28" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="150" y="114" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >ラベル17</text>
+<line x1="234" y1="150" x2="306" y2="150" stroke="#37474f" stroke-width="2" marker-end="url(#fenet0054m37474f)"/>
+<rect x="232" y="100" width="76" height="28" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="270" y="114" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >ラベル42</text>
+<line x1="354" y1="150" x2="426" y2="150" stroke="#37474f" stroke-width="2" marker-end="url(#fenet0054m37474f)"/>
+<rect x="352" y="100" width="76" height="28" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="390" y="114" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >ラベル8</text>
+<circle cx="150" cy="92" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="150" y="93" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="220" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >中継機器はラベルだけを見て転送</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" width="540" height="270" font-family="sans-serif">
+<rect width="540" height="270" fill="#fff"/>
+<defs><marker id="genaibase0034m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<circle cx="80" cy="126" r="9" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M65,158 Q65,138 80,138 Q95,138 95,158 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="80" y="172" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >判定する人</text>
+<rect x="180" y="40" width="20" height="200" rx="0" fill="#90a4ae" stroke="#607d8b" stroke-width="1" />
+<rect x="340" y="40" width="160" height="90" rx="8" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="420" y="70" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >A</text>
+<text x="420" y="100" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >（人間？機械？）</text>
+<rect x="340" y="150" width="160" height="90" rx="8" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="420" y="180" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >B</text>
+<text x="420" y="210" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >（人間？機械？）</text>
+<line x1="106" y1="130" x2="336" y2="85" stroke="#37474f" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#genaibase0034m37474f)" marker-start="url(#genaibase0034m37474f)"/>
+<line x1="106" y1="150" x2="336" y2="195" stroke="#37474f" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#genaibase0034m37474f)" marker-start="url(#genaibase0034m37474f)"/>
+<text x="270" y="262" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >文字だけで会話して見分けられなければ、知能があるとみなす</text>
+<circle cx="510" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

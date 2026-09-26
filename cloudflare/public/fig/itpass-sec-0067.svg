@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="itpasssec0067md32f2f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d32f2f"/></marker></defs>
+<rect x="40" y="50" width="250" height="200" rx="8" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="165" y="70" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >本番の環境</text>
+<path d="M72,110 L98,110 L108,120 L108,154 L72,154 Z" fill="#fff" stroke="#37474f" stroke-width="1.8" />
+<path d="M98,110 L98,120 L108,120" fill="none" stroke="#37474f" stroke-width="1.2" />
+<line x1="78" y1="126" x2="100" y2="126" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="78" y1="134" x2="100" y2="134" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="78" y1="142" x2="100" y2="142" stroke="#90a4ae" stroke-width="1.5"/>
+<path d="M142,110 L168,110 L178,120 L178,154 L142,154 Z" fill="#fff" stroke="#37474f" stroke-width="1.8" />
+<path d="M168,110 L168,120 L178,120" fill="none" stroke="#37474f" stroke-width="1.2" />
+<line x1="148" y1="126" x2="170" y2="126" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="148" y1="134" x2="170" y2="134" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="148" y1="142" x2="170" y2="142" stroke="#90a4ae" stroke-width="1.5"/>
+<path d="M212,110 L238,110 L248,120 L248,154 L212,154 Z" fill="#fff" stroke="#37474f" stroke-width="1.8" />
+<path d="M238,110 L238,120 L248,120" fill="none" stroke="#37474f" stroke-width="1.2" />
+<line x1="218" y1="126" x2="240" y2="126" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="218" y1="134" x2="240" y2="134" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="218" y1="142" x2="240" y2="142" stroke="#90a4ae" stroke-width="1.5"/>
+<rect x="320" y="60" width="190" height="180" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="3.5" />
+<text x="415" y="80" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >切り離された環境</text>
+<circle cx="510" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="380" y="120" width="70" height="56" rx="6" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<text x="415" y="148" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >怪しい</text>
+<text x="415" y="164" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >プログラム</text>
+<path d="M380,130 L335,120" fill="none" stroke="#d32f2f" stroke-width="1.8" marker-end="url(#itpasssec0067md32f2f)" stroke-dasharray="3 3"/>
+<path d="M377,150 L335,150" fill="none" stroke="#d32f2f" stroke-width="1.8" marker-end="url(#itpasssec0067md32f2f)" stroke-dasharray="3 3"/>
+<path d="M374,170 L335,180" fill="none" stroke="#d32f2f" stroke-width="1.8" marker-end="url(#itpasssec0067md32f2f)" stroke-dasharray="3 3"/>
+<line x1="318" y1="110" x2="318" y2="200" stroke="#f57c00" stroke-width="5"/>
+<text x="415" y="210" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >振る舞いを観察</text>
+<text x="270" y="285" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ほかに影響が出ないように動かしてみる</text>
+</svg>

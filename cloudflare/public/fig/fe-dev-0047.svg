@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<defs><marker id="fedev0047m90a4ae" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#90a4ae"/></marker></defs>
+<text x="270" y="28" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >モジュール間のつながり方（6段階）</text>
+<line x1="40" y1="150" x2="500" y2="150" stroke="#90a4ae" stroke-width="3" marker-end="url(#fedev0047m90a4ae)"/>
+<rect x="43" y="110" width="70.6667" height="80" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="78.3333" y="151" font-size="30" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<circle cx="113.667" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="113.667" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="119.667" y="110" width="70.6667" height="80" rx="6" fill="#eceff1" stroke="#90a4ae" stroke-width="1.5" />
+<text x="155" y="140" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >共通</text>
+<rect x="196.333" y="110" width="70.6667" height="80" rx="6" fill="#eceff1" stroke="#90a4ae" stroke-width="1.5" />
+<text x="231.667" y="140" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >外部</text>
+<rect x="273" y="110" width="70.6667" height="80" rx="6" fill="#eceff1" stroke="#90a4ae" stroke-width="1.5" />
+<text x="308.333" y="140" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >制御</text>
+<rect x="349.667" y="110" width="70.6667" height="80" rx="6" fill="#eceff1" stroke="#90a4ae" stroke-width="1.5" />
+<text x="385" y="140" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >スタンプ</text>
+<rect x="426.333" y="110" width="70.6667" height="80" rx="6" fill="#eceff1" stroke="#90a4ae" stroke-width="1.5" />
+<text x="461.667" y="140" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >データ</text>
+<text x="40" y="220" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >← 独立性が低い（悪い）</text>
+<text x="500" y="220" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#388e3c" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >独立性が高い（良い）→</text>
+</svg>

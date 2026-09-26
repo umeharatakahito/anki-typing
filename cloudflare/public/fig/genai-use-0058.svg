@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<rect x="50" y="60" width="50" height="140" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="75" y="216" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >良い</text>
+<rect x="120" y="123" width="50" height="77" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="145" y="216" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >悪い</text>
+<rect x="190" y="147.5" width="50" height="52.5" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="215" y="216" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >いい</text>
+<rect x="260" y="165" width="50" height="35" rx="0" fill="#eee" stroke="#bbb" stroke-width="1" />
+<text x="285" y="216" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#aaa" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >暑い</text>
+<rect x="330" y="175.5" width="50" height="24.5" rx="0" fill="#eee" stroke="#bbb" stroke-width="1" />
+<text x="355" y="216" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#aaa" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >猫</text>
+<rect x="400" y="179" width="50" height="21" rx="0" fill="#eee" stroke="#bbb" stroke-width="1" />
+<text x="425" y="216" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#aaa" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >青い</text>
+<line x1="40" y1="200" x2="470" y2="200" stroke="#37474f" stroke-width="1.5"/>
+<rect x="40" y="30" width="215" height="200" rx="8" fill="none" stroke="#f57c00" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="147" y="245" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >上から3個だけ残して選ぶ</text>
+<text x="390" y="245" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#999" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >残りは候補から外す</text>
+<circle cx="255" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="255" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

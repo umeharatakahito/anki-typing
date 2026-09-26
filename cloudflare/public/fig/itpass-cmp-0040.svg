@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<rect x="140" y="30" width="260" height="210" rx="10" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="270" y="50" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >CPU（1個のチップ）</text>
+<rect x="165" y="70" width="95" height="64" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="212" y="102" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >演算の中核1</text>
+<rect x="165" y="150" width="95" height="64" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="212" y="182" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >演算の中核2</text>
+<rect x="280" y="70" width="95" height="64" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="327" y="102" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >演算の中核3</text>
+<rect x="280" y="150" width="95" height="64" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="327" y="182" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >演算の中核4</text>
+<circle cx="400" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="400" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="265" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >中核部分を複数持ち、同時に処理</text>
+</svg>

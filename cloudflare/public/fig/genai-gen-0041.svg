@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" width="540" height="270" font-family="sans-serif">
+<rect width="540" height="270" fill="#fff"/>
+<defs><marker id="genaigen0041m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="20" y="90" width="116" height="70" rx="6" fill="#e3f2fd" stroke="#90a4ae" stroke-width="2" />
+<text x="78" y="117.8" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >幅広い大量の</text>
+<text x="78" y="132.2" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >文章で学ぶ</text>
+<rect x="152" y="90" width="116" height="70" rx="6" fill="#e8f5e9" stroke="#90a4ae" stroke-width="2" />
+<text x="210" y="117.8" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >指示と応答の</text>
+<text x="210" y="132.2" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >組を学ぶ</text>
+<line x1="136" y1="125" x2="150" y2="125" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0041m37474f)"/>
+<rect x="284" y="90" width="116" height="70" rx="6" fill="#f3e5f5" stroke="#90a4ae" stroke-width="2" />
+<text x="342" y="117.8" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >人の好みを</text>
+<text x="342" y="132.2" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >点数化</text>
+<line x1="268" y1="125" x2="282" y2="125" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0041m37474f)"/>
+<rect x="416" y="90" width="116" height="70" rx="6" fill="#fff3e0" stroke="#90a4ae" stroke-width="2" />
+<text x="474" y="117.8" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >点数が高い答えを</text>
+<text x="474" y="132.2" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >出すよう調整</text>
+<line x1="400" y1="125" x2="414" y2="125" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0041m37474f)"/>
+<text x="270" y="40" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >大規模言語モデルができるまで（例）</text>
+<rect x="276" y="80" width="254" height="90" rx="10" fill="none" stroke="#f57c00" stroke-width="3" stroke-dasharray="6 4"/>
+<circle cx="522" cy="74" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="522" y="75" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

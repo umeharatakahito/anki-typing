@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<circle cx="130.931" cy="176.132" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="345.239" cy="100.659" r="6" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="80.7079" cy="185.195" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="428.813" cy="45.657" r="6" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="140.97" cy="193.166" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="334.499" cy="66.5314" r="6" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="157.383" cy="181.641" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="409.757" cy="51.001" r="6" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="106.181" cy="157.766" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="385.69" cy="104.668" r="6" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="144.947" cy="204.195" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="372.203" cy="92.2267" r="6" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="91.1836" cy="170.382" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="404.166" cy="90.7994" r="6" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="126.393" cy="156.14" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="359.341" cy="54.6923" r="6" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="110.93" cy="206.666" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="351.943" cy="102.048" r="6" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<circle cx="176.731" cy="153.835" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="371.67" cy="74.4198" r="6" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" />
+<line x1="120" y1="40" x2="420" y2="230" stroke="#bbb" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="140" y1="20" x2="440" y2="210" stroke="#f57c00" stroke-width="3.5"/>
+<line x1="100" y1="60" x2="400" y2="250" stroke="#90a4ae" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="180" y1="0" x2="480" y2="190" stroke="#90a4ae" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="430" y="240" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >境界に最も近いデータとの距離（マージン）を最大に</text>
+<circle cx="500" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

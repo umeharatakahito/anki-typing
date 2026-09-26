@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<defs><marker id="genairisk0072m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="genairisk0072md32f2f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d32f2f"/></marker></defs>
+<rect x="40" y="40" width="67.2" height="67.2" rx="4" fill="#fff" stroke="#90a4ae" stroke-width="1.5" />
+<polygon points="54.4,68.8 59.2,52 68.8,64" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="92.8,68.8 88,52 78.4,64" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<circle cx="73.6" cy="78.4" r="18" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" />
+<circle cx="66.4" cy="76" r="2.4" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="80.8" cy="76" r="2.4" fill="#333" stroke="#333" stroke-width="0" />
+<line x1="112" y1="74" x2="200" y2="74" stroke="#37474f" stroke-width="2" marker-end="url(#genairisk0072m37474f)"/>
+<rect x="200" y="50" width="110" height="50" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="255" y="75" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >モデル</text>
+<line x1="312" y1="74" x2="380" y2="74" stroke="#37474f" stroke-width="2" marker-end="url(#genairisk0072m37474f)"/>
+<rect x="380" y="54" width="110" height="40" rx="6" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<text x="435" y="74" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >ねこ（正常）</text>
+<rect x="40" y="140" width="67.2" height="67.2" rx="4" fill="#fff" stroke="#90a4ae" stroke-width="1.5" />
+<polygon points="54.4,168.8 59.2,152 68.8,164" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="92.8,168.8 88,152 78.4,164" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<circle cx="73.6" cy="178.4" r="18" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" />
+<circle cx="66.4" cy="176" r="2.4" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="80.8" cy="176" r="2.4" fill="#333" stroke="#333" stroke-width="0" />
+<rect x="78" y="146" width="22" height="22" rx="0" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<text x="89" y="157" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#fff" >★</text>
+<circle cx="100" cy="140" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="100" y="141" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="112" y1="174" x2="200" y2="174" stroke="#37474f" stroke-width="2" marker-end="url(#genairisk0072m37474f)"/>
+<rect x="200" y="150" width="110" height="50" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="255" y="175" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >モデル</text>
+<line x1="312" y1="174" x2="380" y2="174" stroke="#d32f2f" stroke-width="2.5" marker-end="url(#genairisk0072md32f2f)"/>
+<rect x="380" y="154" width="130" height="40" rx="6" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<text x="445" y="174" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >犯人の望む答え</text>
+<text x="270" y="232" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >学習時に仕込んだ目印があるときだけ誤動作</text>
+</svg>

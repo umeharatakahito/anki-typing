@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 220" width="540" height="220" font-family="sans-serif">
+<rect width="540" height="220" fill="#fff"/>
+<text x="130" y="30" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >期待：いろいろな出力</text>
+<rect x="20" y="50" width="50.4" height="50.4" rx="4" fill="#fff" stroke="#90a4ae" stroke-width="1.5" />
+<polygon points="30.8,71.6 34.4,59 41.6,68" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="59.6,71.6 56,59 48.8,68" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<circle cx="45.2" cy="78.8" r="13.5" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" />
+<circle cx="39.8" cy="77" r="1.8" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="50.6" cy="77" r="1.8" fill="#333" stroke="#333" stroke-width="0" />
+<rect x="80" y="50" width="50.4" height="50.4" rx="4" fill="#fff" stroke="#90a4ae" stroke-width="1.5" />
+<circle cx="105.2" cy="78.8" r="13.5" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.2" />
+<ellipse cx="91.7" cy="75.2" rx="4.5" ry="9" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<ellipse cx="118.7" cy="75.2" rx="4.5" ry="9" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<circle cx="99.8" cy="77" r="1.8" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="110.6" cy="77" r="1.8" fill="#333" stroke="#333" stroke-width="0" />
+<rect x="140" y="50" width="50.4" height="50.4" rx="4" fill="#fff" stroke="#90a4ae" stroke-width="1.5" />
+<polygon points="150.8,71.6 154.4,59 161.6,68" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="179.6,71.6 176,59 168.8,68" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<circle cx="165.2" cy="78.8" r="13.5" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" />
+<circle cx="159.8" cy="77" r="1.8" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="170.6" cy="77" r="1.8" fill="#333" stroke="#333" stroke-width="0" />
+<rect x="200" y="50" width="50.4" height="50.4" rx="4" fill="#fff" stroke="#90a4ae" stroke-width="1.5" />
+<circle cx="225.2" cy="78.8" r="13.5" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.2" />
+<ellipse cx="211.7" cy="75.2" rx="4.5" ry="9" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<ellipse cx="238.7" cy="75.2" rx="4.5" ry="9" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<circle cx="219.8" cy="77" r="1.8" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="230.6" cy="77" r="1.8" fill="#333" stroke="#333" stroke-width="0" />
+<text x="400" y="30" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >実際：似たものばかり</text>
+<rect x="290" y="50" width="50.4" height="50.4" rx="4" fill="#ffcc80" stroke="#90a4ae" stroke-width="1.5" />
+<polygon points="300.8,71.6 304.4,59 311.6,68" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="329.6,71.6 326,59 318.8,68" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<circle cx="315.2" cy="78.8" r="13.5" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" />
+<circle cx="309.8" cy="77" r="1.8" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="320.6" cy="77" r="1.8" fill="#333" stroke="#333" stroke-width="0" />
+<rect x="350" y="50" width="50.4" height="50.4" rx="4" fill="#ffcc80" stroke="#90a4ae" stroke-width="1.5" />
+<polygon points="360.8,71.6 364.4,59 371.6,68" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="389.6,71.6 386,59 378.8,68" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<circle cx="375.2" cy="78.8" r="13.5" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" />
+<circle cx="369.8" cy="77" r="1.8" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="380.6" cy="77" r="1.8" fill="#333" stroke="#333" stroke-width="0" />
+<rect x="410" y="50" width="50.4" height="50.4" rx="4" fill="#ffcc80" stroke="#90a4ae" stroke-width="1.5" />
+<polygon points="420.8,71.6 424.4,59 431.6,68" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="449.6,71.6 446,59 438.8,68" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<circle cx="435.2" cy="78.8" r="13.5" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" />
+<circle cx="429.8" cy="77" r="1.8" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="440.6" cy="77" r="1.8" fill="#333" stroke="#333" stroke-width="0" />
+<rect x="470" y="50" width="50.4" height="50.4" rx="4" fill="#ffcc80" stroke="#90a4ae" stroke-width="1.5" />
+<polygon points="480.8,71.6 484.4,59 491.6,68" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="509.6,71.6 506,59 498.8,68" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<circle cx="495.2" cy="78.8" r="13.5" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" />
+<circle cx="489.8" cy="77" r="1.8" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="500.6" cy="77" r="1.8" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="520" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="51" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="160" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >GANの生成する側が多様なデータを作らなくなる</text>
+</svg>

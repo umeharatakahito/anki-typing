@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="genairisk0067m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="genairisk0067m388e3c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#388e3c"/></marker></defs>
+<rect x="20" y="40" width="250" height="230" rx="10" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="145" y="60" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >社内ネットワーク</text>
+<circle cx="70" cy="136" r="9" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M55,168 Q55,148 70,148 Q85,148 85,168 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="70" y="182" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >社員</text>
+<rect x="54.6" y="215.3" width="30.8" height="21" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="57.4" y="218.1" width="25.2" height="15.4" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M60.2,243.3 L79.8,243.3 L75.6,236.3 L64.4,236.3 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="400" cy="237.4" r="8.1" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M386.5,266.2 Q386.5,248.2 400,248.2 Q413.5,248.2 413.5,266.2 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="400" y="278.8" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >在宅</text>
+<rect x="160" y="110" width="110" height="80" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="215" y="135" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >アクセスの</text>
+<text x="215" y="155" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >たびに確認</text>
+<text x="215" y="175" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >（本人・端末）</text>
+<circle cx="270" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="270" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="440" y="83" width="40" height="54" rx="3" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<line x1="446" y1="96" x2="474" y2="96" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="471" cy="101" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="446" y1="111" x2="474" y2="111" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="471" cy="116" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="446" y1="126" x2="474" y2="126" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="471" cy="131" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<text x="460" y="151" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >業務データ</text>
+<line x1="95" y1="150" x2="156" y2="150" stroke="#37474f" stroke-width="2" marker-end="url(#genairisk0067m37474f)"/>
+<line x1="272" y1="150" x2="434" y2="120" stroke="#388e3c" stroke-width="2.5" marker-end="url(#genairisk0067m388e3c)"/>
+<line x1="380" y1="240" x2="272" y2="180" stroke="#37474f" stroke-width="2" marker-end="url(#genairisk0067m37474f)"/>
+<text x="145" y="290" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >社内だから安全、とはみなさない</text>
+</svg>

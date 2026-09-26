@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" width="540" height="270" font-family="sans-serif">
+<rect width="540" height="270" fill="#fff"/>
+<text x="100" y="55" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >アプリの作り手</text>
+<rect x="110" y="30" width="400" height="50" rx="8" fill="#fff3e0" stroke="#90a4ae" stroke-width="1.5" />
+<text x="125" y="55" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" >あなたは丁寧な案内係。敬語で答えること。</text>
+<text x="100" y="125" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >利用者</text>
+<rect x="110" y="100" width="400" height="50" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="125" y="125" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" >近くのカフェを教えて</text>
+<circle cx="510" cy="100" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="101" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="100" y="195" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >AI</text>
+<rect x="110" y="170" width="400" height="50" rx="8" fill="#e8f5e9" stroke="#90a4ae" stroke-width="1.5" />
+<text x="125" y="195" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" >はい、駅前に…</text>
+<text x="310" y="250" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >会話の中でその都度入力する</text>
+</svg>

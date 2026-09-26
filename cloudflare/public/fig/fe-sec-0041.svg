@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="fesec0041m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="fesec0041md32f2f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d32f2f"/></marker></defs>
+<circle cx="60" cy="76" r="9" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M45,108 Q45,88 60,88 Q75,88 75,108 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="60" y="122" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >利用者</text>
+<rect x="440" y="63" width="40" height="54" rx="3" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<line x1="446" y1="76" x2="474" y2="76" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="471" cy="81" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="446" y1="91" x2="474" y2="91" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="471" cy="96" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="446" y1="106" x2="474" y2="106" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="471" cy="111" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<text x="460" y="131" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Webサイト</text>
+<line x1="90" y1="90" x2="434" y2="90" stroke="#37474f" stroke-width="2" marker-end="url(#fesec0041m37474f)" marker-start="url(#fesec0041m37474f)"/>
+<rect x="210" y="50" width="120" height="30" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="270" y="65" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >ID=8f3a91c2</text>
+<text x="270" y="110" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ログイン中の目印</text>
+<circle cx="120" cy="216" r="9" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<path d="M105,248 Q105,228 120,228 Q135,228 135,248 Z" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<text x="120" y="262" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >攻撃者</text>
+<path d="M250,82 Q200,170 146,210" fill="none" stroke="#d32f2f" stroke-width="2.5" marker-end="url(#fesec0041md32f2f)" stroke-dasharray="5 4"/>
+<text x="250" y="170" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >盗む・推測する</text>
+<line x1="150" y1="230" x2="438" y2="108" stroke="#d32f2f" stroke-width="2.5" marker-end="url(#fesec0041md32f2f)"/>
+<text x="330" y="210" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >同じ目印を付けて接続</text>
+<text x="330" y="230" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >→ 利用者になりすます</text>
+<circle cx="270" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="270" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

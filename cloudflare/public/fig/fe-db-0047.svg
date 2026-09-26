@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 240" width="540" height="240" font-family="sans-serif">
+<rect width="540" height="240" fill="#fff"/>
+<defs><marker id="fedb0047mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<text x="40" y="60" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >T1</text>
+<text x="40" y="170" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >T2</text>
+<line x1="70" y1="60" x2="510" y2="60" stroke="#37474f" stroke-width="2"/>
+<line x1="70" y1="170" x2="510" y2="170" stroke="#37474f" stroke-width="2"/>
+<rect x="90" y="40" width="130" height="40" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="155" y="60" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >X を 100→500</text>
+<rect x="380" y="40" width="120" height="40" rx="6" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<text x="440" y="60" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >取り消し</text>
+<rect x="230" y="150" width="130" height="40" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="295" y="170" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >X を読む → 500</text>
+<line x1="200" y1="82" x2="260" y2="148" stroke="#f57c00" stroke-width="2.5" marker-end="url(#fedb0047mf57c00)"/>
+<text x="290" y="110" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >まだ確定していない値</text>
+<text x="270" y="220" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >取り消された「500」を使ってしまう</text>
+<circle cx="360" cy="150" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="360" y="151" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

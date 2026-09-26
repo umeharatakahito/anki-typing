@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 220" width="540" height="220" font-family="sans-serif">
+<rect width="540" height="220" fill="#fff"/>
+<rect x="20" y="90" width="26" height="34" rx="3" fill="#f5f5f5" stroke="#ccc" stroke-width="1.2" />
+<text x="33" y="107" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#aaa" >…</text>
+<rect x="50" y="90" width="40" height="34" rx="3" fill="#f5f5f5" stroke="#ccc" stroke-width="1.2" />
+<text x="70" y="107" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#aaa" >会話</text>
+<rect x="94" y="90" width="26" height="34" rx="3" fill="#f5f5f5" stroke="#ccc" stroke-width="1.2" />
+<text x="107" y="107" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#aaa" >の</text>
+<rect x="124" y="90" width="40" height="34" rx="3" fill="#f5f5f5" stroke="#ccc" stroke-width="1.2" />
+<text x="144" y="107" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#aaa" >最初</text>
+<rect x="168" y="90" width="26" height="34" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.2" />
+<text x="181" y="107" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >…</text>
+<rect x="198" y="90" width="40" height="34" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.2" />
+<text x="218" y="107" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >昨日</text>
+<rect x="242" y="90" width="26" height="34" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.2" />
+<text x="255" y="107" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >の</text>
+<rect x="272" y="90" width="26" height="34" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.2" />
+<text x="285" y="107" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >話</text>
+<rect x="302" y="90" width="26" height="34" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.2" />
+<text x="315" y="107" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >…</text>
+<rect x="332" y="90" width="40" height="34" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.2" />
+<text x="352" y="107" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >今日</text>
+<rect x="376" y="90" width="26" height="34" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.2" />
+<text x="389" y="107" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >の</text>
+<rect x="406" y="90" width="40" height="34" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.2" />
+<text x="426" y="107" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >質問</text>
+<rect x="164" y="80" width="356" height="54" rx="8" fill="none" stroke="#f57c00" stroke-width="3.5" />
+<circle cx="520" cy="80" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="81" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="342" y="160" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >一度に読み込める長さの上限</text>
+<text x="90" y="160" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#999" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >はみ出した部分は</text>
+<text x="90" y="178" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#999" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >考慮されない</text>
+</svg>

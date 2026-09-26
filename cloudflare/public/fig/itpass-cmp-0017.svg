@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" width="540" height="270" font-family="sans-serif">
+<rect width="540" height="270" fill="#fff"/>
+<defs><marker id="itpasscmp0017m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="itpasscmp0017mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<line x1="40" y1="180" x2="500" y2="180" stroke="#37474f" stroke-width="2.5" marker-end="url(#itpasscmp0017m37474f)"/>
+<text x="500" y="200" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >時間</text>
+<path d="M51,130 L59,130 L69,140 L69,154 L51,154 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.8" />
+<path d="M59,130 L59,140 L69,140" fill="none" stroke="#1976d2" stroke-width="1.2" />
+<path d="M85,130 L93,130 L103,140 L103,154 L85,154 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.8" />
+<path d="M93,130 L93,140 L103,140" fill="none" stroke="#1976d2" stroke-width="1.2" />
+<path d="M119,130 L127,130 L137,140 L137,154 L119,154 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.8" />
+<path d="M127,130 L127,140 L137,140" fill="none" stroke="#1976d2" stroke-width="1.2" />
+<path d="M153,130 L161,130 L171,140 L171,154 L153,154 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.8" />
+<path d="M161,130 L161,140 L171,140" fill="none" stroke="#1976d2" stroke-width="1.2" />
+<path d="M187,130 L195,130 L205,140 L205,154 L187,154 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.8" />
+<path d="M195,130 L195,140 L205,140" fill="none" stroke="#1976d2" stroke-width="1.2" />
+<path d="M221,130 L229,130 L239,140 L239,154 L221,154 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.8" />
+<path d="M229,130 L229,140 L239,140" fill="none" stroke="#1976d2" stroke-width="1.2" />
+<path d="M255,130 L263,130 L273,140 L273,154 L255,154 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.8" />
+<path d="M263,130 L263,140 L273,140" fill="none" stroke="#1976d2" stroke-width="1.2" />
+<path d="M289,130 L297,130 L307,140 L307,154 L289,154 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.8" />
+<path d="M297,130 L297,140 L307,140" fill="none" stroke="#1976d2" stroke-width="1.2" />
+<path d="M323,130 L331,130 L341,140 L341,154 L323,154 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.8" />
+<path d="M331,130 L331,140 L341,140" fill="none" stroke="#1976d2" stroke-width="1.2" />
+<path d="M357,130 L365,130 L375,140 L375,154 L357,154 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.8" />
+<path d="M365,130 L365,140 L375,140" fill="none" stroke="#1976d2" stroke-width="1.2" />
+<text x="210" y="110" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >データが発生しても、ためておく</text>
+<rect x="420" y="110" width="80" height="60" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="460" y="132" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >まとめて</text>
+<text x="460" y="152" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >処理</text>
+<circle cx="500" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="410" y="215" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >月末・夜間など</text>
+<path d="M380,142 L416,142" fill="none" stroke="#f57c00" stroke-width="3" marker-end="url(#itpasscmp0017mf57c00)"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="fedev0016m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="40" y1="150" x2="510" y2="150" stroke="#37474f" stroke-width="2.5" marker-end="url(#fedev0016m37474f)"/>
+<rect x="160" y="138" width="240" height="24" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="280" y="118" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >有効（0〜100）</text>
+<text x="95" y="118" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >無効</text>
+<text x="460" y="118" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >無効</text>
+<circle cx="150" cy="150" r="7" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="150" y="180" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >-1</text>
+<circle cx="165" cy="150" r="7" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="165" y="198" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0</text>
+<circle cx="395" cy="150" r="7" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="395" y="198" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >100</text>
+<circle cx="410" cy="150" r="7" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="410" y="180" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >101</text>
+<circle cx="280" cy="220" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="280" y="221" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="30" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >入力できる値：0〜100</text>
+</svg>

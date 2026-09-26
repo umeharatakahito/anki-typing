@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<defs><marker id="itpasssec0027mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker><marker id="itpasssec0027mbbb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bbb"/></marker></defs>
+<rect x="30" y="50" width="150" height="80" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="105" y="76" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >知っているもの</text>
+<text x="105" y="104" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >パスワード・暗証番号</text>
+<rect x="200" y="50" width="150" height="80" rx="8" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="275" y="76" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >持っているもの</text>
+<text x="275" y="104" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >スマホ・ICカード</text>
+<rect x="370" y="50" width="150" height="80" rx="8" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" />
+<text x="445" y="76" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >体の特徴</text>
+<text x="445" y="104" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >指紋・顔</text>
+<rect x="90" y="180" width="360" height="60" rx="10" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="270" y="210" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >異なる種類を2つ以上組み合わせて本人確認</text>
+<circle cx="450" cy="180" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="450" y="181" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="105" y1="132" x2="200" y2="176" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpasssec0027mf57c00)"/>
+<line x1="275" y1="132" x2="290" y2="176" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpasssec0027mf57c00)"/>
+<line x1="440" y1="132" x2="380" y2="176" stroke="#bbb" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#itpasssec0027mbbb)"/>
+</svg>

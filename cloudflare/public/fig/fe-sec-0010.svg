@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="fesec0010mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<line x1="80" y1="80" x2="240" y2="60" stroke="#cfd8dc" stroke-width="2"/>
+<line x1="80" y1="220" x2="240" y2="240" stroke="#cfd8dc" stroke-width="2"/>
+<line x1="240" y1="60" x2="400" y2="80" stroke="#cfd8dc" stroke-width="2"/>
+<line x1="240" y1="240" x2="400" y2="220" stroke="#cfd8dc" stroke-width="2"/>
+<line x1="400" y1="80" x2="500" y2="150" stroke="#cfd8dc" stroke-width="2"/>
+<line x1="400" y1="220" x2="500" y2="150" stroke="#cfd8dc" stroke-width="2"/>
+<line x1="80" y1="80" x2="80" y2="220" stroke="#cfd8dc" stroke-width="2"/>
+<line x1="240" y1="60" x2="240" y2="240" stroke="#cfd8dc" stroke-width="2"/>
+<line x1="112" y1="76" x2="200" y2="65" stroke="#f57c00" stroke-width="3" marker-end="url(#fesec0010mf57c00)"/>
+<line x1="272" y1="64" x2="360" y2="75" stroke="#f57c00" stroke-width="3" marker-end="url(#fesec0010mf57c00)"/>
+<line x1="240" y1="96" x2="240" y2="195" stroke="#f57c00" stroke-width="3" marker-end="url(#fesec0010mf57c00)"/>
+<rect x="62.4" y="63.2" width="35.2" height="24" rx="3" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<rect x="65.6" y="66.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#d32f2f" stroke-width="1" />
+<path d="M68.8,95.2 L91.2,95.2 L86.4,87.2 L73.6,87.2 Z" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<rect x="62.4" y="203.2" width="35.2" height="24" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="65.6" y="206.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M68.8,235.2 L91.2,235.2 L86.4,227.2 L73.6,227.2 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="222.4" y="43.2" width="35.2" height="24" rx="3" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<rect x="225.6" y="46.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#d32f2f" stroke-width="1" />
+<path d="M228.8,75.2 L251.2,75.2 L246.4,67.2 L233.6,67.2 Z" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<rect x="222.4" y="223.2" width="35.2" height="24" rx="3" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<rect x="225.6" y="226.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#d32f2f" stroke-width="1" />
+<path d="M228.8,255.2 L251.2,255.2 L246.4,247.2 L233.6,247.2 Z" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<rect x="382.4" y="63.2" width="35.2" height="24" rx="3" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<rect x="385.6" y="66.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#d32f2f" stroke-width="1" />
+<path d="M388.8,95.2 L411.2,95.2 L406.4,87.2 L393.6,87.2 Z" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<rect x="382.4" y="203.2" width="35.2" height="24" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="385.6" y="206.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M388.8,235.2 L411.2,235.2 L406.4,227.2 L393.6,227.2 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="482.4" y="133.2" width="35.2" height="24" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="485.6" y="136.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M488.8,165.2 L511.2,165.2 L506.4,157.2 L493.6,157.2 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="80" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="80" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="290" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >他のファイルに寄生せず、自分で複製してネットワーク経由で広がる</text>
+</svg>

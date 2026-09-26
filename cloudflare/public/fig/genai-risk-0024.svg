@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<circle cx="350" cy="120.2" r="6.3" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<path d="M339.5,142.6 Q339.5,128.6 350,128.6 Q360.5,128.6 360.5,142.6 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="310" cy="172.162" r="6.3" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<path d="M299.5,194.562 Q299.5,180.562 310,180.562 Q320.5,180.562 320.5,194.562 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="230" cy="172.162" r="6.3" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<path d="M219.5,194.562 Q219.5,180.562 230,180.562 Q240.5,180.562 240.5,194.562 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="190" cy="120.2" r="6.3" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<path d="M179.5,142.6 Q179.5,128.6 190,128.6 Q200.5,128.6 200.5,142.6 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="230" cy="68.2385" r="6.3" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<path d="M219.5,90.6385 Q219.5,76.6385 230,76.6385 Q240.5,76.6385 240.5,90.6385 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="310" cy="68.2385" r="6.3" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<path d="M299.5,90.6385 Q299.5,76.6385 310,76.6385 Q320.5,76.6385 320.5,90.6385 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="350" y1="130" x2="230" y2="181.962" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="310" y1="181.962" x2="190" y2="130" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="230" y1="181.962" x2="230" y2="78.0385" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="190" y1="130" x2="310" y2="78.0385" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="230" y1="78.0385" x2="350" y2="130" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="310" y1="78.0385" x2="310" y2="181.962" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="270" y="130" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >同じ意見</text>
+<circle cx="60" cy="120.2" r="6.3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<path d="M49.5,142.6 Q49.5,128.6 60,128.6 Q70.5,128.6 70.5,142.6 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="480" cy="120.2" r="6.3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<path d="M469.5,142.6 Q469.5,128.6 480,128.6 Q490.5,128.6 490.5,142.6 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="60" y="170" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >違う意見</text>
+<text x="270" y="230" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >似た意見の人どうしで響き合い、考えが偏っていく</text>
+<circle cx="510" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

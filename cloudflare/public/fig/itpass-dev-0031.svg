@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" width="560" height="300" font-family="sans-serif">
+<rect width="560" height="300" fill="#fff"/>
+<defs><marker id="itpassdev0031m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="itpassdev0031mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker><marker id="itpassdev0031m388e3c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#388e3c"/></marker></defs>
+<circle cx="50" cy="48.8" r="7.2" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M38,74.4 Q38,58.4 50,58.4 Q62,58.4 62,74.4 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="50" y="85.6" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >開発者1</text>
+<line x1="76" y1="60" x2="176" y2="150" stroke="#37474f" stroke-width="2" marker-end="url(#itpassdev0031m37474f)"/>
+<circle cx="50" cy="138.8" r="7.2" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M38,164.4 Q38,148.4 50,148.4 Q62,148.4 62,164.4 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="50" y="175.6" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >開発者2</text>
+<line x1="76" y1="150" x2="176" y2="150" stroke="#37474f" stroke-width="2" marker-end="url(#itpassdev0031m37474f)"/>
+<circle cx="50" cy="228.8" r="7.2" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M38,254.4 Q38,238.4 50,238.4 Q62,238.4 62,254.4 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="50" y="265.6" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >開発者3</text>
+<line x1="76" y1="240" x2="176" y2="150" stroke="#37474f" stroke-width="2" marker-end="url(#itpassdev0031m37474f)"/>
+<text x="170" y="30" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >こまめに変更を反映</text>
+<path d="M180,126.2 L180,173.8 A40,11.2 0 0 0 260,173.8 L260,126.2" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<ellipse cx="220" cy="126.2" rx="40" ry="11.2" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="220" y="148.4" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >共有の</text>
+<text x="220" y="162.8" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >リポジトリ</text>
+<line x1="262" y1="150" x2="300" y2="150" stroke="#f57c00" stroke-width="3" marker-end="url(#itpassdev0031mf57c00)"/>
+<rect x="300" y="110" width="150" height="80" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="375" y="136" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >自動でビルド</text>
+<text x="375" y="162" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >＋自動テスト</text>
+<circle cx="450" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="450" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<path d="M375,192 Q375,280 70,268" fill="none" stroke="#388e3c" stroke-width="2" marker-end="url(#itpassdev0031m388e3c)" stroke-dasharray="5 4"/>
+<text x="300" y="262" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >結果をすぐに知らせる</text>
+<text x="500" y="150" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1日に何度も</text>
+</svg>

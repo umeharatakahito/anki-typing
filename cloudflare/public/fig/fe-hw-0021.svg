@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<defs><marker id="fehw0021mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="30" y="40" width="200" height="220" rx="10" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="130" y="58" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >CPU</text>
+<rect x="50" y="80" width="160" height="50" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="130" y="105" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1003</text>
+<circle cx="210" cy="80" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="210" y="81" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="130" y="145" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >次に実行する命令の番地</text>
+<rect x="50" y="170" width="160" height="40" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="130" y="190" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >命令レジスタ</text>
+<rect x="50" y="216" width="160" height="34" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="130" y="233" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >演算装置</text>
+<text x="390" y="30" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >主記憶</text>
+<text x="300" y="63" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1000</text>
+<rect x="310" y="45" width="170" height="38" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="395" y="64" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >LOAD …</text>
+<text x="300" y="105" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1001</text>
+<rect x="310" y="87" width="170" height="38" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="395" y="106" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >ADD …</text>
+<text x="300" y="147" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1002</text>
+<rect x="310" y="129" width="170" height="38" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="395" y="148" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >STORE …</text>
+<text x="300" y="189" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1003</text>
+<rect x="310" y="171" width="170" height="38" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="395" y="190" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >JUMP …</text>
+<text x="300" y="231" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1004</text>
+<rect x="310" y="213" width="170" height="38" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="395" y="232" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >…</text>
+<line x1="212" y1="105" x2="308" y2="175" stroke="#f57c00" stroke-width="2.5" marker-end="url(#fehw0021mf57c00)"/>
+</svg>

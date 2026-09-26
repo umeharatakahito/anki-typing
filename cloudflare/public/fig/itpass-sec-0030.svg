@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="itpasssec0030m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="itpasssec0030m388e3c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#388e3c"/></marker></defs>
+<rect x="20" y="60" width="190" height="40" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="115" y="80" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >こんにちは</text>
+<line x1="212" y1="80" x2="240" y2="150" stroke="#37474f" stroke-width="1.8" marker-end="url(#itpasssec0030m37474f)"/>
+<rect x="340" y="60" width="170" height="40" rx="4" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<text x="425" y="80" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >3f9a…c21b</text>
+<line x1="302" y1="150" x2="338" y2="80" stroke="#388e3c" stroke-width="1.8" marker-end="url(#itpasssec0030m388e3c)"/>
+<rect x="20" y="140" width="190" height="40" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="115" y="160" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >長い文書ファイル（10MB）</text>
+<line x1="212" y1="160" x2="240" y2="150" stroke="#37474f" stroke-width="1.8" marker-end="url(#itpasssec0030m37474f)"/>
+<rect x="340" y="140" width="170" height="40" rx="4" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<text x="425" y="160" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >81d0…7e44</text>
+<line x1="302" y1="150" x2="338" y2="160" stroke="#388e3c" stroke-width="1.8" marker-end="url(#itpasssec0030m388e3c)"/>
+<rect x="20" y="220" width="190" height="40" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="115" y="240" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >こんにちは！</text>
+<line x1="212" y1="240" x2="240" y2="150" stroke="#37474f" stroke-width="1.8" marker-end="url(#itpasssec0030m37474f)"/>
+<rect x="340" y="220" width="170" height="40" rx="4" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<text x="425" y="240" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >c07b…19fa</text>
+<line x1="302" y1="150" x2="338" y2="240" stroke="#388e3c" stroke-width="1.8" marker-end="url(#itpasssec0030m388e3c)"/>
+<rect x="240" y="120" width="60" height="60" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="270" y="151" font-size="30" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<circle cx="300" cy="118" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="119" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="425" y="40" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >いつも同じ長さ</text>
+<text x="270" y="290" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1文字違うだけで全く別の値・元には戻せない</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="itpassbiz0040m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="10" y="44" width="140" height="52" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="80" y="70" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >発注者</text>
+<rect x="390" y="44" width="140" height="52" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="460" y="70" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >受注者</text>
+<circle cx="270" cy="216" r="9" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M255,248 Q255,228 270,228 Q285,228 285,248 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="270" y="262" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >働く人</text>
+<line x1="152" y1="70" x2="388" y2="70" stroke="#37474f" stroke-width="2" marker-end="url(#itpassbiz0040m37474f)" marker-start="url(#itpassbiz0040m37474f)"/>
+<text x="270" y="52" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >契約（仕事の完成）</text>
+<line x1="440" y1="98" x2="290" y2="212" stroke="#388e3c" stroke-width="2.5"/>
+<text x="420" y="170" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >雇用・指示</text>
+<line x1="100" y1="98" x2="250" y2="212" stroke="#d32f2f" stroke-width="3.5"/>
+<text x="120" y="170" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >直接指示</text>
+<circle cx="175" cy="150" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="175" y="151" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="292" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >形は仕事の完成の契約なのに、発注者が直接指示（違法）</text>
+</svg>

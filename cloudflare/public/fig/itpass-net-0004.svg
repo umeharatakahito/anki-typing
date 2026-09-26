@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320" font-family="sans-serif">
+<rect width="540" height="320" fill="#fff"/>
+<defs><marker id="itpassnet0004mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="20" y="60" width="180" height="200" rx="10" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="110" y="80" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >192.168.1.0</text>
+<rect x="340" y="60" width="180" height="200" rx="10" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="430" y="80" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >192.168.2.0</text>
+<rect x="62.4" y="123.2" width="35.2" height="24" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="65.6" y="126.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M68.8,155.2 L91.2,155.2 L86.4,147.2 L73.6,147.2 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="80" y="166.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >.1.10</text>
+<rect x="62.4" y="198.2" width="35.2" height="24" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="65.6" y="201.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M68.8,230.2 L91.2,230.2 L86.4,222.2 L73.6,222.2 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="80" y="241.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >.1.11</text>
+<rect x="442.4" y="123.2" width="35.2" height="24" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="445.6" y="126.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M448.8,155.2 L471.2,155.2 L466.4,147.2 L453.6,147.2 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="460" y="166.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >.2.5</text>
+<rect x="442.4" y="198.2" width="35.2" height="24" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="445.6" y="201.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M448.8,230.2 L471.2,230.2 L466.4,222.2 L453.6,222.2 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="460" y="241.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >.2.6</text>
+<ellipse cx="270" cy="160" rx="36" ry="22" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<line x1="270" y1="160" x2="290" y2="160" stroke="#f57c00" stroke-width="2"/>
+<line x1="270" y1="160" x2="270" y2="172" stroke="#f57c00" stroke-width="2"/>
+<line x1="270" y1="160" x2="250" y2="160" stroke="#f57c00" stroke-width="2"/>
+<line x1="270" y1="160" x2="270" y2="148" stroke="#f57c00" stroke-width="2"/>
+<circle cx="300" cy="130" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="131" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="200" y1="160" x2="234" y2="160" stroke="#37474f" stroke-width="2"/>
+<line x1="306" y1="160" x2="340" y2="160" stroke="#37474f" stroke-width="2"/>
+<rect x="96" y="272" width="140" height="30" rx="4" fill="#fff9c4" stroke="#f9a825" stroke-width="1.5" />
+<text x="166" y="287" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >宛先 192.168.2.5</text>
+<path d="M236,287 Q300,287 300,190" fill="none" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpassnet0004mf57c00)"/>
+<path d="M306,178 Q380,120 424,138" fill="none" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpassnet0004mf57c00)" stroke-dasharray="6 4"/>
+<text x="270" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >宛先を見て経路を決める</text>
+</svg>

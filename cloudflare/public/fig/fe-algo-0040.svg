@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 230" width="540" height="230" font-family="sans-serif">
+<rect width="540" height="230" fill="#fff"/>
+<text x="60" y="30" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >整列前（数字で並べる）</text>
+<rect x="60" y="44" width="64" height="44" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="92" y="66" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >3(a)</text>
+<rect x="130" y="44" width="64" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="162" y="66" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >1</text>
+<rect x="200" y="44" width="64" height="44" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="232" y="66" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >3(b)</text>
+<rect x="270" y="44" width="64" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="302" y="66" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >2</text>
+<rect x="60" y="154" width="64" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="92" y="176" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >1</text>
+<rect x="130" y="154" width="64" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="162" y="176" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >2</text>
+<rect x="200" y="154" width="64" height="44" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="232" y="176" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >3(a)</text>
+<rect x="270" y="154" width="64" height="44" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="302" y="176" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >3(b)</text>
+<text x="60" y="140" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >整列後</text>
+<text x="420" y="176" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >aがbより前のまま</text>
+<circle cx="510" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

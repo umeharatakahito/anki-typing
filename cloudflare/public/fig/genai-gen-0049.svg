@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="genaigen0049m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="20" y="110" width="130" height="40" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="85" y="130" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >I love cats</text>
+<line x1="152" y1="130" x2="180" y2="130" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0049m37474f)"/>
+<rect x="180" y="100" width="110" height="60" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="235" y="130" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >入力側</text>
+<line x1="292" y1="130" x2="320" y2="130" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0049m37474f)"/>
+<rect x="320" y="110" width="30" height="40" rx="0" fill="#fff9c4" stroke="#f9a825" stroke-width="1.5" />
+<text x="335" y="90" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >内部の数値</text>
+<line x1="352" y1="130" x2="380" y2="130" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0049m37474f)"/>
+<rect x="380" y="100" width="110" height="60" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="435" y="131" font-size="30" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<circle cx="490" cy="100" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="490" y="101" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="435" y="180" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1語ずつ順に出力</text>
+<rect x="360" y="210" width="44" height="30" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="382" y="225" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >私は</text>
+<rect x="410" y="210" width="44" height="30" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="432" y="225" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >猫が</text>
+<rect x="460" y="210" width="44" height="30" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="482" y="225" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >好き</text>
+</svg>

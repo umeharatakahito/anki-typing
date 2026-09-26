@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<defs><marker id="itpassstg0002mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<path d="M210,116.8 L210,173.2 A60,16.8 0 0 0 330,173.2 L330,116.8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<ellipse cx="270" cy="116.8" rx="60" ry="16.8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="146.2" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >共通の</text>
+<text x="270" y="160.6" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >データベース</text>
+<rect x="30" y="26" width="120" height="48" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="90" y="50" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >会計</text>
+<line x1="150" y1="50" x2="208" y2="125" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpassstg0002mf57c00)" marker-start="url(#itpassstg0002mf57c00)"/>
+<rect x="390" y="26" width="120" height="48" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="450" y="50" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >人事</text>
+<line x1="390" y1="50" x2="332" y2="125" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpassstg0002mf57c00)" marker-start="url(#itpassstg0002mf57c00)"/>
+<rect x="30" y="216" width="120" height="48" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="90" y="240" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >生産</text>
+<line x1="150" y1="240" x2="208" y2="165" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpassstg0002mf57c00)" marker-start="url(#itpassstg0002mf57c00)"/>
+<rect x="390" y="216" width="120" height="48" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="450" y="240" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >販売</text>
+<line x1="390" y1="240" x2="332" y2="165" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpassstg0002mf57c00)" marker-start="url(#itpassstg0002mf57c00)"/>
+<circle cx="330" cy="100" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="330" y="101" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="285" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >基幹業務を連携させ、経営資源を一元管理</text>
+</svg>

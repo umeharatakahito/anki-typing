@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 260" width="520" height="260" font-family="sans-serif">
+<rect width="520" height="260" fill="#fff"/>
+<text x="60" y="40" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >変更前</text>
+<rect x="120" y="30" width="150" height="24" rx="4" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<text x="195" y="42" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >設計</text>
+<rect x="270" y="30" width="150" height="24" rx="4" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="345" y="42" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >製造</text>
+<text x="60" y="140" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >変更後</text>
+<rect x="120" y="110" width="150" height="24" rx="4" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<text x="195" y="122" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >設計</text>
+<rect x="270" y="110" width="90" height="24" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="315" y="122" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >製造</text>
+<circle cx="290" cy="181.6" r="5.4" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M281,200.8 Q281,188.8 290,188.8 Q299,188.8 299,200.8 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<circle cx="316" cy="181.6" r="5.4" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M307,200.8 Q307,188.8 316,188.8 Q325,188.8 325,200.8 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<circle cx="342" cy="181.6" r="5.4" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M333,200.8 Q333,188.8 342,188.8 Q351,188.8 351,200.8 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="330" y="232" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >要員を追加・残業</text>
+<circle cx="360" cy="104" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="360" y="105" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<path d="M360,140 L360,146 L420,146 L420,140" fill="none" stroke="#388e3c" stroke-width="2" />
+<text x="390" y="160" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >短縮</text>
+<line x1="420" y1="20" x2="420" y2="200" stroke="#999" stroke-width="1.5" stroke-dasharray="4 3"/>
+</svg>

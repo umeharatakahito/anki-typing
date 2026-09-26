@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<rect x="170" y="190" width="160" height="80" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="250" y="230" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >作業ごとの見積り</text>
+<rect x="170" y="130" width="160" height="60" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="250" y="152" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<text x="250" y="174" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >特定済みリスクへの備え</text>
+<circle cx="330" cy="130" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="330" y="131" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="170" y="80" width="160" height="50" rx="0" fill="#eceff1" stroke="#90a4ae" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="250" y="105" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >想定外への備え</text>
+<line x1="150" y1="130" x2="150" y2="270" stroke="#1976d2" stroke-width="2.5"/>
+<text x="140" y="200" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >コスト</text>
+<text x="140" y="218" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ベースライン</text>
+<line x1="350" y1="80" x2="350" y2="270" stroke="#37474f" stroke-width="2.5"/>
+<text x="360" y="175" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >全体の予算</text>
+<text x="270" y="30" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >プロジェクトの予算の内訳</text>
+</svg>

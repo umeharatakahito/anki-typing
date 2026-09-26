@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<defs><marker id="fealgo0006mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="70" y="90" width="56" height="44" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="98" y="113" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >7</text>
+<rect x="126" y="90" width="56" height="44" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="154" y="113" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >3</text>
+<rect x="182" y="90" width="56" height="44" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="210" y="113" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >9</text>
+<rect x="238" y="90" width="56" height="44" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="266" y="113" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >4</text>
+<rect x="294" y="90" width="56" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="322" y="113" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >8</text>
+<rect x="350" y="90" width="56" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="378" y="113" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >1</text>
+<rect x="406" y="90" width="56" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="434" y="113" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >6</text>
+<rect x="238" y="90" width="56" height="44" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="3" />
+<text x="266" y="113" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >4</text>
+<text x="98" y="70" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1</text>
+<text x="154" y="70" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2</text>
+<text x="210" y="70" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >3</text>
+<text x="266" y="70" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >4</text>
+<path d="M80,160 L290,160" fill="none" stroke="#f57c00" stroke-width="3" marker-end="url(#fealgo0006mf57c00)"/>
+<text x="270" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >「4」を探す</text>
+<text x="270" y="200" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >先頭から1つずつ順に比べる</text>
+<circle cx="40" cy="112" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="40" y="113" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

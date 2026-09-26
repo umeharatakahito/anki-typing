@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="festg0003m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="70" y1="250" x2="490" y2="250" stroke="#37474f" stroke-width="2" marker-end="url(#festg0003m37474f)"/>
+<line x1="70" y1="250" x2="70" y2="30" stroke="#37474f" stroke-width="2" marker-end="url(#festg0003m37474f)"/>
+<text x="488" y="270" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >売上高（販売量）</text>
+<text x="78" y="22" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >金額</text>
+<line x1="70" y1="250" x2="450" y2="60" stroke="#1976d2" stroke-width="3"/>
+<text x="440" y="50" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >売上高</text>
+<line x1="70" y1="170" x2="480" y2="170" stroke="#90a4ae" stroke-width="2" stroke-dasharray="5 4"/>
+<line x1="70" y1="170" x2="450" y2="90" stroke="#d32f2f" stroke-width="3"/>
+<text x="470" y="100" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >総費用</text>
+<text x="150" y="162" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#777" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >固定費</text>
+<circle cx="346.364" cy="111.818" r="9" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<circle cx="316.364" cy="77.8182" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="316.364" y="78.8182" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="346.364" y1="111.818" x2="346.364" y2="250" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="426.364" y="83.8182" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >利益</text>
+<text x="226.364" y="141.818" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >損失</text>
+<text x="270" y="285" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >売上高と費用が等しく、利益も損失も出ない</text>
+</svg>

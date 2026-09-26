@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 270" width="560" height="270" font-family="sans-serif">
+<rect width="560" height="270" fill="#fff"/>
+<defs><marker id="fedb0008mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="30" y="40" width="150" height="170" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<circle cx="180" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="180" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="45" y="55" width="70" height="28" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="80" y="70" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >氏名</text>
+<rect x="115" y="55" width="50" height="28" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="140" y="70" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >行</text>
+<rect x="45" y="83" width="70" height="28" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="80" y="98" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >伊藤</text>
+<rect x="115" y="83" width="50" height="28" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="140" y="98" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >3</text>
+<rect x="45" y="111" width="70" height="28" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="80" y="126" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >佐藤</text>
+<rect x="115" y="111" width="50" height="28" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="140" y="126" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >1</text>
+<rect x="45" y="139" width="70" height="28" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="80" y="154" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >鈴木</text>
+<rect x="115" y="139" width="50" height="28" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="140" y="154" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >4</text>
+<rect x="45" y="167" width="70" height="28" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="80" y="182" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >田中</text>
+<rect x="115" y="167" width="50" height="28" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="140" y="182" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >2</text>
+<text x="105" y="225" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >値の順に並べ、位置を記録</text>
+<rect x="300" y="55" width="40" height="28" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="320" y="70" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >行</text>
+<rect x="340" y="55" width="80" height="28" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="380" y="70" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >氏名</text>
+<rect x="420" y="55" width="80" height="28" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="460" y="70" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >部署</text>
+<rect x="300" y="83" width="40" height="28" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="320" y="98" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >1</text>
+<rect x="340" y="83" width="80" height="28" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="380" y="98" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >佐藤</text>
+<rect x="420" y="83" width="80" height="28" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="460" y="98" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >営業</text>
+<rect x="300" y="111" width="40" height="28" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="320" y="126" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >2</text>
+<rect x="340" y="111" width="80" height="28" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="380" y="126" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >田中</text>
+<rect x="420" y="111" width="80" height="28" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="460" y="126" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >開発</text>
+<rect x="300" y="139" width="40" height="28" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="320" y="154" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >3</text>
+<rect x="340" y="139" width="80" height="28" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="380" y="154" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >伊藤</text>
+<rect x="420" y="139" width="80" height="28" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="460" y="154" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >総務</text>
+<rect x="300" y="167" width="40" height="28" rx="0" fill="#fff9c4" stroke="#607d8b" stroke-width="1.2" />
+<text x="320" y="182" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >4</text>
+<rect x="340" y="167" width="80" height="28" rx="0" fill="#fff9c4" stroke="#607d8b" stroke-width="1.2" />
+<text x="380" y="182" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >鈴木</text>
+<rect x="420" y="167" width="80" height="28" rx="0" fill="#fff9c4" stroke="#607d8b" stroke-width="1.2" />
+<text x="460" y="182" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >営業</text>
+<text x="400" y="225" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >表（並びはばらばら）</text>
+<path d="M168,125 Q240,150 296,181" fill="none" stroke="#f57c00" stroke-width="2.5" marker-end="url(#fedb0008mf57c00)"/>
+<text x="270" y="255" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >「鈴木」を全行調べずにすぐ見つける</text>
+</svg>

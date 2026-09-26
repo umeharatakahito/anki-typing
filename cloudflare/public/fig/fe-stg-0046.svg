@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<defs><marker id="festg0046m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="90" y="30" width="180" height="110" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="180" y="73" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >共同化</text>
+<text x="180" y="101" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >暗黙知 → 暗黙知</text>
+<rect x="270" y="30" width="180" height="110" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="360" y="73" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<text x="360" y="101" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >暗黙知 → 形式知</text>
+<circle cx="436" cy="44" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="436" y="45" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="90" y="140" width="180" height="110" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="180" y="183" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >内面化</text>
+<text x="180" y="211" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >形式知 → 暗黙知</text>
+<rect x="270" y="140" width="180" height="110" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="360" y="183" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >連結化</text>
+<text x="360" y="211" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >形式知 → 形式知</text>
+<path d="M270,140 L270,140" fill="none" stroke="#37474f" stroke-width="1" marker-end="url(#festg0046m37474f)"/>
+<text x="270" y="272" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >知識が個人と組織の間を循環するモデル</text>
+</svg>

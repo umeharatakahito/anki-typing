@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="itpasscmp0045m1976d2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1976d2"/></marker><marker id="itpasscmp0045m90a4ae" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#90a4ae"/></marker><marker id="itpasscmp0045m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="30" y="40" width="150" height="230" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="105" y="30" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >プログラムから見える</text>
+<rect x="45" y="55" width="120" height="22" rx="0" fill="#fff" stroke="#f57c00" stroke-width="1.2" />
+<text x="105" y="66" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >領域0</text>
+<rect x="45" y="81" width="120" height="22" rx="0" fill="#fff" stroke="#f57c00" stroke-width="1.2" />
+<text x="105" y="92" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >領域1</text>
+<rect x="45" y="107" width="120" height="22" rx="0" fill="#fff" stroke="#f57c00" stroke-width="1.2" />
+<text x="105" y="118" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >領域2</text>
+<rect x="45" y="133" width="120" height="22" rx="0" fill="#fff" stroke="#f57c00" stroke-width="1.2" />
+<text x="105" y="144" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >領域3</text>
+<rect x="45" y="159" width="120" height="22" rx="0" fill="#fff" stroke="#f57c00" stroke-width="1.2" />
+<text x="105" y="170" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >領域4</text>
+<rect x="45" y="185" width="120" height="22" rx="0" fill="#fff" stroke="#f57c00" stroke-width="1.2" />
+<text x="105" y="196" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >領域5</text>
+<rect x="45" y="211" width="120" height="22" rx="0" fill="#fff" stroke="#f57c00" stroke-width="1.2" />
+<text x="105" y="222" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >領域6</text>
+<rect x="45" y="237" width="120" height="22" rx="0" fill="#fff" stroke="#f57c00" stroke-width="1.2" />
+<text x="105" y="248" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >領域7</text>
+<circle cx="180" cy="160" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="180" y="161" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="260" y="60" width="120" height="110" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="320" y="50" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >主記憶（小さい）</text>
+<rect x="275" y="72" width="90" height="24" rx="0" fill="#fff" stroke="#1976d2" stroke-width="1.2" />
+<rect x="275" y="102" width="90" height="24" rx="0" fill="#fff" stroke="#1976d2" stroke-width="1.2" />
+<rect x="275" y="132" width="90" height="24" rx="0" fill="#fff" stroke="#1976d2" stroke-width="1.2" />
+<text x="320" y="83" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >領域0</text>
+<text x="320" y="113" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >領域3</text>
+<text x="320" y="143" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >領域5</text>
+<path d="M280,207.6 L280,262.4 A45,12.6 0 0 0 370,262.4 L370,207.6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<ellipse cx="325" cy="207.6" rx="45" ry="12.6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="325" y="241.3" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >補助記憶</text>
+<line x1="167" y1="66" x2="273" y2="84" stroke="#1976d2" stroke-width="1.8" marker-end="url(#itpasscmp0045m1976d2)"/>
+<line x1="167" y1="144" x2="273" y2="114" stroke="#1976d2" stroke-width="1.8" marker-end="url(#itpasscmp0045m1976d2)"/>
+<line x1="167" y1="196" x2="278" y2="144" stroke="#1976d2" stroke-width="1.8" marker-end="url(#itpasscmp0045m1976d2)"/>
+<line x1="167" y1="118" x2="278" y2="230" stroke="#90a4ae" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#itpasscmp0045m90a4ae)"/>
+<line x1="325" y1="172" x2="325" y2="196" stroke="#37474f" stroke-width="2" marker-end="url(#itpasscmp0045m37474f)" marker-start="url(#itpasscmp0045m37474f)"/>
+<text x="450" y="170" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >必要な部分だけ</text>
+<text x="450" y="188" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >主記憶に置き、</text>
+<text x="450" y="206" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >残りは補助記憶</text>
+</svg>

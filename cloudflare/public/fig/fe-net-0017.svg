@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" width="520" height="340" font-family="sans-serif">
+<rect width="520" height="340" fill="#fff"/>
+<defs><marker id="fenet0017m1976d2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1976d2"/></marker><marker id="fenet0017m388e3c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#388e3c"/></marker><marker id="fenet0017m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<text x="110" y="26" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >端末</text>
+<text x="410" y="26" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >サーバ</text>
+<line x1="110" y1="40" x2="110" y2="320" stroke="#37474f" stroke-width="2"/>
+<line x1="410" y1="40" x2="410" y2="320" stroke="#37474f" stroke-width="2"/>
+<line x1="112" y1="60" x2="406" y2="78" stroke="#1976d2" stroke-width="2" marker-end="url(#fenet0017m1976d2)"/>
+<text x="260" y="58" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >接続したい</text>
+<line x1="408" y1="95" x2="114" y2="113" stroke="#388e3c" stroke-width="2" marker-end="url(#fenet0017m388e3c)"/>
+<text x="260" y="93" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >いいよ／こちらも接続したい</text>
+<line x1="112" y1="130" x2="406" y2="148" stroke="#1976d2" stroke-width="2" marker-end="url(#fenet0017m1976d2)"/>
+<text x="260" y="128" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >いいよ</text>
+<line x1="112" y1="180" x2="406" y2="198" stroke="#37474f" stroke-width="2" marker-end="url(#fenet0017m37474f)"/>
+<text x="260" y="178" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >データ1</text>
+<line x1="408" y1="215" x2="114" y2="233" stroke="#37474f" stroke-width="2" marker-end="url(#fenet0017m37474f)"/>
+<text x="260" y="213" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >受け取った</text>
+<line x1="112" y1="250" x2="300" y2="268" stroke="#d32f2f" stroke-width="2"/>
+<line x1="293" y1="261" x2="307" y2="275" stroke="#d32f2f" stroke-width="3.5"/>
+<line x1="293" y1="275" x2="307" y2="261" stroke="#d32f2f" stroke-width="3.5"/>
+<text x="210" y="246" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >データ2（届かず）</text>
+<line x1="112" y1="290" x2="406" y2="308" stroke="#37474f" stroke-width="2" marker-end="url(#fenet0017m37474f)"/>
+<text x="260" y="288" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >データ2を再送</text>
+<rect x="20" y="50" width="70" height="100" rx="6" fill="none" stroke="#f57c00" stroke-width="2.5" stroke-dasharray="6 4"/>
+<text x="55" y="92" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >開始の</text>
+<text x="55" y="110" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >あいさつ</text>
+<circle cx="55" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="55" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

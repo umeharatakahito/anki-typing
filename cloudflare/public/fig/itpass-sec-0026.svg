@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<defs><marker id="itpasssec0026m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<circle cx="50" cy="96" r="9" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M35,128 Q35,108 50,108 Q65,108 65,128 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="50" y="142" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Aさん</text>
+<circle cx="490" cy="96" r="9" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M475,128 Q475,108 490,108 Q505,108 505,128 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="490" y="142" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Bさん</text>
+<path d="M100,70 L126,70 L136,80 L136,116 L100,116 Z" fill="#fff" stroke="#37474f" stroke-width="1.8" />
+<path d="M126,70 L126,80 L136,80" fill="none" stroke="#37474f" stroke-width="1.2" />
+<line x1="106" y1="86" x2="128" y2="86" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="106" y1="94" x2="128" y2="94" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="106" y1="102" x2="128" y2="102" stroke="#90a4ae" stroke-width="1.5"/>
+<text x="118" y="129" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >平文</text>
+<rect x="170" y="72" width="70" height="40" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="205" y="92" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >暗号化</text>
+<rect x="280" y="70" width="44" height="46" rx="3" fill="#cfd8dc" stroke="#37474f" stroke-width="1.8" />
+<text x="302" y="93" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >#%&amp;</text>
+<rect x="360" y="72" width="70" height="40" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="395" y="92" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >復号</text>
+<path d="M444,70 L470,70 L480,80 L480,116 L444,116 Z" fill="#fff" stroke="#37474f" stroke-width="1.8" />
+<path d="M470,70 L470,80 L480,80" fill="none" stroke="#37474f" stroke-width="1.2" />
+<line x1="450" y1="86" x2="472" y2="86" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="450" y1="94" x2="472" y2="94" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="450" y1="102" x2="472" y2="102" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="138" y1="92" x2="168" y2="92" stroke="#37474f" stroke-width="2" marker-end="url(#itpasssec0026m37474f)"/>
+<line x1="242" y1="92" x2="278" y2="92" stroke="#37474f" stroke-width="2" marker-end="url(#itpasssec0026m37474f)"/>
+<line x1="326" y1="92" x2="358" y2="92" stroke="#37474f" stroke-width="2" marker-end="url(#itpasssec0026m37474f)"/>
+<line x1="432" y1="92" x2="442" y2="92" stroke="#37474f" stroke-width="2" marker-end="url(#itpasssec0026m37474f)"/>
+<circle cx="190" cy="150" r="10.4" fill="#ffcc80" stroke="#5d4037" stroke-width="1.8" />
+<circle cx="190" cy="150" r="3.25" fill="#fff" stroke="#5d4037" stroke-width="1" />
+<path d="M200.4,150 L229,150 M221.2,150 L221.2,159.1 M227.7,150 L227.7,157.8" fill="none" stroke="#5d4037" stroke-width="3.9" />
+<path d="M200.4,150 L229,150 M221.2,150 L221.2,159.1 M227.7,150 L227.7,157.8" fill="none" stroke="#ffcc80" stroke-width="2.08" />
+<circle cx="380" cy="150" r="10.4" fill="#ffcc80" stroke="#5d4037" stroke-width="1.8" />
+<circle cx="380" cy="150" r="3.25" fill="#fff" stroke="#5d4037" stroke-width="1" />
+<path d="M390.4,150 L419,150 M411.2,150 L411.2,159.1 M417.7,150 L417.7,157.8" fill="none" stroke="#5d4037" stroke-width="3.9" />
+<path d="M390.4,150 L419,150 M411.2,150 L411.2,159.1 M417.7,150 L417.7,157.8" fill="none" stroke="#ffcc80" stroke-width="2.08" />
+<line x1="205" y1="140" x2="205" y2="116" stroke="#f57c00" stroke-width="2"/>
+<line x1="395" y1="140" x2="395" y2="116" stroke="#f57c00" stroke-width="2"/>
+<path d="M210,185 Q300,230 390,185" fill="none" stroke="#f57c00" stroke-width="2.5" stroke-dasharray="6 4"/>
+<text x="300" y="232" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >同じ鍵を使う</text>
+<text x="300" y="256" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（鍵を安全に渡す工夫が必要）</text>
+<circle cx="300" cy="170" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="171" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

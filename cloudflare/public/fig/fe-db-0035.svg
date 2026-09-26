@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 260" width="560" height="260" font-family="sans-serif">
+<rect width="560" height="260" fill="#fff"/>
+<defs><marker id="fedb0035mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="20" y="40" width="70" height="30" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="55" y="56" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >顧客番号</text>
+<rect x="90" y="40" width="60" height="30" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="120" y="56" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >氏名</text>
+<rect x="20" y="70" width="70" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="55" y="86" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >C1</text>
+<rect x="90" y="70" width="60" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="120" y="86" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >佐藤</text>
+<rect x="20" y="100" width="70" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="55" y="116" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >C2</text>
+<rect x="90" y="100" width="60" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="120" y="116" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >鈴木</text>
+<rect x="20" y="130" width="70" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="55" y="146" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >C3</text>
+<rect x="90" y="130" width="60" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="120" y="146" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >田中</text>
+<text x="85" y="172" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >表A（先に書いた表）</text>
+<rect x="170" y="40" width="70" height="30" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="205" y="56" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >顧客番号</text>
+<rect x="240" y="40" width="60" height="30" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="270" y="56" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >注文</text>
+<rect x="170" y="70" width="70" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="205" y="86" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >C1</text>
+<rect x="240" y="70" width="60" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="270" y="86" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >りんご</text>
+<rect x="170" y="100" width="70" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="205" y="116" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >C3</text>
+<rect x="240" y="100" width="60" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="270" y="116" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ぶどう</text>
+<text x="235" y="142" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >表B</text>
+<line x1="308" y1="100" x2="330" y2="100" stroke="#f57c00" stroke-width="3" marker-end="url(#fedb0035mf57c00)"/>
+<rect x="340" y="40" width="60" height="30" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="370" y="56" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >顧客番号</text>
+<rect x="400" y="40" width="50" height="30" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="425" y="56" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >氏名</text>
+<rect x="450" y="40" width="70" height="30" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="485" y="56" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >注文</text>
+<rect x="340" y="70" width="60" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="370" y="86" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >C1</text>
+<rect x="400" y="70" width="50" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="425" y="86" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >佐藤</text>
+<rect x="450" y="70" width="70" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="485" y="86" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >りんご</text>
+<rect x="340" y="100" width="60" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="370" y="116" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >C2</text>
+<rect x="400" y="100" width="50" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="425" y="116" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >鈴木</text>
+<rect x="450" y="100" width="70" height="30" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="485" y="116" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >NULL</text>
+<rect x="340" y="130" width="60" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="370" y="146" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >C3</text>
+<rect x="400" y="130" width="50" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="425" y="146" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >田中</text>
+<rect x="450" y="130" width="70" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="485" y="146" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ぶどう</text>
+<circle cx="540" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="540" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="280" y="210" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >表Aの行はすべて残し、対応がなければNULLで埋める</text>
+</svg>

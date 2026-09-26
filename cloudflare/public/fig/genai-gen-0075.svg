@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="genaigen0075m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="70" y1="220" x2="490" y2="220" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0075m37474f)"/>
+<line x1="70" y1="220" x2="70" y2="20" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0075m37474f)"/>
+<text x="488" y="240" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >学習の進行</text>
+<text x="78" y="12" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >正答率</text>
+<line x1="270" y1="30" x2="270" y2="220" stroke="#999" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="170" y="40" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >課題Aを学習</text>
+<text x="380" y="40" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >課題Bを追加で学習</text>
+<polyline points="80,200 180,90 270,80 330,180 470,195" fill="none" stroke="#1976d2" stroke-width="3" stroke-linejoin="round" />
+<polyline points="270,210 340,110 470,90" fill="none" stroke="#388e3c" stroke-width="3" stroke-linejoin="round" />
+<text x="470" y="180" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#1976d2" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >課題A</text>
+<text x="470" y="80" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#388e3c" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >課題B</text>
+<circle cx="330" cy="180" r="26" fill="none" stroke="#f57c00" stroke-width="3" />
+<circle cx="360" cy="150" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="360" y="151" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="250" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >前にできていたことを大きく失う</text>
+</svg>

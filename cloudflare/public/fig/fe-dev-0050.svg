@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<rect x="25" y="132" width="110" height="36" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="80" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >利用者</text>
+<rect x="215" y="52" width="110" height="36" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="70" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >:注文画面</text>
+<rect x="405" y="132" width="110" height="36" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="460" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >:在庫</text>
+<rect x="215" y="222" width="110" height="36" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="240" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >:配送</text>
+<line x1="80" y1="132" x2="215" y2="80" stroke="#37474f" stroke-width="1.8"/>
+<line x1="325" y1="80" x2="460" y2="132" stroke="#37474f" stroke-width="1.8"/>
+<line x1="270" y1="88" x2="270" y2="222" stroke="#37474f" stroke-width="1.8"/>
+<text x="120" y="90" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1: 注文()</text>
+<text x="390" y="90" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2: 在庫確認()</text>
+<text x="280" y="160" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >3: 配送依頼()</text>
+<circle cx="30" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="30" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="282" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >つながりに沿って番号付きのメッセージ</text>
+</svg>

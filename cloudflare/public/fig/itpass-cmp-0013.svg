@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 240" width="540" height="240" font-family="sans-serif">
+<rect width="540" height="240" fill="#fff"/>
+<defs><marker id="itpasscmp0013m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="40" y="80" width="14" height="14" rx="0" fill="#1976d2" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="40" y="94" width="14" height="14" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="40" y="108" width="14" height="14" rx="0" fill="#43a047" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="40" y="122" width="14" height="14" rx="0" fill="#fdd835" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="54" y="80" width="14" height="14" rx="0" fill="#fdd835" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="54" y="94" width="14" height="14" rx="0" fill="#1976d2" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="54" y="108" width="14" height="14" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="54" y="122" width="14" height="14" rx="0" fill="#43a047" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="68" y="80" width="14" height="14" rx="0" fill="#43a047" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="68" y="94" width="14" height="14" rx="0" fill="#fdd835" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="68" y="108" width="14" height="14" rx="0" fill="#1976d2" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="68" y="122" width="14" height="14" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="82" y="80" width="14" height="14" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="82" y="94" width="14" height="14" rx="0" fill="#43a047" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="82" y="108" width="14" height="14" rx="0" fill="#fdd835" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="82" y="122" width="14" height="14" rx="0" fill="#1976d2" stroke="#90a4ae" stroke-width="0.5" />
+<text x="68" y="160" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >元のデータ</text>
+<line x1="104" y1="108" x2="170" y2="108" stroke="#37474f" stroke-width="2" marker-end="url(#itpasscmp0013m37474f)"/>
+<text x="137" y="90" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >小さく</text>
+<rect x="174" y="90" width="60" height="36" rx="4" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="204" y="108" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >01101…</text>
+<line x1="238" y1="108" x2="300" y2="108" stroke="#37474f" stroke-width="2" marker-end="url(#itpasscmp0013m37474f)"/>
+<text x="270" y="90" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >戻す</text>
+<rect x="306" y="80" width="14" height="14" rx="0" fill="#1976d2" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="306" y="94" width="14" height="14" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="306" y="108" width="14" height="14" rx="0" fill="#43a047" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="306" y="122" width="14" height="14" rx="0" fill="#fdd835" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="320" y="80" width="14" height="14" rx="0" fill="#fdd835" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="320" y="94" width="14" height="14" rx="0" fill="#1976d2" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="320" y="108" width="14" height="14" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="320" y="122" width="14" height="14" rx="0" fill="#43a047" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="334" y="80" width="14" height="14" rx="0" fill="#43a047" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="334" y="94" width="14" height="14" rx="0" fill="#fdd835" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="334" y="108" width="14" height="14" rx="0" fill="#1976d2" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="334" y="122" width="14" height="14" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="348" y="80" width="14" height="14" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="348" y="94" width="14" height="14" rx="0" fill="#43a047" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="348" y="108" width="14" height="14" rx="0" fill="#fdd835" stroke="#90a4ae" stroke-width="0.5" />
+<rect x="348" y="122" width="14" height="14" rx="0" fill="#1976d2" stroke="#90a4ae" stroke-width="0.5" />
+<text x="334" y="160" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >復元したデータ</text>
+<text x="400" y="108" font-size="28" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＝</text>
+<rect x="420" y="80" width="100" height="56" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="470" y="100" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >まったく</text>
+<text x="470" y="118" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >同じ</text>
+<circle cx="520" cy="80" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="81" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="205" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1ビットも失われない方式</text>
+</svg>

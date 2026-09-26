@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="itpasssec0041mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker><marker id="itpasssec0041m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="30" y="40" width="120" height="70" rx="8" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="90" y="75" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >認証局</text>
+<line x1="152" y1="80" x2="210" y2="100" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpasssec0041mf57c00)"/>
+<rect x="210" y="40" width="180" height="190" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<circle cx="390" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="390" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="62" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >有効期限前に取り消した</text>
+<text x="300" y="80" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >ものの一覧</text>
+<rect x="222" y="94" width="90" height="30" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="267" y="110" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >シリアル番号</text>
+<rect x="312" y="94" width="66" height="30" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="345" y="110" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >取消日</text>
+<rect x="222" y="124" width="90" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="267" y="140" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >0x1A2B</text>
+<rect x="312" y="124" width="66" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="345" y="140" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >4/3</text>
+<rect x="222" y="154" width="90" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="267" y="170" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >0x77C0</text>
+<rect x="312" y="154" width="66" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="345" y="170" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >5/12</text>
+<rect x="222" y="184" width="90" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="267" y="200" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >0x9E14</text>
+<rect x="312" y="184" width="66" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="345" y="200" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >6/1</text>
+<rect x="448" y="129" width="44" height="30" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="452" y="133" width="36" height="22" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M456,169 L484,169 L478,159 L462,159 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="470" y="183" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >利用者</text>
+<line x1="440" y1="140" x2="395" y2="140" stroke="#37474f" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#itpasssec0041m37474f)"/>
+<text x="460" y="100" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >載っていたら</text>
+<text x="460" y="116" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >使わない</text>
+<text x="270" y="280" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >鍵の漏えい・退職などで無効にしたもの</text>
+</svg>

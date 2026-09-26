@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" width="520" height="300" font-family="sans-serif">
+<rect width="520" height="300" fill="#fff"/>
+<defs><marker id="fenet0021mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="50" y="123" width="40" height="54" rx="3" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<line x1="56" y1="136" x2="84" y2="136" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="81" cy="141" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="56" y1="151" x2="84" y2="151" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="81" cy="156" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="56" y1="166" x2="84" y2="166" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="81" cy="171" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<text x="70" y="191" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >配信する側</text>
+<rect x="428" y="129" width="44" height="30" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="432" y="133" width="36" height="22" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M436,169 L464,169 L458,159 L442,159 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="450" y="183" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >見る側</text>
+<rect x="120" y="136" width="36" height="26" rx="3" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<rect x="165" y="136" width="36" height="26" rx="3" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<rect x="210" y="136" width="36" height="26" rx="3" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<rect x="255" y="136" width="36" height="26" rx="3" fill="#eceff1" stroke="#90a4ae" stroke-width="1.5" stroke-dasharray="3 3"/>
+<line x1="266" y1="142" x2="280" y2="156" stroke="#d32f2f" stroke-width="3.5"/>
+<line x1="266" y1="156" x2="280" y2="142" stroke="#d32f2f" stroke-width="3.5"/>
+<rect x="300" y="136" width="36" height="26" rx="3" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<rect x="345" y="136" width="36" height="26" rx="3" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<line x1="120" y1="190" x2="400" y2="190" stroke="#f57c00" stroke-width="3" marker-end="url(#fenet0021mf57c00)"/>
+<text x="260" y="212" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >確認も再送もせず送りっぱなし</text>
+<circle cx="260" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="260" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="260" y="50" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >接続の手続きなし</text>
+<text x="260" y="260" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >少し欠けても速さを優先（音声・動画）</text>
+</svg>

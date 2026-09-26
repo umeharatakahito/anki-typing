@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<rect x="40" y="40" width="70" height="40" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<rect x="110" y="40" width="130" height="40" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<rect x="240" y="40" width="70" height="40" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="275" y="61" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1</text>
+<rect x="310" y="40" width="70" height="40" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="345" y="61" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >2</text>
+<rect x="380" y="40" width="70" height="40" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="415" y="61" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >3</text>
+<rect x="450" y="40" width="70" height="40" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="485" y="61" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >4</text>
+<rect x="40" y="80" width="70" height="40" rx="0" fill="#e3f2fd" stroke="#607d8b" stroke-width="1.2" />
+<text x="75" y="101" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >条件</text>
+<rect x="110" y="80" width="130" height="40" rx="0" fill="#e3f2fd" stroke="#607d8b" stroke-width="1.2" />
+<text x="175" y="101" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >会員である</text>
+<rect x="240" y="80" width="70" height="40" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="275" y="101" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >Y</text>
+<rect x="310" y="80" width="70" height="40" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="345" y="101" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >Y</text>
+<rect x="380" y="80" width="70" height="40" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="415" y="101" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >N</text>
+<rect x="450" y="80" width="70" height="40" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="485" y="101" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >N</text>
+<rect x="40" y="120" width="70" height="40" rx="0" fill="#e3f2fd" stroke="#607d8b" stroke-width="1.2" />
+<rect x="110" y="120" width="130" height="40" rx="0" fill="#e3f2fd" stroke="#607d8b" stroke-width="1.2" />
+<text x="175" y="141" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >5000円以上</text>
+<rect x="240" y="120" width="70" height="40" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="275" y="141" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >Y</text>
+<rect x="310" y="120" width="70" height="40" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="345" y="141" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >N</text>
+<rect x="380" y="120" width="70" height="40" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="415" y="141" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >Y</text>
+<rect x="450" y="120" width="70" height="40" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="485" y="141" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >N</text>
+<rect x="40" y="160" width="70" height="40" rx="0" fill="#e8f5e9" stroke="#607d8b" stroke-width="1.2" />
+<text x="75" y="181" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >動作</text>
+<rect x="110" y="160" width="130" height="40" rx="0" fill="#e8f5e9" stroke="#607d8b" stroke-width="1.2" />
+<text x="175" y="181" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >送料無料</text>
+<rect x="240" y="160" width="70" height="40" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="275" y="181" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >X</text>
+<rect x="310" y="160" width="70" height="40" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="345" y="181" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >-</text>
+<rect x="380" y="160" width="70" height="40" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="415" y="181" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >X</text>
+<rect x="450" y="160" width="70" height="40" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="485" y="181" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >-</text>
+<rect x="40" y="200" width="70" height="40" rx="0" fill="#e8f5e9" stroke="#607d8b" stroke-width="1.2" />
+<rect x="110" y="200" width="130" height="40" rx="0" fill="#e8f5e9" stroke="#607d8b" stroke-width="1.2" />
+<text x="175" y="221" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >10%割引</text>
+<rect x="240" y="200" width="70" height="40" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="275" y="221" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >X</text>
+<rect x="310" y="200" width="70" height="40" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="345" y="221" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >-</text>
+<rect x="380" y="200" width="70" height="40" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="415" y="221" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >-</text>
+<rect x="450" y="200" width="70" height="40" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="485" y="221" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >-</text>
+<line x1="40" y1="120" x2="520" y2="120" stroke="#37474f" stroke-width="3"/>
+<circle cx="30" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="30" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="280" y="270" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >条件の組合せごとに実行する動作を一覧に</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<defs><marker id="itpasscmp0034m1976d2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1976d2"/></marker><marker id="itpasscmp0034m388e3c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#388e3c"/></marker></defs>
+<rect x="60.2" y="31.1" width="39.6" height="27" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="63.8" y="34.7" width="32.4" height="19.8" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M67.4,67.1 L92.6,67.1 L87.2,58.1 L72.8,58.1 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<line x1="110" y1="42" x2="330" y2="112" stroke="#1976d2" stroke-width="2" marker-end="url(#itpasscmp0034m1976d2)"/>
+<line x1="330" y1="124" x2="110" y2="56" stroke="#388e3c" stroke-width="2" marker-end="url(#itpasscmp0034m388e3c)"/>
+<rect x="60.2" y="116.1" width="39.6" height="27" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="63.8" y="119.7" width="32.4" height="19.8" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M67.4,152.1 L92.6,152.1 L87.2,143.1 L72.8,143.1 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<line x1="110" y1="127" x2="330" y2="128" stroke="#1976d2" stroke-width="2" marker-end="url(#itpasscmp0034m1976d2)"/>
+<line x1="330" y1="140" x2="110" y2="141" stroke="#388e3c" stroke-width="2" marker-end="url(#itpasscmp0034m388e3c)"/>
+<rect x="60.2" y="201.1" width="39.6" height="27" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="63.8" y="204.7" width="32.4" height="19.8" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M67.4,237.1 L92.6,237.1 L87.2,228.1 L72.8,228.1 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<line x1="110" y1="212" x2="330" y2="144" stroke="#1976d2" stroke-width="2" marker-end="url(#itpasscmp0034m1976d2)"/>
+<line x1="330" y1="156" x2="110" y2="226" stroke="#388e3c" stroke-width="2" marker-end="url(#itpasscmp0034m388e3c)"/>
+<text x="210" y="22" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >要求 →</text>
+<text x="210" y="262" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >← 応答（結果）</text>
+<rect x="348" y="96.8" width="64" height="86.4" rx="3" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<line x1="357.6" y1="117.6" x2="402.4" y2="117.6" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="397.6" cy="125.6" r="3.2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="357.6" y1="141.6" x2="402.4" y2="141.6" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="397.6" cy="149.6" r="3.2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="357.6" y1="165.6" x2="402.4" y2="165.6" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="397.6" cy="173.6" r="3.2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<text x="450" y="100" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >サービスを</text>
+<text x="450" y="118" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >提供する側</text>
+<text x="80" y="262" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >サービスを求める側</text>
+<circle cx="270" cy="70" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="270" y="71" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

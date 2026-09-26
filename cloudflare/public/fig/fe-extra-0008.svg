@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="feextra0008m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="60" y="30" width="130" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="125" y="52" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >利用者A向け</text>
+<line x1="125" y1="76" x2="270" y2="118" stroke="#37474f" stroke-width="1.8" marker-end="url(#feextra0008m37474f)"/>
+<rect x="200" y="30" width="130" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="265" y="52" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >利用者B向け</text>
+<line x1="265" y1="76" x2="270" y2="118" stroke="#37474f" stroke-width="1.8" marker-end="url(#feextra0008m37474f)"/>
+<rect x="340" y="30" width="130" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="405" y="52" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >アプリC向け</text>
+<line x1="405" y1="76" x2="270" y2="118" stroke="#37474f" stroke-width="1.8" marker-end="url(#feextra0008m37474f)"/>
+<circle cx="470" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="470" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="150" y="120" width="240" height="44" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="142" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >全体の論理的な構造</text>
+<rect x="150" y="190" width="240" height="44" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="270" y="212" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >物理的な格納方法</text>
+<line x1="270" y1="166" x2="270" y2="188" stroke="#37474f" stroke-width="2" marker-end="url(#feextra0008m37474f)"/>
+<text x="470" y="88" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >見た目の形</text>
+</svg>

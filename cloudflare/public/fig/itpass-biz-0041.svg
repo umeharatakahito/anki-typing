@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<defs><marker id="itpassbiz0041m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="itpassbiz0041mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<circle cx="60" cy="37.4" r="8.1" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M46.5,66.2 Q46.5,48.2 60,48.2 Q73.5,48.2 73.5,66.2 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="60" y="78.8" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >専門家A</text>
+<line x1="86" y1="50" x2="196" y2="130" stroke="#37474f" stroke-width="1.5" marker-end="url(#itpassbiz0041m37474f)"/>
+<circle cx="60" cy="117.4" r="8.1" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M46.5,146.2 Q46.5,128.2 60,128.2 Q73.5,128.2 73.5,146.2 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="60" y="158.8" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >専門家B</text>
+<line x1="86" y1="130" x2="196" y2="130" stroke="#37474f" stroke-width="1.5" marker-end="url(#itpassbiz0041m37474f)"/>
+<circle cx="60" cy="197.4" r="8.1" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M46.5,226.2 Q46.5,208.2 60,208.2 Q73.5,208.2 73.5,226.2 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="60" y="238.8" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >専門家C</text>
+<line x1="86" y1="210" x2="196" y2="130" stroke="#37474f" stroke-width="1.5" marker-end="url(#itpassbiz0041m37474f)"/>
+<rect x="200" y="100" width="110" height="60" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="255" y="130" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >回答を集計</text>
+<path d="M255,162 Q255,270 90,250" fill="none" stroke="#f57c00" stroke-width="3" marker-end="url(#itpassbiz0041mf57c00)"/>
+<text x="260" y="240" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >結果を知らせて再び回答</text>
+<text x="430" y="100" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >これを何度か</text>
+<text x="430" y="120" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >くり返して</text>
+<text x="430" y="140" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >意見を集約</text>
+<circle cx="430" cy="180" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="430" y="181" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="20" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >将来予測の手法</text>
+</svg>

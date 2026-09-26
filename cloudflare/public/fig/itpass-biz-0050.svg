@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<rect x="50" y="40" width="70" height="38" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<rect x="120" y="40" width="70" height="38" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="155" y="60" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >好況</text>
+<rect x="190" y="40" width="70" height="38" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="225" y="60" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >普通</text>
+<rect x="260" y="40" width="70" height="38" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="295" y="60" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >不況</text>
+<rect x="330" y="40" width="110" height="38" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="385" y="60" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >最悪の結果</text>
+<rect x="50" y="78" width="70" height="38" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="85" y="98" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >案A</text>
+<rect x="120" y="78" width="70" height="38" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="155" y="98" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >90</text>
+<rect x="190" y="78" width="70" height="38" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="225" y="98" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >50</text>
+<rect x="260" y="78" width="70" height="38" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="295" y="98" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >10</text>
+<rect x="330" y="78" width="110" height="38" rx="0" fill="#fff9c4" stroke="#607d8b" stroke-width="1.2" />
+<text x="385" y="98" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >10</text>
+<rect x="50" y="116" width="70" height="38" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="85" y="136" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >案B</text>
+<rect x="120" y="116" width="70" height="38" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="155" y="136" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >60</text>
+<rect x="190" y="116" width="70" height="38" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="225" y="136" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >40</text>
+<rect x="260" y="116" width="70" height="38" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="295" y="136" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >30</text>
+<rect x="330" y="116" width="110" height="38" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="385" y="136" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >30</text>
+<rect x="50" y="154" width="70" height="38" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="85" y="174" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >案C</text>
+<rect x="120" y="154" width="70" height="38" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="155" y="174" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >100</text>
+<rect x="190" y="154" width="70" height="38" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="225" y="174" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >40</text>
+<rect x="260" y="154" width="70" height="38" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="295" y="174" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >−20</text>
+<rect x="330" y="154" width="110" height="38" rx="0" fill="#fff9c4" stroke="#607d8b" stroke-width="1.2" />
+<text x="385" y="174" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >−20</text>
+<text x="270" y="220" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >各案の最悪の結果を比べ、それが最も良い案（B）を選ぶ</text>
+<circle cx="500" cy="116" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="117" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

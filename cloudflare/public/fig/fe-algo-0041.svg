@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<line x1="77.3649" y1="130.077" x2="182.635" y2="69.9228" stroke="#b0bec5" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="136.946" y="112.155" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >4</text>
+<line x1="77.3649" y1="149.923" x2="182.635" y2="210.077" stroke="#f57c00" stroke-width="4"/>
+<text x="123.054" y="192.155" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1</text>
+<line x1="200" y1="200" x2="200" y2="80" stroke="#f57c00" stroke-width="4"/>
+<text x="214" y="140" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2</text>
+<line x1="220" y1="60" x2="340" y2="60" stroke="#f57c00" stroke-width="4"/>
+<text x="280" y="74" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >3</text>
+<line x1="220" y1="220" x2="340" y2="220" stroke="#b0bec5" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="280" y="234" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >6</text>
+<line x1="376.641" y1="71.094" x2="463.359" y2="128.906" stroke="#f57c00" stroke-width="4"/>
+<text x="412.234" y="111.649" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2</text>
+<line x1="376.641" y1="208.906" x2="463.359" y2="151.094" stroke="#b0bec5" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="427.766" y="191.649" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >5</text>
+<line x1="360" y1="80" x2="360" y2="200" stroke="#f57c00" stroke-width="4"/>
+<text x="346" y="140" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1</text>
+<circle cx="60" cy="140" r="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="60" y="140" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >S</text>
+<circle cx="200" cy="60" r="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="200" y="60" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >A</text>
+<circle cx="200" cy="220" r="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="200" y="220" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >B</text>
+<circle cx="360" cy="60" r="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="360" y="60" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >C</text>
+<circle cx="480" cy="140" r="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="480" y="140" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >G</text>
+<circle cx="360" cy="220" r="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="360" y="220" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >D</text>
+<circle cx="510" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="285" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >重み1,1,2,2,3の順に採用（閉路になる辺は捨てる）</text>
+</svg>

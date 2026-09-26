@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="fedev0035m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="190" y="30" width="160" height="50" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="55" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >上位モジュール</text>
+<line x1="270" y1="82" x2="270" y2="118" stroke="#37474f" stroke-width="2.5" marker-end="url(#fedev0035m37474f)"/>
+<rect x="170" y="120" width="200" height="56" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="270" y="148" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >テストするモジュール</text>
+<line x1="270" y1="178" x2="270" y2="214" stroke="#37474f" stroke-width="2.5" marker-end="url(#fedev0035m37474f)"/>
+<rect x="190" y="216" width="160" height="50" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="270" y="242" font-size="30" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<text x="360" y="242" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >下位の代わりに</text>
+<text x="360" y="260" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >呼ばれて値を返す</text>
+<circle cx="350" cy="216" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="350" y="217" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

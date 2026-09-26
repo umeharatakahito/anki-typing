@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<rect x="40" y="40" width="50" height="40" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="65" y="61" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >3</text>
+<rect x="90" y="40" width="50" height="40" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="115" y="61" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >5</text>
+<rect x="140" y="40" width="50" height="40" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="165" y="61" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >8</text>
+<rect x="190" y="40" width="50" height="40" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="215" y="61" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >2</text>
+<rect x="240" y="40" width="50" height="40" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="265" y="61" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >6</text>
+<text x="300" y="60" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2を取り出す</text>
+<rect x="40" y="110" width="50" height="40" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="65" y="131" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >2</text>
+<rect x="90" y="110" width="50" height="40" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="115" y="131" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >3</text>
+<rect x="140" y="110" width="50" height="40" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="165" y="131" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >5</text>
+<rect x="190" y="110" width="50" height="40" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="215" y="131" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >8</text>
+<rect x="240" y="110" width="50" height="40" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="265" y="131" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >6</text>
+<text x="300" y="130" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >整列済みの正しい位置へ差し込む</text>
+<rect x="40" y="180" width="50" height="40" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="65" y="201" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >2</text>
+<rect x="90" y="180" width="50" height="40" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="115" y="201" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >3</text>
+<rect x="140" y="180" width="50" height="40" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="165" y="201" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >5</text>
+<rect x="190" y="180" width="50" height="40" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="215" y="201" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >6</text>
+<rect x="240" y="180" width="50" height="40" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="265" y="201" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >8</text>
+<text x="300" y="200" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >次は6を差し込む</text>
+<text x="120" y="262" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >緑＝整列済み</text>
+<circle cx="510" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

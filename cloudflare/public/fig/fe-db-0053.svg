@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<defs><marker id="fedb0053m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="fedb0053m388e3c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#388e3c"/></marker></defs>
+<rect x="40" y="40" width="110" height="40" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="95" y="60" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >X = 100 (v1)</text>
+<rect x="40" y="120" width="110" height="40" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="95" y="140" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >X = 200 (v2)</text>
+<text x="95" y="180" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >更新中（未確定）</text>
+<circle cx="320" cy="47.4" r="8.1" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M306.5,76.2 Q306.5,58.2 320,58.2 Q333.5,58.2 333.5,76.2 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="320" y="88.8" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >書く人</text>
+<line x1="296" y1="70" x2="152" y2="132" stroke="#37474f" stroke-width="2" marker-end="url(#fedb0053m37474f)"/>
+<circle cx="320" cy="157.4" r="8.1" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M306.5,186.2 Q306.5,168.2 320,168.2 Q333.5,168.2 333.5,186.2 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="320" y="198.8" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >読む人</text>
+<line x1="296" y1="160" x2="152" y2="68" stroke="#388e3c" stroke-width="2.5" marker-end="url(#fedb0053m388e3c)"/>
+<text x="450" y="120" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >読む人は確定済みの</text>
+<text x="450" y="138" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >古いほう（v1）を見る</text>
+<text x="450" y="156" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >→ 待たずに済む</text>
+<circle cx="170" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="170" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

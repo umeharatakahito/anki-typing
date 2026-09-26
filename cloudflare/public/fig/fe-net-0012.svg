@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<rect x="20" y="60" width="230" height="210" rx="10" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="135" y="80" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >家庭・会社のLAN</text>
+<rect x="62.4" y="123.2" width="35.2" height="24" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="65.6" y="126.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M68.8,155.2 L91.2,155.2 L86.4,147.2 L73.6,147.2 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="116" y="124" width="120" height="28" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="176" y="138" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >192.168.1.10</text>
+<rect x="62.4" y="203.2" width="35.2" height="24" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="65.6" y="206.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M68.8,235.2 L91.2,235.2 L86.4,227.2 L73.6,227.2 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="116" y="204" width="120" height="28" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="176" y="218" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >192.168.1.11</text>
+<ellipse cx="300" cy="165" rx="22" ry="13.64" fill="#ede7f6" stroke="#7b1fa2" stroke-width="2" />
+<line x1="297.58" y1="165" x2="312.1" y2="165" stroke="#7b1fa2" stroke-width="1.6"/>
+<line x1="300" y1="163.46" x2="300" y2="172.7" stroke="#7b1fa2" stroke-width="1.6"/>
+<line x1="302.42" y1="165" x2="287.9" y2="165" stroke="#7b1fa2" stroke-width="1.6"/>
+<line x1="300" y1="166.54" x2="300" y2="157.3" stroke="#7b1fa2" stroke-width="1.6"/>
+<line x1="250" y1="165" x2="278" y2="165" stroke="#37474f" stroke-width="2"/>
+<path d="M428,198 C404,198 404,154 428,154 C428,115.5 464,110 473,134.75 C488,110 521,121 515,156.75 C536,159.5 536,198 512,198 Z" fill="#f5f5f5" stroke="#78909c" stroke-width="2" />
+<text x="470" y="160" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >インター</text>
+<text x="470" y="178" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >ネット</text>
+<line x1="322" y1="165" x2="420" y2="165" stroke="#37474f" stroke-width="2"/>
+<text x="365" y="115" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >203.0.113.5</text>
+<circle cx="236" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="236" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="26" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >内側で自由に使えるが、そのままでは外に出られない</text>
+</svg>

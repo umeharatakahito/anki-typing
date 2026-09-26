@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<defs><marker id="itpasssec0015md32f2f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d32f2f"/></marker><marker id="itpasssec0015m388e3c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#388e3c"/></marker></defs>
+<path d="M28,183 C4,183 4,139 28,139 C28,100.5 64,95 73,119.75 C88,95 121,106 115,141.75 C136,144.5 136,183 112,183 Z" fill="#f5f5f5" stroke="#78909c" stroke-width="2" />
+<text x="70" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >外部</text>
+<line x1="130" y1="150" x2="480" y2="150" stroke="#37474f" stroke-width="3"/>
+<rect x="470" y="90" width="60" height="120" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="500" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >社内</text>
+<rect x="230" y="110" width="70" height="80" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="265" y="150" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >監視</text>
+<circle cx="300" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="150" y="130" width="50" height="40" rx="4" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<line x1="202" y1="150" x2="226" y2="150" stroke="#d32f2f" stroke-width="2.5" marker-end="url(#itpasssec0015md32f2f)"/>
+<line x1="308" y1="140" x2="328" y2="160" stroke="#d32f2f" stroke-width="3.5"/>
+<line x1="308" y1="160" x2="328" y2="140" stroke="#d32f2f" stroke-width="3.5"/>
+<text x="330" y="190" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >その場で遮断</text>
+<rect x="150" y="70" width="50" height="30" rx="4" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<path d="M200,85 L460,85 L468,100" fill="none" stroke="#388e3c" stroke-width="2" marker-end="url(#itpasssec0015m388e3c)"/>
+<text x="330" y="70" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >正常な通信は通す</text>
+</svg>

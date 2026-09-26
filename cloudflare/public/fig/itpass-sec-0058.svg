@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 310" width="560" height="310" font-family="sans-serif">
+<rect width="560" height="310" fill="#fff"/>
+<defs><marker id="itpasssec0058md32f2f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d32f2f"/></marker><marker id="itpasssec0058m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="38" y="139" width="44" height="30" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="42" y="143" width="36" height="22" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M46,179 L74,179 L68,169 L52,169 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="60" y="193" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >利用者</text>
+<rect x="210" y="120" width="140" height="80" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="280" y="140" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >名前解決サーバ</text>
+<text x="280" y="162" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >bank.example →</text>
+<text x="280" y="182" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" >198.51.100.66（偽）</text>
+<circle cx="350" cy="120" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="350" y="121" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<circle cx="280" cy="26" r="9" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<path d="M265,58 Q265,38 280,38 Q295,38 295,58 Z" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<text x="280" y="72" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >攻撃者</text>
+<line x1="280" y1="76" x2="280" y2="116" stroke="#d32f2f" stroke-width="2.5" marker-end="url(#itpasssec0058md32f2f)"/>
+<text x="292" y="96" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >偽の応答を覚え込ませる</text>
+<line x1="90" y1="150" x2="206" y2="150" stroke="#37474f" stroke-width="2" marker-end="url(#itpasssec0058m37474f)"/>
+<text x="150" y="136" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >① 問合せ</text>
+<line x1="206" y1="180" x2="90" y2="175" stroke="#d32f2f" stroke-width="2" marker-end="url(#itpasssec0058md32f2f)"/>
+<text x="150" y="196" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >② 偽の番号</text>
+<rect x="420" y="220" width="120" height="60" rx="6" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2" />
+<text x="480" y="250" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >偽サイト</text>
+<path d="M70,200 Q150,290 416,255" fill="none" stroke="#d32f2f" stroke-width="2.5" marker-end="url(#itpasssec0058md32f2f)" stroke-dasharray="6 4"/>
+<text x="250" y="292" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >③ 正しい名前を入れても偽サイトへ</text>
+</svg>

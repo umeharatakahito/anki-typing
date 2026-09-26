@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<polyline points="60,150 60,90 80,90 80,150 100,150 100,150 100,90 120,90 120,150 140,150 140,150 140,90 160,90 160,150 180,150 180,150 180,90 200,90 200,150 220,150 220,150 220,90 240,90 240,150 260,150 260,150 260,90 280,90 280,150 300,150 300,150 300,90 320,90 320,150 340,150 340,150 340,90 360,90 360,150 380,150 380,150 380,90 400,90 400,150 420,150 420,150 420,90 440,90 440,150 460,150" fill="none" stroke="#f57c00" stroke-width="3" stroke-linejoin="round" />
+<path d="M60,160 L60,166 L460,166 L460,160" fill="none" stroke="#607d8b" stroke-width="2" />
+<text x="260" y="180" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1秒間</text>
+<text x="270" y="50" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >動作のタイミングをそろえる信号</text>
+<rect x="160" y="200" width="220" height="40" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="270" y="220" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1秒間に何回？ → 例 3GHz</text>
+<circle cx="380" cy="200" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="380" y="201" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

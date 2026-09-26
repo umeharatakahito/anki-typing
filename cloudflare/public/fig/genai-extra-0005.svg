@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="genaiextra0005m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="20" y="100" width="110" height="50" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="75" y="125" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >w1x1+w2x2+b</text>
+<line x1="132" y1="125" x2="170" y2="125" stroke="#37474f" stroke-width="2" marker-end="url(#genaiextra0005m37474f)"/>
+<line x1="180" y1="220" x2="490" y2="220" stroke="#37474f" stroke-width="2" marker-end="url(#genaiextra0005m37474f)"/>
+<line x1="180" y1="220" x2="180" y2="20" stroke="#37474f" stroke-width="2" marker-end="url(#genaiextra0005m37474f)"/>
+<text x="188" y="12" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >確率</text>
+<polyline points="180.0,219.6 183.6,219.5 187.2,219.4 190.9,219.3 194.5,219.2 198.1,219.1 201.8,219.0 205.4,218.8 209.0,218.6 212.6,218.4 216.2,218.1 219.9,217.8 223.5,217.5 227.1,217.1 230.8,216.6 234.4,216.1 238.0,215.5 241.6,214.8 245.2,214.0 248.9,213.0 252.5,211.9 256.1,210.7 259.8,209.3 263.4,207.7 267.0,205.9 270.6,203.8 274.2,201.5 277.9,198.8 281.5,195.9 285.1,192.6 288.8,189.0 292.4,185.0 296.0,180.6 299.6,175.9 303.2,170.9 306.9,165.5 310.5,159.8 314.1,153.8 317.8,147.7 321.4,141.4 325.0,135.0 328.6,128.6 332.2,122.3 335.9,116.2 339.5,110.2 343.1,104.5 346.8,99.1 350.4,94.1 354.0,89.4 357.6,85.0 361.2,81.0 364.9,77.4 368.5,74.1 372.1,71.2 375.8,68.5 379.4,66.2 383.0,64.1 386.6,62.3 390.2,60.7 393.9,59.3 397.5,58.1 401.1,57.0 404.8,56.0 408.4,55.2 412.0,54.5 415.6,53.9 419.2,53.4 422.9,52.9 426.5,52.5 430.1,52.2 433.8,51.9 437.4,51.6 441.0,51.4 444.6,51.2 448.2,51.0 451.9,50.9 455.5,50.8 459.1,50.7 462.8,50.6 466.4,50.5 470.0,50.4" fill="none" stroke="#f57c00" stroke-width="3.5" stroke-linejoin="round"/>
+<line x1="180" y1="135" x2="470" y2="135" stroke="#bbb" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="478" y="135" font-size="11" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0.5</text>
+<text x="478" y="50" font-size="11" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1</text>
+<text x="330" y="245" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >S字の関数に通して0〜1の確率に → クラスを判定</text>
+<circle cx="510" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

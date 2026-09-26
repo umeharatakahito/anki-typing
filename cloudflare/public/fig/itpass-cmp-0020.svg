@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 280" width="520" height="280" font-family="sans-serif">
+<rect width="520" height="280" fill="#fff"/>
+<rect x="120" y="20" width="280" height="240" rx="10" fill="#111" stroke="#111" stroke-width="0" />
+<circle cx="215" cy="110" r="62" fill="#ff0000" fill-opacity="0.9" style="mix-blend-mode:screen"/>
+<circle cx="305" cy="110" r="62" fill="#00ff00" fill-opacity="0.9" style="mix-blend-mode:screen"/>
+<circle cx="260" cy="180" r="62" fill="#0000ff" fill-opacity="0.9" style="mix-blend-mode:screen"/>
+<text x="260" y="132" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >白</text>
+<circle cx="400" cy="20" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="400" y="21" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="460" y="120" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >光の</text>
+<text x="460" y="138" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >三原色</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 230" width="540" height="230" font-family="sans-serif">
+<rect width="540" height="230" fill="#fff"/>
+<defs><marker id="genairisk0028mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="40" y="40" width="160" height="120" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<rect x="40" y="110" width="160" height="50" rx="0" fill="#a5d6a7" stroke="none" stroke-width="0" />
+<text x="120" y="180" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >生成した画像</text>
+<line x1="210" y1="100" x2="260" y2="100" stroke="#f57c00" stroke-width="3" marker-end="url(#genairisk0028mf57c00)"/>
+<rect x="270" y="40" width="160" height="120" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<rect x="270" y="110" width="160" height="50" rx="0" fill="#a5d6a7" stroke="none" stroke-width="0" />
+<text x="290" y="60" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#90a4ae" opacity="0.35">AI</text>
+<text x="314" y="90" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#90a4ae" opacity="0.35">AI</text>
+<text x="338" y="120" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#90a4ae" opacity="0.35">AI</text>
+<text x="362" y="60" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#90a4ae" opacity="0.35">AI</text>
+<text x="386" y="90" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#90a4ae" opacity="0.35">AI</text>
+<text x="410" y="120" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#90a4ae" opacity="0.35">AI</text>
+<rect x="262" y="32" width="176" height="136" rx="6" fill="none" stroke="#f57c00" stroke-width="3" stroke-dasharray="6 4"/>
+<circle cx="438" cy="32" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="438" y="33" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="350" y="180" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >見た目は同じ</text>
+<text x="270" y="210" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >見えない印を埋め込み、AI製だと分かるようにする</text>
+</svg>

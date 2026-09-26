@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<defs><marker id="itpasssys0030m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="60" y1="240" x2="490" y2="240" stroke="#37474f" stroke-width="2" marker-end="url(#itpasssys0030m37474f)"/>
+<line x1="60" y1="240" x2="60" y2="20" stroke="#37474f" stroke-width="2" marker-end="url(#itpasssys0030m37474f)"/>
+<circle cx="80" cy="200" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<circle cx="110" cy="170" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<circle cx="140" cy="175" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<circle cx="170" cy="140" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<circle cx="200" cy="150" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<circle cx="230" cy="120" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<circle cx="260" cy="110" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<circle cx="290" cy="115" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<circle cx="320" cy="90" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<circle cx="350" cy="95" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<circle cx="380" cy="70" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<circle cx="410" cy="80" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<circle cx="440" cy="60" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<polyline points="80,200 110,170 140,175 170,140 200,150 230,120 260,110 290,115 320,90 350,95 380,70 410,80 440,60" fill="none" stroke="#f57c00" stroke-width="3.5" stroke-linejoin="round" />
+<circle cx="250" cy="175" r="7" fill="#fff" stroke="#388e3c" stroke-width="3" />
+<text x="290" y="200" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >未知のデータ</text>
+<text x="270" y="262" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >訓練データに合わせすぎて未知のデータに弱い</text>
+<circle cx="500" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

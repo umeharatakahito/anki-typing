@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<rect x="45" y="138" width="90" height="24" rx="4" fill="#e0f7fa" stroke="#00838f" stroke-width="2" />
+<rect x="53" y="152" width="7" height="6" rx="0" fill="#00838f" stroke="#00838f" stroke-width="0" />
+<rect x="67.8" y="152" width="7" height="6" rx="0" fill="#00838f" stroke="#00838f" stroke-width="0" />
+<rect x="82.6" y="152" width="7" height="6" rx="0" fill="#00838f" stroke="#00838f" stroke-width="0" />
+<rect x="97.4" y="152" width="7" height="6" rx="0" fill="#00838f" stroke="#00838f" stroke-width="0" />
+<rect x="112.2" y="152" width="7" height="6" rx="0" fill="#00838f" stroke="#00838f" stroke-width="0" />
+<text x="90" y="176" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >対応スイッチ</text>
+<line x1="135" y1="144" x2="330" y2="144" stroke="#1976d2" stroke-width="4"/>
+<line x1="135" y1="156" x2="330" y2="156" stroke="#f57c00" stroke-width="4"/>
+<text x="232" y="124" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >データ</text>
+<text x="232" y="178" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >電力</text>
+<text x="232" y="204" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >LANケーブル1本</text>
+<circle cx="232" cy="92" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="232" y="93" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="340" y="128" width="70" height="38" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<circle cx="410" cy="147" r="12" fill="#90a4ae" stroke="#37474f" stroke-width="2" />
+<text x="376" y="186" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >監視カメラ</text>
+<text x="376" y="212" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（コンセント不要）</text>
+</svg>

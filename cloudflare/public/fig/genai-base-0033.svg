@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 240" width="540" height="240" font-family="sans-serif">
+<rect width="540" height="240" fill="#fff"/>
+<rect x="80" y="30" width="80" height="32" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="120" y="47" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >日付</text>
+<rect x="160" y="30" width="80" height="32" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="200" y="47" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >気温</text>
+<rect x="240" y="30" width="80" height="32" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="280" y="47" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >湿度</text>
+<rect x="320" y="30" width="80" height="32" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="360" y="47" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >売上</text>
+<rect x="80" y="62" width="80" height="32" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="120" y="79" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >6/1</text>
+<rect x="160" y="62" width="80" height="32" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="200" y="79" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >24</text>
+<rect x="240" y="62" width="80" height="32" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="280" y="79" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >60</text>
+<rect x="320" y="62" width="80" height="32" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="360" y="79" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >120</text>
+<rect x="80" y="94" width="80" height="32" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="120" y="111" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >6/2</text>
+<rect x="160" y="94" width="80" height="32" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="200" y="111" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >26</text>
+<rect x="240" y="94" width="80" height="32" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<rect x="320" y="94" width="80" height="32" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="360" y="111" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >135</text>
+<rect x="80" y="126" width="80" height="32" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="120" y="143" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >6/3</text>
+<rect x="160" y="126" width="80" height="32" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<rect x="240" y="126" width="80" height="32" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="280" y="143" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >72</text>
+<rect x="320" y="126" width="80" height="32" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="360" y="143" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >98</text>
+<rect x="80" y="158" width="80" height="32" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="120" y="175" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >6/4</text>
+<rect x="160" y="158" width="80" height="32" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="200" y="175" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >23</text>
+<rect x="240" y="158" width="80" height="32" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="280" y="175" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >58</text>
+<rect x="320" y="158" width="80" height="32" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="360" y="175" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >110</text>
+<text x="240" y="99" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" ></text>
+<text x="280" y="110" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<text x="200" y="142" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<circle cx="430" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="430" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="220" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >記録漏れなどで本来ある値が入っていない</text>
+</svg>

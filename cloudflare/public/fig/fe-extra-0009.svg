@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="feextra0009m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="feextra0009mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="20" y="50" width="150" height="220" rx="10" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="95" y="70" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >社内</text>
+<rect x="72.4" y="103.2" width="35.2" height="24" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="75.6" y="106.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M78.8,135.2 L101.2,135.2 L96.4,127.2 L83.6,127.2 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<line x1="120" y1="115" x2="222" y2="155" stroke="#37474f" stroke-width="2" marker-end="url(#feextra0009m37474f)"/>
+<rect x="72.4" y="183.2" width="35.2" height="24" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="75.6" y="186.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M78.8,215.2 L101.2,215.2 L96.4,207.2 L83.6,207.2 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<line x1="120" y1="195" x2="222" y2="155" stroke="#37474f" stroke-width="2" marker-end="url(#feextra0009m37474f)"/>
+<rect x="240" y="133" width="40" height="54" rx="3" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="246" y1="146" x2="274" y2="146" stroke="#f57c00" stroke-width="1.5"/>
+<circle cx="271" cy="151" r="2" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<line x1="246" y1="161" x2="274" y2="161" stroke="#f57c00" stroke-width="1.5"/>
+<circle cx="271" cy="166" r="2" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<line x1="246" y1="176" x2="274" y2="176" stroke="#f57c00" stroke-width="1.5"/>
+<circle cx="271" cy="181" r="2" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="290" cy="125" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="290" y="126" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="260" y="212" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >代わりにアクセス</text>
+<path d="M387.5,196 C357.5,196 357.5,148 387.5,148 C387.5,106 432.5,100 443.75,127 C462.5,100 503.75,112 496.25,151 C522.5,154 522.5,196 492.5,196 Z" fill="#f5f5f5" stroke="#78909c" stroke-width="2" />
+<rect x="406" y="131.1" width="28" height="37.8" rx="3" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<line x1="410.2" y1="140.2" x2="429.8" y2="140.2" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="427.7" cy="143.7" r="1.4" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="410.2" y1="150.7" x2="429.8" y2="150.7" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="427.7" cy="154.2" r="1.4" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="410.2" y1="161.2" x2="429.8" y2="161.2" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="427.7" cy="164.7" r="1.4" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<text x="440" y="205" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >Webサーバ</text>
+<line x1="284" y1="160" x2="400" y2="155" stroke="#f57c00" stroke-width="3" marker-end="url(#feextra0009mf57c00)" marker-start="url(#feextra0009mf57c00)"/>
+<text x="270" y="26" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >端末は直接つながず、中継役を通す</text>
+</svg>

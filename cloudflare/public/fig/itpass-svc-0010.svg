@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<rect x="30" y="110" width="60" height="60" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="60" y="132" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >コン</text>
+<text x="60" y="150" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >セント</text>
+<line x1="92" y1="140" x2="200" y2="140" stroke="#37474f" stroke-width="3"/>
+<line x1="133" y1="128" x2="157" y2="152" stroke="#d32f2f" stroke-width="3.5"/>
+<line x1="133" y1="152" x2="157" y2="128" stroke="#d32f2f" stroke-width="3.5"/>
+<text x="145" y="110" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >電気が止まった！</text>
+<rect x="200" y="100" width="110" height="80" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<rect x="215" y="125" width="20" height="34" rx="2" fill="#fff" stroke="#f57c00" stroke-width="1.5" />
+<rect x="245" y="125" width="20" height="34" rx="2" fill="#fff" stroke="#f57c00" stroke-width="1.5" />
+<rect x="275" y="125" width="20" height="34" rx="2" fill="#fff" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="310" cy="100" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="310" y="101" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="312" y1="140" x2="400" y2="140" stroke="#388e3c" stroke-width="4"/>
+<rect x="420" y="113" width="40" height="54" rx="3" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<line x1="426" y1="126" x2="454" y2="126" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="451" cy="131" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="426" y1="141" x2="454" y2="141" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="451" cy="146" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<line x1="426" y1="156" x2="454" y2="156" stroke="#388e3c" stroke-width="1.5"/>
+<circle cx="451" cy="161" r="2" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<text x="440" y="181" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >サーバ</text>
+<text x="270" y="240" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >蓄えた電気でしばらく送り続け、その間に安全に停止</text>
+</svg>

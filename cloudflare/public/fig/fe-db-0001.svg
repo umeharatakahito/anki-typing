@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<rect x="80" y="50" width="110" height="36" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="135" y="69" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >社員番号</text>
+<rect x="190" y="50" width="90" height="36" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="235" y="69" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >氏名</text>
+<rect x="280" y="50" width="110" height="36" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="335" y="69" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >部署コード</text>
+<rect x="80" y="86" width="110" height="36" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="135" y="105" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1001</text>
+<rect x="190" y="86" width="90" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="235" y="105" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >佐藤</text>
+<rect x="280" y="86" width="110" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="335" y="105" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >D1</text>
+<rect x="80" y="122" width="110" height="36" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="135" y="141" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1002</text>
+<rect x="190" y="122" width="90" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="235" y="141" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >鈴木</text>
+<rect x="280" y="122" width="110" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="335" y="141" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >D2</text>
+<rect x="80" y="158" width="110" height="36" rx="0" fill="#ffcc80" stroke="#607d8b" stroke-width="1.2" />
+<text x="135" y="177" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1003</text>
+<rect x="190" y="158" width="90" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="235" y="177" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >佐藤</text>
+<rect x="280" y="158" width="110" height="36" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="335" y="177" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >D1</text>
+<circle cx="190" cy="44" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="190" y="45" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="430" y="110" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >重複なし</text>
+<text x="430" y="132" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >空欄なし</text>
+<text x="270" y="220" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >同姓の「佐藤」がいても行を1つに決められる列</text>
+</svg>

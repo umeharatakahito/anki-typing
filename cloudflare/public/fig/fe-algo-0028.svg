@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<rect x="94" y="30" width="352" height="28" rx="3" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="458" y="44" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >16件</text>
+<rect x="182" y="70" width="176" height="28" rx="3" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="370" y="84" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >8件</text>
+<text x="70" y="84" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1回目</text>
+<rect x="226" y="110" width="88" height="28" rx="3" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="326" y="124" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >4件</text>
+<text x="70" y="124" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2回目</text>
+<rect x="248" y="150" width="44" height="28" rx="3" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="304" y="164" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2件</text>
+<text x="70" y="164" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >3回目</text>
+<rect x="259" y="190" width="22" height="28" rx="3" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<text x="293" y="204" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1件</text>
+<text x="70" y="204" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >4回目</text>
+<text x="270" y="245" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >比べるたびに範囲が半分 → 16件なら4回、1024件でも10回</text>
+<circle cx="500" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<line x1="270" y1="40" x2="150" y2="120" stroke="#f57c00" stroke-width="2.5"/>
+<line x1="270" y1="40" x2="390" y2="120" stroke="#f57c00" stroke-width="2.5"/>
+<line x1="150" y1="120" x2="80" y2="200" stroke="#f57c00" stroke-width="2.5"/>
+<line x1="150" y1="120" x2="200" y2="200" stroke="#f57c00" stroke-width="2.5"/>
+<line x1="390" y1="120" x2="330" y2="200" stroke="#f57c00" stroke-width="2.5"/>
+<line x1="390" y1="120" x2="450" y2="200" stroke="#f57c00" stroke-width="2.5"/>
+<line x1="330" y1="200" x2="330" y2="270" stroke="#f57c00" stroke-width="2.5"/>
+<circle cx="270" cy="40" r="18" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="150" cy="120" r="18" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="390" cy="120" r="18" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="80" cy="200" r="18" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="200" cy="200" r="18" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="330" cy="200" r="18" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="450" cy="200" r="18" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<circle cx="330" cy="270" r="18" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="310" y="36" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >根</text>
+<text x="150" y="120" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >親</text>
+<text x="80" y="200" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >子</text>
+<text x="200" y="200" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >子</text>
+<circle cx="40" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="40" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="470" y="270" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >階層の親子関係</text>
+</svg>

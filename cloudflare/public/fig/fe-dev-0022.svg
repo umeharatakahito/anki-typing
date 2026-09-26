@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<rect x="200" y="30" width="140" height="70" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="57.2" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >動物</text>
+<text x="270" y="72.8" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >名前・食べる()</text>
+<rect x="40" y="190" width="140" height="64" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="110" y="214.2" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >犬</text>
+<text x="110" y="229.8" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >＋ほえる()</text>
+<line x1="110" y1="188" x2="270" y2="118" stroke="#f57c00" stroke-width="2.5"/>
+<rect x="360" y="190" width="140" height="64" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="430" y="214.2" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >鳥</text>
+<text x="430" y="229.8" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >＋飛ぶ()</text>
+<line x1="430" y1="188" x2="270" y2="118" stroke="#f57c00" stroke-width="2.5"/>
+<polygon points="270,102 260,120 280,120" fill="#fff" stroke="#f57c00" stroke-width="2.5" stroke-linejoin="round" />
+<circle cx="270" cy="150" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="270" y="151" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="285" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >親の定義を引き継ぎ、差分だけ書き足す</text>
+</svg>

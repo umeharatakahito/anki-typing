@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="fenet0047mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<path d="M47.5,140 C17.5,140 17.5,100 47.5,100 C47.5,65 92.5,60 103.75,82.5 C122.5,60 163.75,70 156.25,102.5 C182.5,105 182.5,140 152.5,140 Z" fill="#f5f5f5" stroke="#78909c" stroke-width="2" />
+<text x="100" y="102" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >AS 100</text>
+<text x="100" y="122" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >プロバイダA</text>
+<path d="M247.5,110 C217.5,110 217.5,70 247.5,70 C247.5,35 292.5,30 303.75,52.5 C322.5,30 363.75,40 356.25,72.5 C382.5,75 382.5,110 352.5,110 Z" fill="#f5f5f5" stroke="#78909c" stroke-width="2" />
+<text x="300" y="72" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >AS 200</text>
+<text x="300" y="92" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >プロバイダB</text>
+<path d="M407.5,230 C377.5,230 377.5,190 407.5,190 C407.5,155 452.5,150 463.75,172.5 C482.5,150 523.75,160 516.25,192.5 C542.5,195 542.5,230 512.5,230 Z" fill="#f5f5f5" stroke="#78909c" stroke-width="2" />
+<text x="460" y="192" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >AS 300</text>
+<text x="460" y="212" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >大学</text>
+<path d="M137.5,260 C107.5,260 107.5,220 137.5,220 C137.5,185 182.5,180 193.75,202.5 C212.5,180 253.75,190 246.25,222.5 C272.5,225 272.5,260 242.5,260 Z" fill="#f5f5f5" stroke="#78909c" stroke-width="2" />
+<text x="190" y="222" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >AS 400</text>
+<text x="190" y="242" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >企業</text>
+<line x1="160" y1="110" x2="240" y2="90" stroke="#f57c00" stroke-width="3" marker-end="url(#fenet0047mf57c00)" marker-start="url(#fenet0047mf57c00)"/>
+<line x1="360" y1="110" x2="430" y2="170" stroke="#f57c00" stroke-width="3" marker-end="url(#fenet0047mf57c00)" marker-start="url(#fenet0047mf57c00)"/>
+<line x1="140" y1="150" x2="170" y2="190" stroke="#f57c00" stroke-width="3" marker-end="url(#fenet0047mf57c00)" marker-start="url(#fenet0047mf57c00)"/>
+<line x1="260" y1="225" x2="390" y2="210" stroke="#f57c00" stroke-width="3" marker-end="url(#fenet0047mf57c00)" marker-start="url(#fenet0047mf57c00)"/>
+<circle cx="200" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="200" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="20" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >それぞれが独立した管理の単位</text>
+<text x="390" y="280" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >単位どうしで経路情報を交換</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 240" width="540" height="240" font-family="sans-serif">
+<rect width="540" height="240" fill="#fff"/>
+<defs><marker id="fehw0046m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<text x="270" y="30" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >コンパイラが同時に実行できる命令をまとめる</text>
+<rect x="40" y="70" width="460" height="56" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<rect x="52" y="80" width="100" height="36" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="102" y="98" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >加算</text>
+<rect x="164" y="80" width="100" height="36" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="214" y="98" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >乗算</text>
+<rect x="276" y="80" width="100" height="36" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="326" y="98" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >ロード</text>
+<rect x="388" y="80" width="100" height="36" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="438" y="98" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >分岐</text>
+<circle cx="500" cy="70" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="71" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="102" y1="128" x2="102" y2="162" stroke="#37474f" stroke-width="2" marker-end="url(#fehw0046m37474f)"/>
+<rect x="52" y="164" width="100" height="30" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="102" y="179" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >演算器1</text>
+<line x1="214" y1="128" x2="214" y2="162" stroke="#37474f" stroke-width="2" marker-end="url(#fehw0046m37474f)"/>
+<rect x="164" y="164" width="100" height="30" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="214" y="179" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >演算器2</text>
+<line x1="326" y1="128" x2="326" y2="162" stroke="#37474f" stroke-width="2" marker-end="url(#fehw0046m37474f)"/>
+<rect x="276" y="164" width="100" height="30" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="326" y="179" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >演算器3</text>
+<line x1="438" y1="128" x2="438" y2="162" stroke="#37474f" stroke-width="2" marker-end="url(#fehw0046m37474f)"/>
+<rect x="388" y="164" width="100" height="30" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="438" y="179" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >演算器4</text>
+<text x="270" y="220" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1つの長い命令として同時に実行</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 220" width="540" height="220" font-family="sans-serif">
+<rect width="540" height="220" fill="#fff"/>
+<rect x="20" y="30" width="340" height="94" rx="8" fill="#263238" stroke="#263238" stroke-width="1" />
+<text x="34" y="58" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#fff" >SELECT </text>
+<rect x="100.9" y="45" width="90" height="26" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="145.9" y="58" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<circle cx="190.9" cy="46" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="190.9" y="47" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="212.9" y="58" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#fff" >部署</text>
+<text x="34" y="88" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#fff" >FROM 社員</text>
+<rect x="390" y="30" width="60" height="30" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="420" y="46" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >部署</text>
+<rect x="390" y="60" width="60" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="420" y="76" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >営業</text>
+<rect x="390" y="90" width="60" height="30" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="420" y="106" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >開発</text>
+<text x="190" y="140" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >SELECTの直後に書く → 重複行を1つに</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<rect x="60" y="40" width="420" height="60" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="270" y="70" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >OSからは1台の大きなディスクに見える</text>
+<circle cx="480" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="480" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<path d="M80,151.2 L80,228.8 A40,11.2 0 0 0 160,228.8 L160,151.2" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<ellipse cx="120" cy="151.2" rx="40" ry="11.2" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="120" y="195.6" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ディスク1</text>
+<line x1="120" y1="102" x2="120" y2="138" stroke="#37474f" stroke-width="2"/>
+<path d="M185,151.2 L185,228.8 A40,11.2 0 0 0 265,228.8 L265,151.2" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<ellipse cx="225" cy="151.2" rx="40" ry="11.2" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="225" y="195.6" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ディスク2</text>
+<line x1="225" y1="102" x2="225" y2="138" stroke="#37474f" stroke-width="2"/>
+<path d="M290,151.2 L290,228.8 A40,11.2 0 0 0 370,228.8 L370,151.2" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<ellipse cx="330" cy="151.2" rx="40" ry="11.2" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="330" y="195.6" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ディスク3</text>
+<line x1="330" y1="102" x2="330" y2="138" stroke="#37474f" stroke-width="2"/>
+<path d="M395,151.2 L395,228.8 A40,11.2 0 0 0 475,228.8 L475,151.2" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<ellipse cx="435" cy="151.2" rx="40" ry="11.2" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="435" y="195.6" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ディスク4</text>
+<line x1="435" y1="102" x2="435" y2="138" stroke="#37474f" stroke-width="2"/>
+<text x="270" y="270" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >複数台を組み合わせて速度や信頼性を高める</text>
+</svg>

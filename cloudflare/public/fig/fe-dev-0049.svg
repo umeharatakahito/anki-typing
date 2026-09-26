@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<circle cx="90" cy="70" r="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="90" y="70" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >c1</text>
+<text x="90" y="104" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >会員である</text>
+<circle cx="90" cy="190" r="20" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="90" y="190" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >c2</text>
+<text x="90" y="224" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >5000円以上</text>
+<circle cx="430" cy="130" r="20" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="430" y="130" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >e1</text>
+<text x="430" y="164" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >送料無料</text>
+<line x1="110" y1="75" x2="408" y2="125" stroke="#37474f" stroke-width="2"/>
+<line x1="110" y1="185" x2="408" y2="135" stroke="#37474f" stroke-width="2"/>
+<path d="M300,108 Q312,130 300,152" fill="none" stroke="#f57c00" stroke-width="3" />
+<text x="330" y="130" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >AND</text>
+<text x="270" y="250" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >入力と出力の関係を論理記号で結んだ図 → 決定表へ</text>
+<circle cx="30" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="30" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

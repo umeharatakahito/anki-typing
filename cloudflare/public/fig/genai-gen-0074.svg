@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="genaigen0074m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="70" y1="220" x2="490" y2="220" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0074m37474f)"/>
+<line x1="70" y1="220" x2="70" y2="20" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0074m37474f)"/>
+<text x="488" y="240" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >モデルの大きさ</text>
+<text x="78" y="12" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >できる割合</text>
+<polyline points="80,210 200,208 290,204 330,190 350,110 380,70 470,60" fill="none" stroke="#f57c00" stroke-width="3.5" stroke-linejoin="round" />
+<text x="170" y="190" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ほとんどできない</text>
+<text x="420" y="50" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >急にできる</text>
+<circle cx="340" cy="150" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="340" y="151" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

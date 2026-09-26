@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<rect x="50" y="170" width="70" height="34" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="85" y="187" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >猫</text>
+<text x="85" y="150" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＋</text>
+<rect x="50" y="100" width="70" height="34" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="85" y="117" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1番目</text>
+<rect x="140" y="170" width="70" height="34" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="175" y="187" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >が</text>
+<text x="175" y="150" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＋</text>
+<rect x="140" y="100" width="70" height="34" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="175" y="117" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >2番目</text>
+<rect x="230" y="170" width="70" height="34" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="265" y="187" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >魚</text>
+<text x="265" y="150" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＋</text>
+<rect x="230" y="100" width="70" height="34" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="265" y="117" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >3番目</text>
+<rect x="320" y="170" width="70" height="34" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="355" y="187" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >を</text>
+<text x="355" y="150" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＋</text>
+<rect x="320" y="100" width="70" height="34" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="355" y="117" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >4番目</text>
+<rect x="410" y="170" width="70" height="34" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="445" y="187" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >食べた</text>
+<text x="445" y="150" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＋</text>
+<rect x="410" y="100" width="70" height="34" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="445" y="117" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >5番目</text>
+<circle cx="500" cy="100" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="101" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="60" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >そのままでは並び順が分からない → 順番の情報を足す</text>
+<text x="270" y="232" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >語の埋め込み</text>
+</svg>

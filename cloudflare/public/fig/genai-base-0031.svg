@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<defs><marker id="genaibase0031mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="20" y="40" width="70" height="32" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="55" y="57" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >身長</text>
+<rect x="90" y="40" width="60" height="32" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="120" y="57" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >体重</text>
+<rect x="150" y="40" width="90" height="32" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="195" y="57" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >都市</text>
+<rect x="20" y="72" width="70" height="32" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="55" y="89" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >170cm</text>
+<rect x="90" y="72" width="60" height="32" rx="0" fill="#ffcdd2" stroke="#607d8b" stroke-width="1.2" />
+<rect x="150" y="72" width="90" height="32" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="195" y="89" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >東京</text>
+<rect x="20" y="104" width="70" height="32" rx="0" fill="#ffcdd2" stroke="#607d8b" stroke-width="1.2" />
+<text x="55" y="121" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >1.65m</text>
+<rect x="90" y="104" width="60" height="32" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="120" y="121" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >58</text>
+<rect x="150" y="104" width="90" height="32" rx="0" fill="#ffcdd2" stroke="#607d8b" stroke-width="1.2" />
+<text x="195" y="121" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >とうきょう</text>
+<rect x="20" y="136" width="70" height="32" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="55" y="153" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >168</text>
+<rect x="90" y="136" width="60" height="32" rx="0" fill="#ffcdd2" stroke="#607d8b" stroke-width="1.2" />
+<text x="120" y="153" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >6200</text>
+<rect x="150" y="136" width="90" height="32" rx="0" fill="#ffcdd2" stroke="#607d8b" stroke-width="1.2" />
+<text x="195" y="153" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >Tokyo</text>
+<text x="130" y="190" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >そのままでは使いにくい</text>
+<line x1="250" y1="100" x2="300" y2="100" stroke="#f57c00" stroke-width="3" marker-end="url(#genaibase0031mf57c00)"/>
+<rect x="250" y="60" width="50" height="80" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="275" y="100" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<circle cx="300" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="320" y="40" width="60" height="32" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="350" y="57" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >身長</text>
+<rect x="380" y="40" width="60" height="32" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="410" y="57" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >体重</text>
+<rect x="440" y="40" width="80" height="32" rx="0" fill="#eceff1" stroke="#607d8b" stroke-width="1.2" />
+<text x="480" y="57" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >都市</text>
+<rect x="320" y="72" width="60" height="32" rx="0" fill="#c8e6c9" stroke="#607d8b" stroke-width="1.2" />
+<text x="350" y="89" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >170</text>
+<rect x="380" y="72" width="60" height="32" rx="0" fill="#c8e6c9" stroke="#607d8b" stroke-width="1.2" />
+<text x="410" y="89" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >60</text>
+<rect x="440" y="72" width="80" height="32" rx="0" fill="#c8e6c9" stroke="#607d8b" stroke-width="1.2" />
+<text x="480" y="89" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >東京</text>
+<rect x="320" y="104" width="60" height="32" rx="0" fill="#c8e6c9" stroke="#607d8b" stroke-width="1.2" />
+<text x="350" y="121" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >165</text>
+<rect x="380" y="104" width="60" height="32" rx="0" fill="#c8e6c9" stroke="#607d8b" stroke-width="1.2" />
+<text x="410" y="121" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >58</text>
+<rect x="440" y="104" width="80" height="32" rx="0" fill="#c8e6c9" stroke="#607d8b" stroke-width="1.2" />
+<text x="480" y="121" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >東京</text>
+<rect x="320" y="136" width="60" height="32" rx="0" fill="#c8e6c9" stroke="#607d8b" stroke-width="1.2" />
+<text x="350" y="153" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >168</text>
+<rect x="380" y="136" width="60" height="32" rx="0" fill="#c8e6c9" stroke="#607d8b" stroke-width="1.2" />
+<text x="410" y="153" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >62</text>
+<rect x="440" y="136" width="80" height="32" rx="0" fill="#c8e6c9" stroke="#607d8b" stroke-width="1.2" />
+<text x="480" y="153" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >東京</text>
+<text x="420" y="190" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >単位をそろえ、欠けた値を補う</text>
+<text x="270" y="230" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >学習を始める前にデータを整える</text>
+</svg>

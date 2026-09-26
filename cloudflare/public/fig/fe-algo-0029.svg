@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 240" width="540" height="240" font-family="sans-serif">
+<rect width="540" height="240" fill="#fff"/>
+<text x="270" y="26" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >「6」を探す</text>
+<rect x="60" y="60" width="56" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="88" y="83" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >7</text>
+<rect x="116" y="60" width="56" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="144" y="83" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >3</text>
+<rect x="172" y="60" width="56" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="200" y="83" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >9</text>
+<rect x="228" y="60" width="56" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="256" y="83" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >4</text>
+<rect x="284" y="60" width="56" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="312" y="83" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >8</text>
+<rect x="340" y="60" width="56" height="44" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="368" y="83" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >1</text>
+<rect x="396" y="60" width="56" height="44" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="424" y="82" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >6</text>
+<circle cx="452" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="452" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="424" y="124" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >末尾に置いた値</text>
+<text x="270" y="170" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >必ずどこかで見つかるので</text>
+<text x="270" y="192" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >「表の終わりか？」の判定を毎回しなくてよい</text>
+</svg>

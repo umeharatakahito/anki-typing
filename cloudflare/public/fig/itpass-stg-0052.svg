@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 240" width="540" height="240" font-family="sans-serif">
+<rect width="540" height="240" fill="#fff"/>
+<rect x="50" y="90" width="207" height="60" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="153.5" y="120" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >リーダー</text>
+<rect x="257" y="90" width="115" height="60" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="314.5" y="120" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >チャレンジャー</text>
+<rect x="372" y="90" width="82.8" height="60" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="413.4" y="120" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >フォロワー</text>
+<rect x="454.8" y="90" width="32.2" height="60" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="470.9" y="120" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<circle cx="487" cy="90" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="487" y="91" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="60" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >市場シェア</text>
+<text x="270" y="210" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >大手が狙わない狭い市場に集中</text>
+</svg>

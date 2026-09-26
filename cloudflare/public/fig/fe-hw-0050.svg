@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<text x="90" y="68" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1台</text>
+<rect x="100" y="50" width="80" height="36" rx="0" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<text x="140" y="68" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >直列</text>
+<rect x="180" y="50" width="320" height="36" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="340" y="68" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >並列化</text>
+<text x="90" y="128" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >4台</text>
+<rect x="100" y="110" width="80" height="36" rx="0" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<text x="140" y="128" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >直列</text>
+<rect x="180" y="110" width="80" height="36" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="220" y="128" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >並列化</text>
+<text x="90" y="188" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >16台</text>
+<rect x="100" y="170" width="80" height="36" rx="0" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<text x="140" y="188" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >直列</text>
+<rect x="180" y="170" width="20" height="36" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<line x1="180" y1="40" x2="180" y2="220" stroke="#f57c00" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="360" y="240" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >いくら増やしても直列部分より速くならない</text>
+<circle cx="100" cy="270" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="100" y="271" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="272" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >全体の速さの向上には限りがある</text>
+</svg>

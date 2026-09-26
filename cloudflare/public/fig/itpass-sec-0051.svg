@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<text x="270" y="26" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >プログラムが用意したメモリ領域</text>
+<rect x="40" y="50" width="40" height="40" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<rect x="80" y="50" width="40" height="40" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<rect x="120" y="50" width="40" height="40" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<rect x="160" y="50" width="40" height="40" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<rect x="200" y="50" width="40" height="40" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<rect x="240" y="50" width="40" height="40" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<rect x="280" y="50" width="40" height="40" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<rect x="320" y="50" width="40" height="40" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<rect x="360" y="50" width="130" height="40" rx="0" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="425" y="70" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >戻り先アドレス</text>
+<path d="M40,94 L40,100 L360,100 L360,94" fill="none" stroke="#1976d2" stroke-width="2" />
+<text x="200" y="114" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >8バイト分</text>
+<text x="270" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >12バイト以上のデータを送り込むと…</text>
+<rect x="40" y="180" width="40" height="40" rx="0" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<text x="60" y="200" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >A</text>
+<rect x="80" y="180" width="40" height="40" rx="0" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<text x="100" y="200" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >A</text>
+<rect x="120" y="180" width="40" height="40" rx="0" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<text x="140" y="200" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >A</text>
+<rect x="160" y="180" width="40" height="40" rx="0" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<text x="180" y="200" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >A</text>
+<rect x="200" y="180" width="40" height="40" rx="0" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<text x="220" y="200" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >A</text>
+<rect x="240" y="180" width="40" height="40" rx="0" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<text x="260" y="200" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >A</text>
+<rect x="280" y="180" width="40" height="40" rx="0" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<text x="300" y="200" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >A</text>
+<rect x="320" y="180" width="40" height="40" rx="0" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<text x="340" y="200" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >A</text>
+<rect x="360" y="180" width="130" height="40" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="425" y="200" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >不正な命令へ</text>
+<circle cx="490" cy="180" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="490" y="181" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="425" y="240" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >あふれて上書き</text>
+</svg>

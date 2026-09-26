@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 220" width="540" height="220" font-family="sans-serif">
+<rect width="540" height="220" fill="#fff"/>
+<defs><marker id="genairisk0068m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<circle cx="50" cy="107.4" r="8.1" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<path d="M36.5,136.2 Q36.5,118.2 50,118.2 Q63.5,118.2 63.5,136.2 Z" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<text x="50" y="148.8" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >犯人</text>
+<rect x="210" y="70" width="130" height="90" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="275" y="105" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >公開された</text>
+<text x="275" y="125" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >AI</text>
+<line x1="76" y1="95" x2="206" y2="95" stroke="#37474f" stroke-width="1.2" marker-end="url(#genairisk0068m37474f)"/>
+<line x1="76" y1="107" x2="206" y2="107" stroke="#37474f" stroke-width="1.2" marker-end="url(#genairisk0068m37474f)"/>
+<line x1="76" y1="119" x2="206" y2="119" stroke="#37474f" stroke-width="1.2" marker-end="url(#genairisk0068m37474f)"/>
+<line x1="76" y1="131" x2="206" y2="131" stroke="#37474f" stroke-width="1.2" marker-end="url(#genairisk0068m37474f)"/>
+<text x="140" y="80" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >大量の質問</text>
+<line x1="342" y1="115" x2="400" y2="115" stroke="#37474f" stroke-width="2" marker-end="url(#genairisk0068m37474f)"/>
+<text x="370" y="100" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >答え</text>
+<rect x="400" y="80" width="120" height="70" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="460" y="105" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >同じ働きの</text>
+<text x="460" y="125" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >複製</text>
+<circle cx="520" cy="80" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="81" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

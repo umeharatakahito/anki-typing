@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<text x="270" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1つのフレーム</text>
+<rect x="30" y="70" width="110" height="60" rx="0" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="85" y="100" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >ヘッダ</text>
+<rect x="140" y="70" width="300" height="60" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="290" y="100" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >データ</text>
+<rect x="440" y="70" width="70" height="60" rx="0" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="475" y="100" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >FCS</text>
+<path d="M140,140 L140,146 L440,146 L440,140" fill="none" stroke="#f57c00" stroke-width="2" />
+<text x="290" y="160" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >載せられる最大の大きさ（例 1500バイト）</text>
+<circle cx="290" cy="196" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="290" y="197" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="230" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >これより大きいデータは分割して送る</text>
+</svg>

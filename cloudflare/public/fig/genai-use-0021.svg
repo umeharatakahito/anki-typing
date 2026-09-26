@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="genaiuse0021mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="20" y="30" width="230" height="100" rx="8" fill="#fff" stroke="#37474f" stroke-width="1.8" />
+<text x="135" y="50" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >質問</text>
+<text x="135" y="76" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >りんご3個入りの箱が4箱と</text>
+<text x="135" y="96" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ばら2個。全部で何個？</text>
+<rect x="290" y="30" width="230" height="180" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="405" y="52" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >答えの前に途中の考えを書く</text>
+<text x="310" y="90" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >① 3 × 4 = 12</text>
+<text x="310" y="124" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >② 12 ＋ 2 = 14</text>
+<text x="310" y="158" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >③ 答え：14個</text>
+<circle cx="520" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="252" y1="80" x2="286" y2="80" stroke="#f57c00" stroke-width="3" marker-end="url(#genaiuse0021mf57c00)"/>
+<text x="270" y="240" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >順を追って考えさせ、正しさを高める</text>
+</svg>

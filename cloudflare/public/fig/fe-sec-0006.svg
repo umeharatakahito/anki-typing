@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<rect x="140" y="30" width="260" height="200" rx="8" fill="#263238" stroke="#263238" stroke-width="2" />
+<rect x="150" y="40" width="240" height="170" rx="2" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<path d="M170,60 L196,60 L206,70 L206,104 L170,104 Z" fill="#eceff1" stroke="#90a4ae" stroke-width="1.8" />
+<path d="M196,60 L196,70 L206,70" fill="none" stroke="#90a4ae" stroke-width="1.2" />
+<path d="M182.4,82.8 L182.4,76.4 A5.6,5.6 0 0 1 193.6,76.4 L193.6,82.8" fill="none" stroke="#f57c00" stroke-width="2" />
+<rect x="179.2" y="82" width="17.6" height="13.6" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="188" cy="88.4" r="1.76" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<path d="M170,130 L196,130 L206,140 L206,174 L170,174 Z" fill="#eceff1" stroke="#90a4ae" stroke-width="1.8" />
+<path d="M196,130 L196,140 L206,140" fill="none" stroke="#90a4ae" stroke-width="1.2" />
+<path d="M182.4,152.8 L182.4,146.4 A5.6,5.6 0 0 1 193.6,146.4 L193.6,152.8" fill="none" stroke="#f57c00" stroke-width="2" />
+<rect x="179.2" y="152" width="17.6" height="13.6" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="188" cy="158.4" r="1.76" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<path d="M240,60 L266,60 L276,70 L276,104 L240,104 Z" fill="#eceff1" stroke="#90a4ae" stroke-width="1.8" />
+<path d="M266,60 L266,70 L276,70" fill="none" stroke="#90a4ae" stroke-width="1.2" />
+<path d="M252.4,82.8 L252.4,76.4 A5.6,5.6 0 0 1 263.6,76.4 L263.6,82.8" fill="none" stroke="#f57c00" stroke-width="2" />
+<rect x="249.2" y="82" width="17.6" height="13.6" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="258" cy="88.4" r="1.76" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<path d="M240,130 L266,130 L276,140 L276,174 L240,174 Z" fill="#eceff1" stroke="#90a4ae" stroke-width="1.8" />
+<path d="M266,130 L266,140 L276,140" fill="none" stroke="#90a4ae" stroke-width="1.2" />
+<path d="M252.4,152.8 L252.4,146.4 A5.6,5.6 0 0 1 263.6,146.4 L263.6,152.8" fill="none" stroke="#f57c00" stroke-width="2" />
+<rect x="249.2" y="152" width="17.6" height="13.6" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="258" cy="158.4" r="1.76" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<path d="M310,60 L336,60 L346,70 L346,104 L310,104 Z" fill="#eceff1" stroke="#90a4ae" stroke-width="1.8" />
+<path d="M336,60 L336,70 L346,70" fill="none" stroke="#90a4ae" stroke-width="1.2" />
+<path d="M322.4,82.8 L322.4,76.4 A5.6,5.6 0 0 1 333.6,76.4 L333.6,82.8" fill="none" stroke="#f57c00" stroke-width="2" />
+<rect x="319.2" y="82" width="17.6" height="13.6" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="328" cy="88.4" r="1.76" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<path d="M310,130 L336,130 L346,140 L346,174 L310,174 Z" fill="#eceff1" stroke="#90a4ae" stroke-width="1.8" />
+<path d="M336,130 L336,140 L346,140" fill="none" stroke="#90a4ae" stroke-width="1.2" />
+<path d="M322.4,152.8 L322.4,146.4 A5.6,5.6 0 0 1 333.6,146.4 L333.6,152.8" fill="none" stroke="#f57c00" stroke-width="2" />
+<rect x="319.2" y="152" width="17.6" height="13.6" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="328" cy="158.4" r="1.76" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<path d="M240,230 L300,230 L310,260 L230,260 Z" fill="#90a4ae" stroke="#546e7a" stroke-width="2" />
+<rect x="360" y="150" width="170" height="70" rx="6" fill="#fff" stroke="#d32f2f" stroke-width="2.5" />
+<text x="445" y="170" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" >元に戻したければ</text>
+<text x="445" y="192" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" >支払え</text>
+<circle cx="140" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="140" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="285" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ファイルが勝手に暗号化される</text>
+</svg>

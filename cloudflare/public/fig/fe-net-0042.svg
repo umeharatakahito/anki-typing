@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" width="520" height="300" font-family="sans-serif">
+<rect width="520" height="300" fill="#fff"/>
+<line x1="260" y1="60" x2="120" y2="220" stroke="#37474f" stroke-width="3"/>
+<line x1="260" y1="60" x2="400" y2="220" stroke="#37474f" stroke-width="3"/>
+<line x1="120" y1="220" x2="400" y2="220" stroke="#37474f" stroke-width="3"/>
+<rect x="215" y="42" width="90" height="36" rx="5" fill="#e0f7fa" stroke="#00838f" stroke-width="2" />
+<text x="260" y="60" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >スイッチ1</text>
+<rect x="75" y="202" width="90" height="36" rx="5" fill="#e0f7fa" stroke="#00838f" stroke-width="2" />
+<text x="120" y="220" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >スイッチ2</text>
+<rect x="355" y="202" width="90" height="36" rx="5" fill="#e0f7fa" stroke="#00838f" stroke-width="2" />
+<text x="400" y="220" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >スイッチ3</text>
+<circle cx="355" cy="220" r="12" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<line x1="348" y1="213" x2="362" y2="227" stroke="#f57c00" stroke-width="3"/>
+<line x1="348" y1="227" x2="362" y2="213" stroke="#f57c00" stroke-width="3"/>
+<circle cx="355" cy="185" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="355" y="186" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="355" y="262" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >このポートを止める</text>
+<text x="260" y="285" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >輪になってもフレームが回り続けない</text>
+</svg>

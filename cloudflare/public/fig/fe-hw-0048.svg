@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="fehw0048mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<text x="120" y="26" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >主記憶のブロック</text>
+<rect x="70" y="40" width="100" height="26" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="120" y="53" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ブロック0</text>
+<rect x="70" y="70" width="100" height="26" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="120" y="83" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ブロック1</text>
+<rect x="70" y="100" width="100" height="26" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="120" y="113" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ブロック2</text>
+<rect x="70" y="130" width="100" height="26" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="120" y="143" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ブロック3</text>
+<rect x="70" y="160" width="100" height="26" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="120" y="173" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ブロック4</text>
+<rect x="70" y="190" width="100" height="26" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="120" y="203" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ブロック5</text>
+<rect x="70" y="220" width="100" height="26" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="120" y="233" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ブロック6</text>
+<rect x="70" y="250" width="100" height="26" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="120" y="263" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ブロック7</text>
+<text x="390" y="26" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >キャッシュ（2組×2か所）</text>
+<rect x="300" y="50" width="180" height="90" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="390" y="64" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >組0</text>
+<rect x="315" y="84" width="70" height="40" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<rect x="395" y="84" width="70" height="40" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<rect x="300" y="160" width="180" height="90" rx="8" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="390" y="174" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >組1</text>
+<rect x="315" y="194" width="70" height="40" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<rect x="395" y="194" width="70" height="40" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<path d="M172,105 Q240,90 312,100" fill="none" stroke="#f57c00" stroke-width="2.5" marker-end="url(#fehw0048mf57c00)"/>
+<path d="M172,108 Q260,130 392,106" fill="none" stroke="#f57c00" stroke-width="2.5" marker-end="url(#fehw0048mf57c00)" stroke-dasharray="5 4"/>
+<path d="M172,225 Q260,100 330,100" fill="none" stroke="#f57c00" stroke-width="1.5" marker-end="url(#fehw0048mf57c00)" stroke-dasharray="3 3"/>
+<text x="400" y="290" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >番号で組が決まり、組の中ならどこでもよい</text>
+<circle cx="510" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

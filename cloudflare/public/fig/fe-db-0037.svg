@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<rect x="40" y="30" width="220" height="140" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="54" y="50" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >{</text>
+<text x="54" y="72" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >  "id": 1,</text>
+<text x="54" y="94" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >  "name": "佐藤",</text>
+<text x="54" y="116" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >  "tags": ["new"]</text>
+<text x="54" y="138" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >}</text>
+<rect x="290" y="30" width="220" height="162" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="304" y="50" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >{</text>
+<text x="304" y="72" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >  "id": 2,</text>
+<text x="304" y="94" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >  "name": "鈴木",</text>
+<text x="304" y="116" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >  "address": {</text>
+<text x="304" y="138" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >    "city": "大阪" }</text>
+<text x="304" y="160" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" >}</text>
+<circle cx="510" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="230" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1件ずつJSONなどで保存。項目は件ごとに違ってよい</text>
+</svg>

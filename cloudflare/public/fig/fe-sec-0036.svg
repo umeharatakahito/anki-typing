@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 310" width="540" height="310" font-family="sans-serif">
+<rect width="540" height="310" fill="#fff"/>
+<defs><marker id="fesec0036mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="20" y="30" width="500" height="40" rx="6" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="30" y="50" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" >https://example.jp/show?file=</text>
+<rect x="262" y="36" width="240" height="28" rx="3" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="270" y="50" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" >../../etc/passwd</text>
+<circle cx="502" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="502" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="130" y1="122" x2="70" y2="158" stroke="#37474f" stroke-width="1.5"/>
+<line x1="130" y1="122" x2="190" y2="158" stroke="#37474f" stroke-width="1.5"/>
+<line x1="70" y1="182" x2="70" y2="218" stroke="#37474f" stroke-width="1.5"/>
+<line x1="190" y1="182" x2="190" y2="218" stroke="#37474f" stroke-width="1.5"/>
+<line x1="190" y1="242" x2="190" y2="273" stroke="#37474f" stroke-width="1.5"/>
+<rect x="116" y="98" width="28" height="24" rx="4" fill="#fff" stroke="#607d8b" stroke-width="1.5" />
+<text x="130" y="110" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >/</text>
+<rect x="44" y="158" width="52" height="24" rx="4" fill="#fff" stroke="#607d8b" stroke-width="1.5" />
+<text x="70" y="170" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >etc</text>
+<rect x="164" y="158" width="52" height="24" rx="4" fill="#fff" stroke="#607d8b" stroke-width="1.5" />
+<text x="190" y="170" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >var</text>
+<rect x="26" y="218" width="88" height="24" rx="4" fill="#ffcdd2" stroke="#d32f2f" stroke-width="1.5" />
+<text x="70" y="230" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" >passwd</text>
+<rect x="164" y="218" width="52" height="24" rx="4" fill="#fff" stroke="#607d8b" stroke-width="1.5" />
+<text x="190" y="230" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >www</text>
+<rect x="135" y="273" width="110" height="24" rx="4" fill="#fff" stroke="#607d8b" stroke-width="1.5" />
+<text x="190" y="285" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >public（公開）</text>
+<path d="M250,280 Q280,200 240,120 Q200,80 150,92" fill="none" stroke="#f57c00" stroke-width="2.5" marker-end="url(#fesec0036mf57c00)" stroke-dasharray="6 4"/>
+<path d="M112,100 Q30,140 50,215" fill="none" stroke="#f57c00" stroke-width="2.5" marker-end="url(#fesec0036mf57c00)" stroke-dasharray="6 4"/>
+<text x="400" y="160" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >上の階層へさかのぼり</text>
+<text x="400" y="180" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >公開外のファイルを読む</text>
+</svg>

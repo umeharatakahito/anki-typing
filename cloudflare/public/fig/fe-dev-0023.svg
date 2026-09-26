@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<circle cx="60" cy="120" r="10" fill="#fff" stroke="#37474f" stroke-width="2" />
+<line x1="60" y1="130" x2="60" y2="160" stroke="#37474f" stroke-width="2"/>
+<line x1="44" y1="142" x2="76" y2="142" stroke="#37474f" stroke-width="2"/>
+<line x1="60" y1="160" x2="48" y2="180" stroke="#37474f" stroke-width="2"/>
+<line x1="60" y1="160" x2="72" y2="180" stroke="#37474f" stroke-width="2"/>
+<text x="60" y="196" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >会員</text>
+<circle cx="480" cy="120" r="10" fill="#fff" stroke="#37474f" stroke-width="2" />
+<line x1="480" y1="130" x2="480" y2="160" stroke="#37474f" stroke-width="2"/>
+<line x1="464" y1="142" x2="496" y2="142" stroke="#37474f" stroke-width="2"/>
+<line x1="480" y1="160" x2="468" y2="180" stroke="#37474f" stroke-width="2"/>
+<line x1="480" y1="160" x2="492" y2="180" stroke="#37474f" stroke-width="2"/>
+<text x="480" y="196" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >店員</text>
+<rect x="140" y="30" width="260" height="240" rx="4" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="270" y="48" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >通販システム</text>
+<ellipse cx="270" cy="90" rx="90" ry="24" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="90" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >商品を探す</text>
+<ellipse cx="270" cy="150" rx="90" ry="24" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >注文する</text>
+<ellipse cx="270" cy="215" rx="90" ry="24" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="215" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >発送を登録する</text>
+<line x1="78" y1="140" x2="180" y2="92" stroke="#37474f" stroke-width="1.5"/>
+<line x1="78" y1="146" x2="180" y2="150" stroke="#37474f" stroke-width="1.5"/>
+<line x1="462" y1="146" x2="360" y2="212" stroke="#37474f" stroke-width="1.5"/>
+<circle cx="30" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="30" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="itpasssec0011mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker><marker id="itpasssec0011m388e3c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#388e3c"/></marker></defs>
+<circle cx="60" cy="136" r="9" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M45,168 Q45,148 60,148 Q75,148 75,168 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="60" y="182" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >利用者</text>
+<rect x="150" y="120" width="110" height="60" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="205" y="140" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >本人確認</text>
+<text x="205" y="162" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >1回だけ</text>
+<circle cx="260" cy="120" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="260" y="121" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="84" y1="150" x2="146" y2="150" stroke="#f57c00" stroke-width="3" marker-end="url(#itpasssec0011mf57c00)"/>
+<rect x="380" y="60" width="130" height="50" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="445" y="85" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >メール</text>
+<line x1="262" y1="150" x2="376" y2="85" stroke="#388e3c" stroke-width="2.5" marker-end="url(#itpasssec0011m388e3c)"/>
+<rect x="380" y="150" width="130" height="50" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="445" y="175" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >勤怠</text>
+<line x1="262" y1="150" x2="376" y2="175" stroke="#388e3c" stroke-width="2.5" marker-end="url(#itpasssec0011m388e3c)"/>
+<rect x="380" y="240" width="130" height="50" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="445" y="265" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >経費精算</text>
+<line x1="262" y1="150" x2="376" y2="265" stroke="#388e3c" stroke-width="2.5" marker-end="url(#itpasssec0011m388e3c)"/>
+<text x="200" y="285" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >追加のログインなしで利用</text>
+</svg>

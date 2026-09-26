@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<line x1="100" y1="70" x2="270" y2="50" stroke="#f57c00" stroke-width="2.5"/>
+<text x="185" y="52" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >友人</text>
+<line x1="270" y1="50" x2="430" y2="90" stroke="#f57c00" stroke-width="2.5"/>
+<text x="350" y="62" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >友人</text>
+<line x1="100" y1="70" x2="180" y2="190" stroke="#f57c00" stroke-width="2.5"/>
+<text x="140" y="122" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >同僚</text>
+<line x1="180" y1="190" x2="380" y2="200" stroke="#f57c00" stroke-width="2.5"/>
+<text x="280" y="187" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >友人</text>
+<line x1="430" y1="90" x2="380" y2="200" stroke="#f57c00" stroke-width="2.5"/>
+<text x="405" y="137" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >家族</text>
+<circle cx="100" cy="70" r="26" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="100" y="70" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >佐藤</text>
+<circle cx="270" cy="50" r="26" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="50" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >鈴木</text>
+<circle cx="430" cy="90" r="26" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="430" y="90" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >田中</text>
+<circle cx="180" cy="190" r="26" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="180" y="190" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >伊藤</text>
+<circle cx="380" cy="200" r="26" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="380" y="200" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >高橋</text>
+<circle cx="510" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="245" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >点と辺のつながりをたどる検索に向く</text>
+</svg>

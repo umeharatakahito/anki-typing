@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="genaigen0058m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="genaigen0058mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<path d="M30,60 L60,60 L70,70 L70,110 L30,110 Z" fill="#fff" stroke="#37474f" stroke-width="1.8" />
+<path d="M60,60 L60,70 L70,70" fill="none" stroke="#37474f" stroke-width="1.2" />
+<line x1="36" y1="76" x2="62" y2="76" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="36" y1="84" x2="62" y2="84" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="36" y1="92" x2="62" y2="92" stroke="#90a4ae" stroke-width="1.5"/>
+<text x="50" y="128" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >文章</text>
+<line x1="76" y1="85" x2="120" y2="85" stroke="#37474f" stroke-width="2" marker-end="url(#genaigen0058m37474f)"/>
+<rect x="120" y="65" width="130" height="40" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="185" y="85" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >[0.2, −0.7, …]</text>
+<line x1="252" y1="85" x2="300" y2="120" stroke="#f57c00" stroke-width="2.5" marker-end="url(#genaigen0058mf57c00)"/>
+<path d="M300,88 L300,172 A100,28 0 0 0 500,172 L500,88" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<ellipse cx="400" cy="88" rx="100" ry="28" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="400" y="105" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >数値の列で保存</text>
+<circle cx="350" cy="140" r="5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="365" cy="150" r="5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="440" cy="170" r="5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="455" cy="160" r="5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="400" cy="130" r="5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="500" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="235" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >意味の近いデータを素早く探せる</text>
+</svg>

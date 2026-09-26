@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="genaibase0009m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="60" y1="230" x2="490" y2="230" stroke="#37474f" stroke-width="2" marker-end="url(#genaibase0009m37474f)"/>
+<line x1="60" y1="230" x2="60" y2="30" stroke="#37474f" stroke-width="2" marker-end="url(#genaibase0009m37474f)"/>
+<text x="488" y="250" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >特徴1</text>
+<text x="68" y="22" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >特徴2</text>
+<circle cx="135.695" cy="188.096" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<polygon points="355.493,101.314 362.493,113.314 348.493,113.314" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" stroke-linejoin="round" />
+<circle cx="193.858" cy="154.587" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<polygon points="301.975,119.998 308.975,131.998 294.975,131.998" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" stroke-linejoin="round" />
+<circle cx="138.903" cy="166.403" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<polygon points="449.347,90.6211 456.347,102.621 442.347,102.621" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" stroke-linejoin="round" />
+<circle cx="225.469" cy="183.345" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<polygon points="395.86,65.0493 402.86,77.0493 388.86,77.0493" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" stroke-linejoin="round" />
+<circle cx="195.229" cy="210.763" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<polygon points="378.477,112.3 385.477,124.3 371.477,124.3" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" stroke-linejoin="round" />
+<circle cx="200.712" cy="154.482" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<polygon points="413.735,100.288 420.735,112.288 406.735,112.288" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" stroke-linejoin="round" />
+<circle cx="145.19" cy="152.171" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<polygon points="429.829,90.8199 436.829,102.82 422.829,102.82" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" stroke-linejoin="round" />
+<circle cx="207.824" cy="211.517" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<polygon points="407.119,126.688 414.119,138.688 400.119,138.688" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" stroke-linejoin="round" />
+<circle cx="159.245" cy="206.064" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<polygon points="366.693,127.847 373.693,139.847 359.693,139.847" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" stroke-linejoin="round" />
+<circle cx="231.83" cy="156.822" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<polygon points="320.395,70.359 327.395,82.359 313.395,82.359" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" stroke-linejoin="round" />
+<circle cx="244.822" cy="180.531" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<polygon points="393.997,77.0821 400.997,89.0821 386.997,89.0821" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" stroke-linejoin="round" />
+<circle cx="176.086" cy="177.011" r="6" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<polygon points="352.637,99.8059 359.637,111.806 345.637,111.806" fill="#d32f2f" stroke="#d32f2f" stroke-width="0" stroke-linejoin="round" />
+<line x1="120" y1="60" x2="440" y2="225" stroke="#f57c00" stroke-width="3.5" stroke-dasharray="8 5"/>
+<text x="130" y="245" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >普通のメール</text>
+<text x="420" y="245" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >迷惑メール</text>
+<text x="430" y="40" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >どのグループに入るか</text>
+<circle cx="500" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

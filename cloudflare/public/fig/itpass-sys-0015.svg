@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 270" width="560" height="270" font-family="sans-serif">
+<rect width="560" height="270" fill="#fff"/>
+<rect x="140" y="30" width="240" height="40" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="260" y="50" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >アプリケーション</text>
+<rect x="140" y="76" width="240" height="40" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="260" y="96" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >ミドルウェア・実行環境</text>
+<rect x="140" y="122" width="240" height="40" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="260" y="142" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >OS</text>
+<rect x="140" y="168" width="240" height="40" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="260" y="188" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >仮想サーバ・ストレージ</text>
+<rect x="140" y="214" width="240" height="40" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="260" y="234" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >ネットワーク・設備</text>
+<line x1="395" y1="168" x2="395" y2="254" stroke="#f57c00" stroke-width="4"/>
+<text x="410" y="214" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >事業者が提供</text>
+<line x1="395" y1="30" x2="395" y2="162" stroke="#1976d2" stroke-width="4"/>
+<text x="410" y="99" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#1976d2" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >利用者が管理</text>
+<circle cx="120" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="120" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

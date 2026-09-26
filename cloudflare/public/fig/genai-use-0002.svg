@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<rect x="40" y="30" width="460" height="110" rx="8" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="60" y="50" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" >次の文の感情を「肯定」「否定」で答えて</text>
+<text x="60" y="90" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" >「料理がおいしかった」→ ?</text>
+<circle cx="500" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="430" y="110" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >例は1つもない</text>
+<text x="270" y="230" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >プロンプト</text>
+</svg>

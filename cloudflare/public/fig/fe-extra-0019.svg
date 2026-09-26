@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" width="540" height="270" font-family="sans-serif">
+<rect width="540" height="270" fill="#fff"/>
+<defs><marker id="feextra0019m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="60" y1="230" x2="490" y2="230" stroke="#37474f" stroke-width="2" marker-end="url(#feextra0019m37474f)"/>
+<line x1="60" y1="230" x2="60" y2="20" stroke="#37474f" stroke-width="2" marker-end="url(#feextra0019m37474f)"/>
+<text x="488" y="250" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >商品（売れる順）</text>
+<text x="68" y="12" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >販売数</text>
+<rect x="60" y="50" width="9" height="180" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="0.8" />
+<rect x="70.5" y="117.5" width="9" height="112.5" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="0.8" />
+<rect x="81" y="148.182" width="9" height="81.8182" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="0.8" />
+<rect x="91.5" y="165.714" width="9" height="64.2857" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="0.8" />
+<rect x="102" y="177.059" width="9" height="52.9412" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="0.8" />
+<rect x="112.5" y="185" width="9" height="45" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="0.8" />
+<rect x="123" y="190.87" width="9" height="39.1304" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="0.8" />
+<rect x="133.5" y="195.385" width="9" height="34.6154" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="0.8" />
+<rect x="144" y="198.966" width="9" height="31.0345" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="154.5" y="201.875" width="9" height="28.125" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="165" y="204.286" width="9" height="25.7143" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="175.5" y="206.316" width="9" height="23.6842" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="186" y="208.049" width="9" height="21.9512" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="196.5" y="209.545" width="9" height="20.4545" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="207" y="210.851" width="9" height="19.1489" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="217.5" y="212" width="9" height="18" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="228" y="213.019" width="9" height="16.9811" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="238.5" y="213.929" width="9" height="16.0714" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="249" y="214.746" width="9" height="15.2542" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="259.5" y="215.484" width="9" height="14.5161" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="270" y="216.154" width="9" height="13.8462" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="280.5" y="216.765" width="9" height="13.2353" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="291" y="217.324" width="9" height="12.6761" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="301.5" y="217.838" width="9" height="12.1622" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="312" y="218.312" width="9" height="11.6883" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="322.5" y="218.75" width="9" height="11.25" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="333" y="219.157" width="9" height="10.8434" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="343.5" y="219.535" width="9" height="10.4651" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="354" y="219.888" width="9" height="10.1124" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="364.5" y="220.217" width="9" height="9.78261" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="375" y="220.526" width="9" height="9.47368" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="385.5" y="220.816" width="9" height="9.18367" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="396" y="221.089" width="9" height="8.91089" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="406.5" y="221.346" width="9" height="8.65385" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="417" y="221.589" width="9" height="8.41121" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="427.5" y="221.818" width="9" height="8.18182" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="438" y="222.035" width="9" height="7.9646" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="448.5" y="222.241" width="9" height="7.75862" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="459" y="222.437" width="9" height="7.56303" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<rect x="469.5" y="222.623" width="9" height="7.37705" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="0.8" />
+<text x="100" y="40" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >売れ筋</text>
+<text x="330" y="150" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >少ししか売れない商品を多数そろえる</text>
+<text x="330" y="170" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >→ 合計すると大きな売上</text>
+<circle cx="480" cy="190" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="480" y="191" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

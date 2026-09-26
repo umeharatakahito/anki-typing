@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320" font-family="sans-serif">
+<rect width="540" height="320" fill="#fff"/>
+<rect x="180" y="130" width="180" height="50" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<rect x="196" y="164" width="22" height="12" rx="0" fill="#fff" stroke="#f57c00" stroke-width="1.5" />
+<rect x="238" y="164" width="22" height="12" rx="0" fill="#fff" stroke="#f57c00" stroke-width="1.5" />
+<rect x="280" y="164" width="22" height="12" rx="0" fill="#fff" stroke="#f57c00" stroke-width="1.5" />
+<rect x="322" y="164" width="22" height="12" rx="0" fill="#fff" stroke="#f57c00" stroke-width="1.5" />
+<circle cx="360" cy="128" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="360" y="129" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="42.4" y="43.2" width="35.2" height="24" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="45.6" y="46.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M48.8,75.2 L71.2,75.2 L66.4,67.2 L53.6,67.2 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="60" y="86.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >A</text>
+<rect x="462.4" y="43.2" width="35.2" height="24" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="465.6" y="46.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M468.8,75.2 L491.2,75.2 L486.4,67.2 L473.6,67.2 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="480" y="86.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >B</text>
+<rect x="42.4" y="253.2" width="35.2" height="24" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="45.6" y="256.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M48.8,285.2 L71.2,285.2 L66.4,277.2 L53.6,277.2 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="60" y="296.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >C</text>
+<rect x="462.4" y="253.2" width="35.2" height="24" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="465.6" y="256.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M468.8,285.2 L491.2,285.2 L486.4,277.2 L473.6,277.2 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="480" y="296.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >D</text>
+<line x1="84" y1="70" x2="207" y2="170" stroke="#37474f" stroke-width="2"/>
+<line x1="456" y1="70" x2="333" y2="170" stroke="#37474f" stroke-width="2"/>
+<line x1="84" y1="262" x2="249" y2="176" stroke="#37474f" stroke-width="2"/>
+<line x1="456" y1="262" x2="291" y2="176" stroke="#f57c00" stroke-width="3.5"/>
+<rect x="90" y="104" width="116" height="26" rx="4" fill="#fff9c4" stroke="#f9a825" stroke-width="1.5" />
+<text x="148" y="117" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >宛先MAC: D</text>
+<line x1="392" y1="92" x2="408" y2="108" stroke="#d32f2f" stroke-width="3.5"/>
+<line x1="392" y1="108" x2="408" y2="92" stroke="#d32f2f" stroke-width="3.5"/>
+<line x1="152" y1="222" x2="168" y2="238" stroke="#d32f2f" stroke-width="3.5"/>
+<line x1="152" y1="238" x2="168" y2="222" stroke="#d32f2f" stroke-width="3.5"/>
+<text x="270" y="30" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Aから送られたフレームはDのポートにだけ</text>
+</svg>

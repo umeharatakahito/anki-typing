@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<rect x="110" y="30" width="180" height="110" rx="0" fill="#fff9c4" stroke="#90a4ae" stroke-width="1.5" />
+<text x="200" y="85" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >花形</text>
+<rect x="290" y="30" width="180" height="110" rx="0" fill="#ffe0b2" stroke="#90a4ae" stroke-width="1.5" />
+<text x="380" y="85" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >問題児</text>
+<rect x="110" y="140" width="180" height="110" rx="0" fill="#c8e6c9" stroke="#90a4ae" stroke-width="1.5" />
+<text x="200" y="195" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >金のなる木</text>
+<rect x="290" y="140" width="180" height="110" rx="0" fill="#eceff1" stroke="#90a4ae" stroke-width="1.5" />
+<text x="380" y="195" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >負け犬</text>
+<text x="60" y="140" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >市場</text>
+<text x="60" y="158" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >成長率</text>
+<text x="100" y="42" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >高</text>
+<text x="100" y="238" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >低</text>
+<text x="290" y="286" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >相対的市場シェア</text>
+<text x="124" y="264" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >高</text>
+<text x="456" y="264" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >低</text>
+<circle cx="500" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" width="540" height="270" font-family="sans-serif">
+<rect width="540" height="270" fill="#fff"/>
+<rect x="40" y="30" width="460" height="200" rx="6" fill="#e8f5e9" stroke="#90a4ae" stroke-width="1.5" />
+<rect x="90" y="90" width="89.6" height="89.6" rx="4" fill="#e8f5e9" stroke="#90a4ae" stroke-width="1.5" />
+<polygon points="109.2,128.4 115.6,106 128.4,122" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<polygon points="160.4,128.4 154,106 141.2,122" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" stroke-linejoin="round" />
+<circle cx="134.8" cy="141.2" r="24" fill="#ffcc80" stroke="#6d4c41" stroke-width="1.2" />
+<circle cx="125.2" cy="138" r="3.2" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="144.4" cy="138" r="3.2" fill="#333" stroke="#333" stroke-width="0" />
+<rect x="300" y="70" width="123.2" height="123.2" rx="4" fill="#e8f5e9" stroke="#90a4ae" stroke-width="1.5" />
+<circle cx="361.6" cy="140.4" r="33" fill="#bcaaa4" stroke="#5d4037" stroke-width="1.2" />
+<ellipse cx="328.6" cy="131.6" rx="11" ry="22" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<ellipse cx="394.6" cy="131.6" rx="11" ry="22" fill="#8d6e63" stroke="#5d4037" stroke-width="1" />
+<circle cx="348.4" cy="136" r="4.4" fill="#333" stroke="#333" stroke-width="0" />
+<circle cx="374.8" cy="136" r="4.4" fill="#333" stroke="#333" stroke-width="0" />
+<rect x="82" y="82" width="105" height="105" rx="0" fill="none" stroke="#f57c00" stroke-width="3" />
+<rect x="82" y="60" width="80" height="22" rx="0" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<text x="122" y="71" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold" >ねこ 95%</text>
+<rect x="292" y="62" width="140" height="140" rx="0" fill="none" stroke="#1976d2" stroke-width="3" />
+<rect x="292" y="40" width="80" height="22" rx="0" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<text x="332" y="51" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold" >いぬ 91%</text>
+<circle cx="490" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="490" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="255" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >どこに・何が写っているかを枠と種類で答える</text>
+</svg>

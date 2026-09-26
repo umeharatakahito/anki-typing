@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<text x="138" y="75" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >高</text>
+<text x="185" y="266" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >低</text>
+<rect x="150" y="40" width="70" height="70" rx="0" fill="#fff9c4" stroke="#90a4ae" stroke-width="1.5" />
+<rect x="220" y="40" width="70" height="70" rx="0" fill="#ffe0b2" stroke="#90a4ae" stroke-width="1.5" />
+<rect x="290" y="40" width="70" height="70" rx="0" fill="#ffcdd2" stroke="#90a4ae" stroke-width="1.5" />
+<text x="138" y="145" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >中</text>
+<text x="255" y="266" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >中</text>
+<rect x="150" y="110" width="70" height="70" rx="0" fill="#e8f5e9" stroke="#90a4ae" stroke-width="1.5" />
+<rect x="220" y="110" width="70" height="70" rx="0" fill="#fff9c4" stroke="#90a4ae" stroke-width="1.5" />
+<rect x="290" y="110" width="70" height="70" rx="0" fill="#ffe0b2" stroke="#90a4ae" stroke-width="1.5" />
+<text x="138" y="215" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >低</text>
+<text x="325" y="266" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >高</text>
+<rect x="150" y="180" width="70" height="70" rx="0" fill="#e8f5e9" stroke="#90a4ae" stroke-width="1.5" />
+<rect x="220" y="180" width="70" height="70" rx="0" fill="#e8f5e9" stroke="#90a4ae" stroke-width="1.5" />
+<rect x="290" y="180" width="70" height="70" rx="0" fill="#fff9c4" stroke="#90a4ae" stroke-width="1.5" />
+<text x="60" y="145" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >発生確率</text>
+<text x="255" y="290" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >影響度</text>
+<text x="325" y="75" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >R1</text>
+<text x="255" y="145" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >R2</text>
+<text x="185" y="215" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >R3</text>
+<rect x="390" y="60" width="140" height="110" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="460" y="85" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >数値でなく</text>
+<text x="460" y="107" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >高・中・低で評価</text>
+<text x="460" y="140" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >→ 優先順位付け</text>
+<circle cx="520" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

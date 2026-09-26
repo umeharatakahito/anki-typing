@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" width="540" height="270" font-family="sans-serif">
+<rect width="540" height="270" fill="#fff"/>
+<rect x="40" y="30" width="460" height="200" rx="8" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="60" y="50" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" font-weight="bold" >次の文の感情を「肯定」「否定」で答えて</text>
+<rect x="60" y="68" width="300" height="26" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="70" y="81" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" >「最高の映画だった」→ 肯定</text>
+<rect x="60" y="98" width="300" height="26" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="70" y="111" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" >「もう二度と行かない」→ 否定</text>
+<rect x="60" y="128" width="300" height="26" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="70" y="141" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" >「店員が親切」→ 肯定</text>
+<text x="60" y="180" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" >「料理がおいしかった」→ ?</text>
+<circle cx="360" cy="68" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="360" y="69" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="430" y="110" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >例がいくつか</text>
+<text x="270" y="250" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >プロンプト</text>
+</svg>

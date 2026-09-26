@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 250" width="560" height="250" font-family="sans-serif">
+<rect width="560" height="250" fill="#fff"/>
+<rect x="140" y="30" width="190" height="30" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="235" y="45" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >ファミリ：基本情報</text>
+<rect x="330" y="30" width="210" height="30" rx="0" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<text x="435" y="45" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >ファミリ：購買履歴</text>
+<rect x="40" y="70" width="90" height="50" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="85" y="95" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >user1</text>
+<rect x="140" y="70" width="90" height="50" rx="6" fill="#fff" stroke="#1976d2" stroke-width="2" />
+<text x="185" y="95" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >name=佐藤</text>
+<rect x="235" y="70" width="90" height="50" rx="6" fill="#fff" stroke="#1976d2" stroke-width="2" />
+<text x="280" y="95" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >age=34</text>
+<rect x="330" y="70" width="70" height="50" rx="6" fill="#fff" stroke="#388e3c" stroke-width="2" />
+<text x="365" y="95" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#222" >2024-01=りんご</text>
+<rect x="402" y="70" width="70" height="50" rx="6" fill="#fff" stroke="#388e3c" stroke-width="2" />
+<text x="437" y="95" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#222" >2024-02=みかん</text>
+<rect x="474" y="70" width="70" height="50" rx="6" fill="#fff" stroke="#388e3c" stroke-width="2" />
+<text x="509" y="95" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#222" >…</text>
+<rect x="40" y="130" width="90" height="50" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="85" y="155" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >user2</text>
+<rect x="140" y="130" width="90" height="50" rx="6" fill="#fff" stroke="#1976d2" stroke-width="2" />
+<text x="185" y="155" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >name=鈴木</text>
+<rect x="330" y="130" width="70" height="50" rx="6" fill="#fff" stroke="#388e3c" stroke-width="2" />
+<text x="365" y="155" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#222" >2024-03=ぶどう</text>
+<circle cx="130" cy="70" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="130" y="71" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="280" y="220" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >行ごとに多数の項目を持ち、項目のまとまり単位で管理</text>
+</svg>

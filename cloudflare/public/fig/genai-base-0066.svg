@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 345" width="560" height="345" font-family="sans-serif">
+<rect width="560" height="345" fill="#fff"/>
+<text x="280" y="30" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >予測</text>
+<text x="220" y="50" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >陽性</text>
+<text x="340" y="50" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >陰性</text>
+<text x="70" y="180" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >実際</text>
+<text x="130" y="120" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >陽性</text>
+<text x="130" y="240" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >陰性</text>
+<rect x="160" y="60" width="120" height="120" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="220" y="108" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >正しく陽性</text>
+<text x="220" y="134" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >40件</text>
+<rect x="280" y="60" width="120" height="120" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="340" y="108" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >見逃し</text>
+<text x="340" y="134" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >10件</text>
+<rect x="160" y="180" width="120" height="120" rx="0" fill="#f5f5f5" stroke="#90a4ae" stroke-width="1.5" />
+<text x="220" y="228" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >誤って陽性</text>
+<text x="220" y="254" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >5件</text>
+<rect x="280" y="180" width="120" height="120" rx="0" fill="#f5f5f5" stroke="#90a4ae" stroke-width="1.5" />
+<text x="340" y="228" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >正しく陰性</text>
+<text x="340" y="254" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >45件</text>
+<text x="480" y="150" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >40 ÷ (40＋10)</text>
+<circle cx="480" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="480" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="330" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >本当の陽性のうち見つけた割合</text>
+</svg>

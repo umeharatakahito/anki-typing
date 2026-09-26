@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320" font-family="sans-serif">
+<rect width="540" height="320" fill="#fff"/>
+<defs><marker id="fesec0049m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="fesec0049m388e3c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#388e3c"/></marker></defs>
+<rect x="58" y="149" width="44" height="30" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="62" y="153" width="36" height="22" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M66,189 L94,189 L88,179 L72,179 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="80" y="203" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >利用者</text>
+<rect x="210" y="30" width="150" height="60" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="285" y="60" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >認証サーバ</text>
+<circle cx="360" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="360" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="100" y1="140" x2="206" y2="70" stroke="#37474f" stroke-width="2" marker-end="url(#fesec0049m37474f)"/>
+<text x="110" y="90" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >① 1回だけ本人確認</text>
+<line x1="206" y1="84" x2="120" y2="150" stroke="#388e3c" stroke-width="2.5" marker-end="url(#fesec0049m388e3c)"/>
+<rect x="170" y="118" width="90" height="28" rx="4" fill="#fff9c4" stroke="#f9a825" stroke-width="1.5" />
+<text x="215" y="132" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >チケット</text>
+<rect x="390" y="170" width="130" height="44" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="455" y="192" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >ファイルサーバ</text>
+<line x1="110" y1="180" x2="386" y2="192" stroke="#37474f" stroke-width="2" marker-end="url(#fesec0049m37474f)"/>
+<rect x="250" y="162" width="80" height="24" rx="4" fill="#fff9c4" stroke="#f9a825" stroke-width="1.2" />
+<text x="290" y="174" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >チケット提示</text>
+<rect x="390" y="250" width="130" height="44" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="455" y="272" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >メールサーバ</text>
+<line x1="110" y1="190" x2="386" y2="272" stroke="#37474f" stroke-width="2" marker-end="url(#fesec0049m37474f)"/>
+<rect x="250" y="262" width="80" height="24" rx="4" fill="#fff9c4" stroke="#f9a825" stroke-width="1.2" />
+<text x="290" y="274" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >チケット提示</text>
+<text x="270" y="305" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >② チケットを見せるだけで各サーバを使える</text>
+</svg>

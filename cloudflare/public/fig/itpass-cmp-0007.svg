@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<rect x="70" y="90" width="46" height="56" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="93" y="118" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1</text>
+<rect x="120" y="90" width="46" height="56" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="143" y="118" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >0</text>
+<rect x="170" y="90" width="46" height="56" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="193" y="118" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1</text>
+<rect x="220" y="90" width="46" height="56" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="243" y="118" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1</text>
+<rect x="270" y="90" width="46" height="56" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="293" y="118" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >0</text>
+<rect x="320" y="90" width="46" height="56" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="343" y="118" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >0</text>
+<rect x="370" y="90" width="46" height="56" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="393" y="118" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1</text>
+<rect x="420" y="90" width="46" height="56" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="443" y="118" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >0</text>
+<path d="M70,152 L70,158 L466,158 L466,152" fill="none" stroke="#f57c00" stroke-width="2" />
+<circle cx="268" cy="190" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="268" y="191" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="225" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >8個ひとまとまり</text>
+<text x="270" y="40" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2進数の各けた</text>
+</svg>

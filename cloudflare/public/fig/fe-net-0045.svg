@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320" font-family="sans-serif">
+<rect width="540" height="320" fill="#fff"/>
+<rect x="50" y="150" width="120" height="40" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="110" y="170" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >スイッチ1</text>
+<rect x="370" y="150" width="120" height="40" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="430" y="170" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >スイッチ2</text>
+<line x1="170" y1="170" x2="370" y2="170" stroke="#37474f" stroke-width="5"/>
+<text x="270" y="196" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1本の回線</text>
+<text x="270" y="216" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（複数グループが通る）</text>
+<rect x="60" y="60" width="420" height="40" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<rect x="60" y="60" width="90" height="40" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="105" y="80" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >宛先MAC</text>
+<rect x="150" y="60" width="90" height="40" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="195" y="80" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >送信元MAC</text>
+<rect x="240" y="60" width="80" height="40" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="280" y="80" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >番号10</text>
+<rect x="320" y="60" width="100" height="40" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="370" y="80" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >データ</text>
+<rect x="420" y="60" width="60" height="40" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="450" y="80" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >FCS</text>
+<circle cx="320" cy="58" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="320" y="59" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="34" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >フレームに差し込む情報</text>
+<rect x="46.8" y="257.4" width="26.4" height="18" rx="3" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<rect x="49.2" y="259.8" width="21.6" height="13.2" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M51.6,281.4 L68.4,281.4 L64.8,275.4 L55.2,275.4 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<rect x="406.8" y="257.4" width="26.4" height="18" rx="3" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<rect x="409.2" y="259.8" width="21.6" height="13.2" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M411.6,281.4 L428.4,281.4 L424.8,275.4 L415.2,275.4 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<rect x="106.8" y="257.4" width="26.4" height="18" rx="3" fill="#c8e6c9" stroke="#1976d2" stroke-width="2" />
+<rect x="109.2" y="259.8" width="21.6" height="13.2" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M111.6,281.4 L128.4,281.4 L124.8,275.4 L115.2,275.4 Z" fill="#c8e6c9" stroke="#1976d2" stroke-width="2" />
+<rect x="466.8" y="257.4" width="26.4" height="18" rx="3" fill="#c8e6c9" stroke="#1976d2" stroke-width="2" />
+<rect x="469.2" y="259.8" width="21.6" height="13.2" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M471.6,281.4 L488.4,281.4 L484.8,275.4 L475.2,275.4 Z" fill="#c8e6c9" stroke="#1976d2" stroke-width="2" />
+</svg>

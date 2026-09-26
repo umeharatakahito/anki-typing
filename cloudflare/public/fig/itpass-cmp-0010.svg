@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 290" width="540" height="290" font-family="sans-serif">
+<rect width="540" height="290" fill="#fff"/>
+<defs><marker id="itpasscmp0010m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="itpasscmp0010m90a4ae" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#90a4ae"/></marker></defs>
+<rect x="30" y="170" width="120" height="50" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="90" y="196" font-size="30" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<circle cx="150" cy="170" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="150" y="171" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="210" y="170" width="120" height="50" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="195" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >記憶装置</text>
+<rect x="390" y="170" width="120" height="50" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="450" y="195" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >出力装置</text>
+<rect x="120" y="40" width="120" height="50" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="180" y="65" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >制御装置</text>
+<rect x="300" y="40" width="120" height="50" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="360" y="65" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >演算装置</text>
+<line x1="152" y1="195" x2="206" y2="195" stroke="#37474f" stroke-width="2.5" marker-end="url(#itpasscmp0010m37474f)"/>
+<line x1="332" y1="195" x2="386" y2="195" stroke="#37474f" stroke-width="2.5" marker-end="url(#itpasscmp0010m37474f)"/>
+<line x1="290" y1="168" x2="340" y2="92" stroke="#37474f" stroke-width="2.5" marker-end="url(#itpasscmp0010m37474f)" marker-start="url(#itpasscmp0010m37474f)"/>
+<path d="M180,92 Q135.0,130 90,166" fill="none" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#itpasscmp0010m90a4ae)" stroke-dasharray="4 3"/>
+<path d="M180,92 Q215.0,130 250,166" fill="none" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#itpasscmp0010m90a4ae)" stroke-dasharray="4 3"/>
+<path d="M180,92 Q315.0,130 450,166" fill="none" stroke="#90a4ae" stroke-width="1.5" marker-end="url(#itpasscmp0010m90a4ae)" stroke-dasharray="4 3"/>
+<text x="520" y="270" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >→ データ　⋯&gt; 制御</text>
+<text x="90" y="236" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >キーボード</text>
+<text x="90" y="252" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >マウス・スキャナ</text>
+</svg>

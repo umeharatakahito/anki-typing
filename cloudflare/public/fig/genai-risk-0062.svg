@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 230" width="540" height="230" font-family="sans-serif">
+<rect width="540" height="230" fill="#fff"/>
+<defs><marker id="genairisk0062m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="genairisk0062mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<path d="M30,50 L80,50 L90,60 L90,126 L30,126 Z" fill="#fff" stroke="#37474f" stroke-width="1.8" />
+<path d="M80,50 L80,60 L90,60" fill="none" stroke="#37474f" stroke-width="1.2" />
+<line x1="36" y1="66" x2="82" y2="66" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="36" y1="74" x2="82" y2="74" stroke="#90a4ae" stroke-width="1.5"/>
+<line x1="36" y1="82" x2="82" y2="82" stroke="#90a4ae" stroke-width="1.5"/>
+<text x="60" y="148" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >与えた資料</text>
+<text x="60" y="166" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >・検索結果</text>
+<rect x="180" y="60" width="120" height="56" rx="6" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" />
+<text x="240" y="88" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >生成AI</text>
+<line x1="92" y1="88" x2="176" y2="88" stroke="#37474f" stroke-width="2" marker-end="url(#genairisk0062m37474f)"/>
+<line x1="302" y1="88" x2="350" y2="88" stroke="#37474f" stroke-width="2" marker-end="url(#genairisk0062m37474f)"/>
+<rect x="350" y="50" width="170" height="80" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="435" y="74" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >回答</text>
+<text x="435" y="100" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >（根拠：資料p.3）</text>
+<circle cx="520" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="51" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<path d="M435,132 Q260,210 70,140" fill="none" stroke="#f57c00" stroke-width="2.5" marker-end="url(#genairisk0062mf57c00)" stroke-dasharray="5 4"/>
+<text x="270" y="205" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >回答を確かな根拠に結び付ける</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="genaiextra0018mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<text x="120" y="30" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >検索で集めた候補</text>
+<text x="420" y="30" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >並べ直した結果</text>
+<rect x="60" y="50" width="120" height="34" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="120" y="67" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >1. 文書C</text>
+<rect x="60" y="94" width="120" height="34" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="120" y="111" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >2. 文書A</text>
+<rect x="60" y="138" width="120" height="34" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="120" y="155" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >3. 文書E</text>
+<rect x="60" y="182" width="120" height="34" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="120" y="199" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >4. 文書B</text>
+<rect x="360" y="50" width="120" height="34" rx="6" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<text x="420" y="67" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >1. 文書A</text>
+<rect x="360" y="94" width="120" height="34" rx="6" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<text x="420" y="111" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >2. 文書B</text>
+<rect x="360" y="138" width="120" height="34" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="420" y="155" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >3. 文書C</text>
+<rect x="360" y="182" width="120" height="34" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="420" y="199" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >4. 文書E</text>
+<rect x="210" y="100" width="120" height="70" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="270" y="125" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >質問との関係の</text>
+<text x="270" y="145" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >強さで採点</text>
+<circle cx="330" cy="100" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="330" y="101" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="182" y1="135" x2="208" y2="135" stroke="#f57c00" stroke-width="2.5" marker-end="url(#genaiextra0018mf57c00)"/>
+<line x1="332" y1="135" x2="358" y2="135" stroke="#f57c00" stroke-width="2.5" marker-end="url(#genaiextra0018mf57c00)"/>
+<text x="270" y="240" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >上位だけを生成AIに渡す</text>
+</svg>

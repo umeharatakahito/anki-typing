@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" width="540" height="270" font-family="sans-serif">
+<rect width="540" height="270" fill="#fff"/>
+<rect x="50" y="40" width="34" height="34" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="67" y="57" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >l</text>
+<rect x="90" y="40" width="34" height="34" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="107" y="57" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >o</text>
+<rect x="130" y="40" width="34" height="34" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="147" y="57" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >w</text>
+<rect x="170" y="40" width="34" height="34" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="187" y="57" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >e</text>
+<rect x="210" y="40" width="34" height="34" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="227" y="57" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >r</text>
+<text x="270" y="57" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >最初は1文字ずつ</text>
+<rect x="50" y="90" width="48" height="34" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="74" y="107" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >lo</text>
+<rect x="104" y="90" width="34" height="34" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="121" y="107" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >w</text>
+<rect x="144" y="90" width="34" height="34" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="161" y="107" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >e</text>
+<rect x="184" y="90" width="34" height="34" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="201" y="107" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >r</text>
+<text x="270" y="107" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >「l o」がよく並ぶ → まとめる</text>
+<rect x="50" y="140" width="48" height="34" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="74" y="157" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >lo</text>
+<rect x="104" y="140" width="34" height="34" rx="4" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="121" y="157" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >w</text>
+<rect x="144" y="140" width="48" height="34" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="168" y="157" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >er</text>
+<text x="270" y="157" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >「e r」をまとめる</text>
+<rect x="50" y="190" width="62" height="34" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="81" y="207" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >low</text>
+<rect x="118" y="190" width="48" height="34" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="142" y="207" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >er</text>
+<text x="270" y="207" font-size="12" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >「lo w」をまとめる</text>
+<text x="270" y="250" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >よく並ぶ文字の組を順に1つにまとめて語彙を作る</text>
+<circle cx="510" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

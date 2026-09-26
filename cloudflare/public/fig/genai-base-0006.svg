@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" width="540" height="270" font-family="sans-serif">
+<rect width="540" height="270" fill="#fff"/>
+<defs><marker id="genaibase0006mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<text x="130" y="26" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >正解の付いていないデータ</text>
+<circle cx="75.9059" cy="107.16" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="76.3825" cy="95.589" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="65.1197" cy="97.0138" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="97.7907" cy="105.938" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="96.5901" cy="103.485" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="86.3163" cy="102.595" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="53.343" cy="111.974" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="88.1022" cy="106.983" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="142.938" cy="155.586" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="155.766" cy="173.445" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="174.887" cy="179.357" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="178.336" cy="171.009" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="174.939" cy="185.518" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="159.422" cy="204.045" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="178.906" cy="196.758" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="160.075" cy="169.647" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="194.495" cy="78.5101" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="210.113" cy="83.478" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="192.842" cy="66.6032" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="191.671" cy="97.0929" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="187.073" cy="83.4266" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="206.824" cy="59.1436" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="200.776" cy="98.2874" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="167.77" cy="75.4977" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<line x1="260" y1="130" x2="300" y2="130" stroke="#f57c00" stroke-width="3" marker-end="url(#genaibase0006mf57c00)"/>
+<circle cx="280" cy="100" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="280" y="101" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<ellipse cx="330" cy="100" rx="42" ry="36" fill="#bbdefb" stroke="#1976d2" stroke-width="2" stroke-dasharray="5 3"/>
+<ellipse cx="420" cy="180" rx="42" ry="36" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" stroke-dasharray="5 3"/>
+<ellipse cx="450" cy="80" rx="42" ry="36" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" stroke-dasharray="5 3"/>
+<circle cx="325.906" cy="107.16" r="5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="326.382" cy="95.589" r="5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="315.12" cy="97.0138" r="5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="347.791" cy="105.938" r="5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="346.59" cy="103.485" r="5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="336.316" cy="102.595" r="5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="303.343" cy="111.974" r="5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="338.102" cy="106.983" r="5" fill="#1976d2" stroke="#1976d2" stroke-width="0" />
+<circle cx="392.938" cy="155.586" r="5" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<circle cx="405.766" cy="173.445" r="5" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<circle cx="424.887" cy="179.357" r="5" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<circle cx="428.336" cy="171.009" r="5" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<circle cx="424.939" cy="185.518" r="5" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<circle cx="409.422" cy="204.045" r="5" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<circle cx="428.906" cy="196.758" r="5" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<circle cx="410.075" cy="169.647" r="5" fill="#388e3c" stroke="#388e3c" stroke-width="0" />
+<circle cx="444.495" cy="78.5101" r="5" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="0" />
+<circle cx="460.113" cy="83.478" r="5" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="0" />
+<circle cx="442.842" cy="66.6032" r="5" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="0" />
+<circle cx="441.671" cy="97.0929" r="5" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="0" />
+<circle cx="437.073" cy="83.4266" r="5" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="0" />
+<circle cx="456.824" cy="59.1436" r="5" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="0" />
+<circle cx="450.776" cy="98.2874" r="5" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="0" />
+<circle cx="417.77" cy="75.4977" r="5" fill="#7b1fa2" stroke="#7b1fa2" stroke-width="0" />
+<text x="390" y="250" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >似たものどうしをグループに分ける</text>
+</svg>

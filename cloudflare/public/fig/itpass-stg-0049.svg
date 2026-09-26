@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 280" width="560" height="280" font-family="sans-serif">
+<rect width="560" height="280" fill="#fff"/>
+<defs><marker id="itpassstg0049m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="itpassstg0049mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<line x1="110" y1="250" x2="540" y2="250" stroke="#37474f" stroke-width="2" marker-end="url(#itpassstg0049m37474f)"/>
+<text x="160" y="266" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2025</text>
+<text x="270" y="266" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2027</text>
+<text x="380" y="266" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2029</text>
+<text x="490" y="266" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2031</text>
+<text x="90" y="80" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >研究</text>
+<rect x="110" y="60" width="176" height="40" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="198" y="80" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >電池 容量2倍</text>
+<rect x="308" y="60" width="220" height="40" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="418" y="80" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >全固体電池</text>
+<text x="90" y="170" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >製品</text>
+<rect x="165" y="150" width="187" height="40" rx="6" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<text x="258.5" y="170" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >小型ドローン</text>
+<rect x="374" y="150" width="165" height="40" rx="6" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<text x="456.5" y="170" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >長距離配送機</text>
+<path d="M240,100 L240,148" fill="none" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpassstg0049mf57c00)"/>
+<path d="M440,100 L440,148" fill="none" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpassstg0049mf57c00)"/>
+<rect x="102" y="44" width="448" height="170" rx="8" fill="none" stroke="#f57c00" stroke-width="3" stroke-dasharray="6 4"/>
+<circle cx="550" cy="44" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="550" y="45" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

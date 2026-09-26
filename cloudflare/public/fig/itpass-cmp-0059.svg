@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="itpasscmp0059m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="40" y="90" width="90" height="70" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="85" y="125" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >CPU</text>
+<path d="M220,94 L220,156 A50,14 0 0 0 320,156 L320,94" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<ellipse cx="270" cy="94" rx="50" ry="14" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="130" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >いったん</text>
+<text x="270" y="146" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >ためる</text>
+<rect x="210" y="70" width="120" height="110" rx="8" fill="none" stroke="#f57c00" stroke-width="3" />
+<circle cx="330" cy="70" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="330" y="71" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="420" y="95" width="80" height="60" rx="4" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<rect x="432" y="83" width="56" height="14" rx="0" fill="#fff" stroke="#37474f" stroke-width="1.5" />
+<text x="460" y="175" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >プリンタ（遅い）</text>
+<line x1="132" y1="125" x2="216" y2="125" stroke="#37474f" stroke-width="3" marker-end="url(#itpasscmp0059m37474f)"/>
+<text x="174" y="108" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >速い</text>
+<line x1="324" y1="125" x2="416" y2="125" stroke="#37474f" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#itpasscmp0059m37474f)"/>
+<text x="370" y="108" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >少しずつ</text>
+<text x="85" y="190" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >すぐ次の仕事へ</text>
+</svg>

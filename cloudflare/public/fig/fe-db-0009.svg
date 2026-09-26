@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="fedb0009m388e3c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#388e3c"/></marker></defs>
+<path d="M230,61.2 L230,108.8 A40,11.2 0 0 0 310,108.8 L310,61.2" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<ellipse cx="270" cy="61.2" rx="40" ry="11.2" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="90.6" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >在庫 10</text>
+<circle cx="80" cy="76" r="9" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M65,108 Q65,88 80,88 Q95,88 95,108 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="80" y="122" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >T1</text>
+<line x1="104" y1="90" x2="226" y2="88" stroke="#388e3c" stroke-width="2.5" marker-end="url(#fedb0009m388e3c)"/>
+<text x="160" y="70" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >更新中</text>
+<path d="M261.6,141.2 L261.6,131.6 A8.4,8.4 0 0 1 278.4,131.6 L278.4,141.2" fill="none" stroke="#f57c00" stroke-width="3" />
+<rect x="256.8" y="140" width="26.4" height="20.4" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="270" cy="149.6" r="2.64" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="460" cy="76" r="9" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M445,108 Q445,88 460,88 Q475,88 475,108 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="460" y="122" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >T2</text>
+<line x1="436" y1="90" x2="316" y2="88" stroke="#bbb" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="380" y="70" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >待たされる</text>
+<circle cx="300" cy="136" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="137" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="210" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >同時に更新して矛盾が起きないよう、ほかの処理を待たせる</text>
+</svg>

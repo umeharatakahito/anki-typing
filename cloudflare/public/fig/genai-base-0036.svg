@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="genaibase0036m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<circle cx="60" cy="106" r="9" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<path d="M45,138 Q45,118 60,118 Q75,118 75,138 Z" fill="#fff3e0" stroke="#6d4c41" stroke-width="2" />
+<text x="60" y="152" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >利用者</text>
+<line x1="86" y1="120" x2="170" y2="120" stroke="#37474f" stroke-width="2" marker-end="url(#genaibase0036m37474f)" marker-start="url(#genaibase0036m37474f)"/>
+<rect x="170" y="40" width="350" height="170" rx="10" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<circle cx="520" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="520" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="190" y="70" width="140" height="110" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="260" y="125" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >推論する仕組み</text>
+<rect x="350" y="70" width="150" height="110" rx="6" fill="#fff" stroke="#37474f" stroke-width="2" />
+<text x="425" y="86" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >専門家の知識</text>
+<text x="360" y="112" font-size="11" text-anchor="start" dominant-baseline="middle" fill="#222" >もし熱が38℃以上</text>
+<text x="360" y="132" font-size="11" text-anchor="start" dominant-baseline="middle" fill="#222" >かつ せきが出る</text>
+<text x="360" y="152" font-size="11" text-anchor="start" dominant-baseline="middle" fill="#222" >ならば 〇〇の疑い</text>
+<line x1="332" y1="125" x2="348" y2="125" stroke="#37474f" stroke-width="2" marker-end="url(#genaibase0036m37474f)" marker-start="url(#genaibase0036m37474f)"/>
+<text x="270" y="235" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >大量のルールを組み込み、診断や助言を行う</text>
+</svg>

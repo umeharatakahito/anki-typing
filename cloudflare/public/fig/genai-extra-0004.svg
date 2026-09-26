@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="540" height="250" font-family="sans-serif">
+<rect width="540" height="250" fill="#fff"/>
+<defs><marker id="genaiextra0004mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<path d="M40,85.4 L40,154.6 A55,15.4 0 0 0 150,154.6 L150,85.4" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<ellipse cx="95" cy="85.4" rx="55" ry="15.4" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="95" y="120.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >訓練データ</text>
+<text x="95" y="134.9" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >全体</text>
+<path d="M152,100 Q280,20 400,100" fill="none" stroke="#f57c00" stroke-width="3" marker-end="url(#genaiextra0004mf57c00)"/>
+<rect x="400" y="90" width="110" height="50" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="455" y="115" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >モデル更新</text>
+<path d="M400,130 Q280,210 152,140" fill="none" stroke="#f57c00" stroke-width="3" marker-end="url(#genaiextra0004mf57c00)"/>
+<text x="280" y="45" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >全部を一通り使う</text>
+<text x="280" y="200" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＝ 1回と数える</text>
+<circle cx="280" cy="120" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="280" y="121" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="270" y="238" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（10回くり返せば 10 と数える）</text>
+</svg>

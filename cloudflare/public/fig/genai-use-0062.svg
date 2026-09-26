@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 260" width="540" height="260" font-family="sans-serif">
+<rect width="540" height="260" fill="#fff"/>
+<defs><marker id="genaiuse0062m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="60" y1="210" x2="490" y2="210" stroke="#37474f" stroke-width="2" marker-end="url(#genaiuse0062m37474f)"/>
+<line x1="60" y1="210" x2="60" y2="30" stroke="#37474f" stroke-width="2" marker-end="url(#genaiuse0062m37474f)"/>
+<text x="488" y="230" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >時間（1分ごと）</text>
+<text x="68" y="22" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >依頼の数</text>
+<line x1="60" y1="126" x2="480" y2="126" stroke="#d32f2f" stroke-width="2.5" stroke-dasharray="6 4"/>
+<text x="476" y="60" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#d32f2f" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >上限：60回／分</text>
+<rect x="80" y="154" width="44" height="56" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<rect x="145" y="133" width="44" height="77" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<rect x="210" y="112" width="44" height="98" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<rect x="210" y="112" width="44" height="14" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<rect x="275" y="168" width="44" height="42" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<rect x="340" y="91" width="44" height="119" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<rect x="340" y="91" width="44" height="35" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<rect x="405" y="140" width="44" height="70" rx="0" fill="#c8e6c9" stroke="#388e3c" stroke-width="1.5" />
+<text x="270" y="240" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >超えた分は一時的に断られる</text>
+<circle cx="500" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="500" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

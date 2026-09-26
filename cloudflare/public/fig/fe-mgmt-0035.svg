@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 230" width="540" height="230" font-family="sans-serif">
+<rect width="540" height="230" fill="#fff"/>
+<defs><marker id="femgmt0035m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="10" y="110" width="76" height="50" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="48" y="135" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >計画</text>
+<rect x="98" y="110" width="76" height="50" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<text x="136" y="136" font-size="30" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >?</text>
+<circle cx="174" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="174" y="111" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="136" y="180" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >実態をつかむ</text>
+<line x1="86" y1="135" x2="97" y2="135" stroke="#37474f" stroke-width="2" marker-end="url(#femgmt0035m37474f)"/>
+<rect x="186" y="110" width="76" height="50" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="224" y="135" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >本調査</text>
+<line x1="174" y1="135" x2="185" y2="135" stroke="#37474f" stroke-width="2" marker-end="url(#femgmt0035m37474f)"/>
+<rect x="274" y="110" width="76" height="50" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="312" y="135" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >評価・結論</text>
+<line x1="262" y1="135" x2="273" y2="135" stroke="#37474f" stroke-width="2" marker-end="url(#femgmt0035m37474f)"/>
+<rect x="362" y="110" width="76" height="50" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="400" y="135" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >報告</text>
+<line x1="350" y1="135" x2="361" y2="135" stroke="#37474f" stroke-width="2" marker-end="url(#femgmt0035m37474f)"/>
+<rect x="450" y="110" width="76" height="50" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="488" y="127.8" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >フォロー</text>
+<text x="488" y="142.2" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >アップ</text>
+<line x1="438" y1="135" x2="449" y2="135" stroke="#37474f" stroke-width="2" marker-end="url(#femgmt0035m37474f)"/>
+<text x="270" y="60" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >システム監査の流れ</text>
+</svg>

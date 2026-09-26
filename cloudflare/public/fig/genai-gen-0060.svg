@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 220" width="540" height="220" font-family="sans-serif">
+<rect width="540" height="220" fill="#fff"/>
+<rect x="20" y="90" width="64" height="64" rx="0" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5" />
+<text x="52" y="122" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >画像</text>
+<polygon points="100,70 200,100 200,144 100,174" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" stroke-linejoin="round" />
+<text x="150" y="122" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >圧縮</text>
+<rect x="215" y="70" width="110" height="100" rx="8" fill="#fff9c4" stroke="#f9a825" stroke-width="2" />
+<text x="270" y="105" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >確率の分布</text>
+<text x="270" y="125" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >（平均・ばらつき）</text>
+<text x="270" y="150" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222" >から取り出す</text>
+<rect x="90" y="60" width="360" height="124" rx="10" fill="none" stroke="#f57c00" stroke-width="3" stroke-dasharray="6 4"/>
+<circle cx="450" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="450" y="61" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<polygon points="340,100 440,70 440,174 340,144" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" stroke-linejoin="round" />
+<text x="390" y="122" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >復元</text>
+<rect x="456" y="90" width="64" height="64" rx="0" fill="#e8f5e9" stroke="#388e3c" stroke-width="1.5" />
+<text x="488" y="122" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >画像</text>
+</svg>

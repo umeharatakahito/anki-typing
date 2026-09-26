@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 310" width="540" height="310" font-family="sans-serif">
+<rect width="540" height="310" fill="#fff"/>
+<rect x="15" y="50" width="170" height="230" rx="10" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="100" y="68" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >社内LAN</text>
+<rect x="52.4" y="108.2" width="35.2" height="24" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="55.6" y="111.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M58.8,140.2 L81.2,140.2 L76.4,132.2 L63.6,132.2 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="70" y="151.4" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >192.168.1.10</text>
+<rect x="52.4" y="198.2" width="35.2" height="24" rx="3" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<rect x="55.6" y="201.4" width="28.8" height="17.6" rx="1" fill="#fff" stroke="#1976d2" stroke-width="1" />
+<path d="M58.8,230.2 L81.2,230.2 L76.4,222.2 L63.6,222.2 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="70" y="241.4" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >192.168.1.11</text>
+<ellipse cx="245" cy="170" rx="34" ry="21" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<circle cx="274" cy="140" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="274" y="141" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="185" y1="170" x2="211" y2="170" stroke="#37474f" stroke-width="2"/>
+<path d="M431.5,197 C409.5,197 409.5,161 431.5,161 C431.5,129.5 464.5,125 472.75,145.25 C486.5,125 516.75,134 511.25,163.25 C530.5,165.5 530.5,197 508.5,197 Z" fill="#f5f5f5" stroke="#78909c" stroke-width="2" />
+<text x="470" y="162" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >インター</text>
+<text x="470" y="180" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >ネット</text>
+<line x1="279" y1="170" x2="418" y2="170" stroke="#37474f" stroke-width="2"/>
+<rect x="290" y="190" width="230" height="90" rx="6" fill="#fff" stroke="#f57c00" stroke-width="2" />
+<text x="405" y="206" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >変換の対応表</text>
+<text x="300" y="232" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" >192.168.1.10</text>
+<text x="510" y="232" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" >⇔ 203.0.113.5</text>
+<text x="300" y="258" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" >192.168.1.11</text>
+<text x="510" y="258" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#222" >⇔ 203.0.113.6</text>
+<text x="170" y="24" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >内側の番号 ⇔ 外で使う番号</text>
+</svg>

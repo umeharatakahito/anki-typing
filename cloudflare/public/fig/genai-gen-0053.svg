@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 240" width="540" height="240" font-family="sans-serif">
+<rect width="540" height="240" fill="#fff"/>
+<rect x="30" y="90" width="60" height="100" rx="8" fill="#263238" stroke="#263238" stroke-width="1" />
+<rect x="38" y="104" width="44" height="70" rx="3" fill="#e3f2fd" stroke="#e3f2fd" stroke-width="0" />
+<text x="60" y="210" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >スマホなど</text>
+<rect x="20" y="80" width="80" height="120" rx="10" fill="none" stroke="#f57c00" stroke-width="3.5" />
+<text x="60" y="139" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" >計算</text>
+<circle cx="100" cy="80" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="100" y="81" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<path d="M337,176 C301,176 301,128 337,128 C337,86 391,80 404.5,107 C427,80 476.5,92 467.5,131 C499,134 499,176 463,176 Z" fill="#f5f5f5" stroke="#78909c" stroke-width="2" />
+<text x="400" y="140" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" >事業者のサーバ</text>
+<line x1="110" y1="140" x2="300" y2="140" stroke="#ccc" stroke-width="2" stroke-dasharray="5 4"/>
+<line x1="201" y1="131" x2="219" y2="149" stroke="#d32f2f" stroke-width="3.5"/>
+<line x1="201" y1="149" x2="219" y2="131" stroke="#d32f2f" stroke-width="3.5"/>
+<text x="210" y="110" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >データを送らない</text>
+</svg>
