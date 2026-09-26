@@ -8,7 +8,7 @@
       "binding": "DB",
       "database_name": "anki-typing",
       // `npx wrangler d1 create anki-typing` で表示された ID に置き換える
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_id": "3e1785ac-e860-42ba-bc18-4697e3a63e9d",
       "migrations_dir": "migrations"
     }
   ],
