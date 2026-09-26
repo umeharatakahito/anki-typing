@@ -3,7 +3,7 @@
   #set-title:empty{ display:none; }
   #level-note{ margin:10px 0 0; font-size:13px; text-align:center; opacity:.8; }
   #level-note:empty{ display:none; }
-  #last-note{ max-width:800px; margin:6px auto 0; padding:8px 12px; font-size:14px; line-height:1.6;
+  #last-note{ width:100%; margin:0; padding:8px 12px; font-size:14px; line-height:1.6; text-align:left;
     white-space:pre-wrap; border-radius:8px; background:rgba(59,189,221,.12); }
   #last-note:empty{ display:none; }
   #last-note .ln-head{ font-weight:bold; }
@@ -13,6 +13,13 @@
   @keyframes lv-pop{ 0%{ transform:scale(1.8); color:#1a8f3c; } 100%{ transform:scale(1); } }
   .level-cap{ font-size:14px; opacity:.85; }
   body.playing-game #home-link{ display:none; }
+  /* 画像の無い問題では、画像の場所を空けない */
+  .card-image-container:empty{ display:none; }
+  /* 左上の戻るボタン。押しやすい大きさにする */
+  #home-link{ position:absolute; top:8px; left:10px; z-index:5; display:inline-flex; align-items:center; gap:4px;
+    padding:8px 14px !important; font-size:15px !important; font-weight:bold; border-radius:999px;
+    background:rgba(59,189,221,.14); border:1px solid rgba(59,189,221,.5); }
+  #home-link:hover{ text-decoration:none; background:rgba(59,189,221,.25); }
 </style>
 <script>
 // ===============================================================
@@ -241,6 +248,9 @@
         ? `<span class="ln-head">${ok ? '○' : '×'} ${esc(card.kan)}</span>\n${esc(card.note)}`
         : '';
       note.innerHTML = [change, body].filter(Boolean).join('\n');
+      // この問題を解き終えたキーでは消さない。次に何かキーを押したら消す
+      note.dataset.armed = '';
+      setTimeout(() => { note.dataset.armed = '1'; }, 0);
     },
 
     levelEndHtml() {
@@ -253,6 +263,31 @@
       return html;
     }
   });
+
+  // 次に何かキーを押したら、前の問題の解説を消す
+  window.addEventListener('keydown', () => {
+    const note = document.getElementById('last-note');
+    if (note && note.dataset.armed === '1' && note.innerHTML) {
+      // 無料版の上限の案内だけは残す
+      note.innerHTML = h.lvCapped && d() ? `<span class="ln-level">無料版はレベル${d().maxLevel}まで</span>` : '';
+      note.dataset.armed = '';
+    }
+  });
+
+  // 大学受験モードの画面キーボード（JukenKeyboard.html）からの入力を、ふつうのキー入力として渡す
+  window.hamachiPad = {
+    get playing() { return h.playing && !h.paused; },
+    get locked() { return h.awaitingNext; },
+    handleKey(k) { window.dispatchEvent(new KeyboardEvent('keydown', { key: k })); },
+    kbLabel() { return '答えをローマ字・英字で入力'; }
+  };
+  // 画面キーボードは #screen-game が見えている間だけ出るので、ゲーム中かどうかを写しておく
+  const marker = document.getElementById('screen-game');
+  if (marker) {
+    new MutationObserver(() => {
+      marker.hidden = !document.body.classList.contains('playing-game');
+    }).observe(document.body, { attributes: true, attributeFilter: ['class'] });
+  }
 
   buildMenu();
 }(window, document));

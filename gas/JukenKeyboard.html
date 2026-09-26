@@ -152,10 +152,10 @@
     { keys: [{ k: "'", flex: 2 }, { k: ' ', label: 'space', flex: 6 }, { k: '閉じる', act: 'close', flex: 2 }] }
   ];
 
-  // 1人用と対戦モードの両方から読み込まれるので、どちらの画面かを実行時に見る。
+  // 1人用と対戦モード、タイピング（hamachiPad）から読み込まれるので、どの画面かを実行時に見る。
   // 状態の持ち方が違う（1人用は playing/locked/phase、対戦は round.*）ため、
   // 入力可否とフェーズはここで吸収する。
-  const game       = () => window.juken || window.jukenVs || window.kobun || window.rekishi || null;
+  const game       = () => window.juken || window.jukenVs || window.kobun || window.rekishi || window.hamachiPad || null;
   const gameScreen = () => document.getElementById('screen-game') || document.getElementById('vs-game');
   const phaseTag   = () => document.getElementById('phase-tag') || document.getElementById('vs-phase-tag');
 

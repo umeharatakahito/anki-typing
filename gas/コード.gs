@@ -13,7 +13,7 @@ const SHEET_NAME_QUESTIONS = 'problems';
 // パス形式（.../exec/juken）だと匿名公開でもGoogleがログインを要求するため、
 // 入口はクエリに寄せている。ログイン済みの利用者向けにパス形式も受け付ける。
 const AUTO_MODE_BY_ROUTE = {
-  'practice': '練習モード',
+  'practice': '写経モード',
   'normal':   '通常モード',
   'hard':     '極みモード',
   'kiwami':   '極みモード',

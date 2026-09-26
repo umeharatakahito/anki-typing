@@ -38,7 +38,7 @@
       <div class="menu-title">Play</div>
       <div class="menu-content">
         <ul id="mode-list">
-          <li><button class="button menu-opt hamachi-mode-opt" onclick="hamachi.startGame('練習モード');">練習モード</button></li>
+          <li><button class="button menu-opt hamachi-mode-opt" onclick="hamachi.startGame('写経モード');">写経モード</button></li>
           <li><button class="button menu-opt hamachi-mode-opt" onclick="hamachi.startGame('通常モード');">通常モード</button></li>
           <li><button class="button menu-opt hamachi-mode-opt" onclick="hamachi.startGame('極みモード');">極みモード</button></li>
         </ul>
@@ -54,7 +54,8 @@
         <div style="display:flex; gap:8px; align-items:center; margin:6px 0 12px;">
           <select id="rank-mode">
             <option value="all">全モード</option>
-            <option value="練習モード">練習モード</option>
+            <option value="写経モード">写経モード</option>
+            <option value="練習モード">練習モード（以前の記録）</option>
             <option value="通常モード">通常モード</option>
             <option value="極みモード">極みモード</option>
           </select>
@@ -120,7 +121,6 @@
       </div>
 
       <div id="answer-banner" aria-live="polite"></div>
-      <div id="last-note" aria-live="polite"></div>
 
       <div id="correct-message" style="display:none; text-align:center; font-size:2em; color:#00AA00; font-weight:bold;"></div>
 
@@ -128,15 +128,8 @@
 
       <div id="input-zone" class="content-block">
         <div id="game-input"></div>
-        <br>
-        <div id="virtual-keyboard">
-          <div class="key_1">1</div><div class="key_2">2</div><div class="key_3">3</div><div class="key_4">4</div><div class="key_5">5</div><div class="key_6">6</div><div class="key_7">7</div><div class="key_8">8</div><div class="key_9">9</div><div class="key_0">0</div><div class="key_-">-</div>
-          <div class="key_q">Q</div><div class="key_w">W</div><div class="key_e">E</div><div class="key_r">R</div><div class="key_t">T</div><div class="key_y">Y</div><div class="key_u">U</div><div class="key_i">I</div><div class="key_o">O</div><div class="key_p">P</div>
-          <div class="key_a">A</div><div class="key_s">S</div><div class="key_d">D</div><div class="key_f">F</div><div class="key_g">G</div><div class="key_h">H</div><div class="key_j">J</div><div class="key_k">K</div><div class="key_l">L</div>
-          <div class="key_z">Z</div><div class="key_x">X</div><div class="key_c">C</div><div class="key_v">V</div><div class="key_b">B</div><div class="key_n">N</div><div class="key_m">M</div>
-          <div class="key_space">space</div>
-        </div>
-    <div class="vk-clear"></div> 
+        <!-- 前の問題の正解と解説。何かキーを押すまで出しておく -->
+        <div id="last-note" aria-live="polite"></div>
           <button id="pause-btn" class="button menu-opt" onclick="hamachi.pause();">Pause</button>
     <div id="hamachi-hint" style="display:none"></div>
       </div>
@@ -172,8 +165,11 @@
       // このページに並べる問題集（Cloudflare 版の sets.js。GAS 版では null）
       window.STUDY_SET = <?!= JSON.stringify(typeof studySet === 'undefined' ? null : studySet) ?>;
     </script>
+    <!-- ゲーム中だけ見える目印。画面キーボード（JukenKeyboard）と広告の出し分けに使う -->
+    <div id="screen-game" hidden></div>
     <?!= include('RomajiLib'); ?>
     <?!= include('JavaScript'); ?>
     <?!= include('StudyLevel'); ?>
+    <?!= include('JukenKeyboard'); ?>
   </body>
 </html>

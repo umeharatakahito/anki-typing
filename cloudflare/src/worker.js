@@ -23,7 +23,7 @@ export { VersusHub };
 // ---------------------------------------------------------------
 // 画面（コード.gs の doGet と同じ対応表）
 const AUTO_MODE_BY_ROUTE = {
-  'practice': '練習モード',
+  'practice': '写経モード',
   'normal':   '通常モード',
   'hard':     '極みモード',
   'kiwami':   '極みモード',

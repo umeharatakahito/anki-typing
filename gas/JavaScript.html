@@ -176,9 +176,10 @@
 
     // ---- モード設定 ----
     modeConfig: {
-      '練習モード': {
+      // 写経モード：答えを最初から見せて、打つ速さと正確さだけを練習する
+      '写経モード': {
         timePerCard: 20000, damagePerMiss: 3, scorePerClear: 1, healOnClear: 2,
-        hint1At: 0.95, hint2At: 0.90, allowLooseRomaji: true, showRomajiGuide: true,
+        hint1At: 1.01, hint2At: 1.01, allowLooseRomaji: true, showRomajiGuide: true,
         barColor: '#81c784', clearDelayMs: 10,
         minTimeMs: 5000 
       },
@@ -396,7 +397,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
       document.body.className = document.body.className.replace('main-menu', 'playing-game');
       const safeMode =
         /極/.test(mode) ? 'mode-kiwami' :
-        /練/.test(mode) ? 'mode-practice' :
+        /練|写/.test(mode) ? 'mode-practice' :
                           'mode-normal';
       document.body.classList.remove('mode-kiwami','mode-practice','mode-normal');
       document.body.classList.add(safeMode);
@@ -441,7 +442,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
       countdownEl.innerHTML = "Ready";
       this.cache.card.style.display = 'none';
       this.cache.input.style.display = this.cfg.showRomajiGuide ? 'none' : 'none';
-      this.cache.keyboard.style.display = 'none';
+      if (this.cache.keyboard) this.cache.keyboard.style.display = 'none';
 
       let counter = setInterval(() => {
         if (count === 0) {
@@ -451,7 +452,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
           countdownEl.style.display = "none";
           this.cache.card.style.display = '';
           if (this.cfg.showRomajiGuide) this.cache.input.style.display = '';
-          this.cache.keyboard.style.display = '';
+          if (this.cache.keyboard) this.cache.keyboard.style.display = '';
           this.playing = true;
           this.nextCard();
         } else {
@@ -508,11 +509,12 @@ buildKanjiRuby: function (kanMixed, yomi) {
       this.currentCard = card;
 
       // 入力状態リセット
-      const conversion = kanaToRoman(card.ans);
+      const conversion = splitAsciiRuns(kanaToRoman(card.ans));
       wordR    = conversion[0];
       hiragana = conversion[1];
       pattern  = new Array(wordR.length).fill(0);
       idx1 = 0; idx2 = 0; temp = '';
+      skipAutoChunks();
 
       // よみ
       const yomi = Array.isArray(hiragana) ? hiragana.join('') : (hiragana || '');
@@ -1381,6 +1383,32 @@ enableMenuNav(menuEl) {
 
 
   // ==========================
+  // 自動で入る文字（スペース・ピリオド・カンマ）
+  // ==========================
+  const AUTO_CHUNKS = /^[ .,]$/;
+
+  // kanaToRoman は「, please」のように記号から始まる英字のかたまりを 1 つにまとめるので、
+  // 英字のかたまりは 1 文字ずつに分けておく（英字は打ち方が 1 通りなので分けても同じ）
+  function splitAsciiRuns(conv) {
+    const w = [], h = [];
+    conv[0].forEach((pats, i) => {
+      const run = pats[0];
+      if (pats.length === 1 && run.length > 1 && /^[\x20-\x7e]+$/.test(run)) {
+        for (const ch of run) { w.push([ch]); h.push(ch); }
+      } else {
+        w.push(pats); h.push(conv[1][i]);
+      }
+    });
+    return [w, h];
+  }
+
+  function skipAutoChunks() {
+    while (wordR && idx1 < wordR.length && wordR[idx1].length === 1 && AUTO_CHUNKS.test(wordR[idx1][0])) {
+      idx1++;
+    }
+  }
+
+  // ==========================
   // キー入力（ゲーム中のみ）
   // ==========================
   window.addEventListener('keydown', (event) => {
@@ -1401,6 +1429,8 @@ enableMenuNav(menuEl) {
 
     if (!wordR || idx1 >= wordR.length) return;
     if (!/^[a-z0-9\-\,\.\s]$/.test(key)) return;
+    // スペース・ピリオド・カンマは自動で入るので、打っても打たなくてもよい
+    if (idx2 === 0 && AUTO_CHUNKS.test(key)) return;
 
     temp += key;
 
@@ -1424,6 +1454,7 @@ enableMenuNav(menuEl) {
       idx2++;
       if (idx2 === wordR[idx1][pattern[idx1]].length) {
         idx1++; idx2 = 0; temp = '';
+        skipAutoChunks();
         hamachi.updateInputDisplay();
 
         // 完了？
