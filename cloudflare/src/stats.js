@@ -79,18 +79,49 @@ export async function getLevelQuestions(env, category, level) {
 
 // ---------------------------------------------------------------
 // 暗記タイピング: スコア保存とランキング
+// ログインしている人はニックネームで保存し、ユーザーランキングに載せる
 export async function saveScore(env, payload) {
   const p = payload || {};
+  const v = env.viewer;
   await env.DB.prepare(
-    `INSERT INTO scores (timestamp, username, score, mode, kubun, chain, great, good, okay, miss, misstype, time, level)
-     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+    `INSERT INTO scores (timestamp, username, score, mode, kubun, chain, great, good, okay, miss, misstype, time, level, email)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
   ).bind(
-    Date.now(), p.username == null ? '' : String(p.username), num(p.score),
+    Date.now(), v.email ? v.name : (p.username == null ? '' : String(p.username)), num(p.score),
     p.gameMode == null ? '' : String(p.gameMode), p.kubun == null ? '' : String(p.kubun),
     num(p.chain), num(p.great), num(p.good), num(p.okay), num(p.miss), num(p.misstype), num(p.time),
-    num(p.level)
+    num(p.level), v.email || ''
   ).run();
   return { ok: true };
+}
+
+// ユーザーランキング: ログインして保存した記録の、人ごとのいちばん良い回。
+// kubun を 'all' にすると、問題集ごとのベストを足した合計で並べる。mode は 'all' で全モード
+export async function getUserRanking(env, kubun, mode, limit) {
+  limit = Math.min(Number(limit) || 100, 200);
+  const where = ["s.email <> ''"], args = [];
+  if (mode && mode !== 'all') { where.push('s.mode = ?'); args.push(String(mode)); }
+  if (kubun && kubun !== 'all') {
+    where.push('s.kubun = ?'); args.push(String(kubun));
+    const { results } = await env.DB.prepare(
+      `SELECT u.nickname, b.score, b.level, b.mode, b.timestamp, b.email = ? AS me FROM (
+         SELECT s.*, ROW_NUMBER() OVER (PARTITION BY s.email ORDER BY s.score DESC, s.id) AS rn
+           FROM scores s WHERE ${where.join(' AND ')}
+       ) b JOIN users u ON u.email = b.email
+       WHERE b.rn = 1 ORDER BY b.score DESC LIMIT ?`
+    ).bind(env.viewer.email || '', ...args, limit).all();
+    return results.map((r, i) => ({ rank: i + 1, nickname: r.nickname, score: num(r.score), level: num(r.level),
+      mode: r.mode, dateStr: fmtDate(r.timestamp, true), me: !!r.me }));
+  }
+  const { results } = await env.DB.prepare(
+    `SELECT u.nickname, SUM(b.best) AS score, COUNT(*) AS sets, MAX(b.at) AS timestamp, b.email = ? AS me FROM (
+       SELECT s.email, s.kubun, s.mode, MAX(s.score) AS best, MAX(s.timestamp) AS at
+         FROM scores s WHERE ${where.join(' AND ')} GROUP BY s.email, s.kubun, s.mode
+     ) b JOIN users u ON u.email = b.email
+     GROUP BY b.email ORDER BY score DESC LIMIT ?`
+  ).bind(env.viewer.email || '', ...args, limit).all();
+  return results.map((r, i) => ({ rank: i + 1, nickname: r.nickname, score: num(r.score), sets: num(r.sets),
+    dateStr: fmtDate(r.timestamp, true), me: !!r.me }));
 }
 
 export async function getRanking(env, mode, kubun, limit) {

@@ -4,16 +4,20 @@
 //
 //   POST /auth/google   … Google の「ログイン」ボタンが返す ID トークンを確かめて Cookie を渡す
 //   POST /auth/logout   … Cookie を消す
+//   POST /auth/nickname … ランキングに出すニックネームを決める／変える
 //   GET  /auth/dev      … 手元（localhost）だけ。DEV_LOGIN=1 のとき ?email= でログインした扱いにする
 //
 // 会員 … 管理者が /admin で登録したメールアドレス。全部の問題が出て、広告が出ない。
-// 管理者 … 環境変数 ADMIN_EMAILS（カンマ区切り）のメールアドレス。会員でもある。
+// 大学受験 … 会員のうち、管理者が /admin で大学受験モードを許した人（英単語・古文・歴史・対戦）。
+// 管理者 … 環境変数 ADMIN_EMAILS（カンマ区切り）のメールアドレス。会員で、大学受験モードも使える。
 // ===============================================================
+
+import { checkNickname } from './nickname.js';
 
 const COOKIE = 'st_session';
 const SESSION_DAYS = 30;
 
-export const GUEST = { email: '', name: '', member: false, admin: false };
+export const GUEST = { email: '', name: '', member: false, admin: false, juken: false, needsNickname: false };
 
 // ---------------------------------------------------------------
 // Google の ID トークン（JWT, RS256）を確かめる
@@ -62,6 +66,12 @@ function sessionCookie(token, url, maxAge) {
 }
 
 async function startSession(env, url, who) {
+  // 初めての人は、Google の名前をニックネームの仮の値にしておく
+  const now0 = Date.now();
+  await env.DB.prepare(
+    `INSERT INTO users (email, google_name, nickname, created_at, last_login) VALUES (?, ?, ?, ?, ?)
+     ON CONFLICT(email) DO UPDATE SET google_name = excluded.google_name, last_login = excluded.last_login`
+  ).bind(who.email, who.name, who.name || who.email.split('@')[0], now0, now0).run();
   const bytes = crypto.getRandomValues(new Uint8Array(32));
   const token = [...bytes].map(b => b.toString(16).padStart(2, '0')).join('');
   const now = Date.now();
@@ -76,11 +86,23 @@ const adminEmails = env => String(env.ADMIN_EMAILS || '').toLowerCase().split(',
 export async function viewerOf(request, env) {
   const token = readCookie(request, COOKIE);
   if (!token) return GUEST;
-  const s = await env.DB.prepare('SELECT email, name, expires_at FROM sessions WHERE token = ?').bind(token).first();
+  const s = await env.DB.prepare(
+    `SELECT s.email, s.expires_at, u.nickname, u.nickname_set, m.email AS member, m.juken
+       FROM sessions s
+       LEFT JOIN users u ON u.email = s.email
+       LEFT JOIN members m ON m.email = s.email
+      WHERE s.token = ?`
+  ).bind(token).first();
   if (!s || s.expires_at < Date.now()) return GUEST;
   const admin = adminEmails(env).includes(s.email);
-  const member = admin || !!(await env.DB.prepare('SELECT 1 FROM members WHERE email = ?').bind(s.email).first());
-  return { email: s.email, name: s.name, member, admin };
+  return {
+    email: s.email,
+    name: s.nickname || s.email.split('@')[0],
+    member: admin || !!s.member,
+    admin,
+    juken: admin || (!!s.member && !!s.juken),
+    needsNickname: !s.nickname_set
+  };
 }
 
 const json = (body, status, headers) => new Response(JSON.stringify(body), {
@@ -108,6 +130,21 @@ export async function handleAuth(request, env, url) {
     const token = readCookie(request, COOKIE);
     if (token) await env.DB.prepare('DELETE FROM sessions WHERE token = ?').bind(token).run();
     return json({ ok: true }, 200, { 'set-cookie': sessionCookie('', url, 0) });
+  }
+
+  if (url.pathname === '/auth/nickname' && request.method === 'POST') {
+    const viewer = await viewerOf(request, env);
+    if (!viewer.email) return json({ error: 'ログインしてください' }, 401);
+    let body;
+    try { body = await request.json(); } catch (e) { return json({ error: '送られた内容が読めません' }, 400); }
+    const res = checkNickname(body.nickname);
+    if (res.error) return json(res, 400);
+    const taken = await env.DB.prepare('SELECT 1 FROM users WHERE nickname = ? AND nickname_set = 1 AND email <> ?')
+      .bind(res.nickname, viewer.email).first();
+    if (taken) return json({ error: 'そのニックネームはもう使われています' }, 409);
+    await env.DB.prepare('UPDATE users SET nickname = ?, nickname_set = 1 WHERE email = ?')
+      .bind(res.nickname, viewer.email).run();
+    return json({ ok: true, nickname: res.nickname });
   }
 
   if (url.pathname === '/auth/dev' && env.DEV_LOGIN === '1' && isLocal(url)) {

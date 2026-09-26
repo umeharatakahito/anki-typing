@@ -59,9 +59,18 @@ function withHead(html, title, viewport) {
   return html;
 }
 
-function renderPage(url) {
+// 大学受験モードの画面のうち、許された人だけが開けるもの（大学受験のメニュー自体は誰でも開ける）
+const JUKEN_ONLY = ['eigo', 'kobun', 'rekishi', 'versus'];
+
+// HTML の文字列か、よそへ回すときは Response を返す
+function renderPage(url, viewer) {
   const route = String(url.searchParams.get('p') || url.pathname.replace(/^\/+|\/+$/g, '')).toLowerCase();
-  const vars = { execUrl: '/', subject: '', subjectLabel: '', backRoute: '', autoMode: '', studySet: null };
+  const vars = { execUrl: '/', subject: '', subjectLabel: '', backRoute: '', autoMode: '', studySet: null,
+                 jukenFull: viewer.juken };
+
+  if (JUKEN_ONLY.includes(route) && !viewer.juken) {
+    return Response.redirect(new URL('/?p=juken', url).toString(), 302);
+  }
 
   const page = JUKEN_PAGES[route];
   if (page) {
@@ -89,6 +98,11 @@ function renderPage(url) {
     });
     return withHead(PAGES.index(vars), 'Study Type（' + STUDY_SETS[setKey].title + '）',
       'width=device-width, initial-scale=1');
+  }
+
+  if (route === 'ranking') {
+    vars.studySet = { groups: Object.values(STUDY_SETS).map(s => ({ title: s.title, cats: s.cats })) };
+    return withHead(PAGES.ranking(vars), 'ランキング', 'width=device-width, initial-scale=1, viewport-fit=cover');
   }
 
   // それ以外はトップメニュー
@@ -129,6 +143,7 @@ const D1_FUNCTIONS = {
   getQuestions: stats.getQuestions,
   getLevelInfo: stats.getLevelInfo,
   getLevelQuestions: stats.getLevelQuestions,
+  getUserRanking: stats.getUserRanking,
   setTheme,
   saveScore: stats.saveScore,
   getRanking: stats.getRanking,
@@ -151,7 +166,19 @@ const D1_FUNCTIONS = {
 };
 
 // env には、今見ている人（env.viewer）が足してある。関数はそれで会員かどうかを見る
+// 大学受験モードの関数（英単語・古文・歴史の出題と記録、対戦）。許された人だけが呼べる
+const JUKEN_FUNCTIONS = new Set([
+  'saveJukenResult', 'getJukenStats', 'getJukenPrefs', 'saveJukenPrefs', 'saveJukenGhost', 'getJukenRound',
+  'getJukenWords', 'getKobunWords', 'getRekishiWords', 'getJukenMeta', 'getKobunMeta', 'getRekishiMeta',
+  'getRekishiZuList', 'getRekishiZu', ...VS_FUNCTIONS
+]);
+
 async function callFunction(env, fn, args) {
+  if (JUKEN_FUNCTIONS.has(fn) && !env.viewer.juken) {
+    const err = new Error('大学受験モードは使えません');
+    err.status = 403;
+    throw err;
+  }
   if (Object.hasOwn(D1_FUNCTIONS, fn)) return D1_FUNCTIONS[fn](env, ...args);
   if (VS_FUNCTIONS.includes(fn)) {
     // 部屋を作るときの出題範囲も、会員でなければ絞る
@@ -217,7 +244,9 @@ export default {
       const pref = await env.DB.prepare('SELECT theme FROM user_prefs WHERE email = ?').bind(viewer.email).first();
       theme = pref ? pref.theme : '';
     }
-    return new Response(decorate(renderPage(url), viewer, env, theme), {
+    const page = renderPage(url, viewer);
+    if (page instanceof Response) return page;
+    return new Response(decorate(page, viewer, env, theme), {
       headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store' }
     });
   }

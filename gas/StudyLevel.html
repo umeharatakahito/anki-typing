@@ -289,6 +289,16 @@
     }).observe(document.body, { attributes: true, attributeFilter: ['class'] });
   }
 
+  // ログインしている人はニックネームで保存する（名前の欄は書き換えられない）
+  const nameInput = document.getElementById('player-name');
+  if (nameInput && window.ST_VIEWER) {
+    nameInput.value = window.ST_VIEWER.name;
+    nameInput.readOnly = true;
+    nameInput.title = 'ニックネームで保存します（右上の名前から変えられます）';
+    const _endGame = h.endGame;
+    h.endGame = function () { const r = _endGame.apply(this, arguments); nameInput.value = window.ST_VIEWER.name; return r; };
+  }
+
   buildMenu();
 }(window, document));
 </script>

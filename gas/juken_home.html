@@ -16,18 +16,19 @@
         <h1 class="title">大学受験モード</h1>
         <p class="subtitle">TYPING FOR ENTRANCE EXAMS</p>
 
-        <ul class="menu-list">
-          <li>
+        <!-- 英単語・古文・歴史は許された人だけ（Cloudflare 版。GAS 版では全部出す） -->
+        <ul class="menu-list" data-full="<?= typeof jukenFull === 'undefined' ? true : jukenFull ?>">
+          <li class="juken-only">
             <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=eigo">
               <span class="num">1</span>英単語
             </a>
           </li>
-          <li>
+          <li class="juken-only">
             <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=kobun">
               <span class="num">2</span>古文単語
             </a>
           </li>
-          <li>
+          <li class="juken-only">
             <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=rekishi">
               <span class="num">3</span>歴史
             </a>
@@ -40,6 +41,7 @@
         </ul>
 
         <p class="note">科目をえらんでください</p>
+        <style>.menu-list[data-full="false"] .juken-only{ display:none; }</style>
       </section>
     </div>
   </body>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <base target="_top">
+    <meta charset="utf-8">
+    <title>ランキング</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <?!= include('JukenCSS'); ?>
+    <?!= include('ThemeCSS'); ?>
+    <style>
+      .rank-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+      .rank-filters select {
+        flex: 1 1 200px; padding: 10px 12px; font: inherit; font-size: 16px;
+        border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--text);
+      }
+      .rank-wrap { overflow-x: auto; background: var(--card); border: 1px solid var(--line); border-radius: 10px; }
+      .rank { width: 100%; border-collapse: collapse; font-size: .95rem; }
+      .rank th, .rank td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: left; white-space: nowrap; }
+      .rank th { color: var(--muted); font-weight: normal; font-size: .85rem; }
+      .rank tr:last-child td { border-bottom: 0; }
+      .rank td.num { text-align: right; font-variant-numeric: tabular-nums; }
+      .rank td.pos { width: 3em; font-weight: 700; }
+      .rank tr.top1 td.pos { color: #e0a800; }
+      .rank tr.top2 td.pos { color: #9aa8bf; }
+      .rank tr.top3 td.pos { color: #c07a3c; }
+      .rank tr.me td { background: rgba(59, 201, 219, .12); font-weight: 700; }
+      .rank-empty { padding: 28px; text-align: center; color: var(--muted); }
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+      <section class="screen">
+        <a class="back-link" href="<?= execUrl ?>">← トップ</a>
+        <h1 class="title">ランキング</h1>
+        <p class="subtitle">ログインして遊んだ人の、いちばん良い記録</p>
+
+        <div class="rank-filters">
+          <select id="rank-set" aria-label="問題集"></select>
+          <select id="rank-mode" aria-label="モード">
+            <option value="all">全モード</option>
+            <option value="写経モード">写経モード</option>
+            <option value="通常モード">通常モード</option>
+            <option value="極みモード">極みモード</option>
+          </select>
+        </div>
+
+        <div class="rank-wrap" id="rank-wrap"><div class="rank-empty">読み込み中…</div></div>
+        <p class="note" id="rank-note"></p>
+      </section>
+    </div>
+
+    <script>
+      window.RANK_GROUPS = <?!= JSON.stringify(typeof studySet === 'undefined' || !studySet ? [] : studySet.groups) ?>;
+    </script>
+    <script>
+    (function () {
+      const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
+        ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+      const setSel = document.getElementById('rank-set');
+      const modeSel = document.getElementById('rank-mode');
+      const wrap = document.getElementById('rank-wrap');
+
+      setSel.innerHTML = '<option value="all">総合（問題集ごとのベストの合計）</option>' +
+        window.RANK_GROUPS.map(g => `<optgroup label="${esc(g.title)}">` +
+          g.cats.map(c => `<option value="${esc(c.kbn)}">${esc(c.label)}</option>`).join('') + '</optgroup>').join('');
+
+      function load() {
+        const all = setSel.value === 'all';
+        wrap.innerHTML = '<div class="rank-empty">読み込み中…</div>';
+        google.script.run
+          .withSuccessHandler(rows => {
+            if (!rows || !rows.length) { wrap.innerHTML = '<div class="rank-empty">まだ記録がありません</div>'; return; }
+            wrap.innerHTML = `<table class="rank"><thead><tr><th>順位</th><th>ニックネーム</th><th class="num">点数</th>` +
+              (all ? '<th class="num">問題集</th>' : '<th class="num">レベル</th><th>モード</th>') + '<th>日時</th></tr></thead><tbody>' +
+              rows.map(r => `<tr class="${r.rank <= 3 ? 'top' + r.rank : ''}${r.me ? ' me' : ''}">
+                <td class="pos">${r.rank}</td><td>${esc(r.nickname)}</td><td class="num">${r.score.toLocaleString()}</td>` +
+                (all ? `<td class="num">${r.sets}</td>` : `<td class="num">${r.level ? 'Lv' + r.level : '—'}</td><td>${esc(r.mode)}</td>`) +
+                `<td>${esc(r.dateStr)}</td></tr>`).join('') + '</tbody></table>';
+          })
+          .withFailureHandler(e => { wrap.innerHTML = '<div class="rank-empty">読み込めませんでした: ' + esc(e.message) + '</div>'; })
+          .getUserRanking(setSel.value, modeSel.value);
+      }
+      setSel.onchange = load;
+      modeSel.onchange = load;
+      load();
+
+      document.getElementById('rank-note').textContent =
+        'Google でログインしてからスコアを保存すると、ニックネームでここに載ります。';
+    })();
+    </script>
+  </body>
+</html>
