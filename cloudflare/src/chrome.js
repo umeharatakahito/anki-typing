@@ -30,6 +30,8 @@ const CSS = `<style>
 #st-bar .st-member{background:var(--st-accent);color:#fff;border-color:transparent}
 #st-bar .st-free{opacity:.85}
 #st-gsi{min-height:0}
+/* 中くらいの幅では、右上のバーが見出しに重ならないよう上を空ける */
+@media (min-width:601px) and (max-width:1000px){ body{padding-top:36px} }
 /* スマホでは画面の上に 1 段取って並べる（戻るボタンなどに重ならないように） */
 @media (max-width:600px){
   #st-bar{position:static;justify-content:flex-end;flex-wrap:wrap;padding:6px 8px 0}
