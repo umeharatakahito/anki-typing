@@ -1,0 +1,406 @@
+{
+ "kobun:1": {
+  "file": "juken-kobun-1.svg",
+  "kind": "svg"
+ },
+ "kobun:2": {
+  "file": "juken-kobun-2.svg",
+  "kind": "svg"
+ },
+ "kobun:3": {
+  "file": "juken-kobun-3.svg",
+  "kind": "svg"
+ },
+ "kobun:5": {
+  "file": "juken-kobun-5.svg",
+  "kind": "svg"
+ },
+ "kobun:6": {
+  "file": "juken-kobun-6.svg",
+  "kind": "svg"
+ },
+ "kobun:9": {
+  "file": "juken-kobun-9.svg",
+  "kind": "svg"
+ },
+ "kobun:10": {
+  "file": "juken-kobun-10.svg",
+  "kind": "svg"
+ },
+ "kobun:12": {
+  "file": "juken-kobun-12.svg",
+  "kind": "svg"
+ },
+ "kobun:13": {
+  "file": "juken-kobun-13.svg",
+  "kind": "svg"
+ },
+ "kobun:15": {
+  "file": "juken-kobun-15.svg",
+  "kind": "svg"
+ },
+ "kobun:17": {
+  "file": "juken-kobun-17.svg",
+  "kind": "svg"
+ },
+ "kobun:22": {
+  "file": "juken-kobun-22.svg",
+  "kind": "svg"
+ },
+ "kobun:23": {
+  "file": "juken-kobun-23.svg",
+  "kind": "svg"
+ },
+ "kobun:25": {
+  "file": "juken-kobun-25.svg",
+  "kind": "svg"
+ },
+ "kobun:26": {
+  "file": "juken-kobun-26.svg",
+  "kind": "svg"
+ },
+ "kobun:29": {
+  "file": "juken-kobun-29.svg",
+  "kind": "svg"
+ },
+ "kobun:32": {
+  "file": "juken-kobun-32.svg",
+  "kind": "svg"
+ },
+ "kobun:33": {
+  "file": "juken-kobun-33.svg",
+  "kind": "svg"
+ },
+ "kobun:35": {
+  "file": "juken-kobun-35.svg",
+  "kind": "svg"
+ },
+ "kobun:36": {
+  "file": "juken-kobun-36.svg",
+  "kind": "svg"
+ },
+ "kobun:39": {
+  "file": "juken-kobun-39.svg",
+  "kind": "svg"
+ },
+ "kobun:40": {
+  "file": "juken-kobun-40.svg",
+  "kind": "svg"
+ },
+ "kobun:42": {
+  "file": "juken-kobun-42.svg",
+  "kind": "svg"
+ },
+ "kobun:46": {
+  "file": "juken-kobun-46.svg",
+  "kind": "svg"
+ },
+ "kobun:51": {
+  "file": "juken-kobun-51.svg",
+  "kind": "svg"
+ },
+ "kobun:52": {
+  "file": "juken-kobun-52.svg",
+  "kind": "svg"
+ },
+ "kobun:54": {
+  "file": "juken-kobun-54.svg",
+  "kind": "svg"
+ },
+ "kobun:55": {
+  "file": "juken-kobun-55.svg",
+  "kind": "svg"
+ },
+ "kobun:57": {
+  "file": "juken-kobun-57.svg",
+  "kind": "svg"
+ },
+ "kobun:59": {
+  "file": "juken-kobun-59.svg",
+  "kind": "svg"
+ },
+ "kobun:60": {
+  "file": "juken-kobun-60.svg",
+  "kind": "svg"
+ },
+ "kobun:62": {
+  "file": "juken-kobun-62.svg",
+  "kind": "svg"
+ },
+ "kobun:64": {
+  "file": "juken-kobun-64.svg",
+  "kind": "svg"
+ },
+ "kobun:65": {
+  "file": "juken-kobun-65.svg",
+  "kind": "svg"
+ },
+ "kobun:66": {
+  "file": "juken-kobun-66.svg",
+  "kind": "svg"
+ },
+ "kobun:68": {
+  "file": "juken-kobun-68.svg",
+  "kind": "svg"
+ },
+ "kobun:70": {
+  "file": "juken-kobun-70.svg",
+  "kind": "svg"
+ },
+ "kobun:71": {
+  "file": "juken-kobun-71.svg",
+  "kind": "svg"
+ },
+ "kobun:72": {
+  "file": "juken-kobun-72.svg",
+  "kind": "svg"
+ },
+ "kobun:73": {
+  "file": "juken-kobun-73.svg",
+  "kind": "svg"
+ },
+ "kobun:74": {
+  "file": "juken-kobun-74.svg",
+  "kind": "svg"
+ },
+ "kobun:76": {
+  "file": "juken-kobun-76.svg",
+  "kind": "svg"
+ },
+ "kobun:80": {
+  "file": "juken-kobun-80.svg",
+  "kind": "svg"
+ },
+ "kobun:83": {
+  "file": "juken-kobun-83.svg",
+  "kind": "svg"
+ },
+ "kobun:86": {
+  "file": "juken-kobun-86.svg",
+  "kind": "svg"
+ },
+ "kobun:92": {
+  "file": "juken-kobun-92.svg",
+  "kind": "svg"
+ },
+ "kobun:93": {
+  "file": "juken-kobun-93.svg",
+  "kind": "svg"
+ },
+ "kobun:97": {
+  "file": "juken-kobun-97.svg",
+  "kind": "svg"
+ },
+ "kobun:102": {
+  "file": "juken-kobun-102.svg",
+  "kind": "svg"
+ },
+ "kobun:106": {
+  "file": "juken-kobun-106.svg",
+  "kind": "svg"
+ },
+ "kobun:116": {
+  "file": "juken-kobun-116.svg",
+  "kind": "svg"
+ },
+ "kobun:117": {
+  "file": "juken-kobun-117.svg",
+  "kind": "svg"
+ },
+ "kobun:118": {
+  "file": "juken-kobun-118.svg",
+  "kind": "svg"
+ },
+ "kobun:124": {
+  "file": "juken-kobun-124.svg",
+  "kind": "svg"
+ },
+ "kobun:125": {
+  "file": "juken-kobun-125.svg",
+  "kind": "svg"
+ },
+ "kobun:147": {
+  "file": "juken-kobun-147.svg",
+  "kind": "svg"
+ },
+ "kobun:148": {
+  "file": "juken-kobun-148.svg",
+  "kind": "svg"
+ },
+ "kobun:150": {
+  "file": "juken-kobun-150.svg",
+  "kind": "svg"
+ },
+ "kobun:164": {
+  "file": "juken-kobun-164.svg",
+  "kind": "svg"
+ },
+ "kobun:166": {
+  "file": "juken-kobun-166.svg",
+  "kind": "svg"
+ },
+ "kobun:168": {
+  "file": "juken-kobun-168.svg",
+  "kind": "svg"
+ },
+ "kobun:176": {
+  "file": "juken-kobun-176.svg",
+  "kind": "svg"
+ },
+ "kobun:178": {
+  "file": "juken-kobun-178.svg",
+  "kind": "svg"
+ },
+ "kobun:179": {
+  "file": "juken-kobun-179.svg",
+  "kind": "svg"
+ },
+ "kobun:180": {
+  "file": "juken-kobun-180.svg",
+  "kind": "svg"
+ },
+ "kobun:182": {
+  "file": "juken-kobun-182.svg",
+  "kind": "svg"
+ },
+ "kobun:183": {
+  "file": "juken-kobun-183.svg",
+  "kind": "svg"
+ },
+ "kobun:186": {
+  "file": "juken-kobun-186.svg",
+  "kind": "svg"
+ },
+ "kobun:187": {
+  "file": "juken-kobun-187.svg",
+  "kind": "svg"
+ },
+ "kobun:189": {
+  "file": "juken-kobun-189.svg",
+  "kind": "svg"
+ },
+ "kobun:191": {
+  "file": "juken-kobun-191.svg",
+  "kind": "svg"
+ },
+ "kobun:193": {
+  "file": "juken-kobun-193.svg",
+  "kind": "svg"
+ },
+ "kobun:194": {
+  "file": "juken-kobun-194.svg",
+  "kind": "svg"
+ },
+ "kobun:197": {
+  "file": "juken-kobun-197.svg",
+  "kind": "svg"
+ },
+ "kobun:198": {
+  "file": "juken-kobun-198.svg",
+  "kind": "svg"
+ },
+ "kobun:199": {
+  "file": "juken-kobun-199.svg",
+  "kind": "svg"
+ },
+ "kobun:204": {
+  "file": "juken-kobun-204.svg",
+  "kind": "svg"
+ },
+ "kobun:210": {
+  "file": "juken-kobun-210.svg",
+  "kind": "svg"
+ },
+ "kobun:222": {
+  "file": "juken-kobun-222.svg",
+  "kind": "svg"
+ },
+ "kobun:227": {
+  "file": "juken-kobun-227.svg",
+  "kind": "svg"
+ },
+ "kobun:231": {
+  "file": "juken-kobun-231.svg",
+  "kind": "svg"
+ },
+ "kobun:234": {
+  "file": "juken-kobun-234.svg",
+  "kind": "svg"
+ },
+ "kobun:236": {
+  "file": "juken-kobun-236.svg",
+  "kind": "svg"
+ },
+ "kobun:240": {
+  "file": "juken-kobun-240.svg",
+  "kind": "svg"
+ },
+ "kobun:255": {
+  "file": "juken-kobun-255.jpg",
+  "kind": "commons",
+  "title": "Kyoto-gosho Shishinden zenkei-5.jpg",
+  "author": "Saigen Jiro",
+  "license": "CC0",
+  "url": "https://commons.wikimedia.org/wiki/File:Kyoto-gosho_Shishinden_zenkei-5.jpg"
+ },
+ "kobun:260": {
+  "file": "juken-kobun-260.svg",
+  "kind": "svg"
+ },
+ "kobun:270": {
+  "file": "juken-kobun-270.svg",
+  "kind": "svg"
+ },
+ "kobun:274": {
+  "file": "juken-kobun-274.svg",
+  "kind": "svg"
+ },
+ "kobun:275": {
+  "file": "juken-kobun-275.svg",
+  "kind": "svg"
+ },
+ "kobun:277": {
+  "file": "juken-kobun-277.svg",
+  "kind": "svg"
+ },
+ "kobun:278": {
+  "file": "juken-kobun-278.svg",
+  "kind": "svg"
+ },
+ "kobun:279": {
+  "file": "juken-kobun-279.svg",
+  "kind": "svg"
+ },
+ "kobun:281": {
+  "file": "juken-kobun-281.svg",
+  "kind": "svg"
+ },
+ "kobun:284": {
+  "file": "juken-kobun-284.svg",
+  "kind": "svg"
+ },
+ "kobun:285": {
+  "file": "juken-kobun-285.svg",
+  "kind": "svg"
+ },
+ "kobun:289": {
+  "file": "juken-kobun-289.svg",
+  "kind": "svg"
+ },
+ "kobun:291": {
+  "file": "juken-kobun-291.svg",
+  "kind": "svg"
+ },
+ "kobun:295": {
+  "file": "juken-kobun-295.svg",
+  "kind": "svg"
+ },
+ "kobun:307": {
+  "file": "juken-kobun-307.svg",
+  "kind": "svg"
+ },
+ "kobun:326": {
+  "file": "juken-kobun-326.svg",
+  "kind": "svg"
+ }
+}
