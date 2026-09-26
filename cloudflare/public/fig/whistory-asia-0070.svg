@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420" font-family="sans-serif">
+<defs><path id="whistoryasia0070L" d="M570,-10 570,340 570,347 569,348 566,347 564,349 563,349 563,351 561,352 560,353 559,355 558,357 557,358 556,361 556,362 557,364 557,366 556,369 556,373 556,374 551,377 549,378 548,381 545,382 544,383 542,384 541,386 539,388 538,388 536,389 533,389 532,390 530,392 526,394 525,396 526,398 526,400 495,400 495,399 493,398 491,398 488,395 487,394 486,396 485,397 484,395 484,394 482,392 481,390 480,391 477,393 473,393 471,392 470,394 469,394 467,394 466,395 462,396 461,397 460,397 455,400 438,400 438,399 440,397 441,397 441,395 441,393 445,391 446,389 448,388 451,383 452,381 451,379 450,377 446,375 446,372 445,374 442,375 436,373 435,375 434,376 433,377 432,378 431,379 427,386 425,386 418,390 414,392 411,395 410,396 410,398 409,400 -10,400 -10,-10Z"/><clipPath id="whistoryasia0070c"><use href="#whistoryasia0070L"/></clipPath></defs>
+<rect width="560" height="420" fill="#fff"/>
+<rect width="560" height="390" fill="#dceefb"/>
+<use href="#whistoryasia0070L" fill="#f4efe1" stroke="#8d8062" stroke-width="0.8"/>
+<circle cx="230.3" cy="183.6" r="7" fill="#f57c00" stroke="#fff" stroke-width="2"/>
+<circle cx="250.3" cy="173.6" r="14" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="250.3" y="174.6" font-size="18.6" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<circle cx="371.7" cy="147.2" r="5" fill="#333" stroke="#fff" stroke-width="1.5"/>
+<text x="371.7" y="133.2" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">ネルチンスク</text>
+<text x="196.0" y="275.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">モンゴル（清）</text>
+<text x="140.0" y="76.1" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">ロシア</text>
+<text x="280.0" y="407" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555">清とロシアがモンゴル方面の国境を決めた取り決め</text>
+</svg>

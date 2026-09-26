@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="sans-serif">
+<rect width="600" height="320" fill="#fff"/>
+<text x="300" y="22.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">豊作の年も不作の年も、年貢は同じ</text>
+<rect x="70" y="120" width="50" height="150" rx="0" fill="#c5e1a5" stroke="#558b2f" stroke-width="1.5"/>
+<text x="95" y="288.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">1年目</text>
+<rect x="155" y="160" width="50" height="110" rx="0" fill="#c5e1a5" stroke="#558b2f" stroke-width="1.5"/>
+<text x="180" y="288.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">2年目</text>
+<rect x="240" y="80" width="50" height="190" rx="0" fill="#c5e1a5" stroke="#558b2f" stroke-width="1.5"/>
+<text x="265" y="288.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">3年目</text>
+<rect x="325" y="180" width="50" height="90" rx="0" fill="#c5e1a5" stroke="#558b2f" stroke-width="1.5"/>
+<text x="350" y="288.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">4年目</text>
+<rect x="410" y="110" width="50" height="160" rx="0" fill="#c5e1a5" stroke="#558b2f" stroke-width="1.5"/>
+<text x="435" y="288.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">5年目</text>
+<rect x="495" y="140" width="50" height="130" rx="0" fill="#c5e1a5" stroke="#558b2f" stroke-width="1.5"/>
+<text x="520" y="288.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">6年目</text>
+<line x1="50" y1="270" x2="580" y2="270" stroke="#37474f" stroke-width="2"/>
+<line x1="55" y1="190" x2="580" y2="190" stroke="#f57c00" stroke-width="4"/>
+<text x="300" y="176.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">毎年同じ量の年貢</text>
+<text x="560" y="58.0" font-size="12" text-anchor="end" dominant-baseline="middle" fill="#558b2f">収穫量</text>
+<text x="300" y="310.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">（毎年の出来を調べて税を決める方法と比べてみよう）</text>
+<circle cx="575" cy="24" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575" y="25" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

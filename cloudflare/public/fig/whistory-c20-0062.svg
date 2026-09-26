@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="whistoryc200062m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="whistoryc200062mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<text x="300" y="22.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">1920年代の資金の流れ</text>
+<rect x="225" y="50" width="150" height="56" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="300.0" y="78.0" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">アメリカ</text>
+<rect x="40" y="230" width="150" height="56" rx="6" fill="#eceff1" stroke="#607d8b" stroke-width="1.5"/>
+<text x="115.0" y="258.0" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">ドイツ</text>
+<rect x="410" y="230" width="150" height="56" rx="6" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="485.0" y="249.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">イギリス・</text>
+<text x="485.0" y="267.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">フランス</text>
+<path d="M240,108 L140,225" fill="none" stroke="#f57c00" stroke-width="3.5" marker-end="url(#whistoryc200062mf57c00)"/>
+<text x="135" y="150.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold">資本の貸し付け</text>
+<path d="M195,258 L405,258" fill="none" stroke="#37474f" stroke-width="3" marker-end="url(#whistoryc200062m37474f)"/>
+<text x="300" y="245.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">賠償金</text>
+<path d="M470,225 L360,110" fill="none" stroke="#37474f" stroke-width="3" marker-end="url(#whistoryc200062m37474f)"/>
+<text x="480" y="150.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">戦争中の借金を返す</text>
+<text x="300" y="318.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555">アメリカの資金でドイツの賠償支払いを楽にした計画</text>
+<circle cx="575" cy="22" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575" y="23" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

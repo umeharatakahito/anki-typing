@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<text x="300" y="24.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">役職に就いている間だけ、足りない分を補う</text>
+<text x="80" y="80.0" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222">役職の基準</text>
+<text x="80" y="190.0" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222">本人の禄高</text>
+<rect x="190" y="60" width="380" height="40" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="380.0" y="80.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222">3000石</text>
+<rect x="190" y="170" width="80" height="40" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="230.0" y="190.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">500石</text>
+<rect x="270" y="170" width="300" height="40" rx="6" fill="#fff3e0" stroke="#f57c00" stroke-width="3"/>
+<text x="420.0" y="190.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">不足分（在職中だけ支給）</text>
+<line x1="270" y1="110" x2="270" y2="165" stroke="#999" stroke-width="2" stroke-dasharray="4 4"/>
+<text x="300" y="250.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555">家柄の低い有能な人でも重い役職に就けるようにした</text>
+<circle cx="575" cy="24" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575" y="25" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

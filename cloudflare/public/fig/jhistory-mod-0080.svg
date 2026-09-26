@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="jhistorymod0080m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<text x="300" y="20.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">大日本帝国憲法のもとでの国のしくみ</text>
+<rect x="230" y="40" width="140" height="50" rx="6" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="300.0" y="65.0" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">天皇</text>
+<rect x="430" y="40" width="150" height="50" rx="6" fill="#fff3e0" stroke="#f57c00" stroke-width="3"/>
+<text x="505.0" y="66.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold">?</text>
+<text x="505" y="104.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">天皇の最高の相談機関</text>
+<line x1="425" y1="65" x2="375" y2="65" stroke="#37474f" stroke-width="2" marker-end="url(#jhistorymod0080m37474f)"/>
+<rect x="30" y="160" width="140" height="60" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="100.0" y="181.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">帝国議会</text>
+<text x="100.0" y="198.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">（貴族院・衆議院）</text>
+<line x1="100" y1="155" x2="100" y2="125" stroke="#999" stroke-width="2"/>
+<rect x="230" y="160" width="140" height="60" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="300.0" y="181.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">内閣</text>
+<text x="300.0" y="198.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">（国務大臣）</text>
+<line x1="300" y1="155" x2="300" y2="125" stroke="#999" stroke-width="2"/>
+<rect x="430" y="160" width="140" height="60" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="500.0" y="190.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">裁判所</text>
+<line x1="500" y1="155" x2="500" y2="125" stroke="#999" stroke-width="2"/>
+<line x1="100" y1="125" x2="500" y2="125" stroke="#999" stroke-width="2"/>
+<line x1="300" y1="90" x2="300" y2="125" stroke="#999" stroke-width="2"/>
+<text x="100" y="236.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">協賛（同意）</text>
+<text x="300" y="236.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">輔弼（助ける）</text>
+<text x="500" y="236.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">天皇の名で裁判</text>
+<rect x="230" y="270" width="140" height="40" rx="6" fill="#eceff1" stroke="#607d8b" stroke-width="1.5"/>
+<text x="300.0" y="290.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">陸軍・海軍</text>
+<text x="460" y="290.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">← 統帥権は天皇に直属</text>
+<circle cx="575" cy="22" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575" y="23" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<path d="M266.0,77.0 L266.0,49.0 L300.0,23.0 L334.0,49.0 L334.0,77.0 Z" fill="#ffe0b2" stroke="#8d6e63" stroke-width="2"/>
+<rect x="292.0" y="57.0" width="16" height="20" fill="#8d6e63"/>
+<path d="M408.658477444273,142.64338553438 L408.658477444273,114.64338553438 L442.658477444273,88.64338553438 L476.658477444273,114.64338553438 L476.658477444273,142.64338553438 Z" fill="#ffe0b2" stroke="#8d6e63" stroke-width="2"/>
+<rect x="434.658477444273" y="122.64338553438" width="16" height="20" fill="#8d6e63"/>
+<path d="M354.167787843871,248.85661446562 L354.167787843871,220.85661446562 L388.167787843871,194.85661446562 L422.167787843871,220.85661446562 L422.167787843871,248.85661446562 Z" fill="#ffe0b2" stroke="#8d6e63" stroke-width="2"/>
+<rect x="380.167787843871" y="228.85661446562" width="16" height="20" fill="#8d6e63"/>
+<path d="M177.83221215612906,248.85661446562 L177.83221215612906,220.85661446562 L211.83221215612906,194.85661446562 L245.83221215612906,220.85661446562 L245.83221215612906,248.85661446562 Z" fill="#ffe0b2" stroke="#8d6e63" stroke-width="2"/>
+<rect x="203.83221215612906" y="228.85661446562" width="16" height="20" fill="#8d6e63"/>
+<path d="M123.34152255572695,142.64338553438 L123.34152255572695,114.64338553438 L157.34152255572695,88.64338553438 L191.34152255572695,114.64338553438 L191.34152255572695,142.64338553438 Z" fill="#ffe0b2" stroke="#8d6e63" stroke-width="2"/>
+<rect x="149.34152255572695" y="122.64338553438" width="16" height="20" fill="#8d6e63"/>
+<ellipse cx="300" cy="150" rx="210" ry="128" fill="none" stroke="#f57c00" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="300" y="130.6" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">近所の家どうしで</text>
+<text x="300" y="149.4" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">ひとまとまり</text>
+<text x="300" y="282.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#333">年貢を納められない・罪を犯した → みんなの責任</text>
+<circle cx="575" cy="24" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575" y="25" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

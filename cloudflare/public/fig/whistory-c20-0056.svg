@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" width="600" height="260" font-family="sans-serif">
+<rect width="600" height="260" fill="#fff"/>
+<defs><marker id="whistoryc200056m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<text x="300" y="22.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">第二次世界大戦後の国際通貨のしくみ</text>
+<rect x="30" y="80" width="130" height="70" rx="6" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="95.0" y="115.0" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">金</text>
+<rect x="235" y="80" width="130" height="70" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="300.0" y="115.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">米ドル</text>
+<rect x="440" y="80" width="130" height="70" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="505.0" y="115.0" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">各国の通貨</text>
+<line x1="162" y1="115" x2="232" y2="115" stroke="#37474f" stroke-width="2.5" marker-end="url(#whistoryc200056m37474f)" marker-start="url(#whistoryc200056m37474f)"/>
+<line x1="367" y1="115" x2="437" y2="115" stroke="#37474f" stroke-width="2.5" marker-end="url(#whistoryc200056m37474f)" marker-start="url(#whistoryc200056m37474f)"/>
+<text x="197" y="170.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">1オンス＝35ドル</text>
+<text x="402" y="170.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">1ドル＝360円 など</text>
+<text x="300" y="215.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555">ドルを基軸にした固定相場制（IMF・世界銀行を設立）</text>
+<circle cx="575" cy="22" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575" y="23" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

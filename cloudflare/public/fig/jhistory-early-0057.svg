@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" width="600" height="260" font-family="sans-serif">
+<rect width="600" height="260" fill="#fff"/>
+<defs><marker id="jhistoryearly0057m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<text x="300" y="22.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">すべての人をどこかの寺に所属させた</text>
+<rect x="30" y="60" width="120" height="42" rx="6" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="90.0" y="81.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222">家</text>
+<rect x="30" y="115" width="120" height="42" rx="6" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="90.0" y="136.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222">家</text>
+<rect x="30" y="170" width="120" height="42" rx="6" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="90.0" y="191.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222">家</text>
+<path d="M300,70 L380,40 L460,70 Z" fill="#8d6e63"/><rect x="315" y="70" width="130" height="80" fill="#efebe9" stroke="#6d4c41" stroke-width="2"/>
+<text x="380" y="110.0" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">寺</text>
+<path d="M155,110 L300,110" fill="none" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhistoryearly0057m37474f)"/>
+<text x="228" y="95.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">檀家になる</text>
+<rect x="470" y="85" width="120" height="50" rx="6" fill="#fff3e0" stroke="#f57c00" stroke-width="3"/>
+<text x="530.0" y="103.4" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222">証明</text>
+<text x="530.0" y="116.6" font-size="11" text-anchor="middle" dominant-baseline="middle" fill="#222">「キリシタンでない」</text>
+<line x1="445" y1="110" x2="468" y2="110" stroke="#37474f" stroke-width="2" marker-end="url(#jhistoryearly0057m37474f)"/>
+<text x="300" y="205.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555">寺が戸籍の役目も果たした（宗門改帳）</text>
+<circle cx="575" cy="22" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575" y="23" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

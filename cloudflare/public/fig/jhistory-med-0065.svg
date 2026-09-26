@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 486" width="460" height="486" font-family="sans-serif">
+<defs><path id="jhistorymed0065L" d="M-10,-10 470,-10 470,466 1,466 6,462 8,450 8,435 10,414 4,396 2,380 8,356 -0,361 -10,364Z"/><clipPath id="jhistorymed0065c"><use href="#jhistorymed0065L"/></clipPath></defs>
+<rect width="460" height="486" fill="#fff"/>
+<rect width="460" height="456" fill="#dceefb"/>
+<use href="#jhistorymed0065L" fill="#f4efe1" stroke="#8d8062" stroke-width="0.8"/>
+<path d="M161.0,336.8 316.2,336.8 333.5,196.7 172.5,189.7Z" fill="#f57c00" fill-opacity="0.6" stroke="none" clip-path="url(#jhistorymed0065c)"/>
+<circle cx="241.5" cy="266.8" r="14" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="241.5" y="267.8" font-size="18.6" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<circle cx="212.8" cy="133.5" r="5" fill="#333" stroke="#fff" stroke-width="1.5"/>
+<text x="234.8" y="133.5" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">京都</text>
+<circle cx="230.0" cy="364.7" r="5" fill="#333" stroke="#fff" stroke-width="1.5"/>
+<text x="252.0" y="364.7" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">奈良</text>
+<text x="230.0" y="473" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555">国人らが8年間自治を行った地域</text>
+</svg>

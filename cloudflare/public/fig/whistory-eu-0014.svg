@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<text x="300" y="22.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">中世ヨーロッパの領主の所領（村のようす）</text>
+<rect x="20" y="50" width="560" height="300" rx="4" fill="#f1f8e9" stroke="#558b2f" stroke-width="2.5"/>
+<rect x="40" y="70" width="160" height="110" rx="6" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="120.0" y="117.2" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">領主直営地</text>
+<text x="120.0" y="132.8" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">（農民が賦役で耕す）</text>
+<rect x="220" y="70" width="340" height="110" rx="6" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1.5"/>
+<line x1="262.5" y1="70" x2="262.5" y2="180" stroke="#a5d6a7" stroke-width="1"/>
+<line x1="305.0" y1="70" x2="305.0" y2="180" stroke="#a5d6a7" stroke-width="1"/>
+<line x1="347.5" y1="70" x2="347.5" y2="180" stroke="#a5d6a7" stroke-width="1"/>
+<line x1="390.0" y1="70" x2="390.0" y2="180" stroke="#a5d6a7" stroke-width="1"/>
+<line x1="432.5" y1="70" x2="432.5" y2="180" stroke="#a5d6a7" stroke-width="1"/>
+<line x1="475.0" y1="70" x2="475.0" y2="180" stroke="#a5d6a7" stroke-width="1"/>
+<line x1="517.5" y1="70" x2="517.5" y2="180" stroke="#a5d6a7" stroke-width="1"/>
+<text x="390" y="125.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">農民保有地（細長い地条）</text>
+<rect x="40" y="200" width="140" height="70" rx="6" fill="#efebe9" stroke="#6d4c41" stroke-width="1.5"/>
+<text x="110.0" y="235.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">領主の館</text>
+<rect x="200" y="200" width="90" height="70" rx="6" fill="#ede7f6" stroke="#5e35b1" stroke-width="1.5"/>
+<text x="245.0" y="235.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">教会</text>
+<rect x="310" y="200" width="120" height="70" rx="6" fill="#fff3e0" stroke="#8d6e63" stroke-width="1.5"/>
+<text x="370.0" y="235.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">農民の家</text>
+<rect x="450" y="200" width="110" height="70" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="505.0" y="227.8" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">水車・パン焼き</text>
+<text x="505.0" y="242.2" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">かまど</text>
+<rect x="40" y="285" width="240" height="50" rx="6" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="160.0" y="310.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">牧草地・森（共同で使う）</text>
+<rect x="300" y="285" width="260" height="50" rx="6" fill="#fafafa" stroke="#999" stroke-width="1.5"/>
+<text x="430.0" y="310.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">農民：賦役と貢納・移動の自由なし</text>
+<text x="300" y="375.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555">この土地の単位を何という？</text>
+<circle cx="575" cy="22" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575" y="23" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

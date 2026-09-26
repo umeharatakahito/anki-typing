@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" width="600" height="280" font-family="sans-serif">
+<rect width="600" height="280" fill="#fff"/>
+<defs><marker id="jhistoryearly0099mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="40" y="190" width="140" height="60" rx="6" fill="#f1f8e9" stroke="#558b2f" stroke-width="1.5"/>
+<text x="110.0" y="220.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222">村の百姓</text>
+<rect x="230" y="110" width="140" height="60" rx="6" fill="#eceff1" stroke="#607d8b" stroke-width="1.5"/>
+<text x="300.0" y="140.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222">領主（藩）</text>
+<rect x="420" y="30" width="160" height="60" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="500.0" y="51.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">幕府など</text>
+<text x="500.0" y="68.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">上級の役所</text>
+<path d="M110,185 C140,60 300,40 415,60" fill="none" stroke="#f57c00" stroke-width="3" marker-end="url(#jhistoryearly0099mf57c00)"/>
+<text x="250" y="95.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold">村の名主らが直訴</text>
+<text x="300" y="190.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">（とびこえる）</text>
+<text x="300" y="262.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">江戸時代前期の百姓の闘争（訴えた者は処罰された）</text>
+<circle cx="575" cy="22" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575" y="23" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

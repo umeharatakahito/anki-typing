@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250" width="600" height="250" font-family="sans-serif">
+<rect width="600" height="250" fill="#fff"/>
+<rect x="14" y="70" width="64" height="90" rx="6" fill="#ede7f6" stroke="#5e35b1" stroke-width="1.5"/>
+<text x="46.0" y="104.2" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">真</text>
+<text x="46.0" y="125.8" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">人</text>
+<rect x="86" y="70" width="64" height="90" rx="6" fill="#ede7f6" stroke="#5e35b1" stroke-width="1.5"/>
+<text x="118.0" y="104.2" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">朝</text>
+<text x="118.0" y="125.8" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">臣</text>
+<rect x="158" y="70" width="64" height="90" rx="6" fill="#ede7f6" stroke="#5e35b1" stroke-width="1.5"/>
+<text x="190.0" y="104.2" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">宿</text>
+<text x="190.0" y="125.8" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">禰</text>
+<rect x="230" y="70" width="64" height="90" rx="6" fill="#ede7f6" stroke="#5e35b1" stroke-width="1.5"/>
+<text x="262.0" y="104.2" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">忌</text>
+<text x="262.0" y="125.8" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">寸</text>
+<rect x="302" y="70" width="64" height="90" rx="6" fill="#f5f5f5" stroke="#999" stroke-width="1.5"/>
+<text x="334.0" y="104.2" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">道</text>
+<text x="334.0" y="125.8" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">師</text>
+<rect x="374" y="70" width="64" height="90" rx="6" fill="#f5f5f5" stroke="#999" stroke-width="1.5"/>
+<text x="406.0" y="115.0" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">臣</text>
+<rect x="446" y="70" width="64" height="90" rx="6" fill="#f5f5f5" stroke="#999" stroke-width="1.5"/>
+<text x="478.0" y="115.0" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">連</text>
+<rect x="518" y="70" width="64" height="90" rx="6" fill="#f5f5f5" stroke="#999" stroke-width="1.5"/>
+<text x="550.0" y="104.2" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">稲</text>
+<text x="550.0" y="125.8" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">置</text>
+<text x="300" y="40.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555">上 ←　　　　　　天皇との近さで順位　　　　　　→ 下</text>
+<text x="300" y="195.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222">天武天皇が豪族を新しく序列づけた呼び名</text>
+<text x="300" y="222.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555">（上位4つが特に重んじられた）</text>
+<circle cx="575" cy="28" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575" y="29" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

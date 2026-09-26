@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<defs><marker id="jhistoryearly0003m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="jhistoryearly0003m5d4037" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5d4037"/></marker></defs>
+<rect x="30" y="60" width="200" height="140" fill="#c5e1a5" stroke="#558b2f" stroke-width="2"/>
+<line x1="70" y1="60" x2="70" y2="200" stroke="#9ccc65" stroke-width="1"/>
+<line x1="110" y1="60" x2="110" y2="200" stroke="#9ccc65" stroke-width="1"/>
+<line x1="150" y1="60" x2="150" y2="200" stroke="#9ccc65" stroke-width="1"/>
+<line x1="190" y1="60" x2="190" y2="200" stroke="#9ccc65" stroke-width="1"/>
+<line x1="30" y1="220" x2="230" y2="220" stroke="#5d4037" stroke-width="2" marker-end="url(#jhistoryearly0003m5d4037)" marker-start="url(#jhistoryearly0003m5d4037)"/>
+<text x="130" y="238.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#5d4037">全国で同じ長さのものさし・同じ升</text>
+<text x="130" y="40.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">田畑を1枚ずつ測る</text>
+<line x1="240" y1="130" x2="290" y2="130" stroke="#37474f" stroke-width="3" marker-end="url(#jhistoryearly0003m37474f)"/>
+<rect x="295" y="70" width="140" height="40" rx="6" fill="#fafafa" stroke="#999" stroke-width="1.5"/>
+<text x="365.0" y="90.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222">面積</text>
+<rect x="295" y="120" width="140" height="40" rx="6" fill="#fafafa" stroke="#999" stroke-width="1.5"/>
+<text x="365.0" y="132.8" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">土地のよしあし</text>
+<text x="365.0" y="147.2" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">（上・中・下）</text>
+<line x1="440" y1="115" x2="470" y2="115" stroke="#37474f" stroke-width="3" marker-end="url(#jhistoryearly0003m37474f)"/>
+<rect x="472" y="90" width="110" height="50" rx="6" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="527.0" y="106.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">石高</text>
+<text x="527.0" y="123.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">（米の量）</text>
+<rect x="300" y="200" width="280" height="60" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="440.0" y="222.2" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">実際に耕す百姓の名を</text>
+<text x="440.0" y="237.8" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222">帳簿に登録（年貢を負担）</text>
+<circle cx="575" cy="24" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575" y="25" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

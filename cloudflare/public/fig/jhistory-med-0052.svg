@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<text x="300" y="20.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">同じ田で、1年のうちに米と麦をつくる</text>
+<path d="M300,150 m-110,0 a110,110 0 0,1 220,0 Z" fill="#c5e1a5" stroke="#558b2f" stroke-width="2"/>
+<path d="M300,150 m-110,0 a110,110 0 0,0 220,0 Z" fill="#ffe082" stroke="#f9a825" stroke-width="2"/>
+<text x="300" y="100.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">夏〜秋：米（表作）</text>
+<text x="300" y="200.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">冬〜春：麦（裏作）</text>
+<text x="90" y="150.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555">同じ田</text>
+<text x="510" y="150.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555">1年</text>
+<text x="300" y="285.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555">鎌倉時代に畿内・西日本から広まった</text>
+<circle cx="575" cy="22" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575" y="23" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

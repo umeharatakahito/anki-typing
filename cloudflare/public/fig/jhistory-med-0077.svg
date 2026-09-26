@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<defs><marker id="jhistorymed0077m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<text x="300" y="20.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">室町幕府のしくみ</text>
+<rect x="250" y="36" width="100" height="36" rx="6" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="300.0" y="54.0" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">将軍</text>
+<line x1="300" y1="72" x2="300" y2="92" stroke="#37474f" stroke-width="2"/>
+<rect x="220" y="92" width="160" height="40" rx="6" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="300.0" y="112.0" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">管領</text>
+<text x="470" y="112.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">（細川・斯波・畠山）</text>
+<line x1="300" y1="132" x2="300" y2="152" stroke="#37474f" stroke-width="2"/>
+<line x1="80" y1="152" x2="420" y2="152" stroke="#37474f" stroke-width="2"/>
+<line x1="80" y1="152" x2="80" y2="170" stroke="#37474f" stroke-width="2" marker-end="url(#jhistorymed0077m37474f)"/>
+<rect x="30" y="170" width="100" height="40" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="80.0" y="190.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">侍所</text>
+<line x1="230" y1="152" x2="230" y2="170" stroke="#37474f" stroke-width="2" marker-end="url(#jhistorymed0077m37474f)"/>
+<rect x="180" y="170" width="100" height="40" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="230.0" y="190.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">政所</text>
+<line x1="380" y1="152" x2="380" y2="170" stroke="#37474f" stroke-width="2" marker-end="url(#jhistorymed0077m37474f)"/>
+<rect x="330" y="170" width="100" height="40" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="380.0" y="190.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">問注所</text>
+<rect x="20" y="222" width="160" height="40" rx="6" fill="#fafafa" stroke="#999" stroke-width="1.5"/>
+<text x="100.0" y="242.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">長官を出す4家</text>
+<text x="100" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">赤松・一色・山名・京極</text>
+<line x1="80" y1="210" x2="80" y2="222" stroke="#37474f" stroke-width="2"/>
+<text x="300" y="238.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">中央（京都）</text>
+<line x1="300" y1="72" x2="560" y2="72" stroke="#37474f" stroke-width="2"/>
+<line x1="560" y1="72" x2="560" y2="300" stroke="#37474f" stroke-width="2"/>
+<line x1="90" y1="300" x2="560" y2="300" stroke="#37474f" stroke-width="2"/>
+<line x1="95.0" y1="300" x2="95.0" y2="318" stroke="#37474f" stroke-width="2" marker-end="url(#jhistorymed0077m37474f)"/>
+<rect x="20" y="318" width="150" height="40" rx="6" fill="#fff3e0" stroke="#f57c00" stroke-width="3"/>
+<text x="95.0" y="339.0" font-size="24.0" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold">?</text>
+<text x="95.0" y="372.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">長官は足利基氏の子孫</text>
+<line x1="250.0" y1="300" x2="250.0" y2="318" stroke="#37474f" stroke-width="2" marker-end="url(#jhistorymed0077m37474f)"/>
+<rect x="190" y="318" width="120" height="40" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="250.0" y="338.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">九州探題</text>
+<text x="250.0" y="372.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">九州</text>
+<line x1="385.0" y1="300" x2="385.0" y2="318" stroke="#37474f" stroke-width="2" marker-end="url(#jhistorymed0077m37474f)"/>
+<rect x="330" y="318" width="110" height="40" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="385.0" y="338.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">奥州探題</text>
+<text x="385.0" y="372.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">東北</text>
+<line x1="515.0" y1="300" x2="515.0" y2="318" stroke="#37474f" stroke-width="2" marker-end="url(#jhistorymed0077m37474f)"/>
+<rect x="460" y="318" width="110" height="40" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="515.0" y="338.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">守護</text>
+<text x="515.0" y="372.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">国ごと</text>
+<circle cx="575" cy="22" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575" y="23" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

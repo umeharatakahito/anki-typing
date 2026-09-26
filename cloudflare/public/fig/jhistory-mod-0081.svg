@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" width="600" height="280" font-family="sans-serif">
+<rect width="600" height="280" fill="#fff"/>
+<text x="300" y="20.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">開港後の貿易相手国の割合（1865年ごろ）</text>
+<text x="110" y="77.0" font-size="22" text-anchor="end" dominant-baseline="middle" fill="#f57c00" font-weight="bold">?</text>
+<rect x="125" y="60" width="389.0" height="34" rx="0" fill="#ffe0b2" stroke="#f57c00" stroke-width="1.5"/>
+<text x="528.0" y="77.0" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222">86%</text>
+<text x="110" y="127.0" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222">フランス</text>
+<rect x="125" y="110" width="51.5" height="34" rx="0" fill="#cfd8dc" stroke="#607d8b" stroke-width="1.5"/>
+<text x="190.5" y="127.0" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222">11%</text>
+<text x="110" y="177.0" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222">アメリカ</text>
+<rect x="125" y="160" width="11.0" height="34" rx="0" fill="#cfd8dc" stroke="#607d8b" stroke-width="1.5"/>
+<text x="150.0" y="177.0" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222">2%</text>
+<text x="110" y="227.0" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222">オランダ</text>
+<rect x="125" y="210" width="6.5" height="34" rx="0" fill="#cfd8dc" stroke="#607d8b" stroke-width="1.5"/>
+<text x="145.5" y="227.0" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222">1%</text>
+<text x="300" y="262.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555">南北戦争で出遅れたアメリカに代わって第1位に</text>
+<circle cx="575" cy="22" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575" y="23" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

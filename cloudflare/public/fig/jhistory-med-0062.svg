@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" width="600" height="280" font-family="sans-serif">
+<rect width="600" height="280" fill="#fff"/>
+<text x="300" y="22.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">荘園・公領の年貢の取り分</text>
+<path d="M180,150 L180,50 A100,100 0 0,1 180,250 Z" fill="#ffe0b2" stroke="#f57c00" stroke-width="3"/>
+<path d="M180,150 L180,250 A100,100 0 0,1 180,50 Z" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+<text x="135" y="150.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">荘園領主へ</text>
+<text x="228" y="150.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">守護へ</text>
+<text x="430" y="111.2" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">守護が兵粮米として取り、</text>
+<text x="430" y="128.8" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">家来の武士に分け与えた</text>
+<text x="430" y="190.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold">→ 守護の力が強まる</text>
+<circle cx="575" cy="22" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575" y="23" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

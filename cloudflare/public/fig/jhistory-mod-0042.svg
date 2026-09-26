@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<defs><marker id="jhistorymod0042mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="40" y="110" width="150" height="70" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="115.0" y="145.0" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">大名</text>
+<rect x="420" y="110" width="150" height="70" rx="6" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="495.0" y="145.0" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">天皇（朝廷）</text>
+<path d="M195,125 L415,125" fill="none" stroke="#f57c00" stroke-width="3" marker-end="url(#jhistorymod0042mf57c00)"/>
+<text x="305" y="108.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">領地（土地）</text>
+<path d="M195,165 L415,165" fill="none" stroke="#f57c00" stroke-width="3" marker-end="url(#jhistorymod0042mf57c00)"/>
+<text x="305" y="186.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">領民（人民）</text>
+<text x="300" y="40.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">明治のはじめ、大名が天皇に返したもの</text>
+<text x="300" y="245.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555">返したあとも、もとの大名がそのまま知藩事として治めた</text>
+<circle cx="575" cy="22" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575" y="23" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

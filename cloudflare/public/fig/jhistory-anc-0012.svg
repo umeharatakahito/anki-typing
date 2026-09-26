@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="sans-serif">
+<rect width="600" height="360" fill="#fff"/>
+<defs><marker id="jhistoryanc0012m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="250" y="14" width="100" height="40" rx="6" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="300.0" y="34.0" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">天皇</text>
+<line x1="300" y1="54" x2="300" y2="80" stroke="#37474f" stroke-width="2"/>
+<line x1="150" y1="80" x2="450" y2="80" stroke="#37474f" stroke-width="2"/>
+<line x1="150" y1="80" x2="150" y2="100" stroke="#37474f" stroke-width="2" marker-end="url(#jhistoryanc0012m37474f)"/>
+<line x1="450" y1="80" x2="450" y2="100" stroke="#37474f" stroke-width="2" marker-end="url(#jhistoryanc0012m37474f)"/>
+<rect x="80" y="100" width="140" height="44" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="150.0" y="113.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">神祇官</text>
+<text x="150.0" y="130.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">（祭りごと）</text>
+<rect x="360" y="100" width="180" height="44" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="450.0" y="113.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">太政官</text>
+<text x="450.0" y="130.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">（政治）</text>
+<text x="450" y="160.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">太政大臣・左大臣・右大臣</text>
+<line x1="450" y1="172" x2="450" y2="196" stroke="#37474f" stroke-width="2"/>
+<line x1="45" y1="196" x2="555" y2="196" stroke="#37474f" stroke-width="2"/>
+<line x1="45" y1="196" x2="45" y2="214" stroke="#37474f" stroke-width="2" marker-end="url(#jhistoryanc0012m37474f)"/>
+<rect x="12" y="214" width="66" height="70" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="45.0" y="232.2" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">中</text>
+<text x="45.0" y="249.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">務</text>
+<text x="45.0" y="265.8" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">省</text>
+<line x1="118" y1="196" x2="118" y2="214" stroke="#37474f" stroke-width="2" marker-end="url(#jhistoryanc0012m37474f)"/>
+<rect x="85" y="214" width="66" height="70" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="118.0" y="232.2" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">式</text>
+<text x="118.0" y="249.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">部</text>
+<text x="118.0" y="265.8" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">省</text>
+<line x1="191" y1="196" x2="191" y2="214" stroke="#37474f" stroke-width="2" marker-end="url(#jhistoryanc0012m37474f)"/>
+<rect x="158" y="214" width="66" height="70" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="191.0" y="232.2" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">治</text>
+<text x="191.0" y="249.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">部</text>
+<text x="191.0" y="265.8" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">省</text>
+<line x1="264" y1="196" x2="264" y2="214" stroke="#37474f" stroke-width="2" marker-end="url(#jhistoryanc0012m37474f)"/>
+<rect x="231" y="214" width="66" height="70" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="264.0" y="232.2" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">民</text>
+<text x="264.0" y="249.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">部</text>
+<text x="264.0" y="265.8" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">省</text>
+<line x1="337" y1="196" x2="337" y2="214" stroke="#37474f" stroke-width="2" marker-end="url(#jhistoryanc0012m37474f)"/>
+<rect x="304" y="214" width="66" height="70" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="337.0" y="232.2" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">兵</text>
+<text x="337.0" y="249.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">部</text>
+<text x="337.0" y="265.8" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">省</text>
+<line x1="410" y1="196" x2="410" y2="214" stroke="#37474f" stroke-width="2" marker-end="url(#jhistoryanc0012m37474f)"/>
+<rect x="377" y="214" width="66" height="70" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="410.0" y="232.2" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">刑</text>
+<text x="410.0" y="249.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">部</text>
+<text x="410.0" y="265.8" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">省</text>
+<line x1="483" y1="196" x2="483" y2="214" stroke="#37474f" stroke-width="2" marker-end="url(#jhistoryanc0012m37474f)"/>
+<rect x="450" y="214" width="66" height="70" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="483.0" y="232.2" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">大</text>
+<text x="483.0" y="249.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">蔵</text>
+<text x="483.0" y="265.8" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">省</text>
+<line x1="556" y1="196" x2="556" y2="214" stroke="#37474f" stroke-width="2" marker-end="url(#jhistoryanc0012m37474f)"/>
+<rect x="523" y="214" width="66" height="70" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="556.0" y="232.2" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">宮</text>
+<text x="556.0" y="249.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">内</text>
+<text x="556.0" y="265.8" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">省</text>
+<text x="300" y="312.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">都の役所のしくみ「二官八省」</text>
+<text x="300" y="338.0" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555">この形をととのえた法典は？</text>
+<circle cx="575" cy="28" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575" y="29" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

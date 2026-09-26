@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" width="600" height="260" font-family="sans-serif">
+<rect width="600" height="260" fill="#fff"/>
+<defs><marker id="jhistoryearly0074m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="jhistoryearly0074mc62828" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<text x="300" y="22.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold">蔵米を受け取って換金した商人</text>
+<rect x="20" y="80" width="140" height="60" rx="6" fill="#eceff1" stroke="#607d8b" stroke-width="1.5"/>
+<text x="90.0" y="101.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">幕府の米蔵</text>
+<text x="90.0" y="118.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222">（浅草）</text>
+<rect x="230" y="70" width="140" height="80" rx="6" fill="#fff3e0" stroke="#f57c00" stroke-width="3"/>
+<text x="300.0" y="111.0" font-size="26" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold">?</text>
+<rect x="440" y="80" width="140" height="60" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="510.0" y="110.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222">旗本・御家人</text>
+<path d="M160,100 L225,100" fill="none" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhistoryearly0074m37474f)"/>
+<text x="193" y="86.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">米</text>
+<path d="M370,100 L435,100" fill="none" stroke="#37474f" stroke-width="2.5" marker-end="url(#jhistoryearly0074m37474f)"/>
+<text x="403" y="86.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#222">お金</text>
+<path d="M435,125 L375,125" fill="none" stroke="#c62828" stroke-width="2" marker-end="url(#jhistoryearly0074mc62828)"/>
+<text x="405" y="144.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#c62828">借金</text>
+<text x="300" y="210.0" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555">手数料や貸し付けの利子で大もうけした</text>
+<circle cx="575" cy="22" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="575" y="23" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>
