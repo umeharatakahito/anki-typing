@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" width="680" height="420" font-family="sans-serif">
+<rect width="680" height="420" fill="#fff"/>
+<path d="M280.0,75.0 A135,135 0 0 1 347.5,326.9 L320.0,279.3 A80,80 0 0 0 280.0,130.0 Z" fill="#c8e6c9" stroke="#607d8b" stroke-width="2" />
+<text x="383.4" y="182.3" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >G<tspan dy="5" font-size="72%">1</tspan><tspan dy="-5">​</tspan>期</text>
+<path d="M347.5,326.9 A135,135 0 0 1 147.1,233.4 L201.2,223.9 A80,80 0 0 0 320.0,279.3 Z" fill="#bbdefb" stroke="#607d8b" stroke-width="2" />
+<text x="234.8" y="307.0" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >S期</text>
+<path d="M147.1,233.4 A135,135 0 0 1 193.2,106.6 L228.6,148.7 A80,80 0 0 0 201.2,223.9 Z" fill="#fff9c4" stroke="#607d8b" stroke-width="2" />
+<text x="179.5" y="173.4" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >G<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>期</text>
+<path d="M193.2,106.6 A135,135 0 0 1 280.0,75.0 L280.0,130.0 A80,80 0 0 0 228.6,148.7 Z" fill="#f8bbd0" stroke="#607d8b" stroke-width="2" />
+<text x="243.4" y="109.5" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >M期</text>
+<path d="M288.1,55.2 A155,155 0 1 1 174.3,96.6" fill="none" stroke="#f57c00" stroke-width="6"/>
+<path d="M186.7,86.2 A155,155 0 0 1 271.9,55.2" fill="none" stroke="#ad1457" stroke-width="3"/>
+<line x1="470" y1="45" x2="227.0" y2="64.3" stroke="#555" stroke-width="1.2"/><circle cx="227.0" cy="64.3" r="2.2" fill="#555"/><text x="470" y="45" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >分裂期</text>
+<line x1="520" y1="300" x2="414.2" y2="287.5" stroke="#f57c00" stroke-width="2.4"/><circle cx="414.2" cy="287.5" r="3.5" fill="#f57c00"/><circle cx="520" cy="300" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="520" y="301" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="520" y="340" font-size="15" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >DNA の複製など</text>
+</svg>

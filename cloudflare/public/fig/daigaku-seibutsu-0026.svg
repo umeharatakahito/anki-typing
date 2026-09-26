@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 410" width="720" height="410" font-family="sans-serif">
+<rect width="720" height="410" fill="#fff"/>
+<circle cx="330" cy="200" r="165" fill="#fafafa" stroke="#424242" stroke-width="4" />
+<line x1="160" y1="225" x2="500" y2="225" stroke="#546e7a" stroke-width="2" />
+<line x1="172.5" y1="225" x2="172.5" y2="239" stroke="#546e7a" stroke-width="2" />
+<line x1="190.0" y1="225" x2="190.0" y2="247" stroke="#546e7a" stroke-width="2" />
+<line x1="207.5" y1="225" x2="207.5" y2="239" stroke="#546e7a" stroke-width="2" />
+<line x1="225.0" y1="225" x2="225.0" y2="239" stroke="#546e7a" stroke-width="2" />
+<line x1="242.5" y1="225" x2="242.5" y2="239" stroke="#546e7a" stroke-width="2" />
+<line x1="260.0" y1="225" x2="260.0" y2="239" stroke="#546e7a" stroke-width="2" />
+<line x1="277.5" y1="225" x2="277.5" y2="247" stroke="#546e7a" stroke-width="2" />
+<line x1="295.0" y1="225" x2="295.0" y2="239" stroke="#546e7a" stroke-width="2" />
+<line x1="312.5" y1="225" x2="312.5" y2="239" stroke="#546e7a" stroke-width="2" />
+<line x1="330.0" y1="225" x2="330.0" y2="239" stroke="#546e7a" stroke-width="2" />
+<line x1="347.5" y1="225" x2="347.5" y2="239" stroke="#546e7a" stroke-width="2" />
+<line x1="365.0" y1="225" x2="365.0" y2="247" stroke="#546e7a" stroke-width="2" />
+<line x1="382.5" y1="225" x2="382.5" y2="239" stroke="#546e7a" stroke-width="2" />
+<line x1="400.0" y1="225" x2="400.0" y2="239" stroke="#546e7a" stroke-width="2" />
+<line x1="417.5" y1="225" x2="417.5" y2="239" stroke="#546e7a" stroke-width="2" />
+<line x1="435.0" y1="225" x2="435.0" y2="239" stroke="#546e7a" stroke-width="2" />
+<line x1="452.5" y1="225" x2="452.5" y2="247" stroke="#546e7a" stroke-width="2" />
+<line x1="470.0" y1="225" x2="470.0" y2="239" stroke="#546e7a" stroke-width="2" />
+<line x1="487.5" y1="225" x2="487.5" y2="239" stroke="#546e7a" stroke-width="2" />
+<line x1="190" y1="190" x2="470" y2="190" stroke="#f57c00" stroke-width="2.5" />
+<line x1="190" y1="190" x2="190" y2="168" stroke="#f57c00" stroke-width="2" />
+<text x="190" y="156" font-size="14" text-anchor="middle" fill="#f57c00" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0</text>
+<line x1="197" y1="190" x2="197" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="204" y1="190" x2="204" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="211" y1="190" x2="211" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="218" y1="190" x2="218" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="225" y1="190" x2="225" y2="175" stroke="#f57c00" stroke-width="2" />
+<line x1="232" y1="190" x2="232" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="239" y1="190" x2="239" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="246" y1="190" x2="246" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="253" y1="190" x2="253" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="260" y1="190" x2="260" y2="168" stroke="#f57c00" stroke-width="2" />
+<text x="260" y="156" font-size="14" text-anchor="middle" fill="#f57c00" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >10</text>
+<line x1="267" y1="190" x2="267" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="274" y1="190" x2="274" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="281" y1="190" x2="281" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="288" y1="190" x2="288" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="295" y1="190" x2="295" y2="175" stroke="#f57c00" stroke-width="2" />
+<line x1="302" y1="190" x2="302" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="309" y1="190" x2="309" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="316" y1="190" x2="316" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="323" y1="190" x2="323" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="330" y1="190" x2="330" y2="168" stroke="#f57c00" stroke-width="2" />
+<text x="330" y="156" font-size="14" text-anchor="middle" fill="#f57c00" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >20</text>
+<line x1="337" y1="190" x2="337" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="344" y1="190" x2="344" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="351" y1="190" x2="351" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="358" y1="190" x2="358" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="365" y1="190" x2="365" y2="175" stroke="#f57c00" stroke-width="2" />
+<line x1="372" y1="190" x2="372" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="379" y1="190" x2="379" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="386" y1="190" x2="386" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="393" y1="190" x2="393" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="400" y1="190" x2="400" y2="168" stroke="#f57c00" stroke-width="2" />
+<text x="400" y="156" font-size="14" text-anchor="middle" fill="#f57c00" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >30</text>
+<line x1="407" y1="190" x2="407" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="414" y1="190" x2="414" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="421" y1="190" x2="421" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="428" y1="190" x2="428" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="435" y1="190" x2="435" y2="175" stroke="#f57c00" stroke-width="2" />
+<line x1="442" y1="190" x2="442" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="449" y1="190" x2="449" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="456" y1="190" x2="456" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="463" y1="190" x2="463" y2="181" stroke="#f57c00" stroke-width="2" />
+<line x1="470" y1="190" x2="470" y2="168" stroke="#f57c00" stroke-width="2" />
+<text x="470" y="156" font-size="14" text-anchor="middle" fill="#f57c00" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >40</text>
+<line x1="190" y1="140" x2="190" y2="265" stroke="#e53935" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="470" y1="140" x2="470" y2="265" stroke="#e53935" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="330" y="285" font-size="14" text-anchor="middle" fill="#e53935" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >目盛りが一致する位置</text>
+<line x1="560" y1="150" x2="472" y2="185" stroke="#f57c00" stroke-width="2.4"/><circle cx="472" cy="185" r="3.5" fill="#f57c00"/><circle cx="560" cy="150" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="560" y="151" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="520" y1="260" x2="470" y2="232" stroke="#555" stroke-width="1.2"/><circle cx="470" cy="232" r="2.2" fill="#555"/><text x="520" y="260" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ステージ上の目盛り</text>
+<text x="520" y="285" font-size="14" text-anchor="start" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（1目盛り＝10 μm）</text>
+<text x="330" y="395" font-size="15" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >顕微鏡の視野</text>
+</svg>

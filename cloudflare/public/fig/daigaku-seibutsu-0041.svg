@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 710 310" width="710" height="310" font-family="sans-serif">
+<rect width="710" height="310" fill="#fff"/>
+<rect x="50" y="130" width="130" height="56" rx="8" fill="#e3f2fd" stroke="#1e88e5" stroke-width="2" /><text x="115.0" y="159.0" font-size="20" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >DNA</text>
+<rect x="290" y="130" width="130" height="56" rx="8" fill="#ffebee" stroke="#e53935" stroke-width="2" /><text x="355.0" y="159.0" font-size="20" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >RNA</text>
+<rect x="530" y="130" width="130" height="56" rx="8" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2" /><text x="595.0" y="159.0" font-size="18" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >タンパク質</text>
+<line x1="185" y1="158" x2="271.0" y2="158.0" stroke="#f57c00" stroke-width="4"/><polygon points="285,158 271.0,151.0 271.0,165.0" fill="#f57c00"/>
+<line x1="425" y1="158" x2="511.0" y2="158.0" stroke="#555" stroke-width="2.8"/><polygon points="525,158 511.0,151.0 511.0,165.0" fill="#555"/>
+<path d="M90,128 C70,60 160,60 140,126" fill="none" stroke="#555" stroke-width="2.8"/><polygon points="140,128 146.7,119.0 136.8,117.3" fill="#555"/>
+<text x="115" y="50" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >複製</text>
+<circle cx="235" cy="118" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="235" y="119" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="475" y="128" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >翻訳</text>
+</svg>

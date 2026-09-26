@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 290" width="680" height="290" font-family="sans-serif">
+<rect width="680" height="290" fill="#fff"/>
+<polygon points="95.0,116.0 124.4,133.0 124.4,167.0 95.0,184.0 65.6,167.0 65.6,133.0" fill="#e1bee7" stroke="#8e24aa" stroke-width="2.2" />
+<polygon points="118.9,150.0 138.9,122.5 171.2,133.0 171.2,167.0 138.9,177.5" fill="#e1bee7" stroke="#8e24aa" stroke-width="2.2" />
+<line x1="176.76548386065022" y1="150" x2="242.66407844596478" y2="139.4934221912518" stroke="#222" stroke-width="2.5" />
+<polygon points="275.0,116.0 307.3,139.5 295.0,177.5 255.0,177.5 242.7,139.5" fill="#ffcc80" stroke="#f57c00" stroke-width="2.6" />
+
+<line x1="307.3359215540352" y1="139.4934221912518" x2="369" y2="150" stroke="#222" stroke-width="2.5" />
+<path d="M421,150 q6.0,-8 12.0,0 q6.0,8 12.0,0 q6.0,-8 12.0,0 q6.0,8 12.0,0" fill="none" stroke="#222" stroke-width="2.5" />
+<path d="M521,150 q6.0,-8 12.0,0 q6.0,8 12.0,0 q6.0,-8 12.0,0 q6.0,8 12.0,0" fill="none" stroke="#222" stroke-width="2.5" />
+<circle cx="395" cy="150" r="26" fill="#fff59d" stroke="#f9a825" stroke-width="2.2" />
+<text x="395" y="151" font-size="20" text-anchor="middle" fill="#6d4c00" font-weight="bold" dominant-baseline="middle"  >P</text>
+<circle cx="495" cy="150" r="26" fill="#fff59d" stroke="#f9a825" stroke-width="2.2" />
+<text x="495" y="151" font-size="20" text-anchor="middle" fill="#6d4c00" font-weight="bold" dominant-baseline="middle"  >P</text>
+<circle cx="595" cy="150" r="26" fill="#fff59d" stroke="#f9a825" stroke-width="2.2" />
+<text x="595" y="151" font-size="20" text-anchor="middle" fill="#6d4c00" font-weight="bold" dominant-baseline="middle"  >P</text>
+<line x1="110" y1="245" x2="110" y2="180" stroke="#555" stroke-width="1.2"/><circle cx="110" cy="180" r="2.2" fill="#555"/><text x="110" y="245" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >アデニン</text>
+<line x1="275" y1="250" x2="275" y2="182" stroke="#f57c00" stroke-width="2.4"/><circle cx="275" cy="182" r="3.5" fill="#f57c00"/><circle cx="275" cy="250" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="275" y="251" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<path d="M369,186 L369,196 L621,196 L621,186" fill="none" stroke="#555" stroke-width="1.8" />
+<line x1="495" y1="245" x2="495" y2="196" stroke="#555" stroke-width="1.2"/><circle cx="495" cy="196" r="2.2" fill="#555"/><text x="495" y="245" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >リン酸</text>
+<text x="340" y="45" font-size="22" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ATP</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 375" width="640" height="375" font-family="sans-serif">
+<rect width="640" height="375" fill="#fff"/>
+<line x1="90" y1="250" x2="450" y2="250" stroke="#222" stroke-width="2" />
+<line x1="90" y1="250" x2="90" y2="50" stroke="#222" stroke-width="2" />
+<text x="80" y="38" font-size="14" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >配偶子の数</text>
+<rect x="120" y="70.0" width="55" height="180.0" rx="0" fill="#bbdefb" stroke="#1e88e5" stroke-width="2" />
+<text x="147" y="58.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >40</text>
+<text x="147" y="268" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >AB</text>
+<rect x="205" y="205.0" width="55" height="45.0" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="232" y="193.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >10</text>
+<text x="232" y="268" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Ab</text>
+<rect x="290" y="205.0" width="55" height="45.0" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="317" y="193.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >10</text>
+<text x="317" y="268" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >aB</text>
+<rect x="375" y="70.0" width="55" height="180.0" rx="0" fill="#bbdefb" stroke="#1e88e5" stroke-width="2" />
+<text x="402" y="58.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >40</text>
+<text x="402" y="268" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ab</text>
+<text x="320" y="300" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >組換えを起こした配偶子（橙）</text>
+<circle cx="100" cy="345" r="14" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="100" y="346" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="122" y="346" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＝ (10＋10) ÷ (40＋10＋10＋40) × 100 ＝ 20（%）</text>
+</svg>

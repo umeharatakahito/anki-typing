@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 360" width="660" height="360" font-family="sans-serif">
+<rect width="660" height="360" fill="#fff"/>
+<rect x="20" y="175" width="60" height="40" rx="5" fill="#546e7a" stroke="none" stroke-width="0" />
+<path d="M80,178 L100,165 L100,225 L80,212 Z" fill="#90a4ae" stroke="none" stroke-width="0" />
+<text x="50" y="240" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >光源</text>
+<rect x="152" y="144.0" width="146" height="134.0" rx="0" fill="#e3f2fd" stroke="none" stroke-width="0" /><path d="M144,104 L150,110 L150,280 L300,280 L300,110" fill="none" stroke="#607d8b" stroke-width="2.5" />
+<rect x="422" y="144.0" width="146" height="134.0" rx="0" fill="#d7ccc8" stroke="none" stroke-width="0" /><path d="M414,104 L420,110 L420,280 L570,280 L570,110" fill="none" stroke="#607d8b" stroke-width="2.5" />
+<path d="M100,185 L640,185 L640,205 L100,205 Z" fill="#fffde7" stroke="none" stroke-width="0" opacity="0.35"/>
+<rect x="422" y="184" width="146" height="22" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="225" y="310" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >普通の溶液</text>
+<text x="225" y="332" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（光の通路は見えない）</text>
+<text x="495" y="310" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >コロイド溶液</text>
+<line x1="600" y1="120" x2="540" y2="186" stroke="#f57c00" stroke-width="2.4"/><circle cx="540" cy="186" r="3.5" fill="#f57c00"/><circle cx="600" cy="120" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="600" y="121" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="360" y="40" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >横から見ると…</text>
+<line x1="360" y1="55" x2="360.0" y2="81.0" stroke="#555" stroke-width="2"/><polygon points="360,90 364.5,81.0 355.5,81.0" fill="#555"/>
+</svg>

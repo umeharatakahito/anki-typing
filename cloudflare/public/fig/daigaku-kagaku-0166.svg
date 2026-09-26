@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 360" width="660" height="360" font-family="sans-serif">
+<rect width="660" height="360" fill="#fff"/>
+<rect x="70" y="150" width="110" height="44" rx="0" fill="#e3f2fd" stroke="none" stroke-width="0" />
+<rect x="180" y="150" width="220" height="44" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<rect x="400" y="150" width="220" height="44" rx="0" fill="#efebe9" stroke="none" stroke-width="0" />
+<line x1="70" y1="194" x2="630.0" y2="194.0" stroke="#222" stroke-width="2"/><polygon points="640,194 630.0,189.0 630.0,199.0" fill="#222"/>
+<line x1="70" y1="194" x2="70" y2="202" stroke="#222" stroke-width="2" />
+<text x="70" y="222" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >10<tspan dy="-7" font-size="72%">-10</tspan><tspan dy="7">​</tspan></text>
+<line x1="180" y1="194" x2="180" y2="202" stroke="#222" stroke-width="2" />
+<text x="180" y="222" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >10<tspan dy="-7" font-size="72%">-9</tspan><tspan dy="7">​</tspan></text>
+<line x1="290" y1="194" x2="290" y2="202" stroke="#222" stroke-width="2" />
+<text x="290" y="222" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >10<tspan dy="-7" font-size="72%">-8</tspan><tspan dy="7">​</tspan></text>
+<line x1="400" y1="194" x2="400" y2="202" stroke="#222" stroke-width="2" />
+<text x="400" y="222" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >10<tspan dy="-7" font-size="72%">-7</tspan><tspan dy="7">​</tspan></text>
+<line x1="510" y1="194" x2="510" y2="202" stroke="#222" stroke-width="2" />
+<text x="510" y="222" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >10<tspan dy="-7" font-size="72%">-6</tspan><tspan dy="7">​</tspan></text>
+<line x1="620" y1="194" x2="620" y2="202" stroke="#222" stroke-width="2" />
+<text x="620" y="222" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >10<tspan dy="-7" font-size="72%">-5</tspan><tspan dy="7">​</tspan></text>
+<text x="640" y="250" font-size="15" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >粒子の直径 [m]</text>
+<text x="125.0" y="128" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >分子・イオン</text>
+<text x="510.0" y="128" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >沈殿する大きな粒子</text>
+<circle cx="290.0" cy="172" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="290.0" y="173" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<circle cx="85" cy="165" r="2" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="100" cy="180" r="2.5" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="120" cy="170" r="2" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="150" cy="182" r="2" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="160" cy="162" r="2.5" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="450" cy="172" r="14" fill="#a1887f" stroke="none" stroke-width="0" />
+<circle cx="500" cy="168" r="18" fill="#a1887f" stroke="none" stroke-width="0" />
+<circle cx="545" cy="176" r="12" fill="#a1887f" stroke="none" stroke-width="0" />
+<circle cx="590" cy="170" r="16" fill="#a1887f" stroke="none" stroke-width="0" />
+<text x="58" y="290" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ろ紙を</text>
+<text x="163.0" y="290" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >通る</text>
+<text x="298.0" y="290" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >通る</text>
+<text x="518.0" y="290" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >通らない</text>
+<text x="58" y="330" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >半透膜を</text>
+<text x="163.0" y="330" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >通る</text>
+<text x="298.0" y="330" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >通らない</text>
+<text x="518.0" y="330" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >通らない</text>
+<text x="360" y="40" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >粒子の大きさと分類</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 420" width="660" height="420" font-family="sans-serif">
+<rect width="660" height="420" fill="#fff"/>
+<clipPath id="fl"><circle cx="160" cy="272" r="58"/></clipPath>
+<rect x="100" y="277" width="120" height="60" rx="0" fill="#e1bee7" stroke="none" stroke-width="0" clip-path="url(#fl)"/>
+<circle cx="160" cy="272" r="60" fill="none" stroke="#607d8b" stroke-width="2.5" />
+<rect x="148" y="118" width="24" height="96" rx="0" fill="#fff" stroke="#607d8b" stroke-width="2.5" />
+<rect x="148" y="206" width="24" height="12" rx="0" fill="#fff" stroke="none" stroke-width="0" />
+<rect x="145" y="104" width="30" height="16" rx="0" fill="#795548" stroke="#4e342e" stroke-width="1" />
+<circle cx="142" cy="318" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="160" cy="324" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<circle cx="178" cy="316" r="5" fill="#9e9e9e" stroke="#616161" stroke-width="1" />
+<polygon points="253.2,159.4 461.8,229.5 450.9,261.7 242.4,191.6" fill="#e3f2fd" stroke="#607d8b" stroke-width="2.5"/>
+<polygon points="173.3,146.2 506.3,258.2 503.7,265.8 170.7,153.8" fill="#fff" stroke="#607d8b" stroke-width="2"/>
+<line x1="432.0" y1="255.4" x2="424.6" y2="277.2" stroke="#607d8b" stroke-width="7" /><line x1="432.0" y1="255.4" x2="424.6" y2="277.2" stroke="#e3f2fd" stroke-width="3" />
+<line x1="272.2" y1="165.8" x2="279.5" y2="144.0" stroke="#607d8b" stroke-width="7" /><line x1="272.2" y1="165.8" x2="279.5" y2="144.0" stroke="#e3f2fd" stroke-width="3" />
+<line x1="422.6" y1="311.2" x2="423.9" y2="291.2" stroke="#1e88e5" stroke-width="2.4"/><polygon points="424.6,281.2 418.9,290.8 428.9,291.5" fill="#1e88e5"/>
+<line x1="279.5" y1="140.0" x2="280.8" y2="120.0" stroke="#1e88e5" stroke-width="2.4"/><polygon points="281.5,110.0 275.8,119.6 285.8,120.3" fill="#1e88e5"/>
+<text x="438.6" y="307.2" font-size="16" text-anchor="start" fill="#1e88e5" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >水</text>
+<text x="293.5" y="118.0" font-size="16" text-anchor="start" fill="#1e88e5" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >水</text>
+<path d="M502,258 Q519,264 521,284 L521,314" fill="none" stroke="#607d8b" stroke-width="8" />
+<path d="M502,258 Q519,264 521,284 L521,314" fill="none" stroke="#fff" stroke-width="4" />
+<path d="M509,292 L509,322 L471,402 L571,402 L533,322 L533,292" fill="#fff" stroke="#607d8b" stroke-width="2.5" />
+<path d="M483,377 L559,377 L569,399 L473,399 Z" fill="#f3e5f5" stroke="none" stroke-width="0" />
+<line x1="521" y1="332" x2="521" y2="346" stroke="#ce93d8" stroke-width="3" stroke-dasharray="3 5"/>
+<rect x="157" y="46" width="6" height="104" rx="0" fill="#fff" stroke="#e53935" stroke-width="1.5" />
+<circle cx="160" cy="150" r="5" fill="#e53935" stroke="none" stroke-width="0" />
+<line x1="100" y1="336" x2="220" y2="336" stroke="#616161" stroke-width="3" />
+<path d="M144,426 L176,426 L169,372 L151,372 Z" fill="#b0bec5" stroke="#455a64" stroke-width="2" />
+<rect x="130" y="426" width="60" height="8" rx="2" fill="#90a4ae" stroke="#455a64" stroke-width="1.5" />
+<path d="M160,342 C146,360 148,368 160,370 C172,368 174,360 160,342 Z" fill="#42a5f5" stroke="none" stroke-width="0" />
+<line x1="40" y1="56" x2="157" y2="72" stroke="#555" stroke-width="1.2"/><circle cx="157" cy="72" r="2.2" fill="#555"/><text x="40" y="56" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >温度計</text>
+<line x1="20" y1="180" x2="116" y2="232" stroke="#555" stroke-width="1.2"/><circle cx="116" cy="232" r="2.2" fill="#555"/><text x="20" y="180" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >枝付きフラスコ</text>
+<line x1="40" y1="392" x2="142" y2="320" stroke="#555" stroke-width="1.2"/><circle cx="142" cy="320" r="2.2" fill="#555"/><text x="40" y="392" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >沸騰石</text>
+<line x1="250" y1="62" x2="330" y2="196" stroke="#555" stroke-width="1.2"/><circle cx="330" cy="196" r="2.2" fill="#555"/><text x="250" y="62" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >リービッヒ冷却器</text>
+<text x="590" y="40" font-size="16" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >この操作</text>
+<circle cx="614" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="614" y="41" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

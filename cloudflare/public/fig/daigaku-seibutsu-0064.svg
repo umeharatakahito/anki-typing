@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" width="700" height="380" font-family="sans-serif">
+<rect width="700" height="380" fill="#fff"/>
+<rect x="20" y="30" width="660" height="330" rx="30" fill="#fffde7" stroke="#8d6e63" stroke-width="2.5" />
+<text x="110" y="55" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >細胞質基質</text>
+<ellipse cx="470" cy="210" rx="190" ry="115" fill="#ffccbc" stroke="#bf360c" stroke-width="3" />
+<ellipse cx="470" cy="210" rx="170" ry="97" fill="#fff3e0" stroke="#bf360c" stroke-width="2" />
+<text x="470" y="90" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ミトコンドリア</text>
+<rect x="40" y="110" width="120" height="40" rx="8" fill="#fff" stroke="#607d8b" stroke-width="2" /><text x="100.0" y="131.0" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >グルコース</text>
+<rect x="40" y="250" width="120" height="40" rx="8" fill="#fff" stroke="#607d8b" stroke-width="2" /><text x="100.0" y="271.0" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >ピルビン酸</text>
+<line x1="100" y1="150" x2="100.0" y2="238.0" stroke="#555" stroke-width="3"/><polygon points="100,248 105.0,238.0 95.0,238.0" fill="#555"/>
+<line x1="160" y1="270" x2="350.0" y2="251.0" stroke="#555" stroke-width="2.5"/><polygon points="360,250 349.6,246.0 350.5,256.0" fill="#555"/>
+<circle cx="420" cy="220" r="45" fill="none" stroke="#f57c00" stroke-width="3.5" />
+<line x1="460" y1="196" x2="459.6" y2="194.3" stroke="#f57c00" stroke-width="3"/><polygon points="462,205 465.0,193.1 454.2,195.5" fill="#f57c00"/>
+<line x1="380" y1="244" x2="380.5" y2="245.4" stroke="#f57c00" stroke-width="3"/><polygon points="377,235 375.3,247.2 385.7,243.7" fill="#f57c00"/>
+<rect x="512" y="283.0" width="16" height="22" rx="4" fill="#bcaaa4" stroke="#6d4c41" stroke-width="2" />
+<rect x="537" y="270.5" width="16" height="22" rx="4" fill="#bcaaa4" stroke="#6d4c41" stroke-width="2" />
+<rect x="562" y="258.0" width="16" height="22" rx="4" fill="#bcaaa4" stroke="#6d4c41" stroke-width="2" />
+<rect x="587" y="245.5" width="16" height="22" rx="4" fill="#bcaaa4" stroke="#6d4c41" stroke-width="2" />
+<text x="560" y="190" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ATP</text>
+<circle cx="420" cy="222" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="420" y="223" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="190" y1="200" x2="102" y2="200" stroke="#555" stroke-width="1.2"/><circle cx="102" cy="200" r="2.2" fill="#555"/><text x="190" y="200" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >解糖系</text>
+<line x1="590" y1="340" x2="560" y2="300" stroke="#555" stroke-width="1.2"/><circle cx="560" cy="300" r="2.2" fill="#555"/><text x="590" y="340" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >電子伝達系</text>
+</svg>

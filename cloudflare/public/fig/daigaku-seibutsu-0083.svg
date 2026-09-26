@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" font-family="sans-serif">
+<rect width="720" height="360" fill="#fff"/>
+<rect x="0" y="150" width="720" height="60" rx="0" fill="#ffe0b2" stroke="#bf360c" stroke-width="0" />
+<line x1="0" y1="150" x2="720" y2="150" stroke="#bf360c" stroke-width="2" />
+<line x1="0" y1="210" x2="720" y2="210" stroke="#bf360c" stroke-width="2" />
+<text x="20" y="70" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >膜間腔（H<tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan> 濃度 高）</text>
+<text x="20" y="330" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >マトリックス（H<tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan> 濃度 低）</text>
+<line x1="700" y1="110" x2="680" y2="180" stroke="#555" stroke-width="1.2"/><circle cx="680" cy="180" r="2.2" fill="#555"/><text x="700" y="110" font-size="16" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >内膜</text>
+<text x="300" y="60" font-size="16" text-anchor="middle" fill="#e53935" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan></text>
+<text x="200" y="110" font-size="16" text-anchor="middle" fill="#e53935" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan></text>
+<text x="360" y="40" font-size="16" text-anchor="middle" fill="#e53935" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan></text>
+<text x="470" y="60" font-size="16" text-anchor="middle" fill="#e53935" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan></text>
+<text x="520" y="110" font-size="16" text-anchor="middle" fill="#e53935" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan></text>
+<text x="600" y="70" font-size="16" text-anchor="middle" fill="#e53935" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan></text>
+<text x="330" y="110" font-size="16" text-anchor="middle" fill="#e53935" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan></text>
+<text x="560" y="30" font-size="16" text-anchor="middle" fill="#e53935" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan></text>
+<text x="110" y="290" font-size="16" text-anchor="middle" fill="#e53935" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan></text>
+<rect x="110" y="140" width="40" height="80" rx="8" fill="#cfd8dc" stroke="#607d8b" stroke-width="2" />
+<line x1="130" y1="225" x2="130.0" y2="140.0" stroke="#607d8b" stroke-width="2"/><polygon points="130,132 126.0,140.0 134.0,140.0" fill="#607d8b"/>
+<rect x="180" y="140" width="40" height="80" rx="8" fill="#cfd8dc" stroke="#607d8b" stroke-width="2" />
+<line x1="200" y1="225" x2="200.0" y2="140.0" stroke="#607d8b" stroke-width="2"/><polygon points="200,132 196.0,140.0 204.0,140.0" fill="#607d8b"/>
+<text x="165" y="250" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >電子伝達系</text>
+<rect x="390" y="140" width="60" height="80" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<rect x="412" y="220" width="16" height="30" rx="2" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<ellipse cx="420" cy="275" rx="55" ry="32" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<line x1="420" y1="105" x2="420.0" y2="166.0" stroke="#e53935" stroke-width="3.5"/><polygon points="420,178 426.0,166.0 414.0,166.0" fill="#e53935"/>
+<text x="400" y="115" font-size="16" text-anchor="end" fill="#e53935" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan></text>
+<text x="505" y="275" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ADP ＋ リン酸 → ATP</text>
+<line x1="500" y1="275" x2="489.0" y2="275.0" stroke="#555" stroke-width="2"/><polygon points="480,275 489.0,279.5 489.0,270.5" fill="#555"/>
+<line x1="300" y1="305" x2="380" y2="285" stroke="#f57c00" stroke-width="2.4"/><circle cx="380" cy="285" r="3.5" fill="#f57c00"/><circle cx="300" cy="305" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="300" y="306" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

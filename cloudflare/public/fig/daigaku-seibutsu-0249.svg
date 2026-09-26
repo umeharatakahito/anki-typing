@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" font-family="sans-serif">
+<rect width="640" height="400" fill="#fff"/>
+<rect x="150" y="40" width="300" height="14" rx="3" fill="#424242" stroke="#212121" stroke-width="1" />
+<text x="130" y="48" font-size="26" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >−</text>
+<rect x="150" y="70" width="300" height="280" rx="4" fill="#e3f2fd" stroke="#90a4ae" stroke-width="2" />
+<rect x="150" y="366" width="300" height="14" rx="3" fill="#c62828" stroke="#8e0000" stroke-width="1" />
+<text x="130" y="374" font-size="26" text-anchor="middle" fill="#e53935" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >+</text>
+<rect x="173" y="82" width="44" height="10" rx="2" fill="#546e7a" stroke="none" stroke-width="0" />
+<rect x="173" y="110" width="44" height="7" rx="2" fill="#6a1b9a" stroke="none" stroke-width="0" fill-opacity="0.85"/>
+<rect x="173" y="140" width="44" height="7" rx="2" fill="#6a1b9a" stroke="none" stroke-width="0" fill-opacity="0.85"/>
+<rect x="173" y="175" width="44" height="7" rx="2" fill="#6a1b9a" stroke="none" stroke-width="0" fill-opacity="0.85"/>
+<rect x="173" y="220" width="44" height="7" rx="2" fill="#6a1b9a" stroke="none" stroke-width="0" fill-opacity="0.85"/>
+<rect x="173" y="280" width="44" height="7" rx="2" fill="#6a1b9a" stroke="none" stroke-width="0" fill-opacity="0.85"/>
+<rect x="173" y="320" width="44" height="7" rx="2" fill="#6a1b9a" stroke="none" stroke-width="0" fill-opacity="0.85"/>
+<rect x="243" y="82" width="44" height="10" rx="2" fill="#546e7a" stroke="none" stroke-width="0" />
+<rect x="243" y="150" width="44" height="7" rx="2" fill="#6a1b9a" stroke="none" stroke-width="0" fill-opacity="0.85"/>
+<rect x="243" y="260" width="44" height="7" rx="2" fill="#6a1b9a" stroke="none" stroke-width="0" fill-opacity="0.85"/>
+<rect x="313" y="82" width="44" height="10" rx="2" fill="#546e7a" stroke="none" stroke-width="0" />
+<rect x="313" y="140" width="44" height="7" rx="2" fill="#6a1b9a" stroke="none" stroke-width="0" fill-opacity="0.85"/>
+<rect x="313" y="210" width="44" height="7" rx="2" fill="#6a1b9a" stroke="none" stroke-width="0" fill-opacity="0.85"/>
+<rect x="313" y="300" width="44" height="7" rx="2" fill="#6a1b9a" stroke="none" stroke-width="0" fill-opacity="0.85"/>
+<rect x="383" y="82" width="44" height="10" rx="2" fill="#546e7a" stroke="none" stroke-width="0" />
+<rect x="383" y="190" width="44" height="7" rx="2" fill="#6a1b9a" stroke="none" stroke-width="0" fill-opacity="0.85"/>
+<rect x="383" y="250" width="44" height="7" rx="2" fill="#6a1b9a" stroke="none" stroke-width="0" fill-opacity="0.85"/>
+
+<line x1="110" y1="110" x2="172" y2="113" stroke="#555" stroke-width="1.2"/><circle cx="172" cy="113" r="2.2" fill="#555"/><text x="110" y="110" font-size="15" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >マーカー</text>
+<line x1="520" y1="60" x2="420" y2="87" stroke="#555" stroke-width="1.2"/><circle cx="420" cy="87" r="2.2" fill="#555"/><text x="520" y="60" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >DNAを入れる穴</text>
+<line x1="480" y1="110" x2="480.0" y2="316.0" stroke="#555" stroke-width="2.6"/><polygon points="480,330 487.0,316.0 473.0,316.0" fill="#555"/>
+<text x="495" y="170" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >DNAは</text>
+<text x="495" y="192" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＋極へ移動</text>
+<text x="495" y="240" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >短い断片ほど</text>
+<text x="495" y="262" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >遠くまで進む</text>
+<line x1="100" y1="250" x2="160" y2="250" stroke="#555" stroke-width="1.2"/><circle cx="160" cy="250" r="2.2" fill="#555"/><text x="100" y="250" font-size="15" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >寒天ゲル</text>
+<line x1="60" y1="330" x2="155" y2="330" stroke="#f57c00" stroke-width="2.4"/><circle cx="155" cy="330" r="3.5" fill="#f57c00"/><circle cx="60" cy="330" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="60" y="331" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

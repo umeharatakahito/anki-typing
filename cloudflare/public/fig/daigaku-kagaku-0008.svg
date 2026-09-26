@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" width="700" height="400" font-family="sans-serif">
+<rect width="700" height="400" fill="#fff"/>
+<rect x="290.0" y="46.0" width="120" height="92" rx="6" fill="#fff" stroke="#607d8b" stroke-width="2" />
+<circle cx="310.0" cy="62.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="310.0" cy="82.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="310.0" cy="102.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="310.0" cy="122.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="330.0" cy="62.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="330.0" cy="82.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="330.0" cy="102.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="330.0" cy="122.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="350.0" cy="62.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="350.0" cy="82.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="350.0" cy="102.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="350.0" cy="122.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="370.0" cy="62.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="370.0" cy="82.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="370.0" cy="102.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="370.0" cy="122.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="390.0" cy="62.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="390.0" cy="82.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="390.0" cy="102.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="390.0" cy="122.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<text x="255" y="92" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >固体</text>
+<rect x="80.0" y="276.0" width="120" height="92" rx="6" fill="#fff" stroke="#607d8b" stroke-width="2" />
+<circle cx="98.0" cy="316.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="117.0" cy="310.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="138.0" cy="318.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="159.0" cy="312.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="180.0" cy="317.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="106.0" cy="334.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="127.0" cy="331.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="148.0" cy="336.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="170.0" cy="333.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="96.0" cy="352.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="116.0" cy="352.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="137.0" cy="353.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="158.0" cy="352.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="180.0" cy="351.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<circle cx="188.0" cy="334.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<text x="140" y="384" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >液体</text>
+<rect x="500.0" y="276.0" width="120" height="92" rx="6" fill="#fff" stroke="#607d8b" stroke-width="2" />
+<line x1="522.0" y1="298.0" x2="534.1" y2="305.0" stroke="#90a4ae" stroke-width="1.5"/><polygon points="539.3,308.0 535.6,302.4 532.6,307.6" fill="#90a4ae"/>
+<circle cx="522.0" cy="298.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<line x1="582.0" y1="294.0" x2="568.8" y2="298.8" stroke="#90a4ae" stroke-width="1.5"/><polygon points="563.2,300.8 569.9,301.6 567.8,295.9" fill="#90a4ae"/>
+<circle cx="582.0" cy="294.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<line x1="550.0" y1="326.0" x2="560.7" y2="317.0" stroke="#90a4ae" stroke-width="1.5"/><polygon points="565.3,313.1 558.8,314.7 562.6,319.3" fill="#90a4ae"/>
+<circle cx="550.0" cy="326.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<line x1="600.0" y1="342.0" x2="586.8" y2="337.2" stroke="#90a4ae" stroke-width="1.5"/><polygon points="581.2,335.2 585.8,340.1 587.9,334.4" fill="#90a4ae"/>
+<circle cx="600.0" cy="342.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<line x1="524.0" y1="350.0" x2="526.5" y2="336.2" stroke="#90a4ae" stroke-width="1.5"/><polygon points="527.5,330.3 523.5,335.7 529.4,336.7" fill="#90a4ae"/>
+<circle cx="524.0" cy="350.0" r="8.5" fill="#90caf9" stroke="#1565c0" stroke-width="1.2" />
+<text x="560" y="384" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >気体</text>
+<line x1="294.1" y1="138.4" x2="190.0" y2="252.5" stroke="#607d8b" stroke-width="2.4"/><polygon points="181.2,262.1 194.8,256.9 185.2,248.1" fill="#607d8b"/>
+<text x="215.5" y="180.0" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >融解</text>
+<line x1="195.9" y1="275.6" x2="300.0" y2="161.5" stroke="#607d8b" stroke-width="2.4"/><polygon points="308.8,151.9 295.2,157.1 304.8,165.9" fill="#607d8b"/>
+<text x="274.5" y="234.0" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >凝固</text>
+<line x1="220.0" y1="332.0" x2="467.0" y2="332.0" stroke="#607d8b" stroke-width="2.4"/><polygon points="480.0,332.0 467.0,325.5 467.0,338.5" fill="#607d8b"/>
+<text x="350.0" y="362.0" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >蒸発</text>
+<line x1="480.0" y1="312.0" x2="233.0" y2="312.0" stroke="#607d8b" stroke-width="2.4"/><polygon points="220.0,312.0 233.0,318.5 233.0,305.5" fill="#607d8b"/>
+<text x="350.0" y="282.0" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >凝縮</text>
+<line x1="391.2" y1="151.9" x2="495.3" y2="266.0" stroke="#f57c00" stroke-width="3.4"/><polygon points="504.1,275.6 500.1,261.6 490.5,270.4" fill="#f57c00"/>
+<circle cx="425.5" cy="234.0" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="425.5" y="235.0" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="518.8" y1="262.1" x2="414.7" y2="148.0" stroke="#607d8b" stroke-width="2.4"/><polygon points="405.9,138.4 409.9,152.4 419.5,143.6" fill="#607d8b"/>
+</svg>

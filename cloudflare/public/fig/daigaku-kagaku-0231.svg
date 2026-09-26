@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 370" width="680" height="370" font-family="sans-serif">
+<rect width="680" height="370" fill="#fff"/>
+<text x="101.3" y="150" font-size="24" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >n CH<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>=CH<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan></text>
+<line x1="215" y1="150" x2="308.0" y2="150.0" stroke="#222" stroke-width="2.6"/><polygon points="320,150 308.0,144.0 308.0,156.0" fill="#222"/>
+<text x="416.7" y="150" font-size="24" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >−[CH<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>−CH<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>]<tspan dy="5" font-size="72%">n</tspan><tspan dy="-5">​</tspan>−</text>
+<text x="101.27680000000001" y="210" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >エチレン</text>
+<text x="416.6752" y="210" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ポリエチレン（高分子）</text>
+<line x1="267" y1="80" x2="267" y2="146" stroke="#f57c00" stroke-width="2.4"/><circle cx="267" cy="146" r="3.5" fill="#f57c00"/><circle cx="267" cy="80" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="267" y="81" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="60" y1="287" x2="82" y2="287" stroke="#222" stroke-width="2" /><line x1="60" y1="293" x2="82" y2="293" stroke="#222" stroke-width="2" />
+<circle cx="60" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" /><circle cx="82" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" />
+<line x1="104" y1="287" x2="126" y2="287" stroke="#222" stroke-width="2" /><line x1="104" y1="293" x2="126" y2="293" stroke="#222" stroke-width="2" />
+<circle cx="104" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" /><circle cx="126" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" />
+<line x1="148" y1="287" x2="170" y2="287" stroke="#222" stroke-width="2" /><line x1="148" y1="293" x2="170" y2="293" stroke="#222" stroke-width="2" />
+<circle cx="148" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" /><circle cx="170" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" />
+<line x1="192" y1="287" x2="214" y2="287" stroke="#222" stroke-width="2" /><line x1="192" y1="293" x2="214" y2="293" stroke="#222" stroke-width="2" />
+<circle cx="192" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" /><circle cx="214" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" />
+<line x1="236" y1="287" x2="258" y2="287" stroke="#222" stroke-width="2" /><line x1="236" y1="293" x2="258" y2="293" stroke="#222" stroke-width="2" />
+<circle cx="236" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" /><circle cx="258" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" />
+<line x1="280" y1="287" x2="302" y2="287" stroke="#222" stroke-width="2" /><line x1="280" y1="293" x2="302" y2="293" stroke="#222" stroke-width="2" />
+<circle cx="280" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" /><circle cx="302" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" />
+<line x1="330" y1="290" x2="370.0" y2="290.0" stroke="#222" stroke-width="2"/><polygon points="380,290 370.0,285.0 370.0,295.0" fill="#222"/>
+<path d="M400,290 L421,290 L442,290 L463,290 L484,290 L505,290 L526,290 L547,290 L568,290 L589,290 L610,290 L631,290" fill="none" stroke="#222" stroke-width="2" />
+<circle cx="400" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" />
+<circle cx="421" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" />
+<circle cx="442" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" />
+<circle cx="463" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" />
+<circle cx="484" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" />
+<circle cx="505" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" />
+<circle cx="526" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" />
+<circle cx="547" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" />
+<circle cx="568" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" />
+<circle cx="589" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" />
+<circle cx="610" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" />
+<circle cx="631" cy="290" r="6" fill="#fff" stroke="#222" stroke-width="1.8" />
+<text x="330" y="340" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >二重結合の1本が開いて、次々につながる</text>
+</svg>

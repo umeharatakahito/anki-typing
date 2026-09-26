@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" font-family="sans-serif">
+<rect width="720" height="380" fill="#fff"/>
+<circle cx="360" cy="330" r="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="360" y="360" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >共通の祖先（有袋類）</text>
+<path d="M360,330 Q360,200 80,120" fill="none" stroke="#f57c00" stroke-width="3.5"/>
+<circle cx="80" cy="110" r="7" fill="#90caf9" stroke="#1e88e5" stroke-width="2" />
+<text x="80" y="80" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >フクロモモンガ</text>
+<text x="80" y="55" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（樹上を滑空）</text>
+<path d="M360,330 Q360,200 215,120" fill="none" stroke="#f57c00" stroke-width="3.5"/>
+<circle cx="215" cy="110" r="7" fill="#90caf9" stroke="#1e88e5" stroke-width="2" />
+<text x="215" y="80" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >フクロモグラ</text>
+<text x="215" y="55" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（地中）</text>
+<path d="M360,330 Q360,200 360,120" fill="none" stroke="#f57c00" stroke-width="3.5"/>
+<circle cx="360" cy="110" r="7" fill="#90caf9" stroke="#1e88e5" stroke-width="2" />
+<text x="360" y="80" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >カンガルー</text>
+<text x="360" y="55" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（草原）</text>
+<path d="M360,330 Q360,200 505,120" fill="none" stroke="#f57c00" stroke-width="3.5"/>
+<circle cx="505" cy="110" r="7" fill="#90caf9" stroke="#1e88e5" stroke-width="2" />
+<text x="505" y="80" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >コアラ</text>
+<text x="505" y="55" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（樹上）</text>
+<path d="M360,330 Q360,200 640,120" fill="none" stroke="#f57c00" stroke-width="3.5"/>
+<circle cx="640" cy="110" r="7" fill="#90caf9" stroke="#1e88e5" stroke-width="2" />
+<text x="640" y="80" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >フクロオオカミ</text>
+<text x="640" y="55" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（肉食）</text>
+<line x1="470" y1="250" x2="400" y2="250" stroke="#f57c00" stroke-width="2.4"/><circle cx="400" cy="250" r="3.5" fill="#f57c00"/><circle cx="470" cy="250" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="470" y="251" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

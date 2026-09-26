@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" width="700" height="380" font-family="sans-serif">
+<rect width="700" height="380" fill="#fff"/>
+<line x1="88" y1="115.98215752006043" x2="88" y2="119.9433415707457" stroke="#ef9a9a" stroke-width="5" />
+<line x1="102" y1="132.93103202878163" x2="102" y2="100.84008772948057" stroke="#a5d6a7" stroke-width="5" />
+<line x1="116" y1="143.9992696165677" x2="116" y2="82.61266739342427" stroke="#90caf9" stroke-width="5" />
+<line x1="130" y1="146.85654870628014" x2="130" y2="69.09870607140736" stroke="#fff59d" stroke-width="5" />
+<line x1="144" y1="140.90129392859262" x2="144" y2="63.14345129371986" stroke="#ef9a9a" stroke-width="5" />
+<line x1="158" y1="127.38733260657575" x2="158" y2="66.00073038343231" stroke="#a5d6a7" stroke-width="5" />
+<line x1="172" y1="109.15991227051946" x2="172" y2="77.06896797121836" stroke="#90caf9" stroke-width="5" />
+<line x1="186" y1="90.05665842925431" x2="186" y2="94.01784247993956" stroke="#fff59d" stroke-width="5" />
+<line x1="200" y1="74.09959575172849" x2="200" y2="113.27891515296216" stroke="#ef9a9a" stroke-width="5" />
+<line x1="214" y1="64.64834560225238" x2="214" y2="130.79693393296606" stroke="#a5d6a7" stroke-width="5" />
+<line x1="228" y1="63.69278685535995" x2="228" y2="142.8836316655843" stroke="#90caf9" stroke-width="5" />
+<line x1="242" y1="71.43410413041315" x2="242" y2="146.99425880968369" stroke="#fff59d" stroke-width="5" />
+<line x1="256" y1="86.24243011218209" x2="256" y2="142.26335841663172" stroke="#ef9a9a" stroke-width="5" />
+<line x1="270" y1="104.99999999999999" x2="270" y2="129.6869805962839" stroke="#a5d6a7" stroke-width="5" />
+<line x1="284" y1="123.75756988781785" x2="284" y2="111.91297279179086" stroke="#90caf9" stroke-width="5" />
+<line x1="298" y1="138.56589586958683" x2="298" y2="92.68349842985253" stroke="#fff59d" stroke-width="5" />
+<line x1="312" y1="146.30721314464006" x2="312" y2="76.04715681702024" stroke="#ef9a9a" stroke-width="5" />
+<line x1="326" y1="145.3516543977476" x2="326" y2="65.50658561512124" stroke="#a5d6a7" stroke-width="5" />
+<line x1="340" y1="135.90040424827157" x2="340" y2="63.28101081314719" stroke="#90caf9" stroke-width="5" />
+<line x1="354" y1="119.94334157074567" x2="354" y2="69.83900791297381" stroke="#fff59d" stroke-width="5" />
+<line x1="368" y1="100.84008772948057" x2="368" y2="83.79984741513655" stroke="#ef9a9a" stroke-width="5" />
+<line x1="382" y1="82.61266739342429" x2="382" y2="102.2241954583206" stroke="#a5d6a7" stroke-width="5" />
+<line x1="396" y1="69.09870607140735" x2="396" y2="121.23296511028302" stroke="#90caf9" stroke-width="5" />
+<line x1="410" y1="63.14345129371987" x2="410" y2="136.824024529934" stroke="#fff59d" stroke-width="5" />
+<line x1="424" y1="66.0007303834323" x2="424" y2="145.71481116945188" stroke="#ef9a9a" stroke-width="5" />
+<line x1="438" y1="77.06896797121834" x2="438" y2="146.03344689291117" stroke="#a5d6a7" stroke-width="5" />
+<line x1="452" y1="94.01784247993952" x2="452" y2="137.71284570800876" stroke="#90caf9" stroke-width="5" />
+<line x1="466" y1="113.27891515296217" x2="466" y2="122.5048381408022" stroke="#fff59d" stroke-width="5" />
+<line x1="480" y1="130.79693393296603" x2="480" y2="103.61133848867307" stroke="#ef9a9a" stroke-width="5" />
+<line x1="494" y1="142.88363166558426" x2="494" y2="85.01020949244295" stroke="#a5d6a7" stroke-width="5" />
+<line x1="508" y1="146.99425880968369" x2="508" y2="70.61775778315899" stroke="#90caf9" stroke-width="5" />
+<line x1="522" y1="142.26335841663172" x2="522" y2="63.464189434738316" stroke="#fff59d" stroke-width="5" />
+<line x1="536" y1="129.68698059628395" x2="536" y2="65.05562631560355" stroke="#ef9a9a" stroke-width="5" />
+<line x1="550" y1="111.91297279179086" x2="550" y2="75.05700517176123" stroke="#a5d6a7" stroke-width="5" />
+<line x1="564" y1="92.68349842985255" x2="564" y2="91.36262229340323" stroke="#90caf9" stroke-width="5" />
+<line x1="578" y1="76.04715681702024" x2="578" y2="110.53947119636688" stroke="#fff59d" stroke-width="5" />
+<line x1="592" y1="65.50658561512121" x2="592" y2="128.55003240877028" stroke="#ef9a9a" stroke-width="5" />
+<line x1="606" y1="63.28101081314719" x2="606" y2="141.60233823234563" stroke="#a5d6a7" stroke-width="5" />
+<path d="M80.0,129.7 L84.5,124.4 L89.0,118.6 L93.5,112.6 L98.0,106.4 L102.5,100.1 L107.0,94.0 L111.5,88.1 L116.0,82.6 L120.5,77.6 L125.0,73.2 L129.5,69.5 L134.0,66.5 L138.5,64.5 L143.0,63.3 L147.5,63.0 L152.0,63.7 L156.5,65.3 L161.0,67.7 L165.5,71.0 L170.0,75.1 L174.5,79.8 L179.0,85.0 L183.5,90.7 L188.0,96.7 L192.5,102.9 L197.0,109.2 L201.5,115.3 L206.0,121.2 L210.5,126.8 L215.0,131.9 L219.5,136.4 L224.0,140.2 L228.5,143.2 L233.0,145.4 L237.5,146.6 L242.0,147.0 L246.5,146.4 L251.0,144.9 L255.5,142.6 L260.0,139.4 L264.5,135.4 L269.0,130.8 L273.5,125.6 L278.0,119.9 L282.5,114.0 L287.0,107.8 L291.5,101.5 L296.0,95.4 L300.5,89.4 L305.0,83.8 L309.5,78.7 L314.0,74.1 L318.5,70.2 L323.0,67.1 L327.5,64.8 L332.0,63.5 L336.5,63.0 L341.0,63.5 L345.5,64.8 L350.0,67.1 L354.5,70.2 L359.0,74.1 L363.5,78.7 L368.0,83.8 L372.5,89.4 L377.0,95.4 L381.5,101.5 L386.0,107.8 L390.5,114.0 L395.0,119.9 L399.5,125.6 L404.0,130.8 L408.5,135.4 L413.0,139.4 L417.5,142.6 L422.0,144.9 L426.5,146.4 L431.0,147.0 L435.5,146.6 L440.0,145.4 L444.5,143.2 L449.0,140.2 L453.5,136.4 L458.0,131.9 L462.5,126.8 L467.0,121.2 L471.5,115.3 L476.0,109.2 L480.5,102.9 L485.0,96.7 L489.5,90.7 L494.0,85.0 L498.5,79.8 L503.0,75.1 L507.5,71.0 L512.0,67.7 L516.5,65.3 L521.0,63.7 L525.5,63.0 L530.0,63.3 L534.5,64.5 L539.0,66.5 L543.5,69.5 L548.0,73.2 L552.5,77.6 L557.0,82.6 L561.5,88.1 L566.0,94.0 L570.5,100.1 L575.0,106.4 L579.5,112.6 L584.0,118.6 L588.5,124.4 L593.0,129.7 L597.5,134.5 L602.0,138.6 L606.5,141.9 L611.0,144.5 L615.5,146.2 L620.0,146.9" fill="none" stroke="#78909c" stroke-width="7" stroke-linecap="round"/>
+<path d="M80.0,105.0 L84.5,111.2 L89.0,117.3 L93.5,123.1 L98.0,128.6 L102.5,133.4 L107.0,137.7 L111.5,141.3 L116.0,144.0 L120.5,145.9 L125.0,146.9 L129.5,146.9 L134.0,146.0 L138.5,144.3 L143.0,141.6 L147.5,138.1 L152.0,134.0 L156.5,129.1 L161.0,123.8 L165.5,118.0 L170.0,111.9 L174.5,105.7 L179.0,99.5 L183.5,93.3 L188.0,87.5 L192.5,82.0 L197.0,77.1 L201.5,72.7 L206.0,69.1 L210.5,66.3 L215.0,64.3 L219.5,63.2 L224.0,63.1 L228.5,63.8 L233.0,65.5 L237.5,68.1 L242.0,71.4 L246.5,75.5 L251.0,80.3 L255.5,85.6 L260.0,91.4 L264.5,97.4 L269.0,103.6 L273.5,109.9 L278.0,116.0 L282.5,121.9 L287.0,127.4 L291.5,132.4 L296.0,136.8 L300.5,140.5 L305.0,143.5 L309.5,145.5 L314.0,146.7 L318.5,147.0 L323.0,146.3 L327.5,144.7 L332.0,142.3 L336.5,139.0 L341.0,134.9 L345.5,130.2 L350.0,125.0 L354.5,119.3 L359.0,113.3 L363.5,107.1 L368.0,100.8 L372.5,94.7 L377.0,88.8 L381.5,83.2 L386.0,78.1 L390.5,73.6 L395.0,69.8 L399.5,66.8 L404.0,64.6 L408.5,63.4 L413.0,63.0 L417.5,63.6 L422.0,65.1 L426.5,67.4 L431.0,70.6 L435.5,74.6 L440.0,79.2 L444.5,84.4 L449.0,90.1 L453.5,96.0 L458.0,102.2 L462.5,108.5 L467.0,114.6 L471.5,120.6 L476.0,126.2 L480.5,131.3 L485.0,135.9 L489.5,139.8 L494.0,142.9 L498.5,145.2 L503.0,146.5 L507.5,147.0 L512.0,146.5 L516.5,145.2 L521.0,142.9 L525.5,139.8 L530.0,135.9 L534.5,131.3 L539.0,126.2 L543.5,120.6 L548.0,114.6 L552.5,108.5 L557.0,102.2 L561.5,96.0 L566.0,90.1 L570.5,84.4 L575.0,79.2 L579.5,74.6 L584.0,70.6 L588.5,67.4 L593.0,65.1 L597.5,63.6 L602.0,63.0 L606.5,63.4 L611.0,64.6 L615.5,66.8 L620.0,69.8" fill="none" stroke="#1e88e5" stroke-width="7" stroke-linecap="round"/>
+<path d="M70,54 L70,44 L630,44 L630,54" fill="none" stroke="#f57c00" stroke-width="2.6" />
+<line x1="350" y1="22" x2="350" y2="44" stroke="#f57c00" stroke-width="2.4"/><circle cx="350" cy="44" r="3.5" fill="#f57c00"/><circle cx="350" cy="22" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="350" y="23" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="640" y1="170" x2="560" y2="130" stroke="#555" stroke-width="1.2"/><circle cx="560" cy="130" r="2.2" fill="#555"/><text x="640" y="170" font-size="16" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >二重らせん構造</text>
+<rect x="150" y="220" width="332" height="12" rx="6" fill="#90a4ae" stroke="#546e7a" stroke-width="1.5" />
+<rect x="150" y="348" width="332" height="12" rx="6" fill="#90a4ae" stroke="#546e7a" stroke-width="1.5" />
+<rect x="170" y="232" width="44" height="50.0" rx="5" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.8" />
+<text x="192" y="258.0" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<line x1="184" y1="282.0" x2="184" y2="294.0" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<line x1="200" y1="282.0" x2="200" y2="294.0" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<rect x="170" y="294.0" width="44" height="50.0" rx="5" fill="#fff59d" stroke="#607d8b" stroke-width="1.8" />
+<text x="192" y="320.0" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text>
+<rect x="232" y="232" width="44" height="50.0" rx="5" fill="#fff59d" stroke="#607d8b" stroke-width="1.8" />
+<text x="254" y="258.0" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text>
+<line x1="246" y1="282.0" x2="246" y2="294.0" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<line x1="262" y1="282.0" x2="262" y2="294.0" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<rect x="232" y="294.0" width="44" height="50.0" rx="5" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.8" />
+<text x="254" y="320.0" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<rect x="294" y="232" width="44" height="50.0" rx="5" fill="#a5d6a7" stroke="#607d8b" stroke-width="1.8" />
+<text x="316" y="258.0" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >G</text>
+<line x1="308" y1="282.0" x2="308" y2="294.0" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<line x1="324" y1="282.0" x2="324" y2="294.0" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<rect x="294" y="294.0" width="44" height="50.0" rx="5" fill="#90caf9" stroke="#607d8b" stroke-width="1.8" />
+<text x="316" y="320.0" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text>
+<rect x="356" y="232" width="44" height="50.0" rx="5" fill="#90caf9" stroke="#607d8b" stroke-width="1.8" />
+<text x="378" y="258.0" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text>
+<line x1="370" y1="282.0" x2="370" y2="294.0" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<line x1="386" y1="282.0" x2="386" y2="294.0" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<rect x="356" y="294.0" width="44" height="50.0" rx="5" fill="#a5d6a7" stroke="#607d8b" stroke-width="1.8" />
+<text x="378" y="320.0" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >G</text>
+<rect x="418" y="232" width="44" height="50.0" rx="5" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.8" />
+<text x="440" y="258.0" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<line x1="432" y1="282.0" x2="432" y2="294.0" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<line x1="448" y1="282.0" x2="448" y2="294.0" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<rect x="418" y="294.0" width="44" height="50.0" rx="5" fill="#fff59d" stroke="#607d8b" stroke-width="1.8" />
+<text x="440" y="320.0" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text>
+<line x1="530" y1="290" x2="460" y2="290" stroke="#555" stroke-width="1.2"/><circle cx="460" cy="290" r="2.2" fill="#555"/><text x="530" y="290" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >塩基対</text>
+<line x1="530" y1="236" x2="460" y2="226" stroke="#555" stroke-width="1.2"/><circle cx="460" cy="226" r="2.2" fill="#555"/><text x="530" y="236" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >糖とリン酸の鎖</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 330" width="660" height="330" font-family="sans-serif">
+<rect width="660" height="330" fill="#fff"/>
+<text x="310.0" y="70" font-size="22" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >H<tspan dy="5" font-size="72%">3</tspan><tspan dy="-5">​</tspan>N<tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan>−CH(R)−COOH</text>
+<text x="560" y="70" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >陽イオン（酸性）</text>
+<rect x="160" y="164" width="300" height="52" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<line x1="530" y1="190" x2="462" y2="190" stroke="#f57c00" stroke-width="2.4"/><circle cx="462" cy="190" r="3.5" fill="#f57c00"/><circle cx="530" cy="190" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="530" y="191" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="310.0" y="190" font-size="22" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >H<tspan dy="5" font-size="72%">3</tspan><tspan dy="-5">​</tspan>N<tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan>−CH(R)−COO<tspan dy="-7" font-size="72%">-</tspan><tspan dy="7">​</tspan></text>
+<text x="310.0" y="310" font-size="22" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >H<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>N−CH(R)−COO<tspan dy="-7" font-size="72%">-</tspan><tspan dy="7">​</tspan></text>
+<text x="560" y="310" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >陰イオン（塩基性）</text>
+<line x1="300" y1="108" x2="300.0" y2="143.0" stroke="#222" stroke-width="2"/><polygon points="300,152 304.5,143.0 295.5,143.0" fill="#222"/>
+<line x1="320" y1="152" x2="320.0" y2="117.0" stroke="#222" stroke-width="2"/><polygon points="320,108 315.5,117.0 324.5,117.0" fill="#222"/>
+<text x="290" y="130" font-size="15" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >OH<tspan dy="-7" font-size="72%">-</tspan><tspan dy="7">​</tspan></text>
+<text x="330" y="130" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan></text>
+<line x1="300" y1="228" x2="300.0" y2="263.0" stroke="#222" stroke-width="2"/><polygon points="300,272 304.5,263.0 295.5,263.0" fill="#222"/>
+<line x1="320" y1="272" x2="320.0" y2="237.0" stroke="#222" stroke-width="2"/><polygon points="320,228 315.5,237.0 324.5,237.0" fill="#222"/>
+<text x="290" y="250" font-size="15" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >OH<tspan dy="-7" font-size="72%">-</tspan><tspan dy="7">​</tspan></text>
+<text x="330" y="250" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan></text>
+<text x="80" y="190" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >結晶中・</text>
+<text x="80" y="210" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >中性付近</text>
+</svg>

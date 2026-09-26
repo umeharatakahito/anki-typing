@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 360" width="660" height="360" font-family="sans-serif">
+<rect width="660" height="360" fill="#fff"/>
+<rect x="109.5" y="95.0" width="10" height="190" rx="5.0" fill="#64b5f6" stroke="#37474f" stroke-width="1.2" /><rect x="120.5" y="95.0" width="10" height="190" rx="5.0" fill="#64b5f6" stroke="#37474f" stroke-width="1.2" /><circle cx="120" cy="171.0" r="3.5" fill="#37474f" stroke="none" stroke-width="0" />
+<rect x="189.5" y="95.0" width="10" height="190" rx="5.0" fill="#ef5350" stroke="#37474f" stroke-width="1.2" /><rect x="200.5" y="95.0" width="10" height="190" rx="5.0" fill="#ef5350" stroke="#37474f" stroke-width="1.2" /><circle cx="200" cy="171.0" r="3.5" fill="#37474f" stroke="none" stroke-width="0" />
+<text x="120" y="310" font-size="15" text-anchor="middle" fill="#1565c0" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >父由来</text>
+<text x="200" y="310" font-size="15" text-anchor="middle" fill="#c62828" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >母由来</text>
+<text x="160" y="340" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >相同染色体</text>
+<line x1="260" y1="190" x2="340.0" y2="190.0" stroke="#555" stroke-width="2.6"/><polygon points="350,190 340.0,185.0 340.0,195.0" fill="#555"/>
+<text x="305" y="170" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >対合</text>
+<rect x="419.5" y="95.0" width="10" height="190" rx="5.0" fill="#64b5f6" stroke="#37474f" stroke-width="1.2" /><rect x="430.5" y="95.0" width="10" height="190" rx="5.0" fill="#64b5f6" stroke="#37474f" stroke-width="1.2" /><circle cx="430" cy="171.0" r="3.5" fill="#37474f" stroke="none" stroke-width="0" />
+<rect x="441.5" y="95.0" width="10" height="190" rx="5.0" fill="#ef5350" stroke="#37474f" stroke-width="1.2" /><rect x="452.5" y="95.0" width="10" height="190" rx="5.0" fill="#ef5350" stroke="#37474f" stroke-width="1.2" /><circle cx="452" cy="171.0" r="3.5" fill="#37474f" stroke="none" stroke-width="0" />
+<ellipse cx="441" cy="190" rx="48" ry="115" fill="none" stroke="#f57c00" stroke-width="2.6" stroke-dasharray="8 5"/>
+<line x1="560" y1="110" x2="488" y2="150" stroke="#f57c00" stroke-width="2.4"/><circle cx="488" cy="150" r="3.5" fill="#f57c00"/><circle cx="560" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="560" y="111" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="560" y1="270" x2="462" y2="250" stroke="#555" stroke-width="1.2"/><circle cx="462" cy="250" r="2.2" fill="#555"/><text x="560" y="270" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >染色分体</text>
+</svg>

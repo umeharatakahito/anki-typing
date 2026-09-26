@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420" width="700" height="420" font-family="sans-serif">
+<rect width="700" height="420" fill="#fff"/>
+<ellipse cx="135" cy="62" rx="75" ry="45" fill="#fce4ec" stroke="#ad1457" stroke-width="2.5" />
+<text x="135" y="55" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >脳</text>
+<path d="M122,95 L148,95 L146,125 L124,125 Z" fill="#f8bbd0" stroke="#ad1457" stroke-width="2" />
+<rect x="122" y="125" width="24" height="285" rx="10" fill="#fce4ec" stroke="#ad1457" stroke-width="2.5" />
+<line x1="122" y1="180" x2="146" y2="180" stroke="#ad1457" stroke-width="1.2" stroke-dasharray="3 3"/>
+<line x1="122" y1="280" x2="146" y2="280" stroke="#ad1457" stroke-width="1.2" stroke-dasharray="3 3"/>
+<line x1="122" y1="335" x2="146" y2="335" stroke="#ad1457" stroke-width="1.2" stroke-dasharray="3 3"/>
+<text x="112" y="110" font-size="14" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >中脳・延髄</text>
+<text x="112" y="152" font-size="14" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >頸髄</text>
+<text x="112" y="230" font-size="14" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >胸髄</text>
+<text x="112" y="308" font-size="14" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >腰髄</text>
+<text x="112" y="370" font-size="14" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >仙髄</text>
+<rect x="580" y="40" width="110" height="40" rx="8" fill="#f5f5f5" stroke="#607d8b" stroke-width="2" /><text x="635.0" y="61.0" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >瞳孔</text>
+<rect x="580" y="140" width="110" height="40" rx="8" fill="#f5f5f5" stroke="#607d8b" stroke-width="2" /><text x="635.0" y="161.0" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >心臓</text>
+<rect x="580" y="240" width="110" height="40" rx="8" fill="#f5f5f5" stroke="#607d8b" stroke-width="2" /><text x="635.0" y="261.0" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >胃・腸</text>
+<rect x="580" y="340" width="110" height="40" rx="8" fill="#f5f5f5" stroke="#607d8b" stroke-width="2" /><text x="635.0" y="361.0" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >ぼうこう</text>
+<line x1="215" y1="110" x2="215" y2="330" stroke="#3949ab" stroke-width="1.2" stroke-dasharray="2 3"/>
+<path d="M146,192 Q180,192 208,120" fill="none" stroke="#3949ab" stroke-width="2.2" />
+<path d="M222,120 C330,120 440,60 578,54" fill="none" stroke="#3949ab" stroke-width="2.2" />
+<circle cx="215" cy="120" r="7" fill="#fff" stroke="#3949ab" stroke-width="2.4" />
+<path d="M146,222 Q180,222 208,185" fill="none" stroke="#3949ab" stroke-width="2.2" />
+<path d="M222,185 C330,185 440,160 578,154" fill="none" stroke="#3949ab" stroke-width="2.2" />
+<circle cx="215" cy="185" r="7" fill="#fff" stroke="#3949ab" stroke-width="2.4" />
+<path d="M146,258 Q180,258 208,250" fill="none" stroke="#3949ab" stroke-width="2.2" />
+<path d="M222,250 C330,250 440,260 578,254" fill="none" stroke="#3949ab" stroke-width="2.2" />
+<circle cx="215" cy="250" r="7" fill="#fff" stroke="#3949ab" stroke-width="2.4" />
+<path d="M146,300 Q180,300 208,315" fill="none" stroke="#3949ab" stroke-width="2.2" />
+<path d="M222,315 C330,315 440,360 578,354" fill="none" stroke="#3949ab" stroke-width="2.2" />
+<circle cx="215" cy="315" r="7" fill="#fff" stroke="#3949ab" stroke-width="2.4" />
+<path d="M148,100 C300,100 380,68 540,68" fill="none" stroke="#f57c00" stroke-width="3.2" />
+<circle cx="547" cy="68" r="7" fill="#fff" stroke="#f57c00" stroke-width="2.4" />
+<line x1="554" y1="68" x2="578" y2="68" stroke="#f57c00" stroke-width="3.2" />
+<path d="M148,108 C300,108 380,168 540,168" fill="none" stroke="#f57c00" stroke-width="3.2" />
+<circle cx="547" cy="168" r="7" fill="#fff" stroke="#f57c00" stroke-width="2.4" />
+<line x1="554" y1="168" x2="578" y2="168" stroke="#f57c00" stroke-width="3.2" />
+<path d="M148,116 C300,116 380,268 540,268" fill="none" stroke="#f57c00" stroke-width="3.2" />
+<circle cx="547" cy="268" r="7" fill="#fff" stroke="#f57c00" stroke-width="2.4" />
+<line x1="554" y1="268" x2="578" y2="268" stroke="#f57c00" stroke-width="3.2" />
+<path d="M146,372 C300,372 380,368 540,368" fill="none" stroke="#f57c00" stroke-width="3.2" />
+<circle cx="547" cy="368" r="7" fill="#fff" stroke="#f57c00" stroke-width="2.4" />
+<line x1="554" y1="368" x2="578" y2="368" stroke="#f57c00" stroke-width="3.2" />
+<line x1="280" y1="408" x2="222" y2="318" stroke="#555" stroke-width="1.2"/><circle cx="222" cy="318" r="2.2" fill="#555"/><text x="280" y="408" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >神経節</text>
+<line x1="388.6" y1="405" x2="358.6" y2="369.7" stroke="#f57c00" stroke-width="2.4"/><circle cx="358.6" cy="369.7" r="3.5" fill="#f57c00"/><circle cx="388.6" cy="405" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="388.6" y="406" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

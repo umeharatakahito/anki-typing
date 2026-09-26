@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 410" width="700" height="410" font-family="sans-serif">
+<rect width="700" height="410" fill="#fff"/>
+<rect x="15" y="234" width="665" height="12" rx="6" fill="#cfd8dc" stroke="#78909c" stroke-width="1.5" />
+<rect x="35" y="220" width="115" height="40" rx="5" fill="#e0e0e0" stroke="#616161" stroke-width="2" />
+<text x="92" y="241" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >調節遺伝子</text>
+<rect x="250" y="220" width="70" height="40" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<rect x="320" y="220" width="60" height="40" rx="4" fill="#f8bbd0" stroke="#ad1457" stroke-width="2.4" />
+<rect x="380" y="220" width="90" height="40" rx="4" fill="#bbdefb" stroke="#1e88e5" stroke-width="2" />
+<text x="425" y="241" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >遺伝子1</text>
+<rect x="470" y="220" width="90" height="40" rx="4" fill="#bbdefb" stroke="#1e88e5" stroke-width="2" />
+<text x="515" y="241" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >遺伝子2</text>
+<rect x="560" y="220" width="90" height="40" rx="4" fill="#bbdefb" stroke="#1e88e5" stroke-width="2" />
+<text x="605" y="241" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >遺伝子3</text>
+<ellipse cx="270" cy="190" rx="48" ry="30" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.2" fill-opacity="0.85"/>
+<path d="M320,198 C320,172.0 380,172.0 380,198 C380,216.0 359.0,218 350,212.0 C341.0,218 320,216.0 320,198 Z" fill="#e1bee7" stroke="#8e24aa" stroke-width="2.4" />
+<path d="M92,216 C92,90 300,70 340,158" fill="none" stroke="#555" stroke-width="2.2"/><polygon points="342,164 343.3,152.9 333.9,156.3" fill="#555"/>
+<text x="150" y="110" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >転写・翻訳</text>
+<path d="M380,265 L380,275 L650,275 L650,265" fill="none" stroke="#555" stroke-width="1.6" />
+<text x="515" y="298" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >構造遺伝子</text>
+<line x1="250" y1="305" x2="285" y2="262" stroke="#f57c00" stroke-width="2.4"/><circle cx="285" cy="262" r="3.5" fill="#f57c00"/><circle cx="250" cy="305" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="250" y="306" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="370" y1="335" x2="350" y2="262" stroke="#555" stroke-width="1.2"/><circle cx="350" cy="262" r="2.2" fill="#555"/><text x="370" y="335" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >オペレーター</text>
+<line x1="210" y1="150" x2="250" y2="172" stroke="#555" stroke-width="1.2"/><circle cx="250" cy="172" r="2.2" fill="#555"/><text x="210" y="150" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >RNAポリメラーゼ</text>
+<line x1="470" y1="150" x2="372" y2="196" stroke="#555" stroke-width="1.2"/><circle cx="372" cy="196" r="2.2" fill="#555"/><text x="470" y="150" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >リプレッサー</text>
+</svg>

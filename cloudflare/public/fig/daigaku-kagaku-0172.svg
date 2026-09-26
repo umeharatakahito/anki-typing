@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 370" width="700" height="370" font-family="sans-serif">
+<rect width="700" height="370" fill="#fff"/>
+<rect x="132" y="124.5" width="326" height="193.5" rx="0" fill="#e3f2fd" stroke="none" stroke-width="0" /><path d="M124,84 L130,90 L130,320 L460,320 L460,90" fill="none" stroke="#607d8b" stroke-width="2.5" />
+<path d="M60,70 L60,40 L200,40 L200,150" fill="none" stroke="#90a4ae" stroke-width="6" />
+<line x1="80" y1="30" x2="131.0" y2="30.0" stroke="#1e88e5" stroke-width="2"/><polygon points="140,30 131.0,25.5 131.0,34.5" fill="#1e88e5"/>
+<text x="60" y="20" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >水</text>
+<path d="M420,300 L420,330 L520,330" fill="none" stroke="#90a4ae" stroke-width="6" />
+<line x1="480" y1="350" x2="531.0" y2="350.0" stroke="#1e88e5" stroke-width="2"/><polygon points="540,350 531.0,345.5 531.0,354.5" fill="#1e88e5"/>
+<path d="M250,80 L250,120 Q220,130 220,180 L220,260 Q220,290 290,290 Q360,290 360,260 L360,180 Q360,130 330,120 L330,80" fill="#fffde7" stroke="#8d6e63" stroke-width="2.5" stroke-dasharray="6 3"/>
+<circle cx="260" cy="200" r="11" fill="#a1887f" stroke="#5d4037" stroke-width="1.2" />
+<circle cx="300" cy="180" r="11" fill="#a1887f" stroke="#5d4037" stroke-width="1.2" />
+<circle cx="320" cy="240" r="11" fill="#a1887f" stroke="#5d4037" stroke-width="1.2" />
+<circle cx="270" cy="255" r="11" fill="#a1887f" stroke="#5d4037" stroke-width="1.2" />
+<circle cx="330" cy="205" r="11" fill="#a1887f" stroke="#5d4037" stroke-width="1.2" />
+<circle cx="285" cy="225" r="11" fill="#a1887f" stroke="#5d4037" stroke-width="1.2" />
+<circle cx="238" cy="170" r="4" fill="#e53935" stroke="none" stroke-width="0" />
+<line x1="232" y1="170" x2="202.0" y2="170.0" stroke="#f57c00" stroke-width="2.2"/><polygon points="194,170 202.0,174.0 202.0,166.0" fill="#f57c00"/>
+<circle cx="184" cy="170" r="4" fill="#e53935" stroke="none" stroke-width="0" />
+<circle cx="344" cy="150" r="4" fill="#e53935" stroke="none" stroke-width="0" />
+<line x1="350" y1="150" x2="380.0" y2="150.0" stroke="#f57c00" stroke-width="2.2"/><polygon points="388,150 380.0,146.0 380.0,154.0" fill="#f57c00"/>
+<circle cx="398" cy="150" r="4" fill="#e53935" stroke="none" stroke-width="0" />
+<circle cx="238" cy="240" r="4" fill="#e53935" stroke="none" stroke-width="0" />
+<line x1="232" y1="240" x2="202.0" y2="240.0" stroke="#f57c00" stroke-width="2.2"/><polygon points="194,240 202.0,244.0 202.0,236.0" fill="#f57c00"/>
+<circle cx="184" cy="240" r="4" fill="#e53935" stroke="none" stroke-width="0" />
+<circle cx="344" cy="260" r="4" fill="#e53935" stroke="none" stroke-width="0" />
+<line x1="350" y1="260" x2="380.0" y2="260.0" stroke="#f57c00" stroke-width="2.2"/><polygon points="388,260 380.0,256.0 380.0,264.0" fill="#f57c00"/>
+<circle cx="398" cy="260" r="4" fill="#e53935" stroke="none" stroke-width="0" />
+<circle cx="160" cy="280" r="4" fill="#e53935" stroke="none" stroke-width="0" />
+<circle cx="420" cy="200" r="4" fill="#e53935" stroke="none" stroke-width="0" />
+<circle cx="410" cy="120" r="4" fill="#e53935" stroke="none" stroke-width="0" />
+<circle cx="170" cy="210" r="4" fill="#e53935" stroke="none" stroke-width="0" />
+<line x1="520" y1="110" x2="332" y2="120" stroke="#555" stroke-width="1.2"/><circle cx="332" cy="120" r="2.2" fill="#555"/><text x="520" y="110" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >セロハン（半透膜）</text>
+<line x1="520" y1="200" x2="331" y2="205" stroke="#555" stroke-width="1.2"/><circle cx="331" cy="205" r="2.2" fill="#555"/><text x="520" y="200" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >コロイド粒子</text>
+<line x1="520" y1="250" x2="402" y2="260" stroke="#555" stroke-width="1.2"/><circle cx="402" cy="260" r="2.2" fill="#555"/><text x="520" y="250" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >小さな分子・イオン</text>
+<line x1="520" y1="300" x2="440" y2="270" stroke="#555" stroke-width="1.2"/><circle cx="440" cy="270" r="2.2" fill="#555"/><text x="520" y="300" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >流水</text>
+<line x1="560" y1="40" x2="390" y2="150" stroke="#f57c00" stroke-width="2.4"/><circle cx="390" cy="150" r="3.5" fill="#f57c00"/><circle cx="560" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="560" y="41" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="582" y="40" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >の操作</text>
+</svg>

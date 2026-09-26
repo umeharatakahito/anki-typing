@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" width="720" height="390" font-family="sans-serif">
+<rect width="720" height="390" fill="#fff"/>
+<rect x="290" y="30" width="140" height="48" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2" /><text x="360.0" y="55.0" font-size="18" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >ヒトデ</text>
+<rect x="30" y="130" width="110" height="42" rx="8" fill="#fff" stroke="#607d8b" stroke-width="2" /><text x="85.0" y="152.0" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >イボニシ</text>
+<rect x="60" y="250" width="110" height="42" rx="8" fill="#fff" stroke="#607d8b" stroke-width="2" /><text x="115.0" y="272.0" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >イガイ</text>
+<line x1="115" y1="248" x2="288.4" y2="88.1" stroke="#555" stroke-width="1.8"/><polygon points="295.0,82 285.3,84.8 291.4,91.4" fill="#555"/>
+<rect x="190" y="250" width="110" height="42" rx="8" fill="#fff" stroke="#607d8b" stroke-width="2" /><text x="245.0" y="272.0" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >フジツボ</text>
+<line x1="245" y1="248" x2="323.5" y2="90.1" stroke="#555" stroke-width="1.8"/><polygon points="327.5,82 319.5,88.1 327.5,92.1" fill="#555"/>
+<rect x="320" y="250" width="110" height="42" rx="8" fill="#fff" stroke="#607d8b" stroke-width="2" /><text x="375.0" y="272.0" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >カメノテ</text>
+<line x1="375" y1="248" x2="360.8" y2="91.0" stroke="#555" stroke-width="1.8"/><polygon points="360.0,82 356.3,91.4 365.3,90.6" fill="#555"/>
+<rect x="450" y="250" width="110" height="42" rx="8" fill="#fff" stroke="#607d8b" stroke-width="2" /><text x="505.0" y="272.0" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >ヒザラガイ</text>
+<line x1="505" y1="248" x2="397.5" y2="89.5" stroke="#555" stroke-width="1.8"/><polygon points="392.5,82 393.8,92.0 401.3,86.9" fill="#555"/>
+<rect x="580" y="250" width="110" height="42" rx="8" fill="#fff" stroke="#607d8b" stroke-width="2" /><text x="635.0" y="272.0" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >カサガイ</text>
+<line x1="635" y1="248" x2="432.1" y2="87.6" stroke="#555" stroke-width="1.8"/><polygon points="425.0,82 429.3,91.1 434.9,84.1" fill="#555"/>
+<line x1="140" y1="145" x2="280.0" y2="74.1" stroke="#555" stroke-width="1.8"/><polygon points="288,70 277.9,70.1 282.0,78.1" fill="#555"/>
+<line x1="100" y1="248" x2="86.6" y2="182.8" stroke="#9e9e9e" stroke-width="1.6" stroke-dasharray="4 3"/><polygon points="85,175 82.7,183.6 90.5,182.0" fill="#9e9e9e"/>
+<line x1="230" y1="248" x2="131.6" y2="179.6" stroke="#9e9e9e" stroke-width="1.6" stroke-dasharray="4 3"/><polygon points="125,175 129.3,182.9 133.9,176.3" fill="#9e9e9e"/>
+<text x="360" y="318" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >食べられる → 食べる</text>
+<line x1="460" y1="54" x2="432" y2="54" stroke="#f57c00" stroke-width="2.4"/><circle cx="432" cy="54" r="3.5" fill="#f57c00"/><circle cx="460" cy="54" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="460" y="55" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="80" y="335" width="560" height="40" rx="8" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5" />
+<text x="360" y="355" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >ヒトデを除去 → イガイが岩場を独占し、種数が減少</text>
+</svg>

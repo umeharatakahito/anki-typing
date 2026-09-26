@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 370" width="680" height="370" font-family="sans-serif">
+<rect width="680" height="370" fill="#fff"/>
+<path d="M177.0,195.85 L177.0,257.0 A23.0,23.0 0 0,0 223.0,257.0 L223.0,195.85 Z" fill="#fff9c4" stroke="none" stroke-width="0" /><path d="M177.0,240.0 L177.0,257.0 A23.0,23.0 0 0,0 223.0,257.0 L223.0,240.0 Z" fill="#fdd835" stroke="none" stroke-width="0" /><path d="M177.0,70 L177.0,257.0 A23.0,23.0 0 0,0 223.0,257.0 L223.0,70" fill="none" stroke="#607d8b" stroke-width="2.5" /><line x1="172.0" y1="70" x2="228.0" y2="70" stroke="#607d8b" stroke-width="2.5" />
+<text x="330" y="110" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >試料 ＋ ヨウ素 ＋ NaOH水溶液</text>
+<text x="330" y="136" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >→ 温める</text>
+<line x1="330" y1="250" x2="216" y2="240" stroke="#555" stroke-width="1.2"/><circle cx="216" cy="240" r="2.2" fill="#555"/><text x="330" y="250" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >黄色沈殿</text>
+<text x="330" y="300" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >CH<tspan dy="5" font-size="72%">3</tspan><tspan dy="-5">​</tspan>CO−R または CH<tspan dy="5" font-size="72%">3</tspan><tspan dy="-5">​</tspan>CH(OH)−R</text>
+<text x="330" y="324" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >の構造をもつ化合物で起こる</text>
+<circle cx="40" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="40" y="41" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="62" y="40" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >の反応</text>
+</svg>

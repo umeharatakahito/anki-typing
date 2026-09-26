@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" font-family="sans-serif">
+<rect width="720" height="340" fill="#fff"/>
+<circle cx="34" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="34" y="31" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text><text x="56" y="30" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >：NH<tspan dy="5" font-size="72%">3</tspan><tspan dy="-5">​</tspan> の工業的製法</text>
+<text x="70" y="110" font-size="20" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >N<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan></text>
+<text x="70" y="160" font-size="20" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan></text>
+<line x1="95" y1="110" x2="185.2" y2="126.1" stroke="#222" stroke-width="2.4"/><polygon points="196,128 186.1,120.7 184.2,131.5" fill="#222"/>
+<line x1="95" y1="160" x2="185.2" y2="143.9" stroke="#222" stroke-width="2.4"/><polygon points="196,142 184.2,138.5 186.1,149.3" fill="#222"/>
+<rect x="200" y="70" width="150" height="150" rx="12" fill="#eceff1" stroke="#607d8b" stroke-width="2.5" />
+<circle cx="225" cy="115" r="7" fill="#78909c" stroke="none" stroke-width="0" />
+<circle cx="225" cy="143" r="7" fill="#78909c" stroke="none" stroke-width="0" />
+<circle cx="225" cy="171" r="7" fill="#78909c" stroke="none" stroke-width="0" />
+<circle cx="250" cy="115" r="7" fill="#78909c" stroke="none" stroke-width="0" />
+<circle cx="250" cy="143" r="7" fill="#78909c" stroke="none" stroke-width="0" />
+<circle cx="250" cy="171" r="7" fill="#78909c" stroke="none" stroke-width="0" />
+<circle cx="275" cy="115" r="7" fill="#78909c" stroke="none" stroke-width="0" />
+<circle cx="275" cy="143" r="7" fill="#78909c" stroke="none" stroke-width="0" />
+<circle cx="275" cy="171" r="7" fill="#78909c" stroke="none" stroke-width="0" />
+<circle cx="300" cy="115" r="7" fill="#78909c" stroke="none" stroke-width="0" />
+<circle cx="300" cy="143" r="7" fill="#78909c" stroke="none" stroke-width="0" />
+<circle cx="300" cy="171" r="7" fill="#78909c" stroke="none" stroke-width="0" />
+<circle cx="325" cy="115" r="7" fill="#78909c" stroke="none" stroke-width="0" />
+<circle cx="325" cy="143" r="7" fill="#78909c" stroke="none" stroke-width="0" />
+<circle cx="325" cy="171" r="7" fill="#78909c" stroke="none" stroke-width="0" />
+<text x="275" y="88" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >反応塔</text>
+<line x1="175" y1="262" x2="250" y2="200" stroke="#555" stroke-width="1.2"/><circle cx="250" cy="200" r="2.2" fill="#555"/><text x="175" y="262" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >触媒（Fe<tspan dy="5" font-size="72%">3</tspan><tspan dy="-5">​</tspan>O<tspan dy="5" font-size="72%">4</tspan><tspan dy="-5">​</tspan> が主成分）</text>
+<text x="275" y="240" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >高温・高圧</text>
+<line x1="354" y1="135" x2="429.0" y2="135.0" stroke="#222" stroke-width="2.4"/><polygon points="440,135 429.0,129.5 429.0,140.5" fill="#222"/>
+<rect x="444" y="95" width="110" height="80" rx="12" fill="#e3f2fd" stroke="#1e88e5" stroke-width="2.5" />
+<text x="499" y="135" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >冷却</text>
+<line x1="558" y1="135" x2="629.0" y2="135.0" stroke="#222" stroke-width="2.4"/><polygon points="640,135 629.0,129.5 629.0,140.5" fill="#222"/>
+<text x="680" y="135" font-size="20" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >NH<tspan dy="5" font-size="72%">3</tspan><tspan dy="-5">​</tspan></text>
+<text x="680" y="160" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >(液体)</text>
+<path d="M499,92 L499,50 L275,50 L275,66" fill="none" stroke="#555" stroke-width="2"/><polygon points="275,68 280.0,58.0 270.0,58.0" fill="#555"/>
+<text x="390" y="38" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >未反応の N<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>・H<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan> は再び反応塔へ</text>
+<rect x="160" y="285" width="400" height="38" rx="8" fill="#fafafa" stroke="#cfd8dc" stroke-width="1.5" />
+<text x="360" y="305" font-size="19" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >N<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan> + 3H<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan> ⇄ 2NH<tspan dy="5" font-size="72%">3</tspan><tspan dy="-5">​</tspan></text>
+</svg>

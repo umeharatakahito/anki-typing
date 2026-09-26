@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" width="720" height="370" font-family="sans-serif">
+<rect width="720" height="370" fill="#fff"/>
+<text x="125.0" y="66" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1族</text>
+<text x="195.0" y="66" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2族</text>
+<text x="265.0" y="66" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >13族</text>
+<text x="335.0" y="66" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >14族</text>
+<text x="405.0" y="66" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >15族</text>
+<text x="475.0" y="66" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >16族</text>
+<text x="545.0" y="66" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >17族</text>
+<text x="78" y="112.0" font-size="14" text-anchor="end" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1</text>
+<text x="78" y="176.0" font-size="14" text-anchor="end" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2</text>
+<text x="78" y="240.0" font-size="14" text-anchor="end" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >3</text>
+<rect x="90" y="80" width="70" height="64" rx="0" fill="rgb(250,194,140)" stroke="#90a4ae" stroke-width="1.2" />
+<text x="125.0" y="102" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >H</text>
+<text x="125.0" y="125" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >2.2</text>
+<rect x="90" y="144" width="70" height="64" rx="0" fill="rgb(254,236,212)" stroke="#90a4ae" stroke-width="1.2" />
+<text x="125.0" y="166" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Li</text>
+<text x="125.0" y="189" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >1.0</text>
+<rect x="160" y="144" width="70" height="64" rx="0" fill="rgb(252,215,176)" stroke="#90a4ae" stroke-width="1.2" />
+<text x="195.0" y="166" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Be</text>
+<text x="195.0" y="189" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >1.6</text>
+<rect x="230" y="144" width="70" height="64" rx="0" fill="rgb(251,201,152)" stroke="#90a4ae" stroke-width="1.2" />
+<text x="265.0" y="166" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >B</text>
+<text x="265.0" y="189" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >2.0</text>
+<rect x="300" y="144" width="70" height="64" rx="0" fill="rgb(249,181,117)" stroke="#90a4ae" stroke-width="1.2" />
+<text x="335.0" y="166" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text>
+<text x="335.0" y="189" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >2.6</text>
+<rect x="370" y="144" width="70" height="64" rx="0" fill="rgb(248,167,93)" stroke="#90a4ae" stroke-width="1.2" />
+<text x="405.0" y="166" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >N</text>
+<text x="405.0" y="189" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >3.0</text>
+<rect x="440" y="144" width="70" height="64" rx="0" fill="rgb(246,153,69)" stroke="#90a4ae" stroke-width="1.2" />
+<text x="475.0" y="166" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >O</text>
+<text x="475.0" y="189" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >3.4</text>
+<rect x="510" y="144" width="70" height="64" rx="0" fill="rgb(245,133,34)" stroke="#90a4ae" stroke-width="1.2" />
+<text x="545.0" y="166" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >F</text>
+<text x="545.0" y="189" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >4.0</text>
+<rect x="90" y="208" width="70" height="64" rx="0" fill="rgb(254,239,218)" stroke="#90a4ae" stroke-width="1.2" />
+<text x="125.0" y="230" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Na</text>
+<text x="125.0" y="253" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >0.9</text>
+<rect x="160" y="208" width="70" height="64" rx="0" fill="rgb(253,225,194)" stroke="#90a4ae" stroke-width="1.2" />
+<text x="195.0" y="230" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Mg</text>
+<text x="195.0" y="253" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >1.3</text>
+<rect x="230" y="208" width="70" height="64" rx="0" fill="rgb(252,215,176)" stroke="#90a4ae" stroke-width="1.2" />
+<text x="265.0" y="230" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Al</text>
+<text x="265.0" y="253" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >1.6</text>
+<rect x="300" y="208" width="70" height="64" rx="0" fill="rgb(251,205,158)" stroke="#90a4ae" stroke-width="1.2" />
+<text x="335.0" y="230" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Si</text>
+<text x="335.0" y="253" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >1.9</text>
+<rect x="370" y="208" width="70" height="64" rx="0" fill="rgb(250,194,140)" stroke="#90a4ae" stroke-width="1.2" />
+<text x="405.0" y="230" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >P</text>
+<text x="405.0" y="253" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >2.2</text>
+<rect x="440" y="208" width="70" height="64" rx="0" fill="rgb(249,181,117)" stroke="#90a4ae" stroke-width="1.2" />
+<text x="475.0" y="230" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >S</text>
+<text x="475.0" y="253" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >2.6</text>
+<rect x="510" y="208" width="70" height="64" rx="0" fill="rgb(247,160,81)" stroke="#90a4ae" stroke-width="1.2" />
+<text x="545.0" y="230" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Cl</text>
+<text x="545.0" y="253" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >3.2</text>
+<text x="78" y="66" font-size="13" text-anchor="end" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >周期</text>
+<line x1="90" y1="298" x2="567.0" y2="298.0" stroke="#f57c00" stroke-width="3"/><polygon points="580,298 567.0,291.5 567.0,304.5" fill="#f57c00"/>
+<text x="335.0" y="320" font-size="15" text-anchor="middle" fill="#f57c00" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >大きくなる</text>
+<line x1="606" y1="272" x2="606.0" y2="93.0" stroke="#f57c00" stroke-width="3"/><polygon points="606,80 599.5,93.0 612.5,93.0" fill="#f57c00"/>
+<text x="620" y="176.0" font-size="15" text-anchor="start" fill="#f57c00" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >大きくなる</text>
+<text x="440" y="30" font-size="13" text-anchor="start" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >貴ガスを除く・ポーリングの値</text>
+<circle cx="98" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="98" y="31" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text><text x="120" y="30" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >の値</text>
+</svg>

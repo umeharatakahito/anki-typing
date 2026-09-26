@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 525" width="700" height="525" font-family="sans-serif">
+<rect width="700" height="525" fill="#fff"/>
+<rect x="150" y="170" width="400" height="210" rx="4" fill="#424242" stroke="#212121" stroke-width="2" />
+<rect x="166" y="170" width="368" height="194" rx="0" fill="#616161" stroke="none" stroke-width="0" />
+<rect x="166" y="200" width="368" height="140" rx="0" fill="#ffe0b2" stroke="none" stroke-width="0" />
+<rect x="166" y="340" width="368" height="24" rx="0" fill="#cfd8dc" stroke="none" stroke-width="0" />
+<rect x="230" y="110" width="44" height="150" rx="3" fill="#37474f" stroke="#212121" stroke-width="1.5" />
+<rect x="330" y="110" width="44" height="150" rx="3" fill="#37474f" stroke="#212121" stroke-width="1.5" />
+<rect x="430" y="110" width="44" height="150" rx="3" fill="#37474f" stroke="#212121" stroke-width="1.5" />
+<circle cx="282" cy="200" r="4" fill="#fff" stroke="#607d8b" stroke-width="1.4" />
+<circle cx="284" cy="230" r="5" fill="#fff" stroke="#607d8b" stroke-width="1.4" />
+<circle cx="382" cy="210" r="4" fill="#fff" stroke="#607d8b" stroke-width="1.4" />
+<circle cx="384" cy="240" r="5" fill="#fff" stroke="#607d8b" stroke-width="1.4" />
+<circle cx="482" cy="205" r="4" fill="#fff" stroke="#607d8b" stroke-width="1.4" />
+<path d="M252,110 L252,90 L452,90 L452,110 M352,90 L352,60 L300,60" fill="none" stroke="#222" stroke-width="2.2" />
+<path d="M400,60 L600,60 L600,360 L550,360" fill="none" stroke="#222" stroke-width="2.2" />
+<rect x="190" y="36" width="0" height="0" rx="0" fill="none" stroke="none" stroke-width="0" />
+<rect x="300" y="36" width="100" height="48" rx="6" fill="#fff" stroke="#455a64" stroke-width="2.4" /><text x="350" y="61" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >直流電源</text><text x="286" y="42" font-size="22" text-anchor="middle" fill="#e53935" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >+</text><text x="414" y="42" font-size="22" text-anchor="middle" fill="#1e88e5" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >−</text>
+<line x1="140" y1="120" x2="230" y2="150" stroke="#555" stroke-width="1.2"/><circle cx="230" cy="150" r="2.2" fill="#555"/><text x="140" y="120" font-size="17" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >炭素 (+)</text>
+<line x1="580" y1="430" x2="540" y2="370" stroke="#555" stroke-width="1.2"/><circle cx="540" cy="370" r="2.2" fill="#555"/><text x="580" y="430" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >炭素 (−)</text>
+<line x1="150" y1="430" x2="210" y2="290" stroke="#555" stroke-width="1.2"/><circle cx="210" cy="290" r="2.2" fill="#555"/><text x="150" y="430" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >融解した Al<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>O<tspan dy="5" font-size="72%">3</tspan><tspan dy="-5">​</tspan> ＋ 氷晶石</text>
+<line x1="360" y1="470" x2="350" y2="352" stroke="#555" stroke-width="1.2"/><circle cx="350" cy="352" r="2.2" fill="#555"/><text x="360" y="470" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >融解した Al</text>
+<text x="640" y="30" font-size="16" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >この方法</text><circle cx="662" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="662" y="31" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="350" y="505" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >(−) Al<tspan dy="-7" font-size="72%">3+</tspan><tspan dy="7">​</tspan> ＋ 3e<tspan dy="-7" font-size="72%">-</tspan><tspan dy="7">​</tspan> → Al　　(+) C ＋ O<tspan dy="-7" font-size="72%">2-</tspan><tspan dy="7">​</tspan> → CO ＋ 2e<tspan dy="-7" font-size="72%">-</tspan><tspan dy="7">​</tspan> など（約 960℃）</text>
+</svg>

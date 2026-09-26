@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" width="680" height="360" font-family="sans-serif">
+<rect width="680" height="360" fill="#fff"/>
+<path d="M90,210 Q90,195 105,195 L154,195 L180,229 L206,195 L255,195 Q270,195 270,210 L270,290 Q270,305 255,305 L105,305 Q90,305 90,290 Z" fill="#b3e5fc" stroke="#0277bd" stroke-width="2.5" />
+<path d="M154,195 L180,229 L206,195 L206,171 L154,171 Z" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.2" /><line x1="180" y1="171" x2="180" y2="229" stroke="#2e7d32" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="180" y="335" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >形が合う → 結合して反応</text>
+<path d="M410,210 Q410,195 425,195 L474,195 L500,229 L526,195 L575,195 Q590,195 590,210 L590,290 Q590,305 575,305 L425,305 Q410,305 410,290 Z" fill="#b3e5fc" stroke="#0277bd" stroke-width="2.5" />
+<rect x="470" y="97" width="60" height="58" rx="4" fill="#f8bbd0" stroke="#ad1457" stroke-width="2.2" />
+<text x="570" y="135" font-size="32" text-anchor="middle" fill="#e53935" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >×</text>
+<text x="500" y="335" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >形が合わない → 結合しない</text>
+<line x1="60" y1="110" x2="110" y2="230" stroke="#555" stroke-width="1.2"/><circle cx="110" cy="230" r="2.2" fill="#555"/><text x="60" y="110" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >酵素</text>
+<line x1="330" y1="120" x2="190" y2="215" stroke="#555" stroke-width="1.2"/><circle cx="190" cy="215" r="2.2" fill="#555"/><text x="330" y="120" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >活性部位</text>
+<circle cx="340" cy="45" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="340" y="46" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="340" y="80" font-size="15" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >特定の物質だけに作用する性質</text>
+</svg>

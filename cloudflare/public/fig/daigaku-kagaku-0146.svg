@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" width="700" height="400" font-family="sans-serif">
+<rect width="700" height="400" fill="#fff"/>
+<text x="300" y="100" font-size="20" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >NH<tspan dy="5" font-size="72%">3</tspan><tspan dy="-5">​</tspan></text>
+<text x="300" y="310" font-size="20" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >NH<tspan dy="5" font-size="72%">3</tspan><tspan dy="-5">​</tspan></text>
+<text x="185" y="205" font-size="20" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >H<tspan dy="5" font-size="72%">3</tspan><tspan dy="-5">​</tspan>N</text>
+<text x="415" y="205" font-size="20" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >NH<tspan dy="5" font-size="72%">3</tspan><tspan dy="-5">​</tspan></text>
+<line x1="300.0" y1="128.9" x2="300.0" y2="177.0" stroke="#222" stroke-width="2.2"/><polygon points="300.0,187.0 305.0,177.0 295.0,177.0" fill="#222"/>
+<line x1="300.0" y1="281.1" x2="300.0" y2="233.0" stroke="#222" stroke-width="2.2"/><polygon points="300.0,223.0 295.0,233.0 305.0,233.0" fill="#222"/>
+<line x1="223.0" y1="205.0" x2="262.0" y2="205.0" stroke="#222" stroke-width="2.2"/><polygon points="272.0,205.0 262.0,200.0 262.0,210.0" fill="#222"/>
+<line x1="377.0" y1="205.0" x2="338.0" y2="205.0" stroke="#222" stroke-width="2.2"/><polygon points="328.0,205.0 338.0,210.0 338.0,200.0" fill="#222"/>
+<circle cx="300" cy="205" r="30" fill="#bbdefb" stroke="#1e88e5" stroke-width="2" />
+<text x="300" y="205" font-size="18" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >Cu<tspan dy="-7" font-size="72%">2+</tspan><tspan dy="7">​</tspan></text>
+<path d="M165,70 L150,70 L150,340 L165,340" fill="none" stroke="#f57c00" stroke-width="3.5" />
+<path d="M435,70 L450,70 L450,340 L435,340" fill="none" stroke="#f57c00" stroke-width="3.5" />
+<text x="470" y="70" font-size="20" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2+</text>
+<line x1="560" y1="150" x2="355" y2="205" stroke="#555" stroke-width="1.2"/><circle cx="355" cy="205" r="2.2" fill="#555"/><text x="560" y="150" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >配位結合</text>
+<line x1="530" y1="300" x2="452" y2="280" stroke="#f57c00" stroke-width="2.4"/><circle cx="452" cy="280" r="3.5" fill="#f57c00"/><circle cx="530" cy="300" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="530" y="301" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="520" y1="40" x2="325" y2="95" stroke="#555" stroke-width="1.2"/><circle cx="325" cy="95" r="2.2" fill="#555"/><text x="520" y="40" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >配位子</text>
+<line x1="560" y1="250" x2="322" y2="225" stroke="#555" stroke-width="1.2"/><circle cx="322" cy="225" r="2.2" fill="#555"/><text x="560" y="250" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >金属イオン</text>
+<text x="300" y="375" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >テトラアンミン銅(II)イオン（深青色）</text>
+</svg>

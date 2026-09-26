@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 360" width="620" height="360" font-family="sans-serif">
+<rect width="620" height="360" fill="#fff"/>
+<circle cx="300" cy="190" r="20" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<line x1="300.0" y1="177.0" x2="300.0" y2="118.0" stroke="#222" stroke-width="2" /><line x1="289.4" y1="190.0" x2="202.4" y2="190.0" stroke="#222" stroke-width="2" /><line x1="310.6" y1="190.0" x2="395.5" y2="190.0" stroke="#222" stroke-width="2" /><line x1="300.0" y1="203.0" x2="300.0" y2="262.0" stroke="#222" stroke-width="2" /><text x="300" y="190" font-size="21" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >C</text><text x="300" y="105" font-size="21" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >H</text><text x="180" y="190" font-size="21" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >CH<tspan dy="5" font-size="72%">3</tspan><tspan dy="-5">​</tspan></text><text x="430" y="190" font-size="21" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >COOH</text><text x="300" y="275" font-size="21" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >OH</text>
+<line x1="420" y1="90" x2="316" y2="178" stroke="#f57c00" stroke-width="2.4"/><circle cx="316" cy="178" r="3.5" fill="#f57c00"/><circle cx="420" cy="90" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="420" y="91" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<circle cx="300" cy="105" r="28" fill="none" stroke="#1e88e5" stroke-width="1.2" stroke-dasharray="4 3"/>
+<circle cx="180" cy="190" r="36" fill="none" stroke="#1e88e5" stroke-width="1.2" stroke-dasharray="4 3"/>
+<circle cx="430" cy="190" r="36" fill="none" stroke="#1e88e5" stroke-width="1.2" stroke-dasharray="4 3"/>
+<circle cx="300" cy="275" r="28" fill="none" stroke="#1e88e5" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="300" y="335" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >4つの異なる原子・原子団が結合（乳酸）</text>
+</svg>

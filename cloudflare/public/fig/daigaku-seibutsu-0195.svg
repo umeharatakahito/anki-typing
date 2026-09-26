@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" font-family="sans-serif">
+<rect width="720" height="340" fill="#fff"/>
+<circle cx="100" cy="190" r="62" fill="#fffde7" stroke="#8d6e63" stroke-width="2.5" />
+<circle cx="156.0" cy="190.0" r="8" fill="#ffe0b2" stroke="#8d6e63" stroke-width="1.2" />
+<circle cx="152.6" cy="209.2" r="8" fill="#ffe0b2" stroke="#8d6e63" stroke-width="1.2" />
+<circle cx="142.9" cy="226.0" r="8" fill="#ffe0b2" stroke="#8d6e63" stroke-width="1.2" />
+<circle cx="128.0" cy="238.5" r="8" fill="#ffe0b2" stroke="#8d6e63" stroke-width="1.2" />
+<circle cx="109.7" cy="245.1" r="8" fill="#ffe0b2" stroke="#8d6e63" stroke-width="1.2" />
+<circle cx="90.3" cy="245.1" r="8" fill="#ffe0b2" stroke="#8d6e63" stroke-width="1.2" />
+<circle cx="72.0" cy="238.5" r="8" fill="#ffe0b2" stroke="#8d6e63" stroke-width="1.2" />
+<circle cx="57.1" cy="226.0" r="8" fill="#ffe0b2" stroke="#8d6e63" stroke-width="1.2" />
+<circle cx="47.4" cy="209.2" r="8" fill="#ffe0b2" stroke="#8d6e63" stroke-width="1.2" />
+<circle cx="44.0" cy="190.0" r="8" fill="#ffe0b2" stroke="#8d6e63" stroke-width="1.2" />
+<circle cx="47.4" cy="170.8" r="8" fill="#ffe0b2" stroke="#8d6e63" stroke-width="1.2" />
+<circle cx="57.1" cy="154.0" r="8" fill="#ffe0b2" stroke="#8d6e63" stroke-width="1.2" />
+<circle cx="72.0" cy="141.5" r="8" fill="#ffe0b2" stroke="#8d6e63" stroke-width="1.2" />
+<circle cx="90.3" cy="134.9" r="8" fill="#ffe0b2" stroke="#8d6e63" stroke-width="1.2" />
+<circle cx="109.7" cy="134.9" r="8" fill="#ffe0b2" stroke="#8d6e63" stroke-width="1.2" />
+<circle cx="128.0" cy="141.5" r="8" fill="#ffe0b2" stroke="#8d6e63" stroke-width="1.2" />
+<circle cx="142.9" cy="154.0" r="8" fill="#ffe0b2" stroke="#8d6e63" stroke-width="1.2" />
+<circle cx="152.6" cy="170.8" r="8" fill="#ffe0b2" stroke="#8d6e63" stroke-width="1.2" />
+<circle cx="90" cy="152" r="9" fill="#ce93d8" stroke="#6a1b9a" stroke-width="1.5" />
+<circle cx="108" cy="152" r="9" fill="#ce93d8" stroke="#6a1b9a" stroke-width="1.5" />
+<circle cx="78" cy="162" r="9" fill="#ce93d8" stroke="#6a1b9a" stroke-width="1.5" />
+<circle cx="122" cy="162" r="9" fill="#ce93d8" stroke="#6a1b9a" stroke-width="1.5" />
+<circle cx="100" cy="166" r="9" fill="#ce93d8" stroke="#6a1b9a" stroke-width="1.5" />
+<circle cx="88" cy="172" r="9" fill="#ce93d8" stroke="#6a1b9a" stroke-width="1.5" />
+<circle cx="112" cy="172" r="9" fill="#ce93d8" stroke="#6a1b9a" stroke-width="1.5" />
+<line x1="120" y1="60" x2="106" y2="156" stroke="#555" stroke-width="1.2"/><circle cx="106" cy="156" r="2.2" fill="#555"/><text x="120" y="60" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >内部細胞塊</text>
+<text x="100" y="290" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >初期胚（胚盤胞）</text>
+<line x1="175" y1="190" x2="243.0" y2="190.0" stroke="#555" stroke-width="3"/><polygon points="255,190 243.0,184.0 243.0,196.0" fill="#555"/>
+<text x="215" y="165" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >取り出す</text>
+<ellipse cx="330" cy="190" rx="60" ry="22" fill="#e1f5fe" stroke="#0288d1" stroke-width="2" /><circle cx="305" cy="186" r="8" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" /><circle cx="322" cy="182" r="8" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" /><circle cx="340" cy="185" r="8" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" /><circle cx="356" cy="188" r="8" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" /><circle cx="315" cy="196" r="8" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" /><circle cx="334" cy="195" r="8" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" /><circle cx="350" cy="197" r="8" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<line x1="330" y1="90" x2="330" y2="175" stroke="#f57c00" stroke-width="2.4"/><circle cx="330" cy="175" r="3.5" fill="#f57c00"/><circle cx="330" cy="90" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="330" y="91" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="330" y="245" font-size="15" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >培養</text>
+<line x1="395" y1="180.0" x2="444.3" y2="99.4" stroke="#555" stroke-width="2.5"/><polygon points="450,90 439.6,96.5 449.0,102.3" fill="#555"/>
+<line x1="395" y1="190.0" x2="439.0" y2="190.0" stroke="#555" stroke-width="2.5"/><polygon points="450,190 439.0,184.5 439.0,195.5" fill="#555"/>
+<line x1="395" y1="200.0" x2="444.3" y2="280.6" stroke="#555" stroke-width="2.5"/><polygon points="450,290 449.0,277.7 439.6,283.5" fill="#555"/>
+<circle cx="480" cy="90" r="13" fill="#d1c4e9" stroke="#7e57c2" stroke-width="2" /><line x1="468.7" y1="85.9" x2="453.7" y2="80.4" stroke="#7e57c2" stroke-width="2" /><line x1="474.0" y1="79.6" x2="466.0" y2="65.8" stroke="#7e57c2" stroke-width="2" /><line x1="484.1" y1="78.7" x2="489.6" y2="63.7" stroke="#7e57c2" stroke-width="2" /><line x1="470.8" y1="97.7" x2="458.6" y2="108.0" stroke="#7e57c2" stroke-width="2" /><line x1="493" y1="90" x2="540" y2="90" stroke="#7e57c2" stroke-width="2.5" /><text x="570" y="90" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >神経細胞</text><ellipse cx="490" cy="190" rx="22" ry="14" fill="#ef9a9a" stroke="#c62828" stroke-width="2" /><ellipse cx="490" cy="190" rx="10" ry="5" fill="#e57373" stroke="none" stroke-width="0" /><text x="570" y="190" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >赤血球</text><path d="M455,290 Q495,274 535,290 Q495,306 455,290 Z" fill="#f8bbd0" stroke="#ad1457" stroke-width="2" /><circle cx="495" cy="290" r="4" fill="#ad1457" stroke="none" stroke-width="0" /><text x="570" y="290" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >筋細胞</text>
+</svg>

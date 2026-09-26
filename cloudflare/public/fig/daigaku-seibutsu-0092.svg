@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 280" width="620" height="280" font-family="sans-serif">
+<rect width="620" height="280" fill="#fff"/>
+<rect x="150" y="70" width="414" height="12" rx="6" fill="#90a4ae" stroke="#546e7a" stroke-width="1.5" />
+<rect x="150" y="238" width="414" height="12" rx="6" fill="#ef9a9a" stroke="#e53935" stroke-width="1.5" />
+<rect x="170" y="84" width="44" height="60" rx="5" fill="#fff59d" stroke="#607d8b" stroke-width="1.8" />
+<text x="192" y="115" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text>
+<line x1="184" y1="144" x2="184" y2="176" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<line x1="200" y1="144" x2="200" y2="176" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<rect x="170" y="176" width="44" height="60" rx="5" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.8" />
+<text x="192" y="207" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<rect x="236" y="84" width="44" height="60" rx="5" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.8" />
+<text x="258" y="115" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<line x1="250" y1="144" x2="250" y2="176" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<line x1="266" y1="144" x2="266" y2="176" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<rect x="236" y="176" width="44" height="60" rx="5" fill="#ffcc80" stroke="#f57c00" stroke-width="2.6" />
+<circle cx="258" cy="206" r="14" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="258" y="207" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="302" y="84" width="44" height="60" rx="5" fill="#90caf9" stroke="#607d8b" stroke-width="1.8" />
+<text x="324" y="115" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text>
+<line x1="316" y1="144" x2="316" y2="176" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<line x1="332" y1="144" x2="332" y2="176" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<rect x="302" y="176" width="44" height="60" rx="5" fill="#a5d6a7" stroke="#607d8b" stroke-width="1.8" />
+<text x="324" y="207" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >G</text>
+<rect x="368" y="84" width="44" height="60" rx="5" fill="#a5d6a7" stroke="#607d8b" stroke-width="1.8" />
+<text x="390" y="115" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >G</text>
+<line x1="382" y1="144" x2="382" y2="176" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<line x1="398" y1="144" x2="398" y2="176" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<rect x="368" y="176" width="44" height="60" rx="5" fill="#90caf9" stroke="#607d8b" stroke-width="1.8" />
+<text x="390" y="207" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text>
+<rect x="434" y="84" width="44" height="60" rx="5" fill="#a5d6a7" stroke="#607d8b" stroke-width="1.8" />
+<text x="456" y="115" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >G</text>
+<line x1="448" y1="144" x2="448" y2="176" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<line x1="464" y1="144" x2="464" y2="176" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<rect x="434" y="176" width="44" height="60" rx="5" fill="#90caf9" stroke="#607d8b" stroke-width="1.8" />
+<text x="456" y="207" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text>
+<rect x="500" y="84" width="44" height="60" rx="5" fill="#90caf9" stroke="#607d8b" stroke-width="1.8" />
+<text x="522" y="115" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text>
+<line x1="514" y1="144" x2="514" y2="176" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<line x1="530" y1="144" x2="530" y2="176" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<rect x="500" y="176" width="44" height="60" rx="5" fill="#a5d6a7" stroke="#607d8b" stroke-width="1.8" />
+<text x="522" y="207" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >G</text>
+<text x="140" y="76" font-size="17" text-anchor="end" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >DNA</text>
+<text x="140" y="100" font-size="14" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（鋳型鎖）</text>
+<text x="140" y="244" font-size="17" text-anchor="end" fill="#e53935" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >RNA</text>
+<text x="355" y="30" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >転写のときの塩基の対</text>
+</svg>

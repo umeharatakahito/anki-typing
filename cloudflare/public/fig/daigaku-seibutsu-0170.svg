@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" font-family="sans-serif">
+<rect width="720" height="400" fill="#fff"/>
+<rect x="130" y="95" width="460" height="200" rx="0" fill="#fff3e0" stroke="none" stroke-width="0" />
+<line x1="130" y1="115" x2="290" y2="115" stroke="#43a047" stroke-width="4" /><line x1="430" y1="115" x2="590" y2="115" stroke="#43a047" stroke-width="4" />
+<line x1="40" y1="115" x2="130" y2="115" stroke="#43a047" stroke-width="4" /><line x1="590" y1="115" x2="680" y2="115" stroke="#43a047" stroke-width="4" />
+<line x1="130" y1="165" x2="290" y2="165" stroke="#43a047" stroke-width="4" /><line x1="430" y1="165" x2="590" y2="165" stroke="#43a047" stroke-width="4" />
+<line x1="40" y1="165" x2="130" y2="165" stroke="#43a047" stroke-width="4" /><line x1="590" y1="165" x2="680" y2="165" stroke="#43a047" stroke-width="4" />
+<line x1="130" y1="215" x2="290" y2="215" stroke="#43a047" stroke-width="4" /><line x1="430" y1="215" x2="590" y2="215" stroke="#43a047" stroke-width="4" />
+<line x1="40" y1="215" x2="130" y2="215" stroke="#43a047" stroke-width="4" /><line x1="590" y1="215" x2="680" y2="215" stroke="#43a047" stroke-width="4" />
+<line x1="130" y1="265" x2="290" y2="265" stroke="#43a047" stroke-width="4" /><line x1="430" y1="265" x2="590" y2="265" stroke="#43a047" stroke-width="4" />
+<line x1="40" y1="265" x2="130" y2="265" stroke="#43a047" stroke-width="4" /><line x1="590" y1="265" x2="680" y2="265" stroke="#43a047" stroke-width="4" />
+<rect x="220" y="134" width="280" height="12" rx="5" fill="#8e24aa" stroke="none" stroke-width="0" />
+<line x1="232" y1="146" x2="226" y2="153" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="248" y1="134" x2="242" y2="127" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="264" y1="146" x2="258" y2="153" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="280" y1="134" x2="274" y2="127" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="296" y1="146" x2="290" y2="153" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="312" y1="134" x2="306" y2="127" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="328" y1="146" x2="322" y2="153" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="392" y1="146" x2="398" y2="153" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="408" y1="134" x2="414" y2="127" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="424" y1="146" x2="430" y2="153" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="440" y1="134" x2="446" y2="127" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="456" y1="146" x2="462" y2="153" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="472" y1="134" x2="478" y2="127" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="488" y1="146" x2="494" y2="153" stroke="#8e24aa" stroke-width="2.5" />
+<rect x="220" y="184" width="280" height="12" rx="5" fill="#8e24aa" stroke="none" stroke-width="0" />
+<line x1="232" y1="196" x2="226" y2="203" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="248" y1="184" x2="242" y2="177" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="264" y1="196" x2="258" y2="203" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="280" y1="184" x2="274" y2="177" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="296" y1="196" x2="290" y2="203" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="312" y1="184" x2="306" y2="177" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="328" y1="196" x2="322" y2="203" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="392" y1="196" x2="398" y2="203" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="408" y1="184" x2="414" y2="177" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="424" y1="196" x2="430" y2="203" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="440" y1="184" x2="446" y2="177" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="456" y1="196" x2="462" y2="203" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="472" y1="184" x2="478" y2="177" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="488" y1="196" x2="494" y2="203" stroke="#8e24aa" stroke-width="2.5" />
+<rect x="220" y="234" width="280" height="12" rx="5" fill="#8e24aa" stroke="none" stroke-width="0" />
+<line x1="232" y1="246" x2="226" y2="253" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="248" y1="234" x2="242" y2="227" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="264" y1="246" x2="258" y2="253" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="280" y1="234" x2="274" y2="227" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="296" y1="246" x2="290" y2="253" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="312" y1="234" x2="306" y2="227" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="328" y1="246" x2="322" y2="253" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="392" y1="246" x2="398" y2="253" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="408" y1="234" x2="414" y2="227" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="424" y1="246" x2="430" y2="253" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="440" y1="234" x2="446" y2="227" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="456" y1="246" x2="462" y2="253" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="472" y1="234" x2="478" y2="227" stroke="#8e24aa" stroke-width="2.5" />
+<line x1="488" y1="246" x2="494" y2="253" stroke="#8e24aa" stroke-width="2.5" />
+<path d="M130,90 L135,100 L125,110 L135,120 L125,130 L135,140 L125,150 L135,160 L125,170 L135,180 L125,190 L135,200 L125,210 L135,220 L125,230 L135,240 L125,250 L135,260 L125,270 L135,280 L125,290" fill="none" stroke="#37474f" stroke-width="3" />
+<path d="M590,90 L595,100 L585,110 L595,120 L585,130 L595,140 L585,150 L595,160 L585,170 L595,180 L585,190 L595,200 L585,210 L595,220 L585,230 L595,240 L585,250 L595,260 L585,270 L595,280 L585,290" fill="none" stroke="#37474f" stroke-width="3" />
+<path d="M130,62 L130,50 L590,50 L590,62" fill="none" stroke="#f57c00" stroke-width="3" />
+<circle cx="360.0" cy="50" r="17" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="360.0" y="51" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="40" y="305" width="180" height="14" rx="0" fill="#eceff1" stroke="#90a4ae" stroke-width="1" />
+<rect x="220" y="305" width="280" height="14" rx="0" fill="#90a4ae" stroke="#90a4ae" stroke-width="1" />
+<rect x="500" y="305" width="180" height="14" rx="0" fill="#eceff1" stroke="#90a4ae" stroke-width="1" />
+<text x="360" y="338" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >暗帯</text>
+<text x="130" y="338" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >明帯</text>
+<text x="590" y="338" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >明帯</text>
+<line x1="60" y1="30" x2="127" y2="92" stroke="#555" stroke-width="1.2"/><circle cx="127" cy="92" r="2.2" fill="#555"/><text x="60" y="30" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Z膜</text>
+<line x1="175" y1="385" x2="250" y2="267" stroke="#555" stroke-width="1.2"/><circle cx="250" cy="267" r="2.2" fill="#555"/><text x="175" y="385" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >アクチンフィラメント</text>
+<line x1="520" y1="385" x2="460" y2="246" stroke="#555" stroke-width="1.2"/><circle cx="460" cy="246" r="2.2" fill="#555"/><text x="520" y="385" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ミオシンフィラメント</text>
+</svg>

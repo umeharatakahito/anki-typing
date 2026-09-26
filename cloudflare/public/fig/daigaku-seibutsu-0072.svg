@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" font-family="sans-serif">
+<rect width="640" height="400" fill="#fff"/>
+<rect x="40" y="40" width="440" height="320" rx="20" fill="#fffde7" stroke="#607d8b" stroke-width="2" />
+<circle cx="110" cy="110" r="17" fill="#e57373" stroke="#c62828" stroke-width="1.8" /><circle cx="110" cy="110" r="7.14" fill="#ef9a9a" stroke="none" stroke-width="0" />
+<circle cx="170" cy="95" r="17" fill="#e57373" stroke="#c62828" stroke-width="1.8" /><circle cx="170" cy="95" r="7.14" fill="#ef9a9a" stroke="none" stroke-width="0" />
+<circle cx="140" cy="170" r="17" fill="#e57373" stroke="#c62828" stroke-width="1.8" /><circle cx="140" cy="170" r="7.14" fill="#ef9a9a" stroke="none" stroke-width="0" />
+<circle cx="215" cy="150" r="17" fill="#e57373" stroke="#c62828" stroke-width="1.8" /><circle cx="215" cy="150" r="7.14" fill="#ef9a9a" stroke="none" stroke-width="0" />
+<circle cx="270" cy="110" r="17" fill="#e57373" stroke="#c62828" stroke-width="1.8" /><circle cx="270" cy="110" r="7.14" fill="#ef9a9a" stroke="none" stroke-width="0" />
+<circle cx="330" cy="140" r="17" fill="#e57373" stroke="#c62828" stroke-width="1.8" /><circle cx="330" cy="140" r="7.14" fill="#ef9a9a" stroke="none" stroke-width="0" />
+<circle cx="390" cy="105" r="17" fill="#e57373" stroke="#c62828" stroke-width="1.8" /><circle cx="390" cy="105" r="7.14" fill="#ef9a9a" stroke="none" stroke-width="0" />
+<circle cx="100" cy="250" r="17" fill="#e57373" stroke="#c62828" stroke-width="1.8" /><circle cx="100" cy="250" r="7.14" fill="#ef9a9a" stroke="none" stroke-width="0" />
+<circle cx="170" cy="240" r="17" fill="#e57373" stroke="#c62828" stroke-width="1.8" /><circle cx="170" cy="240" r="7.14" fill="#ef9a9a" stroke="none" stroke-width="0" />
+<circle cx="240" cy="220" r="17" fill="#e57373" stroke="#c62828" stroke-width="1.8" /><circle cx="240" cy="220" r="7.14" fill="#ef9a9a" stroke="none" stroke-width="0" />
+<circle cx="300" cy="200" r="17" fill="#e57373" stroke="#c62828" stroke-width="1.8" /><circle cx="300" cy="200" r="7.14" fill="#ef9a9a" stroke="none" stroke-width="0" />
+<circle cx="360" cy="230" r="17" fill="#e57373" stroke="#c62828" stroke-width="1.8" /><circle cx="360" cy="230" r="7.14" fill="#ef9a9a" stroke="none" stroke-width="0" />
+<circle cx="420" cy="190" r="17" fill="#e57373" stroke="#c62828" stroke-width="1.8" /><circle cx="420" cy="190" r="7.14" fill="#ef9a9a" stroke="none" stroke-width="0" />
+<circle cx="140" cy="320" r="17" fill="#e57373" stroke="#c62828" stroke-width="1.8" /><circle cx="140" cy="320" r="7.14" fill="#ef9a9a" stroke="none" stroke-width="0" />
+<circle cx="215" cy="300" r="17" fill="#e57373" stroke="#c62828" stroke-width="1.8" /><circle cx="215" cy="300" r="7.14" fill="#ef9a9a" stroke="none" stroke-width="0" />
+<circle cx="290" cy="290" r="17" fill="#e57373" stroke="#c62828" stroke-width="1.8" /><circle cx="290" cy="290" r="7.14" fill="#ef9a9a" stroke="none" stroke-width="0" />
+<circle cx="365" cy="310" r="17" fill="#e57373" stroke="#c62828" stroke-width="1.8" /><circle cx="365" cy="310" r="7.14" fill="#ef9a9a" stroke="none" stroke-width="0" />
+<circle cx="430" cy="280" r="17" fill="#e57373" stroke="#c62828" stroke-width="1.8" /><circle cx="430" cy="280" r="7.14" fill="#ef9a9a" stroke="none" stroke-width="0" />
+<g transform="translate(200 195) rotate(0)"><path d="M-7,-2 Q-5,-6 0,-5 Q6,-6 7,0 Q6,5 1,5 Q-5,6 -7,-2 Z" fill="#b39ddb" stroke="#5e35b1" stroke-width="1.5" /></g>
+<g transform="translate(330 265) rotate(50)"><path d="M-7,-2 Q-5,-6 0,-5 Q6,-6 7,0 Q6,5 1,5 Q-5,6 -7,-2 Z" fill="#b39ddb" stroke="#5e35b1" stroke-width="1.5" /></g>
+<g transform="translate(120 205) rotate(100)"><path d="M-7,-2 Q-5,-6 0,-5 Q6,-6 7,0 Q6,5 1,5 Q-5,6 -7,-2 Z" fill="#b39ddb" stroke="#5e35b1" stroke-width="1.5" /></g>
+<g transform="translate(395 150) rotate(150)"><path d="M-7,-2 Q-5,-6 0,-5 Q6,-6 7,0 Q6,5 1,5 Q-5,6 -7,-2 Z" fill="#b39ddb" stroke="#5e35b1" stroke-width="1.5" /></g>
+<g transform="translate(250 330) rotate(200)"><path d="M-7,-2 Q-5,-6 0,-5 Q6,-6 7,0 Q6,5 1,5 Q-5,6 -7,-2 Z" fill="#b39ddb" stroke="#5e35b1" stroke-width="1.5" /></g>
+<path d="M45,90 Q180,140 300,80 T475,120" fill="none" stroke="#f57c00" stroke-width="3" stroke-linecap="round"/>
+<path d="M45,200 Q150,120 260,170 T475,240" fill="none" stroke="#f57c00" stroke-width="3" stroke-linecap="round"/>
+<path d="M60,300 Q200,250 330,300 T475,330" fill="none" stroke="#f57c00" stroke-width="3" stroke-linecap="round"/>
+<path d="M120,45 Q170,200 110,355" fill="none" stroke="#f57c00" stroke-width="3" stroke-linecap="round"/>
+<path d="M250,45 Q300,180 220,355" fill="none" stroke="#f57c00" stroke-width="3" stroke-linecap="round"/>
+<path d="M380,45 Q330,200 400,355" fill="none" stroke="#f57c00" stroke-width="3" stroke-linecap="round"/>
+<path d="M45,140 Q250,320 475,170" fill="none" stroke="#f57c00" stroke-width="3" stroke-linecap="round"/>
+<path d="M45,340 Q250,150 475,60" fill="none" stroke="#f57c00" stroke-width="3" stroke-linecap="round"/>
+<line x1="560" y1="110" x2="407" y2="105" stroke="#555" stroke-width="1.2"/><circle cx="407" cy="105" r="2.2" fill="#555"/><text x="560" y="110" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >赤血球</text>
+<line x1="560" y1="190" x2="403" y2="150" stroke="#555" stroke-width="1.2"/><circle cx="403" cy="150" r="2.2" fill="#555"/><text x="560" y="190" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >血小板</text>
+<line x1="560" y1="280" x2="474" y2="238" stroke="#f57c00" stroke-width="2.4"/><circle cx="474" cy="238" r="3.5" fill="#f57c00"/><circle cx="560" cy="280" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="560" y="281" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="260" y="385" font-size="15" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >血ぺい(模式図)</text>
+</svg>

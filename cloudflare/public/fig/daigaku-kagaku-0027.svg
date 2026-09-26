@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 340" width="700" height="340" font-family="sans-serif">
+<rect width="700" height="340" fill="#fff"/>
+<rect x="60" y="60" width="440" height="250" rx="6" fill="#fffde7" stroke="#bdbdbd" stroke-width="1.5" />
+<circle cx="100" cy="95" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="100" y="96" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="100" cy="155" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="100" y="156" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="100" cy="215" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="100" y="216" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="100" cy="275" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="100" y="276" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="172" cy="95" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="172" y="96" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="172" cy="155" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="172" y="156" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="172" cy="215" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="172" y="216" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="172" cy="275" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="172" y="276" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="244" cy="95" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="244" y="96" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="244" cy="155" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="244" y="156" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="244" cy="215" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="244" y="216" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="244" cy="275" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="244" y="276" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="316" cy="95" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="316" y="96" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="316" cy="155" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="316" y="156" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="316" cy="215" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="316" y="216" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="316" cy="275" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="316" y="276" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="388" cy="95" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="388" y="96" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="388" cy="155" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="388" y="156" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="388" cy="215" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="388" y="216" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="388" cy="275" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="388" y="276" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="460" cy="95" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="460" y="96" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="460" cy="155" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="460" y="156" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="460" cy="215" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="460" y="216" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="460" cy="275" r="17" fill="#b0bec5" stroke="#546e7a" stroke-width="1.6" /><text x="460" y="276" font-size="18" text-anchor="middle" fill="#37474f" font-weight="bold" dominant-baseline="middle"  >+</text>
+<line x1="134.9" y1="126.2" x2="121.9" y2="124.6" stroke="#1e88e5" stroke-width="1.6"/><polygon points="115.0,123.8 121.5,128.1 122.4,121.2" fill="#1e88e5"/>
+<circle cx="134.9" cy="126.2" r="5.5" fill="#1e88e5" stroke="#fff" stroke-width="1.2" />
+<circle cx="146.2" cy="184.3" r="5.5" fill="#1e88e5" stroke="#fff" stroke-width="1.2" />
+<circle cx="136.2" cy="246.7" r="5.5" fill="#1e88e5" stroke="#fff" stroke-width="1.2" />
+<line x1="200.4" y1="125.2" x2="192.1" y2="115.2" stroke="#1e88e5" stroke-width="1.6"/><polygon points="187.6,109.8 189.4,117.4 194.8,112.9" fill="#1e88e5"/>
+<circle cx="200.4" cy="125.2" r="5.5" fill="#1e88e5" stroke="#fff" stroke-width="1.2" />
+<circle cx="211.1" cy="190.9" r="5.5" fill="#1e88e5" stroke="#fff" stroke-width="1.2" />
+<circle cx="198.3" cy="241.1" r="5.5" fill="#1e88e5" stroke="#fff" stroke-width="1.2" />
+<line x1="270.2" y1="131.2" x2="257.2" y2="131.3" stroke="#1e88e5" stroke-width="1.6"/><polygon points="250.2,131.3 257.2,134.8 257.2,127.8" fill="#1e88e5"/>
+<circle cx="270.2" cy="131.2" r="5.5" fill="#1e88e5" stroke="#fff" stroke-width="1.2" />
+<circle cx="284.6" cy="175.8" r="5.5" fill="#1e88e5" stroke="#fff" stroke-width="1.2" />
+<circle cx="291.6" cy="254.3" r="5.5" fill="#1e88e5" stroke="#fff" stroke-width="1.2" />
+<line x1="355.7" y1="127.3" x2="348.9" y2="116.3" stroke="#1e88e5" stroke-width="1.6"/><polygon points="345.2,110.3 345.9,118.1 351.9,114.4" fill="#1e88e5"/>
+<circle cx="355.7" cy="127.3" r="5.5" fill="#1e88e5" stroke="#fff" stroke-width="1.2" />
+<circle cx="343.8" cy="175.3" r="5.5" fill="#1e88e5" stroke="#fff" stroke-width="1.2" />
+<circle cx="352.7" cy="236.2" r="5.5" fill="#1e88e5" stroke="#fff" stroke-width="1.2" />
+<line x1="416.6" y1="119.8" x2="404.1" y2="123.2" stroke="#1e88e5" stroke-width="1.6"/><polygon points="397.3,125.1 405.0,126.6 403.1,119.9" fill="#1e88e5"/>
+<circle cx="416.6" cy="119.8" r="5.5" fill="#1e88e5" stroke="#fff" stroke-width="1.2" />
+<circle cx="412.7" cy="184.3" r="5.5" fill="#1e88e5" stroke="#fff" stroke-width="1.2" />
+<circle cx="422.6" cy="251.8" r="5.5" fill="#1e88e5" stroke="#fff" stroke-width="1.2" />
+<circle cx="80" cy="150" r="5.5" fill="#1e88e5" stroke="#fff" stroke-width="1.2" />
+<circle cx="480" cy="210" r="5.5" fill="#1e88e5" stroke="#fff" stroke-width="1.2" />
+<circle cx="300" cy="70" r="5.5" fill="#1e88e5" stroke="#fff" stroke-width="1.2" />
+<circle cx="200" cy="300" r="5.5" fill="#1e88e5" stroke="#fff" stroke-width="1.2" />
+<line x1="560" y1="110" x2="360.7" y2="127.3" stroke="#555" stroke-width="1.2"/><circle cx="360.7" cy="127.3" r="2.2" fill="#555"/><text x="560" y="110" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >自由電子</text>
+<line x1="560" y1="250" x2="460" y2="275" stroke="#555" stroke-width="1.2"/><circle cx="460" cy="275" r="2.2" fill="#555"/><text x="560" y="250" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >陽イオン</text>
+<path d="M52,52 L52,318 L508,318 L508,52 Z" fill="none" stroke="#f57c00" stroke-width="2.6" stroke-dasharray="8 5"/>
+<line x1="540" y1="40" x2="508" y2="60" stroke="#f57c00" stroke-width="2.4"/><circle cx="508" cy="60" r="3.5" fill="#f57c00"/><circle cx="540" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="540" y="41" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" width="680" height="360" font-family="sans-serif">
+<rect width="680" height="360" fill="#fff"/>
+<rect x="92" y="150" width="116" height="98" rx="0" fill="#e3f2fd" stroke="none" stroke-width="0" />
+<path d="M90,120 L90,250 L210,250 L210,120" fill="none" stroke="#607d8b" stroke-width="2.5" />
+<line x1="70" y1="254" x2="230" y2="254" stroke="#616161" stroke-width="3" />
+<path d="M134,344 L166,344 L159,290 L141,290 Z" fill="#b0bec5" stroke="#455a64" stroke-width="2" />
+<rect x="120" y="344" width="60" height="8" rx="2" fill="#90a4ae" stroke="#455a64" stroke-width="1.5" />
+<path d="M150,260 C136,278 138,286 150,288 C162,286 164,278 150,260 Z" fill="#42a5f5" stroke="none" stroke-width="0" />
+<rect x="402" y="150" width="116" height="98" rx="0" fill="#e3f2fd" stroke="none" stroke-width="0" />
+<path d="M400,120 L400,250 L520,250 L520,120" fill="none" stroke="#607d8b" stroke-width="2.5" />
+<line x1="380" y1="254" x2="540" y2="254" stroke="#616161" stroke-width="3" />
+<path d="M444,344 L476,344 L469,290 L451,290 Z" fill="#b0bec5" stroke="#455a64" stroke-width="2" />
+<rect x="430" y="344" width="60" height="8" rx="2" fill="#90a4ae" stroke="#455a64" stroke-width="1.5" />
+<path d="M460,260 C446,278 448,286 460,288 C472,286 474,278 460,260 Z" fill="#42a5f5" stroke="none" stroke-width="0" />
+<path d="M110,146 q-6,-12 0,-24 q6,-12 0,-24" fill="none" stroke="#90a4ae" stroke-width="1.8"/><polygon points="110,98 106.5,105.0 113.5,105.0" fill="#90a4ae"/>
+<path d="M150,146 q-6,-12 0,-24 q6,-12 0,-24" fill="none" stroke="#90a4ae" stroke-width="1.8"/><polygon points="150,98 146.5,105.0 153.5,105.0" fill="#90a4ae"/>
+<path d="M190,146 q-6,-12 0,-24 q6,-12 0,-24" fill="none" stroke="#90a4ae" stroke-width="1.8"/><polygon points="190,98 186.5,105.0 193.5,105.0" fill="#90a4ae"/>
+<text x="150" y="68" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >表面から蒸発</text>
+<text x="150" y="40" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >沸点より低い温度</text>
+<circle cx="425" cy="238" r="7" fill="#fff" stroke="#f57c00" stroke-width="2" />
+<circle cx="445" cy="214" r="9" fill="#fff" stroke="#f57c00" stroke-width="2" />
+<circle cx="470" cy="240" r="6" fill="#fff" stroke="#f57c00" stroke-width="2" />
+<circle cx="490" cy="196" r="11" fill="#fff" stroke="#f57c00" stroke-width="2" />
+<circle cx="512" cy="230" r="8" fill="#fff" stroke="#f57c00" stroke-width="2" />
+<circle cx="500" cy="168" r="12" fill="#fff" stroke="#f57c00" stroke-width="2" />
+<circle cx="455" cy="172" r="10" fill="#fff" stroke="#f57c00" stroke-width="2" />
+<circle cx="430" cy="190" r="7" fill="#fff" stroke="#f57c00" stroke-width="2" />
+<circle cx="478" cy="222" r="6" fill="#fff" stroke="#f57c00" stroke-width="2" />
+<circle cx="505" cy="205" r="5" fill="#fff" stroke="#f57c00" stroke-width="2" />
+<path d="M420,146 q-6,-12 0,-24 q6,-12 0,-24" fill="none" stroke="#90a4ae" stroke-width="1.8"/><polygon points="420,98 416.5,105.0 423.5,105.0" fill="#90a4ae"/>
+<path d="M460,146 q-6,-12 0,-24 q6,-12 0,-24" fill="none" stroke="#90a4ae" stroke-width="1.8"/><polygon points="460,98 456.5,105.0 463.5,105.0" fill="#90a4ae"/>
+<path d="M500,146 q-6,-12 0,-24 q6,-12 0,-24" fill="none" stroke="#90a4ae" stroke-width="1.8"/><polygon points="500,98 496.5,105.0 503.5,105.0" fill="#90a4ae"/>
+<line x1="610" y1="150" x2="513" y2="197" stroke="#f57c00" stroke-width="2.4"/><circle cx="513" cy="197" r="3.5" fill="#f57c00"/><circle cx="610" cy="150" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="610" y="151" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="460" y="40" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >沸点</text>
+</svg>

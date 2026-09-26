@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" font-family="sans-serif">
+<rect width="720" height="340" fill="#fff"/>
+<circle cx="110" cy="170" r="62" fill="#fff59d" stroke="#8d6e63" stroke-width="2.5" /><path d="M48,178 A62,62 0 0 1 172,178 Q110,192 48,178 Z" fill="#a1887f" stroke="#6d4c41" stroke-width="1.5" /><path d="M164.2,189.7 Q144.1,185.5 143.1,217.2" fill="none" stroke="#3e2723" stroke-width="3.5" /><path d="M164.2,189.7 Q141.0,182.4 143.1,217.2 L129.1,201.2 Q128.6,170.0 148.2,177.7 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="110" y="265" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >提供胚</text>
+<path d="M160,150 Q250,80 320,155" fill="none" stroke="#f57c00" stroke-width="2.5"/><polygon points="320,155 317.4,144.1 309.7,150.6" fill="#f57c00"/>
+<text x="245" y="90" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >移植</text>
+<circle cx="370" cy="170" r="62" fill="#fff59d" stroke="#8d6e63" stroke-width="2.5" /><path d="M308,178 A62,62 0 0 1 432,178 Q370,192 308,178 Z" fill="#a1887f" stroke="#6d4c41" stroke-width="1.5" /><path d="M424.2,189.7 Q404.1,185.5 403.1,217.2" fill="none" stroke="#3e2723" stroke-width="3.5" /><ellipse cx="325.36" cy="188.6" rx="14" ry="18" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="370" y="265" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >宿主胚（腹側に移植）</text>
+<line x1="445" y1="170" x2="473.0" y2="170.0" stroke="#555" stroke-width="3"/><polygon points="485,170 473.0,164.0 473.0,176.0" fill="#555"/>
+<path d="M500,150 Q520,110 600,112 Q680,115 705,140 Q690,165 600,175 Q530,178 500,150 Z" fill="#ffe0b2" stroke="#8d6e63" stroke-width="2.2" />
+<circle cx="520" cy="138" r="4" fill="#3e2723" stroke="none" stroke-width="0" />
+<line x1="530" y1="118" x2="690" y2="128" stroke="#6a1b9a" stroke-width="3" />
+<path d="M540,175 Q560,215 610,222 Q660,222 680,200 Q650,182 600,178 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="560" y1="196" x2="665" y2="205" stroke="#6a1b9a" stroke-width="3" />
+<line x1="620" y1="290" x2="620" y2="214" stroke="#555" stroke-width="1.2"/><circle cx="620" cy="214" r="2.2" fill="#555"/><text x="620" y="290" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >二次胚</text>
+<line x1="110" y1="50" x2="150" y2="192" stroke="#f57c00" stroke-width="2.4"/><circle cx="150" cy="192" r="3.5" fill="#f57c00"/><circle cx="110" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="110" y="51" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="110" y="290" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（原口背唇部）</text>
+</svg>

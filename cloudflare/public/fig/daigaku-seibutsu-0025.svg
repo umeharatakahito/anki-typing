@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" font-family="sans-serif">
+<rect width="720" height="380" fill="#fff"/>
+<rect x="35" y="110" width="130" height="120" rx="12" fill="#fff" stroke="#607d8b" stroke-width="2" />
+<path d="M78,195 Q82,171.0 74,155 Q84,175.0 86,195 Z" fill="#81c784" stroke="#2e7d32" stroke-width="1.5" /><path d="M88,195 Q92,163.8 89,143 Q94,169.0 96,195 Z" fill="#81c784" stroke="#2e7d32" stroke-width="1.5" /><path d="M98,195 Q102,160.2 106,137 Q104,166.0 106,195 Z" fill="#81c784" stroke="#2e7d32" stroke-width="1.5" /><path d="M108,195 Q112,167.4 122,149 Q114,172.0 116,195 Z" fill="#81c784" stroke="#2e7d32" stroke-width="1.5" /><path d="M118,195 Q122,173.4 136,159 Q124,177.0 126,195 Z" fill="#81c784" stroke="#2e7d32" stroke-width="1.5" />
+<text x="100" y="212" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >草</text>
+<line x1="167" y1="170" x2="190.0" y2="170.0" stroke="#f57c00" stroke-width="4"/><polygon points="203,170 190.0,163.5 190.0,176.5" fill="#f57c00"/>
+<rect x="205" y="110" width="130" height="120" rx="12" fill="#fff" stroke="#607d8b" stroke-width="2" />
+<ellipse cx="270" cy="175" rx="30" ry="10" fill="#aed581" stroke="#558b2f" stroke-width="2" /><circle cx="300" cy="172" r="7" fill="#aed581" stroke="#558b2f" stroke-width="2" /><path d="M265,180 L250,157 L236,187" fill="none" stroke="#558b2f" stroke-width="2.5" /><line x1="280" y1="183" x2="286" y2="195" stroke="#558b2f" stroke-width="2" /><line x1="290" y1="183" x2="298" y2="195" stroke="#558b2f" stroke-width="2" /><path d="M304,167 Q314,147 322,145" fill="none" stroke="#558b2f" stroke-width="1.5" />
+<text x="270" y="212" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >バッタ</text>
+<line x1="337" y1="170" x2="360.0" y2="170.0" stroke="#f57c00" stroke-width="4"/><polygon points="373,170 360.0,163.5 360.0,176.5" fill="#f57c00"/>
+<rect x="375" y="110" width="130" height="120" rx="12" fill="#fff" stroke="#607d8b" stroke-width="2" />
+<ellipse cx="440" cy="175" rx="30" ry="20" fill="#66bb6a" stroke="#1b5e20" stroke-width="2" /><circle cx="428" cy="157" r="7" fill="#66bb6a" stroke="#1b5e20" stroke-width="2" /><circle cx="428" cy="157" r="3" fill="#1b5e20" stroke="none" stroke-width="0" /><circle cx="452" cy="157" r="7" fill="#66bb6a" stroke="#1b5e20" stroke-width="2" /><circle cx="452" cy="157" r="3" fill="#1b5e20" stroke="none" stroke-width="0" /><path d="M412,183 q-12,10 -4,16 M468,183 q12,10 4,16" fill="none" stroke="#1b5e20" stroke-width="2.5" />
+<text x="440" y="212" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >カエル</text>
+<line x1="507" y1="170" x2="530.0" y2="170.0" stroke="#f57c00" stroke-width="4"/><polygon points="543,170 530.0,163.5 530.0,176.5" fill="#f57c00"/>
+<rect x="545" y="110" width="130" height="120" rx="12" fill="#fff" stroke="#607d8b" stroke-width="2" />
+<path d="M565,185 Q580,155 598,180 Q615,203 630,175 Q640,160 652,165" fill="none" stroke="#6d4c41" stroke-width="10" stroke-linecap="round"/><path d="M565,185 Q580,155 598,180 Q615,203 630,175 Q640,160 652,165" fill="none" stroke="#a1887f" stroke-width="6" stroke-linecap="round"/><circle cx="654" cy="164" r="6" fill="#a1887f" stroke="#6d4c41" stroke-width="1.5" />
+<text x="610" y="212" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >ヘビ</text>
+<circle cx="40" cy="50" r="20" fill="#ffeb3b" stroke="#f9a825" stroke-width="2" /><line x1="64.0" y1="50.0" x2="73.0" y2="50.0" stroke="#f9a825" stroke-width="3" /><line x1="57.0" y1="67.0" x2="63.3" y2="73.3" stroke="#f9a825" stroke-width="3" /><line x1="40.0" y1="74.0" x2="40.0" y2="83.0" stroke="#f9a825" stroke-width="3" /><line x1="23.0" y1="67.0" x2="16.7" y2="73.3" stroke="#f9a825" stroke-width="3" /><line x1="16.0" y1="50.0" x2="7.0" y2="50.0" stroke="#f9a825" stroke-width="3" /><line x1="23.0" y1="33.0" x2="16.7" y2="26.7" stroke="#f9a825" stroke-width="3" /><line x1="40.0" y1="26.0" x2="40.0" y2="17.0" stroke="#f9a825" stroke-width="3" /><line x1="57.0" y1="33.0" x2="63.3" y2="26.7" stroke="#f9a825" stroke-width="3" />
+<line x1="62" y1="68" x2="75.6" y2="92.2" stroke="#f9a825" stroke-width="2.5"/><polygon points="80,100 79.5,89.9 71.7,94.4" fill="#f9a825"/>
+<rect x="230" y="310" width="260" height="50" rx="10" fill="#efebe9" stroke="#795548" stroke-width="2" />
+<text x="360" y="335" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >菌類・細菌</text>
+<line x1="100" y1="232" x2="263.4" y2="304.7" stroke="#a1887f" stroke-width="1.6" stroke-dasharray="5 4"/><polygon points="270.75,308 265.1,301.1 261.8,308.4" fill="#a1887f"/>
+<line x1="270" y1="232" x2="325.3" y2="301.7" stroke="#a1887f" stroke-width="1.6" stroke-dasharray="5 4"/><polygon points="330.25,308 328.4,299.2 322.1,304.2" fill="#a1887f"/>
+<line x1="440" y1="232" x2="394.2" y2="301.3" stroke="#a1887f" stroke-width="1.6" stroke-dasharray="5 4"/><polygon points="389.75,308 397.5,303.5 390.8,299.1" fill="#a1887f"/>
+<line x1="610" y1="232" x2="456.5" y2="304.6" stroke="#a1887f" stroke-width="1.6" stroke-dasharray="5 4"/><polygon points="449.25,308 458.2,308.2 454.8,301.0" fill="#a1887f"/>
+<text x="600" y="300" font-size="14" text-anchor="middle" fill="#795548" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >遺体・排出物</text>
+
+<path d="M167,235 L167,250 L543,250 L543,235" fill="none" stroke="#f57c00" stroke-width="3" />
+<line x1="355" y1="275" x2="355" y2="250" stroke="#f57c00" stroke-width="2.4"/><circle cx="355" cy="250" r="3.5" fill="#f57c00"/><circle cx="355" cy="275" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="355" y="276" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

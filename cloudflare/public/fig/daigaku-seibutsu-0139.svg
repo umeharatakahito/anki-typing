@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 340" width="700" height="340" font-family="sans-serif">
+<rect width="700" height="340" fill="#fff"/>
+<rect x="40" y="50" width="230" height="64" rx="8" fill="#fff" stroke="#607d8b" stroke-width="2" /><text x="155.0" y="83.0" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  ></text>
+<text x="155" y="72" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >調べたい個体</text>
+<text x="155" y="96" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >（AA か Aa か不明）</text>
+<rect x="430" y="50" width="230" height="64" rx="8" fill="#fff" stroke="#607d8b" stroke-width="2" /><text x="545.0" y="83.0" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  ></text>
+<text x="545" y="72" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >aa</text>
+<text x="545" y="96" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >（潜性のホモ接合体）</text>
+<circle cx="350" cy="82" r="26" fill="#ffcc80" stroke="#f57c00" stroke-width="2.6" />
+<text x="350" y="83" font-size="28" text-anchor="middle" fill="#e65100" font-weight="bold" dominant-baseline="middle"  >×</text>
+<line x1="350" y1="30" x2="350" y2="56" stroke="#f57c00" stroke-width="2.4"/><circle cx="350" cy="56" r="3.5" fill="#f57c00"/><circle cx="350" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="350" y="31" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="250" y1="125" x2="196.8" y2="182.7" stroke="#555" stroke-width="2.2"/><polygon points="190,190 200.5,186.0 193.1,179.3" fill="#555"/>
+<line x1="450" y1="125" x2="503.2" y2="182.7" stroke="#555" stroke-width="2.2"/><polygon points="510,190 506.9,179.3 499.5,186.0" fill="#555"/>
+<rect x="40" y="200" width="290" height="110" rx="8" fill="#f5f5f5" stroke="#9e9e9e" stroke-width="1.5" />
+<text x="185" y="226" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >AA だった場合</text>
+<text x="185" y="262" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >子はすべて Aa</text>
+<text x="185" y="290" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >（すべて顕性形質）</text>
+<rect x="370" y="200" width="290" height="110" rx="8" fill="#f5f5f5" stroke="#9e9e9e" stroke-width="1.5" />
+<text x="515" y="226" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >Aa だった場合</text>
+<text x="515" y="262" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >子は Aa：aa ＝ 1：1</text>
+<text x="515" y="290" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >（顕性：潜性 ＝ 1：1）</text>
+</svg>

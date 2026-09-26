@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 390" width="700" height="390" font-family="sans-serif">
+<rect width="700" height="390" fill="#fff"/>
+<ellipse cx="300" cy="200" rx="230" ry="120" fill="#ffccbc" stroke="#bf360c" stroke-width="3" />
+<path d="M92,200 C92,120 170,95 300,95 C430,95 508,120 508,200 C508,280 430,305 300,305 C170,305 92,280 92,200 Z" fill="#ffcc80" stroke="#bf360c" stroke-width="2.5" />
+<path d="M143,106 L143,200 Q150,212 157,200 L157,106" fill="#ffccbc" stroke="#bf360c" stroke-width="2.5" />
+<path d="M188,302 L188,200 Q195,188 202,200 L202,302" fill="#ffccbc" stroke="#bf360c" stroke-width="2.5" />
+<path d="M233,98 L233,200 Q240,212 247,200 L247,98" fill="#ffccbc" stroke="#bf360c" stroke-width="2.5" />
+<path d="M278,302 L278,200 Q285,188 292,200 L292,302" fill="#ffccbc" stroke="#bf360c" stroke-width="2.5" />
+<path d="M323,98 L323,200 Q330,212 337,200 L337,98" fill="#ffccbc" stroke="#bf360c" stroke-width="2.5" />
+<path d="M368,302 L368,200 Q375,188 382,200 L382,302" fill="#ffccbc" stroke="#bf360c" stroke-width="2.5" />
+<path d="M413,98 L413,200 Q420,212 427,200 L427,98" fill="#ffccbc" stroke="#bf360c" stroke-width="2.5" />
+<path d="M458,294 L458,200 Q465,188 472,200 L472,294" fill="#ffccbc" stroke="#bf360c" stroke-width="2.5" />
+<line x1="560" y1="60" x2="380" y2="83" stroke="#555" stroke-width="1.2"/><circle cx="380" cy="83" r="2.2" fill="#555"/><text x="560" y="60" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >外膜</text>
+<line x1="560" y1="350" x2="420" y2="300" stroke="#555" stroke-width="1.2"/><circle cx="420" cy="300" r="2.2" fill="#555"/><text x="560" y="350" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >内膜</text>
+<line x1="580" y1="200" x2="470" y2="200" stroke="#f57c00" stroke-width="2.4"/><circle cx="470" cy="200" r="3.5" fill="#f57c00"/><circle cx="580" cy="200" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="580" y="201" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="40" y1="60" x2="157" y2="150" stroke="#555" stroke-width="1.2"/><circle cx="157" cy="150" r="2.2" fill="#555"/><text x="40" y="60" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >クリステ</text>
+</svg>

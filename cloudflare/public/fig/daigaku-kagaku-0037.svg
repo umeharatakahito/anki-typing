@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 390" width="680" height="390" font-family="sans-serif">
+<rect width="680" height="390" fill="#fff"/>
+<line x1="85" y1="330.0" x2="90" y2="330.0" stroke="#555" stroke-width="1.5" /><text x="81" y="330.0" font-size="13" text-anchor="end" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0</text>
+<line x1="85" y1="276.0" x2="90" y2="276.0" stroke="#555" stroke-width="1.5" /><text x="81" y="276.0" font-size="13" text-anchor="end" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >500</text>
+<line x1="90" y1="276.0" x2="630" y2="276.0" stroke="#eceff1" stroke-width="1" />
+<line x1="85" y1="222.0" x2="90" y2="222.0" stroke="#555" stroke-width="1.5" /><text x="81" y="222.0" font-size="13" text-anchor="end" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1000</text>
+<line x1="90" y1="222.0" x2="630" y2="222.0" stroke="#eceff1" stroke-width="1" />
+<line x1="85" y1="168.0" x2="90" y2="168.0" stroke="#555" stroke-width="1.5" /><text x="81" y="168.0" font-size="13" text-anchor="end" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1500</text>
+<line x1="90" y1="168.0" x2="630" y2="168.0" stroke="#eceff1" stroke-width="1" />
+<line x1="85" y1="114.0" x2="90" y2="114.0" stroke="#555" stroke-width="1.5" /><text x="81" y="114.0" font-size="13" text-anchor="end" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2000</text>
+<line x1="90" y1="114.0" x2="630" y2="114.0" stroke="#eceff1" stroke-width="1" />
+<line x1="85" y1="60.0" x2="90" y2="60.0" stroke="#555" stroke-width="1.5" /><text x="81" y="60.0" font-size="13" text-anchor="end" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2500</text>
+<line x1="90" y1="60.0" x2="630" y2="60.0" stroke="#eceff1" stroke-width="1" />
+<line x1="103.5" y1="330" x2="103.5" y2="335" stroke="#555" stroke-width="1.5" /><text x="103.5" y="347" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1</text>
+<line x1="211.5" y1="330" x2="211.5" y2="335" stroke="#555" stroke-width="1.5" /><text x="211.5" y="347" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >5</text>
+<line x1="346.5" y1="330" x2="346.5" y2="335" stroke="#555" stroke-width="1.5" /><text x="346.5" y="347" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >10</text>
+<line x1="481.5" y1="330" x2="481.5" y2="335" stroke="#555" stroke-width="1.5" /><text x="481.5" y="347" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >15</text>
+<line x1="616.5" y1="330" x2="616.5" y2="335" stroke="#555" stroke-width="1.5" /><text x="616.5" y="347" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >20</text>
+<line x1="90" y1="330" x2="630" y2="330" stroke="#555" stroke-width="2" /><line x1="90" y1="330" x2="90" y2="50" stroke="#555" stroke-width="2" />
+<polyline points="103.5,188.3 130.5,73.8 157.5,273.8 184.5,232.8 211.5,243.5 238.5,212.7 265.5,178.6 292.5,188.1 319.5,148.5 346.5,105.3 373.5,276.4 400.5,250.3 427.5,267.6 454.5,245.0 481.5,220.7 508.5,222.0 535.5,194.9 562.5,165.7 589.5,284.7 616.5,266.3" fill="none" stroke="#f57c00" stroke-width="2.6" stroke-linejoin="round"/>
+<circle cx="103.5" cy="188.3" r="3.8" fill="#f57c00" stroke="#fff" stroke-width="1" />
+<circle cx="130.5" cy="73.8" r="3.8" fill="#f57c00" stroke="#fff" stroke-width="1" />
+<circle cx="157.5" cy="273.8" r="3.8" fill="#f57c00" stroke="#fff" stroke-width="1" />
+<circle cx="184.5" cy="232.8" r="3.8" fill="#f57c00" stroke="#fff" stroke-width="1" />
+<circle cx="211.5" cy="243.5" r="3.8" fill="#f57c00" stroke="#fff" stroke-width="1" />
+<circle cx="238.5" cy="212.7" r="3.8" fill="#f57c00" stroke="#fff" stroke-width="1" />
+<circle cx="265.5" cy="178.6" r="3.8" fill="#f57c00" stroke="#fff" stroke-width="1" />
+<circle cx="292.5" cy="188.1" r="3.8" fill="#f57c00" stroke="#fff" stroke-width="1" />
+<circle cx="319.5" cy="148.5" r="3.8" fill="#f57c00" stroke="#fff" stroke-width="1" />
+<circle cx="346.5" cy="105.3" r="3.8" fill="#f57c00" stroke="#fff" stroke-width="1" />
+<circle cx="373.5" cy="276.4" r="3.8" fill="#f57c00" stroke="#fff" stroke-width="1" />
+<circle cx="400.5" cy="250.3" r="3.8" fill="#f57c00" stroke="#fff" stroke-width="1" />
+<circle cx="427.5" cy="267.6" r="3.8" fill="#f57c00" stroke="#fff" stroke-width="1" />
+<circle cx="454.5" cy="245.0" r="3.8" fill="#f57c00" stroke="#fff" stroke-width="1" />
+<circle cx="481.5" cy="220.7" r="3.8" fill="#f57c00" stroke="#fff" stroke-width="1" />
+<circle cx="508.5" cy="222.0" r="3.8" fill="#f57c00" stroke="#fff" stroke-width="1" />
+<circle cx="535.5" cy="194.9" r="3.8" fill="#f57c00" stroke="#fff" stroke-width="1" />
+<circle cx="562.5" cy="165.7" r="3.8" fill="#f57c00" stroke="#fff" stroke-width="1" />
+<circle cx="589.5" cy="284.7" r="3.8" fill="#f57c00" stroke="#fff" stroke-width="1" />
+<circle cx="616.5" cy="266.3" r="3.8" fill="#f57c00" stroke="#fff" stroke-width="1" />
+<text x="130.5" y="57.8" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >He</text>
+<text x="346.5" y="89.3" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Ne</text>
+<text x="562.5" y="149.7" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Ar</text>
+<text x="157.5" y="291.8" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Li</text>
+<text x="373.5" y="294.4" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Na</text>
+<text x="589.5" y="302.7" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >K</text>
+<text x="360.0" y="372" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >原子番号</text>
+<circle cx="92" cy="32" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="92" y="33" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text><text x="114" y="32" font-size="14" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >[kJ/mol]</text>
+</svg>

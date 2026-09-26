@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 724 300" width="724" height="300" font-family="sans-serif">
+<rect width="724" height="300" fill="#fff"/>
+<rect x="24" y="128" width="36" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<text x="42.0" y="151" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Li</text>
+<rect x="64" y="128" width="36" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<text x="82.0" y="151" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >K</text>
+<rect x="104" y="128" width="36" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<text x="122.0" y="151" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Ca</text>
+<rect x="144" y="128" width="36" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<text x="162.0" y="151" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Na</text>
+<rect x="184" y="128" width="36" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<text x="202.0" y="151" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Mg</text>
+<rect x="224" y="128" width="36" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<text x="242.0" y="151" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Al</text>
+<rect x="264" y="128" width="36" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<text x="282.0" y="151" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Zn</text>
+<rect x="304" y="128" width="36" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<text x="322.0" y="151" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Fe</text>
+<rect x="344" y="128" width="36" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<text x="362.0" y="151" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Ni</text>
+<rect x="384" y="128" width="36" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<text x="402.0" y="151" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Sn</text>
+<rect x="424" y="128" width="36" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<text x="442.0" y="151" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Pb</text>
+<rect x="464" y="128" width="36" height="44" rx="6" fill="#fff" stroke="#607d8b" stroke-width="1.8" />
+<text x="482.0" y="151" font-size="13" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >(H<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>)</text>
+<rect x="504" y="128" width="36" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<text x="522.0" y="151" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Cu</text>
+<rect x="544" y="128" width="36" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<text x="562.0" y="151" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Hg</text>
+<rect x="584" y="128" width="36" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<text x="602.0" y="151" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Ag</text>
+<rect x="624" y="128" width="36" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<text x="642.0" y="151" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Pt</text>
+<rect x="664" y="128" width="36" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="1.8" />
+<text x="682.0" y="151" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >Au</text>
+<line x1="22" y1="210" x2="689.0" y2="210.0" stroke="#607d8b" stroke-width="3"/><polygon points="702,210 689.0,203.5 689.0,216.5" fill="#607d8b"/>
+<text x="22" y="236" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >陽イオンになりやすい</text>
+<text x="702" y="236" font-size="15" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >なりにくい</text>
+<text x="142" y="270" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >反応しやすい</text>
+<text x="582" y="270" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >反応しにくい</text>
+<path d="M24,116 L24,104 L700,104 L700,116" fill="none" stroke="#f57c00" stroke-width="2.4" />
+<circle cx="362.0" cy="80" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="362.0" y="81" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

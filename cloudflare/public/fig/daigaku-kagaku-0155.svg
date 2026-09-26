@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="640" height="380" font-family="sans-serif">
+<rect width="640" height="380" fill="#fff"/>
+<line x1="40" y1="330" x2="590.0" y2="330.0" stroke="#222" stroke-width="2"/><polygon points="600,330 590.0,325.0 590.0,335.0" fill="#222"/>
+<line x1="400.0" y1="330" x2="400.0" y2="50.0" stroke="#222" stroke-width="2"/><polygon points="400.0,40 395.0,50.0 405.0,50.0" fill="#222"/>
+<text x="600" y="354" font-size="16" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >温度 t [℃]</text>
+<text x="410.0" y="42" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >体積 V</text>
+<line x1="99.69999999999999" y1="330" x2="268.0" y2="245.93406593406593" stroke="#f57c00" stroke-width="3" stroke-dasharray="7 6"/>
+<line x1="268.0" y1="245.93406593406593" x2="576.0" y2="92.08791208791206" stroke="#f57c00" stroke-width="3.5" />
+<circle cx="99.69999999999999" cy="330" r="5" fill="#f57c00" stroke="none" stroke-width="0" />
+<text x="99.69999999999999" y="352" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >−273</text>
+<text x="392.0" y="352" font-size="16" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0</text>
+<line x1="99.69999999999999" y1="324" x2="99.69999999999999" y2="336" stroke="#222" stroke-width="2" />
+<text x="150" y="90" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >圧力一定</text>
+<text x="150" y="120" font-size="18" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >V = kT</text>
+<text x="150" y="146" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（T：絶対温度）</text>
+<line x1="540" y1="110" x2="532.0" y2="114.06593406593407" stroke="#f57c00" stroke-width="2.4"/><circle cx="532.0" cy="114.06593406593407" r="3.5" fill="#f57c00"/><circle cx="540" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="540" y="111" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

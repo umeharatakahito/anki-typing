@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 390" width="640" height="390" font-family="sans-serif">
+<rect width="640" height="390" fill="#fff"/>
+<line x1="90" y1="340" x2="600.0" y2="340.0" stroke="#222" stroke-width="2"/><polygon points="610,340 600.0,335.0 600.0,345.0" fill="#222"/>
+<line x1="90" y1="340" x2="90.0" y2="40.0" stroke="#222" stroke-width="2"/><polygon points="90,30 85.0,40.0 95.0,40.0" fill="#222"/>
+<text x="610" y="366" font-size="15" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >時間(ミリ秒)</text>
+<text x="82" y="28" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >膜電位(mV)</text>
+<line x1="84" y1="70" x2="90" y2="70" stroke="#222" stroke-width="2" />
+<text x="78" y="70" font-size="15" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >+40</text>
+<line x1="84" y1="150" x2="90" y2="150" stroke="#222" stroke-width="2" />
+<text x="78" y="150" font-size="15" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0</text>
+<line x1="84" y1="270" x2="90" y2="270" stroke="#222" stroke-width="2" />
+<text x="78" y="270" font-size="15" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >-60</text>
+<line x1="90" y1="150" x2="600" y2="150" stroke="#9e9e9e" stroke-width="1.2" stroke-dasharray="5 4"/>
+<path d="M90,270 L240,270" fill="none" stroke="#f57c00" stroke-width="4" />
+<path d="M450,270 L595,270" fill="none" stroke="#f57c00" stroke-width="4" />
+<path d="M240,270 C262,270 272,70 290,70 C308,70 320,300 360,300 C390,300 410,270 450,270" fill="none" stroke="#37474f" stroke-width="2.5" />
+<line x1="240" y1="370" x2="240.0" y2="354.0" stroke="#555" stroke-width="2.5"/><polygon points="240,345 235.5,354.0 244.5,354.0" fill="#555"/>
+<text x="270" y="372" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >刺激</text>
+<line x1="160" y1="200" x2="160.0" y2="161.0" stroke="#f57c00" stroke-width="2.5"/><polygon points="160,152 155.5,161.0 164.5,161.0" fill="#f57c00"/><line x1="160" y1="200" x2="160.0" y2="259.0" stroke="#f57c00" stroke-width="2.5"/><polygon points="160,268 164.5,259.0 155.5,259.0" fill="#f57c00"/>
+<circle cx="190" cy="210" r="16" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="190" y="211" font-size="21" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

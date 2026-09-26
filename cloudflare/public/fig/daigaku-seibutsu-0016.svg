@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" width="680" height="280" font-family="sans-serif">
+<rect width="680" height="280" fill="#fff"/>
+<rect x="120" y="60" width="332" height="12" rx="6" fill="#90a4ae" stroke="#546e7a" stroke-width="1.5" />
+<rect x="120" y="198" width="332" height="12" rx="6" fill="#90a4ae" stroke="#546e7a" stroke-width="1.5" />
+<rect x="140" y="72" width="44" height="55.0" rx="5" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.8" />
+<text x="162" y="100.5" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<line x1="154" y1="127.0" x2="154" y2="139.0" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<line x1="170" y1="127.0" x2="170" y2="139.0" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<rect x="140" y="139.0" width="44" height="55.0" rx="5" fill="#fff59d" stroke="#607d8b" stroke-width="1.8" />
+<text x="162" y="167.5" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text>
+<rect x="202" y="72" width="44" height="55.0" rx="5" fill="#fff59d" stroke="#607d8b" stroke-width="1.8" />
+<text x="224" y="100.5" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text>
+<line x1="216" y1="127.0" x2="216" y2="139.0" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<line x1="232" y1="127.0" x2="232" y2="139.0" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<rect x="202" y="139.0" width="44" height="55.0" rx="5" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.8" />
+<text x="224" y="167.5" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<rect x="264" y="72" width="44" height="55.0" rx="5" fill="#a5d6a7" stroke="#607d8b" stroke-width="1.8" />
+<text x="286" y="100.5" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >G</text>
+<line x1="278" y1="127.0" x2="278" y2="139.0" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<line x1="294" y1="127.0" x2="294" y2="139.0" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<rect x="264" y="139.0" width="44" height="55.0" rx="5" fill="#ffcc80" stroke="#f57c00" stroke-width="2.6" />
+<circle cx="286" cy="166.5" r="14" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="286" y="167.5" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="326" y="72" width="44" height="55.0" rx="5" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.8" />
+<text x="348" y="100.5" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<line x1="340" y1="127.0" x2="340" y2="139.0" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<line x1="356" y1="127.0" x2="356" y2="139.0" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<rect x="326" y="139.0" width="44" height="55.0" rx="5" fill="#fff59d" stroke="#607d8b" stroke-width="1.8" />
+<text x="348" y="167.5" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text>
+<rect x="388" y="72" width="44" height="55.0" rx="5" fill="#fff59d" stroke="#607d8b" stroke-width="1.8" />
+<text x="410" y="100.5" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text>
+<line x1="402" y1="127.0" x2="402" y2="139.0" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<line x1="418" y1="127.0" x2="418" y2="139.0" stroke="#555" stroke-width="1.5" stroke-dasharray="2 3"/>
+<rect x="388" y="139.0" width="44" height="55.0" rx="5" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.8" />
+<text x="410" y="167.5" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<text x="340" y="245" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >A：アデニン　 T：チミン　 G：グアニン</text>
+<text x="340" y="30" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >DNAの塩基対</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" font-family="sans-serif">
+<rect width="720" height="400" fill="#fff"/>
+<rect x="0" y="150" width="720" height="250" rx="0" fill="#efebe9" stroke="none" stroke-width="0" />
+<line x1="0" y1="150" x2="720" y2="150" stroke="#795548" stroke-width="2" />
+<line x1="300" y1="150" x2="300" y2="40" stroke="#558b2f" stroke-width="6" />
+<g transform="translate(300 70) rotate(-25)"><path d="M0,0 Q35,-16 70,0 Q35,16 0,0 Z" fill="#aed581" stroke="#558b2f" stroke-width="2" /></g>
+<g transform="translate(300 105) rotate(205)"><path d="M0,0 Q35,-16 70,0 Q35,16 0,0 Z" fill="#aed581" stroke="#558b2f" stroke-width="2" /></g>
+<text x="380" y="40" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >マメ科植物</text>
+<path d="M300,150 Q295,240 300,370" fill="none" stroke="#a1887f" stroke-width="4" />
+<path d="M300,200 Q250,230 200,300" fill="none" stroke="#a1887f" stroke-width="4" />
+<path d="M300,230 Q360,260 410,330" fill="none" stroke="#a1887f" stroke-width="4" />
+<path d="M298,290 Q250,320 230,370" fill="none" stroke="#a1887f" stroke-width="4" />
+<path d="M300,300 Q340,330 360,380" fill="none" stroke="#a1887f" stroke-width="4" />
+<circle cx="245" cy="262" r="10" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="215" cy="290" r="10" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="355" cy="262" r="10" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="395" cy="315" r="10" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="265" cy="322" r="10" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="340" cy="335" r="10" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="302" cy="250" r="10" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="560" cy="270" r="80" fill="#fff3e0" stroke="#f57c00" stroke-width="2.5" />
+<line x1="405" y1="318" x2="486" y2="300" stroke="#555" stroke-width="1.2" stroke-dasharray="4 3"/>
+<ellipse cx="616.5" cy="253.8" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(14 616.5 253.8)"/>
+<ellipse cx="578.8" cy="282.2" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(43 578.8 282.2)"/>
+<ellipse cx="556.2" cy="228.6" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(78 556.2 228.6)"/>
+<ellipse cx="559.9" cy="283.2" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(9 559.9 283.2)"/>
+<ellipse cx="551.4" cy="265.2" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(110 551.4 265.2)"/>
+<ellipse cx="527.8" cy="232.0" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(130 527.8 232.0)"/>
+<ellipse cx="592.0" cy="259.4" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(113 592.0 259.4)"/>
+<ellipse cx="504.1" cy="269.4" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(7 504.1 269.4)"/>
+<ellipse cx="522.1" cy="313.6" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(97 522.1 313.6)"/>
+<ellipse cx="511.4" cy="295.4" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(42 511.4 295.4)"/>
+<ellipse cx="546.4" cy="264.6" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(6 546.4 264.6)"/>
+<ellipse cx="564.8" cy="279.6" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(130 564.8 279.6)"/>
+<ellipse cx="498.2" cy="266.1" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(172 498.2 266.1)"/>
+<ellipse cx="502.6" cy="247.4" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(114 502.6 247.4)"/>
+<ellipse cx="573.1" cy="226.4" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(93 573.1 226.4)"/>
+<ellipse cx="565.4" cy="248.7" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(114 565.4 248.7)"/>
+<ellipse cx="584.8" cy="309.6" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(118 584.8 309.6)"/>
+<ellipse cx="551.3" cy="257.2" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(71 551.3 257.2)"/>
+<ellipse cx="587.6" cy="255.8" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(90 587.6 255.8)"/>
+<ellipse cx="545.1" cy="246.1" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(118 545.1 246.1)"/>
+<ellipse cx="533.4" cy="306.3" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(142 533.4 306.3)"/>
+<ellipse cx="555.0" cy="240.3" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(56 555.0 240.3)"/>
+<ellipse cx="607.0" cy="251.4" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(42 607.0 251.4)"/>
+<ellipse cx="587.2" cy="243.2" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(122 587.2 243.2)"/>
+<ellipse cx="538.4" cy="325.3" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(180 538.4 325.3)"/>
+<ellipse cx="576.9" cy="239.5" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(129 576.9 239.5)"/>
+<ellipse cx="538.8" cy="240.4" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(79 538.8 240.4)"/>
+<ellipse cx="556.3" cy="239.9" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(93 556.3 239.9)"/>
+<ellipse cx="595.3" cy="254.4" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(19 595.3 254.4)"/>
+<ellipse cx="564.5" cy="249.3" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(2 564.5 249.3)"/>
+<ellipse cx="569.9" cy="263.5" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(27 569.9 263.5)"/>
+<ellipse cx="597.8" cy="284.6" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(69 597.8 284.6)"/>
+<ellipse cx="524.5" cy="247.0" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(27 524.5 247.0)"/>
+<ellipse cx="560.2" cy="261.5" rx="6" ry="3" fill="#ffb74d" stroke="#e65100" stroke-width="1" transform="rotate(68 560.2 261.5)"/>
+<line x1="560" y1="170" x2="560" y2="200" stroke="#f57c00" stroke-width="2.4"/><circle cx="560" cy="200" r="3.5" fill="#f57c00"/><circle cx="560" cy="170" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="560" y="171" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="560" y="380" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >根の細胞内の細菌</text>
+<text x="90" y="210" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >N<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan> → NH<tspan dy="5" font-size="72%">4</tspan><tspan dy="-5">​</tspan><tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan></text>
+<text x="90" y="240" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（窒素固定）</text>
+<text x="90" y="300" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >植物からは</text>
+<text x="90" y="320" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >有機物を受け取る</text>
+</svg>

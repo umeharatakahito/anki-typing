@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 350" width="640" height="350" font-family="sans-serif">
+<rect width="640" height="350" fill="#fff"/>
+<text x="170" y="170" font-size="26" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >N</text>
+<text x="120" y="170" font-size="26" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H</text>
+<circle cx="145" cy="164" r="3.6" fill="#222" stroke="none" stroke-width="0" /><circle cx="145" cy="176" r="3.6" fill="#222" stroke="none" stroke-width="0" />
+<text x="220" y="170" font-size="26" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H</text>
+<circle cx="195" cy="176" r="3.6" fill="#222" stroke="none" stroke-width="0" /><circle cx="195" cy="164" r="3.6" fill="#222" stroke="none" stroke-width="0" />
+<text x="170" y="220" font-size="26" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H</text>
+<circle cx="176" cy="195" r="3.6" fill="#222" stroke="none" stroke-width="0" /><circle cx="164" cy="195" r="3.6" fill="#222" stroke="none" stroke-width="0" />
+<circle cx="164" cy="149" r="3.6" fill="#f57c00" stroke="none" stroke-width="0" /><circle cx="176" cy="149" r="3.6" fill="#f57c00" stroke="none" stroke-width="0" />
+<text x="470" y="170" font-size="26" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >O</text>
+<text x="420" y="170" font-size="26" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H</text>
+<circle cx="445" cy="164" r="3.6" fill="#222" stroke="none" stroke-width="0" /><circle cx="445" cy="176" r="3.6" fill="#222" stroke="none" stroke-width="0" />
+<text x="470" y="220" font-size="26" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H</text>
+<circle cx="476" cy="195" r="3.6" fill="#222" stroke="none" stroke-width="0" /><circle cx="464" cy="195" r="3.6" fill="#222" stroke="none" stroke-width="0" />
+<circle cx="464" cy="149" r="3.6" fill="#f57c00" stroke="none" stroke-width="0" /><circle cx="476" cy="149" r="3.6" fill="#f57c00" stroke="none" stroke-width="0" />
+<circle cx="491" cy="176" r="3.6" fill="#f57c00" stroke="none" stroke-width="0" /><circle cx="491" cy="164" r="3.6" fill="#f57c00" stroke="none" stroke-width="0" />
+<text x="170" y="290" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >NH<tspan dy="5" font-size="72%">3</tspan><tspan dy="-5">​</tspan></text>
+<text x="470" y="290" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>O</text>
+<line x1="330" y1="60" x2="175" y2="146" stroke="#f57c00" stroke-width="2.2" /><line x1="330" y1="60" x2="466" y2="146" stroke="#f57c00" stroke-width="2.2" /><line x1="330" y1="60" x2="491" y2="168" stroke="#f57c00" stroke-width="2.2" />
+<circle cx="330" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="330" y="61" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="330" y="330" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >「:」は電子対を表す</text>
+</svg>

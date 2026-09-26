@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 350" width="660" height="350" font-family="sans-serif">
+<rect width="660" height="350" fill="#fff"/>
+<text x="330.0" y="110" font-size="22" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >CH<tspan dy="5" font-size="72%">3</tspan><tspan dy="-5">​</tspan>COOC<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>H<tspan dy="5" font-size="72%">5</tspan><tspan dy="-5">​</tspan> + NaOH</text>
+<line x1="330" y1="135" x2="330.0" y2="193.0" stroke="#222" stroke-width="2.6"/><polygon points="330,205 336.0,193.0 324.0,193.0" fill="#222"/>
+<text x="350" y="170" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >加熱</text>
+<line x1="280" y1="170" x2="326" y2="170" stroke="#f57c00" stroke-width="2.4"/><circle cx="326" cy="170" r="3.5" fill="#f57c00"/><circle cx="280" cy="170" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="280" y="171" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="330.0" y="235" font-size="22" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >CH<tspan dy="5" font-size="72%">3</tspan><tspan dy="-5">​</tspan>COONa + C<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>H<tspan dy="5" font-size="72%">5</tspan><tspan dy="-5">​</tspan>OH</text>
+<text x="230" y="272" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >塩</text>
+<text x="410" y="272" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >アルコール</text>
+<text x="330" y="60" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >エステル ＋ 塩基</text>
+<text x="330" y="320" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >一般に RCOOR&#x27; + NaOH → RCOONa + R&#x27;OH</text>
+</svg>

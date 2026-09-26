@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" font-family="sans-serif">
+<rect width="720" height="400" fill="#fff"/>
+<path d="M30,210 Q30,195 45,195 L94,195 L120,229 L146,195 L195,195 Q210,195 210,210 L210,290 Q210,305 195,305 L45,305 Q30,305 30,290 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<path d="M94,106 L120,140 L146,106 L146,82 L94,82 Z" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.2" /><line x1="120" y1="82" x2="120" y2="140" stroke="#2e7d32" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="120" y1="145" x2="120.0" y2="179.0" stroke="#555" stroke-width="1.6" stroke-dasharray="4 3"/><polygon points="120,187 124.0,179.0 116.0,179.0" fill="#555"/>
+<line x1="225" y1="250" x2="253.0" y2="250.0" stroke="#555" stroke-width="3"/><polygon points="265,250 253.0,244.0 253.0,256.0" fill="#555"/>
+<path d="M275,210 Q275,195 290,195 L339,195 L365,229 L391,195 L440,195 Q455,195 455,210 L455,290 Q455,305 440,305 L290,305 Q275,305 275,290 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<path d="M339,195 L365,229 L391,195 L391,171 L339,171 Z" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.2" /><line x1="365" y1="171" x2="365" y2="229" stroke="#2e7d32" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="470" y1="250" x2="498.0" y2="250.0" stroke="#555" stroke-width="3"/><polygon points="510,250 498.0,244.0 498.0,256.0" fill="#555"/>
+<path d="M520,210 Q520,195 535,195 L584,195 L610,229 L636,195 L685,195 Q700,195 700,210 L700,290 Q700,305 685,305 L535,305 Q520,305 520,290 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<path d="M570,136 L596,170 L596,112 L570,112 Z" fill="#fff9c4" stroke="#9e9d24" stroke-width="2.2" /><path d="M650,136 L624,170 L624,112 L650,112 Z" fill="#fff9c4" stroke="#9e9d24" stroke-width="2.2" />
+<text x="365" y="335" font-size="15" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >複合体を形成</text>
+
+<line x1="120" y1="365" x2="120" y2="295" stroke="#f57c00" stroke-width="2.4"/><circle cx="120" cy="295" r="3.5" fill="#f57c00"/><circle cx="120" cy="365" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="120" y="366" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="225" y1="60" x2="142" y2="118" stroke="#555" stroke-width="1.2"/><circle cx="142" cy="118" r="2.2" fill="#555"/><text x="225" y="60" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >基質</text>
+<line x1="225" y1="150" x2="130" y2="207" stroke="#555" stroke-width="1.2"/><circle cx="130" cy="207" r="2.2" fill="#555"/><text x="225" y="150" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >活性部位</text>
+<line x1="610" y1="60" x2="610" y2="115" stroke="#555" stroke-width="1.2"/><circle cx="610" cy="115" r="2.2" fill="#555"/><text x="610" y="60" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >生成物</text>
+</svg>

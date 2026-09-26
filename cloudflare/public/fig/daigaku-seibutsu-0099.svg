@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" font-family="sans-serif">
+<rect width="640" height="420" fill="#fff"/>
+<path d="M110,250 Q60,150 150,80 Q260,10 400,40 Q540,80 560,200 Q565,255 515,265 Q470,245 405,250 L335,232 Q260,262 200,265 Q140,275 110,250 Z" fill="#fce4ec" stroke="#ad1457" stroke-width="3" />
+<path d="M150,120 Q200,100 230,130" fill="none" stroke="#e91e63" stroke-width="1.5" opacity="0.5"/>
+<path d="M250,70 Q280,100 320,80" fill="none" stroke="#e91e63" stroke-width="1.5" opacity="0.5"/>
+<path d="M420,80 Q430,120 480,120" fill="none" stroke="#e91e63" stroke-width="1.5" opacity="0.5"/>
+<path d="M500,170 Q470,190 520,215" fill="none" stroke="#e91e63" stroke-width="1.5" opacity="0.5"/>
+<path d="M140,200 Q170,170 190,200" fill="none" stroke="#e91e63" stroke-width="1.5" opacity="0.5"/>
+<path d="M200,178 Q300,105 425,170 Q432,186 416,190 Q300,132 214,194 Z" fill="#fff" stroke="#9e9e9e" stroke-width="1.8" />
+<path d="M335,226 L388,232 Q408,280 398,330 L392,410 L360,410 L352,330 Q330,290 335,226 Z" fill="#dcedc8" stroke="#2e7d32" stroke-width="2" />
+<line x1="338" y1="262" x2="392" y2="265" stroke="#2e7d32" stroke-width="1.2" stroke-dasharray="3 3"/>
+<line x1="352" y1="330" x2="398" y2="330" stroke="#2e7d32" stroke-width="1.2" stroke-dasharray="3 3"/>
+<ellipse cx="335" cy="205" rx="42" ry="22" fill="#d1c4e9" stroke="#5e35b1" stroke-width="2" />
+<ellipse cx="283" cy="238" rx="30" ry="14" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<line x1="275" y1="250" x2="266" y2="280" stroke="#f9a825" stroke-width="4" />
+<ellipse cx="263" cy="292" rx="20" ry="13" fill="#fff59d" stroke="#f9a825" stroke-width="2" />
+<ellipse cx="480" cy="318" rx="72" ry="50" fill="#d7ccc8" stroke="#795548" stroke-width="2.5" />
+<path d="M430,285 Q490,275 545,300" fill="none" stroke="#795548" stroke-width="1.2" />
+<path d="M438,297 Q490,287 540,310" fill="none" stroke="#795548" stroke-width="1.2" />
+<path d="M446,309 Q490,299 535,320" fill="none" stroke="#795548" stroke-width="1.2" />
+<path d="M454,321 Q490,311 530,330" fill="none" stroke="#795548" stroke-width="1.2" />
+<line x1="60" y1="40" x2="170" y2="110" stroke="#555" stroke-width="1.2"/><circle cx="170" cy="110" r="2.2" fill="#555"/><text x="60" y="40" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >大脳</text>
+<line x1="610" y1="30" x2="380" y2="145" stroke="#555" stroke-width="1.2"/><circle cx="380" cy="145" r="2.2" fill="#555"/><text x="610" y="30" font-size="17" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >脳梁</text>
+<line x1="610" y1="225" x2="380" y2="248" stroke="#555" stroke-width="1.2"/><circle cx="380" cy="248" r="2.2" fill="#555"/><text x="610" y="225" font-size="17" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >中脳</text>
+<line x1="610" y1="320" x2="548" y2="318" stroke="#555" stroke-width="1.2"/><circle cx="548" cy="318" r="2.2" fill="#555"/><text x="610" y="320" font-size="17" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >小脳</text>
+<line x1="470" y1="400" x2="392" y2="380" stroke="#555" stroke-width="1.2"/><circle cx="392" cy="380" r="2.2" fill="#555"/><text x="470" y="400" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >延髄</text>
+<line x1="150" y1="385" x2="255" y2="300" stroke="#555" stroke-width="1.2"/><circle cx="255" cy="300" r="2.2" fill="#555"/><text x="150" y="385" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >脳下垂体</text>
+<line x1="110" y1="310" x2="262" y2="240" stroke="#f57c00" stroke-width="2.4"/><circle cx="262" cy="240" r="3.5" fill="#f57c00"/><circle cx="110" cy="310" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="110" y="311" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

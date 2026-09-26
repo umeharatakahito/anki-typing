@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 350" width="640" height="350" font-family="sans-serif">
+<rect width="640" height="350" fill="#fff"/>
+<path d="M240,180 L215,160 L165,160 L140,180 L165,200 L215,200 Z" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2.2" /><path d="M140,180 L165,200 L215,200 L240,180" fill="none" stroke="#2e7d32" stroke-width="5" /><circle cx="215" cy="160" r="10" fill="#fff" stroke="none" stroke-width="0" /><text x="215" y="160" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >O</text>
+<line x1="165" y1="152" x2="165" y2="122" stroke="#2e7d32" stroke-width="2" />
+<text x="165" y="110" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >CH<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>OH</text>
+<path d="M430,168 L392,192 L406,228 L454,228 L468,192 Z" fill="#fff3e0" stroke="#ef6c00" stroke-width="2.2" />
+<path d="M392,192 L406,228 L454,228 L468,192" fill="none" stroke="#ef6c00" stroke-width="5" />
+<circle cx="430" cy="168" r="10" fill="#fff" stroke="none" stroke-width="0" />
+<text x="430" y="168" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >O</text>
+<line x1="392" y1="192" x2="382" y2="152" stroke="#ef6c00" stroke-width="2" />
+<text x="378" y="140" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >CH<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>OH</text>
+<line x1="468" y1="192" x2="478" y2="152" stroke="#ef6c00" stroke-width="2" />
+<text x="486" y="140" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >CH<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>OH</text>
+<path d="M240,180 L240,220 L290,245" fill="none" stroke="#222" stroke-width="2" />
+<text x="300" y="245" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >O</text>
+<path d="M310,245 L392,245 L392,192" fill="none" stroke="#222" stroke-width="2" />
+<text x="190" y="285" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >グルコース</text>
+<text x="430" y="285" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >フルクトース</text>
+<rect x="100" y="84" width="430" height="186" rx="14" fill="none" stroke="#f57c00" stroke-width="2.4" />
+<line x1="580" y1="70" x2="530" y2="100" stroke="#f57c00" stroke-width="2.4"/><circle cx="530" cy="100" r="3.5" fill="#f57c00"/><circle cx="580" cy="70" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="580" y="71" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="310" y="330" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（OH 基は省略）</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" width="680" height="420" font-family="sans-serif">
+<rect width="680" height="420" fill="#fff"/>
+<rect x="320" y="16" width="100" height="38" rx="8" fill="#fff" stroke="#607d8b" stroke-width="2" /><text x="370.0" y="36.0" font-size="18" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >物質</text>
+<line x1="370" y1="54" x2="370" y2="74" stroke="#607d8b" stroke-width="2" />
+<line x1="210" y1="74" x2="540" y2="74" stroke="#607d8b" stroke-width="2" />
+<line x1="210" y1="74" x2="210" y2="100" stroke="#607d8b" stroke-width="2" />
+<line x1="540" y1="74" x2="540" y2="100" stroke="#607d8b" stroke-width="2" />
+<line x1="210" y1="228" x2="210" y2="252" stroke="#607d8b" stroke-width="2" />
+<line x1="110" y1="252" x2="310" y2="252" stroke="#607d8b" stroke-width="2" />
+<line x1="110" y1="252" x2="110" y2="280" stroke="#607d8b" stroke-width="2" />
+<line x1="310" y1="252" x2="310" y2="280" stroke="#607d8b" stroke-width="2" />
+<rect x="135.0" y="100" width="150" height="128" rx="8" fill="#f5f7f8" stroke="#607d8b" stroke-width="2" />
+<text x="210" y="118" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >純物質</text>
+<rect x="144" y="134" width="132" height="70" rx="4" fill="#fff" stroke="#90a4ae" stroke-width="1.5" />
+<g transform="rotate(20 168 154)"><circle cx="176.7" cy="160.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="159.3" cy="160.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="168" cy="154" r="8.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /></g>
+<g transform="rotate(-30 208 178)"><circle cx="216.7" cy="184.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="199.3" cy="184.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="208" cy="178" r="8.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /></g>
+<g transform="rotate(60 250 156)"><circle cx="258.7" cy="162.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="241.3" cy="162.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="250" cy="156" r="8.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /></g>
+<g transform="rotate(110 174 186)"><circle cx="182.7" cy="192.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="165.3" cy="192.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="174" cy="186" r="8.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /></g>
+<g transform="rotate(-10 248 188)"><circle cx="256.7" cy="194.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="239.3" cy="194.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="248" cy="188" r="8.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /></g>
+<g transform="rotate(150 210 150)"><circle cx="218.7" cy="156.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="201.3" cy="156.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="210" cy="150" r="8.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /></g>
+<text x="210" y="216" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >例：水</text>
+<rect x="465.0" y="100" width="150" height="128" rx="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2.6" />
+<circle cx="540" cy="117" r="14" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="540" y="118" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="474" y="134" width="132" height="70" rx="4" fill="#fff" stroke="#90a4ae" stroke-width="1.5" />
+<g transform="rotate(20 498 154)"><circle cx="492" cy="154" r="7.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /><circle cx="504" cy="154" r="7.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /></g>
+<g transform="rotate(-30 538 178)"><circle cx="532" cy="178" r="7.5" fill="#64b5f6" stroke="#455a64" stroke-width="1.2" /><circle cx="544" cy="178" r="7.5" fill="#64b5f6" stroke="#455a64" stroke-width="1.2" /></g>
+<g transform="rotate(60 580 156)"><circle cx="574" cy="156" r="7.5" fill="#64b5f6" stroke="#455a64" stroke-width="1.2" /><circle cx="586" cy="156" r="7.5" fill="#64b5f6" stroke="#455a64" stroke-width="1.2" /></g>
+<g transform="rotate(110 504 186)"><circle cx="498" cy="186" r="7.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /><circle cx="510" cy="186" r="7.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /></g>
+<g transform="rotate(-10 578 188)"><circle cx="572" cy="188" r="7.5" fill="#64b5f6" stroke="#455a64" stroke-width="1.2" /><circle cx="584" cy="188" r="7.5" fill="#64b5f6" stroke="#455a64" stroke-width="1.2" /></g>
+<g transform="rotate(150 540 150)"><circle cx="534" cy="150" r="7.5" fill="#64b5f6" stroke="#455a64" stroke-width="1.2" /><circle cx="546" cy="150" r="7.5" fill="#64b5f6" stroke="#455a64" stroke-width="1.2" /></g>
+<text x="540" y="216" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >例：空気（N<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>＋O<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>）</text>
+<rect x="35.0" y="280" width="150" height="128" rx="8" fill="#f5f7f8" stroke="#607d8b" stroke-width="2" />
+<text x="110" y="298" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >単体</text>
+<rect x="44" y="314" width="132" height="70" rx="4" fill="#fff" stroke="#90a4ae" stroke-width="1.5" />
+<g transform="rotate(20 68 334)"><circle cx="62" cy="334" r="7.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /><circle cx="74" cy="334" r="7.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /></g>
+<g transform="rotate(-30 108 358)"><circle cx="102" cy="358" r="7.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /><circle cx="114" cy="358" r="7.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /></g>
+<g transform="rotate(60 150 336)"><circle cx="144" cy="336" r="7.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /><circle cx="156" cy="336" r="7.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /></g>
+<g transform="rotate(110 74 366)"><circle cx="68" cy="366" r="7.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /><circle cx="80" cy="366" r="7.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /></g>
+<g transform="rotate(-10 148 368)"><circle cx="142" cy="368" r="7.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /><circle cx="154" cy="368" r="7.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /></g>
+<g transform="rotate(150 110 330)"><circle cx="104" cy="330" r="7.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /><circle cx="116" cy="330" r="7.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /></g>
+<text x="110" y="396" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >例：酸素 O<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan></text>
+<rect x="235.0" y="280" width="150" height="128" rx="8" fill="#f5f7f8" stroke="#607d8b" stroke-width="2" />
+<text x="310" y="298" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >化合物</text>
+<rect x="244" y="314" width="132" height="70" rx="4" fill="#fff" stroke="#90a4ae" stroke-width="1.5" />
+<g transform="rotate(20 268 334)"><circle cx="276.7" cy="340.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="259.3" cy="340.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="268" cy="334" r="8.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /></g>
+<g transform="rotate(-30 308 358)"><circle cx="316.7" cy="364.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="299.3" cy="364.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="308" cy="358" r="8.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /></g>
+<g transform="rotate(60 350 336)"><circle cx="358.7" cy="342.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="341.3" cy="342.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="350" cy="336" r="8.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /></g>
+<g transform="rotate(110 274 366)"><circle cx="282.7" cy="372.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="265.3" cy="372.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="274" cy="366" r="8.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /></g>
+<g transform="rotate(-10 348 368)"><circle cx="356.7" cy="374.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="339.3" cy="374.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="348" cy="368" r="8.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /></g>
+<g transform="rotate(150 310 330)"><circle cx="318.7" cy="336.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="301.3" cy="336.8" r="5.5" fill="#fff" stroke="#455a64" stroke-width="1.2" /><circle cx="310" cy="330" r="8.5" fill="#ef5350" stroke="#455a64" stroke-width="1.2" /></g>
+<text x="310" y="396" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >例：水 H<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>O</text>
+</svg>

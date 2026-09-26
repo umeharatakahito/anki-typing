@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" width="700" height="400" font-family="sans-serif">
+<rect width="700" height="400" fill="#fff"/>
+<path d="M98,250 L98,290 L60,360 L160,360 L122,290 L122,250" fill="#fff" stroke="#607d8b" stroke-width="2.5" /><path d="M72,338 L148,338 L160,360 L60,360 Z" fill="#e1f5fe" stroke="none" stroke-width="0" /><rect x="95" y="238" width="30" height="16" rx="3" fill="#795548" stroke="none" stroke-width="0" />
+<rect x="355.0" y="70" width="90" height="210" rx="0" fill="#fff9c4" stroke="none" stroke-width="0" />
+<path d="M355.0,280 L355.0,82 Q355.0,70 367.0,70 L433.0,70 Q445.0,70 445.0,82 L445.0,280" fill="none" stroke="#607d8b" stroke-width="2.5" />
+<path d="M110,238 L110,200 L260,200 L260,330 L400,330 L400,90" fill="none" stroke="#90a4ae" stroke-width="5" stroke-linejoin="round"/>
+<line x1="422" y1="140" x2="422.0" y2="118.0" stroke="#f57c00" stroke-width="2"/><polygon points="422,110 418.0,118.0 426.0,118.0" fill="#f57c00"/>
+<line x1="378" y1="140" x2="378.0" y2="118.0" stroke="#f57c00" stroke-width="2"/><polygon points="378,110 374.0,118.0 382.0,118.0" fill="#f57c00"/>
+<line x1="422" y1="180" x2="422.0" y2="158.0" stroke="#f57c00" stroke-width="2"/><polygon points="422,150 418.0,158.0 426.0,158.0" fill="#f57c00"/>
+<line x1="378" y1="180" x2="378.0" y2="158.0" stroke="#f57c00" stroke-width="2"/><polygon points="378,150 374.0,158.0 382.0,158.0" fill="#f57c00"/>
+<line x1="422" y1="220" x2="422.0" y2="198.0" stroke="#f57c00" stroke-width="2"/><polygon points="422,190 418.0,198.0 426.0,198.0" fill="#f57c00"/>
+<line x1="378" y1="220" x2="378.0" y2="198.0" stroke="#f57c00" stroke-width="2"/><polygon points="378,190 374.0,198.0 382.0,198.0" fill="#f57c00"/>
+<line x1="470" y1="150" x2="430" y2="150" stroke="#555" stroke-width="1.2"/><circle cx="430" cy="150" r="2.2" fill="#555"/><text x="470" y="150" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >空気より軽い気体</text>
+<text x="470" y="172" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（水に溶けやすい）</text>
+<line x1="470" y1="250" x2="445.0" y2="250" stroke="#555" stroke-width="1.2"/><circle cx="445.0" cy="250" r="2.2" fill="#555"/><text x="470" y="250" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >集気びん（口を下に向ける）</text>
+<line x1="60" y1="60" x2="355.0" y2="100" stroke="#f57c00" stroke-width="2.4"/><circle cx="355.0" cy="100" r="3.5" fill="#f57c00"/><circle cx="60" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="60" y="61" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="82" y="60" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >で集める</text>
+<text x="110" y="385" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >気体発生装置</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 360" width="620" height="360" font-family="sans-serif">
+<rect width="620" height="360" fill="#fff"/>
+<text x="300" y="185" font-size="120" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >C</text><text x="252.0" y="145.4" font-size="57" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >12</text><text x="252.0" y="228.2" font-size="57" text-anchor="end" fill="#f57c00" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >6</text>
+<line x1="90" y1="70" x2="176.0" y2="133.4" stroke="#555" stroke-width="1.2"/><circle cx="176.0" cy="133.4" r="2.2" fill="#555"/><text x="90" y="70" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >質量数</text>
+<line x1="90" y1="300" x2="208.0" y2="242.2" stroke="#f57c00" stroke-width="2.4"/><circle cx="208.0" cy="242.2" r="3.5" fill="#f57c00"/><circle cx="90" cy="300" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="90" y="301" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="430" y1="60" x2="322" y2="140" stroke="#555" stroke-width="1.2"/><circle cx="322" cy="140" r="2.2" fill="#555"/><text x="430" y="60" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >元素記号</text>
+<rect x="420" y="150" width="170" height="112" rx="8" fill="#f5f7f8" stroke="#607d8b" stroke-width="1.5" />
+<circle cx="440" cy="174" r="7" fill="#e57373" stroke="#fff" stroke-width="1" />
+<text x="454" y="174" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle"  >陽子</text>
+<text x="570" y="174" font-size="16" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle"  >6 個</text>
+<circle cx="440" cy="206" r="7" fill="#b0bec5" stroke="#fff" stroke-width="1" />
+<text x="454" y="206" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle"  >中性子</text>
+<text x="570" y="206" font-size="16" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle"  >6 個</text>
+<circle cx="440" cy="238" r="7" fill="#1e88e5" stroke="#fff" stroke-width="1" />
+<text x="454" y="238" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle"  >電子</text>
+<text x="570" y="238" font-size="16" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle"  >6 個</text>
+</svg>

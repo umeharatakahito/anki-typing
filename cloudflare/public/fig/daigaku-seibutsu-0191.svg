@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 410" width="720" height="410" font-family="sans-serif">
+<rect width="720" height="410" fill="#fff"/>
+<defs><linearGradient id="bcd" x1="0" x2="1"><stop offset="0" stop-color="#f57c00"/><stop offset="0.45" stop-color="#ffcc80" stop-opacity="0.5"/><stop offset="1" stop-color="#fff8e1" stop-opacity="0"/></linearGradient></defs>
+<ellipse cx="360" cy="120" rx="250" ry="70" fill="#fff8e1" stroke="#8d6e63" stroke-width="3" />
+<ellipse cx="360" cy="120" rx="248" ry="68" fill="url(#bcd)" stroke="none" stroke-width="0" />
+<text x="90" y="215" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >前端（頭部側）</text>
+<text x="630" y="215" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >後端（尾部側）</text>
+<line x1="110" y1="380" x2="620" y2="380" stroke="#555" stroke-width="2" /><line x1="110" y1="380" x2="110" y2="240" stroke="#555" stroke-width="2" />
+<polyline points="110,260.0 130,279.9 150,296.6 170,310.5 190,322.0 210,331.7 230,339.7 250,346.4 270,352.0 290,356.6 310,360.5 330,363.8 350,366.5 370,368.7 390,370.6 410,372.2 430,373.5 450,374.5 470,375.5 490,376.2 510,376.8 530,377.4 550,377.8 570,378.2 590,378.5 610,378.7" fill="none" stroke="#f57c00" stroke-width="3"/>
+<text x="100" y="255" font-size="15" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >濃度</text>
+<text x="360" y="402" font-size="15" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >卵の前後軸上の位置</text>
+<line x1="40" y1="60" x2="150" y2="110" stroke="#f57c00" stroke-width="2.4"/><circle cx="150" cy="110" r="3.5" fill="#f57c00"/><circle cx="40" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="40" y="61" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="40" y="95" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >mRNA</text>
+</svg>

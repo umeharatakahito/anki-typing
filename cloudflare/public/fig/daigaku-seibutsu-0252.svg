@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" width="680" height="380" font-family="sans-serif">
+<rect width="680" height="380" fill="#fff"/>
+<rect x="90" y="60" width="500" height="250" rx="125" fill="#e0f2f1" stroke="#00796b" stroke-width="3" />
+<rect x="102" y="72" width="476" height="226" rx="113" fill="#fffde7" stroke="#8d6e63" stroke-width="2" />
+<path d="M220,190 C200,120 300,110 330,150 C360,190 400,110 440,140 C490,175 420,240 370,220 C330,205 300,260 260,240 C230,225 260,200 300,195 C330,190 320,160 290,165 C260,170 240,215 220,190 Z" fill="none" stroke="#6a1b9a" stroke-width="3" />
+<circle cx="180" cy="130" r="18" fill="none" stroke="#f57c00" stroke-width="5" />
+<circle cx="500" cy="225" r="18" fill="none" stroke="#f57c00" stroke-width="5" />
+<circle cx="470" cy="110" r="18" fill="none" stroke="#f57c00" stroke-width="5" />
+<line x1="620" y1="40" x2="482" y2="100" stroke="#f57c00" stroke-width="2.4"/><circle cx="482" cy="100" r="3.5" fill="#f57c00"/><circle cx="620" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="620" y="41" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="620" y1="40" x2="514" y2="215" stroke="#f57c00" stroke-width="2.4" />
+<circle cx="514" cy="215" r="3.5" fill="#f57c00" stroke="none" stroke-width="0" />
+<circle cx="620" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="620" y="41" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="330" y1="350" x2="330" y2="222" stroke="#555" stroke-width="1.2"/><circle cx="330" cy="222" r="2.2" fill="#555"/><text x="330" y="350" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >染色体DNA</text>
+<line x1="60" y1="330" x2="120" y2="280" stroke="#555" stroke-width="1.2"/><circle cx="120" cy="280" r="2.2" fill="#555"/><text x="60" y="330" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >細菌</text>
+</svg>

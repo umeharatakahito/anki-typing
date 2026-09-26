@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 390" width="680" height="390" font-family="sans-serif">
+<rect width="680" height="390" fill="#fff"/>
+<path d="M80,180 L414,180" fill="none" stroke="#37474f" stroke-width="2.5" />
+<path d="M408,180 L414,180 L420,60 L427,192 L436,180" fill="none" stroke="#f57c00" stroke-width="3.5" />
+<line x1="436" y1="180" x2="498" y2="180" stroke="#37474f" stroke-width="2.5" />
+<path d="M498,180 L504,180 L510,60 L517,192 L526,180" fill="none" stroke="#f57c00" stroke-width="3.5" />
+<line x1="526" y1="180" x2="588" y2="180" stroke="#37474f" stroke-width="2.5" />
+<path d="M588,180 L594,180 L600,60 L607,192 L616,180" fill="none" stroke="#f57c00" stroke-width="3.5" />
+<line x1="616" y1="180" x2="650" y2="180" stroke="#37474f" stroke-width="2.5" />
+<line x1="400" y1="60" x2="625" y2="60" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="5 4"/>
+<circle cx="650" cy="60" r="17" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="650" y="61" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="20" y="40" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >活動電位</text>
+<line x1="80" y1="370" x2="650" y2="370" stroke="#37474f" stroke-width="2" />
+<rect x="141" y="345" width="18" height="25" rx="0" fill="#90a4ae" stroke="#546e7a" stroke-width="1.5" />
+<rect x="231" y="325" width="18" height="45" rx="0" fill="#90a4ae" stroke="#546e7a" stroke-width="1.5" />
+<rect x="321" y="305" width="18" height="65" rx="0" fill="#90a4ae" stroke="#546e7a" stroke-width="1.5" />
+<rect x="411" y="280" width="18" height="90" rx="0" fill="#90a4ae" stroke="#546e7a" stroke-width="1.5" />
+<rect x="501" y="260" width="18" height="110" rx="0" fill="#90a4ae" stroke="#546e7a" stroke-width="1.5" />
+<rect x="591" y="240" width="18" height="130" rx="0" fill="#90a4ae" stroke="#546e7a" stroke-width="1.5" />
+<line x1="80" y1="292" x2="650" y2="292" stroke="#546e7a" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="650" y="278" font-size="15" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >閾値</text>
+<text x="20" y="225" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >刺激の強さ</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 410" width="720" height="410" font-family="sans-serif">
+<rect width="720" height="410" fill="#fff"/>
+<path d="M20,60 Q60,20 110,40 Q130,80 100,110 Q50,125 20,100 Z" fill="#e1bee7" stroke="#8e24aa" stroke-width="2" />
+<text x="65" y="140" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >内分泌腺</text>
+<rect x="130" y="45" width="540" height="60" rx="28" fill="#ffcdd2" stroke="#c62828" stroke-width="2.5" />
+<text x="620" y="128" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >血管</text>
+<line x1="100" y1="75" x2="140.0" y2="75.0" stroke="#8e24aa" stroke-width="2.5"/><polygon points="150,75 140.0,70.0 140.0,80.0" fill="#8e24aa"/>
+<polygon points="183,75 197,75 190,86" fill="#6a1b9a"/>
+<polygon points="253,79 267,79 260,90" fill="#6a1b9a"/>
+<polygon points="323,71 337,71 330,82" fill="#6a1b9a"/>
+<polygon points="403,79 417,79 410,90" fill="#6a1b9a"/>
+<polygon points="473,71 487,71 480,82" fill="#6a1b9a"/>
+<polygon points="553,79 567,79 560,90" fill="#6a1b9a"/>
+<polygon points="613,79 627,79 620,90" fill="#6a1b9a"/>
+<ellipse cx="140" cy="300" rx="95" ry="62" fill="#fffde7" stroke="#795548" stroke-width="2" />
+<circle cx="140" cy="315" r="18" fill="#d1c4e9" stroke="#5e35b1" stroke-width="1.5" />
+<path d="M84,248.4 L84,236.4 L90,236.4 L90,243.4 L100,243.4 L100,236.4 L106,236.4 L106,248.4 Z" fill="#4db6ac" stroke="#333" stroke-width="1" />
+<path d="M129,241.0 L129,229.0 L135,229.0 L135,236.0 L145,236.0 L145,229.0 L151,229.0 L151,241.0 Z" fill="#4db6ac" stroke="#333" stroke-width="1" />
+<path d="M174,248.4 L174,236.4 L180,236.4 L180,243.4 L190,243.4 L190,236.4 L196,236.4 L196,248.4 Z" fill="#4db6ac" stroke="#333" stroke-width="1" />
+<polygon points="113,178 127,178 120,189" fill="#6a1b9a"/><polygon points="163,163 177,163 170,174" fill="#6a1b9a"/>
+<line x1="140" y1="115" x2="140.0" y2="140.0" stroke="#8e24aa" stroke-width="2" stroke-dasharray="4 3"/><polygon points="140,150 145.0,140.0 135.0,140.0" fill="#8e24aa"/>
+<ellipse cx="360" cy="300" rx="95" ry="62" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<circle cx="360" cy="315" r="18" fill="#d1c4e9" stroke="#5e35b1" stroke-width="1.5" />
+<path d="M304,248.4 L304,236.4 L308,236.4 L315,245.4 L322,236.4 L326,236.4 L326,248.4 Z" fill="#4db6ac" stroke="#333" stroke-width="1" />
+<polygon points="308,234.4 322,234.4 315,245.4" fill="#6a1b9a"/>
+<path d="M349,241.0 L349,229.0 L353,229.0 L360,238.0 L367,229.0 L371,229.0 L371,241.0 Z" fill="#4db6ac" stroke="#333" stroke-width="1" />
+<polygon points="353,227.0 367,227.0 360,238.0" fill="#6a1b9a"/>
+<path d="M394,248.4 L394,236.4 L398,236.4 L405,245.4 L412,236.4 L416,236.4 L416,248.4 Z" fill="#4db6ac" stroke="#333" stroke-width="1" />
+<polygon points="398,234.4 412,234.4 405,245.4" fill="#6a1b9a"/>
+<line x1="310" y1="115" x2="314.4" y2="195.0" stroke="#8e24aa" stroke-width="2"/><polygon points="315,205 319.4,194.7 309.5,195.3" fill="#8e24aa"/>
+<line x1="410" y1="115" x2="405.6" y2="195.0" stroke="#8e24aa" stroke-width="2"/><polygon points="405,205 410.5,195.3 400.6,194.7" fill="#8e24aa"/>
+<ellipse cx="580" cy="300" rx="95" ry="62" fill="#fffde7" stroke="#795548" stroke-width="2" />
+<circle cx="580" cy="315" r="18" fill="#d1c4e9" stroke="#5e35b1" stroke-width="1.5" />
+<path d="M524,248.4 L524,236.4 L528,236.4 Q535,250.4 542,236.4 L546,236.4 L546,248.4 Z" fill="#4db6ac" stroke="#333" stroke-width="1" />
+<path d="M569,241.0 L569,229.0 L573,229.0 Q580,243.0 587,229.0 L591,229.0 L591,241.0 Z" fill="#4db6ac" stroke="#333" stroke-width="1" />
+<path d="M614,248.4 L614,236.4 L618,236.4 Q625,250.4 632,236.4 L636,236.4 L636,248.4 Z" fill="#4db6ac" stroke="#333" stroke-width="1" />
+<polygon points="553,178 567,178 560,189" fill="#6a1b9a"/><polygon points="603,163 617,163 610,174" fill="#6a1b9a"/>
+<line x1="580" y1="115" x2="580.0" y2="140.0" stroke="#8e24aa" stroke-width="2" stroke-dasharray="4 3"/><polygon points="580,150 585.0,140.0 575.0,140.0" fill="#8e24aa"/>
+<text x="360" y="395" font-size="15" text-anchor="middle" fill="#f57c00" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >反応する</text>
+<text x="140" y="395" font-size="15" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >反応しない</text>
+<text x="580" y="395" font-size="15" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >反応しない</text>
+<line x1="330" y1="20" x2="330" y2="72" stroke="#555" stroke-width="1.2"/><circle cx="330" cy="72" r="2.2" fill="#555"/><text x="330" y="20" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ホルモン</text>
+<line x1="690" y1="200" x2="628" y2="248" stroke="#555" stroke-width="1.2"/><circle cx="628" cy="248" r="2.2" fill="#555"/><text x="690" y="200" font-size="17" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >受容体</text>
+<line x1="470" y1="215" x2="440" y2="265" stroke="#f57c00" stroke-width="2.4"/><circle cx="440" cy="265" r="3.5" fill="#f57c00"/><circle cx="470" cy="215" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="470" y="216" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

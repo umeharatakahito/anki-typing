@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" width="720" height="370" font-family="sans-serif">
+<rect width="720" height="370" fill="#fff"/>
+<path d="M70,205 Q70,190 85,190 L134,190 L160,224 L186,190 L235,190 Q250,190 250,205 L250,285 Q250,300 235,300 L85,300 Q70,300 70,285 Z" fill="#b3e5fc" stroke="#0277bd" stroke-width="2.5" />
+<path d="M134,190 L160,224 L186,190 L186,166 L134,166 Z" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.2" /><line x1="160" y1="166" x2="160" y2="224" stroke="#2e7d32" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="160" y="330" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >基質が結合 → 反応</text>
+<path d="M410,205 Q410,190 425,190 L474,190 L500,224 L526,190 L575,190 Q590,190 590,205 L590,285 Q590,300 575,300 L425,300 Q410,300 410,285 Z" fill="#b3e5fc" stroke="#0277bd" stroke-width="2.5" />
+<path d="M474,190 L500,224 L526,190 L526,176 Q500,152 474,176 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.2" />
+<path d="M604,116 L630,150 L656,116 L656,92 L604,92 Z" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.2" /><line x1="630" y1="92" x2="630" y2="150" stroke="#2e7d32" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="590" y="145" font-size="30" text-anchor="middle" fill="#e53935" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >×</text>
+<line x1="620" y1="160" x2="566.9" y2="191.0" stroke="#555" stroke-width="1.6" stroke-dasharray="4 3"/><polygon points="560,195 568.9,194.4 564.9,187.5" fill="#555"/>
+<text x="500" y="330" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >活性部位をふさぐ</text>
+<line x1="60" y1="60" x2="150" y2="180" stroke="#555" stroke-width="1.2"/><circle cx="150" cy="180" r="2.2" fill="#555"/><text x="60" y="60" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >基質</text>
+<line x1="380" y1="60" x2="490" y2="178" stroke="#555" stroke-width="1.2"/><circle cx="490" cy="178" r="2.2" fill="#555"/><text x="380" y="60" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >基質に似た物質</text>
+<line x1="60" y1="265" x2="72" y2="245" stroke="#555" stroke-width="1.2"/><circle cx="72" cy="245" r="2.2" fill="#555"/><text x="60" y="265" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >酵素</text>
+<line x1="680" y1="330" x2="560" y2="265" stroke="#f57c00" stroke-width="2.4"/><circle cx="560" cy="265" r="3.5" fill="#f57c00"/><circle cx="680" cy="330" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="680" y="331" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

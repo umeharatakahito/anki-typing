@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" width="720" height="350" font-family="sans-serif">
+<rect width="720" height="350" fill="#fff"/>
+<text x="190.0" y="42" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0</text><text x="390.0" y="42" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >12</text><text x="590.0" y="42" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >24時間</text>
+<line x1="423.33333333333337" y1="55" x2="423.33333333333337" y2="300" stroke="#e53935" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="506.6666666666667" y="320" font-size="15" text-anchor="middle" fill="#e53935" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >限界暗期</text>
+<line x1="546.6666666666667" y1="320" x2="583.0" y2="320.0" stroke="#e53935" stroke-width="1.5"/><polygon points="590.0,320 583.0,316.5 583.0,323.5" fill="#e53935"/><line x1="466.6666666666667" y1="320" x2="430.3" y2="320.0" stroke="#e53935" stroke-width="1.5"/><polygon points="423.33333333333337,320 430.3,323.5 430.3,316.5" fill="#e53935"/>
+<rect x="190.0" y="70" width="266.6666666666667" height="40" rx="0" fill="#fff9c4" stroke="#f9a825" stroke-width="1.5" />
+<rect x="456.6666666666667" y="70" width="133.33333333333331" height="40" rx="0" fill="#455a64" stroke="#263238" stroke-width="1.5" />
+<text x="20" y="90" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >暗期が短い</text>
+<rect x="190.0" y="145" width="166.66666666666663" height="40" rx="0" fill="#fff9c4" stroke="#f9a825" stroke-width="1.5" />
+<rect x="356.66666666666663" y="145" width="233.33333333333337" height="40" rx="0" fill="#455a64" stroke="#263238" stroke-width="1.5" />
+<text x="20" y="165" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >暗期が長い</text>
+<rect x="190.0" y="220" width="166.66666666666663" height="40" rx="0" fill="#fff9c4" stroke="#f9a825" stroke-width="1.5" />
+<rect x="356.66666666666663" y="220" width="233.33333333333337" height="40" rx="0" fill="#455a64" stroke="#263238" stroke-width="1.5" />
+<rect x="468.3333333333333" y="220" width="10" height="40" rx="0" fill="#fff59d" stroke="#f9a825" stroke-width="2" />
+<text x="20" y="240" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >暗期の途中に光</text>
+<circle cx="650" cy="45" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="650" y="46" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="650" y="90" font-size="22" text-anchor="middle" fill="#2e7d32" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >○</text>
+<text x="650" y="165" font-size="22" text-anchor="middle" fill="#e53935" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >×</text>
+<text x="650" y="240" font-size="22" text-anchor="middle" fill="#2e7d32" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >○</text>
+<text x="650" y="330" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >○：花芽形成</text>
+</svg>

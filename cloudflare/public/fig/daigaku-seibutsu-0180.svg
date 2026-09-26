@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" width="680" height="380" font-family="sans-serif">
+<rect width="680" height="380" fill="#fff"/>
+<line x1="80" y1="350" x2="600" y2="350" stroke="#8d6e63" stroke-width="3" />
+<rect x="323" y="90" width="14" height="260" rx="5" fill="#c5e1a5" stroke="#558b2f" stroke-width="2" />
+<line x1="330" y1="100" x2="330" y2="345" stroke="#1b5e20" stroke-width="2" stroke-dasharray="6 4"/>
+<g transform="translate(337 260) rotate(-20)"><path d="M0,0 Q55.0,-31.428571428571427 110,0 Q55.0,31.428571428571427 0,0 Z" fill="#aed581" stroke="#558b2f" stroke-width="2" /><line x1="0" y1="0" x2="110" y2="0" stroke="#558b2f" stroke-width="1.2" /></g>
+<g transform="translate(323 200) rotate(200)"><path d="M0,0 Q45.0,-25.714285714285715 90,0 Q45.0,25.714285714285715 0,0 Z" fill="#aed581" stroke="#558b2f" stroke-width="2" /><line x1="0" y1="0" x2="90" y2="0" stroke="#558b2f" stroke-width="1.2" /></g>
+<ellipse cx="330" cy="78" rx="18" ry="24" fill="#f8bbd0" stroke="#ad1457" stroke-width="2.2" />
+<path d="M312,80 Q330,110 348,80" fill="#aed581" stroke="#558b2f" stroke-width="2" />
+<line x1="440" y1="50" x2="346" y2="70" stroke="#555" stroke-width="1.2"/><circle cx="346" cy="70" r="2.2" fill="#555"/><text x="440" y="50" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >茎頂（花芽を形成）</text>
+<line x1="200" y1="330" x2="329" y2="300" stroke="#555" stroke-width="1.2"/><circle cx="329" cy="300" r="2.2" fill="#555"/><text x="200" y="330" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >師管</text>
+<line x1="560" y1="300" x2="420" y2="235" stroke="#555" stroke-width="1.2"/><circle cx="420" cy="235" r="2.2" fill="#555"/><text x="560" y="300" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >葉（日長を感知）</text>
+<circle cx="330" cy="240" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<circle cx="330" cy="205" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<circle cx="330" cy="170" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<circle cx="330" cy="135" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<line x1="390" y1="245" x2="349.0" y2="245.0" stroke="#f57c00" stroke-width="2.5"/><polygon points="340,245 349.0,249.5 349.0,240.5" fill="#f57c00"/>
+<line x1="356" y1="190" x2="356.0" y2="121.0" stroke="#f57c00" stroke-width="2.5"/><polygon points="356,110 350.5,121.0 361.5,121.0" fill="#f57c00"/>
+<line x1="450" y1="170" x2="337" y2="170" stroke="#f57c00" stroke-width="2.4"/><circle cx="337" cy="170" r="3.5" fill="#f57c00"/><circle cx="450" cy="170" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="450" y="171" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

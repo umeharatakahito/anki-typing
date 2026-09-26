@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="640" height="320" font-family="sans-serif">
+<rect width="640" height="320" fill="#fff"/>
+<text x="125" y="112" font-size="17" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >個体1</text>
+<rect x="152" y="90" width="40" height="44" rx="5" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.5" />
+<text x="172.0" y="113" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<rect x="196" y="90" width="40" height="44" rx="5" fill="#fff59d" stroke="#607d8b" stroke-width="1.5" />
+<text x="216.0" y="113" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text>
+<rect x="240" y="90" width="40" height="44" rx="5" fill="#a5d6a7" stroke="#607d8b" stroke-width="1.5" />
+<text x="260.0" y="113" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >G</text>
+<rect x="284" y="90" width="40" height="44" rx="5" fill="#90caf9" stroke="#607d8b" stroke-width="1.5" />
+<text x="304.0" y="113" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text>
+<rect x="328" y="90" width="40" height="44" rx="5" fill="#ffcc80" stroke="#f57c00" stroke-width="2.8" />
+<text x="348.0" y="113" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text>
+<rect x="372" y="90" width="40" height="44" rx="5" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.5" />
+<text x="392.0" y="113" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<rect x="416" y="90" width="40" height="44" rx="5" fill="#fff59d" stroke="#607d8b" stroke-width="1.5" />
+<text x="436.0" y="113" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text>
+<rect x="460" y="90" width="40" height="44" rx="5" fill="#a5d6a7" stroke="#607d8b" stroke-width="1.5" />
+<text x="480.0" y="113" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >G</text>
+<rect x="504" y="90" width="40" height="44" rx="5" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.5" />
+<text x="524.0" y="113" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<rect x="548" y="90" width="40" height="44" rx="5" fill="#90caf9" stroke="#607d8b" stroke-width="1.5" />
+<text x="568.0" y="113" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text>
+<text x="125" y="222" font-size="17" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >個体2</text>
+<rect x="152" y="200" width="40" height="44" rx="5" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.5" />
+<text x="172.0" y="223" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<rect x="196" y="200" width="40" height="44" rx="5" fill="#fff59d" stroke="#607d8b" stroke-width="1.5" />
+<text x="216.0" y="223" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text>
+<rect x="240" y="200" width="40" height="44" rx="5" fill="#a5d6a7" stroke="#607d8b" stroke-width="1.5" />
+<text x="260.0" y="223" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >G</text>
+<rect x="284" y="200" width="40" height="44" rx="5" fill="#90caf9" stroke="#607d8b" stroke-width="1.5" />
+<text x="304.0" y="223" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text>
+<rect x="328" y="200" width="40" height="44" rx="5" fill="#ffcc80" stroke="#f57c00" stroke-width="2.8" />
+<text x="348.0" y="223" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text>
+<rect x="372" y="200" width="40" height="44" rx="5" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.5" />
+<text x="392.0" y="223" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<rect x="416" y="200" width="40" height="44" rx="5" fill="#fff59d" stroke="#607d8b" stroke-width="1.5" />
+<text x="436.0" y="223" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text>
+<rect x="460" y="200" width="40" height="44" rx="5" fill="#a5d6a7" stroke="#607d8b" stroke-width="1.5" />
+<text x="480.0" y="223" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >G</text>
+<rect x="504" y="200" width="40" height="44" rx="5" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.5" />
+<text x="524.0" y="223" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<rect x="548" y="200" width="40" height="44" rx="5" fill="#90caf9" stroke="#607d8b" stroke-width="1.5" />
+<text x="568.0" y="223" font-size="20" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text>
+<line x1="348.0" y1="175" x2="348.0" y2="136" stroke="#f57c00" stroke-width="2.4"/><circle cx="348.0" cy="136" r="3.5" fill="#f57c00"/><line x1="348.0" y1="175" x2="348.0" y2="198" stroke="#f57c00" stroke-width="2.4"/><circle cx="348.0" cy="198" r="3.5" fill="#f57c00"/><circle cx="348.0" cy="175" r="14" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="348.0" y="176" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="370" y="40" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >同じ遺伝子の同じ位置の塩基配列</text>
+<text x="370" y="290" font-size="15" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ほかの塩基はすべて同じ</text>
+</svg>

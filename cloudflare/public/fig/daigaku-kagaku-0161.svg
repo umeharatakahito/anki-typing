@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="640" height="380" font-family="sans-serif">
+<rect width="640" height="380" fill="#fff"/>
+<line x1="80" y1="340" x2="610.0" y2="340.0" stroke="#222" stroke-width="2"/><polygon points="620,340 610.0,335.0 610.0,345.0" fill="#222"/><line x1="80" y1="340" x2="80.0" y2="50.0" stroke="#222" stroke-width="2"/><polygon points="80,40 75.0,50.0 85.0,50.0" fill="#222"/><text x="620" y="364" font-size="16" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >時間</text><text x="88" y="42" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >温度</text>
+<path d="M90,60 Q170,140 215,190 Q225,194 232,150 L520,150" fill="none" stroke="#1e88e5" stroke-width="3" />
+<path d="M90,110 Q180,210 240,260 Q250,263 257,215 L520,270" fill="none" stroke="#e53935" stroke-width="3" />
+<text x="560" y="150" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >溶媒</text>
+<text x="560" y="270" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >溶液</text>
+<line x1="80" y1="150" x2="232" y2="150" stroke="#555" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="80" y1="215" x2="257" y2="215" stroke="#555" stroke-width="1.2" stroke-dasharray="4 4"/>
+<text x="72" y="150" font-size="16" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >t<tspan dy="5" font-size="72%">0</tspan><tspan dy="-5">​</tspan></text>
+<text x="72" y="215" font-size="16" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >t<tspan dy="5" font-size="72%">1</tspan><tspan dy="-5">​</tspan></text>
+<rect x="96" y="150" width="40" height="65" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="116" y1="152" x2="116.0" y2="205.0" stroke="#f57c00" stroke-width="2.2"/><polygon points="116,213 120.0,205.0 112.0,205.0" fill="#f57c00"/>
+<line x1="170" y1="300" x2="136" y2="192.5" stroke="#f57c00" stroke-width="2.4"/><circle cx="136" cy="192.5" r="3.5" fill="#f57c00"/><circle cx="170" cy="300" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="170" y="301" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="330" y1="300" x2="244" y2="259" stroke="#555" stroke-width="1.2"/><circle cx="244" cy="259" r="2.2" fill="#555"/><text x="330" y="300" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >過冷却</text>
+</svg>

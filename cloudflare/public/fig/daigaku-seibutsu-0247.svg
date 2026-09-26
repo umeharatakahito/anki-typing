@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" width="680" height="380" font-family="sans-serif">
+<rect width="680" height="380" fill="#fff"/>
+<circle cx="130" cy="170" r="60" fill="none" stroke="#f57c00" stroke-width="6" />
+<text x="250" y="172" font-size="26" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＋</text>
+<line x1="300" y1="170" x2="380" y2="170" stroke="#e53935" stroke-width="9" />
+<line x1="340" y1="240" x2="340" y2="176" stroke="#555" stroke-width="1.2"/><circle cx="340" cy="176" r="2.2" fill="#555"/><text x="340" y="240" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >目的の遺伝子</text>
+<line x1="400" y1="170" x2="430.0" y2="170.0" stroke="#555" stroke-width="2.4"/><polygon points="440,170 430.0,165.0 430.0,175.0" fill="#555"/>
+<circle cx="500" cy="170" r="45" fill="none" stroke="#f57c00" stroke-width="6" /><path d="M522.5,131.0 A45,45 0 0 1 545.0,170.0" fill="none" stroke="#e53935" stroke-width="9" />
+<line x1="130" y1="60" x2="130" y2="110" stroke="#f57c00" stroke-width="2.4"/><circle cx="130" cy="110" r="3.5" fill="#f57c00"/><circle cx="130" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="130" y="61" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="500" y1="250" x2="500" y2="215" stroke="#555" stroke-width="1.2"/><circle cx="500" cy="215" r="2.2" fill="#555"/><text x="500" y="250" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >組換えDNA</text>
+<rect x="440" y="290" width="200" height="70" rx="35" fill="#e0f2f1" stroke="#00796b" stroke-width="3" />
+<circle cx="600" cy="325" r="16" fill="none" stroke="#f57c00" stroke-width="4" />
+<path d="M598,309 A16,16 0 0 1 616,322" fill="none" stroke="#e53935" stroke-width="5" />
+<line x1="530" y1="222" x2="555.7" y2="276.0" stroke="#555" stroke-width="2.4"/><polygon points="560,285 560.2,273.8 551.2,278.1" fill="#555"/>
+<text x="560" y="245" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >導入</text>
+<text x="510" y="326" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >大腸菌など</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" width="700" height="380" font-family="sans-serif">
+<rect width="700" height="380" fill="#fff"/>
+<line x1="90" y1="330" x2="640" y2="330" stroke="#222" stroke-width="2" /><line x1="90" y1="330" x2="90" y2="50" stroke="#222" stroke-width="2" /><text x="365.0" y="362" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >分岐した年代（億年前）</text><text x="50" y="190.0" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" transform="rotate(-90 50 190.0)">アミノ酸の違いの数</text>
+<line x1="90.0" y1="330" x2="90.0" y2="336" stroke="#222" stroke-width="1.5" /><text x="90.0" y="342" font-size="12" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" ></text>
+
+<line x1="200.0" y1="330" x2="200.0" y2="336" stroke="#222" stroke-width="1.5" /><text x="200.0" y="342" font-size="12" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" ></text>
+
+<line x1="310.0" y1="330" x2="310.0" y2="336" stroke="#222" stroke-width="1.5" /><text x="310.0" y="342" font-size="12" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" ></text>
+
+<line x1="420.0" y1="330" x2="420.0" y2="336" stroke="#222" stroke-width="1.5" /><text x="420.0" y="342" font-size="12" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" ></text>
+
+<line x1="530.0" y1="330" x2="530.0" y2="336" stroke="#222" stroke-width="1.5" /><text x="530.0" y="342" font-size="12" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" ></text>
+
+<line x1="640.0" y1="330" x2="640.0" y2="336" stroke="#222" stroke-width="1.5" /><text x="640.0" y="342" font-size="12" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" ></text>
+
+
+
+
+
+
+
+<line x1="90" y1="330" x2="640.0" y2="56.22222222222223" stroke="#f57c00" stroke-width="3.5" />
+<circle cx="178.0" cy="277.1" r="6" fill="#1e88e5" stroke="#fff" stroke-width="1.5" />
+<text x="168.0" y="261.1" font-size="14" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ウシ</text>
+<circle cx="233.0" cy="246.0" r="6" fill="#1e88e5" stroke="#fff" stroke-width="1.5" />
+<text x="223.0" y="230.0" font-size="14" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >カンガルー</text>
+<circle cx="486.0" cy="137.1" r="6" fill="#1e88e5" stroke="#fff" stroke-width="1.5" />
+<text x="476.0" y="121.1" font-size="14" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >イモリ</text>
+<circle cx="552.0" cy="118.4" r="6" fill="#1e88e5" stroke="#fff" stroke-width="1.5" />
+<text x="542.0" y="102.4" font-size="14" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >コイ</text>
+<circle cx="585.0" cy="84.2" r="6" fill="#1e88e5" stroke="#fff" stroke-width="1.5" />
+<text x="575.0" y="68.2" font-size="14" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >サメ</text>
+<text x="90.0" y="344" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0</text>
+<text x="200.0" y="344" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1</text>
+<text x="310.0" y="344" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2</text>
+<text x="420.0" y="344" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >3</text>
+<text x="530.0" y="344" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >4</text>
+<text x="640.0" y="344" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >5</text>
+<text x="360" y="30" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ヒトとの間のヘモグロビン α 鎖の違い</text>
+<line x1="520" y1="260" x2="420" y2="166" stroke="#f57c00" stroke-width="2.4"/><circle cx="420" cy="166" r="3.5" fill="#f57c00"/><circle cx="520" cy="260" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="520" y="261" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

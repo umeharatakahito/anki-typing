@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" font-family="sans-serif">
+<rect width="640" height="400" fill="#fff"/>
+<path d="M150,190 L200,190 L200,300 L265,300 L265,350 L170,350 Q150,350 150,330 Z" fill="#e3f2fd" stroke="none" stroke-width="0" />
+<path d="M330,120 L380,120 L380,330 Q380,350 360,350 L265,350 L265,300 L330,300 Z" fill="#ede7f6" stroke="none" stroke-width="0" />
+<path d="M150,60 L150,330 Q150,350 170,350 L360,350 Q380,350 380,330 L380,60" fill="none" stroke="#607d8b" stroke-width="2.5" />
+<path d="M200,60 L200,300 L330,300 L330,60" fill="none" stroke="#607d8b" stroke-width="2.5" />
+<circle cx="176.7" cy="250.5" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="359.8" cy="141.9" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="187.8" cy="234.8" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="193.8" cy="264.8" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="354.1" cy="263.5" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="180.1" cy="321.3" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="364.2" cy="270.3" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="184.8" cy="281.9" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="157.2" cy="320.9" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="183.3" cy="322.8" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="371.0" cy="211.7" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="352.9" cy="326.3" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="339.7" cy="156.8" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="192.7" cy="259.9" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="347.4" cy="235.5" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="169.3" cy="281.1" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="370.4" cy="272.6" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="368.5" cy="338.1" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="342.2" cy="310.5" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="370.4" cy="248.7" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="344.0" cy="304.3" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="346.8" cy="141.5" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="373.6" cy="146.8" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="351.6" cy="160.0" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="185.2" cy="321.9" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="179.4" cy="204.4" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="210" cy="320" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="225" cy="320" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="240" cy="320" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="255" cy="320" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="280" cy="325" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="300" cy="320" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="318" cy="320" r="3" fill="#1e88e5" stroke="none" stroke-width="0" />
+<circle cx="356" cy="160" r="8" fill="#9575cd" stroke="#5e35b1" stroke-width="1.2" />
+<circle cx="344" cy="220" r="8" fill="#9575cd" stroke="#5e35b1" stroke-width="1.2" />
+<circle cx="366" cy="270" r="8" fill="#9575cd" stroke="#5e35b1" stroke-width="1.2" />
+<circle cx="352" cy="330" r="8" fill="#9575cd" stroke="#5e35b1" stroke-width="1.2" />
+<circle cx="300" cy="318" r="8" fill="#9575cd" stroke="#5e35b1" stroke-width="1.2" />
+<circle cx="320" cy="335" r="8" fill="#9575cd" stroke="#5e35b1" stroke-width="1.2" />
+<circle cx="360" cy="190" r="8" fill="#9575cd" stroke="#5e35b1" stroke-width="1.2" />
+<line x1="265" y1="298" x2="265" y2="352" stroke="#6d4c41" stroke-width="3.5" stroke-dasharray="5 3"/>
+<line x1="235" y1="280" x2="283.0" y2="280.0" stroke="#1e88e5" stroke-width="2.2"/><polygon points="292,280 283.0,275.5 283.0,284.5" fill="#1e88e5"/>
+<text x="175" y="40" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >溶媒（水）</text>
+<text x="355" y="40" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >溶液</text>
+<line x1="380" y1="190" x2="440" y2="190" stroke="#555" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="380" y1="120" x2="440" y2="120" stroke="#555" stroke-width="1.2" />
+<rect x="412" y="120" width="20" height="70" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="452" y="155.0" font-size="18" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >h</text>
+<line x1="520" y1="150" x2="432" y2="155" stroke="#f57c00" stroke-width="2.4"/><circle cx="432" cy="155" r="3.5" fill="#f57c00"/><circle cx="520" cy="150" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="520" y="151" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="470" y="225" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >液面差 h に</text>
+<text x="470" y="247" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >相当する圧力</text>
+<line x1="470" y1="330" x2="267" y2="330" stroke="#555" stroke-width="1.2"/><circle cx="267" cy="330" r="2.2" fill="#555"/><text x="470" y="330" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >半透膜</text>
+</svg>

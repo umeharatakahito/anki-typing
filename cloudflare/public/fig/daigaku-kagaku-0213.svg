@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" width="640" height="340" font-family="sans-serif">
+<rect width="640" height="340" fill="#fff"/>
+<text x="80.6" y="110" font-size="24" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >R−CO−</text><text x="139.1" y="110" font-size="24" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >OH</text><text x="177.5" y="110" font-size="24" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >  +  </text><text x="206.6" y="110" font-size="24" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >H</text><text x="249.4" y="110" font-size="24" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >−O−R&#x27;</text>
+<rect x="117.1" y="90" width="44.0" height="40" rx="6" fill="none" stroke="#1e88e5" stroke-width="1.8" stroke-dasharray="4 3"/>
+<rect x="193.9" y="90" width="25.3" height="40" rx="6" fill="none" stroke="#1e88e5" stroke-width="1.8" stroke-dasharray="4 3"/>
+<path d="M168,136 C168,170 460,170 470,120" fill="none" stroke="#1e88e5" stroke-width="1.8"/><polygon points="474,116 464.7,122.2 473.3,127.2" fill="#1e88e5"/>
+<text x="510" y="110" font-size="22" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>O</text>
+<line x1="200" y1="150" x2="200.0" y2="198.0" stroke="#222" stroke-width="2.6"/><polygon points="200,210 206.0,198.0 194.0,198.0" fill="#222"/>
+<line x1="150" y1="180" x2="196" y2="180" stroke="#f57c00" stroke-width="2.4"/><circle cx="196" cy="180" r="3.5" fill="#f57c00"/><circle cx="150" cy="180" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="150" y="181" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="107.8" y="245" font-size="24" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >R−CO−O−R&#x27;</text><text x="218.8" y="245" font-size="24" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >  +  H<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>O</text>
+<text x="320" y="310" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2つの分子から水がとれて結合する</text>
+</svg>

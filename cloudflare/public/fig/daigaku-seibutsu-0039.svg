@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" font-family="sans-serif">
+<rect width="640" height="400" fill="#fff"/>
+<line x1="200" y1="60" x2="262" y2="102" stroke="#222" stroke-width="2.5" />
+<line x1="262" y1="102" x2="200" y2="170" stroke="#222" stroke-width="2.5" />
+<line x1="292" y1="105" x2="360" y2="105" stroke="#222" stroke-width="2.5" />
+<line x1="200" y1="170" x2="262" y2="212" stroke="#222" stroke-width="2.5" />
+<line x1="262" y1="212" x2="200" y2="280" stroke="#222" stroke-width="2.5" />
+<line x1="292" y1="215" x2="360" y2="215" stroke="#222" stroke-width="2.5" />
+<line x1="200" y1="280" x2="262" y2="322" stroke="#222" stroke-width="2.5" />
+<line x1="292" y1="325" x2="360" y2="325" stroke="#222" stroke-width="2.5" />
+<circle cx="200" cy="60" r="22" fill="#fff59d" stroke="#f9a825" stroke-width="2" />
+<text x="200" y="61" font-size="18" text-anchor="middle" fill="#6d4c00" font-weight="bold" dominant-baseline="middle"  >P</text>
+<polygon points="275.0,77.0 301.6,96.3 291.5,127.7 258.5,127.7 248.4,96.3" fill="#ffcc80" stroke="#f57c00" stroke-width="2.2" />
+<rect x="360" y="87" width="80" height="36" rx="6" fill="#ef9a9a" stroke="#607d8b" stroke-width="2" />
+<text x="400" y="106" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<circle cx="200" cy="170" r="22" fill="#fff59d" stroke="#f9a825" stroke-width="2" />
+<text x="200" y="171" font-size="18" text-anchor="middle" fill="#6d4c00" font-weight="bold" dominant-baseline="middle"  >P</text>
+<polygon points="275.0,187.0 301.6,206.3 291.5,237.7 258.5,237.7 248.4,206.3" fill="#ffcc80" stroke="#f57c00" stroke-width="2.2" />
+<rect x="360" y="197" width="80" height="36" rx="6" fill="#a5d6a7" stroke="#607d8b" stroke-width="2" />
+<text x="400" y="216" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >G</text>
+<circle cx="200" cy="280" r="22" fill="#fff59d" stroke="#f9a825" stroke-width="2" />
+<text x="200" y="281" font-size="18" text-anchor="middle" fill="#6d4c00" font-weight="bold" dominant-baseline="middle"  >P</text>
+<polygon points="275.0,297.0 301.6,316.3 291.5,347.7 258.5,347.7 248.4,316.3" fill="#ffcc80" stroke="#f57c00" stroke-width="2.2" />
+<rect x="360" y="307" width="80" height="36" rx="6" fill="#90caf9" stroke="#607d8b" stroke-width="2" />
+<text x="400" y="326" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text>
+<line x1="110" y1="280" x2="178" y2="280" stroke="#555" stroke-width="1.2"/><circle cx="178" cy="280" r="2.2" fill="#555"/><text x="110" y="280" font-size="16" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >リン酸</text>
+<line x1="520" y1="215" x2="441" y2="215" stroke="#555" stroke-width="1.2"/><circle cx="441" cy="215" r="2.2" fill="#555"/><text x="520" y="215" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >塩基</text>
+<line x1="345" y1="160" x2="292" y2="196" stroke="#f57c00" stroke-width="2.4"/><circle cx="292" cy="196" r="3.5" fill="#f57c00"/><line x1="345" y1="160" x2="292" y2="126" stroke="#f57c00" stroke-width="2.4"/><circle cx="292" cy="126" r="3.5" fill="#f57c00"/><circle cx="345" cy="160" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="345" y="161" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="340" y="22" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >DNAのヌクレオチド鎖（一部）</text>
+</svg>

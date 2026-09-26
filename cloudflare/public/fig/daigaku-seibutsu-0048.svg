@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" font-family="sans-serif">
+<rect width="720" height="400" fill="#fff"/>
+<ellipse cx="360" cy="200" rx="340" ry="180" fill="#fffdf5" stroke="#f57c00" stroke-width="3.5" stroke-dasharray="12 7"/>
+<rect x="80" y="90" width="230" height="220" rx="14" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2" />
+<text x="195" y="115" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >生物</text>
+<rect x="110" y="140" width="170" height="42" rx="8" fill="#fff" stroke="#607d8b" stroke-width="2" /><text x="195.0" y="162.0" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >植物</text>
+<rect x="110" y="195" width="170" height="42" rx="8" fill="#fff" stroke="#607d8b" stroke-width="2" /><text x="195.0" y="217.0" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >動物</text>
+<rect x="110" y="250" width="170" height="42" rx="8" fill="#fff" stroke="#607d8b" stroke-width="2" /><text x="195.0" y="272.0" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >菌類・細菌</text>
+<rect x="410" y="90" width="230" height="220" rx="14" fill="#e3f2fd" stroke="#1e88e5" stroke-width="2" />
+<text x="525" y="115" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >非生物的環境</text>
+<rect x="440" y="140" width="170" height="42" rx="8" fill="#fff" stroke="#607d8b" stroke-width="2" /><text x="525.0" y="162.0" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >光・温度</text>
+<rect x="440" y="195" width="170" height="42" rx="8" fill="#fff" stroke="#607d8b" stroke-width="2" /><text x="525.0" y="217.0" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >水・大気</text>
+<rect x="440" y="250" width="170" height="42" rx="8" fill="#fff" stroke="#607d8b" stroke-width="2" /><text x="525.0" y="272.0" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >土壌</text>
+<line x1="405" y1="165" x2="330.0" y2="165.0" stroke="#555" stroke-width="3"/><polygon points="318,165 330.0,171.0 330.0,159.0" fill="#555"/>
+<text x="362" y="145" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >作用</text>
+<line x1="318" y1="245" x2="393.0" y2="245.0" stroke="#555" stroke-width="3"/><polygon points="405,245 393.0,239.0 393.0,251.0" fill="#555"/>
+<text x="362" y="270" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >環境形成作用</text>
+<line x1="660" y1="45" x2="610" y2="70" stroke="#f57c00" stroke-width="2.4"/><circle cx="610" cy="70" r="3.5" fill="#f57c00"/><circle cx="660" cy="45" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="660" y="46" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

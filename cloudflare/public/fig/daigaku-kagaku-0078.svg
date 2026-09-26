@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" width="680" height="360" font-family="sans-serif">
+<rect width="680" height="360" fill="#fff"/>
+<text x="110" y="190" font-size="26" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >CuO</text>
+<text x="180" y="190" font-size="26" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＋</text>
+<text x="240" y="190" font-size="26" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan></text>
+<text x="440" y="190" font-size="26" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Cu</text>
+<text x="500" y="190" font-size="26" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＋</text>
+<text x="570" y="190" font-size="26" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>O</text>
+<line x1="300" y1="190" x2="367.0" y2="190.0" stroke="#607d8b" stroke-width="3"/><polygon points="380,190 367.0,183.5 367.0,196.5" fill="#607d8b"/>
+<path d="M110,164 C170,70 380,70 440,164" fill="none" stroke="#f57c00" stroke-width="3.2"/><polygon points="440,164 442.2,149.6 429.8,153.6" fill="#f57c00"/>
+<path d="M240,216 C300,310 490,310 570,216" fill="none" stroke="#607d8b" stroke-width="2.4"/><polygon points="570,216 559.1,225.6 571.2,230.5" fill="#607d8b"/>
+<text x="275.0" y="60" font-size="17" text-anchor="middle" fill="#f57c00" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >O を失う</text>
+<text x="405.0" y="322" font-size="17" text-anchor="middle" fill="#607d8b" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >O を受け取る</text>
+<circle cx="345.0" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="345.0" y="61" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

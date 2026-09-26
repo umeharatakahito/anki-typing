@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 365" width="700" height="365" font-family="sans-serif">
+<rect width="700" height="365" fill="#fff"/>
+<rect x="15" y="30" width="300" height="320" rx="14" fill="#fffde7" stroke="#bdbdbd" stroke-width="2" />
+<rect x="385" y="30" width="300" height="320" rx="14" fill="#e8f5e9" stroke="#bdbdbd" stroke-width="2" />
+<text x="165" y="55" font-size="15" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >組織</text>
+<text x="535" y="55" font-size="15" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >リンパ節</text>
+<polygon points="204.3,193.0 240.7,207.2 259.9,205.2 255.9,227.6 238.6,219.1 199.5,220.1 195.0,226.3 206.6,263.6 220.1,277.4 200.1,288.3 195.9,269.4 170.8,239.5 163.1,239.9 141.2,272.2 138.8,291.3 117.9,282.5 130.0,267.4 137.8,229.2 132.7,223.4 93.7,226.4 77.3,236.5 71.1,214.6 90.4,214.7 125.2,196.9 126.6,189.3 99.9,160.7 81.8,154.2 95.1,135.7 107.0,150.8 142.6,167.0 149.4,163.3 155.2,124.6 148.9,106.4 171.7,105.2 167.3,124.0 176.9,161.9 184.0,164.9 217.8,145.3 228.2,129.1 243.2,146.1 225.8,154.4 202.2,185.5" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="160" cy="205" r="18" fill="#ffb74d" stroke="none" stroke-width="0" />
+<circle cx="185" cy="180" r="14" fill="#fff" stroke="#2e7d32" stroke-width="1.8" />
+<g transform="translate(185 180) rotate(30) scale(0.6)"><rect x="-14" y="-7" width="28" height="14" rx="7" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8" /></g>
+<g transform="translate(60 300) rotate(20) scale(1.0)"><rect x="-14" y="-7" width="28" height="14" rx="7" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8" /></g>
+<g transform="translate(270 305) rotate(-40) scale(1.0)"><rect x="-14" y="-7" width="28" height="14" rx="7" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8" /></g>
+<g transform="translate(275 110) rotate(10) scale(1.0)"><rect x="-14" y="-7" width="28" height="14" rx="7" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8" /></g>
+<line x1="318" y1="190" x2="372.0" y2="190.0" stroke="#555" stroke-width="3"/><polygon points="382,190 372.0,185.0 372.0,195.0" fill="#555"/>
+<text x="350" y="170" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >移動</text>
+<polygon points="519.6,189.1 549.8,195.2 564.5,191.0 564.5,209.0 549.8,204.8 519.6,210.9 516.9,216.3 531.0,243.8 543.4,252.6 529.4,263.8 523.5,249.7 499.9,229.9 494.0,231.2 481.4,259.4 482.2,274.6 464.7,270.6 472.0,257.2 472.8,226.4 468.1,222.6 438.2,230.3 426.8,240.4 419.0,224.2 434.0,221.6 458.6,203.0 458.6,197.0 434.0,178.4 419.0,175.8 426.8,159.6 438.2,169.7 468.1,177.4 472.8,173.6 472.0,142.8 464.7,129.4 482.2,125.4 481.4,140.6 494.0,168.8 499.9,170.1 523.5,150.3 529.4,136.2 543.4,147.4 531.0,156.2 516.9,183.7" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="485" cy="205" r="15" fill="#ffb74d" stroke="none" stroke-width="0" />
+<circle cx="625" cy="200" r="40" fill="#bbdefb" stroke="#1e88e5" stroke-width="2.2" /><circle cx="625" cy="200" r="27.200000000000003" fill="#1e88e5" stroke="none" stroke-width="0" opacity="0.55"/>
+<rect x="557" y="190" width="10" height="20" rx="2" fill="#80cbc4" stroke="#00796b" stroke-width="1.5" />
+<polygon points="568,193 578,200 568,207" fill="#2e7d32"/>
+<rect x="579" y="190" width="8" height="20" rx="2" fill="#90caf9" stroke="#1e88e5" stroke-width="1.5" />
+<line x1="120" y1="330" x2="72" y2="304" stroke="#555" stroke-width="1.2"/><circle cx="72" cy="304" r="2.2" fill="#555"/><text x="120" y="330" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >病原体</text>
+<line x1="625" y1="290" x2="625" y2="240" stroke="#555" stroke-width="1.2"/><circle cx="625" cy="240" r="2.2" fill="#555"/><text x="625" y="290" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >T細胞</text>
+<line x1="575" y1="110" x2="573" y2="196" stroke="#555" stroke-width="1.2"/><circle cx="573" cy="196" r="2.2" fill="#555"/><text x="575" y="110" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >抗原</text>
+<line x1="350" y1="90" x2="490" y2="150" stroke="#f57c00" stroke-width="2.4" /><circle cx="490" cy="150" r="3.5" fill="#f57c00" stroke="none" stroke-width="0" />
+<line x1="350" y1="90" x2="200" y2="150" stroke="#f57c00" stroke-width="2.4"/><circle cx="200" cy="150" r="3.5" fill="#f57c00"/><circle cx="350" cy="90" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="350" y="91" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="535" y="330" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >抗原提示</text>
+</svg>

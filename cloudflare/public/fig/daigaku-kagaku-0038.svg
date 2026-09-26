@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 360" width="660" height="360" font-family="sans-serif">
+<rect width="660" height="360" fill="#fff"/>
+<line x1="70" y1="330" x2="70.0" y2="61.0" stroke="#555" stroke-width="2"/><polygon points="70,50 64.5,61.0 75.5,61.0" fill="#555"/>
+<text x="52" y="190" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" transform="rotate(-90 52 190)">エネルギー</text>
+<line x1="140" y1="110" x2="330" y2="110" stroke="#222" stroke-width="3" /><text x="235" y="88" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Cl（気体）＋ e<tspan dy="-7" font-size="72%">-</tspan><tspan dy="7">​</tspan></text>
+<line x1="140" y1="290" x2="330" y2="290" stroke="#222" stroke-width="3" /><text x="235" y="312" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Cl<tspan dy="-7" font-size="72%">-</tspan><tspan dy="7">​</tspan>（気体）</text>
+<line x1="235" y1="116" x2="235.0" y2="269.0" stroke="#f57c00" stroke-width="4"/><polygon points="235,284 242.5,269.0 227.5,269.0" fill="#f57c00"/>
+<text x="250" y="200" font-size="15" text-anchor="start" fill="#f57c00" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >349 kJ/mol</text>
+<line x1="470" y1="200" x2="240" y2="230" stroke="#f57c00" stroke-width="2.4"/><circle cx="240" cy="230" r="3.5" fill="#f57c00"/><circle cx="470" cy="200" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="470" y="201" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="470" y="240" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（放出される）</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" font-family="sans-serif">
+<rect width="640" height="360" fill="#fff"/>
+<path d="M98.0,181.0 L98.0,248.0 A22.0,22.0 0 0,0 142.0,248.0 L142.0,181.0 Z" fill="#64b5f6" stroke="none" stroke-width="0" /><path d="M98.0,70 L98.0,248.0 A22.0,22.0 0 0,0 142.0,248.0 L142.0,70" fill="none" stroke="#607d8b" stroke-width="2.5" /><line x1="93.0" y1="70" x2="147.0" y2="70" stroke="#607d8b" stroke-width="2.5" />
+<text x="120" y="300" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >加熱前（深青色）</text>
+<line x1="185" y1="180" x2="264.0" y2="180.0" stroke="#222" stroke-width="2.4"/><polygon points="275,180 264.0,174.5 264.0,185.5" fill="#222"/>
+<text x="230" y="160" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >加熱</text>
+<path d="M318.0,181.0 L318.0,248.0 A22.0,22.0 0 0,0 362.0,248.0 L362.0,181.0 Z" fill="#bbdefb" stroke="none" stroke-width="0" /><path d="M318.0,224.0 L318.0,248.0 A22.0,22.0 0 0,0 362.0,248.0 L362.0,224.0 Z" fill="#e64a19" stroke="none" stroke-width="0" /><path d="M318.0,70 L318.0,248.0 A22.0,22.0 0 0,0 362.0,248.0 L362.0,70" fill="none" stroke="#607d8b" stroke-width="2.5" /><line x1="313.0" y1="70" x2="367.0" y2="70" stroke="#607d8b" stroke-width="2.5" />
+<path d="M318,224 L318,248 A22,22 0 0,0 362,248 L362,224" fill="none" stroke="#f57c00" stroke-width="2.4" />
+<line x1="450" y1="250" x2="364" y2="250" stroke="#f57c00" stroke-width="2.4"/><circle cx="364" cy="250" r="3.5" fill="#f57c00"/><circle cx="450" cy="250" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="450" y="251" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="475" y="250" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >赤色沈殿</text>
+<text x="340" y="30" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >フェーリング液 ＋ アルデヒド</text>
+<text x="340" y="330" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Cu<tspan dy="-7" font-size="72%">2+</tspan><tspan dy="7">​</tspan> がアルデヒドにより還元される</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 320" width="690" height="320" font-family="sans-serif">
+<rect width="690" height="320" fill="#fff"/>
+<text x="120" y="180" font-size="26" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >N</text>
+<text x="70" y="180" font-size="26" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H</text>
+<circle cx="95" cy="174" r="3.6" fill="#222" stroke="none" stroke-width="0" /><circle cx="95" cy="186" r="3.6" fill="#222" stroke="none" stroke-width="0" />
+<text x="170" y="180" font-size="26" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H</text>
+<circle cx="145" cy="186" r="3.6" fill="#222" stroke="none" stroke-width="0" /><circle cx="145" cy="174" r="3.6" fill="#222" stroke="none" stroke-width="0" />
+<text x="120" y="230" font-size="26" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H</text>
+<circle cx="126" cy="205" r="3.6" fill="#222" stroke="none" stroke-width="0" /><circle cx="114" cy="205" r="3.6" fill="#222" stroke="none" stroke-width="0" />
+<circle cx="114" cy="159" r="3.6" fill="#222" stroke="none" stroke-width="0" /><circle cx="126" cy="159" r="3.6" fill="#222" stroke="none" stroke-width="0" />
+<line x1="60" y1="70" x2="120" y2="156" stroke="#555" stroke-width="1.2"/><circle cx="120" cy="156" r="2.2" fill="#555"/><text x="60" y="70" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >非共有電子対</text>
+<text x="250" y="180" font-size="24" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >＋</text>
+<text x="310" y="180" font-size="26" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan></text>
+<line x1="360" y1="180" x2="398.0" y2="180.0" stroke="#607d8b" stroke-width="3"/><polygon points="410,180 398.0,174.0 398.0,186.0" fill="#607d8b"/>
+<text x="530" y="180" font-size="26" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >N</text>
+<text x="480" y="180" font-size="26" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H</text>
+<circle cx="505" cy="174" r="3.6" fill="#222" stroke="none" stroke-width="0" /><circle cx="505" cy="186" r="3.6" fill="#222" stroke="none" stroke-width="0" />
+<text x="580" y="180" font-size="26" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H</text>
+<circle cx="555" cy="186" r="3.6" fill="#222" stroke="none" stroke-width="0" /><circle cx="555" cy="174" r="3.6" fill="#222" stroke="none" stroke-width="0" />
+<text x="530" y="230" font-size="26" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H</text>
+<circle cx="536" cy="205" r="3.6" fill="#222" stroke="none" stroke-width="0" /><circle cx="524" cy="205" r="3.6" fill="#222" stroke="none" stroke-width="0" />
+<text x="530" y="130" font-size="26" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H</text>
+<circle cx="524" cy="155" r="3.6" fill="#f57c00" stroke="none" stroke-width="0" /><circle cx="536" cy="155" r="3.6" fill="#f57c00" stroke="none" stroke-width="0" />
+<path d="M455,110 L446,110 L446,250 L455,250" fill="none" stroke="#222" stroke-width="2" /><path d="M605,110 L614,110 L614,250 L605,250" fill="none" stroke="#222" stroke-width="2" />
+<text x="626" y="104" font-size="22" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >+</text>
+<line x1="610" y1="50" x2="540" y2="152" stroke="#f57c00" stroke-width="2.4"/><circle cx="540" cy="152" r="3.5" fill="#f57c00"/><circle cx="610" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="610" y="51" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="120" y="290" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >NH<tspan dy="5" font-size="72%">3</tspan><tspan dy="-5">​</tspan></text>
+<text x="310" y="290" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >水素イオン</text>
+<text x="530" y="290" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >NH<tspan dy="5" font-size="72%">4</tspan><tspan dy="-5">​</tspan><tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan></text>
+</svg>

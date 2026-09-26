@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" width="720" height="460" font-family="sans-serif">
+<rect width="720" height="460" fill="#fff"/>
+<clipPath id="mf"><path d="M91,150 L91,305 C40,318 38,400 50,410 L150,410 C162,400 160,318 109,305 L109,150 Z"/></clipPath>
+<path d="M91,150 L91,305 C40,318 38,400 50,410 L150,410 C162,400 160,318 109,305 L109,150 Z" fill="#fff" stroke="#607d8b" stroke-width="2.6" />
+<rect x="30" y="190" width="140" height="230" rx="0" fill="#e3f2fd" stroke="none" stroke-width="0" clip-path="url(#mf)" opacity="0.8"/>
+<line x1="86" y1="190" x2="114" y2="190" stroke="#c62828" stroke-width="2.2" />
+<rect x="88" y="132" width="24" height="20" rx="3" fill="#eceff1" stroke="#607d8b" stroke-width="2" />
+<path d="M236,50 L236,220 C222,226 222,318 236,324 L237,392 L240,404 L243,392 L244,324 C258,318 258,226 244,220 L244,50 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<line x1="231" y1="120" x2="249" y2="120" stroke="#c62828" stroke-width="2.2" />
+<rect x="600" y="40" width="9" height="370" rx="0" fill="#b0bec5" stroke="#546e7a" stroke-width="1.5" /><rect x="545" y="406" width="120" height="12" rx="0" fill="#b0bec5" stroke="#546e7a" stroke-width="1.5" />
+<line x1="480" y1="150" x2="602" y2="150" stroke="#546e7a" stroke-width="5" />
+<rect x="460" y="40" width="20" height="262" rx="0" fill="#fff" stroke="#607d8b" stroke-width="2.4" />
+<rect x="462" y="70" width="16" height="230" rx="0" fill="#e1bee7" stroke="none" stroke-width="0" />
+<line x1="462" y1="60" x2="474" y2="60" stroke="#546e7a" stroke-width="1" />
+<line x1="462" y1="72" x2="469" y2="72" stroke="#546e7a" stroke-width="1" />
+<line x1="462" y1="84" x2="469" y2="84" stroke="#546e7a" stroke-width="1" />
+<line x1="462" y1="96" x2="469" y2="96" stroke="#546e7a" stroke-width="1" />
+<line x1="462" y1="108" x2="469" y2="108" stroke="#546e7a" stroke-width="1" />
+<line x1="462" y1="120" x2="474" y2="120" stroke="#546e7a" stroke-width="1" />
+<line x1="462" y1="132" x2="469" y2="132" stroke="#546e7a" stroke-width="1" />
+<line x1="462" y1="144" x2="469" y2="144" stroke="#546e7a" stroke-width="1" />
+<line x1="462" y1="156" x2="469" y2="156" stroke="#546e7a" stroke-width="1" />
+<line x1="462" y1="168" x2="469" y2="168" stroke="#546e7a" stroke-width="1" />
+<line x1="462" y1="180" x2="474" y2="180" stroke="#546e7a" stroke-width="1" />
+<line x1="462" y1="192" x2="469" y2="192" stroke="#546e7a" stroke-width="1" />
+<line x1="462" y1="204" x2="469" y2="204" stroke="#546e7a" stroke-width="1" />
+<line x1="462" y1="216" x2="469" y2="216" stroke="#546e7a" stroke-width="1" />
+<line x1="462" y1="228" x2="469" y2="228" stroke="#546e7a" stroke-width="1" />
+<line x1="462" y1="240" x2="474" y2="240" stroke="#546e7a" stroke-width="1" />
+<line x1="462" y1="252" x2="469" y2="252" stroke="#546e7a" stroke-width="1" />
+<line x1="462" y1="264" x2="469" y2="264" stroke="#546e7a" stroke-width="1" />
+<line x1="462" y1="276" x2="469" y2="276" stroke="#546e7a" stroke-width="1" />
+<line x1="462" y1="288" x2="469" y2="288" stroke="#546e7a" stroke-width="1" />
+<rect x="454" y="304" width="32" height="10" rx="3" fill="#90a4ae" stroke="#546e7a" stroke-width="1.5" />
+<path d="M466,302 L466,322 L470,332 L474,322 L474,302" fill="#fff" stroke="#607d8b" stroke-width="2" />
+<path d="M456,352 L456,365 L420,408 L520,408 L484,365 L484,352" fill="#fff" stroke="#607d8b" stroke-width="2.5" />
+<path d="M438,386 L502,386 L519,406 L421,406 Z" fill="#fce4ec" stroke="none" stroke-width="0" />
+<line x1="100" y1="100" x2="90" y2="170" stroke="#555" stroke-width="1.2"/><circle cx="90" cy="170" r="2.2" fill="#555"/><text x="100" y="100" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >メスフラスコ</text>
+<line x1="240" y1="30" x2="240" y2="52" stroke="#f57c00" stroke-width="2.4"/><circle cx="240" cy="52" r="3.5" fill="#f57c00"/><circle cx="240" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="240" y="31" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="420" y1="70" x2="459" y2="90" stroke="#555" stroke-width="1.2"/><circle cx="459" cy="90" r="2.2" fill="#555"/><text x="420" y="70" font-size="16" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ビュレット</text>
+<line x1="170" y1="170" x2="114" y2="190" stroke="#555" stroke-width="1.2"/><circle cx="114" cy="190" r="2.2" fill="#555"/><text x="170" y="170" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >標線</text>
+<line x1="560" y1="440" x2="500" y2="395" stroke="#555" stroke-width="1.2"/><circle cx="500" cy="395" r="2.2" fill="#555"/><text x="560" y="440" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >コニカルビーカー</text>
+</svg>

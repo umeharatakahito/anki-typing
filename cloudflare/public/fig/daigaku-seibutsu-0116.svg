@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" font-family="sans-serif">
+<rect width="720" height="420" fill="#fff"/>
+<rect x="120" y="30" width="580" height="160" rx="14" fill="#f5f5f5" stroke="#b0bec5" stroke-width="2" />
+<rect x="120" y="235" width="580" height="175" rx="14" fill="#fff3e0" stroke="#f57c00" stroke-width="3" />
+<circle cx="120" cy="235" r="18" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="120" y="236" font-size="23" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<g transform="translate(40 80) rotate(20) scale(0.8)"><rect x="-14" y="-7" width="28" height="14" rx="7" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8" /></g>
+<g transform="translate(70 105) rotate(-30) scale(0.8)"><rect x="-14" y="-7" width="28" height="14" rx="7" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8" /></g>
+<g transform="translate(38 125) rotate(60) scale(0.8)"><rect x="-14" y="-7" width="28" height="14" rx="7" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8" /></g>
+<text x="55" y="160" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >病原体</text>
+<line x1="88" y1="105" x2="118.0" y2="105.0" stroke="#555" stroke-width="2.5"/><polygon points="128,105 118.0,100.0 118.0,110.0" fill="#555"/>
+<polygon points="231.6,88.9 248.5,92.3 256.7,90.0 256.7,100.0 248.5,97.7 231.6,101.1 230.1,104.2 238.0,119.5 244.9,124.5 237.1,130.7 233.8,122.9 220.6,111.7 217.2,112.5 210.2,128.3 210.6,136.8 200.8,134.5 204.9,127.1 205.4,109.8 202.7,107.7 186.0,112.0 179.6,117.6 175.2,108.6 183.7,107.1 197.4,96.7 197.4,93.3 183.7,82.9 175.2,81.4 179.6,72.4 186.0,78.0 202.7,82.3 205.4,80.2 204.9,62.9 200.8,55.5 210.6,53.2 210.2,61.7 217.2,77.5 220.6,78.3 233.8,67.1 237.1,59.3 244.9,65.5 238.0,70.5 230.1,85.8" fill="#ffe082" stroke="#f9a825" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="379.0,95.0 381.8,99.8 382.1,104.9 379.3,109.2 374.4,112.0 369.5,113.8 365.9,115.9 363.8,119.5 362.0,124.4 359.2,129.3 354.9,132.1 349.8,131.8 345.0,129.0 341.0,125.6 337.3,123.6 333.2,123.5 328.0,124.4 322.4,124.5 317.8,122.2 315.5,117.6 315.6,112.0 316.5,106.8 316.4,102.7 314.4,99.0 311.0,95.0 308.2,90.2 307.9,85.1 310.7,80.8 315.6,78.0 320.5,76.2 324.1,74.1 326.2,70.5 328.0,65.6 330.8,60.7 335.1,57.9 340.2,58.2 345.0,61.0 349.0,64.4 352.7,66.4 356.8,66.5 362.0,65.6 367.6,65.5 372.2,67.8 374.5,72.4 374.4,78.0 373.5,83.2 373.6,87.3 375.6,91.0 379.0,95.0" fill="#d7ccc8" stroke="#795548" stroke-width="2.2" stroke-linejoin="round"/>
+<circle cx="340" cy="95" r="11" fill="#8d6e63" stroke="none" stroke-width="0" />
+<g transform="translate(362 108) rotate(30) scale(0.55)"><rect x="-14" y="-7" width="28" height="14" rx="7" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.8" /></g>
+<circle cx="470" cy="95" r="30" fill="#f3e5f5" stroke="#8e24aa" stroke-width="2" /><circle cx="463" cy="91" r="6.5" fill="#7b1fa2" stroke="none" stroke-width="0" /><circle cx="474" cy="88" r="6" fill="#7b1fa2" stroke="none" stroke-width="0" /><circle cx="476" cy="100" r="6.5" fill="#7b1fa2" stroke="none" stroke-width="0" /><line x1="467" y1="90" x2="472" y2="89" stroke="#7b1fa2" stroke-width="3" /><line x1="475" y1="93" x2="476" y2="96" stroke="#7b1fa2" stroke-width="3" />
+<circle cx="600" cy="95" r="28" fill="#e0f7fa" stroke="#00838f" stroke-width="2.2" /><circle cx="600" cy="95" r="14" fill="#00838f" stroke="none" stroke-width="0" opacity="0.55"/>
+<circle cx="582" cy="87" r="2.6" fill="#006064" stroke="none" stroke-width="0" />
+<circle cx="617" cy="105" r="2.6" fill="#006064" stroke="none" stroke-width="0" />
+<circle cx="612" cy="78" r="2.6" fill="#006064" stroke="none" stroke-width="0" />
+<circle cx="590" cy="113" r="2.6" fill="#006064" stroke="none" stroke-width="0" />
+<text x="215" y="160" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >樹状細胞</text>
+<text x="345" y="160" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >マクロファージ</text>
+<text x="470" y="160" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >好中球</text>
+<text x="600" y="160" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >NK細胞</text>
+<circle cx="215" cy="300" r="28" fill="#bbdefb" stroke="#1e88e5" stroke-width="2.2" /><circle cx="215" cy="300" r="19.040000000000003" fill="#1e88e5" stroke="none" stroke-width="0" opacity="0.55"/>
+<circle cx="345" cy="300" r="28" fill="#c5cae9" stroke="#3949ab" stroke-width="2.2" /><circle cx="345" cy="300" r="19.040000000000003" fill="#3949ab" stroke="none" stroke-width="0" opacity="0.55"/>
+<circle cx="475" cy="300" r="28" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.2" /><circle cx="475" cy="300" r="19.040000000000003" fill="#2e7d32" stroke="none" stroke-width="0" opacity="0.55"/>
+<g transform="translate(447.3 284.0) rotate(-60)" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"><path d="M0,8.4 L0,0 L-6.0,-7.199999999999999 M0,0 L6.0,-7.199999999999999"/></g>
+<g transform="translate(475.0 268.0) rotate(0)" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"><path d="M0,8.4 L0,0 L-6.0,-7.199999999999999 M0,0 L6.0,-7.199999999999999"/></g>
+<g transform="translate(502.7 284.0) rotate(60)" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"><path d="M0,8.4 L0,0 L-6.0,-7.199999999999999 M0,0 L6.0,-7.199999999999999"/></g>
+<g transform="translate(475.0 332.0) rotate(180)" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round" fill="none"><path d="M0,8.4 L0,0 L-6.0,-7.199999999999999 M0,0 L6.0,-7.199999999999999"/></g>
+<g transform="translate(600 280) rotate(-20)" stroke="#2e7d32" stroke-width="3.5" stroke-linecap="round" fill="none"><path d="M0,15.400000000000002 L0,0 L-11.0,-13.200000000000001 M0,0 L11.0,-13.200000000000001"/></g>
+<g transform="translate(640 315) rotate(15)" stroke="#2e7d32" stroke-width="3.5" stroke-linecap="round" fill="none"><path d="M0,15.400000000000002 L0,0 L-11.0,-13.200000000000001 M0,0 L11.0,-13.200000000000001"/></g>
+<g transform="translate(585 330) rotate(40)" stroke="#2e7d32" stroke-width="3.5" stroke-linecap="round" fill="none"><path d="M0,15.400000000000002 L0,0 L-11.0,-13.200000000000001 M0,0 L11.0,-13.200000000000001"/></g>
+<text x="215" y="370" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ヘルパーT細胞</text>
+<text x="345" y="370" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >キラーT細胞</text>
+<text x="475" y="370" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >B細胞</text>
+<text x="615" y="370" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >抗体</text>
+<line x1="215" y1="173" x2="215.0" y2="255.0" stroke="#6d4c41" stroke-width="2.5"/><polygon points="215,265 220.0,255.0 210.0,255.0" fill="#6d4c41"/>
+<text x="225" y="210" font-size="14" text-anchor="start" fill="#6d4c41" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >抗原提示</text>
+<line x1="245" y1="300" x2="303.0" y2="300.0" stroke="#555" stroke-width="2.2"/><polygon points="313,300 303.0,295.0 303.0,305.0" fill="#555"/>
+<path d="M225,268 Q340,215 455,266" fill="none" stroke="#555" stroke-width="2.2"/><polygon points="455,266 452.4,255.1 444.7,261.6" fill="#555"/>
+<line x1="505" y1="300" x2="560.0" y2="300.0" stroke="#555" stroke-width="2.2"/><polygon points="570,300 560.0,295.0 560.0,305.0" fill="#555"/>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 410" width="640" height="410" font-family="sans-serif">
+<rect width="640" height="410" fill="#fff"/>
+<path d="M150,390 L190,390 L182,250 L158,250 Z" fill="#b0bec5" stroke="#455a64" stroke-width="2" />
+<rect x="125" y="390" width="90" height="12" rx="2" fill="#90a4ae" stroke="#455a64" stroke-width="1.5" />
+<path d="M170,90 C140,150 136,220 170,248 C204,220 200,150 170,90 Z" fill="#ffee58" stroke="#f57c00" stroke-width="2.4" />
+<path d="M170,180 C158,205 158,232 170,246 C182,232 182,205 170,180 Z" fill="#81d4fa" stroke="none" stroke-width="0" />
+<line x1="164" y1="176" x2="50" y2="194" stroke="#9e9e9e" stroke-width="2.2" />
+<line x1="50" y1="194" x2="18" y2="199" stroke="#795548" stroke-width="8" />
+<line x1="300" y1="110" x2="190" y2="150" stroke="#f57c00" stroke-width="2.4"/><circle cx="190" cy="150" r="3.5" fill="#f57c00"/><circle cx="300" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="300" y="111" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="90" y1="250" x2="90" y2="188" stroke="#555" stroke-width="1.2"/><circle cx="90" cy="188" r="2.2" fill="#555"/><text x="90" y="250" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >白金線</text>
+<line x1="290" y1="330" x2="186" y2="320" stroke="#555" stroke-width="1.2"/><circle cx="186" cy="320" r="2.2" fill="#555"/><text x="290" y="330" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ガスバーナー</text>
+<text x="530" y="40" font-size="15" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >元素と炎の色</text>
+<rect x="440" y="56" width="44" height="28" rx="4" fill="#e53935" stroke="#fff" stroke-width="1" />
+<text x="500" y="70" font-size="17" text-anchor="start" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Li</text>
+<text x="540" y="70" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >赤</text>
+<rect x="440" y="98" width="44" height="28" rx="4" fill="#fdd835" stroke="#fff" stroke-width="1" />
+<text x="500" y="112" font-size="17" text-anchor="start" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Na</text>
+<text x="540" y="112" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >黄</text>
+<rect x="440" y="140" width="44" height="28" rx="4" fill="#ab47bc" stroke="#fff" stroke-width="1" />
+<text x="500" y="154" font-size="17" text-anchor="start" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >K</text>
+<text x="540" y="154" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >赤紫</text>
+<rect x="440" y="182" width="44" height="28" rx="4" fill="#ff7043" stroke="#fff" stroke-width="1" />
+<text x="500" y="196" font-size="17" text-anchor="start" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Ca</text>
+<text x="540" y="196" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >橙赤</text>
+<rect x="440" y="224" width="44" height="28" rx="4" fill="#c2185b" stroke="#fff" stroke-width="1" />
+<text x="500" y="238" font-size="17" text-anchor="start" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Sr</text>
+<text x="540" y="238" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >紅（深赤）</text>
+<rect x="440" y="266" width="44" height="28" rx="4" fill="#9ccc65" stroke="#fff" stroke-width="1" />
+<text x="500" y="280" font-size="17" text-anchor="start" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Ba</text>
+<text x="540" y="280" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >黄緑</text>
+<rect x="440" y="308" width="44" height="28" rx="4" fill="#26a69a" stroke="#fff" stroke-width="1" />
+<text x="500" y="322" font-size="17" text-anchor="start" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Cu</text>
+<text x="540" y="322" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >青緑</text>
+</svg>

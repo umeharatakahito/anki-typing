@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" width="680" height="300" font-family="sans-serif">
+<rect width="680" height="300" fill="#fff"/>
+<rect x="150" y="70" width="90" height="36" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.2" />
+<rect x="240" y="70" width="70" height="36" rx="4" fill="#cfd8dc" stroke="#78909c" stroke-width="2.2" />
+<rect x="310" y="70" width="100" height="36" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.2" />
+<rect x="410" y="70" width="70" height="36" rx="4" fill="#cfd8dc" stroke="#78909c" stroke-width="2.2" />
+<rect x="480" y="70" width="90" height="36" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.2" />
+<text x="130" y="89" font-size="16" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >mRNA前駆体</text>
+<line x1="360" y1="125" x2="360.0" y2="201.0" stroke="#555" stroke-width="2.6"/><polygon points="360,215 367.0,201.0 353.0,201.0" fill="#555"/>
+<rect x="215" y="235" width="90" height="36" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.2" />
+<rect x="305" y="235" width="100" height="36" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.2" />
+<rect x="405" y="235" width="90" height="36" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2.2" />
+<text x="195" y="254" font-size="16" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >mRNA</text>
+<circle cx="560" cy="175" r="18" fill="none" stroke="#78909c" stroke-width="5" />
+<line x1="560" y1="193" x2="560" y2="215" stroke="#78909c" stroke-width="5" />
+<circle cx="630" cy="175" r="18" fill="none" stroke="#78909c" stroke-width="5" />
+<line x1="630" y1="193" x2="630" y2="215" stroke="#78909c" stroke-width="5" />
+<line x1="470" y1="140" x2="526.4" y2="157.4" stroke="#555" stroke-width="1.8"/><polygon points="535,160 527.7,153.1 525.1,161.7" fill="#555"/>
+<text x="595" y="240" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >取り除かれる</text>
+<line x1="195" y1="160" x2="195" y2="106" stroke="#f57c00" stroke-width="2.4"/><circle cx="195" cy="106" r="3.5" fill="#f57c00"/><line x1="195" y1="160" x2="260" y2="235" stroke="#f57c00" stroke-width="2.4"/><circle cx="260" cy="235" r="3.5" fill="#f57c00"/><circle cx="195" cy="160" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="195" y="161" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="270" y1="30" x2="275" y2="70" stroke="#555" stroke-width="1.2"/><circle cx="275" cy="70" r="2.2" fill="#555"/><text x="270" y="30" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >イントロン</text>
+</svg>

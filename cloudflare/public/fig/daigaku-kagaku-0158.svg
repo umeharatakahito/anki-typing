@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" width="660" height="400" font-family="sans-serif">
+<rect width="660" height="400" fill="#fff"/>
+<line x1="200" y1="360.0" x2="200" y2="68.90000000000003" stroke="#222" stroke-width="2.5" />
+<line x1="440" y1="360.0" x2="440" y2="68.90000000000003" stroke="#222" stroke-width="2.5" />
+<line x1="192" y1="88.90000000000003" x2="208" y2="88.90000000000003" stroke="#222" stroke-width="2.5" />
+<line x1="432" y1="88.90000000000003" x2="448" y2="88.90000000000003" stroke="#f57c00" stroke-width="3" />
+<line x1="214" y1="88.90000000000003" x2="426" y2="88.90000000000003" stroke="#555" stroke-width="1.2" stroke-dasharray="5 5"/>
+<text x="184" y="88.90000000000003" font-size="18" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >100</text>
+<text x="456" y="88.90000000000003" font-size="18" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >373</text>
+<text x="320" y="74.90000000000003" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >水の沸点</text>
+<line x1="192" y1="158.9" x2="208" y2="158.9" stroke="#222" stroke-width="2.5" />
+<line x1="432" y1="158.9" x2="448" y2="158.9" stroke="#f57c00" stroke-width="3" />
+<line x1="214" y1="158.9" x2="426" y2="158.9" stroke="#555" stroke-width="1.2" stroke-dasharray="5 5"/>
+<text x="184" y="158.9" font-size="18" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0</text>
+<text x="456" y="158.9" font-size="18" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >273</text>
+<text x="320" y="144.9" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >水の凝固点</text>
+<line x1="192" y1="350.0" x2="208" y2="350.0" stroke="#222" stroke-width="2.5" />
+<line x1="432" y1="350.0" x2="448" y2="350.0" stroke="#f57c00" stroke-width="3" />
+<line x1="214" y1="350.0" x2="426" y2="350.0" stroke="#555" stroke-width="1.2" stroke-dasharray="5 5"/>
+<text x="184" y="350.0" font-size="18" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >−273</text>
+<text x="456" y="350.0" font-size="18" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0</text>
+<text x="200" y="30" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >セルシウス温度 [℃]</text>
+<circle cx="440" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="440" y="31" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="320" y="384.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >これより低い温度はない</text>
+<text x="560" y="130.9" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >T = t + 273</text>
+</svg>

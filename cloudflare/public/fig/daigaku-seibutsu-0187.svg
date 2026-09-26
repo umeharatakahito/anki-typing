@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 370" width="700" height="370" font-family="sans-serif">
+<rect width="700" height="370" fill="#fff"/>
+<line x1="30" y1="110" x2="89.0" y2="110.0" stroke="#f9a825" stroke-width="3"/><polygon points="100,110 89.0,104.5 89.0,115.5" fill="#f9a825"/><line x1="30" y1="150" x2="89.0" y2="150.0" stroke="#f9a825" stroke-width="3"/><polygon points="100,150 89.0,144.5 89.0,155.5" fill="#f9a825"/><line x1="30" y1="190" x2="89.0" y2="190.0" stroke="#f9a825" stroke-width="3"/><polygon points="100,190 89.0,184.5 89.0,195.5" fill="#f9a825"/><text x="65.0" y="88" font-size="16" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >光</text>
+<path d="M207.0,320 C207.0,235.0 193.5,190 162.0,165 Q175,138 188.0,165 C219.5,190 233.0,235.0 233.0,320 Z" fill="#dcedc8" stroke="#558b2f" stroke-width="2.2" />
+<line x1="130" y1="320" x2="320" y2="320" stroke="#8d6e63" stroke-width="2" />
+<text x="220" y="350" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >光の方向へ曲がる</text>
+<path d="M460,200 Q510,200 530,160 Q542,130 542,100" fill="none" stroke="#558b2f" stroke-width="12" stroke-linecap="round"/>
+<path d="M460,200 Q410,200 395,240 Q385,270 385,300" fill="none" stroke="#a1887f" stroke-width="9" stroke-linecap="round"/>
+<ellipse cx="460" cy="200" rx="16" ry="12" fill="#fff59d" stroke="#f9a825" stroke-width="2" />
+<line x1="650" y1="130" x2="650.0" y2="248.0" stroke="#555" stroke-width="3"/><polygon points="650,260 656.0,248.0 644.0,248.0" fill="#555"/>
+<text x="650" y="285" font-size="16" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >重力</text>
+<text x="460" y="345" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >茎は上へ・根は下へ曲がる</text>
+<line x1="380" y1="60" x2="205" y2="150" stroke="#f57c00" stroke-width="2.4" />
+<circle cx="205" cy="150" r="3.5" fill="#f57c00" stroke="none" stroke-width="0" />
+<line x1="380" y1="60" x2="532" y2="150" stroke="#f57c00" stroke-width="2.4"/><circle cx="532" cy="150" r="3.5" fill="#f57c00"/><circle cx="380" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="380" y="61" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

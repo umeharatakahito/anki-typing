@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 710 340" width="710" height="340" font-family="sans-serif">
+<rect width="710" height="340" fill="#fff"/>
+<rect x="55" y="150" width="40" height="44" rx="0" fill="#c62828" stroke="#fff" stroke-width="1" />
+<text x="75.0" y="212" font-size="16" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0</text>
+<rect x="95" y="150" width="40" height="44" rx="0" fill="#e53935" stroke="#fff" stroke-width="1" />
+<text x="115.0" y="212" font-size="16" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1</text>
+<rect x="135" y="150" width="40" height="44" rx="0" fill="#f4511e" stroke="#fff" stroke-width="1" />
+<text x="155.0" y="212" font-size="16" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2</text>
+<rect x="175" y="150" width="40" height="44" rx="0" fill="#fb8c00" stroke="#fff" stroke-width="1" />
+<text x="195.0" y="212" font-size="16" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >3</text>
+<rect x="215" y="150" width="40" height="44" rx="0" fill="#ffb300" stroke="#fff" stroke-width="1" />
+<text x="235.0" y="212" font-size="16" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >4</text>
+<rect x="255" y="150" width="40" height="44" rx="0" fill="#fdd835" stroke="#fff" stroke-width="1" />
+<text x="275.0" y="212" font-size="16" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >5</text>
+<rect x="295" y="150" width="40" height="44" rx="0" fill="#c0ca33" stroke="#fff" stroke-width="1" />
+<text x="315.0" y="212" font-size="16" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >6</text>
+<rect x="335" y="150" width="40" height="44" rx="0" fill="#7cb342" stroke="#fff" stroke-width="1" />
+<text x="355.0" y="212" font-size="16" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >7</text>
+<rect x="375" y="150" width="40" height="44" rx="0" fill="#43a047" stroke="#fff" stroke-width="1" />
+<text x="395.0" y="212" font-size="16" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >8</text>
+<rect x="415" y="150" width="40" height="44" rx="0" fill="#26a69a" stroke="#fff" stroke-width="1" />
+<text x="435.0" y="212" font-size="16" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >9</text>
+<rect x="455" y="150" width="40" height="44" rx="0" fill="#1e88e5" stroke="#fff" stroke-width="1" />
+<text x="475.0" y="212" font-size="16" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >10</text>
+<rect x="495" y="150" width="40" height="44" rx="0" fill="#3949ab" stroke="#fff" stroke-width="1" />
+<text x="515.0" y="212" font-size="16" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >11</text>
+<rect x="535" y="150" width="40" height="44" rx="0" fill="#5e35b1" stroke="#fff" stroke-width="1" />
+<text x="555.0" y="212" font-size="16" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >12</text>
+<rect x="575" y="150" width="40" height="44" rx="0" fill="#6a1b9a" stroke="#fff" stroke-width="1" />
+<text x="595.0" y="212" font-size="16" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >13</text>
+<rect x="615" y="150" width="40" height="44" rx="0" fill="#4a148c" stroke="#fff" stroke-width="1" />
+<text x="635.0" y="212" font-size="16" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >14</text>
+<line x1="135.0" y1="140" x2="135.0" y2="150" stroke="#555" stroke-width="1.2" /><text x="135.0" y="132" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >胃液</text>
+<line x1="175.0" y1="112" x2="175.0" y2="150" stroke="#555" stroke-width="1.2" /><text x="175.0" y="104" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >レモン果汁</text>
+<line x1="355.0" y1="140" x2="355.0" y2="150" stroke="#555" stroke-width="1.2" /><text x="355.0" y="132" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >純水</text>
+<line x1="403.0" y1="112" x2="403.0" y2="150" stroke="#555" stroke-width="1.2" /><text x="403.0" y="104" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >海水</text>
+<line x1="495.0" y1="140" x2="495.0" y2="150" stroke="#555" stroke-width="1.2" /><text x="495.0" y="132" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >石けん水</text>
+<line x1="335" y1="250" x2="75.0" y2="250.0" stroke="#c62828" stroke-width="3"/><polygon points="63,250 75.0,256.0 75.0,244.0" fill="#c62828"/>
+<line x1="375" y1="250" x2="635.0" y2="250.0" stroke="#4527a0" stroke-width="3"/><polygon points="647,250 635.0,244.0 635.0,256.0" fill="#4527a0"/>
+<text x="195.0" y="274" font-size="15" text-anchor="middle" fill="#c62828" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >酸性が強い</text>
+<text x="355.0" y="250" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >中性</text>
+<text x="515.0" y="274" font-size="15" text-anchor="middle" fill="#4527a0" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >塩基性が強い</text>
+<text x="355.0" y="310" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >[H<tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan>] が大きい ← → [H<tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan>] が小さい（25℃）</text>
+<circle cx="69" cy="42" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="69" y="43" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text><text x="91" y="42" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >の目盛り</text>
+</svg>

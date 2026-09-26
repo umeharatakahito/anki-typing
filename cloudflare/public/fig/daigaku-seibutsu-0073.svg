@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" font-family="sans-serif">
+<rect width="640" height="420" fill="#fff"/>
+<rect x="170" y="15" width="48" height="110" rx="0" fill="#bbdefb" stroke="#1565c0" stroke-width="2.5" />
+<rect x="300" y="15" width="50" height="100" rx="0" fill="#ffcdd2" stroke="#c62828" stroke-width="2.5" />
+<path d="M150,95 Q200,62 265,85 L 340,85 Q400,70 460,95 Q515,135 500,225 Q485,320 320,405 Q210,330 140,245 Q108,170 150,95 Z" fill="#e57373" stroke="#b71c1c" stroke-width="3" />
+<ellipse cx="210" cy="150" rx="55" ry="50" fill="#bbdefb" stroke="#1565c0" stroke-width="2" />
+<ellipse cx="412" cy="145" rx="58" ry="40" fill="#ffcdd2" stroke="#c62828" stroke-width="2" />
+<path d="M168,228 L300,228 L300,335 Q292,352 280,356 Q205,300 168,228 Z" fill="#bbdefb" stroke="#1565c0" stroke-width="2" />
+<path d="M335,228 L472,228 Q466,305 332,372 Q342,330 335,228 Z" fill="#ffcdd2" stroke="#c62828" stroke-width="2" />
+<rect x="205" y="190" width="36" height="44" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" />
+<rect x="395" y="175" width="36" height="58" rx="0" fill="#ffcdd2" stroke="none" stroke-width="0" />
+<path d="M205,222 L223,236 L241,222" fill="none" stroke="#fff" stroke-width="3" />
+<path d="M395,222 L413,236 L431,222" fill="none" stroke="#fff" stroke-width="3" />
+<rect x="172" y="90" width="44" height="18" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" />
+<ellipse cx="222" cy="104" rx="13" ry="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<line x1="90" y1="60" x2="212" y2="102" stroke="#f57c00" stroke-width="2.4"/><circle cx="212" cy="102" r="3.5" fill="#f57c00"/><circle cx="90" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="90" y="61" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="160" y1="30" x2="172" y2="40" stroke="#555" stroke-width="1.2"/><circle cx="172" cy="40" r="2.2" fill="#555"/><text x="160" y="30" font-size="17" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >大静脈</text>
+<line x1="365" y1="30" x2="348" y2="40" stroke="#555" stroke-width="1.2"/><circle cx="348" cy="40" r="2.2" fill="#555"/><text x="365" y="30" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >大動脈</text>
+<line x1="100" y1="160" x2="180" y2="160" stroke="#555" stroke-width="1.2"/><circle cx="180" cy="160" r="2.2" fill="#555"/><text x="100" y="160" font-size="17" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >右心房</text>
+<line x1="110" y1="320" x2="225" y2="290" stroke="#555" stroke-width="1.2"/><circle cx="225" cy="290" r="2.2" fill="#555"/><text x="110" y="320" font-size="17" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >右心室</text>
+<line x1="545" y1="120" x2="440" y2="140" stroke="#555" stroke-width="1.2"/><circle cx="440" cy="140" r="2.2" fill="#555"/><text x="545" y="120" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >左心房</text>
+<line x1="545" y1="290" x2="420" y2="270" stroke="#555" stroke-width="1.2"/><circle cx="420" cy="270" r="2.2" fill="#555"/><text x="545" y="290" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >左心室</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 370" width="700" height="370" font-family="sans-serif">
+<rect width="700" height="370" fill="#fff"/>
+<path d="M230,108 L230,98 L470,98 L470,108" fill="none" stroke="#555" stroke-width="1.6" />
+<rect x="152" y="92" width="36" height="36" rx="4" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.4" />
+<text x="170.0" y="111" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<rect x="152" y="142" width="36" height="36" rx="4" fill="#fff59d" stroke="#607d8b" stroke-width="1.4" />
+<text x="170.0" y="161" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text>
+<rect x="192" y="92" width="36" height="36" rx="4" fill="#90caf9" stroke="#607d8b" stroke-width="1.4" />
+<text x="210.0" y="111" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text>
+<rect x="192" y="142" width="36" height="36" rx="4" fill="#a5d6a7" stroke="#607d8b" stroke-width="1.4" />
+<text x="210.0" y="161" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >G</text>
+<rect x="232" y="92" width="36" height="36" rx="4" fill="#a5d6a7" stroke="#607d8b" stroke-width="1.4" />
+<text x="250.0" y="111" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >G</text>
+<rect x="232" y="142" width="36" height="36" rx="4" fill="#90caf9" stroke="#607d8b" stroke-width="1.4" />
+<text x="250.0" y="161" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text>
+<rect x="272" y="92" width="36" height="36" rx="4" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.4" />
+<text x="290.0" y="111" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<rect x="272" y="142" width="36" height="36" rx="4" fill="#fff59d" stroke="#607d8b" stroke-width="1.4" />
+<text x="290.0" y="161" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text>
+<rect x="312" y="92" width="36" height="36" rx="4" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.4" />
+<text x="330.0" y="111" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<rect x="312" y="142" width="36" height="36" rx="4" fill="#fff59d" stroke="#607d8b" stroke-width="1.4" />
+<text x="330.0" y="161" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text>
+<rect x="352" y="92" width="36" height="36" rx="4" fill="#fff59d" stroke="#607d8b" stroke-width="1.4" />
+<text x="370.0" y="111" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text>
+<rect x="352" y="142" width="36" height="36" rx="4" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.4" />
+<text x="370.0" y="161" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<rect x="392" y="92" width="36" height="36" rx="4" fill="#fff59d" stroke="#607d8b" stroke-width="1.4" />
+<text x="410.0" y="111" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text>
+<rect x="392" y="142" width="36" height="36" rx="4" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.4" />
+<text x="410.0" y="161" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<rect x="432" y="92" width="36" height="36" rx="4" fill="#90caf9" stroke="#607d8b" stroke-width="1.4" />
+<text x="450.0" y="111" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text>
+<rect x="432" y="142" width="36" height="36" rx="4" fill="#a5d6a7" stroke="#607d8b" stroke-width="1.4" />
+<text x="450.0" y="161" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >G</text>
+<rect x="472" y="92" width="36" height="36" rx="4" fill="#fff59d" stroke="#607d8b" stroke-width="1.4" />
+<text x="490.0" y="111" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text>
+<rect x="472" y="142" width="36" height="36" rx="4" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.4" />
+<text x="490.0" y="161" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<rect x="512" y="92" width="36" height="36" rx="4" fill="#a5d6a7" stroke="#607d8b" stroke-width="1.4" />
+<text x="530.0" y="111" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >G</text>
+<rect x="512" y="142" width="36" height="36" rx="4" fill="#90caf9" stroke="#607d8b" stroke-width="1.4" />
+<text x="530.0" y="161" font-size="18" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text>
+<text x="138" y="110" font-size="15" text-anchor="end" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >5&#x27;</text>
+<text x="138" y="160" font-size="15" text-anchor="end" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >3&#x27;</text>
+<text x="562" y="110" font-size="15" text-anchor="start" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >3&#x27;</text>
+<text x="562" y="160" font-size="15" text-anchor="start" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >5&#x27;</text>
+<path d="M270,82 L270,135.0 L430,135.0 L430,188" fill="none" stroke="#e53935" stroke-width="3" stroke-dasharray="7 4"/>
+<polygon points="262.0,70.0 278.0,70.0 270.0,82.0" fill="#e53935" stroke="#e53935" stroke-width="1" />
+<polygon points="422.0,200.0 438.0,200.0 430.0,188.0" fill="#e53935" stroke="#e53935" stroke-width="1" />
+<text x="256" y="76" font-size="15" text-anchor="end" fill="#e53935" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >切断</text>
+<text x="444" y="194" font-size="15" text-anchor="start" fill="#e53935" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >切断</text>
+<text x="350" y="60" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >特定の塩基配列を認識</text>
+<path d="M600,110 A34,34 0 1 1 600,160 L625,135 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.6" />
+<line x1="640" y1="50" x2="630" y2="102" stroke="#f57c00" stroke-width="2.4"/><circle cx="630" cy="102" r="3.5" fill="#f57c00"/><circle cx="640" cy="50" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="640" y="51" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="111" y="257" width="24" height="26" rx="3" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.2" /><text x="123.0" y="271" font-size="14" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text><rect x="137" y="257" width="24" height="26" rx="3" fill="#90caf9" stroke="#607d8b" stroke-width="1.2" /><text x="149.0" y="271" font-size="14" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text><rect x="163" y="257" width="24" height="26" rx="3" fill="#a5d6a7" stroke="#607d8b" stroke-width="1.2" /><text x="175.0" y="271" font-size="14" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >G</text>
+<rect x="111" y="287" width="24" height="26" rx="3" fill="#fff59d" stroke="#607d8b" stroke-width="1.2" /><text x="123.0" y="301" font-size="14" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text><rect x="137" y="287" width="24" height="26" rx="3" fill="#a5d6a7" stroke="#607d8b" stroke-width="1.2" /><text x="149.0" y="301" font-size="14" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >G</text><rect x="163" y="287" width="24" height="26" rx="3" fill="#90caf9" stroke="#607d8b" stroke-width="1.2" /><text x="175.0" y="301" font-size="14" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text><rect x="189" y="287" width="24" height="26" rx="3" fill="#fff59d" stroke="#607d8b" stroke-width="1.2" /><text x="201.0" y="301" font-size="14" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text><rect x="215" y="287" width="24" height="26" rx="3" fill="#fff59d" stroke="#607d8b" stroke-width="1.2" /><text x="227.0" y="301" font-size="14" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text><rect x="241" y="287" width="24" height="26" rx="3" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.2" /><text x="253.0" y="301" font-size="14" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text><rect x="267" y="287" width="24" height="26" rx="3" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.2" /><text x="279.0" y="301" font-size="14" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text>
+<rect x="411" y="257" width="24" height="26" rx="3" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.2" /><text x="423.0" y="271" font-size="14" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text><rect x="437" y="257" width="24" height="26" rx="3" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.2" /><text x="449.0" y="271" font-size="14" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text><rect x="463" y="257" width="24" height="26" rx="3" fill="#fff59d" stroke="#607d8b" stroke-width="1.2" /><text x="475.0" y="271" font-size="14" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text><rect x="489" y="257" width="24" height="26" rx="3" fill="#fff59d" stroke="#607d8b" stroke-width="1.2" /><text x="501.0" y="271" font-size="14" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text><rect x="515" y="257" width="24" height="26" rx="3" fill="#90caf9" stroke="#607d8b" stroke-width="1.2" /><text x="527.0" y="271" font-size="14" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text><rect x="541" y="257" width="24" height="26" rx="3" fill="#fff59d" stroke="#607d8b" stroke-width="1.2" /><text x="553.0" y="271" font-size="14" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >T</text><rect x="567" y="257" width="24" height="26" rx="3" fill="#a5d6a7" stroke="#607d8b" stroke-width="1.2" /><text x="579.0" y="271" font-size="14" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >G</text>
+<rect x="515" y="287" width="24" height="26" rx="3" fill="#a5d6a7" stroke="#607d8b" stroke-width="1.2" /><text x="527.0" y="301" font-size="14" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >G</text><rect x="541" y="287" width="24" height="26" rx="3" fill="#ef9a9a" stroke="#607d8b" stroke-width="1.2" /><text x="553.0" y="301" font-size="14" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >A</text><rect x="567" y="287" width="24" height="26" rx="3" fill="#90caf9" stroke="#607d8b" stroke-width="1.2" /><text x="579.0" y="301" font-size="14" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle"  >C</text>
+<line x1="330" y1="212" x2="330.0" y2="235.0" stroke="#555" stroke-width="2.2"/><polygon points="330,245 335.0,235.0 325.0,235.0" fill="#555"/>
+<text x="330" y="345" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >切断後（1本鎖が突き出た末端ができる）</text>
+</svg>

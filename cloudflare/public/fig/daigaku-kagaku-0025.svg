@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" font-family="sans-serif">
+<rect width="640" height="360" fill="#fff"/>
+<circle cx="140" cy="90" r="14" fill="#e1bee7" stroke="#8e24aa" stroke-width="1.8" /><text x="140" y="91" font-size="15" text-anchor="middle" fill="#8e24aa" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="140" cy="146" r="21" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.8" /><text x="140" y="147" font-size="23" text-anchor="middle" fill="#2e7d32" font-weight="bold" dominant-baseline="middle"  >−</text>
+<circle cx="140" cy="202" r="14" fill="#e1bee7" stroke="#8e24aa" stroke-width="1.8" /><text x="140" y="203" font-size="15" text-anchor="middle" fill="#8e24aa" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="140" cy="258" r="21" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.8" /><text x="140" y="259" font-size="23" text-anchor="middle" fill="#2e7d32" font-weight="bold" dominant-baseline="middle"  >−</text>
+<circle cx="196" cy="90" r="21" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.8" /><text x="196" y="91" font-size="23" text-anchor="middle" fill="#2e7d32" font-weight="bold" dominant-baseline="middle"  >−</text>
+<circle cx="196" cy="146" r="14" fill="#e1bee7" stroke="#8e24aa" stroke-width="1.8" /><text x="196" y="147" font-size="15" text-anchor="middle" fill="#8e24aa" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="196" cy="202" r="21" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.8" /><text x="196" y="203" font-size="23" text-anchor="middle" fill="#2e7d32" font-weight="bold" dominant-baseline="middle"  >−</text>
+<circle cx="196" cy="258" r="14" fill="#e1bee7" stroke="#8e24aa" stroke-width="1.8" /><text x="196" y="259" font-size="15" text-anchor="middle" fill="#8e24aa" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="252" cy="90" r="14" fill="#e1bee7" stroke="#8e24aa" stroke-width="1.8" /><text x="252" y="91" font-size="15" text-anchor="middle" fill="#8e24aa" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="252" cy="146" r="21" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.8" /><text x="252" y="147" font-size="23" text-anchor="middle" fill="#2e7d32" font-weight="bold" dominant-baseline="middle"  >−</text>
+<circle cx="252" cy="202" r="14" fill="#e1bee7" stroke="#8e24aa" stroke-width="1.8" /><text x="252" y="203" font-size="15" text-anchor="middle" fill="#8e24aa" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="252" cy="258" r="21" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.8" /><text x="252" y="259" font-size="23" text-anchor="middle" fill="#2e7d32" font-weight="bold" dominant-baseline="middle"  >−</text>
+<circle cx="308" cy="90" r="21" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.8" /><text x="308" y="91" font-size="23" text-anchor="middle" fill="#2e7d32" font-weight="bold" dominant-baseline="middle"  >−</text>
+<circle cx="308" cy="146" r="14" fill="#e1bee7" stroke="#8e24aa" stroke-width="1.8" /><text x="308" y="147" font-size="15" text-anchor="middle" fill="#8e24aa" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="308" cy="202" r="21" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.8" /><text x="308" y="203" font-size="23" text-anchor="middle" fill="#2e7d32" font-weight="bold" dominant-baseline="middle"  >−</text>
+<circle cx="308" cy="258" r="14" fill="#e1bee7" stroke="#8e24aa" stroke-width="1.8" /><text x="308" y="259" font-size="15" text-anchor="middle" fill="#8e24aa" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="364" cy="90" r="14" fill="#e1bee7" stroke="#8e24aa" stroke-width="1.8" /><text x="364" y="91" font-size="15" text-anchor="middle" fill="#8e24aa" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="364" cy="146" r="21" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.8" /><text x="364" y="147" font-size="23" text-anchor="middle" fill="#2e7d32" font-weight="bold" dominant-baseline="middle"  >−</text>
+<circle cx="364" cy="202" r="14" fill="#e1bee7" stroke="#8e24aa" stroke-width="1.8" /><text x="364" y="203" font-size="15" text-anchor="middle" fill="#8e24aa" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="364" cy="258" r="21" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.8" /><text x="364" y="259" font-size="23" text-anchor="middle" fill="#2e7d32" font-weight="bold" dominant-baseline="middle"  >−</text>
+<circle cx="420" cy="90" r="21" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.8" /><text x="420" y="91" font-size="23" text-anchor="middle" fill="#2e7d32" font-weight="bold" dominant-baseline="middle"  >−</text>
+<circle cx="420" cy="146" r="14" fill="#e1bee7" stroke="#8e24aa" stroke-width="1.8" /><text x="420" y="147" font-size="15" text-anchor="middle" fill="#8e24aa" font-weight="bold" dominant-baseline="middle"  >+</text>
+<circle cx="420" cy="202" r="21" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.8" /><text x="420" y="203" font-size="23" text-anchor="middle" fill="#2e7d32" font-weight="bold" dominant-baseline="middle"  >−</text>
+<circle cx="420" cy="258" r="14" fill="#e1bee7" stroke="#8e24aa" stroke-width="1.8" /><text x="420" y="259" font-size="15" text-anchor="middle" fill="#8e24aa" font-weight="bold" dominant-baseline="middle"  >+</text>
+<line x1="267" y1="202" x2="286" y2="202" stroke="#f57c00" stroke-width="3" />
+<line x1="237" y1="202" x2="218" y2="202" stroke="#f57c00" stroke-width="3" />
+<line x1="252" y1="217" x2="252" y2="236" stroke="#f57c00" stroke-width="3" />
+<line x1="252" y1="187" x2="252" y2="168" stroke="#f57c00" stroke-width="3" />
+<circle cx="252" cy="202" r="14" fill="#e1bee7" stroke="#8e24aa" stroke-width="1.8" /><text x="252" y="203" font-size="15" text-anchor="middle" fill="#8e24aa" font-weight="bold" dominant-baseline="middle"  >+</text>
+<line x1="560" y1="60" x2="280" y2="201" stroke="#f57c00" stroke-width="2.4"/><circle cx="280" cy="201" r="3.5" fill="#f57c00"/><circle cx="560" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="560" y="61" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="560" y1="180" x2="374" y2="208" stroke="#555" stroke-width="1.2"/><circle cx="374" cy="208" r="2.2" fill="#555"/><text x="560" y="180" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Na<tspan dy="-7" font-size="72%">+</tspan><tspan dy="7">​</tspan></text>
+<line x1="560" y1="290" x2="432" y2="270" stroke="#555" stroke-width="1.2"/><circle cx="432" cy="270" r="2.2" fill="#555"/><text x="560" y="290" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Cl<tspan dy="-7" font-size="72%">-</tspan><tspan dy="7">​</tspan></text>
+<text x="280" y="330" font-size="15" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >陽イオンと陰イオンが交互に並ぶ</text>
+</svg>

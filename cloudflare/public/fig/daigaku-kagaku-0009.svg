@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 390" width="700" height="390" font-family="sans-serif">
+<rect width="700" height="390" fill="#fff"/>
+<line x1="70.0" y1="340" x2="70.0" y2="345" stroke="#555" stroke-width="1.5" /><text x="70.0" y="356" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0</text>
+<line x1="145.0" y1="340" x2="145.0" y2="345" stroke="#555" stroke-width="1.5" /><text x="145.0" y="356" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >20</text>
+<line x1="220.0" y1="340" x2="220.0" y2="345" stroke="#555" stroke-width="1.5" /><text x="220.0" y="356" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >40</text>
+<line x1="295.0" y1="340" x2="295.0" y2="345" stroke="#555" stroke-width="1.5" /><text x="295.0" y="356" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >60</text>
+<line x1="370.0" y1="340" x2="370.0" y2="345" stroke="#555" stroke-width="1.5" /><text x="370.0" y="356" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >80</text>
+<line x1="65" y1="340.0" x2="70" y2="340.0" stroke="#555" stroke-width="1.5" /><text x="61" y="340.0" font-size="13" text-anchor="end" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0</text>
+<line x1="65" y1="280.0" x2="70" y2="280.0" stroke="#555" stroke-width="1.5" /><text x="61" y="280.0" font-size="13" text-anchor="end" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >40</text>
+<line x1="70" y1="280.0" x2="370" y2="280.0" stroke="#eceff1" stroke-width="1" />
+<line x1="65" y1="220.0" x2="70" y2="220.0" stroke="#555" stroke-width="1.5" /><text x="61" y="220.0" font-size="13" text-anchor="end" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >80</text>
+<line x1="70" y1="220.0" x2="370" y2="220.0" stroke="#eceff1" stroke-width="1" />
+<line x1="65" y1="160.0" x2="70" y2="160.0" stroke="#555" stroke-width="1.5" /><text x="61" y="160.0" font-size="13" text-anchor="end" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >120</text>
+<line x1="70" y1="160.0" x2="370" y2="160.0" stroke="#eceff1" stroke-width="1" />
+<line x1="65" y1="100.0" x2="70" y2="100.0" stroke="#555" stroke-width="1.5" /><text x="61" y="100.0" font-size="13" text-anchor="end" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >160</text>
+<line x1="70" y1="100.0" x2="370" y2="100.0" stroke="#eceff1" stroke-width="1" />
+<line x1="70" y1="340" x2="370" y2="340" stroke="#555" stroke-width="2" /><line x1="70" y1="340" x2="70" y2="70" stroke="#555" stroke-width="2" />
+<text x="220.0" y="378" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >温度 [℃]</text>
+<text x="64" y="54" font-size="14" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >溶解度 [g/水 100 g]</text>
+<polyline points="70.0,320.1 107.5,307.0 145.0,292.6 182.5,271.6 220.0,244.2 257.5,212.2 295.0,176.5 332.5,133.0 370.0,86.5" fill="none" stroke="#1e88e5" stroke-width="3" stroke-linejoin="round"/>
+<text x="302.5" y="100.0" font-size="14" text-anchor="end" fill="#1e88e5" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >硝酸カリウム</text>
+<circle cx="295.0" cy="176.5" r="5" fill="#1e88e5" stroke="#fff" stroke-width="1.5" />
+<line x1="289.0" y1="176.5" x2="156.0" y2="176.5" stroke="#607d8b" stroke-width="2" stroke-dasharray="5 4"/><polygon points="147.0,176.5 156.0,181.0 156.0,172.0" fill="#607d8b"/>
+<text x="220.0" y="162.5" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >冷却</text>
+<line x1="145.0" y1="176.5" x2="145.0" y2="292.6" stroke="#f57c00" stroke-width="5" />
+<circle cx="145.0" cy="292.6" r="5" fill="#1e88e5" stroke="#fff" stroke-width="1.5" />
+<text x="155.0" y="218.55" font-size="14" text-anchor="start" fill="#f57c00" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >析出量</text>
+<text x="155.0" y="236.55" font-size="14" text-anchor="start" fill="#f57c00" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >約 77 g</text>
+<rect x="432" y="150" width="76" height="68" rx="0" fill="#ffebee" stroke="none" stroke-width="0" />
+<path d="M430,120 L430,220 L510,220 L510,120" fill="none" stroke="#607d8b" stroke-width="2.5" />
+<rect x="582" y="150" width="76" height="68" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" />
+<path d="M580,120 L580,220 L660,220 L660,120" fill="none" stroke="#607d8b" stroke-width="2.5" />
+<polygon points="594,205 600,212 594,219 588,212" fill="#fff" stroke="#1e88e5" stroke-width="1.5"/>
+<polygon points="610,203 616,210 610,217 604,210" fill="#fff" stroke="#1e88e5" stroke-width="1.5"/>
+<polygon points="626,206 632,213 626,220 620,213" fill="#fff" stroke="#1e88e5" stroke-width="1.5"/>
+<polygon points="642,203 648,210 642,217 636,210" fill="#fff" stroke="#1e88e5" stroke-width="1.5"/>
+<polygon points="602,195 608,202 602,209 596,202" fill="#fff" stroke="#1e88e5" stroke-width="1.5"/>
+<polygon points="634,195 640,202 634,209 628,202" fill="#fff" stroke="#1e88e5" stroke-width="1.5"/>
+<line x1="520" y1="180" x2="559.0" y2="180.0" stroke="#607d8b" stroke-width="2.5"/><polygon points="570,180 559.0,174.5 559.0,185.5" fill="#607d8b"/>
+<text x="545" y="164" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >冷却</text>
+<text x="470" y="240" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >60℃ の飽和溶液</text>
+<text x="620" y="240" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >20℃</text>
+<line x1="660" y1="300" x2="624" y2="212" stroke="#555" stroke-width="1.2"/><circle cx="624" cy="212" r="2.2" fill="#555"/><text x="660" y="300" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >結晶</text>
+<text x="545" y="330" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >少量の不純物は</text>
+<text x="545" y="350" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >溶液中に残る</text>
+<text x="560" y="60" font-size="16" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >この操作</text>
+<circle cx="584" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="584" y="61" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

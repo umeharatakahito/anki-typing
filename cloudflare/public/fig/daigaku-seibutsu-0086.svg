@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" width="720" height="390" font-family="sans-serif">
+<rect width="720" height="390" fill="#fff"/>
+<path d="M80,190 Q80,175 95,175 L144,175 L170,209 L196,175 L245,175 Q260,175 260,190 L260,270 Q260,285 245,285 L220,285 A16,16 0 0 0 188,285 L95,285 Q80,285 80,270 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<path d="M144,175 L170,209 L196,175 L196,151 L144,151 Z" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.2" /><line x1="170" y1="151" x2="170" y2="209" stroke="#2e7d32" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="120" y="330" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >基質が結合できる</text>
+<line x1="290" y1="230" x2="348.0" y2="230.0" stroke="#555" stroke-width="3"/><polygon points="360,230 348.0,224.0 348.0,236.0" fill="#555"/>
+<text x="325" y="205" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >結合</text>
+<path d="M390,190 Q390,175 405,175 L464,175 L480,209 L496,175 L555,175 Q570,175 570,190 L570,270 Q570,285 555,285 L530,285 A16,16 0 0 0 498,285 L405,285 Q390,285 390,270 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5" />
+<circle cx="514" cy="287" r="14" fill="#e1bee7" stroke="#8e24aa" stroke-width="2.2" />
+<path d="M454,111 L480,145 L506,111 L506,87 L454,87 Z" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.2" /><line x1="480" y1="87" x2="480" y2="145" stroke="#2e7d32" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="535" y="120" font-size="30" text-anchor="middle" fill="#e53935" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >×</text>
+<text x="480" y="330" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >活性部位の形が変化</text>
+<line x1="60" y1="80" x2="162" y2="193" stroke="#555" stroke-width="1.2"/><circle cx="162" cy="193" r="2.2" fill="#555"/><text x="60" y="80" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >活性部位</text>
+<line x1="250" y1="372" x2="204" y2="285" stroke="#555" stroke-width="1.2"/><circle cx="204" cy="285" r="2.2" fill="#555"/><text x="250" y="372" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >活性部位とは別の部位</text>
+<line x1="640" y1="330" x2="520" y2="293" stroke="#555" stroke-width="1.2"/><circle cx="520" cy="293" r="2.2" fill="#555"/><text x="640" y="330" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >調節物質</text>
+<line x1="640" y1="100" x2="500" y2="105" stroke="#555" stroke-width="1.2"/><circle cx="500" cy="105" r="2.2" fill="#555"/><text x="640" y="100" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >基質</text>
+<line x1="60" y1="230" x2="80" y2="230" stroke="#f57c00" stroke-width="2.4"/><circle cx="80" cy="230" r="3.5" fill="#f57c00"/><circle cx="60" cy="230" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="60" y="231" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

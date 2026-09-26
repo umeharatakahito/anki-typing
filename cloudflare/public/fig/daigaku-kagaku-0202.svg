@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 360" width="690" height="360" font-family="sans-serif">
+<rect width="690" height="360" fill="#fff"/>
+<circle cx="34" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="34" y="31" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text><text x="56" y="30" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >：H<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>O と CO<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan> の質量から C・H・O の質量を求める</text>
+<text x="40" y="144" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >O<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan></text>
+<line x1="20" y1="170" x2="60.0" y2="170.0" stroke="#1e88e5" stroke-width="2.4"/><polygon points="70,170 60.0,165.0 60.0,175.0" fill="#1e88e5"/>
+<rect x="70" y="148" width="280" height="44" rx="14" fill="#fafafa" stroke="#607d8b" stroke-width="2.5" />
+<rect x="110" y="176" width="40" height="12" rx="2" fill="#fff" stroke="#607d8b" stroke-width="1.5" />
+<circle cx="130" cy="172" r="5" fill="#6d4c41" stroke="none" stroke-width="0" />
+<circle cx="200.0" cy="171.66666666666666" r="4" fill="#424242" stroke="none" stroke-width="0" />
+<circle cx="212.5" cy="165.0" r="4" fill="#424242" stroke="none" stroke-width="0" />
+<circle cx="220.0" cy="168.33333333333334" r="4" fill="#424242" stroke="none" stroke-width="0" />
+<circle cx="232.5" cy="171.66666666666666" r="4" fill="#424242" stroke="none" stroke-width="0" />
+<circle cx="240.0" cy="165.0" r="4" fill="#424242" stroke="none" stroke-width="0" />
+<circle cx="252.5" cy="168.33333333333334" r="4" fill="#424242" stroke="none" stroke-width="0" />
+<circle cx="260.0" cy="171.66666666666666" r="4" fill="#424242" stroke="none" stroke-width="0" />
+<circle cx="272.5" cy="165.0" r="4" fill="#424242" stroke="none" stroke-width="0" />
+<circle cx="280.0" cy="168.33333333333334" r="4" fill="#424242" stroke="none" stroke-width="0" />
+<circle cx="292.5" cy="171.66666666666666" r="4" fill="#424242" stroke="none" stroke-width="0" />
+<circle cx="300.0" cy="165.0" r="4" fill="#424242" stroke="none" stroke-width="0" />
+<circle cx="312.5" cy="168.33333333333334" r="4" fill="#424242" stroke="none" stroke-width="0" />
+<path d="M118,260 L142,260 L138,215 L122,215 Z" fill="#b0bec5" stroke="#455a64" stroke-width="1.5" />
+<path d="M130,212 C118,204 124,200 130,196 C136,200 142,204 130,212 Z" fill="#42a5f5" stroke="none" stroke-width="0" />
+<path d="M248,260 L272,260 L268,215 L252,215 Z" fill="#b0bec5" stroke="#455a64" stroke-width="1.5" />
+<path d="M260,212 C248,204 254,200 260,196 C266,200 272,204 260,212 Z" fill="#42a5f5" stroke="none" stroke-width="0" />
+<line x1="90" y1="280" x2="128" y2="182" stroke="#555" stroke-width="1.2"/><circle cx="128" cy="182" r="2.2" fill="#555"/><text x="90" y="280" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >試料</text>
+<line x1="300" y1="110" x2="270" y2="164" stroke="#555" stroke-width="1.2"/><circle cx="270" cy="164" r="2.2" fill="#555"/><text x="300" y="110" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >酸化銅(II)</text>
+<line x1="350" y1="170" x2="380" y2="170" stroke="#607d8b" stroke-width="5" />
+<rect x="380" y="152" width="110" height="36" rx="10" fill="#e8eaf6" stroke="#607d8b" stroke-width="2.5" />
+<line x1="490" y1="170" x2="520" y2="170" stroke="#607d8b" stroke-width="5" />
+<rect x="520" y="152" width="110" height="36" rx="10" fill="#e0f2f1" stroke="#607d8b" stroke-width="2.5" />
+<line x1="630" y1="170" x2="660" y2="170" stroke="#607d8b" stroke-width="5" />
+<text x="435" y="215" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >塩化カルシウム</text>
+<text x="435" y="237" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>O を吸収</text>
+<text x="575" y="215" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ソーダ石灰</text>
+<text x="575" y="237" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >CO<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan> を吸収</text>
+<text x="360" y="330" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（試料を完全燃焼させる）</text>
+</svg>

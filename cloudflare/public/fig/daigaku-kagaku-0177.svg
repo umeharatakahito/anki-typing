@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 380" width="620" height="380" font-family="sans-serif">
+<rect width="620" height="380" fill="#fff"/>
+<line x1="80" y1="360" x2="80.0" y2="50.0" stroke="#222" stroke-width="2"/><polygon points="80,40 75.0,50.0 85.0,50.0" fill="#222"/><text x="88" y="44" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >エネルギー</text>
+<line x1="140" y1="90" x2="480" y2="90" stroke="#222" stroke-width="3" /><text x="230" y="74" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2H(気)</text>
+<line x1="140" y1="310" x2="480" y2="310" stroke="#222" stroke-width="3" /><text x="230" y="294" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>(気)</text>
+<circle cx="190" cy="125" r="13" fill="#e3f2fd" stroke="#1e88e5" stroke-width="1.8" />
+<circle cx="226" cy="125" r="13" fill="#e3f2fd" stroke="#1e88e5" stroke-width="1.8" />
+<circle cx="250" cy="270" r="13" fill="#e3f2fd" stroke="#1e88e5" stroke-width="1.8" />
+<circle cx="272" cy="270" r="13" fill="#e3f2fd" stroke="#1e88e5" stroke-width="1.8" />
+<line x1="400" y1="306" x2="400.0" y2="107.0" stroke="#f57c00" stroke-width="3.5"/><polygon points="400,94 393.5,107.0 406.5,107.0" fill="#f57c00"/>
+<text x="420" y="200" font-size="18" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >436 kJ</text>
+<text x="420" y="226" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（H−H 1 mol を切断）</text>
+<line x1="330" y1="200" x2="398" y2="200" stroke="#f57c00" stroke-width="2.4"/><circle cx="398" cy="200" r="3.5" fill="#f57c00"/><circle cx="330" cy="200" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="330" y="201" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

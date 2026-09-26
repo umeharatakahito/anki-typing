@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 420" width="660" height="420" font-family="sans-serif">
+<rect width="660" height="420" fill="#fff"/>
+<rect x="62" y="150" width="196" height="158" rx="0" fill="#e3f2fd" stroke="none" stroke-width="0" /><path d="M60,110 L60,310 L260,310 L260,110" fill="none" stroke="#607d8b" stroke-width="2.6" />
+<rect x="382" y="150" width="196" height="158" rx="0" fill="#fff9c4" stroke="none" stroke-width="0" /><path d="M380,110 L380,310 L580,310 L580,110" fill="none" stroke="#607d8b" stroke-width="2.6" />
+<rect x="145" y="70" width="30" height="200" rx="0" fill="#eceff1" stroke="#546e7a" stroke-width="2" />
+<circle cx="137" cy="200" r="5" fill="#fff" stroke="#607d8b" stroke-width="1.4" />
+<circle cx="185" cy="220" r="6" fill="#fff" stroke="#607d8b" stroke-width="1.4" />
+<circle cx="135" cy="250" r="4" fill="#fff" stroke="#607d8b" stroke-width="1.4" />
+<circle cx="183" cy="180" r="4" fill="#fff" stroke="#607d8b" stroke-width="1.4" />
+<circle cx="140" cy="170" r="5" fill="#fff" stroke="#607d8b" stroke-width="1.4" />
+<circle cx="190" cy="250" r="5" fill="#fff" stroke="#607d8b" stroke-width="1.4" />
+<circle cx="160" cy="280" r="6" fill="#fff" stroke="#607d8b" stroke-width="1.4" />
+<circle cx="170" cy="150" r="4" fill="#fff" stroke="#607d8b" stroke-width="1.4" />
+<rect x="461" y="70" width="38" height="200" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<rect x="467" y="70" width="26" height="196" rx="0" fill="#eceff1" stroke="none" stroke-width="0" />
+<text x="160" y="22" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >希塩酸</text>
+<text x="480" y="22" font-size="17" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >濃硝酸</text>
+<text x="160" y="48" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >H<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan> を出して溶ける</text>
+<text x="480" y="48" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ほとんど溶けない</text>
+<line x1="60" y1="90" x2="145" y2="90" stroke="#555" stroke-width="1.2"/><circle cx="145" cy="90" r="2.2" fill="#555"/><text x="60" y="90" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Al</text>
+<line x1="420" y1="90" x2="461" y2="90" stroke="#555" stroke-width="1.2"/><circle cx="461" cy="90" r="2.2" fill="#555"/><text x="420" y="90" font-size="17" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Al</text>
+<line x1="620" y1="170" x2="499" y2="170" stroke="#f57c00" stroke-width="2.4"/><circle cx="499" cy="170" r="3.5" fill="#f57c00"/><circle cx="620" cy="170" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="620" y="171" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="540" y1="380" x2="496" y2="262" stroke="#555" stroke-width="1.2"/><circle cx="496" cy="262" r="2.2" fill="#555"/><text x="540" y="380" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >表面のち密な</text>
+<text x="540" y="402" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >酸化被膜（Al<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan>O<tspan dy="5" font-size="72%">3</tspan><tspan dy="-5">​</tspan>）</text>
+</svg>

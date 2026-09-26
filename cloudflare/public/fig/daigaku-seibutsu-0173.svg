@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 430" width="700" height="430" font-family="sans-serif">
+<rect width="700" height="430" fill="#fff"/>
+<path d="M40,232 Q40,205 72,205 L380,215 Q412,220 412,252 L405,282 Q400,296 380,296 L72,290 Q40,290 40,262 Z" fill="#f5e6da" stroke="#a1887f" stroke-width="2.2" />
+<ellipse cx="220" cy="226" rx="150" ry="15" fill="#ef9a9a" stroke="#c62828" stroke-width="2" />
+<ellipse cx="175" cy="226" rx="17" ry="5.5" fill="#fff59d" stroke="#f9a825" stroke-width="2" />
+<path d="M375,265 L425,262 L440,400 L480,402 L480,420 L392,420 Z" fill="#f5e6da" stroke="#a1887f" stroke-width="2.2" />
+<path d="M492,410 Q545,400 562,345" fill="none" stroke="#90a4ae" stroke-width="2.5"/><polygon points="562,345 551.8,355.4 564.2,359.4" fill="#90a4ae"/>
+<line x1="452" y1="290" x2="535" y2="290" stroke="#6d4c41" stroke-width="5" />
+<rect x="438" y="272" width="20" height="36" rx="4" fill="#90a4ae" stroke="#455a64" stroke-width="2" />
+<text x="545" y="291" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >たたく</text>
+<ellipse cx="575" cy="120" rx="78" ry="58" fill="#fce4ec" stroke="#ad1457" stroke-width="2.5" />
+<path d="M575,92 C548,70 522,82 535,108 C520,128 530,160 552,150 C562,146 568,140 575,140 C582,140 588,146 598,150 C620,160 630,128 615,108 C628,82 602,70 575,92 Z" fill="#f8bbd0" stroke="#ad1457" stroke-width="1.5" />
+<line x1="690" y1="40" x2="630" y2="80" stroke="#555" stroke-width="1.2"/><circle cx="630" cy="80" r="2.2" fill="#555"/><text x="690" y="40" font-size="17" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >脊髄</text>
+<path d="M180,222 C200,120 380,45 486,50" fill="none" stroke="#f57c00" stroke-width="3.5"/>
+<circle cx="498" cy="52" r="11" fill="#fff" stroke="#f57c00" stroke-width="2.5" />
+<path d="M509,54 C540,60 552,95 560,112 L584,146" fill="none" stroke="#f57c00" stroke-width="3.5"/><polygon points="584,146 582.4,134.9 574.2,140.7" fill="#f57c00"/>
+<polygon points="602.0,152.0 603.7,153.5 604.5,155.3 603.8,156.9 602.0,157.8 599.6,157.8 597.6,157.6 596.3,157.6 595.7,158.4 595.4,160.2 594.8,162.4 593.6,164.3 592.0,165.0 590.4,164.3 589.2,162.4 588.6,160.2 588.3,158.4 587.7,157.6 586.4,157.6 584.4,157.8 582.0,157.8 580.2,156.9 579.5,155.3 580.3,153.5 582.0,152.0 583.9,150.9 585.1,150.2 585.3,149.2 584.6,147.8 583.8,145.7 583.4,143.4 584.1,141.7 585.7,141.1 587.7,141.7 589.6,143.1 591.0,144.4 592.0,145.0 593.0,144.4 594.4,143.1 596.3,141.7 598.3,141.1 599.9,141.7 600.6,143.4 600.2,145.7 599.4,147.8 598.7,149.2 598.9,150.2 600.1,150.9 602.0,152.0" fill="#fff" stroke="#f57c00" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M588,162 C560,250 410,190 302,212" fill="none" stroke="#f57c00" stroke-width="3.5"/><polygon points="302,212 312.7,215.2 311.0,205.3" fill="#f57c00"/>
+<path d="M296,204 L300,212 L292,218" fill="none" stroke="#f57c00" stroke-width="3" />
+<line x1="311.3" y1="90.0" x2="313.8" y2="89.3" stroke="#f57c00" stroke-width="3.5"/><polygon points="325.3,86.0 312.1,83.5 315.4,95.1" fill="#f57c00"/>
+<line x1="499.0" y1="210.8" x2="496.9" y2="211.1" stroke="#f57c00" stroke-width="3.5"/><polygon points="485.0,212.8 497.7,217.0 496.0,205.2" fill="#f57c00"/>
+<line x1="270" y1="70" x2="234.9" y2="138.9" stroke="#555" stroke-width="1.2"/><circle cx="234.9" cy="138.9" r="2.2" fill="#555"/><text x="270" y="70" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >感覚神経</text>
+<line x1="640" y1="230" x2="572.9" y2="187.7" stroke="#555" stroke-width="1.2"/><circle cx="572.9" cy="187.7" r="2.2" fill="#555"/><text x="640" y="230" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >運動神経</text>
+<line x1="150" y1="340" x2="175" y2="230" stroke="#555" stroke-width="1.2"/><circle cx="175" cy="230" r="2.2" fill="#555"/><text x="150" y="340" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >受容器(筋紡錘)</text>
+<line x1="90" y1="170" x2="110" y2="218" stroke="#555" stroke-width="1.2"/><circle cx="110" cy="218" r="2.2" fill="#555"/><text x="90" y="170" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >効果器(筋肉)</text>
+<line x1="360" y1="110" x2="441.3" y2="210.2" stroke="#f57c00" stroke-width="2.4" />
+<line x1="360" y1="110" x2="345.9" y2="76.0" stroke="#f57c00" stroke-width="2.4"/><circle cx="345.9" cy="76.0" r="3.5" fill="#f57c00"/><circle cx="360" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="360" y="111" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

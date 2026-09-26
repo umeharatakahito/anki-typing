@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" width="720" height="350" font-family="sans-serif">
+<rect width="720" height="350" fill="#fff"/>
+<path d="M60,120 Q180,80 300,130 L320,160 Q250,220 170,250 Q110,250 70,200 Z" fill="#eceff1" stroke="#90a4ae" stroke-width="2" />
+<line x1="170" y1="175" x2="140" y2="250" stroke="#b0bec5" stroke-width="2" />
+<line x1="190" y1="177" x2="166" y2="253" stroke="#b0bec5" stroke-width="2" />
+<line x1="210" y1="179" x2="192" y2="254" stroke="#b0bec5" stroke-width="2" />
+<line x1="230" y1="181" x2="218" y2="253" stroke="#b0bec5" stroke-width="2" />
+<line x1="250" y1="183" x2="244" y2="250" stroke="#b0bec5" stroke-width="2" />
+<line x1="270" y1="185" x2="270" y2="245" stroke="#b0bec5" stroke-width="2" />
+<line x1="290" y1="187" x2="296" y2="238" stroke="#b0bec5" stroke-width="2" />
+<line x1="70" y1="130" x2="150" y2="150" stroke="#424242" stroke-width="12" stroke-linecap="round"/><line x1="70" y1="130" x2="150" y2="150" stroke="#ef5350" stroke-width="9" stroke-linecap="round"/>
+<line x1="155" y1="152" x2="240" y2="140" stroke="#424242" stroke-width="9" stroke-linecap="round"/><line x1="155" y1="152" x2="240" y2="140" stroke="#42a5f5" stroke-width="6" stroke-linecap="round"/>
+<line x1="245" y1="140" x2="300" y2="135" stroke="#424242" stroke-width="8" stroke-linecap="round"/><line x1="245" y1="140" x2="300" y2="135" stroke="#ab47bc" stroke-width="5" stroke-linecap="round"/>
+<text x="190" y="300" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >鳥の翼</text>
+<text x="190" y="325" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（前肢が変化・骨がある）</text>
+<path d="M430,150 Q520,90 660,110 Q690,140 640,180 Q540,210 430,165 Z" fill="#e1f5fe" stroke="#0288d1" stroke-width="2" />
+<path d="M432,158 Q540,120 660,118" fill="none" stroke="#0288d1" stroke-width="1.3" />
+<path d="M440,160 Q540,160 640,175" fill="none" stroke="#0288d1" stroke-width="1.3" />
+<path d="M500,140 Q540,170 560,190" fill="none" stroke="#0288d1" stroke-width="1.3" />
+<path d="M560,120 Q600,150 620,180" fill="none" stroke="#0288d1" stroke-width="1.3" />
+<ellipse cx="420" cy="175" rx="30" ry="12" fill="#a1887f" stroke="#5d4037" stroke-width="2" />
+<text x="560" y="300" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >昆虫のはね</text>
+<text x="560" y="325" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（体表が変化・骨はない）</text>
+<circle cx="375" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="375" y="61" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="375" y="95" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >どちらも飛ぶためのはたらき</text>
+</svg>

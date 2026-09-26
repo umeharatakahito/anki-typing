@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 350" width="680" height="350" font-family="sans-serif">
+<rect width="680" height="350" fill="#fff"/>
+<line x1="130" y1="110" x2="250" y2="110" stroke="#f57c00" stroke-width="2.4" stroke-dasharray="6 5"/>
+<line x1="130" y1="110" x2="130" y2="230" stroke="#f57c00" stroke-width="2.4" stroke-dasharray="6 5"/>
+<line x1="250" y1="110" x2="370" y2="110" stroke="#f57c00" stroke-width="2.4" stroke-dasharray="6 5"/>
+<line x1="250" y1="110" x2="250" y2="230" stroke="#f57c00" stroke-width="2.4" stroke-dasharray="6 5"/>
+<line x1="370" y1="110" x2="370" y2="230" stroke="#f57c00" stroke-width="2.4" stroke-dasharray="6 5"/>
+<line x1="130" y1="230" x2="250" y2="230" stroke="#f57c00" stroke-width="2.4" stroke-dasharray="6 5"/>
+<line x1="250" y1="230" x2="370" y2="230" stroke="#f57c00" stroke-width="2.4" stroke-dasharray="6 5"/>
+<g transform="rotate(30 130 110)"><circle cx="116" cy="110" r="17" fill="#d1c4e9" stroke="#5e35b1" stroke-width="1.6" /><circle cx="144" cy="110" r="17" fill="#d1c4e9" stroke="#5e35b1" stroke-width="1.6" /></g>
+<g transform="rotate(30 250 110)"><circle cx="236" cy="110" r="17" fill="#d1c4e9" stroke="#5e35b1" stroke-width="1.6" /><circle cx="264" cy="110" r="17" fill="#d1c4e9" stroke="#5e35b1" stroke-width="1.6" /></g>
+<g transform="rotate(30 370 110)"><circle cx="356" cy="110" r="17" fill="#d1c4e9" stroke="#5e35b1" stroke-width="1.6" /><circle cx="384" cy="110" r="17" fill="#d1c4e9" stroke="#5e35b1" stroke-width="1.6" /></g>
+<g transform="rotate(-30 130 230)"><circle cx="116" cy="230" r="17" fill="#d1c4e9" stroke="#5e35b1" stroke-width="1.6" /><circle cx="144" cy="230" r="17" fill="#d1c4e9" stroke="#5e35b1" stroke-width="1.6" /></g>
+<g transform="rotate(-30 250 230)"><circle cx="236" cy="230" r="17" fill="#d1c4e9" stroke="#5e35b1" stroke-width="1.6" /><circle cx="264" cy="230" r="17" fill="#d1c4e9" stroke="#5e35b1" stroke-width="1.6" /></g>
+<g transform="rotate(-30 370 230)"><circle cx="356" cy="230" r="17" fill="#d1c4e9" stroke="#5e35b1" stroke-width="1.6" /><circle cx="384" cy="230" r="17" fill="#d1c4e9" stroke="#5e35b1" stroke-width="1.6" /></g>
+<line x1="560" y1="170" x2="310" y2="110" stroke="#f57c00" stroke-width="2.4"/><circle cx="310" cy="110" r="3.5" fill="#f57c00"/><circle cx="560" cy="170" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="560" y="171" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="560" y="200" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（弱い）</text>
+<line x1="480" y1="300" x2="250" y2="230" stroke="#555" stroke-width="1.2"/><circle cx="250" cy="230" r="2.2" fill="#555"/><text x="480" y="300" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >共有結合（強い）</text>
+<text x="250" y="330" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >I<tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">​</tspan> 分子</text>
+</svg>

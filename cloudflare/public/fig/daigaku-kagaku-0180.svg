@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" font-family="sans-serif">
+<rect width="640" height="400" fill="#fff"/>
+<line x1="70" y1="360" x2="70.0" y2="50.0" stroke="#222" stroke-width="2"/><polygon points="70,40 65.0,50.0 75.0,50.0" fill="#222"/><text x="78" y="44" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >エネルギー</text>
+<line x1="70" y1="360" x2="590.0" y2="360.0" stroke="#222" stroke-width="2"/><polygon points="600,360 590.0,355.0 590.0,365.0" fill="#222"/>
+<text x="600" y="382" font-size="15" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >反応の進行</text>
+<path d="M90,240 L170,240 C240,240 250,80 300,80 C350,80 370,300 440,300 L570,300" fill="none" stroke="#222" stroke-width="3" />
+<text x="130" y="222" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >反応物</text>
+<text x="520" y="282" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >生成物</text>
+<line x1="170" y1="80" x2="300" y2="80" stroke="#555" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="190" y1="238" x2="190.0" y2="94.0" stroke="#555" stroke-width="2"/><polygon points="190,84 185.0,94.0 195.0,94.0" fill="#555"/>
+<text x="182" y="150" font-size="15" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >活性化</text>
+<text x="182" y="170" font-size="15" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >エネルギー</text>
+<circle cx="300" cy="80" r="9" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4" />
+<line x1="420" y1="60" x2="309" y2="80" stroke="#f57c00" stroke-width="2.4"/><circle cx="309" cy="80" r="3.5" fill="#f57c00"/><circle cx="420" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="420" y="61" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="560" y1="244" x2="560.0" y2="287.0" stroke="#e53935" stroke-width="2"/><polygon points="560,296 564.5,287.0 555.5,287.0" fill="#e53935"/>
+<line x1="430" y1="240" x2="570" y2="240" stroke="#555" stroke-width="1.2" stroke-dasharray="4 4"/>
+<text x="575" y="270" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ΔH</text>
+</svg>

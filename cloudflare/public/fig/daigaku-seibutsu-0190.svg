@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" width="720" height="370" font-family="sans-serif">
+<rect width="720" height="370" fill="#fff"/>
+<circle cx="150" cy="200" r="120" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2" />
+<circle cx="150" cy="200" r="88" fill="#f48fb1" stroke="#ad1457" stroke-width="2" />
+<circle cx="150" cy="200" r="58" fill="#fff176" stroke="#f9a825" stroke-width="2" />
+<circle cx="150" cy="200" r="28" fill="#90caf9" stroke="#1565c0" stroke-width="2" />
+<rect x="330" y="250" width="90" height="40" rx="0" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1.5" />
+<text x="375.0" y="270" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >がく片</text>
+<rect x="420" y="250" width="90" height="40" rx="0" fill="#f48fb1" stroke="#ad1457" stroke-width="1.5" />
+<text x="465.0" y="270" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >花弁</text>
+<rect x="510" y="250" width="90" height="40" rx="0" fill="#fff176" stroke="#f9a825" stroke-width="1.5" />
+<text x="555.0" y="270" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >おしべ</text>
+<rect x="600" y="250" width="90" height="40" rx="0" fill="#90caf9" stroke="#1565c0" stroke-width="1.5" />
+<text x="645.0" y="270" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle"  >めしべ</text>
+<rect x="334" y="205" width="172" height="32" rx="6" fill="#66bb6a" stroke="none" stroke-width="0" />
+<text x="420.0" y="221" font-size="15" text-anchor="middle" fill="#fff" font-weight="bold" dominant-baseline="middle"  >クラス1</text>
+<rect x="424" y="160" width="172" height="32" rx="6" fill="#ab47bc" stroke="none" stroke-width="0" />
+<text x="510.0" y="176" font-size="15" text-anchor="middle" fill="#fff" font-weight="bold" dominant-baseline="middle"  >クラス2</text>
+<rect x="514" y="205" width="172" height="32" rx="6" fill="#42a5f5" stroke="none" stroke-width="0" />
+<text x="600.0" y="221" font-size="15" text-anchor="middle" fill="#fff" font-weight="bold" dominant-baseline="middle"  >クラス3</text>
+<text x="510" y="120" font-size="15" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >遺伝子の組み合わせで器官が決まる</text>
+<circle cx="510" cy="80" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="510" y="81" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="150" y="345" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >外側から がく片・花弁・おしべ・めしべ</text>
+</svg>

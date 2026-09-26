@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 392" width="720" height="392" font-family="sans-serif">
+<rect width="720" height="392" fill="#fff"/>
+<rect x="80" y="297.03384271467365" width="70" height="22.96615728532633" rx="4" fill="#bbdefb" stroke="#1e88e5" stroke-width="2" />
+<text x="115" y="281.03384271467365" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0.00005</text>
+<text x="115" y="340" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >海水</text>
+<rect x="200" y="201.6466002849384" width="70" height="118.35339971506161" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="235" y="185.6466002849384" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0.04</text>
+<text x="235" y="340" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >動物プランクトン</text>
+<rect x="320" y="165.60527128610224" width="70" height="154.39472871389776" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="355" y="149.60527128610224" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0.5</text>
+<text x="355" y="340" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >小形の魚</text>
+<rect x="440" y="145.82330014246918" width="70" height="174.17669985753082" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="475" y="129.82330014246918" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2</text>
+<text x="475" y="340" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >大形の魚</text>
+<rect x="560" y="109.78197114363306" width="70" height="210.21802885636694" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="595" y="93.78197114363306" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >25</text>
+<text x="595" y="340" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >魚を食べる鳥</text>
+<line x1="60" y1="320" x2="680" y2="320" stroke="#222" stroke-width="2" />
+<text x="40" y="40" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >DDT の濃度（ppm）</text>
+<line x1="110" y1="250" x2="586.9" y2="65.1" stroke="#f57c00" stroke-width="3.5"/><polygon points="600,60 584.4,58.5 589.5,71.6" fill="#f57c00"/>
+<line x1="330" y1="120" x2="340" y2="160" stroke="#f57c00" stroke-width="2.4"/><circle cx="340" cy="160" r="3.5" fill="#f57c00"/><circle cx="330" cy="120" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="330" y="121" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="360" y="372" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >食物連鎖の上位ほど高濃度（縦軸は対数目盛り）</text>
+</svg>

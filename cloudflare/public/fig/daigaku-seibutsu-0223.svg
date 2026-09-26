@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 390" width="700" height="390" font-family="sans-serif">
+<rect width="700" height="390" fill="#fff"/>
+<path d="M260,330 Q240,250 250,200 L400,200 Q420,260 390,340 Z" fill="#ffe0b2" stroke="#8d6e63" stroke-width="2.5" />
+<line x1="270" y1="205" x2="274" y2="110" stroke="#8d6e63" stroke-width="30" stroke-linecap="round"/>
+<line x1="270" y1="205" x2="274" y2="110" stroke="#ffe0b2" stroke-width="25" stroke-linecap="round"/>
+<line x1="306" y1="205" x2="310" y2="87" stroke="#8d6e63" stroke-width="30" stroke-linecap="round"/>
+<line x1="306" y1="205" x2="310" y2="87" stroke="#ffe0b2" stroke-width="25" stroke-linecap="round"/>
+<line x1="342" y1="205" x2="346" y2="93" stroke="#8d6e63" stroke-width="30" stroke-linecap="round"/>
+<line x1="342" y1="205" x2="346" y2="93" stroke="#ffe0b2" stroke-width="25" stroke-linecap="round"/>
+<line x1="378" y1="205" x2="382" y2="115" stroke="#8d6e63" stroke-width="30" stroke-linecap="round"/>
+<line x1="378" y1="205" x2="382" y2="115" stroke="#ffe0b2" stroke-width="25" stroke-linecap="round"/>
+<path d="M255,290 Q200,270 205,220 Q210,170 250,150" fill="none" stroke="#f57c00" stroke-width="32" stroke-linecap="round"/>
+<path d="M255,290 Q200,270 205,220 Q210,170 250,150" fill="none" stroke="#ffcc80" stroke-width="26" stroke-linecap="round"/>
+<circle cx="560" cy="190" r="50" fill="#90caf9" stroke="#1e88e5" stroke-width="2" />
+<text x="560" y="270" font-size="15" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >物をつかむ・にぎる</text>
+<line x1="120" y1="110" x2="208" y2="215" stroke="#f57c00" stroke-width="2.4"/><circle cx="208" cy="215" r="3.5" fill="#f57c00"/><circle cx="120" cy="110" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="120" y="111" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="120" y="145" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >親指が他の指と</text>
+<text x="120" y="165" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >向かい合う</text>
+<text x="330" y="370" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >霊長類の手</text>
+</svg>

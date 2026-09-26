@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" font-family="sans-serif">
+<rect width="720" height="380" fill="#fff"/>
+<rect x="40" y="110" width="260" height="50" rx="6" fill="#90caf9" stroke="#1565c0" stroke-width="2" />
+<rect x="90" y="200" width="160" height="55" rx="6" fill="#ef9a9a" stroke="#c62828" stroke-width="2" />
+<line x1="125" y1="198" x2="125.0" y2="176.0" stroke="#f57c00" stroke-width="4"/><polygon points="125,164 119.0,176.0 131.0,176.0" fill="#f57c00"/>
+<line x1="170" y1="198" x2="170.0" y2="176.0" stroke="#f57c00" stroke-width="4"/><polygon points="170,164 164.0,176.0 176.0,176.0" fill="#f57c00"/>
+<line x1="215" y1="198" x2="215.0" y2="176.0" stroke="#f57c00" stroke-width="4"/><polygon points="215,164 209.0,176.0 221.0,176.0" fill="#f57c00"/>
+<line x1="40" y1="180" x2="118" y2="182" stroke="#f57c00" stroke-width="2.4"/><circle cx="118" cy="182" r="3.5" fill="#f57c00"/><circle cx="40" cy="180" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="40" y="181" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="170" y1="70" x2="170" y2="112" stroke="#555" stroke-width="1.2"/><circle cx="170" cy="112" r="2.2" fill="#555"/><text x="170" y="70" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >外胚葉</text>
+<line x1="170" y1="300" x2="170" y2="255" stroke="#555" stroke-width="1.2"/><circle cx="170" cy="255" r="2.2" fill="#555"/><text x="170" y="300" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >形成体（原口背唇部）</text>
+<line x1="320" y1="180" x2="368.0" y2="180.0" stroke="#555" stroke-width="3"/><polygon points="380,180 368.0,174.0 368.0,186.0" fill="#555"/>
+<rect x="400" y="110" width="90" height="30" rx="6" fill="#90caf9" stroke="#1565c0" stroke-width="2" />
+<rect x="600" y="110" width="90" height="30" rx="6" fill="#90caf9" stroke="#1565c0" stroke-width="2" />
+<circle cx="545" cy="150" r="38" fill="#ce93d8" stroke="#6a1b9a" stroke-width="2.5" />
+<circle cx="545" cy="150" r="12" fill="#fff" stroke="#6a1b9a" stroke-width="1.5" />
+<circle cx="545" cy="230" r="24" fill="#ef9a9a" stroke="#c62828" stroke-width="2" />
+<line x1="445" y1="70" x2="445" y2="112" stroke="#555" stroke-width="1.2"/><circle cx="445" cy="112" r="2.2" fill="#555"/><text x="445" y="70" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >表皮</text>
+<line x1="650" y1="70" x2="572" y2="128" stroke="#555" stroke-width="1.2"/><circle cx="572" cy="128" r="2.2" fill="#555"/><text x="650" y="70" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >神経管</text>
+<line x1="650" y1="290" x2="566" y2="238" stroke="#555" stroke-width="1.2"/><circle cx="566" cy="238" r="2.2" fill="#555"/><text x="650" y="290" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >脊索</text>
+<text x="360" y="355" font-size="15" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >接する領域に働きかけて分化の方向を決める</text>
+</svg>

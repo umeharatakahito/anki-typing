@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 370" width="640" height="370" font-family="sans-serif">
+<rect width="640" height="370" fill="#fff"/>
+<path d="M60,200 C60,120 160,100 180,150 C200,200 110,230 120,170 C130,110 230,120 220,190 C210,260 90,260 90,220 C90,190 150,300 200,260" fill="none" stroke="#6a1b9a" stroke-width="4" />
+<circle cx="140" cy="205" r="0.1" fill="none" stroke="none" stroke-width="0" />
+<circle cx="146" cy="211" r="0.1" fill="none" stroke="none" stroke-width="0" />
+<circle cx="152" cy="205" r="0.1" fill="none" stroke="none" stroke-width="0" />
+<circle cx="158" cy="211" r="0.1" fill="none" stroke="none" stroke-width="0" />
+<circle cx="164" cy="205" r="0.1" fill="none" stroke="none" stroke-width="0" />
+<text x="140" y="320" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >立体構造をもつタンパク質</text>
+<line x1="260" y1="190" x2="348.0" y2="190.0" stroke="#222" stroke-width="2.6"/><polygon points="360,190 348.0,184.0 348.0,196.0" fill="#222"/>
+<text x="310" y="150" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >熱・酸・塩基</text>
+<text x="310" y="168" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >重金属イオンなど</text>
+<line x1="310" y1="230" x2="310" y2="194" stroke="#f57c00" stroke-width="2.4"/><circle cx="310" cy="194" r="3.5" fill="#f57c00"/><circle cx="310" cy="230" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="310" y="231" font-size="19" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<polyline points="390,197.7 394,202.1 398,205.0 402,206.0 406,204.9 410,202.0 414,197.5 418,192.0 422,186.3 426,181.1 430,177.0 434,174.5 438,174.1 442,175.6 446,179.0 450,183.8 454,189.4 458,195.0 462,200.1 466,203.8 470,205.8 474,205.7 478,203.7 482,199.9 486,194.8 490,189.2 494,183.6 498,178.9 502,175.5 506,174.1 510,174.6 514,177.1 518,181.3 522,186.5 526,192.2 530,197.7 534,202.1 538,205.0 542,206.0 546,204.9 550,202.0 554,197.5 558,192.0 562,186.3 566,181.1 570,177.0 574,174.5 578,174.1 582,175.6 586,179.0 590,183.8 594,189.4 598,195.0 602,200.1 606,203.8 610,205.8" fill="none" stroke="#6a1b9a" stroke-width="4"/>
+<text x="500" y="320" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >立体構造がくずれる</text>
+<text x="500" y="344" font-size="14" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（多くはもとに戻らない）</text>
+</svg>
