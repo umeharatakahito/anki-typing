@@ -9,6 +9,7 @@ import {
   getJukenWords, getKobunWords, getRekishiWords,
   jukenSubject_, wordsByKeys_, withWeak
 } from './generated/gas.js';
+import { FREE_MAX_LEVEL } from './gate.js';
 
 // 正解が続いた語は苦手リストから外す。ミスより this だけ多く正解したら卒業。
 const WEAK_CLEAR_MARGIN = 2;
@@ -31,21 +32,49 @@ const num = v => Number(v) || 0;
 
 // ---------------------------------------------------------------
 // 暗記タイピング: 問題取得（kbn 一致をシャッフルして最大 100 問）
+// 会員でない人には free = 1 の問題だけ出す
+const toCard = r => ({
+  que: r.que || '',
+  kan: r.kan || '',
+  ans: r.ans || '',
+  // 画像は public/img/ に置いたコピー。無いものは worker.js がドライブへ回す
+  img: r.img ? '/img/' + encodeURIComponent(r.img) + '.png' : '',
+  note: r.note || '',
+  level: r.level || 0
+});
+
 export async function getQuestions(env, category) {
   try {
     const { results } = await env.DB.prepare(
-      'SELECT que, kan, ans, img FROM problems WHERE kbn = ? ORDER BY random() LIMIT 100'
-    ).bind(String(category)).all();
-    return results.map(r => ({
-      que: r.que || '',
-      kan: r.kan || '',
-      ans: r.ans || '',
-      // 画像は public/img/ に置いたコピー。無いものは worker.js がドライブへ回す
-      img: r.img ? '/img/' + encodeURIComponent(r.img) + '.png' : ''
-    }));
+      'SELECT que, kan, ans, img, note, level FROM problems WHERE kbn = ? AND (free = 1 OR ?) ORDER BY random() LIMIT 100'
+    ).bind(String(category), env.viewer.member ? 1 : 0).all();
+    return results.map(toCard);
   } catch (e) {
     return { error: e.message };
   }
+}
+
+// レベルのある問題集: どのレベルがあって、この人はどこまで行けるか
+export async function getLevelInfo(env, category) {
+  const { results } = await env.DB.prepare(
+    'SELECT DISTINCT level FROM problems WHERE kbn = ? AND level > 0 ORDER BY level'
+  ).bind(String(category)).all();
+  const levels = results.map(r => r.level);
+  return {
+    levels,
+    maxLevel: env.viewer.member ? (levels[levels.length - 1] || 0) : FREE_MAX_LEVEL,
+    member: env.viewer.member
+  };
+}
+
+// レベルのある問題集: 1 つのレベルからシャッフルして最大 40 問
+export async function getLevelQuestions(env, category, level) {
+  level = Number(level) || 1;
+  if (!env.viewer.member && level > FREE_MAX_LEVEL) return { error: 'members_only', maxLevel: FREE_MAX_LEVEL };
+  const { results } = await env.DB.prepare(
+    'SELECT que, kan, ans, img, note, level FROM problems WHERE kbn = ? AND level = ? ORDER BY random() LIMIT 40'
+  ).bind(String(category), level).all();
+  return results.map(toCard);
 }
 
 // ---------------------------------------------------------------
@@ -53,12 +82,13 @@ export async function getQuestions(env, category) {
 export async function saveScore(env, payload) {
   const p = payload || {};
   await env.DB.prepare(
-    `INSERT INTO scores (timestamp, username, score, mode, kubun, chain, great, good, okay, miss, misstype, time)
-     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+    `INSERT INTO scores (timestamp, username, score, mode, kubun, chain, great, good, okay, miss, misstype, time, level)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
   ).bind(
     Date.now(), p.username == null ? '' : String(p.username), num(p.score),
     p.gameMode == null ? '' : String(p.gameMode), p.kubun == null ? '' : String(p.kubun),
-    num(p.chain), num(p.great), num(p.good), num(p.okay), num(p.miss), num(p.misstype), num(p.time)
+    num(p.chain), num(p.great), num(p.good), num(p.okay), num(p.miss), num(p.misstype), num(p.time),
+    num(p.level)
   ).run();
   return { ok: true };
 }
@@ -81,7 +111,7 @@ export async function getRanking(env, mode, kubun, limit) {
       mode: r.mode,
       kubun: String(r.kubun ?? ''),
       chain: num(r.chain), great: num(r.great), good: num(r.good), okay: num(r.okay),
-      miss: num(r.miss), misstype: num(r.misstype), time: num(r.time),
+      miss: num(r.miss), misstype: num(r.misstype), time: num(r.time), level: num(r.level),
       dateStr: fmtDate(r.timestamp, true)
     }));
   } catch (e) {

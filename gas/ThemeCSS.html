@@ -1,0 +1,83 @@
+<style>
+/* ===============================================================
+   ThemeCSS.html
+   画面の色を 2 種類から選べるようにする。<html data-theme="…"> で切り替わる。
+     blue … 水色系（HAMACHI-TYPE の色）
+     dark … 黒系（大学受験モードの色）
+   どちらの画面も元は片方の色で作ってあるので、ここではもう片方の色だけを足す。
+   各画面の CSS より後に読み込むこと。
+   =============================================================== */
+
+/* ---------- 大学受験モード・トップの画面を水色系に ---------- */
+html[data-theme="blue"] {
+  --bg: #eaf8fc;
+  --card: #ffffff;
+  --line: #a9dcea;
+  --text: #17394b;
+  --muted: #5a7b8b;
+  --accent: #1ba9cc;
+  --ok: #12a150;
+  --ng: #e04848;
+  --me-soft: rgba(248, 113, 122, .16);
+  --you-soft: rgba(96, 165, 250, .16);
+}
+html[data-theme="blue"] .settings input,
+html[data-theme="blue"] .settings select { background: #f5fcfe; }
+html[data-theme="blue"] .timer { background: #d4eef5; }
+html[data-theme="blue"] .context-en,
+html[data-theme="blue"] .rel-df { color: var(--muted); }
+html[data-theme="blue"] .answer-line .rest { color: #9bb3bf; }
+html[data-theme="blue"] .zu-wrap { box-shadow: 0 6px 20px rgba(23, 57, 75, .18); }
+html[data-theme="blue"] #kb { background: #d9f1f8; box-shadow: 0 -8px 24px rgba(23, 57, 75, .15); }
+html[data-theme="blue"] .kb-key { background: #ffffff; border-color: #a9dcea; }
+
+/* ---------- タイピング（HAMACHI-TYPE）の画面を黒系に ---------- */
+html[data-theme="dark"] body { color: #e8eef7; background: #0f1724; }
+html[data-theme="dark"] a { color: #7cc4ff; }
+html[data-theme="dark"] .main-menu.loading:before { background: #0f1724; }
+html[data-theme="dark"] #big-title { color: #3bc9db; text-shadow: 0 0 12px rgba(59, 201, 219, .55); }
+html[data-theme="dark"] #set-title { color: #93a3bd; }
+html[data-theme="dark"] .menu,
+html[data-theme="dark"] #genki-modal-body {
+  background: rgba(24, 34, 54, .92); border-color: #2a3651;
+}
+html[data-theme="dark"] .menu-title,
+html[data-theme="dark"] #genki-modal-header { color: #3bc9db; background: #1b2a44; }
+html[data-theme="dark"] .menu-footer { border-top-color: #2a3651; }
+html[data-theme="dark"] .button {
+  color: #06202a; background: #3bc9db; border-bottom-color: #1f8fa3;
+}
+html[data-theme="dark"] .button:hover { background: #5fd5e4; }
+html[data-theme="dark"] .button:focus { background: #2bb0c1; }
+html[data-theme="dark"] .button[disabled] { color: #55627a; background: #1d2942; border-color: #2a3651; }
+html[data-theme="dark"] #hamachi-card-container,
+html[data-theme="dark"] #game-input {
+  color: #e8eef7; background: #182236; border-color: #2a3651;
+}
+html[data-theme="dark"] #hamachi-card { background: #182236; border-color: #2a3651; }
+html[data-theme="dark"] .word-zone .words,
+html[data-theme="dark"] .hint-visible { color: #e8eef7 !important; }
+html[data-theme="dark"] .card-image { background-color: #fff; border-color: #2a3651; }
+html[data-theme="dark"] #answer-banner {
+  background: #101a2b; border-color: #2a3651;
+}
+html[data-theme="dark"] #hamachi-timer { background: #1d2942; border-color: #2a3651; }
+html[data-theme="dark"] #hamachi-time-bar { background: #3bc9db; }
+html[data-theme="dark"] #hamachi-life-inner { background: #1d2942; border-color: #2a3651; }
+html[data-theme="dark"] #virtual-keyboard > div {
+  color: #e8eef7; background: #182236; border-color: #2a3651;
+}
+html[data-theme="dark"] #virtual-keyboard > div.active {
+  background-color: #3bc9db !important; border-color: #3bc9db !important; color: #06202a !important;
+}
+html[data-theme="dark"] #last-note { background: rgba(59, 201, 219, .12); color: #e8eef7; }
+html[data-theme="dark"] #last-note .ln-level { color: #34d399; }
+html[data-theme="dark"] #last-note .ln-level.down { color: #f87171; }
+html[data-theme="dark"] #menu-main input,
+html[data-theme="dark"] #menu-about select,
+html[data-theme="dark"] #game-end input {
+  color: #e8eef7; background: #101a2b; border: 1px solid #2a3651;
+}
+html[data-theme="dark"] .rank-table th,
+html[data-theme="dark"] .rank-table td { border-color: #2a3651 !important; }
+</style>

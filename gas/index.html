@@ -7,13 +7,14 @@
     <title>Study Type</title> <!-- ← 閉じタグ修正 -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?!= include('CSS'); ?>
+    <?!= include('ThemeCSS'); ?>
     <div id="logo" style="display:none" aria-hidden="true"></div>
 
   </head> <!-- ← head をきちんと閉じる -->
 
   <body class="main-menu loading">
     <a id="home-link" href="<?= execUrl ?>" style="position:absolute; top:8px; left:12px; font-size:.85rem; color:#3BD; text-decoration:none;">← トップ</a>
-    <div id="big-title">Study Type</div>
+    <div id="big-title">Study Type<div id="set-title"></div></div>
     <div id="clear-bonus-art">
       <div id="bonus-art-top">
         <img style="display:none;" data-clear-flag="0" id="bonus-art-easy">
@@ -26,7 +27,7 @@
       <div id="main-title-paused" class="menu-title" style="display:none;">Paused</div>
 
       <div class="menu-content">
-        <button id="main-menu-start" class="button menu-opt" onclick="hamachi.showMenu('mode', this,'1');">基本・応用</button>
+        <div id="cat-buttons"><button class="button menu-opt main-menu-start" onclick="hamachi.showMenu('mode', this,'1');">基本・応用</button></div>
         <button id="main-menu-resume" class="button menu-opt" onclick="hamachi.resume();" style="display:none;">Resume</button>
         <button class="button menu-opt" onclick="hamachi.showMenu('about', this,'99');">スコア</button>
         <button id="main-menu-quit" class="button menu-opt opt-danger" onclick="hamachi.quitGame();" style="display:none;">Quit</button>
@@ -119,6 +120,7 @@
       </div>
 
       <div id="answer-banner" aria-live="polite"></div>
+      <div id="last-note" aria-live="polite"></div>
 
       <div id="correct-message" style="display:none; text-align:center; font-size:2em; color:#00AA00; font-weight:bold;"></div>
 
@@ -167,8 +169,11 @@
     <script>
       // URLパス（例: .../exec/practice）に応じて起動時に自動開始するモード名（空なら通常のメインメニュー表示）
       window.HAMACHI_AUTO_MODE = <?!= JSON.stringify(autoMode) ?>;
+      // このページに並べる問題集（Cloudflare 版の sets.js。GAS 版では null）
+      window.STUDY_SET = <?!= JSON.stringify(typeof studySet === 'undefined' ? null : studySet) ?>;
     </script>
     <?!= include('RomajiLib'); ?>
     <?!= include('JavaScript'); ?>
+    <?!= include('StudyLevel'); ?>
   </body>
 </html>

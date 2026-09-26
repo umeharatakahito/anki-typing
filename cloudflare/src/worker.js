@@ -4,12 +4,19 @@
 //
 //   GET  /?p=<画面>        … GAS 版と同じ ?p= で画面を選ぶ（/juken のようなパスも可）
 //   POST /api/<関数名>     … 本文は引数の配列。{ value } か { error } を返す
+//   /auth/*               … Google ログイン（auth.js）
+//   /admin                … 会員の管理（admin.js）
 // ===============================================================
 
 import { PAGES } from './generated/pages.js';
 import * as gas from './generated/gas.js';
 import * as stats from './stats.js';
 import { VersusHub, VS_FUNCTIONS } from './versus.js';
+import { viewerOf, handleAuth } from './auth.js';
+import { handleAdmin } from './admin.js';
+import { decorate, THEMES } from './chrome.js';
+import { STUDY_SETS, CAT_BY_KBN } from './sets.js';
+import * as gate from './gate.js';
 
 export { VersusHub };
 
@@ -54,7 +61,7 @@ function withHead(html, title, viewport) {
 
 function renderPage(url) {
   const route = String(url.searchParams.get('p') || url.pathname.replace(/^\/+|\/+$/g, '')).toLowerCase();
-  const vars = { execUrl: '/', subject: '', subjectLabel: '', backRoute: '', autoMode: '' };
+  const vars = { execUrl: '/', subject: '', subjectLabel: '', backRoute: '', autoMode: '', studySet: null };
 
   const page = JUKEN_PAGES[route];
   if (page) {
@@ -71,10 +78,17 @@ function renderPage(url) {
       'width=device-width, initial-scale=1, viewport-fit=cover');
   }
 
-  // IT（暗記タイピング）。練習モードなどの直行ルートもここ
-  if (route === 'it' || AUTO_MODE_BY_ROUTE[route]) {
+  // タイピング（HAMACHI-TYPE）。?p=it / koko / ichimon / english で並べる問題集が変わる。
+  // 練習モードなどの直行ルートは IT の「基本・応用」
+  const setKey = STUDY_SETS[route] ? route : (AUTO_MODE_BY_ROUTE[route] ? 'it' : '');
+  if (setKey) {
     vars.autoMode = AUTO_MODE_BY_ROUTE[route] || '';
-    return withHead(PAGES.index(vars), 'Study Type（IT）', 'width=device-width, initial-scale=1');
+    vars.studySet = Object.assign({ key: setKey }, STUDY_SETS[setKey], {
+      // ランキングに他の問題集の記録が混ざっても名前で出せるように
+      labels: Object.fromEntries(Object.entries(CAT_BY_KBN).map(([k, c]) => [k, c.label]))
+    });
+    return withHead(PAGES.index(vars), 'Study Type（' + STUDY_SETS[setKey].title + '）',
+      'width=device-width, initial-scale=1');
   }
 
   // それ以外はトップメニュー
@@ -84,8 +98,38 @@ function renderPage(url) {
 
 // ---------------------------------------------------------------
 // google.script.run で呼べる関数
+// 大学受験モードの出題。会員でない人は範囲を絞る
+function jukenWords(subject) {
+  return (env, opts) => env.viewer.member
+    ? stats.wordsFor(env, subject, opts)
+    : stats.wordsFor(env, subject, gate.clampOpts(subject, opts)).then(r => gate.filterWords(subject, r));
+}
+
+async function jukenRound(env, opts) {
+  if (env.viewer.member) return stats.getJukenRound(env, opts);
+  const subject = gas.jukenSubject_(opts && opts.subject);
+  const res = await stats.getJukenRound(env, gate.clampOpts(subject, opts));
+  const cut = gate.filterWords(subject, res);
+  // 範囲の外が混ざっていたゴーストは使わない
+  if (res.ghost && cut.words.length !== res.words.length) cut.ghost = null;
+  return cut;
+}
+
+const jukenMeta = (subject, fn) => env => env.viewer.member ? fn() : gate.clampMeta(subject, fn());
+
+async function setTheme(env, theme) {
+  if (!env.viewer.email || !THEMES.includes(theme)) return { ok: false };
+  await env.DB.prepare(
+    'INSERT INTO user_prefs (email, theme, at) VALUES (?, ?, ?) ON CONFLICT(email) DO UPDATE SET theme = excluded.theme, at = excluded.at'
+  ).bind(env.viewer.email, theme, Date.now()).run();
+  return { ok: true };
+}
+
 const D1_FUNCTIONS = {
   getQuestions: stats.getQuestions,
+  getLevelInfo: stats.getLevelInfo,
+  getLevelQuestions: stats.getLevelQuestions,
+  setTheme,
   saveScore: stats.saveScore,
   getRanking: stats.getRanking,
   saveJukenResult: stats.saveJukenResult,
@@ -93,24 +137,28 @@ const D1_FUNCTIONS = {
   getJukenPrefs: stats.getJukenPrefs,
   saveJukenPrefs: stats.saveJukenPrefs,
   saveJukenGhost: stats.saveJukenGhost,
-  getJukenRound: stats.getJukenRound,
-  getJukenWords: (env, opts) => stats.wordsFor(env, 'eigo', opts),
-  getKobunWords: (env, opts) => stats.wordsFor(env, 'kobun', opts),
-  getRekishiWords: (env, opts) => stats.wordsFor(env, 'rekishi', opts),
+  getJukenRound: jukenRound,
+  getJukenWords: jukenWords('eigo'),
+  getKobunWords: jukenWords('kobun'),
+  getRekishiWords: jukenWords('rekishi'),
+  getJukenMeta: jukenMeta('eigo', gas.getJukenMeta),
+  getKobunMeta: jukenMeta('kobun', gas.getKobunMeta),
+  getRekishiMeta: jukenMeta('rekishi', gas.getRekishiMeta),
+  getRekishiZuList: env => env.viewer.member ? gas.getRekishiZuList()
+    : gas.getRekishiZuList().filter(z => gate.freeZuIds().includes(z.id)),
+  getRekishiZu: (env, opts) => (env.viewer.member || gate.freeZuIds().includes(String(opts && opts.id)))
+    ? gas.getRekishiZu(opts) : { error: 'この図表は会員向けです' },
 };
 
-const PURE_FUNCTIONS = {
-  getJukenMeta: gas.getJukenMeta,
-  getKobunMeta: gas.getKobunMeta,
-  getRekishiMeta: gas.getRekishiMeta,
-  getRekishiZuList: gas.getRekishiZuList,
-  getRekishiZu: gas.getRekishiZu,
-};
-
+// env には、今見ている人（env.viewer）が足してある。関数はそれで会員かどうかを見る
 async function callFunction(env, fn, args) {
   if (Object.hasOwn(D1_FUNCTIONS, fn)) return D1_FUNCTIONS[fn](env, ...args);
-  if (Object.hasOwn(PURE_FUNCTIONS, fn)) return PURE_FUNCTIONS[fn](...args);
   if (VS_FUNCTIONS.includes(fn)) {
+    // 部屋を作るときの出題範囲も、会員でなければ絞る
+    if (fn === 'vsCreateRoom' && !env.viewer.member) {
+      const opts = args[0] || {};
+      args = [gate.clampOpts(gas.jukenSubject_(opts.subject), opts)].concat(args.slice(1));
+    }
     const hub = env.VERSUS.get(env.VERSUS.idFromName('hub'));
     return hub.run(fn, args);
   }
@@ -125,8 +173,17 @@ const json = (body, status) => new Response(JSON.stringify(body), {
 });
 
 export default {
-  async fetch(request, env) {
+  async fetch(request, rawEnv) {
     const url = new URL(request.url);
+
+    const auth = await handleAuth(request, rawEnv, url);
+    if (auth) return auth;
+
+    const viewer = await viewerOf(request, rawEnv);
+    const env = Object.assign(Object.create(rawEnv), { viewer });
+
+    const admin = await handleAdmin(request, env, url, viewer);
+    if (admin) return admin;
 
     if (url.pathname.startsWith('/api/')) {
       if (request.method !== 'POST') return json({ error: 'POST only' }, 405);
@@ -155,7 +212,12 @@ export default {
 
     if (url.pathname === '/favicon.ico') return new Response(null, { status: 404 });
 
-    return new Response(renderPage(url), {
+    let theme = '';
+    if (viewer.email) {
+      const pref = await env.DB.prepare('SELECT theme FROM user_prefs WHERE email = ?').bind(viewer.email).first();
+      theme = pref ? pref.theme : '';
+    }
+    return new Response(decorate(renderPage(url), viewer, env, theme), {
       headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store' }
     });
   }

@@ -1,0 +1,259 @@
+<style>
+  #set-title{ font-size:clamp(1rem,2.4vw,1.4rem); letter-spacing:.2em; margin-top:.2em; text-shadow:none; }
+  #set-title:empty{ display:none; }
+  #level-note{ margin:10px 0 0; font-size:13px; text-align:center; opacity:.8; }
+  #level-note:empty{ display:none; }
+  #last-note{ max-width:800px; margin:6px auto 0; padding:8px 12px; font-size:14px; line-height:1.6;
+    white-space:pre-wrap; border-radius:8px; background:rgba(59,189,221,.12); }
+  #last-note:empty{ display:none; }
+  #last-note .ln-head{ font-weight:bold; }
+  #last-note .ln-level{ font-weight:bold; color:#1a8f3c; }
+  #last-note .ln-level.down{ color:#c0392b; }
+  #hamachi-level-container.lv-up{ animation:lv-pop .8s ease-out; }
+  @keyframes lv-pop{ 0%{ transform:scale(1.8); color:#1a8f3c; } 100%{ transform:scale(1); } }
+  .level-cap{ font-size:14px; opacity:.85; }
+  body.playing-game #home-link{ display:none; }
+</style>
+<script>
+// ===============================================================
+// StudyLevel.html
+// 1. ページの問題集（window.STUDY_SET）をメインメニューのボタンにする
+// 2. レベルのある問題集（勉強ダンジョンズの問題）で、レベルを上げ下げしながら出題する
+//
+// レベルの決まり（HAMACHI-TYPE の判定倍率をそのまま使う）
+//   ・レベル 1 から始める
+//   ・正解すると判定の倍率（GREAT 2 / GOOD 1.5 / OKAY 1）をレベル点として貯める
+//   ・レベル点が LV_UP_POINTS に届いたら 1 つ上のレベルへ
+//   ・時間切れはレベル点を 1 減らし、LV_DOWN_FAILS 回続いたら 1 つ下のレベルへ
+//   ・点数は、今までの計算に LEVEL_SCORE_GROWTH の (レベル-1) 乗を掛ける
+//   ・会員でない人はレベル 3 まで（サーバーがそれより上の問題を返さない）
+// ===============================================================
+(function (window, document) {
+  const LV_UP_POINTS = 5;
+  const LV_DOWN_FAILS = 2;
+  const LEVEL_SCORE_GROWTH = 1.2;
+
+  const SET = window.STUDY_SET;
+  const h = window.hamachi;
+  const cats = SET ? SET.cats : [{ kbn: '1', label: '基本・応用', levels: false }];
+  const labels = (SET && SET.labels) || {};
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+  const run = (ok, ng) => google.script.run.withSuccessHandler(ok).withFailureHandler(ng || (e => alert('サーバーとの通信に失敗しました: ' + e.message)));
+
+  // ---- メニュー ----------------------------------------------------
+  function buildMenu() {
+    const box = document.getElementById('cat-buttons');
+    if (box && SET) {
+      box.innerHTML = cats.map(c =>
+        `<button class="button menu-opt main-menu-start" data-kbn="${esc(c.kbn)}">${esc(c.label)}</button>`).join('');
+      box.querySelectorAll('button').forEach(b => {
+        b.onclick = function () {
+          const t = document.querySelector('#menu-mode .menu-title');
+          if (t) t.textContent = b.textContent;
+          h.showMenu('mode', this, b.dataset.kbn);
+        };
+      });
+    }
+    const title = document.getElementById('set-title');
+    if (title && SET) title.textContent = SET.title;
+
+    const back = document.getElementById('home-link');
+    if (back && SET && SET.back) {
+      back.href = (back.getAttribute('href') || '/') + SET.back.href;
+      back.textContent = '← ' + SET.back.label;
+    }
+
+    const rank = document.getElementById('rank-kubun');
+    if (rank && SET) {
+      rank.innerHTML = '<option value="all">全ての問題集</option>' +
+        cats.map(c => `<option value="${esc(c.kbn)}">${esc(c.label)}</option>`).join('');
+    }
+
+    const content = document.querySelector('#menu-mode .menu-content');
+    if (content && !document.getElementById('level-note')) {
+      const p = document.createElement('p');
+      p.id = 'level-note';
+      content.appendChild(p);
+    }
+  }
+
+  // ---- レベル --------------------------------------------------------
+  const data = {};   // kbn → { list: [レベル], maxLevel, allLevels, member, pools: { L: {cards, i} }, loading: { L: true } }
+  let waiters = [];
+
+  function catOf(kbn) { return cats.find(c => String(c.kbn) === String(kbn)); }
+  function d() { return data[h.kubun]; }
+
+  function loadLevel(kbn, L, done) {
+    const dd = data[kbn];
+    if (!dd || dd.loading[L]) return;
+    dd.loading[L] = true;
+    run(list => {
+      dd.loading[L] = false;
+      if (list && list.error) { dd.list = dd.list.filter(x => x < L); if (done) done(); return; }
+      if (list && list.length) dd.pools[L] = { cards: shuffle(list), i: 0 };
+      if (done) done();
+    }, e => { dd.loading[L] = false; if (done) done(); }).getLevelQuestions(kbn, L);
+  }
+
+  function nextOf(L) { const l = d().list; return l[l.indexOf(L) + 1]; }
+  function prevOf(L) { const l = d().list; return l[l.indexOf(L) - 1]; }
+
+  function markReady() {
+    h.lvReady = true;
+    document.body.classList.remove('loading');
+    const w = waiters; waiters = [];
+    w.forEach(f => f());
+  }
+
+  function levelNote() {
+    const el = document.getElementById('level-note');
+    if (!el) return;
+    const dd = d();
+    if (!h.levelMode || !dd) { el.textContent = ''; return; }
+    el.textContent = dd.maxLevel < dd.allLevels[dd.allLevels.length - 1]
+      ? `無料版はレベル${dd.maxLevel}まで。会員はレベル${dd.allLevels[dd.allLevels.length - 1]}まで上がれます`
+      : `レベル${dd.list[0]}から始めて、正解を重ねるとレベルが上がります`;
+  }
+
+  Object.assign(h, {
+    levelMode: false,
+    lvReady: false,
+    lv: 1, lvPts: 0, lvFails: 0, lvReached: 0, lvCapped: false,
+
+    isLevelCat(kbn) { const c = catOf(kbn); return !!(c && c.levels); },
+
+    catLabel(kbn) { const c = catOf(kbn); return c ? c.label : (labels[kbn] || kbn); },
+
+    prepareLevels(kbn) {
+      this.levelMode = true;
+      if (data[kbn] && data[kbn].pools[data[kbn].list[0]]) { this.lvReady = true; levelNote(); return; }
+      this.lvReady = false;
+      document.body.classList.add('loading');
+      run(info => {
+        const all = (info && info.levels) || [];
+        data[kbn] = {
+          allLevels: all,
+          list: all.filter(L => L <= info.maxLevel),
+          maxLevel: info.maxLevel, member: !!info.member,
+          pools: {}, loading: {}
+        };
+        levelNote();
+        const first = data[kbn].list[0];
+        if (first == null) { markReady(); return; }
+        loadLevel(kbn, first, markReady);
+        const second = data[kbn].list[1];
+        if (second != null) loadLevel(kbn, second);
+      }).getLevelInfo(kbn);
+    },
+
+    whenLevelsReady(fn) {
+      document.body.classList.add('loading');
+      waiters.push(fn);
+    },
+
+    resetLevels() {
+      const dd = d();
+      this.lv = dd && dd.list.length ? dd.list[0] : 1;
+      this.lvPts = 0; this.lvFails = 0; this.lvReached = this.lv; this.lvCapped = false;
+      const note = document.getElementById('last-note');
+      if (note) note.innerHTML = '';
+    },
+
+    pickLevelCard() {
+      const dd = d();
+      if (!dd) return null;
+      // 今のレベルが届いていなければ、届いている近いレベルから出す
+      let L = this.lv, pool = dd.pools[L];
+      if (!pool) {
+        const have = dd.list.filter(x => dd.pools[x]);
+        L = have.filter(x => x <= this.lv).pop() || have[0];
+        pool = dd.pools[L];
+        loadLevel(this.kubun, this.lv);
+      }
+      if (!pool) return null;
+      const card = pool.cards[pool.i++];
+      if (pool.i >= pool.cards.length) {
+        // 一巡したら並べ直し、裏で別の組み合わせを取り直す
+        pool.cards = shuffle(pool.cards); pool.i = 0;
+        loadLevel(this.kubun, L);
+      }
+      const nx = nextOf(this.lv);
+      if (nx != null && !dd.pools[nx]) loadLevel(this.kubun, nx);
+      return card;
+    },
+
+    levelScoreFactor() {
+      return this.levelMode ? Math.pow(LEVEL_SCORE_GROWTH, this.lv - 1) : 1;
+    },
+
+    // 1 問終わるたびに呼ばれる（ok = 正解、jm = 判定）
+    afterCard(ok, jm) {
+      let change = '';
+      if (this.levelMode && d()) {
+        const dd = d();
+        if (ok) {
+          this.lvFails = 0;
+          this.lvPts += (jm && jm.mult) || 1;
+          if (this.lvPts >= LV_UP_POINTS) {
+            this.lvPts = 0;
+            const nx = nextOf(this.lv);
+            if (nx != null) {
+              this.lv = nx;
+              this.lvReached = Math.max(this.lvReached, nx);
+              change = `<span class="ln-level">⬆ レベル${nx}へ</span>`;
+              const nn = nextOf(nx);
+              if (nn != null && !dd.pools[nn]) loadLevel(this.kubun, nn);
+            } else if (dd.maxLevel < dd.allLevels[dd.allLevels.length - 1] && !this.lvCapped) {
+              this.lvCapped = true;
+              change = `<span class="ln-level">レベル${dd.maxLevel}クリア！ ここから先は会員向けです</span>`;
+            }
+          }
+        } else {
+          this.lvPts = Math.max(0, this.lvPts - 1);
+          this.lvFails++;
+          if (this.lvFails >= LV_DOWN_FAILS) {
+            this.lvFails = 0; this.lvPts = 0;
+            const pv = prevOf(this.lv);
+            if (pv != null) { this.lv = pv; change = `<span class="ln-level down">⬇ レベル${pv}へ</span>`; }
+          }
+        }
+        const lvEl = document.getElementById('hamachi-level');
+        if (lvEl) lvEl.textContent = this.lv;
+        if (change.indexOf('⬆') >= 0) {
+          const box = document.getElementById('hamachi-level-container');
+          if (box) { box.classList.remove('lv-up'); void box.offsetWidth; box.classList.add('lv-up'); }
+        }
+      }
+
+      // 無料版で上限に着いたら、そのことを出し続ける
+      if (!change && this.levelMode && this.lvCapped && d()) {
+        change = `<span class="ln-level">無料版はレベル${d().maxLevel}まで</span>`;
+      }
+
+      // 前の問題の正解と解説を、次の問題の下に残しておく
+      const note = document.getElementById('last-note');
+      const card = this.currentCard;
+      if (!note || !card) return;
+      const body = card.note
+        ? `<span class="ln-head">${ok ? '○' : '×'} ${esc(card.kan)}</span>\n${esc(card.note)}`
+        : '';
+      note.innerHTML = [change, body].filter(Boolean).join('\n');
+    },
+
+    levelEndHtml() {
+      if (!this.levelMode) return '';
+      const dd = d();
+      let html = `<p>到達レベル: ${this.lvReached}</p>`;
+      if (dd && dd.maxLevel < dd.allLevels[dd.allLevels.length - 1]) {
+        html += `<p class="level-cap">無料版はレベル${dd.maxLevel}まで。会員になるとレベル${dd.allLevels[dd.allLevels.length - 1]}まで上がれて、点数も伸びます</p>`;
+      }
+      return html;
+    }
+  });
+
+  buildMenu();
+}(window, document));
+</script>

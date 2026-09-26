@@ -355,7 +355,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
 
     // ---- メニュー遷移 ----
     showMenu: function(id, caller, kubun) {
-      if (kubun) { this.kubun = kubun; if (kubun < 99) this.read_card(kubun); }
+      if (kubun) { this.kubun = kubun; if (String(kubun) !== '99') this.read_card(kubun); }
       ['menu-main', 'menu-mode', 'menu-about'].forEach(menuId => {
         const el = document.getElementById(menuId);
         if (el) el.style.display = 'none';
@@ -382,6 +382,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
           // ★万一の多重起動対策：開始時に必ず掃除
       if (this.timerInterval) { clearInterval(this.timerInterval); this.timerInterval = null; }
       if (this._toastTimer)   { clearTimeout(this._toastTimer);   this._toastTimer   = null; }
+      if (this.levelMode && !this.lvReady) return this.whenLevelsReady(() => this.startGame(mode));
       this.gameMode = mode;
       this.cfg = this.modeConfig ? (this.modeConfig[mode] || this.modeConfig['通常モード']) : null;
 
@@ -409,6 +410,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
       this.damageMultiplier = 1.0;
       this.scoreMultiplier = 1.0;
       this.problemsServed = 0;
+      if (this.levelMode) this.resetLevels();
 
       // HPバー色
       const bar = document.getElementById('hamachi-life-bar');
@@ -494,11 +496,16 @@ buildKanjiRuby: function (kanMixed, yomi) {
       this.hint2Active = false;
 
       // データ確認
-      const cardData = this.mode['m' + this.kubun];
-      if (!cardData || cardData.length === 0) return this.endGame(false);
-
-      const cardIndex = this.progress % cardData.length;
-      const card = cardData[cardIndex];
+      let card;
+      if (this.levelMode) {
+        card = this.pickLevelCard();
+        if (!card) return this.endGame(false);
+      } else {
+        const cardData = this.mode['m' + this.kubun];
+        if (!cardData || cardData.length === 0) return this.endGame(false);
+        card = cardData[this.progress % cardData.length];
+      }
+      this.currentCard = card;
 
       // 入力状態リセット
       const conversion = kanaToRoman(card.ans);
@@ -609,6 +616,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
           this.revealFullAnswer();
           this.stats.missCards += 1;
           this.stats.chain = 0;
+          if (this.afterCard) this.afterCard(false);
           setTimeout(() => { this.handleMiss(); this.nextCard(); }, 600);
         }
       }, 100);
@@ -858,6 +866,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
 
     // ---- 表示用難易度 ----
     getDifficultyLevel: function() {
+      if (this.levelMode) return this.lv;
       return Math.floor((this.problemsServed) / this.DIFFICULTY_STEP) + 1;
     },
 
@@ -868,7 +877,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
       document.getElementById('menu-main').style.display = '';
       document.getElementById('logo').style.display = '';
       document.getElementById('game').style.display = 'none';
-      document.querySelectorAll('#main-menu-start').forEach(el => el.style.display = 'none');
+      document.querySelectorAll('.main-menu-start').forEach(el => el.style.display = 'none');
       document.querySelector('#main-menu-resume').style.display = '';
       document.querySelector('#main-menu-quit').style.display = '';
       document.querySelector('#main-title').style.display = 'none';
@@ -907,7 +916,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
       document.getElementById('game-end').style.display = '';
       document.getElementById(isGameOver ? 'game-over' : 'game-win').style.display = 'block';
       document.getElementById(isGameOver ? 'game-win' : 'game-over').style.display = 'none';
-      document.getElementById('game-end-stats').innerHTML = `<p>Score: ${this.stats.score}</p>`;
+      document.getElementById('game-end-stats').innerHTML = `<p>Score: ${this.stats.score}</p>` + (this.levelEndHtml ? this.levelEndHtml() : '');
 
       try {
         const prev = localStorage.getItem('hamachi_player_name') || '';
@@ -929,7 +938,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
       document.getElementById('big-title').style.display = '';
       document.body.className = 'main-menu';
 
-      document.querySelectorAll('#main-menu-start').forEach(el => el.style.display = '');
+      document.querySelectorAll('.main-menu-start').forEach(el => el.style.display = '');
       document.querySelector('#main-menu-resume').style.display = 'none';
       document.querySelector('#main-menu-quit').style.display = 'none';
       document.querySelector('#main-title').style.display = '';
@@ -999,6 +1008,8 @@ buildKanjiRuby: function (kanMixed, yomi) {
 
     // ---- 問題データ読込（GAS） ----
     read_card: function(kbn) {
+      if (this.isLevelCat && this.isLevelCat(kbn)) return this.prepareLevels(kbn);
+      this.levelMode = false;
       document.body.classList.add('loading');
       google.script.run
         .withSuccessHandler((output) => {
@@ -1051,6 +1062,9 @@ buildKanjiRuby: function (kanMixed, yomi) {
       const kubun  = this.kubun;                  // 直前の区分
       const limit  = this.currentLimit || null;   // 任意：直前の出題数があれば
       const mode   = this.gameMode;               // 直前のモード
+
+      // レベルのある問題集は、読み込み済みの問題でレベル 1 からやり直す
+      if (this.levelMode) { this.startGame(mode); return; }
 
       // ★ 問題を再取得してから 1回だけ startGame する
       if (window.google && google.script && google.script.run) {
@@ -1105,7 +1119,8 @@ buildKanjiRuby: function (kanMixed, yomi) {
         great: this.stats.great,
         good:  this.stats.good,
         okay:  this.stats.okay,
-        miss:  this.stats.missCards || 0
+        miss:  this.stats.missCards || 0,
+        level: this.levelMode ? (this.lvReached || 0) : 0
       };
     },
 
@@ -1208,6 +1223,7 @@ loadRanking: function () {
         good:     Number(r.good ?? 0),
         okay:     Number(r.okay ?? 0),
         miss:     Number(r.miss ?? r.missCards ?? 0),
+        level:    Number(r.level ?? 0),
         dateStr:  r.dateStr ?? r.date ?? ''
       }));
 
@@ -1228,7 +1244,7 @@ loadRanking: function () {
           <td class="left">${esc(r.username)}</td>
           <td class="right">${r.score}</td>
           <td class="left">${esc(r.mode)}</td>
-          <td class="right">${esc(r.kubun)}</td>
+          <td class="right">${esc(hamachi.catLabel ? hamachi.catLabel(r.kubun) : r.kubun)}${r.level ? ' Lv' + r.level : ''}</td>
           <td class="right">${r.chain}</td>
           <td class="right">${r.great}</td>
           <td class="right">${r.good}</td>
@@ -1375,7 +1391,8 @@ enableMenuNav(menuEl) {
 
     // 画面上キーボードの点灯
     if (key.length === 1) {
-      const targetKey = document.querySelector('.key_' + key.replace(' ', 'space'));
+      // 「.」「,」はそのままだとセレクタにならないのでエスケープする
+      const targetKey = document.querySelector('.key_' + (key === ' ' ? 'space' : CSS.escape(key)));
       if (targetKey) {
         targetKey.classList.add('active');
         setTimeout(() => { targetKey.classList.remove('active'); }, 150);
@@ -1423,7 +1440,8 @@ enableMenuNav(menuEl) {
 
           // スコア加算：ベース × 難化倍率 × 判定倍率
           const baseScore   = (hamachi.cfg ? hamachi.cfg.scorePerClear : 100);
-          const gained      = Math.round(baseScore * hamachi.scoreMultiplier * jm.mult);
+          const levelMult   = hamachi.levelScoreFactor ? hamachi.levelScoreFactor() : 1;
+          const gained      = Math.round(baseScore * hamachi.scoreMultiplier * jm.mult * levelMult);
           hamachi.stats.score += gained;
           const s = document.getElementById('hamachi-score');
           if (s) s.textContent = hamachi.stats.score;
@@ -1433,6 +1451,8 @@ enableMenuNav(menuEl) {
           if (hamachi.stats.chain > hamachi.stats.chainMax) hamachi.stats.chainMax = hamachi.stats.chain;
           const chainEl = document.getElementById('chain-count');
           if (chainEl) chainEl.textContent = hamachi.stats.chain;
+
+          if (hamachi.afterCard) hamachi.afterCard(true, jm);
 
           // 回復
           if (hamachi.cfg && hamachi.cfg.healOnClear) {

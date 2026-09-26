@@ -7,7 +7,7 @@
 //   npx wrangler d1 execute anki-typing --remote --file problems.local.sql
 //
 // 見出し行に que / kan / ans / kbn / img があればよい（順番・他の列は問わない）。
-// 入れ直すたびに problems は丸ごと置き換える。
+// 入れ直すたびに、スプレッドシートの問題は丸ごと置き換える（勉強ダンジョンズの問題はそのまま）。
 // ===============================================================
 
 import { readFileSync } from 'node:fs';
@@ -30,10 +30,11 @@ if (col('kbn') < 0) {
 const q = v => "'" + String(v ?? '').replace(/'/g, "''") + "'";
 const get = (r, name) => (col(name) >= 0 ? r[col(name)] : '') || '';
 
-const out = ['DELETE FROM problems;'];
-for (const r of rows) {
-  out.push(`INSERT INTO problems (kbn, que, kan, ans, img) VALUES (${
-    ['kbn', 'que', 'kan', 'ans', 'img'].map(k => q(get(r, k))).join(', ')});`);
-}
+// 会員でない人に出すのは 10 問に 3 問（行の順で決めるので、入れ直しても同じ問題）
+const out = ["DELETE FROM problems WHERE src = 'hamachi';"];
+rows.forEach((r, i) => {
+  out.push(`INSERT INTO problems (kbn, que, kan, ans, img, src, free) VALUES (${
+    ['kbn', 'que', 'kan', 'ans', 'img'].map(k => q(get(r, k))).join(', ')}, 'hamachi', ${i % 10 < 3 ? 1 : 0});`);
+});
 process.stdout.write(out.join('\n') + '\n');
 console.error(`${rows.length} 行を書き出しました`);
