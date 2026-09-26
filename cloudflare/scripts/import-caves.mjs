@@ -77,7 +77,8 @@ for (const cave of CAVES) {
     const row = {
       kbn: cave.id, src: cave.id, qid: q.id, level,
       free: level <= FREE_MAX_LEVEL ? 1 : 0,
-      que: esc(q.prompt), kan: q.answer, ans, img: '', note: note(q, meta.language)
+      // 英英の定義文がある問題（英語早押し）は、なぞなぞではなく定義文から出す
+      que: esc(q.definition || q.prompt), kan: q.answer, ans, img: '', note: note(q, meta.language)
     };
     const cols = Object.keys(row);
     out.push(`INSERT INTO problems (${cols.join(', ')}) VALUES (${cols.map(c => sql(row[c])).join(', ')});`);

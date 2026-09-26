@@ -5,6 +5,11 @@
   "compatibility_date": "2026-09-01",
   // 暗記タイピングの画像（scripts/fetch-images.mjs で取ってくる）
   "assets": { "directory": "public" },
+  "vars": {
+    // Google ログインの OAuth クライアント ID（公開されてよい値）。承認済みの生成元は
+    // https://anki-typing.takahito-ume.workers.dev と http://localhost:8791
+    "GOOGLE_CLIENT_ID": "1001255742442-pmd3a71i42mnrqvunrj0fr762uevoi79.apps.googleusercontent.com"
+  },
   "d1_databases": [
     {
       "binding": "DB",
