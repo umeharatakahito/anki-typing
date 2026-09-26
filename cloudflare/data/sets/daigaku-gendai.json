@@ -1,0 +1,2742 @@
+[
+  {
+    "id": "daigaku-gendai-0001",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "「自分は自分である」という自己の一貫性や、自分が何者であるかという感覚をカタカナ語で何という？（語末を伸ばさない表記で）",
+    "answer": "アイデンティティ",
+    "reading": "あいでんてぃてぃ",
+    "explanation": "「自己同一性」と訳されるよ。評論では集団への帰属意識の意味でも使われるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0002",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "例外なく、あらゆるものに当てはまることを漢字二字で何という？（「一般」より強い意味）",
+    "answer": "普遍",
+    "reading": "ふへん",
+    "explanation": "対義語は「特殊」だよ。「不変（変わらない）」と書き間違えないようにね。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0003",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "個々の具体的な事物から共通する性質を抜き出して、一般的な概念をつくることを漢字二字で何という？",
+    "answer": "抽象",
+    "reading": "ちゅうしょう",
+    "explanation": "対義語は「具体」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0004",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "自分ひとりの見方・感じ方にもとづくことを漢字二字で何という？",
+    "answer": "主観",
+    "reading": "しゅかん",
+    "explanation": "対義語は「客観」。「主観的な意見」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0005",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "特定の個人の見方にとらわれず、誰にとっても同じように成り立つ見方を漢字二字で何という？",
+    "answer": "客観",
+    "reading": "きゃっかん",
+    "explanation": "対義語は「主観」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0006",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "日本史では明治維新以降を指し、評論では合理性・個人主義などを特徴とする時代を指す語は？（漢字二字）",
+    "answer": "近代",
+    "reading": "きんだい",
+    "explanation": "評論では「近代を問い直す」というテーマがよく出るよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0007",
+    "level": 1,
+    "category": "漢字の読み",
+    "prompt": "「専門家の意見は多くの示唆に富んでいる。」の「示唆」の読みは？",
+    "answer": "示唆",
+    "reading": "しさ",
+    "explanation": "「それとなく教え示すこと」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0008",
+    "level": 1,
+    "category": "漢字の読み",
+    "prompt": "「科学技術は著しく進歩した。」の「著しい」の読みは？",
+    "answer": "著しい",
+    "reading": "いちじるしい",
+    "explanation": "「はっきり目立つほどである」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0009",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "他と比べることによって成り立ち、それ自体では決まらないことを漢字二字で何という？",
+    "answer": "相対",
+    "reading": "そうたい",
+    "explanation": "対義語は「絶対」。「相対的に見れば」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0010",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "他の何ものとも比べようがなく、何の制約も受けないことを漢字二字で何という？",
+    "answer": "絶対",
+    "reading": "ぜったい",
+    "explanation": "対義語は「相対」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0011",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "国家や民族の統一・独立・発展を重んじる考え方をカタカナ語で何という？",
+    "answer": "ナショナリズム",
+    "reading": "なしょなりずむ",
+    "explanation": "「国家主義」「民族主義」などと訳されるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0012",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "ヒト・モノ・カネ・情報が国境を越えて行き来し、地球規模で一体化が進むことをカタカナ語で何という？（「〜イズム」ではない形で）",
+    "answer": "グローバリゼーション",
+    "reading": "ぐろーばりぜーしょん",
+    "explanation": "「グローバル化」とも言うよ。反対の動きとして地域主義が語られることもあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0013",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "抽象的な概念を、具体的なもので表すこと、またその具体物を漢字二字で何という？",
+    "answer": "象徴",
+    "reading": "しょうちょう",
+    "explanation": "「ハトは平和の象徴」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0014",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "二つの選択肢のどちらを選んでも不都合が生じ、板挟みになることをカタカナ語で何という？",
+    "answer": "ジレンマ",
+    "reading": "じれんま",
+    "explanation": "三つなら「トリレンマ」と言うこともあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0015",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "社会の中で数が少なかったり立場が弱かったりする少数派をカタカナ語で何という？（語末を伸ばさない表記で）",
+    "answer": "マイノリティ",
+    "reading": "まいのりてぃ",
+    "explanation": "対義語は「マジョリティ（多数派）」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0016",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "情報を伝える媒体や手段（新聞・テレビ・インターネットなど）をカタカナ語で何という？",
+    "answer": "メディア",
+    "reading": "めでぃあ",
+    "explanation": "「媒体」と訳されるよ。「マスメディア」は大衆向けのものだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0017",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "読み書きの能力や、ある分野の情報を正しく理解し活用する力をカタカナ語で何という？",
+    "answer": "リテラシー",
+    "reading": "りてらしー",
+    "explanation": "「メディアリテラシー」「情報リテラシー」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0018",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "地域や利害・関心などで結びついた人々の集まり（共同体）をカタカナ語で何という？（語末を伸ばさない表記で）",
+    "answer": "コミュニティ",
+    "reading": "こみゅにてぃ",
+    "explanation": "評論では近代化による共同体の崩壊がテーマになることがあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0019",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "物事の共通する性質を取り出してまとめた、一般的な意味内容を漢字二字で何という？",
+    "answer": "概念",
+    "reading": "がいねん",
+    "explanation": "「新しい概念」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0020",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "必ずそうなるに決まっていて、それ以外にはありえないことを漢字二字で何という？",
+    "answer": "必然",
+    "reading": "ひつぜん",
+    "explanation": "対義語は「偶然」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0021",
+    "level": 1,
+    "category": "漢字の読み",
+    "prompt": "「決まった手順で作業を逐次進めていく。」の「逐次」の読みは？",
+    "answer": "逐次",
+    "reading": "ちくじ",
+    "explanation": "「順を追って一つずつ」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0022",
+    "level": 1,
+    "category": "漢字の読み",
+    "prompt": "「気温の変化が顕著に表れている。」の「顕著」の読みは？",
+    "answer": "顕著",
+    "reading": "けんちょ",
+    "explanation": "「はっきりと目立つさま」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0023",
+    "level": 1,
+    "category": "漢字の読み",
+    "prompt": "「天候の悪化が懸念される。」の「懸念」の読みは？",
+    "answer": "懸念",
+    "reading": "けねん",
+    "explanation": "「気がかり、心配」。「けんねん」ではないよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0024",
+    "level": 1,
+    "category": "漢字の読み",
+    "prompt": "「過去の歩みを顧みる。」の「顧みる」の読みは？",
+    "answer": "顧みる",
+    "reading": "かえりみる",
+    "explanation": "「振り返って見る、気にかける」。自分の行いを反省する「省みる」と区別しよう。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0025",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "ある時代や分野で、ものの見方や考え方を方向づけている支配的な枠組みをカタカナ語で何という？",
+    "answer": "パラダイム",
+    "reading": "ぱらだいむ",
+    "explanation": "科学史家クーンが広めた語で、「パラダイム・シフト」は枠組みの大転換のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0026",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "絶対的だと思われていたものを、他と比べられる一つの立場として捉え直すことを漢字三字で何という？",
+    "answer": "相対化",
+    "reading": "そうたいか",
+    "explanation": "「自文化を相対化する」のように、当たり前を疑う文脈で使われるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0027",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "必然性や根拠がなく、その時々の思いつきや気ままさで決まるさまを何という？（「〜的」の形で）",
+    "answer": "恣意的",
+    "reading": "しいてき",
+    "explanation": "「言葉と意味の結びつきは恣意的だ」のように言語論でもよく出るよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0028",
+    "level": 1,
+    "category": "評論用語",
+    "prompt": "表面の意味と反対のことをほのめかす、皮肉を意味するカタカナ語は？（英語由来の表記で）",
+    "answer": "アイロニー",
+    "reading": "あいろにー",
+    "explanation": "「アイロニカル」は「皮肉な」という意味の形容詞だよ。ドイツ語由来の「イロニー」という表記もあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0029",
+    "level": 2,
+    "category": "評論用語",
+    "prompt": "一見すると矛盾しているようで、実は真理を含んでいる表現（逆説）をカタカナ語で何という？",
+    "answer": "パラドックス",
+    "reading": "ぱらどっくす",
+    "explanation": "「急がば回れ」のような言い方がその例だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0030",
+    "level": 2,
+    "category": "評論用語",
+    "prompt": "社会の集団や階級に特有の、政治や社会についての考え方の体系をカタカナ語で何という？",
+    "answer": "イデオロギー",
+    "reading": "いでおろぎー",
+    "explanation": "評論では「無意識に人を縛る思想」という否定的な意味で使われることもあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0031",
+    "level": 2,
+    "category": "評論用語",
+    "prompt": "事実ではなく、想像によって作り上げたものを漢字二字で何という？",
+    "answer": "虚構",
+    "reading": "きょこう",
+    "explanation": "「フィクション」の訳語だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0032",
+    "level": 2,
+    "category": "評論用語",
+    "prompt": "自分の利益だけを考える利己主義をカタカナ語で何という？",
+    "answer": "エゴイズム",
+    "reading": "えごいずむ",
+    "explanation": "「エゴイスト」はそういう考えの人のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0033",
+    "level": 2,
+    "category": "評論用語",
+    "prompt": "文章の前後のつながりや、ある物事の背景となる状況を漢字二字で何という？",
+    "answer": "文脈",
+    "reading": "ぶんみゃく",
+    "explanation": "カタカナ語では「コンテクスト（コンテキスト）」と言うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0034",
+    "level": 2,
+    "category": "評論用語",
+    "prompt": "実物ではないが、実質的には同じ働きをもつ仮想のものを表すカタカナ語は？（「ヴ」を使わない表記で）",
+    "answer": "バーチャル",
+    "reading": "ばーちゃる",
+    "explanation": "「バーチャルリアリティ（仮想現実）」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0035",
+    "level": 2,
+    "category": "評論用語",
+    "prompt": "社会の中で、触れたり口にしたりしてはいけないとされていることをカタカナ語で何という？",
+    "answer": "タブー",
+    "reading": "たぶー",
+    "explanation": "「禁忌」と訳されるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0036",
+    "level": 2,
+    "category": "評論用語",
+    "prompt": "同じ性質をもつものをまとめた分類の枠組み（範疇）をカタカナ語で何という？（語末を伸ばす表記で）",
+    "answer": "カテゴリー",
+    "reading": "かてごりー",
+    "explanation": "「範疇」はこの語の訳語だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0037",
+    "level": 2,
+    "category": "評論用語",
+    "prompt": "他からの支配や命令を受けず、自分で決めた規範に従って行動することを漢字二字で何という？",
+    "answer": "自律",
+    "reading": "じりつ",
+    "explanation": "「自立」と区別しよう。対義語は「他律」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0038",
+    "level": 2,
+    "category": "評論用語",
+    "prompt": "そのものをそのものたらしめている、根本的な性質を漢字二字で何という？",
+    "answer": "本質",
+    "reading": "ほんしつ",
+    "explanation": "対になるのは表に現れた「現象」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0039",
+    "level": 2,
+    "category": "評論用語",
+    "prompt": "目に見えないものを、図やデータなどで見えるようにすることを漢字三字で何という？",
+    "answer": "可視化",
+    "reading": "かしか",
+    "explanation": "「問題を可視化する」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0040",
+    "level": 2,
+    "category": "評論用語",
+    "prompt": "現実には存在しない理想郷をカタカナ語で何という？",
+    "answer": "ユートピア",
+    "reading": "ゆーとぴあ",
+    "explanation": "トマス・モアの著作名に由来するよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0041",
+    "level": 2,
+    "category": "評論用語",
+    "prompt": "生物と環境との関係を研究する学問、また自然環境を守ろうとする考え方をカタカナ語で何という？",
+    "answer": "エコロジー",
+    "reading": "えころじー",
+    "explanation": "「生態学」と訳されるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0042",
+    "level": 2,
+    "category": "漢字の読み",
+    "prompt": "「消費者の嗜好は時代とともに変わる。」の「嗜好」の読みは？",
+    "answer": "嗜好",
+    "reading": "しこう",
+    "explanation": "「好み」という意味。「思考」「志向」と書き分けよう。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0043",
+    "level": 2,
+    "category": "漢字の読み",
+    "prompt": "「この地域は災害に対して脆弱だ。」の「脆弱」の読みは？",
+    "answer": "脆弱",
+    "reading": "ぜいじゃく",
+    "explanation": "「もろくて弱いこと」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0044",
+    "level": 2,
+    "category": "漢字の読み",
+    "prompt": "「山頂から町全体を俯瞰する。」の「俯瞰」の読みは？",
+    "answer": "俯瞰",
+    "reading": "ふかん",
+    "explanation": "「高いところから見下ろすこと」。「全体を見渡す」意味でも使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0045",
+    "level": 2,
+    "category": "漢字の読み",
+    "prompt": "「不安を払拭するために説明会を開く。」の「払拭」の読みは？",
+    "answer": "払拭",
+    "reading": "ふっしょく",
+    "explanation": "「すっかり取り除くこと」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0046",
+    "level": 2,
+    "category": "漢字の読み",
+    "prompt": "「未曽有の大災害に見舞われた。」の「未曽有」の読みは？",
+    "answer": "未曽有",
+    "reading": "みぞう",
+    "explanation": "「今まで一度もなかったこと」。漢文の「未だ曽て有らず」が由来だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0047",
+    "level": 2,
+    "category": "漢字の読み",
+    "prompt": "「為政者は民の声に耳を傾けるべきだ。」の「為政者」の読みは？",
+    "answer": "為政者",
+    "reading": "いせいしゃ",
+    "explanation": "「政治を行う者」のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0048",
+    "level": 2,
+    "category": "漢字の読み",
+    "prompt": "「除夜の鐘は煩悩を払うといわれる。」の「煩悩」の読みは？",
+    "answer": "煩悩",
+    "reading": "ぼんのう",
+    "explanation": "「心身を悩ませる欲望」。仏教の言葉だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0049",
+    "level": 2,
+    "category": "漢字の読み",
+    "prompt": "「服の縫い目が綻びる。」の「綻びる」の読みは？",
+    "answer": "綻びる",
+    "reading": "ほころびる",
+    "explanation": "「縫い目がほどける」のほか、「つぼみが開く」「表情がゆるむ」意味もあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0050",
+    "level": 2,
+    "category": "漢字の読み",
+    "prompt": "「長い冬が終わり漸く春が来た。」の「漸く」の読みは？",
+    "answer": "漸く",
+    "reading": "ようやく",
+    "explanation": "「やっと、しだいに」という意味だよ。漢文では「やうやく」と書くよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0051",
+    "level": 2,
+    "category": "漢字の読み",
+    "prompt": "「社会の変容を丹念に描く。」の「変容」の読みは？",
+    "answer": "変容",
+    "reading": "へんよう",
+    "explanation": "「姿や様子が変わること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0052",
+    "level": 2,
+    "category": "評論用語",
+    "prompt": "一般的な前提から、論理によって個別の結論を導き出す推論を漢字二字で何という？",
+    "answer": "演繹",
+    "reading": "えんえき",
+    "explanation": "対義語は「帰納」。三段論法が代表例だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0053",
+    "level": 2,
+    "category": "評論用語",
+    "prompt": "個々の具体的な事例から、共通する一般的な法則を導き出す推論を漢字二字で何という？",
+    "answer": "帰納",
+    "reading": "きのう",
+    "explanation": "対義語は「演繹」だよ。「昨日」と同じ読みなので書き間違いに注意だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0054",
+    "level": 2,
+    "category": "評論用語",
+    "prompt": "「〜のような」を使わずにたとえる隠喩をカタカナ語で何という？",
+    "answer": "メタファー",
+    "reading": "めたふぁー",
+    "explanation": "「人生は旅だ」のような表現が例だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0055",
+    "level": 2,
+    "category": "評論用語",
+    "prompt": "言葉を効果的に使って表現する技術、修辞をカタカナ語で何という？",
+    "answer": "レトリック",
+    "reading": "れとりっく",
+    "explanation": "「巧みなレトリック」は、うまい言い回しで人を説得することだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0056",
+    "level": 3,
+    "category": "評論用語",
+    "prompt": "ある社会で広く共有された、型にはまった単純なものの見方（紋切り型）をカタカナ語で何という？",
+    "answer": "ステレオタイプ",
+    "reading": "すてれおたいぷ",
+    "explanation": "偏見や決めつけにつながることがあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0057",
+    "level": 3,
+    "category": "評論用語",
+    "prompt": "悲劇などを見ることで心にたまった感情が解放され、すっきりすることをカタカナ語で何という？",
+    "answer": "カタルシス",
+    "reading": "かたるしす",
+    "explanation": "アリストテレスが悲劇の効果として述べた言葉だよ。「浄化」と訳されるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0058",
+    "level": 3,
+    "category": "評論用語",
+    "prompt": "人間性を尊重し、人間の解放や幸福を目指す考え方をカタカナ語で何という？",
+    "answer": "ヒューマニズム",
+    "reading": "ひゅーまにずむ",
+    "explanation": "「人道主義」「人間中心主義」などと訳されるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0059",
+    "level": 3,
+    "category": "評論用語",
+    "prompt": "現実をありのままに描こうとする写実主義や、理想より現実を重んじる態度をカタカナ語で何という？",
+    "answer": "リアリズム",
+    "reading": "りありずむ",
+    "explanation": "文学・美術では「写実主義」の意味で使われるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0060",
+    "level": 3,
+    "category": "評論用語",
+    "prompt": "「冷笑的な」という意味を表すカタカナ語は？（「〜な」の形で使う語）",
+    "answer": "シニカル",
+    "reading": "しにかる",
+    "explanation": "名詞の「シニシズム」は「冷笑主義」と訳されるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0061",
+    "level": 3,
+    "category": "評論用語",
+    "prompt": "秩序がなく、何もかも入り混じっている状態（混沌）をカタカナ語で何という？",
+    "answer": "カオス",
+    "reading": "かおす",
+    "explanation": "対になるのは秩序ある世界を意味する「コスモス」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0062",
+    "level": 3,
+    "category": "評論用語",
+    "prompt": "証明や説明を必要とせず、それ自体ですでに明らかなことを漢字二字で何という？",
+    "answer": "自明",
+    "reading": "じめい",
+    "explanation": "「自明の理」＝わかりきった道理のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0063",
+    "level": 3,
+    "category": "評論用語",
+    "prompt": "自らの意志で考え行動する存在を漢字二字で何という？",
+    "answer": "主体",
+    "reading": "しゅたい",
+    "explanation": "対義語は「客体」。「主体的に学ぶ」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0064",
+    "level": 3,
+    "category": "評論用語",
+    "prompt": "観察できる形で外に現れた出来事やありさまを漢字二字で何という？",
+    "answer": "現象",
+    "reading": "げんしょう",
+    "explanation": "哲学では「本質」と対比されるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0065",
+    "level": 3,
+    "category": "評論用語",
+    "prompt": "論理的に考えたり判断したりする心の働きを漢字二字で何という？",
+    "answer": "理性",
+    "reading": "りせい",
+    "explanation": "近代は理性を重んじた時代とされるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0066",
+    "level": 3,
+    "category": "評論用語",
+    "prompt": "外からの刺激を感じ取る心の働き、感受性を漢字二字で何という？（「理性」と対比される語）",
+    "answer": "感性",
+    "reading": "かんせい",
+    "explanation": "「感性豊かな人」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0067",
+    "level": 3,
+    "category": "評論用語",
+    "prompt": "さまざまな種類のものが共存していることを漢字三字で何という？",
+    "answer": "多様性",
+    "reading": "たようせい",
+    "explanation": "「生物多様性」「文化の多様性」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0068",
+    "level": 3,
+    "category": "評論用語",
+    "prompt": "物事の真偽や価値を疑ってかかることを漢字二字で何という？",
+    "answer": "懐疑",
+    "reading": "かいぎ",
+    "explanation": "「会議」と同じ読みなので注意。「懐疑的」は疑わしく思うさまだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0069",
+    "level": 3,
+    "category": "評論用語",
+    "prompt": "ごく短い時間、一瞬を意味する仏教由来の漢字二字の語は？",
+    "answer": "刹那",
+    "reading": "せつな",
+    "explanation": "「刹那的」はその場の快楽だけを求めるさまだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0070",
+    "level": 3,
+    "category": "評論用語",
+    "prompt": "社会の中で、人が従うべき判断や行動のよりどころとなる決まりを漢字二字で何という？（「道徳〜」「社会〜」の形でも使う）",
+    "answer": "規範",
+    "reading": "きはん",
+    "explanation": "「社会規範」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0071",
+    "level": 3,
+    "category": "評論用語",
+    "prompt": "ありふれていて古くさく、つまらないことを漢字二字で何という？",
+    "answer": "陳腐",
+    "reading": "ちんぷ",
+    "explanation": "「陳腐な表現」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0072",
+    "level": 3,
+    "category": "評論用語",
+    "prompt": "要点をはっきりと示すさま、手っ取り早いさまを何という？（「〜的」の形で）",
+    "answer": "端的",
+    "reading": "たんてき",
+    "explanation": "「端的に言えば」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0073",
+    "level": 3,
+    "category": "評論用語",
+    "prompt": "二つのものの間に立って、両者を結びつける働きをすることを漢字二字で何という？（「言語を〜として世界を理解する」のように使う）",
+    "answer": "媒介",
+    "reading": "ばいかい",
+    "explanation": "「媒介する」「媒介物」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0074",
+    "level": 3,
+    "category": "評論用語",
+    "prompt": "仲間以外の者を受け入れず、退けようとするさまを何という？（「〜的」の形で）",
+    "answer": "排他的",
+    "reading": "はいたてき",
+    "explanation": "「排他的経済水域」という用語もあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0075",
+    "level": 3,
+    "category": "漢字の読み",
+    "prompt": "「相手の気持ちを忖度して発言を控えた。」の「忖度」の読みは？",
+    "answer": "忖度",
+    "reading": "そんたく",
+    "explanation": "「他人の心をおしはかること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0076",
+    "level": 3,
+    "category": "漢字の読み",
+    "prompt": "「新しい制度が漸次広まっていった。」の「漸次」の読みは？",
+    "answer": "漸次",
+    "reading": "ぜんじ",
+    "explanation": "「だんだん、しだいに」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0077",
+    "level": 3,
+    "category": "漢字の読み",
+    "prompt": "「個人情報の漏洩を防ぐ対策をとる。」の「漏洩」の読みは？",
+    "answer": "漏洩",
+    "reading": "ろうえい",
+    "explanation": "「秘密などがもれること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0078",
+    "level": 3,
+    "category": "漢字の読み",
+    "prompt": "「無益な殺生をしてはいけない。」の「殺生」の読みは？",
+    "answer": "殺生",
+    "reading": "せっしょう",
+    "explanation": "「生き物を殺すこと」。「むごいこと」の意味でも使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0079",
+    "level": 3,
+    "category": "漢字の読み",
+    "prompt": "「彼が信頼される所以はその誠実さにある。」の「所以」の読みは？",
+    "answer": "所以",
+    "reading": "ゆえん",
+    "explanation": "「理由、わけ」という意味。漢文の「所以」と同じだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0080",
+    "level": 3,
+    "category": "漢字の読み",
+    "prompt": "「彼は生粋の江戸っ子だ。」の「生粋」の読みは？",
+    "answer": "生粋",
+    "reading": "きっすい",
+    "explanation": "「まじりけがないこと」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0081",
+    "level": 3,
+    "category": "漢字の読み",
+    "prompt": "「平安時代に建立された寺院。」の「建立」の読みは？",
+    "answer": "建立",
+    "reading": "こんりゅう",
+    "explanation": "「寺や塔を建てること」。「けんりつ」ではないよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0082",
+    "level": 3,
+    "category": "漢字の読み",
+    "prompt": "「根拠のないうわさが流布している。」の「流布」の読みは？",
+    "answer": "流布",
+    "reading": "るふ",
+    "explanation": "「世間に広まること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0083",
+    "level": 3,
+    "category": "漢字の読み",
+    "prompt": "「事実を歪曲して報道してはならない。」の「歪曲」の読みは？",
+    "answer": "歪曲",
+    "reading": "わいきょく",
+    "explanation": "「事実をゆがめること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0084",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「あの監督は地元の選手を贔屓している。」の「贔屓」の読みは？",
+    "answer": "贔屓",
+    "reading": "ひいき",
+    "explanation": "「気に入った人を特に引き立てること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0085",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「資金繰りが逼迫している。」の「逼迫」の読みは？",
+    "answer": "逼迫",
+    "reading": "ひっぱく",
+    "explanation": "「行き詰まって余裕がないこと」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0086",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「知人の斡旋で職を得た。」の「斡旋」の読みは？",
+    "answer": "斡旋",
+    "reading": "あっせん",
+    "explanation": "「間に入って取り持つこと」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0087",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「理想と現実が大きく乖離している。」の「乖離」の読みは？",
+    "answer": "乖離",
+    "reading": "かいり",
+    "explanation": "「そむき離れること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0088",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「政治家の失言を揶揄する記事。」の「揶揄」の読みは？",
+    "answer": "揶揄",
+    "reading": "やゆ",
+    "explanation": "「からかうこと」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0089",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「事件の発端は小さな誤解だった。」の「発端」の読みは？",
+    "answer": "発端",
+    "reading": "ほったん",
+    "explanation": "「物事の始まり」。「はったん」ではないよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0090",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「秋の終わりに時雨が降る。」の「時雨」の読みは？",
+    "answer": "時雨",
+    "reading": "しぐれ",
+    "explanation": "「秋から冬にかけて降ったりやんだりする雨」だよ。熟字訓だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0091",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「精緻な議論を展開する論文。」の「精緻」の読みは？",
+    "answer": "精緻",
+    "reading": "せいち",
+    "explanation": "「細かいところまで行き届いているさま」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0092",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「画面を凝視して変化を待つ。」の「凝視」の読みは？",
+    "answer": "凝視",
+    "reading": "ぎょうし",
+    "explanation": "「じっと見つめること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0093",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「渾身の力をこめてボールを投げた。」の「渾身」の読みは？",
+    "answer": "渾身",
+    "reading": "こんしん",
+    "explanation": "「体全体」。「渾身の力」はありったけの力のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0094",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「杜撰な計画はすぐに破綻した。」の「杜撰」の読みは？",
+    "answer": "杜撰",
+    "reading": "ずさん",
+    "explanation": "「いいかげんで誤りが多いこと」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0095",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「この部品は汎用性が高い。」の「汎用」の読みは？",
+    "answer": "汎用",
+    "reading": "はんよう",
+    "explanation": "「一つのものを広くいろいろな用途に使うこと」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0096",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「潤沢な資金を元に事業を広げる。」の「潤沢」の読みは？",
+    "answer": "潤沢",
+    "reading": "じゅんたく",
+    "explanation": "「豊富にあること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0097",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「人を蔑むような目で見てはいけない。」の「蔑む」の読みは？",
+    "answer": "蔑む",
+    "reading": "さげすむ",
+    "explanation": "「見下してばかにすること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0098",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「客人を恭しく迎え入れる。」の「恭しい」の読みは？",
+    "answer": "恭しい",
+    "reading": "うやうやしい",
+    "explanation": "「礼儀正しく丁寧なさま」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0099",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「桜の儚い美しさに心を打たれる。」の「儚い」の読みは？",
+    "answer": "儚い",
+    "reading": "はかない",
+    "explanation": "「もろくて長続きしないさま」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0100",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「友人を唆して悪事に誘う。」の「唆す」の読みは？",
+    "answer": "唆す",
+    "reading": "そそのかす",
+    "explanation": "「悪いことをするようにしむける」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0101",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「彼は頑なに意見を変えなかった。」の「頑な」の読みは？",
+    "answer": "頑な",
+    "reading": "かたくな",
+    "explanation": "「意地を張って態度を変えないさま」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0102",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「幼い弟が健気に家事を手伝う。」の「健気」の読みは？",
+    "answer": "健気",
+    "reading": "けなげ",
+    "explanation": "「年少者などが一生懸命に努めるさま」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0103",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「老人は徐に口を開いた。」の「徐に」の読みは？",
+    "answer": "徐に",
+    "reading": "おもむろに",
+    "explanation": "「ゆっくりと」という意味。「突然」ではないので注意だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0104",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「人ごみに紛れて姿を消す。」の「紛れる」の読みは？",
+    "answer": "紛れる",
+    "reading": "まぎれる",
+    "explanation": "「入りまじって区別がつかなくなる」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0105",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「人の失敗を嘲るのはよくない。」の「嘲る」の読みは？",
+    "answer": "嘲る",
+    "reading": "あざける",
+    "explanation": "「ばかにして笑う」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0106",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「静かな部屋だと勉強が捗る。」の「捗る」の読みは？",
+    "answer": "捗る",
+    "reading": "はかどる",
+    "explanation": "「物事が順調に進む」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0107",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「彼の発言が物議を醸した。」の「醸す」の読みは？",
+    "answer": "醸す",
+    "reading": "かもす",
+    "explanation": "「ある雰囲気や状態を生み出す」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0108",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「休日は家で寛ぐ。」の「寛ぐ」の読みは？",
+    "answer": "寛ぐ",
+    "reading": "くつろぐ",
+    "explanation": "「ゆったりと気楽に過ごす」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0109",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「研究の成果が論文に結実した。」の「結実」の読みは？",
+    "answer": "結実",
+    "reading": "けつじつ",
+    "explanation": "「努力が実を結ぶこと」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0110",
+    "level": 4,
+    "category": "漢字の読み",
+    "prompt": "「多くの人が彼の死を悼んだ。」の「悼む」の読みは？",
+    "answer": "悼む",
+    "reading": "いたむ",
+    "explanation": "「人の死を悲しむ」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0111",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "正・反・合の三段階で物事の発展をとらえる、ヘーゲルに代表される思考法を何という？（漢字三字）",
+    "answer": "弁証法",
+    "reading": "べんしょうほう",
+    "explanation": "対立や矛盾をきっかけに、より高い段階へ進むという考え方だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0112",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "近代の理性や進歩への信頼を疑い、それを乗り越えようとする思想や文化をカタカナ語で何という？（「〜イズム」の付かない形で）",
+    "answer": "ポストモダン",
+    "reading": "ぽすともだん",
+    "explanation": "「モダン（近代）」の「ポスト（後）」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0113",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "人間の存在を、あらかじめ定められた本質よりも、いまここにある現実のあり方からとらえる考え方で使う語は？（漢字二字）",
+    "answer": "実存",
+    "reading": "じつぞん",
+    "explanation": "サルトルの「実存は本質に先立つ」という言葉が有名だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0114",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "似ている点をもとに、他のことを推し量る類推をカタカナ語で何という？",
+    "answer": "アナロジー",
+    "reading": "あなろじー",
+    "explanation": "未知のことを既知のことにたとえて理解する方法だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0115",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "既存の価値や権威をすべて否定し、生きる意味や価値はないとする虚無主義をカタカナ語で何という？",
+    "answer": "ニヒリズム",
+    "reading": "にひりずむ",
+    "explanation": "ニーチェの哲学と関連して語られることが多いよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0116",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "物事を悪い方へと考える悲観主義をカタカナ語で何という？",
+    "answer": "ペシミズム",
+    "reading": "ぺしみずむ",
+    "explanation": "対義語は「オプティミズム（楽観主義）」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0117",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "物事を良い方へと考える楽観主義をカタカナ語で何という？",
+    "answer": "オプティミズム",
+    "reading": "おぷてぃみずむ",
+    "explanation": "対義語は「ペシミズム（悲観主義）」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0118",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "ある物事を、一段上の視点からとらえることを表す接頭語は？（カタカナ二字）",
+    "answer": "メタ",
+    "reading": "めた",
+    "explanation": "「メタ認知」は自分の思考を客観的にとらえることだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0119",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "事物を抽象するとき、共通しない個別の性質を切り捨てることを漢字二字で何という？",
+    "answer": "捨象",
+    "reading": "しゃしょう",
+    "explanation": "抽象と捨象は表裏一体の関係だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0120",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "複雑な物事を、より単純な要素や原理にもどして説明することを漢字二字で何という？",
+    "answer": "還元",
+    "reading": "かんげん",
+    "explanation": "「還元主義」は全体を部分の性質で説明しようとする考え方だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0121",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "「善と悪」「自然と文化」のように、物事を対立する二つに分けてとらえる考え方を漢字四字で何という？",
+    "answer": "二項対立",
+    "reading": "にこうたいりつ",
+    "explanation": "評論ではこの図式を崩す議論がよく見られるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0122",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "人々を無知の状態から解放し、合理的な考え方へと導くことを漢字二字で何という？",
+    "answer": "啓蒙",
+    "reading": "けいもう",
+    "explanation": "18世紀ヨーロッパの「啓蒙思想」が有名だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0123",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "ある範囲や限界を超え出ること、特に経験や認識の枠を超えることを漢字二字で何という？",
+    "answer": "超越",
+    "reading": "ちょうえつ",
+    "explanation": "宗教や哲学では、人間界を超えた存在を「超越者」と言うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0124",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "すべてが一様で、個性や特色がないさまを何という？（「〜的」の形で）",
+    "answer": "画一的",
+    "reading": "かくいつてき",
+    "explanation": "「がいつ」ではなく「かくいつ」と読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0125",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "物事の表面に近い部分、うわべの層を漢字二字で何という？",
+    "answer": "表層",
+    "reading": "ひょうそう",
+    "explanation": "対義語は「深層」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0126",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "生物のように、多くの部分が密接に結びついて一つの全体をなしているさまを何という？（「〜的」の形で）",
+    "answer": "有機的",
+    "reading": "ゆうきてき",
+    "explanation": "対義語は「無機的」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0127",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "一定していて変わらないことを漢字二字で何という？（「〜性」を付けると、生物が体内の状態を一定に保つ性質を表す）",
+    "answer": "恒常",
+    "reading": "こうじょう",
+    "explanation": "「恒常的に」＝「いつも変わらずに」。「恒常性」はホメオスタシスの訳語だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0128",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "この世のすべては移り変わり、永遠のものはないという仏教の考え方を漢字二字で何という？",
+    "answer": "無常",
+    "reading": "むじょう",
+    "explanation": "『平家物語』や『方丈記』に通じる考え方だよ。「無情」と区別しよう。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0129",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "中身が失われ、形だけが残ってしまうことを漢字三字で何という？",
+    "answer": "形骸化",
+    "reading": "けいがいか",
+    "explanation": "「制度が形骸化する」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0130",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "内にひそんでいて、まだ外に現れていないことを漢字二字で何という？",
+    "answer": "潜在",
+    "reading": "せんざい",
+    "explanation": "「潜在能力」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0131",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "本来の方向や決まりから外れることを漢字二字で何という？",
+    "answer": "逸脱",
+    "reading": "いつだつ",
+    "explanation": "「規範からの逸脱」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0132",
+    "level": 5,
+    "category": "評論用語",
+    "prompt": "上下の関係で序列づけられた、ピラミッド型の組織や秩序をカタカナ語で何という？",
+    "answer": "ヒエラルキー",
+    "reading": "ひえらるきー",
+    "explanation": "「階層秩序」と訳されるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0133",
+    "level": 5,
+    "category": "漢字の読み",
+    "prompt": "「市井の人々の暮らしを描いた小説。」の「市井」の読みは？",
+    "answer": "市井",
+    "reading": "しせい",
+    "explanation": "「人が集まって住むところ、世間」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0134",
+    "level": 5,
+    "category": "漢字の読み",
+    "prompt": "「細かな形式に拘泥していては進まない。」の「拘泥」の読みは？",
+    "answer": "拘泥",
+    "reading": "こうでい",
+    "explanation": "「こだわること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0135",
+    "level": 5,
+    "category": "漢字の読み",
+    "prompt": "「この問題は経済学の範疇を超えている。」の「範疇」の読みは？",
+    "answer": "範疇",
+    "reading": "はんちゅう",
+    "explanation": "「同じ種類のものが属する範囲、カテゴリー」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0136",
+    "level": 5,
+    "category": "漢字の読み",
+    "prompt": "「祖父はワインについての蘊蓄を語り始めた。」の「蘊蓄」の読みは？",
+    "answer": "蘊蓄",
+    "reading": "うんちく",
+    "explanation": "「たくわえた深い知識」のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0137",
+    "level": 5,
+    "category": "漢字の読み",
+    "prompt": "「両国の間に軋轢が生じた。」の「軋轢」の読みは？",
+    "answer": "軋轢",
+    "reading": "あつれき",
+    "explanation": "「仲が悪くなって争うこと」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0138",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「約束を反故にされてしまった。」の「反故」の読みは？",
+    "answer": "反故",
+    "reading": "ほご",
+    "explanation": "「役に立たないもの、取り消すこと」。「反古」とも書くよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0139",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「これほどの才能は稀有な例だ。」の「稀有」の読みは？",
+    "answer": "稀有",
+    "reading": "けう",
+    "explanation": "「めったにないこと」だよ。「きゆう」ではないよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0140",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「早朝の図書館は静謐な空気に満ちている。」の「静謐」の読みは？",
+    "answer": "静謐",
+    "reading": "せいひつ",
+    "explanation": "「静かで落ち着いているさま」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0141",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「かつての名門が凋落の一途をたどる。」の「凋落」の読みは？",
+    "answer": "凋落",
+    "reading": "ちょうらく",
+    "explanation": "「落ちぶれること」。もとは草木がしぼむ意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0142",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「両者の説明には齟齬がある。」の「齟齬」の読みは？",
+    "answer": "齟齬",
+    "reading": "そご",
+    "explanation": "「食い違い」のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0143",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「雲の間隙から日が差し込む。」の「間隙」の読みは？",
+    "answer": "間隙",
+    "reading": "かんげき",
+    "explanation": "「すきま」。「感激」と同じ読みだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0144",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「毎日の長い会議には辟易している。」の「辟易」の読みは？",
+    "answer": "辟易",
+    "reading": "へきえき",
+    "explanation": "「うんざりすること」。もとは「しりごみする」意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0145",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「看病続きで母は憔悴していた。」の「憔悴」の読みは？",
+    "answer": "憔悴",
+    "reading": "しょうすい",
+    "explanation": "「心配や疲れでやつれること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0146",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「会計係が金銭の出納を管理する。」の「出納」の読みは？",
+    "answer": "出納",
+    "reading": "すいとう",
+    "explanation": "「お金や物の出し入れ」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0147",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「家臣が主君に対して謀反を起こした。」の「謀反」の読みは？",
+    "answer": "謀反",
+    "reading": "むほん",
+    "explanation": "「主君にそむくこと」だよ。「謀叛」とも書くよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0148",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「僧が諸国を行脚する。」の「行脚」の読みは？",
+    "answer": "行脚",
+    "reading": "あんぎゃ",
+    "explanation": "「僧が修行のため各地を歩いて回ること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0149",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「修行僧が精進を重ねる。」の「精進」の読みは？",
+    "answer": "精進",
+    "reading": "しょうじん",
+    "explanation": "「一つのことに打ち込んで努力すること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0150",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「客人が所望した品を用意する。」の「所望」の読みは？",
+    "answer": "所望",
+    "reading": "しょもう",
+    "explanation": "「望み求めること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0151",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「疾病の予防に努める。」の「疾病」の読みは？",
+    "answer": "疾病",
+    "reading": "しっぺい",
+    "explanation": "「病気」のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0152",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「監督が選手たちを叱咤した。」の「叱咤」の読みは？",
+    "answer": "叱咤",
+    "reading": "しった",
+    "explanation": "「大声で励ますこと」。「叱咤激励」の形でよく使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0153",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「海底ケーブルを敷設する。」の「敷設」の読みは？",
+    "answer": "敷設",
+    "reading": "ふせつ",
+    "explanation": "「設備などを設置すること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0154",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「赤字を予備費で補塡する。」の「補塡」の読みは？",
+    "answer": "補塡",
+    "reading": "ほてん",
+    "explanation": "「不足を補って埋めること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0155",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「富が一部の地域に偏在している。」の「偏在」の読みは？",
+    "answer": "偏在",
+    "reading": "へんざい",
+    "explanation": "「かたよって存在すること」。同じ読みの「遍在」は「どこにでもある」ことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0156",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「成功例は枚挙にいとまがない。」の「枚挙」の読みは？",
+    "answer": "枚挙",
+    "reading": "まいきょ",
+    "explanation": "「一つ一つ数え上げること」。「枚挙にいとまがない」は数え切れないことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0157",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「その名は遍く世に知られている。」の「遍く」の読みは？",
+    "answer": "遍く",
+    "reading": "あまねく",
+    "explanation": "「広く行き渡って」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0158",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「村人が挙って祭りに参加した。」の「挙って」の読みは？",
+    "answer": "挙って",
+    "reading": "こぞって",
+    "explanation": "「みんなそろって」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0159",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「夥しい数の鳥が空を覆う。」の「夥しい」の読みは？",
+    "answer": "夥しい",
+    "reading": "おびただしい",
+    "explanation": "「数や量が非常に多い」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0160",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「憲法は基本的人権の尊重を謳っている。」の「謳う」の読みは？",
+    "answer": "謳う",
+    "reading": "うたう",
+    "explanation": "「はっきり示す、強調して言う」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0161",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「人目を憚ることなく泣いた。」の「憚る」の読みは？",
+    "answer": "憚る",
+    "reading": "はばかる",
+    "explanation": "「遠慮する、気がねする」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0162",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「運命に抗う主人公を描く。」の「抗う」の読みは？",
+    "answer": "抗う",
+    "reading": "あらがう",
+    "explanation": "「逆らう、抵抗する」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0163",
+    "level": 6,
+    "category": "漢字の読み",
+    "prompt": "「運命に弄ばれた人生。」の「弄ぶ」の読みは？",
+    "answer": "弄ぶ",
+    "reading": "もてあそぶ",
+    "explanation": "「思いのままに扱う、慰みものにする」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0164",
+    "level": 6,
+    "category": "評論用語",
+    "prompt": "形がなく、感覚ではとらえられない抽象的・精神的なものを表す語は？（漢字三字）",
+    "answer": "形而上",
+    "reading": "けいじじょう",
+    "explanation": "「形而上学」は存在の根本原理を考える哲学だよ。対義語は「形而下」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0165",
+    "level": 6,
+    "category": "評論用語",
+    "prompt": "対立する二つのものを、より高い次元で統合する考え方を漢字二字で何という？（ヘーゲル哲学の用語）",
+    "answer": "止揚",
+    "reading": "しよう",
+    "explanation": "ドイツ語で「アウフヘーベン」。「使用」と同じ読みなので注意だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0166",
+    "level": 7,
+    "category": "評論用語",
+    "prompt": "ギリシャ語に由来し、「言葉」や「論理・理性」を意味するカタカナ語は？",
+    "answer": "ロゴス",
+    "reading": "ろごす",
+    "explanation": "感情を表す「パトス」と対比されることが多いよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0167",
+    "level": 7,
+    "category": "評論用語",
+    "prompt": "ギリシャ語に由来し、「感情・情念」を意味するカタカナ語は？",
+    "answer": "パトス",
+    "reading": "ぱとす",
+    "explanation": "論理を表す「ロゴス」と対比されるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0168",
+    "level": 7,
+    "category": "評論用語",
+    "prompt": "心の中に思い浮かべられたイメージや、何かを代わりに表し示すことを漢字二字で何という？",
+    "answer": "表象",
+    "reading": "ひょうしょう",
+    "explanation": "「文化的表象」のように、評論でよく使われるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0169",
+    "level": 7,
+    "category": "評論用語",
+    "prompt": "宇宙や世界の成り立ちについての体系的な見方（宇宙観）をカタカナ語で何という？",
+    "answer": "コスモロジー",
+    "reading": "こすもろじー",
+    "explanation": "評論では「世界をどう秩序づけて理解するか」という意味で使われるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0170",
+    "level": 7,
+    "category": "評論用語",
+    "prompt": "時代の流れに合わない言動や考え方（時代錯誤）をカタカナ語で何という？",
+    "answer": "アナクロニズム",
+    "reading": "あなくろにずむ",
+    "explanation": "「アナクロ」と略されることもあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0171",
+    "level": 7,
+    "category": "評論用語",
+    "prompt": "抽象的な考えを、具体的な物語や人物に託して表す寓意をカタカナ語で何という？",
+    "answer": "アレゴリー",
+    "reading": "あれごりー",
+    "explanation": "イソップ物語のように教訓を物語で示すものが例だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0172",
+    "level": 7,
+    "category": "評論用語",
+    "prompt": "疑うことを許されない絶対的な教え（教条）や独断的な考えをカタカナ語で何という？",
+    "answer": "ドグマ",
+    "reading": "どぐま",
+    "explanation": "「ドグマティック」は「独断的な」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0173",
+    "level": 7,
+    "category": "評論用語",
+    "prompt": "考えるまでもなく、あらかじめ与えられているもの・前提として与えられている条件を漢字二字で何という？",
+    "answer": "所与",
+    "reading": "しょよ",
+    "explanation": "「所与の条件」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0174",
+    "level": 7,
+    "category": "評論用語",
+    "prompt": "自分の意志ではなく、他からの命令や規範に従って行動することを漢字二字で何という？",
+    "answer": "他律",
+    "reading": "たりつ",
+    "explanation": "対義語は「自律」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0175",
+    "level": 7,
+    "category": "評論用語",
+    "prompt": "主体の認識や行為が向けられる対象を漢字二字で何という？",
+    "answer": "客体",
+    "reading": "きゃくたい",
+    "explanation": "対義語は「主体」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0176",
+    "level": 7,
+    "category": "評論用語",
+    "prompt": "人間が自ら作り出したものによって支配され、本来のあり方を失うことを漢字二字で何という？",
+    "answer": "疎外",
+    "reading": "そがい",
+    "explanation": "「疎外感」は仲間外れにされたような感覚のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0177",
+    "level": 7,
+    "category": "評論用語",
+    "prompt": "世界を「精神と物質」のように、二つの原理で説明しようとする立場を漢字三字で何という？",
+    "answer": "二元論",
+    "reading": "にげんろん",
+    "explanation": "デカルトの心身二元論が代表的だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0178",
+    "level": 7,
+    "category": "評論用語",
+    "prompt": "生命感やあたたかみがなく、冷たく機械的なさまを何という？（「〜的」の形で）",
+    "answer": "無機的",
+    "reading": "むきてき",
+    "explanation": "対義語は「有機的」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0179",
+    "level": 7,
+    "category": "評論用語",
+    "prompt": "はっきりと外に現れて存在していることを漢字二字で何という？",
+    "answer": "顕在",
+    "reading": "けんざい",
+    "explanation": "対義語は「潜在」。「顕在化」は表面化することだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0180",
+    "level": 7,
+    "category": "評論用語",
+    "prompt": "一つの言葉や物事が、二つの異なる意味や価値をもつさまを何という？（「〜的」の形で）",
+    "answer": "両義的",
+    "reading": "りょうぎてき",
+    "explanation": "「アンビギュアス」とも言うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0181",
+    "level": 7,
+    "category": "漢字の読み",
+    "prompt": "「契約書に瑕疵が見つかった。」の「瑕疵」の読みは？",
+    "answer": "瑕疵",
+    "reading": "かし",
+    "explanation": "「きず、欠点」。法律用語としてもよく使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0182",
+    "level": 7,
+    "category": "漢字の読み",
+    "prompt": "「久遠の理想を追い求める。」の「久遠」の読みは？",
+    "answer": "久遠",
+    "reading": "くおん",
+    "explanation": "「永遠、はるかに遠い過去や未来」のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0183",
+    "level": 7,
+    "category": "漢字の読み",
+    "prompt": "「孫の顔を見て祖父は相好を崩した。」の「相好」の読みは？",
+    "answer": "相好",
+    "reading": "そうごう",
+    "explanation": "「顔つき、表情」。「相好を崩す」でにこにこすることだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0184",
+    "level": 7,
+    "category": "漢字の読み",
+    "prompt": "「会場で資料を無料で頒布する。」の「頒布」の読みは？",
+    "answer": "頒布",
+    "reading": "はんぷ",
+    "explanation": "「広く配ること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0185",
+    "level": 7,
+    "category": "漢字の読み",
+    "prompt": "「社長は鷹揚にうなずいた。」の「鷹揚」の読みは？",
+    "answer": "鷹揚",
+    "reading": "おうよう",
+    "explanation": "「ゆったりとして小さなことにこだわらないさま」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0186",
+    "level": 7,
+    "category": "漢字の読み",
+    "prompt": "「決断できずに逡巡する。」の「逡巡」の読みは？",
+    "answer": "逡巡",
+    "reading": "しゅんじゅん",
+    "explanation": "「ぐずぐずとためらうこと」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0187",
+    "level": 7,
+    "category": "漢字の読み",
+    "prompt": "「不祥事を受けて大臣が更迭された。」の「更迭」の読みは？",
+    "answer": "更迭",
+    "reading": "こうてつ",
+    "explanation": "「ある役職の人を他の人に代えること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0188",
+    "level": 7,
+    "category": "漢字の読み",
+    "prompt": "「彼女の挙措には気品がある。」の「挙措」の読みは？",
+    "answer": "挙措",
+    "reading": "きょそ",
+    "explanation": "「立ち居振る舞い」のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0189",
+    "level": 7,
+    "category": "漢字の読み",
+    "prompt": "「晩年は仏道に深く帰依した。」の「帰依」の読みは？",
+    "answer": "帰依",
+    "reading": "きえ",
+    "explanation": "「神仏を信じてすがること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0190",
+    "level": 7,
+    "category": "漢字の読み",
+    "prompt": "「修行を重ねて解脱の境地に至る。」の「解脱」の読みは？",
+    "answer": "解脱",
+    "reading": "げだつ",
+    "explanation": "「迷いや苦しみから抜け出すこと」。仏教の言葉だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0191",
+    "level": 7,
+    "category": "漢字の読み",
+    "prompt": "「彼はまさに努力の権化だ。」の「権化」の読みは？",
+    "answer": "権化",
+    "reading": "ごんげ",
+    "explanation": "「ある性質がそのまま形になったような人」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0192",
+    "level": 7,
+    "category": "漢字の読み",
+    "prompt": "「寺の本堂の普請が始まった。」の「普請」の読みは？",
+    "answer": "普請",
+    "reading": "ふしん",
+    "explanation": "「家を建てたり修理したりすること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0193",
+    "level": 8,
+    "category": "漢字の読み",
+    "prompt": "「酒に酔って呂律が回らない。」の「呂律」の読みは？",
+    "answer": "呂律",
+    "reading": "ろれつ",
+    "explanation": "「ものを言う調子」のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0194",
+    "level": 8,
+    "category": "漢字の読み",
+    "prompt": "「彼女は虚空を見つめていた。」の「虚空」の読みは？",
+    "answer": "虚空",
+    "reading": "こくう",
+    "explanation": "「何もない空間、大空」のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0195",
+    "level": 8,
+    "category": "漢字の読み",
+    "prompt": "「法律を過去の事実にまで遡及して適用する。」の「遡及」の読みは？（本来の読みで）",
+    "answer": "遡及",
+    "reading": "そきゅう",
+    "explanation": "「過去にさかのぼって効力を及ぼすこと」。「さっきゅう」は慣用読みだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0196",
+    "level": 8,
+    "category": "漢字の読み",
+    "prompt": "「式典のために礼服を誂える。」の「誂える」の読みは？",
+    "answer": "誂える",
+    "reading": "あつらえる",
+    "explanation": "「注文して作らせること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0197",
+    "level": 8,
+    "category": "漢字の読み",
+    "prompt": "「彼の意見も強ち間違いではない。」の「強ち」の読みは？",
+    "answer": "強ち",
+    "reading": "あながち",
+    "explanation": "「〜ない」と打消を伴い「必ずしも〜ない」という意味になるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0198",
+    "level": 8,
+    "category": "漢字の読み",
+    "prompt": "「ライバルを貶めるような発言は慎もう。」の「貶める」の読みは？",
+    "answer": "貶める",
+    "reading": "おとしめる",
+    "explanation": "「さげすむ、価値を下げる」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0199",
+    "level": 8,
+    "category": "漢字の読み",
+    "prompt": "「不規則な生活が健康を蝕む。」の「蝕む」の読みは？",
+    "answer": "蝕む",
+    "reading": "むしばむ",
+    "explanation": "「少しずつ損なう」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0200",
+    "level": 8,
+    "category": "漢字の読み",
+    "prompt": "「会議の相談に与る。」の「与る」の読みは？",
+    "answer": "与る",
+    "reading": "あずかる",
+    "explanation": "「かかわる、関係する」という意味。「預かる」とは別の語だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0201",
+    "level": 8,
+    "category": "漢字の読み",
+    "prompt": "「事件の真相を詳らかにする。」の「詳らか」の読みは？",
+    "answer": "詳らか",
+    "reading": "つまびらか",
+    "explanation": "「細かいところまで明らかなさま」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0202",
+    "level": 8,
+    "category": "評論用語",
+    "prompt": "形があり、感覚でとらえられる物質的なものを表す語は？（漢字三字）",
+    "answer": "形而下",
+    "reading": "けいじか",
+    "explanation": "対義語は「形而上」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0203",
+    "level": 8,
+    "category": "評論用語",
+    "prompt": "経験に先立って、生まれつき備わっているさまを表すラテン語由来の語は？（カタカナで）",
+    "answer": "アプリオリ",
+    "reading": "あぷりおり",
+    "explanation": "「先験的」と訳されるよ。対義語は「アポステリオリ（経験的）」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0204",
+    "level": 8,
+    "category": "評論用語",
+    "prompt": "自分の属する民族や文化を基準にして、他の民族や文化を低く見る考え方をカタカナ語で何という？",
+    "answer": "エスノセントリズム",
+    "reading": "えすのせんとりずむ",
+    "explanation": "「自民族中心主義」と訳されるよ。文化相対主義と対比されるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0205",
+    "level": 8,
+    "category": "評論用語",
+    "prompt": "西洋が東洋を、自分たちとは異なる神秘的で遅れた他者として描いてきた見方をカタカナ語で何という？",
+    "answer": "オリエンタリズム",
+    "reading": "おりえんたりずむ",
+    "explanation": "サイードが批判的に論じたことで知られるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0206",
+    "level": 8,
+    "category": "評論用語",
+    "prompt": "一つの対象に対して、愛と憎しみのような相反する感情を同時に抱くさまを表すカタカナ語は？",
+    "answer": "アンビバレント",
+    "reading": "あんびばれんと",
+    "explanation": "名詞形は「アンビバレンス（両価性）」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0207",
+    "level": 8,
+    "category": "評論用語",
+    "prompt": "ある事柄が実際に起こったり真であったりする確からしさの度合いを、「必然性」と対比して漢字三字で何という？（「可能性」よりかたい語）",
+    "answer": "蓋然性",
+    "reading": "がいぜんせい",
+    "explanation": "「蓋然性が高い」＝「たぶんそうだろう」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0208",
+    "level": 8,
+    "category": "評論用語",
+    "prompt": "ある性質や原因が、外からではなくそのものの内部に存在することを漢字二字で何という？",
+    "answer": "内在",
+    "reading": "ないざい",
+    "explanation": "対義語は「外在」。「内在的な問題」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0209",
+    "level": 8,
+    "category": "評論用語",
+    "prompt": "社会が宗教の支配や影響から離れていくことを漢字三字で何という？",
+    "answer": "世俗化",
+    "reading": "せぞくか",
+    "explanation": "近代化の特徴の一つとして語られるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0210",
+    "level": 8,
+    "category": "評論用語",
+    "prompt": "対立する二つのものが互いに相手に勝とうとして争うことを、陰陽五行説に由来する漢字二字で何という？",
+    "answer": "相克",
+    "reading": "そうこく",
+    "explanation": "「理性と感情の相克」のように使うよ。「相剋」とも書くよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0211",
+    "level": 8,
+    "category": "評論用語",
+    "prompt": "自分だけが正しいと思い込み、他を顧みないことを漢字二字で何という？",
+    "answer": "独善",
+    "reading": "どくぜん",
+    "explanation": "「独善的」はひとりよがりなさまだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0212",
+    "level": 8,
+    "category": "評論用語",
+    "prompt": "互いに足りないところを補い合う関係にあるさまを何という？（「〜的」の形で）",
+    "answer": "相補的",
+    "reading": "そうほてき",
+    "explanation": "「相補的な関係」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0213",
+    "level": 8,
+    "category": "漢字の読み",
+    "prompt": "「海辺に瀟洒な洋館が建っている。」の「瀟洒」の読みは？",
+    "answer": "瀟洒",
+    "reading": "しょうしゃ",
+    "explanation": "「すっきりとあか抜けているさま」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0214",
+    "level": 8,
+    "category": "漢字の読み",
+    "prompt": "「相手に言質を取られないように話す。」の「言質」の読みは？（本来の読みで）",
+    "answer": "言質",
+    "reading": "げんち",
+    "explanation": "「後で証拠となる約束の言葉」。「げんしつ」と読まれることもあるけど、本来の読みは「げんち」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0215",
+    "level": 8,
+    "category": "漢字の読み",
+    "prompt": "「物資が払底して困っている。」の「払底」の読みは？",
+    "answer": "払底",
+    "reading": "ふってい",
+    "explanation": "「すっかりなくなること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0216",
+    "level": 8,
+    "category": "漢字の読み",
+    "prompt": "「一矢報いるために最後まで戦う。」の「一矢」の読みは？",
+    "answer": "一矢",
+    "reading": "いっし",
+    "explanation": "「一矢を報いる」で「わずかでも反撃すること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0217",
+    "level": 8,
+    "category": "漢字の読み",
+    "prompt": "「彼は自分なら簡単だと嘯いた。」の「嘯く」の読みは？",
+    "answer": "嘯く",
+    "reading": "うそぶく",
+    "explanation": "「大きなことを言う、とぼける」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0218",
+    "level": 8,
+    "category": "漢字の読み",
+    "prompt": "「母が子どもの行儀の悪さを窘める。」の「窘める」の読みは？",
+    "answer": "窘める",
+    "reading": "たしなめる",
+    "explanation": "「よくない言動を注意する」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0219",
+    "level": 8,
+    "category": "漢字の読み",
+    "prompt": "「客間に季節の花を設える。」の「設える」の読みは？",
+    "answer": "設える",
+    "reading": "しつらえる",
+    "explanation": "「こしらえて整える、飾りつける」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0220",
+    "level": 8,
+    "category": "漢字の読み",
+    "prompt": "「空き地に雑草が蔓延る。」の「蔓延る」の読みは？",
+    "answer": "蔓延る",
+    "reading": "はびこる",
+    "explanation": "「草木が伸び広がる、よくないものが勢いを増す」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0221",
+    "level": 9,
+    "category": "漢字の読み",
+    "prompt": "「彼は旧弊に囚われない。」の「囚われる」の読みは？",
+    "answer": "囚われる",
+    "reading": "とらわれる",
+    "explanation": "「ある考えに縛られて自由でなくなる」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0222",
+    "level": 9,
+    "category": "漢字の読み",
+    "prompt": "「長年の研究の精華をまとめた本。」の「精華」の読みは？",
+    "answer": "精華",
+    "reading": "せいか",
+    "explanation": "「最もすぐれている部分」のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0223",
+    "level": 9,
+    "category": "漢字の読み",
+    "prompt": "「文明の黎明期に生まれた技術。」の「黎明」の読みは？",
+    "answer": "黎明",
+    "reading": "れいめい",
+    "explanation": "「夜明け」。新しい時代の始まりのたとえにも使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0224",
+    "level": 9,
+    "category": "漢字の読み",
+    "prompt": "「その解釈は牽強付会だと批判された。」の「牽強付会」の読みは？",
+    "answer": "牽強付会",
+    "reading": "けんきょうふかい",
+    "explanation": "「自分に都合のよいように無理にこじつけること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0225",
+    "level": 9,
+    "category": "評論用語",
+    "prompt": "秩序と調和をもった世界や宇宙を意味するギリシャ語由来のカタカナ語は？（花の名前と同じ）",
+    "answer": "コスモス",
+    "reading": "こすもす",
+    "explanation": "混沌を意味する「カオス」と対になる語だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0226",
+    "level": 9,
+    "category": "評論用語",
+    "prompt": "プラトン哲学で、感覚ではとらえられない物事の真の姿・原型を何という？（カタカナで）",
+    "answer": "イデア",
+    "reading": "いであ",
+    "explanation": "英語の「アイデア」の語源になった言葉だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0227",
+    "level": 9,
+    "category": "評論用語",
+    "prompt": "意味をおし広げて説明したり、他の場合にも当てはめて述べたりすることを漢字二字で何という？",
+    "answer": "敷衍",
+    "reading": "ふえん",
+    "explanation": "「前述の議論を敷衍すると」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0228",
+    "level": 9,
+    "category": "評論用語",
+    "prompt": "ある事柄を、議論の前提として存在するものとして立てることを漢字二字で何という？（「定立」ではない語で）",
+    "answer": "措定",
+    "reading": "そてい",
+    "explanation": "哲学的な文章でよく使われる語だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0229",
+    "level": 9,
+    "category": "評論用語",
+    "prompt": "物事を時間の流れに沿って、歴史的な変化としてとらえるさまを何という？（「〜的」の形で）",
+    "answer": "通時的",
+    "reading": "つうじてき",
+    "explanation": "対義語は「共時的（ある時点での構造としてとらえる）」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0230",
+    "level": 9,
+    "category": "評論用語",
+    "prompt": "物事を歴史的変化ではなく、ある一時点での構造としてとらえるさまを何という？（「〜的」の形で）",
+    "answer": "共時的",
+    "reading": "きょうじてき",
+    "explanation": "ソシュールの言語学で使われた概念だよ。対義語は「通時的」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0231",
+    "level": 9,
+    "category": "評論用語",
+    "prompt": "ある主張（テーゼ）に対立する主張をドイツ語由来のカタカナ語で何という？",
+    "answer": "アンチテーゼ",
+    "reading": "あんちてーぜ",
+    "explanation": "弁証法では、テーゼとアンチテーゼを統合したものを「ジンテーゼ」というよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0232",
+    "level": 9,
+    "category": "評論用語",
+    "prompt": "思考の価値を、実際の行動や効果に結びつくかどうかで判断する、アメリカで生まれた考え方をカタカナ語で何という？",
+    "answer": "プラグマティズム",
+    "reading": "ぷらぐまてぃずむ",
+    "explanation": "「実用主義」と訳されるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0233",
+    "level": 9,
+    "category": "漢字の読み",
+    "prompt": "「彼の文章には独特の諧謔がある。」の「諧謔」の読みは？",
+    "answer": "諧謔",
+    "reading": "かいぎゃく",
+    "explanation": "「気のきいた冗談、ユーモア」のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0234",
+    "level": 9,
+    "category": "漢字の読み",
+    "prompt": "「吝嗇な主人公が登場する喜劇。」の「吝嗇」の読みは？",
+    "answer": "吝嗇",
+    "reading": "りんしょく",
+    "explanation": "「ひどくけちなこと」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0235",
+    "level": 9,
+    "category": "漢字の読み",
+    "prompt": "「彼は名誉にも金銭にも恬淡としている。」の「恬淡」の読みは？",
+    "answer": "恬淡",
+    "reading": "てんたん",
+    "explanation": "「欲がなく、物事にこだわらないさま」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0236",
+    "level": 9,
+    "category": "漢字の読み",
+    "prompt": "「この発見が近代医学の嚆矢となった。」の「嚆矢」の読みは？",
+    "answer": "嚆矢",
+    "reading": "こうし",
+    "explanation": "「物事のはじまり」。昔の中国で開戦の合図に鏑矢を射たことが由来だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0237",
+    "level": 9,
+    "category": "漢字の読み",
+    "prompt": "「二つの概念を截然と区別する。」の「截然」の読みは？（本来の読みで）",
+    "answer": "截然",
+    "reading": "せつぜん",
+    "explanation": "「区別がはっきりしているさま」。「さいぜん」は慣用読みだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0238",
+    "level": 9,
+    "category": "漢字の読み",
+    "prompt": "「若い貴公子が姫君に懸想する。」の「懸想」の読みは？",
+    "answer": "懸想",
+    "reading": "けそう",
+    "explanation": "「異性に思いをかけること」。古風な言葉だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0239",
+    "level": 9,
+    "category": "漢字の読み",
+    "prompt": "「他人の欠点を論う。」の「論う」の読みは？",
+    "answer": "論う",
+    "reading": "あげつらう",
+    "explanation": "「欠点などを取り立てて言う」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0240",
+    "level": 9,
+    "category": "漢字の読み",
+    "prompt": "「古い文献を繙いて歴史を調べる。」の「繙く」の読みは？",
+    "answer": "繙く",
+    "reading": "ひもとく",
+    "explanation": "「書物を開いて読む」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0241",
+    "level": 9,
+    "category": "漢字の読み",
+    "prompt": "「罪を贖うために奉仕活動をする。」の「贖う」の読みは？",
+    "answer": "贖う",
+    "reading": "あがなう",
+    "explanation": "「罪のつぐないをする」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0242",
+    "level": 9,
+    "category": "漢字の読み",
+    "prompt": "「成功を恃んで油断する。」の「恃む」の読みは？",
+    "answer": "恃む",
+    "reading": "たのむ",
+    "explanation": "「頼りにする、あてにする」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0243",
+    "level": 9,
+    "category": "漢字の読み",
+    "prompt": "「辞書の冒頭に碩学の序文がある。」の「碩学」の読みは？",
+    "answer": "碩学",
+    "reading": "せきがく",
+    "explanation": "「学問が広く深い人」のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0244",
+    "level": 9,
+    "category": "漢字の読み",
+    "prompt": "「政府の施策が奏功した。」の「奏功」の読みは？",
+    "answer": "奏功",
+    "reading": "そうこう",
+    "explanation": "「目的どおりの成果をあげること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0245",
+    "level": 9,
+    "category": "漢字の読み",
+    "prompt": "「その主張には首肯できる点が多い。」の「首肯」の読みは？",
+    "answer": "首肯",
+    "reading": "しゅこう",
+    "explanation": "「うなずくこと、納得して認めること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0246",
+    "level": 9,
+    "category": "漢字の読み",
+    "prompt": "「長年の努力が漸く報われ、感慨に耽る。」の「耽る」の読みは？",
+    "answer": "耽る",
+    "reading": "ふける",
+    "explanation": "「一つのことに夢中になる」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0247",
+    "level": 9,
+    "category": "漢字の読み",
+    "prompt": "「寸暇を惜しんで勉強する。」の「寸暇」の読みは？",
+    "answer": "寸暇",
+    "reading": "すんか",
+    "explanation": "「ほんのわずかなひま」のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0248",
+    "level": 10,
+    "category": "評論用語",
+    "prompt": "学問や知識をひけらかすさまを何という？（「〜的」の形で）",
+    "answer": "衒学的",
+    "reading": "げんがくてき",
+    "explanation": "「ペダンティック」と同じ意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0249",
+    "level": 10,
+    "category": "評論用語",
+    "prompt": "自然を、部品が組み合わさった機械のように因果関係だけで説明しようとする考え方を漢字三字で何という？",
+    "answer": "機械論",
+    "reading": "きかいろん",
+    "explanation": "デカルトやニュートン以来の近代科学の見方だよ。対になるのは「目的論」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0250",
+    "level": 10,
+    "category": "評論用語",
+    "prompt": "物事を全体としてではなく、部分に分けて理解しようとする近代科学的な考え方を漢字六字で何という？（「〜主義」の形で）",
+    "answer": "要素還元主義",
+    "reading": "ようそかんげんしゅぎ",
+    "explanation": "全体は部分の総和であるとする考え方だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0251",
+    "level": 10,
+    "category": "評論用語",
+    "prompt": "自分自身について言及すること、とくに言葉が言葉自身について語ることを漢字四字で何という？",
+    "answer": "自己言及",
+    "reading": "じこげんきゅう",
+    "explanation": "「この文は誤りである」のような自己言及はパラドックスを生むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0252",
+    "level": 10,
+    "category": "評論用語",
+    "prompt": "個人の思考や行動を無意識のうちに規定する、社会的に身についた性向を、ブルデューの用語で何という？（カタカナで）",
+    "answer": "ハビトゥス",
+    "reading": "はびとぅす",
+    "explanation": "「習慣」を意味するラテン語に由来する言葉だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0253",
+    "level": 10,
+    "category": "漢字の読み",
+    "prompt": "「作者は韜晦して本心を明かさない。」の「韜晦」の読みは？",
+    "answer": "韜晦",
+    "reading": "とうかい",
+    "explanation": "「自分の才能や本心を包み隠すこと」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0254",
+    "level": 10,
+    "category": "漢字の読み",
+    "prompt": "「君に協力するのは吝かでない。」の「吝か」の読みは？",
+    "answer": "吝か",
+    "reading": "やぶさか",
+    "explanation": "「〜にやぶさかでない」で「喜んで〜する」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0255",
+    "level": 10,
+    "category": "漢字の読み",
+    "prompt": "「泣いている子どもを宥める。」の「宥める」の読みは？",
+    "answer": "宥める",
+    "reading": "なだめる",
+    "explanation": "「怒りや不満をやわらげ静める」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0256",
+    "level": 10,
+    "category": "漢字の読み",
+    "prompt": "「会場は熱気で噎せ返るほどだった。」の「噎せる」の読みは？",
+    "answer": "噎せる",
+    "reading": "むせる",
+    "explanation": "「息がつまりそうになる」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0257",
+    "level": 10,
+    "category": "漢字の読み",
+    "prompt": "「一縷の望みを抱く。」の「一縷」の読みは？",
+    "answer": "一縷",
+    "reading": "いちる",
+    "explanation": "「ひとすじの糸」。「一縷の望み」はごくわずかな望みのことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0258",
+    "level": 10,
+    "category": "漢字の読み",
+    "prompt": "「先人の業績に比肩する成果。」の「比肩」の読みは？",
+    "answer": "比肩",
+    "reading": "ひけん",
+    "explanation": "「肩を並べること、匹敵すること」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0259",
+    "level": 10,
+    "category": "漢字の読み",
+    "prompt": "「世の中の毀誉褒貶を気にしない。」の「毀誉褒貶」の読みは？",
+    "answer": "毀誉褒貶",
+    "reading": "きよほうへん",
+    "explanation": "「ほめたりけなしたりすること、世間の評判」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0260",
+    "level": 10,
+    "category": "漢字の読み",
+    "prompt": "「両者の力は伯仲している。」の「伯仲」の読みは？",
+    "answer": "伯仲",
+    "reading": "はくちゅう",
+    "explanation": "「力が接近していて優劣がつけにくいこと」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0261",
+    "level": 10,
+    "category": "漢字の読み",
+    "prompt": "「組織の中で彼は異彩を放っている。」の「異彩」の読みは？",
+    "answer": "異彩",
+    "reading": "いさい",
+    "explanation": "「ひときわ目立つ様子」のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0262",
+    "level": 10,
+    "category": "漢字の読み",
+    "prompt": "「作品に作者の矜持が表れている。」の「矜持」の読みは？（慣用読みで）",
+    "answer": "矜持",
+    "reading": "きょうじ",
+    "explanation": "「誇り、プライド」のこと。本来の読みは「きんじ」だけど、「きょうじ」が広く使われているよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0263",
+    "level": 10,
+    "category": "評論用語",
+    "prompt": "ある時代の人々の知のあり方を根底で規定している枠組みを、フーコーの用語で何という？（カタカナで）",
+    "answer": "エピステーメー",
+    "reading": "えぴすてーめー",
+    "explanation": "ギリシャ語で「知」を意味する語だよ。パラダイムと似た概念だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0264",
+    "level": 10,
+    "category": "評論用語",
+    "prompt": "芸術や文学における模倣・再現を意味する、ギリシャ語由来のカタカナ語は？",
+    "answer": "ミメーシス",
+    "reading": "みめーしす",
+    "explanation": "アリストテレスが芸術の本質として論じた概念だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0265",
+    "level": 10,
+    "category": "評論用語",
+    "prompt": "複製では失われる、芸術作品の「いま・ここ」にしかない一回的な輝きを、ベンヤミンの用語で何という？",
+    "answer": "アウラ",
+    "reading": "あうら",
+    "explanation": "「オーラ」の語源になった言葉だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0266",
+    "level": 10,
+    "category": "評論用語",
+    "prompt": "近代以前の、血縁や地縁で自然に結びついた共同社会を、テンニースの用語で何という？（カタカナで）",
+    "answer": "ゲマインシャフト",
+    "reading": "げまいんしゃふと",
+    "explanation": "利害で結びついた社会は「ゲゼルシャフト」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0267",
+    "level": 10,
+    "category": "評論用語",
+    "prompt": "語り手による物語、また出来事を筋立てて語ることをカタカナ語で何という？（「ヴ」を使わない表記で）",
+    "answer": "ナラティブ",
+    "reading": "ならてぃぶ",
+    "explanation": "医療や心理の分野でも「ナラティブ・アプローチ」として使われるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0268",
+    "level": 10,
+    "category": "漢字の読み",
+    "prompt": "「僅かな瑕瑾も許さない職人気質。」の「瑕瑾」の読みは？",
+    "answer": "瑕瑾",
+    "reading": "かきん",
+    "explanation": "「小さなきず、欠点」のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0269",
+    "level": 10,
+    "category": "漢字の読み",
+    "prompt": "「彼の横暴に掣肘を加える。」の「掣肘」の読みは？",
+    "answer": "掣肘",
+    "reading": "せいちゅう",
+    "explanation": "「わきから干渉して自由にさせないこと」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0270",
+    "level": 10,
+    "category": "漢字の読み",
+    "prompt": "「時流に阿ることなく自説を貫く。」の「阿る」の読みは？",
+    "answer": "阿る",
+    "reading": "おもねる",
+    "explanation": "「気に入られようとへつらう」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0271",
+    "level": 10,
+    "category": "漢字の読み",
+    "prompt": "「両雄が鎬を削る戦い。」の「鎬」の読みは？",
+    "answer": "鎬",
+    "reading": "しのぎ",
+    "explanation": "「鎬を削る」は激しく争うこと。刀の刃と峰の間の盛り上がった部分のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0272",
+    "level": 10,
+    "category": "漢字の読み",
+    "prompt": "「祖母は矍鑠として山道を登った。」の「矍鑠」の読みは？",
+    "answer": "矍鑠",
+    "reading": "かくしゃく",
+    "explanation": "「年をとっても丈夫で元気なさま」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0273",
+    "level": 10,
+    "category": "漢字の読み",
+    "prompt": "「彼の態度はあまりに傲岸だった。」の「傲岸」の読みは？",
+    "answer": "傲岸",
+    "reading": "ごうがん",
+    "explanation": "「おごりたかぶって人を見下すさま」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-gendai-0274",
+    "level": 10,
+    "category": "漢字の読み",
+    "prompt": "「老いた母は訥々と昔を語った。」の「訥々」の読みは？",
+    "answer": "訥々",
+    "reading": "とつとつ",
+    "explanation": "「口ごもりながら話すさま」だよ。",
+    "review": "verified"
+  }
+]

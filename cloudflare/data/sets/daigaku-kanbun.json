@@ -1,0 +1,2262 @@
+[
+  {
+    "id": "daigaku-kanbun-0001",
+    "level": 1,
+    "category": "訓読の基本",
+    "prompt": "返り点のうち、すぐ下の一字から一字だけ返って読むことを示す符号は？",
+    "answer": "レ点",
+    "reading": "れてん",
+    "explanation": "「レ」の形の返り点で、一字だけ上に返るときに使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0002",
+    "level": 1,
+    "category": "訓読の基本",
+    "prompt": "二字以上離れた上の字に返って読むことを示す返り点は？",
+    "answer": "一二点",
+    "reading": "いちにてん",
+    "explanation": "「一」の付いた字を読んだら「二」の字へ返るんだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0003",
+    "level": 1,
+    "category": "訓読の基本",
+    "prompt": "漢文を日本語の語順に直し、漢字仮名交じりで書いた文を何という？",
+    "answer": "書き下し文",
+    "reading": "かきくだしぶん",
+    "explanation": "送り仮名は歴史的仮名遣いのひらがなで書くのがルールだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0004",
+    "level": 1,
+    "category": "訓読の基本",
+    "prompt": "「而」「於」「矣」のように、訓読するときに読まない字を何という？",
+    "answer": "置き字",
+    "reading": "おきじ",
+    "explanation": "読まないけれど、接続や文末の意味を添える働きがあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0005",
+    "level": 1,
+    "category": "訓読の基本",
+    "prompt": "「未」「将」「当」のように、一字を二度読む字を何という？",
+    "answer": "再読文字",
+    "reading": "さいどくもじ",
+    "explanation": "一度目は副詞、二度目は助動詞や動詞として読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0006",
+    "level": 1,
+    "category": "訓読の基本",
+    "prompt": "漢文に返り点や送り仮名を付けて、日本語として読むことを何という？",
+    "answer": "訓読",
+    "reading": "くんどく",
+    "explanation": "昔の日本人が中国の古典を読むために工夫した方法だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0007",
+    "level": 1,
+    "category": "句法の名前",
+    "prompt": "「使」「令」「遣」「教」を使って「〜させる」と表す句法は？",
+    "answer": "使役",
+    "reading": "しえき",
+    "explanation": "「AをしてBしむ」の形が基本だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0008",
+    "level": 1,
+    "category": "句法の名前",
+    "prompt": "「見」「被」「為〜所…」などで「〜される」と表す句法は？",
+    "answer": "受身",
+    "reading": "うけみ",
+    "explanation": "「る・らる」と読む字が多いよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0009",
+    "level": 1,
+    "category": "句法の名前",
+    "prompt": "「豈に〜んや」のように、疑問の形で強く打ち消す句法は？",
+    "answer": "反語",
+    "reading": "はんご",
+    "explanation": "「どうして〜だろうか、いや〜ない」と訳すよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0010",
+    "level": 1,
+    "category": "再読文字",
+    "prompt": "「未」を再読文字として読むとき、一度目の読みは？",
+    "answer": "未だ",
+    "reading": "いまだ",
+    "explanation": "「未だ〜ず」と読み、「まだ〜ない」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0011",
+    "level": 1,
+    "category": "再読文字",
+    "prompt": "「未」を再読文字として読むとき、二度目に読む打消の助動詞は？",
+    "answer": "ず",
+    "reading": "ず",
+    "explanation": "「未だ〜ず」の「ず」だよ。書き下し文ではひらがなで書くよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0012",
+    "level": 1,
+    "category": "再読文字",
+    "prompt": "「将」を再読文字として読むとき、一度目の読みは？",
+    "answer": "将に",
+    "reading": "まさに",
+    "explanation": "「将に〜んとす」で「今にも〜しようとする」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0013",
+    "level": 1,
+    "category": "再読文字",
+    "prompt": "「当」を再読文字として読むとき、一度目の読みは？",
+    "answer": "当に",
+    "reading": "まさに",
+    "explanation": "「当に〜べし」で「当然〜すべきだ」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0014",
+    "level": 1,
+    "category": "否定",
+    "prompt": "「不知」を書き下すと？",
+    "answer": "知らず",
+    "reading": "しらず",
+    "explanation": "「不」は打消の助動詞「ず」と読み、未然形に付くよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0015",
+    "level": 1,
+    "category": "否定",
+    "prompt": "否定の字「非」を送り仮名付きで読むと？（「〜ではない」の意）",
+    "answer": "非ず",
+    "reading": "あらず",
+    "explanation": "「非」は名詞などを打ち消して「〜ではない」の意味になるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0016",
+    "level": 1,
+    "category": "否定",
+    "prompt": "否定の字「無」を送り仮名付きで読むと？（「〜がない」の意）",
+    "answer": "無し",
+    "reading": "なし",
+    "explanation": "存在を打ち消す字だよ。「莫」「毋」「勿」も「なし」と読むことがあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0017",
+    "level": 1,
+    "category": "疑問・反語",
+    "prompt": "「何」を「どうして」の意味で読むと？（送り仮名付きで）",
+    "answer": "何ぞ",
+    "reading": "なんぞ",
+    "explanation": "「何ぞ〜や」で理由を問う疑問や反語になるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0018",
+    "level": 1,
+    "category": "使役",
+    "prompt": "使役の助字「使」「令」を書き下し文で読むと？",
+    "answer": "しむ",
+    "reading": "しむ",
+    "explanation": "助動詞なので書き下し文ではひらがなで「しむ」と書くよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0019",
+    "level": 1,
+    "category": "限定・累加",
+    "prompt": "限定の副詞「唯」の読みは？（送り仮名付きで）",
+    "answer": "唯だ",
+    "reading": "ただ",
+    "explanation": "「唯だ〜のみ」で「ただ〜だけ」という限定になるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0020",
+    "level": 1,
+    "category": "重要語",
+    "prompt": "「曰」の読みは？（歴史的仮名遣いで）",
+    "answer": "曰く",
+    "reading": "いはく",
+    "explanation": "「〜が言うことには」という意味。会話文の前に置かれるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0021",
+    "level": 1,
+    "category": "重要語",
+    "prompt": "可能・当然を表す「可」の読みは？",
+    "answer": "可し",
+    "reading": "べし",
+    "explanation": "「べし」は助動詞なので、書き下し文ではひらがなにすることも多いよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0022",
+    "level": 1,
+    "category": "訓読の基本",
+    "prompt": "一二点をはさんで、さらに上に返って読むときに使う返り点は？",
+    "answer": "上下点",
+    "reading": "じょうげてん",
+    "explanation": "一二点だけでは足りないときに外側で使う返り点だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0023",
+    "level": 1,
+    "category": "句法の名前",
+    "prompt": "「A且B、況C乎」のように、軽いものを挙げて重いものを強調する句法は？",
+    "answer": "抑揚",
+    "reading": "よくよう",
+    "explanation": "「Aでさえ〜だ、ましてCはなおさらだ」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0024",
+    "level": 2,
+    "category": "句法の名前",
+    "prompt": "「嗚呼」「哉」「矣」などで感動を表す句法は？",
+    "answer": "詠嘆",
+    "reading": "えいたん",
+    "explanation": "「〜だなあ」と訳すことが多いよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0025",
+    "level": 2,
+    "category": "再読文字",
+    "prompt": "「将に〜んと□」の□に入る、再読文字「将」の二度目の読みは？",
+    "answer": "す",
+    "reading": "す",
+    "explanation": "「将に去らんとす」のように、未然形＋「んとす」の形になるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0026",
+    "level": 2,
+    "category": "再読文字",
+    "prompt": "「応」を再読文字として読むとき、一度目の読みは？",
+    "answer": "応に",
+    "reading": "まさに",
+    "explanation": "「応に〜べし」で「きっと〜だろう」と推量を表すよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0027",
+    "level": 2,
+    "category": "再読文字",
+    "prompt": "「宜」を再読文字として読むとき、一度目の読みは？",
+    "answer": "宜しく",
+    "reading": "よろしく",
+    "explanation": "「宜しく〜べし」で「〜するのがよい」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0028",
+    "level": 2,
+    "category": "再読文字",
+    "prompt": "「須」を再読文字として読むとき、一度目の読みは？",
+    "answer": "須らく",
+    "reading": "すべからく",
+    "explanation": "「須らく〜べし」で「ぜひ〜する必要がある」の意味。「すべて」ではないので注意だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0029",
+    "level": 2,
+    "category": "否定",
+    "prompt": "「勿言」を書き下すと？（歴史的仮名遣いで）",
+    "answer": "言ふ勿かれ",
+    "reading": "いふなかれ",
+    "explanation": "禁止「言ってはいけない」の意味。「言ふ」は歴史的仮名遣いだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0030",
+    "level": 2,
+    "category": "否定",
+    "prompt": "禁止を表す「毋」を送り仮名付きで読むと？",
+    "answer": "毋かれ",
+    "reading": "なかれ",
+    "explanation": "「〜するな」という禁止の意味。「勿」「莫」「無」も同じ読みになるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0031",
+    "level": 2,
+    "category": "否定",
+    "prompt": "「不得」を書き下すと？",
+    "answer": "得ず",
+    "reading": "えず",
+    "explanation": "「〜できない」という不可能の意味だよ。「得」の未然形は「え」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0032",
+    "level": 2,
+    "category": "疑問・反語",
+    "prompt": "「安」を反語「どうして」の意味で読むと？（歴史的仮名遣いで）",
+    "answer": "安くんぞ",
+    "reading": "いづくんぞ",
+    "explanation": "「安くんぞ〜ん（や）」で反語。「いづく」は歴史的仮名遣いだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0033",
+    "level": 2,
+    "category": "疑問・反語",
+    "prompt": "反語の副詞「豈」の読みは？（送り仮名付きで）",
+    "answer": "豈に",
+    "reading": "あに",
+    "explanation": "「豈に〜んや」で「どうして〜だろうか、いや〜ない」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0034",
+    "level": 2,
+    "category": "疑問・反語",
+    "prompt": "「誰」を漢文で読むと？（送り仮名付きで）",
+    "answer": "誰か",
+    "reading": "たれか",
+    "explanation": "漢文では「だれ」ではなく清音で「たれ」と読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0035",
+    "level": 2,
+    "category": "受身",
+    "prompt": "受身の助字「見」「被」を、四段動詞に付けて読むと？",
+    "answer": "る",
+    "reading": "る",
+    "explanation": "四段・ナ変・ラ変の未然形には「る」、それ以外には「らる」が付くよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0036",
+    "level": 2,
+    "category": "比較・選択",
+    "prompt": "「不如」の読みは？（送り仮名付きで）",
+    "answer": "如かず",
+    "reading": "しかず",
+    "explanation": "「AはBに如かず」で「AはBに及ばない」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0037",
+    "level": 2,
+    "category": "仮定",
+    "prompt": "仮定（英語のifにあたる意味）で使う「如」を送り仮名付きで読むと？",
+    "answer": "如し",
+    "reading": "もし",
+    "explanation": "「若」も同じく「もし」と読むことがあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0038",
+    "level": 2,
+    "category": "限定・累加",
+    "prompt": "文末で限定を表す「耳」の読みは？",
+    "answer": "耳",
+    "reading": "のみ",
+    "explanation": "「而已」「已」「爾」も文末で「のみ」と読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0039",
+    "level": 2,
+    "category": "詠嘆・願望",
+    "prompt": "感動を表す「嗚呼」の読みは？",
+    "answer": "嗚呼",
+    "reading": "ああ",
+    "explanation": "「噫」「嗟乎」なども「ああ」と読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0040",
+    "level": 2,
+    "category": "詠嘆・願望",
+    "prompt": "文末で詠嘆を表す「哉」の読みは？",
+    "answer": "哉",
+    "reading": "かな",
+    "explanation": "「〜だなあ」という感動を表すよ。疑問・反語では「や」と読むこともあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0041",
+    "level": 2,
+    "category": "重要語",
+    "prompt": "「所謂」の読みは？（歴史的仮名遣いで）",
+    "answer": "所謂",
+    "reading": "いはゆる",
+    "explanation": "「世に言う」という意味だよ。歴史的仮名遣いで「いはゆる」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0042",
+    "level": 2,
+    "category": "重要語",
+    "prompt": "「嘗」を「以前に」の意味で読むと？",
+    "answer": "嘗て",
+    "reading": "かつて",
+    "explanation": "「嘗」には「なむ（味わう）」の読みもあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0043",
+    "level": 2,
+    "category": "重要語",
+    "prompt": "「だから」の意味の接続詞「故」の読みは？（歴史的仮名遣いで）",
+    "answer": "故に",
+    "reading": "ゆゑに",
+    "explanation": "歴史的仮名遣いで「ゆゑに」。「故」は「もと（以前）」の意味でも使われるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0044",
+    "level": 2,
+    "category": "重要語",
+    "prompt": "「〜も同様に」の意味の「亦」の読みは？",
+    "answer": "亦た",
+    "reading": "また",
+    "explanation": "「又」「復」も「また」と読むけれど、「亦」は「〜もまた」の意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0045",
+    "level": 2,
+    "category": "重要語",
+    "prompt": "「もう〜した」の意味の「既」の読みは？",
+    "answer": "既に",
+    "reading": "すでに",
+    "explanation": "「已」「業」も「すでに」と読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0046",
+    "level": 2,
+    "category": "重要語",
+    "prompt": "「できる」の意味の「能」の読みは？（副詞として）",
+    "answer": "能く",
+    "reading": "よく",
+    "explanation": "「能く〜す」で「〜できる」という可能を表すよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0047",
+    "level": 3,
+    "category": "重要語",
+    "prompt": "『論語』などで「小人」と対になる、徳が高く立派な人物を何という？（漢字二字）",
+    "answer": "君子",
+    "reading": "くんし",
+    "explanation": "反対に、徳のないつまらない人物が「小人（しょうじん）」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0048",
+    "level": 3,
+    "category": "重要語",
+    "prompt": "「為A所B」や「所B」で使う「所」の読みは？",
+    "answer": "所",
+    "reading": "ところ",
+    "explanation": "「所＋動詞」で「〜すること・もの」という名詞のまとまりを作るよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0049",
+    "level": 3,
+    "category": "否定",
+    "prompt": "「不可」の読みは？",
+    "answer": "不可",
+    "reading": "べからず",
+    "explanation": "「〜してはいけない」「〜できない」の意味。「べし」の打消だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0050",
+    "level": 3,
+    "category": "訓読の基本",
+    "prompt": "「不」「無」「有」のように、下の語から必ず返って読む字を何という？",
+    "answer": "返読文字",
+    "reading": "へんどくもじ",
+    "explanation": "否定・可能・存在などを表す字に多いよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0051",
+    "level": 3,
+    "category": "句法の名前",
+    "prompt": "「不唯〜」「非独〜」のように「〜だけでなく…も」と付け加える句法は？",
+    "answer": "累加",
+    "reading": "るいか",
+    "explanation": "限定を打ち消して、さらに付け加える形だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0052",
+    "level": 3,
+    "category": "再読文字",
+    "prompt": "「且」を「将」と同じ再読文字として読むとき、一度目の読みは？（送り仮名付きで）",
+    "answer": "且に",
+    "reading": "まさに",
+    "explanation": "「且」は再読文字としては「将」と同じ読み方・意味になるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0053",
+    "level": 3,
+    "category": "再読文字",
+    "prompt": "「猶」を再読文字として読むとき、一度目の読みは？（歴史的仮名遣いで）",
+    "answer": "猶ほ",
+    "reading": "なほ",
+    "explanation": "「猶ほ〜のごとし」で「ちょうど〜のようだ」。歴史的仮名遣いで「なほ」と書くよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0054",
+    "level": 3,
+    "category": "再読文字",
+    "prompt": "「猶」を再読文字として読むとき、二度目の読みは？",
+    "answer": "ごとし",
+    "reading": "ごとし",
+    "explanation": "「猶ほ〜のごとし」の「ごとし」。比況の助動詞だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0055",
+    "level": 3,
+    "category": "再読文字",
+    "prompt": "「盍」を再読文字として読むとき、一度目の読みは？",
+    "answer": "盍ぞ",
+    "reading": "なんぞ",
+    "explanation": "「盍ぞ〜ざる」で「どうして〜しないのか、〜したらどうか」の意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0056",
+    "level": 3,
+    "category": "再読文字",
+    "prompt": "「盍」を再読文字として読むとき、二度目の読みは？",
+    "answer": "ざる",
+    "reading": "ざる",
+    "explanation": "「盍」は「何不」を一字にした字なので、打消「ず」の連体形「ざる」で結ぶよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0057",
+    "level": 3,
+    "category": "再読文字",
+    "prompt": "「未知」を書き下すと？",
+    "answer": "未だ知らず",
+    "reading": "いまだしらず",
+    "explanation": "「まだ知らない」という意味。「ず」は未然形に付くよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0058",
+    "level": 3,
+    "category": "否定",
+    "prompt": "「無不知」を書き下すと？",
+    "answer": "知らざるは無し",
+    "reading": "しらざるはなし",
+    "explanation": "二重否定で「知らないものはない」＝「みんな知っている」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0059",
+    "level": 3,
+    "category": "否定",
+    "prompt": "「非不知」を書き下すと？",
+    "answer": "知らざるに非ず",
+    "reading": "しらざるにあらず",
+    "explanation": "二重否定で「知らないのではない」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0060",
+    "level": 3,
+    "category": "否定",
+    "prompt": "「不敢言」を書き下すと？（歴史的仮名遣いで）",
+    "answer": "敢へて言はず",
+    "reading": "あへていはず",
+    "explanation": "「進んで言おうとはしない」。「敢へて」は歴史的仮名遣いだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0061",
+    "level": 3,
+    "category": "疑問・反語",
+    "prompt": "「孰」を「どちらが」の意味で読むと？（歴史的仮名遣いで）",
+    "answer": "孰れか",
+    "reading": "いづれか",
+    "explanation": "比較・選択を問うときに使うよ。「たれか」と読むこともあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0062",
+    "level": 3,
+    "category": "疑問・反語",
+    "prompt": "「何為」を「どうして」の意味で読むと？",
+    "answer": "何為れぞ",
+    "reading": "なんすれぞ",
+    "explanation": "理由を問う疑問詞だよ。「何為」を「なにをかなす」と読む場合もあるので文脈に注意だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0063",
+    "level": 3,
+    "category": "疑問・反語",
+    "prompt": "方法・処置を問う「如何」の読みは？",
+    "answer": "如何",
+    "reading": "いかん",
+    "explanation": "「どうしたらよいか」を問うよ。状態を問う「何如」とセットで覚えよう。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0064",
+    "level": 3,
+    "category": "疑問・反語",
+    "prompt": "数量・程度を問う「幾何」の読みは？",
+    "answer": "幾何",
+    "reading": "いくばく",
+    "explanation": "「どれくらい」という意味。数学の「きか」とは違う読みだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0065",
+    "level": 3,
+    "category": "使役",
+    "prompt": "使役「使AB」の形で、Aに付けて読む送り仮名は？",
+    "answer": "をして",
+    "reading": "をして",
+    "explanation": "「AをしてBしむ」＝「AにBさせる」という形だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0066",
+    "level": 3,
+    "category": "受身",
+    "prompt": "「見笑」を受身として書き下すと？（歴史的仮名遣いで）",
+    "answer": "笑はる",
+    "reading": "わらはる",
+    "explanation": "「笑われる」という意味。「笑ふ」の未然形「笑は」に「る」が付くよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0067",
+    "level": 3,
+    "category": "受身",
+    "prompt": "「被殺」を受身として書き下すと？",
+    "answer": "殺さる",
+    "reading": "ころさる",
+    "explanation": "「殺される」という意味。「被」は受身の助字だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0068",
+    "level": 3,
+    "category": "比較・選択",
+    "prompt": "「莫如」の読みは？（送り仮名付きで）",
+    "answer": "如くは莫し",
+    "reading": "しくはなし",
+    "explanation": "「〜に及ぶものはない」＝「〜が一番だ」という最上級の意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0069",
+    "level": 3,
+    "category": "仮定",
+    "prompt": "「苟」の読みは？（送り仮名付きで）",
+    "answer": "苟も",
+    "reading": "いやしくも",
+    "explanation": "「かりにも〜ならば」という仮定を表すよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0070",
+    "level": 4,
+    "category": "仮定",
+    "prompt": "「雖」の読みは？（歴史的仮名遣いで）",
+    "answer": "雖も",
+    "reading": "いへども",
+    "explanation": "「〜だとしても」「〜だけれども」の意味。歴史的仮名遣いで「いへども」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0071",
+    "level": 4,
+    "category": "限定・累加",
+    "prompt": "文末で限定を表す二字の助字「而已」の読みは？",
+    "answer": "而已",
+    "reading": "のみ",
+    "explanation": "「而已」「而已矣」はどれも「のみ」と読む文末の限定だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0072",
+    "level": 4,
+    "category": "限定・累加",
+    "prompt": "限定の副詞として使う「独」の読みは？（送り仮名付きで）",
+    "answer": "独り",
+    "reading": "ひとり",
+    "explanation": "「独り〜のみ」で「ただ〜だけ」という意味になるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0073",
+    "level": 4,
+    "category": "抑揚",
+    "prompt": "抑揚の形で使う「況」の読みは？（歴史的仮名遣いで）",
+    "answer": "況んや",
+    "reading": "いはんや",
+    "explanation": "「況んや〜をや」で「まして〜はなおさらだ」。歴史的仮名遣いで「いはんや」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0074",
+    "level": 4,
+    "category": "詠嘆・願望",
+    "prompt": "願望を表す「願」の読みは？（歴史的仮名遣いで）",
+    "answer": "願はくは",
+    "reading": "ねがはくは",
+    "explanation": "「願はくは〜せよ／〜せん」で「どうか〜してほしい／させてほしい」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0075",
+    "level": 4,
+    "category": "重要語",
+    "prompt": "「以為」を一語で読むと？（歴史的仮名遣いで）",
+    "answer": "以為へらく",
+    "reading": "おもへらく",
+    "explanation": "「思うことには」という意味。「以て〜と為す」と読む場合もあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0076",
+    "level": 4,
+    "category": "重要語",
+    "prompt": "「思うに」「おそらく」の意味で文頭に置く「蓋」の読みは？",
+    "answer": "蓋し",
+    "reading": "けだし",
+    "explanation": "推量や確信を表す文頭の副詞だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0077",
+    "level": 4,
+    "category": "重要語",
+    "prompt": "「とうとう」「そのまま」の意味の「遂」の読みは？（歴史的仮名遣いで）",
+    "answer": "遂に",
+    "reading": "つひに",
+    "explanation": "歴史的仮名遣いで「つひに」。「そのまま」と訳す場合もあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0078",
+    "level": 4,
+    "category": "重要語",
+    "prompt": "「あっという間に」の意味の「忽」の読みは？",
+    "answer": "忽ち",
+    "reading": "たちまち",
+    "explanation": "時間が短いことを表す副詞だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0079",
+    "level": 4,
+    "category": "重要語",
+    "prompt": "「自分で」の意味の「自」の読みは？（歴史的仮名遣いで）",
+    "answer": "自ら",
+    "reading": "みづから",
+    "explanation": "歴史的仮名遣いで「みづから」。「おのづから（自然に）」と読む場合もあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0080",
+    "level": 4,
+    "category": "重要語",
+    "prompt": "二人称の「汝」の読みは？（歴史的仮名遣いで）",
+    "answer": "汝",
+    "reading": "なんぢ",
+    "explanation": "「あなた、おまえ」。歴史的仮名遣いで「なんぢ」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0081",
+    "level": 4,
+    "category": "重要語",
+    "prompt": "「難」を形容詞として読むと？（「難しい」の意）",
+    "answer": "難し",
+    "reading": "かたし",
+    "explanation": "漢文では「むずかし」ではなく「かたし」と読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0082",
+    "level": 4,
+    "category": "重要語",
+    "prompt": "天帝の子として天命を受け、天下を治める君主を漢文で何という？（漢字二字）",
+    "answer": "天子",
+    "reading": "てんし",
+    "explanation": "中国の皇帝のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0083",
+    "level": 4,
+    "category": "重要語",
+    "prompt": "「たやすい」の意味の「易」の読みは？",
+    "answer": "易し",
+    "reading": "やすし",
+    "explanation": "「難し（かたし）」と対になる語だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0084",
+    "level": 4,
+    "category": "疑問・反語",
+    "prompt": "状態・程度を問う「何如」の読みは？",
+    "answer": "何如",
+    "reading": "いかん",
+    "explanation": "「どうであるか」を問うよ。方法を問う「如何」と区別しよう。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0085",
+    "level": 4,
+    "category": "重要語",
+    "prompt": "文末で断定を表す「也」の読みは？",
+    "answer": "也",
+    "reading": "なり",
+    "explanation": "疑問・反語の文末では「や」と読むこともあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0086",
+    "level": 4,
+    "category": "否定",
+    "prompt": "不可能を表す「不能」の読みは？（歴史的仮名遣いで）",
+    "answer": "能はず",
+    "reading": "あたはず",
+    "explanation": "「〜する能はず」で「〜できない」。歴史的仮名遣いで「あたはず」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0087",
+    "level": 4,
+    "category": "再読文字",
+    "prompt": "「猶」と同じ読み方・意味をもつ再読文字「由」の、一度目の読みは？（歴史的仮名遣いで）",
+    "answer": "由ほ",
+    "reading": "なほ",
+    "explanation": "「由」も比況の再読文字として使われるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0088",
+    "level": 4,
+    "category": "再読文字",
+    "prompt": "「将去」を書き下すと？",
+    "answer": "将に去らんとす",
+    "reading": "まさにさらんとす",
+    "explanation": "「今にも去ろうとする」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0089",
+    "level": 4,
+    "category": "再読文字",
+    "prompt": "「当学」を書き下すと？",
+    "answer": "当に学ぶべし",
+    "reading": "まさにまなぶべし",
+    "explanation": "「当然学ぶべきだ」。「べし」は終止形に付くよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0090",
+    "level": 4,
+    "category": "再読文字",
+    "prompt": "「応知」を書き下すと？",
+    "answer": "応に知るべし",
+    "reading": "まさにしるべし",
+    "explanation": "「きっと知っているだろう」と推量の意味になるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0091",
+    "level": 4,
+    "category": "再読文字",
+    "prompt": "「宜帰」を書き下すと？（歴史的仮名遣いで）",
+    "answer": "宜しく帰るべし",
+    "reading": "よろしくかへるべし",
+    "explanation": "「帰るのがよい」という意味。「帰る」は歴史的仮名遣いで「かへる」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0092",
+    "level": 5,
+    "category": "再読文字",
+    "prompt": "「須読」を書き下すと？",
+    "answer": "須らく読むべし",
+    "reading": "すべからくよむべし",
+    "explanation": "「ぜひ読む必要がある」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0093",
+    "level": 5,
+    "category": "否定",
+    "prompt": "「不可不学」を書き下すと？",
+    "answer": "学ばざるべからず",
+    "reading": "まなばざるべからず",
+    "explanation": "「学ばないわけにはいかない」＝「ぜひ学ぶべきだ」という二重否定だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0094",
+    "level": 5,
+    "category": "否定",
+    "prompt": "「不常有」を書き下すと？",
+    "answer": "常には有らず",
+    "reading": "つねにはあらず",
+    "explanation": "部分否定で「いつもあるとは限らない」。「は」が入るのがポイントだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0095",
+    "level": 5,
+    "category": "疑問・反語",
+    "prompt": "「如之何」を書き下すと？",
+    "answer": "之を如何せん",
+    "reading": "これをいかんせん",
+    "explanation": "「これをどうしようか」。目的語は「如」と「何」の間にはさむよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0096",
+    "level": 5,
+    "category": "疑問・反語",
+    "prompt": "「奈何」を「どうしようか」の意味で読むと？",
+    "answer": "奈何せん",
+    "reading": "いかんせん",
+    "explanation": "「如何せん」と同じく、処置に困る気持ちを表すよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0097",
+    "level": 5,
+    "category": "疑問・反語",
+    "prompt": "「豈知」を反語として書き下すと？",
+    "answer": "豈に知らんや",
+    "reading": "あにしらんや",
+    "explanation": "「どうして知っていようか、いや知らない」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0098",
+    "level": 5,
+    "category": "疑問・反語",
+    "prompt": "「誰知」を反語として書き下すと？",
+    "answer": "誰か知らん",
+    "reading": "たれかしらん",
+    "explanation": "「誰が知っていようか、いや誰も知らない」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0099",
+    "level": 5,
+    "category": "使役",
+    "prompt": "「使人問之」を書き下すと？（歴史的仮名遣いで）",
+    "answer": "人をして之を問はしむ",
+    "reading": "ひとをしてこれをとはしむ",
+    "explanation": "「人にこれを尋ねさせる」。「問はしむ」は歴史的仮名遣いだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0100",
+    "level": 5,
+    "category": "受身",
+    "prompt": "受身の助字「見」「被」を、四段・ナ変・ラ変以外の動詞に付けて読むと？",
+    "answer": "らる",
+    "reading": "らる",
+    "explanation": "「る」と「らる」の使い分けは古文の助動詞と同じだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0101",
+    "level": 5,
+    "category": "比較・選択",
+    "prompt": "「不如学」を書き下すと？",
+    "answer": "学ぶに如かず",
+    "reading": "まなぶにしかず",
+    "explanation": "「学ぶことには及ばない」＝「学ぶ方がよい」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0102",
+    "level": 5,
+    "category": "比較・選択",
+    "prompt": "比較「A於B」の形（「於」が比較を表す）で、Bに付けて読む送り仮名は？",
+    "answer": "より",
+    "reading": "より",
+    "explanation": "「於」は置き字になり、Bに「より」を付けて「BよりもA」と読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0103",
+    "level": 5,
+    "category": "仮定",
+    "prompt": "逆接の仮定を表す「縦」の読みは？（歴史的仮名遣いで）",
+    "answer": "縦ひ",
+    "reading": "たとひ",
+    "explanation": "「縦ひ〜とも」で「たとえ〜としても」。歴史的仮名遣いで「たとひ」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0104",
+    "level": 5,
+    "category": "抑揚",
+    "prompt": "抑揚形「A且B、況C乎」で、Aに付けて読む助詞は？",
+    "answer": "すら",
+    "reading": "すら",
+    "explanation": "「Aすら且つB」で「Aでさえ〜だ」と、まず軽いものを挙げるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0105",
+    "level": 5,
+    "category": "抑揚",
+    "prompt": "抑揚形「況C乎」で、Cに付けて読む送り仮名は？",
+    "answer": "をや",
+    "reading": "をや",
+    "explanation": "「況んやCをや」で「ましてCはなおさらだ」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0106",
+    "level": 5,
+    "category": "抑揚",
+    "prompt": "「且」を「その上」の意味の接続詞として読むと？（送り仮名付きで）",
+    "answer": "且つ",
+    "reading": "かつ",
+    "explanation": "抑揚形では「Aすら且つB」のように使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0107",
+    "level": 5,
+    "category": "詠嘆・願望",
+    "prompt": "「どうか〜させてください」という願望を表す「請」の読みは？（歴史的仮名遣いで）",
+    "answer": "請ふ",
+    "reading": "こふ",
+    "explanation": "「請ふ〜せん」の形で、自分の行為を願い出るよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0108",
+    "level": 5,
+    "category": "詠嘆・願望",
+    "prompt": "文頭に置かれ、話を切り出す発語の「夫」の読みは？（送り仮名付きで）",
+    "answer": "夫れ",
+    "reading": "それ",
+    "explanation": "「そもそも」という意味で、改まって話を始めるときに使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0109",
+    "level": 5,
+    "category": "重要語",
+    "prompt": "「理由」「方法」の意味を表す「所以」の読みは？（歴史的仮名遣いで）",
+    "answer": "所以",
+    "reading": "ゆゑん",
+    "explanation": "「〜する所以」で「〜する理由・手段」。歴史的仮名遣いで「ゆゑん」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0110",
+    "level": 5,
+    "category": "重要語",
+    "prompt": "「もともと」「言うまでもなく」の意味の「固」の読みは？",
+    "answer": "固より",
+    "reading": "もとより",
+    "explanation": "「素より」とも書くよ。「固い」の意味とは違うので注意だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0111",
+    "level": 5,
+    "category": "重要語",
+    "prompt": "「急に」の意味の「俄」の読みは？（歴史的仮名遣いで）",
+    "answer": "俄かに",
+    "reading": "にはかに",
+    "explanation": "歴史的仮名遣いで「にはかに」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0112",
+    "level": 5,
+    "category": "重要語",
+    "prompt": "「すべて」の意味の「悉」の読みは？",
+    "answer": "悉く",
+    "reading": "ことごとく",
+    "explanation": "「尽く」とも書くよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0113",
+    "level": 5,
+    "category": "重要語",
+    "prompt": "「少しの間」の意味の「暫」の読みは？",
+    "answer": "暫く",
+    "reading": "しばらく",
+    "explanation": "「姑く」「且く」とも書くよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0114",
+    "level": 5,
+    "category": "重要語",
+    "prompt": "「互いに」の意味の「相」の読みは？（歴史的仮名遣いで）",
+    "answer": "相",
+    "reading": "あひ",
+    "explanation": "歴史的仮名遣いで「あひ」。「相ひ」とは書かないよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0115",
+    "level": 6,
+    "category": "重要語",
+    "prompt": "「まだ」「やはり」の意味の副詞「尚」の読みは？（歴史的仮名遣いで）",
+    "answer": "尚ほ",
+    "reading": "なほ",
+    "explanation": "歴史的仮名遣いで「なほ」。再読文字「猶」と同じ読みだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0116",
+    "level": 6,
+    "category": "重要語",
+    "prompt": "「だいたい」「すべて」の意味で文頭に置く「凡」の読みは？",
+    "answer": "凡そ",
+    "reading": "およそ",
+    "explanation": "話を大きくまとめるときに使う副詞だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0117",
+    "level": 6,
+    "category": "重要語",
+    "prompt": "「そのとおりだ」の意味の「然」の読みは？",
+    "answer": "然り",
+    "reading": "しかり",
+    "explanation": "「然らば」「然れども」など、接続語の元になる語だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0118",
+    "level": 6,
+    "category": "再読文字",
+    "prompt": "「猶鏡」を書き下すと？（歴史的仮名遣いで）",
+    "answer": "猶ほ鏡のごとし",
+    "reading": "なほかがみのごとし",
+    "explanation": "「ちょうど鏡のようだ」。名詞には「の」を付けて「ごとし」に続けるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0119",
+    "level": 6,
+    "category": "再読文字",
+    "prompt": "「盍帰」を書き下すと？（歴史的仮名遣いで）",
+    "answer": "盍ぞ帰らざる",
+    "reading": "なんぞかへらざる",
+    "explanation": "「どうして帰らないのか（帰ったらどうか）」と勧める意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0120",
+    "level": 6,
+    "category": "再読文字",
+    "prompt": "「且死」を再読文字を使って書き下すと？",
+    "answer": "且に死せんとす",
+    "reading": "まさにしせんとす",
+    "explanation": "「今にも死にそうだ」。「死す」はサ変なので未然形は「死せ」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0121",
+    "level": 6,
+    "category": "否定",
+    "prompt": "「不能不泣」を書き下すと？（歴史的仮名遣いで）",
+    "answer": "泣かざる能はず",
+    "reading": "なかざるあたはず",
+    "explanation": "「泣かずにはいられない」。「能はず」は歴史的仮名遣いで「あたはず」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0122",
+    "level": 6,
+    "category": "否定",
+    "prompt": "「敢不走」を反語として書き下すと？",
+    "answer": "敢へて走らざらんや",
+    "reading": "あへてはしらざらんや",
+    "explanation": "「どうして走らないことがあろうか、いや必ず走る」という反語だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0123",
+    "level": 6,
+    "category": "否定",
+    "prompt": "「常不言」を書き下すと？（歴史的仮名遣いで）",
+    "answer": "常に言はず",
+    "reading": "つねにいはず",
+    "explanation": "全部否定で「いつも言わない」。「不常」の部分否定との違いに注意だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0124",
+    "level": 6,
+    "category": "否定",
+    "prompt": "「不復来」を書き下すと？（「来」は「きたる」と読む）",
+    "answer": "復た来たらず",
+    "reading": "またきたらず",
+    "explanation": "部分否定で「二度とは来ない」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0125",
+    "level": 6,
+    "category": "否定",
+    "prompt": "「不必賢」を書き下すと？",
+    "answer": "必ずしも賢ならず",
+    "reading": "かならずしもけんならず",
+    "explanation": "部分否定で「賢いとは限らない」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0126",
+    "level": 6,
+    "category": "疑問・反語",
+    "prompt": "「安在」を場所を問う疑問として書き下すと？（歴史的仮名遣いで）",
+    "answer": "安くにか在る",
+    "reading": "いづくにかある",
+    "explanation": "「どこにあるのか」と場所を問う形だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0127",
+    "level": 6,
+    "category": "疑問・反語",
+    "prompt": "文末の「何也」の読みは？",
+    "answer": "何ぞや",
+    "reading": "なんぞや",
+    "explanation": "「どうしてか」と理由を問う文末の形だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0128",
+    "level": 6,
+    "category": "使役",
+    "prompt": "「遣」を使役の助字ではなく「派遣する」の意味の動詞で読むと？（歴史的仮名遣いで）",
+    "answer": "遣はす",
+    "reading": "つかはす",
+    "explanation": "使役のときは「しむ」、動詞のときは「遣はす」と読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0129",
+    "level": 6,
+    "category": "使役",
+    "prompt": "「命A〜」で使役を表すとき、「命」の読みは？（「〜して」の形で）",
+    "answer": "命じて",
+    "reading": "めいじて",
+    "explanation": "「Aに命じて〜しむ」と読み、「Aに命じて〜させる」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0130",
+    "level": 6,
+    "category": "比較・選択",
+    "prompt": "選択の形で使う「寧」の読みは？（送り仮名付きで）",
+    "answer": "寧ろ",
+    "reading": "むしろ",
+    "explanation": "「寧ろAすとも、Bすること無かれ」の形で「AしてもBするな」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0131",
+    "level": 6,
+    "category": "仮定",
+    "prompt": "「A則B」の「則」の読みは？（歴史的仮名遣いで）",
+    "answer": "則ち",
+    "reading": "すなはち",
+    "explanation": "「AならばBだ」と条件と結果をつなぐよ。「レバ則」と覚えよう。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0132",
+    "level": 6,
+    "category": "限定・累加",
+    "prompt": "「不唯我」を累加として書き下すと？",
+    "answer": "唯だに我のみならず",
+    "reading": "ただにわれのみならず",
+    "explanation": "「ただ私だけではない」。「唯だに」と「に」が付くのがポイントだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0133",
+    "level": 6,
+    "category": "抑揚",
+    "prompt": "「況君子乎」を書き下すと？",
+    "answer": "況んや君子をや",
+    "reading": "いはんやくんしをや",
+    "explanation": "「まして君子はなおさらだ」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0134",
+    "level": 6,
+    "category": "重要語",
+    "prompt": "「詳しく」「ことこまかに」の意味の「具」の読みは？",
+    "answer": "具に",
+    "reading": "つぶさに",
+    "explanation": "「備に」とも書くよ。「具体」の「具」だね。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0135",
+    "level": 6,
+    "category": "重要語",
+    "prompt": "「こっそりと」の意味の「窃」の読みは？",
+    "answer": "窃かに",
+    "reading": "ひそかに",
+    "explanation": "「私かに」「陰かに」とも書くよ。謙遜して「私見では」の意味にもなるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0136",
+    "level": 6,
+    "category": "重要語",
+    "prompt": "「たびたび」の意味の「数」の読みは？",
+    "answer": "数",
+    "reading": "しばしば",
+    "explanation": "「屢」も「しばしば」と読むよ。「かず」と読まないよう注意だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0137",
+    "level": 6,
+    "category": "重要語",
+    "prompt": "「非常に」の意味の「頗」の読みは？",
+    "answer": "頗る",
+    "reading": "すこぶる",
+    "explanation": "漢文では「たいそう」の意味が中心だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0138",
+    "level": 7,
+    "category": "重要語",
+    "prompt": "起点「〜から」を表す「自」の読みは？",
+    "answer": "自り",
+    "reading": "より",
+    "explanation": "「従」も同じく「より」と読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0139",
+    "level": 7,
+    "category": "重要語",
+    "prompt": "「ほんのわずか」の意味の「僅」の読みは？（歴史的仮名遣いで）",
+    "answer": "僅かに",
+    "reading": "わづかに",
+    "explanation": "歴史的仮名遣いで「わづかに」。「纔かに」とも書くよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0140",
+    "level": 7,
+    "category": "重要語",
+    "prompt": "「いったい」「さて」の意味の「抑」の読みは？",
+    "answer": "抑",
+    "reading": "そもそも",
+    "explanation": "話題を改めたり疑問を起こしたりするときに使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0141",
+    "level": 7,
+    "category": "重要語",
+    "prompt": "「十分だ」「〜する価値がある」の意味の「足」の読みは？",
+    "answer": "足る",
+    "reading": "たる",
+    "explanation": "「〜するに足る」で「〜する価値がある」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0142",
+    "level": 7,
+    "category": "重要語",
+    "prompt": "「このようだ」の意味の「如是」を書き下すと？",
+    "answer": "是くのごとし",
+    "reading": "かくのごとし",
+    "explanation": "「是」を「かく」と読み、「如」を助動詞「ごとし」にするよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0143",
+    "level": 7,
+    "category": "重要語",
+    "prompt": "「無駄に」の意味の「徒」の読みは？（歴史的仮名遣いで）",
+    "answer": "徒らに",
+    "reading": "いたづらに",
+    "explanation": "歴史的仮名遣いで「いたづらに」。限定の「ただ」と読むこともあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0144",
+    "level": 7,
+    "category": "重要語",
+    "prompt": "「間違いを犯す」の意味の動詞「過」の読みは？",
+    "answer": "過つ",
+    "reading": "あやまつ",
+    "explanation": "「過ぎる」ではなく「過つ」と読む用法だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0145",
+    "level": 7,
+    "category": "重要語",
+    "prompt": "「そのとき」「すぐに」の意味の「即」の読みは？（歴史的仮名遣いで）",
+    "answer": "即ち",
+    "reading": "すなはち",
+    "explanation": "「すぐに」という時間的な意味をもつのが「即」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0146",
+    "level": 7,
+    "category": "重要語",
+    "prompt": "孔子のような先生や長者を敬って呼ぶ語「夫子」の読みは？",
+    "answer": "夫子",
+    "reading": "ふうし",
+    "explanation": "『論語』では弟子が孔子を呼ぶときに使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0147",
+    "level": 7,
+    "category": "否定",
+    "prompt": "「未嘗」の読みは？",
+    "answer": "未だ嘗て",
+    "reading": "いまだかつて",
+    "explanation": "「未だ嘗て〜ず」で「今まで一度も〜したことがない」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0148",
+    "level": 7,
+    "category": "否定",
+    "prompt": "「未嘗不A」「不敢不A」の書き下しで、Aの未然形のあとに共通して続く読みは？",
+    "answer": "ずんばあらず",
+    "reading": "ずんばあらず",
+    "explanation": "「未だ嘗てAずんばあらず」は「これまでAしなかったことはない」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0149",
+    "level": 7,
+    "category": "否定",
+    "prompt": "「無人不知」のような「無A不B」の形で、Aのあとに付けて読む送り仮名は？",
+    "answer": "として",
+    "reading": "として",
+    "explanation": "「人として知らざるは無し」＝「知らない人は誰もいない」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0150",
+    "level": 7,
+    "category": "否定",
+    "prompt": "「不倶生」を書き下すと？",
+    "answer": "倶には生きず",
+    "reading": "ともにはいきず",
+    "explanation": "部分否定で「両方がともに生きることはない（どちらか一方しか生きられない）」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0151",
+    "level": 7,
+    "category": "否定",
+    "prompt": "「弗為」を書き下すと？",
+    "answer": "為さず",
+    "reading": "なさず",
+    "explanation": "「弗」は「不」と同じく打消の「ず」と読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0152",
+    "level": 7,
+    "category": "否定",
+    "prompt": "「不得不行」を書き下すと？（「行」は「ゆく」と読む）",
+    "answer": "行かざるを得ず",
+    "reading": "ゆかざるをえず",
+    "explanation": "二重否定で「行かないわけにはいかない」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0153",
+    "level": 7,
+    "category": "疑問・反語",
+    "prompt": "「悪」を「にくむ」の意味ではなく、反語「どうして」の意味で読むと？（歴史的仮名遣いで）",
+    "answer": "悪くんぞ",
+    "reading": "いづくんぞ",
+    "explanation": "「悪」は「いづくんぞ」「いづくにか」とも読む多義の字だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0154",
+    "level": 7,
+    "category": "使役",
+    "prompt": "「令子読書」を書き下すと？（「子」は二人称「あなた」の意で、音読みする）",
+    "answer": "子をして書を読ましむ",
+    "reading": "しをしてしょをよましむ",
+    "explanation": "「あなたに書物を読ませる」。「読ま」は未然形だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0155",
+    "level": 7,
+    "category": "受身",
+    "prompt": "「為人所殺」を書き下すと？",
+    "answer": "人の殺す所と為る",
+    "reading": "ひとのころすところとなる",
+    "explanation": "「為A所B」は「AのBする所と為る」で「AにBされる」という受身だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0156",
+    "level": 7,
+    "category": "受身",
+    "prompt": "受身の形「為A所B」で、文末の「為」の読みは？",
+    "answer": "為る",
+    "reading": "なる",
+    "explanation": "「AのBする所と為る」の「為る」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0157",
+    "level": 7,
+    "category": "仮定",
+    "prompt": "「雖然」を書き下すと？（歴史的仮名遣いで）",
+    "answer": "然りと雖も",
+    "reading": "しかりといへども",
+    "explanation": "「そうではあるが」という逆接の接続語だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0158",
+    "level": 7,
+    "category": "限定・累加",
+    "prompt": "「非独我」を累加として書き下すと？",
+    "answer": "独り我のみに非ず",
+    "reading": "ひとりわれのみにあらず",
+    "explanation": "「ただ私だけではない」と、限定を打ち消して累加を表すよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0159",
+    "level": 7,
+    "category": "詠嘆・願望",
+    "prompt": "「不亦悲乎」を書き下すと？",
+    "answer": "亦た悲しからずや",
+    "reading": "またかなしからずや",
+    "explanation": "「なんと悲しいことではないか」という詠嘆だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0160",
+    "level": 8,
+    "category": "接続",
+    "prompt": "「然後」の読みは？",
+    "answer": "然る後",
+    "reading": "しかるのち",
+    "explanation": "「そうしてから」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0161",
+    "level": 8,
+    "category": "接続",
+    "prompt": "「於是」の読みは？（歴史的仮名遣いで）",
+    "answer": "是に於いて",
+    "reading": "ここにおいて",
+    "explanation": "「そこで」という意味。「是」を「ここ」と読むのがポイントだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0162",
+    "level": 8,
+    "category": "重要語",
+    "prompt": "「少し」「だんだん」の意味の「稍」の読みは？",
+    "answer": "稍",
+    "reading": "やや",
+    "explanation": "「稍」は「しだいに」の意味になることもあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0163",
+    "level": 8,
+    "category": "重要語",
+    "prompt": "「だんだんと」の意味の「漸」の読みは？（歴史的仮名遣いで）",
+    "answer": "漸く",
+    "reading": "やうやく",
+    "explanation": "歴史的仮名遣いで「やうやく」。「しだいに」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0164",
+    "level": 8,
+    "category": "重要語",
+    "prompt": "「さらに一層」の意味の「益」の読みは？",
+    "answer": "益",
+    "reading": "ますます",
+    "explanation": "「利益」の「益」だけど、副詞では「ますます」と読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0165",
+    "level": 8,
+    "category": "重要語",
+    "prompt": "断定「〜である」の意味で使う「為」の読みは？",
+    "answer": "為り",
+    "reading": "たり",
+    "explanation": "断定の助動詞「たり」だよ。「為」は「なす」「なる」「ため」「る・らる」とも読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0166",
+    "level": 8,
+    "category": "重要語",
+    "prompt": "「行く」の意味の動詞として使う「之」の読みは？",
+    "answer": "之く",
+    "reading": "ゆく",
+    "explanation": "「之」は「これ」「の」のほか、動詞「ゆく」として読むこともあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0167",
+    "level": 8,
+    "category": "重要語",
+    "prompt": "「偶然に」「ちょうどそのとき」の意味の「適」の読みは？",
+    "answer": "適",
+    "reading": "たまたま",
+    "explanation": "「会」「偶」も「たまたま」と読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0168",
+    "level": 8,
+    "category": "重要語",
+    "prompt": "「危うく」「ほぼ」の意味の副詞「殆」の読みは？",
+    "answer": "殆ど",
+    "reading": "ほとんど",
+    "explanation": "「殆し」と書くと「あやうい」の意味になるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0169",
+    "level": 8,
+    "category": "重要語",
+    "prompt": "「何度も」「ひっきりなしに」の意味の「頻」の読みは？",
+    "answer": "頻りに",
+    "reading": "しきりに",
+    "explanation": "「頻繁」の「頻」だね。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0170",
+    "level": 8,
+    "category": "重要語",
+    "prompt": "「若い」の意味で使う「少」の読みは？",
+    "answer": "少し",
+    "reading": "わかし",
+    "explanation": "「少くして」＝「若いときに」。「すこし」と読まないよう注意だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0171",
+    "level": 8,
+    "category": "重要語",
+    "prompt": "「喜ぶ」の意味で使う「説」の読みは？",
+    "answer": "説ぶ",
+    "reading": "よろこぶ",
+    "explanation": "「悦」と同じ意味。「説く」と読まないように注意だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0172",
+    "level": 8,
+    "category": "重要語",
+    "prompt": "漢文で「世間」という意味で使う「人間」の読みは？",
+    "answer": "人間",
+    "reading": "じんかん",
+    "explanation": "「にんげん（人）」ではなく「世の中」の意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0173",
+    "level": 8,
+    "category": "重要語",
+    "prompt": "「少ない」の意味の「寡」の読みは？",
+    "answer": "寡し",
+    "reading": "すくなし",
+    "explanation": "「鮮し」も「すくなし」と読むよ。「寡人」は王の謙遜した自称だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0174",
+    "level": 8,
+    "category": "重要語",
+    "prompt": "「ちょうど今」の意味の副詞「方」の読みは？",
+    "answer": "方に",
+    "reading": "まさに",
+    "explanation": "再読文字ではなく、一度だけ読む副詞だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0175",
+    "level": 8,
+    "category": "否定",
+    "prompt": "「匪」を否定の字として送り仮名付きで読むと？",
+    "answer": "匪ず",
+    "reading": "あらず",
+    "explanation": "「匪」は「非」と同じく「〜ではない」と打ち消すよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0176",
+    "level": 8,
+    "category": "否定",
+    "prompt": "「不甚多」を書き下すと？（歴史的仮名遣いで）",
+    "answer": "甚だしくは多からず",
+    "reading": "はなはだしくはおほからず",
+    "explanation": "部分否定で「それほど多くはない」。「多し」は歴史的仮名遣いで「おほし」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0177",
+    "level": 8,
+    "category": "否定",
+    "prompt": "「不学不知」を仮定の意味を含めて書き下すと？",
+    "answer": "学ばずんば知らず",
+    "reading": "まなばずんばしらず",
+    "explanation": "「学ばなければ知ることはない」。「ずんば」は打消の仮定だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0179",
+    "level": 8,
+    "category": "疑問・反語",
+    "prompt": "「何謂也」を書き下すと？（歴史的仮名遣いで）",
+    "answer": "何の謂ひぞや",
+    "reading": "なんのいひぞや",
+    "explanation": "「どういう意味か」と問う形。「謂ひ」は歴史的仮名遣いだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0180",
+    "level": 8,
+    "category": "疑問・反語",
+    "prompt": "「豈不惜哉」を詠嘆として書き下すと？（歴史的仮名遣いで）",
+    "answer": "豈に惜しからずや",
+    "reading": "あにをしからずや",
+    "explanation": "「なんと惜しいことではないか」。「惜し」は歴史的仮名遣いで「をし」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0181",
+    "level": 8,
+    "category": "受身",
+    "prompt": "「制於人」を受身として書き下すと？",
+    "answer": "人に制せらる",
+    "reading": "ひとにせいせらる",
+    "explanation": "「於」が動作主を示し「人に支配される」の意味。「制す」はサ変だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0182",
+    "level": 8,
+    "category": "比較・選択",
+    "prompt": "「莫大於此」を書き下すと？",
+    "answer": "此れより大なるは莫し",
+    "reading": "これよりだいなるはなし",
+    "explanation": "「これより大きなものはない」という最上級の表現だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0183",
+    "level": 9,
+    "category": "詠嘆・願望",
+    "prompt": "「何其多也」を詠嘆として書き下すと？（歴史的仮名遣いで）",
+    "answer": "何ぞ其れ多きや",
+    "reading": "なんぞそれおほきや",
+    "explanation": "「なんと多いことか」。「多き」は歴史的仮名遣いで「おほき」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0184",
+    "level": 9,
+    "category": "詠嘆・願望",
+    "prompt": "文末に置かれて詠嘆を表す「夫」の読みは？",
+    "answer": "夫",
+    "reading": "かな",
+    "explanation": "文頭の「夫れ」とは読み方も働きも違うので注意だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0185",
+    "level": 9,
+    "category": "接続",
+    "prompt": "置き字にもなる「而」を、順接の接続詞として読むと？（歴史的仮名遣いで）",
+    "answer": "而して",
+    "reading": "しかうして",
+    "explanation": "「そうして」という意味。歴史的仮名遣いで「しかうして」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0186",
+    "level": 9,
+    "category": "接続",
+    "prompt": "「而」を逆接の接続詞として「〜ども」の形で読むと？",
+    "answer": "而れども",
+    "reading": "しかれども",
+    "explanation": "「しかし」という意味。「而るに」と読むこともあるので、文脈で順接か逆接かを判断するよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0187",
+    "level": 9,
+    "category": "重要語",
+    "prompt": "「そこで」「なんと」の意味で使う「乃」の読みは？（歴史的仮名遣いで）",
+    "answer": "乃ち",
+    "reading": "すなはち",
+    "explanation": "「則」「即」「輒」との意味の違いが問われやすいよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0188",
+    "level": 9,
+    "category": "重要語",
+    "prompt": "「ますます」の意味で使う「愈」の読みは？",
+    "answer": "愈",
+    "reading": "いよいよ",
+    "explanation": "「弥」も「いよいよ」と読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0189",
+    "level": 9,
+    "category": "重要語",
+    "prompt": "「ちょっと」「わずかに」の意味の「聊」の読みは？",
+    "answer": "聊か",
+    "reading": "いささか",
+    "explanation": "「少しばかり」という意味の副詞だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0190",
+    "level": 9,
+    "category": "重要語",
+    "prompt": "「与える」の意味の「与」の読みは？（歴史的仮名遣いで）",
+    "answer": "与ふ",
+    "reading": "あたふ",
+    "explanation": "歴史的仮名遣いで「あたふ」。可能を表す「能ふ」と同じ読みだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0191",
+    "level": 9,
+    "category": "重要語",
+    "prompt": "二人称として使う「若」の読みは？（歴史的仮名遣いで）",
+    "answer": "若",
+    "reading": "なんぢ",
+    "explanation": "「若」は「ごとし」「もし」「しく」のほか、二人称「なんぢ」とも読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0192",
+    "level": 9,
+    "category": "重要語",
+    "prompt": "「いつも」の意味の「毎」の読みは？",
+    "answer": "毎に",
+    "reading": "つねに",
+    "explanation": "「〜ごとに」と読む場合もあるので文脈に注意だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0193",
+    "level": 9,
+    "category": "重要語",
+    "prompt": "「終わる」「やめる」の意味の動詞「已」の読みは？",
+    "answer": "已む",
+    "reading": "やむ",
+    "explanation": "「已」は「すでに」「のみ」とも読む多義の字だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0194",
+    "level": 9,
+    "category": "重要語",
+    "prompt": "目上の人の質問に答える意味の「対」の読みは？（歴史的仮名遣いで）",
+    "answer": "対ふ",
+    "reading": "こたふ",
+    "explanation": "「対へて曰く」の形でよく出るよ。歴史的仮名遣いで「こたふ」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0195",
+    "level": 9,
+    "category": "重要語",
+    "prompt": "「以前」「昔の」の意味で名詞として使う「故」の読みは？",
+    "answer": "故",
+    "reading": "もと",
+    "explanation": "「故人」の「故」も「以前からの」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0196",
+    "level": 9,
+    "category": "疑問・反語",
+    "prompt": "「A孰与B」（AとBとではどちらが〜か）の「孰与」の読みは？（歴史的仮名遣いで）",
+    "answer": "孰与",
+    "reading": "いづれぞ",
+    "explanation": "「AはBに孰与れぞ」と読み、比較して問う形だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0197",
+    "level": 9,
+    "category": "比較・選択",
+    "prompt": "「与其A、寧B」は「其のA□寧ろB」と読む。□に入る読みは？",
+    "answer": "よりは",
+    "reading": "よりは",
+    "explanation": "「AよりはむしろBのほうがよい」という選択の形だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0198",
+    "level": 9,
+    "category": "比較・選択",
+    "prompt": "「寧A無B」の形で、Aに付けて読む送り仮名は？",
+    "answer": "とも",
+    "reading": "とも",
+    "explanation": "「寧ろAすとも、Bすること無かれ」＝「たとえAしてもBはするな」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0199",
+    "level": 9,
+    "category": "仮定",
+    "prompt": "「もし〜がなかったならば」という仮定を表す「微」の読みは？",
+    "answer": "微かりせば",
+    "reading": "なかりせば",
+    "explanation": "「微」は仮定の否定として「なかりせば」と読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0200",
+    "level": 9,
+    "category": "限定・累加",
+    "prompt": "反語で累加を表す「豈唯〜哉」の「豈唯」の読みは？",
+    "answer": "豈に唯だに",
+    "reading": "あにただに",
+    "explanation": "「豈に唯だに〜のみならんや」で「どうして〜だけであろうか」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0201",
+    "level": 9,
+    "category": "抑揚",
+    "prompt": "「而況」の読みは？（歴史的仮名遣いで）",
+    "answer": "而るを況んや",
+    "reading": "しかるをいはんや",
+    "explanation": "「それなのに、まして〜はなおさらだ」と抑揚を強める形だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0202",
+    "level": 9,
+    "category": "詠嘆・願望",
+    "prompt": "願望を表す二字「庶幾」の読みは？（歴史的仮名遣いで）",
+    "answer": "庶幾はくは",
+    "reading": "こひねがはくは",
+    "explanation": "「どうか〜であってほしい」という強い願望だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0203",
+    "level": 9,
+    "category": "接続",
+    "prompt": "理由を説明するときに使う「何者」の読みは？",
+    "answer": "何者",
+    "reading": "なんとなれば",
+    "explanation": "「なぜかというと」という意味で、後に理由が続くよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0204",
+    "level": 9,
+    "category": "重要語",
+    "prompt": "「そのたびごとに」の意味の「輒」の読みは？（歴史的仮名遣いで）",
+    "answer": "輒ち",
+    "reading": "すなはち",
+    "explanation": "「すなはち」と読む字の中で「そのたびに」の意味を持つのが「輒」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0205",
+    "level": 9,
+    "category": "重要語",
+    "prompt": "「詳しく」の意味の「審」の読みは？",
+    "answer": "審らかに",
+    "reading": "つまびらかに",
+    "explanation": "「詳らかに」とも書くよ。「審査」の「審」だね。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0206",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "「味方する」「賛成する」の意味の「与」の読みは？",
+    "answer": "与す",
+    "reading": "くみす",
+    "explanation": "「与」は「と」「ともに」「あたふ」「か・や」などたくさんの読みがあるよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0207",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "「以前に」の意味の「嚮」の読みは？",
+    "answer": "嚮に",
+    "reading": "さきに",
+    "explanation": "「向」「曩」も「さきに」と読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0208",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "「取りかえる」の意味で使う「易」の読みは？（歴史的仮名遣いで）",
+    "answer": "易ふ",
+    "reading": "かふ",
+    "explanation": "「貿易」の「易」。「易し（やさしい）」と区別しよう。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0209",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "動詞「言う」「〜と呼ぶ」の意味で使う「謂」の読みは？（歴史的仮名遣いで）",
+    "answer": "謂ふ",
+    "reading": "いふ",
+    "explanation": "「之を〜と謂ふ」で「これを〜と呼ぶ」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0210",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "漢文で「都」の意味を表す「京師」の読みは？",
+    "answer": "京師",
+    "reading": "けいし",
+    "explanation": "「京」は大きい、「師」は多くの人を表し、天子の住む大きな町のことだよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0211",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "「徳の高い立派な人物」や「父」の意味で使う「大人」の読みは？",
+    "answer": "大人",
+    "reading": "たいじん",
+    "explanation": "「おとな」ではなく「たいじん」と読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0212",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "「愚かなこと」、また自分をへりくだっていう「不肖」の読みは？",
+    "answer": "不肖",
+    "reading": "ふしょう",
+    "explanation": "もとは「親や師に似ず劣っている」という意味だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0213",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "「味わう」の意味の動詞として使う「嘗」の読みは？",
+    "answer": "嘗む",
+    "reading": "なむ",
+    "explanation": "「かつて」と読む副詞の用法とは別だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0214",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "「とりあえず」「ひとまず」の意味で使う「姑」の読みは？",
+    "answer": "姑く",
+    "reading": "しばらく",
+    "explanation": "「しゅうとめ」ではなく、副詞として「しばらく」と読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0215",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "「行く」の意味の動詞として使う「如」の読みは？",
+    "answer": "如く",
+    "reading": "ゆく",
+    "explanation": "「如」は「ごとし」「しく」「もし」のほか、「ゆく」とも読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0216",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "「承知する」「聞き入れる」の意味の「肯」の読みは？（歴史的仮名遣いで）",
+    "answer": "肯んず",
+    "reading": "がへんず",
+    "explanation": "「肯へて」と読むこともあるよ。「不肯」で「承知しない」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0217",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "「もう〜した」の意味の「業」の読みは？",
+    "answer": "業に",
+    "reading": "すでに",
+    "explanation": "「既に」「已に」と同じ意味。「業」を副詞で読む珍しい例だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0218",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "選択疑問で「それとも」の意味を表す「将」の読みは？",
+    "answer": "将た",
+    "reading": "はた",
+    "explanation": "再読文字の「将に」とは別の用法だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0219",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "「思いのままに」の意味の「縦」の読みは？",
+    "answer": "縦に",
+    "reading": "ほしいままに",
+    "explanation": "仮定の「縦ひ」とは違う読み方だよ。「恣に」とも書くよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0220",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "「かわるがわる」の意味の「交」の読みは？",
+    "answer": "交",
+    "reading": "こもごも",
+    "explanation": "「更」も「こもごも」と読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0221",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "「ともすると」の意味の「動」の読みは？",
+    "answer": "動もすれば",
+    "reading": "ややもすれば",
+    "explanation": "「どうかすると〜しがちだ」という意味の副詞だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0222",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "「速い」の意味で使う「疾」の読みは？",
+    "answer": "疾し",
+    "reading": "とし",
+    "explanation": "「疾」は「やまひ（病気）」「にくむ」とも読むよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0223",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "「とりわけ」の意味の「就中」の読みは？（歴史的仮名遣いで）",
+    "answer": "就中",
+    "reading": "なかんづく",
+    "explanation": "「その中でも特に」という意味。歴史的仮名遣いで「なかんづく」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0224",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "「満一年」の意味で使う「期年」の読みは？",
+    "answer": "期年",
+    "reading": "きねん",
+    "explanation": "「期月」なら「満一か月」だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0225",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "「無位無官の人、庶民」の意味で使う「布衣」の読みは？",
+    "answer": "布衣",
+    "reading": "ふい",
+    "explanation": "庶民が麻などの布の着物を着ていたことからきた言葉だよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0226",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "「もっともだ」「当然だ」の意味で使う「宜」の読みは？",
+    "answer": "宜なり",
+    "reading": "むべなり",
+    "explanation": "再読文字の「宜しく〜べし」とは別に、形容動詞として使うよ。",
+    "review": "verified"
+  },
+  {
+    "id": "daigaku-kanbun-0227",
+    "level": 10,
+    "category": "重要語",
+    "prompt": "「お目にかかる」の意味で使う「見」の読みは？",
+    "answer": "見ゆ",
+    "reading": "まみゆ",
+    "explanation": "目上の人に会うという意味だよ。受身の「る・らる」とは別の用法だよ。",
+    "review": "verified"
+  }
+]
