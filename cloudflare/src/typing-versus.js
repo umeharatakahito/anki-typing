@@ -9,16 +9,19 @@
 // Durable Object は部屋ごとに 1 つ（名前 "room:<番号>"）と、自動マッチの待合室 1 つ（"lobby"）。
 //
 // 決まり
-//   ・1 問ずつ勝負。先に打ち終えた人が 1 本取る
+//   ・2〜4 人。部屋番号の部屋は、作った人（host）が「開始」を押すか 4 人そろったら始まる。
+//     自動マッチの部屋は、2 人そろってから最大 AUTO_WAIT_MS 待ち、4 人になるか時間が来たら始まる
+//     （待っている間はだれでも「この人数で始める」を押せる）
+//   ・1 問ずつ勝負。いちばん先に打ち終えた人が 1 本取る
 //   ・1 問で 10 回（極みモードは 5 回）ミスすると、その問題はもう打てない（相手を待つ。数えるのは画面側）
-//   ・2 人とも打てなくなるか時間切れになったら、その問題はだれも取らない
+//   ・全員が打てなくなるか時間切れになったら、その問題はだれも取らない
 //   ・1 本決まるたびに結果を RESULT_MS 見せてから次の問題へ
-//   ・target 本を先に取った人の勝ち。相手が抜けたら残った人の勝ち
+//   ・target 本を先に取った人の勝ち。抜けて 1 人だけ残ったら、その人の勝ち
 //
 // やりとり（JSON）
 //   サーバー → 画面
 //     {t:'room', code, kbn, mode, target, seat}   部屋に入れた
-//     {t:'players', players:[{name, seat}]}       参加者が変わった
+//     {t:'players', players:[{name, seat, again}], host, auto, max, startAt}   参加者が変わった
 //     {t:'start', questions, target, in}          in ミリ秒後に 0 問目が始まる（時計のずれに左右されないよう相対）
 //     {t:'more', questions}                        問題の追加（決着がつかず問題が足りなくなりそうなとき）
 //     {t:'opp', seat, r, done, total, typed, miss, out}   相手の入力の様子（本人には送らない）
@@ -31,6 +34,7 @@
 //     {t:'prog', r, done, total, typed, miss}      r 問目をどこまで打ったか（かな単位なので chu / tyu の違いは出ない）
 //     {t:'win', r}                                 r 問目を打ち終えた
 //     {t:'out', r, miss}                           r 問目はもう打てない（10 ミスか時間切れ）
+//     {t:'begin'}                                  この人数で始める（部屋番号の部屋は host だけ）
 //     {t:'again'}                                  もう一度
 // ===============================================================
 
@@ -43,6 +47,8 @@ export const TARGETS = [3, 5, 7, 10];
 const DEFAULT_TARGET = 5;
 const COUNTDOWN_MS = 3500;
 const RESULT_MS = 3000;          // 1 本ごとの結果を見せる時間
+const MAX_PLAYERS = 4;
+const AUTO_WAIT_MS = 60 * 1000;  // 自動マッチで 2 人そろってから、ほかの人を待つ時間
 const ROUND_MAX_MS = 90 * 1000;  // 画面から何も来なくても、この時間で次の問題へ
 const ROOM_IDLE_MS = 30 * 60 * 1000;
 const MODES = ['写経モード', '通常モード', '極みモード'];
@@ -54,13 +60,17 @@ export class TypingVersus extends DurableObject {
   constructor(ctx, env) {
     super(ctx, env);
     this.reset();
-    this.waiting = new Map();   // 待合室: 'kbn|mode|target' → { ws }
+    this.waiting = new Map();   // 待合室: 'kbn|mode|target' → { ws }（1 人目）
+    this.pending = new Map();   // 待合室: 'kbn|mode|target' → { code, count, until }（人を足せる部屋）
   }
 
   reset() {
     if (this.timer) clearTimeout(this.timer);
+    if (this.startTimer) clearTimeout(this.startTimer);
     this.timer = null;
-    this.room = null;           // { code, kbn, mode, target, createdAt }
+    this.startTimer = null;
+    this.startAt = 0;
+    this.room = null;           // { code, kbn, mode, target, auto, hostSeat, createdAt }
     this.players = [];          // { ws, seat, name, member, again, out }
     this.game = null;           // { questions, r, scores, roundOver, ended, allMembers }
   }
@@ -84,11 +94,22 @@ export class TypingVersus extends DurableObject {
     const target = targetOf(url.searchParams.get('target'));
     if (!CAT_BY_KBN[kbn] || !MODES.includes(mode)) { send(ws, { t: 'error', message: '問題集かモードが違います' }); ws.close(); return; }
     const key = [kbn, mode, target].join('|');
+    const matched = (w, code) => { send(w, { t: 'matched', code, kbn, mode, target }); w.close(1000, 'matched'); };
+
+    // 人を待っている部屋があれば、そこに入る
+    const open = this.pending.get(key);
+    if (open && open.count < MAX_PLAYERS && Date.now() < open.until) {
+      open.count++;
+      if (open.count >= MAX_PLAYERS) this.pending.delete(key);
+      matched(ws, open.code);
+      return;
+    }
     const other = this.waiting.get(key);
     if (other && other.ws !== ws && other.ws.readyState === 1) {
       this.waiting.delete(key);
       const code = String(Math.floor(10000 + Math.random() * 90000));   // 自動マッチの部屋は 5 桁
-      [other.ws, ws].forEach(w => { send(w, { t: 'matched', code, kbn, mode, target }); w.close(1000, 'matched'); });
+      this.pending.set(key, { code, count: 2, until: Date.now() + AUTO_WAIT_MS });
+      [other.ws, ws].forEach(w => matched(w, code));
       return;
     }
     this.waiting.set(key, { ws });
@@ -107,15 +128,19 @@ export class TypingVersus extends DurableObject {
     if (!this.room) {
       if (!kbn) { send(ws, { t: 'error', message: 'その番号の部屋はありません' }); ws.close(); return; }
       if (!CAT_BY_KBN[kbn] || !MODES.includes(mode)) { send(ws, { t: 'error', message: '問題集かモードが違います' }); ws.close(); return; }
-      this.room = { code, kbn, mode, target: targetOf(url.searchParams.get('target')), createdAt: Date.now() };
+      this.room = { code, kbn, mode, target: targetOf(url.searchParams.get('target')),
+                    auto: url.searchParams.get('auto') === '1', hostSeat: 0, createdAt: Date.now() };
     } else if (create) {
       send(ws, { t: 'error', message: 'busy' }); ws.close(); return;
     }
-    if (this.players.length >= 2 || (this.game && !this.game.ended)) {
-      send(ws, { t: 'error', message: 'その部屋はもういっぱいです' }); ws.close(); return;
+    if (this.game) { send(ws, { t: 'error', message: 'その部屋はもう始まっています' }); ws.close(); return; }
+    if (this.players.length >= MAX_PLAYERS) {
+      send(ws, { t: 'error', message: 'その部屋はもういっぱいです（4人まで）' }); ws.close(); return;
     }
 
-    const seat = this.players.some(p => p.seat === 1) ? 2 : 1;
+    let seat = 1;
+    while (this.players.some(p => p.seat === seat)) seat++;
+    if (!this.room.hostSeat) this.room.hostSeat = seat;
     const me = { ws, seat, name: viewer.name || ('ゲスト' + seat), member: !!viewer.member, again: false, out: false };
     this.players.push(me);
     const r = this.room;
@@ -125,23 +150,34 @@ export class TypingVersus extends DurableObject {
     ws.addEventListener('message', ev => this.onMessage(me, ev.data));
     ws.addEventListener('close', () => this.onLeave(me));
 
-    if (this.players.length === 2) this.start();
+    if (this.players.length >= MAX_PLAYERS) this.start();
+    else if (this.room.auto && this.players.length >= 2 && !this.startTimer) {
+      this.startAt = Date.now() + AUTO_WAIT_MS;
+      this.startTimer = setTimeout(() => { this.startTimer = null; if (!this.game && this.players.length >= 2) this.start(); }, AUTO_WAIT_MS);
+      this.sendPlayers();
+    }
   }
 
   broadcast(msg) { this.players.forEach(p => send(p.ws, msg)); }
   sendPlayers(extra) {
+    const r = this.room || {};
     this.broadcast(Object.assign({ t: 'players',
-      players: this.players.map(p => ({ name: p.name, seat: p.seat, again: p.again })) }, extra || {}));
+      players: this.players.map(p => ({ name: p.name, seat: p.seat, again: p.again })),
+      host: r.hostSeat, auto: !!r.auto, max: MAX_PLAYERS, startIn: this.startAt ? Math.max(0, this.startAt - Date.now()) : 0
+    }, extra || {}));
   }
   scores() { return Object.fromEntries(this.players.map(p => [p.seat, this.game.scores[p.seat] || 0])); }
 
   async start() {
+    if (this.game && !this.game.ended) return;
+    if (this.startTimer) { clearTimeout(this.startTimer); this.startTimer = null; }
+    this.startAt = 0;
     const allMembers = this.players.every(p => p.member);
     // 最悪でも 2×target−1 問で決着するが、だれも取らない問題もあるので多めに用意する
     const questions = await this.pickQuestions(allMembers, this.room.target * 3);
     if (!questions.length) { this.broadcast({ t: 'error', message: '問題が見つかりませんでした' }); return; }
     this.players.forEach(p => { p.again = false; p.out = false; });
-    this.game = { questions, r: 0, scores: { 1: 0, 2: 0 }, roundOver: false, ended: false, allMembers };
+    this.game = { questions, r: 0, scores: {}, roundOver: false, ended: false, allMembers };
     this.broadcast({ t: 'start', questions, target: this.room.target, in: COUNTDOWN_MS });
     this.armRoundTimer(COUNTDOWN_MS);
   }
@@ -193,9 +229,13 @@ export class TypingVersus extends DurableObject {
     let m;
     try { m = JSON.parse(data); } catch (e) { return; }
 
+    if (m.t === 'begin') {
+      if (!this.game && this.players.length >= 2 && (this.room.auto || me.seat === this.room.hostSeat)) this.start();
+      return;
+    }
     if (m.t === 'again') {
       me.again = true;
-      if (this.game && this.game.ended && this.players.length === 2 && this.players.every(p => p.again)) this.start();
+      if (this.game && this.game.ended && this.players.length >= 2 && this.players.every(p => p.again)) this.start();
       else this.sendPlayers();
       return;
     }
@@ -245,14 +285,19 @@ export class TypingVersus extends DurableObject {
 
   onLeave(me) {
     this.players = this.players.filter(p => p !== me);
+    if (!this.players.length) { this.reset(); return; }
+    if (this.room && this.room.hostSeat === me.seat) this.room.hostSeat = this.players[0].seat;
     const g = this.game;
     if (g && !g.ended) {
-      g.ended = true;
-      if (this.timer) clearTimeout(this.timer);
-      const rest = this.players[0];
-      this.broadcast({ t: 'end', winner: rest ? rest.seat : null, scores: this.scores(), left: me.seat });
+      if (this.players.length < 2) {
+        // 1 人だけ残ったら、その人の勝ち
+        g.ended = true;
+        if (this.timer) clearTimeout(this.timer);
+        this.broadcast({ t: 'end', winner: this.players[0].seat, scores: this.scores(), left: me.seat });
+      } else if (!g.roundOver && this.players.every(p => p.out)) {
+        this.closeRound(null);
+      }
     }
-    if (!this.players.length) { this.reset(); return; }
     this.sendPlayers({ left: me.name });
   }
 }
