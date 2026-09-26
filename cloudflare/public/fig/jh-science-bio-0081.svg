@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" width="520" height="420" font-family="sans-serif">
+<rect width="520" height="420" fill="#fff"/>
+<defs><marker id="sciencebio0081ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444"/></marker></defs>
+<path d="M150,120 L150,40" stroke="#64b5f6" stroke-width="26"/>
+<path d="M230,200 C220,80 300,60 330,40" fill="none" stroke="#64b5f6" stroke-width="24"/>
+<path d="M330,150 L420,120 M330,165 L420,185" stroke="#e57373" stroke-width="18"/>
+<path d="M270,230 C270,60 340,30 380,70 L380,110" fill="none" stroke="#e57373" stroke-width="28"/>
+<path d="M110,120 L230,120 L230,215 L110,215 Z" fill="#bbdefb" stroke="#333" stroke-width="3"/>
+<path d="M230,120 L340,120 L340,215 L230,215 Z" fill="#ffcdd2" stroke="#333" stroke-width="3"/>
+<path d="M110,215 L230,215 L230,360 C180,350 120,300 110,215 Z" fill="#bbdefb" stroke="#333" stroke-width="3"/>
+<path d="M230,215 L340,215 C340,300 290,360 230,360 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="3"/>
+<path d="M243,228 L325,228 C322,290 285,338 243,345 Z" fill="none" stroke="#c62828" stroke-width="7" opacity="0.5"/>
+<text x="170" y="168" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">右心房</text>
+<text x="285" y="168" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">左心房</text>
+<text x="175" y="270" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">右心室</text>
+<circle cx="285" cy="275" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="285" y="276" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="60" y1="60" x2="150" y2="70" stroke="#555" stroke-width="1.2"/><circle cx="150" cy="70" r="2.2" fill="#555"/><text x="60" y="60" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">大静脈</text>
+<line x1="300" y1="20" x2="320" y2="48" stroke="#555" stroke-width="1.2"/><circle cx="320" cy="48" r="2.2" fill="#555"/><text x="300" y="20" font-size="16" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">肺動脈</text>
+<line x1="440" y1="60" x2="382" y2="85" stroke="#555" stroke-width="1.2"/><circle cx="382" cy="85" r="2.2" fill="#555"/><text x="440" y="60" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">大動脈</text>
+<line x1="440" y1="155" x2="410" y2="150" stroke="#555" stroke-width="1.2"/><circle cx="410" cy="150" r="2.2" fill="#555"/><text x="440" y="155" font-size="16" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">肺静脈</text>
+<text x="250" y="405" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">正面から見た図（向かって右が心臓の左側）</text>
+</svg>

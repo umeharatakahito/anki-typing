@@ -33,12 +33,15 @@ const num = v => Number(v) || 0;
 // ---------------------------------------------------------------
 // 暗記タイピング: 問題取得（kbn 一致をシャッフルして最大 100 問）
 // 会員でない人には free = 1 の問題だけ出す
+const imgUrl = img => !img ? '' : img.startsWith('fig/') ? '/' + img : '/img/' + encodeURIComponent(img) + '.png';
+
+export const toCardImg = imgUrl;
 const toCard = r => ({
   que: r.que || '',
   kan: r.kan || '',
   ans: r.ans || '',
-  // 画像は public/img/ に置いたコピー。無いものは worker.js がドライブへ回す
-  img: r.img ? '/img/' + encodeURIComponent(r.img) + '.png' : '',
+  // 図は public/fig/、スプレッドシートの画像は public/img/ のコピー（無いものは worker.js がドライブへ回す）
+  img: imgUrl(r.img),
   note: r.note || '',
   level: r.level || 0
 });

@@ -29,6 +29,7 @@
 import { DurableObject } from 'cloudflare:workers';
 import { FREE_MAX_LEVEL } from './gate.js';
 import { CAT_BY_KBN } from './sets.js';
+import { toCardImg } from './stats.js';
 
 export const VS_QUESTIONS = 10;
 const COUNTDOWN_MS = 3500;
@@ -159,7 +160,7 @@ export class TypingVersus extends DurableObject {
     }
     return rows.map(r => ({
       que: r.que || '', kan: r.kan || '', ans: r.ans || '', note: r.note || '', level: r.level || 0,
-      img: r.img ? '/img/' + encodeURIComponent(r.img) + '.png' : ''
+      img: toCardImg(r.img)
     }));
   }
 

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300" font-family="sans-serif">
+<rect width="480" height="300" fill="#fff"/>
+<path d="M80,160 L80,60 L180,60 M216,60 L304,60 M340,60 L420,60 L420,260 L80,260 L80,184" fill="none" stroke="#222" stroke-width="2.5"/>
+<path d="M80,160 L80,166 M80,178 L80,184" stroke="#222" stroke-width="2.5"/>
+<line x1="58" y1="166" x2="102" y2="166" stroke="#222" stroke-width="3" /><line x1="68" y1="178" x2="92" y2="178" stroke="#222" stroke-width="6" /><text x="112" y="160" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">+</text><text x="112" y="184" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">−</text>
+<circle cx="198" cy="60" r="18" fill="#fffde7" stroke="#222" stroke-width="2.5"/><line x1="185.3" y1="47.3" x2="210.7" y2="72.7" stroke="#222" stroke-width="2" /><line x1="185.3" y1="72.7" x2="210.7" y2="47.3" stroke="#222" stroke-width="2" />
+<circle cx="322" cy="60" r="18" fill="#fffde7" stroke="#222" stroke-width="2.5"/><line x1="309.3" y1="47.3" x2="334.7" y2="72.7" stroke="#222" stroke-width="2" /><line x1="309.3" y1="72.7" x2="334.7" y2="47.3" stroke="#222" stroke-width="2" />
+<rect x="60" y="160" width="40" height="24" fill="#fff"/>
+<line x1="58" y1="166" x2="102" y2="166" stroke="#222" stroke-width="3" /><line x1="68" y1="178" x2="92" y2="178" stroke="#222" stroke-width="6" /><text x="112" y="160" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">+</text><text x="112" y="184" font-size="16" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">−</text>
+<text x="40" y="172" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">電池</text>
+</svg>

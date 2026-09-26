@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" width="660" height="300" font-family="sans-serif">
+<rect width="660" height="300" fill="#fff"/>
+<line x1="20" y1="220" x2="640" y2="220" stroke="#6d4c41" stroke-width="3" />
+<path d="M60,220 C60,110 190,110 190,220 Z" fill="#bdbdbd" stroke="#f57c00" stroke-width="3"/>
+<path d="M230,220 Q300,160 335,80 L355,80 Q390,160 460,220 Z" fill="#a1887f" stroke="#4e342e" stroke-width="2.5"/>
+<path d="M480,220 Q540,165 570,160 L585,160 Q615,165 640,220 Z" fill="#6d4c41" stroke="#3e2723" stroke-width="2.5"/>
+<circle cx="125" cy="70" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="125" y="71" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="345" y="250" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">成層火山</text>
+<text x="560" y="250" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">たて状火山</text>
+<text x="125" y="250" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">ねばりけ 強い</text>
+<text x="345" y="280" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">← マグマのねばりけ →</text>
+<text x="560" y="280" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">ねばりけ 弱い</text>
+</svg>

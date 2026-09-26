@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" width="560" height="320" font-family="sans-serif">
+<rect width="560" height="320" fill="#fff"/>
+<defs><marker id="sciencechem0023ga" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1976d2"/></marker></defs>
+<path d="M78,140 L78,190 L40,250 L140,250 L102,190 L102,140" fill="#fff" stroke="#607d8b" stroke-width="2.5"/><path d="M50,235 L130,235 L140,250 L40,250 Z" fill="#e1bee7"/><rect x="76" y="128" width="28" height="14" fill="#795548"/>
+<path d="M322.0,230 L322.0,60 A18.0,18.0 0 0,1 358.0,60 L358.0,230" fill="none" stroke="#607d8b" stroke-width="2.5"/>
+<path d="M90,128 L90,90 L250,90 L250,290 L340,290 L340,80" fill="none" stroke="#607d8b" stroke-width="5"/>
+<line x1="300" y1="200" x2="300" y2="90" stroke="#1976d2" stroke-width="2" marker-end="url(#sciencechem0023ga)"/>
+<text x="410" y="120" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">空気より軽い気体</text>
+<text x="410" y="145" font-size="15" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">（水にとけやすい）</text>
+</svg>

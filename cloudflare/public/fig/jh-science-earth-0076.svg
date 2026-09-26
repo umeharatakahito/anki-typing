@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 360" width="580" height="360" font-family="sans-serif">
+<rect width="580" height="360" fill="#fff"/>
+<clipPath id="scienceearth0076U"><path d="M20,340 L20,200 C100,180 160,215 230,195 C300,175 380,210 450,190 C500,178 540,195 560,190 L560,340 Z"/></clipPath>
+<g clip-path="url(#scienceearth0076U)" transform="">
+<polygon points="-200,360 -140,360 60,150 0,150" fill="#ffe0b2" stroke="#6d4c41" stroke-width="1"/>
+<polygon points="-140,360 -80,360 120,150 60,150" fill="#d7ccc8" stroke="#6d4c41" stroke-width="1"/>
+<polygon points="-80,360 -20,360 180,150 120,150" fill="#fff9c4" stroke="#6d4c41" stroke-width="1"/>
+<polygon points="-20,360 40,360 240,150 180,150" fill="#bcaaa4" stroke="#6d4c41" stroke-width="1"/>
+<polygon points="40,360 100,360 300,150 240,150" fill="#ffccbc" stroke="#6d4c41" stroke-width="1"/>
+<polygon points="100,360 160,360 360,150 300,150" fill="#cfd8dc" stroke="#6d4c41" stroke-width="1"/>
+<polygon points="160,360 220,360 420,150 360,150" fill="#ffe0b2" stroke="#6d4c41" stroke-width="1"/>
+<polygon points="220,360 280,360 480,150 420,150" fill="#d7ccc8" stroke="#6d4c41" stroke-width="1"/>
+<polygon points="280,360 340,360 540,150 480,150" fill="#fff9c4" stroke="#6d4c41" stroke-width="1"/>
+<polygon points="340,360 400,360 600,150 540,150" fill="#bcaaa4" stroke="#6d4c41" stroke-width="1"/>
+<polygon points="400,360 460,360 660,150 600,150" fill="#ffccbc" stroke="#6d4c41" stroke-width="1"/>
+<polygon points="460,360 520,360 720,150 660,150" fill="#cfd8dc" stroke="#6d4c41" stroke-width="1"/>
+<polygon points="520,360 580,360 780,150 720,150" fill="#ffe0b2" stroke="#6d4c41" stroke-width="1"/>
+<polygon points="580,360 640,360 840,150 780,150" fill="#d7ccc8" stroke="#6d4c41" stroke-width="1"/>
+</g>
+<clipPath id="scienceearth0076V"><path d="M20,40 L560,40 L560,190 C540,195 500,178 450,190 C380,210 300,175 230,195 C160,215 100,180 20,200 Z"/></clipPath>
+<g clip-path="url(#scienceearth0076V)"><rect x="20" y="40" width="540" height="42" fill="#fff9c4" stroke="#6d4c41" stroke-width="1"/><rect x="20" y="82" width="540" height="42" fill="#d7ccc8" stroke="#6d4c41" stroke-width="1"/><rect x="20" y="124" width="540" height="42" fill="#ffe0b2" stroke="#6d4c41" stroke-width="1"/><rect x="20" y="166" width="540" height="42" fill="#cfd8dc" stroke="#6d4c41" stroke-width="1"/></g>
+<path d="M20,200 C100,180 160,215 230,195 C300,175 380,210 450,190 C500,178 540,195 560,190" fill="none" stroke="#b71c1c" stroke-width="3.5"/>
+<rect x="20" y="40" width="540" height="300" fill="none" stroke="#5d4037" stroke-width="2"/>
+<line x1="300" y1="20" x2="300" y2="188" stroke="#f57c00" stroke-width="2.4"/><circle cx="300" cy="188" r="3.5" fill="#f57c00"/><circle cx="300" cy="20" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="300" y="21" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

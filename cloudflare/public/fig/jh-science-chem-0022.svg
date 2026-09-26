@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" width="560" height="320" font-family="sans-serif">
+<rect width="560" height="320" fill="#fff"/>
+<defs><marker id="sciencechem0022ga" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1976d2"/></marker></defs>
+<path d="M78,140 L78,190 L40,250 L140,250 L102,190 L102,140" fill="#fff" stroke="#607d8b" stroke-width="2.5"/><path d="M50,235 L130,235 L140,250 L40,250 Z" fill="#e1bee7"/><rect x="76" y="128" width="28" height="14" fill="#795548"/>
+<path d="M200,190 L200,300 L440,300 L440,190" fill="none" stroke="#607d8b" stroke-width="3"/>
+<rect x="202" y="215" width="236" height="83" fill="#bbdefb"/>
+<path d="M322.0,150 L322.0,250 L358.0,250 L358.0,150 Z" fill="#bbdefb"/><path d="M322.0,250 L322.0,110 A18.0,18.0 0 0,1 358.0,110 L358.0,250" fill="none" stroke="#607d8b" stroke-width="2.5"/>
+<path d="M90,128 L90,100 L250,100 L250,270 L335,270 L335,252" fill="none" stroke="#607d8b" stroke-width="5"/>
+<circle cx="335" cy="240" r="3.2" fill="#fff" stroke="#1976d2" stroke-width="1.3"/><circle cx="341" cy="226" r="3.2" fill="#fff" stroke="#1976d2" stroke-width="1.3"/><circle cx="335" cy="212" r="3.2" fill="#fff" stroke="#1976d2" stroke-width="1.3"/><circle cx="341" cy="198" r="3.2" fill="#fff" stroke="#1976d2" stroke-width="1.3"/><circle cx="335" cy="184" r="3.2" fill="#fff" stroke="#1976d2" stroke-width="1.3"/><circle cx="341" cy="170" r="3.2" fill="#fff" stroke="#1976d2" stroke-width="1.3"/>
+<line x1="440" y1="110" x2="352" y2="125" stroke="#555" stroke-width="1.2"/><circle cx="352" cy="125" r="2.2" fill="#555"/><text x="440" y="110" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">気体</text>
+<line x1="470" y1="260" x2="420" y2="260" stroke="#555" stroke-width="1.2"/><circle cx="420" cy="260" r="2.2" fill="#555"/><text x="470" y="260" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">水</text>
+</svg>

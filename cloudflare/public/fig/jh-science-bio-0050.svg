@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 370" width="460" height="370" font-family="sans-serif">
+<rect width="460" height="370" fill="#fff"/>
+<path d="M60,40 L60,120 Q60,160 110,190 M60,120 Q60,160 20,210" fill="none" stroke="#90a4ae" stroke-width="18" stroke-linecap="round"/>
+<line x1="150" y1="60" x2="68" y2="90" stroke="#555" stroke-width="1.2"/><circle cx="68" cy="90" r="2.2" fill="#555"/><text x="150" y="60" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">気管支</text>
+<circle cx="215.0" cy="250.0" r="26" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+<circle cx="160.0" cy="293.9" r="26" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+<circle cx="129.5" cy="269.5" r="26" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+<circle cx="129.5" cy="230.5" r="26" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+<circle cx="160.0" cy="206.1" r="26" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+<circle cx="198.1" cy="214.8" r="26" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+<circle cx="170.0" cy="250.0" r="26" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+<circle cx="198.1" cy="285.2" r="26" fill="#ffcc80" stroke="#f57c00" stroke-width="2"/>
+<circle cx="105.0" cy="300.0" r="26" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+<circle cx="88.1" cy="335.2" r="26" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+<circle cx="50.0" cy="343.9" r="26" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+<circle cx="19.5" cy="319.5" r="26" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+<circle cx="19.5" cy="280.5" r="26" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+<circle cx="50.0" cy="256.1" r="26" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+<circle cx="88.1" cy="264.8" r="26" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+<circle cx="60.0" cy="300.0" r="26" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+<path d="M110,215 C150,180 220,190 235,240 C245,290 210,315 170,310 C130,305 110,280 120,250" fill="none" stroke="#e53935" stroke-width="3"/>
+<path d="M120,230 C160,210 210,215 220,255 C225,285 195,300 165,295" fill="none" stroke="#1e88e5" stroke-width="3"/>
+<line x1="330" y1="330" x2="232" y2="280" stroke="#555" stroke-width="1.2"/><circle cx="232" cy="280" r="2.2" fill="#555"/><text x="330" y="330" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">毛細血管</text>
+<line x1="330" y1="190" x2="205" y2="268" stroke="#f57c00" stroke-width="2.4"/><circle cx="205" cy="268" r="3.5" fill="#f57c00"/><circle cx="330" cy="190" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="330" y="191" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

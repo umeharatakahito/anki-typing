@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" font-family="sans-serif">
+<rect width="600" height="420" fill="#fff"/>
+<rect x="0" y="0" width="600" height="420" fill="#f1f8e9"/>
+<rect x="0" y="0" width="600" height="150" fill="#d7ccc8"/>
+<path d="M-44,150 L20,73 L84,150 Z" fill="#a1887f" stroke="#5d4037" stroke-width="2"/><path d="M36,150 L100,50 L164,150 Z" fill="#a1887f" stroke="#5d4037" stroke-width="2"/><path d="M116,150 L180,60 L244,150 Z" fill="#a1887f" stroke="#5d4037" stroke-width="2"/><path d="M196,150 L260,70 L324,150 Z" fill="#a1887f" stroke="#5d4037" stroke-width="2"/><path d="M276,150 L340,47 L404,150 Z" fill="#a1887f" stroke="#5d4037" stroke-width="2"/><path d="M356,150 L420,56 L484,150 Z" fill="#a1887f" stroke="#5d4037" stroke-width="2"/><path d="M436,150 L500,66 L564,150 Z" fill="#a1887f" stroke="#5d4037" stroke-width="2"/><path d="M516,150 L580,43 L644,150 Z" fill="#a1887f" stroke="#5d4037" stroke-width="2"/>
+<path d="M300,0 L300,150" stroke="#1e88e5" stroke-width="7"/>
+<path d="M300,150 L110,380 Q300,440 490,380 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="3"/>
+<circle cx="391" cy="353" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="391" y1="348" x2="391" y2="343" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="367" cy="323" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="367" y1="318" x2="367" y2="313" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="334" cy="263" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="334" y1="258" x2="334" y2="253" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="321" cy="305" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="321" y1="300" x2="321" y2="295" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="316" cy="242" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="316" y1="237" x2="316" y2="232" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="286" cy="275" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="286" y1="270" x2="286" y2="265" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="345" cy="359" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="345" y1="354" x2="345" y2="349" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="390" cy="296" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="390" y1="291" x2="390" y2="286" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="289" cy="258" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="289" y1="253" x2="289" y2="248" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="293" cy="265" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="293" y1="260" x2="293" y2="255" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="276" cy="345" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="276" y1="340" x2="276" y2="335" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="305" cy="298" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="305" y1="293" x2="305" y2="288" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="247" cy="223" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="247" y1="218" x2="247" y2="213" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="265" cy="239" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="265" y1="234" x2="265" y2="229" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="302" cy="360" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="302" y1="355" x2="302" y2="350" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="335" cy="245" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="335" y1="240" x2="335" y2="235" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="379" cy="332" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="379" y1="327" x2="379" y2="322" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="347" cy="347" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="347" y1="342" x2="347" y2="337" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="353" cy="331" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="353" y1="326" x2="353" y2="321" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="271" cy="357" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="271" y1="352" x2="271" y2="347" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="351" cy="320" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="351" y1="315" x2="351" y2="310" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="292" cy="294" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="292" y1="289" x2="292" y2="284" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="298" cy="349" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="298" y1="344" x2="298" y2="339" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="300" cy="336" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="300" y1="331" x2="300" y2="326" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="271" cy="344" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="271" y1="339" x2="271" y2="334" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="380" cy="285" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="380" y1="280" x2="380" y2="275" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="314" cy="349" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="314" y1="344" x2="314" y2="339" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="345" cy="288" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="345" y1="283" x2="345" y2="278" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="244" cy="265" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="244" y1="260" x2="244" y2="255" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="340" cy="243" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="340" y1="238" x2="340" y2="233" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="382" cy="258" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="382" y1="253" x2="382" y2="248" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="382" cy="263" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="382" y1="258" x2="382" y2="253" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="391" cy="319" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="391" y1="314" x2="391" y2="309" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="301" cy="292" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="301" y1="287" x2="301" y2="282" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="330" cy="302" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="330" y1="297" x2="330" y2="292" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="262" cy="249" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="262" y1="244" x2="262" y2="239" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="302" cy="351" r="5" fill="none" stroke="#558b2f" stroke-width="1.5"/><line x1="302" y1="346" x2="302" y2="341" stroke="#558b2f" stroke-width="1.5"/>
+<path d="M300,150 C290,220 330,280 310,420" fill="none" stroke="#1e88e5" stroke-width="5" stroke-dasharray="14 8"/>
+<text x="80" y="60" font-size="20" text-anchor="middle" fill="#3e2723" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">山地</text>
+<text x="520" y="400" font-size="20" text-anchor="middle" fill="#33691e" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">平地</text>
+<line x1="380" y1="60" x2="303" y2="90" stroke="#555" stroke-width="1.2"/><circle cx="303" cy="90" r="2.2" fill="#555"/><text x="380" y="60" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">川</text>
+<line x1="520" y1="250" x2="430" y2="330" stroke="#f57c00" stroke-width="2.4"/><circle cx="430" cy="330" r="3.5" fill="#f57c00"/><circle cx="520" cy="250" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="520" y="251" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 400" width="540" height="400" font-family="sans-serif">
+<rect width="540" height="400" fill="#fff"/>
+<rect x="60" y="370" width="200" height="12" fill="#bcaaa4" stroke="#6d4c41"/>
+<rect x="70" y="60" width="10" height="312" fill="#bcaaa4" stroke="#6d4c41"/>
+<rect x="80" y="178" width="120" height="8" fill="#bcaaa4" stroke="#6d4c41"/>
+<path d="M160,110 L260,110 L218,180 L218,250 L208,262 L208,180 Z" fill="#fff" stroke="#607d8b" stroke-width="2.5"/>
+<path d="M168,114 L252,114 L213,176 Z" fill="#fffde7" stroke="#bdbdbd" stroke-width="1.5"/>
+<path d="M200,250 L200,368 L300,368 L300,250" fill="none" stroke="#607d8b" stroke-width="2.5"/>
+<rect x="202" y="330" width="96" height="36" fill="#bbdefb"/>
+<line x1="330" y1="40" x2="222" y2="140" stroke="#90a4ae" stroke-width="5"/>
+<line x1="440" y1="130" x2="290" y2="70" stroke="#555" stroke-width="1.2"/><circle cx="290" cy="70" r="2.2" fill="#555"/><text x="440" y="130" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">ガラス棒</text>
+<line x1="440" y1="190" x2="240" y2="125" stroke="#555" stroke-width="1.2"/><circle cx="240" cy="125" r="2.2" fill="#555"/><text x="440" y="190" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">ろ紙</text>
+<line x1="440" y1="240" x2="222" y2="215" stroke="#555" stroke-width="1.2"/><circle cx="222" cy="215" r="2.2" fill="#555"/><text x="440" y="240" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">ろうと</text>
+<line x1="440" y1="320" x2="300" y2="320" stroke="#555" stroke-width="1.2"/><circle cx="300" cy="320" r="2.2" fill="#555"/><text x="440" y="320" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">ビーカー</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<rect x="90" y="50" width="300" height="220" rx="18" fill="#dcedc8" stroke="#558b2f" stroke-width="3"/>
+<rect x="104" y="64" width="272" height="192" rx="12" fill="#f1f8e9" stroke="#7cb342" stroke-width="1.6"/>
+<path d="M150,95 C200,80 300,80 345,105 C365,150 350,210 320,228 C250,240 190,236 160,215 C140,180 135,130 150,95 Z" fill="#e1f5fe" stroke="#4fc3f7" stroke-width="2"/>
+<circle cx="128" cy="232" r="0" />
+<ellipse cx="132" cy="220" rx="20" ry="18" fill="#ce93d8" stroke="#7b1fa2" stroke-width="2"/>
+<ellipse cx="125" cy="90" rx="11" ry="6" transform="rotate(20 125 90)" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5"/>
+<ellipse cx="190" cy="75" rx="11" ry="6" transform="rotate(0 190 75)" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5"/>
+<ellipse cx="260" cy="73" rx="11" ry="6" transform="rotate(0 260 73)" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5"/>
+<ellipse cx="330" cy="80" rx="11" ry="6" transform="rotate(-15 330 80)" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5"/>
+<ellipse cx="362" cy="140" rx="11" ry="6" transform="rotate(80 362 140)" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5"/>
+<ellipse cx="360" cy="205" rx="11" ry="6" transform="rotate(100 360 205)" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5"/>
+<ellipse cx="290" cy="243" rx="11" ry="6" transform="rotate(0 290 243)" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5"/>
+<ellipse cx="215" cy="245" rx="11" ry="6" transform="rotate(0 215 245)" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5"/>
+<ellipse cx="122" cy="160" rx="11" ry="6" transform="rotate(80 122 160)" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5"/>
+<line x1="440" y1="40" x2="385" y2="60" stroke="#555" stroke-width="1.2"/><circle cx="385" cy="60" r="2.2" fill="#555"/><text x="440" y="40" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">細胞壁</text>
+<line x1="440" y1="105" x2="376" y2="110" stroke="#555" stroke-width="1.2"/><circle cx="376" cy="110" r="2.2" fill="#555"/><text x="440" y="105" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">細胞膜</text>
+<line x1="458" y1="180" x2="369" y2="205" stroke="#f57c00" stroke-width="2.4"/><circle cx="369" cy="205" r="3.5" fill="#f57c00"/><circle cx="458" cy="180" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="458" y="181" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="440" y1="260" x2="300" y2="200" stroke="#555" stroke-width="1.2"/><circle cx="300" cy="200" r="2.2" fill="#555"/><text x="440" y="260" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">液胞</text>
+<line x1="40" y1="250" x2="116" y2="228" stroke="#555" stroke-width="1.2"/><circle cx="116" cy="228" r="2.2" fill="#555"/><text x="40" y="250" font-size="17" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">核</text>
+</svg>

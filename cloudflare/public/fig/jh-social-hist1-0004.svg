@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 510" width="600" height="510" font-family="sans-serif">
+<rect width="600" height="510" fill="#fff"/>
+<path d="M300,40 C390,40 450,110 450,190 C450,240 430,280 400,300 L470,470 L130,470 L200,300 C170,280 150,240 150,190 C150,110 210,40 300,40 Z" fill="#90caf9" stroke="#1565c0" stroke-width="2"/>
+<path d="M300,70 C370,70 420,125 420,190 C420,240 395,280 360,300 L420,440 L180,440 L240,300 C205,280 180,240 180,190 C180,125 230,70 300,70 Z" fill="#a5d6a7" stroke="#2e7d32" stroke-width="3"/>
+<ellipse cx="300" cy="190" rx="70" ry="65" fill="none" stroke="#2e7d32" stroke-width="1.5" stroke-dasharray="5 4"/>
+<path d="M225,420 L375,420 L335,320 L265,320 Z" fill="none" stroke="#2e7d32" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="300" y="495" font-size="14" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">上空から見た形（まわりは堀）</text>
+</svg>

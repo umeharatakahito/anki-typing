@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<defs><marker id="sciencephys0049m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker></defs>
+<path d="M210,194 C120.0,102.5 480.0,102.5 390,194" fill="none" stroke="#1565c0" stroke-width="2"/>
+<path d="M292,119.5 L308,126.5 L292,133.5 Z" fill="#1565c0"/>
+<path d="M210,206 C120.0,297.5 480.0,297.5 390,206" fill="none" stroke="#1565c0" stroke-width="2"/>
+<path d="M292,266.5 L308,273.5 L292,280.5 Z" fill="#1565c0"/>
+<path d="M210,194 C96.0,44.0 504.0,44.0 390,194" fill="none" stroke="#f57c00" stroke-width="3.5"/>
+<path d="M292,75.4 L308,82.4 L292,89.4 Z" fill="#f57c00"/>
+<path d="M210,206 C96.0,356.0 504.0,356.0 390,206" fill="none" stroke="#f57c00" stroke-width="3.5"/>
+<path d="M292,310.6 L308,317.6 L292,324.6 Z" fill="#f57c00"/>
+<path d="M210,194 C72.0,-14.5 528.0,-14.5 390,194" fill="none" stroke="#1565c0" stroke-width="2"/>
+<path d="M292,31.30000000000001 L308,38.30000000000001 L292,45.30000000000001 Z" fill="#1565c0"/>
+<path d="M210,206 C72.0,414.5 528.0,414.5 390,206" fill="none" stroke="#1565c0" stroke-width="2"/>
+<path d="M292,354.7 L308,361.7 L292,368.7 Z" fill="#1565c0"/>
+<line x1="60" y1="200" x2="200" y2="200" stroke="#1565c0" stroke-width="2" marker-start="url(#sciencephys0049m)"/>
+<line x1="540" y1="200" x2="400" y2="200" stroke="#1565c0" stroke-width="2" marker-end="url(#sciencephys0049m)"/>
+<rect x="210" y="178" width="90" height="44" fill="#e53935" stroke="#333" stroke-width="2"/>
+<rect x="300" y="178" width="90" height="44" fill="#1e88e5" stroke="#333" stroke-width="2"/>
+<text x="255" y="201" font-size="24" text-anchor="middle" fill="#fff" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:none;stroke-width:4px;stroke-linejoin:round">N</text>
+<text x="345" y="201" font-size="24" text-anchor="middle" fill="#fff" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:none;stroke-width:4px;stroke-linejoin:round">S</text>
+<line x1="500" y1="40" x2="312" y2="72" stroke="#f57c00" stroke-width="2.4"/><circle cx="312" cy="72" r="3.5" fill="#f57c00"/><circle cx="500" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="500" y="41" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 340" width="540" height="340" font-family="sans-serif">
+<rect width="540" height="340" fill="#fff"/>
+<circle cx="260" cy="170" r="120" fill="#fafafa" stroke="#555" stroke-width="3"/>
+<path d="M220,62 A112,112 0 1,1 220,278" fill="none" stroke="#f57c00" stroke-width="7"/>
+<path d="M372,156 L450,146 L450,194 L372,184 Z" fill="#fff59d" stroke="#9e9d24" stroke-width="2"/>
+<path d="M160,104 Q95,170 160,236" fill="#e3f2fd" stroke="#1976d2" stroke-width="2.4"/>
+<rect x="148" y="108" width="10" height="40" fill="#8d6e63"/>
+<rect x="148" y="192" width="10" height="40" fill="#8d6e63"/>
+<ellipse cx="180" cy="170" rx="18" ry="42" fill="#b3e5fc" stroke="#0277bd" stroke-width="2"/>
+<line x1="70" y1="80" x2="120" y2="140" stroke="#555" stroke-width="1.2"/><circle cx="120" cy="140" r="2.2" fill="#555"/><text x="70" y="80" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">角膜</text>
+<line x1="170" y1="320" x2="180" y2="205" stroke="#555" stroke-width="1.2"/><circle cx="180" cy="205" r="2.2" fill="#555"/><text x="170" y="320" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">水晶体</text>
+<line x1="70" y1="260" x2="153" y2="215" stroke="#555" stroke-width="1.2"/><circle cx="153" cy="215" r="2.2" fill="#555"/><text x="70" y="260" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">虹彩</text>
+<line x1="440" y1="60" x2="320" y2="76" stroke="#f57c00" stroke-width="2.4"/><circle cx="320" cy="76" r="3.5" fill="#f57c00"/><circle cx="440" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="440" y="61" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="440" y1="250" x2="420" y2="190" stroke="#555" stroke-width="1.2"/><circle cx="420" cy="190" r="2.2" fill="#555"/><text x="440" y="250" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">視神経</text>
+</svg>

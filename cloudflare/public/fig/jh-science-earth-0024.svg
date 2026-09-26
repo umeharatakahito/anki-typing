@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 350" width="580" height="350" font-family="sans-serif">
+<rect width="580" height="350" fill="#fff"/>
+<rect x="20" y="100" width="540" height="240" fill="#efebe9"/>
+<line x1="20" y1="100" x2="560" y2="100" stroke="#5d4037" stroke-width="3" />
+<path d="M60,100 L80,70 L100,100 M420,100 L440,60 L470,100" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2"/>
+<circle cx="290" cy="250" r="30" fill="none" stroke="#e57373" stroke-width="1.5" stroke-dasharray="5 4"/>
+<circle cx="290" cy="250" r="60" fill="none" stroke="#e57373" stroke-width="1.5" stroke-dasharray="5 4"/>
+<circle cx="290" cy="250" r="85" fill="none" stroke="#e57373" stroke-width="1.5" stroke-dasharray="5 4"/>
+<polygon points="290.0,236.0 293.5,245.1 303.3,245.7 295.7,251.9 298.2,261.3 290.0,256.0 281.8,261.3 284.3,251.9 276.7,245.7 286.5,245.1" fill="#d32f2f"/>
+<line x1="290" y1="234" x2="290" y2="100" stroke="#333" stroke-width="2" stroke-dasharray="6 4"/>
+<circle cx="290" cy="100" r="7" fill="#f57c00"/>
+<line x1="290" y1="45" x2="290" y2="94" stroke="#f57c00" stroke-width="2.4"/><circle cx="290" cy="94" r="3.5" fill="#f57c00"/><circle cx="290" cy="45" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="290" y="46" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="430" y1="300" x2="304" y2="250" stroke="#555" stroke-width="1.2"/><circle cx="304" cy="250" r="2.2" fill="#555"/><text x="430" y="300" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">震源</text>
+<text x="90" y="130" font-size="15" text-anchor="middle" fill="#5d4037" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">地表</text>
+</svg>

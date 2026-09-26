@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 380" width="560" height="380" font-family="sans-serif">
+<rect width="560" height="380" fill="#fff"/>
+<defs><marker id="sciencephys0090i" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<defs><marker id="sciencephys0090f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker></defs>
+<path d="M110,140 A110,32 0 0,1 330,140" fill="none" stroke="#1565c0" stroke-width="2.5" stroke-dasharray="6 4"/>
+<path d="M80,230 A140,40 0 0,1 360,230" fill="none" stroke="#1565c0" stroke-width="2.5" stroke-dasharray="6 4"/>
+<line x1="220" y1="340" x2="220" y2="40" stroke="#c62828" stroke-width="6" marker-end="url(#sciencephys0090i)"/>
+<path d="M110,140 A110,32 0 0,0 330,140" fill="none" stroke="#1565c0" stroke-width="3" marker-end="url(#sciencephys0090f)"/>
+<path d="M80,230 A140,40 0 0,0 360,230" fill="none" stroke="#1565c0" stroke-width="3" marker-end="url(#sciencephys0090f)"/>
+<text x="240" y="50" font-size="17" text-anchor="start" fill="#c62828" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">電流</text>
+<text x="370" y="265" font-size="16" text-anchor="start" fill="#1565c0" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">磁界の向き</text>
+<rect x="462" y="120" width="16" height="180" fill="#cfd8dc" stroke="#455a64" stroke-width="2"/>
+<line x1="462" y1="138" x2="478" y2="130" stroke="#455a64" stroke-width="1.5" />
+<line x1="462" y1="154" x2="478" y2="146" stroke="#455a64" stroke-width="1.5" />
+<line x1="462" y1="170" x2="478" y2="162" stroke="#455a64" stroke-width="1.5" />
+<line x1="462" y1="186" x2="478" y2="178" stroke="#455a64" stroke-width="1.5" />
+<line x1="462" y1="202" x2="478" y2="194" stroke="#455a64" stroke-width="1.5" />
+<line x1="462" y1="218" x2="478" y2="210" stroke="#455a64" stroke-width="1.5" />
+<line x1="462" y1="234" x2="478" y2="226" stroke="#455a64" stroke-width="1.5" />
+<line x1="462" y1="250" x2="478" y2="242" stroke="#455a64" stroke-width="1.5" />
+<line x1="462" y1="266" x2="478" y2="258" stroke="#455a64" stroke-width="1.5" />
+<line x1="462" y1="282" x2="478" y2="274" stroke="#455a64" stroke-width="1.5" />
+<line x1="462" y1="298" x2="478" y2="290" stroke="#455a64" stroke-width="1.5" />
+<path d="M462,300 L470,330 L478,300 Z" fill="#cfd8dc" stroke="#455a64" stroke-width="2" transform="rotate(180 470 210)"/>
+<rect x="440" y="296" width="60" height="16" rx="4" fill="#90a4ae" stroke="#455a64" stroke-width="2"/>
+<path d="M425,270 A45,14 0 0,0 515,270" fill="none" stroke="#1565c0" stroke-width="2.5" marker-end="url(#sciencephys0090f)"/>
+<line x1="500" y1="200" x2="500" y2="130" stroke="#c62828" stroke-width="3" marker-end="url(#sciencephys0090i)"/>
+<text x="470" y="360" font-size="15" text-anchor="middle" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">ねじ</text>
+</svg>

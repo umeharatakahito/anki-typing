@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 400" width="480" height="400" font-family="sans-serif">
+<rect width="480" height="400" fill="#fff"/>
+<rect x="233" y="300" width="14" height="92" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2"/>
+<path d="M205,298 Q240,322 275,298 Z" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2"/>
+<path d="M240,300 C210,318 168,316 142,292 C174,290 206,292 230,296 Z" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2.2"/>
+<path d="M240,300 C270,318 312,316 338,292 C306,290 274,292 250,296 Z" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2.2"/>
+<path d="M226,294 C160,282 90,200 105,95 C130,130 170,200 218,286 Z" fill="#f8bbd0" stroke="#c2185b" stroke-width="2.2"/>
+<path d="M254,294 C320,282 390,200 375,95 C350,130 310,200 262,286 Z" fill="#f8bbd0" stroke="#c2185b" stroke-width="2.2"/>
+<path d="M228,292 Q188,230 183,164" fill="none" stroke="#8d6e63" stroke-width="3"/>
+<ellipse cx="183" cy="150" rx="9" ry="15" fill="#ffe082" stroke="#b28704" stroke-width="2"/>
+<path d="M234,292 Q213,230 208,182" fill="none" stroke="#8d6e63" stroke-width="3"/>
+<ellipse cx="208" cy="168" rx="9" ry="15" fill="#ffe082" stroke="#b28704" stroke-width="2"/>
+<path d="M252,292 Q292,230 297,164" fill="none" stroke="#8d6e63" stroke-width="3"/>
+<ellipse cx="297" cy="150" rx="9" ry="15" fill="#ffe082" stroke="#b28704" stroke-width="2"/>
+<path d="M246,292 Q267,230 272,182" fill="none" stroke="#8d6e63" stroke-width="3"/>
+<ellipse cx="272" cy="168" rx="9" ry="15" fill="#ffe082" stroke="#b28704" stroke-width="2"/>
+<rect x="235" y="128" width="10" height="106" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2"/>
+<ellipse cx="240" cy="124" rx="15" ry="8" fill="#dce775" stroke="#2e7d32" stroke-width="2.2"/>
+<ellipse cx="240" cy="262" rx="27" ry="34" fill="#ffcc80" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="231" cy="250" r="6" fill="#fff59d" stroke="#9e9d24" stroke-width="1.8"/>
+<circle cx="249" cy="262" r="6" fill="#fff59d" stroke="#9e9d24" stroke-width="1.8"/>
+<circle cx="233" cy="276" r="6" fill="#fff59d" stroke="#9e9d24" stroke-width="1.8"/>
+<line x1="380" y1="70" x2="252" y2="121" stroke="#555" stroke-width="1.2"/><circle cx="252" cy="121" r="2.2" fill="#555"/><text x="380" y="70" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">柱頭</text>
+<line x1="400" y1="130" x2="306" y2="150" stroke="#555" stroke-width="1.2"/><circle cx="306" cy="150" r="2.2" fill="#555"/><text x="400" y="130" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">やく</text>
+<line x1="420" y1="210" x2="352" y2="180" stroke="#555" stroke-width="1.2"/><circle cx="352" cy="180" r="2.2" fill="#555"/><text x="420" y="210" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">花弁</text>
+<line x1="418" y1="262" x2="266" y2="265" stroke="#f57c00" stroke-width="2.4"/><circle cx="266" cy="265" r="3.5" fill="#f57c00"/><circle cx="418" cy="262" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="418" y="263" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="400" y1="318" x2="322" y2="300" stroke="#555" stroke-width="1.2"/><circle cx="322" cy="300" r="2.2" fill="#555"/><text x="400" y="318" font-size="17" text-anchor="start" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">がく</text>
+<line x1="70" y1="95" x2="236" y2="170" stroke="#555" stroke-width="1.2"/><circle cx="236" cy="170" r="2.2" fill="#555"/><text x="70" y="95" font-size="17" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">めしべ</text>
+<line x1="60" y1="175" x2="190" y2="220" stroke="#555" stroke-width="1.2"/><circle cx="190" cy="220" r="2.2" fill="#555"/><text x="60" y="175" font-size="17" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">おしべ</text>
+<line x1="80" y1="345" x2="227" y2="278" stroke="#555" stroke-width="1.2"/><circle cx="227" cy="278" r="2.2" fill="#555"/><text x="80" y="345" font-size="17" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">胚珠</text>
+</svg>

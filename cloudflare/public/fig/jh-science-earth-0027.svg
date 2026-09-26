@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 320" width="580" height="320" font-family="sans-serif">
+<rect width="580" height="320" fill="#fff"/>
+<defs><marker id="scienceearth0027ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<line x1="20" y1="300" x2="560" y2="300" stroke="#6d4c41" stroke-width="3"/>
+<rect x="20" y="40" width="540" height="260" fill="#fff3e0"/>
+<path d="M20,300 L20,120 C140,120 250,160 330,300 Z" fill="#bbdefb" stroke="#1565c0" stroke-width="2.5"/>
+<path d="M300,250 C300,180 330,120 350,80" fill="none" stroke="#e65100" stroke-width="2.5" marker-end="url(#scienceearth0027ar)"/>
+<path d="M320,190 C300,190 300,150 330,145 C325,100 360,80 390,95 C400,60 450,60 460,95 C500,85 520,120 500,150 C520,160 510,195 480,190 Z" fill="#cfd8dc" stroke="#607d8b" stroke-width="2"/>
+<line x1="340" y1="200" x2="332" y2="230" stroke="#1e88e5" stroke-width="2"/>
+<line x1="358" y1="200" x2="350" y2="230" stroke="#1e88e5" stroke-width="2"/>
+<line x1="376" y1="200" x2="368" y2="230" stroke="#1e88e5" stroke-width="2"/>
+<line x1="394" y1="200" x2="386" y2="230" stroke="#1e88e5" stroke-width="2"/>
+<line x1="412" y1="200" x2="404" y2="230" stroke="#1e88e5" stroke-width="2"/>
+<line x1="430" y1="200" x2="422" y2="230" stroke="#1e88e5" stroke-width="2"/>
+<line x1="448" y1="200" x2="440" y2="230" stroke="#1e88e5" stroke-width="2"/>
+<line x1="466" y1="200" x2="458" y2="230" stroke="#1e88e5" stroke-width="2"/>
+<line x1="90" y1="240" x2="190" y2="240" stroke="#1565c0" stroke-width="3" marker-end="url(#scienceearth0027ar)"/>
+<text x="95" y="200" font-size="20" text-anchor="middle" fill="#0d47a1" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">寒気</text>
+<text x="470" y="260" font-size="20" text-anchor="middle" fill="#e65100" font-weight="bold" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">暖気</text>
+<text x="140" y="270" font-size="14" text-anchor="middle" fill="#333" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">進む向き</text>
+<path d="M60,30 L260,30" stroke="#1565c0" stroke-width="3"/><path d="M80,30 L90,12 L100,30 Z" fill="#1565c0"/><path d="M125,30 L135,12 L145,30 Z" fill="#1565c0"/><path d="M170,30 L180,12 L190,30 Z" fill="#1565c0"/><path d="M215,30 L225,12 L235,30 Z" fill="#1565c0"/><text x="330" y="26" font-size="14" text-anchor="start" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">← 天気図での記号</text>
+</svg>

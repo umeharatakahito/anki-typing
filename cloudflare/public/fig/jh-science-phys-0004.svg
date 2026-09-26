@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="sans-serif">
+<rect width="600" height="340" fill="#fff"/>
+<defs><marker id="sciencephys0004r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e53935"/></marker></defs>
+<line x1="20" y1="170" x2="580" y2="170" stroke="#9e9e9e" stroke-width="1.5" stroke-dasharray="8 5"/>
+<path d="M260,50 Q286,170 260,290 Q234,170 260,50 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2.5"/>
+<line x1="30" y1="90" x2="260" y2="90" stroke="#e53935" stroke-width="2" marker-end="url(#sciencephys0004r)"/>
+<line x1="260" y1="90" x2="540" y2="222" stroke="#e53935" stroke-width="2"/>
+<line x1="30" y1="130" x2="260" y2="130" stroke="#e53935" stroke-width="2" marker-end="url(#sciencephys0004r)"/>
+<line x1="260" y1="130" x2="540" y2="196" stroke="#e53935" stroke-width="2"/>
+<line x1="30" y1="210" x2="260" y2="210" stroke="#e53935" stroke-width="2" marker-end="url(#sciencephys0004r)"/>
+<line x1="260" y1="210" x2="540" y2="144" stroke="#e53935" stroke-width="2"/>
+<line x1="30" y1="250" x2="260" y2="250" stroke="#e53935" stroke-width="2" marker-end="url(#sciencephys0004r)"/>
+<line x1="260" y1="250" x2="540" y2="118" stroke="#e53935" stroke-width="2"/>
+<circle cx="430" cy="170" r="6" fill="#333"/>
+<line x1="190" y1="40" x2="254" y2="80" stroke="#f57c00" stroke-width="2.4"/><circle cx="254" cy="80" r="3.5" fill="#f57c00"/><circle cx="190" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="190" y="41" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="470" y1="60" x2="430" y2="164" stroke="#555" stroke-width="1.2"/><circle cx="430" cy="164" r="2.2" fill="#555"/><text x="470" y="60" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">焦点</text>
+<text x="560" y="192" font-size="14" text-anchor="end" fill="#777" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">光軸</text>
+</svg>

@@ -9,6 +9,7 @@
 //   que  … 問題文        kan … 表示する正解     ans … 打つ文字（ひらがな・英字）
 //   level … 1〜10        free … 会員でなくても出す（レベル 1〜3）
 //   note … 正解の後に見せる解説
+//   img  … 図（data/figures.json にある問題だけ。fig/<ファイル名>）
 // ===============================================================
 
 import { readFileSync, readdirSync } from 'node:fs';
@@ -24,6 +25,11 @@ if (!root) {
 
 const here = dirname(fileURLToPath(import.meta.url));
 const READINGS = JSON.parse(readFileSync(join(here, '..', 'data', 'readings.json'), 'utf8'));
+// 問題に付ける図（public/fig/）。フリー画像は、答えた後の解説に作者とライセンスを出す
+// （ファイル名には答えが入っていることがあるので、解く前には出さない）
+const FIGURES = JSON.parse(readFileSync(join(here, '..', 'data', 'figures.json'), 'utf8'));
+const credit = f => f.kind === 'commons'
+  ? `図：${f.author}／${f.license}（Wikimedia Commons）` : '';
 
 // 会員でなくても遊べるのはここまで（worker と同じ値）
 const FREE_MAX_LEVEL = 3;
@@ -78,7 +84,9 @@ for (const cave of CAVES) {
       kbn: cave.id, src: cave.id, qid: q.id, level,
       free: level <= FREE_MAX_LEVEL ? 1 : 0,
       // 英英の定義文がある問題（英語早押し）は、なぞなぞではなく定義文から出す
-      que: esc(q.definition || q.prompt), kan: q.answer, ans, img: '', note: note(q, meta.language)
+      que: esc(q.definition || q.prompt), kan: q.answer, ans,
+      img: FIGURES[q.id] ? 'fig/' + FIGURES[q.id].file : '',
+      note: [note(q, meta.language), FIGURES[q.id] ? credit(FIGURES[q.id]) : ''].filter(Boolean).join('\n')
     };
     const cols = Object.keys(row);
     out.push(`INSERT INTO problems (${cols.join(', ')}) VALUES (${cols.map(c => sql(row[c])).join(', ')});`);

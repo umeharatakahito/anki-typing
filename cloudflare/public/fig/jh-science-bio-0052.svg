@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 310" width="580" height="310" font-family="sans-serif">
+<rect width="580" height="310" fill="#fff"/>
+<circle cx="120" cy="170" r="95" fill="#f1f8e9" stroke="#558b2f" stroke-width="3"/>
+<ellipse cx="182.0" cy="170.0" rx="11" ry="16" transform="rotate(90 182.0 170.0)" fill="#aed581" stroke="#33691e" stroke-width="2"/>
+<ellipse cx="163.8" cy="213.8" rx="11" ry="16" transform="rotate(135 163.8 213.8)" fill="#aed581" stroke="#33691e" stroke-width="2"/>
+<ellipse cx="120.0" cy="232.0" rx="11" ry="16" transform="rotate(180 120.0 232.0)" fill="#aed581" stroke="#33691e" stroke-width="2"/>
+<ellipse cx="76.2" cy="213.8" rx="11" ry="16" transform="rotate(225 76.2 213.8)" fill="#aed581" stroke="#33691e" stroke-width="2"/>
+<ellipse cx="58.0" cy="170.0" rx="11" ry="16" transform="rotate(270 58.0 170.0)" fill="#aed581" stroke="#33691e" stroke-width="2"/>
+<ellipse cx="76.2" cy="126.2" rx="11" ry="16" transform="rotate(315 76.2 126.2)" fill="#aed581" stroke="#33691e" stroke-width="2"/>
+<ellipse cx="120.0" cy="108.0" rx="11" ry="16" transform="rotate(360 120.0 108.0)" fill="#aed581" stroke="#33691e" stroke-width="2"/>
+<ellipse cx="163.8" cy="126.2" rx="11" ry="16" transform="rotate(405 163.8 126.2)" fill="#aed581" stroke="#33691e" stroke-width="2"/>
+<text x="120" y="290" font-size="17" text-anchor="middle" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">茎の断面</text>
+<path d="M190,160 L300,80 M190,180 L300,260" stroke="#999" stroke-width="1" stroke-dasharray="4 3"/>
+<rect x="300" y="80" width="200" height="180" rx="20" fill="#fff" stroke="#999"/>
+<path d="M330,110 Q390,95 400,170 Q390,245 330,230 Z" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+<circle cx="350" cy="140" r="10" fill="#fff" stroke="#1976d2" stroke-width="1.8"/>
+<circle cx="372" cy="170" r="12" fill="#fff" stroke="#1976d2" stroke-width="1.8"/>
+<circle cx="350" cy="200" r="10" fill="#fff" stroke="#1976d2" stroke-width="1.8"/>
+<circle cx="385" cy="135" r="7" fill="#fff" stroke="#1976d2" stroke-width="1.8"/>
+<circle cx="385" cy="205" r="7" fill="#fff" stroke="#1976d2" stroke-width="1.8"/>
+<path d="M410,110 Q480,110 480,170 Q480,230 410,230 Q425,170 410,110 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2"/>
+<circle cx="440" cy="135" r="5" fill="#fff" stroke="#f57c00" stroke-width="1.5"/>
+<circle cx="455" cy="160" r="5" fill="#fff" stroke="#f57c00" stroke-width="1.5"/>
+<circle cx="440" cy="185" r="5" fill="#fff" stroke="#f57c00" stroke-width="1.5"/>
+<circle cx="455" cy="208" r="5" fill="#fff" stroke="#f57c00" stroke-width="1.5"/>
+<circle cx="430" cy="160" r="5" fill="#fff" stroke="#f57c00" stroke-width="1.5"/>
+<circle cx="430" cy="210" r="5" fill="#fff" stroke="#f57c00" stroke-width="1.5"/>
+<text x="305" y="280" font-size="14" text-anchor="start" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">← 茎の中心側</text>
+<text x="500" y="280" font-size="14" text-anchor="end" fill="#555" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">表皮側 →</text>
+<line x1="470" y1="60" x2="450" y2="150" stroke="#f57c00" stroke-width="2.4"/><circle cx="450" cy="150" r="3.5" fill="#f57c00"/><circle cx="470" cy="60" r="15" fill="#f57c00" stroke="#fff" stroke-width="2"/><text x="470" y="61" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="560" y1="170" x2="390" y2="185" stroke="#555" stroke-width="1.2"/><circle cx="390" cy="185" r="2.2" fill="#555"/><text x="560" y="170" font-size="17" text-anchor="end" fill="#222" font-weight="normal" dominant-baseline="middle" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round">道管</text>
+</svg>
