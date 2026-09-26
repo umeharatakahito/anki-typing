@@ -1,0 +1,2482 @@
+[
+ {
+  "id": "daigaku-seibutsu-0001",
+  "level": 1,
+  "category": "細胞",
+  "prompt": "細胞内で呼吸を行い、ATPを合成する細胞小器官は？",
+  "answer": "ミトコンドリア",
+  "reading": "みとこんどりあ",
+  "explanation": "内膜がひだ状（クリステ）になっているのが特徴だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0002",
+  "level": 1,
+  "category": "細胞",
+  "prompt": "植物細胞で光合成を行う細胞小器官は？",
+  "answer": "葉緑体",
+  "reading": "ようりょくたい",
+  "explanation": "ミトコンドリアと同じく独自のDNAをもつよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0003",
+  "level": 1,
+  "category": "細胞",
+  "prompt": "遺伝情報を担うDNAを収め、細胞の働きを支配する構造は？",
+  "answer": "核",
+  "reading": "かく",
+  "explanation": "核膜で包まれているのが真核細胞の特徴だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0004",
+  "level": 1,
+  "category": "細胞",
+  "prompt": "細胞の外側を包み、物質の出入りを調節する膜は？",
+  "answer": "細胞膜",
+  "reading": "さいぼうまく",
+  "explanation": "リン脂質の二重層にタンパク質がうかんだ構造だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0005",
+  "level": 1,
+  "category": "細胞",
+  "prompt": "植物細胞の細胞膜の外側にある、セルロースを主成分とする丈夫な構造は？",
+  "answer": "細胞壁",
+  "reading": "さいぼうへき",
+  "explanation": "動物細胞にはない構造だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0006",
+  "level": 1,
+  "category": "細胞",
+  "prompt": "核膜がなく、DNAが細胞質基質中に存在する細胞は？",
+  "answer": "原核細胞",
+  "reading": "げんかくさいぼう",
+  "explanation": "細菌やシアノバクテリアがこの細胞からなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0007",
+  "level": 1,
+  "category": "細胞",
+  "prompt": "核膜に包まれた核をもつ細胞は？",
+  "answer": "真核細胞",
+  "reading": "しんかくさいぼう",
+  "explanation": "動物・植物・菌類などの細胞がこれだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0008",
+  "level": 1,
+  "category": "代謝",
+  "prompt": "生命活動のエネルギーを直接受け渡す物質で、「エネルギーの通貨」と呼ばれるものの略称は？",
+  "answer": "ATP",
+  "reading": "atp",
+  "explanation": "アデノシン三リン酸の略だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0009",
+  "level": 1,
+  "category": "代謝",
+  "prompt": "生体内で起こる化学反応全体をまとめて何という？",
+  "answer": "代謝",
+  "reading": "たいしゃ",
+  "explanation": "同化と異化の2つに分けられるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0010",
+  "level": 1,
+  "category": "代謝",
+  "prompt": "単純な物質から複雑な物質を合成し、エネルギーを吸収する働きは？",
+  "answer": "同化",
+  "reading": "どうか",
+  "explanation": "光合成が代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0011",
+  "level": 1,
+  "category": "代謝",
+  "prompt": "複雑な物質を単純な物質に分解し、エネルギーを取り出す働きは？",
+  "answer": "異化",
+  "reading": "いか",
+  "explanation": "呼吸が代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0012",
+  "level": 1,
+  "category": "代謝",
+  "prompt": "生体内の化学反応を促進する、主にタンパク質でできた触媒は？",
+  "answer": "酵素",
+  "reading": "こうそ",
+  "explanation": "反応の前後で自身は変化しないから、何度でも働けるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0013",
+  "level": 1,
+  "category": "代謝",
+  "prompt": "光エネルギーを使って二酸化炭素と水から有機物をつくる働きは？",
+  "answer": "光合成",
+  "reading": "こうごうせい",
+  "explanation": "このとき酸素も放出されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0014",
+  "level": 1,
+  "category": "遺伝子",
+  "prompt": "遺伝子の本体である、二重らせん構造をもつ物質の略称は？",
+  "answer": "DNA",
+  "reading": "dna",
+  "explanation": "デオキシリボ核酸の略だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0015",
+  "level": 1,
+  "category": "遺伝子",
+  "prompt": "DNAの塩基のうち、アデニンと相補的に対をつくる塩基は？",
+  "answer": "チミン",
+  "reading": "ちみん",
+  "explanation": "AとT、GとCがペアになるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0016",
+  "level": 1,
+  "category": "遺伝子",
+  "prompt": "DNAの塩基のうち、グアニンと相補的に対をつくる塩基は？",
+  "answer": "シトシン",
+  "reading": "しとしん",
+  "explanation": "GとCのペアは水素結合3本で結びついているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0017",
+  "level": 1,
+  "category": "遺伝子",
+  "prompt": "ある生物が生きていくのに必要な遺伝情報の1セットを何という？",
+  "answer": "ゲノム",
+  "reading": "げのむ",
+  "explanation": "ヒトのゲノムは約30億塩基対だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0018",
+  "level": 1,
+  "category": "体内環境",
+  "prompt": "血液の有形成分のうち、酸素を運ぶ細胞は？",
+  "answer": "赤血球",
+  "reading": "せっけっきゅう",
+  "explanation": "ヒトの成熟したものは核をもたないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0019",
+  "level": 1,
+  "category": "体内環境",
+  "prompt": "血液の有形成分のうち、血液凝固にはたらく細胞片は？",
+  "answer": "血小板",
+  "reading": "けっしょうばん",
+  "explanation": "核をもたない小さな細胞片だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0020",
+  "level": 1,
+  "category": "体内環境",
+  "prompt": "血液の液体成分で、栄養分や老廃物などを運ぶものは？",
+  "answer": "血しょう",
+  "reading": "けっしょう",
+  "explanation": "約90%が水でできているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0021",
+  "level": 1,
+  "category": "体内環境",
+  "prompt": "外部環境が変化しても体内の状態を一定に保とうとする性質で、ホメオスタシスとも呼ばれるものは？",
+  "answer": "恒常性",
+  "reading": "こうじょうせい",
+  "explanation": "体液の状態は主に自律神経系と内分泌系によって一定に保たれているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0022",
+  "level": 1,
+  "category": "体内環境",
+  "prompt": "赤血球に含まれ、酸素と結合する赤い色素タンパク質は？",
+  "answer": "ヘモグロビン",
+  "reading": "へもぐろびん",
+  "explanation": "酸素の多い肺で結合し、少ない組織で酸素を離すよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0023",
+  "level": 1,
+  "category": "生態系",
+  "prompt": "生態系の中で、無機物から有機物をつくる生物を何という？",
+  "answer": "生産者",
+  "reading": "せいさんしゃ",
+  "explanation": "植物や藻類などが当てはまるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0024",
+  "level": 1,
+  "category": "生態系",
+  "prompt": "生態系の中で、生産者がつくった有機物を直接または間接的に食べて取り入れる動物などの生物を何という？",
+  "answer": "消費者",
+  "reading": "しょうひしゃ",
+  "explanation": "動物などが当てはまり、分解者も広い意味で含まれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0025",
+  "level": 1,
+  "category": "生態系",
+  "prompt": "「食べる・食べられる」の関係が一続きにつながったものを何という？",
+  "answer": "食物連鎖",
+  "reading": "しょくもつれんさ",
+  "explanation": "実際には複雑に絡み合っていて、食物網と呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0026",
+  "level": 2,
+  "category": "細胞",
+  "prompt": "顕微鏡で細胞の大きさを測るとき、接眼レンズの中に入れて使う目盛りは？",
+  "answer": "接眼ミクロメーター",
+  "reading": "せつがんみくろめーたー",
+  "explanation": "対物ミクロメーターを使って1目盛りの長さを先に求めるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0027",
+  "level": 2,
+  "category": "細胞",
+  "prompt": "成熟した植物細胞で大きく発達し、細胞液で満たされた構造は？",
+  "answer": "液胞",
+  "reading": "えきほう",
+  "explanation": "アントシアンなどの色素を含むこともあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0028",
+  "level": 2,
+  "category": "細胞",
+  "prompt": "DNAとタンパク質からなり、細胞分裂のときに凝縮して太く見える構造は？",
+  "answer": "染色体",
+  "reading": "せんしょくたい",
+  "explanation": "酢酸オルセインなどでよく染まるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0029",
+  "level": 2,
+  "category": "細胞",
+  "prompt": "rRNAとタンパク質からなり、タンパク質合成の場となる粒状の構造は？",
+  "answer": "リボソーム",
+  "reading": "りぼそーむ",
+  "explanation": "原核細胞にも真核細胞にもあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0030",
+  "level": 2,
+  "category": "細胞",
+  "prompt": "細胞周期のうち、分裂期と分裂期の間の時期は？",
+  "answer": "間期",
+  "reading": "かんき",
+  "explanation": "G1期・S期・G2期に分けられ、S期にDNAが複製されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0031",
+  "level": 2,
+  "category": "細胞",
+  "prompt": "細胞が分裂を終えてから、次の分裂を終えるまでの一連の周期は？",
+  "answer": "細胞周期",
+  "reading": "さいぼうしゅうき",
+  "explanation": "間期と分裂期（M期）からなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0032",
+  "level": 2,
+  "category": "代謝",
+  "prompt": "酸素を用いて有機物を分解し、ATPを合成する働きは？",
+  "answer": "呼吸",
+  "reading": "こきゅう",
+  "explanation": "最終的に二酸化炭素と水ができるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0033",
+  "level": 2,
+  "category": "代謝",
+  "prompt": "ATPのリン酸どうしの結合で、切れるときに多くのエネルギーを放出するものは？",
+  "answer": "高エネルギーリン酸結合",
+  "reading": "こうえねるぎーりんさんけつごう",
+  "explanation": "ATPには2か所あるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0034",
+  "level": 2,
+  "category": "代謝",
+  "prompt": "酵素が作用する相手の物質を何という？",
+  "answer": "基質",
+  "reading": "きしつ",
+  "explanation": "酵素と結合して酵素-基質複合体をつくるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0035",
+  "level": 2,
+  "category": "代謝",
+  "prompt": "酵素が特定の物質にだけ作用する性質は？",
+  "answer": "基質特異性",
+  "reading": "きしつとくいせい",
+  "explanation": "活性部位の立体構造に合う物質だけが結合できるからだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0036",
+  "level": 2,
+  "category": "代謝",
+  "prompt": "酵素の分子のうち、基質と結合して触媒作用を示す部分で、活性中心とも呼ばれるものは？",
+  "answer": "活性部位",
+  "reading": "かっせいぶい",
+  "explanation": "この部分の立体構造が基質特異性を生み出しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0037",
+  "level": 2,
+  "category": "代謝",
+  "prompt": "ATPを構成する五炭糖は？",
+  "answer": "リボース",
+  "reading": "りぼーす",
+  "explanation": "ATPはアデニン・この糖・リン酸3つからなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0038",
+  "level": 2,
+  "category": "遺伝子",
+  "prompt": "リン酸・糖・塩基からなる、核酸の構成単位は？",
+  "answer": "ヌクレオチド",
+  "reading": "ぬくれおちど",
+  "explanation": "これが鎖状に多数つながって核酸になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0039",
+  "level": 2,
+  "category": "遺伝子",
+  "prompt": "DNAのヌクレオチドを構成する糖は？",
+  "answer": "デオキシリボース",
+  "reading": "でおきしりぼーす",
+  "explanation": "RNAの糖はリボースだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0040",
+  "level": 2,
+  "category": "遺伝子",
+  "prompt": "1953年にクリックとともにDNAの二重らせんモデルを発表したアメリカの研究者は？",
+  "answer": "ワトソン",
+  "reading": "わとそん",
+  "explanation": "ウィルキンスやフランクリンのX線回折の写真がヒントになったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0041",
+  "level": 2,
+  "category": "遺伝子",
+  "prompt": "DNAの塩基配列を写しとってRNAを合成する過程は？",
+  "answer": "転写",
+  "reading": "てんしゃ",
+  "explanation": "真核生物では核の中で起こるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0042",
+  "level": 2,
+  "category": "遺伝子",
+  "prompt": "mRNAの塩基配列をもとにアミノ酸をつなぎ、タンパク質を合成する過程は？",
+  "answer": "翻訳",
+  "reading": "ほんやく",
+  "explanation": "リボソームで行われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0043",
+  "level": 2,
+  "category": "遺伝子",
+  "prompt": "遺伝情報がDNA→RNA→タンパク質の順に一方向に流れるという原則は？",
+  "answer": "セントラルドグマ",
+  "reading": "せんとらるどぐま",
+  "explanation": "クリックが提唱した考え方だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0044",
+  "level": 2,
+  "category": "体内環境",
+  "prompt": "多細胞動物の体内で細胞を取り巻く液体（血液・組織液・リンパ液）をまとめて何という？",
+  "answer": "体液",
+  "reading": "たいえき",
+  "explanation": "細胞にとっての環境なので体内環境ともいうよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0045",
+  "level": 2,
+  "category": "体内環境",
+  "prompt": "毛細血管から血しょうがしみ出して、細胞のまわりを満たしている液体は？",
+  "answer": "組織液",
+  "reading": "そしきえき",
+  "explanation": "大部分は再び毛細血管に戻り、一部はリンパ管に入るよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0047",
+  "level": 2,
+  "category": "体内環境",
+  "prompt": "体内に侵入した病原体などの異物を排除するしくみ全体を何という？",
+  "answer": "免疫",
+  "reading": "めんえき",
+  "explanation": "自然免疫と獲得免疫があるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0048",
+  "level": 2,
+  "category": "生態系",
+  "prompt": "ある地域に生息する生物と、それを取り巻く非生物的環境をひとまとまりとしたものは？",
+  "answer": "生態系",
+  "reading": "せいたいけい",
+  "explanation": "非生物的環境には光・温度・水・土壌などが含まれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0049",
+  "level": 2,
+  "category": "生態系",
+  "prompt": "ある地域に生育している植物の集まり全体を何という？",
+  "answer": "植生",
+  "reading": "しょくせい",
+  "explanation": "森林・草原・荒原に大きく分けられるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0050",
+  "level": 2,
+  "category": "生態系",
+  "prompt": "植生を外から見たときの様子（外観）を何という？",
+  "answer": "相観",
+  "reading": "そうかん",
+  "explanation": "優占種によって決まることが多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0051",
+  "level": 3,
+  "category": "細胞",
+  "prompt": "細胞膜が特定の物質だけを通過させる性質は？",
+  "answer": "選択的透過性",
+  "reading": "せんたくてきとうかせい",
+  "explanation": "輸送タンパク質の働きによるものが大きいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0052",
+  "level": 3,
+  "category": "細胞",
+  "prompt": "エネルギーを使って、濃度の低い側から高い側へ物質を運ぶ輸送は？",
+  "answer": "能動輸送",
+  "reading": "のうどうゆそう",
+  "explanation": "ナトリウムポンプが代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0053",
+  "level": 3,
+  "category": "細胞",
+  "prompt": "濃度勾配に従って物質が移動する、エネルギーを使わない輸送は？",
+  "answer": "受動輸送",
+  "reading": "じゅどうゆそう",
+  "explanation": "チャネルを通る拡散などがこれにあたるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0054",
+  "level": 3,
+  "category": "細胞",
+  "prompt": "ATPのエネルギーを使って、Na+を細胞外へ、K+を細胞内へ運ぶしくみは？",
+  "answer": "ナトリウムポンプ",
+  "reading": "なとりうむぽんぷ",
+  "explanation": "能動輸送の代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0055",
+  "level": 3,
+  "category": "細胞",
+  "prompt": "細胞膜にある、水分子を選択的に通すチャネルは？",
+  "answer": "アクアポリン",
+  "reading": "あくあぽりん",
+  "explanation": "腎臓の集合管などで重要な働きをしているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0056",
+  "level": 3,
+  "category": "細胞",
+  "prompt": "細胞の形を支え、細胞内の物質輸送にもかかわる繊維状構造をまとめて何という？",
+  "answer": "細胞骨格",
+  "reading": "さいぼうこっかく",
+  "explanation": "アクチンフィラメント・中間径フィラメント・微小管の3種類があるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0057",
+  "level": 3,
+  "category": "細胞",
+  "prompt": "チューブリンでできた中空の管で、紡錘体や鞭毛・繊毛をつくる細胞骨格は？",
+  "answer": "微小管",
+  "reading": "びしょうかん",
+  "explanation": "細胞骨格の中で最も太いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0058",
+  "level": 3,
+  "category": "細胞",
+  "prompt": "細胞骨格のうち最も細く、筋収縮や原形質流動にかかわるものは？",
+  "answer": "アクチンフィラメント",
+  "reading": "あくちんふぃらめんと",
+  "explanation": "ミオシンと相互作用して動きを生み出すよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0059",
+  "level": 3,
+  "category": "代謝",
+  "prompt": "光合成で光エネルギーを吸収する、緑色の主要な色素をカタカナ名で答えると？",
+  "answer": "クロロフィル",
+  "reading": "くろろふぃる",
+  "explanation": "赤色光と青紫色光をよく吸収するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0060",
+  "level": 3,
+  "category": "代謝",
+  "prompt": "葉緑体の内部にある、扁平な袋状の膜構造は？",
+  "answer": "チラコイド",
+  "reading": "ちらこいど",
+  "explanation": "光を吸収してATPなどをつくる反応はこの膜で進むよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0061",
+  "level": 3,
+  "category": "代謝",
+  "prompt": "葉緑体の内部で、チラコイドの間を満たしている部分は？",
+  "answer": "ストロマ",
+  "reading": "すとろま",
+  "explanation": "二酸化炭素を固定するカルビン回路が進む場所だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0062",
+  "level": 3,
+  "category": "代謝",
+  "prompt": "ミトコンドリアで、内膜に囲まれた内側の部分は？",
+  "answer": "マトリックス",
+  "reading": "まとりっくす",
+  "explanation": "クエン酸回路が進む場所だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0063",
+  "level": 3,
+  "category": "代謝",
+  "prompt": "呼吸の第1段階で、細胞質基質でグルコースがピルビン酸に分解される過程は？",
+  "answer": "解糖系",
+  "reading": "かいとうけい",
+  "explanation": "酸素を使わずに進み、発酵とも共通する過程だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0064",
+  "level": 3,
+  "category": "代謝",
+  "prompt": "呼吸の第2段階で、ミトコンドリアのマトリックスで進む回路状の反応系は？",
+  "answer": "クエン酸回路",
+  "reading": "くえんさんかいろ",
+  "explanation": "二酸化炭素はこの段階で放出されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0065",
+  "level": 3,
+  "category": "代謝",
+  "prompt": "微生物が酸素を使わずに有機物を分解してATPを得る働きは？",
+  "answer": "発酵",
+  "reading": "はっこう",
+  "explanation": "呼吸よりつくられるATPはずっと少ないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0066",
+  "level": 3,
+  "category": "代謝",
+  "prompt": "酵母がグルコースを分解してエタノールと二酸化炭素を生じる働きは？",
+  "answer": "アルコール発酵",
+  "reading": "あるこーるはっこう",
+  "explanation": "パンや酒づくりに利用されているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0067",
+  "level": 3,
+  "category": "代謝",
+  "prompt": "乳酸菌がグルコースを分解してATPを得る、酸素を使わない働きは？",
+  "answer": "乳酸発酵",
+  "reading": "にゅうさんはっこう",
+  "explanation": "ヨーグルトづくりに利用されているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0068",
+  "level": 3,
+  "category": "遺伝子",
+  "prompt": "DNAの複製で、もとの2本鎖の一方がそのまま新しいDNAに受け継がれる方式は？",
+  "answer": "半保存的複製",
+  "reading": "はんほぞんてきふくせい",
+  "explanation": "メセルソンとスタールが窒素の同位体を使って証明したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0069",
+  "level": 3,
+  "category": "遺伝子",
+  "prompt": "mRNAで連続する3つの塩基の並びで、1つのアミノ酸を指定するものは？",
+  "answer": "コドン",
+  "reading": "こどん",
+  "explanation": "64通りあり、翻訳の終わりを示すものもあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0070",
+  "level": 3,
+  "category": "遺伝子",
+  "prompt": "tRNAにあり、mRNAの3塩基と相補的に結合する3つの塩基の並びは？",
+  "answer": "アンチコドン",
+  "reading": "あんちこどん",
+  "explanation": "これによって正しいアミノ酸が運ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0071",
+  "level": 3,
+  "category": "細胞",
+  "prompt": "体細胞分裂の分裂期で、染色体が赤道面に並ぶ時期は？",
+  "answer": "中期",
+  "reading": "ちゅうき",
+  "explanation": "染色体の数や形を観察するのに最も適した時期だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0072",
+  "level": 3,
+  "category": "体内環境",
+  "prompt": "血液凝固のときに生じ、血球をからめて血ぺいをつくる繊維状のタンパク質は？",
+  "answer": "フィブリン",
+  "reading": "ふぃぶりん",
+  "explanation": "トロンビンの働きでフィブリノーゲンから生じるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0073",
+  "level": 3,
+  "category": "体内環境",
+  "prompt": "右心房にあり、心臓の拍動のリズムをつくり出す部分は？",
+  "answer": "洞房結節",
+  "reading": "どうぼうけっせつ",
+  "explanation": "ペースメーカーとも呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0074",
+  "level": 3,
+  "category": "生態系",
+  "prompt": "ある場所の植生が、時間とともに移り変わっていく現象は？",
+  "answer": "遷移",
+  "reading": "せんい",
+  "explanation": "陽樹林から陰樹林へ移るのが典型的な流れだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0075",
+  "level": 3,
+  "category": "生態系",
+  "prompt": "遷移の最終段階で、構成種があまり変化しなくなった安定した状態で、クライマックスとも呼ばれるものは？",
+  "answer": "極相",
+  "reading": "きょくそう",
+  "explanation": "日本の多くの地域では陰樹林が極相林になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0076",
+  "level": 4,
+  "category": "細胞",
+  "prompt": "膜が網目状に広がった構造で、リボソームが付着しタンパク質の輸送にかかわるものは？",
+  "answer": "小胞体",
+  "reading": "しょうほうたい",
+  "explanation": "リボソームが付着したものを粗面小胞体というよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0077",
+  "level": 4,
+  "category": "細胞",
+  "prompt": "扁平な袋が重なった構造で、タンパク質の加工・濃縮・分泌にかかわる細胞小器官は？",
+  "answer": "ゴルジ体",
+  "reading": "ごるじたい",
+  "explanation": "分泌が盛んな細胞でよく発達しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0078",
+  "level": 4,
+  "category": "細胞",
+  "prompt": "加水分解酵素を含み、細胞内の不要な物質を分解する細胞小器官は？",
+  "answer": "リソソーム",
+  "reading": "りそそーむ",
+  "explanation": "オートファジーでも働くよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0079",
+  "level": 4,
+  "category": "細胞",
+  "prompt": "動物細胞で微小管形成の起点となり、分裂時に紡錘体の極となる構造は？",
+  "answer": "中心体",
+  "reading": "ちゅうしんたい",
+  "explanation": "2つの中心小体からなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0080",
+  "level": 4,
+  "category": "細胞",
+  "prompt": "細胞外の物質を細胞膜で包み込み、小胞として取り込む現象は？",
+  "answer": "エンドサイトーシス",
+  "reading": "えんどさいとーしす",
+  "explanation": "食作用もこの一種だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0081",
+  "level": 4,
+  "category": "細胞",
+  "prompt": "細胞内の小胞が細胞膜と融合し、中身を細胞外へ放出する現象は？",
+  "answer": "エキソサイトーシス",
+  "reading": "えきそさいとーしす",
+  "explanation": "ホルモンや神経伝達物質の分泌で見られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0082",
+  "level": 4,
+  "category": "代謝",
+  "prompt": "ミトコンドリアの内膜で、NADHなどから電子が受け渡されてATPが大量につくられる過程は？",
+  "answer": "電子伝達系",
+  "reading": "でんしでんたつけい",
+  "explanation": "最終的に電子を受け取るのは酸素で、水ができるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0083",
+  "level": 4,
+  "category": "代謝",
+  "prompt": "H+の濃度勾配を利用して、ADPとリン酸からATPを合成する酵素は？",
+  "answer": "ATP合成酵素",
+  "reading": "atpごうせいこうそ",
+  "explanation": "H+が通り抜けるときの流れでATPをつくるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0084",
+  "level": 4,
+  "category": "代謝",
+  "prompt": "葉緑体のストロマで二酸化炭素を固定し、有機物を合成する回路状の反応系は？",
+  "answer": "カルビン回路",
+  "reading": "かるびんかいろ",
+  "explanation": "カルビン・ベンソン回路ともいうよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0085",
+  "level": 4,
+  "category": "代謝",
+  "prompt": "カルビン回路で二酸化炭素の固定を触媒する酵素の略称は？",
+  "answer": "ルビスコ",
+  "reading": "るびすこ",
+  "explanation": "地球上で最も量の多いタンパク質ともいわれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0086",
+  "level": 4,
+  "category": "代謝",
+  "prompt": "活性部位とは別の部位に物質が結合することで活性が変化する酵素は？",
+  "answer": "アロステリック酵素",
+  "reading": "あろすてりっくこうそ",
+  "explanation": "フィードバック調節で重要な役割を果たすよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0088",
+  "level": 4,
+  "category": "代謝",
+  "prompt": "基質とよく似た構造の物質が活性部位を奪い合うことで起こる酵素反応の阻害は？",
+  "answer": "競争的阻害",
+  "reading": "きょうそうてきそがい",
+  "explanation": "基質濃度が高いと阻害の影響は小さくなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0089",
+  "level": 4,
+  "category": "遺伝子",
+  "prompt": "真核生物の遺伝子のうち、転写後にRNAから取り除かれる領域は？",
+  "answer": "イントロン",
+  "reading": "いんとろん",
+  "explanation": "タンパク質の情報として残る領域はエキソンだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0090",
+  "level": 4,
+  "category": "遺伝子",
+  "prompt": "転写されたRNAからイントロンを取り除き、残りをつなぎ合わせる過程は？",
+  "answer": "スプライシング",
+  "reading": "すぷらいしんぐ",
+  "explanation": "つなぎ方を変える選択的スプライシングもあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0091",
+  "level": 4,
+  "category": "遺伝子",
+  "prompt": "mRNA前駆体のうち、スプライシング後もmRNAに残る領域は？",
+  "answer": "エキソン",
+  "reading": "えきそん",
+  "explanation": "イントロンと混同しないようにしよう。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0092",
+  "level": 4,
+  "category": "遺伝子",
+  "prompt": "RNAにだけ含まれ、DNAのチミンの代わりにアデニンと対をつくる塩基は？",
+  "answer": "ウラシル",
+  "reading": "うらしる",
+  "explanation": "RNAの塩基はA・U・G・Cだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0093",
+  "level": 4,
+  "category": "遺伝子",
+  "prompt": "DNAを鋳型にしてRNAを合成する酵素は？",
+  "answer": "RNAポリメラーゼ",
+  "reading": "rnaぽりめらーぜ",
+  "explanation": "プロモーターに結合して転写を始めるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0094",
+  "level": 4,
+  "category": "遺伝子",
+  "prompt": "DNAの複製で、ヌクレオチドをつないで新しい鎖を伸長させる酵素は？",
+  "answer": "DNAポリメラーゼ",
+  "reading": "dnaぽりめらーぜ",
+  "explanation": "5'→3'の方向にしか鎖を伸ばせないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0095",
+  "level": 4,
+  "category": "遺伝子",
+  "prompt": "DNA複製のラギング鎖で、不連続に合成される短いDNA断片は？",
+  "answer": "岡崎フラグメント",
+  "reading": "おかざきふらぐめんと",
+  "explanation": "日本の岡崎令治らが発見したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0096",
+  "level": 4,
+  "category": "遺伝子",
+  "prompt": "岡崎フラグメントどうしをつなぎ合わせる酵素は？",
+  "answer": "DNAリガーゼ",
+  "reading": "dnaりがーぜ",
+  "explanation": "遺伝子組換えでDNA断片をつなぐのにも使われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0097",
+  "level": 4,
+  "category": "体内環境",
+  "prompt": "自律神経系のうち、興奮・緊張時にはたらき、心拍数を増加させる神経は？",
+  "answer": "交感神経",
+  "reading": "こうかんしんけい",
+  "explanation": "瞳孔を拡大させる働きもあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0098",
+  "level": 4,
+  "category": "体内環境",
+  "prompt": "自律神経系のうち、休息時にはたらき、消化管の運動を促進する神経は？",
+  "answer": "副交感神経",
+  "reading": "ふくこうかんしんけい",
+  "explanation": "心拍数は減少させるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0099",
+  "level": 4,
+  "category": "体内環境",
+  "prompt": "自律神経系と内分泌系の中枢として、体内環境の調節を担う間脳の部位は？",
+  "answer": "視床下部",
+  "reading": "ししょうかぶ",
+  "explanation": "脳下垂体にも指令を出すよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0100",
+  "level": 4,
+  "category": "生態系",
+  "prompt": "溶岩流の跡地など、土壌のない裸地から始まる遷移は？",
+  "answer": "一次遷移",
+  "reading": "いちじせんい",
+  "explanation": "最初に地衣類やコケ植物が侵入することが多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0101",
+  "level": 4,
+  "category": "生態系",
+  "prompt": "山火事や森林伐採の跡地など、土壌が残った状態から始まる遷移は？",
+  "answer": "二次遷移",
+  "reading": "にじせんい",
+  "explanation": "種子や根が残っているので速く進むよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0102",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "すい臓のランゲルハンス島B細胞から分泌され、血糖濃度を下げるホルモンは？",
+  "answer": "インスリン",
+  "reading": "いんすりん",
+  "explanation": "血糖濃度を下げるホルモンはこれだけだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0103",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "すい臓のランゲルハンス島A細胞から分泌され、血糖濃度を上げるホルモンは？",
+  "answer": "グルカゴン",
+  "reading": "ぐるかごん",
+  "explanation": "肝臓のグリコーゲン分解を促進するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0104",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "副腎髄質から分泌され、グリコーゲンの分解を促進して血糖濃度を上げるホルモンは？",
+  "answer": "アドレナリン",
+  "reading": "あどれなりん",
+  "explanation": "交感神経の刺激で分泌されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0105",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "副腎皮質から分泌され、タンパク質からの糖の合成を促して血糖濃度を上げるホルモンは？",
+  "answer": "糖質コルチコイド",
+  "reading": "とうしつこるちこいど",
+  "explanation": "鉱質コルチコイドと区別しよう。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0106",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "甲状腺から分泌され、全身の代謝を促進するホルモンは？",
+  "answer": "チロキシン",
+  "reading": "ちろきしん",
+  "explanation": "ヨウ素を含むホルモンだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0107",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "脳下垂体後葉から分泌され、腎臓の集合管での水の再吸収を促進するホルモンは？",
+  "answer": "バソプレシン",
+  "reading": "ばそぷれしん",
+  "explanation": "体液の浸透圧が上がると分泌が増えるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0108",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "副腎皮質から分泌され、腎臓でのNa+の再吸収を促進するホルモンは？",
+  "answer": "鉱質コルチコイド",
+  "reading": "こうしつこるちこいど",
+  "explanation": "体液の塩類濃度の調節にかかわるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0109",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "副甲状腺から分泌され、血液中のCa2+濃度を上げるホルモンは？",
+  "answer": "パラトルモン",
+  "reading": "ぱらとるもん",
+  "explanation": "骨からカルシウムを溶かし出す働きがあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0110",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "特定のホルモンと結合する受容体をもち、その作用を受ける細胞は？",
+  "answer": "標的細胞",
+  "reading": "ひょうてきさいぼう",
+  "explanation": "受容体のない細胞には作用しないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0111",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "腎臓で、糸球体とそれを包むボーマンのうをあわせた構造で、マルピーギ小体とも呼ばれるものは？",
+  "answer": "腎小体",
+  "reading": "じんしょうたい",
+  "explanation": "ここで血液がろ過されて原尿ができるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0112",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "腎小体と細尿管からなる、腎臓の構造上・機能上の単位で、腎単位とも呼ばれるものは？",
+  "answer": "ネフロン",
+  "reading": "ねふろん",
+  "explanation": "ヒトの腎臓1つに約100万個あるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0113",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "肝臓で、有毒なアンモニアからつくられる毒性の低い物質は？",
+  "answer": "尿素",
+  "reading": "にょうそ",
+  "explanation": "オルニチン回路でつくられ、腎臓から排出されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0114",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "多数のグルコースがつながった多糖で、肝臓や筋肉に蓄えられるものは？",
+  "answer": "グリコーゲン",
+  "reading": "ぐりこーげん",
+  "explanation": "動物のデンプンとも呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0115",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "生まれつき備わっていて、異物を幅広く認識して排除する免疫で、好中球やマクロファージなどの食細胞が中心となるものは？",
+  "answer": "自然免疫",
+  "reading": "しぜんめんえき",
+  "explanation": "病原体の侵入後すぐにはたらく、からだの最初の防御だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0116",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "特定の異物を認識して排除し、その情報を記憶もする免疫で、適応免疫とも呼ばれるものは？",
+  "answer": "獲得免疫",
+  "reading": "かくとくめんえき",
+  "explanation": "リンパ球（T細胞・B細胞）が中心になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0117",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "異物を取り込んでリンパ節へ移動し、T細胞に抗原提示を行う、枝状の突起をもつ細胞は？",
+  "answer": "樹状細胞",
+  "reading": "じゅじょうさいぼう",
+  "explanation": "自然免疫と獲得免疫の橋渡し役だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0118",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "好中球やマクロファージが異物を細胞内に取り込んで分解する働きは？",
+  "answer": "食作用",
+  "reading": "しょくさよう",
+  "explanation": "自然免疫の重要なしくみだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0119",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "B細胞が増殖・分化してできる、抗体産生細胞とも呼ばれる細胞は？",
+  "answer": "形質細胞",
+  "reading": "けいしつさいぼう",
+  "explanation": "抗体を大量につくって体液中に放出するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0120",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "抗体をつくっている、Y字形のタンパク質は？",
+  "answer": "免疫グロブリン",
+  "reading": "めんえきぐろぶりん",
+  "explanation": "可変部で抗原と結合するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0121",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "抗体が特定の抗原と特異的に結合する反応は？",
+  "answer": "抗原抗体反応",
+  "reading": "こうげんこうたいはんのう",
+  "explanation": "結合した抗原はマクロファージなどに処理されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0122",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "予防接種で体内に入れる、弱毒化した病原体や無毒化した毒素などは？",
+  "answer": "ワクチン",
+  "reading": "わくちん",
+  "explanation": "免疫記憶をつくらせて発病を防ぐよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0123",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "他の動物につくらせた抗体を含む血清を注射して治療する方法は？",
+  "answer": "血清療法",
+  "reading": "けっせいりょうほう",
+  "explanation": "ヘビ毒などの治療に使われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0124",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "花粉など本来無害な物質に対して免疫が過剰に反応し、体に不都合が生じる現象は？",
+  "answer": "アレルギー",
+  "reading": "あれるぎー",
+  "explanation": "原因となる抗原をアレルゲンというよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0125",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "アレルギーのうち、全身に急激で重い症状が現れるものは？",
+  "answer": "アナフィラキシー",
+  "reading": "あなふぃらきしー",
+  "explanation": "血圧低下などが起こるとショックと呼ばれ危険だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0126",
+  "level": 5,
+  "category": "体内環境",
+  "prompt": "HIVがヘルパーT細胞に感染して破壊し、免疫機能が低下する病気の略称（カタカナ）は？",
+  "answer": "エイズ",
+  "reading": "えいず",
+  "explanation": "後天性免疫不全症候群のことで、日和見感染を起こしやすくなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0127",
+  "level": 6,
+  "category": "生殖と遺伝",
+  "prompt": "生殖細胞をつくるときに起こり、染色体数が半分になる細胞分裂は？",
+  "answer": "減数分裂",
+  "reading": "げんすうぶんれつ",
+  "explanation": "連続した2回の分裂で4つの細胞ができるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0128",
+  "level": 6,
+  "category": "生殖と遺伝",
+  "prompt": "形や大きさが同じで、父方と母方から1本ずつ受け継いだ対になる染色体は？",
+  "answer": "相同染色体",
+  "reading": "そうどうせんしょくたい",
+  "explanation": "減数分裂で対合するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0129",
+  "level": 6,
+  "category": "生殖と遺伝",
+  "prompt": "減数第一分裂の前期に、相同染色体が対合してできたものは？",
+  "answer": "二価染色体",
+  "reading": "にかせんしょくたい",
+  "explanation": "このとき乗換えが起こることがあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0130",
+  "level": 6,
+  "category": "生殖と遺伝",
+  "prompt": "減数分裂のとき、相同染色体の間で染色体の一部が交換される現象は？",
+  "answer": "乗換え",
+  "reading": "のりかえ",
+  "explanation": "この結果、遺伝子の組換えが起こるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0131",
+  "level": 6,
+  "category": "生殖と遺伝",
+  "prompt": "乗換えによって、同じ染色体上の遺伝子の組み合わせが変わることを何という？",
+  "answer": "組換え",
+  "reading": "くみかえ",
+  "explanation": "遺伝的多様性を生む要因の一つだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0132",
+  "level": 6,
+  "category": "生殖と遺伝",
+  "prompt": "同じ染色体上にある複数の遺伝子が、行動をともにして遺伝する現象は？",
+  "answer": "連鎖",
+  "reading": "れんさ",
+  "explanation": "独立の法則が成り立たなくなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0133",
+  "level": 6,
+  "category": "生殖と遺伝",
+  "prompt": "全配偶子のうち、組換えを起こした配偶子の割合を百分率で表したものは？",
+  "answer": "組換え価",
+  "reading": "くみかえか",
+  "explanation": "遺伝子間の距離が遠いほど大きくなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0134",
+  "level": 6,
+  "category": "生殖と遺伝",
+  "prompt": "組換え価をもとに、染色体上の遺伝子の相対的な位置を示した図で、連鎖地図とも呼ばれるものは？",
+  "answer": "染色体地図",
+  "reading": "せんしょくたいちず",
+  "explanation": "モーガンらがショウジョウバエで作成したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0135",
+  "level": 6,
+  "category": "生殖と遺伝",
+  "prompt": "ヒトのX染色体やY染色体のように、雌雄で構成が異なる染色体は？",
+  "answer": "性染色体",
+  "reading": "せいせんしょくたい",
+  "explanation": "ヒトの男性はXY、女性はXXだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0136",
+  "level": 6,
+  "category": "生殖と遺伝",
+  "prompt": "性の決定にかかわる染色体以外の染色体は？",
+  "answer": "常染色体",
+  "reading": "じょうせんしょくたい",
+  "explanation": "ヒトでは22対あるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0137",
+  "level": 6,
+  "category": "生殖と遺伝",
+  "prompt": "相同染色体の同じ遺伝子座に存在する、異なる遺伝子どうしで、アレルとも呼ばれるものを漢字で何という？",
+  "answer": "対立遺伝子",
+  "reading": "たいりついでんし",
+  "explanation": "新課程の教科書では「アレル」の表記も使われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0138",
+  "level": 6,
+  "category": "生殖と遺伝",
+  "prompt": "AAやaaのように、同じ対立遺伝子を2つもつ個体は？",
+  "answer": "ホモ接合体",
+  "reading": "ほもせつごうたい",
+  "explanation": "Aaのような個体はヘテロ接合体だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0139",
+  "level": 6,
+  "category": "生殖と遺伝",
+  "prompt": "遺伝子型を調べるために、潜性（劣性）のホモ接合体と交配させることを何という？",
+  "answer": "検定交雑",
+  "reading": "けんていこうざつ",
+  "explanation": "子の表現型の比が配偶子の比になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0140",
+  "level": 6,
+  "category": "生殖と遺伝",
+  "prompt": "ヘテロ接合体で表現型として現れる形質の性質を、現在の教科書では何という？",
+  "answer": "顕性",
+  "reading": "けんせい",
+  "explanation": "以前は優性と呼ばれていたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0141",
+  "level": 6,
+  "category": "発生",
+  "prompt": "受精卵が細胞分裂を繰り返し、個体のからだができあがる過程は？",
+  "answer": "発生",
+  "reading": "はっせい",
+  "explanation": "細胞の分化と形態形成が進むよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0142",
+  "level": 6,
+  "category": "発生",
+  "prompt": "受精卵の初期に起こる、娘細胞が成長せずに分裂を繰り返す体細胞分裂は？",
+  "answer": "卵割",
+  "reading": "らんかつ",
+  "explanation": "分裂のたびに細胞は小さくなっていくよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0143",
+  "level": 6,
+  "category": "発生",
+  "prompt": "卵割によって生じた細胞は？",
+  "answer": "割球",
+  "reading": "かっきゅう",
+  "explanation": "卵割が進むほど小さくなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0144",
+  "level": 6,
+  "category": "発生",
+  "prompt": "カエルの発生で、原口ができて陥入が起こり、三つの胚葉が形成される時期の胚は？",
+  "answer": "原腸胚",
+  "reading": "げんちょうはい",
+  "explanation": "胞胚の次の段階だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0145",
+  "level": 6,
+  "category": "発生",
+  "prompt": "三つの胚葉のうち、表皮や神経系に分化するものは？",
+  "answer": "外胚葉",
+  "reading": "がいはいよう",
+  "explanation": "神経管もこの胚葉からできるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0146",
+  "level": 6,
+  "category": "発生",
+  "prompt": "三つの胚葉のうち、消化管の上皮や肝臓・肺などに分化するものは？",
+  "answer": "内胚葉",
+  "reading": "ないはいよう",
+  "explanation": "原腸の壁になる部分だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0147",
+  "level": 6,
+  "category": "発生",
+  "prompt": "三つの胚葉のうち、骨格・筋肉・血管・腎臓などに分化するものは？",
+  "answer": "中胚葉",
+  "reading": "ちゅうはいよう",
+  "explanation": "脊索もこの胚葉からできるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0148",
+  "level": 6,
+  "category": "発生",
+  "prompt": "胚のある領域が、接する他の領域に作用して分化の方向を決める働きは？",
+  "answer": "誘導",
+  "reading": "ゆうどう",
+  "explanation": "誘導が連鎖的に起こって器官ができていくよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0149",
+  "level": 6,
+  "category": "発生",
+  "prompt": "誘導の働きをもつ胚の領域で、オーガナイザーとも呼ばれるものは？",
+  "answer": "形成体",
+  "reading": "けいせいたい",
+  "explanation": "原口背唇部が代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0150",
+  "level": 6,
+  "category": "発生",
+  "prompt": "イモリの初期原腸胚で、原口の上側にあり、移植すると二次胚を生じさせる部分は？",
+  "answer": "原口背唇部",
+  "reading": "げんこうはいしんぶ",
+  "explanation": "シュペーマンとマンゴルドの移植実験で知られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0151",
+  "level": 6,
+  "category": "発生",
+  "prompt": "神経板が落ち込んで形成され、のちに脳や脊髄になる管状の構造は？",
+  "answer": "神経管",
+  "reading": "しんけいかん",
+  "explanation": "外胚葉から形成されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0152",
+  "level": 6,
+  "category": "発生",
+  "prompt": "あらかじめ決められたしくみで起こる細胞死で、指の間の細胞が除かれるときなどにみられるものは？",
+  "answer": "アポトーシス",
+  "reading": "あぽとーしす",
+  "explanation": "けがなどによる壊死とは区別されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0153",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "細胞体・樹状突起・軸索からなる神経細胞を、カタカナで何という？",
+  "answer": "ニューロン",
+  "reading": "にゅーろん",
+  "explanation": "神経系を構成する基本単位だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0154",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "軸索のまわりを髄鞘が取り巻いている神経繊維は？",
+  "answer": "有髄神経繊維",
+  "reading": "ゆうずいしんけいせんい",
+  "explanation": "脊椎動物の多くの神経がこれで、興奮の伝導が速いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0155",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "有髄神経繊維で、髄鞘と髄鞘の間にある切れ目は？",
+  "answer": "ランビエ絞輪",
+  "reading": "らんびえこうりん",
+  "explanation": "ここでだけ活動電位が生じるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0156",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "有髄神経繊維で、興奮が絞輪から絞輪へ飛び飛びに伝わる現象は？",
+  "answer": "跳躍伝導",
+  "reading": "ちょうやくでんどう",
+  "explanation": "そのため伝導速度が大きくなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0157",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "刺激を受けていないニューロンで、細胞内が外に対して負になっている電位は？",
+  "answer": "静止電位",
+  "reading": "せいしでんい",
+  "explanation": "およそ−60〜−90mVで、主にK+の移動で生じるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0158",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "刺激を受けたニューロンの膜に生じる、一時的な電位の逆転は？",
+  "answer": "活動電位",
+  "reading": "かつどうでんい",
+  "explanation": "Na+の流入によって生じるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0159",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "ニューロンなどが興奮するのに必要な、最小の刺激の強さは？",
+  "answer": "閾値",
+  "reading": "いきち",
+  "explanation": "これより弱い刺激では興奮しないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0160",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "閾値以上なら刺激の強さによらず活動電位の大きさは一定だという法則は？",
+  "answer": "全か無かの法則",
+  "reading": "ぜんかむかのほうそく",
+  "explanation": "刺激の強さは興奮の頻度で伝えられるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0161",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "ニューロンの軸索末端が、次の細胞とすき間をへだてて接続している部分は？",
+  "answer": "シナプス",
+  "reading": "しなぷす",
+  "explanation": "情報は一方向にしか伝わらないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0162",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "シナプスで軸索末端から放出され、次の細胞に情報を伝える物質の総称は？",
+  "answer": "神経伝達物質",
+  "reading": "しんけいでんたつぶっしつ",
+  "explanation": "シナプス後細胞の受容体に結合するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0163",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "運動神経の末端から放出され、筋繊維を興奮させる神経伝達物質は？",
+  "answer": "アセチルコリン",
+  "reading": "あせちるこりん",
+  "explanation": "副交感神経の末端からも放出されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0164",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "交感神経の末端から主に放出される神経伝達物質は？",
+  "answer": "ノルアドレナリン",
+  "reading": "のるあどれなりん",
+  "explanation": "アドレナリンと名前が似ているので注意しよう。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0165",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "網膜の周辺部に多く分布し、弱い光でも働いて明暗を識別する視細胞は？",
+  "answer": "桿体細胞",
+  "reading": "かんたいさいぼう",
+  "explanation": "色の区別にはかかわらないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0166",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "網膜の黄斑に多く分布し、色の識別にかかわる視細胞は？",
+  "answer": "錐体細胞",
+  "reading": "すいたいさいぼう",
+  "explanation": "ヒトでは青・緑・赤の光をよく吸収する3種類があるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0167",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "桿体細胞に含まれ、光を受容する視物質は？",
+  "answer": "ロドプシン",
+  "reading": "ろどぷしん",
+  "explanation": "暗順応ではこの物質が再合成されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0168",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "網膜で視神経が束になって眼球から出ていく部分で、視細胞がないため光を感じないところは？",
+  "answer": "盲斑",
+  "reading": "もうはん",
+  "explanation": "黄斑と混同しないようにしよう。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0169",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "筋繊維の中に多数並ぶ、アクチンフィラメントとミオシンフィラメントからなる繊維状の構造は？",
+  "answer": "筋原繊維",
+  "reading": "きんげんせんい",
+  "explanation": "明帯と暗帯が交互に並んで横じまに見えるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0170",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "筋原繊維の、Z膜からZ膜までの構造上の単位で、筋節とも呼ばれるものは？",
+  "answer": "サルコメア",
+  "reading": "さるこめあ",
+  "explanation": "収縮すると明帯の部分が短くなり、全体が短くなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0171",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "筋収縮のとき、Ca2+が結合して、アクチンとミオシンの結合を可能にするタンパク質は？",
+  "answer": "トロポニン",
+  "reading": "とろぽにん",
+  "explanation": "トロポミオシンとともに働くよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0172",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "刺激に対して、大脳を介さずに無意識に起こる反応は？",
+  "answer": "反射",
+  "reading": "はんしゃ",
+  "explanation": "しつがい腱反射が有名だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0173",
+  "level": 7,
+  "category": "動物の反応",
+  "prompt": "反射で、興奮が受容器から効果器まで伝わる経路は？",
+  "answer": "反射弓",
+  "reading": "はんしゃきゅう",
+  "explanation": "大脳を経由しないので反応が速いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0174",
+  "level": 7,
+  "category": "植物の反応",
+  "prompt": "茎の先端でつくられ、細胞の伸長を促進する植物ホルモンの総称は？",
+  "answer": "オーキシン",
+  "reading": "おーきしん",
+  "explanation": "天然のものはインドール酢酸だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0175",
+  "level": 7,
+  "category": "植物の反応",
+  "prompt": "種子の休眠を維持し、乾燥時に気孔を閉じさせる植物ホルモンは？",
+  "answer": "アブシシン酸",
+  "reading": "あぶししんさん",
+  "explanation": "ストレスに対応するホルモンだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0176",
+  "level": 7,
+  "category": "植物の反応",
+  "prompt": "種子の発芽を促進し、茎の伸長も促す植物ホルモンは？",
+  "answer": "ジベレリン",
+  "reading": "じべれりん",
+  "explanation": "種なしブドウづくりにも使われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0177",
+  "level": 7,
+  "category": "植物の反応",
+  "prompt": "果実の成熟を促進する、気体の植物ホルモンは？",
+  "answer": "エチレン",
+  "reading": "えちれん",
+  "explanation": "リンゴと一緒に置くと他の果物が早く熟すのはこのためだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0178",
+  "level": 8,
+  "category": "植物の反応",
+  "prompt": "赤色光と遠赤色光を受容し、光発芽種子の発芽などにかかわる光受容体は？",
+  "answer": "フィトクロム",
+  "reading": "ふぃとくろむ",
+  "explanation": "赤色光で発芽促進、遠赤色光で抑制されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0179",
+  "level": 8,
+  "category": "植物の反応",
+  "prompt": "青色光を受容し、光屈性や気孔の開口にかかわる光受容体は？",
+  "answer": "フォトトロピン",
+  "reading": "ふぉととろぴん",
+  "explanation": "クリプトクロムも青色光受容体なので区別しよう。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0180",
+  "level": 8,
+  "category": "植物の反応",
+  "prompt": "葉でつくられて師管を通って茎頂に運ばれ、花芽形成を促す物質の総称は？",
+  "answer": "フロリゲン",
+  "reading": "ふろりげん",
+  "explanation": "その正体はFTタンパク質などだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0181",
+  "level": 8,
+  "category": "植物の反応",
+  "prompt": "連続した暗期が一定の長さ以上になると花芽を形成する植物は？",
+  "answer": "短日植物",
+  "reading": "たんじつしょくぶつ",
+  "explanation": "アサガオやキクなどが代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0182",
+  "level": 8,
+  "category": "植物の反応",
+  "prompt": "連続した暗期が一定の長さ以下になると花芽を形成する植物は？",
+  "answer": "長日植物",
+  "reading": "ちょうじつしょくぶつ",
+  "explanation": "アブラナやホウレンソウなどが代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0183",
+  "level": 8,
+  "category": "植物の反応",
+  "prompt": "日長に関係なく花芽を形成する植物は？",
+  "answer": "中性植物",
+  "reading": "ちゅうせいしょくぶつ",
+  "explanation": "トマトやトウモロコシなどが代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0184",
+  "level": 8,
+  "category": "植物の反応",
+  "prompt": "生物が日長の変化に反応する性質は？",
+  "answer": "光周性",
+  "reading": "こうしゅうせい",
+  "explanation": "花芽形成が代表的な例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0185",
+  "level": 8,
+  "category": "植物の反応",
+  "prompt": "暗期の途中で短時間光を当てて、連続した暗期を途切れさせる処理は？",
+  "answer": "光中断",
+  "reading": "ひかりちゅうだん",
+  "explanation": "短日植物では花芽形成が起こらなくなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0186",
+  "level": 8,
+  "category": "植物の反応",
+  "prompt": "一定期間低温にさらされることで花芽形成が促進される現象は？",
+  "answer": "春化",
+  "reading": "しゅんか",
+  "explanation": "秋まきコムギなどでみられるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0187",
+  "level": 8,
+  "category": "植物の反応",
+  "prompt": "植物が刺激の方向に対して一定の向きに屈曲する性質は？",
+  "answer": "屈性",
+  "reading": "くっせい",
+  "explanation": "刺激の方向と関係ない運動は傾性というよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0188",
+  "level": 8,
+  "category": "植物の反応",
+  "prompt": "オーキシンが茎の先端側から基部側へ一方向に輸送される性質は？",
+  "answer": "極性移動",
+  "reading": "きょくせいいどう",
+  "explanation": "輸送タンパク質の配置によって起こるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0189",
+  "level": 8,
+  "category": "植物の反応",
+  "prompt": "被子植物で、精細胞の一方が卵細胞と、もう一方が中央細胞と受精する現象は？",
+  "answer": "重複受精",
+  "reading": "じゅうふくじゅせい",
+  "explanation": "中央細胞との受精で胚乳ができるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0190",
+  "level": 8,
+  "category": "植物の反応",
+  "prompt": "花の4種類の器官の形成を、3つのクラスの調節遺伝子の組み合わせで説明するモデルは？",
+  "answer": "ABCモデル",
+  "reading": "abcもでる",
+  "explanation": "シロイヌナズナの研究から提唱されたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0191",
+  "level": 8,
+  "category": "発生",
+  "prompt": "ショウジョウバエで、mRNAが卵の前端に局在し、からだの前後軸の決定にかかわる母性効果遺伝子は？",
+  "answer": "ビコイド遺伝子",
+  "reading": "びこいどいでんし",
+  "explanation": "後端にはナノス遺伝子のmRNAが局在するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0192",
+  "level": 8,
+  "category": "発生",
+  "prompt": "突然変異によって触角の位置に脚が生じるなど、ある器官が別の器官に置き換わる原因となる調節遺伝子は？",
+  "answer": "ホメオティック遺伝子",
+  "reading": "ほめおてぃっくいでんし",
+  "explanation": "体節ごとの器官の形成を決めているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0193",
+  "level": 8,
+  "category": "発生",
+  "prompt": "自己複製能力と、さまざまな細胞に分化する能力をもつ未分化な細胞は？",
+  "answer": "幹細胞",
+  "reading": "かんさいぼう",
+  "explanation": "造血幹細胞などが体内にもあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0194",
+  "level": 8,
+  "category": "発生",
+  "prompt": "体細胞に数種類の遺伝子を導入してつくられた多能性幹細胞の略称は？",
+  "answer": "iPS細胞",
+  "reading": "ipsさいぼう",
+  "explanation": "山中伸弥らが作製したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0195",
+  "level": 8,
+  "category": "発生",
+  "prompt": "初期胚の内部細胞塊を培養してつくられる多能性幹細胞の略称は？",
+  "answer": "ES細胞",
+  "reading": "esさいぼう",
+  "explanation": "胚を壊してつくるという倫理的な課題があるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0196",
+  "level": 8,
+  "category": "発生",
+  "prompt": "カエルの受精卵で、精子進入点の反対側の赤道付近に現れる灰色の部分は？",
+  "answer": "灰色三日月環",
+  "reading": "はいいろみかづきかん",
+  "explanation": "将来の背側になる部分だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0197",
+  "level": 8,
+  "category": "遺伝子",
+  "prompt": "DNAの特定の領域に結合し、遺伝子の転写を調節するタンパク質で、転写調節因子とも呼ばれるものは？",
+  "answer": "調節タンパク質",
+  "reading": "ちょうせつたんぱくしつ",
+  "explanation": "調節遺伝子からつくられるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0198",
+  "level": 8,
+  "category": "遺伝子",
+  "prompt": "RNAポリメラーゼが結合する、転写の開始に必要なDNAの領域は？",
+  "answer": "プロモーター",
+  "reading": "ぷろもーたー",
+  "explanation": "遺伝子の上流にあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0199",
+  "level": 8,
+  "category": "遺伝子",
+  "prompt": "原核生物で、1つのプロモーターのもとでまとめて転写される複数の遺伝子のまとまりは？",
+  "answer": "オペロン",
+  "reading": "おぺろん",
+  "explanation": "ジャコブとモノーがラクトース分解の研究から提唱したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0200",
+  "level": 8,
+  "category": "遺伝子",
+  "prompt": "大腸菌のラクトース分解にかかわる遺伝子群で、リプレッサーが結合するDNAの領域は？",
+  "answer": "オペレーター",
+  "reading": "おぺれーたー",
+  "explanation": "プロモーターの近くにあり、リプレッサーが結合するとRNAポリメラーゼが転写できなくなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0201",
+  "level": 8,
+  "category": "遺伝子",
+  "prompt": "オペレーターに結合して転写を抑制する調節タンパク質は？",
+  "answer": "リプレッサー",
+  "reading": "りぷれっさー",
+  "explanation": "抑制因子ともいうよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0202",
+  "level": 8,
+  "category": "遺伝子",
+  "prompt": "個体間でみられる、塩基配列中の1塩基単位の違いで、SNPとも呼ばれるものは？",
+  "answer": "一塩基多型",
+  "reading": "いちえんきたけい",
+  "explanation": "体質の個人差などにかかわるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0203",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "生物の形質が、世代を重ねるにつれて変化していくことは？",
+  "answer": "進化",
+  "reading": "しんか",
+  "explanation": "個体ではなく集団に起こる変化だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0204",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "集団内の遺伝子頻度が、偶然によって世代ごとに変動する現象は？",
+  "answer": "遺伝的浮動",
+  "reading": "いでんてきふどう",
+  "explanation": "小さな集団ほど影響が大きいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0205",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "生存や繁殖に有利な形質をもつ個体がより多くの子を残すことで起こる進化のしくみは？",
+  "answer": "自然選択",
+  "reading": "しぜんせんたく",
+  "explanation": "ダーウィンが提唱したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0206",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "ある集団がもっている遺伝子全体を何という？",
+  "answer": "遺伝子プール",
+  "reading": "いでんしぷーる",
+  "explanation": "その中の各対立遺伝子の割合が遺伝子頻度だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0207",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "大きな集団で突然変異・選択・移出入などがなければ、遺伝子頻度は世代を経ても変化しないという法則は？",
+  "answer": "ハーディ・ワインベルグの法則",
+  "reading": "はーでぃわいんべるぐのほうそく",
+  "explanation": "進化が起こらない条件を示した法則だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0208",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "集団が分かれて互いに交配しなくなり、新しい種が生じることを何という？",
+  "answer": "種分化",
+  "reading": "しゅぶんか",
+  "explanation": "地理的隔離がきっかけになることが多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0209",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "集団間で交配ができない、あるいは子に生殖能力がないなど、遺伝子の交流がなくなった状態は？",
+  "answer": "生殖的隔離",
+  "reading": "せいしょくてきかくり",
+  "explanation": "これが成立すると別の種とみなされるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0210",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "ヒトの腕とクジラの胸びれのように、形やはたらきは違っても発生起源が同じ器官は？",
+  "answer": "相同器官",
+  "reading": "そうどうきかん",
+  "explanation": "共通の祖先をもつ証拠になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0211",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "鳥の翼と昆虫のはねのように、起源は異なるがはたらきが似ている器官は？",
+  "answer": "相似器官",
+  "reading": "そうじきかん",
+  "explanation": "相同器官と混同しないようにしよう。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0212",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "DNAの変化の多くは生存に有利でも不利でもなく、偶然によって集団に広まるとする説は？",
+  "answer": "中立説",
+  "reading": "ちゅうりつせつ",
+  "explanation": "木村資生が提唱したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0213",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "塩基配列やアミノ酸配列の変化速度がほぼ一定であることを利用し、生物が分岐した年代を推定する考え方は？",
+  "answer": "分子時計",
+  "reading": "ぶんしどけい",
+  "explanation": "分子系統樹の作成にも使われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0214",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "生物を細菌・アーキア・真核生物の3つに分けたときの、界より上の分類階級は？",
+  "answer": "ドメイン",
+  "reading": "どめいん",
+  "explanation": "ウーズが提唱したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0215",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "メタン菌や高度好塩菌などを含み、細菌とは別のドメインに分類される原核生物で、古細菌とも呼ばれるものは？",
+  "answer": "アーキア",
+  "reading": "あーきあ",
+  "explanation": "真核生物に近い特徴もあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0216",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "ミトコンドリアや葉緑体は、他の原核生物が細胞内に取り込まれて共生したものに由来するという説は？",
+  "answer": "細胞内共生説",
+  "reading": "さいぼうないきょうせいせつ",
+  "explanation": "どちらも独自のDNAをもつことが根拠の一つだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0217",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "生物の種名を、属名と種小名の2語で表す方法は？",
+  "answer": "二名法",
+  "reading": "にめいほう",
+  "explanation": "リンネが確立したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0219",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "地層中に残された、過去の生物の遺骸や生活の痕跡は？",
+  "answer": "化石",
+  "reading": "かせき",
+  "explanation": "足跡やふんなども含まれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0220",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "共通の祖先から、さまざまな環境に適応して多様な形態の種に分かれていく現象は？",
+  "answer": "適応放散",
+  "reading": "てきおうほうさん",
+  "explanation": "オーストラリアの有袋類が有名な例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0221",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "異なる系統の生物が、似た環境に適応して似た形態をもつようになる現象で、収れんとも呼ばれるものは？",
+  "answer": "収束進化",
+  "reading": "しゅうそくしんか",
+  "explanation": "サメとイルカの体形が似ているのが例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0222",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "2種の生物が互いに影響を及ぼしあいながら進化する現象は？",
+  "answer": "共進化",
+  "reading": "きょうしんか",
+  "explanation": "花とそれを訪れる昆虫の関係が代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0223",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "親指が他の指と向かい合い、物をつかむのに適した霊長類の特徴は？",
+  "answer": "拇指対向性",
+  "reading": "ぼしたいこうせい",
+  "explanation": "樹上生活への適応と考えられているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0224",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "配偶相手の獲得をめぐって起こる選択で、クジャクの雄の派手な羽などを説明するものは？",
+  "answer": "性選択",
+  "reading": "せいせんたく",
+  "explanation": "雌による選り好みや雄どうしの競争で起こるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0225",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "自分の子だけでなく、血縁個体を通じて残す遺伝子も含めて考えた適応度は？",
+  "answer": "包括適応度",
+  "reading": "ほうかつてきおうど",
+  "explanation": "ハチなどの利他行動の説明に使われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0226",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "2個体の間で、ある遺伝子を共通祖先から受け継いで共有している確率は？",
+  "answer": "血縁度",
+  "reading": "けつえんど",
+  "explanation": "親子や兄弟姉妹の間では0.5だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0227",
+  "level": 9,
+  "category": "進化と系統",
+  "prompt": "生命誕生の初期には、RNAが遺伝情報と触媒の両方の働きを担っていたとする考え方は？",
+  "answer": "RNAワールド",
+  "reading": "rnaわーるど",
+  "explanation": "触媒作用をもつRNA（リボザイム）の発見が根拠の一つだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0228",
+  "level": 10,
+  "category": "生態系",
+  "prompt": "ある地域に生活する同じ種の個体の集まりは？",
+  "answer": "個体群",
+  "reading": "こたいぐん",
+  "explanation": "異なる種の個体群の集まりは生物群集というよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0229",
+  "level": 10,
+  "category": "生態系",
+  "prompt": "単位面積あたり、または単位空間あたりの個体数は？",
+  "answer": "個体群密度",
+  "reading": "こたいぐんみつど",
+  "explanation": "密度が高くなると成長が抑えられる密度効果が現れるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0230",
+  "level": 10,
+  "category": "生態系",
+  "prompt": "個体群密度の変化によって、個体の形態や行動が大きく変化する現象は？",
+  "answer": "相変異",
+  "reading": "そうへんい",
+  "explanation": "トノサマバッタの孤独相と群生相が有名だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0231",
+  "level": 10,
+  "category": "生態系",
+  "prompt": "ある環境で、個体群が維持できる最大の個体数は？",
+  "answer": "環境収容力",
+  "reading": "かんきょうしゅうようりょく",
+  "explanation": "個体数はここに近づくと増えにくくなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0232",
+  "level": 10,
+  "category": "生態系",
+  "prompt": "捕獲した個体に印をつけて放し、再び捕獲した中の割合から個体数を推定する方法は？",
+  "answer": "標識再捕法",
+  "reading": "ひょうしきさいほほう",
+  "explanation": "よく動き回る動物の個体数推定に使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0233",
+  "level": 10,
+  "category": "生態系",
+  "prompt": "食物や生活空間など、ある種が生態系の中で占める位置で、ニッチとも呼ばれるものは？",
+  "answer": "生態的地位",
+  "reading": "せいたいてきちい",
+  "explanation": "生態的地位が重なる種どうしは競争が激しくなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0234",
+  "level": 10,
+  "category": "生態系",
+  "prompt": "生態的地位が似た2種が同じ場所にいると、一方が排除されてしまう現象は？",
+  "answer": "競争的排除",
+  "reading": "きょうそうてきはいじょ",
+  "explanation": "すみわけや食いわけで共存することもあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0235",
+  "level": 10,
+  "category": "生態系",
+  "prompt": "数は少なくても、生態系のバランスを保つのに大きな影響をもつ種は？",
+  "answer": "キーストーン種",
+  "reading": "きーすとーんしゅ",
+  "explanation": "ラッコやヒトデの例が有名だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0236",
+  "level": 10,
+  "category": "生態系",
+  "prompt": "分解・排出されにくい物質が、食物連鎖を通じて体内に高濃度に蓄積していく現象は？",
+  "answer": "生物濃縮",
+  "reading": "せいぶつのうしゅく",
+  "explanation": "DDTや有機水銀などが問題になったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0237",
+  "level": 10,
+  "category": "生態系",
+  "prompt": "生産者が一定期間内に光合成でつくった有機物の総量は？",
+  "answer": "総生産量",
+  "reading": "そうせいさんりょう",
+  "explanation": "ここから呼吸量を引いたものが純生産量だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0238",
+  "level": 10,
+  "category": "生態系",
+  "prompt": "生産者の総生産量から呼吸量を差し引いたものは？",
+  "answer": "純生産量",
+  "reading": "じゅんせいさんりょう",
+  "explanation": "ここから枯死量と被食量を引くと成長量になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0239",
+  "level": 10,
+  "category": "生態系",
+  "prompt": "ある栄養段階の同化量が、一つ前の栄養段階の同化量に占める割合は？",
+  "answer": "エネルギー効率",
+  "reading": "えねるぎーこうりつ",
+  "explanation": "栄養段階が上がるほど高くなる傾向があるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0240",
+  "level": 10,
+  "category": "生態系",
+  "prompt": "マメ科植物の根に共生し、窒素固定を行う細菌は？",
+  "answer": "根粒菌",
+  "reading": "こんりゅうきん",
+  "explanation": "植物からは有機物をもらう相利共生の関係だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0241",
+  "level": 10,
+  "category": "生態系",
+  "prompt": "大気中の窒素をアンモニウムイオンに変える働きは？",
+  "answer": "窒素固定",
+  "reading": "ちっそこてい",
+  "explanation": "根粒菌やアゾトバクター、シアノバクテリアの一部が行うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0242",
+  "level": 10,
+  "category": "生態系",
+  "prompt": "アンモニウムイオンを亜硝酸イオンを経て硝酸イオンに変える細菌の総称は？",
+  "answer": "硝化菌",
+  "reading": "しょうかきん",
+  "explanation": "亜硝酸菌と硝酸菌からなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0243",
+  "level": 10,
+  "category": "生態系",
+  "prompt": "土壌中の硝酸イオンなどが窒素に変えられ、大気中に戻る働きは？",
+  "answer": "脱窒",
+  "reading": "だっちつ",
+  "explanation": "脱窒素細菌が行うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0244",
+  "level": 10,
+  "category": "生態系",
+  "prompt": "植物が根から吸収した無機窒素化合物からアミノ酸などの有機窒素化合物をつくる働きは？",
+  "answer": "窒素同化",
+  "reading": "ちっそどうか",
+  "explanation": "窒素固定と混同しないようにしよう。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0246",
+  "level": 10,
+  "category": "バイオテクノロジー",
+  "prompt": "DNAの特定の塩基配列を認識して切断する酵素は？",
+  "answer": "制限酵素",
+  "reading": "せいげんこうそ",
+  "explanation": "遺伝子組換えの「はさみ」の役割をするよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0247",
+  "level": 10,
+  "category": "バイオテクノロジー",
+  "prompt": "目的の遺伝子を細胞に導入するための運び手となるDNAやウイルスは？",
+  "answer": "ベクター",
+  "reading": "べくたー",
+  "explanation": "プラスミドがよく使われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0248",
+  "level": 10,
+  "category": "バイオテクノロジー",
+  "prompt": "DNAの特定の領域を、温度変化の繰り返しで短時間に大量に増幅する方法は？",
+  "answer": "PCR法",
+  "reading": "pcrほう",
+  "explanation": "耐熱性のDNAポリメラーゼを使うのがポイントだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0249",
+  "level": 10,
+  "category": "バイオテクノロジー",
+  "prompt": "寒天ゲルなどの中で電圧をかけ、DNA断片を長さによって分ける方法は？",
+  "answer": "電気泳動法",
+  "reading": "でんきえいどうほう",
+  "explanation": "DNAは負に帯電しているので陽極側へ移動するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0250",
+  "level": 10,
+  "category": "バイオテクノロジー",
+  "prompt": "オワンクラゲから発見され、遺伝子発現の目印に使われる緑色の蛍光タンパク質の略称は？",
+  "answer": "GFP",
+  "reading": "gfp",
+  "explanation": "下村脩がノーベル化学賞を受賞したよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0251",
+  "level": 10,
+  "category": "バイオテクノロジー",
+  "prompt": "ゲノム上の狙った塩基配列を切断するなどして、遺伝子を改変する技術は？",
+  "answer": "ゲノム編集",
+  "reading": "げのむへんしゅう",
+  "explanation": "CRISPR-Cas9がよく知られているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-seibutsu-0252",
+  "level": 10,
+  "category": "バイオテクノロジー",
+  "prompt": "細菌などがもつ、染色体とは別の小さな環状DNAは？",
+  "answer": "プラスミド",
+  "reading": "ぷらすみど",
+  "explanation": "自律的に複製され、ベクターとして利用されるよ。",
+  "review": "verified"
+ }
+]

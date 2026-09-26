@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" width="560" height="300" font-family="sans-serif">
+<rect width="560" height="300" fill="#fff"/>
+<defs><marker id="itpasssec0032md32f2f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d32f2f"/></marker></defs>
+<circle cx="60" cy="68" r="12" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<path d="M40,108 Q40,84 60,84 Q80,84 80,108 Z" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="60" y="130" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Aさん</text>
+<circle cx="500" cy="68" r="12" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<path d="M480,108 Q480,84 500,84 Q520,84 520,108 Z" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<text x="500" y="130" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Bさん</text>
+<line x1="90" y1="80" x2="470" y2="80" stroke="#bdbdbd" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="280" y="64" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#777" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >直接話しているつもり</text>
+<circle cx="280" cy="188" r="12" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<path d="M260,228 Q260,204 280,204 Q300,204 300,228 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<path d="M262,178 L268,164 L274,178 M286,178 L292,164 L298,178" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="80" y1="120" x2="250" y2="205" stroke="#d32f2f" stroke-width="2.5" marker-end="url(#itpasssec0032md32f2f)"/>
+<line x1="310" y1="205" x2="480" y2="120" stroke="#d32f2f" stroke-width="2.5" marker-end="url(#itpasssec0032md32f2f)"/>
+<text x="140" y="190" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Bさんのふり</text>
+<text x="420" y="190" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Aさんのふり</text>
+<text x="280" y="265" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >盗み見・書き換え</text>
+<circle cx="340" cy="215" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="340" y="216" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

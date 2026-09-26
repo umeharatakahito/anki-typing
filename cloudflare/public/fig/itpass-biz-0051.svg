@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" width="520" height="340" font-family="sans-serif">
+<rect width="520" height="340" fill="#fff"/>
+<defs><marker id="itpassbiz0051m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="60" y1="290" x2="480" y2="290" stroke="#37474f" stroke-width="2" marker-end="url(#itpassbiz0051m37474f)"/>
+<line x1="60" y1="290" x2="60" y2="30" stroke="#37474f" stroke-width="2" marker-end="url(#itpassbiz0051m37474f)"/>
+<text x="474" y="314" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >月</text>
+<text x="68" y="20" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >売上</text>
+<polyline points="70,272.222 105.455,270.444 140.909,274 176.364,268.667 211.818,272.222 247.273,270.444 282.727,268.667 318.182,272.222 353.636,270.444 389.091,268.667 424.545,270.444 460,268.667" fill="none" stroke="#1976d2" stroke-width="3" stroke-linejoin="round" />
+<circle cx="70" cy="272.222" r="3.5" fill="#1976d2" stroke="#fff" stroke-width="1" />
+<circle cx="105.455" cy="270.444" r="3.5" fill="#1976d2" stroke="#fff" stroke-width="1" />
+<circle cx="140.909" cy="274" r="3.5" fill="#1976d2" stroke="#fff" stroke-width="1" />
+<circle cx="176.364" cy="268.667" r="3.5" fill="#1976d2" stroke="#fff" stroke-width="1" />
+<circle cx="211.818" cy="272.222" r="3.5" fill="#1976d2" stroke="#fff" stroke-width="1" />
+<circle cx="247.273" cy="270.444" r="3.5" fill="#1976d2" stroke="#fff" stroke-width="1" />
+<circle cx="282.727" cy="268.667" r="3.5" fill="#1976d2" stroke="#fff" stroke-width="1" />
+<circle cx="318.182" cy="272.222" r="3.5" fill="#1976d2" stroke="#fff" stroke-width="1" />
+<circle cx="353.636" cy="270.444" r="3.5" fill="#1976d2" stroke="#fff" stroke-width="1" />
+<circle cx="389.091" cy="268.667" r="3.5" fill="#1976d2" stroke="#fff" stroke-width="1" />
+<circle cx="424.545" cy="270.444" r="3.5" fill="#1976d2" stroke="#fff" stroke-width="1" />
+<circle cx="460" cy="268.667" r="3.5" fill="#1976d2" stroke="#fff" stroke-width="1" />
+<polyline points="70,272.222 105.455,252.667 140.909,236.667 176.364,215.333 211.818,197.556 247.273,178 282.727,156.667 318.182,138.889 353.636,119.333 389.091,98 424.545,78.4444 460,57.1111" fill="none" stroke="#388e3c" stroke-width="3" stroke-linejoin="round" />
+<circle cx="70" cy="272.222" r="3.5" fill="#388e3c" stroke="#fff" stroke-width="1" />
+<circle cx="105.455" cy="252.667" r="3.5" fill="#388e3c" stroke="#fff" stroke-width="1" />
+<circle cx="140.909" cy="236.667" r="3.5" fill="#388e3c" stroke="#fff" stroke-width="1" />
+<circle cx="176.364" cy="215.333" r="3.5" fill="#388e3c" stroke="#fff" stroke-width="1" />
+<circle cx="211.818" cy="197.556" r="3.5" fill="#388e3c" stroke="#fff" stroke-width="1" />
+<circle cx="247.273" cy="178" r="3.5" fill="#388e3c" stroke="#fff" stroke-width="1" />
+<circle cx="282.727" cy="156.667" r="3.5" fill="#388e3c" stroke="#fff" stroke-width="1" />
+<circle cx="318.182" cy="138.889" r="3.5" fill="#388e3c" stroke="#fff" stroke-width="1" />
+<circle cx="353.636" cy="119.333" r="3.5" fill="#388e3c" stroke="#fff" stroke-width="1" />
+<circle cx="389.091" cy="98" r="3.5" fill="#388e3c" stroke="#fff" stroke-width="1" />
+<circle cx="424.545" cy="78.4444" r="3.5" fill="#388e3c" stroke="#fff" stroke-width="1" />
+<circle cx="460" cy="57.1111" r="3.5" fill="#388e3c" stroke="#fff" stroke-width="1" />
+<polyline points="70,76.6667 105.455,75.0667 140.909,73.4667 176.364,71.8667 211.818,70.2667 247.273,68.6667 282.727,67.0667 318.182,65.4667 353.636,63.8667 389.091,62.2667 424.545,60.6667 460,59.0667" fill="none" stroke="#d32f2f" stroke-width="3" stroke-linejoin="round" />
+<circle cx="70" cy="76.6667" r="3.5" fill="#d32f2f" stroke="#fff" stroke-width="1" />
+<circle cx="105.455" cy="75.0667" r="3.5" fill="#d32f2f" stroke="#fff" stroke-width="1" />
+<circle cx="140.909" cy="73.4667" r="3.5" fill="#d32f2f" stroke="#fff" stroke-width="1" />
+<circle cx="176.364" cy="71.8667" r="3.5" fill="#d32f2f" stroke="#fff" stroke-width="1" />
+<circle cx="211.818" cy="70.2667" r="3.5" fill="#d32f2f" stroke="#fff" stroke-width="1" />
+<circle cx="247.273" cy="68.6667" r="3.5" fill="#d32f2f" stroke="#fff" stroke-width="1" />
+<circle cx="282.727" cy="67.0667" r="3.5" fill="#d32f2f" stroke="#fff" stroke-width="1" />
+<circle cx="318.182" cy="65.4667" r="3.5" fill="#d32f2f" stroke="#fff" stroke-width="1" />
+<circle cx="353.636" cy="63.8667" r="3.5" fill="#d32f2f" stroke="#fff" stroke-width="1" />
+<circle cx="389.091" cy="62.2667" r="3.5" fill="#d32f2f" stroke="#fff" stroke-width="1" />
+<circle cx="424.545" cy="60.6667" r="3.5" fill="#d32f2f" stroke="#fff" stroke-width="1" />
+<circle cx="460" cy="59.0667" r="3.5" fill="#d32f2f" stroke="#fff" stroke-width="1" />
+<text x="282.727" y="250.444" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >月々の売上</text>
+<text x="287.273" y="178" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#388e3c" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >累計</text>
+<text x="282.727" y="45.0667" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >直近1年の移動合計</text>
+<text x="70" y="305" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1</text>
+<text x="176.364" y="305" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >4</text>
+<text x="282.727" y="305" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >7</text>
+<text x="389.091" y="305" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >10</text>
+<circle cx="40" cy="20" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="40" y="21" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" width="560" height="320" font-family="sans-serif">
+<rect width="560" height="320" fill="#fff"/>
+<defs><marker id="festg0026m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="50" y1="250" x2="530" y2="250" stroke="#37474f" stroke-width="2" marker-end="url(#festg0026m37474f)"/>
+<line x1="50" y1="250" x2="50" y2="30" stroke="#37474f" stroke-width="2" marker-end="url(#festg0026m37474f)"/>
+<text x="524" y="274" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >時間</text>
+<text x="58" y="20" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >売上</text>
+<text x="96.4" y="282" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >導入期</text>
+<text x="193" y="282" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >成長期</text>
+<line x1="137.8" y1="50" x2="137.8" y2="250" stroke="#9e9e9e" stroke-width="1.5" stroke-dasharray="5 4"/>
+<rect x="248.2" y="50" width="151.8" height="200" rx="0" fill="#fff3e0" stroke="none" stroke-width="0" />
+<circle cx="324.1" cy="282" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="324.1" y="283" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<line x1="248.2" y1="50" x2="248.2" y2="250" stroke="#9e9e9e" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="457.5" y="282" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >衰退期</text>
+<line x1="400" y1="50" x2="400" y2="250" stroke="#9e9e9e" stroke-width="1.5" stroke-dasharray="5 4"/>
+<polyline points="55,249.828 60,249.777 65,249.712 70,249.631 75,249.53 80,249.403 85,249.246 90,249.052 95,248.814 100,248.524 105,248.171 110,247.746 115,247.235 120,246.624 125,245.899 130,245.042 135,244.036 140,242.86 145,241.494 150,239.915 155,238.103 160,236.032 165,233.682 170,231.028 175,228.051 180,224.73 185,221.048 190,216.991 195,212.549 200,207.716 205,202.492 210,196.883 215,190.9 220,184.565 225,177.902 230,170.948 235,163.746 240,156.346 245,148.806 250,141.192 255,133.574 260,126.03 265,118.64 270,111.488 275,104.657 280,98.2322 285,92.2951 290,86.9239 295,82.1911 300,78.1618 305,74.8928 310,72.4307 315,70.8109 320,70.0569 325,70.1799 330,71.1779 335,73.0365 340,75.7286 345,79.2156 350,83.448 355,88.3665 360,93.9037 365,99.9854 370,106.532 375,113.462 380,120.689 385,128.131 390,135.703 395,143.327 400,150.928 405,158.435 410,165.785 415,172.923 420,179.799 425,186.373 430,192.612 435,198.492 440,203.994 445,209.109 450,213.832 455,218.165 460,222.116 465,225.695 470,228.918 475,231.803 480,234.369 485,236.639 490,238.635 495,240.38 500,241.897 505,243.207 510,244.334 515,245.296" fill="none" stroke="#1976d2" stroke-width="3.5" stroke-linejoin="round" />
+</svg>

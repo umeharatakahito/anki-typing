@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 280" width="560" height="280" font-family="sans-serif">
+<rect width="560" height="280" fill="#fff"/>
+<rect x="28" y="190" width="84" height="44" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="70" y="212" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >ねこ</text>
+<rect x="128" y="190" width="84" height="44" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="170" y="212" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >が</text>
+<rect x="228" y="190" width="84" height="44" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="270" y="212" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >さかな</text>
+<rect x="328" y="190" width="84" height="44" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="370" y="212" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >を</text>
+<rect x="438" y="190" width="84" height="44" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="480" y="212" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >食べた</text>
+<path d="M480,188 Q275.0,45.5 70,188" fill="none" stroke="#f57c00" stroke-width="7.3" opacity="0.89"/>
+<path d="M480,188 Q325.0,70.5 170,188" fill="none" stroke="#f57c00" stroke-width="2.05" opacity="0.44"/>
+<path d="M480,188 Q375.0,95.5 270,188" fill="none" stroke="#f57c00" stroke-width="6.6" opacity="0.83"/>
+<path d="M480,188 Q425.0,120.5 370,188" fill="none" stroke="#f57c00" stroke-width="2.4" opacity="0.47"/>
+<text x="280" y="262" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >同じ文の中で、語どうしがどれだけ関係するかを計算（線の太さ）</text>
+<circle cx="30" cy="25" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="30" y="26" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

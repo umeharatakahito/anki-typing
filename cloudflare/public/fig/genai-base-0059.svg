@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" width="520" height="320" font-family="sans-serif">
+<rect width="520" height="320" fill="#fff"/>
+<line x1="80" y1="95" x2="200" y2="76.6667" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="80" y1="95" x2="200" y2="150" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="80" y1="95" x2="200" y2="223.333" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="80" y1="150" x2="200" y2="76.6667" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="80" y1="150" x2="200" y2="150" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="80" y1="150" x2="200" y2="223.333" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="80" y1="205" x2="200" y2="76.6667" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="80" y1="205" x2="200" y2="150" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="80" y1="205" x2="200" y2="223.333" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="200" y1="76.6667" x2="320" y2="113.333" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="200" y1="76.6667" x2="320" y2="150" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="200" y1="76.6667" x2="320" y2="186.667" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="200" y1="150" x2="320" y2="113.333" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="200" y1="150" x2="320" y2="150" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="200" y1="150" x2="320" y2="186.667" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="200" y1="223.333" x2="320" y2="113.333" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="200" y1="223.333" x2="320" y2="150" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="200" y1="223.333" x2="320" y2="186.667" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="320" y1="113.333" x2="440" y2="113.333" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="320" y1="113.333" x2="440" y2="186.667" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="320" y1="150" x2="440" y2="113.333" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="320" y1="150" x2="440" y2="186.667" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="320" y1="186.667" x2="440" y2="113.333" stroke="#90a4ae" stroke-width="1.3"/>
+<line x1="320" y1="186.667" x2="440" y2="186.667" stroke="#90a4ae" stroke-width="1.3"/>
+<circle cx="80" cy="95" r="16" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="80" cy="150" r="16" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="80" cy="205" r="16" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="200" cy="76.6667" r="16" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="200" cy="113.333" r="16" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="191" y1="104.333" x2="209" y2="122.333" stroke="#d32f2f" stroke-width="3"/>
+<line x1="209" y1="104.333" x2="191" y2="122.333" stroke="#d32f2f" stroke-width="3"/>
+<circle cx="200" cy="150" r="16" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="200" cy="186.667" r="16" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="191" y1="177.667" x2="209" y2="195.667" stroke="#d32f2f" stroke-width="3"/>
+<line x1="209" y1="177.667" x2="191" y2="195.667" stroke="#d32f2f" stroke-width="3"/>
+<circle cx="200" cy="223.333" r="16" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="320" cy="76.6667" r="16" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="311" y1="67.6667" x2="329" y2="85.6667" stroke="#d32f2f" stroke-width="3"/>
+<line x1="329" y1="67.6667" x2="311" y2="85.6667" stroke="#d32f2f" stroke-width="3"/>
+<circle cx="320" cy="113.333" r="16" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="320" cy="150" r="16" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="320" cy="186.667" r="16" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="320" cy="223.333" r="16" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="311" y1="214.333" x2="329" y2="232.333" stroke="#d32f2f" stroke-width="3"/>
+<line x1="329" y1="214.333" x2="311" y2="232.333" stroke="#d32f2f" stroke-width="3"/>
+<circle cx="440" cy="113.333" r="16" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<circle cx="440" cy="186.667" r="16" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="260" y="295" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >学習のたびに、ランダムに選んだニューロンを休ませる</text>
+<circle cx="30" cy="20" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="30" y="21" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

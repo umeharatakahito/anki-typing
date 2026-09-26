@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" width="520" height="360" font-family="sans-serif">
+<rect width="520" height="360" fill="#fff"/>
+<defs><marker id="itpassbiz0018m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="60" y1="300" x2="480" y2="300" stroke="#37474f" stroke-width="2" marker-end="url(#itpassbiz0018m37474f)"/>
+<line x1="60" y1="300" x2="60" y2="30" stroke="#37474f" stroke-width="2" marker-end="url(#itpassbiz0018m37474f)"/>
+<text x="474" y="324" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >売上高</text>
+<text x="68" y="20" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >金額</text>
+<line x1="60" y1="210" x2="460" y2="210" stroke="#90a4ae" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="390" y="226" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >固定費</text>
+<line x1="60" y1="210" x2="460" y2="10" stroke="#d32f2f" stroke-width="3"/>
+<text x="465" y="-6" font-size="16" text-anchor="end" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >総費用</text>
+<line x1="60" y1="300" x2="310" y2="50" stroke="#1976d2" stroke-width="3"/>
+<text x="305" y="38" font-size="16" text-anchor="end" dominant-baseline="middle" fill="#1976d2" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >売上高</text>
+<polygon points="240,120 310,50 310,85" fill="#c8e6c9" stroke="none" stroke-width="0" stroke-linejoin="round" opacity="0.8"/>
+<text x="292" y="90" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >利益</text>
+<polygon points="60,300 240,120 60,210" fill="#ffcdd2" stroke="none" stroke-width="0" stroke-linejoin="round" opacity="0.8"/>
+<text x="115" y="230" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >損失</text>
+<line x1="60" y1="300" x2="310" y2="50" stroke="#1976d2" stroke-width="3"/>
+<line x1="60" y1="210" x2="460" y2="10" stroke="#d32f2f" stroke-width="3"/>
+<line x1="240" y1="120" x2="240" y2="300" stroke="#f57c00" stroke-width="2" stroke-dasharray="5 4"/>
+<circle cx="240" cy="120" r="8" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<line x1="280" y1="200" x2="242" y2="128" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="242" cy="128" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="280" cy="200" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="280" y="201" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

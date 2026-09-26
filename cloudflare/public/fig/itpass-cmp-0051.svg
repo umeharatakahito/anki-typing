@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="itpasscmp0051m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="itpasscmp0051m9e9e9e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9e9e9e"/></marker><marker id="itpasscmp0051mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="20" y="115" width="90" height="60" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="65" y="145" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >入力</text>
+<rect x="180" y="40" width="170" height="70" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="265" y="65.4" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >主系</text>
+<text x="265" y="84.6" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >処理中</text>
+<rect x="180" y="190" width="170" height="70" rx="6" fill="#f5f5f5" stroke="#9e9e9e" stroke-width="2" />
+<text x="265" y="215.4" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >待機系</text>
+<text x="265" y="234.6" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >（控えている）</text>
+<line x1="110" y1="140" x2="175" y2="85" stroke="#37474f" stroke-width="2.5" marker-end="url(#itpasscmp0051m37474f)"/>
+<line x1="110" y1="150" x2="175" y2="215" stroke="#9e9e9e" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#itpasscmp0051m9e9e9e)"/>
+<line x1="350" y1="75" x2="440" y2="75" stroke="#37474f" stroke-width="2.5" marker-end="url(#itpasscmp0051m37474f)"/>
+<text x="470" y="75" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >出力</text>
+<path d="M380,110 Q420,150 380,190" fill="none" stroke="#f57c00" stroke-width="2.5" marker-end="url(#itpasscmp0051mf57c00)"/>
+<text x="470" y="150" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >故障したら</text>
+<text x="470" y="170" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >切り替え</text>
+<circle cx="30" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="30" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

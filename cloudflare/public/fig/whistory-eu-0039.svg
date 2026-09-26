@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 330" width="560" height="330" font-family="sans-serif">
+<rect width="560" height="330" fill="#fff"/>
+<rect x="110" y="14" width="145" height="34" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="1.5" />
+<text x="182.5" y="31" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >畑A</text>
+<rect x="255" y="14" width="145" height="34" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="1.5" />
+<text x="327.5" y="31" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >畑B</text>
+<rect x="400" y="14" width="145" height="34" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="1.5" />
+<text x="472.5" y="31" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >畑C</text>
+<rect x="20" y="50" width="90" height="80" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="1.5" />
+<text x="65" y="90" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >1年目</text>
+<rect x="110" y="50" width="145" height="80" rx="0" fill="#ffe082" stroke="#f9a825" stroke-width="1.5" />
+<text x="182.5" y="81.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >秋まき</text>
+<text x="182.5" y="98.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >（小麦など）</text>
+<rect x="255" y="50" width="145" height="80" rx="0" fill="#c5e1a5" stroke="#388e3c" stroke-width="1.5" />
+<text x="327.5" y="81.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >春まき</text>
+<text x="327.5" y="98.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >（大麦など）</text>
+<rect x="400" y="50" width="145" height="80" rx="0" fill="#e0e0e0" stroke="#757575" stroke-width="1.5" />
+<text x="472.5" y="81.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >休ませる</text>
+<text x="472.5" y="98.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >（家畜を放牧）</text>
+<rect x="20" y="130" width="90" height="80" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="1.5" />
+<text x="65" y="170" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >2年目</text>
+<rect x="110" y="130" width="145" height="80" rx="0" fill="#c5e1a5" stroke="#388e3c" stroke-width="1.5" />
+<text x="182.5" y="161.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >春まき</text>
+<text x="182.5" y="178.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >（大麦など）</text>
+<rect x="255" y="130" width="145" height="80" rx="0" fill="#e0e0e0" stroke="#757575" stroke-width="1.5" />
+<text x="327.5" y="161.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >休ませる</text>
+<text x="327.5" y="178.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >（家畜を放牧）</text>
+<rect x="400" y="130" width="145" height="80" rx="0" fill="#ffe082" stroke="#f9a825" stroke-width="1.5" />
+<text x="472.5" y="161.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >秋まき</text>
+<text x="472.5" y="178.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >（小麦など）</text>
+<rect x="20" y="210" width="90" height="80" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="1.5" />
+<text x="65" y="250" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >3年目</text>
+<rect x="110" y="210" width="145" height="80" rx="0" fill="#e0e0e0" stroke="#757575" stroke-width="1.5" />
+<text x="182.5" y="241.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >休ませる</text>
+<text x="182.5" y="258.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >（家畜を放牧）</text>
+<rect x="255" y="210" width="145" height="80" rx="0" fill="#ffe082" stroke="#f9a825" stroke-width="1.5" />
+<text x="327.5" y="241.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >秋まき</text>
+<text x="327.5" y="258.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >（小麦など）</text>
+<rect x="400" y="210" width="145" height="80" rx="0" fill="#c5e1a5" stroke="#388e3c" stroke-width="1.5" />
+<text x="472.5" y="241.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >春まき</text>
+<text x="472.5" y="258.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >（大麦など）</text>
+<text x="327.5" y="316" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >村の耕地を分けて、年ごとに使い方を切り替える</text>
+<circle cx="30" cy="22" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="30" y="23" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

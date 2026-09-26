@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" width="520" height="360" font-family="sans-serif">
+<rect width="520" height="360" fill="#fff"/>
+<rect x="110" y="20" width="230" height="42" rx="4" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="225" y="41" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >アプリケーション層</text>
+<text x="85" y="41" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >第7層</text>
+<text x="360" y="41" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >HTTP・SMTP</text>
+<rect x="110" y="66" width="230" height="42" rx="4" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="225" y="87" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >プレゼンテーション層</text>
+<text x="85" y="87" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >第6層</text>
+<rect x="110" y="112" width="230" height="42" rx="4" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="225" y="133" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >セッション層</text>
+<text x="85" y="133" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >第5層</text>
+<rect x="110" y="158" width="230" height="42" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="85" y="179" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >第4層</text>
+<text x="360" y="179" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >TCP・UDP</text>
+<circle cx="225" cy="179" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="225" y="180" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<rect x="110" y="204" width="230" height="42" rx="4" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="225" y="225" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >ネットワーク層</text>
+<text x="85" y="225" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >第3層</text>
+<text x="360" y="225" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >IP</text>
+<rect x="110" y="250" width="230" height="42" rx="4" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="225" y="271" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >データリンク層</text>
+<text x="85" y="271" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >第2層</text>
+<text x="360" y="271" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >イーサネット</text>
+<rect x="110" y="296" width="230" height="42" rx="4" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="225" y="317" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >物理層</text>
+<text x="85" y="317" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >第1層</text>
+<text x="360" y="317" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ケーブル</text>
+</svg>

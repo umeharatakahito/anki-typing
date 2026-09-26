@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" width="520" height="340" font-family="sans-serif">
+<rect width="520" height="340" fill="#fff"/>
+<line x1="70" y1="280" x2="440" y2="280" stroke="#37474f" stroke-width="2"/>
+<line x1="70" y1="280" x2="70" y2="50" stroke="#37474f" stroke-width="2"/>
+<line x1="440" y1="280" x2="440" y2="50" stroke="#37474f" stroke-width="2"/>
+<text x="62" y="32" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >件数</text>
+<text x="446" y="32" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >累積比率</text>
+<text x="448" y="280" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >0%</text>
+<text x="448" y="165" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >50%</text>
+<line x1="70" y1="165" x2="440" y2="165" stroke="#bbb" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="448" y="50" font-size="13" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >100%</text>
+<line x1="70" y1="50" x2="440" y2="50" stroke="#bbb" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="76" y="183.4" width="49.6667" height="96.6" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<text x="100.833" y="296" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >A</text>
+<rect x="137.667" y="222.5" width="49.6667" height="57.5" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<text x="162.5" y="296" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >B</text>
+<rect x="199.333" y="245.5" width="49.6667" height="34.5" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<text x="224.167" y="296" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >C</text>
+<rect x="261" y="259.3" width="49.6667" height="20.7" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<text x="285.833" y="296" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >D</text>
+<rect x="322.667" y="266.2" width="49.6667" height="13.8" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<text x="347.5" y="296" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >E</text>
+<rect x="384.333" y="273.1" width="49.6667" height="6.9" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<text x="409.167" y="296" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >F</text>
+<polyline points="70,280 131.667,183.4 193.333,125.9 255,91.4 316.667,70.7 378.333,56.9 440,50" fill="none" stroke="#f57c00" stroke-width="3" stroke-linejoin="round" />
+<circle cx="131.667" cy="183.4" r="4.5" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<circle cx="193.333" cy="125.9" r="4.5" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<circle cx="255" cy="91.4" r="4.5" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<circle cx="316.667" cy="70.7" r="4.5" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<circle cx="378.333" cy="56.9" r="4.5" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<circle cx="440" cy="50" r="4.5" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<text x="255" y="320" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >不良の原因（多い順）</text>
+<circle cx="480" cy="300" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="480" y="301" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

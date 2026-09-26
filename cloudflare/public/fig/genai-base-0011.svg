@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 330" width="500" height="330" font-family="sans-serif">
+<rect width="500" height="330" fill="#fff"/>
+<ellipse cx="130" cy="110" rx="85" ry="62" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" stroke-dasharray="6 4"/>
+<ellipse cx="350" cy="100" rx="85" ry="62" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" stroke-dasharray="6 4"/>
+<ellipse cx="250" cy="240" rx="85" ry="62" fill="#fff3e0" stroke="#f57c00" stroke-width="2" stroke-dasharray="6 4"/>
+<circle cx="119.594" cy="124.596" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.2" />
+<circle cx="120.558" cy="100.83" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.2" />
+<circle cx="94.6211" cy="104.365" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.2" />
+<circle cx="169.937" cy="120.658" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.2" />
+<circle cx="168.421" cy="116.453" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.2" />
+<circle cx="146.36" cy="115.373" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.2" />
+<circle cx="81.4965" cy="127.487" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.2" />
+<circle cx="150.204" cy="123.92" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.2" />
+<circle cx="89.2503" cy="80.7068" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.2" />
+<circle cx="96.5266" cy="97.7234" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.2" />
+<circle cx="142.8" cy="108.625" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.2" />
+<circle cx="150.273" cy="92.4078" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.2" />
+<circle cx="362.705" cy="111.344" r="6" fill="#388e3c" stroke="#fff" stroke-width="1.2" />
+<circle cx="330.578" cy="135.423" r="6" fill="#388e3c" stroke="#fff" stroke-width="1.2" />
+<circle cx="369.317" cy="129.036" r="6" fill="#388e3c" stroke="#fff" stroke-width="1.2" />
+<circle cx="326.412" cy="80.3971" r="6" fill="#388e3c" stroke="#fff" stroke-width="1.2" />
+<circle cx="335.629" cy="96.9075" r="6" fill="#388e3c" stroke="#fff" stroke-width="1.2" />
+<circle cx="375.344" cy="106.969" r="6" fill="#388e3c" stroke="#fff" stroke-width="1.2" />
+<circle cx="333.307" cy="75.1458" r="6" fill="#388e3c" stroke="#fff" stroke-width="1.2" />
+<circle cx="332.034" cy="129.577" r="6" fill="#388e3c" stroke="#fff" stroke-width="1.2" />
+<circle cx="318.574" cy="106.699" r="6" fill="#388e3c" stroke="#fff" stroke-width="1.2" />
+<circle cx="363.685" cy="66.2175" r="6" fill="#388e3c" stroke="#fff" stroke-width="1.2" />
+<circle cx="351.722" cy="131.809" r="6" fill="#388e3c" stroke="#fff" stroke-width="1.2" />
+<circle cx="294.558" cy="93.8706" r="6" fill="#388e3c" stroke="#fff" stroke-width="1.2" />
+<circle cx="245.779" cy="217.657" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.2" />
+<circle cx="270.449" cy="238.162" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.2" />
+<circle cx="204.584" cy="258.025" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.2" />
+<circle cx="274.252" cy="263.965" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.2" />
+<circle cx="297.567" cy="248.368" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.2" />
+<circle cx="254.042" cy="208.333" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.2" />
+<circle cx="273.769" cy="223.368" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.2" />
+<circle cx="234.315" cy="209.538" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.2" />
+<circle cx="214.438" cy="226.396" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.2" />
+<circle cx="281.106" cy="205.47" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.2" />
+<circle cx="201.761" cy="245.597" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.2" />
+<circle cx="296.65" cy="253.081" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.2" />
+<text x="250" y="318" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >正解を与えずに、似たものどうしをまとめる</text>
+<circle cx="30" cy="25" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="30" y="26" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 330" width="520" height="330" font-family="sans-serif">
+<rect width="520" height="330" fill="#fff"/>
+<defs><marker id="itpassdev0046m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="170" y="30" width="180" height="60" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="260" y="50.4" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >上位モジュール</text>
+<text x="260" y="69.6" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >（テストする）</text>
+<rect x="40" y="200" width="180" height="60" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<rect x="40" y="200" width="180" height="60" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="3" stroke-dasharray="8 5"/>
+<text x="130" y="230" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >仮のプログラム</text>
+<rect x="300" y="200" width="180" height="60" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="390" y="220.4" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >下位モジュール</text>
+<text x="390" y="239.6" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >（完成ずみ）</text>
+<line x1="230" y1="90" x2="150" y2="196" stroke="#37474f" stroke-width="2.5" marker-end="url(#itpassdev0046m37474f)"/>
+<line x1="290" y1="90" x2="370" y2="196" stroke="#37474f" stroke-width="2.5" marker-end="url(#itpassdev0046m37474f)"/>
+<text x="130" y="290" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >未完成の下位モジュールの代わり</text>
+<text x="210" y="140" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >呼び出す</text>
+<line x1="30" y1="160" x2="50" y2="200" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="50" cy="200" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="30" cy="160" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="30" y="161" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

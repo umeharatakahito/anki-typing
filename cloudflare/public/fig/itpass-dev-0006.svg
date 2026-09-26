@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" width="560" height="300" font-family="sans-serif">
+<rect width="560" height="300" fill="#fff"/>
+<rect x="110" y="30" width="52" height="30" rx="0" fill="#eceff1" stroke="#90a4ae" stroke-width="1" />
+<text x="136" y="45" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >1週</text>
+<rect x="162" y="30" width="52" height="30" rx="0" fill="#eceff1" stroke="#90a4ae" stroke-width="1" />
+<text x="188" y="45" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >2週</text>
+<rect x="214" y="30" width="52" height="30" rx="0" fill="#eceff1" stroke="#90a4ae" stroke-width="1" />
+<text x="240" y="45" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >3週</text>
+<rect x="266" y="30" width="52" height="30" rx="0" fill="#eceff1" stroke="#90a4ae" stroke-width="1" />
+<text x="292" y="45" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >4週</text>
+<rect x="318" y="30" width="52" height="30" rx="0" fill="#eceff1" stroke="#90a4ae" stroke-width="1" />
+<text x="344" y="45" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >5週</text>
+<rect x="370" y="30" width="52" height="30" rx="0" fill="#eceff1" stroke="#90a4ae" stroke-width="1" />
+<text x="396" y="45" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >6週</text>
+<rect x="422" y="30" width="52" height="30" rx="0" fill="#eceff1" stroke="#90a4ae" stroke-width="1" />
+<text x="448" y="45" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >7週</text>
+<rect x="474" y="30" width="52" height="30" rx="0" fill="#eceff1" stroke="#90a4ae" stroke-width="1" />
+<text x="500" y="45" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >8週</text>
+<rect x="20" y="60" width="90" height="40" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<text x="65" y="80" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >作業A</text>
+<rect x="110" y="60" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="162" y="60" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="214" y="60" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="266" y="60" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="318" y="60" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="370" y="60" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="422" y="60" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="474" y="60" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="113" y="66" width="98" height="12" rx="3" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<rect x="113" y="82" width="98" height="12" rx="3" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<rect x="20" y="100" width="90" height="40" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<text x="65" y="120" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >作業B</text>
+<rect x="110" y="100" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="162" y="100" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="214" y="100" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="266" y="100" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="318" y="100" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="370" y="100" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="422" y="100" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="474" y="100" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="165" y="106" width="150" height="12" rx="3" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<rect x="165" y="122" width="202" height="12" rx="3" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<rect x="20" y="140" width="90" height="40" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<text x="65" y="160" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >作業C</text>
+<rect x="110" y="140" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="162" y="140" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="214" y="140" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="266" y="140" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="318" y="140" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="370" y="140" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="422" y="140" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="474" y="140" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="269" y="146" width="98" height="12" rx="3" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<rect x="321" y="162" width="98" height="12" rx="3" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<rect x="20" y="180" width="90" height="40" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<text x="65" y="200" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >作業D</text>
+<rect x="110" y="180" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="162" y="180" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="214" y="180" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="266" y="180" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="318" y="180" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="370" y="180" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="422" y="180" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="474" y="180" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="321" y="186" width="150" height="12" rx="3" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<rect x="373" y="202" width="98" height="12" rx="3" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<rect x="20" y="220" width="90" height="40" rx="0" fill="#fff" stroke="#90a4ae" stroke-width="1" />
+<text x="65" y="240" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >作業E</text>
+<rect x="110" y="220" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="162" y="220" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="214" y="220" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="266" y="220" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="318" y="220" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="370" y="220" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="422" y="220" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="474" y="220" width="52" height="40" rx="0" fill="#fff" stroke="#e0e0e0" stroke-width="1" />
+<rect x="425" y="226" width="98" height="12" rx="3" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<rect x="120" y="272" width="30" height="12" rx="3" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<text x="158" y="278" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >予定</text>
+<rect x="220" y="272" width="30" height="12" rx="3" fill="#ffcc80" stroke="#f57c00" stroke-width="1.5" />
+<text x="258" y="278" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >実績</text>
+<line x1="370" y1="26" x2="370" y2="262" stroke="#d32f2f" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="370" y="18" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >今日</text>
+<circle cx="40" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="40" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

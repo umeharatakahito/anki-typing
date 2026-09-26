@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 260" width="560" height="260" font-family="sans-serif">
+<rect width="560" height="260" fill="#fff"/>
+<defs><marker id="fealgo0002m1976d2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1976d2"/></marker><marker id="fealgo0002md32f2f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d32f2f"/></marker></defs>
+<path d="M110,80 L450,80 M110,170 L450,170" fill="none" stroke="#f57c00" stroke-width="4" />
+<rect x="125" y="97" width="72" height="56" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="161" y="125" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >データ1</text>
+<rect x="205" y="97" width="72" height="56" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="241" y="125" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >データ2</text>
+<rect x="285" y="97" width="72" height="56" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="321" y="125" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >データ3</text>
+<rect x="365" y="97" width="72" height="56" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="401" y="125" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >データ4</text>
+<line x1="540" y1="125" x2="462" y2="125" stroke="#1976d2" stroke-width="3" marker-end="url(#fealgo0002m1976d2)"/>
+<text x="505" y="100" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >入れる</text>
+<line x1="100" y1="125" x2="20" y2="125" stroke="#d32f2f" stroke-width="3" marker-end="url(#fealgo0002md32f2f)"/>
+<text x="55" y="100" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >取り出す</text>
+<text x="280" y="200" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >先に入れたものから順に出る</text>
+<circle cx="30" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="30" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 380" width="560" height="380" font-family="sans-serif">
+<rect width="560" height="380" fill="#fff"/>
+<defs><marker id="whistorymodern0050m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<rect x="0" y="0" width="560" height="380" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" />
+<path d="M0,120 Q80,110 150,125 Q220,140 290,118 Q330,110 380,122 Q460,120 560,90 L560,380 L0,380 Z" fill="#f5e6c8" stroke="#a1887f" stroke-width="2" />
+<path d="M300,210 L318,210 L360,300 L420,380 L560,380 L560,330 L440,300 L372,245 L360,260 Z" fill="#bbdefb" stroke="#90a4ae" stroke-width="1.5" />
+<path d="M300,210 L318,210 L372,300 L470,380 L360,380 Z" fill="#bbdefb" stroke="none" stroke-width="0" />
+<path d="M150,380 Q160,300 170,220 Q175,170 140,128 M170,200 Q200,160 215,135" fill="none" stroke="#42a5f5" stroke-width="3" />
+<path d="M296,122 Q300,165 309,210" fill="none" stroke="#f57c00" stroke-width="6" />
+<text x="140" y="60" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >地中海</text>
+<text x="450" y="350" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >紅海</text>
+<text x="90" y="250" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >エジプト</text>
+<text x="420" y="190" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >シナイ半島</text>
+<text x="160" y="330" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#1565c0" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ナイル川</text>
+<circle cx="165" cy="230" r="5" fill="#37474f" stroke="#37474f" stroke-width="0" />
+<text x="130" y="222" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >カイロ</text>
+<line x1="430" y1="60" x2="520" y2="60" stroke="#37474f" stroke-width="2" marker-end="url(#whistorymodern0050m37474f)" marker-start="url(#whistorymodern0050m37474f)"/>
+<text x="475" y="40" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ヨーロッパ ↔ アジアの近道</text>
+<line x1="250" y1="170" x2="300" y2="165" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="300" cy="165" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="250" cy="170" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="250" y="171" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

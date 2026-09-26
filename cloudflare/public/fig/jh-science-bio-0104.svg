@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" width="560" height="320" font-family="sans-serif">
+<rect width="560" height="320" fill="#fff"/>
+<circle cx="120" cy="160" r="100" fill="#dcedc8" stroke="#558b2f" stroke-width="3" />
+<ellipse cx="185" cy="160" rx="13" ry="13" fill="#aed581" stroke="#33691e" stroke-width="1.5" />
+<ellipse cx="165.962" cy="205.962" rx="13" ry="13" fill="#aed581" stroke="#33691e" stroke-width="1.5" />
+<ellipse cx="120" cy="225" rx="13" ry="13" fill="#aed581" stroke="#33691e" stroke-width="1.5" />
+<ellipse cx="74.0381" cy="205.962" rx="13" ry="13" fill="#aed581" stroke="#33691e" stroke-width="1.5" />
+<ellipse cx="55" cy="160" rx="13" ry="13" fill="#aed581" stroke="#33691e" stroke-width="1.5" />
+<ellipse cx="74.0381" cy="114.038" rx="13" ry="13" fill="#aed581" stroke="#33691e" stroke-width="1.5" />
+<ellipse cx="120" cy="95" rx="13" ry="13" fill="#aed581" stroke="#33691e" stroke-width="1.5" />
+<ellipse cx="165.962" cy="114.038" rx="13" ry="13" fill="#aed581" stroke="#33691e" stroke-width="1.5" />
+<path d="M42,92 A104,104 0 0,1 198,92" fill="none" stroke="#f57c00" stroke-width="0"/>
+<circle cx="120" cy="160" r="65" fill="none" stroke="#f57c00" stroke-width="2.5" stroke-dasharray="5 4"/>
+<text x="120" y="282" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >茎の断面</text>
+<line x1="185" y1="160" x2="300" y2="80" stroke="#9e9e9e" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="185" y1="160" x2="300" y2="270" stroke="#9e9e9e" stroke-width="1.2" stroke-dasharray="4 3"/>
+<rect x="300" y="40" width="220" height="240" rx="12" fill="#f1f8e9" stroke="#558b2f" stroke-width="2" />
+<ellipse cx="360" cy="160" rx="42" ry="80" fill="#90caf9" stroke="#1976d2" stroke-width="2" />
+<ellipse cx="465" cy="160" rx="38" ry="70" fill="#c5e1a5" stroke="#388e3c" stroke-width="2" />
+<rect x="408" y="75" width="16" height="170" rx="4" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<text x="360" y="160" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >道管</text>
+<text x="465" y="160" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >師管</text>
+<text x="360" y="262" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >← 中心側</text>
+<text x="470" y="262" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >表皮側 →</text>
+<line x1="416" y1="48" x2="416" y2="75" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="416" cy="75" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="416" cy="48" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="416" y="49" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

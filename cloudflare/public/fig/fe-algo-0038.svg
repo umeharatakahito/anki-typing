@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" width="560" height="300" font-family="sans-serif">
+<rect width="560" height="300" fill="#fff"/>
+<defs><marker id="fealgo0038m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="fealgo0038mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<text x="95" y="22" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >表の位置</text>
+<rect x="60" y="40" width="70" height="48" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="1.5" />
+<text x="95" y="64" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >0</text>
+<rect x="60" y="88" width="70" height="48" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="1.5" />
+<text x="95" y="112" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >1</text>
+<rect x="60" y="136" width="70" height="48" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="1.5" />
+<text x="95" y="160" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >2</text>
+<rect x="60" y="184" width="70" height="48" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="1.5" />
+<text x="95" y="208" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >3</text>
+<rect x="60" y="232" width="70" height="48" rx="0" fill="#cfd8dc" stroke="#37474f" stroke-width="1.5" />
+<text x="95" y="256" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >4</text>
+<text x="95" y="290" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >位置＝キー÷5の余り</text>
+<rect x="170" y="46" width="60" height="36" rx="4" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="200" y="64" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >15</text>
+<rect x="230" y="46" width="24" height="36" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="130" y1="64" x2="168" y2="64" stroke="#37474f" stroke-width="2" marker-end="url(#fealgo0038m37474f)"/>
+<rect x="170" y="142" width="60" height="36" rx="4" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="200" y="160" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >12</text>
+<rect x="230" y="142" width="24" height="36" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="130" y1="160" x2="168" y2="160" stroke="#37474f" stroke-width="2.5" marker-end="url(#fealgo0038m37474f)"/>
+<rect x="295" y="142" width="60" height="36" rx="4" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="325" y="160" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >22</text>
+<rect x="355" y="142" width="24" height="36" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="254" y1="160" x2="293" y2="160" stroke="#f57c00" stroke-width="2.5" marker-end="url(#fealgo0038mf57c00)"/>
+<rect x="420" y="142" width="60" height="36" rx="4" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="450" y="160" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >7</text>
+<rect x="480" y="142" width="24" height="36" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="379" y1="160" x2="418" y2="160" stroke="#f57c00" stroke-width="2.5" marker-end="url(#fealgo0038mf57c00)"/>
+<line x1="480" y1="178" x2="504" y2="142" stroke="#f57c00" stroke-width="2"/>
+<rect x="170" y="238" width="60" height="36" rx="4" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="200" y="256" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >9</text>
+<rect x="230" y="238" width="24" height="36" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<line x1="130" y1="256" x2="168" y2="256" stroke="#37474f" stroke-width="2" marker-end="url(#fealgo0038m37474f)"/>
+<text x="390" y="125" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >同じ位置になったデータをつなぐ</text>
+<circle cx="530" cy="160" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="530" y="161" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

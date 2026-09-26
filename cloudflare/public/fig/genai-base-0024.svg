@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" width="520" height="320" font-family="sans-serif">
+<rect width="520" height="320" fill="#fff"/>
+<defs><marker id="genaibase0024m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="50" y1="270" x2="490" y2="270" stroke="#37474f" stroke-width="2" marker-end="url(#genaibase0024m37474f)"/>
+<line x1="50" y1="270" x2="50" y2="30" stroke="#37474f" stroke-width="2" marker-end="url(#genaibase0024m37474f)"/>
+<line x1="58.4" y1="228" x2="461.6" y2="102" stroke="#9e9e9e" stroke-width="2" stroke-dasharray="7 5"/>
+<polyline points="75.2,222.84 78.896,228.277 82.592,232.374 86.288,234.73 89.984,235.114 93.68,233.49 97.376,230.015 101.072,225.031 104.768,219.024 108.464,212.584 112.16,206.339 112.16,206.339 115.856,199.778 119.552,192.418 123.248,184.978 126.944,178.188 130.64,172.712 134.336,169.086 138.032,167.664 141.728,168.587 145.424,171.764 149.12,176.884 149.12,176.884 152.816,183.018 156.512,189.141 160.208,194.652 163.904,199.013 167.6,201.796 171.296,202.728 174.992,201.72 178.688,198.868 182.384,194.453 186.08,188.907 186.08,188.907 189.776,182.743 193.472,176.536 197.168,170.893 200.864,166.367 204.56,163.4 208.256,162.283 211.952,163.126 215.648,165.846 219.344,170.176 223.04,175.693 223.04,175.693 226.736,181.164 230.432,185.36 234.128,187.872 237.824,188.452 241.52,187.044 245.216,183.787 248.912,178.998 252.608,173.147 256.304,166.806 260,160.596 260,160.596 263.696,154.981 267.392,150.366 271.088,147.203 274.784,145.803 278.48,146.3 282.176,148.648 285.872,152.617 289.568,157.817 293.264,163.739 296.96,169.805 296.96,169.805 300.656,174.971 304.352,178.28 308.048,179.411 311.744,178.251 315.44,174.914 319.136,169.728 322.832,163.199 326.528,155.967 330.224,148.739 333.92,142.224 333.92,142.224 337.616,135.967 341.312,129.488 345.008,123.423 348.704,118.364 352.4,114.807 356.096,113.1 359.792,113.41 363.488,115.707 367.184,119.766 370.88,125.19 370.88,125.19 374.576,130.558 378.272,134.455 381.968,136.501 385.664,136.494 389.36,134.436 393.056,130.528 396.752,125.152 400.448,118.835 404.144,112.195 407.84,105.882 407.84,105.882 411.536,100.632 415.232,97.0774 418.928,95.5658 422.624,96.2452 426.32,99.0491 430.016,103.703 433.712,109.752 437.408,116.602 441.104,123.585 444.8,130.016" fill="none" stroke="#f57c00" stroke-width="3" stroke-linejoin="round" />
+<circle cx="75.2" cy="222.84" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.5" />
+<circle cx="112.16" cy="206.339" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.5" />
+<circle cx="149.12" cy="176.884" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.5" />
+<circle cx="186.08" cy="188.907" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.5" />
+<circle cx="223.04" cy="175.693" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.5" />
+<circle cx="260" cy="160.596" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.5" />
+<circle cx="296.96" cy="169.805" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.5" />
+<circle cx="333.92" cy="142.224" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.5" />
+<circle cx="370.88" cy="125.19" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.5" />
+<circle cx="407.84" cy="105.882" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.5" />
+<circle cx="444.8" cy="130.016" r="6" fill="#1976d2" stroke="#fff" stroke-width="1.5" />
+<text x="398.6" y="74.7" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >訓練データに合わせすぎた線</text>
+<text x="352.4" y="186" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#757575" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ちょうどよい線</text>
+<text x="265" y="300" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >● 訓練データ</text>
+<circle cx="30" cy="25" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="30" y="26" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

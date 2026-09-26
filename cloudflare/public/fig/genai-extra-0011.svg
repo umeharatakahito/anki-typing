@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360" font-family="sans-serif">
+<rect width="480" height="360" fill="#fff"/>
+<defs><marker id="genaiextra0011m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="genaiextra0011mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="170" y="300" width="140" height="40" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="240" y="320" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >入力 x</text>
+<rect x="170" y="210" width="140" height="44" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="240" y="232" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >層</text>
+<rect x="170" y="130" width="140" height="44" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="240" y="152" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >層</text>
+<circle cx="240" cy="75" r="18" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<text x="240" y="76" font-size="24" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >+</text>
+<rect x="170" y="10" width="140" height="34" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="240" y="27" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >出力</text>
+<line x1="240" y1="300" x2="240" y2="258" stroke="#37474f" stroke-width="2.5" marker-end="url(#genaiextra0011m37474f)"/>
+<line x1="240" y1="210" x2="240" y2="178" stroke="#37474f" stroke-width="2.5" marker-end="url(#genaiextra0011m37474f)"/>
+<line x1="240" y1="130" x2="240" y2="95" stroke="#37474f" stroke-width="2.5" marker-end="url(#genaiextra0011m37474f)"/>
+<line x1="240" y1="57" x2="240" y2="48" stroke="#37474f" stroke-width="2.5" marker-end="url(#genaiextra0011m37474f)"/>
+<path d="M310,320 Q420,320 420,200 Q420,75 262,75" fill="none" stroke="#f57c00" stroke-width="4" marker-end="url(#genaiextra0011mf57c00)"/>
+<text x="430" y="330" font-size="14" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >入力をそのまま</text>
+<text x="420" y="200" font-size="1" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" ></text>
+<text x="355" y="50" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >足し合わせる</text>
+<circle cx="425" cy="200" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="425" y="201" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

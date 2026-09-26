@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="sans-serif">
+<rect width="540" height="280" fill="#fff"/>
+<line x1="270" y1="50" x2="150" y2="140" stroke="#37474f" stroke-width="2"/>
+<line x1="270" y1="50" x2="390" y2="140" stroke="#37474f" stroke-width="2"/>
+<line x1="150" y1="140" x2="90" y2="230" stroke="#37474f" stroke-width="2"/>
+<line x1="150" y1="140" x2="210" y2="230" stroke="#37474f" stroke-width="2"/>
+<line x1="390" y1="140" x2="330" y2="230" stroke="#37474f" stroke-width="2"/>
+<line x1="390" y1="140" x2="450" y2="230" stroke="#37474f" stroke-width="2"/>
+<circle cx="270" cy="50" r="22" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<text x="270" y="51" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >50</text>
+<circle cx="150" cy="140" r="22" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<text x="150" y="141" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >30</text>
+<circle cx="390" cy="140" r="22" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<text x="390" y="141" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >40</text>
+<circle cx="90" cy="230" r="22" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<text x="90" y="231" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >10</text>
+<circle cx="210" cy="230" r="22" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<text x="210" y="231" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >20</text>
+<circle cx="330" cy="230" r="22" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<text x="330" y="231" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >35</text>
+<circle cx="450" cy="230" r="22" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<text x="450" y="231" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >25</text>
+<text x="270" y="272" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >親 ≧ 子 がどこでも成り立つ</text>
+<circle cx="30" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="30" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

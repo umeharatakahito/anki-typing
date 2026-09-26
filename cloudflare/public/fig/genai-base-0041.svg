@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" width="520" height="340" font-family="sans-serif">
+<rect width="520" height="340" fill="#fff"/>
+<defs><marker id="genaibase0041m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker><marker id="genaibase0041mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<line x1="50" y1="270" x2="490" y2="270" stroke="#37474f" stroke-width="2" marker-end="url(#genaibase0041m37474f)"/>
+<line x1="50" y1="270" x2="50" y2="30" stroke="#37474f" stroke-width="2" marker-end="url(#genaibase0041m37474f)"/>
+<text x="484" y="294" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >パラメータ</text>
+<text x="58" y="20" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >損失</text>
+<polyline points="62.6,19.2768 66.8,27.1392 71,34.8672 75.2,42.4608 79.4,49.92 83.6,57.2448 87.8,64.4352 92,71.4912 96.2,78.4128 100.4,85.2 104.6,91.8528 108.8,98.3712 113,104.755 117.2,111.005 121.4,117.12 125.6,123.101 129.8,128.947 134,134.659 138.2,140.237 142.4,145.68 146.6,150.989 150.8,156.163 155,161.203 159.2,166.109 163.4,170.88 167.6,175.517 171.8,180.019 176,184.387 180.2,188.621 184.4,192.72 188.6,196.685 192.8,200.515 197,204.211 201.2,207.773 205.4,211.2 209.6,214.493 213.8,217.651 218,220.675 222.2,223.565 226.4,226.32 230.6,228.941 234.8,231.427 239,233.779 243.2,235.997 247.4,238.08 251.6,240.029 255.8,241.843 260,243.523 264.2,245.069 268.4,246.48 272.6,247.757 276.8,248.899 281,249.907 285.2,250.781 289.4,251.52 293.6,252.125 297.8,252.595 302,252.931 306.2,253.133 310.4,253.2 314.6,253.133 318.8,252.931 323,252.595 327.2,252.125 331.4,251.52 335.6,250.781 339.8,249.907 344,248.899 348.2,247.757 352.4,246.48 356.6,245.069 360.8,243.523 365,241.843 369.2,240.029 373.4,238.08 377.6,235.997 381.8,233.779 386,231.427 390.2,228.941 394.4,226.32 398.6,223.565 402.8,220.675 407,217.651 411.2,214.493 415.4,211.2 419.6,207.773 423.8,204.211 428,200.515 432.2,196.685 436.4,192.72 440.6,188.621 444.8,184.387 449,180.019 453.2,175.517 457.4,170.88 461.6,166.109 465.8,161.203 470,156.163" fill="none" stroke="#37474f" stroke-width="2.5" stroke-linejoin="round" />
+<path d="M83.6,45.24479999999994 Q121.39999999999999,27.24479999999994 159.2,154.1088" fill="none" stroke="#f57c00" stroke-width="2.2" marker-end="url(#genaibase0041mf57c00)"/>
+<path d="M159.2,154.1088 Q188.6,136.1088 218.0,208.67520000000002" fill="none" stroke="#f57c00" stroke-width="2.2" marker-end="url(#genaibase0041mf57c00)"/>
+<path d="M218.0,208.67520000000002 Q239.0,190.67520000000002 260.0,231.5232" fill="none" stroke="#f57c00" stroke-width="2.2" marker-end="url(#genaibase0041mf57c00)"/>
+<path d="M260.0,231.5232 Q272.6,213.5232 285.20000000000005,238.7808" fill="none" stroke="#f57c00" stroke-width="2.2" marker-end="url(#genaibase0041mf57c00)"/>
+<path d="M285.20000000000005,238.7808 Q293.6,220.7808 302.0,240.9312" fill="none" stroke="#f57c00" stroke-width="2.2" marker-end="url(#genaibase0041mf57c00)"/>
+<circle cx="83.6" cy="57.2448" r="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="159.2" cy="166.109" r="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="218" cy="220.675" r="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="260" cy="243.523" r="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="285.2" cy="250.781" r="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="302" cy="252.931" r="8" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="260" y="325" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >傾きを見て、損失が小さくなる方へ少しずつ動かす</text>
+<text x="310.4" y="275.2" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >最小</text>
+<circle cx="30" cy="20" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="30" y="21" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

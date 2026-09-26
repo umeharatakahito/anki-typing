@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" width="560" height="300" font-family="sans-serif">
+<rect width="560" height="300" fill="#fff"/>
+<defs><marker id="jhsciencebio0056m1a237e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a237e"/></marker></defs>
+<text x="40" y="70" font-size="16" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >動脈</text>
+<rect x="110" y="40" width="400" height="60" rx="30" fill="#ef9a9a" stroke="#c62828" stroke-width="2" />
+<rect x="124" y="54" width="372" height="32" rx="16" fill="#ffcdd2" stroke="#c62828" stroke-width="1.5" />
+<text x="310" y="120" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >壁が厚い</text>
+<rect x="110" y="190" width="400" height="70" rx="30" fill="#b3c7e6" stroke="#f57c00" stroke-width="3" />
+<rect x="116" y="196" width="388" height="58" rx="26" fill="#dce6f5" stroke="#90a4ae" stroke-width="1" />
+<path d="M220,196 Q250,212 260,220" fill="none" stroke="#1a237e" stroke-width="3" />
+<path d="M220,254 Q250,238 260,230" fill="none" stroke="#1a237e" stroke-width="3" />
+<path d="M380,196 Q410,212 420,220" fill="none" stroke="#1a237e" stroke-width="3" />
+<path d="M380,254 Q410,238 420,230" fill="none" stroke="#1a237e" stroke-width="3" />
+<line x1="130" y1="225" x2="200" y2="225" stroke="#1a237e" stroke-width="2.5" marker-end="url(#jhsciencebio0056m1a237e)"/>
+<line x1="290" y1="225" x2="360" y2="225" stroke="#1a237e" stroke-width="2.5" marker-end="url(#jhsciencebio0056m1a237e)"/>
+<line x1="470" y1="225" x2="500" y2="225" stroke="#1a237e" stroke-width="2.5" marker-end="url(#jhsciencebio0056m1a237e)"/>
+<text x="380" y="282" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >弁（逆流を防ぐ）</text>
+<text x="510" y="282" font-size="13" text-anchor="end" dominant-baseline="middle" fill="#555" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >心臓へ →</text>
+<circle cx="60" cy="225" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="60" y="226" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

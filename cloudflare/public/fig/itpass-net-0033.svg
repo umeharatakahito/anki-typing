@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<path d="M27.5,159.0 Q3.75,154.25 18.0,135.25 Q18.0,106.75 51.25,113.4 Q65.5,92.5 92.1,106.75 Q122.5,97.25 127.25,130.5 Q151.0,140 127.25,159.0 Z" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="75" y="142" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" >インターネット</text>
+<rect x="156" y="110" width="28" height="60" rx="0" fill="#ffab91" stroke="#bf360c" stroke-width="2" />
+<line x1="156" y1="110" x2="184" y2="110" stroke="#bf360c" stroke-width="1.2"/>
+<line x1="170" y1="110" x2="170" y2="125" stroke="#bf360c" stroke-width="1.2"/>
+<line x1="156" y1="125" x2="184" y2="125" stroke="#bf360c" stroke-width="1.2"/>
+<line x1="163" y1="125" x2="163" y2="140" stroke="#bf360c" stroke-width="1.2"/>
+<line x1="156" y1="140" x2="184" y2="140" stroke="#bf360c" stroke-width="1.2"/>
+<line x1="170" y1="140" x2="170" y2="155" stroke="#bf360c" stroke-width="1.2"/>
+<line x1="156" y1="155" x2="184" y2="155" stroke="#bf360c" stroke-width="1.2"/>
+<line x1="163" y1="155" x2="163" y2="170" stroke="#bf360c" stroke-width="1.2"/>
+<text x="170" y="190" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ファイア</text>
+<text x="170" y="206" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ウォール</text>
+<rect x="210" y="40" width="160" height="200" rx="10" fill="#fff3e0" stroke="#f57c00" stroke-width="3" stroke-dasharray="9 6"/>
+<rect x="239" y="96" width="32" height="48" rx="3" fill="#cfd8dc" stroke="#37474f" stroke-width="1.8" />
+<line x1="245" y1="106" x2="265" y2="106" stroke="#37474f" stroke-width="1.5"/>
+<line x1="245" y1="118" x2="265" y2="118" stroke="#37474f" stroke-width="1.5"/>
+<line x1="245" y1="130" x2="265" y2="130" stroke="#37474f" stroke-width="1.5"/>
+<text x="255" y="160" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >Web</text>
+<rect x="309" y="96" width="32" height="48" rx="3" fill="#cfd8dc" stroke="#37474f" stroke-width="1.8" />
+<line x1="315" y1="106" x2="335" y2="106" stroke="#37474f" stroke-width="1.5"/>
+<line x1="315" y1="118" x2="335" y2="118" stroke="#37474f" stroke-width="1.5"/>
+<line x1="315" y1="130" x2="335" y2="130" stroke="#37474f" stroke-width="1.5"/>
+<text x="325" y="160" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >メール</text>
+<text x="290" y="210" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >公開サーバ</text>
+<rect x="396" y="110" width="28" height="60" rx="0" fill="#ffab91" stroke="#bf360c" stroke-width="2" />
+<line x1="396" y1="110" x2="424" y2="110" stroke="#bf360c" stroke-width="1.2"/>
+<line x1="410" y1="110" x2="410" y2="125" stroke="#bf360c" stroke-width="1.2"/>
+<line x1="396" y1="125" x2="424" y2="125" stroke="#bf360c" stroke-width="1.2"/>
+<line x1="403" y1="125" x2="403" y2="140" stroke="#bf360c" stroke-width="1.2"/>
+<line x1="396" y1="140" x2="424" y2="140" stroke="#bf360c" stroke-width="1.2"/>
+<line x1="410" y1="140" x2="410" y2="155" stroke="#bf360c" stroke-width="1.2"/>
+<line x1="396" y1="155" x2="424" y2="155" stroke="#bf360c" stroke-width="1.2"/>
+<line x1="403" y1="155" x2="403" y2="170" stroke="#bf360c" stroke-width="1.2"/>
+<rect x="450" y="50" width="135" height="180" rx="10" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" />
+<text x="517" y="72" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >社内LAN</text>
+<rect x="472" y="101" width="36" height="24" rx="2" fill="#eceff1" stroke="#37474f" stroke-width="1.8" />
+<rect x="466" y="127" width="48" height="6" rx="1" fill="#eceff1" stroke="#37474f" stroke-width="1.5" />
+<rect x="532" y="101" width="36" height="24" rx="2" fill="#eceff1" stroke="#37474f" stroke-width="1.8" />
+<rect x="526" y="127" width="48" height="6" rx="1" fill="#eceff1" stroke="#37474f" stroke-width="1.5" />
+<rect x="472" y="171" width="36" height="24" rx="2" fill="#eceff1" stroke="#37474f" stroke-width="1.8" />
+<rect x="466" y="197" width="48" height="6" rx="1" fill="#eceff1" stroke="#37474f" stroke-width="1.5" />
+<rect x="532" y="171" width="36" height="24" rx="2" fill="#eceff1" stroke="#37474f" stroke-width="1.8" />
+<rect x="526" y="197" width="48" height="6" rx="1" fill="#eceff1" stroke="#37474f" stroke-width="1.5" />
+<line x1="126" y1="140" x2="156" y2="140" stroke="#37474f" stroke-width="2"/>
+<line x1="184" y1="140" x2="210" y2="140" stroke="#37474f" stroke-width="2"/>
+<line x1="370" y1="140" x2="396" y2="140" stroke="#37474f" stroke-width="2"/>
+<line x1="424" y1="140" x2="450" y2="140" stroke="#37474f" stroke-width="2"/>
+<circle cx="290" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="290" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

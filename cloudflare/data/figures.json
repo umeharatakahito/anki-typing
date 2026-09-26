@@ -406,5 +406,781 @@
   "author": "Unknown author（作者不明）",
   "license": "Public domain",
   "url": "https://commons.wikimedia.org/wiki/File:Haniwa_of_warrior_in_Keiko_armor_(Aikawa_Archaeological_Museum).jpg"
+ },
+ "itpass-biz-0007": {
+  "file": "itpass-biz-0007.svg",
+  "kind": "svg"
+ },
+ "itpass-biz-0009": {
+  "file": "itpass-biz-0009.svg",
+  "kind": "svg"
+ },
+ "itpass-biz-0010": {
+  "file": "itpass-biz-0010.svg",
+  "kind": "svg"
+ },
+ "itpass-biz-0013": {
+  "file": "itpass-biz-0013.svg",
+  "kind": "svg"
+ },
+ "itpass-biz-0018": {
+  "file": "itpass-biz-0018.svg",
+  "kind": "svg"
+ },
+ "itpass-biz-0023": {
+  "file": "itpass-biz-0023.svg",
+  "kind": "svg"
+ },
+ "itpass-biz-0051": {
+  "file": "itpass-biz-0051.svg",
+  "kind": "svg"
+ },
+ "itpass-cmp-0027": {
+  "file": "itpass-cmp-0027.svg",
+  "kind": "svg"
+ },
+ "itpass-cmp-0039": {
+  "file": "itpass-cmp-0039.svg",
+  "kind": "svg"
+ },
+ "itpass-cmp-0069": {
+  "file": "itpass-cmp-0069.svg",
+  "kind": "svg"
+ },
+ "itpass-cmp-0042": {
+  "file": "itpass-cmp-0042.svg",
+  "kind": "svg"
+ },
+ "itpass-cmp-0048": {
+  "file": "itpass-cmp-0048.svg",
+  "kind": "svg"
+ },
+ "itpass-cmp-0061": {
+  "file": "itpass-cmp-0061.svg",
+  "kind": "svg"
+ },
+ "itpass-cmp-0052": {
+  "file": "itpass-cmp-0052.svg",
+  "kind": "svg"
+ },
+ "itpass-cmp-0053": {
+  "file": "itpass-cmp-0053.svg",
+  "kind": "svg"
+ },
+ "itpass-cmp-0060": {
+  "file": "itpass-cmp-0060.svg",
+  "kind": "svg"
+ },
+ "itpass-cmp-0068": {
+  "file": "itpass-cmp-0068.svg",
+  "kind": "svg"
+ },
+ "itpass-cmp-0050": {
+  "file": "itpass-cmp-0050.svg",
+  "kind": "svg"
+ },
+ "itpass-cmp-0051": {
+  "file": "itpass-cmp-0051.svg",
+  "kind": "svg"
+ },
+ "itpass-dev-0002": {
+  "file": "itpass-dev-0002.svg",
+  "kind": "svg"
+ },
+ "itpass-dev-0006": {
+  "file": "itpass-dev-0006.svg",
+  "kind": "svg"
+ },
+ "itpass-dev-0028": {
+  "file": "itpass-dev-0028.svg",
+  "kind": "svg"
+ },
+ "itpass-dev-0039": {
+  "file": "itpass-dev-0039.svg",
+  "kind": "svg"
+ },
+ "itpass-dev-0040": {
+  "file": "itpass-dev-0040.svg",
+  "kind": "svg"
+ },
+ "itpass-dev-0046": {
+  "file": "itpass-dev-0046.svg",
+  "kind": "svg"
+ },
+ "itpass-net-0026": {
+  "file": "itpass-net-0026.svg",
+  "kind": "svg"
+ },
+ "itpass-net-0041": {
+  "file": "itpass-net-0041.svg",
+  "kind": "svg"
+ },
+ "itpass-net-0033": {
+  "file": "itpass-net-0033.svg",
+  "kind": "svg"
+ },
+ "itpass-sec-0036": {
+  "file": "itpass-sec-0036.svg",
+  "kind": "svg"
+ },
+ "itpass-sec-0043": {
+  "file": "itpass-sec-0043.svg",
+  "kind": "svg"
+ },
+ "itpass-sec-0032": {
+  "file": "itpass-sec-0032.svg",
+  "kind": "svg"
+ },
+ "itpass-sec-0016": {
+  "file": "itpass-sec-0016.svg",
+  "kind": "svg"
+ },
+ "itpass-stg-0001": {
+  "file": "itpass-stg-0001.svg",
+  "kind": "svg"
+ },
+ "itpass-stg-0025": {
+  "file": "itpass-stg-0025.svg",
+  "kind": "svg"
+ },
+ "itpass-stg-0028": {
+  "file": "itpass-stg-0028.svg",
+  "kind": "svg"
+ },
+ "itpass-stg-0019": {
+  "file": "itpass-stg-0019.svg",
+  "kind": "svg"
+ },
+ "itpass-stg-0057": {
+  "file": "itpass-stg-0057.svg",
+  "kind": "svg"
+ },
+ "fe-algo-0002": {
+  "file": "fe-algo-0002.svg",
+  "kind": "svg"
+ },
+ "fe-algo-0005": {
+  "file": "fe-algo-0005.svg",
+  "kind": "svg"
+ },
+ "fe-algo-0009": {
+  "file": "fe-algo-0009.svg",
+  "kind": "svg"
+ },
+ "fe-algo-0016": {
+  "file": "fe-algo-0016.svg",
+  "kind": "svg"
+ },
+ "fe-algo-0017": {
+  "file": "fe-algo-0017.svg",
+  "kind": "svg"
+ },
+ "fe-algo-0018": {
+  "file": "fe-algo-0018.svg",
+  "kind": "svg"
+ },
+ "fe-algo-0026": {
+  "file": "fe-algo-0026.svg",
+  "kind": "svg"
+ },
+ "fe-algo-0027": {
+  "file": "fe-algo-0027.svg",
+  "kind": "svg"
+ },
+ "fe-algo-0038": {
+  "file": "fe-algo-0038.svg",
+  "kind": "svg"
+ },
+ "fe-db-0017": {
+  "file": "fe-db-0017.svg",
+  "kind": "svg"
+ },
+ "fe-dev-0039": {
+  "file": "fe-dev-0039.svg",
+  "kind": "svg"
+ },
+ "fe-hw-0026": {
+  "file": "fe-hw-0026.svg",
+  "kind": "svg"
+ },
+ "fe-hw-0040": {
+  "file": "fe-hw-0040.svg",
+  "kind": "svg"
+ },
+ "fe-net-0027": {
+  "file": "fe-net-0027.svg",
+  "kind": "svg"
+ },
+ "fe-net-0038": {
+  "file": "fe-net-0038.svg",
+  "kind": "svg"
+ },
+ "fe-mgmt-0002": {
+  "file": "fe-mgmt-0002.svg",
+  "kind": "svg"
+ },
+ "fe-mgmt-0026": {
+  "file": "fe-mgmt-0026.svg",
+  "kind": "svg"
+ },
+ "fe-stg-0026": {
+  "file": "fe-stg-0026.svg",
+  "kind": "svg"
+ },
+ "fe-stg-0027": {
+  "file": "fe-stg-0027.svg",
+  "kind": "svg"
+ },
+ "genai-base-0004": {
+  "file": "genai-base-0004.svg",
+  "kind": "svg"
+ },
+ "genai-base-0011": {
+  "file": "genai-base-0011.svg",
+  "kind": "svg"
+ },
+ "genai-base-0024": {
+  "file": "genai-base-0024.svg",
+  "kind": "svg"
+ },
+ "genai-base-0041": {
+  "file": "genai-base-0041.svg",
+  "kind": "svg"
+ },
+ "genai-base-0047": {
+  "file": "genai-base-0047.svg",
+  "kind": "svg"
+ },
+ "genai-base-0056": {
+  "file": "genai-base-0056.svg",
+  "kind": "svg"
+ },
+ "genai-base-0059": {
+  "file": "genai-base-0059.svg",
+  "kind": "svg"
+ },
+ "genai-base-0069": {
+  "file": "genai-base-0069.svg",
+  "kind": "svg"
+ },
+ "genai-base-0074": {
+  "file": "genai-base-0074.svg",
+  "kind": "svg"
+ },
+ "genai-gen-0022": {
+  "file": "genai-gen-0022.svg",
+  "kind": "svg"
+ },
+ "genai-gen-0042": {
+  "file": "genai-gen-0042.svg",
+  "kind": "svg"
+ },
+ "genai-gen-0044": {
+  "file": "genai-gen-0044.svg",
+  "kind": "svg"
+ },
+ "genai-gen-0057": {
+  "file": "genai-gen-0057.svg",
+  "kind": "svg"
+ },
+ "genai-gen-0024": {
+  "file": "genai-gen-0024.svg",
+  "kind": "svg"
+ },
+ "genai-extra-0011": {
+  "file": "genai-extra-0011.svg",
+  "kind": "svg"
+ },
+ "genai-use-0057": {
+  "file": "genai-use-0057.svg",
+  "kind": "svg"
+ },
+ "jh-science-earth-0094": {
+  "file": "jh-science-earth-0094.svg",
+  "kind": "svg"
+ },
+ "jh-science-phys-0022": {
+  "file": "jh-science-phys-0022.svg",
+  "kind": "svg"
+ },
+ "jh-science-bio-0056": {
+  "file": "jh-science-bio-0056.svg",
+  "kind": "svg"
+ },
+ "jh-science-bio-0065": {
+  "file": "jh-science-bio-0065.svg",
+  "kind": "svg"
+ },
+ "jh-science-bio-0104": {
+  "file": "jh-science-bio-0104.svg",
+  "kind": "svg"
+ },
+ "jh-social-geo-0052": {
+  "file": "jh-social-geo-0052.svg",
+  "kind": "svg"
+ },
+ "whistory-eu-0039": {
+  "file": "whistory-eu-0039.svg",
+  "kind": "svg"
+ },
+ "whistory-eu-0091": {
+  "file": "whistory-eu-0091.svg",
+  "kind": "svg"
+ },
+ "whistory-modern-0050": {
+  "file": "whistory-modern-0050.svg",
+  "kind": "svg"
+ },
+ "jh-science-phys-0017": {
+  "file": "jh-science-phys-0017.svg",
+  "kind": "svg"
+ },
+ "jh-science-chem-0096": {
+  "file": "jh-science-chem-0096.svg",
+  "kind": "svg"
+ },
+ "jh-science-extra-0006": {
+  "file": "jh-science-extra-0006.svg",
+  "kind": "svg"
+ },
+ "jh-science-bio-0024": {
+  "file": "jh-science-bio-0024.svg",
+  "kind": "svg"
+ },
+ "jhistory-anc-0006": {
+  "file": "jhistory-anc-0006.svg",
+  "kind": "svg"
+ },
+ "jhistory-anc-0002": {
+  "file": "jhistory-anc-0002.jpg",
+  "kind": "commons",
+  "title": "140913 Sannai-Maruyama site Aomori Japan01bs6bs6.jpg",
+  "author": "663highland",
+  "license": "CC BY 2.5",
+  "url": "https://commons.wikimedia.org/wiki/File:140913_Sannai-Maruyama_site_Aomori_Japan01bs6bs6.jpg"
+ },
+ "jhistory-anc-0004": {
+  "file": "jhistory-anc-0004.jpg",
+  "kind": "commons",
+  "title": "青森県つがる市木造亀ヶ岡出土 遮光器土偶-2.JPG",
+  "author": "Saigen Jiro",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:%E9%9D%92%E6%A3%AE%E7%9C%8C%E3%81%A4%E3%81%8C%E3%82%8B%E5%B8%82%E6%9C%A8%E9%80%A0%E4%BA%80%E3%83%B6%E5%B2%A1%E5%87%BA%E5%9C%9F_%E9%81%AE%E5%85%89%E5%99%A8%E5%9C%9F%E5%81%B6-2.JPG"
+ },
+ "jhistory-anc-0007": {
+  "file": "jhistory-anc-0007.jpg",
+  "kind": "commons",
+  "title": "Haniwa Horse (Tokyo National Museum).jpg",
+  "author": "Unknown author（作者不明）",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Haniwa_Horse_(Tokyo_National_Museum).jpg"
+ },
+ "jhistory-anc-0010": {
+  "file": "jhistory-anc-0010.jpg",
+  "kind": "commons",
+  "title": "Horyu-ji, kondou and tou.jpg",
+  "author": "Saigen Jiro",
+  "license": "CC0",
+  "url": "https://commons.wikimedia.org/wiki/File:Horyu-ji,_kondou_and_tou.jpg"
+ },
+ "jhistory-anc-0024": {
+  "file": "jhistory-anc-0024.jpg",
+  "kind": "commons",
+  "title": "Takayukasikisouko.JPG",
+  "author": "Σ64",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Takayukasikisouko.JPG"
+ },
+ "jhistory-anc-0025": {
+  "file": "jhistory-anc-0025.jpg",
+  "kind": "commons",
+  "title": "YoshinogariIseki.jpg",
+  "author": "Unknown author（作者不明）",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:YoshinogariIseki.jpg"
+ },
+ "jhistory-anc-0028": {
+  "file": "jhistory-anc-0028.jpg",
+  "kind": "commons",
+  "title": "Kyoto-Byodoin Phoenix Hall-xl.jpg",
+  "author": "ganden",
+  "license": "CC BY 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Kyoto-Byodoin_Phoenix_Hall-xl.jpg"
+ },
+ "jhistory-anc-0033": {
+  "file": "jhistory-anc-0033.jpg",
+  "kind": "commons",
+  "title": "Japan- Nara, Todaiji Shosoin 2011.jpg",
+  "author": "Z Tanuki.",
+  "license": "CC BY 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Japan-_Nara,_Todaiji_Shosoin_2011.jpg"
+ },
+ "jhistory-anc-0037": {
+  "file": "jhistory-anc-0037.jpg",
+  "kind": "commons",
+  "title": "NintokuTomb Aerial photograph 2007.jpg",
+  "author": "国土地理院 (Geospatial Information Authority of Japan)",
+  "license": "Attribution",
+  "url": "https://commons.wikimedia.org/wiki/File:NintokuTomb_Aerial_photograph_2007.jpg"
+ },
+ "jhistory-anc-0039": {
+  "file": "jhistory-anc-0039.jpg",
+  "kind": "commons",
+  "title": "銅鐸-Dōtaku (Bronze Bell) MET DP325051.jpg",
+  "author": "The Metropolitan Museum of Art",
+  "license": "CC0",
+  "url": "https://commons.wikimedia.org/wiki/File:%E9%8A%85%E9%90%B8-D%C5%8Dtaku_(Bronze_Bell)_MET_DP325051.jpg"
+ },
+ "jhistory-anc-0040": {
+  "file": "jhistory-anc-0040.jpg",
+  "kind": "commons",
+  "title": "茂呂遺跡 出土品.JPG",
+  "author": "Saigen Jiro",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:%E8%8C%82%E5%91%82%E9%81%BA%E8%B7%A1_%E5%87%BA%E5%9C%9F%E5%93%81.JPG"
+ },
+ "jhistory-anc-0073": {
+  "file": "jhistory-anc-0073.jpg",
+  "kind": "commons",
+  "title": "IshibutaiLookingOutFromInsideDarkModified.jpg",
+  "author": "Unknown author（作者不明）",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:IshibutaiLookingOutFromInsideDarkModified.jpg"
+ },
+ "jhistory-med-0020": {
+  "file": "jhistory-med-0020.jpg",
+  "kind": "commons",
+  "title": "《金剛力士立像 吽形》東大寺南大門所在.jpg",
+  "author": "bijutsushitan",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:%E3%80%8A%E9%87%91%E5%89%9B%E5%8A%9B%E5%A3%AB%E7%AB%8B%E5%83%8F_%E5%90%BD%E5%BD%A2%E3%80%8B%E6%9D%B1%E5%A4%A7%E5%AF%BA%E5%8D%97%E5%A4%A7%E9%96%80%E6%89%80%E5%9C%A8.jpg"
+ },
+ "jhistory-med-0035": {
+  "file": "jhistory-med-0035.jpg",
+  "kind": "commons",
+  "title": "Interior of Konjikido, Chusonji (62).jpg",
+  "author": "Imperial Japanese Commission to the Panama-Pacific International Exposition",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Interior_of_Konjikido,_Chusonji_(62).jpg"
+ },
+ "jhistory-med-0048": {
+  "file": "jhistory-med-0048.jpg",
+  "kind": "commons",
+  "title": "Shōfū-an the zashikikazari of the hiroma Chūō-ku Fukuoka 20241209 161744.jpg",
+  "author": "Hirho",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Df%C5%AB-an_the_zashikikazari_of_the_hiroma_Ch%C5%AB%C5%8D-ku_Fukuoka_20241209_161744.jpg"
+ },
+ "jhistory-med-0049": {
+  "file": "jhistory-med-0049.jpg",
+  "kind": "commons",
+  "title": "Chouju sumou.jpg",
+  "author": "Unknown author（作者不明）",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Chouju_sumou.jpg"
+ },
+ "jhistory-med-0061": {
+  "file": "jhistory-med-0061.jpg",
+  "kind": "commons",
+  "title": "Ryoanji rock garden, 2008.jpg",
+  "author": "Tomi Mäkitalo",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Ryoanji_rock_garden,_2008.jpg"
+ },
+ "jhistory-med-0084": {
+  "file": "jhistory-med-0084.jpg",
+  "kind": "commons",
+  "title": "Mōko Shūrai Ekotoba.jpg",
+  "author": "Unknown author（作者不明）",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:M%C5%8Dko_Sh%C5%ABrai_Ekotoba.jpg"
+ },
+ "jhistory-early-0007": {
+  "file": "jhistory-early-0007.jpg",
+  "kind": "commons",
+  "title": "DejimaInNagasakiBay.jpg",
+  "author": "PHGCOM",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:DejimaInNagasakiBay.jpg"
+ },
+ "jhistory-early-0019": {
+  "file": "jhistory-early-0019.jpg",
+  "kind": "commons",
+  "title": "Bungaku-Bandai no-Takara-Terakoya-School-by-Issunshi-Hanasato.png",
+  "author": "Issunshi Hanasato",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Bungaku-Bandai_no-Takara-Terakoya-School-by-Issunshi-Hanasato.png"
+ },
+ "jhistory-early-0021": {
+  "file": "jhistory-early-0021.jpg",
+  "kind": "commons",
+  "title": "Nagashino Teppo-Ashigaru.jpg",
+  "author": "Unknown author（作者不明）",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Nagashino_Teppo-Ashigaru.jpg"
+ },
+ "jhistory-early-0029": {
+  "file": "jhistory-early-0029.jpg",
+  "kind": "commons",
+  "title": "The Great Wave off Kanagawa.jpg",
+  "author": "After Katsushika Hokusai",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:The_Great_Wave_off_Kanagawa.jpg"
+ },
+ "jhistory-early-0039": {
+  "file": "jhistory-early-0039.jpg",
+  "kind": "commons",
+  "title": "Nikko Toshogu Yomeimon Gate 2024.jpg",
+  "author": "Jpatokal",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Nikko_Toshogu_Yomeimon_Gate_2024.jpg"
+ },
+ "jhistory-early-0065": {
+  "file": "jhistory-early-0065.jpg",
+  "kind": "commons",
+  "title": "Japanese old threshing machine,Senba-koki,Katori-city,Japan.JPG",
+  "author": "katorisi",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Japanese_old_threshing_machine,Senba-koki,Katori-city,Japan.JPG"
+ },
+ "jhistory-mod-0025": {
+  "file": "jhistory-mod-0025.jpg",
+  "kind": "commons",
+  "title": "Tomioka Silk Mill East Warehouse01.jpg",
+  "author": "Hasec",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Tomioka_Silk_Mill_East_Warehouse01.jpg"
+ },
+ "jhistory-mod-0033": {
+  "file": "jhistory-mod-0033.jpg",
+  "kind": "commons",
+  "title": "Shinkansen Series0 R67 JNRcolor.jpg",
+  "author": "ナダテ at Japanese Wikipedia (Nadate)",
+  "license": "CC BY 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Shinkansen_Series0_R67_JNRcolor.jpg"
+ },
+ "jhistory-extra-0017": {
+  "file": "jhistory-extra-0017.jpg",
+  "kind": "commons",
+  "title": "Tokyo-Rokumeikan-zenmen-1883-1900.jpg",
+  "author": "Rijksmuseum",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Tokyo-Rokumeikan-zenmen-1883-1900.jpg"
+ },
+ "whistory-asia-0002": {
+  "file": "whistory-asia-0002.jpg",
+  "kind": "commons",
+  "title": "Qin Terracotta Army, Pit 1 01.jpg",
+  "author": "Gary Lee Todd, Ph.D.",
+  "license": "CC0",
+  "url": "https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Army,_Pit_1_01.jpg"
+ },
+ "whistory-asia-0017": {
+  "file": "whistory-asia-0017.jpg",
+  "kind": "commons",
+  "title": "Taj Mahal, Agra, India edit3.jpg",
+  "author": "Yann (edited by King of Hearts and others)",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Taj_Mahal,_Agra,_India_edit3.jpg"
+ },
+ "whistory-asia-0030": {
+  "file": "whistory-asia-0030.jpg",
+  "kind": "commons",
+  "title": "Mohenjo-daro.jpg",
+  "author": "Saqib Qayyum",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Mohenjo-daro.jpg"
+ },
+ "whistory-asia-0032": {
+  "file": "whistory-asia-0032.jpg",
+  "kind": "commons",
+  "title": "Angkor Wat W-Seite.jpg",
+  "author": "Manfred Werner",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Angkor_Wat_W-Seite.jpg"
+ },
+ "whistory-eu-0001": {
+  "file": "whistory-eu-0001.jpg",
+  "kind": "commons",
+  "title": "Cuneiform Akkadian clay tablet 1.jpg",
+  "author": "Unknown author（作者不明）",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Cuneiform_Akkadian_clay_tablet_1.jpg"
+ },
+ "whistory-eu-0002": {
+  "file": "whistory-eu-0002.jpg",
+  "kind": "commons",
+  "title": "Codex Hammurapi Stela top.jpg",
+  "author": "Enlil2",
+  "license": "CC BY 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Codex_Hammurapi_Stela_top.jpg"
+ },
+ "whistory-eu-0006": {
+  "file": "whistory-eu-0006.jpg",
+  "kind": "commons",
+  "title": "Alexander (Battle of Issus) Mosaic.jpg",
+  "author": "Unknown author（作者不明）",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Alexander_(Battle_of_Issus)_Mosaic.jpg"
+ },
+ "whistory-eu-0024": {
+  "file": "whistory-eu-0024.jpg",
+  "kind": "commons",
+  "title": "AGMA Ostrakon Thémistocle 1.jpg",
+  "author": "Unknown author（作者不明）",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:AGMA_Ostrakon_Th%C3%A9mistocle_1.jpg"
+ },
+ "whistory-eu-0026": {
+  "file": "whistory-eu-0026.jpg",
+  "kind": "commons",
+  "title": "Venus de Milo Louvre Ma399 n4.jpg",
+  "author": "Unknown author（作者不明）",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Venus_de_Milo_Louvre_Ma399_n4.jpg"
+ },
+ "whistory-eu-0030": {
+  "file": "whistory-eu-0030.jpg",
+  "kind": "commons",
+  "title": "Kölner Dom von Osten.jpg",
+  "author": "Thomas Wolf, www.foto-tw.de",
+  "license": "CC BY-SA 3.0 de",
+  "url": "https://commons.wikimedia.org/wiki/File:K%C3%B6lner_Dom_von_Osten.jpg"
+ },
+ "whistory-eu-0041": {
+  "file": "whistory-eu-0041.jpg",
+  "kind": "commons",
+  "title": "Rosetta Stone - front face - corrected image.jpg",
+  "author": "Awikimate",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Rosetta_Stone_-_front_face_-_corrected_image.jpg"
+ },
+ "whistory-eu-0071": {
+  "file": "whistory-eu-0071.jpg",
+  "kind": "commons",
+  "title": "Lions-Gate-Mycenae.jpg",
+  "author": "Andreas Trepte",
+  "license": "CC BY-SA 2.5",
+  "url": "https://commons.wikimedia.org/wiki/File:Lions-Gate-Mycenae.jpg"
+ },
+ "whistory-eu-0089": {
+  "file": "whistory-eu-0089.jpg",
+  "kind": "commons",
+  "title": "Pisa Cathedral 2014.jpg",
+  "author": "Perituss",
+  "license": "CC0",
+  "url": "https://commons.wikimedia.org/wiki/File:Pisa_Cathedral_2014.jpg"
+ },
+ "whistory-extra-0001": {
+  "file": "whistory-extra-0001.jpg",
+  "kind": "commons",
+  "title": "Thebes, Medinet Habu, Egypt, Temple of Ramesses III, Egyptian hieroglyphs, Ancient Egypt.jpg",
+  "author": "Vyacheslav Argenberg",
+  "license": "CC BY 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Thebes,_Medinet_Habu,_Egypt,_Temple_of_Ramesses_III,_Egyptian_hieroglyphs,_Ancient_Egypt.jpg"
+ },
+ "whistory-modern-0001": {
+  "file": "whistory-modern-0001.jpg",
+  "kind": "commons",
+  "title": "Mona Lisa.jpg",
+  "author": "Leonardo da Vinci",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Mona_Lisa.jpg"
+ },
+ "whistory-modern-0012": {
+  "file": "whistory-modern-0012.jpg",
+  "kind": "commons",
+  "title": "Stephenson's Rocket National Railway Museum.jpg",
+  "author": "Matt Brown",
+  "license": "CC BY 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Stephenson's_Rocket_National_Railway_Museum.jpg"
+ },
+ "whistory-modern-0025": {
+  "file": "whistory-modern-0025.jpg",
+  "kind": "commons",
+  "title": "Last Judgement (Michelangelo).jpg",
+  "author": "Michelangelo",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Last_Judgement_(Michelangelo).jpg"
+ },
+ "whistory-modern-0033": {
+  "file": "whistory-modern-0033.jpg",
+  "kind": "commons",
+  "title": "Copernican heliocentrism diagram.jpg",
+  "author": "Unknown (redrawn from Copernicus, 1543)",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Copernican_heliocentrism_diagram.jpg"
+ },
+ "whistory-modern-0038": {
+  "file": "whistory-modern-0038.jpg",
+  "kind": "commons",
+  "title": "Jacques-Louis David - Serment du Jeu de paume, le 20 juin 1789 - P67 - musée Carnavalet - 0.jpg",
+  "author": "Jacques-Louis David",
+  "license": "CC0",
+  "url": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_Serment_du_Jeu_de_paume,_le_20_juin_1789_-_P67_-_mus%C3%A9e_Carnavalet_-_0.jpg"
+ },
+ "whistory-modern-0054": {
+  "file": "whistory-modern-0054.jpg",
+  "kind": "commons",
+  "title": "1890 Dobcross loom shuttles.JPG",
+  "author": "Peripitus",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:1890_Dobcross_loom_shuttles.JPG"
+ },
+ "whistory-c20-0005": {
+  "file": "whistory-c20-0005.jpg",
+  "kind": "commons",
+  "title": "American union bank.gif",
+  "author": "National Archives Photo",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:American_union_bank.gif"
+ },
+ "whistory-c20-0013": {
+  "file": "whistory-c20-0013.jpg",
+  "kind": "commons",
+  "title": "Berlin Wall in 1986 looking toward East Germany.jpg",
+  "author": "Nancy Wong",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Berlin_Wall_in_1986_looking_toward_East_Germany.jpg"
+ },
+ "whistory-c20-0029": {
+  "file": "whistory-c20-0029.jpg",
+  "kind": "commons",
+  "title": "Into the Jaws of Death 23-0455M edit.jpg",
+  "author": "Chief Photographer's Mate (CPHoM) Robert F. Sargent",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Into_the_Jaws_of_Death_23-0455M_edit.jpg"
+ },
+ "jh-social-hist1-0085": {
+  "file": "jh-social-hist1-0085.jpg",
+  "kind": "commons",
+  "title": "Interior of Konjikido, Chusonji (62).jpg",
+  "author": "Imperial Japanese Commission to the Panama-Pacific International Exposition",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Interior_of_Konjikido,_Chusonji_(62).jpg"
+ },
+ "jh-social-extra-0007": {
+  "file": "jh-social-extra-0007.jpg",
+  "kind": "commons",
+  "title": "Shosin-shouso.jpg",
+  "author": "あずきごはん",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Shosin-shouso.jpg"
+ },
+ "jh-social-geo-0087": {
+  "file": "jh-social-geo-0087.jpg",
+  "kind": "commons",
+  "title": "Akiyoshi Plateau from Akiyoshidai Karst Observation Deck (north).jpg",
+  "author": "そらみみ (Soramimi)",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Akiyoshi_Plateau_from_Akiyoshidai_Karst_Observation_Deck_(north).jpg"
+ },
+ "jh-social-hist1-0056": {
+  "file": "jh-social-hist1-0056.jpg",
+  "kind": "commons",
+  "title": "Shang Ox Bone Oracle Bone 01.jpg",
+  "author": "Gary Lee Todd, Ph.D.",
+  "license": "CC0",
+  "url": "https://commons.wikimedia.org/wiki/File:Shang_Ox_Bone_Oracle_Bone_01.jpg"
  }
 }

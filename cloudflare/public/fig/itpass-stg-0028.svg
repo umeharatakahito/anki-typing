@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 335" width="560" height="335" font-family="sans-serif">
+<rect width="560" height="335" fill="#fff"/>
+<defs><marker id="itpassstg0028mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="160" y="20" width="110" height="40" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="215" y="40" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >開発部長</text>
+<line x1="215" y1="60" x2="215" y2="300" stroke="#1976d2" stroke-width="2" stroke-dasharray="3 3"/>
+<rect x="290" y="20" width="110" height="40" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="345" y="40" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >製造部長</text>
+<line x1="345" y1="60" x2="345" y2="300" stroke="#1976d2" stroke-width="2" stroke-dasharray="3 3"/>
+<rect x="420" y="20" width="110" height="40" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="475" y="40" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >営業部長</text>
+<line x1="475" y1="60" x2="475" y2="300" stroke="#1976d2" stroke-width="2" stroke-dasharray="3 3"/>
+<rect x="20" y="110" width="110" height="50" rx="6" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<text x="75" y="126.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >PJ-A</text>
+<text x="75" y="143.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >リーダー</text>
+<line x1="130" y1="135" x2="530" y2="135" stroke="#388e3c" stroke-width="2" stroke-dasharray="3 3"/>
+<rect x="20" y="220" width="110" height="50" rx="6" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" />
+<text x="75" y="236.6" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >PJ-B</text>
+<text x="75" y="253.4" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >リーダー</text>
+<line x1="130" y1="245" x2="530" y2="245" stroke="#388e3c" stroke-width="2" stroke-dasharray="3 3"/>
+<circle cx="215" cy="125" r="12" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<path d="M195,165 Q195,141 215,141 Q235,141 235,165 Z" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<circle cx="345" cy="125" r="12" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<path d="M325,165 Q325,141 345,141 Q365,141 365,165 Z" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<circle cx="475" cy="125" r="12" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<path d="M455,165 Q455,141 475,141 Q495,141 495,165 Z" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<circle cx="215" cy="235" r="12" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<path d="M195,275 Q195,251 215,251 Q235,251 235,275 Z" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<circle cx="345" cy="235" r="12" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<path d="M325,275 Q325,251 345,251 Q365,251 365,275 Z" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<circle cx="475" cy="235" r="12" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<path d="M455,275 Q455,251 475,251 Q495,251 495,275 Z" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<line x1="345" y1="60" x2="345" y2="104" stroke="#f57c00" stroke-width="3" marker-end="url(#itpassstg0028mf57c00)"/>
+<line x1="130" y1="125" x2="318" y2="125" stroke="#f57c00" stroke-width="3" marker-end="url(#itpassstg0028mf57c00)"/>
+<text x="345" y="318" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2人の上司から指示を受ける</text>
+<circle cx="40" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="40" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320" font-family="sans-serif">
+<rect width="540" height="320" fill="#fff"/>
+<text x="90" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >保存する日</text>
+<text x="330" y="30" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >その日に保存するデータ</text>
+<rect x="50" y="55" width="80" height="44" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="90" y="77" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >日曜</text>
+<rect x="160" y="55" width="360" height="44" rx="6" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<text x="340" y="77" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >全データ</text>
+<rect x="50" y="113" width="80" height="44" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="90" y="135" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >月曜</text>
+<rect x="160" y="113" width="66" height="44" rx="6" fill="#90caf9" stroke="#37474f" stroke-width="2" />
+<text x="193" y="135" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >月の変更</text>
+<rect x="50" y="171" width="80" height="44" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="90" y="193" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >火曜</text>
+<rect x="230" y="171" width="66" height="44" rx="6" fill="#a5d6a7" stroke="#37474f" stroke-width="2" />
+<text x="263" y="193" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >火の変更</text>
+<rect x="50" y="229" width="80" height="44" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="90" y="251" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >水曜</text>
+<rect x="300" y="229" width="66" height="44" rx="6" fill="#ce93d8" stroke="#37474f" stroke-width="2" />
+<text x="333" y="251" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" >水の変更</text>
+<text x="270" y="305" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >（日曜にすべてを保存。月曜から毎日変更分を保存）</text>
+<circle cx="24" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="24" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

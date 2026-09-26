@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" width="540" height="300" font-family="sans-serif">
+<rect width="540" height="300" fill="#fff"/>
+<defs><marker id="fealgo0017mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<line x1="270" y1="50" x2="150" y2="140" stroke="#37474f" stroke-width="2"/>
+<line x1="270" y1="50" x2="390" y2="140" stroke="#37474f" stroke-width="2"/>
+<line x1="150" y1="140" x2="90" y2="230" stroke="#37474f" stroke-width="2"/>
+<line x1="150" y1="140" x2="210" y2="230" stroke="#37474f" stroke-width="2"/>
+<line x1="390" y1="140" x2="330" y2="230" stroke="#37474f" stroke-width="2"/>
+<line x1="390" y1="140" x2="450" y2="230" stroke="#37474f" stroke-width="2"/>
+<circle cx="270" cy="50" r="22" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<text x="270" y="51" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >1</text>
+<circle cx="150" cy="140" r="22" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<text x="150" y="141" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >2</text>
+<circle cx="390" cy="140" r="22" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<text x="390" y="141" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >5</text>
+<circle cx="90" cy="230" r="22" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<text x="90" y="231" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >3</text>
+<circle cx="210" cy="230" r="22" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<text x="210" y="231" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >4</text>
+<circle cx="330" cy="230" r="22" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<text x="330" y="231" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >6</text>
+<circle cx="450" cy="230" r="22" fill="#fff" stroke="#37474f" stroke-width="2.5" />
+<text x="450" y="231" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >7</text>
+<path d="M248,62 Q205,85 172,128" fill="none" stroke="#f57c00" stroke-width="2.5" marker-end="url(#fealgo0017mf57c00)" stroke-dasharray="5 4"/>
+<path d="M128,152 Q100,175 92,204" fill="none" stroke="#f57c00" stroke-width="2.5" marker-end="url(#fealgo0017mf57c00)" stroke-dasharray="5 4"/>
+<path d="M112,236 Q150,270 196,250" fill="none" stroke="#f57c00" stroke-width="2.5" marker-end="url(#fealgo0017mf57c00)" stroke-dasharray="5 4"/>
+<path d="M232,222 Q300,150 368,132" fill="none" stroke="#f57c00" stroke-width="2.5" marker-end="url(#fealgo0017mf57c00)" stroke-dasharray="5 4"/>
+<text x="270" y="290" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >数字＝調べる順番（行けるところまで進み、戻って別の道へ）</text>
+<circle cx="510" cy="20" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="510" y="21" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

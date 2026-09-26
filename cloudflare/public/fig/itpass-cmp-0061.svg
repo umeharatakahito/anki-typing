@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 330" width="540" height="330" font-family="sans-serif">
+<rect width="540" height="330" fill="#fff"/>
+<path d="M30,50 L30,270 A50,14 0 0 0 130,270 L130,50" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<ellipse cx="80" cy="50" rx="50" ry="14" fill="#e0e0e0" stroke="#37474f" stroke-width="2" />
+<text x="80" y="305" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ディスク1</text>
+<rect x="44" y="76" width="72" height="38" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="80" y="95" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >D1</text>
+<rect x="44" y="124" width="72" height="38" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="80" y="143" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >D4</text>
+<rect x="44" y="172" width="72" height="38" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="80" y="191" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >D7</text>
+<rect x="44" y="220" width="72" height="38" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="80" y="239" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >P</text>
+<path d="M155,50 L155,270 A50,14 0 0 0 255,270 L255,50" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<ellipse cx="205" cy="50" rx="50" ry="14" fill="#e0e0e0" stroke="#37474f" stroke-width="2" />
+<text x="205" y="305" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ディスク2</text>
+<rect x="169" y="76" width="72" height="38" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="205" y="95" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >D2</text>
+<rect x="169" y="124" width="72" height="38" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="205" y="143" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >D5</text>
+<rect x="169" y="172" width="72" height="38" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="205" y="191" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >P</text>
+<rect x="169" y="220" width="72" height="38" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="205" y="239" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >D10</text>
+<path d="M280,50 L280,270 A50,14 0 0 0 380,270 L380,50" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<ellipse cx="330" cy="50" rx="50" ry="14" fill="#e0e0e0" stroke="#37474f" stroke-width="2" />
+<text x="330" y="305" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ディスク3</text>
+<rect x="294" y="76" width="72" height="38" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="330" y="95" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >D3</text>
+<rect x="294" y="124" width="72" height="38" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="330" y="143" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >P</text>
+<rect x="294" y="172" width="72" height="38" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="330" y="191" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >D8</text>
+<rect x="294" y="220" width="72" height="38" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="330" y="239" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >D11</text>
+<path d="M405,50 L405,270 A50,14 0 0 0 505,270 L505,50" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<ellipse cx="455" cy="50" rx="50" ry="14" fill="#e0e0e0" stroke="#37474f" stroke-width="2" />
+<text x="455" y="305" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >ディスク4</text>
+<rect x="419" y="76" width="72" height="38" rx="6" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="455" y="95" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >P</text>
+<rect x="419" y="124" width="72" height="38" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="455" y="143" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >D6</text>
+<rect x="419" y="172" width="72" height="38" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="455" y="191" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >D9</text>
+<rect x="419" y="220" width="72" height="38" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="455" y="239" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >D12</text>
+<text x="270" y="18" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >P：パリティ（誤り訂正用）　データとPを分散して記録</text>
+<circle cx="20" cy="18" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="20" y="19" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

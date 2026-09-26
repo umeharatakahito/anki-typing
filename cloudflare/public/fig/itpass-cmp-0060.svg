@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320" font-family="sans-serif">
+<rect width="540" height="320" fill="#fff"/>
+<defs><marker id="itpasscmp0060m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="60" y1="280" x2="520" y2="280" stroke="#37474f" stroke-width="2" marker-end="url(#itpasscmp0060m37474f)"/>
+<text x="520" y="302" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >時間</text>
+<line x1="60" y1="280" x2="60" y2="30" stroke="#37474f" stroke-width="2" marker-end="url(#itpasscmp0060m37474f)"/>
+<text x="68" y="18" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >値</text>
+<polyline points="60,160 64,147.949 68,136.159 72,124.883 76,114.354 80,104.782 84,96.3395 88,89.1635 92,83.3466 96,78.9368 100,75.9366 104,74.3041 108,73.9569 112,74.7767 116,76.6155 120,79.3028 124,82.6544 128,86.4804 132,90.5941 136,94.8203 140,99.0032 144,103.012 148,106.748 152,110.146 156,113.178 160,115.854 164,118.217 168,120.344 172,122.338 176,124.326 180,126.444 184,128.839 188,131.653 192,135.017 196,139.046 200,143.827 204,149.417 208,155.836 212,163.066 216,171.047 220,179.679 224,188.825 228,198.313 232,207.945 236,217.5 240,226.744 244,235.438 248,243.349 252,250.257 256,255.963 260,260.299 264,263.134 268,264.377 272,263.986 276,261.962 280,258.357 284,253.266 288,246.827 292,239.216 296,230.634 300,221.309 304,211.48 308,201.389 312,191.274 316,181.361 320,171.852 324,162.922 328,154.709 332,147.317 336,140.805 340,135.193 344,130.461 348,126.552 352,123.377 356,120.821 360,118.75 364,117.018 368,115.478 372,113.987 376,112.416 380,110.657 384,108.628 388,106.28 392,103.597 396,100.603 400,97.3554 404,93.9477 408,90.5036 412,87.1729 416,84.1242 420,81.5378 424,79.5973 428,78.4808 432,78.3527 436,79.3554 440,81.6019 444,85.1696 448,90.0954 452,96.3727 456,103.95 460,112.731 464,122.577 468,133.31 472,144.722 476,156.578 480,168.624 484,180.598 488,192.241 492,203.302 496,213.547 500,222.771" fill="none" stroke="#90a4ae" stroke-width="2.5" stroke-linejoin="round" />
+<line x1="60" y1="280" x2="60" y2="160" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="4 3"/>
+<circle cx="60" cy="160" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<line x1="100" y1="280" x2="100" y2="75.9366" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="4 3"/>
+<circle cx="100" cy="75.9366" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<line x1="140" y1="280" x2="140" y2="99.0032" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="4 3"/>
+<circle cx="140" cy="99.0032" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<line x1="180" y1="280" x2="180" y2="126.444" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="4 3"/>
+<circle cx="180" cy="126.444" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<line x1="220" y1="280" x2="220" y2="179.679" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="4 3"/>
+<circle cx="220" cy="179.679" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<line x1="260" y1="280" x2="260" y2="260.299" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="4 3"/>
+<circle cx="260" cy="260.299" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<line x1="300" y1="280" x2="300" y2="221.309" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="4 3"/>
+<circle cx="300" cy="221.309" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<line x1="340" y1="280" x2="340" y2="135.193" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="4 3"/>
+<circle cx="340" cy="135.193" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<line x1="380" y1="280" x2="380" y2="110.657" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="4 3"/>
+<circle cx="380" cy="110.657" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<line x1="420" y1="280" x2="420" y2="81.5378" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="4 3"/>
+<circle cx="420" cy="81.5378" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<line x1="460" y1="280" x2="460" y2="112.731" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="4 3"/>
+<circle cx="460" cy="112.731" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<line x1="500" y1="280" x2="500" y2="222.771" stroke="#f57c00" stroke-width="1.5" stroke-dasharray="4 3"/>
+<circle cx="500" cy="222.771" r="6" fill="#f57c00" stroke="#fff" stroke-width="1.5" />
+<circle cx="30" cy="22" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="30" y="23" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="300" y="22" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >一定の時間ごとに値を取り出す</text>
+</svg>

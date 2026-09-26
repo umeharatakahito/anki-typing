@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 330" width="560" height="330" font-family="sans-serif">
+<rect width="560" height="330" fill="#fff"/>
+<defs><marker id="femgmt0026m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="60" y1="280" x2="530" y2="280" stroke="#37474f" stroke-width="2" marker-end="url(#femgmt0026m37474f)"/>
+<line x1="60" y1="280" x2="60" y2="30" stroke="#37474f" stroke-width="2" marker-end="url(#femgmt0026m37474f)"/>
+<text x="524" y="304" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >時間</text>
+<text x="68" y="20" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >金額</text>
+<polyline points="60,277.693 76.8,276.709 93.6,275.314 110.4,273.348 127.2,270.595 144,266.776 160.8,261.549 177.6,254.523 194.4,245.307 211.2,233.595 228,219.299 244.8,202.681 261.6,184.425 278.4,165.575 295.2,147.319 312,130.701 328.8,116.405 345.6,104.693 362.4,95.477 379.2,88.4514 396,83.2244 412.8,79.4054 429.6,76.652 446.4,74.6858 463.2,73.2914 480,72.3073" fill="none" stroke="#1976d2" stroke-width="3" stroke-linejoin="round" />
+<polyline points="60,278.2 76.8,277.433 93.6,276.345 110.4,274.811 127.2,272.664 144,269.685 160.8,265.608 177.6,260.128 194.4,252.939 211.2,243.804 228,232.654 244.8,219.691 261.6,205.451 278.4,190.749" fill="none" stroke="#388e3c" stroke-width="3" stroke-linejoin="round" />
+<polyline points="60,277.347 76.8,276.215 93.6,274.611 110.4,272.35 127.2,269.184 144,264.792 160.8,258.781 177.6,250.702 194.4,240.103 211.2,226.635 228,210.194 244.8,191.083 261.6,170.088 278.4,148.412" fill="none" stroke="#d32f2f" stroke-width="3" stroke-linejoin="round" />
+<line x1="291" y1="50" x2="291" y2="280" stroke="#757575" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="291" y="40" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >今日</text>
+<line x1="340" y1="190" x2="370" y2="190" stroke="#1976d2" stroke-width="3"/>
+<text x="378" y="190" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#1976d2" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >計画した作業の予定額</text>
+<line x1="340" y1="214" x2="370" y2="214" stroke="#d32f2f" stroke-width="3"/>
+<text x="378" y="214" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >実際にかかったコスト</text>
+<line x1="340" y1="238" x2="370" y2="238" stroke="#388e3c" stroke-width="3"/>
+<text x="378" y="238" font-size="14" text-anchor="start" dominant-baseline="middle" fill="#388e3c" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >終わった作業の出来高</text>
+<circle cx="30" cy="20" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="30" y="21" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

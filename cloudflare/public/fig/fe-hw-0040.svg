@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" width="560" height="320" font-family="sans-serif">
+<rect width="560" height="320" fill="#fff"/>
+<defs><marker id="fehw0040m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="60" y1="250" x2="530" y2="250" stroke="#37474f" stroke-width="2" marker-end="url(#fehw0040m37474f)"/>
+<line x1="60" y1="250" x2="60" y2="30" stroke="#37474f" stroke-width="2" marker-end="url(#fehw0040m37474f)"/>
+<text x="524" y="274" font-size="15" text-anchor="end" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >時間</text>
+<text x="68" y="20" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >故障率</text>
+<polyline points="70,88.5 75,106.003 80,120.931 85,133.664 90,144.524 95,153.786 100,161.687 105,168.425 110,174.172 115,179.074 120,183.255 125,186.821 130,189.862 135,192.457 140,194.669 145,196.556 150,198.166 155,199.539 160,200.71 165,201.708 170,202.56 175,203.287 180,203.907 185,204.435 190,204.886 195,205.27 200,205.598 205,205.878 210,206.117 215,206.32 220,206.494 225,206.642 230,206.768 235,206.876 240,206.967 245,207.046 250,207.113 255,207.17 260,207.218 265,207.26 270,207.295 275,207.325 280,207.351 285,207.373 290,207.391 295,207.407 300,207.421 305,207.433 310,207.443 315,207.451 320,207.458 325,207.464 330,207.47 335,207.474 340,207.478 345,207.481 350,207.484 355,207.486 360,207.488 365,207.49 370,207.491 375,207.493 380,207.469 385,207.185 390,206.585 395,205.669 400,204.437 405,202.888 410,201.024 415,198.843 420,196.346 425,193.533 430,190.403 435,186.958 440,183.196 445,179.118 450,174.724 455,170.014 460,164.988 465,159.646 470,153.988 475,148.013 480,141.722 485,135.116 490,128.193 495,120.954 500,113.399 505,105.527 510,97.3399" fill="none" stroke="#f57c00" stroke-width="3.5" stroke-linejoin="round" />
+<line x1="158" y1="50" x2="158" y2="250" stroke="#9e9e9e" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="378" y1="50" x2="378" y2="250" stroke="#9e9e9e" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="114" y="280" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >初期故障期</text>
+<text x="268" y="280" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >偶発故障期</text>
+<text x="444" y="280" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >摩耗故障期</text>
+<circle cx="300" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="300" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

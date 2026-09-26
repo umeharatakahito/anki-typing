@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 350" width="580" height="350" font-family="sans-serif">
+<rect width="580" height="350" fill="#fff"/>
+<polygon points="30,260 30,257.486 35.2,257.017 40.4,256.472 45.6,255.841 50.8,255.115 56,254.282 61.2,253.331 66.4,252.247 71.6,251.019 76.8,249.632 82,248.072 87.2,246.325 92.4,244.377 97.6,242.212 102.8,239.818 108,237.18 113.2,234.286 113.2,260" fill="#b3e5fc" stroke="#37474f" stroke-width="1.5" stroke-linejoin="round" />
+<text x="71.6" y="282" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >革新者</text>
+<polygon points="113.2,260 113.2,234.286 118.4,231.126 123.6,227.689 128.8,223.968 134,219.958 139.2,215.655 144.4,211.059 149.6,206.173 154.8,201.004 160,195.562 165.2,189.861 170.4,183.919 175.6,177.759 180.8,171.407 186,164.895 191.2,158.256 196.4,151.53 201.6,144.759 206.8,137.988 206.8,260" fill="#b3e5fc" stroke="#37474f" stroke-width="1.5" stroke-linejoin="round" />
+<text x="160" y="282" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >初期</text>
+<text x="160" y="300" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >採用者</text>
+<polygon points="228.8,260 228.8,137.988 234,131.266 239.2,124.642 244.4,118.169 249.6,111.9 254.8,105.888 260,100.186 265.2,94.8448 270.4,89.9152 275.6,85.4434 280.8,81.4729 286,78.0428 291.2,75.1874 296.4,72.9356 301.6,71.3103 306.8,70.3284 312,70 312,260" fill="#c8e6c9" stroke="#37474f" stroke-width="1.5" stroke-linejoin="round" />
+<text x="270.4" y="282" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >前期</text>
+<text x="270.4" y="300" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >多数派</text>
+<polygon points="312,260 312,70 317.2,70.3284 322.4,71.3103 327.6,72.9356 332.8,75.1874 338,78.0428 343.2,81.4729 348.4,85.4434 353.6,89.9152 358.8,94.8448 364,100.186 369.2,105.888 374.4,111.9 379.6,118.169 384.8,124.642 390,131.266 395.2,137.988 395.2,260" fill="#c8e6c9" stroke="#37474f" stroke-width="1.5" stroke-linejoin="round" />
+<text x="353.6" y="282" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >後期</text>
+<text x="353.6" y="300" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >多数派</text>
+<polygon points="395.2,260 395.2,137.988 400.4,144.759 405.6,151.53 410.8,158.256 416,164.895 421.2,171.407 426.4,177.759 431.6,183.919 436.8,189.861 442,195.562 447.2,201.004 452.4,206.173 457.6,211.059 462.8,215.655 468,219.958 473.2,223.968 478.4,227.689 483.6,231.126 488.8,234.286 494,237.18 499.2,239.818 504.4,242.212 509.6,244.377 514.8,246.325 520,248.072 525.2,249.632 530.4,251.019 535.6,252.247 540.8,253.331 546,254.282 551.2,255.115 556.4,255.841 561.6,256.472 566.8,257.017 572,257.486 572,260" fill="#e0e0e0" stroke="#37474f" stroke-width="1.5" stroke-linejoin="round" />
+<text x="483.6" y="282" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >遅滞者</text>
+<rect x="208.8" y="60" width="18" height="200" rx="0" fill="#ffcc80" stroke="none" stroke-width="0" />
+<line x1="208.8" y1="60" x2="208.8" y2="260" stroke="#f57c00" stroke-width="2" stroke-dasharray="5 4"/>
+<line x1="226.8" y1="60" x2="226.8" y2="260" stroke="#f57c00" stroke-width="2" stroke-dasharray="5 4"/>
+<circle cx="217.8" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="217.8" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+<text x="290" y="338" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >新しい製品を使い始める人の層（左ほど早い）</text>
+</svg>

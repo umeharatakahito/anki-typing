@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" width="480" height="330" font-family="sans-serif">
+<rect width="480" height="330" fill="#fff"/>
+<defs><marker id="itpassbiz0023m37474f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474f"/></marker></defs>
+<line x1="60" y1="280" x2="450" y2="280" stroke="#37474f" stroke-width="2" marker-end="url(#itpassbiz0023m37474f)"/>
+<line x1="60" y1="280" x2="60" y2="40" stroke="#37474f" stroke-width="2" marker-end="url(#itpassbiz0023m37474f)"/>
+<text x="68" y="30" font-size="15" text-anchor="start" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >個数</text>
+<rect x="60" y="254.118" width="45" height="25.8824" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<rect x="105" y="215.294" width="45" height="64.7059" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<rect x="150" y="163.529" width="45" height="116.471" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<rect x="195" y="98.8235" width="45" height="181.176" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<rect x="240" y="60" width="45" height="220" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<rect x="285" y="124.706" width="45" height="155.294" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<rect x="330" y="189.412" width="45" height="90.5882" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<rect x="375" y="241.176" width="45" height="38.8235" rx="0" fill="#bbdefb" stroke="#1976d2" stroke-width="1.5" />
+<text x="60" y="295" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >150</text>
+<text x="105" y="295" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >155</text>
+<text x="150" y="295" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >160</text>
+<text x="195" y="295" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >165</text>
+<text x="240" y="295" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >170</text>
+<text x="285" y="295" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >175</text>
+<text x="330" y="295" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >180</text>
+<text x="375" y="295" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >185</text>
+<text x="420" y="295" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >190</text>
+<text x="250" y="318" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >身長（cm）の区間</text>
+<circle cx="440" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="440" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

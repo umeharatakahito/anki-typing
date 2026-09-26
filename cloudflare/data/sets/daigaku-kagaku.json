@@ -1,0 +1,2512 @@
+[
+ {
+  "id": "daigaku-kagaku-0001",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "1種類の物質だけからなるものは？",
+  "answer": "純物質",
+  "reading": "じゅんぶっしつ",
+  "explanation": "融点や沸点が決まった値を示すよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0002",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "2種類以上の物質が混じり合ったものは？",
+  "answer": "混合物",
+  "reading": "こんごうぶつ",
+  "explanation": "空気や海水がその例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0003",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "1種類の元素だけからなる純物質は？",
+  "answer": "単体",
+  "reading": "たんたい",
+  "explanation": "酸素O2や鉄Feなどがこれだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0004",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "2種類以上の元素からなる純物質は？",
+  "answer": "化合物",
+  "reading": "かごうぶつ",
+  "explanation": "水や二酸化炭素などがこれだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0005",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "ダイヤモンドと黒鉛のように、同じ元素からなる単体で性質が異なるものを互いに何という？",
+  "answer": "同素体",
+  "reading": "どうそたい",
+  "explanation": "S・C・O・Pの同素体を「スコップ」と覚えよう。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0006",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "液体を加熱して生じた蒸気を冷却し、再び液体として分離する操作は？",
+  "answer": "蒸留",
+  "reading": "じょうりゅう",
+  "explanation": "沸点の差を利用する分離法だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0007",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "液体とそれに溶けない固体を、ろ紙を使って分ける操作は？",
+  "answer": "ろ過",
+  "reading": "ろか",
+  "explanation": "ろうとの先はビーカーの内壁につけるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0008",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "固体が液体を経ずに直接気体になる変化は？",
+  "answer": "昇華",
+  "reading": "しょうか",
+  "explanation": "ヨウ素やナフタレンで見られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0009",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "温度による溶解度の差を利用して、固体を純粋な結晶として取り出す操作は？",
+  "answer": "再結晶",
+  "reading": "さいけっしょう",
+  "explanation": "少量の不純物は溶液中に残るよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0010",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "原子の中心にあり、陽子と中性子からなる部分は？",
+  "answer": "原子核",
+  "reading": "げんしかく",
+  "explanation": "原子の質量のほとんどがここに集中しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0011",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "原子核を構成する粒子のうち、正の電荷をもつものは？",
+  "answer": "陽子",
+  "reading": "ようし",
+  "explanation": "この数で元素の種類が決まるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0012",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "原子核を構成する粒子のうち、電荷をもたないものは？",
+  "answer": "中性子",
+  "reading": "ちゅうせいし",
+  "explanation": "質量は陽子とほぼ同じだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0013",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "原子番号が同じで質量数が異なる原子どうしを何という？",
+  "answer": "同位体",
+  "reading": "どういたい",
+  "explanation": "化学的性質はほぼ同じだよ。同素体と混同しないでね。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0014",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "原子核中の陽子の数を何という？",
+  "answer": "原子番号",
+  "reading": "げんしばんごう",
+  "explanation": "中性の原子では電子の数とも等しいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0015",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "原子核中の陽子の数と中性子の数の和を何という？",
+  "answer": "質量数",
+  "reading": "しつりょうすう",
+  "explanation": "元素記号の左上に書くよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0016",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "原子が電子を失ってできる、正の電荷をもつ粒子は？",
+  "answer": "陽イオン",
+  "reading": "よういおん",
+  "explanation": "金属元素の原子がなりやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0017",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "原子が電子を受け取ってできる、負の電荷をもつ粒子は？",
+  "answer": "陰イオン",
+  "reading": "いんいおん",
+  "explanation": "ハロゲンなどの非金属元素の原子がなりやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0018",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "元素を原子番号の順に並べ、性質の似た元素が縦の列に並ぶようにした表は？",
+  "answer": "周期表",
+  "reading": "しゅうきひょう",
+  "explanation": "メンデレーエフが原型をつくったよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0019",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "周期表の18族の元素で、他の原子とほとんど結合しないものの総称は？",
+  "answer": "貴ガス",
+  "reading": "きがす",
+  "explanation": "以前は希ガスと書かれていたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0020",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "フッ素・塩素・臭素・ヨウ素など、周期表の17族元素の総称は？",
+  "answer": "ハロゲン",
+  "reading": "はろげん",
+  "explanation": "価電子を7個もち、1価の陰イオンになりやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0021",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "水素を除く周期表の1族元素の総称は？",
+  "answer": "アルカリ金属",
+  "reading": "あるかりきんぞく",
+  "explanation": "水と激しく反応して水素を発生するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0022",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "ベリリウム・マグネシウム・カルシウムなど、周期表の2族元素の総称は？",
+  "answer": "アルカリ土類金属",
+  "reading": "あるかりどるいきんぞく",
+  "explanation": "現在はBeとMgも含めて呼ぶよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0023",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "周期表の3族から12族までの元素の総称は？",
+  "answer": "遷移元素",
+  "reading": "せんいげんそ",
+  "explanation": "すべて金属元素だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0024",
+  "level": 1,
+  "category": "物質の構成",
+  "prompt": "物質を構成する基本的な成分で、原子の種類を表す概念は？",
+  "answer": "元素",
+  "reading": "げんそ",
+  "explanation": "単体と元素の使い分けに注意しよう。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0025",
+  "level": 1,
+  "category": "化学結合",
+  "prompt": "陽イオンと陰イオンが静電気的な引力で結びつく結合は？",
+  "answer": "イオン結合",
+  "reading": "いおんけつごう",
+  "explanation": "金属元素と非金属元素の間でできやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0026",
+  "level": 2,
+  "category": "化学結合",
+  "prompt": "原子どうしが価電子を出し合い、電子対を共有してできる結合は？",
+  "answer": "共有結合",
+  "reading": "きょうゆうけつごう",
+  "explanation": "非金属元素の原子どうしでできやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0027",
+  "level": 2,
+  "category": "化学結合",
+  "prompt": "金属原子の間を動き回る電子を、すべての原子が共有することでできる結合は？",
+  "answer": "金属結合",
+  "reading": "きんぞくけつごう",
+  "explanation": "展性・延性の原因にもなっているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0028",
+  "level": 2,
+  "category": "化学結合",
+  "prompt": "金属中で特定の原子に属さず、結晶全体を動き回る電子は？",
+  "answer": "自由電子",
+  "reading": "じゆうでんし",
+  "explanation": "金属が電気や熱をよく通すのはこの電子のおかげだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0029",
+  "level": 2,
+  "category": "化学結合",
+  "prompt": "原子が共有電子対を引きつける強さを数値で表したものは？",
+  "answer": "電気陰性度",
+  "reading": "でんきいんせいど",
+  "explanation": "最も大きい元素はフッ素だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0030",
+  "level": 2,
+  "category": "化学結合",
+  "prompt": "分子内で結合に使われず、1つの原子に属したままの電子対は？",
+  "answer": "非共有電子対",
+  "reading": "ひきょうゆうでんしたい",
+  "explanation": "配位結合に使われることがあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0031",
+  "level": 2,
+  "category": "化学結合",
+  "prompt": "一方の原子の非共有電子対が他方に提供されてできる共有結合は？",
+  "answer": "配位結合",
+  "reading": "はいいけつごう",
+  "explanation": "アンモニウムイオンの生成が代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0032",
+  "level": 2,
+  "category": "化学結合",
+  "prompt": "分子全体として電荷のかたよりをもつ分子は？",
+  "answer": "極性分子",
+  "reading": "きょくせいぶんし",
+  "explanation": "水やアンモニアがその例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0033",
+  "level": 2,
+  "category": "化学結合",
+  "prompt": "分子と分子の間にはたらく弱い引力の総称は？",
+  "answer": "分子間力",
+  "reading": "ぶんしかんりょく",
+  "explanation": "ファンデルワールス力や水素結合などが含まれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0034",
+  "level": 2,
+  "category": "化学結合",
+  "prompt": "F・O・Nのような電気陰性度の大きい原子に結合したH原子が、隣の分子の同様の原子と引き合う結合は？",
+  "answer": "水素結合",
+  "reading": "すいそけつごう",
+  "explanation": "水の沸点が異常に高いのはこのためだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0035",
+  "level": 2,
+  "category": "化学結合",
+  "prompt": "ダイヤモンドや二酸化ケイ素のように、多数の原子が共有結合だけでつながってできた結晶は？",
+  "answer": "共有結合の結晶",
+  "reading": "きょうゆうけつごうのけっしょう",
+  "explanation": "非常に硬く、融点が高いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0036",
+  "level": 2,
+  "category": "化学結合",
+  "prompt": "原子の最外殻にあり、化学結合に関与する電子は？",
+  "answer": "価電子",
+  "reading": "かでんし",
+  "explanation": "貴ガスの価電子の数は0とするよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0037",
+  "level": 2,
+  "category": "化学結合",
+  "prompt": "原子から電子1個を取り去って1価の陽イオンにするのに必要なエネルギーは？",
+  "answer": "イオン化エネルギー",
+  "reading": "いおんかえねるぎー",
+  "explanation": "この値が小さい原子ほど陽イオンになりやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0038",
+  "level": 2,
+  "category": "化学結合",
+  "prompt": "原子が電子1個を受け取って1価の陰イオンになるときに放出されるエネルギーは？",
+  "answer": "電子親和力",
+  "reading": "でんししんわりょく",
+  "explanation": "この値が大きい原子ほど陰イオンになりやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0039",
+  "level": 2,
+  "category": "物質の状態",
+  "prompt": "固体が液体になる状態変化は？",
+  "answer": "融解",
+  "reading": "ゆうかい",
+  "explanation": "このときの温度を融点というよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0040",
+  "level": 2,
+  "category": "物質の状態",
+  "prompt": "液体が固体になる状態変化は？",
+  "answer": "凝固",
+  "reading": "ぎょうこ",
+  "explanation": "純物質では融点と同じ温度で起こるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0041",
+  "level": 2,
+  "category": "物質の状態",
+  "prompt": "気体が液体になる状態変化は？",
+  "answer": "凝縮",
+  "reading": "ぎょうしゅく",
+  "explanation": "逆の変化は蒸発だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0042",
+  "level": 2,
+  "category": "物質の状態",
+  "prompt": "液体の表面だけでなく内部からも気体が発生する現象は？",
+  "answer": "沸騰",
+  "reading": "ふっとう",
+  "explanation": "蒸気圧が外圧と等しくなると起こるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0043",
+  "level": 2,
+  "category": "物質の状態",
+  "prompt": "物質を構成する粒子が、温度に応じて行う不規則な運動は？",
+  "answer": "熱運動",
+  "reading": "ねつうんどう",
+  "explanation": "温度が高いほど激しくなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0044",
+  "level": 2,
+  "category": "物質の状態",
+  "prompt": "水中の微粒子が、水分子の不規則な衝突によってふらふらと動く現象は？",
+  "answer": "ブラウン運動",
+  "reading": "ぶらうんうんどう",
+  "explanation": "熱運動の間接的な証拠になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0045",
+  "level": 2,
+  "category": "物質量",
+  "prompt": "粒子の数に着目し、6.02×10^23個の集団を1molとして表す量は？",
+  "answer": "物質量",
+  "reading": "ぶっしつりょう",
+  "explanation": "単位はmolだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0046",
+  "level": 2,
+  "category": "物質量",
+  "prompt": "物質1molあたりに含まれる粒子の数を表す定数は？",
+  "answer": "アボガドロ定数",
+  "reading": "あぼがどろていすう",
+  "explanation": "約6.02×10^23/molだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0047",
+  "level": 2,
+  "category": "物質量",
+  "prompt": "各元素の同位体の相対質量を、存在比で平均した値は？",
+  "answer": "原子量",
+  "reading": "げんしりょう",
+  "explanation": "12Cの質量を12とする基準で求めるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0048",
+  "level": 2,
+  "category": "物質量",
+  "prompt": "分子を構成する原子の原子量の総和は？",
+  "answer": "分子量",
+  "reading": "ぶんしりょう",
+  "explanation": "イオンからなる物質では式量を使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0049",
+  "level": 2,
+  "category": "物質量",
+  "prompt": "溶液1Lあたりに溶けている溶質の物質量で表した濃度は？",
+  "answer": "モル濃度",
+  "reading": "もるのうど",
+  "explanation": "単位はmol/Lだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0050",
+  "level": 2,
+  "category": "物質量",
+  "prompt": "物質1molあたりの質量は？",
+  "answer": "モル質量",
+  "reading": "もるしつりょう",
+  "explanation": "原子量や分子量にg/molをつけた値になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0051",
+  "level": 3,
+  "category": "酸と塩基",
+  "prompt": "水に溶けて水素イオンを生じる物質を酸、水酸化物イオンを生じる物質を塩基と定義したスウェーデンの化学者は？",
+  "answer": "アレニウス",
+  "reading": "あれにうす",
+  "explanation": "水溶液中での定義なので、適用できる範囲が限られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0052",
+  "level": 3,
+  "category": "酸と塩基",
+  "prompt": "塩酸や硫酸のように、水溶液中でほぼ完全に電離する酸は？",
+  "answer": "強酸",
+  "reading": "きょうさん",
+  "explanation": "電離度はほぼ1だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0053",
+  "level": 3,
+  "category": "酸と塩基",
+  "prompt": "酢酸のように、水溶液中で一部しか電離しない酸は？",
+  "answer": "弱酸",
+  "reading": "じゃくさん",
+  "explanation": "電離度が小さい酸だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0054",
+  "level": 3,
+  "category": "酸と塩基",
+  "prompt": "溶かした電解質のうち、電離したものの割合は？",
+  "answer": "電離度",
+  "reading": "でんりど",
+  "explanation": "濃度や温度によって変わるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0055",
+  "level": 3,
+  "category": "酸と塩基",
+  "prompt": "酸と塩基が反応して、互いの性質を打ち消しあう反応は？",
+  "answer": "中和",
+  "reading": "ちゅうわ",
+  "explanation": "H+とOH-から水ができる反応だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0056",
+  "level": 3,
+  "category": "酸と塩基",
+  "prompt": "中和反応で水とともに生じる、酸由来の陰イオンと中和の相手由来の陽イオンからなる化合物は？",
+  "answer": "塩",
+  "reading": "えん",
+  "explanation": "「しお」ではなく「えん」と読むよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0057",
+  "level": 3,
+  "category": "酸と塩基",
+  "prompt": "水溶液の酸性・塩基性の強さを表す指数で、25℃で7が中性を示すものは？",
+  "answer": "pH",
+  "reading": "ph",
+  "explanation": "水素イオン濃度が10倍になると1小さくなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0058",
+  "level": 3,
+  "category": "酸と塩基",
+  "prompt": "中和滴定で使う、濃度が正確にわかっている溶液は？",
+  "answer": "標準溶液",
+  "reading": "ひょうじゅんようえき",
+  "explanation": "これを基準に未知の濃度を求めるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0059",
+  "level": 3,
+  "category": "酸と塩基",
+  "prompt": "中和滴定で、滴下した溶液の体積を正確に読み取る器具は？",
+  "answer": "ビュレット",
+  "reading": "びゅれっと",
+  "explanation": "目盛りは0.01mLの位まで読むよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0060",
+  "level": 3,
+  "category": "酸と塩基",
+  "prompt": "一定体積の溶液を正確にはかりとる器具は？",
+  "answer": "ホールピペット",
+  "reading": "ほーるぴぺっと",
+  "explanation": "内部が水でぬれていたら、使う溶液で共洗いするよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0061",
+  "level": 3,
+  "category": "酸と塩基",
+  "prompt": "正確な濃度の溶液をつくるのに使う、標線の入った容器は？",
+  "answer": "メスフラスコ",
+  "reading": "めすふらすこ",
+  "explanation": "加熱乾燥させてはいけないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0062",
+  "level": 3,
+  "category": "酸と塩基",
+  "prompt": "変色域が塩基性側にあり、弱酸と強塩基の中和滴定に適した指示薬は？",
+  "answer": "フェノールフタレイン",
+  "reading": "ふぇのーるふたれいん",
+  "explanation": "塩基性で赤色になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0063",
+  "level": 3,
+  "category": "酸と塩基",
+  "prompt": "変色域が酸性側にあり、強酸と弱塩基の中和滴定に適した指示薬は？",
+  "answer": "メチルオレンジ",
+  "reading": "めちるおれんじ",
+  "explanation": "酸性側で赤、塩基性側で黄色になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0064",
+  "level": 3,
+  "category": "酸と塩基",
+  "prompt": "中和滴定で、加えた溶液の体積とpHの関係を表したグラフは？",
+  "answer": "滴定曲線",
+  "reading": "てきていきょくせん",
+  "explanation": "中和点付近でpHが大きく変化するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0065",
+  "level": 3,
+  "category": "酸と塩基",
+  "prompt": "酸や塩基の化学式1つから生じうるH+またはOH-の数は？",
+  "answer": "価数",
+  "reading": "かすう",
+  "explanation": "硫酸は2、リン酸は3だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0066",
+  "level": 3,
+  "category": "酸と塩基",
+  "prompt": "化学式中に酸のHも塩基のOHも残っていない塩は？",
+  "answer": "正塩",
+  "reading": "せいえん",
+  "explanation": "正塩でも水溶液が中性とは限らないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0067",
+  "level": 3,
+  "category": "酸と塩基",
+  "prompt": "炭酸水素ナトリウムのように、化学式中に酸のHが残っている塩は？",
+  "answer": "酸性塩",
+  "reading": "さんせいえん",
+  "explanation": "名前に反して水溶液が塩基性を示すものもあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0068",
+  "level": 3,
+  "category": "酸と塩基",
+  "prompt": "弱酸と強塩基からなる塩などが水と反応し、水溶液が酸性や塩基性を示す現象は？",
+  "answer": "加水分解",
+  "reading": "かすいぶんかい",
+  "explanation": "塩の加水分解ともいい、酢酸ナトリウム水溶液が塩基性を示すのはこのためだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0069",
+  "level": 3,
+  "category": "物質の構成",
+  "prompt": "金属元素を含む物質を炎に入れると、元素に特有の色が見られる反応は？",
+  "answer": "炎色反応",
+  "reading": "えんしょくはんのう",
+  "explanation": "Naは黄色、Kは赤紫色、Cuは青緑色だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0070",
+  "level": 3,
+  "category": "物質名",
+  "prompt": "食塩の主成分で、ナトリウムイオンと塩化物イオンからなる化合物は？",
+  "answer": "塩化ナトリウム",
+  "reading": "えんかなとりうむ",
+  "explanation": "イオン結晶の代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0071",
+  "level": 3,
+  "category": "物質名",
+  "prompt": "水溶液が強い塩基性を示し、苛性ソーダとも呼ばれる物質は？",
+  "answer": "水酸化ナトリウム",
+  "reading": "すいさんかなとりうむ",
+  "explanation": "空気中の水分を吸収して溶ける潮解性があるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0072",
+  "level": 3,
+  "category": "物質名",
+  "prompt": "塩化水素の水溶液で、胃液にも含まれる強酸は？",
+  "answer": "塩酸",
+  "reading": "えんさん",
+  "explanation": "揮発性の酸だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0073",
+  "level": 3,
+  "category": "物質名",
+  "prompt": "その飽和水溶液が石灰水と呼ばれる物質は？",
+  "answer": "水酸化カルシウム",
+  "reading": "すいさんかかるしうむ",
+  "explanation": "二酸化炭素を通すと白くにごるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0074",
+  "level": 3,
+  "category": "物質名",
+  "prompt": "石灰石や大理石、貝殻の主成分は？",
+  "answer": "炭酸カルシウム",
+  "reading": "たんさんかるしうむ",
+  "explanation": "塩酸を加えると二酸化炭素が発生するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0075",
+  "level": 3,
+  "category": "物質名",
+  "prompt": "重曹とも呼ばれ、ベーキングパウダーに使われる物質は？",
+  "answer": "炭酸水素ナトリウム",
+  "reading": "たんさんすいそなとりうむ",
+  "explanation": "加熱すると二酸化炭素を発生するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0076",
+  "level": 3,
+  "category": "物質名",
+  "prompt": "食酢に含まれる代表的な弱酸は？",
+  "answer": "酢酸",
+  "reading": "さくさん",
+  "explanation": "純度の高いものは冬に凍るので氷酢酸と呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0077",
+  "level": 4,
+  "category": "酸化還元",
+  "prompt": "物質が酸素を受け取る、または電子を失う変化は？",
+  "answer": "酸化",
+  "reading": "さんか",
+  "explanation": "酸化数が増加する変化だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0078",
+  "level": 4,
+  "category": "酸化還元",
+  "prompt": "物質が酸素を失う、または電子を受け取る変化は？",
+  "answer": "還元",
+  "reading": "かんげん",
+  "explanation": "酸化数が減少する変化だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0079",
+  "level": 4,
+  "category": "酸化還元",
+  "prompt": "相手の物質から電子を奪って酸化し、自身は還元される物質は？",
+  "answer": "酸化剤",
+  "reading": "さんかざい",
+  "explanation": "過マンガン酸カリウムなどが代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0080",
+  "level": 4,
+  "category": "酸化還元",
+  "prompt": "相手の物質に電子を与えて還元し、自身は酸化される物質は？",
+  "answer": "還元剤",
+  "reading": "かんげんざい",
+  "explanation": "シュウ酸や硫化水素などが代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0081",
+  "level": 4,
+  "category": "酸化還元",
+  "prompt": "原子やイオンがどの程度酸化されているかを表す数値は？",
+  "answer": "酸化数",
+  "reading": "さんかすう",
+  "explanation": "単体中の原子は0とするよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0082",
+  "level": 4,
+  "category": "酸化還元",
+  "prompt": "金属の単体が、水溶液中で電子を失って陽イオンになろうとする性質は？",
+  "answer": "イオン化傾向",
+  "reading": "いおんかけいこう",
+  "explanation": "大きい金属ほど酸化されやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0083",
+  "level": 4,
+  "category": "酸化還元",
+  "prompt": "金属をイオン化傾向の大きい順に並べたものは？",
+  "answer": "イオン化列",
+  "reading": "いおんかれつ",
+  "explanation": "「貸そうかな、まあ当てにすんな…」の語呂合わせが有名だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0084",
+  "level": 4,
+  "category": "酸化還元",
+  "prompt": "鉄やアルミニウムが濃硝酸に入れても溶けなくなるような、表面にち密な酸化被膜ができた状態は？",
+  "answer": "不動態",
+  "reading": "ふどうたい",
+  "explanation": "ニッケルでも見られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0085",
+  "level": 4,
+  "category": "電池と電気分解",
+  "prompt": "酸化還元反応を利用して、化学エネルギーを電気エネルギーに変える装置は？",
+  "answer": "電池",
+  "reading": "でんち",
+  "explanation": "イオン化傾向の差を利用しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0086",
+  "level": 4,
+  "category": "電池と電気分解",
+  "prompt": "電池で、酸化反応が起こり、導線へ電子が流れ出す電極は？",
+  "answer": "負極",
+  "reading": "ふきょく",
+  "explanation": "イオン化傾向の大きい金属がこちらになるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0087",
+  "level": 4,
+  "category": "電池と電気分解",
+  "prompt": "電池で、還元反応が起こり、導線から電子が流れ込む電極は？",
+  "answer": "正極",
+  "reading": "せいきょく",
+  "explanation": "電流はこちらから流れ出るよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0088",
+  "level": 4,
+  "category": "電池と電気分解",
+  "prompt": "電池の正極と負極の間に生じる電位差の最大値は？",
+  "answer": "起電力",
+  "reading": "きでんりょく",
+  "explanation": "単位はボルト(V)だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0089",
+  "level": 4,
+  "category": "電池と電気分解",
+  "prompt": "亜鉛板と銅板を希硫酸に浸した、最初期の化学電池は？",
+  "answer": "ボルタ電池",
+  "reading": "ぼるたでんち",
+  "explanation": "すぐに起電力が低下する分極が起こるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0090",
+  "level": 4,
+  "category": "電池と電気分解",
+  "prompt": "亜鉛板を硫酸亜鉛水溶液に、銅板を硫酸銅(II)水溶液に浸し、素焼き板で仕切った電池は？",
+  "answer": "ダニエル電池",
+  "reading": "だにえるでんち",
+  "explanation": "素焼き板は両液の混合を防ぎつつイオンを通すよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0091",
+  "level": 4,
+  "category": "電池と電気分解",
+  "prompt": "負極に鉛、正極に酸化鉛(IV)、電解液に希硫酸を用いる二次電池は？",
+  "answer": "鉛蓄電池",
+  "reading": "なまりちくでんち",
+  "explanation": "自動車のバッテリーに使われているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0092",
+  "level": 4,
+  "category": "電池と電気分解",
+  "prompt": "充電によって繰り返し使える電池で、蓄電池とも呼ばれるものは？",
+  "answer": "二次電池",
+  "reading": "にじでんち",
+  "explanation": "鉛蓄電池やリチウムイオン電池がその例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0093",
+  "level": 4,
+  "category": "電池と電気分解",
+  "prompt": "充電できず、使い切りの電池は？",
+  "answer": "一次電池",
+  "reading": "いちじでんち",
+  "explanation": "アルカリマンガン乾電池などがその例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0094",
+  "level": 4,
+  "category": "電池と電気分解",
+  "prompt": "水素などの燃料と酸素の反応を利用して電気エネルギーを取り出す電池は？",
+  "answer": "燃料電池",
+  "reading": "ねんりょうでんち",
+  "explanation": "生成物が水だけなので環境への負荷が小さいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0095",
+  "level": 4,
+  "category": "電池と電気分解",
+  "prompt": "電解質の水溶液や融解液に外部から電流を流し、酸化還元反応を起こさせる操作は？",
+  "answer": "電気分解",
+  "reading": "でんきぶんかい",
+  "explanation": "電池とは逆に電気エネルギーを化学エネルギーに変えるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0096",
+  "level": 4,
+  "category": "電池と電気分解",
+  "prompt": "電気分解で、電源の正極につないだ電極は？",
+  "answer": "陽極",
+  "reading": "ようきょく",
+  "explanation": "ここでは酸化反応が起こるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0097",
+  "level": 4,
+  "category": "電池と電気分解",
+  "prompt": "電気分解で、電源の負極につないだ電極は？",
+  "answer": "陰極",
+  "reading": "いんきょく",
+  "explanation": "ここでは還元反応が起こるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0098",
+  "level": 4,
+  "category": "電池と電気分解",
+  "prompt": "電気分解で、電極で変化する物質の量は流した電気量に比例するという法則は？",
+  "answer": "ファラデーの法則",
+  "reading": "ふぁらでーのほうそく",
+  "explanation": "電子1molの電気量が計算の基準になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0099",
+  "level": 4,
+  "category": "電池と電気分解",
+  "prompt": "電子1molがもつ電気量の大きさを表す定数は？",
+  "answer": "ファラデー定数",
+  "reading": "ふぁらでーていすう",
+  "explanation": "約9.65×10^4C/molだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0100",
+  "level": 4,
+  "category": "電池と電気分解",
+  "prompt": "粗銅を陽極、純銅を陰極にして電気分解し、純度の高い銅を得る方法は？",
+  "answer": "電解精錬",
+  "reading": "でんかいせいれん",
+  "explanation": "金や銀は陽極泥として沈殿するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0101",
+  "level": 4,
+  "category": "電池と電気分解",
+  "prompt": "塩化ナトリウム水溶液を陽イオンだけを通す膜で仕切って電気分解し、水酸化ナトリウムをつくる方法は？",
+  "answer": "イオン交換膜法",
+  "reading": "いおんこうかんまくほう",
+  "explanation": "陰極側で水酸化ナトリウムができるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0102",
+  "level": 4,
+  "category": "電池と電気分解",
+  "prompt": "酸化アルミニウムを氷晶石とともに融解して電気分解し、アルミニウムを得る方法で、融解塩電解とも呼ばれるものは？",
+  "answer": "溶融塩電解",
+  "reading": "ようゆうえんでんかい",
+  "explanation": "水溶液の電気分解ではアルミニウムが得られないためこの方法を使い、大量の電力を使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0103",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "黄緑色で刺激臭のある有毒な気体で、強い酸化作用をもつハロゲンの単体は？",
+  "answer": "塩素",
+  "reading": "えんそ",
+  "explanation": "水道水の殺菌にも使われているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0104",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "塩素が水と反応して生じ、強い酸化作用で殺菌・漂白作用を示す酸は？",
+  "answer": "次亜塩素酸",
+  "reading": "じあえんそさん",
+  "explanation": "塩化水素とともに生じるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0105",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "ガラスを溶かすため、ポリエチレンの容器に保存する弱酸は？",
+  "answer": "フッ化水素酸",
+  "reading": "ふっかすいそさん",
+  "explanation": "ハロゲン化水素酸の中で唯一の弱酸だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0106",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "デンプン水溶液に加えると青紫色を示す、黒紫色の固体の単体は？",
+  "answer": "ヨウ素",
+  "reading": "ようそ",
+  "explanation": "昇華しやすい物質だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0107",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "成層圏で太陽からの紫外線を吸収する、酸素の同素体は？",
+  "answer": "オゾン",
+  "reading": "おぞん",
+  "explanation": "特有の臭いをもつ淡青色の気体だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0108",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "腐卵臭をもつ有毒な気体で、強い還元性をもつものは？",
+  "answer": "硫化水素",
+  "reading": "りゅうかすいそ",
+  "explanation": "多くの金属イオンと黒色の硫化物沈殿をつくるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0109",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "火山ガスに含まれる刺激臭のある無色の気体で、酸性雨の原因にもなるものは？",
+  "answer": "二酸化硫黄",
+  "reading": "にさんかいおう",
+  "explanation": "還元剤として働くことが多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0110",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "酸化バナジウム(V)を触媒に三酸化硫黄をつくり、それを濃硫酸に吸収させて硫酸を製造する方法は？",
+  "answer": "接触法",
+  "reading": "せっしょくほう",
+  "explanation": "三酸化硫黄を直接水に吸収させないのがポイントだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0111",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "窒素と水素を、鉄を主成分とする触媒を用いて直接反応させ、アンモニアを合成する工業的製法を、2人の化学者の名をつけて何という？",
+  "answer": "ハーバー・ボッシュ法",
+  "reading": "はーばーぼっしゅほう",
+  "explanation": "高温・高圧で行うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0112",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "白金触媒を用いてアンモニアを酸化し、硝酸を製造する工業的製法は？",
+  "answer": "オストワルト法",
+  "reading": "おすとわるとほう",
+  "explanation": "一酸化窒素・二酸化窒素を経由するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0113",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "刺激臭のある無色の気体で、水溶液は弱塩基性を示し、塩化水素と白煙を生じるものは？",
+  "answer": "アンモニア",
+  "reading": "あんもにあ",
+  "explanation": "上方置換で集めるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0114",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "銅と希硝酸の反応で発生する無色の気体で、空気に触れるとすぐに赤褐色に変わるものは？",
+  "answer": "一酸化窒素",
+  "reading": "いっさんかちっそ",
+  "explanation": "水に溶けにくいので水上置換で集めるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0115",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "銅と濃硝酸の反応で発生する、赤褐色で刺激臭のある有毒な気体は？",
+  "answer": "二酸化窒素",
+  "reading": "にさんかちっそ",
+  "explanation": "水に溶けやすく、下方置換で集めるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0116",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "無色・無臭の有毒な気体で、血液中のヘモグロビンと強く結合するものは？",
+  "answer": "一酸化炭素",
+  "reading": "いっさんかたんそ",
+  "explanation": "不完全燃焼で発生するので換気が大切だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0117",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "ケイ酸を加熱・脱水してつくる多孔質の固体で、乾燥剤として使われるものは？",
+  "answer": "シリカゲル",
+  "reading": "しりかげる",
+  "explanation": "表面のヒドロキシ基が水分子を吸着するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0118",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "地殻中に酸素の次に多く含まれ、単体が半導体の材料となる元素は？",
+  "answer": "ケイ素",
+  "reading": "けいそ",
+  "explanation": "単体は天然には存在しないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0119",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "炭素の同素体で、電気をよく通し、鉛筆の芯に使われるものを漢字で答えると？",
+  "answer": "黒鉛",
+  "reading": "こくえん",
+  "explanation": "価電子のうち1個が層の中を動けるので電気を通すよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0120",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "60個などの炭素原子が球状に結合した、炭素の同素体は？",
+  "answer": "フラーレン",
+  "reading": "ふらーれん",
+  "explanation": "サッカーボールのような形をしているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0121",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "黄リンを空気を断って加熱すると得られる、毒性の低いリンの同素体は？",
+  "answer": "赤リン",
+  "reading": "せきりん",
+  "explanation": "マッチ箱の側薬に使われているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0122",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "空気中で自然発火するため、水中に保存するリンの同素体は？",
+  "answer": "黄リン",
+  "reading": "おうりん",
+  "explanation": "猛毒なので取り扱いに注意が必要だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0123",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "濃硫酸が有機化合物からHとOを2:1の割合で奪う作用は？",
+  "answer": "脱水作用",
+  "reading": "だっすいさよう",
+  "explanation": "スクロースに加えると黒く炭化するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0124",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "塩化ナトリウム・石灰石・アンモニアを原料に炭酸ナトリウムを製造する工業的製法で、ソルベー法とも呼ばれるものは？",
+  "answer": "アンモニアソーダ法",
+  "reading": "あんもにあそーだほう",
+  "explanation": "原料のアンモニアは回収して再利用するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0125",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "固体が空気中の水分を吸収して、その水に溶ける現象は？",
+  "answer": "潮解",
+  "reading": "ちょうかい",
+  "explanation": "水酸化ナトリウムや塩化カルシウムで見られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0126",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "水和水を含む結晶が、空気中で水和水の一部を失って粉末状になる現象は？",
+  "answer": "風解",
+  "reading": "ふうかい",
+  "explanation": "炭酸ナトリウム十水和物で見られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0127",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "水に溶けにくい気体を、水と置き換えて集める方法は？",
+  "answer": "水上置換",
+  "reading": "すいじょうちかん",
+  "explanation": "水素や酸素を集めるときに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0128",
+  "level": 5,
+  "category": "無機物質",
+  "prompt": "水に溶けやすく、空気より軽い気体を集める方法は？",
+  "answer": "上方置換",
+  "reading": "じょうほうちかん",
+  "explanation": "アンモニアを集めるときに使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0129",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "ナトリウムやカリウムの単体を、空気や水と触れないように保存するときに浸す液体は？",
+  "answer": "灯油",
+  "reading": "とうゆ",
+  "explanation": "アルカリ金属は水と激しく反応するからだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0130",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "アルミニウムや亜鉛のように、酸とも強塩基とも反応する金属は？",
+  "answer": "両性金属",
+  "reading": "りょうせいきんぞく",
+  "explanation": "スズや鉛も含めて「ああすんなり」と覚えよう。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0131",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "アルミニウムの原料となる鉱石は？",
+  "answer": "ボーキサイト",
+  "reading": "ぼーきさいと",
+  "explanation": "精製して酸化アルミニウム（アルミナ）にするよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0132",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "アルミニウムの粉末と酸化鉄(III)の混合物に点火すると、激しく反応して融解した鉄が得られる反応は？",
+  "answer": "テルミット反応",
+  "reading": "てるみっとはんのう",
+  "explanation": "アルミニウムの強い還元力を利用しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0133",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "硫酸カリウムと硫酸アルミニウムからなる複塩の結晶の通称は？",
+  "answer": "ミョウバン",
+  "reading": "みょうばん",
+  "explanation": "正八面体の美しい結晶をつくるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0134",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "硫酸カルシウム二水和物の通称で、建材や医療用ギプスに使われるものは？",
+  "answer": "セッコウ",
+  "reading": "せっこう",
+  "explanation": "加熱すると焼きセッコウになるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0135",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "酸化カルシウムの通称で、乾燥剤に使われるものは？",
+  "answer": "生石灰",
+  "reading": "せいせっかい",
+  "explanation": "水を加えると発熱して消石灰になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0136",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "水酸化カルシウムの通称は？",
+  "answer": "消石灰",
+  "reading": "しょうせっかい",
+  "explanation": "グラウンドの白線や酸性土壌の中和に使われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0137",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "水や酸に溶けにくく、X線の造影剤に使われるバリウムの塩は？",
+  "answer": "硫酸バリウム",
+  "reading": "りゅうさんばりうむ",
+  "explanation": "バリウムイオンは有毒だけど、溶けないので安全に使えるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0138",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "溶鉱炉で鉄鉱石をコークスなどで還元して得られる、炭素を約4%含む鉄は？",
+  "answer": "銑鉄",
+  "reading": "せんてつ",
+  "explanation": "硬くてもろい性質があるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0139",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "転炉で銑鉄に酸素を吹き込み、炭素の含有量を減らしてつくる粘り強い鉄は？（漢字1字・音読みで）",
+  "answer": "鋼",
+  "reading": "こう",
+  "explanation": "「はがね」とも読むけど、化学では「こう」と読むことが多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0140",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "鉄にクロムやニッケルを加えた、さびにくい合金で、名称の最後に「鋼」がつくものは？",
+  "answer": "ステンレス鋼",
+  "reading": "すてんれすこう",
+  "explanation": "表面にち密な酸化被膜ができるからさびにくいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0141",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "銅と亜鉛の合金で、金管楽器などに使われ、真ちゅうとも呼ばれるものは？",
+  "answer": "黄銅",
+  "reading": "おうどう",
+  "explanation": "5円硬貨にも使われているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0142",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "銅とスズの合金で、銅像や鐘などに使われ、ブロンズとも呼ばれるものは？",
+  "answer": "青銅",
+  "reading": "せいどう",
+  "explanation": "10円硬貨にも使われているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0143",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "銅が湿った空気中で長い時間をかけてさびて生じる緑色の物質は？",
+  "answer": "緑青",
+  "reading": "ろくしょう",
+  "explanation": "寺院の屋根や銅像が緑色なのはこのためだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0144",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "鉄板の表面に亜鉛をめっきしたものは？",
+  "answer": "トタン",
+  "reading": "とたん",
+  "explanation": "傷がついても亜鉛が先に酸化されて鉄を守るよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0145",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "鉄板の表面にスズをめっきしたものは？",
+  "answer": "ブリキ",
+  "reading": "ぶりき",
+  "explanation": "傷がつくと鉄が先にさびてしまうよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0146",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "金属イオンに分子や陰イオンが配位結合してできたイオンは？",
+  "answer": "錯イオン",
+  "reading": "さくいおん",
+  "explanation": "テトラアンミン銅(II)イオンなどが代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0147",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "錯イオンで、中心の金属イオンに配位結合している分子や陰イオンは？",
+  "answer": "配位子",
+  "reading": "はいいし",
+  "explanation": "アンモニアやシアン化物イオンなどがあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0148",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "複数の金属イオンを含む水溶液に試薬を順に加え、沈殿として分離していく操作は？",
+  "answer": "系統分析",
+  "reading": "けいとうぶんせき",
+  "explanation": "加える試薬の順番が大切だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0149",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "アンモニア水を少量加えると褐色の沈殿を生じ、過剰に加えるとその沈殿が溶ける金属イオンは？",
+  "answer": "銀イオン",
+  "reading": "ぎんいおん",
+  "explanation": "ジアンミン銀(I)イオンという錯イオンになって溶けるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0150",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "ヘキサシアニド鉄(III)酸カリウム水溶液を加えると濃青色の沈殿を生じる金属イオンは？",
+  "answer": "鉄(II)イオン",
+  "reading": "てつにいおん",
+  "explanation": "鉄(III)イオンはヘキサシアニド鉄(II)酸カリウムで濃青色になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0151",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "感光性があり、かつて写真フィルムに使われた淡黄色のハロゲン化銀は？",
+  "answer": "臭化銀",
+  "reading": "しゅうかぎん",
+  "explanation": "光で分解して銀が析出するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0152",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "金属の単体のうち、常温・常圧で液体のものは？",
+  "answer": "水銀",
+  "reading": "すいぎん",
+  "explanation": "他の金属と合金（アマルガム）をつくりやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0153",
+  "level": 6,
+  "category": "無機物質",
+  "prompt": "石英や水晶の主成分で、ガラスの原料となるケイ素の酸化物は？",
+  "answer": "二酸化ケイ素",
+  "reading": "にさんかけいそ",
+  "explanation": "フッ化水素酸には溶けるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0154",
+  "level": 7,
+  "category": "物質の状態",
+  "prompt": "温度一定のとき、一定量の気体の体積は圧力に反比例するという法則は？",
+  "answer": "ボイルの法則",
+  "reading": "ぼいるのほうそく",
+  "explanation": "PVが一定になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0155",
+  "level": 7,
+  "category": "物質の状態",
+  "prompt": "圧力一定のとき、一定量の気体の体積は絶対温度に比例するという法則は？",
+  "answer": "シャルルの法則",
+  "reading": "しゃるるのほうそく",
+  "explanation": "V/Tが一定になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0156",
+  "level": 7,
+  "category": "物質の状態",
+  "prompt": "混合気体の全圧は、各成分気体の分圧の和に等しいという法則を、人名を含めて何という？",
+  "answer": "ドルトンの分圧の法則",
+  "reading": "どるとんのぶんあつのほうそく",
+  "explanation": "分圧はモル分率に比例するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0157",
+  "level": 7,
+  "category": "物質の状態",
+  "prompt": "分子自身の体積も分子間力もないと仮定し、状態方程式に完全に従う気体は？",
+  "answer": "理想気体",
+  "reading": "りそうきたい",
+  "explanation": "実際の気体は実在気体というよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0158",
+  "level": 7,
+  "category": "物質の状態",
+  "prompt": "−273℃を原点とし、単位にケルビン(K)を用いる温度は？",
+  "answer": "絶対温度",
+  "reading": "ぜったいおんど",
+  "explanation": "セルシウス温度に273を足すと求められるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0160",
+  "level": 7,
+  "category": "物質の状態",
+  "prompt": "不揮発性の物質を溶かした溶液の沸点が、溶媒の沸点より高くなる現象は？",
+  "answer": "沸点上昇",
+  "reading": "ふってんじょうしょう",
+  "explanation": "上昇度は質量モル濃度に比例するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0161",
+  "level": 7,
+  "category": "物質の状態",
+  "prompt": "溶液の凝固点が、溶媒の凝固点より低くなる現象は？",
+  "answer": "凝固点降下",
+  "reading": "ぎょうこてんこうか",
+  "explanation": "冬の道路に塩化カルシウムをまくのはこれを利用しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0162",
+  "level": 7,
+  "category": "物質の状態",
+  "prompt": "溶媒分子などの小さな粒子は通すが、溶質の粒子は通さない膜は？",
+  "answer": "半透膜",
+  "reading": "はんとうまく",
+  "explanation": "セロハンやぼうこう膜などがあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0163",
+  "level": 7,
+  "category": "物質の状態",
+  "prompt": "半透膜を隔てて溶液と溶媒を接したとき、溶媒が溶液側へ移動しようとする圧力は？",
+  "answer": "浸透圧",
+  "reading": "しんとうあつ",
+  "explanation": "ファントホッフの法則で求められるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0164",
+  "level": 7,
+  "category": "物質の状態",
+  "prompt": "溶媒1kgあたりに溶けている溶質の物質量で表した濃度は？",
+  "answer": "質量モル濃度",
+  "reading": "しつりょうもるのうど",
+  "explanation": "温度によって値が変わらないのが長所だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0165",
+  "level": 7,
+  "category": "物質の状態",
+  "prompt": "温度一定で、一定量の溶媒に溶ける気体の物質量は、その気体の圧力に比例するという法則は？",
+  "answer": "ヘンリーの法則",
+  "reading": "へんりーのほうそく",
+  "explanation": "溶解度の小さい気体でよく成り立つよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0166",
+  "level": 7,
+  "category": "物質の状態",
+  "prompt": "直径がおよそ10^-9〜10^-7mの粒子が、他の物質中に分散している状態は？",
+  "answer": "コロイド",
+  "reading": "ころいど",
+  "explanation": "ろ紙は通るが半透膜は通らない大きさだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0167",
+  "level": 7,
+  "category": "物質の状態",
+  "prompt": "コロイド溶液に横から強い光を当てると、光の通路が明るく輝いて見える現象は？",
+  "answer": "チンダル現象",
+  "reading": "ちんだるげんしょう",
+  "explanation": "コロイド粒子が光を散乱させるためだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0168",
+  "level": 7,
+  "category": "物質の状態",
+  "prompt": "コロイド溶液に直流電圧をかけると、コロイド粒子が一方の電極へ移動する現象は？",
+  "answer": "電気泳動",
+  "reading": "でんきえいどう",
+  "explanation": "コロイド粒子が帯電している証拠だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0169",
+  "level": 7,
+  "category": "物質の状態",
+  "prompt": "疎水コロイドに少量の電解質を加えると、粒子が集まって沈殿する現象は？",
+  "answer": "凝析",
+  "reading": "ぎょうせき",
+  "explanation": "反対符号で価数の大きいイオンほど効果的だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0170",
+  "level": 7,
+  "category": "物質の状態",
+  "prompt": "親水コロイドに多量の電解質を加えると、沈殿する現象は？",
+  "answer": "塩析",
+  "reading": "えんせき",
+  "explanation": "豆腐づくりにも利用されているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0171",
+  "level": 7,
+  "category": "物質の状態",
+  "prompt": "疎水コロイドに加えて、凝析しにくくする働きをもつ親水コロイドは？",
+  "answer": "保護コロイド",
+  "reading": "ほごころいど",
+  "explanation": "墨汁のにかわが代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0172",
+  "level": 7,
+  "category": "物質の状態",
+  "prompt": "半透膜を用いて、コロイド溶液から小さな分子やイオンを取り除く操作は？",
+  "answer": "透析",
+  "reading": "とうせき",
+  "explanation": "人工透析もこの原理を利用しているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0173",
+  "level": 7,
+  "category": "熱化学",
+  "prompt": "物質がもつ熱エネルギーに相当する状態量で、一定圧力のもとでの反応熱はその変化量ΔHとして表されるものは？",
+  "answer": "エンタルピー",
+  "reading": "えんたるぴー",
+  "explanation": "記号Hで表し、発熱反応ではΔHが負の値になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0174",
+  "level": 7,
+  "category": "熱化学",
+  "prompt": "反応の最初と最後の状態が決まれば、途中の経路によらず反応エンタルピーの総和は一定であるという法則は？",
+  "answer": "ヘスの法則",
+  "reading": "へすのほうそく",
+  "explanation": "総熱量保存の法則ともいうよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0175",
+  "level": 7,
+  "category": "熱化学",
+  "prompt": "反応に伴って周囲に熱を放出する反応は？",
+  "answer": "発熱反応",
+  "reading": "はつねつはんのう",
+  "explanation": "ΔHは負の値になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0176",
+  "level": 7,
+  "category": "熱化学",
+  "prompt": "反応に伴って周囲から熱を吸収する反応は？",
+  "answer": "吸熱反応",
+  "reading": "きゅうねつはんのう",
+  "explanation": "ΔHは正の値になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0177",
+  "level": 7,
+  "category": "熱化学",
+  "prompt": "気体分子中の共有結合1molを切断するのに必要なエネルギーは？",
+  "answer": "結合エネルギー",
+  "reading": "けつごうえねるぎー",
+  "explanation": "反応エンタルピーの計算によく使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0178",
+  "level": 7,
+  "category": "熱化学",
+  "prompt": "物質1molが完全燃焼するときのエンタルピー変化は？",
+  "answer": "燃焼エンタルピー",
+  "reading": "ねんしょうえんたるぴー",
+  "explanation": "燃焼は発熱反応なので常に負の値だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0179",
+  "level": 8,
+  "category": "反応速度と平衡",
+  "prompt": "反応物が反応を起こすのに必要な、最小のエネルギーは？",
+  "answer": "活性化エネルギー",
+  "reading": "かっせいかえねるぎー",
+  "explanation": "これが小さいほど反応は速く進むよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0180",
+  "level": 8,
+  "category": "反応速度と平衡",
+  "prompt": "反応の途中で生じる、エネルギーの最も高い不安定な状態で、活性化状態とも呼ばれるものは？",
+  "answer": "遷移状態",
+  "reading": "せんいじょうたい",
+  "explanation": "この状態にある粒子の集まりを活性錯体というよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0181",
+  "level": 8,
+  "category": "反応速度と平衡",
+  "prompt": "自身は変化せず、活性化エネルギーを小さくして反応を速める物質は？",
+  "answer": "触媒",
+  "reading": "しょくばい",
+  "explanation": "平衡そのものは移動させないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0183",
+  "level": 8,
+  "category": "反応速度と平衡",
+  "prompt": "平衡状態で条件を変えると、その影響を和らげる向きに平衡が移動するという原理を、人名をつけて何という？",
+  "answer": "ルシャトリエの原理",
+  "reading": "るしゃとりえのげんり",
+  "explanation": "平衡移動の原理ともいうよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0184",
+  "level": 8,
+  "category": "反応速度と平衡",
+  "prompt": "平衡状態では、生成物と反応物の濃度の比で表した値が温度一定のもとで一定になるという法則で、質量作用の法則とも呼ばれるものは？",
+  "answer": "化学平衡の法則",
+  "reading": "かがくへいこうのほうそく",
+  "explanation": "この一定の値を平衡定数というよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0185",
+  "level": 8,
+  "category": "反応速度と平衡",
+  "prompt": "弱電解質の水溶液に、それと同じイオンを含む強電解質を加えると電離が抑えられる現象は？",
+  "answer": "共通イオン効果",
+  "reading": "きょうつういおんこうか",
+  "explanation": "平衡移動の一例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0186",
+  "level": 8,
+  "category": "反応速度と平衡",
+  "prompt": "酢酸と酢酸ナトリウムの混合水溶液のように、少量の酸や塩基を加えてもpHがほとんど変わらない溶液は？",
+  "answer": "緩衝液",
+  "reading": "かんしょうえき",
+  "explanation": "血液もこの働きでpHが保たれているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0187",
+  "level": 8,
+  "category": "反応速度と平衡",
+  "prompt": "難溶性の塩の飽和水溶液で、陽イオンと陰イオンの濃度の積が温度一定で一定になる値は？",
+  "answer": "溶解度積",
+  "reading": "ようかいどせき",
+  "explanation": "これを超えると沈殿が生じるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0188",
+  "level": 8,
+  "category": "有機化合物",
+  "prompt": "一酸化炭素や二酸化炭素などを除く、炭素を含む化合物の総称は？",
+  "answer": "有機化合物",
+  "reading": "ゆうきかごうぶつ",
+  "explanation": "共有結合でできた分子性の物質が多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0189",
+  "level": 8,
+  "category": "有機化合物",
+  "prompt": "ヒドロキシ基やカルボキシ基のように、有機化合物の性質を決める原子団は？",
+  "answer": "官能基",
+  "reading": "かんのうき",
+  "explanation": "官能基が同じ化合物は性質が似るよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0190",
+  "level": 8,
+  "category": "有機化合物",
+  "prompt": "分子式が同じで、構造が異なる化合物を互いに何という？",
+  "answer": "異性体",
+  "reading": "いせいたい",
+  "explanation": "構造異性体と立体異性体に大別されるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0191",
+  "level": 8,
+  "category": "有機化合物",
+  "prompt": "炭素間の二重結合が回転できないために生じる、置換基の配置が異なる立体異性体は？",
+  "answer": "シス-トランス異性体",
+  "reading": "しすとらんすいせいたい",
+  "explanation": "以前は幾何異性体と呼ばれていたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0192",
+  "level": 8,
+  "category": "有機化合物",
+  "prompt": "実物と鏡に映った像のように、重ね合わせることができない関係にある立体異性体で、光学異性体とも呼ばれるものは？",
+  "answer": "鏡像異性体",
+  "reading": "きょうぞういせいたい",
+  "explanation": "不斉炭素原子をもつ化合物に存在するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0193",
+  "level": 8,
+  "category": "有機化合物",
+  "prompt": "4つの異なる原子や原子団と結合している炭素原子は？",
+  "answer": "不斉炭素原子",
+  "reading": "ふせいたんそげんし",
+  "explanation": "これがあると鏡像異性体が存在するよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0194",
+  "level": 8,
+  "category": "有機化合物",
+  "prompt": "炭素原子間の結合がすべて単結合である、鎖式の飽和炭化水素の総称は？",
+  "answer": "アルカン",
+  "reading": "あるかん",
+  "explanation": "一般式はCnH2n+2だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0195",
+  "level": 8,
+  "category": "有機化合物",
+  "prompt": "炭素原子間に二重結合を1つもつ、鎖式の炭化水素の総称は？",
+  "answer": "アルケン",
+  "reading": "あるけん",
+  "explanation": "一般式はCnH2nだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0196",
+  "level": 8,
+  "category": "有機化合物",
+  "prompt": "炭素原子間に三重結合を1つもつ、鎖式の炭化水素の総称は？",
+  "answer": "アルキン",
+  "reading": "あるきん",
+  "explanation": "一般式はCnH2n-2だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0197",
+  "level": 8,
+  "category": "有機化合物",
+  "prompt": "天然ガスの主成分で、最も簡単なアルカンは？",
+  "answer": "メタン",
+  "reading": "めたん",
+  "explanation": "正四面体形の分子だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0198",
+  "level": 8,
+  "category": "有機化合物",
+  "prompt": "最も簡単なアルケンで、果実の成熟を促す働きもある気体は？",
+  "answer": "エチレン",
+  "reading": "えちれん",
+  "explanation": "付加重合でポリエチレンになるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0199",
+  "level": 8,
+  "category": "有機化合物",
+  "prompt": "炭化カルシウムに水を加えると発生する、最も簡単なアルキンは？",
+  "answer": "アセチレン",
+  "reading": "あせちれん",
+  "explanation": "酸素とともに燃焼させると高温の炎が得られるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0200",
+  "level": 8,
+  "category": "有機化合物",
+  "prompt": "不飽和結合が切れて、そこに他の原子や原子団が結合する反応は？",
+  "answer": "付加反応",
+  "reading": "ふかはんのう",
+  "explanation": "アルケンに臭素水を加えると色が消えるのはこの反応だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0201",
+  "level": 8,
+  "category": "有機化合物",
+  "prompt": "分子中の原子が、他の原子や原子団に置き換わる反応は？",
+  "answer": "置換反応",
+  "reading": "ちかんはんのう",
+  "explanation": "メタンと塩素の光照射下での反応が代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0202",
+  "level": 8,
+  "category": "有機化合物",
+  "prompt": "有機化合物を完全燃焼させ、生じた水と二酸化炭素の質量から成分元素の質量を求める分析は？",
+  "answer": "元素分析",
+  "reading": "げんそぶんせき",
+  "explanation": "水を塩化カルシウム、二酸化炭素をソーダ石灰に吸収させるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0203",
+  "level": 8,
+  "category": "有機化合物",
+  "prompt": "炭素原子間に二重結合や三重結合を含む化合物を何という？",
+  "answer": "不飽和化合物",
+  "reading": "ふほうわかごうぶつ",
+  "explanation": "付加反応を起こしやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0204",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "炭化水素のH原子をヒドロキシ基で置き換えた化合物（ベンゼン環に直接結合したものを除く）の総称は？",
+  "answer": "アルコール",
+  "reading": "あるこーる",
+  "explanation": "水溶液は中性だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0205",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "酒類に含まれ、グルコースの発酵でも得られるアルコールは？",
+  "answer": "エタノール",
+  "reading": "えたのーる",
+  "explanation": "消毒用にも使われるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0206",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "有毒で、一酸化炭素と水素から工業的に合成される、最も簡単なアルコールは？",
+  "answer": "メタノール",
+  "reading": "めたのーる",
+  "explanation": "木精とも呼ばれていたよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0207",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "アルデヒドなどがアンモニア性硝酸銀水溶液を還元し、容器の内壁に銀が析出する反応は？",
+  "answer": "銀鏡反応",
+  "reading": "ぎんきょうはんのう",
+  "explanation": "ホルミル基（アルデヒド基）の検出に使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0208",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "アルデヒドをフェーリング液に加えて加熱すると生じる赤色沈殿の物質は？",
+  "answer": "酸化銅(I)",
+  "reading": "さんかどういち",
+  "explanation": "銅の酸化数は+1だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0209",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "アセトンやエタノールに、ヨウ素と水酸化ナトリウム水溶液を加えて温めると黄色沈殿が生じる反応は？",
+  "answer": "ヨードホルム反応",
+  "reading": "よーどほるむはんのう",
+  "explanation": "CH3CO-などの構造の検出に使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0210",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "カルボン酸とアルコールが脱水縮合してできる化合物の総称は？",
+  "answer": "エステル",
+  "reading": "えすてる",
+  "explanation": "果実のような芳香をもつものが多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0211",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "エステルに水酸化ナトリウムなどの塩基を加えて加熱し、塩とアルコールに分解する反応は？",
+  "answer": "けん化",
+  "reading": "けんか",
+  "explanation": "油脂から石けんをつくる反応だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0212",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "油脂を水酸化ナトリウムで分解して得られる、高級脂肪酸のナトリウム塩は？",
+  "answer": "セッケン",
+  "reading": "せっけん",
+  "explanation": "親水基と疎水基の両方をもつ界面活性剤だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0213",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "2つの分子から水などの簡単な分子がとれて結合する反応は？",
+  "answer": "縮合",
+  "reading": "しゅくごう",
+  "explanation": "水がとれる場合は脱水縮合というよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0214",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "油脂を構成している3価のアルコールは？",
+  "answer": "グリセリン",
+  "reading": "ぐりせりん",
+  "explanation": "1,2,3-プロパントリオールともいうよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0215",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "液体の油脂にニッケルを触媒として水素を付加させてつくる、固体の油脂は？",
+  "answer": "硬化油",
+  "reading": "こうかゆ",
+  "explanation": "マーガリンの原料になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0216",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "ホルミル基をもつため還元性を示す、最も簡単なカルボン酸は？",
+  "answer": "ギ酸",
+  "reading": "ぎさん",
+  "explanation": "アリやハチの毒に含まれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0217",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "マレイン酸のシス-トランス異性体で、トランス形のものは？",
+  "answer": "フマル酸",
+  "reading": "ふまるさん",
+  "explanation": "分子内脱水しにくいのがマレイン酸との違いだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0218",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "ベンゼン環をもつ有機化合物の総称は？",
+  "answer": "芳香族化合物",
+  "reading": "ほうこうぞくかごうぶつ",
+  "explanation": "名前の由来は芳香をもつものが多かったことだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0219",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "ベンゼン環にヒドロキシ基が直接結合した化合物の総称で、塩化鉄(III)水溶液で青紫〜赤紫色に呈色するものは？",
+  "answer": "フェノール類",
+  "reading": "ふぇのーるるい",
+  "explanation": "アルコールと違って弱い酸性を示すよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0220",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "ベンゼンに濃硝酸と濃硫酸の混合物を加えて加熱すると得られる、淡黄色の液体は？",
+  "answer": "ニトロベンゼン",
+  "reading": "にとろべんぜん",
+  "explanation": "この反応をニトロ化というよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0221",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "ニトロベンゼンをスズと塩酸で還元して得られる芳香族アミンは？",
+  "answer": "アニリン",
+  "reading": "あにりん",
+  "explanation": "さらし粉水溶液で赤紫色になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0222",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "アニリンの希塩酸溶液に、氷冷しながら亜硝酸ナトリウムを加えてジアゾニウム塩をつくる反応は？",
+  "answer": "ジアゾ化",
+  "reading": "じあぞか",
+  "explanation": "ジアゾニウム塩は温めると分解するので低温で行うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0223",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "塩化ベンゼンジアゾニウムとナトリウムフェノキシドなどからアゾ化合物をつくる反応を、カタカナ6文字で何という？",
+  "answer": "カップリング",
+  "reading": "かっぷりんぐ",
+  "explanation": "橙赤色の染料ができるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0224",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "サリチル酸に無水酢酸を作用させて得られる解熱鎮痛剤を、化合物名で答えると？",
+  "answer": "アセチルサリチル酸",
+  "reading": "あせちるさりちるさん",
+  "explanation": "アスピリンとも呼ばれるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0225",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "サリチル酸にメタノールと濃硫酸を作用させて得られる、消炎鎮痛剤の成分は？",
+  "answer": "サリチル酸メチル",
+  "reading": "さりちるさんめちる",
+  "explanation": "湿布薬に使われているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0226",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "ベンゼンとプロペンを原料に、フェノールとアセトンを同時に得る工業的製法は？",
+  "answer": "クメン法",
+  "reading": "くめんほう",
+  "explanation": "中間体の名前が製法の名前になっているよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0227",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "o-キシレンやナフタレンを酸化して得られ、加熱すると分子内で脱水して酸無水物になる芳香族ジカルボン酸は？",
+  "answer": "フタル酸",
+  "reading": "ふたるさん",
+  "explanation": "パラ位の異性体はテレフタル酸だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0228",
+  "level": 9,
+  "category": "有機化合物",
+  "prompt": "ベンゼンの水素原子1つをメチル基で置き換えた化合物は？",
+  "answer": "トルエン",
+  "reading": "とるえん",
+  "explanation": "酸化すると安息香酸になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0229",
+  "level": 10,
+  "category": "高分子化合物",
+  "prompt": "分子量がおよそ1万以上の大きな分子からなる化合物は？",
+  "answer": "高分子化合物",
+  "reading": "こうぶんしかごうぶつ",
+  "explanation": "天然のものと合成のものがあるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0230",
+  "level": 10,
+  "category": "高分子化合物",
+  "prompt": "高分子化合物をつくるもとになる小さな分子を、漢字で何という？",
+  "answer": "単量体",
+  "reading": "たんりょうたい",
+  "explanation": "モノマーともいうよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0231",
+  "level": 10,
+  "category": "高分子化合物",
+  "prompt": "二重結合などの不飽和結合をもつ単量体が、付加反応を繰り返して高分子になる反応は？",
+  "answer": "付加重合",
+  "reading": "ふかじゅうごう",
+  "explanation": "ポリエチレンやポリ塩化ビニルがこの反応でできるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0232",
+  "level": 10,
+  "category": "高分子化合物",
+  "prompt": "単量体の間で水などの小さな分子がとれながら結合を繰り返し、高分子になる反応は？",
+  "answer": "縮合重合",
+  "reading": "しゅくごうじゅうごう",
+  "explanation": "ナイロンやPETがこの反応でできるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0233",
+  "level": 10,
+  "category": "高分子化合物",
+  "prompt": "テレフタル酸とエチレングリコールの縮合重合でつくられ、飲料容器に使われる高分子は？",
+  "answer": "ポリエチレンテレフタラート",
+  "reading": "ぽりえちれんてれふたらーと",
+  "explanation": "略称はPETだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0234",
+  "level": 10,
+  "category": "高分子化合物",
+  "prompt": "多数のアミド結合でつながった鎖状の高分子の総称は？",
+  "answer": "ポリアミド",
+  "reading": "ぽりあみど",
+  "explanation": "ナイロンがその代表だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0235",
+  "level": 10,
+  "category": "高分子化合物",
+  "prompt": "ポリビニルアルコールをホルムアルデヒドで処理してつくる、日本で開発された合成繊維は？",
+  "answer": "ビニロン",
+  "reading": "びにろん",
+  "explanation": "適度な吸湿性をもつのが特徴だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0236",
+  "level": 10,
+  "category": "高分子化合物",
+  "prompt": "天然ゴムの単量体に相当する化合物は？",
+  "answer": "イソプレン",
+  "reading": "いそぷれん",
+  "explanation": "天然ゴムはシス形の構造をもつよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0237",
+  "level": 10,
+  "category": "高分子化合物",
+  "prompt": "生ゴムに硫黄を加えて加熱し、弾性や強度を高める操作は？",
+  "answer": "加硫",
+  "reading": "かりゅう",
+  "explanation": "硫黄原子が分子どうしを橋かけするよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0238",
+  "level": 10,
+  "category": "高分子化合物",
+  "prompt": "加熱すると軟らかくなり、冷やすと再び硬くなる合成樹脂は？",
+  "answer": "熱可塑性樹脂",
+  "reading": "ねつかそせいじゅし",
+  "explanation": "鎖状構造の高分子が多いよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0239",
+  "level": 10,
+  "category": "高分子化合物",
+  "prompt": "加熱すると硬くなる、立体網目状構造をもつ合成樹脂は？",
+  "answer": "熱硬化性樹脂",
+  "reading": "ねつこうかせいじゅし",
+  "explanation": "フェノール樹脂などが代表例だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0240",
+  "level": 10,
+  "category": "高分子化合物",
+  "prompt": "水溶液中の陽イオンを水素イオンと交換する働きをもつ合成樹脂は？",
+  "answer": "陽イオン交換樹脂",
+  "reading": "よういおんこうかんじゅし",
+  "explanation": "スルホ基をもつものが代表的だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0241",
+  "level": 10,
+  "category": "天然有機化合物",
+  "prompt": "アミノ酸のカルボキシ基と、別のアミノ酸のアミノ基が脱水縮合してできる結合は？",
+  "answer": "ペプチド結合",
+  "reading": "ぺぷちどけつごう",
+  "explanation": "アミド結合の一種だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0242",
+  "level": 10,
+  "category": "天然有機化合物",
+  "prompt": "タンパク質水溶液に水酸化ナトリウム水溶液と少量の硫酸銅(II)水溶液を加えると赤紫色になる反応は？",
+  "answer": "ビウレット反応",
+  "reading": "びうれっとはんのう",
+  "explanation": "ペプチド結合を2つ以上もつ分子で起こるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0243",
+  "level": 10,
+  "category": "天然有機化合物",
+  "prompt": "アミノ酸やタンパク質の水溶液に加えて温めると、赤紫〜青紫色を示す試薬を使う検出反応は？",
+  "answer": "ニンヒドリン反応",
+  "reading": "にんひどりんはんのう",
+  "explanation": "アミノ基の検出に使うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0244",
+  "level": 10,
+  "category": "天然有機化合物",
+  "prompt": "ベンゼン環をもつアミノ酸を含むタンパク質に濃硝酸を加えて加熱すると黄色になる反応は？",
+  "answer": "キサントプロテイン反応",
+  "reading": "きさんとぷろていんはんのう",
+  "explanation": "アンモニア水を加えると橙黄色になるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0245",
+  "level": 10,
+  "category": "天然有機化合物",
+  "prompt": "タンパク質が熱や酸、重金属イオンなどによって立体構造が変化し、性質が変わる現象は？",
+  "answer": "変性",
+  "reading": "へんせい",
+  "explanation": "ゆで卵が元に戻らないのはこのためだよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0246",
+  "level": 10,
+  "category": "天然有機化合物",
+  "prompt": "1つの分子の中に正と負の両方の電荷をもつイオンで、結晶中のアミノ酸がとる形は？",
+  "answer": "双性イオン",
+  "reading": "そうせいいおん",
+  "explanation": "そのため融点が高く、水に溶けやすいよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0247",
+  "level": 10,
+  "category": "天然有機化合物",
+  "prompt": "アミノ酸の水溶液で、分子全体の電荷の総和が0になるときのpHは？",
+  "answer": "等電点",
+  "reading": "とうでんてん",
+  "explanation": "アミノ酸の種類によって値が違うよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0248",
+  "level": 10,
+  "category": "天然有機化合物",
+  "prompt": "α-グルコースが多数結合した多糖で、ヨウ素溶液で青紫色を示すものは？",
+  "answer": "デンプン",
+  "reading": "でんぷん",
+  "explanation": "アミロースとアミロペクチンからなるよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0249",
+  "level": 10,
+  "category": "天然有機化合物",
+  "prompt": "β-グルコースが直鎖状に多数結合した、植物の細胞壁の主成分は？",
+  "answer": "セルロース",
+  "reading": "せるろーす",
+  "explanation": "ヒトは消化できないよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0250",
+  "level": 10,
+  "category": "天然有機化合物",
+  "prompt": "グルコースとフルクトースが結合した二糖で、砂糖の主成分をカタカナ名で答えると？",
+  "answer": "スクロース",
+  "reading": "すくろーす",
+  "explanation": "ショ糖ともいい、還元性を示さない二糖だよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0251",
+  "level": 10,
+  "category": "天然有機化合物",
+  "prompt": "スクロースを加水分解して得られる、グルコースとフルクトースの等量混合物は？",
+  "answer": "転化糖",
+  "reading": "てんかとう",
+  "explanation": "還元性を示すよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0252",
+  "level": 10,
+  "category": "天然有機化合物",
+  "prompt": "デンプンに酵素アミラーゼを作用させて得られる二糖をカタカナ名で答えると？",
+  "answer": "マルトース",
+  "reading": "まるとーす",
+  "explanation": "麦芽糖ともいうよ。",
+  "review": "verified"
+ },
+ {
+  "id": "daigaku-kagaku-0253",
+  "level": 10,
+  "category": "天然有機化合物",
+  "prompt": "油脂を構成する脂肪酸のうち、炭素原子の数が多いものの総称は？",
+  "answer": "高級脂肪酸",
+  "reading": "こうきゅうしぼうさん",
+  "explanation": "ステアリン酸やオレイン酸などがあるよ。",
+  "review": "verified"
+ }
+]

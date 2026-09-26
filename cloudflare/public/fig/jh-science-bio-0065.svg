@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 330" width="560" height="330" font-family="sans-serif">
+<rect width="560" height="330" fill="#fff"/>
+<rect x="20" y="260" width="520" height="50" rx="0" fill="#f8bbd0" stroke="#ad1457" stroke-width="2" />
+<text x="280" y="288" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >小腸のかべ</text>
+<path d="M36,260 L36,110 Q36,70 60,70 Q84,70 84,110 L84,260" fill="#f8bbd0" stroke="#ad1457" stroke-width="2" />
+<path d="M106,260 L106,110 Q106,70 130,70 Q154,70 154,110 L154,260" fill="#f8bbd0" stroke="#ad1457" stroke-width="2" />
+<path d="M176,260 L176,110 Q176,70 200,70 Q224,70 224,110 L224,260" fill="#f8bbd0" stroke="#ad1457" stroke-width="2" />
+<path d="M246,260 L246,110 Q246,70 270,70 Q294,70 294,110 L294,260" fill="#ffcc80" stroke="#f57c00" stroke-width="3" />
+<path d="M258,260 L258,105 Q270,88 282,105 L282,260" fill="none" stroke="#d32f2f" stroke-width="2.5" />
+<line x1="270" y1="260" x2="270" y2="112" stroke="#fdd835" stroke-width="3"/>
+<path d="M316,260 L316,110 Q316,70 340,70 Q364,70 364,110 L364,260" fill="#f8bbd0" stroke="#ad1457" stroke-width="2" />
+<path d="M386,260 L386,110 Q386,70 410,70 Q434,70 434,110 L434,260" fill="#f8bbd0" stroke="#ad1457" stroke-width="2" />
+<path d="M456,260 L456,110 Q456,70 480,70 Q504,70 504,110 L504,260" fill="#f8bbd0" stroke="#ad1457" stroke-width="2" />
+<text x="430" y="40" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >毛細血管（赤）</text>
+<text x="430" y="58" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#9e7c00" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >リンパ管（黄）</text>
+<line x1="378" y1="48" x2="283" y2="120" stroke="#777" stroke-width="1"/>
+<text x="280" y="22" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >小腸の内側（拡大）</text>
+<line x1="90" y1="30" x2="250" y2="90" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="250" cy="90" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="90" cy="30" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="90" y="31" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" width="560" height="360" font-family="sans-serif">
+<rect width="560" height="360" fill="#fff"/>
+<rect x="0" y="0" width="560" height="360" rx="0" fill="#bbdefb" stroke="none" stroke-width="0" />
+<path d="M0,0 L260,0 Q260,15.0 358.24137087557,30 Q358.24137087557,45.0 207.91309948237398,60 Q207.91309948237398,75.0 322.26205470907234,90 Q322.26205470907234,105.0 173.39487980635687,120 Q173.39487980635687,135.0 353.419955125178,150 Q353.419955125178,165.0 199.43879956274094,180 Q199.43879956274094,195.0 346.7892160576088,210 Q346.7892160576088,225.0 182.32545830356577,240 Q182.32545830356577,255.0 344.2377666271385,270 Q344.2377666271385,285.0 194.27206934563353,300 Q194.27206934563353,315.0 343.2481606844801,330 Q343.2481606844801,345.0 176.33531481019222,360 L0,360 Z" fill="#c5e1a5" stroke="#558b2f" stroke-width="2.5" />
+<polygon points="34,78 60,40 86,78" fill="#a1887f" stroke="#6d4c41" stroke-width="1.5" stroke-linejoin="round" />
+<polygon points="94,168 120,130 146,168" fill="#a1887f" stroke="#6d4c41" stroke-width="1.5" stroke-linejoin="round" />
+<polygon points="24,248 50,210 76,248" fill="#a1887f" stroke="#6d4c41" stroke-width="1.5" stroke-linejoin="round" />
+<polygon points="104,318 130,280 156,318" fill="#a1887f" stroke="#6d4c41" stroke-width="1.5" stroke-linejoin="round" />
+<polygon points="164,88 190,50 216,88" fill="#a1887f" stroke="#6d4c41" stroke-width="1.5" stroke-linejoin="round" />
+<text x="470" y="60" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#1976d2" font-weight="bold" >海</text>
+<text x="80" y="110" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >山地</text>
+<text x="440" y="330" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >入り江と岬がくり返す</text>
+<line x1="470" y1="180" x2="330" y2="175" stroke="#f57c00" stroke-width="2.4"/>
+<circle cx="330" cy="175" r="3.5" fill="#f57c00" stroke="#f57c00" stroke-width="0" />
+<circle cx="470" cy="180" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="470" y="181" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

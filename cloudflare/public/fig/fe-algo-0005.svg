@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" width="560" height="300" font-family="sans-serif">
+<rect width="560" height="300" fill="#fff"/>
+<text x="280" y="22" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >整列ずみのデータから 24 を探す</text>
+<text x="30" y="72" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1回目</text>
+<rect x="66" y="50" width="52" height="44" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="92" y="72" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >3</text>
+<rect x="118" y="50" width="52" height="44" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="144" y="72" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >5</text>
+<rect x="170" y="50" width="52" height="44" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="196" y="72" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >8</text>
+<rect x="222" y="50" width="52" height="44" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="248" y="72" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >12</text>
+<rect x="274" y="50" width="52" height="44" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="300" y="72" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >15</text>
+<rect x="326" y="50" width="52" height="44" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="352" y="72" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >20</text>
+<rect x="378" y="50" width="52" height="44" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="404" y="72" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >24</text>
+<rect x="430" y="50" width="52" height="44" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="456" y="72" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >31</text>
+<rect x="482" y="50" width="52" height="44" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="508" y="72" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >40</text>
+<text x="30" y="162" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >2回目</text>
+<rect x="66" y="140" width="52" height="44" rx="0" fill="#eeeeee" stroke="#ddd" stroke-width="1.2" />
+<text x="92" y="162" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#bbb" >3</text>
+<rect x="118" y="140" width="52" height="44" rx="0" fill="#eeeeee" stroke="#ddd" stroke-width="1.2" />
+<text x="144" y="162" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#bbb" >5</text>
+<rect x="170" y="140" width="52" height="44" rx="0" fill="#eeeeee" stroke="#ddd" stroke-width="1.2" />
+<text x="196" y="162" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#bbb" >8</text>
+<rect x="222" y="140" width="52" height="44" rx="0" fill="#eeeeee" stroke="#ddd" stroke-width="1.2" />
+<text x="248" y="162" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#bbb" >12</text>
+<rect x="274" y="140" width="52" height="44" rx="0" fill="#eeeeee" stroke="#ddd" stroke-width="1.2" />
+<text x="300" y="162" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#bbb" >15</text>
+<rect x="326" y="140" width="52" height="44" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="352" y="162" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >20</text>
+<rect x="378" y="140" width="52" height="44" rx="0" fill="#ffcc80" stroke="#f57c00" stroke-width="2" />
+<text x="404" y="162" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" font-weight="bold" >24</text>
+<rect x="430" y="140" width="52" height="44" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="456" y="162" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >31</text>
+<rect x="482" y="140" width="52" height="44" rx="0" fill="#fff" stroke="#607d8b" stroke-width="1.2" />
+<text x="508" y="162" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#222" >40</text>
+<text x="300" y="110" font-size="13" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >中央と比べる → 24 は大きいので右半分へ</text>
+<text x="404" y="200" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#f57c00" font-weight="bold" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >見つかった</text>
+<text x="280" y="260" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1回ごとに探す範囲が半分になる</text>
+<circle cx="30" cy="22" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="30" y="23" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>

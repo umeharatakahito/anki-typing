@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320" font-family="sans-serif">
+<rect width="540" height="320" fill="#fff"/>
+<defs><marker id="itpasscmp0048mf57c00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#f57c00"/></marker></defs>
+<rect x="20" y="120" width="110" height="70" rx="6" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+<text x="75" y="155" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" >コンピュータ</text>
+<path d="M270,90 L270,240 A60,16 0 0 0 390,240 L390,90" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<ellipse cx="330" cy="90" rx="60" ry="16" fill="#e0e0e0" stroke="#37474f" stroke-width="2" />
+<rect x="290" y="116" width="80" height="30" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="330" y="131" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >A</text>
+<rect x="290" y="154" width="80" height="30" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="330" y="169" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >B</text>
+<rect x="290" y="192" width="80" height="30" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="330" y="207" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >C</text>
+<path d="M410,90 L410,240 A60,16 0 0 0 530,240 L530,90" fill="#cfd8dc" stroke="#37474f" stroke-width="2" />
+<ellipse cx="470" cy="90" rx="60" ry="16" fill="#e0e0e0" stroke="#37474f" stroke-width="2" />
+<rect x="430" y="116" width="80" height="30" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="470" y="131" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >A</text>
+<rect x="430" y="154" width="80" height="30" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="470" y="169" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >B</text>
+<rect x="430" y="192" width="80" height="30" rx="6" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+<text x="470" y="207" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#222" >C</text>
+<line x1="415" y1="85" x2="525" y2="250" stroke="#d32f2f" stroke-width="5"/>
+<line x1="525" y1="85" x2="415" y2="250" stroke="#d32f2f" stroke-width="5"/>
+<line x1="130" y1="155" x2="262" y2="155" stroke="#f57c00" stroke-width="3" marker-end="url(#itpasscmp0048mf57c00)"/>
+<path d="M130,135 Q300,0 462,66" fill="none" stroke="#f57c00" stroke-width="3" marker-end="url(#itpasscmp0048mf57c00)"/>
+<text x="75" y="230" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >同じデータを</text>
+<text x="75" y="250" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >同時に書き込む</text>
+<text x="400" y="300" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="#222" style="paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round" >1台が壊れても、もう1台で使い続けられる</text>
+<circle cx="40" cy="40" r="15" fill="#f57c00" stroke="#fff" stroke-width="2" />
+<text x="40" y="41" font-size="19.95" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="bold">?</text>
+</svg>
