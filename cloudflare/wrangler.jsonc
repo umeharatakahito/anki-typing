@@ -20,7 +20,14 @@
     }
   ],
   "durable_objects": {
-    "bindings": [{ "name": "VERSUS", "class_name": "VersusHub" }]
+    "bindings": [
+      { "name": "VERSUS", "class_name": "VersusHub" },
+      // タイピングの対戦（WebSocket）。部屋ごとと、自動マッチの待合室
+      { "name": "TYPING_VS", "class_name": "TypingVersus" }
+    ]
   },
-  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["VersusHub"] }]
+  "migrations": [
+    { "tag": "v1", "new_sqlite_classes": ["VersusHub"] },
+    { "tag": "v2", "new_sqlite_classes": ["TypingVersus"] }
+  ]
 }

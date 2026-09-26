@@ -6,19 +6,21 @@
 //   POST /api/<関数名>     … 本文は引数の配列。{ value } か { error } を返す
 //   /auth/*               … Google ログイン（auth.js）
 //   /admin                … 会員の管理（admin.js）
+//   /vs/ws                … タイピングの対戦（WebSocket。typing-versus.js）
 // ===============================================================
 
 import { PAGES } from './generated/pages.js';
 import * as gas from './generated/gas.js';
 import * as stats from './stats.js';
 import { VersusHub, VS_FUNCTIONS } from './versus.js';
+import { TypingVersus } from './typing-versus.js';
 import { viewerOf, handleAuth } from './auth.js';
 import { handleAdmin } from './admin.js';
 import { decorate, THEMES } from './chrome.js';
 import { STUDY_SETS, CAT_BY_KBN } from './sets.js';
 import * as gate from './gate.js';
 
-export { VersusHub };
+export { VersusHub, TypingVersus };
 
 // ---------------------------------------------------------------
 // 画面（コード.gs の doGet と同じ対応表）
@@ -194,6 +196,26 @@ async function callFunction(env, fn, args) {
   throw err;
 }
 
+// タイピングの対戦。部屋番号ごとの Durable Object（自動マッチは待合室）へ回す
+function typingVersus(request, env, url, viewer) {
+  if (request.headers.get('upgrade') !== 'websocket') return new Response('WebSocket で接続してください', { status: 426 });
+  let name;
+  if (url.searchParams.get('match')) name = 'lobby';
+  else {
+    let code = String(url.searchParams.get('code') || '');
+    if (url.searchParams.get('create') === '1' && !code) {
+      code = String(Math.floor(1000 + Math.random() * 9000));
+      url.searchParams.set('code', code);
+    }
+    if (!/^\d{4,5}$/.test(code)) return new Response('部屋番号が違います', { status: 400 });
+    name = 'room:' + code;
+  }
+  const headers = new Headers(request.headers);
+  headers.set('x-viewer', JSON.stringify({ name: viewer.email ? viewer.name : '', member: viewer.member }));
+  const stub = env.TYPING_VS.get(env.TYPING_VS.idFromName(name));
+  return stub.fetch(new Request(url.toString(), { headers }));
+}
+
 const json = (body, status) => new Response(JSON.stringify(body), {
   status: status || 200,
   headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' }
@@ -211,6 +233,8 @@ export default {
 
     const admin = await handleAdmin(request, env, url, viewer);
     if (admin) return admin;
+
+    if (url.pathname === '/vs/ws') return typingVersus(request, env, url, viewer);
 
     if (url.pathname.startsWith('/api/')) {
       if (request.method !== 'POST') return json({ error: 'POST only' }, 405);

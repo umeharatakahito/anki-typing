@@ -282,11 +282,16 @@
     kbLabel() { return '答えをローマ字・英字で入力'; }
   };
   // 画面キーボードは #screen-game が見えている間だけ出るので、ゲーム中かどうかを写しておく
+  // （終了画面では閉じる。終了画面でも body は playing-game のままなので、終わった時にも隠す）
   const marker = document.getElementById('screen-game');
   if (marker) {
     new MutationObserver(() => {
       marker.hidden = !document.body.classList.contains('playing-game');
     }).observe(document.body, { attributes: true, attributeFilter: ['class'] });
+    const baseEnd = h.endGame;
+    h.endGame = function () { const r = baseEnd.apply(this, arguments); marker.hidden = true; return r; };
+    const baseStart = h.startGame;
+    h.startGame = function () { marker.hidden = false; return baseStart.apply(this, arguments); };
   }
 
   // ログインしている人はニックネームで保存する（名前の欄は書き換えられない）
