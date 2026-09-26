@@ -202,17 +202,17 @@ export class TypingVersus extends DurableObject {
       rows = [];
       for (const L of Object.keys(want).map(Number).sort((a, b) => a - b)) {
         const { results } = await this.env.DB.prepare(
-          `SELECT que, kan, ans, img, note, level FROM problems WHERE kbn = ? AND level = ?${freeOnly} ORDER BY random() LIMIT ?`
+          `SELECT que, kan, ans, img, note, level, qid FROM problems WHERE kbn = ? AND level = ?${freeOnly} ORDER BY random() LIMIT ?`
         ).bind(kbn, L, want[L]).all();
         rows.push(...results);
       }
     } else {
       ({ results: rows } = await this.env.DB.prepare(
-        `SELECT que, kan, ans, img, note, level FROM problems WHERE kbn = ?${freeOnly} ORDER BY random() LIMIT ?`
+        `SELECT que, kan, ans, img, note, level, qid FROM problems WHERE kbn = ?${freeOnly} ORDER BY random() LIMIT ?`
       ).bind(kbn, count).all());
     }
     return rows.map(r => ({
-      que: r.que || '', kan: r.kan || '', ans: r.ans || '', note: r.note || '', level: r.level || 0,
+      que: r.que || '', kan: r.kan || '', ans: r.ans || '', note: r.note || '', level: r.level || 0, qid: r.qid || '',
       img: toCardImg(r.img)
     }));
   }

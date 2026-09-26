@@ -349,6 +349,30 @@
   window.addEventListener('resize', () => h.keepInputVisible());
   new MutationObserver(() => h.keepInputVisible()).observe(document.body, { attributes: true, attributeFilter: ['class'] });
 
+  // 「⚑ 報告」：今の問題がおかしいときに送る。1 人用は一時停止して窓を出す、対戦中は止められないのでその場で送る
+  const pauseBtn = document.getElementById('pause-btn');
+  if (pauseBtn) {
+    const rb = document.createElement('button');
+    rb.type = 'button';
+    rb.className = 'st-report-btn';
+    rb.id = 'report-btn';
+    rb.textContent = '⚑ この問題を報告';
+    rb.onclick = () => {
+      const c = h.currentCard;
+      if (!c || !window.stReport) return;
+      const info = { kind: 'typing', kbn: h.kubun, qid: c.qid || '', que: c.que, kan: c.kan, ans: c.ans };
+      if (h.versusMode) {
+        rb.disabled = true; rb.textContent = '送っています…';
+        window.stQuickReport(info, err => { rb.textContent = err ? '送れませんでした' : '報告しました'; setTimeout(() => { rb.disabled = false; rb.textContent = '⚑ この問題を報告'; }, 2000); });
+        return;
+      }
+      const wasPlaying = h.playing && !h.paused;
+      if (wasPlaying) h.pause();
+      window.stReport(info, () => { if (wasPlaying && h.paused) h.resume(); });
+    };
+    pauseBtn.parentNode.insertBefore(rb, pauseBtn.nextSibling);
+  }
+
   buildMenu();
 }(window, document));
 </script>

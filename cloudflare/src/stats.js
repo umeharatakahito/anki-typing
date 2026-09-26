@@ -44,13 +44,14 @@ const toCard = r => ({
   // 図は public/fig/、スプレッドシートの画像は public/img/ のコピー（無いものは worker.js がドライブへ回す）
   img: imgUrl(r.img),
   note: r.note || '',
-  level: r.level || 0
+  level: r.level || 0,
+  qid: r.qid || ''
 });
 
 export async function getQuestions(env, category) {
   try {
     const { results } = await env.DB.prepare(
-      'SELECT que, kan, ans, img, note, level FROM problems WHERE kbn = ? AND (free = 1 OR ?) ORDER BY random() LIMIT 100'
+      'SELECT que, kan, ans, img, note, level, qid FROM problems WHERE kbn = ? AND (free = 1 OR ?) ORDER BY random() LIMIT 100'
     ).bind(String(category), env.viewer.member ? 1 : 0).all();
     return results.map(toCard);
   } catch (e) {
@@ -76,7 +77,7 @@ export async function getLevelQuestions(env, category, level) {
   level = Number(level) || 1;
   if (!env.viewer.member && level > FREE_MAX_LEVEL) return { error: 'members_only', maxLevel: FREE_MAX_LEVEL };
   const { results } = await env.DB.prepare(
-    'SELECT que, kan, ans, img, note, level FROM problems WHERE kbn = ? AND level = ? ORDER BY random() LIMIT 40'
+    'SELECT que, kan, ans, img, note, level, qid FROM problems WHERE kbn = ? AND level = ? ORDER BY random() LIMIT 40'
   ).bind(String(category), level).all();
   return results.map(toCard);
 }
@@ -407,4 +408,28 @@ export async function getMyStats(env) {
       }))
     }
   };
+}
+
+// ---------------------------------------------------------------
+// 問題の報告（遊んでいる人から「この問題おかしいかも」）。管理画面で見る
+const REPORT_REASONS = ['答えが違う', '読み・打ち方が違う', '問題文がおかしい', '図がおかしい', 'その他'];
+const clip = (s, n) => String(s == null ? '' : s).slice(0, n);
+
+export async function reportProblem(env, p) {
+  p = p || {};
+  const reason = REPORT_REASONS.includes(p.reason) ? p.reason : 'その他';
+  const kind = p.kind === 'juken' ? 'juken' : 'typing';
+  const v = env.viewer;
+  // いたずら防止：同じ人（ログインしていなければ同じ問題）からは 1 時間に 20 件まで
+  const since = Date.now() - 3600 * 1000;
+  const recent = await env.DB.prepare(
+    'SELECT COUNT(*) AS n FROM problem_reports WHERE created_at > ? AND (email = ? AND email <> \'\' OR qid = ?)'
+  ).bind(since, v.email || '', clip(p.qid, 80)).first();
+  if (recent && recent.n >= 20) return { ok: false, error: '報告が多すぎます。しばらくしてからお願いします' };
+  await env.DB.prepare(
+    `INSERT INTO problem_reports (created_at, email, name, kind, kbn, qid, que, kan, ans, reason, comment)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+  ).bind(Date.now(), v.email || '', v.email ? v.name : '', kind, clip(p.kbn, 40), clip(p.qid, 80),
+         clip(p.que, 600), clip(p.kan, 120), clip(p.ans, 120), reason, clip(p.comment, 500)).run();
+  return { ok: true };
 }

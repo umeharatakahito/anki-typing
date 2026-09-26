@@ -35,5 +35,33 @@
     box.hidden = false;
   }
   new MutationObserver(sync).observe(prompt, { childList: true, characterData: true, subtree: true });
+
+  // 「⚑ この問題を報告」：窓を開いている間は入力とタイマーを止める
+  const rb = document.createElement('button');
+  rb.type = 'button';
+  rb.className = 'st-report-btn';
+  rb.textContent = '⚑ この問題を報告';
+  rb.style.margin = '10px auto 0';
+  rb.style.display = 'flex';
+  const stage = prompt.closest('.stage') || prompt.parentNode;
+  stage.appendChild(rb);
+  rb.onclick = () => {
+    const g = game();
+    const w = g && g.words && g.words[g.index];
+    if (!w || !window.stReport) return;
+    const subject = window.juken ? 'eigo' : window.kobun ? 'kobun' : 'rekishi';
+    const info = subject === 'eigo'
+      ? { kind: 'juken', kbn: 'eigo', qid: w.en, que: w.ja + (w.ex ? '\n' + w.ex : ''), kan: w.en, ans: w.kana || '' }
+      : subject === 'kobun'
+        ? { kind: 'juken', kbn: 'kobun', qid: String(w.no) + ' ' + w.ko, que: w.ja + (w.ex ? '\n' + w.ex : ''), kan: w.ko, ans: w.kana || w.ko }
+        : { kind: 'juken', kbn: 'rekishi', qid: String(w.no), que: w.q, kan: w.a, ans: w.kana || '' };
+    const wasLocked = g.locked;
+    g.locked = true;
+    if (!wasLocked && g.stopTimer) g.stopTimer();
+    window.stReport(info, () => {
+      g.locked = wasLocked;
+      if (!wasLocked && g.playing && g.startTimer) g.startTimer();
+    });
+  };
 }(document));
 </script>

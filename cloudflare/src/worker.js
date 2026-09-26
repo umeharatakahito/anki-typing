@@ -164,6 +164,7 @@ const D1_FUNCTIONS = {
   getLevelQuestions: stats.getLevelQuestions,
   getUserRanking: stats.getUserRanking,
   getMyStats: stats.getMyStats,
+  reportProblem: stats.reportProblem,
   setTheme,
   saveScore: stats.saveScore,
   getRanking: stats.getRanking,

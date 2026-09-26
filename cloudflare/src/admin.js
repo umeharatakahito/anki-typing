@@ -5,6 +5,7 @@
 //   GET  /admin       … ログインしたことのある人と会員の一覧、追加フォーム
 //   POST /admin/api   … { action: 'add', email, name, juken } / { action: 'remove', email }
 //                       { action: 'juken', email, on } / { action: 'resetNickname', email }
+//                       { action: 'resolveReport', id }（問題の報告を対応済みにする）
 // ===============================================================
 
 const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;')
@@ -30,7 +31,32 @@ async function people(env) {
   return results;
 }
 
-function page(list, viewer) {
+// まだ対応していない問題の報告（新しい順）
+async function openReports(env) {
+  try {
+    const { results } = await env.DB.prepare(
+      'SELECT * FROM problem_reports WHERE resolved_at IS NULL ORDER BY created_at DESC LIMIT 200'
+    ).all();
+    return results;
+  } catch (e) { return []; }   // 表がまだ無いとき
+}
+
+function reportsHtml(reports) {
+  const fmt = ms => new Date(ms).toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo' });
+  if (!reports.length) return '<div class="empty">未対応の報告はありません</div>';
+  return `<table><thead><tr><th>日時</th><th>問題集 / ID</th><th>正解（打つ文字）</th><th>理由</th><th>コメント</th><th>報告した人</th><th></th></tr></thead><tbody>` +
+    reports.map(r => `<tr>
+      <td>${fmt(r.created_at)}</td>
+      <td>${esc(r.kbn)}<br><small>${esc(r.qid)}</small></td>
+      <td title="${esc(r.que)}">${esc(r.kan)}<br><small>${esc(r.ans)}</small></td>
+      <td>${esc(r.reason)}</td>
+      <td class="wrap-cell" title="${esc(r.que)}">${esc(r.comment) || '—'}<br><small>問題文：${esc(r.que.slice(0, 60))}${r.que.length > 60 ? '…' : ''}</small></td>
+      <td>${esc(r.name || '（ログインなし）')}</td>
+      <td><button type="button" class="btn-sub btn-resolve" data-id="${r.id}">対応済み</button></td>
+    </tr>`).join('') + '</tbody></table>';
+}
+
+function page(list, viewer, reports) {
   const fmt = ms => ms ? new Date(ms).toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo' }) : '—';
   const rows = list.map(m => `<tr>
       <td>${esc(m.email)}${m.name ? `<br><small>${esc(m.name)}</small>` : ''}</td>
@@ -68,6 +94,8 @@ function page(list, viewer) {
   th{color:var(--muted);font-weight:normal}
   tr:last-child td{border-bottom:0}
   .empty{padding:24px;text-align:center;color:var(--muted)}
+  h2{font-size:1.1rem;margin:28px 0 6px}
+  td.wrap-cell{white-space:normal;min-width:16em}
 </style>
 </head>
 <body>
@@ -83,6 +111,11 @@ function page(list, viewer) {
     <label class="inline"><input name="juken" type="checkbox"> 大学受験も</label>
     <button type="submit">会員に追加</button>
   </form>
+  <h2 id="reports">問題の報告（未対応 ${reports.length} 件）</h2>
+  <p class="note">遊んでいる人が「⚑ 報告」から送ったもの。問題を直したら「対応済み」を押してください。</p>
+  <div class="wrap">${reportsHtml(reports)}</div>
+
+  <h2>会員</h2>
   <div class="wrap">
     ${list.length ? `<table><thead><tr><th>メールアドレス</th><th>ニックネーム</th><th>会員</th><th>大学受験</th><th>最後のログイン</th></tr></thead>
       <tbody>${rows}</tbody></table>` : '<div class="empty">まだ誰もいません</div>'}
@@ -107,7 +140,10 @@ document.querySelectorAll('.chk-member').forEach(function(c){
 document.querySelectorAll('.chk-juken').forEach(function(c){
   c.onchange = function(){ send({ action:'juken', email: c.dataset.email, on: c.checked }); };
 });
-document.querySelectorAll('.btn-sub').forEach(function(b){
+document.querySelectorAll('.btn-resolve').forEach(function(b){
+  b.onclick = function(){ send({ action:'resolveReport', id: Number(b.dataset.id) }); };
+});
+document.querySelectorAll('.btn-sub:not(.btn-resolve)').forEach(function(b){
   b.onclick = function(){
     if (confirm(b.dataset.email + ' のニックネームを次のログインで決め直してもらいますか？')) send({ action: b.dataset.act, email: b.dataset.email });
   };
@@ -128,7 +164,7 @@ export async function handleAdmin(request, env, url, viewer) {
   }
 
   if (url.pathname === '/admin' && request.method === 'GET') {
-    return new Response(page(await people(env), viewer), {
+    return new Response(page(await people(env), viewer, await openReports(env)), {
       headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store' }
     });
   }
@@ -136,6 +172,10 @@ export async function handleAdmin(request, env, url, viewer) {
   if (url.pathname === '/admin/api' && request.method === 'POST') {
     let body;
     try { body = await request.json(); } catch (e) { return json({ error: '送られた内容が読めません' }, 400); }
+    if (body.action === 'resolveReport') {
+      await env.DB.prepare('UPDATE problem_reports SET resolved_at = ? WHERE id = ?').bind(Date.now(), Number(body.id) || 0).run();
+      return json({ ok: true });
+    }
     const email = String(body.email || '').trim().toLowerCase();
     if (!EMAIL.test(email)) return json({ error: 'メールアドレスの形が正しくありません' }, 400);
     if (body.action === 'add') {

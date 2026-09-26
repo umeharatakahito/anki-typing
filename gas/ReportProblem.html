@@ -1,0 +1,91 @@
+<style>
+  /* 問題の報告（タイピング・大学受験モード共通） */
+  .st-report-btn{ display:inline-flex; align-items:center; gap:4px; padding:5px 10px; border-radius:999px;
+    border:1px solid rgba(120,130,150,.45); background:rgba(255,255,255,.75); color:#5b6b80; font:inherit;
+    font-size:12px; cursor:pointer; }
+  html[data-theme="dark"] .st-report-btn{ background:rgba(24,34,54,.85); color:#c9d6ea; border-color:#2a3651; }
+  .st-report-btn:hover{ border-color:#e5484d; color:#e5484d; }
+  #st-report-dlg{ border:1px solid #9fd6e6; border-radius:12px; padding:18px; width:min(92vw, 420px);
+    background:#fff; color:#17394b; font:14px/1.6 "Hiragino Kaku Gothic ProN","Yu Gothic",system-ui,sans-serif; }
+  html[data-theme="dark"] #st-report-dlg{ background:#182236; color:#e8eef7; border-color:#2a3651; }
+  #st-report-dlg::backdrop{ background:rgba(0,0,0,.45); }
+  #st-report-dlg h2{ font-size:1.05rem; margin:0 0 6px; }
+  #st-report-dlg .st-rq{ font-size:12px; opacity:.8; margin:0 0 10px; max-height:5.5em; overflow:auto; white-space:pre-wrap; }
+  #st-report-dlg label{ display:flex; gap:8px; align-items:center; margin:3px 0; cursor:pointer; }
+  #st-report-dlg textarea{ width:100%; box-sizing:border-box; min-height:64px; margin-top:8px; padding:8px; font:inherit;
+    font-size:16px; border-radius:8px; border:1px solid #9fd6e6; background:transparent; color:inherit; }
+  #st-report-dlg .st-rrow{ display:flex; gap:8px; justify-content:flex-end; margin-top:10px; }
+  #st-report-dlg button{ padding:8px 14px; border-radius:8px; border:1px solid #9fd6e6; background:transparent; color:inherit; font:inherit; cursor:pointer; }
+  #st-report-dlg button.st-rsend{ background:#e5484d; border-color:transparent; color:#fff; }
+  #st-report-dlg .st-rmsg{ min-height:1.3em; font-size:13px; margin-top:6px; }
+</style>
+
+<dialog id="st-report-dlg">
+  <form method="dialog" id="st-report-form">
+    <h2>⚑ この問題を報告</h2>
+    <p class="st-rq" id="st-report-q"></p>
+    <label><input type="radio" name="reason" value="答えが違う" checked> 答えが違う</label>
+    <label><input type="radio" name="reason" value="読み・打ち方が違う"> 読み・打ち方が違う</label>
+    <label><input type="radio" name="reason" value="問題文がおかしい"> 問題文がおかしい</label>
+    <label><input type="radio" name="reason" value="図がおかしい"> 図がおかしい</label>
+    <label><input type="radio" name="reason" value="その他"> その他</label>
+    <textarea id="st-report-comment" maxlength="500" placeholder="どこがおかしいか（なくてもよい）"></textarea>
+    <div class="st-rmsg" id="st-report-msg"></div>
+    <div class="st-rrow">
+      <button type="button" id="st-report-cancel">やめる</button>
+      <button type="submit" class="st-rsend">送る</button>
+    </div>
+  </form>
+</dialog>
+
+<script>
+// ===============================================================
+// ReportProblem.html
+// 遊んでいる人が「この問題おかしいかも」をその場で送る窓。
+//   window.stReport(info, onClose) … info = { kind, kbn, qid, que, kan, ans }
+//   window.stQuickReport(info)     … 窓を出さずに「その他（対戦中）」で送る
+// 送った報告は管理画面（/admin）の「問題の報告」に並ぶ。
+// ===============================================================
+(function (window, document) {
+  const dlg = document.getElementById('st-report-dlg');
+  const msg = document.getElementById('st-report-msg');
+  const comment = document.getElementById('st-report-comment');
+  let info = null, onClose = null;
+
+  // 窓の中で打った文字が、裏のタイピングに入らないようにする
+  dlg.addEventListener('keydown', e => { if (e.key !== 'Escape') e.stopPropagation(); });
+
+  const strip = s => String(s || '').replace(/<[^>]*>/g, '');
+  function send(payload, done) {
+    google.script.run
+      .withSuccessHandler(r => done(r && r.ok ? null : (r && r.error) || '送れませんでした'))
+      .withFailureHandler(e => done('送れませんでした: ' + e.message))
+      .reportProblem(payload);
+  }
+
+  window.stReport = function (i, cb) {
+    info = i; onClose = cb || null;
+    document.getElementById('st-report-q').textContent = strip(i.que).slice(0, 200) + (i.kan ? '\n答え：' + i.kan : '');
+    comment.value = ''; msg.textContent = '';
+    dlg.showModal();
+    comment.focus();
+  };
+  window.stQuickReport = function (i, done) {
+    send(Object.assign({ reason: 'その他', comment: '対戦中に報告' }, i), done || function () {});
+  };
+
+  function close() { dlg.close(); if (onClose) { const f = onClose; onClose = null; f(); } }
+  document.getElementById('st-report-cancel').onclick = close;
+  dlg.addEventListener('cancel', e => { e.preventDefault(); close(); });
+  document.getElementById('st-report-form').onsubmit = e => {
+    e.preventDefault();
+    const reason = (dlg.querySelector('input[name="reason"]:checked') || {}).value;
+    msg.textContent = '送っています…';
+    send(Object.assign({ reason, comment: comment.value }, info, { que: strip(info.que) }), err => {
+      if (err) { msg.textContent = err; return; }
+      msg.textContent = 'ありがとうございます。送りました';
+      setTimeout(close, 700);
+    });
+  };
+}(window, document));
+</script>
