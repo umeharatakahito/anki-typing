@@ -160,6 +160,7 @@
 
   let ws = null, mode = '', seat = 0, target = 5, names = {};
   let questions = [], r = 0, scores = {}, cardMiss = 0, out = false, progTimer = null, lastProgAt = 0, opp = {};
+  let vsLog = [];   // ふりかえり用：{ r, card, who }
   let host = 0, auto = false, playersNow = [], startInTimer = null;
 
   // ---- メニュー --------------------------------------------------------
@@ -443,7 +444,7 @@
 
   function startMatch(m) {
     questions = m.questions.slice(); r = 0; target = m.target;
-    scores = {};
+    scores = {}; vsLog = [];
     if (startInTimer) { clearInterval(startInTimer); startInTimer = null; }
     $('vs-lobby').hidden = true;
     buildOppPanels();
@@ -468,6 +469,8 @@
     stopTyping();
     if (progTimer) { clearTimeout(progTimer); progTimer = null; }
     scores = m.scores;
+    // ふりかえり用：だれが取ったか（seat が null ならだれも取らず）
+    if (questions[m.r] && !vsLog.some(x => x.r === m.r)) vsLog.push({ r: m.r, card: questions[m.r], who: m.seat });
     renderBar();
     showPoint(m);
   }
@@ -497,8 +500,8 @@
     $('game-end').style.display = '';
     $('game-win').style.display = win ? 'block' : 'none';
     $('game-over').style.display = win ? 'none' : 'block';
-    $('game-win').textContent = 'You Win!';
-    $('game-over').textContent = m.winner == null ? 'Draw' : 'You Lose…';
+    $('game-win').textContent = 'あなたの勝ち！';
+    $('game-over').textContent = m.winner == null ? '引き分け' : '負け…';
     $('game-end-stats').innerHTML = `<div class="vs-result">
       <div class="vs-big">${win ? '勝ち！' : m.winner == null ? '引き分け' : order.length > 2 ? place + '位' : '負け'}</div>
       ${m.left && order.length < 2 ? '<p>ほかの人が抜けました</p>' : ''}
@@ -509,8 +512,20 @@
     const again = $('vs-again');
     if (again) again.onclick = () => { send({ t: 'again' }); again.textContent = 'ほかの人を待っています…'; again.disabled = true; };
     document.querySelectorAll('#game-end .menu-footer button').forEach(b => {
-      if (/Retry/.test(b.textContent)) b.classList.add('vs-hide');
+      if (/Retry|もう一度（同じ設定/.test(b.textContent)) b.classList.add('vs-hide');
     });
+    // ふりかえり：1 本ずつ、自分が取った ○ / 相手が取った × / だれも取らず △
+    if (window.stReview && h.reviewItems) {
+      let box = document.getElementById('st-review-box');
+      const content = document.querySelector('#game-end .menu-content');
+      if (!box && content) { box = document.createElement('div'); box.id = 'st-review-box'; content.appendChild(box); }
+      const items = h.reviewItems(vsLog.map(x => ({ card: x.card, mark: x.who === seat ? 'ok' : x.who == null ? 'mid' : 'ng' })));
+      items.forEach((it, i) => {
+        const who = vsLog[i].who;
+        it.sub = (who === seat ? 'あなたが取った' : who == null ? 'だれも取らず' : nameOf(who) + ' さんが取った') + (it.sub ? '　' + it.sub : '');
+      });
+      window.stReview.render(box, items);
+    }
     // キーボードでも「もう一度」「メニューに戻る」を選べるように
     if (h.enableMenuNav) h.enableMenuNav($('game-end'));
   }

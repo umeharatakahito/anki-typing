@@ -51,7 +51,7 @@
 
   function candidates(root) {
     return Array.from(root.querySelectorAll('button, a.btn, a.button, a.back-link, #home-link, [role="button"], .menu-opt'))
-      .filter(el => !el.closest('#st-bar') && !el.disabled && visible(el) && el.tagName !== 'INPUT' && el.tagName !== 'SELECT');
+      .filter(el => !el.closest('#st-bar') && !el.closest('.st-review') && !el.disabled && visible(el) && el.tagName !== 'INPUT' && el.tagName !== 'SELECT');
   }
 
   let map = new Map();

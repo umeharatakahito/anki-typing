@@ -207,6 +207,7 @@
       this.finishedShown = false;
       this.miss = 0;
       this.lost = [];
+      this.played = [];   // ふりかえり用：{ w, mark }
       this.round = null;
       this.words = [];
     },
@@ -517,6 +518,7 @@
 
       const w = this.words[r.i];
       const won = (wonHint === true) || claim === this.seat;
+      if (w && !this.played.some(x => x.w === w)) this.played.push({ w, mark: won ? 'ok' : claim === 'none' ? 'mid' : 'ng' });
       const banner = $('vs-banner');
 
       if (won) {
@@ -624,11 +626,15 @@
       $('vs-final-me-name').textContent = myName;
       $('vs-final-you-name').textContent = opName;
 
+      // ふりかえり：1 問ずつ、自分が取った ○ / 相手が取った × / 両者タイムアップ △（ReviewList.html）
       const review = $('vs-review');
-      if (this.lost.length) {
-        $('vs-review-list').innerHTML = this.lost
-          .map(w => '<li><b>' + escapeHtml(this.head(w)) + '</b><span>' + escapeHtml(w.ja) + '</span></li>')
-          .join('');
+      const kana = this.isKana(), subj = this.subjectOf();
+      if (this.played.length && window.stReview) {
+        window.stReview.render(review, this.played.map(({ w, mark }) => ({
+          mark, head: this.head(w), reading: kana ? (w.kana || '') : '', sub: w.ja || w.q || '', say: kana ? w.ko : w.en,
+          report: { kind: 'juken', kbn: subj, qid: subj === 'eigo' ? w.en : subj === 'kobun' ? String(w.no) + ' ' + w.ko : String(w.no),
+                    que: w.ja || w.q || '', kan: this.head(w), ans: w.kana || '' }
+        })), { title: 'ふりかえり' });
         review.hidden = false;
       } else {
         review.hidden = true;

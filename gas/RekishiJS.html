@@ -564,12 +564,16 @@
         '<div class="result-row"><span>ミスタイプ</span><span>' + this.miss + '</span></div>' +
         '<div class="result-row"><span>かかった時間</span><span>' + mm + ':' + ss + '</span></div>';
 
+      // ふりかえり：解いた語を全部、○（ミスなし）/ ×（まちがえた）で並べる。🔊 発音・⚑ 報告つき（ReviewList.html）
       const review = $('review');
-      if (this.missedWords.length) {
-        $('review-list').innerHTML = this.missedWords
-          .map(w => '<li><b>' + escapeHtml(w.a) +
-                    '</b><span>' + escapeHtml(w.q || w.nu || '') + '</span></li>')
-          .join('');
+      const missed = new Set(this.missedWords);
+      const played = this.words.filter(w => missed.has(w) || this.clearedWords.includes(w.a));
+      if (played.length && window.stReview) {
+        window.stReview.render(review, played.map(w => {
+          const mark = missed.has(w) ? 'ng' : 'ok';
+          return { mark, head: headword(w), reading: w.kana || '', sub: w.q || '', note: w.nu || '', say: w.a,
+            report: { kind: 'juken', kbn: 'rekishi', qid: String(w.no), que: w.q, kan: w.a, ans: w.kana || '' } };
+        }), { title: 'ふりかえり' });
         review.hidden = false;
       } else {
         review.hidden = true;

@@ -1,0 +1,82 @@
+<style>
+  /* 終わったあとのふりかえり（全モード共通）。1 問ずつ ○×、答え、読み、解説、🔊 発音、⚑ 報告 */
+  .st-review{ margin:16px auto 6px; max-width:760px; text-align:left; }
+  .st-review-head{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:8px; margin:0 0 8px; }
+  .st-review-head h3{ margin:0; font-size:1rem; }
+  .st-review-head label{ font-size:13px; display:flex; align-items:center; gap:6px; cursor:pointer; }
+  .st-review ul{ list-style:none; margin:0; padding:0; max-height:52vh; overflow:auto;
+    border:1px solid var(--line, rgba(120,130,150,.35)); border-radius:10px; background:var(--card, #fff); }
+  .st-review li{ display:flex; gap:10px; align-items:flex-start; padding:10px 12px; border-bottom:1px solid var(--line, rgba(120,130,150,.25)); }
+  .st-review li:last-child{ border-bottom:0; }
+  .st-review.only-ng li.ok{ display:none; }
+  .st-review .mk{ flex:0 0 1.4em; font-weight:800; font-size:1.05rem; text-align:center; }
+  .st-review li.ok .mk{ color:var(--ok, #1a8f3c); } .st-review li.mid .mk{ color:#d68a00; } .st-review li.ng .mk{ color:var(--ng, #c0392b); }
+  .st-review .bd{ flex:1 1 auto; min-width:0; }
+  .st-review .bd b{ font-size:1.05rem; }
+  .st-review .bd small{ margin-left:.5em; color:var(--muted, #6b7a8c); }
+  .st-review .bd .sub{ font-size:13px; color:var(--muted, #6b7a8c); margin-top:2px; overflow-wrap:anywhere; }
+  .st-review .bd .nt{ font-size:13px; margin-top:4px; white-space:pre-wrap; }
+  .st-review .act{ flex:0 0 auto; display:flex; gap:6px; }
+  .st-review .act button{ font:inherit; font-size:13px; padding:5px 9px; border-radius:999px; cursor:pointer;
+    border:1px solid var(--line, rgba(120,130,150,.45)); background:transparent; color:inherit; white-space:nowrap; }
+  .st-review .act button:hover{ border-color:var(--accent, #1ba3c6); }
+  .st-review .act .rp:hover{ border-color:#e5484d; color:#e5484d; }
+  .st-review-empty{ padding:14px; text-align:center; color:var(--muted, #6b7a8c); }
+</style>
+<script>
+// ===============================================================
+// ReviewList.html
+// ゲームが終わったあとの「ふりかえり」。どの画面からも同じ形で出す。
+//   stReview.render(container, items, opts)
+//     items: [{ mark:'ok'|'mid'|'ng', head, reading?, sub?, note?, say?, report? }]
+//       say    … 🔊 で読み上げる文字（英語なら英語の声、それ以外は日本語の声）
+//       report … ⚑ で送る報告の中身（ReportProblem.html の stReport に渡す）
+//     opts.title … 見出し（省略時「ふりかえり」）
+// ===============================================================
+(function (window, document) {
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const MARK = { ok: '○', mid: '△', ng: '×' };
+
+  function speak(text) {
+    // 市高の英単語画面は自然な声を選ぶ仕組みを持っているので、あればそれを使う
+    if (window.juken && window.juken.speak && /^[\x20-\x7e]+$/.test(text)) { window.juken.speak(text); return; }
+    if (!window.speechSynthesis) return;
+    try {
+      window.speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = /^[\x20-\x7e]+$/.test(text) ? 'en-US' : 'ja-JP';
+      u.rate = 0.95;
+      window.speechSynthesis.speak(u);
+    } catch (e) {}
+  }
+
+  function render(box, items, opts) {
+    if (!box) return;
+    opts = opts || {};
+    const ng = items.filter(i => i.mark !== 'ok').length;
+    if (!items.length) { box.innerHTML = ''; return; }
+    box.innerHTML = `<div class="st-review">
+      <div class="st-review-head"><h3>${esc(opts.title || 'ふりかえり')}（${items.length}問・まちがい ${ng}）</h3>
+        ${ng && ng < items.length ? '<label><input type="checkbox" class="st-only-ng"> まちがえた問題だけ</label>' : ''}</div>
+      <ul>${items.map((it, i) => `<li class="${it.mark}" data-i="${i}">
+        <span class="mk" aria-label="${it.mark === 'ok' ? '正解' : it.mark === 'mid' ? 'ミスあり' : 'まちがい'}">${MARK[it.mark] || ''}</span>
+        <div class="bd"><b>${esc(it.head)}</b>${it.reading ? `<small>${esc(it.reading)}</small>` : ''}
+          ${it.sub ? `<div class="sub">${esc(it.sub)}</div>` : ''}
+          ${it.note ? `<div class="nt">${esc(it.note)}</div>` : ''}</div>
+        <div class="act">${it.say ? '<button type="button" class="sp" title="発音を聞く">🔊</button>' : ''}${it.report && window.stReport ? '<button type="button" class="rp" title="この問題を報告">⚑ 報告</button>' : ''}</div>
+      </li>`).join('')}</ul></div>`;
+    const root = box.querySelector('.st-review');
+    const cb = box.querySelector('.st-only-ng');
+    if (cb) cb.onchange = () => root.classList.toggle('only-ng', cb.checked);
+    box.querySelectorAll('li').forEach(li => {
+      const it = items[Number(li.dataset.i)];
+      const sp = li.querySelector('.sp'), rp = li.querySelector('.rp');
+      if (sp) sp.onclick = e => { e.stopPropagation(); speak(it.say); };
+      if (rp) rp.onclick = e => { e.stopPropagation(); window.stReport(it.report); };
+    });
+  }
+
+  window.stReview = { render, speak };
+}(window, document));
+</script>

@@ -156,6 +156,7 @@
 
   // 解説を大きく出す枠（写経・通常モード）
   const NOTE_MODES = ['写経モード', '通常モード'];
+  const reviewLog = [];   // ふりかえり用：{ card, mark }
   let pendingNote = null;
   const noteBox = document.createElement('div');
   noteBox.id = 'note-box';
@@ -247,6 +248,10 @@
 
     // 1 問終わるたびに呼ばれる（ok = 正解、jm = 判定）
     afterCard(ok, jm) {
+      // ふりかえり用に、解いた問題を順に残す（対戦は StudyVersus.html が別に残す）
+      if (!this.versusMode && this.currentCard) {
+        reviewLog.push({ card: this.currentCard, mark: !ok ? 'ng' : this.madeMistakeThisCard ? 'mid' : 'ok' });
+      }
       let change = '';
       if (this.levelMode && d()) {
         const dd = d();
@@ -439,6 +444,31 @@
     };
     pauseBtn.parentNode.insertBefore(rb, pauseBtn.nextSibling);
   }
+
+  // ---- 終わったあとのふりかえり（ReviewList.html） ----
+  const reviewItems = log => log.map(({ card: c, mark }) => {
+    const reading = String(c.ans || '').split('|')[0];
+    const plain = s => String(s || '').replace(/<[^>]*>/g, '');
+    return {
+      mark, head: c.kan, reading: reading && reading !== String(c.kan).toLowerCase() ? reading : '',
+      sub: plain(c.que).slice(0, 140), note: c.note || '', say: c.kan,
+      report: { kind: 'typing', kbn: h.kubun, qid: c.qid || '', que: c.que, kan: c.kan, ans: c.ans }
+    };
+  });
+  h.reviewItems = reviewItems;
+  const reviewStart = h.startGame;
+  h.startGame = function () { reviewLog.length = 0; return reviewStart.apply(this, arguments); };
+  const reviewEnd = h.endGame;
+  h.endGame = function () {
+    const r = reviewEnd.apply(this, arguments);
+    if (!this.versusMode && window.stReview) {
+      let box = document.getElementById('st-review-box');
+      const content = document.querySelector('#game-end .menu-content');
+      if (!box && content) { box = document.createElement('div'); box.id = 'st-review-box'; content.appendChild(box); }
+      window.stReview.render(box, reviewItems(reviewLog));
+    }
+    return r;
+  };
 
   // Esc：プレイ中は一時停止、一時停止中は再開。確認の窓は閉じる。終了画面はメニューへ、メニューでは「← トップ」へ
   window.addEventListener('keydown', e => {

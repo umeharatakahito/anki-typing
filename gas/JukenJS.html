@@ -601,15 +601,16 @@
         '<div class="result-row"><span>ミスタイプ</span><span>' + this.miss + '</span></div>' +
         '<div class="result-row"><span>かかった時間</span><span>' + mm + ':' + ss + '</span></div>';
 
+      // ふりかえり：解いた語を全部、○（ミスなし）/ ×（まちがえた）で並べる。🔊 発音・⚑ 報告つき（ReviewList.html）
       const review = $('review');
-      if (this.missedWords.length) {
-        // 単語をタップすると発音する
-        $('review-list').innerHTML = this.missedWords
-          .map(w => '<li class="say" data-say="' + escapeHtml(w.en) + '">' +
-                    '<b>' + escapeHtml(w.en) + '</b>' +
-                    '<span>' + escapeHtml(w.ja) + '</span>' +
-                    '<i class="say-icon">🔊</i></li>')
-          .join('');
+      const missed = new Set(this.missedWords);
+      const played = this.words.filter(w => missed.has(w) || this.clearedWords.includes(w.en));
+      if (played.length && window.stReview) {
+        window.stReview.render(review, played.map(w => {
+          const mark = missed.has(w) ? 'ng' : 'ok';
+          return { mark, head: w.en, sub: w.ja, note: w.ex ? w.ex + (w.exja ? '\n' + w.exja.replace(/[【】]/g, '') : '') : '', say: w.en,
+            report: { kind: 'juken', kbn: 'eigo', qid: w.en, que: w.ja + (w.ex ? '\n' + w.ex : ''), kan: w.en, ans: w.kana || '' } };
+        }), { title: 'ふりかえり' });
         review.hidden = false;
       } else {
         review.hidden = true;
