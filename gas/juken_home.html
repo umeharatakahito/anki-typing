@@ -3,7 +3,7 @@
   <head>
     <base target="_top">
     <meta charset="utf-8">
-    <title>大学受験モード</title>
+    <title>市高</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <?!= include('JukenCSS'); ?>
     <?!= include('ThemeCSS'); ?>
@@ -13,35 +13,29 @@
     <div id="app">
       <section class="screen">
         <a class="back-link" href="<?= execUrl ?>">← トップ</a>
-        <h1 class="title">大学受験モード</h1>
+        <h1 class="title">市高</h1>
         <p class="subtitle">TYPING FOR ENTRANCE EXAMS</p>
 
-        <!-- 英単語・古文・歴史は許された人だけ（Cloudflare 版。GAS 版では全部出す） -->
-        <ul class="menu-list" data-full="<?= typeof jukenFull === 'undefined' ? true : jukenFull ?>">
-          <li class="juken-only">
+        <!-- 大学受験モードを許された人だけが開ける（Cloudflare 版はサーバーで止める） -->
+        <ul class="menu-list">
+          <li>
             <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=eigo">
               <span class="num">1</span>英単語
             </a>
           </li>
-          <li class="juken-only">
+          <li>
             <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=kobun">
               <span class="num">2</span>古文単語
             </a>
           </li>
-          <li class="juken-only">
+          <li>
             <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=rekishi">
               <span class="num">3</span>歴史
-            </a>
-          </li>
-          <li>
-            <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=ichimon">
-              <span class="num">4</span>暗記科目（日本史・世界史・年号・理科・地理・公共・漢文・現代文）
             </a>
           </li>
         </ul>
 
         <p class="note">科目をえらんでください</p>
-        <style>.menu-list[data-full="false"] .juken-only{ display:none; }</style>
       </section>
     </div>
     <?!= include('MenuKeys'); ?>

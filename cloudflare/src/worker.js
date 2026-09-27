@@ -33,7 +33,7 @@ const AUTO_MODE_BY_ROUTE = {
 };
 
 const JUKEN_PAGES = {
-  'juken':   { file: 'juken_home',    title: '大学受験モード' },
+  'juken':   { file: 'juken_home',    title: '市高' },
   'eigo':    { file: 'juken_index',   title: '英単語' },
   'kobun':   { file: 'juken_kobun',   title: '古文単語' },
   'rekishi': { file: 'juken_rekishi', title: '歴史' },
@@ -62,8 +62,8 @@ function withHead(html, title, viewport) {
   return html;
 }
 
-// 大学受験モードの画面のうち、許された人だけが開けるもの（大学受験のメニュー自体は誰でも開ける）
-const JUKEN_ONLY = ['eigo', 'kobun', 'rekishi', 'versus'];
+// 大学受験モード（トップの ⑤市高：英単語・古文・歴史・対戦）は許された人だけが開ける
+const JUKEN_ONLY = ['juken', 'eigo', 'kobun', 'rekishi', 'versus'];
 
 // HTML の文字列か、よそへ回すときは Response を返す
 function renderPage(url, viewer, available) {
@@ -72,7 +72,7 @@ function renderPage(url, viewer, available) {
                  jukenFull: viewer.juken };
 
   if (JUKEN_ONLY.includes(route) && !viewer.juken) {
-    return Response.redirect(new URL('/?p=juken', url).toString(), 302);
+    return Response.redirect(new URL('/', url).toString(), 302);
   }
 
   const page = JUKEN_PAGES[route];

@@ -15,7 +15,8 @@
         <h1 class="title">Study Type</h1>
         <p class="subtitle">TYPING FOR STUDY</p>
 
-        <ul class="menu-list">
+        <!-- ⑤市高（英単語・古文・歴史）は大学受験モードを許された人だけに出す（Cloudflare 版。サーバーでも止める） -->
+        <ul class="menu-list" data-full="<?= typeof jukenFull === 'undefined' ? true : jukenFull ?>">
           <li>
             <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=it">
               <span class="num">1</span>IT
@@ -27,7 +28,7 @@
             </a>
           </li>
           <li>
-            <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=juken">
+            <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=ichimon">
               <span class="num">3</span>大学受験
             </a>
           </li>
@@ -36,7 +37,13 @@
               <span class="num">4</span>英語
             </a>
           </li>
+          <li class="juken-only">
+            <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=juken">
+              <span class="num">5</span>市高
+            </a>
+          </li>
         </ul>
+        <style>.menu-list[data-full="false"] .juken-only{ display:none; }</style>
 
         <p class="note">分野をえらんでください</p>
         <p class="note"><a class="back-link" href="<?= execUrl ?>?p=ranking">🏆 ランキング</a>

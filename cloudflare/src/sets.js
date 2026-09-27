@@ -57,8 +57,8 @@ export const STUDY_SETS = {
     cats: [cave('jh-social'), cave('jh-science'), cave('koko-kokugo'), cave('koko-eigo')],
   },
   ichimon: {
-    title: '大学受験 暗記科目',
-    back: { href: '?p=juken', label: '大学受験' },
+    title: '大学受験',
+    back: { href: '', label: 'トップ' },
     cats: [
       cave('jhistory'), cave('whistory'), cave('daigaku-nengo-nihon'), cave('daigaku-nengo-sekai'),
       cave('daigaku-seibutsu'), cave('daigaku-kagaku'), cave('daigaku-chiri'), cave('daigaku-kokyo'),
