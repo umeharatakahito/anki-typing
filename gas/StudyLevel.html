@@ -437,6 +437,8 @@
       e.preventDefault(); h.pause();
     } else if (h.playing && h.paused) {
       e.preventDefault(); h.resume();
+    } else if (document.getElementById('menu-vs') && document.getElementById('menu-vs').offsetParent && document.getElementById('vs-back')) {
+      e.preventDefault(); document.getElementById('vs-back').click();   // 対戦の画面・待合室は「戻る」
     } else if (end && end.style.display !== 'none') {
       e.preventDefault(); h.resetGame();
     } else {
