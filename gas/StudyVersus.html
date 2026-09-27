@@ -18,6 +18,11 @@
   /* 部屋番号で入るだけのとき（問題集・モードを選ぶ前）は、作る・自動マッチ・本数を出さない */
   #menu-vs.join-only #vs-match, #menu-vs.join-only #vs-create, #menu-vs.join-only .vs-target{ display:none; }
   #vs-status .vs-code{ display:block; font-size:40px; font-weight:bold; letter-spacing:.25em; margin:6px 0; }
+  #menu-vs [hidden]{ display:none !important; }
+  #vs-status .vs-invite{ display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin:6px 0 10px; }
+  #vs-status .vs-invite input{ flex:1 1 100%; max-width:460px; padding:8px; font-size:13px; text-align:center; border-radius:8px;
+    border:1px solid rgba(120,130,150,.45); background:rgba(255,255,255,.8); color:inherit; }
+  #vs-status .vs-invite .button{ width:auto; padding:8px 14px; margin:0; }
 
   /* ---- 対戦中 ---- */
   #vs-bar{ display:none; max-width:900px; margin:4px auto 0; text-align:center; }
@@ -361,7 +366,23 @@
       seat = m.seat; target = m.target; mode = m.mode; h.kubun = m.kbn;
       $('vs-title').textContent = '対戦（' + (h.catLabel ? h.catLabel(m.kbn) : m.kbn) + '・' + m.mode.replace('モード', '') + '）';
       if (params.auto || String(m.code).length > 4) status('相手が見つかりました');
-      else status(`部屋番号<span class="vs-code">${esc(m.code)}</span>友達にこの番号を伝えて、「入る」から入ってもらってください（${m.target}本先取・4人まで）`);
+      else {
+        // 招待リンク：開くとそのまま待合室に入る（ログインしていなくても入れる）
+        const link = location.origin + location.pathname + '?p=' + encodeURIComponent(new URLSearchParams(location.search).get('p') || 'it') + '&join=' + m.code;
+        status(`部屋番号<span class="vs-code">${esc(m.code)}</span>
+          <span class="vs-invite"><input id="vs-link" readonly value="${esc(link)}" aria-label="招待リンク">
+          <button type="button" class="button menu-opt" id="vs-copy">🔗 招待リンクをコピー</button>
+          ${navigator.share ? '<button type="button" class="button menu-opt" id="vs-share">📤 送る（LINE など）</button>' : ''}</span>
+          このリンクを友達に送ると、開くだけでこの部屋の待合室に入れます。番号を「入る」から入れても OK です（${m.target}本先取・4人まで）`);
+        const copy = $('vs-copy'), share = $('vs-share');
+        copy.onclick = () => {
+          const done = () => { copy.textContent = '✓ コピーしました'; setTimeout(() => { copy.textContent = '🔗 招待リンクをコピー'; }, 2000); };
+          if (navigator.clipboard) navigator.clipboard.writeText(link).then(done, () => { $('vs-link').select(); document.execCommand('copy'); done(); });
+          else { $('vs-link').select(); document.execCommand('copy'); done(); }
+        };
+        if (share) share.onclick = () => navigator.share({ title: 'Study Type で対戦しよう', text: `Study Type の対戦に招待します（部屋番号 ${m.code}）`, url: link }).catch(() => {});
+        if (h.enableMenuNav) h.enableMenuNav($('menu-vs'));
+      }
       return;
     }
     if (m.t === 'players') {

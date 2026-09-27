@@ -5,10 +5,17 @@
   "compatibility_date": "2026-09-01",
   // 暗記タイピングの画像（scripts/fetch-images.mjs で取ってくる）
   "assets": { "directory": "public" },
+  // 広告（AdSense）を出すための自分のドメイン。workers.dev のままでも開ける
+  "routes": [{ "pattern": "studytype.umekobo.com", "custom_domain": true }],
+  "workers_dev": true,
   "vars": {
     // Google ログインの OAuth クライアント ID（公開されてよい値）。承認済みの生成元は
-    // https://anki-typing.takahito-ume.workers.dev と http://localhost:8791
-    "GOOGLE_CLIENT_ID": "1001255742442-pmd3a71i42mnrqvunrj0fr762uevoi79.apps.googleusercontent.com"
+    // https://anki-typing.takahito-ume.workers.dev、https://studytype.umekobo.com と http://localhost:8791
+    "GOOGLE_CLIENT_ID": "1001255742442-pmd3a71i42mnrqvunrj0fr762uevoi79.apps.googleusercontent.com",
+    // AdSense（勉強ダンジョンズと同じ発行者 ID）。広告ユニット ID（数字）を入れると本物の広告になる。
+    // 空のうちは「広告枠」の見本だけ出す。会員には出さない
+    "ADSENSE_CLIENT": "ca-pub-6787317133124761",
+    "ADSENSE_SLOT": ""
   },
   "d1_databases": [
     {

@@ -103,7 +103,7 @@ function ad(env) {
   const inner = real
     ? `<ins class="adsbygoogle" style="display:block;width:100%;min-height:60px" data-ad-client="${client}" data-ad-slot="${slot}" data-ad-format="horizontal" data-full-width-responsive="true"></ins>
        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${client}" crossorigin="anonymous"></script>
-       <script>(window.adsbygoogle = window.adsbygoogle || []).push({});</script>`
+       <script>(window.adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1; (window.adsbygoogle = window.adsbygoogle || []).push({});</script>`
     : `<div class="st-ad-sample"><span>広告枠</span><span>会員になると広告が消えて、すべてのレベルが遊べます</span></div>`;
   return `<div class="st-ad" role="complementary" aria-label="広告"><div class="st-ad-inner">${inner}</div></div>`;
 }
