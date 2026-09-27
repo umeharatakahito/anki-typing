@@ -10,7 +10,8 @@ import {
   jukenSubject_, wordsByKeys_, withWeak
 } from './generated/gas.js';
 import { FREE_MAX_LEVEL } from './gate.js';
-import { CAT_BY_KBN } from './sets.js';
+import { CAT_BY_KBN, kbnWhere, withSetLabel, randomPickSql } from './sets.js';
+const COLS = 'kbn, que, kan, ans, img, note, level, qid';
 
 // 正解が続いた語は苦手リストから外す。ミスより this だけ多く正解したら卒業。
 const WEAK_CLEAR_MARGIN = 2;
@@ -61,9 +62,10 @@ export async function getQuestions(env, category) {
 
 // レベルのある問題集: どのレベルがあって、この人はどこまで行けるか
 export async function getLevelInfo(env, category) {
+  const w = kbnWhere(category);
   const { results } = await env.DB.prepare(
-    'SELECT DISTINCT level FROM problems WHERE kbn = ? AND level > 0 ORDER BY level'
-  ).bind(String(category)).all();
+    `SELECT DISTINCT level FROM problems WHERE ${w.sql} AND level > 0 ORDER BY level`
+  ).bind(...w.args).all();
   const levels = results.map(r => r.level);
   return {
     levels,
@@ -76,10 +78,11 @@ export async function getLevelInfo(env, category) {
 export async function getLevelQuestions(env, category, level) {
   level = Number(level) || 1;
   if (!env.viewer.member && level > FREE_MAX_LEVEL) return { error: 'members_only', maxLevel: FREE_MAX_LEVEL };
+  const w = kbnWhere(category);
   const { results } = await env.DB.prepare(
-    'SELECT que, kan, ans, img, note, level, qid FROM problems WHERE kbn = ? AND level = ? ORDER BY random() LIMIT 40'
-  ).bind(String(category), level).all();
-  return results.map(toCard);
+    randomPickSql(category, COLS, `level = ? AND ${w.sql}`, 40)
+  ).bind(level, ...w.args, 40).all();
+  return results.map(r => toCard(Object.assign(r, { que: withSetLabel(category, r.kbn, r.que) })));
 }
 
 // ---------------------------------------------------------------

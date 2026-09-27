@@ -37,13 +37,20 @@
               <span class="num">4</span>英語
             </a>
           </li>
+          <li>
+            <a class="btn btn-main btn-link btn-shinra" href="<?= execUrl ?>?p=shinra">
+              <span class="num">5</span>森羅万象<small>全部の問題集からランダム</small>
+            </a>
+          </li>
           <li class="juken-only">
             <a class="btn btn-main btn-link" href="<?= execUrl ?>?p=juken">
-              <span class="num">5</span>市高
+              <span class="num">6</span>市高
             </a>
           </li>
         </ul>
-        <style>.menu-list[data-full="false"] .juken-only{ display:none; }</style>
+        <style>.menu-list[data-full="false"] .juken-only{ display:none; }
+          .btn-shinra{ background:linear-gradient(135deg,#6d28d9,#db2777) !important; color:#fff !important; border-color:transparent !important; }
+          .btn-shinra small{ display:block; font-size:11px; font-weight:normal; opacity:.85; margin-left:.5em; }</style>
 
         <p class="note">分野をえらんでください</p>
         <p class="note"><a class="back-link" href="<?= execUrl ?>?p=ranking">🏆 ランキング</a>

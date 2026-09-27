@@ -97,7 +97,7 @@ function renderPage(url, viewer, available) {
     vars.autoMode = AUTO_MODE_BY_ROUTE[route] || '';
     vars.studySet = Object.assign({ key: setKey }, STUDY_SETS[setKey], {
       // 問題がまだ入っていない問題集はメニューに出さない
-      cats: STUDY_SETS[setKey].cats.filter(c => !available || available.has(c.kbn)),
+      cats: STUDY_SETS[setKey].cats.filter(c => !available || available.has(c.kbn) || c.kbn === 'shinra'),
       // ランキングに他の問題集の記録が混ざっても名前で出せるように
       labels: Object.fromEntries(Object.entries(CAT_BY_KBN).map(([k, c]) => [k, c.label]))
     });

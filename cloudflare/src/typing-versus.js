@@ -40,7 +40,8 @@
 
 import { DurableObject } from 'cloudflare:workers';
 import { FREE_MAX_LEVEL } from './gate.js';
-import { CAT_BY_KBN } from './sets.js';
+import { CAT_BY_KBN, kbnWhere, withSetLabel, randomPickSql } from './sets.js';
+const COLS = 'kbn, que, kan, ans, img, note, level, qid';
 import { toCardImg } from './stats.js';
 
 export const TARGETS = [3, 5, 7, 10];
@@ -188,11 +189,12 @@ export class TypingVersus extends DurableObject {
     const kbn = this.room.kbn;
     const cat = CAT_BY_KBN[kbn];
     const freeOnly = allMembers ? '' : ' AND free = 1';
+    const w = kbnWhere(kbn);
     let rows;
     if (cat.levels) {
       const { results: lv } = await this.env.DB.prepare(
-        `SELECT DISTINCT level FROM problems WHERE kbn = ? AND level > 0${allMembers ? '' : ' AND level <= ' + FREE_MAX_LEVEL} ORDER BY level`
-      ).bind(kbn).all();
+        `SELECT DISTINCT level FROM problems WHERE ${w.sql} AND level > 0${allMembers ? '' : ' AND level <= ' + FREE_MAX_LEVEL} ORDER BY level`
+      ).bind(...w.args).all();
       const levels = lv.map(r => r.level);
       const want = {};
       for (let i = 0; i < count; i++) {
@@ -202,17 +204,17 @@ export class TypingVersus extends DurableObject {
       rows = [];
       for (const L of Object.keys(want).map(Number).sort((a, b) => a - b)) {
         const { results } = await this.env.DB.prepare(
-          `SELECT que, kan, ans, img, note, level, qid FROM problems WHERE kbn = ? AND level = ?${freeOnly} ORDER BY random() LIMIT ?`
-        ).bind(kbn, L, want[L]).all();
+          randomPickSql(kbn, COLS, `level = ? AND ${w.sql}${freeOnly}`, want[L])
+        ).bind(L, ...w.args, want[L]).all();
         rows.push(...results);
       }
     } else {
       ({ results: rows } = await this.env.DB.prepare(
-        `SELECT que, kan, ans, img, note, level, qid FROM problems WHERE kbn = ?${freeOnly} ORDER BY random() LIMIT ?`
-      ).bind(kbn, count).all());
+        randomPickSql(kbn, COLS, `${w.sql}${freeOnly}`, count)
+      ).bind(...w.args, count).all());
     }
     return rows.map(r => ({
-      que: r.que || '', kan: r.kan || '', ans: r.ans || '', note: r.note || '', level: r.level || 0, qid: r.qid || '',
+      que: withSetLabel(kbn, r.kbn, r.que || ''), kan: r.kan || '', ans: r.ans || '', note: r.note || '', level: r.level || 0, qid: r.qid || '',
       img: toCardImg(r.img)
     }));
   }

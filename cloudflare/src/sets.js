@@ -72,6 +72,37 @@ export const STUDY_SETS = {
   },
 };
 
+// 森羅万象：レベルのある問題集すべてから、まぜて出す（kbn は 'shinra'。問題の行は持たない）
+export const SHINRA = 'shinra';
+export const SHINRA_KBNS = Object.values(STUDY_SETS).flatMap(s => s.cats).filter(c => c.levels).map(c => c.kbn);
+STUDY_SETS.shinra = {
+  title: '森羅万象',
+  back: { href: '', label: 'トップ' },
+  cats: [{ kbn: SHINRA, label: '森羅万象（全部の問題集から）', levels: true }],
+};
+
+// 問題を引くときの kbn の条件。森羅万象は全部の問題集
+export function kbnWhere(kbn) {
+  if (kbn === SHINRA) return { sql: 'kbn IN (' + SHINRA_KBNS.map(() => '?').join(',') + ')', args: SHINRA_KBNS };
+  return { sql: 'kbn = ?', args: [String(kbn)] };
+}
+
+// 問題をランダムに引く SQL（最後の ? が件数）。森羅万象は問題集の大きさに引っぱられないよう、
+// 問題集ごとに同じくらいずつ引いてから混ぜる
+export function randomPickSql(kbn, cols, where, limit) {
+  if (kbn !== SHINRA) return `SELECT ${cols} FROM problems WHERE ${where} ORDER BY random() LIMIT ?`;
+  const per = Math.max(1, Math.ceil(limit / SHINRA_KBNS.length));
+  return `SELECT ${cols} FROM (SELECT ${cols}, ROW_NUMBER() OVER (PARTITION BY kbn ORDER BY random()) AS rn
+            FROM problems WHERE ${where}) WHERE rn <= ${per} ORDER BY random() LIMIT ?`;
+}
+
 // kbn → 問題集。サーバー側でレベルの扱いを決めるのに使う
 export const CAT_BY_KBN = Object.fromEntries(
   Object.values(STUDY_SETS).flatMap(s => s.cats).map(c => [c.kbn, c]));
+
+// 森羅万象では、どの問題集の問題かを問題文の頭に付ける
+export function withSetLabel(kbn, rowKbn, que) {
+  if (kbn !== SHINRA) return que;
+  const c = CAT_BY_KBN[rowKbn];
+  return (c ? '【' + c.label + '】' : '') + que;
+}
