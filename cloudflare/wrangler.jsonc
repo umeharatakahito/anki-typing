@@ -8,6 +8,9 @@
   // 広告（AdSense）を出すための自分のドメイン。workers.dev のままでも開ける
   "routes": [{ "pattern": "studytype.umekobo.com", "custom_domain": true }],
   "workers_dev": true,
+  // 手元の wrangler dev では、URL を localhost のままにする（routes があると本番のドメインに書き換わり、
+  // 手元版だけの「全員スーパーユーザー」や家の中ログインが効かなくなる）
+  "dev": { "host": "localhost" },
   "vars": {
     // Google ログインの OAuth クライアント ID（公開されてよい値）。承認済みの生成元は
     // https://anki-typing.takahito-ume.workers.dev、https://studytype.umekobo.com と http://localhost:8791
