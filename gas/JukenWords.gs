@@ -121,7 +121,7 @@ const JUKEN_WORDS = [
   { no:   65, en: "lively", rel: 1, hw: "live", df: "「活気ある」。-ly だが形容詞", ja: "活気のある／元気な／生き生きした", nu: "-ly だが形容詞", kana: "かっきのある", ex: "The morning market was very lively.", exja: "朝の市場はとても【活気のある】場所だった。" },
   { no:   66, en: "alive", ja: "生きている／生存して／活気のある", nu: "名詞の前には置かない", kana: "いきている", ex: "The old cherry tree is still alive.", exja: "その古い桜の木はまだ【生きている】。" },
   { no:   67, en: "loud", ja: "大声の／音が大きい／騒がしい", kana: "おおごえの", ex: "His loud voice filled the small room.", exja: "彼の【大声の】話し声が小さな部屋を満たした。" },
-  { no:   68, en: "aloud", ja: "声に出して／大声で", nu: "read aloud の形で使う", kana: "こえにだして", ex: "Please read this poem aloud.", exja: "この詩を【声に出して】読んでください。" },
+  { no:   68, en: "aloud", ja: "声に出して", nu: "read aloud の形で使う", kana: "こえにだして", ex: "Please read this poem aloud.", exja: "この詩を【声に出して】読んでください。" },
   { no:   68, en: "silently", rel: 1, hw: "aloud", df: "反意語。「黙って・静かに」", ja: "黙って／静かに／無言で", kana: "だまって", ex: "He silently left the room and closed the door.", exja: "彼は【黙って】部屋を出て、ドアを閉めた。" },
   { no:   69, en: "possible", ja: "可能な／ありうる／できる", nu: "人を主語にしない", kana: "かのうな", ex: "Come as early as possible tomorrow.", exja: "明日は【可能な】かぎり早く来てください。" },
   { no:   69, en: "impossible", rel: 1, hw: "possible", df: "反意語。im- で打ち消し", ja: "不可能な／ありえない／できない", kana: "ふかのうな", ex: "It is impossible to finish this in one day.", exja: "これを一日で終えるのは【不可能な】ことだ。" },
