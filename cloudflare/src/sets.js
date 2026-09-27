@@ -44,6 +44,7 @@ export const OWN_SETS = [
   { id: 'zk-flower',            label: '花の写真 → 名前' },
   { id: 'zk-insect',            label: '昆虫の写真 → 名前' },
   { id: 'zk-bird',              label: '鳥の写真 → 名前' },
+  { id: 'zk-deepsea',           label: '深海魚の写真 → 名前' },
   { id: 'heritage',             label: '世界遺産' },
 ];
 
@@ -91,6 +92,7 @@ const LOOK = {
   'zk-flower':           { icon: 'flower-2',         desc: '写真を見て名前を打つ' },
   'zk-insect':           { icon: 'bug',              desc: '写真を見て名前を打つ' },
   'zk-bird':             { icon: 'bird',             desc: '写真を見て名前を打つ' },
+  'zk-deepsea':          { icon: 'fish',             desc: '暗い海の底のふしぎな魚' },
   'castle':              { icon: 'castle',           desc: '写真から城の名前' },
 };
 
@@ -141,7 +143,7 @@ export const MENU = [
     groups: [
       { label: '地図', sets: ['map-world-country', 'map-japan-pref', 'map-world-nature'] },
       { label: '国旗・世界', sets: ['flag-country', 'capital', 'heritage'] },
-      { label: '生きもの', sets: ['zk-fish', 'zk-flower', 'zk-insect', 'zk-bird'] },
+      { label: '生きもの', sets: ['zk-fish', 'zk-deepsea', 'zk-flower', 'zk-insect', 'zk-bird'] },
       { label: '科学・日本', sets: ['element', 'constellation', 'castle'] },
     ] },
 ];

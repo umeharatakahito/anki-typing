@@ -5,7 +5,7 @@
 | `countries.txt` | 国（197）：国名・読み・別の答え・首都・地域・レベル |
 | `prefectures.txt` | 都道府県（47）：読み・県庁所在地・地方・レベル |
 | `elements.txt` | 元素（118）：記号・名前・読み |
-| `photos/*.txt` | 写真の雑学（魚 55・花 49・昆虫 38・鳥 43・世界遺産 50）。列の説明は `photos/README.md` |
+| `photos/*.txt` | 写真の雑学（魚 55・深海魚 21・花 49・昆虫 38・鳥 43・世界遺産 50）。列の説明は `photos/README.md` |
 | `japan.geojson` | 都道府県の形（Natural Earth 10m admin-1 から日本だけ抜き出したもの。パブリックドメイン） |
 
 ## 作り直す・入れる

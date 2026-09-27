@@ -210,6 +210,7 @@ const PHOTO_SETS = {
   'zk-flower': 'この花の名前は？',
   'zk-insect': 'この昆虫の名前は？',
   'zk-bird':   'この鳥の名前は？',
+  'zk-deepsea': 'この深海魚の名前は？',
   'heritage':  'この世界遺産は？',
 };
 const PHOTOS = join(DATA, 'photos');
