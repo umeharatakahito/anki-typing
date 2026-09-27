@@ -10,6 +10,7 @@
 //   capital            … 国名 → 首都        （国旗を添える）
 //   map-japan-pref     … 日本地図 → 都道府県（地図：Natural Earth admin-1。data/zatsugaku/japan.geojson）
 //   element            … 元素記号 → 名前    （図はここで描く）
+//   zk-fish / zk-flower / zk-insect / zk-bird / heritage … 写真 → 名前（data/zatsugaku/photos/。写真は fetch-photos.mjs）
 //
 // 一覧（countries.txt / prefectures.txt / elements.txt）を直したら、これを流してから import-caves.mjs で入れ直す。
 // ===============================================================
@@ -200,6 +201,29 @@ for (const [num, sym, name, reading, alts] of lines('elements.txt')) {
   put('element', { id: 'el-' + n, level: levelOfElement(n), category: g[0], prompt: `元素記号「${sym}」の元素の名前は？`,
     answer: name, reading: answers(reading || typeable(name), alts)[0], alts: answers(reading || typeable(name), alts).slice(1),
     explanation: `原子番号 ${n}・${g[0]}。`, image: 'zk/el-' + n + '.svg' });
+}
+
+// ---------------------------------------------------------------
+// 写真の雑学（写真は scripts/fetch-photos.mjs が取ってきたもの。作者とライセンスを解説に出す）
+const PHOTO_SETS = {
+  'zk-fish':   'この魚の名前は？',
+  'zk-flower': 'この花の名前は？',
+  'zk-insect': 'この昆虫の名前は？',
+  'zk-bird':   'この鳥の名前は？',
+  'heritage':  'この世界遺産は？',
+};
+const PHOTOS = join(DATA, 'photos');
+for (const [set, prompt] of Object.entries(PHOTO_SETS)) {
+  const credits = JSON.parse(readFileSync(join(PHOTOS, set + '.credits.json'), 'utf8'));
+  const rows = readFileSync(join(PHOTOS, set + '.txt'), 'utf8').split('\n').filter(l => l.trim() && !l.startsWith('#')).map(l => l.split('|'));
+  for (const [key, answer, reading, alts, , level, note, country] of rows) {
+    const c = credits[key];
+    if (!c) throw new Error(`${set} の ${key} の写真がありません（fetch-photos.mjs を流す）`);
+    const ans = answers(reading || typeable(answer), alts);
+    put(set, { id: set + '-' + key, level: Number(level), category: country || '', prompt: country ? `${prompt}（${country}）` : prompt,
+      answer, reading: ans[0], alts: ans.slice(1), explanation: note, image: c.file,
+      credit: `写真：${c.author}／${c.license}（Wikimedia Commons）` });
+  }
 }
 
 // ---------------------------------------------------------------

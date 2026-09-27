@@ -1,0 +1,533 @@
+[
+ {
+  "review": "verified",
+  "id": "zk-insect-kabuto",
+  "level": 1,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "カブトムシ",
+  "reading": "かぶとむし",
+  "alts": [],
+  "explanation": "オスには大きな角がある。夏の人気者。",
+  "image": "zk/photo/zk-insect-kabuto.jpg",
+  "credit": "写真：Gombe at Japanese Wikipedia／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-nokogiri",
+  "level": 2,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "ノコギリクワガタ",
+  "reading": "のこぎりくわがた",
+  "alts": [
+   "くわがた",
+   "くわがたむし"
+  ],
+  "explanation": "大あごがのこぎりのような形のクワガタ。",
+  "image": "zk/photo/zk-insect-nokogiri.jpg",
+  "credit": "写真：Udo Schmidt from Deutschland／CC BY-SA 2.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-okuwagata",
+  "level": 3,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "オオクワガタ",
+  "reading": "おおくわがた",
+  "alts": [],
+  "explanation": "太く大きな体の、人気のクワガタ。",
+  "image": "zk/photo/zk-insect-okuwagata.jpg",
+  "credit": "写真：keusju／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-hercules",
+  "level": 3,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "ヘラクレスオオカブト",
+  "reading": "へらくれすおおかぶと",
+  "alts": [
+   "へらくれす"
+  ],
+  "explanation": "世界最長のカブトムシ。中南米にすむ。",
+  "image": "zk/photo/zk-insect-hercules.jpg",
+  "credit": "写真：Didier Descouens／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-kamakiri",
+  "level": 1,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "カマキリ",
+  "reading": "かまきり",
+  "alts": [],
+  "explanation": "かまのような前あしで、えものをつかまえる。",
+  "image": "zk/photo/zk-insect-kamakiri.jpg",
+  "credit": "写真：Didier Descouens／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-tonosama",
+  "level": 1,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "トノサマバッタ",
+  "reading": "とのさまばった",
+  "alts": [
+   "ばった"
+  ],
+  "explanation": "大きなバッタ。遠くまで飛ぶ。",
+  "image": "zk/photo/zk-insect-tonosama.jpg",
+  "credit": "写真：Jonathan Hornung／CC BY-SA 2.0 de（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-shoryo",
+  "level": 3,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "ショウリョウバッタ",
+  "reading": "しょうりょうばった",
+  "alts": [],
+  "explanation": "とがった頭の細長いバッタ。オスはメスよりずっと小さい。",
+  "image": "zk/photo/zk-insect-shoryo.jpg",
+  "credit": "写真：KENPEI／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-koorogi",
+  "level": 2,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "コオロギ",
+  "reading": "こおろぎ",
+  "alts": [
+   "えんまこおろぎ"
+  ],
+  "explanation": "秋の夜に「コロコロリー」と鳴く。",
+  "image": "zk/photo/zk-insect-koorogi.jpg",
+  "credit": "写真：りなべる (re_nebel)／CC BY 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-suzumushi",
+  "level": 2,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "スズムシ",
+  "reading": "すずむし",
+  "alts": [],
+  "explanation": "「リーンリーン」とすずのような声で鳴く。",
+  "image": "zk/photo/zk-insect-suzumushi.jpg",
+  "credit": "写真：Monami at Japanese Wikipedia／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-kirigirisu",
+  "level": 3,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "キリギリス",
+  "reading": "きりぎりす",
+  "alts": [],
+  "explanation": "夏に「ギーッチョン」と鳴く。",
+  "image": "zk/photo/zk-insect-kirigirisu.jpg",
+  "credit": "写真：김건혁／KOGL Type 1（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-aburazemi",
+  "level": 1,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "アブラゼミ",
+  "reading": "あぶらぜみ",
+  "alts": [
+   "せみ"
+  ],
+  "explanation": "茶色いはねのセミ。「ジージー」と鳴く。",
+  "image": "zk/photo/zk-insect-aburazemi.jpg",
+  "credit": "写真：池田正樹／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-minmin",
+  "level": 2,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "ミンミンゼミ",
+  "reading": "みんみんぜみ",
+  "alts": [],
+  "explanation": "「ミーンミンミン」と鳴くセミ。",
+  "image": "zk/photo/zk-insect-minmin.jpg",
+  "credit": "写真：Alpsdake／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-shiokara",
+  "level": 2,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "シオカラトンボ",
+  "reading": "しおからとんぼ",
+  "alts": [
+   "とんぼ"
+  ],
+  "explanation": "オスは水色、メスは黄色っぽい。",
+  "image": "zk/photo/zk-insect-shiokara.jpg",
+  "credit": "写真：Philipp Weigell／CC BY 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-oniyanma",
+  "level": 2,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "オニヤンマ",
+  "reading": "おにやんま",
+  "alts": [],
+  "explanation": "日本最大のトンボ。",
+  "image": "zk/photo/zk-insect-oniyanma.jpg",
+  "credit": "写真：Alpsdake／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-akiakane",
+  "level": 2,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "アキアカネ",
+  "reading": "あきあかね",
+  "alts": [
+   "あかとんぼ"
+  ],
+  "explanation": "秋に赤くなる「赤とんぼ」。",
+  "image": "zk/photo/zk-insect-akiakane.jpg",
+  "credit": "写真：Alpsdake／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-monshiro",
+  "level": 1,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "モンシロチョウ",
+  "reading": "もんしろちょう",
+  "alts": [
+   "ちょう"
+  ],
+  "explanation": "キャベツ畑でよく見る白いチョウ。",
+  "image": "zk/photo/zk-insect-monshiro.jpg",
+  "credit": "写真：Sarefo／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-ageha",
+  "level": 1,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "アゲハ",
+  "reading": "あげは",
+  "alts": [
+   "なみあげは",
+   "あげはちょう"
+  ],
+  "explanation": "黄色と黒のもようの大きなチョウ。",
+  "image": "zk/photo/zk-insect-ageha.jpg",
+  "credit": "写真：Yoshikazu Takahira／CC BY 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-omurasaki",
+  "level": 3,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "オオムラサキ",
+  "reading": "おおむらさき",
+  "alts": [],
+  "explanation": "日本の国蝶。むらさきに光るはね。",
+  "image": "zk/photo/zk-insect-omurasaki.jpg",
+  "credit": "写真：Peellden／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-morpho",
+  "level": 3,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "モルフォチョウ",
+  "reading": "もるふぉちょう",
+  "alts": [],
+  "explanation": "はねが金属のような青に輝く、中南米のチョウ。",
+  "image": "zk/photo/zk-insect-morpho.jpg",
+  "credit": "写真：Didier Descouens／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-kaiko",
+  "level": 3,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "カイコ",
+  "reading": "かいこ",
+  "alts": [],
+  "explanation": "まゆから絹の糸をとる。",
+  "image": "zk/photo/zk-insect-kaiko.jpg",
+  "credit": "写真：Oakenking at en.wikipedia／CC BY-SA 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-mitsubachi",
+  "level": 1,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "ミツバチ",
+  "reading": "みつばち",
+  "alts": [
+   "せいようみつばち"
+  ],
+  "explanation": "花のみつを集めてはちみつを作る。",
+  "image": "zk/photo/zk-insect-mitsubachi.jpg",
+  "credit": "写真：Didier Descouens／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-suzumebachi",
+  "level": 2,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "スズメバチ",
+  "reading": "すずめばち",
+  "alts": [
+   "おおすずめばち"
+  ],
+  "explanation": "大きく強い毒をもつハチ。近づかないこと。",
+  "image": "zk/photo/zk-insect-suzumebachi.jpg",
+  "credit": "写真：KENPEI／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-ari",
+  "level": 1,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "アリ",
+  "reading": "あり",
+  "alts": [
+   "くろおおあり"
+  ],
+  "explanation": "女王アリを中心に巣で暮らす。",
+  "image": "zk/photo/zk-insect-ari.jpg",
+  "credit": "写真：Imuzak／Public domain（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-tentomushi",
+  "level": 1,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "テントウムシ",
+  "reading": "てんとうむし",
+  "alts": [
+   "ななほしてんとう"
+  ],
+  "explanation": "赤いせなかに七つの黒い点。アブラムシを食べる。",
+  "image": "zk/photo/zk-insect-tentomushi.jpg",
+  "credit": "写真：Reytan（アップロードした人）／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-hotaru",
+  "level": 1,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "ホタル",
+  "reading": "ほたる",
+  "alts": [
+   "げんじぼたる"
+  ],
+  "explanation": "おしりが光る。きれいな川の近くにすむ。",
+  "image": "zk/photo/zk-insect-hotaru.jpg",
+  "credit": "写真：Alpsdake／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-gengoro",
+  "level": 3,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "ゲンゴロウ",
+  "reading": "げんごろう",
+  "alts": [],
+  "explanation": "水の中を泳ぐ甲虫。",
+  "image": "zk/photo/zk-insect-gengoro.jpg",
+  "credit": "写真：Daiju Azuma／CC BY-SA 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-tagame",
+  "level": 3,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "タガメ",
+  "reading": "たがめ",
+  "alts": [],
+  "explanation": "日本最大の水生昆虫。",
+  "image": "zk/photo/zk-insect-tagame.jpg",
+  "credit": "写真：OpenCage／CC BY-SA 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-amenbo",
+  "level": 2,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "アメンボ",
+  "reading": "あめんぼ",
+  "alts": [],
+  "explanation": "水の上をすいすい歩く。",
+  "image": "zk/photo/zk-insect-amenbo.jpg",
+  "credit": "写真：Webrunner／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-kanabun",
+  "level": 2,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "カナブン",
+  "reading": "かなぶん",
+  "alts": [],
+  "explanation": "緑や銅色に光る甲虫。木の樹液に集まる。",
+  "image": "zk/photo/zk-insect-kanabun.jpg",
+  "credit": "写真：Matsumomushi／Public domain（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-tamamushi",
+  "level": 3,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "タマムシ",
+  "reading": "たまむし",
+  "alts": [],
+  "explanation": "虹色に光るはね。法隆寺の「玉虫厨子」に使われた。",
+  "image": "zk/photo/zk-insect-tamamushi.jpg",
+  "credit": "写真：Brian Adler (BrianAdler)／Public domain（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-kamikiri",
+  "level": 2,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "カミキリムシ",
+  "reading": "かみきりむし",
+  "alts": [
+   "ごまだらかみきり"
+  ],
+  "explanation": "長い触角をもつ甲虫。",
+  "image": "zk/photo/zk-insect-kamikiri.jpg",
+  "credit": "写真：Iwatebud／CC BY 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-nanafushi",
+  "level": 3,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "ナナフシ",
+  "reading": "ななふし",
+  "alts": [],
+  "explanation": "木の枝そっくりの姿でかくれる。",
+  "image": "zk/photo/zk-insect-nanafushi.jpg",
+  "credit": "写真：de:Roger Zenner / commons:Roger Zenner／CC BY-SA 2.0 de（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-usubakagero",
+  "level": 4,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "ウスバカゲロウ",
+  "reading": "うすばかげろう",
+  "alts": [],
+  "explanation": "幼虫は「アリジゴク」。",
+  "image": "zk/photo/zk-insect-usubakagero.jpg",
+  "credit": "写真：dhobern／CC BY 2.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-hasamimushi",
+  "level": 4,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "ハサミムシ",
+  "reading": "はさみむし",
+  "alts": [],
+  "explanation": "おしりにはさみのようなものがある。",
+  "image": "zk/photo/zk-insect-hasamimushi.jpg",
+  "credit": "写真：James K. Lindsey／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-scarab",
+  "level": 3,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "フンコロガシ",
+  "reading": "ふんころがし",
+  "alts": [
+   "すからべ",
+   "たまおしこがね"
+  ],
+  "explanation": "動物のふんを丸めて転がす。",
+  "image": "zk/photo/zk-insect-scarab.jpg",
+  "credit": "写真：Emil Hochdanz／Public domain（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-kamemushi",
+  "level": 3,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "カメムシ",
+  "reading": "かめむし",
+  "alts": [],
+  "explanation": "さわるとくさいにおいを出す。",
+  "image": "zk/photo/zk-insect-kamemushi.jpg",
+  "credit": "写真：Alpsdake／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-hanmyo",
+  "level": 4,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "ハンミョウ",
+  "reading": "はんみょう",
+  "alts": [
+   "みちおしえ"
+  ],
+  "explanation": "人の前を飛んでは止まるので「みちおしえ」とも。",
+  "image": "zk/photo/zk-insect-hanmyo.jpg",
+  "credit": "写真：Alpsdake／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-insect-kobane",
+  "level": 4,
+  "category": "",
+  "prompt": "この昆虫の名前は？",
+  "answer": "オオミズアオ",
+  "reading": "おおみずあお",
+  "alts": [],
+  "explanation": "うすい緑の大きなガ。",
+  "image": "zk/photo/zk-insect-kobane.jpg",
+  "credit": "写真：Alpsdake／CC BY-SA 4.0（Wikimedia Commons）"
+ }
+]

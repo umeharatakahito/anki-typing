@@ -1,0 +1,600 @@
+[
+ {
+  "review": "verified",
+  "id": "zk-bird-suzume",
+  "level": 1,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "スズメ",
+  "reading": "すずめ",
+  "alts": [],
+  "explanation": "人の近くで暮らす小さな茶色い鳥。",
+  "image": "zk/photo/zk-bird-suzume.jpg",
+  "credit": "写真：Andreas Trepte／CC BY-SA 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-karasu",
+  "level": 1,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "カラス",
+  "reading": "からす",
+  "alts": [
+   "はしぶとがらす"
+  ],
+  "explanation": "とても頭がよい黒い鳥。",
+  "image": "zk/photo/zk-bird-karasu.jpg",
+  "credit": "写真：Tisha Mukherjee／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-hato",
+  "level": 1,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "ハト",
+  "reading": "はと",
+  "alts": [
+   "かわらばと",
+   "どばと"
+  ],
+  "explanation": "公園でよく見る。平和のシンボル。",
+  "image": "zk/photo/zk-bird-hato.jpg",
+  "credit": "写真：william_stephens／CC BY 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-tsubame",
+  "level": 1,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "ツバメ",
+  "reading": "つばめ",
+  "alts": [],
+  "explanation": "春に南から来て、家ののき下に巣を作る。",
+  "image": "zk/photo/zk-bird-tsubame.jpg",
+  "credit": "写真：Andreas Trepte／CC BY-SA 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-mejiro",
+  "level": 2,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "メジロ",
+  "reading": "めじろ",
+  "alts": [],
+  "explanation": "目のまわりが白い、黄緑色の小鳥。",
+  "image": "zk/photo/zk-bird-mejiro.jpg",
+  "credit": "写真：Laitche／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-uguisu",
+  "level": 2,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "ウグイス",
+  "reading": "うぐいす",
+  "alts": [],
+  "explanation": "「ホーホケキョ」と鳴く。",
+  "image": "zk/photo/zk-bird-uguisu.jpg",
+  "credit": "写真：Alpsdake／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-shijukara",
+  "level": 2,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "シジュウカラ",
+  "reading": "しじゅうから",
+  "alts": [],
+  "explanation": "胸に黒いネクタイのようなもよう。",
+  "image": "zk/photo/zk-bird-shijukara.jpg",
+  "credit": "写真：Alpsdake／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-hiyodori",
+  "level": 3,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "ヒヨドリ",
+  "reading": "ひよどり",
+  "alts": [],
+  "explanation": "「ピーヨ」と大きな声で鳴く灰色の鳥。",
+  "image": "zk/photo/zk-bird-hiyodori.jpg",
+  "credit": "写真：Alpsdake／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-mukudori",
+  "level": 3,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "ムクドリ",
+  "reading": "むくどり",
+  "alts": [],
+  "explanation": "夕方、大きな群れで街路樹に集まる。",
+  "image": "zk/photo/zk-bird-mukudori.jpg",
+  "credit": "写真：Cory（アップロードした人）／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-kawasemi",
+  "level": 2,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "カワセミ",
+  "reading": "かわせみ",
+  "alts": [],
+  "explanation": "青く輝く鳥。水にとびこんで魚をとる。",
+  "image": "zk/photo/zk-bird-kawasemi.jpg",
+  "credit": "写真：Artemy Voikhansky／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-akagera",
+  "level": 3,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "アカゲラ",
+  "reading": "あかげら",
+  "alts": [
+   "きつつき"
+  ],
+  "explanation": "くちばしで木をつついて穴を開けるキツツキの仲間。",
+  "image": "zk/photo/zk-bird-akagera.jpg",
+  "credit": "写真：Bengt Nyman from Vaxholm, Sweden／CC BY 2.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-fukuro",
+  "level": 1,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "フクロウ",
+  "reading": "ふくろう",
+  "alts": [],
+  "explanation": "夜に活動する。首がよく回る。",
+  "image": "zk/photo/zk-bird-fukuro.jpg",
+  "credit": "写真：Tatiana Bulyonkova from Novosibirsk, Russia／CC BY-SA 2.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-owashi",
+  "level": 3,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "オオワシ",
+  "reading": "おおわし",
+  "alts": [
+   "わし"
+  ],
+  "explanation": "冬に北海道へわたってくる大きなワシ。",
+  "image": "zk/photo/zk-bird-owashi.jpg",
+  "credit": "写真：Michael Pinczolits／CC BY 2.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-otaka",
+  "level": 3,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "オオタカ",
+  "reading": "おおたか",
+  "alts": [
+   "たか"
+  ],
+  "explanation": "すばやく飛んで鳥をつかまえるタカ。",
+  "image": "zk/photo/zk-bird-otaka.jpg",
+  "credit": "写真：Norbert Kenntner, Berlin／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-hayabusa",
+  "level": 2,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "ハヤブサ",
+  "reading": "はやぶさ",
+  "alts": [],
+  "explanation": "急降下のスピードは動物の中で最速クラス。",
+  "image": "zk/photo/zk-bird-hayabusa.jpg",
+  "credit": "写真：Georges Lignier (georges.lignier@wanadoo.fr)／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-tobi",
+  "level": 2,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "トビ",
+  "reading": "とび",
+  "alts": [
+   "とんび"
+  ],
+  "explanation": "「ピーヒョロロ」と鳴いて空を輪をえがいて飛ぶ。",
+  "image": "zk/photo/zk-bird-tobi.jpg",
+  "credit": "写真：Thomas Kraft (ThKraft)／CC BY-SA 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-tancho",
+  "level": 2,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "タンチョウ",
+  "reading": "たんちょう",
+  "alts": [
+   "つる",
+   "たんちょうづる"
+  ],
+  "explanation": "頭の上が赤いツル。北海道の釧路湿原にすむ。",
+  "image": "zk/photo/zk-bird-tancho.jpg",
+  "credit": "写真：Christoph Moning／CC BY 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-daisagi",
+  "level": 3,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "ダイサギ",
+  "reading": "だいさぎ",
+  "alts": [
+   "さぎ",
+   "しらさぎ"
+  ],
+  "explanation": "首と足の長い白い鳥。",
+  "image": "zk/photo/zk-bird-daisagi.jpg",
+  "credit": "写真：Bernard DUPONT from FRANCE／CC BY-SA 2.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-konotori",
+  "level": 3,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "コウノトリ",
+  "reading": "こうのとり",
+  "alts": [],
+  "explanation": "赤ちゃんを運ぶ鳥として知られる。兵庫県豊岡市で野生復帰。",
+  "image": "zk/photo/zk-bird-konotori.jpg",
+  "credit": "写真：spaceaero2／CC BY 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-toki",
+  "level": 3,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "トキ",
+  "reading": "とき",
+  "alts": [],
+  "explanation": "学名は「ニッポニア・ニッポン」。佐渡島で保護されている。",
+  "image": "zk/photo/zk-bird-toki.jpg",
+  "credit": "写真：Ron Knight (sussexbirder)／CC BY 2.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-hakucho",
+  "level": 1,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "ハクチョウ",
+  "reading": "はくちょう",
+  "alts": [
+   "おおはくちょう"
+  ],
+  "explanation": "冬にシベリアからわたってくる白い大きな鳥。",
+  "image": "zk/photo/zk-bird-hakucho.jpg",
+  "credit": "写真：Pascal Aleixandre／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-magamo",
+  "level": 2,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "マガモ",
+  "reading": "まがも",
+  "alts": [
+   "かも"
+  ],
+  "explanation": "オスは頭が緑色に光るカモ。",
+  "image": "zk/photo/zk-bird-magamo.jpg",
+  "credit": "写真：Calibas (edit by Aqwis)／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-oshidori",
+  "level": 3,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "オシドリ",
+  "reading": "おしどり",
+  "alts": [],
+  "explanation": "オスがはなやかな色のカモ。「おしどり夫婦」の由来。",
+  "image": "zk/photo/zk-bird-oshidori.jpg",
+  "credit": "写真：星外之神／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-yurikamome",
+  "level": 3,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "ユリカモメ",
+  "reading": "ゆりかもめ",
+  "alts": [
+   "かもめ"
+  ],
+  "explanation": "東京都の鳥。冬は頭が白く、夏は黒くなる。",
+  "image": "zk/photo/zk-bird-yurikamome.jpg",
+  "credit": "写真：Andreas Trepte／CC BY-SA 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-pelican",
+  "level": 2,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "ペリカン",
+  "reading": "ぺりかん",
+  "alts": [],
+  "explanation": "のどの大きな袋で魚をすくう。",
+  "image": "zk/photo/zk-bird-pelican.jpg",
+  "credit": "写真：Rui Ornelas from Lisboa, Portugal／CC BY 2.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-koteipengin",
+  "level": 1,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "コウテイペンギン",
+  "reading": "こうていぺんぎん",
+  "alts": [
+   "ぺんぎん"
+  ],
+  "explanation": "いちばん大きなペンギン。南極にすむ。",
+  "image": "zk/photo/zk-bird-koteipengin.jpg",
+  "credit": "写真：Ian Duffy from UK／CC BY 2.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-dacho",
+  "level": 1,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "ダチョウ",
+  "reading": "だちょう",
+  "alts": [],
+  "explanation": "世界最大の鳥。飛べないが速く走る。",
+  "image": "zk/photo/zk-bird-dacho.jpg",
+  "credit": "写真：Lip Kee from Singapore, Republic of Singapore／CC BY-SA 2.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-flamingo",
+  "level": 1,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "フラミンゴ",
+  "reading": "ふらみんご",
+  "alts": [],
+  "explanation": "ピンク色の体。片足で立って休む。",
+  "image": "zk/photo/zk-bird-flamingo.jpg",
+  "credit": "写真：J.M.Garg／CC BY 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-kujaku",
+  "level": 1,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "クジャク",
+  "reading": "くじゃく",
+  "alts": [
+   "いんどくじゃく"
+  ],
+  "explanation": "オスが大きな羽を扇のように広げる。",
+  "image": "zk/photo/zk-bird-kujaku.jpg",
+  "credit": "写真：Praveenp／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-kibatan",
+  "level": 3,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "キバタン",
+  "reading": "きばたん",
+  "alts": [
+   "おうむ"
+  ],
+  "explanation": "頭に黄色い冠羽のある白いオウム。",
+  "image": "zk/photo/zk-bird-kibatan.jpg",
+  "credit": "写真：JJ Harrison (https://www.jjharrison.com.au/)／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-sekisei",
+  "level": 1,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "セキセイインコ",
+  "reading": "せきせいいんこ",
+  "alts": [
+   "いんこ"
+  ],
+  "explanation": "ペットとして人気の小さなインコ。",
+  "image": "zk/photo/zk-bird-sekisei.jpg",
+  "credit": "写真：Benjamint444／GFDL 1.2（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-kiji",
+  "level": 2,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "キジ",
+  "reading": "きじ",
+  "alts": [],
+  "explanation": "日本の国鳥。オスは顔が赤い。",
+  "image": "zk/photo/zk-bird-kiji.jpg",
+  "credit": "写真：Alpsdake／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-raicho",
+  "level": 3,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "ライチョウ",
+  "reading": "らいちょう",
+  "alts": [],
+  "explanation": "高い山にすむ。冬は羽が白くなる。",
+  "image": "zk/photo/zk-bird-raicho.jpg",
+  "credit": "写真：Jan Frode Haugseth／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-niwatori",
+  "level": 1,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "ニワトリ",
+  "reading": "にわとり",
+  "alts": [],
+  "explanation": "卵や肉のために世界中で飼われている。",
+  "image": "zk/photo/zk-bird-niwatori.jpg",
+  "credit": "写真：Kruppert_Cubalaya.JPG: Kruppert／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-hachidori",
+  "level": 2,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "ハチドリ",
+  "reading": "はちどり",
+  "alts": [],
+  "explanation": "とても小さな鳥。空中で止まって花のみつを吸う。",
+  "image": "zk/photo/zk-bird-hachidori.jpg",
+  "credit": "写真：User:Mdf／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-ohashi",
+  "level": 3,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "オオハシ",
+  "reading": "おおはし",
+  "alts": [
+   "おにおおはし"
+  ],
+  "explanation": "とても大きなくちばしの南米の鳥。",
+  "image": "zk/photo/zk-bird-ohashi.jpg",
+  "credit": "写真：Giles Laurent／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-kiwi",
+  "level": 3,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "キーウィ",
+  "reading": "きーうぃ",
+  "alts": [
+   "きうい"
+  ],
+  "explanation": "ニュージーランドにすむ飛べない鳥。",
+  "image": "zk/photo/zk-bird-kiwi.jpg",
+  "credit": "写真：Maungatautari Ecological Island Trust／Public domain（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-hashibiro",
+  "level": 3,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "ハシビロコウ",
+  "reading": "はしびろこう",
+  "alts": [],
+  "explanation": "ほとんど動かないことで有名な大きな鳥。",
+  "image": "zk/photo/zk-bird-hashibiro.jpg",
+  "credit": "写真：https://www.flickr.com/photos/zeroexposure/／CC BY 2.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-yambaru",
+  "level": 3,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "ヤンバルクイナ",
+  "reading": "やんばるくいな",
+  "alts": [],
+  "explanation": "沖縄の北部だけにすむ飛べない鳥。",
+  "image": "zk/photo/zk-bird-yambaru.jpg",
+  "credit": "写真：Agostini Sylvain／CC0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-ahodori",
+  "level": 4,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "アホウドリ",
+  "reading": "あほうどり",
+  "alts": [],
+  "explanation": "つばさを広げると2メートルをこえる海鳥。",
+  "image": "zk/photo/zk-bird-ahodori.jpg",
+  "credit": "写真：Jlfutari at English Wikipedia／CC BY 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-emu",
+  "level": 3,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "エミュー",
+  "reading": "えみゅー",
+  "alts": [],
+  "explanation": "オーストラリアにすむ大きな飛べない鳥。",
+  "image": "zk/photo/zk-bird-emu.jpg",
+  "credit": "写真：JJ Harrison (https://www.jjharrison.com.au/)／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-mozu",
+  "level": 4,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "モズ",
+  "reading": "もず",
+  "alts": [],
+  "explanation": "とったえものを枝にさす「はやにえ」をする。",
+  "image": "zk/photo/zk-bird-mozu.jpg",
+  "credit": "写真：Alpsdake／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-bird-hakusekirei",
+  "level": 3,
+  "category": "",
+  "prompt": "この鳥の名前は？",
+  "answer": "ハクセキレイ",
+  "reading": "はくせきれい",
+  "alts": [
+   "せきれい"
+  ],
+  "explanation": "尾を上下にふりながら歩く白黒の鳥。",
+  "image": "zk/photo/zk-bird-hakusekirei.jpg",
+  "credit": "写真：CharlesLam／CC BY-SA 2.0（Wikimedia Commons）"
+ }
+]

@@ -1,0 +1,759 @@
+[
+ {
+  "review": "verified",
+  "id": "zk-fish-maguro",
+  "level": 1,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "マグロ",
+  "reading": "まぐろ",
+  "alts": [
+   "くろまぐろ",
+   "ほんまぐろ"
+  ],
+  "explanation": "すしネタの王様。泳ぎ続けないと息ができない。",
+  "image": "zk/photo/zk-fish-maguro.jpg",
+  "credit": "写真：aes256／CC BY 2.1 jp（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-katsuo",
+  "level": 1,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "カツオ",
+  "reading": "かつお",
+  "alts": [],
+  "explanation": "かつお節の原料。春にとれる「初ガツオ」が有名。",
+  "image": "zk/photo/zk-fish-katsuo.jpg",
+  "credit": "写真：Unknown authorUnknown author／Public domain（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-samma",
+  "level": 1,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "サンマ",
+  "reading": "さんま",
+  "alts": [],
+  "explanation": "漢字で「秋刀魚」。秋の味覚の代表。",
+  "image": "zk/photo/zk-fish-samma.jpg",
+  "credit": "写真：Miya／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-saba",
+  "level": 1,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "サバ",
+  "reading": "さば",
+  "alts": [
+   "まさば"
+  ],
+  "explanation": "背中にしま模様がある青魚。",
+  "image": "zk/photo/zk-fish-saba.jpg",
+  "credit": "写真：Unknown authorUnknown author／Public domain（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-iwashi",
+  "level": 1,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "イワシ",
+  "reading": "いわし",
+  "alts": [
+   "まいわし"
+  ],
+  "explanation": "大きな群れで泳ぐ。体の横に黒い点が並ぶ。",
+  "image": "zk/photo/zk-fish-iwashi.jpg",
+  "credit": "写真：Togabi（アップロードした人）／CC BY-SA 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-aji",
+  "level": 1,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "アジ",
+  "reading": "あじ",
+  "alts": [
+   "まあじ"
+  ],
+  "explanation": "体の横に「ぜいご」という硬いうろこが並ぶ。",
+  "image": "zk/photo/zk-fish-aji.jpg",
+  "credit": "写真：Izuzuki／CC BY 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-sake",
+  "level": 1,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "サケ",
+  "reading": "さけ",
+  "alts": [
+   "しゃけ",
+   "しろざけ"
+  ],
+  "explanation": "生まれた川に戻ってきて卵を産む。",
+  "image": "zk/photo/zk-fish-sake.jpg",
+  "credit": "写真：Focus Saranpat Ouilapan／CC0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-tai",
+  "level": 1,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "タイ",
+  "reading": "たい",
+  "alts": [
+   "まだい"
+  ],
+  "explanation": "「めでたい」に通じる、お祝いの魚。",
+  "image": "zk/photo/zk-fish-tai.jpg",
+  "credit": "写真：Miya／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-buri",
+  "level": 2,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ブリ",
+  "reading": "ぶり",
+  "alts": [],
+  "explanation": "大きくなるにつれて名前が変わる「出世魚」。",
+  "image": "zk/photo/zk-fish-buri.jpg",
+  "credit": "写真：E-190's／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-hirame",
+  "level": 2,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ヒラメ",
+  "reading": "ひらめ",
+  "alts": [],
+  "explanation": "目が体の左側にある。「左ヒラメに右カレイ」。",
+  "image": "zk/photo/zk-fish-hirame.jpg",
+  "credit": "写真：User:Vmenkov／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-karei",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "カレイ",
+  "reading": "かれい",
+  "alts": [
+   "まがれい"
+  ],
+  "explanation": "目が体の右側にあるものが多い。",
+  "image": "zk/photo/zk-fish-karei.jpg",
+  "credit": "写真：Hans Hillewaert／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-fugu",
+  "level": 1,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "フグ",
+  "reading": "ふぐ",
+  "alts": [
+   "とらふぐ"
+  ],
+  "explanation": "体をふくらませて身を守る。毒があるので調理には資格がいる。",
+  "image": "zk/photo/zk-fish-fugu.jpg",
+  "credit": "写真：Totti／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-unagi",
+  "level": 1,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ウナギ",
+  "reading": "うなぎ",
+  "alts": [
+   "にほんうなぎ"
+  ],
+  "explanation": "土用の丑の日に食べる。卵は遠い南の海で産む。",
+  "image": "zk/photo/zk-fish-unagi.jpg",
+  "credit": "写真：opencage／CC BY-SA 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-ayu",
+  "level": 2,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "アユ",
+  "reading": "あゆ",
+  "alts": [],
+  "explanation": "川にすむ。すいかのような香りから「香魚」とも呼ばれる。",
+  "image": "zk/photo/zk-fish-ayu.jpg",
+  "credit": "写真：OAS at Japanese Wikipedia／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-koi",
+  "level": 1,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "コイ",
+  "reading": "こい",
+  "alts": [],
+  "explanation": "こいのぼりのモデル。",
+  "image": "zk/photo/zk-fish-koi.jpg",
+  "credit": "写真：Dezidor／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-kingyo",
+  "level": 1,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "キンギョ",
+  "reading": "きんぎょ",
+  "alts": [],
+  "explanation": "フナの仲間を、見て楽しむために改良した魚。",
+  "image": "zk/photo/zk-fish-kingyo.jpg",
+  "credit": "写真：Meidosensei（アップロードした人）／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-medaka",
+  "level": 2,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "メダカ",
+  "reading": "めだか",
+  "alts": [],
+  "explanation": "小川や田んぼにすむ小さな魚。",
+  "image": "zk/photo/zk-fish-medaka.jpg",
+  "credit": "写真：NOZO／CC BY 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-namazu",
+  "level": 2,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ナマズ",
+  "reading": "なまず",
+  "alts": [],
+  "explanation": "口のまわりに長いひげがある。",
+  "image": "zk/photo/zk-fish-namazu.jpg",
+  "credit": "写真：rhosoi／CC BY 2.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-dojo",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ドジョウ",
+  "reading": "どじょう",
+  "alts": [],
+  "explanation": "田んぼや小川の泥の中にすむ。",
+  "image": "zk/photo/zk-fish-dojo.jpg",
+  "credit": "写真：Eugene van der Pijll（アップロードした人）／Public domain（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-manbo",
+  "level": 2,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "マンボウ",
+  "reading": "まんぼう",
+  "alts": [],
+  "explanation": "大きく平たい体で、尾びれがない不思議な形。",
+  "image": "zk/photo/zk-fish-manbo.jpg",
+  "credit": "写真：U.S. National Oceanic and Atmospheric Administration／Public domain（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-jinbe",
+  "level": 2,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ジンベエザメ",
+  "reading": "じんべえざめ",
+  "alts": [
+   "じんべざめ"
+  ],
+  "explanation": "世界最大の魚。小さなプランクトンを食べる、おとなしいサメ。",
+  "image": "zk/photo/zk-fish-jinbe.jpg",
+  "credit": "写真：User:Zac Wolf (original), en:User:Stefan (cropping)／CC BY-SA 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-shumoku",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "シュモクザメ",
+  "reading": "しゅもくざめ",
+  "alts": [
+   "はんまーへっどしゃーく"
+  ],
+  "explanation": "頭がハンマーのような形をしたサメ。",
+  "image": "zk/photo/zk-fish-shumoku.jpg",
+  "credit": "写真：suneko／CC BY 2.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-hohojiro",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ホホジロザメ",
+  "reading": "ほほじろざめ",
+  "alts": [],
+  "explanation": "映画『ジョーズ』のモデルになった大型のサメ。",
+  "image": "zk/photo/zk-fish-hohojiro.jpg",
+  "credit": "写真：Sharkdiver.com／Public domain（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-manta",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "マンタ",
+  "reading": "まんた",
+  "alts": [
+   "おにいとまきえい"
+  ],
+  "explanation": "大きなひれを広げて泳ぐ巨大なエイ。",
+  "image": "zk/photo/zk-fish-manta.jpg",
+  "credit": "写真：jon hanson from london, UK／CC BY-SA 2.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-tatsu",
+  "level": 1,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "タツノオトシゴ",
+  "reading": "たつのおとしご",
+  "alts": [],
+  "explanation": "オスのおなかの袋で卵を育てる。",
+  "image": "zk/photo/zk-fish-tatsu.jpg",
+  "credit": "写真：Hans Hillewaert／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-kakure",
+  "level": 1,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "カクレクマノミ",
+  "reading": "かくれくまのみ",
+  "alts": [
+   "くまのみ"
+  ],
+  "explanation": "イソギンチャクと一緒に暮らす。映画『ファインディング・ニモ』で有名。",
+  "image": "zk/photo/zk-fish-kakure.jpg",
+  "credit": "写真：Raimond Spekking／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-nanyohagi",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ナンヨウハギ",
+  "reading": "なんようはぎ",
+  "alts": [],
+  "explanation": "あざやかな青い体の熱帯魚。",
+  "image": "zk/photo/zk-fish-nanyohagi.jpg",
+  "credit": "写真：Tewy／CC BY 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-harisenbon",
+  "level": 2,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ハリセンボン",
+  "reading": "はりせんぼん",
+  "alts": [],
+  "explanation": "ふくらむと体中のとげが立つ。とげは千本もない。",
+  "image": "zk/photo/zk-fish-harisenbon.jpg",
+  "credit": "写真：jon hanson from london, UK／CC BY-SA 2.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-anko",
+  "level": 2,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "アンコウ",
+  "reading": "あんこう",
+  "alts": [
+   "きあんこう"
+  ],
+  "explanation": "頭の上の突起を動かして、えものをおびき寄せる。",
+  "image": "zk/photo/zk-fish-anko.jpg",
+  "credit": "写真：Kelson（アップロードした人）／Public domain（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-kawahagi",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "カワハギ",
+  "reading": "かわはぎ",
+  "alts": [],
+  "explanation": "料理のとき、かたい皮をはいでから使うことから名がついた。",
+  "image": "zk/photo/zk-fish-kawahagi.jpg",
+  "credit": "写真：Daiju Azuma／CC BY-SA 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-kinmedai",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "キンメダイ",
+  "reading": "きんめだい",
+  "alts": [],
+  "explanation": "金色に光る大きな目と赤い体。",
+  "image": "zk/photo/zk-fish-kinmedai.jpg",
+  "credit": "写真：Totti／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-tachiuo",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "タチウオ",
+  "reading": "たちうお",
+  "alts": [],
+  "explanation": "銀色で細長く、刀のような姿。立った姿勢で泳ぐこともある。",
+  "image": "zk/photo/zk-fish-tachiuo.jpg",
+  "credit": "写真：Apple2000（アップロードした人）／CC BY-SA 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-suzuki",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "スズキ",
+  "reading": "すずき",
+  "alts": [],
+  "explanation": "大きくなると名前が変わる出世魚（セイゴ→フッコ→スズキ）。",
+  "image": "zk/photo/zk-fish-suzuki.jpg",
+  "credit": "写真：Kinori／CC0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-hokke",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ホッケ",
+  "reading": "ほっけ",
+  "alts": [],
+  "explanation": "開いて干した「ホッケの開き」でおなじみ。",
+  "image": "zk/photo/zk-fish-hokke.jpg",
+  "credit": "写真：Haplochromis／CC BY-SA 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-tara",
+  "level": 2,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "タラ",
+  "reading": "たら",
+  "alts": [
+   "まだら"
+  ],
+  "explanation": "漢字で「鱈」。冬が旬の魚。",
+  "image": "zk/photo/zk-fish-tara.jpg",
+  "credit": "写真：Unknown authorUnknown author／Public domain（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-nishin",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ニシン",
+  "reading": "にしん",
+  "alts": [],
+  "explanation": "卵は正月料理の「数の子」。",
+  "image": "zk/photo/zk-fish-nishin.jpg",
+  "credit": "写真：User Kils on de.wikipedia／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-shishamo",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "シシャモ",
+  "reading": "ししゃも",
+  "alts": [],
+  "explanation": "本物のシシャモは北海道の太平洋側だけにすむ。",
+  "image": "zk/photo/zk-fish-shishamo.jpg",
+  "credit": "写真：Totti／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-wakasagi",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ワカサギ",
+  "reading": "わかさぎ",
+  "alts": [],
+  "explanation": "冬、凍った湖に穴を開けて釣る。",
+  "image": "zk/photo/zk-fish-wakasagi.jpg",
+  "credit": "写真：René Reyes／Public domain（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-nijimasu",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ニジマス",
+  "reading": "にじます",
+  "alts": [],
+  "explanation": "体の横に虹色の帯がある。",
+  "image": "zk/photo/zk-fish-nijimasu.jpg",
+  "credit": "写真：Jonathunder／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-iwana",
+  "level": 4,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "イワナ",
+  "reading": "いわな",
+  "alts": [],
+  "explanation": "山奥の冷たい川にすむ。",
+  "image": "zk/photo/zk-fish-iwana.jpg",
+  "credit": "写真：Esquilo／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-piranha",
+  "level": 2,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ピラニア",
+  "reading": "ぴらにあ",
+  "alts": [],
+  "explanation": "南アメリカの川にすむ。するどい歯をもつ。",
+  "image": "zk/photo/zk-fish-piranha.jpg",
+  "credit": "写真：Gregory Moine from Niantic, USA／CC BY 2.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-piraruku",
+  "level": 4,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ピラルク",
+  "reading": "ぴらるく",
+  "alts": [
+   "あらぱいま"
+  ],
+  "explanation": "アマゾン川にすむ、世界最大級の淡水魚。",
+  "image": "zk/photo/zk-fish-piraruku.jpg",
+  "credit": "写真：Citron／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-beta",
+  "level": 4,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ベタ",
+  "reading": "べた",
+  "alts": [],
+  "explanation": "長いひれが美しい観賞魚。オスどうしはけんかをする。",
+  "image": "zk/photo/zk-fish-beta.jpg",
+  "credit": "写真：Henryk Niestrój／CC BY 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-guppy",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "グッピー",
+  "reading": "ぐっぴー",
+  "alts": [],
+  "explanation": "カラフルな尾びれの小さな熱帯魚。",
+  "image": "zk/photo/zk-fish-guppy.jpg",
+  "credit": "写真：Marrabbio2／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-neon",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ネオンテトラ",
+  "reading": "ねおんてとら",
+  "alts": [],
+  "explanation": "青く光る線がある小さな熱帯魚。",
+  "image": "zk/photo/zk-fish-neon.jpg",
+  "credit": "写真：Corpse89／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-utsubo",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ウツボ",
+  "reading": "うつぼ",
+  "alts": [],
+  "explanation": "岩のすき間にかくれている。するどい歯をもつ。",
+  "image": "zk/photo/zk-fish-utsubo.jpg",
+  "credit": "写真：User:rydia／CC BY-SA 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-tobiuo",
+  "level": 2,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "トビウオ",
+  "reading": "とびうお",
+  "alts": [
+   "あご"
+  ],
+  "explanation": "大きな胸びれを広げて、海の上を飛ぶ。",
+  "image": "zk/photo/zk-fish-tobiuo.jpg",
+  "credit": "写真：Patrick Coin (Patrick Coin)／CC BY-SA 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-ryugu",
+  "level": 4,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "リュウグウノツカイ",
+  "reading": "りゅうぐうのつかい",
+  "alts": [],
+  "explanation": "深海にすむ、長さ数メートルにもなる細長い魚。",
+  "image": "zk/photo/zk-fish-ryugu.jpg",
+  "credit": "写真：Sandstein／CC BY 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-coelacanth",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "シーラカンス",
+  "reading": "しーらかんす",
+  "alts": [],
+  "explanation": "大昔から姿がほとんど変わらない「生きた化石」。",
+  "image": "zk/photo/zk-fish-coelacanth.jpg",
+  "credit": "写真：Alberto Fernandez Fernandez／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-chinanago",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "チンアナゴ",
+  "reading": "ちんあなご",
+  "alts": [],
+  "explanation": "砂から体を出して、ゆらゆらとえさを待つ。",
+  "image": "zk/photo/zk-fish-chinanago.jpg",
+  "credit": "写真：Esquilo／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-okoze",
+  "level": 4,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "オコゼ",
+  "reading": "おこぜ",
+  "alts": [
+   "おにおこぜ"
+  ],
+  "explanation": "背びれのとげに強い毒がある。",
+  "image": "zk/photo/zk-fish-okoze.jpg",
+  "credit": "写真：H. Patterson／Public domain（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-hatahata",
+  "level": 4,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ハタハタ",
+  "reading": "はたはた",
+  "alts": [],
+  "explanation": "秋田県の「県の魚」。",
+  "image": "zk/photo/zk-fish-hatahata.jpg",
+  "credit": "写真：Totti／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-minokasago",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ミノカサゴ",
+  "reading": "みのかさご",
+  "alts": [],
+  "explanation": "ひらひらした大きなひれ。とげに毒がある。",
+  "image": "zk/photo/zk-fish-minokasago.jpg",
+  "credit": "写真：Lepidlizard／Public domain（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-napoleon",
+  "level": 4,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ナポレオンフィッシュ",
+  "reading": "なぽれおんふぃっしゅ",
+  "alts": [
+   "めがねもちのうお"
+  ],
+  "explanation": "おでこが大きくふくらんだ大型の魚。",
+  "image": "zk/photo/zk-fish-napoleon.jpg",
+  "credit": "写真：R Vasconcellos／CC BY 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "zk-fish-blackbass",
+  "level": 3,
+  "category": "",
+  "prompt": "この魚の名前は？",
+  "answer": "ブラックバス",
+  "reading": "ぶらっくばす",
+  "alts": [
+   "おおくちばす"
+  ],
+  "explanation": "北アメリカから持ちこまれた外来魚。",
+  "image": "zk/photo/zk-fish-blackbass.jpg",
+  "credit": "写真：Totti／CC BY-SA 4.0（Wikimedia Commons）"
+ }
+]

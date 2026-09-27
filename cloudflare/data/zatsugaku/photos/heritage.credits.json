@@ -1,0 +1,452 @@
+{
+ "fuji": {
+  "file": "zk/photo/heritage-fuji.jpg",
+  "kind": "commons",
+  "title": "Kodaki fuji frm shojinko refurb.jpg",
+  "author": "名古屋太郎, (edited by Hannes_24)",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Kodaki_fuji_frm_shojinko_refurb.jpg",
+  "map": true
+ },
+ "himeji": {
+  "file": "zk/photo/heritage-himeji.jpg",
+  "kind": "commons",
+  "title": "Himeji Castle, Hyōgo Prefecture; August 2018 (04).jpg",
+  "author": "_steffen",
+  "license": "CC BY-SA 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Himeji_Castle,_Hy%C5%8Dgo_Prefecture;_August_2018_(04).jpg",
+  "map": true
+ },
+ "horyuji": {
+  "file": "zk/photo/heritage-horyuji.jpg",
+  "kind": "commons",
+  "title": "Horyu-ji45s2s4500.jpg",
+  "author": "663highland",
+  "license": "CC BY 2.5",
+  "url": "https://commons.wikimedia.org/wiki/File:Horyu-ji45s2s4500.jpg",
+  "map": true
+ },
+ "itsukushima": {
+  "file": "zk/photo/heritage-itsukushima.jpg",
+  "kind": "commons",
+  "title": "Itsukushima Gate.jpg",
+  "author": "JordyMeow",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Itsukushima_Gate.jpg",
+  "map": true
+ },
+ "genbaku": {
+  "file": "zk/photo/heritage-genbaku.jpg",
+  "kind": "commons",
+  "title": "Genbaku Dome04-r.JPG",
+  "author": "Oilstreet",
+  "license": "CC BY 2.5",
+  "url": "https://commons.wikimedia.org/wiki/File:Genbaku_Dome04-r.JPG",
+  "map": true
+ },
+ "nikko": {
+  "file": "zk/photo/heritage-nikko.jpg",
+  "kind": "commons",
+  "title": "Nikko toshogu shrine.jpg",
+  "author": "Koichi Sato",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Nikko_toshogu_shrine.jpg",
+  "map": true
+ },
+ "shirakawago": {
+  "file": "zk/photo/heritage-shirakawago.jpg",
+  "kind": "commons",
+  "title": "Ogi Shirakawa01n3200.jpg",
+  "author": "663highland",
+  "license": "CC BY 2.5",
+  "url": "https://commons.wikimedia.org/wiki/File:Ogi_Shirakawa01n3200.jpg",
+  "map": true
+ },
+ "yakushima": {
+  "file": "zk/photo/heritage-yakushima.jpg",
+  "kind": "commons",
+  "title": "Jomon Sugi Panorama.jpg",
+  "author": "Chris 73（アップロードした人）",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Jomon_Sugi_Panorama.jpg",
+  "map": true
+ },
+ "todaiji": {
+  "file": "zk/photo/heritage-todaiji.jpg",
+  "kind": "commons",
+  "title": "Daibutsu-den in Todaiji Nara02bs3200.jpg",
+  "author": "663highland",
+  "license": "CC BY 2.5",
+  "url": "https://commons.wikimedia.org/wiki/File:Daibutsu-den_in_Todaiji_Nara02bs3200.jpg",
+  "map": true
+ },
+ "kiyomizu": {
+  "file": "zk/photo/heritage-kiyomizu.jpg",
+  "kind": "commons",
+  "title": "Kiyomizu-dera, Kyoto, November 2016 -02.jpg",
+  "author": "Martin Falbisoner",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Kiyomizu-dera,_Kyoto,_November_2016_-02.jpg",
+  "map": true
+ },
+ "tomioka": {
+  "file": "zk/photo/heritage-tomioka.jpg",
+  "kind": "commons",
+  "title": "Tomioka Silk Mill East Cocoon Warehouse05.jpg",
+  "author": "Hasec",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Tomioka_Silk_Mill_East_Cocoon_Warehouse05.jpg",
+  "map": true
+ },
+ "machupicchu": {
+  "file": "zk/photo/heritage-machupicchu.jpg",
+  "kind": "commons",
+  "title": "80 - Machu Picchu - Juin 2009 - edit.jpg",
+  "author": "Martin St-Amant (S23678)",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:80_-_Machu_Picchu_-_Juin_2009_-_edit.jpg",
+  "map": true
+ },
+ "choujo": {
+  "file": "zk/photo/heritage-choujo.jpg",
+  "kind": "commons",
+  "title": "Badaling China Great-Wall-of-China-06.jpg",
+  "author": "CEphoto, Uwe Aranas",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Badaling_China_Great-Wall-of-China-06.jpg",
+  "map": true
+ },
+ "giza": {
+  "file": "zk/photo/heritage-giza.jpg",
+  "kind": "commons",
+  "title": "Kheops-Pyramid.jpg",
+  "author": "Nina",
+  "license": "CC BY 2.5",
+  "url": "https://commons.wikimedia.org/wiki/File:Kheops-Pyramid.jpg",
+  "map": true
+ },
+ "tajmahal": {
+  "file": "zk/photo/heritage-tajmahal.jpg",
+  "kind": "commons",
+  "title": "Taj Mahal (Edited).jpeg",
+  "author": "Yann; edited by Jim Carter",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_(Edited).jpeg",
+  "map": true
+ },
+ "angkor": {
+  "file": "zk/photo/heritage-angkor.jpg",
+  "kind": "commons",
+  "title": "Angkor Wat.jpg",
+  "author": "Bjørn Christian Tørrissen",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Angkor_Wat.jpg",
+  "map": true
+ },
+ "petra": {
+  "file": "zk/photo/heritage-petra.jpg",
+  "kind": "commons",
+  "title": "The Treasury, Petra, Jordan5.jpg",
+  "author": "Diego Delso",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:The_Treasury,_Petra,_Jordan5.jpg",
+  "map": true
+ },
+ "colosseo": {
+  "file": "zk/photo/heritage-colosseo.jpg",
+  "kind": "commons",
+  "title": "Colosseo 2020.jpg",
+  "author": "FeaturedPics",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg",
+  "map": true
+ },
+ "pisa": {
+  "file": "zk/photo/heritage-pisa.jpg",
+  "kind": "commons",
+  "title": "Campanile Dôme - Pise (IT52) - 2022-08-31 - 20.jpg",
+  "author": "Chabe01",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Campanile_D%C3%B4me_-_Pise_(IT52)_-_2022-08-31_-_20.jpg",
+  "map": true
+ },
+ "venezia": {
+  "file": "zk/photo/heritage-venezia.jpg",
+  "kind": "commons",
+  "title": "Gondola on the Grand Canal, Venice, Italy.jpg",
+  "author": "Peter K Burian",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Gondola_on_the_Grand_Canal,_Venice,_Italy.jpg",
+  "map": true
+ },
+ "versailles": {
+  "file": "zk/photo/heritage-versailles.jpg",
+  "kind": "commons",
+  "title": "Vue aérienne du domaine de Versailles par ToucanWings - Creative Commons By Sa 3.0 - 083.jpg",
+  "author": "ToucanWings",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Vue_a%C3%A9rienne_du_domaine_de_Versailles_par_ToucanWings_-_Creative_Commons_By_Sa_3.0_-_083.jpg",
+  "map": true
+ },
+ "montsaintmichel": {
+  "file": "zk/photo/heritage-montsaintmichel.jpg",
+  "kind": "commons",
+  "title": "Mont St Michel in the afternoon.jpg",
+  "author": "Lynx1211",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Mont_St_Michel_in_the_afternoon.jpg",
+  "map": true
+ },
+ "liberty": {
+  "file": "zk/photo/heritage-liberty.jpg",
+  "kind": "commons",
+  "title": "Statue of Liberty and a sightseeing boat, Liberty Island, New York.jpg",
+  "author": "Christian David",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Statue_of_Liberty_and_a_sightseeing_boat,_Liberty_Island,_New_York.jpg",
+  "map": true
+ },
+ "grandcanyon": {
+  "file": "zk/photo/heritage-grandcanyon.jpg",
+  "kind": "commons",
+  "title": "Grand Canyon view from Pima Point 2010.jpg",
+  "author": "Chensiyuan",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_view_from_Pima_Point_2010.jpg",
+  "map": true
+ },
+ "yellowstone": {
+  "file": "zk/photo/heritage-yellowstone.jpg",
+  "kind": "commons",
+  "title": "Grand Prismatic Spring 2013.jpg",
+  "author": "James St. John from Newark, Ohio",
+  "license": "CC BY 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Grand_Prismatic_Spring_2013.jpg",
+  "map": true
+ },
+ "sagrada": {
+  "file": "zk/photo/heritage-sagrada.jpg",
+  "kind": "commons",
+  "title": "SF maig 2026.jpg",
+  "author": "Canaan",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:SF_maig_2026.jpg",
+  "map": true
+ },
+ "alhambra": {
+  "file": "zk/photo/heritage-alhambra.jpg",
+  "kind": "commons",
+  "title": "Alhambra detail.jpg",
+  "author": "Jebulon",
+  "license": "CC0",
+  "url": "https://commons.wikimedia.org/wiki/File:Alhambra_detail.jpg",
+  "map": true
+ },
+ "parthenon": {
+  "file": "zk/photo/heritage-parthenon.jpg",
+  "kind": "commons",
+  "title": "The Parthenon in Athens.jpg",
+  "author": "Steve Swayne",
+  "license": "CC BY 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:The_Parthenon_in_Athens.jpg",
+  "map": true
+ },
+ "stonehenge": {
+  "file": "zk/photo/heritage-stonehenge.jpg",
+  "kind": "commons",
+  "title": "Stonehenge Total.jpg",
+  "author": "Stefan Kühn",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Stonehenge_Total.jpg",
+  "map": true
+ },
+ "koln": {
+  "file": "zk/photo/heritage-koln.jpg",
+  "kind": "commons",
+  "title": "Kölner Dom von Osten.jpg",
+  "author": "Thomas Wolf, www.foto-tw.de",
+  "license": "CC BY-SA 3.0 de",
+  "url": "https://commons.wikimedia.org/wiki/File:K%C3%B6lner_Dom_von_Osten.jpg",
+  "map": true
+ },
+ "basil": {
+  "file": "zk/photo/heritage-basil.jpg",
+  "kind": "commons",
+  "title": "00 0568 Saint Basil's Cathedral - Moscow.jpg",
+  "author": "W. Bulach",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:00_0568_Saint_Basil%27s_Cathedral_-_Moscow.jpg",
+  "map": true
+ },
+ "heibayo": {
+  "file": "zk/photo/heritage-heibayo.jpg",
+  "kind": "commons",
+  "title": "Terracotta Army, View of Pit 1.jpg",
+  "author": "Jmhullot",
+  "license": "CC BY 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Terracotta_Army,_View_of_Pit_1.jpg",
+  "map": true
+ },
+ "borobudur": {
+  "file": "zk/photo/heritage-borobudur.jpg",
+  "kind": "commons",
+  "title": "Borobudur-Nothwest-view.jpg",
+  "author": "Gunawan Kartapranata",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Borobudur-Nothwest-view.jpg",
+  "map": true
+ },
+ "halong": {
+  "file": "zk/photo/heritage-halong.jpg",
+  "kind": "commons",
+  "title": "Halong Bay in Vietnam.jpg",
+  "author": "Thomas Hirsch / User:Ravn",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Halong_Bay_in_Vietnam.jpg",
+  "map": true
+ },
+ "moai": {
+  "file": "zk/photo/heritage-moai.jpg",
+  "kind": "commons",
+  "title": "Ahu Tongariki.jpg",
+  "author": "Rivi",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Ahu_Tongariki.jpg",
+  "map": true
+ },
+ "nazca": {
+  "file": "zk/photo/heritage-nazca.jpg",
+  "kind": "commons",
+  "title": "Líneas de Nazca, Nazca, Perú, 2015-07-29, DD 52.JPG",
+  "author": "Diego Delso",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:L%C3%ADneas_de_Nazca,_Nazca,_Per%C3%BA,_2015-07-29,_DD_52.JPG",
+  "map": true
+ },
+ "iguazu": {
+  "file": "zk/photo/heritage-iguazu.jpg",
+  "kind": "commons",
+  "title": "Aerial Foz de Iguaçu 26 Nov 2005.jpg",
+  "author": "Mariordo (Mario Roberto Durán Ortiz)",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Aerial_Foz_de_Igua%C3%A7u_26_Nov_2005.jpg",
+  "map": true
+ },
+ "galapagos": {
+  "file": "zk/photo/heritage-galapagos.jpg",
+  "kind": "commons",
+  "title": "Galápagos Islands ESA23188644.jpeg",
+  "author": "European Space Agency",
+  "license": "Attribution",
+  "url": "https://commons.wikimedia.org/wiki/File:Gal%C3%A1pagos_Islands_ESA23188644.jpeg",
+  "map": true
+ },
+ "greatbarrier": {
+  "file": "zk/photo/heritage-greatbarrier.jpg",
+  "kind": "commons",
+  "title": "GreatBarrierReef-EO.JPG",
+  "author": "NASA, by MISR",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:GreatBarrierReef-EO.JPG",
+  "map": true
+ },
+ "uluru": {
+  "file": "zk/photo/heritage-uluru.jpg",
+  "kind": "commons",
+  "title": "Sunset at Uluru on July 30, 2005.jpg",
+  "author": "Thomas Schoch",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Sunset_at_Uluru_on_July_30,_2005.jpg",
+  "map": true
+ },
+ "sydneyopera": {
+  "file": "zk/photo/heritage-sydneyopera.jpg",
+  "kind": "commons",
+  "title": "00 1375 Sydney Opera House (Australia).jpg",
+  "author": "W. Bulach",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:00_1375_Sydney_Opera_House_(Australia).jpg",
+  "map": true
+ },
+ "victoria": {
+  "file": "zk/photo/heritage-victoria.jpg",
+  "kind": "commons",
+  "title": "Cataratas Victoria, Zambia-Zimbabue, 2018-07-27, DD 05.jpg",
+  "author": "Diego Delso",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_05.jpg",
+  "map": true
+ },
+ "abusimbel": {
+  "file": "zk/photo/heritage-abusimbel.jpg",
+  "kind": "commons",
+  "title": "Großer Tempel (Abu Simbel) 31.jpg",
+  "author": "Olaf Tausch",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Gro%C3%9Fer_Tempel_(Abu_Simbel)_31.jpg",
+  "map": true
+ },
+ "kilimanjaro": {
+  "file": "zk/photo/heritage-kilimanjaro.jpg",
+  "kind": "commons",
+  "title": "Mount Kilimanjaro Dec 2009 edit1.jpg",
+  "author": "Muhammad Mahdi Karim",
+  "license": "GFDL 1.2",
+  "url": "https://commons.wikimedia.org/wiki/File:Mount_Kilimanjaro_Dec_2009_edit1.jpg",
+  "map": true
+ },
+ "dubrovnik": {
+  "file": "zk/photo/heritage-dubrovnik.jpg",
+  "kind": "commons",
+  "title": "The walls of the fortress and View of the old city. panorama.jpg",
+  "author": "Zysko serhii",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:The_walls_of_the_fortress_and_View_of_the_old_city._panorama.jpg",
+  "map": true
+ },
+ "cappadocia": {
+  "file": "zk/photo/heritage-cappadocia.jpg",
+  "kind": "commons",
+  "title": "View of Cappadocia edit.jpg",
+  "author": "Brocken Inaglory Edit by CillanXC",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:View_of_Cappadocia_edit.jpg",
+  "map": true
+ },
+ "chichen": {
+  "file": "zk/photo/heritage-chichen.jpg",
+  "kind": "commons",
+  "title": "Chichen Itza 3.jpg",
+  "author": "Daniel Schwen",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Chichen_Itza_3.jpg",
+  "map": true
+ },
+ "aya": {
+  "file": "zk/photo/heritage-aya.jpg",
+  "kind": "commons",
+  "title": "Hagia Sophia Mars 2013.jpg",
+  "author": "Arild Vågen",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Mars_2013.jpg",
+  "map": true
+ },
+ "kokyu": {
+  "file": "zk/photo/heritage-kokyu.jpg",
+  "kind": "commons",
+  "title": "Hall of Supreme Harmony (20241127120000).jpg",
+  "author": "N509FZ",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony_(20241127120000).jpg",
+  "map": true
+ },
+ "shiretoko": {
+  "file": "zk/photo/heritage-shiretoko.jpg",
+  "kind": "commons",
+  "title": "Shiretoko Peninsula Hokkaido Japan SRTM.jpg",
+  "author": "っ",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Shiretoko_Peninsula_Hokkaido_Japan_SRTM.jpg",
+  "map": true
+ }
+}

@@ -40,17 +40,17 @@ export const OWN_SETS = [
   { id: 'capital',              label: '国名 → 首都' },
   { id: 'map-japan-pref',       label: '日本地図 → 都道府県' },
   { id: 'element',              label: '元素記号 → 名前' },
+  { id: 'zk-fish',              label: '魚の写真 → 名前' },
+  { id: 'zk-flower',            label: '花の写真 → 名前' },
+  { id: 'zk-insect',            label: '昆虫の写真 → 名前' },
+  { id: 'zk-bird',              label: '鳥の写真 → 名前' },
+  { id: 'heritage',             label: '世界遺産' },
 ];
 
 // まだ問題が入っていない、これから作る問題集（分類ページに「準備中」で並べる）
 export const UPCOMING = [
   { id: 'map-world-nature',  label: '世界の山・川・湖・海' },
-  { id: 'heritage',          label: '世界遺産' },
   { id: 'constellation',     label: '星座' },
-  { id: 'zk-fish',           label: '魚の写真 → 名前' },
-  { id: 'zk-flower',         label: '花の写真 → 名前' },
-  { id: 'zk-insect',         label: '昆虫の写真 → 名前' },
-  { id: 'zk-bird',           label: '鳥の写真 → 名前' },
   { id: 'castle',            label: '日本の城' },
 ];
 

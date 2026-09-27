@@ -1,0 +1,394 @@
+{
+ "sakura": {
+  "file": "zk/photo/zk-flower-sakura.jpg",
+  "kind": "commons",
+  "title": "2020-04-07 Prunus × yedoensis Tambasasayama,Hyogo(丹波篠山市篠山川のソメイヨシノ)DSCF2986☆彡.jpg",
+  "author": "松岡明芳",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:2020-04-07_Prunus_%C3%97_yedoensis_Tambasasayama,Hyogo(%E4%B8%B9%E6%B3%A2%E7%AF%A0%E5%B1%B1%E5%B8%82%E7%AF%A0%E5%B1%B1%E5%B7%9D%E3%81%AE%E3%82%BD%E3%83%A1%E3%82%A4%E3%83%A8%E3%82%B7%E3%83%8E)DSCF2986%E2%98%86%E5%BD%A1.jpg"
+ },
+ "ume": {
+  "file": "zk/photo/zk-flower-ume.jpg",
+  "kind": "commons",
+  "title": "Prunus mume.JPG",
+  "author": "Kakidai",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Prunus_mume.JPG"
+ },
+ "tsubaki": {
+  "file": "zk/photo/zk-flower-tsubaki.jpg",
+  "kind": "commons",
+  "title": "Camellia japonica NBG.jpg",
+  "author": "PumpkinSky",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Camellia_japonica_NBG.jpg"
+ },
+ "tampopo": {
+  "file": "zk/photo/zk-flower-tampopo.jpg",
+  "kind": "commons",
+  "title": "DandelionFlower.jpg",
+  "author": "Greg Hume",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:DandelionFlower.jpg"
+ },
+ "tulip": {
+  "file": "zk/photo/zk-flower-tulip.jpg",
+  "kind": "commons",
+  "title": "Tulipa suaveolens floriade to Canberra.jpg",
+  "author": "John O'Neill",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Tulipa_suaveolens_floriade_to_Canberra.jpg"
+ },
+ "himawari": {
+  "file": "zk/photo/zk-flower-himawari.jpg",
+  "kind": "commons",
+  "title": "Helianthus annuus exposed 2004-05-22.jpg",
+  "author": "Jon Sullivan",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Helianthus_annuus_exposed_2004-05-22.jpg"
+ },
+ "asagao": {
+  "file": "zk/photo/zk-flower-asagao.jpg",
+  "kind": "commons",
+  "title": "Ipomoea nil Akatsukinoumi1.jpg",
+  "author": "KENPEI",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Ipomoea_nil_Akatsukinoumi1.jpg"
+ },
+ "bara": {
+  "file": "zk/photo/zk-flower-bara.jpg",
+  "kind": "commons",
+  "title": "Mrs. Herbert Stevens May 2008.jpg",
+  "author": "Laitche",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Mrs._Herbert_Stevens_May_2008.jpg"
+ },
+ "yuri": {
+  "file": "zk/photo/zk-flower-yuri.jpg",
+  "kind": "commons",
+  "title": "LiliumBulbiferumCroceumBologna.jpg",
+  "author": "Denis Barthel",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:LiliumBulbiferumCroceumBologna.jpg"
+ },
+ "kiku": {
+  "file": "zk/photo/zk-flower-kiku.jpg",
+  "kind": "commons",
+  "title": "Chrysanthemum morifolium 08NOV.jpg",
+  "author": "池田正樹 (talk)masaki ikeda",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Chrysanthemum_morifolium_08NOV.jpg"
+ },
+ "cosmos": {
+  "file": "zk/photo/zk-flower-cosmos.jpg",
+  "kind": "commons",
+  "title": "Cosmos na Mostra de Flor de Hong Kong.JPG",
+  "author": "AG0ST1NH0 (talk)",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Cosmos_na_Mostra_de_Flor_de_Hong_Kong.JPG"
+ },
+ "ajisai": {
+  "file": "zk/photo/zk-flower-ajisai.jpg",
+  "kind": "commons",
+  "title": "(Natural) Hydrangea macrophylla, Iwafune, Isumi, Chiba, Japan 2.jpg",
+  "author": "belvedere04",
+  "license": "CC BY 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:(Natural)_Hydrangea_macrophylla,_Iwafune,_Isumi,_Chiba,_Japan_2.jpg"
+ },
+ "suisen": {
+  "file": "zk/photo/zk-flower-suisen.jpg",
+  "kind": "commons",
+  "title": "Narcissus-tazetta-0006a.jpg",
+  "author": "Zachi Evenor",
+  "license": "CC BY 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Narcissus-tazetta-0006a.jpg"
+ },
+ "pansy": {
+  "file": "zk/photo/zk-flower-pansy.jpg",
+  "kind": "commons",
+  "title": "Pansy Viola x wittrockiana Red Cultivar Flower 2000px.jpg",
+  "author": "Photo by and (c)2008 Derek Ramsey (Ram-Man)",
+  "license": "GFDL 1.2",
+  "url": "https://commons.wikimedia.org/wiki/File:Pansy_Viola_x_wittrockiana_Red_Cultivar_Flower_2000px.jpg"
+ },
+ "carnation": {
+  "file": "zk/photo/zk-flower-carnation.jpg",
+  "kind": "commons",
+  "title": "Gartennelke 1.jpg",
+  "author": "Darkone (talk · contribs)",
+  "license": "CC BY-SA 1.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Gartennelke_1.jpg"
+ },
+ "lavender": {
+  "file": "zk/photo/zk-flower-lavender.jpg",
+  "kind": "commons",
+  "title": "Single lavender flower02.jpg",
+  "author": "User:Fir0002",
+  "license": "GFDL 1.2",
+  "url": "https://commons.wikimedia.org/wiki/File:Single_lavender_flower02.jpg"
+ },
+ "suzuran": {
+  "file": "zk/photo/zk-flower-suzuran.jpg",
+  "kind": "commons",
+  "title": "Convallaria majalis inflorescence - Keila.jpg",
+  "author": "Ivar Leidus",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Convallaria_majalis_inflorescence_-_Keila.jpg"
+ },
+ "hasu": {
+  "file": "zk/photo/zk-flower-hasu.jpg",
+  "kind": "commons",
+  "title": "Sacred lotus Nelumbo nucifera.jpg",
+  "author": "T.Voekler",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Sacred_lotus_Nelumbo_nucifera.jpg"
+ },
+ "suiren": {
+  "file": "zk/photo/zk-flower-suiren.jpg",
+  "kind": "commons",
+  "title": "Peach Glow water-lily at Brooklyn Botanic Garden.jpg",
+  "author": "Ragesoss",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Peach_Glow_water-lily_at_Brooklyn_Botanic_Garden.jpg"
+ },
+ "tsutsuji": {
+  "file": "zk/photo/zk-flower-tsutsuji.jpg",
+  "kind": "commons",
+  "title": "Rhododendron-by-eiffel-public-domain-20040617.jpg",
+  "author": "Eiffel",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Rhododendron-by-eiffel-public-domain-20040617.jpg"
+ },
+ "fuji": {
+  "file": "zk/photo/zk-flower-fuji.jpg",
+  "kind": "commons",
+  "title": "Wisteria_floribunda5.jpg",
+  "author": "Raul654",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Wisteria_floribunda5.jpg"
+ },
+ "hanashobu": {
+  "file": "zk/photo/zk-flower-hanashobu.jpg",
+  "kind": "commons",
+  "title": "Iris ensata cv kumoinogan.jpg",
+  "author": "KENPEI",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Iris_ensata_cv_kumoinogan.jpg"
+ },
+ "nanohana": {
+  "file": "zk/photo/zk-flower-nanohana.jpg",
+  "kind": "commons",
+  "title": "菜の花畑 - panoramio (1).jpg",
+  "author": "pakku",
+  "license": "CC BY 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:%E8%8F%9C%E3%81%AE%E8%8A%B1%E7%95%91_-_panoramio_(1).jpg"
+ },
+ "renge": {
+  "file": "zk/photo/zk-flower-renge.jpg",
+  "kind": "commons",
+  "title": "Astragalus sinicus ja Renge01.jpg",
+  "author": "Miya",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Astragalus_sinicus_ja_Renge01.jpg"
+ },
+ "shirotsume": {
+  "file": "zk/photo/zk-flower-shirotsume.jpg",
+  "kind": "commons",
+  "title": "Trifolium repens inflorescence - Niitvälja.jpg",
+  "author": "Ivar Leidus",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Trifolium_repens_inflorescence_-_Niitv%C3%A4lja.jpg"
+ },
+ "higanbana": {
+  "file": "zk/photo/zk-flower-higanbana.jpg",
+  "kind": "commons",
+  "title": "Red Spider Lily----Lycoris radiata.jpg",
+  "author": "Jim Evans",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Red_Spider_Lily----Lycoris_radiata.jpg"
+ },
+ "kikyo": {
+  "file": "zk/photo/zk-flower-kikyo.jpg",
+  "kind": "commons",
+  "title": "Platycodon grandiflorum2.jpg",
+  "author": "Atilin（アップロードした人）",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Platycodon_grandiflorum2.jpg"
+ },
+ "nadeshiko": {
+  "file": "zk/photo/zk-flower-nadeshiko.jpg",
+  "kind": "commons",
+  "title": "カワラナデシコ Dianthus superbus var. longicalycinus.JPG",
+  "author": "Qwert1234",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:%E3%82%AB%E3%83%AF%E3%83%A9%E3%83%8A%E3%83%87%E3%82%B7%E3%82%B3_Dianthus_superbus_var._longicalycinus.JPG"
+ },
+ "rindo": {
+  "file": "zk/photo/zk-flower-rindo.jpg",
+  "kind": "commons",
+  "title": "Gentiana scabra2.jpg",
+  "author": "~~",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Gentiana_scabra2.jpg"
+ },
+ "cyclamen": {
+  "file": "zk/photo/zk-flower-cyclamen.jpg",
+  "kind": "commons",
+  "title": "Yagur – Nesher, the Green Path – Mount Carmel 016.JPG",
+  "author": "Hanay",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Yagur_%E2%80%93_Nesher,_the_Green_Path_%E2%80%93_Mount_Carmel_016.JPG"
+ },
+ "poinsettia": {
+  "file": "zk/photo/zk-flower-poinsettia.jpg",
+  "kind": "commons",
+  "title": "Euphorbia pulcherrima (Barlovento) 04.jpg",
+  "author": "Frank Vincentz",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Euphorbia_pulcherrima_(Barlovento)_04.jpg"
+ },
+ "gerbera": {
+  "file": "zk/photo/zk-flower-gerbera.jpg",
+  "kind": "commons",
+  "title": "Arya.hebras.novita.saulina.sitohang.2019.jpg",
+  "author": "Novita Saulina Sitohang",
+  "license": "CC BY 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Arya.hebras.novita.saulina.sitohang.2019.jpg"
+ },
+ "kasumiso": {
+  "file": "zk/photo/zk-flower-kasumiso.jpg",
+  "kind": "commons",
+  "title": "Gypsophila elegans at lalbagh 7226.JPG",
+  "author": "Rameshng",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Gypsophila_elegans_at_lalbagh_7226.JPG"
+ },
+ "hibiscus": {
+  "file": "zk/photo/zk-flower-hibiscus.jpg",
+  "kind": "commons",
+  "title": "Hibiskus_rosa-sinensis_-_Kwiat.JPG",
+  "author": "Lestat (Jan Mehlich)",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Hibiskus_rosa-sinensis_-_Kwiat.JPG"
+ },
+ "bougainvillea": {
+  "file": "zk/photo/zk-flower-bougainvillea.jpg",
+  "kind": "commons",
+  "title": "Starr 030418-0058 Bougainvillea spectabilis.jpg",
+  "author": "Forest &amp; Kim Starr",
+  "license": "CC BY 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Starr_030418-0058_Bougainvillea_spectabilis.jpg"
+ },
+ "kochoran": {
+  "file": "zk/photo/zk-flower-kochoran.jpg",
+  "kind": "commons",
+  "title": "Phalaenopsis aphrodite '-180501' Rchb.f., Hamburger Garten- Blumenzeitung 18 35 (1862) (47706143821).jpg",
+  "author": "sunoochi from Sapporo, Hokkaido, Japan",
+  "license": "CC BY 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Phalaenopsis_aphrodite_%27-180501%27_Rchb.f.,_Hamburger_Garten-_Blumenzeitung_18_35_(1862)_(47706143821).jpg"
+ },
+ "hinageshi": {
+  "file": "zk/photo/zk-flower-hinageshi.jpg",
+  "kind": "commons",
+  "title": "Papaver rhoeas LC0050.jpg",
+  "author": "Jörg Hempel",
+  "license": "CC BY-SA 2.5",
+  "url": "https://commons.wikimedia.org/wiki/File:Papaver_rhoeas_LC0050.jpg"
+ },
+ "sumire": {
+  "file": "zk/photo/zk-flower-sumire.jpg",
+  "kind": "commons",
+  "title": "Viola mandshurica (200704).jpg",
+  "author": "E-190",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Viola_mandshurica_(200704).jpg"
+ },
+ "marigold": {
+  "file": "zk/photo/zk-flower-marigold.jpg",
+  "kind": "commons",
+  "title": "Aksamitník - Czech Republic 03 (cropped).jpg",
+  "author": "Pohled 111",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Aksamitn%C3%ADk_-_Czech_Republic_03_(cropped).jpg"
+ },
+ "salvia": {
+  "file": "zk/photo/zk-flower-salvia.jpg",
+  "kind": "commons",
+  "title": "Neverseen like this.jpg",
+  "author": "Lucky7879613459",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Neverseen_like_this.jpg"
+ },
+ "kinmokusei": {
+  "file": "zk/photo/zk-flower-kinmokusei.jpg",
+  "kind": "commons",
+  "title": "Osmanthus fragrans (orange flowers).jpg",
+  "author": "Laitr Keiows",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Osmanthus_fragrans_(orange_flowers).jpg"
+ },
+ "crocus": {
+  "file": "zk/photo/zk-flower-crocus.jpg",
+  "kind": "commons",
+  "title": "Crocus longiflorus5.jpg",
+  "author": "Meneerke bloem",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Crocus_longiflorus5.jpg"
+ },
+ "hyacinth": {
+  "file": "zk/photo/zk-flower-hyacinth.jpg",
+  "kind": "commons",
+  "title": "Hyacinth bloem.jpg",
+  "author": "Rasbak",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Hyacinth_bloem.jpg"
+ },
+ "rafflesia": {
+  "file": "zk/photo/zk-flower-rafflesia.jpg",
+  "kind": "commons",
+  "title": "Rafflesia arnoldii Bengkulu 01.jpg",
+  "author": "SofianRafflesia",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Rafflesia_arnoldii_Bengkulu_01.jpg"
+ },
+ "hanamizuki": {
+  "file": "zk/photo/zk-flower-hanamizuki.jpg",
+  "kind": "commons",
+  "title": "Flowering Dogwood Cornus florida Flower Low DoF.JPG",
+  "author": "Photo by and (c)2016 Derek Ramsey (Ram-Man)",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Flowering_Dogwood_Cornus_florida_Flower_Low_DoF.JPG"
+ },
+ "mizubasho": {
+  "file": "zk/photo/zk-flower-mizubasho.jpg",
+  "kind": "commons",
+  "title": "Lysichite blanc à Shiramine (Hakusan) - 08 - 2016-04-25.jpg",
+  "author": "MathieuMD",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Lysichite_blanc_%C3%A0_Shiramine_(Hakusan)_-_08_-_2016-04-25.jpg"
+ },
+ "margaret": {
+  "file": "zk/photo/zk-flower-margaret.jpg",
+  "kind": "commons",
+  "title": "Flower April 2011-3.jpg",
+  "author": "Alvesgaspar",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Flower_April_2011-3.jpg"
+ },
+ "botan": {
+  "file": "zk/photo/zk-flower-botan.jpg",
+  "kind": "commons",
+  "title": "Strauchpfingstrose - Botanischer Garten in Wien.JPG",
+  "author": "C.Stadler/Bwag",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Strauchpfingstrose_-_Botanischer_Garten_in_Wien.JPG"
+ },
+ "edelweiss": {
+  "file": "zk/photo/zk-flower-edelweiss.jpg",
+  "kind": "commons",
+  "title": "Alpen Edelweiß, Leontopodium alpinum 2.JPG",
+  "author": "Böhringer Friedrich",
+  "license": "CC BY-SA 2.5",
+  "url": "https://commons.wikimedia.org/wiki/File:Alpen_Edelwei%C3%9F,_Leontopodium_alpinum_2.JPG"
+ }
+}

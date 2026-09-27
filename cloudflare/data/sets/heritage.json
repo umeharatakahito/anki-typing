@@ -1,0 +1,700 @@
+[
+ {
+  "review": "verified",
+  "id": "heritage-fuji",
+  "level": 1,
+  "category": "日本",
+  "prompt": "この世界遺産は？（日本）",
+  "answer": "富士山",
+  "reading": "ふじさん",
+  "alts": [],
+  "explanation": "日本一高い山（3776m）。芸術の源として文化遺産に登録。",
+  "image": "zk/photo/heritage-fuji.jpg",
+  "credit": "写真：名古屋太郎, (edited by Hannes_24)／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-himeji",
+  "level": 1,
+  "category": "日本",
+  "prompt": "この世界遺産は？（日本）",
+  "answer": "姫路城",
+  "reading": "ひめじじょう",
+  "alts": [
+   "しらさぎじょう"
+  ],
+  "explanation": "白くて美しい姿から「白鷺城」とも呼ばれる。",
+  "image": "zk/photo/heritage-himeji.jpg",
+  "credit": "写真：_steffen／CC BY-SA 2.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-horyuji",
+  "level": 2,
+  "category": "日本",
+  "prompt": "この世界遺産は？（日本）",
+  "answer": "法隆寺",
+  "reading": "ほうりゅうじ",
+  "alts": [],
+  "explanation": "現存する世界最古の木造建築群。",
+  "image": "zk/photo/heritage-horyuji.jpg",
+  "credit": "写真：663highland／CC BY 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-itsukushima",
+  "level": 1,
+  "category": "日本",
+  "prompt": "この世界遺産は？（日本）",
+  "answer": "厳島神社",
+  "reading": "いつくしまじんじゃ",
+  "alts": [
+   "いつくしま"
+  ],
+  "explanation": "海の上に立つ大鳥居で有名。",
+  "image": "zk/photo/heritage-itsukushima.jpg",
+  "credit": "写真：JordyMeow／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-genbaku",
+  "level": 1,
+  "category": "日本",
+  "prompt": "この世界遺産は？（日本）",
+  "answer": "原爆ドーム",
+  "reading": "げんばくどーむ",
+  "alts": [],
+  "explanation": "広島の原爆の被害を伝える建物。",
+  "image": "zk/photo/heritage-genbaku.jpg",
+  "credit": "写真：Oilstreet／CC BY 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-nikko",
+  "level": 2,
+  "category": "日本",
+  "prompt": "この世界遺産は？（日本）",
+  "answer": "日光東照宮",
+  "reading": "にっこうとうしょうぐう",
+  "alts": [
+   "とうしょうぐう",
+   "にっこう"
+  ],
+  "explanation": "徳川家康をまつる。「見ざる言わざる聞かざる」の彫刻。",
+  "image": "zk/photo/heritage-nikko.jpg",
+  "credit": "写真：Koichi Sato／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-shirakawago",
+  "level": 2,
+  "category": "日本",
+  "prompt": "この世界遺産は？（日本）",
+  "answer": "白川郷",
+  "reading": "しらかわごう",
+  "alts": [],
+  "explanation": "合掌造りの集落。",
+  "image": "zk/photo/heritage-shirakawago.jpg",
+  "credit": "写真：663highland／CC BY 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-yakushima",
+  "level": 2,
+  "category": "日本",
+  "prompt": "この世界遺産は？（日本）",
+  "answer": "屋久島",
+  "reading": "やくしま",
+  "alts": [],
+  "explanation": "樹齢数千年の縄文杉がある島。",
+  "image": "zk/photo/heritage-yakushima.jpg",
+  "credit": "写真：Chris 73（アップロードした人）／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-shiretoko",
+  "level": 3,
+  "category": "日本",
+  "prompt": "この世界遺産は？（日本）",
+  "answer": "知床",
+  "reading": "しれとこ",
+  "alts": [],
+  "explanation": "北海道の東の端。流氷と野生動物の自然遺産。",
+  "image": "zk/photo/heritage-shiretoko.jpg",
+  "credit": "写真：っ／Public domain（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-todaiji",
+  "level": 1,
+  "category": "日本",
+  "prompt": "この世界遺産は？（日本）",
+  "answer": "東大寺",
+  "reading": "とうだいじ",
+  "alts": [],
+  "explanation": "奈良の大仏がある寺。",
+  "image": "zk/photo/heritage-todaiji.jpg",
+  "credit": "写真：663highland／CC BY 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-kiyomizu",
+  "level": 1,
+  "category": "日本",
+  "prompt": "この世界遺産は？（日本）",
+  "answer": "清水寺",
+  "reading": "きよみずでら",
+  "alts": [],
+  "explanation": "「清水の舞台」で有名な京都の寺。",
+  "image": "zk/photo/heritage-kiyomizu.jpg",
+  "credit": "写真：Martin Falbisoner／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-tomioka",
+  "level": 3,
+  "category": "日本",
+  "prompt": "この世界遺産は？（日本）",
+  "answer": "富岡製糸場",
+  "reading": "とみおかせいしじょう",
+  "alts": [],
+  "explanation": "明治時代に作られた官営の製糸工場。",
+  "image": "zk/photo/heritage-tomioka.jpg",
+  "credit": "写真：Hasec／Public domain（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-machupicchu",
+  "level": 1,
+  "category": "ペルー",
+  "prompt": "この世界遺産は？（ペルー）",
+  "answer": "マチュ・ピチュ",
+  "reading": "まちゅぴちゅ",
+  "alts": [],
+  "explanation": "アンデスの山の上に作られたインカ帝国の都市。",
+  "image": "zk/photo/heritage-machupicchu.jpg",
+  "credit": "写真：Martin St-Amant (S23678)／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-choujo",
+  "level": 1,
+  "category": "中国",
+  "prompt": "この世界遺産は？（中国）",
+  "answer": "万里の長城",
+  "reading": "ばんりのちょうじょう",
+  "alts": [
+   "ちょうじょう"
+  ],
+  "explanation": "全長数千キロにおよぶ城壁。",
+  "image": "zk/photo/heritage-choujo.jpg",
+  "credit": "写真：CEphoto, Uwe Aranas／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-giza",
+  "level": 1,
+  "category": "エジプト",
+  "prompt": "この世界遺産は？（エジプト）",
+  "answer": "ピラミッド",
+  "reading": "ぴらみっど",
+  "alts": [
+   "ぎざのぴらみっど"
+  ],
+  "explanation": "古代エジプトの王の墓とされる。",
+  "image": "zk/photo/heritage-giza.jpg",
+  "credit": "写真：Nina／CC BY 2.5（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-tajmahal",
+  "level": 1,
+  "category": "インド",
+  "prompt": "この世界遺産は？（インド）",
+  "answer": "タージ・マハル",
+  "reading": "たーじまはる",
+  "alts": [],
+  "explanation": "皇帝が亡き妃のために建てた白い大理石の墓廟。",
+  "image": "zk/photo/heritage-tajmahal.jpg",
+  "credit": "写真：Yann; edited by Jim Carter／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-angkor",
+  "level": 1,
+  "category": "カンボジア",
+  "prompt": "この世界遺産は？（カンボジア）",
+  "answer": "アンコール・ワット",
+  "reading": "あんこーるわっと",
+  "alts": [],
+  "explanation": "国旗にもえがかれている寺院。",
+  "image": "zk/photo/heritage-angkor.jpg",
+  "credit": "写真：Bjørn Christian Tørrissen／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-petra",
+  "level": 3,
+  "category": "ヨルダン",
+  "prompt": "この世界遺産は？（ヨルダン）",
+  "answer": "ペトラ",
+  "reading": "ぺとら",
+  "alts": [],
+  "explanation": "岩山をけずって作られた古代都市。",
+  "image": "zk/photo/heritage-petra.jpg",
+  "credit": "写真：Diego Delso／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-colosseo",
+  "level": 1,
+  "category": "イタリア",
+  "prompt": "この世界遺産は？（イタリア）",
+  "answer": "コロッセオ",
+  "reading": "ころっせお",
+  "alts": [
+   "ころっせうむ"
+  ],
+  "explanation": "古代ローマの円形闘技場。",
+  "image": "zk/photo/heritage-colosseo.jpg",
+  "credit": "写真：FeaturedPics／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-pisa",
+  "level": 1,
+  "category": "イタリア",
+  "prompt": "この世界遺産は？（イタリア）",
+  "answer": "ピサの斜塔",
+  "reading": "ぴさのしゃとう",
+  "alts": [],
+  "explanation": "かたむいていることで有名な塔。",
+  "image": "zk/photo/heritage-pisa.jpg",
+  "credit": "写真：Chabe01／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-venezia",
+  "level": 2,
+  "category": "イタリア",
+  "prompt": "この世界遺産は？（イタリア）",
+  "answer": "ヴェネツィア",
+  "reading": "べねつぃあ",
+  "alts": [
+   "べねちあ",
+   "べにす"
+  ],
+  "explanation": "運河が張りめぐらされた「水の都」。",
+  "image": "zk/photo/heritage-venezia.jpg",
+  "credit": "写真：Peter K Burian／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-versailles",
+  "level": 2,
+  "category": "フランス",
+  "prompt": "この世界遺産は？（フランス）",
+  "answer": "ヴェルサイユ宮殿",
+  "reading": "べるさいゆきゅうでん",
+  "alts": [
+   "べるさいゆ"
+  ],
+  "explanation": "フランス王ルイ14世が建てた豪華な宮殿。",
+  "image": "zk/photo/heritage-versailles.jpg",
+  "credit": "写真：ToucanWings／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-montsaintmichel",
+  "level": 1,
+  "category": "フランス",
+  "prompt": "この世界遺産は？（フランス）",
+  "answer": "モン・サン・ミシェル",
+  "reading": "もんさんみしぇる",
+  "alts": [],
+  "explanation": "海にうかぶ小島に建つ修道院。",
+  "image": "zk/photo/heritage-montsaintmichel.jpg",
+  "credit": "写真：Lynx1211／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-liberty",
+  "level": 1,
+  "category": "アメリカ",
+  "prompt": "この世界遺産は？（アメリカ）",
+  "answer": "自由の女神",
+  "reading": "じゆうのめがみ",
+  "alts": [],
+  "explanation": "フランスからアメリカへ贈られた像。",
+  "image": "zk/photo/heritage-liberty.jpg",
+  "credit": "写真：Christian David／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-grandcanyon",
+  "level": 2,
+  "category": "アメリカ",
+  "prompt": "この世界遺産は？（アメリカ）",
+  "answer": "グランド・キャニオン",
+  "reading": "ぐらんどきゃにおん",
+  "alts": [],
+  "explanation": "コロラド川がけずった巨大な峡谷。",
+  "image": "zk/photo/heritage-grandcanyon.jpg",
+  "credit": "写真：Chensiyuan／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-yellowstone",
+  "level": 3,
+  "category": "アメリカ",
+  "prompt": "この世界遺産は？（アメリカ）",
+  "answer": "イエローストーン",
+  "reading": "いえろーすとーん",
+  "alts": [],
+  "explanation": "世界で最初の国立公園。間欠泉が有名。",
+  "image": "zk/photo/heritage-yellowstone.jpg",
+  "credit": "写真：James St. John from Newark, Ohio／CC BY 2.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-sagrada",
+  "level": 1,
+  "category": "スペイン",
+  "prompt": "この世界遺産は？（スペイン）",
+  "answer": "サグラダ・ファミリア",
+  "reading": "さぐらだふぁみりあ",
+  "alts": [],
+  "explanation": "ガウディが設計し、今も建設が続く教会。",
+  "image": "zk/photo/heritage-sagrada.jpg",
+  "credit": "写真：Canaan／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-alhambra",
+  "level": 3,
+  "category": "スペイン",
+  "prompt": "この世界遺産は？（スペイン）",
+  "answer": "アルハンブラ宮殿",
+  "reading": "あるはんぶらきゅうでん",
+  "alts": [
+   "あるはんぶら"
+  ],
+  "explanation": "イスラム王朝が建てた美しい宮殿。",
+  "image": "zk/photo/heritage-alhambra.jpg",
+  "credit": "写真：Jebulon／CC0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-parthenon",
+  "level": 1,
+  "category": "ギリシャ",
+  "prompt": "この世界遺産は？（ギリシャ）",
+  "answer": "パルテノン神殿",
+  "reading": "ぱるてのんしんでん",
+  "alts": [
+   "ぱるてのん"
+  ],
+  "explanation": "アテネのアクロポリスの丘に建つ古代ギリシャの神殿。",
+  "image": "zk/photo/heritage-parthenon.jpg",
+  "credit": "写真：Steve Swayne／CC BY 2.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-stonehenge",
+  "level": 2,
+  "category": "イギリス",
+  "prompt": "この世界遺産は？（イギリス）",
+  "answer": "ストーンヘンジ",
+  "reading": "すとーんへんじ",
+  "alts": [],
+  "explanation": "巨大な石が輪のように並ぶ古代の遺跡。",
+  "image": "zk/photo/heritage-stonehenge.jpg",
+  "credit": "写真：Stefan Kühn／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-koln",
+  "level": 3,
+  "category": "ドイツ",
+  "prompt": "この世界遺産は？（ドイツ）",
+  "answer": "ケルン大聖堂",
+  "reading": "けるんだいせいどう",
+  "alts": [
+   "けるん"
+  ],
+  "explanation": "157mの2本の塔がそびえるゴシック建築。",
+  "image": "zk/photo/heritage-koln.jpg",
+  "credit": "写真：Thomas Wolf, www.foto-tw.de／CC BY-SA 3.0 de（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-basil",
+  "level": 3,
+  "category": "ロシア",
+  "prompt": "この世界遺産は？（ロシア）",
+  "answer": "聖ワシリイ大聖堂",
+  "reading": "せいわしりいだいせいどう",
+  "alts": [
+   "わしりいだいせいどう"
+  ],
+  "explanation": "モスクワの赤の広場に建つ、たまねぎ形の屋根の教会。",
+  "image": "zk/photo/heritage-basil.jpg",
+  "credit": "写真：W. Bulach／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-kokyu",
+  "level": 2,
+  "category": "中国",
+  "prompt": "この世界遺産は？（中国）",
+  "answer": "故宮",
+  "reading": "こきゅう",
+  "alts": [
+   "しきんじょう"
+  ],
+  "explanation": "明と清の皇帝が住んだ宮殿「紫禁城」。",
+  "image": "zk/photo/heritage-kokyu.jpg",
+  "credit": "写真：N509FZ／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-heibayo",
+  "level": 2,
+  "category": "中国",
+  "prompt": "この世界遺産は？（中国）",
+  "answer": "兵馬俑",
+  "reading": "へいばよう",
+  "alts": [],
+  "explanation": "始皇帝の墓を守る、数千体の兵士の像。",
+  "image": "zk/photo/heritage-heibayo.jpg",
+  "credit": "写真：Jmhullot／CC BY 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-borobudur",
+  "level": 3,
+  "category": "インドネシア",
+  "prompt": "この世界遺産は？（インドネシア）",
+  "answer": "ボロブドゥール",
+  "reading": "ぼろぶどぅーる",
+  "alts": [],
+  "explanation": "世界最大級の仏教寺院。",
+  "image": "zk/photo/heritage-borobudur.jpg",
+  "credit": "写真：Gunawan Kartapranata／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-halong",
+  "level": 3,
+  "category": "ベトナム",
+  "prompt": "この世界遺産は？（ベトナム）",
+  "answer": "ハロン湾",
+  "reading": "はろんわん",
+  "alts": [],
+  "explanation": "海から石灰岩の島々がそびえる。",
+  "image": "zk/photo/heritage-halong.jpg",
+  "credit": "写真：Thomas Hirsch / User:Ravn／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-moai",
+  "level": 1,
+  "category": "チリ",
+  "prompt": "この世界遺産は？（チリ）",
+  "answer": "モアイ",
+  "reading": "もあい",
+  "alts": [
+   "いーすたーとう"
+  ],
+  "explanation": "イースター島に並ぶ巨大な石像。",
+  "image": "zk/photo/heritage-moai.jpg",
+  "credit": "写真：Rivi／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-nazca",
+  "level": 1,
+  "category": "ペルー",
+  "prompt": "この世界遺産は？（ペルー）",
+  "answer": "ナスカの地上絵",
+  "reading": "なすかのちじょうえ",
+  "alts": [
+   "なすか"
+  ],
+  "explanation": "地面にえがかれた巨大な絵。空からでないと全体が見えない。",
+  "image": "zk/photo/heritage-nazca.jpg",
+  "credit": "写真：Diego Delso／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-iguazu",
+  "level": 2,
+  "category": "アルゼンチン・ブラジル",
+  "prompt": "この世界遺産は？（アルゼンチン・ブラジル）",
+  "answer": "イグアスの滝",
+  "reading": "いぐあすのたき",
+  "alts": [
+   "いぐあす"
+  ],
+  "explanation": "アルゼンチンとブラジルの国境にある巨大な滝。",
+  "image": "zk/photo/heritage-iguazu.jpg",
+  "credit": "写真：Mariordo (Mario Roberto Durán Ortiz)／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-galapagos",
+  "level": 2,
+  "category": "エクアドル",
+  "prompt": "この世界遺産は？（エクアドル）",
+  "answer": "ガラパゴス諸島",
+  "reading": "がらぱごすしょとう",
+  "alts": [
+   "がらぱごす"
+  ],
+  "explanation": "独自の進化をとげた生き物の島。ダーウィンが訪れた。",
+  "image": "zk/photo/heritage-galapagos.jpg",
+  "credit": "写真：European Space Agency／Attribution（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-greatbarrier",
+  "level": 2,
+  "category": "オーストラリア",
+  "prompt": "この世界遺産は？（オーストラリア）",
+  "answer": "グレート・バリア・リーフ",
+  "reading": "ぐれーとばりありーふ",
+  "alts": [],
+  "explanation": "世界最大のサンゴ礁。",
+  "image": "zk/photo/heritage-greatbarrier.jpg",
+  "credit": "写真：NASA, by MISR／Public domain（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-uluru",
+  "level": 2,
+  "category": "オーストラリア",
+  "prompt": "この世界遺産は？（オーストラリア）",
+  "answer": "ウルル",
+  "reading": "うるる",
+  "alts": [
+   "えあーずろっく"
+  ],
+  "explanation": "「エアーズロック」とも呼ばれる巨大な一枚岩。",
+  "image": "zk/photo/heritage-uluru.jpg",
+  "credit": "写真：Thomas Schoch／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-sydneyopera",
+  "level": 2,
+  "category": "オーストラリア",
+  "prompt": "この世界遺産は？（オーストラリア）",
+  "answer": "シドニー・オペラハウス",
+  "reading": "しどにーおぺらはうす",
+  "alts": [
+   "おぺらはうす"
+  ],
+  "explanation": "貝がらやヨットの帆のような屋根。",
+  "image": "zk/photo/heritage-sydneyopera.jpg",
+  "credit": "写真：W. Bulach／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-victoria",
+  "level": 3,
+  "category": "ザンビア・ジンバブエ",
+  "prompt": "この世界遺産は？（ザンビア・ジンバブエ）",
+  "answer": "ヴィクトリアの滝",
+  "reading": "びくとりあのたき",
+  "alts": [
+   "びくとりあ"
+  ],
+  "explanation": "幅約1.7kmの大きな滝。",
+  "image": "zk/photo/heritage-victoria.jpg",
+  "credit": "写真：Diego Delso／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-abusimbel",
+  "level": 3,
+  "category": "エジプト",
+  "prompt": "この世界遺産は？（エジプト）",
+  "answer": "アブ・シンベル神殿",
+  "reading": "あぶしんべるしんでん",
+  "alts": [
+   "あぶしんべる"
+  ],
+  "explanation": "ダム建設で水没しないよう、丸ごと移された神殿。",
+  "image": "zk/photo/heritage-abusimbel.jpg",
+  "credit": "写真：Olaf Tausch／Public domain（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-kilimanjaro",
+  "level": 3,
+  "category": "タンザニア",
+  "prompt": "この世界遺産は？（タンザニア）",
+  "answer": "キリマンジャロ",
+  "reading": "きりまんじゃろ",
+  "alts": [],
+  "explanation": "アフリカ大陸で一番高い山。",
+  "image": "zk/photo/heritage-kilimanjaro.jpg",
+  "credit": "写真：Muhammad Mahdi Karim／GFDL 1.2（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-dubrovnik",
+  "level": 4,
+  "category": "クロアチア",
+  "prompt": "この世界遺産は？（クロアチア）",
+  "answer": "ドゥブロヴニク",
+  "reading": "どぅぶろぶにく",
+  "alts": [
+   "どぶろぶにく"
+  ],
+  "explanation": "「アドリア海の真珠」とよばれる城壁の町。",
+  "image": "zk/photo/heritage-dubrovnik.jpg",
+  "credit": "写真：Zysko serhii／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-cappadocia",
+  "level": 3,
+  "category": "トルコ",
+  "prompt": "この世界遺産は？（トルコ）",
+  "answer": "カッパドキア",
+  "reading": "かっぱどきあ",
+  "alts": [],
+  "explanation": "きのこのような奇岩が並ぶ。",
+  "image": "zk/photo/heritage-cappadocia.jpg",
+  "credit": "写真：Brocken Inaglory Edit by CillanXC／CC BY-SA 3.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-chichen",
+  "level": 4,
+  "category": "メキシコ",
+  "prompt": "この世界遺産は？（メキシコ）",
+  "answer": "チチェン・イッツァ",
+  "reading": "ちちぇんいっつぁ",
+  "alts": [],
+  "explanation": "マヤ文明の階段ピラミッドがある遺跡。",
+  "image": "zk/photo/heritage-chichen.jpg",
+  "credit": "写真：Daniel Schwen／CC BY-SA 4.0（Wikimedia Commons）"
+ },
+ {
+  "review": "verified",
+  "id": "heritage-aya",
+  "level": 3,
+  "category": "トルコ",
+  "prompt": "この世界遺産は？（トルコ）",
+  "answer": "アヤソフィア",
+  "reading": "あやそふぃあ",
+  "alts": [
+   "はぎあそふぃあ"
+  ],
+  "explanation": "教会からモスクになった巨大な建物。",
+  "image": "zk/photo/heritage-aya.jpg",
+  "credit": "写真：Arild Vågen／CC BY-SA 3.0（Wikimedia Commons）"
+ }
+]

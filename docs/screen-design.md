@@ -331,7 +331,7 @@ URL は `/koko`、`/koko/shakai`、`/play/flag-country` のように階層を表
 | 2 ✅ | プレイ設定画面（ひとり/対戦統合）と時間制ルール・スコア・結果画面（`gas/PlaySetup.html`）。本番のモード名は「基本・90秒」の形で保存。パスは Enter（Esc は今までどおり一時停止）。称号のしきい値（1 分あたりの点）は遊んだ記録を見て調整する |
 | 3 ✅ | 広告枠 A/B（左右の縦長。幅 1440px 以上）、D（結果の下 336×280）、E（待合室 336×280）。`cloudflare/src/chrome.js`。ページ側は `data-st-ad="result"` のような枠を置くだけ（見えたときに中身が入る）。専用ユニットは ADSENSE_SLOT_RAIL / _RESULT / _LOBBY |
 | 4 ✅ | 雑学：国旗 → 国名（197）・世界地図 → 国名（197）・国名 → 首都（197）・日本地図 → 都道府県（47）・元素記号 → 名前（118）。`cloudflare/scripts/make-zatsugaku.mjs` が `cloudflare/data/zatsugaku/` の一覧から作る |
-| 5 | 雑学：写真もの（魚・花・昆虫・世界遺産） |
+| 5 ✅ | 雑学：写真 → 名前（魚 55・花 49・昆虫 38・鳥 43）、世界遺産 50（写真＋右下に場所の地図）。写真は Wikimedia Commons（`cloudflare/scripts/fetch-photos.mjs`）、1 枚ずつ目で確かめた |
 | 6 | 対戦の新ルール（タイムアタック / サバイバル / ランダム対戦・ゴースト）※優先度低 |
 
 ---

@@ -1,0 +1,442 @@
+{
+ "maguro": {
+  "file": "zk/photo/zk-fish-maguro.jpg",
+  "kind": "commons",
+  "title": "Pacific bluefin tuna.jpg",
+  "author": "aes256",
+  "license": "CC BY 2.1 jp",
+  "url": "https://commons.wikimedia.org/wiki/File:Pacific_bluefin_tuna.jpg"
+ },
+ "katsuo": {
+  "file": "zk/photo/zk-fish-katsuo.jpg",
+  "kind": "commons",
+  "title": "Katsuwonus pelamis.png",
+  "author": "Unknown authorUnknown author",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Katsuwonus_pelamis.png"
+ },
+ "samma": {
+  "file": "zk/photo/zk-fish-samma.jpg",
+  "kind": "commons",
+  "title": "Sanma01.jpg",
+  "author": "Miya",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Sanma01.jpg"
+ },
+ "saba": {
+  "file": "zk/photo/zk-fish-saba.jpg",
+  "kind": "commons",
+  "title": "Scomber japonicus.png",
+  "author": "Unknown authorUnknown author",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Scomber_japonicus.png"
+ },
+ "iwashi": {
+  "file": "zk/photo/zk-fish-iwashi.jpg",
+  "kind": "commons",
+  "title": "Sardinops melanostictus.jpg",
+  "author": "Togabi（アップロードした人）",
+  "license": "CC BY-SA 2.5",
+  "url": "https://commons.wikimedia.org/wiki/File:Sardinops_melanostictus.jpg"
+ },
+ "aji": {
+  "file": "zk/photo/zk-fish-aji.jpg",
+  "kind": "commons",
+  "title": "MaAji.jpg",
+  "author": "Izuzuki",
+  "license": "CC BY 2.5",
+  "url": "https://commons.wikimedia.org/wiki/File:MaAji.jpg"
+ },
+ "sake": {
+  "file": "zk/photo/zk-fish-sake.jpg",
+  "kind": "commons",
+  "title": "Oncorhynchus keta 336282130.jpg",
+  "author": "Focus Saranpat Ouilapan",
+  "license": "CC0",
+  "url": "https://commons.wikimedia.org/wiki/File:Oncorhynchus_keta_336282130.jpg"
+ },
+ "tai": {
+  "file": "zk/photo/zk-fish-tai.jpg",
+  "kind": "commons",
+  "title": "Pagrus major Red seabream ja01.jpg",
+  "author": "Miya",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Pagrus_major_Red_seabream_ja01.jpg"
+ },
+ "buri": {
+  "file": "zk/photo/zk-fish-buri.jpg",
+  "kind": "commons",
+  "title": "Seriola quinqueradiata (200810).jpg",
+  "author": "E-190's",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Seriola_quinqueradiata_(200810).jpg"
+ },
+ "hirame": {
+  "file": "zk/photo/zk-fish-hirame.jpg",
+  "kind": "commons",
+  "title": "Paralichthys-olivaceus-Federal-Way-3583.jpg",
+  "author": "User:Vmenkov",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Paralichthys-olivaceus-Federal-Way-3583.jpg"
+ },
+ "fugu": {
+  "file": "zk/photo/zk-fish-fugu.jpg",
+  "kind": "commons",
+  "title": "Takifugu rubripes Kamo aquarium2.jpg",
+  "author": "Totti",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Takifugu_rubripes_Kamo_aquarium2.jpg"
+ },
+ "unagi": {
+  "file": "zk/photo/zk-fish-unagi.jpg",
+  "kind": "commons",
+  "title": "Anguilla japonica.jpg",
+  "author": "opencage",
+  "license": "CC BY-SA 2.5",
+  "url": "https://commons.wikimedia.org/wiki/File:Anguilla_japonica.jpg"
+ },
+ "ayu": {
+  "file": "zk/photo/zk-fish-ayu.jpg",
+  "kind": "commons",
+  "title": "Sweetfish, Plecoglossus altivelis.jpg",
+  "author": "OAS at Japanese Wikipedia",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Sweetfish,_Plecoglossus_altivelis.jpg"
+ },
+ "koi": {
+  "file": "zk/photo/zk-fish-koi.jpg",
+  "kind": "commons",
+  "title": "Cyprinus carpio.jpeg",
+  "author": "Dezidor",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Cyprinus_carpio.jpeg"
+ },
+ "kingyo": {
+  "file": "zk/photo/zk-fish-kingyo.jpg",
+  "kind": "commons",
+  "title": "Goldfish.jpg",
+  "author": "Meidosensei（アップロードした人）",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Goldfish.jpg"
+ },
+ "medaka": {
+  "file": "zk/photo/zk-fish-medaka.jpg",
+  "kind": "commons",
+  "title": "Nihonmedaka.jpg",
+  "author": "NOZO",
+  "license": "CC BY 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Nihonmedaka.jpg"
+ },
+ "namazu": {
+  "file": "zk/photo/zk-fish-namazu.jpg",
+  "kind": "commons",
+  "title": "Silurus.jpg",
+  "author": "rhosoi",
+  "license": "CC BY 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Silurus.jpg"
+ },
+ "dojo": {
+  "file": "zk/photo/zk-fish-dojo.jpg",
+  "kind": "commons",
+  "title": "Misgurnus anguillicaudatus.jpg",
+  "author": "Eugene van der Pijll（アップロードした人）",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Misgurnus_anguillicaudatus.jpg"
+ },
+ "manbo": {
+  "file": "zk/photo/zk-fish-manbo.jpg",
+  "kind": "commons",
+  "title": "Mola mola.jpg",
+  "author": "U.S. National Oceanic and Atmospheric Administration",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Mola_mola.jpg"
+ },
+ "jinbe": {
+  "file": "zk/photo/zk-fish-jinbe.jpg",
+  "kind": "commons",
+  "title": "Whale shark Georgia aquarium.jpg",
+  "author": "User:Zac Wolf (original), en:User:Stefan (cropping)",
+  "license": "CC BY-SA 2.5",
+  "url": "https://commons.wikimedia.org/wiki/File:Whale_shark_Georgia_aquarium.jpg"
+ },
+ "shumoku": {
+  "file": "zk/photo/zk-fish-shumoku.jpg",
+  "kind": "commons",
+  "title": "Hammerhead shark.jpg",
+  "author": "suneko",
+  "license": "CC BY 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Hammerhead_shark.jpg"
+ },
+ "hohojiro": {
+  "file": "zk/photo/zk-fish-hohojiro.jpg",
+  "kind": "commons",
+  "title": "Carcharodon carcharias.jpg",
+  "author": "Sharkdiver.com",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Carcharodon_carcharias.jpg"
+ },
+ "manta": {
+  "file": "zk/photo/zk-fish-manta.jpg",
+  "kind": "commons",
+  "title": "Manta birostris-Thailand3.jpg",
+  "author": "jon hanson from london, UK",
+  "license": "CC BY-SA 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Manta_birostris-Thailand3.jpg"
+ },
+ "tatsu": {
+  "file": "zk/photo/zk-fish-tatsu.jpg",
+  "kind": "commons",
+  "title": "Hippocampus hippocampus (on Ascophyllum nodosum).jpg",
+  "author": "Hans Hillewaert",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Hippocampus_hippocampus_(on_Ascophyllum_nodosum).jpg"
+ },
+ "kakure": {
+  "file": "zk/photo/zk-fish-kakure.jpg",
+  "kind": "commons",
+  "title": "Clownfisch (Amphiprion ocellaris).jpg",
+  "author": "Raimond Spekking",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Clownfisch_(Amphiprion_ocellaris).jpg"
+ },
+ "nanyohagi": {
+  "file": "zk/photo/zk-fish-nanyohagi.jpg",
+  "kind": "commons",
+  "title": "Blue tang (Paracanthurus hepatus) 02.jpg",
+  "author": "Tewy",
+  "license": "CC BY 2.5",
+  "url": "https://commons.wikimedia.org/wiki/File:Blue_tang_(Paracanthurus_hepatus)_02.jpg"
+ },
+ "harisenbon": {
+  "file": "zk/photo/zk-fish-harisenbon.jpg",
+  "kind": "commons",
+  "title": "Cyclichthys spilostylus.jpg",
+  "author": "jon hanson from london, UK",
+  "license": "CC BY-SA 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Cyclichthys_spilostylus.jpg"
+ },
+ "kawahagi": {
+  "file": "zk/photo/zk-fish-kawahagi.jpg",
+  "kind": "commons",
+  "title": "Stephanolepis cirrhifer.jpg",
+  "author": "Daiju Azuma",
+  "license": "CC BY-SA 2.5",
+  "url": "https://commons.wikimedia.org/wiki/File:Stephanolepis_cirrhifer.jpg"
+ },
+ "kinmedai": {
+  "file": "zk/photo/zk-fish-kinmedai.jpg",
+  "kind": "commons",
+  "title": "Beryx splendens Marinepia.jpg",
+  "author": "Totti",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Beryx_splendens_Marinepia.jpg"
+ },
+ "tachiuo": {
+  "file": "zk/photo/zk-fish-tachiuo.jpg",
+  "kind": "commons",
+  "title": "Trichiurus lepturus by OpenCage.jpg",
+  "author": "Apple2000（アップロードした人）",
+  "license": "CC BY-SA 2.5",
+  "url": "https://commons.wikimedia.org/wiki/File:Trichiurus_lepturus_by_OpenCage.jpg"
+ },
+ "hokke": {
+  "file": "zk/photo/zk-fish-hokke.jpg",
+  "kind": "commons",
+  "title": "Pleurogrammus azonus 2.jpg",
+  "author": "Haplochromis",
+  "license": "CC BY-SA 2.5",
+  "url": "https://commons.wikimedia.org/wiki/File:Pleurogrammus_azonus_2.jpg"
+ },
+ "tara": {
+  "file": "zk/photo/zk-fish-tara.jpg",
+  "kind": "commons",
+  "title": "Gadus macrocephalus.png",
+  "author": "Unknown authorUnknown author",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Gadus_macrocephalus.png"
+ },
+ "nishin": {
+  "file": "zk/photo/zk-fish-nishin.jpg",
+  "kind": "commons",
+  "title": "Herringadultkils.jpg",
+  "author": "User Kils on de.wikipedia",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Herringadultkils.jpg"
+ },
+ "shishamo": {
+  "file": "zk/photo/zk-fish-shishamo.jpg",
+  "kind": "commons",
+  "title": "Spirinchus lanceolatus 1.jpg",
+  "author": "Totti",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Spirinchus_lanceolatus_1.jpg"
+ },
+ "wakasagi": {
+  "file": "zk/photo/zk-fish-wakasagi.jpg",
+  "kind": "commons",
+  "title": "Wakasagi Adult (70mm).tif",
+  "author": "René Reyes",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Wakasagi_Adult_(70mm).tif"
+ },
+ "nijimasu": {
+  "file": "zk/photo/zk-fish-nijimasu.jpg",
+  "kind": "commons",
+  "title": "Trout.jpg",
+  "author": "Jonathunder",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Trout.jpg"
+ },
+ "iwana": {
+  "file": "zk/photo/zk-fish-iwana.jpg",
+  "kind": "commons",
+  "title": "Japansk röding.jpg",
+  "author": "Esquilo",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Japansk_r%C3%B6ding.jpg"
+ },
+ "piranha": {
+  "file": "zk/photo/zk-fish-piranha.jpg",
+  "kind": "commons",
+  "title": "Gregory Moine - Red bellied Piranha (by).jpg",
+  "author": "Gregory Moine from Niantic, USA",
+  "license": "CC BY 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Gregory_Moine_-_Red_bellied_Piranha_(by).jpg"
+ },
+ "piraruku": {
+  "file": "zk/photo/zk-fish-piraruku.jpg",
+  "kind": "commons",
+  "title": "Arapaima gigas captivity.jpg",
+  "author": "Citron",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Arapaima_gigas_captivity.jpg"
+ },
+ "beta": {
+  "file": "zk/photo/zk-fish-beta.jpg",
+  "kind": "commons",
+  "title": "Bojownik syjamski.jpg",
+  "author": "Henryk Niestrój",
+  "license": "CC BY 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Bojownik_syjamski.jpg"
+ },
+ "guppy": {
+  "file": "zk/photo/zk-fish-guppy.jpg",
+  "kind": "commons",
+  "title": "Guppy coppia gialla.jpg",
+  "author": "Marrabbio2",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Guppy_coppia_gialla.jpg"
+ },
+ "neon": {
+  "file": "zk/photo/zk-fish-neon.jpg",
+  "kind": "commons",
+  "title": "NeonTetra.JPG",
+  "author": "Corpse89",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:NeonTetra.JPG"
+ },
+ "utsubo": {
+  "file": "zk/photo/zk-fish-utsubo.jpg",
+  "kind": "commons",
+  "title": "Kidako moray.JPG",
+  "author": "User:rydia",
+  "license": "CC BY-SA 2.5",
+  "url": "https://commons.wikimedia.org/wiki/File:Kidako_moray.JPG"
+ },
+ "tobiuo": {
+  "file": "zk/photo/zk-fish-tobiuo.jpg",
+  "kind": "commons",
+  "title": "Cheilopogon melanurusPCCA20070623-3956B.jpg",
+  "author": "Patrick Coin (Patrick Coin)",
+  "license": "CC BY-SA 2.5",
+  "url": "https://commons.wikimedia.org/wiki/File:Cheilopogon_melanurusPCCA20070623-3956B.jpg"
+ },
+ "ryugu": {
+  "file": "zk/photo/zk-fish-ryugu.jpg",
+  "kind": "commons",
+  "title": "Regalecus glesne, Naturhistorisches Museum Wien.jpg",
+  "author": "Sandstein",
+  "license": "CC BY 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Regalecus_glesne,_Naturhistorisches_Museum_Wien.jpg"
+ },
+ "coelacanth": {
+  "file": "zk/photo/zk-fish-coelacanth.jpg",
+  "kind": "commons",
+  "title": "Latimeria Chalumnae - Coelacanth - NHMW.jpg",
+  "author": "Alberto Fernandez Fernandez",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Latimeria_Chalumnae_-_Coelacanth_-_NHMW.jpg"
+ },
+ "chinanago": {
+  "file": "zk/photo/zk-fish-chinanago.jpg",
+  "kind": "commons",
+  "title": "Rörålar.jpg",
+  "author": "Esquilo",
+  "license": "CC BY-SA 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:R%C3%B6r%C3%A5lar.jpg"
+ },
+ "okoze": {
+  "file": "zk/photo/zk-fish-okoze.jpg",
+  "kind": "commons",
+  "title": "Inimicus japonicus.jpg",
+  "author": "H. Patterson",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Inimicus_japonicus.jpg"
+ },
+ "hatahata": {
+  "file": "zk/photo/zk-fish-hatahata.jpg",
+  "kind": "commons",
+  "title": "Arctoscopus japonicus Umigatari.png",
+  "author": "Totti",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Arctoscopus_japonicus_Umigatari.png"
+ },
+ "minokasago": {
+  "file": "zk/photo/zk-fish-minokasago.jpg",
+  "kind": "commons",
+  "title": "Lion Fish Rensai Park Aquarium, Tokyo.jpg",
+  "author": "Lepidlizard",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Lion_Fish_Rensai_Park_Aquarium,_Tokyo.jpg"
+ },
+ "napoleon": {
+  "file": "zk/photo/zk-fish-napoleon.jpg",
+  "kind": "commons",
+  "title": "Cheilinus undulatus - R Vasconcellos - 582969181.jpeg",
+  "author": "R Vasconcellos",
+  "license": "CC BY 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Cheilinus_undulatus_-_R_Vasconcellos_-_582969181.jpeg"
+ },
+ "blackbass": {
+  "file": "zk/photo/zk-fish-blackbass.jpg",
+  "kind": "commons",
+  "title": "Micropterus salmoides Lake Biwa Museum1.jpg",
+  "author": "Totti",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Micropterus_salmoides_Lake_Biwa_Museum1.jpg"
+ },
+ "karei": {
+  "file": "zk/photo/zk-fish-karei.jpg",
+  "kind": "commons",
+  "title": "Pleuronectes platessa.jpg",
+  "author": "Hans Hillewaert",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Pleuronectes_platessa.jpg"
+ },
+ "anko": {
+  "file": "zk/photo/zk-fish-anko.jpg",
+  "kind": "commons",
+  "title": "Lophius americanus.jpg",
+  "author": "Kelson（アップロードした人）",
+  "license": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Lophius_americanus.jpg"
+ },
+ "suzuki": {
+  "file": "zk/photo/zk-fish-suzuki.jpg",
+  "kind": "commons",
+  "title": "スズキ.jpg",
+  "author": "Kinori",
+  "license": "CC0",
+  "url": "https://commons.wikimedia.org/wiki/File:%E3%82%B9%E3%82%BA%E3%82%AD.jpg"
+ }
+}
