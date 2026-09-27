@@ -1,19 +1,24 @@
 <style>
   /* モードごとの枠。中に「個人」と「対戦」を並べる */
   #mode-list{ list-style:none; padding:0; margin:0 auto; max-width:560px; }
-  #mode-list li.mode-box{ display:block; margin:0 12px 14px; padding:10px 12px 12px; border:2px solid #3BD;
-    border-radius:10px; background:rgba(255,255,255,.45); }
-  html[data-theme="dark"] #mode-list li.mode-box{ border-color:#2a3651; background:rgba(16,26,43,.6); }
-  #mode-list .mode-name{ font-size:18px; font-weight:bold; text-align:center; margin:0 0 8px; }
+  #mode-list li.mode-box{ display:block; margin:0 0 14px; padding:14px 16px 16px; border:1px solid var(--line);
+    border-radius:12px; background:var(--card); }
+  #mode-list .mode-name{ font-size:1.15rem; font-weight:700; text-align:center; margin:0 0 10px; }
+  #mode-list .mode-btns .button{ background:var(--field); }
+  #mode-list .mode-btns .button:hover{ background:var(--card); }
   #mode-list .mode-btns{ display:flex; gap:10px; }
   #mode-list .mode-btns .button{ flex:1 1 0; width:auto; margin:0; }
   #menu-vs .vs-actions{ display:flex; flex-direction:column; gap:10px; align-items:center; }
   #menu-vs .vs-join{ display:flex; gap:8px; justify-content:center; }
-  #menu-vs .vs-join input{ width:8em; padding:8px 10px; font-size:18px; text-align:center; letter-spacing:.2em;
-    border:1px solid #3BD; border-radius:6px; }
+  #menu-vs .vs-join input{ width:8em; min-height:48px; padding:8px 10px; font-family:inherit; font-size:18px; text-align:center; letter-spacing:.2em;
+    color:var(--text); background:var(--field); border:1px solid var(--line); border-radius:8px; }
+  #menu-vs .vs-join .button{ width:auto; margin:0; min-height:48px; }
+  #menu-vs .vs-join input:focus, #menu-vs .vs-target select:focus{ outline:none; border-color:var(--accent); }
   #menu-vs .vs-target{ display:flex; gap:8px; align-items:center; justify-content:center; font-size:15px; }
-  #menu-vs .vs-target select{ padding:6px 10px; font-size:16px; border:1px solid #3BD; border-radius:6px; }
-  #menu-vs .vs-rule{ margin:12px auto 0; max-width:30em; font-size:13px; line-height:1.6; opacity:.8; }
+  #menu-vs .vs-actions > .button{ margin:0; }
+  #menu-vs .vs-target select{ min-height:44px; padding:8px 12px; font-family:inherit; font-size:16px;
+    color:var(--text); background:var(--field); border:1px solid var(--line); border-radius:8px; }
+  #menu-vs .vs-rule{ margin:12px auto 0; max-width:34em; color:var(--muted); font-size:.85rem; line-height:1.7; }
   #vs-status{ min-height:1.6em; margin:14px 0 0; text-align:center; font-size:15px; }
   /* 部屋番号で入るだけのとき（問題集・モードを選ぶ前）は、作る・自動マッチ・本数を出さない */
   #menu-vs.join-only #vs-match, #menu-vs.join-only #vs-create, #menu-vs.join-only .vs-target{ display:none; }
@@ -30,14 +35,14 @@
   .vs-me{ color:#e5484d; } .vs-you, .vs-c1{ color:#2f7fe0; } .vs-c2{ color:#16a34a; } .vs-c3{ color:#ea8a00; }
   .vs-score .vs-pts{ font-size:28px; font-variant-numeric:tabular-nums; }
   .vs-score .vs-dash{ opacity:.5; }
-  .vs-sub{ font-size:12px; opacity:.75; }
+  .vs-sub{ font-size:12px; color:var(--muted); }
 
   /* 入力欄を左右（自分・相手）に分ける */
   #vs-split{ display:none; }
   body.vs-on #vs-split{ display:grid; grid-template-columns:repeat(var(--vs-n, 2), minmax(0, 1fr)); gap:12px; width:100%; }
   body.vs-on #input-zone{ max-width:900px; }
-  .vs-panel{ border:2px solid transparent; border-radius:10px; padding:8px 10px; min-width:0;
-    background:rgba(187,238,255,.35); }
+  .vs-panel{ border:2px solid transparent; border-radius:12px; padding:8px 10px; min-width:0;
+    background:var(--card); }
   .vs-panel.me{ border-color:#f8a1a4; } .vs-panel.vs-c1{ border-color:#9cc3f5; }
   .vs-panel.vs-c2{ border-color:#86d3a4; } .vs-panel.vs-c3{ border-color:#f6c27a; }
   .vs-panel.you{ color:inherit; }
@@ -54,9 +59,9 @@
   /* 待合（参加者の一覧と開始ボタン） */
   #vs-lobby{ margin:12px auto 0; text-align:center; }
   #vs-lobby ul{ list-style:none; padding:0; margin:6px 0 10px; display:flex; flex-wrap:wrap; gap:6px; justify-content:center; }
-  #vs-lobby li{ padding:4px 10px; border-radius:999px; border:1px solid #3BD; font-size:14px; }
+  #vs-lobby li{ padding:4px 12px; border-radius:999px; border:1px solid var(--line); background:var(--card); font-size:14px; }
   #vs-lobby li.host::after{ content:' ★'; }
-  #vs-lobby .vs-lobby-note{ font-size:13px; opacity:.8; }
+  #vs-lobby .vs-lobby-note{ font-size:13px; color:var(--muted); }
   .vs-panel #game-input{ height:auto; min-height:44px; margin:0; }
   .vs-miss.warn{ color:#e5484d; font-weight:bold; }
   .vs-state{ font-size:13px; font-weight:bold; color:#e5484d; min-height:1.2em; }
@@ -75,8 +80,7 @@
     background:rgba(0,0,0,.45); }
   #vs-point.show{ display:flex; }
   .vs-point-card{ width:min(92vw, 520px); border-radius:14px; padding:20px 22px; text-align:center;
-    background:#fff; color:#17394b; box-shadow:0 10px 30px rgba(0,0,0,.3); }
-  html[data-theme="dark"] .vs-point-card{ background:#182236; color:#e8eef7; }
+    background:var(--card); color:var(--text); border:1px solid var(--line); box-shadow:0 16px 48px rgba(0,0,0,.3); }
   .vs-point-big{ font-size:30px; font-weight:bold; margin:0 0 8px; }
   .vs-point-ans{ font-size:22px; font-weight:bold; margin:6px 0; }
   .vs-point-note{ font-size:14px; line-height:1.6; white-space:pre-wrap; text-align:center; opacity:.85; margin:8px 0; }

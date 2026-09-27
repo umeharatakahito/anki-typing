@@ -13,7 +13,7 @@
   </head> <!-- ← head をきちんと閉じる -->
 
   <body class="main-menu loading">
-    <a id="home-link" href="<?= execUrl ?>" style="position:absolute; top:8px; left:12px; font-size:.85rem; color:#3BD; text-decoration:none;">← トップ</a>
+    <a id="home-link" href="<?= execUrl ?>">← トップ</a>
     <div id="big-title">Study Type<div id="set-title"></div></div>
     <div id="clear-bonus-art">
       <div id="bonus-art-top">
@@ -70,21 +70,21 @@
           <button class="button" id="rank-reload">更新</button>
         </div>
 
-        <div style="overflow:auto;">
-          <table id="ranking-table" class="rank-table" style="width:100%; border-collapse:collapse;">
+        <div class="rank-wrap">
+          <table id="ranking-table" class="rank-table">
             <thead>
               <tr>
-                <th style="border-bottom:1px solid #3BD; padding:6px;">順位</th>
-                <th style="border-bottom:1px solid #3BD; padding:6px;">ユーザー名</th>
-                <th style="border-bottom:1px solid #3BD; padding:6px;">スコア</th>
-                <th style="border-bottom:1px solid #3BD; padding:6px;">モード</th>
-                <th style="border-bottom:1px solid #3BD; padding:6px;">区分</th>
-                <th style="border-bottom:1px solid #3BD; padding:6px;">最大チェイン</th>
-                <th style="border-bottom:1px solid #3BD; padding:6px;">GREAT</th>
-                <th style="border-bottom:1px solid #3BD; padding:6px;">GOOD</th>
-                <th style="border-bottom:1px solid #3BD; padding:6px;">OKAY</th>
-                <th style="border-bottom:1px solid #3BD; padding:6px;">MISS</th>
-                <th style="border-bottom:1px solid #3BD; padding:6px;">日時</th>
+                <th>順位</th>
+                <th>ユーザー名</th>
+                <th>スコア</th>
+                <th>モード</th>
+                <th>区分</th>
+                <th>最大チェイン</th>
+                <th>GREAT</th>
+                <th>GOOD</th>
+                <th>OKAY</th>
+                <th>MISS</th>
+                <th>日時</th>
               </tr>
             </thead>
             <tbody></tbody>
@@ -122,7 +122,7 @@
 
       <div id="answer-banner" aria-live="polite"></div>
 
-      <div id="correct-message" style="display:none; text-align:center; font-size:2em; color:#00AA00; font-weight:bold;"></div>
+      <div id="correct-message" style="display:none; text-align:center; font-size:2em; font-weight:bold;"></div>
 
       <div id="countdown"></div>
 

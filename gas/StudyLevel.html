@@ -1,17 +1,18 @@
 <style>
-  #set-title{ font-size:clamp(1rem,2.4vw,1.4rem); letter-spacing:.2em; margin-top:.2em; text-shadow:none; }
+  /* 問題集の名前（大学受験モードの .subtitle と同じ） */
+  #set-title{ margin-top:6px; color:var(--muted); font-size:1rem; font-weight:400; letter-spacing:.12em; }
   #set-title:empty{ display:none; }
-  #level-note{ margin:10px 0 0; font-size:13px; text-align:center; opacity:.8; }
+  #level-note{ margin:14px 0 0; color:var(--muted); font-size:.85rem; text-align:center; }
   #level-note:empty{ display:none; }
   #last-note{ width:100%; margin:0; padding:8px 12px; font-size:14px; line-height:1.6; text-align:center;
-    white-space:pre-wrap; border-radius:8px; background:rgba(59,189,221,.12); }
+    white-space:pre-wrap; border-radius:10px; background:var(--accent-soft); color:var(--text); }
   #last-note:empty{ display:none; }
   #last-note .ln-head{ font-weight:bold; }
-  #last-note .ln-level{ font-weight:bold; color:#1a8f3c; }
-  #last-note .ln-level.down{ color:#c0392b; }
+  #last-note .ln-level{ font-weight:bold; color:var(--ok); }
+  #last-note .ln-level.down{ color:var(--ng); }
   #hamachi-level-container.lv-up{ animation:lv-pop .8s ease-out; }
-  @keyframes lv-pop{ 0%{ transform:scale(1.8); color:#1a8f3c; } 100%{ transform:scale(1); } }
-  .level-cap{ font-size:14px; opacity:.85; }
+  @keyframes lv-pop{ 0%{ transform:scale(1.8); color:var(--ok); } 100%{ transform:scale(1); } }
+  .level-cap{ color:var(--muted); font-size:.85rem; }
   body.playing-game #home-link{ display:none; }
   /* 一時停止（Resume / Quit）と終了画面は、画面の真ん中に出す */
   body.playing-game #menu-main, #game-end{
@@ -32,23 +33,21 @@
   }
   /* 画像の無い問題では、画像の場所を空けない */
   .card-image-container:empty{ display:none; }
-  /* 左上の戻るボタン。押しやすい大きさにする */
-  #home-link{ position:absolute; top:8px; left:10px; z-index:5; display:inline-flex; align-items:center; gap:4px;
-    padding:8px 14px !important; font-size:15px !important; font-weight:bold; border-radius:999px;
-    background:rgba(59,189,221,.14); border:1px solid rgba(59,189,221,.5); }
-  #home-link:hover{ text-decoration:none; background:rgba(59,189,221,.25); }
+  /* 左上の戻るボタン（大学受験モードの .back-link と同じ） */
+  #home-link{ position:absolute; top:10px; left:12px; z-index:5; display:inline-flex; align-items:center; gap:4px;
+    padding:8px 14px; font-size:.95rem; font-weight:700; border-radius:999px; text-decoration:none;
+    color:var(--text); background:var(--card); border:1px solid var(--line); }
+  #home-link:hover{ text-decoration:none; color:var(--accent); border-color:var(--accent); }
   /* 解説（写経・通常モード）：大きく出して、キーを押すまで待つ */
   #note-box{ position:fixed; inset:0; z-index:70; display:flex; align-items:center; justify-content:center;
-    padding:16px; background:rgba(10,20,35,.35); cursor:pointer; }
+    padding:16px; background:rgba(10,20,35,.4); cursor:pointer; }
   #note-box[hidden]{ display:none; }
-  #note-box .nb-card{ width:min(94vw, 720px); max-height:86vh; overflow:auto; background:#fff; color:#17394b;
-    border-radius:14px; padding:22px 26px; box-shadow:0 12px 40px rgba(0,0,0,.25); text-align:center; }
-  #note-box .nb-head{ font-size:clamp(22px, 4vw, 32px); font-weight:800; margin-bottom:10px; }
-  #note-box .nb-head.ok{ color:#1a8f3c; } #note-box .nb-head.ng{ color:#c0392b; }
+  #note-box .nb-card{ width:min(94vw, 720px); max-height:86vh; overflow:auto; background:var(--card); color:var(--text);
+    border:1px solid var(--line); border-radius:14px; padding:22px 26px; box-shadow:0 16px 48px rgba(0,0,0,.3); text-align:center; }
+  #note-box .nb-head{ font-size:clamp(22px, 4vw, 32px); font-weight:700; margin-bottom:10px; }
+  #note-box .nb-head.ok{ color:var(--ok); } #note-box .nb-head.ng{ color:var(--ng); }
   #note-box .nb-body{ font-size:clamp(17px, 2.6vw, 22px); line-height:1.75; white-space:pre-wrap; text-align:left; }
-  #note-box .nb-next{ margin-top:16px; font-size:13px; opacity:.65; }
-  html[data-theme="dark"] #note-box .nb-card{ background:#182236; color:#e8eef7; }
-  html[data-theme="dark"] #note-box .nb-head.ok{ color:#34d399; } html[data-theme="dark"] #note-box .nb-head.ng{ color:#f87171; }
+  #note-box .nb-next{ margin-top:16px; color:var(--muted); font-size:13px; }
 </style>
 <script>
 // ===============================================================

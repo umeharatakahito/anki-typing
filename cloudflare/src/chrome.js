@@ -19,7 +19,8 @@ export function themeAttr(theme) {
 }
 
 const CSS = `<style>
-:root,[data-theme="blue"]{--st-accent:#1fa7c9;--st-chip-bg:#fff;--st-chip-fg:#24506a;--st-chip-line:#9fd6e6;--st-ad-bg:#eef9fc;--st-dlg-bg:#fff;--st-dlg-fg:#17394b}
+/* 色は大学受験モード（JukenCSS / ThemeCSS）と同じ値 */
+:root,[data-theme="blue"]{--st-accent:#1ba9cc;--st-chip-bg:#fff;--st-chip-fg:#17394b;--st-chip-line:#a9dcea;--st-ad-bg:#f5fcfe;--st-dlg-bg:#fff;--st-dlg-fg:#17394b}
 [data-theme="dark"]{--st-accent:#3bc9db;--st-chip-bg:#182236;--st-chip-fg:#c9d6ea;--st-chip-line:#2a3651;--st-ad-bg:#101a2b;--st-dlg-bg:#182236;--st-dlg-fg:#e8eef7}
 #st-bar{position:fixed;top:6px;right:8px;z-index:9999;display:flex;gap:6px;align-items:center;
   font:12px/1.2 "Hiragino Kaku Gothic ProN","Yu Gothic",system-ui,sans-serif}
@@ -49,7 +50,7 @@ body.playing-game :is(.st-ad,#st-bar),
 body:has(#screen-game:not([hidden])) :is(.st-ad,#st-bar),
 body:has(#screen-zu:not([hidden])) :is(.st-ad,#st-bar),
 body:has(.vs-playing) :is(.st-ad,#st-bar){display:none}
-#st-nick-dlg{border:1px solid var(--st-chip-line);border-radius:12px;padding:20px;max-width:340px;width:calc(100% - 32px);
+#st-nick-dlg{border:1px solid var(--st-chip-line);border-radius:14px;padding:20px;max-width:340px;width:calc(100% - 32px);
   background:var(--st-dlg-bg);color:var(--st-dlg-fg);font:14px/1.6 "Hiragino Kaku Gothic ProN","Yu Gothic",system-ui,sans-serif}
 #st-nick-dlg::backdrop{background:rgba(0,0,0,.45)}
 #st-nick-dlg h2{font-size:1.1rem;margin:0 0 6px}

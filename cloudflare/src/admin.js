@@ -72,17 +72,25 @@ function page(list, viewer, reports) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>管理</title>
+<script>/* ほかの画面で選んだ色（水色系・黒系）に合わせる */
+try{var t=localStorage.getItem('st-theme');if(t==='blue'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
 <style>
-  :root,[data-theme="blue"]{--bg:#f3fbfd;--card:#fff;--line:#bfe3ee;--text:#16384a;--muted:#5b7c8c;--accent:#1fa7c9}
+  /* 色・書体は大学受験モード（JukenCSS / ThemeCSS）と同じ */
+  :root,[data-theme="blue"]{--bg:#eaf8fc;--card:#fff;--line:#a9dcea;--text:#17394b;--muted:#5a7b8b;--accent:#1ba9cc}
   [data-theme="dark"]{--bg:#0f1724;--card:#182236;--line:#2a3651;--text:#e8eef7;--muted:#93a3bd;--accent:#3bc9db}
-  body{margin:0;background:var(--bg);color:var(--text);font-family:"Hiragino Kaku Gothic ProN","Yu Gothic",system-ui,sans-serif}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:"Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo",system-ui,sans-serif}
   main{max-width:860px;margin:0 auto;padding:48px 16px}
   a{color:var(--accent)}
-  h1{font-size:1.5rem;margin:8px 0 4px}
+  a.back-link{display:inline-block;padding:8px 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);
+    color:var(--text);font-size:.95rem;font-weight:700;text-decoration:none}
+  a.back-link:hover{color:var(--accent);border-color:var(--accent)}
+  h1{font-size:1.5rem;margin:16px 0 4px;letter-spacing:.08em}
   p.note{color:var(--muted);font-size:.9rem;margin:0 0 24px}
   form{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
-  input{flex:1 1 220px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--text);font:inherit}
-  button{padding:10px 16px;border:0;border-radius:8px;background:var(--accent);color:#fff;font:inherit;cursor:pointer}
+  input{flex:1 1 220px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--text);font:inherit;font-size:16px}
+  input:focus{outline:none;border-color:var(--accent)}
+  button{padding:10px 16px;border:0;border-radius:10px;background:var(--accent);color:#fff;font:inherit;cursor:pointer}
+  [data-theme="dark"] form button{color:#06202a}
   .btn-sub{padding:3px 8px;margin-left:6px;font-size:.75rem;background:transparent;color:var(--muted);border:1px solid var(--line)}
   label.inline{display:flex;align-items:center;gap:6px;color:var(--muted)}
   label.inline input{flex:none}
@@ -100,7 +108,7 @@ function page(list, viewer, reports) {
 </head>
 <body>
 <main>
-  <a href="/">← トップ</a>
+  <a class="back-link" href="/">← トップ</a>
   <h1>管理</h1>
   <p class="note">会員 … すべてのレベルが遊べて、広告が出ません。<br>
     大学受験 … トップの「⑤市高」（英単語・古文・歴史・対戦）が見えて使えます（会員のみ。③大学受験の暗記科目は誰でも使えます）。<br>
