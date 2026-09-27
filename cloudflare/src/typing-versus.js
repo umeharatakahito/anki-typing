@@ -90,6 +90,7 @@ export class TypingVersus extends DurableObject {
     this.room = null;           // { code, kbn, mode, rule, target, auto, hostSeat, createdAt }
     this.players = [];          // { ws, seat, name, member, again, out, dead, ta }
     this.game = null;           // { questions, r, scores, lives, roundOver, ended, allMembers }
+    this.seen = new Set();      // この部屋でもう出した問題（「もう一度」で同じ問題が出ないように）
   }
 
   async fetch(request) {
@@ -214,8 +215,15 @@ export class TypingVersus extends DurableObject {
     this.armRoundTimer(COUNTDOWN_MS);
   }
 
-  // 全員が会員なら全レベルから、そうでなければ無料の問題から。レベルの低い順に並べる
+  // 全員が会員なら全レベルから、そうでなければ無料の問題から。レベルの低い順に並べる。
+  // この部屋でもう出した問題は後回しにする（多めに引いて、まだ出していないものから使う）
   async pickQuestions(allMembers, count) {
+    const fresh = (rows, n) => {
+      const a = rows.filter(r => !this.seen.has(r.id)), b = rows.filter(r => this.seen.has(r.id));
+      const out = a.concat(b).slice(0, n);
+      out.forEach(r => this.seen.add(r.id));
+      return out;
+    };
     const kbn = this.room.kbn;
     const cat = CAT_BY_KBN[kbn];
     const freeOnly = allMembers ? '' : ' AND free = 1';
@@ -230,10 +238,10 @@ export class TypingVersus extends DurableObject {
       }
       rows = [];
       for (const L of Object.keys(want).map(Number).sort((a, b) => a - b)) {
-        rows.push(...await pickRandom(this.env.DB, kbn, COLS, `level = ? AND ${w.sql}${freeOnly}`, [L, ...w.args], want[L]));
+        rows.push(...fresh(await pickRandom(this.env.DB, kbn, COLS, `level = ? AND ${w.sql}${freeOnly}`, [L, ...w.args], want[L] * 3 + 3), want[L]));
       }
     } else {
-      rows = await pickRandom(this.env.DB, kbn, COLS, `level = 0 AND ${w.sql}${freeOnly}`, w.args, count);
+      rows = fresh(await pickRandom(this.env.DB, kbn, COLS, `level = 0 AND ${w.sql}${freeOnly}`, w.args, count * 3), count);
     }
     return rows.map(r => ({
       que: withSetLabel(kbn, r.kbn, r.que || ''), kan: r.kan || '', pid: r.id || 0, kbn: r.kbn || '', ans: r.ans || '', note: r.note || '', level: r.level || 0, qid: r.qid || '',
