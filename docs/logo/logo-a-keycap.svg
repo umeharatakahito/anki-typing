@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 140" role="img" aria-label="STUDY TYPE">
+  <!-- 案A：キーキャップ。キーの面に S と入力カーソル -->
+  <g transform="translate(14 14)">
+    <rect x="0" y="8" width="112" height="112" rx="22" fill="#0f1a3d"/>
+    <rect x="0" y="0" width="112" height="104" rx="22" fill="#1d2b53"/>
+    <rect x="12" y="10" width="88" height="80" rx="14" fill="#2b3d73"/>
+    <text x="50" y="76" text-anchor="middle" font-family="'Arial Black','Hiragino Sans','Helvetica Neue',sans-serif" font-weight="900" font-size="68" fill="#fff">S</text>
+    <rect x="80" y="30" width="7" height="46" rx="2" fill="#ff6b35"/>
+  </g>
+  <text x="148" y="84" font-family="'Arial Black','Helvetica Neue',sans-serif" font-weight="900" font-size="54" letter-spacing="1">
+    <tspan fill="#1d2b53">STUDY</tspan><tspan fill="#ff6b35" dx="10">TYPE</tspan>
+  </text>
+  <text x="150" y="116" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-weight="700" font-size="17" fill="#6b7591" letter-spacing="3">打って、覚えて、対戦だ。</text>
+</svg>

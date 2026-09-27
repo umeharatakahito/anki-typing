@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 140" role="img" aria-label="STUDY TYPE">
+  <!-- 案B：対戦。向かい合う 2 つのキーと稲妻 -->
+  <g transform="translate(10 18)">
+    <g transform="rotate(-10 40 52)">
+      <rect x="0" y="12" width="78" height="84" rx="16" fill="#0f1a3d"/>
+      <rect x="0" y="6" width="78" height="80" rx="16" fill="#1d2b53"/>
+      <text x="39" y="62" text-anchor="middle" font-family="'Arial Black',sans-serif" font-weight="900" font-size="44" fill="#fff">A</text>
+    </g>
+    <g transform="rotate(10 104 52)">
+      <rect x="66" y="12" width="78" height="84" rx="16" fill="#c2410c"/>
+      <rect x="66" y="6" width="78" height="80" rx="16" fill="#ff6b35"/>
+      <text x="105" y="62" text-anchor="middle" font-family="'Arial Black',sans-serif" font-weight="900" font-size="44" fill="#fff">Z</text>
+    </g>
+    <path d="M78 -4 L60 50 L76 50 L64 108 L96 38 L80 38 L94 -4 Z" fill="#ffc93c" stroke="#fff" stroke-width="4" stroke-linejoin="round"/>
+  </g>
+  <g font-family="'Arial Black','Helvetica Neue',sans-serif" font-weight="900" font-style="italic">
+    <text x="176" y="80" font-size="52" fill="#1d2b53">STUDY<tspan fill="#ff6b35" dx="8">TYPE</tspan></text>
+  </g>
+  <g stroke="#ffc93c" stroke-width="5" stroke-linecap="round">
+    <line x1="178" y1="98" x2="300" y2="98"/><line x1="196" y1="110" x2="270" y2="110"/>
+  </g>
+  <text x="312" y="112" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-weight="800" font-size="17" fill="#6b7591">タイピング対戦で覚える</text>
+</svg>

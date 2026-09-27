@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 140" role="img" aria-label="STUDY TYPE">
+  <!-- 案C：本とキーボード。開いた本の右ページがキー配列 -->
+  <g transform="translate(12 22)">
+    <path d="M60 14 C40 2 14 2 0 8 V96 C14 90 40 90 60 102 Z" fill="#1d2b53"/>
+    <path d="M64 14 C84 2 110 2 124 8 V96 C110 90 84 90 64 102 Z" fill="#ff6b35"/>
+    <g fill="#fff">
+      <rect x="12" y="24" width="38" height="5" rx="2.5" opacity=".85"/>
+      <rect x="12" y="38" width="30" height="5" rx="2.5" opacity=".6"/>
+      <rect x="12" y="52" width="36" height="5" rx="2.5" opacity=".6"/>
+      <rect x="12" y="66" width="24" height="5" rx="2.5" opacity=".6"/>
+      <rect x="74" y="24" width="10" height="10" rx="2.5"/><rect x="88" y="24" width="10" height="10" rx="2.5"/><rect x="102" y="24" width="10" height="10" rx="2.5"/>
+      <rect x="78" y="39" width="10" height="10" rx="2.5"/><rect x="92" y="39" width="10" height="10" rx="2.5"/><rect x="106" y="39" width="8" height="10" rx="2.5"/>
+      <rect x="74" y="54" width="10" height="10" rx="2.5"/><rect x="88" y="54" width="10" height="10" rx="2.5" fill="#ffc93c"/><rect x="102" y="54" width="10" height="10" rx="2.5"/>
+      <rect x="80" y="69" width="30" height="9" rx="2.5"/>
+    </g>
+  </g>
+  <text x="156" y="82" font-family="'Arial Rounded MT Bold','Hiragino Maru Gothic ProN','Helvetica Neue',sans-serif" font-weight="800" font-size="52" letter-spacing="2" fill="#1d2b53">study<tspan fill="#ff6b35">type</tspan></text>
+  <text x="158" y="114" font-family="'Hiragino Sans','Noto Sans JP',sans-serif" font-weight="700" font-size="16" fill="#6b7591" letter-spacing="4">受験も資格も雑学も、打って覚える</text>
+</svg>
