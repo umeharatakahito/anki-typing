@@ -337,7 +337,8 @@
       // 写経は答えを伏せない。かな側は hintShown が「見えている」状態にあたる。
       this.openTarget = race;
       if (kana) {
-        this.setKanaTarget(w.ko, w.koAlts || w.kanaAlts);
+        // 古文は古語の別の形（koAlts）、歴史は答えの別の読み（kanaAlts。歴史の語は q を持つ）
+        this.setKanaTarget(w.ko, w.koAlts || ('q' in w ? w.kanaAlts : null));
         this.hintShown = race;
       } else {
         this.enTarget = w.en.toLowerCase();

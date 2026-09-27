@@ -168,6 +168,7 @@ ${read('JukenVersus.gs')}
     if (f.enAlts) w.enAlts = f.enAlts;     // 英単語 STEP1 の別のつづり
     if (f.ex) w.ex = f.ex;                 // 例文の差し替え（古文 178 など）
     if (f.exja) w.exja = f.exja;
+    if (f.nu) w.nu = f.nu;                 // 補足（見出し語の注意書き）
   };
   JUKEN_WORDS.forEach(w => put(w, fixes['eigo:' + w.no + ':' + w.en]));
   KOBUN_WORDS.forEach(w => put(w, fixes['kobun:' + w.no + ':' + w.ko]));
