@@ -309,4 +309,58 @@ function kanaToRoman(kana) {
 
   return [result, outkana];
 }
+// ---------------------------------------------------------------
+// 答えの読みが複数あるとき（大学受験モードの英単語・古文・歴史）。
+// 打ったキーに合う読みだけを残し、今の読みが合わなければ合う読みへ切り替える。
+// g（各画面の状態）の wordR / kanaTokens / pattern / idx1 / idx2 / temp を、今の読みの状態にしておく。
+function kanaAltState_(reading) {
+  const c = kanaToRoman(reading);
+  return { wordR: c[0], kanaTokens: c[1], pattern: new Array(c[0].length).fill(0), idx1: 0, idx2: 0, temp: '' };
+}
+function kanaAltSet(g, kana, alts) {
+  Object.assign(g, kanaAltState_(kana));
+  g._alts = alts && alts.length ? [null].concat(alts.map(kanaAltState_)) : null;
+  g._altActive = 0;
+}
+function kanaAltStep_(st, key) {
+  if (!st || st.idx1 >= st.wordR.length) return null;
+  const s = { wordR: st.wordR, kanaTokens: st.kanaTokens, pattern: st.pattern.slice(), idx1: st.idx1, idx2: st.idx2, temp: st.temp + key };
+  let ok = key === s.wordR[s.idx1][s.pattern[s.idx1]][s.idx2];
+  if (!ok) {
+    // 別のローマ字表記（si / shi など）に切り替えられるか探す
+    const re = new RegExp('^' + s.temp.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+    for (let i = 0; i < s.wordR[s.idx1].length; i++) {
+      if (re.test(s.wordR[s.idx1][i])) {
+        s.pattern[s.idx1] = i;
+        ok = key === s.wordR[s.idx1][i][s.idx2];
+        break;
+      }
+    }
+  }
+  if (!ok) return null;
+  s.idx2++;
+  if (s.idx2 === s.wordR[s.idx1][s.pattern[s.idx1]].length) { s.idx1++; s.idx2 = 0; s.temp = ''; }
+  return s;
+}
+// 1 キー進める。どの読みにも合わなければ false（ミス）
+function kanaAltKey(g, key) {
+  const cur = { wordR: g.wordR, kanaTokens: g.kanaTokens, pattern: g.pattern, idx1: g.idx1, idx2: g.idx2, temp: g.temp };
+  const act = g._alts ? g._altActive : 0;
+  const states = g._alts ? g._alts.map((s, i) => i === act ? cur : s) : [cur];
+  const res = states.map(s => kanaAltStep_(s, key));
+  const pick = res[act] ? act : res.findIndex(Boolean);
+  if (pick < 0) return false;
+  Object.assign(g, res[pick]);
+  if (g._alts) { g._alts = res; g._altActive = pick; }
+  return true;
+}
+// 英語のつづり（colour / color など）。今の打ちかけに合う別のつづりへ切り替えられたら true
+function enAltSwitch(g, key, alts) {
+  if (!alts || !alts.length) return false;
+  const typed = g.enTarget.slice(0, g.enPos) + key;
+  const t = alts.map(a => String(a).toLowerCase()).find(a => a.startsWith(typed));
+  if (!t) return false;
+  g.enTarget = t;
+  return true;
+}
 </script>

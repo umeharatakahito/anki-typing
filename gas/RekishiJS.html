@@ -364,14 +364,8 @@
     },
 
     // ---- 打つ対象のかなをセットする ----
-    setKanaTarget: function (kana) {
-      const conv = kanaToRoman(kana);
-      this.wordR = conv[0];
-      this.kanaTokens = conv[1];
-      this.pattern = new Array(this.wordR.length).fill(0);
-      this.idx1 = 0;
-      this.idx2 = 0;
-      this.temp = '';
+    setKanaTarget: function (kana, alts) {
+      kanaAltSet(this, kana, alts);
       this.hintShown = false;
       this.revealCount = 0;   // 前の問題の頭出しを持ち越さない
       this.limitMs = Math.max(TIME_MIN,
@@ -383,7 +377,7 @@
       const w = this.words[this.index];
       this.locked = false;
       this.missedThisWord = false;
-      this.setKanaTarget(w.kana);
+      this.setKanaTarget(w.kana, w.kanaAlts);
 
       if (this.mode === 'zu') {
         $('phase-tag').textContent = '図表を埋める ・ ' + this.zu.title;
@@ -693,35 +687,7 @@
       if (!/^[a-z0-9\-,.'\s]$/.test(key)) return;
       if (!this.wordR || this.idx1 >= this.wordR.length) return;
 
-      this.temp += key;
-      let ok = false;
-
-      if (key === this.wordR[this.idx1][this.pattern[this.idx1]][this.idx2]) {
-        ok = true;
-      } else {
-        // 別のローマ字表記（si / shi など）に切り替えられるか探す
-        const re = new RegExp('^' + escapeRe(this.temp));
-        for (let i = 0; i < this.wordR[this.idx1].length; i++) {
-          if (re.test(this.wordR[this.idx1][i])) {
-            this.pattern[this.idx1] = i;
-            if (key === this.wordR[this.idx1][i][this.idx2]) ok = true;
-            break;
-          }
-        }
-      }
-
-      if (!ok) {
-        this.temp = this.temp.slice(0, -1);
-        this.onMiss();
-        return;
-      }
-
-      this.idx2++;
-      if (this.idx2 === this.wordR[this.idx1][this.pattern[this.idx1]].length) {
-        this.idx1++;
-        this.idx2 = 0;
-        this.temp = '';
-      }
+      if (!kanaAltKey(this, key)) { this.onMiss(); return; }
       this.renderKana();
 
       if (this.idx1 >= this.wordR.length) this.onClear();

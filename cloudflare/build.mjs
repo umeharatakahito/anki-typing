@@ -10,7 +10,7 @@
 // GAS 側を直したら npm run build し直せば Cloudflare 版にも入る。
 // ===============================================================
 
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -154,6 +154,23 @@ ${extractFunction(stats, 'jukenSubject_')}
 ${extractFunction(stats, 'wordsByKeys_')}
 
 ${read('JukenVersus.gs')}
+
+// ---- 答え・読みの直し（data/juken-fixes.json）。問題文の穴埋め化と、正解にする別の読み・つづり
+// キーは eigo:<no>:<en> / kobun:<no>:<ko> / rekishi:<no>
+(function (fixes) {
+  const put = (w, f) => {
+    if (!f) return;
+    if (f.q) { if ('q' in w) w.q = f.q; else w.ja = f.q; }   // 歴史は q、古文は ja（STEP1 の問題）
+    if (f.a) w.a = f.a;
+    if (f.kana) w.kana = f.kana;
+    if (f.alts) w.kanaAlts = f.alts;       // かなで打つ答えの別の読み
+    if (f.koAlts) w.koAlts = f.koAlts;     // 古文 STEP1（古語）の別の形
+    if (f.enAlts) w.enAlts = f.enAlts;     // 英単語 STEP1 の別のつづり
+  };
+  JUKEN_WORDS.forEach(w => put(w, fixes['eigo:' + w.no + ':' + w.en]));
+  KOBUN_WORDS.forEach(w => put(w, fixes['kobun:' + w.no + ':' + w.ko]));
+  REKISHI_WORDS.forEach(w => put(w, fixes['rekishi:' + w.no]));
+})(${existsSync(join(here, 'data', 'juken-fixes.json')) ? readFileSync(join(here, 'data', 'juken-fixes.json'), 'utf8') : '{}'});
 
 export {
   getJukenMeta, getJukenWords, getKobunMeta, getKobunWords,

@@ -312,7 +312,10 @@
       // 打ち終えたキーを押しっぱなしにした分などで、すぐ閉じないよう少しだけ待つ
       const onKey = e => {
         if (e.isComposing || e.key === 'Process' || ['Shift', 'Control', 'Alt', 'Meta', 'CapsLock'].includes(e.key)) return;
-        if (e.repeat || Date.now() - armedAt < 250 || document.querySelector('dialog[open]')) return;
+        // 画面キーボードは window に直接キーを送るので、先に入力側で読み捨て済みのことがある
+        if (e._stAteRest || e.repeat || Date.now() - armedAt < 250 || document.querySelector('dialog[open]')) return;
+        // 長い方の読みの続きを打っている間は、解説を閉じない
+        if (h.eatRest && h.eatRest(String(e.key).toLowerCase())) { e.preventDefault(); e.stopImmediatePropagation(); return; }
         e.preventDefault(); e.stopImmediatePropagation();
         done();
       };
@@ -436,6 +439,8 @@
       e.preventDefault(); h.pause();
     } else if (h.playing && h.paused) {
       e.preventDefault(); h.resume();
+    } else if (document.getElementById('menu-vs') && document.getElementById('menu-vs').offsetParent && document.getElementById('vs-back')) {
+      e.preventDefault(); document.getElementById('vs-back').click();   // 対戦の画面・待合室は「戻る」
     } else if (end && end.style.display !== 'none') {
       e.preventDefault(); h.resetGame();
     } else {

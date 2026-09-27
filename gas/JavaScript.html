@@ -1488,6 +1488,16 @@ enableMenuNav(menuEl) {
     return { s, chunkDone };
   }
 
+  hamachi.eatRest = function (key) {
+    const r = hamachi._rest;
+    if (!r) return false;
+    if (Date.now() - r.at > 3000 || key.length !== 1) { hamachi._rest = null; return false; }
+    const next = r.states.map(st => stepState(st, key)).filter(Boolean).map(x => x.s).filter(s => s.idx1 < s.wordR.length);
+    const ate = r.states.some(st => stepState(st, key));
+    hamachi._rest = next.length ? { states: next, at: Date.now() } : null;
+    return ate;
+  };
+
   function skipAutoChunks() {
     while (wordR && idx1 < wordR.length && wordR[idx1].length === 1 && AUTO_CHUNKS.test(wordR[idx1][0])) {
       idx1++;
@@ -1509,6 +1519,8 @@ enableMenuNav(menuEl) {
       hamachi._swallowN = 0;
       if (key === 'n' && recent) return;
     }
+    // 短い読みで打ち終えたあと、長い方の読み（ぼくせる → ぼくせるほう）の続きを打っている分は読み捨てる
+    if (hamachi.eatRest(key)) { event._stAteRest = true; return; }
     if (hamachi.awaitingNext) return;
 
     // 画面上キーボードの点灯
@@ -1548,6 +1560,9 @@ enableMenuNav(menuEl) {
 
         // 完了？
         if (idx1 === wordR.length) {
+          // まだ続きがある別の読みは、打ち終えた後の読み捨て用に残す
+          const rest = alts.filter((st, i) => i !== activeAlt && st && st.idx1 < st.wordR.length);
+          hamachi._rest = rest.length ? { states: rest, at: Date.now() } : null;
           const last = wordR.length - 1;
           if (hiragana[last] === 'ん' && wordR[last][pattern[last]] === 'n') hamachi._swallowN = Date.now();
           if (hamachi.timerInterval) { clearInterval(hamachi.timerInterval); hamachi.timerInterval = null; }
