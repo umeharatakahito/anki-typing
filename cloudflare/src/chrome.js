@@ -2,9 +2,11 @@
 // chrome.js
 // どの画面にも差し込む部品。
 //   ・右上のバー … Google ログイン／ログアウト、会員かどうか、色の切り替え
-//   ・広告枠   … 会員でない人だけ
+//   ・広告枠   … 会員でない人だけ。下の横長（どの画面も）、左右の縦長（広い画面のときだけ）、
+//               画面の中の枠（data-st-ad="result" など。見えたときに中身を入れる）
 // どちらもタイピング中は隠す（画面の「やめる」ボタンなどに重ならないように）
 // AdSense は ADSENSE_CLIENT（ca-pub-…）と ADSENSE_SLOT（数字）が両方あるときだけ本物を出し、
+// 枠ごとの広告ユニット ADSENSE_SLOT_RAIL / _RESULT / _LOBBY があればそれを、無ければ ADSENSE_SLOT を使う。
 // 無ければ「広告枠」の見本を出す（mars-run の AdRail と同じ考え方）。
 // ===============================================================
 
@@ -46,10 +48,21 @@ const CSS = `<style>
   border:1px dashed var(--st-chip-line);border-radius:8px;color:var(--st-chip-fg);font-size:12px}
 .st-ad-sample a{color:var(--st-accent)}
 body.st-has-ad{padding-bottom:84px}
+/* 左右の縦長：本文（最大 1080px）の外に 160px の枠が入る広さのときだけ */
+.st-rail{display:none;position:fixed;top:64px;z-index:9997;width:160px;min-height:600px}
+.st-rail-l{left:max(8px,calc((100vw - 1080px) / 4 - 80px))} .st-rail-r{right:max(8px,calc((100vw - 1080px) / 4 - 80px))}
+@media (min-width:1440px) and (min-height:700px){.st-rail{display:block}}
+.st-rail .st-ad-sample{min-height:600px;flex-direction:column;text-align:center;padding:8px}
+/* 画面の中の枠（結果の下・待合室）。中身が入るまで高さを取っておき、画面がずれないようにする */
+.st-ad-box{display:none;flex-direction:column;align-items:center;gap:4px;margin:16px auto;max-width:336px;min-height:280px;width:100%}
+body.st-ads .st-ad-box{display:flex}
+.st-ad-box .st-ad-label{font-size:10px;letter-spacing:.1em;color:var(--st-chip-fg);opacity:.55}
+.st-ad-box .st-ad-sample{min-height:250px;flex-direction:column;text-align:center}
 body.playing-game :is(.st-ad,#st-bar),
 body:has(#screen-game:not([hidden])) :is(.st-ad,#st-bar),
 body:has(#screen-zu:not([hidden])) :is(.st-ad,#st-bar),
 body:has(.vs-playing) :is(.st-ad,#st-bar){display:none}
+/* 左右の縦長は、打っている間も出したまま（本文から離れているので打つ邪魔にならない） */
 #st-nick-dlg{border:1px solid var(--st-chip-line);border-radius:14px;padding:20px;max-width:340px;width:calc(100% - 32px);
   background:var(--st-dlg-bg);color:var(--st-dlg-fg);font:14px/1.6 "Hiragino Kaku Gothic ProN","Yu Gothic",system-ui,sans-serif}
 #st-nick-dlg::backdrop{background:rgba(0,0,0,.45)}
@@ -95,6 +108,61 @@ function bar(viewer, env) {
     ? `<div id="st-gsi"></div>`
     : `<span class="st-chip st-free">無料版</span>`;
   return `<div id="st-bar">${theme}${login}</div>`;
+}
+
+// 枠ごとの広告ユニット。専用のユニットが無ければ、下の横長と同じユニットを使う
+function adSlots(env) {
+  const client = String(env.ADSENSE_CLIENT || '').trim();
+  const base = String(env.ADSENSE_SLOT || '').trim();
+  const pick = v => { v = String(v || '').trim(); return /^\d+$/.test(v) ? v : base; };
+  const ok = /^ca-pub-\d+$/.test(client) && /^\d+$/.test(base);
+  return ok ? { client, rail: pick(env.ADSENSE_SLOT_RAIL), result: pick(env.ADSENSE_SLOT_RESULT), lobby: pick(env.ADSENSE_SLOT_LOBBY) } : null;
+}
+
+const SAMPLE = '<div class="st-ad-sample"><span>広告枠</span><span>会員になると広告が消えます</span></div>';
+
+// 左右の縦長（広い画面のときだけ CSS で出す）
+function rails(env) {
+  const a = adSlots(env);
+  const one = side => `<div class="st-rail st-rail-${side}" role="complementary" aria-label="広告">` + (a
+    ? `<ins class="adsbygoogle" style="display:block;width:160px;height:600px" data-ad-client="${a.client}" data-ad-slot="${a.rail}"></ins>`
+    : SAMPLE) + '</div>';
+  return one('l') + one('r');
+}
+
+// 画面の中の枠（data-st-ad）は、見えたときに中身を入れる。隠れた枠へ入れると AdSense が大きさを測れないため
+function boxScript(env) {
+  const a = adSlots(env);
+  return `<script>
+(function(){
+  var A = ${JSON.stringify(a)};
+  var SAMPLE = ${JSON.stringify(SAMPLE)};
+  function fill(el){
+    if (el.dataset.stAdDone) return;
+    el.dataset.stAdDone = '1';
+    var kind = el.getAttribute('data-st-ad');
+    var slot = A && A[kind];
+    el.innerHTML = '<span class="st-ad-label">広告</span>' + (slot
+      ? '<ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px;max-width:100%" data-ad-client="' + A.client + '" data-ad-slot="' + slot + '"></ins>'
+      : SAMPLE);
+    if (slot) try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
+  }
+  document.body.classList.add('st-ads');
+  function watch(){
+    var els = document.querySelectorAll('[data-st-ad]');
+    if (!('IntersectionObserver' in window)) { els.forEach(fill); return; }
+    var io = new IntersectionObserver(function(es){
+      es.forEach(function(e){ if (e.isIntersecting) { io.unobserve(e.target); fill(e.target); } });
+    });
+    els.forEach(function(el){ io.observe(el); });
+  }
+  watch();
+  // 縦長の枠
+  if (A) document.querySelectorAll('.st-rail ins.adsbygoogle').forEach(function(el){
+    if (el.offsetWidth) try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
+  });
+})();
+</script>`;
 }
 
 function ad(env) {
@@ -191,6 +259,6 @@ export function decorate(html, viewer, env, theme) {
   html = html.replace('</head>', CSS + '\n</head>');
   // バーは <body> のすぐ後（スマホでは画面の上に並ぶ）、それ以外は </body> の前
   html = html.replace(/<body([^>]*)>/i, m => m + '\n' + bar(viewer, env));
-  const parts = nickDialog(viewer) + (viewer.member ? '' : ad(env)) + script(viewer, env);
+  const parts = nickDialog(viewer) + (viewer.member ? '' : ad(env) + rails(env) + boxScript(env)) + script(viewer, env);
   return html.replace(/<\/body>(?![\s\S]*<\/body>)/i, parts + '\n</body>');
 }

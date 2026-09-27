@@ -329,7 +329,7 @@ URL は `/koko`、`/koko/shakai`、`/play/flag-country` のように階層を表
 |---|---|
 | 1 ✅ | カテゴリ木（`cloudflare/src/sets.js` の MENU / FEATURED / UPCOMING）とトップ・分類ページ（`cloudflare/src/portal.js`）・アイコン（Lucide、`src/icons.js`）。既存の問題集を新しい置き場所へ。以前の `?p=it / ichimon / english` は資格 / 大学受験 / 英会話へ読み替え |
 | 2 ✅ | プレイ設定画面（ひとり/対戦統合）と時間制ルール・スコア・結果画面（`gas/PlaySetup.html`）。本番のモード名は「基本・90秒」の形で保存。パスは Enter（Esc は今までどおり一時停止）。称号のしきい値（1 分あたりの点）は遊んだ記録を見て調整する |
-| 3 | 広告枠 A/B/D/E |
+| 3 ✅ | 広告枠 A/B（左右の縦長。幅 1440px 以上）、D（結果の下 336×280）、E（待合室 336×280）。`cloudflare/src/chrome.js`。ページ側は `data-st-ad="result"` のような枠を置くだけ（見えたときに中身が入る）。専用ユニットは ADSENSE_SLOT_RAIL / _RESULT / _LOBBY |
 | 4 | 雑学：国旗・世界地図・日本地図・元素記号（素材が PD で作りやすいものから） |
 | 5 | 雑学：写真もの（魚・花・昆虫・世界遺産） |
 | 6 | 対戦の新ルール（タイムアタック / サバイバル / ランダム対戦・ゴースト）※優先度低 |
