@@ -450,6 +450,9 @@ const markKind = k => k === 'juken' ? 'juken' : 'typing';
 // ゲームの結果を記録して、その問題たちの今の状態を返す。
 // entries: [{ key, kbn, pid?, result: 'ok'|'mid'|'ng' }]、count = false（写経・対戦）なら記録せず読むだけ
 export async function reviewSync(env, payload) {
+  try { return await reviewSync_(env, payload); } catch (e) { return { error: 'marks' }; }   // marks 表がまだ無いときなど
+}
+async function reviewSync_(env, payload) {
   const email = env.viewer.email;
   if (!email) return { error: 'login' };
   const p = payload || {};
@@ -485,6 +488,9 @@ async function markState(env, kind, keys) {
 
 // ☆ を付ける・外す。付けたときは連続正解を 0 から数え直す
 export async function setMark(env, payload) {
+  try { return await setMark_(env, payload); } catch (e) { return { error: 'marks' }; }
+}
+async function setMark_(env, payload) {
   const email = env.viewer.email;
   if (!email) return { error: 'login' };
   const p = payload || {};
