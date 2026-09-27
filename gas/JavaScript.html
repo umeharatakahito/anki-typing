@@ -1478,6 +1478,11 @@ enableMenuNav(menuEl) {
         }
       }
     }
+    // 打ちかけのかなを最初から打ち直したとき（じゅ を zi まで打って ju と打ち直す、など）はそれを受け付ける
+    if (!ok && s.idx2 > 0) {
+      const i = s.wordR[s.idx1].findIndex(p => p[0] === key);
+      if (i >= 0) { s.pattern[s.idx1] = i; s.idx2 = 0; s.temp = key; ok = true; }
+    }
     if (!ok) return null;
     s.idx2++;
     let chunkDone = false;
