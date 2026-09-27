@@ -1,0 +1,234 @@
+# 国語・英語 問題の見直し（上書き）
+
+`data/overrides-kokugo-english.json` に入れた変更の一覧。
+
+- Task 1（答えの一部しか問えていない）：73 問
+- Task 2（ほかの読み・つづりも正解にする）：141 問
+
+## Task 1：答えの一部が問題文から分からないもの
+
+英語イディオムの「be ＋形容詞＋前置詞」の熟語は、英語の定義文だけでは be を付けるか分からない（同じ prep の問題でも in front of などは be なし）。問題文は変えず、be なしも正解に加えた。
+
+- idioms-extra-0006：be scared of に読み追加：scared of — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-extra-0007：be married to に読み追加：married to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-extra-0008：be grateful for に読み追加：grateful for — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-extra-0009：be immune to に読み追加：immune to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-extra-0010：be impervious to に読み追加：impervious to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0001：be afraid of に読み追加：afraid of — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0002：be proud of に読み追加：proud of — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0005：be good at に読み追加：good at — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0006：be interested in に読み追加：interested in — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0007：be famous for に読み追加：famous for — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0008：be full of に読み追加：full of — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0009：be different from に読み追加：different from — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0010：be late for に読み追加：late for — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0011：be kind to に読み追加：kind to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0012：be tired of に読み追加：tired of — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0013：be fond of に読み追加：fond of — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0014：be ready for に読み追加：ready for — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0015：be absent from に読み追加：absent from — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0016：be similar to に読み追加：similar to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0017：be surprised at に読み追加：surprised at — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0018：be covered with に読み追加：covered with — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0022：be worried about に読み追加：worried about — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0023：be busy with に読み追加：busy with — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0024：be poor at に読み追加：poor at — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0025：be crowded with に読み追加：crowded with — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0026：be pleased with に読み追加：pleased with — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0028：be sure of に読み追加：sure of — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0029：be excited about に読み追加：excited about — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0030：be good for に読み追加：good for — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0032：be satisfied with に読み追加：satisfied with — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0033：be familiar with に読み追加：familiar with — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0034：be filled with に読み追加：filled with — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0035：be jealous of に読み追加：jealous of — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0036：be known for に読み追加：known for — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0037：be aware of に読み追加：aware of — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0038：be short of に読み追加：short of — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0039：be curious about に読み追加：curious about — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0041：be responsible for に読み追加：responsible for — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0042：be capable of に読み追加：capable of — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0043：be independent of に読み追加：independent of — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0044：be dependent on に読み追加：dependent on — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0048：be accustomed to に読み追加：accustomed to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0049：be absorbed in に読み追加：absorbed in — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0050：be ashamed of に読み追加：ashamed of — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0053：be concerned about に読み追加：concerned about — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0054：be indifferent to に読み追加：indifferent to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0055：be superior to に読み追加：superior to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0056：be inferior to に読み追加：inferior to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0059：be suitable for に読み追加：suitable for — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0060：be equal to に読み追加：equal to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0062：be sensitive to に読み追加：sensitive to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0063：be keen on に読み追加：keen on — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0064：be engaged in に読み追加：engaged in — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0065：be involved in に読み追加：involved in — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0066：be eligible for に読み追加：eligible for — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0069：be consistent with に読み追加：consistent with — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0070：be subject to に読み追加：subject to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0073：be exempt from に読み追加：exempt from — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0074：be committed to に読み追加：committed to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0078：be devoid of に読み追加：devoid of — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0083：be susceptible to に読み追加：susceptible to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0084：be conducive to に読み追加：conducive to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0086：be contingent on に読み追加：contingent on — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0090：be tantamount to に読み追加：tantamount to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0091：be oblivious to に読み追加：oblivious to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0092：be averse to に読み追加：averse to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0095：be privy to に読み追加：privy to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0098：be fraught with に読み追加：fraught with — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0099：be steeped in に読み追加：steeped in — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0100：be predicated on に読み追加：predicated on — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0101：be beholden to に読み追加：beholden to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0103：be rife with に読み追加：rife with — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+- idioms-prep-0104：be akin to に読み追加：akin to — 英語の定義文からは be を付けるか分からない（in front of などは be なし）ので、be なしも正解にする
+
+## Task 2：ほかにも正しい読み・つづり
+
+- koko-kokugo-0233：読経（どきょう）に読み追加：どっきょう、どくきょう — 辞書（大辞泉・広辞苑）が「どっきょう」「どくきょう」とも読むと載せている
+- koko-kokugo-0185：師走（しわす）に読み追加：しはす — 辞書が「しはす」とも読むと載せている（歴史的な読み）
+- koko-eigo-0011：color（color）に読み追加：colour — イギリスつづり
+- koko-eigo-0053：favorite（favorite）に読み追加：favourite — イギリスつづり
+- koko-eigo-0137：neighbor（neighbor）に読み追加：neighbour — イギリスつづり
+- koko-eigo-0296：neighborhood（neighborhood）に読み追加：neighbourhood — イギリスつづり
+- koko-eigo-0106：practice（practice）に読み追加：practise — イギリスでは動詞は practise とつづる
+- koko-eigo-0210：realize（realize）に読み追加：realise — イギリスつづり
+- koko-eigo-0307：apologize（apologize）に読み追加：apologise — イギリスつづり
+- koko-eigo-0124：until（until）に読み追加：till — 「〜まで」は till でも同じ意味で正しい
+- core-theater-noun：theater（theater）に読み追加：theatre — イギリスつづり
+- core-harbor-noun：harbor（harbor）に読み追加：harbour — イギリスつづり
+- core-neighbor-noun：neighbor（neighbor）に読み追加：neighbour — イギリスつづり
+- core-neighborhood-noun：neighborhood（neighborhood）に読み追加：neighbourhood — イギリスつづり
+- core-jewelry-noun：jewelry（jewelry）に読み追加：jewellery — イギリスつづり
+- core-armor-noun：armor（armor）に読み追加：armour — イギリスつづり
+- core-analyze-verb：analyze（analyze）に読み追加：analyse — イギリスつづり
+- core-organize-verb：organize（organize）に読み追加：organise — イギリスつづり
+- core-criticize-verb：criticize（criticize）に読み追加：criticise — イギリスつづり
+- core-apologize-verb：apologize（apologize）に読み追加：apologise — イギリスつづり
+- core-emphasize-verb：emphasize（emphasize）に読み追加：emphasise — イギリスつづり
+- core-summarize-verb：summarize（summarize）に読み追加：summarise — イギリスつづり
+- core-labor-noun：labor（labor）に読み追加：labour — イギリスつづり
+- core-rumor-noun：rumor（rumor）に読み追加：rumour — イギリスつづり
+- core-honor-noun：honor（honor）に読み追加：honour — イギリスつづり
+- core-fertilizer-noun：fertilizer（fertilizer）に読み追加：fertiliser — イギリスつづり
+- core-practice-verb：practice（practice）に読み追加：practise — イギリスでは動詞は practise とつづる
+- core-license-noun：license（license）に読み追加：licence — イギリスでは名詞は licence とつづる
+- core-axe-noun：axe（axe）に読み追加：ax — アメリカつづり
+- core-dialogue-noun：dialogue（dialogue）に読み追加：dialog — アメリカで使われるつづり（辞書に併記）
+- core-checkup-noun：checkup（checkup）に読み追加：check-up — ハイフン付きのつづりも辞書にある
+- idioms-prep-0052：in favor of（in favor of）に読み追加：in favour of — イギリスつづり
+- idioms-prep-0085：in light of（in light of）に読み追加：in the light of — イギリスでは the を入れる形がふつう
+- idioms-pv-0092：come around（come around）に読み追加：come round — イギリス英語の形
+- idioms-pv-0040：turn around（turn around）に読み追加：turn round — イギリス英語の形
+- idioms-talk-0059：around the corner（around the corner）に読み追加：round the corner — イギリス英語の形
+- idioms-talk-0048：beat around the bush（beat around the bush）に読み追加：beat about the bush — イギリス英語の形
+- idioms-talk-0083：a drop in the bucket（a drop in the bucket）に読み追加：a drop in the ocean — イギリス英語の形
+- idioms-talk-0099：a storm in a teacup（a storm in a teacup）に読み追加：a tempest in a teapot — アメリカ英語の形
+- idioms-extra-0017：a green thumb（a green thumb）に読み追加：green fingers — イギリス英語の形（have green fingers）
+- idioms-talk-0078：icing on the cake（icing on the cake）に読み追加：the icing on the cake — the を付けた形もふつうに使う
+- idioms-talk-0018：sleep like a log（sleep like a log）に読み追加：slept like a log — 問題文が What did I do? なので過去形も正しい
+- idioms-talk-0049：get cold feet（get cold feet）に読み追加：got cold feet — 問題文が What happened? なので過去形も正しい
+- idioms-talk-0058：sell like hot cakes（sell like hot cakes）に読み追加：sold like hot cakes — 問題文が What did it do? なので過去形も正しい
+- idioms-talk-0077：blow off steam（blow off steam）に読み追加：blew off steam — 問題文が What did he do? なので過去形も正しい
+- idioms-talk-0095：go down the drain（go down the drain）に読み追加：went down the drain — 問題文が What happened to my work? なので過去形も正しい
+- idioms-talk-0086：get it off my chest（get it off my chest）に読み追加：got it off my chest — 問題文が過去の出来事なので過去形も正しい
+- idioms-talk-0104：under one's belt（under ones belt）に読み追加：under her belt — 問題文の人物（Mika）に合わせた her も正しい
+- idioms-talk-0019：feeling blue（feeling blue）に読み追加：feel blue、blue — What mood am I in? への答えとして blue だけ・feel blue も正しい
+- phrases-ask-0005：Where's the station?（wheres the station）に読み追加：where is the station — 短縮しない形も自然な答え
+- phrases-ask-0015：Where's the library?（wheres the library）に読み追加：where is the library — 短縮しない形も自然な答え
+- phrases-ask-0016：I'll carry it.（ill carry it.）に読み追加：i will carry it — 短縮しない形も自然な答え
+- phrases-ask-0033：Can I ask a favor?（can i ask a favor）に読み追加：can i ask a favour — イギリスつづり
+- phrases-ask-0083：Humor me.（humor me.）に読み追加：humour me — イギリスつづり
+- phrases-extra-0013：Is there Wi-Fi?（is there wi-fi）に読み追加：is there wifi — Wi-Fi は wifi ともつづる
+- phrases-extra-0020：It's a no-brainer.（its a no-brainer.）に読み追加：it is a no-brainer — 短縮しない形も自然な答え
+- phrases-feel-0002：I'm so happy!（im so happy）に読み追加：i am so happy — 短縮しない形も自然な答え
+- phrases-feel-0004：It's delicious!（its delicious）に読み追加：it is delicious — 短縮しない形も自然な答え
+- phrases-feel-0006：I'm scared!（im scared）に読み追加：i am scared — 短縮しない形も自然な答え
+- phrases-feel-0007：That's great!（thats great）に読み追加：that is great — 短縮しない形も自然な答え
+- phrases-feel-0011：Are you OK?（are you ok）に読み追加：are you okay — OK は okay ともつづる
+- phrases-feel-0013：That's too bad.（thats too bad.）に読み追加：that is too bad — 短縮しない形も自然な答え
+- phrases-feel-0015：That's cute!（thats cute）に読み追加：that is cute — 短縮しない形も自然な答え
+- phrases-feel-0017：I'm nervous.（im nervous.）に読み追加：i am nervous — 短縮しない形も自然な答え
+- phrases-feel-0023：That's so funny!（thats so funny）に読み追加：that is so funny — 短縮しない形も自然な答え
+- phrases-feel-0024：You're right.（youre right.）に読み追加：you are right — 短縮しない形も自然な答え
+- phrases-feel-0026：Oh, that's terrible.（oh, thats terrible.）に読み追加：oh, that is terrible — 短縮しない形も自然な答え
+- phrases-feel-0027：I don't think so.（i dont think so.）に読み追加：i do not think so — 短縮しない形も自然な答え
+- phrases-feel-0028：That's wonderful!（thats wonderful）に読み追加：that is wonderful — 短縮しない形も自然な答え
+- phrases-feel-0029：Don't give up!（dont give up）に読み追加：do not give up — 短縮しない形も自然な答え
+- phrases-feel-0037：You'll do great!（youll do great）に読み追加：you will do great — 短縮しない形も自然な答え
+- phrases-feel-0038：It'll be all right.（itll be all right.）に読み追加：it will be all right — 短縮しない形も自然な答え
+- phrases-feel-0046：I'm proud of you!（im proud of you）に読み追加：i am proud of you — 短縮しない形も自然な答え
+- phrases-feel-0047：I'm not so sure.（im not so sure.）に読み追加：i am not so sure — 短縮しない形も自然な答え
+- phrases-feel-0048：I'm happy for you.（im happy for you.）に読み追加：i am happy for you — 短縮しない形も自然な答え
+- phrases-feel-0053：It's worth it.（its worth it.）に読み追加：it is worth it — 短縮しない形も自然な答え
+- phrases-feel-0054：I can't wait!（i cant wait）に読み追加：i cannot wait — 短縮しない形も自然な答え
+- phrases-feel-0055：That's amazing news!（thats amazing news）に読み追加：that is amazing news — 短縮しない形も自然な答え
+- phrases-feel-0056：I'm here for you.（im here for you.）に読み追加：i am here for you — 短縮しない形も自然な答え
+- phrases-feel-0059：That's a tough one.（thats a tough one.）に読み追加：that is a tough one — 短縮しない形も自然な答え
+- phrases-feel-0061：I'm all for it.（im all for it.）に読み追加：i am all for it — 短縮しない形も自然な答え
+- phrases-feel-0064：It's hard to say.（its hard to say.）に読み追加：it is hard to say — 短縮しない形も自然な答え
+- phrases-feel-0066：I wouldn't worry.（i wouldnt worry.）に読み追加：i would not worry — 短縮しない形も自然な答え
+- phrases-feel-0068：You're too modest.（youre too modest.）に読み追加：you are too modest — 短縮しない形も自然な答え
+- phrases-feel-0073：I'm on the fence.（im on the fence.）に読み追加：i am on the fence — 短縮しない形も自然な答え
+- phrases-feel-0081：I'm over the moon!（im over the moon）に読み追加：i am over the moon — 短縮しない形も自然な答え
+- phrases-greet-0004：I'm fine, thank you.（im fine, thank you.）に読み追加：i am fine, thank you — 短縮しない形も自然な答え
+- phrases-greet-0006：I'm home!（im home）に読み追加：i am home — 短縮しない形も自然な答え
+- phrases-greet-0008：It's a nice day!（its a nice day）に読み追加：it is a nice day — 短縮しない形も自然な答え
+- phrases-greet-0012：I'm from Japan.（im from japan.）に読み追加：i am from japan — 短縮しない形も自然な答え
+- phrases-greet-0013：I'm twelve.（im twelve.）に読み追加：i am twelve、im 12、i am 12 — 短縮しない形も自然な答え・数字で書いても正しい
+- phrases-greet-0017：It's so hot!（its so hot）に読み追加：it is so hot — 短縮しない形も自然な答え
+- phrases-greet-0022：It's sunny.（its sunny.）に読み追加：it is sunny — 短縮しない形も自然な答え
+- phrases-greet-0039：I'm a nurse.（im a nurse.）に読み追加：i am a nurse — 短縮しない形も自然な答え
+- phrases-greet-0048：No, I'm from Kobe.（no, im from kobe.）に読み追加：no, i am from kobe — 短縮しない形も自然な答え
+- phrases-greet-0059：Here's my card.（heres my card.）に読み追加：here is my card — 短縮しない形も自然な答え
+- phrases-greet-0069：It's a small world!（its a small world）に読み追加：it is a small world — 短縮しない形も自然な答え
+- phrases-greet-0071：It's been ages!（its been ages）に読み追加：it has been ages — 短縮しない形も自然な答え
+- phrases-greet-0073：I'll let you go.（ill let you go.）に読み追加：i will let you go — 短縮しない形も自然な答え
+- phrases-greet-0088：I won't!（i wont）に読み追加：i will not — 短縮しない形も自然な答え
+- phrases-reply-0002：I'm sorry.（im sorry.）に読み追加：i am sorry — 短縮しない形も自然な答え
+- phrases-reply-0003：You're welcome.（youre welcome.）に読み追加：you are welcome — 短縮しない形も自然な答え
+- phrases-reply-0007：That's OK.（thats ok.）に読み追加：thats okay、that is ok、that is okay — 短縮しない形も自然な答え・OK は okay ともつづる
+- phrases-reply-0008：Sorry I'm late.（sorry im late.）に読み追加：sorry i am late — 短縮しない形も自然な答え
+- phrases-reply-0011：Sorry, I don't know.（sorry, i dont know.）に読み追加：sorry, i do not know — 短縮しない形も自然な答え
+- phrases-reply-0018：I'm so sorry.（im so sorry.）に読み追加：i am so sorry — 短縮しない形も自然な答え
+- phrases-reply-0019：Don't worry.（dont worry.）に読み追加：do not worry — 短縮しない形も自然な答え
+- phrases-reply-0024：OK, I will.（ok, i will.）に読み追加：okay, i will — OK は okay ともつづる
+- phrases-reply-0027：Sorry, I can't.（sorry, i cant.）に読み追加：sorry, i cannot — 短縮しない形も自然な答え
+- phrases-reply-0028：That's all right.（thats all right.）に読み追加：that is all right — 短縮しない形も自然な答え
+- phrases-reply-0037：I'm fine, thanks.（im fine, thanks.）に読み追加：i am fine, thanks — 短縮しない形も自然な答え
+- phrases-reply-0048：I'd be happy to.（id be happy to.）に読み追加：i would be happy to — 短縮しない形も自然な答え
+- phrases-reply-0051：I'm afraid I can't.（im afraid i cant.）に読み追加：i am afraid i cannot — 短縮しない形も自然な答え
+- phrases-reply-0059：I'll look into it.（ill look into it.）に読み追加：i will look into it — 短縮しない形も自然な答え
+- phrases-reply-0061：Sorry, I'm swamped.（sorry, im swamped.）に読み追加：sorry, i am swamped — 短縮しない形も自然な答え
+- phrases-reply-0073：You're a lifesaver.（youre a lifesaver.）に読み追加：you are a lifesaver — 短縮しない形も自然な答え
+- phrases-reply-0074：That's on me.（thats on me.）に読み追加：that is on me — 短縮しない形も自然な答え
+- phrases-reply-0086：You'd do the same.（youd do the same.）に読み追加：you would do the same — 短縮しない形も自然な答え
+- phrases-trip-0004：I'm full.（im full.）に読み追加：i am full — 短縮しない形も自然な答え
+- phrases-trip-0005：Where is the toilet?（where is the toilet）に読み追加：wheres the toilet — 短縮形も自然な答え
+- phrases-trip-0011：Where is the exit?（where is the exit）に読み追加：wheres the exit — 短縮形も自然な答え
+- phrases-trip-0017：I'm just looking.（im just looking.）に読み追加：i am just looking — 短縮しない形も自然な答え
+- phrases-trip-0018：I'll take them.（ill take them.）に読み追加：i will take them — 短縮しない形も自然な答え
+- phrases-trip-0022：I'm lost.（im lost.）に読み追加：i am lost — 短縮しない形も自然な答え
+- phrases-trip-0023：That's all, thanks.（thats all, thanks.）に読み追加：that is all, thanks — 短縮しない形も自然な答え
+- phrases-trip-0026：Check, please.（check, please.）に読み追加：bill, please — イギリス英語の言い方
+- phrases-trip-0028：I didn't order this.（i didnt order this.）に読み追加：i did not order this — 短縮しない形も自然な答え
+- phrases-trip-0032：They're too small.（theyre too small.）に読み追加：they are too small — 短縮しない形も自然な答え
+- phrases-trip-0034：I'd like a refund.（id like a refund.）に読み追加：i would like a refund — 短縮しない形も自然な答え
+- phrases-trip-0037：My AC doesn't work.（my ac doesnt work.）に読み追加：my ac does not work — 短縮しない形も自然な答え
+- phrases-trip-0039：I'm a vegetarian.（im a vegetarian.）に読み追加：i am a vegetarian — 短縮しない形も自然な答え
+- phrases-trip-0043：That's my seat.（thats my seat.）に読み追加：that is my seat — 短縮しない形も自然な答え
+- phrases-trip-0049：It's overcooked.（its overcooked.）に読み追加：it is overcooked — 短縮しない形も自然な答え
+- phrases-trip-0052：I'm locked out.（im locked out.）に読み追加：i am locked out — 短縮しない形も自然な答え
+- phrases-trip-0054：There's a mistake.（theres a mistake.）に読み追加：there is a mistake — 短縮しない形も自然な答え
+- phrases-trip-0065：Either's fine.（eithers fine.）に読み追加：either is fine — 短縮しない形も自然な答え
+- phrases-trip-0072：I'm all set.（im all set.）に読み追加：i am all set — 短縮しない形も自然な答え
+- phrases-trip-0078：I'm a bit short.（im a bit short.）に読み追加：i am a bit short — 短縮しない形も自然な答え
+- phrases-trip-0079：It was a rip-off.（it was a rip-off.）に読み追加：it was a ripoff — ripoff とハイフンなしでもつづる
+- phrases-trip-0082：That's steep.（thats steep.）に読み追加：that is steep — 短縮しない形も自然な答え
+- phrases-trip-0083：I'll go with that.（ill go with that.）に読み追加：i will go with that — 短縮しない形も自然な答え
+
+## 見送ったもの（参考）
+
+- 国語：一日・七夕（しちせき）・今年（こんねん）・今朝（こんちょう）は、問題文の文脈では訓読みだけが自然なので追加しない。相殺（そうさつ）・凡例（ぼんれい）・画竜点睛（がりゅう〜）・濡れ手で粟（ぬれてに〜）は誤読とされるので追加しない。
+- 国語：漢字の読み問題はすべて答えの語が問題文にそのまま出ていて、ことわざ・慣用句・四字熟語・故事成語は辞書の見出しの形なので、Task 1 の対象はなかった。
+- 英語：同じ意味の別の単語（throw out / permit / stay in touch など）は「つづりの違い」ではないので追加しない。It's on me・I've got this・Can't complain など、短縮形でないと不自然なものは追加しない。

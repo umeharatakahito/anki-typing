@@ -1,0 +1,1078 @@
+{
+ "koko-kokugo-0233": {
+  "alts": [
+   "どっきょう",
+   "どくきょう"
+  ]
+ },
+ "koko-kokugo-0185": {
+  "alts": [
+   "しはす"
+  ]
+ },
+ "koko-eigo-0011": {
+  "alts": [
+   "colour"
+  ]
+ },
+ "koko-eigo-0053": {
+  "alts": [
+   "favourite"
+  ]
+ },
+ "koko-eigo-0137": {
+  "alts": [
+   "neighbour"
+  ]
+ },
+ "koko-eigo-0296": {
+  "alts": [
+   "neighbourhood"
+  ]
+ },
+ "koko-eigo-0106": {
+  "alts": [
+   "practise"
+  ]
+ },
+ "koko-eigo-0210": {
+  "alts": [
+   "realise"
+  ]
+ },
+ "koko-eigo-0307": {
+  "alts": [
+   "apologise"
+  ]
+ },
+ "koko-eigo-0124": {
+  "alts": [
+   "till"
+  ]
+ },
+ "core-theater-noun": {
+  "alts": [
+   "theatre"
+  ]
+ },
+ "core-harbor-noun": {
+  "alts": [
+   "harbour"
+  ]
+ },
+ "core-neighbor-noun": {
+  "alts": [
+   "neighbour"
+  ]
+ },
+ "core-neighborhood-noun": {
+  "alts": [
+   "neighbourhood"
+  ]
+ },
+ "core-jewelry-noun": {
+  "alts": [
+   "jewellery"
+  ]
+ },
+ "core-armor-noun": {
+  "alts": [
+   "armour"
+  ]
+ },
+ "core-analyze-verb": {
+  "alts": [
+   "analyse"
+  ]
+ },
+ "core-organize-verb": {
+  "alts": [
+   "organise"
+  ]
+ },
+ "core-criticize-verb": {
+  "alts": [
+   "criticise"
+  ]
+ },
+ "core-apologize-verb": {
+  "alts": [
+   "apologise"
+  ]
+ },
+ "core-emphasize-verb": {
+  "alts": [
+   "emphasise"
+  ]
+ },
+ "core-summarize-verb": {
+  "alts": [
+   "summarise"
+  ]
+ },
+ "core-labor-noun": {
+  "alts": [
+   "labour"
+  ]
+ },
+ "core-rumor-noun": {
+  "alts": [
+   "rumour"
+  ]
+ },
+ "core-honor-noun": {
+  "alts": [
+   "honour"
+  ]
+ },
+ "core-fertilizer-noun": {
+  "alts": [
+   "fertiliser"
+  ]
+ },
+ "core-practice-verb": {
+  "alts": [
+   "practise"
+  ]
+ },
+ "core-license-noun": {
+  "alts": [
+   "licence"
+  ]
+ },
+ "core-axe-noun": {
+  "alts": [
+   "ax"
+  ]
+ },
+ "core-dialogue-noun": {
+  "alts": [
+   "dialog"
+  ]
+ },
+ "core-checkup-noun": {
+  "alts": [
+   "check-up"
+  ]
+ },
+ "idioms-prep-0052": {
+  "alts": [
+   "in favour of"
+  ]
+ },
+ "idioms-prep-0085": {
+  "alts": [
+   "in the light of"
+  ]
+ },
+ "idioms-pv-0092": {
+  "alts": [
+   "come round"
+  ]
+ },
+ "idioms-pv-0040": {
+  "alts": [
+   "turn round"
+  ]
+ },
+ "idioms-talk-0059": {
+  "alts": [
+   "round the corner"
+  ]
+ },
+ "idioms-talk-0048": {
+  "alts": [
+   "beat about the bush"
+  ]
+ },
+ "idioms-talk-0083": {
+  "alts": [
+   "a drop in the ocean"
+  ]
+ },
+ "idioms-talk-0099": {
+  "alts": [
+   "a tempest in a teapot"
+  ]
+ },
+ "idioms-extra-0017": {
+  "alts": [
+   "green fingers"
+  ]
+ },
+ "idioms-talk-0078": {
+  "alts": [
+   "the icing on the cake"
+  ]
+ },
+ "idioms-talk-0018": {
+  "alts": [
+   "slept like a log"
+  ]
+ },
+ "idioms-talk-0049": {
+  "alts": [
+   "got cold feet"
+  ]
+ },
+ "idioms-talk-0058": {
+  "alts": [
+   "sold like hot cakes"
+  ]
+ },
+ "idioms-talk-0077": {
+  "alts": [
+   "blew off steam"
+  ]
+ },
+ "idioms-talk-0095": {
+  "alts": [
+   "went down the drain"
+  ]
+ },
+ "idioms-talk-0086": {
+  "alts": [
+   "got it off my chest"
+  ]
+ },
+ "idioms-talk-0104": {
+  "alts": [
+   "under her belt"
+  ]
+ },
+ "idioms-talk-0019": {
+  "alts": [
+   "feel blue",
+   "blue"
+  ]
+ },
+ "idioms-extra-0006": {
+  "alts": [
+   "scared of"
+  ]
+ },
+ "idioms-extra-0007": {
+  "alts": [
+   "married to"
+  ]
+ },
+ "idioms-extra-0008": {
+  "alts": [
+   "grateful for"
+  ]
+ },
+ "idioms-extra-0009": {
+  "alts": [
+   "immune to"
+  ]
+ },
+ "idioms-extra-0010": {
+  "alts": [
+   "impervious to"
+  ]
+ },
+ "idioms-prep-0001": {
+  "alts": [
+   "afraid of"
+  ]
+ },
+ "idioms-prep-0002": {
+  "alts": [
+   "proud of"
+  ]
+ },
+ "idioms-prep-0005": {
+  "alts": [
+   "good at"
+  ]
+ },
+ "idioms-prep-0006": {
+  "alts": [
+   "interested in"
+  ]
+ },
+ "idioms-prep-0007": {
+  "alts": [
+   "famous for"
+  ]
+ },
+ "idioms-prep-0008": {
+  "alts": [
+   "full of"
+  ]
+ },
+ "idioms-prep-0009": {
+  "alts": [
+   "different from"
+  ]
+ },
+ "idioms-prep-0010": {
+  "alts": [
+   "late for"
+  ]
+ },
+ "idioms-prep-0011": {
+  "alts": [
+   "kind to"
+  ]
+ },
+ "idioms-prep-0012": {
+  "alts": [
+   "tired of"
+  ]
+ },
+ "idioms-prep-0013": {
+  "alts": [
+   "fond of"
+  ]
+ },
+ "idioms-prep-0014": {
+  "alts": [
+   "ready for"
+  ]
+ },
+ "idioms-prep-0015": {
+  "alts": [
+   "absent from"
+  ]
+ },
+ "idioms-prep-0016": {
+  "alts": [
+   "similar to"
+  ]
+ },
+ "idioms-prep-0017": {
+  "alts": [
+   "surprised at"
+  ]
+ },
+ "idioms-prep-0018": {
+  "alts": [
+   "covered with"
+  ]
+ },
+ "idioms-prep-0022": {
+  "alts": [
+   "worried about"
+  ]
+ },
+ "idioms-prep-0023": {
+  "alts": [
+   "busy with"
+  ]
+ },
+ "idioms-prep-0024": {
+  "alts": [
+   "poor at"
+  ]
+ },
+ "idioms-prep-0025": {
+  "alts": [
+   "crowded with"
+  ]
+ },
+ "idioms-prep-0026": {
+  "alts": [
+   "pleased with"
+  ]
+ },
+ "idioms-prep-0028": {
+  "alts": [
+   "sure of"
+  ]
+ },
+ "idioms-prep-0029": {
+  "alts": [
+   "excited about"
+  ]
+ },
+ "idioms-prep-0030": {
+  "alts": [
+   "good for"
+  ]
+ },
+ "idioms-prep-0032": {
+  "alts": [
+   "satisfied with"
+  ]
+ },
+ "idioms-prep-0033": {
+  "alts": [
+   "familiar with"
+  ]
+ },
+ "idioms-prep-0034": {
+  "alts": [
+   "filled with"
+  ]
+ },
+ "idioms-prep-0035": {
+  "alts": [
+   "jealous of"
+  ]
+ },
+ "idioms-prep-0036": {
+  "alts": [
+   "known for"
+  ]
+ },
+ "idioms-prep-0037": {
+  "alts": [
+   "aware of"
+  ]
+ },
+ "idioms-prep-0038": {
+  "alts": [
+   "short of"
+  ]
+ },
+ "idioms-prep-0039": {
+  "alts": [
+   "curious about"
+  ]
+ },
+ "idioms-prep-0041": {
+  "alts": [
+   "responsible for"
+  ]
+ },
+ "idioms-prep-0042": {
+  "alts": [
+   "capable of"
+  ]
+ },
+ "idioms-prep-0043": {
+  "alts": [
+   "independent of"
+  ]
+ },
+ "idioms-prep-0044": {
+  "alts": [
+   "dependent on"
+  ]
+ },
+ "idioms-prep-0048": {
+  "alts": [
+   "accustomed to"
+  ]
+ },
+ "idioms-prep-0049": {
+  "alts": [
+   "absorbed in"
+  ]
+ },
+ "idioms-prep-0050": {
+  "alts": [
+   "ashamed of"
+  ]
+ },
+ "idioms-prep-0053": {
+  "alts": [
+   "concerned about"
+  ]
+ },
+ "idioms-prep-0054": {
+  "alts": [
+   "indifferent to"
+  ]
+ },
+ "idioms-prep-0055": {
+  "alts": [
+   "superior to"
+  ]
+ },
+ "idioms-prep-0056": {
+  "alts": [
+   "inferior to"
+  ]
+ },
+ "idioms-prep-0059": {
+  "alts": [
+   "suitable for"
+  ]
+ },
+ "idioms-prep-0060": {
+  "alts": [
+   "equal to"
+  ]
+ },
+ "idioms-prep-0062": {
+  "alts": [
+   "sensitive to"
+  ]
+ },
+ "idioms-prep-0063": {
+  "alts": [
+   "keen on"
+  ]
+ },
+ "idioms-prep-0064": {
+  "alts": [
+   "engaged in"
+  ]
+ },
+ "idioms-prep-0065": {
+  "alts": [
+   "involved in"
+  ]
+ },
+ "idioms-prep-0066": {
+  "alts": [
+   "eligible for"
+  ]
+ },
+ "idioms-prep-0069": {
+  "alts": [
+   "consistent with"
+  ]
+ },
+ "idioms-prep-0070": {
+  "alts": [
+   "subject to"
+  ]
+ },
+ "idioms-prep-0073": {
+  "alts": [
+   "exempt from"
+  ]
+ },
+ "idioms-prep-0074": {
+  "alts": [
+   "committed to"
+  ]
+ },
+ "idioms-prep-0078": {
+  "alts": [
+   "devoid of"
+  ]
+ },
+ "idioms-prep-0083": {
+  "alts": [
+   "susceptible to"
+  ]
+ },
+ "idioms-prep-0084": {
+  "alts": [
+   "conducive to"
+  ]
+ },
+ "idioms-prep-0086": {
+  "alts": [
+   "contingent on"
+  ]
+ },
+ "idioms-prep-0090": {
+  "alts": [
+   "tantamount to"
+  ]
+ },
+ "idioms-prep-0091": {
+  "alts": [
+   "oblivious to"
+  ]
+ },
+ "idioms-prep-0092": {
+  "alts": [
+   "averse to"
+  ]
+ },
+ "idioms-prep-0095": {
+  "alts": [
+   "privy to"
+  ]
+ },
+ "idioms-prep-0098": {
+  "alts": [
+   "fraught with"
+  ]
+ },
+ "idioms-prep-0099": {
+  "alts": [
+   "steeped in"
+  ]
+ },
+ "idioms-prep-0100": {
+  "alts": [
+   "predicated on"
+  ]
+ },
+ "idioms-prep-0101": {
+  "alts": [
+   "beholden to"
+  ]
+ },
+ "idioms-prep-0103": {
+  "alts": [
+   "rife with"
+  ]
+ },
+ "idioms-prep-0104": {
+  "alts": [
+   "akin to"
+  ]
+ },
+ "phrases-ask-0005": {
+  "alts": [
+   "where is the station"
+  ]
+ },
+ "phrases-ask-0015": {
+  "alts": [
+   "where is the library"
+  ]
+ },
+ "phrases-ask-0016": {
+  "alts": [
+   "i will carry it"
+  ]
+ },
+ "phrases-ask-0033": {
+  "alts": [
+   "can i ask a favour"
+  ]
+ },
+ "phrases-ask-0083": {
+  "alts": [
+   "humour me"
+  ]
+ },
+ "phrases-extra-0013": {
+  "alts": [
+   "is there wifi"
+  ]
+ },
+ "phrases-extra-0020": {
+  "alts": [
+   "it is a no-brainer"
+  ]
+ },
+ "phrases-feel-0002": {
+  "alts": [
+   "i am so happy"
+  ]
+ },
+ "phrases-feel-0004": {
+  "alts": [
+   "it is delicious"
+  ]
+ },
+ "phrases-feel-0006": {
+  "alts": [
+   "i am scared"
+  ]
+ },
+ "phrases-feel-0007": {
+  "alts": [
+   "that is great"
+  ]
+ },
+ "phrases-feel-0011": {
+  "alts": [
+   "are you okay"
+  ]
+ },
+ "phrases-feel-0013": {
+  "alts": [
+   "that is too bad"
+  ]
+ },
+ "phrases-feel-0015": {
+  "alts": [
+   "that is cute"
+  ]
+ },
+ "phrases-feel-0017": {
+  "alts": [
+   "i am nervous"
+  ]
+ },
+ "phrases-feel-0023": {
+  "alts": [
+   "that is so funny"
+  ]
+ },
+ "phrases-feel-0024": {
+  "alts": [
+   "you are right"
+  ]
+ },
+ "phrases-feel-0026": {
+  "alts": [
+   "oh, that is terrible"
+  ]
+ },
+ "phrases-feel-0027": {
+  "alts": [
+   "i do not think so"
+  ]
+ },
+ "phrases-feel-0028": {
+  "alts": [
+   "that is wonderful"
+  ]
+ },
+ "phrases-feel-0029": {
+  "alts": [
+   "do not give up"
+  ]
+ },
+ "phrases-feel-0037": {
+  "alts": [
+   "you will do great"
+  ]
+ },
+ "phrases-feel-0038": {
+  "alts": [
+   "it will be all right"
+  ]
+ },
+ "phrases-feel-0046": {
+  "alts": [
+   "i am proud of you"
+  ]
+ },
+ "phrases-feel-0047": {
+  "alts": [
+   "i am not so sure"
+  ]
+ },
+ "phrases-feel-0048": {
+  "alts": [
+   "i am happy for you"
+  ]
+ },
+ "phrases-feel-0053": {
+  "alts": [
+   "it is worth it"
+  ]
+ },
+ "phrases-feel-0054": {
+  "alts": [
+   "i cannot wait"
+  ]
+ },
+ "phrases-feel-0055": {
+  "alts": [
+   "that is amazing news"
+  ]
+ },
+ "phrases-feel-0056": {
+  "alts": [
+   "i am here for you"
+  ]
+ },
+ "phrases-feel-0059": {
+  "alts": [
+   "that is a tough one"
+  ]
+ },
+ "phrases-feel-0061": {
+  "alts": [
+   "i am all for it"
+  ]
+ },
+ "phrases-feel-0064": {
+  "alts": [
+   "it is hard to say"
+  ]
+ },
+ "phrases-feel-0066": {
+  "alts": [
+   "i would not worry"
+  ]
+ },
+ "phrases-feel-0068": {
+  "alts": [
+   "you are too modest"
+  ]
+ },
+ "phrases-feel-0073": {
+  "alts": [
+   "i am on the fence"
+  ]
+ },
+ "phrases-feel-0081": {
+  "alts": [
+   "i am over the moon"
+  ]
+ },
+ "phrases-greet-0004": {
+  "alts": [
+   "i am fine, thank you"
+  ]
+ },
+ "phrases-greet-0006": {
+  "alts": [
+   "i am home"
+  ]
+ },
+ "phrases-greet-0008": {
+  "alts": [
+   "it is a nice day"
+  ]
+ },
+ "phrases-greet-0012": {
+  "alts": [
+   "i am from japan"
+  ]
+ },
+ "phrases-greet-0013": {
+  "alts": [
+   "i am twelve",
+   "im 12",
+   "i am 12"
+  ]
+ },
+ "phrases-greet-0017": {
+  "alts": [
+   "it is so hot"
+  ]
+ },
+ "phrases-greet-0022": {
+  "alts": [
+   "it is sunny"
+  ]
+ },
+ "phrases-greet-0039": {
+  "alts": [
+   "i am a nurse"
+  ]
+ },
+ "phrases-greet-0048": {
+  "alts": [
+   "no, i am from kobe"
+  ]
+ },
+ "phrases-greet-0059": {
+  "alts": [
+   "here is my card"
+  ]
+ },
+ "phrases-greet-0069": {
+  "alts": [
+   "it is a small world"
+  ]
+ },
+ "phrases-greet-0071": {
+  "alts": [
+   "it has been ages"
+  ]
+ },
+ "phrases-greet-0073": {
+  "alts": [
+   "i will let you go"
+  ]
+ },
+ "phrases-greet-0088": {
+  "alts": [
+   "i will not"
+  ]
+ },
+ "phrases-reply-0002": {
+  "alts": [
+   "i am sorry"
+  ]
+ },
+ "phrases-reply-0003": {
+  "alts": [
+   "you are welcome"
+  ]
+ },
+ "phrases-reply-0007": {
+  "alts": [
+   "thats okay",
+   "that is ok",
+   "that is okay"
+  ]
+ },
+ "phrases-reply-0008": {
+  "alts": [
+   "sorry i am late"
+  ]
+ },
+ "phrases-reply-0011": {
+  "alts": [
+   "sorry, i do not know"
+  ]
+ },
+ "phrases-reply-0018": {
+  "alts": [
+   "i am so sorry"
+  ]
+ },
+ "phrases-reply-0019": {
+  "alts": [
+   "do not worry"
+  ]
+ },
+ "phrases-reply-0024": {
+  "alts": [
+   "okay, i will"
+  ]
+ },
+ "phrases-reply-0027": {
+  "alts": [
+   "sorry, i cannot"
+  ]
+ },
+ "phrases-reply-0028": {
+  "alts": [
+   "that is all right"
+  ]
+ },
+ "phrases-reply-0037": {
+  "alts": [
+   "i am fine, thanks"
+  ]
+ },
+ "phrases-reply-0048": {
+  "alts": [
+   "i would be happy to"
+  ]
+ },
+ "phrases-reply-0051": {
+  "alts": [
+   "i am afraid i cannot"
+  ]
+ },
+ "phrases-reply-0059": {
+  "alts": [
+   "i will look into it"
+  ]
+ },
+ "phrases-reply-0061": {
+  "alts": [
+   "sorry, i am swamped"
+  ]
+ },
+ "phrases-reply-0073": {
+  "alts": [
+   "you are a lifesaver"
+  ]
+ },
+ "phrases-reply-0074": {
+  "alts": [
+   "that is on me"
+  ]
+ },
+ "phrases-reply-0086": {
+  "alts": [
+   "you would do the same"
+  ]
+ },
+ "phrases-trip-0004": {
+  "alts": [
+   "i am full"
+  ]
+ },
+ "phrases-trip-0005": {
+  "alts": [
+   "wheres the toilet"
+  ]
+ },
+ "phrases-trip-0011": {
+  "alts": [
+   "wheres the exit"
+  ]
+ },
+ "phrases-trip-0017": {
+  "alts": [
+   "i am just looking"
+  ]
+ },
+ "phrases-trip-0018": {
+  "alts": [
+   "i will take them"
+  ]
+ },
+ "phrases-trip-0022": {
+  "alts": [
+   "i am lost"
+  ]
+ },
+ "phrases-trip-0023": {
+  "alts": [
+   "that is all, thanks"
+  ]
+ },
+ "phrases-trip-0026": {
+  "alts": [
+   "bill, please"
+  ]
+ },
+ "phrases-trip-0028": {
+  "alts": [
+   "i did not order this"
+  ]
+ },
+ "phrases-trip-0032": {
+  "alts": [
+   "they are too small"
+  ]
+ },
+ "phrases-trip-0034": {
+  "alts": [
+   "i would like a refund"
+  ]
+ },
+ "phrases-trip-0037": {
+  "alts": [
+   "my ac does not work"
+  ]
+ },
+ "phrases-trip-0039": {
+  "alts": [
+   "i am a vegetarian"
+  ]
+ },
+ "phrases-trip-0043": {
+  "alts": [
+   "that is my seat"
+  ]
+ },
+ "phrases-trip-0049": {
+  "alts": [
+   "it is overcooked"
+  ]
+ },
+ "phrases-trip-0052": {
+  "alts": [
+   "i am locked out"
+  ]
+ },
+ "phrases-trip-0054": {
+  "alts": [
+   "there is a mistake"
+  ]
+ },
+ "phrases-trip-0065": {
+  "alts": [
+   "either is fine"
+  ]
+ },
+ "phrases-trip-0072": {
+  "alts": [
+   "i am all set"
+  ]
+ },
+ "phrases-trip-0078": {
+  "alts": [
+   "i am a bit short"
+  ]
+ },
+ "phrases-trip-0079": {
+  "alts": [
+   "it was a ripoff"
+  ]
+ },
+ "phrases-trip-0082": {
+  "alts": [
+   "that is steep"
+  ]
+ },
+ "phrases-trip-0083": {
+  "alts": [
+   "i will go with that"
+  ]
+ }
+}

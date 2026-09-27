@@ -1,0 +1,497 @@
+{
+  "jhistory-anc-0009": {
+    "alts": [
+      "けんぽうじゅうななじょう"
+    ]
+  },
+  "jhistory-anc-0014": {
+    "alts": [
+      "こんでんえいねんしざいほう"
+    ]
+  },
+  "jhistory-anc-0031": {
+    "alts": [
+      "はんでんしゅうじゅほう"
+    ]
+  },
+  "jhistory-anc-0042": {
+    "alts": [
+      "ごかんしょとういでん"
+    ]
+  },
+  "jhistory-anc-0046": {
+    "alts": [
+      "にっぽんしょき"
+    ]
+  },
+  "jhistory-anc-0047": {
+    "alts": [
+      "さんぜいっしんほう"
+    ]
+  },
+  "jhistory-anc-0050": {
+    "alts": [
+      "わどうかいほう"
+    ]
+  },
+  "jhistory-anc-0051": {
+    "alts": [
+      "はくそんこうのたたかい"
+    ]
+  },
+  "jhistory-anc-0053": {
+    "alts": [
+      "ながやのおおきみ"
+    ]
+  },
+  "jhistory-anc-0060": {
+    "alts": [
+      "くろうどがしら"
+    ]
+  },
+  "jhistory-anc-0061": {
+    "alts": [
+      "こうごのねんじゃく"
+    ]
+  },
+  "jhistory-anc-0069": {
+    "alts": [
+      "そうしょわこくでん"
+    ]
+  },
+  "jhistory-anc-0079": {
+    "alts": [
+      "ちくせんじょいのれい"
+    ]
+  },
+  "jhistory-anc-0094": {
+    "alts": [
+      "くがたち"
+    ]
+  },
+  "jhistory-anc-0098": {
+    "alts": [
+      "にほんれいいき"
+    ]
+  },
+  "jhistory-anc-0099": {
+    "alts": [
+      "わみょうるいじゅうしょう"
+    ]
+  },
+  "jhistory-anc-0105": {
+    "alts": [
+      "おののとうふう"
+    ]
+  },
+  "jhistory-anc-0108": {
+    "alts": [
+      "みよしのきよゆき",
+      "みよしきよつら"
+    ]
+  },
+  "jhistory-early-0059": {
+    "alts": [
+      "いとわりふせいど"
+    ]
+  },
+  "jhistory-early-0060": {
+    "alts": [
+      "あげちれい"
+    ]
+  },
+  "jhistory-early-0078": {
+    "prompt": "四代将軍徳川家綱の時代、大名家が絶えて牢人が増えるのを防ぐため、（　　）が緩和された。（　　）に入る禁令は何か。",
+    "answer": "末期養子の禁",
+    "reading": "まつごようしのきん"
+  },
+  "jhistory-med-0036": {
+    "alts": [
+      "しょうちょうのつちいっき"
+    ]
+  },
+  "jhistory-med-0064": {
+    "alts": [
+      "ししのたにのいんぼう"
+    ]
+  },
+  "jhistory-med-0072": {
+    "alts": [
+      "もちひとのおう"
+    ]
+  },
+  "jhistory-med-0086": {
+    "alts": [
+      "かきつのつちいっき"
+    ]
+  },
+  "jhistory-med-0098": {
+    "alts": [
+      "ねいはのらん",
+      "にんぽうのらん"
+    ]
+  },
+  "jhistory-med-0099": {
+    "alts": [
+      "ししょく"
+    ]
+  },
+  "jhistory-med-0107": {
+    "alts": [
+      "はりまのつちいっき"
+    ]
+  },
+  "jhistory-mod-0010": {
+    "alts": [
+      "だいにほんていこくけんぽう"
+    ]
+  },
+  "jhistory-mod-0019": {
+    "alts": [
+      "にっぽんこくけんぽう"
+    ]
+  },
+  "jhistory-mod-0038": {
+    "prompt": "昭和戦前の外交で、リットン調査団の報告にもとづく勧告に反発し、1933年に日本は（　　）を脱退した。（　　）に入る国際機関は何か。",
+    "answer": "国際連盟",
+    "reading": "こくさいれんめい"
+  },
+  "jhistory-mod-0109": {
+    "alts": [
+      "msaきょうてい"
+    ]
+  },
+  "whistory-asia-0006": {
+    "alts": [
+      "ちんぎすかん"
+    ]
+  },
+  "whistory-asia-0007": {
+    "alts": [
+      "くびらいかん"
+    ]
+  },
+  "whistory-asia-0012": {
+    "alts": [
+      "くるあーん"
+    ]
+  },
+  "whistory-asia-0020": {
+    "alts": [
+      "りせいけい"
+    ]
+  },
+  "whistory-asia-0026": {
+    "alts": [
+      "さふぁびーちょう"
+    ]
+  },
+  "whistory-asia-0028": {
+    "alts": [
+      "ようてい"
+    ]
+  },
+  "whistory-asia-0030": {
+    "alts": [
+      "もへんじょだろ",
+      "もへんじょだーろ"
+    ]
+  },
+  "whistory-asia-0038": {
+    "alts": [
+      "ふれぐ"
+    ]
+  },
+  "whistory-asia-0049": {
+    "alts": [
+      "しんら"
+    ]
+  },
+  "whistory-asia-0053": {
+    "alts": [
+      "せいなんのへん"
+    ]
+  },
+  "whistory-asia-0063": {
+    "alts": [
+      "でぶしるめ"
+    ]
+  },
+  "whistory-asia-0065": {
+    "alts": [
+      "りょうはん"
+    ]
+  },
+  "whistory-asia-0069": {
+    "alts": [
+      "はるしゃばるだな"
+    ]
+  },
+  "whistory-asia-0076": {
+    "alts": [
+      "しゅりーびじゃや"
+    ]
+  },
+  "whistory-asia-0082": {
+    "alts": [
+      "ていげん"
+    ]
+  },
+  "whistory-asia-0085": {
+    "alts": [
+      "びじゃやながるおうこく"
+    ]
+  },
+  "whistory-asia-0103": {
+    "alts": [
+      "じゃやゔぁるまんしちせい",
+      "じゃやばるまんななせい",
+      "じゃやばるまんしちせい"
+    ]
+  },
+  "whistory-asia-0104": {
+    "alts": [
+      "ぶーべ"
+    ]
+  },
+  "whistory-asia-0110": {
+    "alts": [
+      "にはーばんどのたたかい"
+    ]
+  },
+  "whistory-c20-0001": {
+    "alts": [
+      "さらえぼじけん",
+      "さらいぇぼじけん"
+    ]
+  },
+  "whistory-c20-0002": {
+    "alts": [
+      "べるさいゆじょうやく"
+    ]
+  },
+  "whistory-c20-0014": {
+    "alts": [
+      "がんじー"
+    ]
+  },
+  "whistory-c20-0026": {
+    "alts": [
+      "わいまーるけんぽう",
+      "ばいまるけんぽう"
+    ]
+  },
+  "whistory-c20-0065": {
+    "alts": [
+      "ちとー"
+    ]
+  },
+  "whistory-c20-0078": {
+    "alts": [
+      "じゅねーぶきゅうせんきょうてい"
+    ]
+  },
+  "whistory-c20-0086": {
+    "alts": [
+      "りしょうばん"
+    ]
+  },
+  "whistory-c20-0095": {
+    "alts": [
+      "んくるま"
+    ]
+  },
+  "whistory-c20-0100": {
+    "alts": [
+      "もさっでく"
+    ]
+  },
+  "whistory-c20-0105": {
+    "alts": [
+      "きゅうさんぜろじけん"
+    ]
+  },
+  "whistory-c20-0108": {
+    "alts": [
+      "ごむるか"
+    ]
+  },
+  "whistory-eu-0001": {
+    "alts": [
+      "せっけいもじ"
+    ]
+  },
+  "whistory-eu-0009": {
+    "alts": [
+      "おくたゔぃあぬす",
+      "おくたびあぬす"
+    ]
+  },
+  "whistory-eu-0036": {
+    "alts": [
+      "くろーびす"
+    ]
+  },
+  "whistory-eu-0046": {
+    "prompt": "395年、（　　）が東西に分裂した。（　　）に入る国名は？",
+    "answer": "ローマ帝国",
+    "reading": "ろーまていこく"
+  },
+  "whistory-eu-0047": {
+    "prompt": "476年、（　　）が滅亡した。（　　）に入る国名は？",
+    "answer": "西ローマ帝国",
+    "reading": "にしろーまていこく"
+  },
+  "whistory-eu-0050": {
+    "alts": [
+      "べるだんじょうやく"
+    ]
+  },
+  "whistory-eu-0073": {
+    "alts": [
+      "とぅきゅでぃです"
+    ]
+  },
+  "whistory-eu-0080": {
+    "alts": [
+      "うらじーみるいっせい"
+    ]
+  },
+  "whistory-eu-0086": {
+    "alts": [
+      "のるまんこんくえすと"
+    ]
+  },
+  "whistory-eu-0088": {
+    "alts": [
+      "ぼるむすきょうやく"
+    ]
+  },
+  "whistory-extra-0020": {
+    "alts": [
+      "ふらんくりんろーずべると"
+    ]
+  },
+  "whistory-modern-0001": {
+    "alts": [
+      "れおなるどだびんち"
+    ]
+  },
+  "whistory-modern-0003": {
+    "alts": [
+      "ばすこだがま"
+    ]
+  },
+  "whistory-modern-0005": {
+    "alts": [
+      "かるばん"
+    ]
+  },
+  "whistory-modern-0012": {
+    "alts": [
+      "すてぃーぶんそん"
+    ]
+  },
+  "whistory-modern-0016": {
+    "alts": [
+      "りんかーん"
+    ]
+  },
+  "whistory-modern-0040": {
+    "alts": [
+      "かぶーる"
+    ]
+  },
+  "whistory-modern-0055": {
+    "alts": [
+      "でぃずれいり"
+    ]
+  },
+  "whistory-modern-0062": {
+    "alts": [
+      "3bせいさく"
+    ]
+  },
+  "whistory-modern-0088": {
+    "alts": [
+      "ふぁんえいく"
+    ]
+  },
+  "daigaku-seibutsu-0107": {
+    "alts": [
+      "ばそぷれっしん"
+    ]
+  },
+  "daigaku-seibutsu-0159": {
+    "alts": [
+      "しきいち"
+    ]
+  },
+  "daigaku-seibutsu-0185": {
+    "alts": [
+      "こうちゅうだん"
+    ]
+  },
+  "daigaku-seibutsu-0189": {
+    "alts": [
+      "ちょうふくじゅせい"
+    ]
+  },
+  "daigaku-seibutsu-0207": {
+    "alts": [
+      "はーでぃーわいんべるぐのほうそく"
+    ]
+  },
+  "daigaku-chiri-0161": {
+    "alts": [
+      "きょうちんきぎょう"
+    ]
+  },
+  "daigaku-chiri-0245": {
+    "alts": [
+      "おうぎがたもでる"
+    ]
+  },
+  "daigaku-kokyo-0007": {
+    "prompt": "日本国憲法第41条で、国会は「国権の最高機関」であり、国の唯一の（　　）機関とされている。（　　）に入る語は？",
+    "answer": "立法",
+    "reading": "りっぽう"
+  },
+  "daigaku-kanbun-0034": {
+    "alts": [
+      "だれか"
+    ]
+  },
+  "daigaku-kanbun-0098": {
+    "alts": [
+      "だれかしらん"
+    ]
+  },
+  "daigaku-kanbun-0185": {
+    "alts": [
+      "しかして"
+    ]
+  },
+  "daigaku-gendai-0046": {
+    "alts": [
+      "みぞうう"
+    ]
+  },
+  "daigaku-gendai-0077": {
+    "alts": [
+      "ろうせつ"
+    ]
+  },
+  "daigaku-gendai-0138": {
+    "alts": [
+      "ほぐ",
+      "ほうご",
+      "ほうぐ"
+    ]
+  },
+  "daigaku-gendai-0238": {
+    "alts": [
+      "けしょう"
+    ]
+  }
+}
