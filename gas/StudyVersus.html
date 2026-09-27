@@ -312,7 +312,9 @@
     else inputZone.insertBefore(gameInput, split.nextSibling);
   }
 
+  // まだ打っていないところは「・」にする（写経モードは答えを見て打つので、そのまま出す）
   function kanaHtml(chunks, done) {
+    if (mode !== '写経モード') return chunks.map((c, i) => i < done ? `<span class="d">${esc(c)}</span>` : '<span class="r">・</span>').join('');
     return chunks.map((c, i) => `<span class="${i < done ? 'd' : 'r'}">${esc(c)}</span>`).join('');
   }
 
@@ -505,7 +507,11 @@
     $('game-end').style.display = 'none';
     resetCard();
     // 画面のカウントダウン（約 3 秒）が終わるころにサーバーも受付を始める
-    setTimeout(() => h.startGame(mode), Math.max(0, (m.in || 3500) - 3200));
+    setTimeout(() => {
+      h.startGame(mode);
+      // 対戦では答えを全部見せるヒントは出さない（全員に同時に見えて勝負にならない）。最初の 1 文字のヒントは残す
+      if (mode !== '写経モード' && h.cfg) h.cfg = Object.assign({}, h.cfg, { hint2At: -1 });
+    }, Math.max(0, (m.in || 3500) - 3200));
   }
 
   function stopTyping() {
