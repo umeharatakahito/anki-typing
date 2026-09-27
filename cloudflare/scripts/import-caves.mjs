@@ -61,8 +61,10 @@ function applyOverride(q) {
   return r;
 }
 // 打つ文字：読みにほかの読み（alts）を「|」でつなぐ
-const withAlts = (id, ans) => {
-  const alts = ((OVERRIDES[id] || {}).alts || []).map(a => typeable(String(a))).filter(a => a && a !== ans);
+// extra … 問題そのものに書いてある別の読み（雑学の alts）
+const withAlts = (id, ans, extra) => {
+  const alts = ((OVERRIDES[id] || {}).alts || []).concat(extra || []).map(a => typeable(String(a)))
+    .filter((a, i, all) => a && a !== ans && all.indexOf(a) === i);
   return [ans, ...alts].join('|');
 };
 
@@ -175,14 +177,15 @@ for (const set of OWN_SETS) {
   if (!FIG_ONLY && !OV_ONLY) out.push(`DELETE FROM problems WHERE src = ${sql(set.id)};`);
   for (const q0 of qs) {
     const q = applyOverride(q0);
-    const ans = withAlts(q.id, typeable(String(q.reading || '')));
+    const ans = withAlts(q.id, typeable(String(q.reading || '')), q.alts);
     if (!ans) throw new Error(q.id + ' の打つ文字が空です: ' + q.answer);
     const row = {
       kbn: set.id, src: set.id, qid: q.id, level: q.level,
       free: q.level <= FREE_MAX_LEVEL ? 1 : 0,
       que: esc(q.prompt), kan: q.answer, ans,
-      img: FIGURES[q.id] ? 'fig/' + FIGURES[q.id].file : '',
-      note: [q.explanation || '', FIGURES[q.id] ? credit(FIGURES[q.id]) : ''].filter(Boolean).join('\n')
+      // 図は data/figures*.json のほか、問題そのものに書いてあってもよい（雑学：image と credit）
+      img: q.image ? 'fig/' + q.image : FIGURES[q.id] ? 'fig/' + FIGURES[q.id].file : '',
+      note: [q.explanation || '', q.credit || '', FIGURES[q.id] ? credit(FIGURES[q.id]) : ''].filter(Boolean).join('\n')
     };
     emit(row);
   }

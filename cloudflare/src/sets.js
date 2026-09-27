@@ -34,17 +34,18 @@ export const OWN_SETS = [
   { id: 'daigaku-kokyo',        label: '公共（政治・経済）' },
   { id: 'daigaku-kanbun',       label: '漢文' },
   { id: 'daigaku-gendai',       label: '現代文（語彙）' },
+  // 雑学（scripts/make-zatsugaku.mjs が data/zatsugaku/ の一覧から作る）
+  { id: 'flag-country',         label: '国旗 → 国名' },
+  { id: 'map-world-country',    label: '世界地図 → 国名' },
+  { id: 'capital',              label: '国名 → 首都' },
+  { id: 'map-japan-pref',       label: '日本地図 → 都道府県' },
+  { id: 'element',              label: '元素記号 → 名前' },
 ];
 
 // まだ問題が入っていない、これから作る問題集（分類ページに「準備中」で並べる）
 export const UPCOMING = [
-  { id: 'map-world-country', label: '世界地図 → 国名' },
-  { id: 'map-japan-pref',    label: '日本地図 → 県名' },
   { id: 'map-world-nature',  label: '世界の山・川・湖・海' },
-  { id: 'flag-country',      label: '国旗 → 国名' },
-  { id: 'capital',           label: '国名 → 首都' },
   { id: 'heritage',          label: '世界遺産' },
-  { id: 'element',           label: '元素記号 → 読み方' },
   { id: 'constellation',     label: '星座' },
   { id: 'zk-fish',           label: '魚の写真 → 名前' },
   { id: 'zk-flower',         label: '花の写真 → 名前' },

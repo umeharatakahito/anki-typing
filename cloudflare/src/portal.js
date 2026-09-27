@@ -188,7 +188,7 @@ a{color:inherit}
 .set b{display:block;color:var(--ink);font-size:15.5px;line-height:1.35}
 .set small{display:block;color:var(--muted);font-size:12.5px;line-height:1.45}
 .set .meta{display:flex;gap:6px;margin-top:4px}
-.tag{display:inline-block;padding:1px 8px;border-radius:999px;font-size:11px;font-weight:800;background:var(--chip);color:var(--muted)}
+.tag{display:inline-block;white-space:nowrap;padding:1px 8px;border-radius:999px;font-size:11px;font-weight:800;background:var(--chip);color:var(--muted)}
 .set .arrow{margin-left:auto;color:var(--muted);transition:transform .15s}
 .set:hover .arrow{transform:translateX(3px);color:var(--b)}
 .set.soon{background:var(--soon);box-shadow:none;cursor:default}

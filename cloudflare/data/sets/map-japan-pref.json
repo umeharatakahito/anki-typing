@@ -1,0 +1,705 @@
+[
+ {
+  "review": "verified",
+  "id": "pref-01",
+  "level": 1,
+  "category": "北海道地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "北海道",
+  "reading": "ほっかいどう",
+  "alts": [],
+  "explanation": "県庁所在地は札幌市（さっぽろし）。北海道地方。",
+  "image": "zk/pref-01.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-02",
+  "level": 1,
+  "category": "東北地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "青森県",
+  "reading": "あおもりけん",
+  "alts": [
+   "あおもり"
+  ],
+  "explanation": "県庁所在地は青森市（あおもりし）。東北地方。",
+  "image": "zk/pref-02.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-03",
+  "level": 2,
+  "category": "東北地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "岩手県",
+  "reading": "いわてけん",
+  "alts": [
+   "いわて"
+  ],
+  "explanation": "県庁所在地は盛岡市（もりおかし）。東北地方。",
+  "image": "zk/pref-03.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-04",
+  "level": 2,
+  "category": "東北地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "宮城県",
+  "reading": "みやぎけん",
+  "alts": [
+   "みやぎ"
+  ],
+  "explanation": "県庁所在地は仙台市（せんだいし）。東北地方。",
+  "image": "zk/pref-04.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-05",
+  "level": 2,
+  "category": "東北地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "秋田県",
+  "reading": "あきたけん",
+  "alts": [
+   "あきた"
+  ],
+  "explanation": "県庁所在地は秋田市（あきたし）。東北地方。",
+  "image": "zk/pref-05.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-06",
+  "level": 3,
+  "category": "東北地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "山形県",
+  "reading": "やまがたけん",
+  "alts": [
+   "やまがた"
+  ],
+  "explanation": "県庁所在地は山形市（やまがたし）。東北地方。",
+  "image": "zk/pref-06.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-07",
+  "level": 3,
+  "category": "東北地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "福島県",
+  "reading": "ふくしまけん",
+  "alts": [
+   "ふくしま"
+  ],
+  "explanation": "県庁所在地は福島市（ふくしまし）。東北地方。",
+  "image": "zk/pref-07.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-08",
+  "level": 4,
+  "category": "関東地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "茨城県",
+  "reading": "いばらきけん",
+  "alts": [
+   "いばらき"
+  ],
+  "explanation": "県庁所在地は水戸市（みとし）。関東地方。",
+  "image": "zk/pref-08.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-09",
+  "level": 4,
+  "category": "関東地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "栃木県",
+  "reading": "とちぎけん",
+  "alts": [
+   "とちぎ"
+  ],
+  "explanation": "県庁所在地は宇都宮市（うつのみやし）。関東地方。",
+  "image": "zk/pref-09.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-10",
+  "level": 4,
+  "category": "関東地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "群馬県",
+  "reading": "ぐんまけん",
+  "alts": [
+   "ぐんま"
+  ],
+  "explanation": "県庁所在地は前橋市（まえばしし）。関東地方。",
+  "image": "zk/pref-10.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-11",
+  "level": 4,
+  "category": "関東地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "埼玉県",
+  "reading": "さいたまけん",
+  "alts": [
+   "さいたま"
+  ],
+  "explanation": "県庁所在地はさいたま市（さいたまし）。関東地方。",
+  "image": "zk/pref-11.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-12",
+  "level": 2,
+  "category": "関東地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "千葉県",
+  "reading": "ちばけん",
+  "alts": [
+   "ちば"
+  ],
+  "explanation": "県庁所在地は千葉市（ちばし）。関東地方。",
+  "image": "zk/pref-12.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-13",
+  "level": 1,
+  "category": "関東地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "東京都",
+  "reading": "とうきょうと",
+  "alts": [
+   "とうきょう"
+  ],
+  "explanation": "県庁所在地は新宿区（しんじゅくく）。関東地方。",
+  "image": "zk/pref-13.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-14",
+  "level": 2,
+  "category": "関東地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "神奈川県",
+  "reading": "かながわけん",
+  "alts": [
+   "かながわ"
+  ],
+  "explanation": "県庁所在地は横浜市（よこはまし）。関東地方。",
+  "image": "zk/pref-14.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-15",
+  "level": 2,
+  "category": "中部地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "新潟県",
+  "reading": "にいがたけん",
+  "alts": [
+   "にいがた"
+  ],
+  "explanation": "県庁所在地は新潟市（にいがたし）。中部地方。",
+  "image": "zk/pref-15.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-16",
+  "level": 3,
+  "category": "中部地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "富山県",
+  "reading": "とやまけん",
+  "alts": [
+   "とやま"
+  ],
+  "explanation": "県庁所在地は富山市（とやまし）。中部地方。",
+  "image": "zk/pref-16.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-17",
+  "level": 3,
+  "category": "中部地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "石川県",
+  "reading": "いしかわけん",
+  "alts": [
+   "いしかわ"
+  ],
+  "explanation": "県庁所在地は金沢市（かなざわし）。中部地方。",
+  "image": "zk/pref-17.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-18",
+  "level": 4,
+  "category": "中部地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "福井県",
+  "reading": "ふくいけん",
+  "alts": [
+   "ふくい"
+  ],
+  "explanation": "県庁所在地は福井市（ふくいし）。中部地方。",
+  "image": "zk/pref-18.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-19",
+  "level": 4,
+  "category": "中部地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "山梨県",
+  "reading": "やまなしけん",
+  "alts": [
+   "やまなし"
+  ],
+  "explanation": "県庁所在地は甲府市（こうふし）。中部地方。",
+  "image": "zk/pref-19.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-20",
+  "level": 2,
+  "category": "中部地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "長野県",
+  "reading": "ながのけん",
+  "alts": [
+   "ながの"
+  ],
+  "explanation": "県庁所在地は長野市（ながのし）。中部地方。",
+  "image": "zk/pref-20.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-21",
+  "level": 4,
+  "category": "中部地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "岐阜県",
+  "reading": "ぎふけん",
+  "alts": [
+   "ぎふ"
+  ],
+  "explanation": "県庁所在地は岐阜市（ぎふし）。中部地方。",
+  "image": "zk/pref-21.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-22",
+  "level": 1,
+  "category": "中部地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "静岡県",
+  "reading": "しずおかけん",
+  "alts": [
+   "しずおか"
+  ],
+  "explanation": "県庁所在地は静岡市（しずおかし）。中部地方。",
+  "image": "zk/pref-22.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-23",
+  "level": 1,
+  "category": "中部地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "愛知県",
+  "reading": "あいちけん",
+  "alts": [
+   "あいち"
+  ],
+  "explanation": "県庁所在地は名古屋市（なごやし）。中部地方。",
+  "image": "zk/pref-23.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-24",
+  "level": 3,
+  "category": "近畿地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "三重県",
+  "reading": "みえけん",
+  "alts": [
+   "みえ"
+  ],
+  "explanation": "県庁所在地は津市（つし）。近畿地方。",
+  "image": "zk/pref-24.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-25",
+  "level": 4,
+  "category": "近畿地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "滋賀県",
+  "reading": "しがけん",
+  "alts": [
+   "しが"
+  ],
+  "explanation": "県庁所在地は大津市（おおつし）。近畿地方。",
+  "image": "zk/pref-25.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-26",
+  "level": 1,
+  "category": "近畿地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "京都府",
+  "reading": "きょうとふ",
+  "alts": [
+   "きょうと"
+  ],
+  "explanation": "県庁所在地は京都市（きょうとし）。近畿地方。",
+  "image": "zk/pref-26.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-27",
+  "level": 1,
+  "category": "近畿地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "大阪府",
+  "reading": "おおさかふ",
+  "alts": [
+   "おおさか"
+  ],
+  "explanation": "県庁所在地は大阪市（おおさかし）。近畿地方。",
+  "image": "zk/pref-27.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-28",
+  "level": 2,
+  "category": "近畿地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "兵庫県",
+  "reading": "ひょうごけん",
+  "alts": [
+   "ひょうご"
+  ],
+  "explanation": "県庁所在地は神戸市（こうべし）。近畿地方。",
+  "image": "zk/pref-28.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-29",
+  "level": 3,
+  "category": "近畿地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "奈良県",
+  "reading": "ならけん",
+  "alts": [
+   "なら"
+  ],
+  "explanation": "県庁所在地は奈良市（ならし）。近畿地方。",
+  "image": "zk/pref-29.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-30",
+  "level": 3,
+  "category": "近畿地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "和歌山県",
+  "reading": "わかやまけん",
+  "alts": [
+   "わかやま"
+  ],
+  "explanation": "県庁所在地は和歌山市（わかやまし）。近畿地方。",
+  "image": "zk/pref-30.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-31",
+  "level": 3,
+  "category": "中国地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "鳥取県",
+  "reading": "とっとりけん",
+  "alts": [
+   "とっとり"
+  ],
+  "explanation": "県庁所在地は鳥取市（とっとりし）。中国地方。",
+  "image": "zk/pref-31.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-32",
+  "level": 3,
+  "category": "中国地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "島根県",
+  "reading": "しまねけん",
+  "alts": [
+   "しまね"
+  ],
+  "explanation": "県庁所在地は松江市（まつえし）。中国地方。",
+  "image": "zk/pref-32.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-33",
+  "level": 3,
+  "category": "中国地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "岡山県",
+  "reading": "おかやまけん",
+  "alts": [
+   "おかやま"
+  ],
+  "explanation": "県庁所在地は岡山市（おかやまし）。中国地方。",
+  "image": "zk/pref-33.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-34",
+  "level": 2,
+  "category": "中国地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "広島県",
+  "reading": "ひろしまけん",
+  "alts": [
+   "ひろしま"
+  ],
+  "explanation": "県庁所在地は広島市（ひろしまし）。中国地方。",
+  "image": "zk/pref-34.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-35",
+  "level": 2,
+  "category": "中国地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "山口県",
+  "reading": "やまぐちけん",
+  "alts": [
+   "やまぐち"
+  ],
+  "explanation": "県庁所在地は山口市（やまぐちし）。中国地方。",
+  "image": "zk/pref-35.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-36",
+  "level": 3,
+  "category": "四国地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "徳島県",
+  "reading": "とくしまけん",
+  "alts": [
+   "とくしま"
+  ],
+  "explanation": "県庁所在地は徳島市（とくしまし）。四国地方。",
+  "image": "zk/pref-36.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-37",
+  "level": 3,
+  "category": "四国地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "香川県",
+  "reading": "かがわけん",
+  "alts": [
+   "かがわ"
+  ],
+  "explanation": "県庁所在地は高松市（たかまつし）。四国地方。",
+  "image": "zk/pref-37.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-38",
+  "level": 3,
+  "category": "四国地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "愛媛県",
+  "reading": "えひめけん",
+  "alts": [
+   "えひめ"
+  ],
+  "explanation": "県庁所在地は松山市（まつやまし）。四国地方。",
+  "image": "zk/pref-38.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-39",
+  "level": 2,
+  "category": "四国地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "高知県",
+  "reading": "こうちけん",
+  "alts": [
+   "こうち"
+  ],
+  "explanation": "県庁所在地は高知市（こうちし）。四国地方。",
+  "image": "zk/pref-39.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-40",
+  "level": 1,
+  "category": "九州地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "福岡県",
+  "reading": "ふくおかけん",
+  "alts": [
+   "ふくおか"
+  ],
+  "explanation": "県庁所在地は福岡市（ふくおかし）。九州地方。",
+  "image": "zk/pref-40.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-41",
+  "level": 3,
+  "category": "九州地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "佐賀県",
+  "reading": "さがけん",
+  "alts": [
+   "さが"
+  ],
+  "explanation": "県庁所在地は佐賀市（さがし）。九州地方。",
+  "image": "zk/pref-41.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-42",
+  "level": 2,
+  "category": "九州地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "長崎県",
+  "reading": "ながさきけん",
+  "alts": [
+   "ながさき"
+  ],
+  "explanation": "県庁所在地は長崎市（ながさきし）。九州地方。",
+  "image": "zk/pref-42.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-43",
+  "level": 2,
+  "category": "九州地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "熊本県",
+  "reading": "くまもとけん",
+  "alts": [
+   "くまもと"
+  ],
+  "explanation": "県庁所在地は熊本市（くまもとし）。九州地方。",
+  "image": "zk/pref-43.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-44",
+  "level": 3,
+  "category": "九州地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "大分県",
+  "reading": "おおいたけん",
+  "alts": [
+   "おおいた"
+  ],
+  "explanation": "県庁所在地は大分市（おおいたし）。九州地方。",
+  "image": "zk/pref-44.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-45",
+  "level": 3,
+  "category": "九州地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "宮崎県",
+  "reading": "みやざきけん",
+  "alts": [
+   "みやざき"
+  ],
+  "explanation": "県庁所在地は宮崎市（みやざきし）。九州地方。",
+  "image": "zk/pref-45.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-46",
+  "level": 1,
+  "category": "九州地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "鹿児島県",
+  "reading": "かごしまけん",
+  "alts": [
+   "かごしま"
+  ],
+  "explanation": "県庁所在地は鹿児島市（かごしまし）。九州地方。",
+  "image": "zk/pref-46.svg",
+  "credit": "地図：Natural Earth"
+ },
+ {
+  "review": "verified",
+  "id": "pref-47",
+  "level": 1,
+  "category": "九州地方",
+  "prompt": "オレンジ色の都道府県は？",
+  "answer": "沖縄県",
+  "reading": "おきなわけん",
+  "alts": [
+   "おきなわ"
+  ],
+  "explanation": "県庁所在地は那覇市（なはし）。九州地方。",
+  "image": "zk/pref-47.svg",
+  "credit": "地図：Natural Earth"
+ }
+]

@@ -314,6 +314,8 @@ ruby rt{ display:none; }  /* ふりがな帯に出すため、通常は隠す */
 .playing-game #hamachi-life-inner{ width:clamp(140px, 30vw, 320px) !important; }
 .playing-game #hamachi-card-container{ margin-top:10px; }
 .playing-game .card-image-container{ height:200px; }
+/* 雑学の地図（世界地図・日本地図）は細かいので大きめに */
+.playing-game .card-image-container:has(img[src*="/fig/zk/map-"], img[src*="/fig/zk/pref-"]){ height:clamp(200px, 42vh, 340px); }
 .playing-game #countdown{ font-size:64px; }
 
 @media (max-width:700px){
