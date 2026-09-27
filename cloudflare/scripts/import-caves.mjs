@@ -10,6 +10,11 @@
 // ふだんは変わった分だけにする:
 //   --only=koko-eigo,daigaku-chiri   … その問題集だけ入れ直す
 //   --figures=data/figures-it.json   … そのファイルに載っている問題の図と解説だけ書き換える（UPDATE）
+//   --overrides                      … data/overrides*.json に載っている問題の問題文・答え・読みだけ書き換える（UPDATE）
+//
+// data/overrides*.json は、元の問題を直すための上書き。{ "<問題の id>": { prompt?, answer?, reading?, alts? } }
+//   prompt / answer / reading … 差し替え（「日本海側の海」→ 問題文に「（　　）側の海」、答えは「日本海」など）
+//   alts                      … ほかにも正解にする読み（「じゅうしち」と「じゅうなな」など）。ans に「|」でつなぐ
 //
 // 入れ直すたびに、問題集ごとの問題は丸ごと置き換える（スプレッドシートの問題はそのまま）。
 //   que  … 問題文        kan … 表示する正解     ans … 打つ文字（ひらがな・英字）
@@ -28,6 +33,7 @@ const opt = name => (args.find(a => a.startsWith('--' + name + '=')) || '').spli
 const root = args.find(a => !a.startsWith('--'));
 const ONLY = opt('only') ? new Set(opt('only').split(',')) : null;
 const FIG_ONLY = opt('figures') ? new Set(Object.keys(JSON.parse(readFileSync(opt('figures'), 'utf8')))) : null;
+const OV_ONLY = args.includes('--overrides');
 if (!root) {
   console.error('usage: node scripts/import-caves.mjs <勉強ダンジョンズの data/caves>');
   process.exit(1);
@@ -41,6 +47,25 @@ const READINGS = JSON.parse(readFileSync(join(here, '..', 'data', 'readings.json
 const FIGURES = Object.assign({}, ...readdirSync(join(here, '..', 'data'))
   .filter(f => /^figures(-[\w-]+)?\.json$/.test(f)).sort()
   .map(f => JSON.parse(readFileSync(join(here, '..', 'data', f), 'utf8'))));
+const OVERRIDES = Object.assign({}, ...readdirSync(join(here, '..', 'data'))
+  .filter(f => /^overrides(-[\w-]+)?\.json$/.test(f)).sort()
+  .map(f => JSON.parse(readFileSync(join(here, '..', 'data', f), 'utf8'))));
+// 上書きを当てた問題を返す（元の q は変えない）
+function applyOverride(q) {
+  const o = OVERRIDES[q.id];
+  if (!o) return q;
+  const r = Object.assign({}, q);
+  if (o.prompt) { r.prompt = o.prompt; r.definition = null; }
+  if (o.answer) { r.answer = o.answer; r.answer_speech = null; }
+  if (o.reading) r.reading = o.reading;
+  return r;
+}
+// 打つ文字：読みにほかの読み（alts）を「|」でつなぐ
+const withAlts = (id, ans) => {
+  const alts = ((OVERRIDES[id] || {}).alts || []).map(a => typeable(String(a))).filter(a => a && a !== ans);
+  return [ans, ...alts].join('|');
+};
+
 const credit = f => f.kind === 'commons'
   ? `図：${f.author}／${f.license}（Wikimedia Commons）` : '';
 
@@ -95,6 +120,12 @@ const out = [];
 let total = 0;
 // 1 行ぶんを出す。--figures のときは、図のある問題の img と note だけを書き換える
 function emit(row) {
+  if (OV_ONLY) {
+    const base = row.qid.replace(/-ja$/, '');
+    if (!OVERRIDES[base]) return;
+    out.push(`UPDATE problems SET que = ${sql(row.que)}, kan = ${sql(row.kan)}, ans = ${sql(row.ans)} WHERE src = ${sql(row.src)} AND qid = ${sql(row.qid)};`);
+    return;
+  }
   if (FIG_ONLY) {
     const base = row.qid.replace(/-ja$/, '');
     if (!FIG_ONLY.has(base)) return;
@@ -114,10 +145,11 @@ for (const cave of CAVES) {
   const qs = files.flatMap(f => JSON.parse(readFileSync(join(dir, 'questions', f), 'utf8')))
     .filter(q => q.review === 'verified');
 
-  if (!FIG_ONLY) out.push(`DELETE FROM problems WHERE src = ${sql(cave.id)};`);
-  for (const q of qs) {
+  if (!FIG_ONLY && !OV_ONLY) out.push(`DELETE FROM problems WHERE src = ${sql(cave.id)};`);
+  for (const q0 of qs) {
+    const q = applyOverride(q0);
     const level = q.level * (cave.levelScale || 1);
-    const ans = reading(q, meta.language);
+    const ans = withAlts(q.id, q.reading ? typeable(String(q.reading)) : reading(q, meta.language));
     if (!ans) throw new Error(q.id + ' の打つ文字が空になりました: ' + q.answer);
     const row = {
       kbn: cave.id, src: cave.id, qid: cave.ja ? q.id + '-ja' : q.id, level,
@@ -140,9 +172,10 @@ for (const set of OWN_SETS) {
   let qs;
   try { qs = JSON.parse(readFileSync(file, 'utf8')); } catch (e) { console.error(`${set.id}: ファイルが無いので飛ばします`); continue; }
   qs = qs.filter(q => q.review === 'verified');
-  if (!FIG_ONLY) out.push(`DELETE FROM problems WHERE src = ${sql(set.id)};`);
-  for (const q of qs) {
-    const ans = typeable(String(q.reading || ''));
+  if (!FIG_ONLY && !OV_ONLY) out.push(`DELETE FROM problems WHERE src = ${sql(set.id)};`);
+  for (const q0 of qs) {
+    const q = applyOverride(q0);
+    const ans = withAlts(q.id, typeable(String(q.reading || '')));
     if (!ans) throw new Error(q.id + ' の打つ文字が空です: ' + q.answer);
     const row = {
       kbn: set.id, src: set.id, qid: q.id, level: q.level,

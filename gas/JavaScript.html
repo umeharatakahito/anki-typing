@@ -135,6 +135,9 @@
 
   // 入力進捗（カードごとに更新）
   let wordR, idx1, idx2, pattern, temp, hiragana;
+  // 読みが複数ある答え（ans を「|」で区切る）は、読みごとの入力状態を並べて持ち、
+  // 打ったキーに合う読みだけを残す。alts[activeAlt] が今画面に出している読み
+  let alts = [], activeAlt = 0;
 
   const HP_MAX = 100;
 
@@ -513,13 +516,16 @@ buildKanjiRuby: function (kanMixed, yomi) {
       }
       this.currentCard = card;
 
-      // 入力状態リセット
-      const conversion = splitAsciiRuns(kanaToRoman(card.ans));
+      // 入力状態リセット（読みが複数あるときは 1 つ目を画面に出し、ほかも並べて持つ）
+      const altAns = String(card.ans).split('|');
+      const conversion = splitAsciiRuns(kanaToRoman(altAns[0]));
       wordR    = conversion[0];
       hiragana = conversion[1];
       pattern  = new Array(wordR.length).fill(0);
       idx1 = 0; idx2 = 0; temp = '';
       skipAutoChunks();
+      alts = altAns.map((a, i) => i === 0 ? null : makeState(a));
+      activeAlt = 0;
 
       // よみ
       const yomi = Array.isArray(hiragana) ? hiragana.join('') : (hiragana || '');
@@ -676,6 +682,21 @@ buildKanjiRuby: function (kanMixed, yomi) {
 
 
     // ---- 表示初期化 ----
+    // 別の読みに切り替わったとき、かなの表示と漢字のふりがなを今の読みで作り直す
+    rerenderReading: function() {
+      const yomi = Array.isArray(hiragana) ? hiragana.join('') : (hiragana || '');
+      const kanDiv = this.cache.questionCard && this.cache.questionCard.querySelector('.kanji');
+      if (kanDiv && this.currentCard && this.currentCard.kan) {
+        kanDiv.innerHTML = '';
+        const ruby = this.buildKanjiRuby(String(this.currentCard.kan), yomi);
+        if (ruby) kanDiv.appendChild(ruby);
+      }
+      let html = '';
+      for (const ch of hiragana) html += `<span class="hint-fade">${ch}</span>`;
+      document.getElementById('card-hiragana').innerHTML = html;
+      if (this.hint2Active) this.revealFullAnswer();
+    },
+
     initializeCardDisplay: function() {
       this.cache.input.innerHTML = '';
       let html = '';
@@ -1425,7 +1446,40 @@ enableMenuNav(menuEl) {
   };
 
   // 答えを、打つときと同じ区切りのかなに分ける（対戦で相手の進み具合を出すのに使う）
-  hamachi.chunksOf = function (ans) { return splitAsciiRuns(kanaToRoman(ans))[1]; };
+  hamachi.chunksOf = function (ans) { return splitAsciiRuns(kanaToRoman(String(ans).split('|')[0]))[1]; };
+
+  // 読み 1 つ分の入力状態
+  function makeState(reading) {
+    const c = splitAsciiRuns(kanaToRoman(reading));
+    const st = { wordR: c[0], hiragana: c[1], pattern: new Array(c[0].length).fill(0), idx1: 0, idx2: 0, temp: '' };
+    while (st.idx1 < st.wordR.length && st.wordR[st.idx1].length === 1 && AUTO_CHUNKS.test(st.wordR[st.idx1][0])) st.idx1++;
+    return st;
+  }
+
+  // 1 キー進めた状態を返す（合わなければ null）。chunkDone はかな 1 つを打ち終えたか
+  function stepState(st, key) {
+    if (!st || st.idx1 >= st.wordR.length) return null;
+    const s = { wordR: st.wordR, hiragana: st.hiragana, pattern: st.pattern.slice(), idx1: st.idx1, idx2: st.idx2, temp: st.temp + key };
+    let ok = key === s.wordR[s.idx1][s.pattern[s.idx1]][s.idx2];
+    if (!ok && (!hamachi.cfg || hamachi.cfg.allowLooseRomaji)) {
+      const reg = new RegExp('^' + s.temp.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+      for (let i = 0; i < s.wordR[s.idx1].length; i++) {
+        if (reg.test(s.wordR[s.idx1][i])) {
+          s.pattern[s.idx1] = i;
+          ok = key === s.wordR[s.idx1][i][s.idx2];
+          break;
+        }
+      }
+    }
+    if (!ok) return null;
+    s.idx2++;
+    let chunkDone = false;
+    if (s.idx2 === s.wordR[s.idx1][s.pattern[s.idx1]].length) {
+      s.idx1++; s.idx2 = 0; s.temp = ''; chunkDone = true;
+      while (s.idx1 < s.wordR.length && s.wordR[s.idx1].length === 1 && AUTO_CHUNKS.test(s.wordR[s.idx1][0])) s.idx1++;
+    }
+    return { s, chunkDone };
+  }
 
   function skipAutoChunks() {
     while (wordR && idx1 < wordR.length && wordR[idx1].length === 1 && AUTO_CHUNKS.test(wordR[idx1][0])) {
@@ -1465,29 +1519,23 @@ enableMenuNav(menuEl) {
     // スペース・ピリオド・カンマは自動で入るので、打っても打たなくてもよい
     if (idx2 === 0 && AUTO_CHUNKS.test(key)) return;
 
-    temp += key;
-
-    let correctInput = false;
-
-    // 現在パターンに一致？
-    if (key === wordR[idx1][pattern[idx1]][idx2]) {
-      correctInput = true;
-    } else if (!hamachi.cfg || hamachi.cfg.allowLooseRomaji) {
-      let reg = new RegExp('^' + temp);
-      for (let i = 0; i < wordR[idx1].length; i++) {
-        if (!!wordR[idx1][i].match(reg)) {
-          pattern[idx1] = i;
-          if (key === wordR[idx1][i][idx2]) correctInput = true;
-          break;
-        }
-      }
+    // 読みごとに 1 キー進め、合った読みだけを残す。今の読みが合わなくてもほかの読みが合えばそちらへ切り替える
+    alts[activeAlt] = { wordR, hiragana, pattern, idx1, idx2, temp };
+    const results = alts.map(st => stepState(st, key));
+    const pick = results[activeAlt] ? activeAlt : results.findIndex(Boolean);
+    const correctInput = pick >= 0;
+    let chunkDone = false;
+    if (correctInput) {
+      alts = results.map(r => r ? r.s : null);
+      const switched = pick !== activeAlt;
+      activeAlt = pick;
+      ({ wordR, hiragana, pattern, idx1, idx2, temp } = alts[pick]);
+      chunkDone = results[pick].chunkDone;
+      if (switched && hamachi.rerenderReading) hamachi.rerenderReading();
     }
 
     if (correctInput) {
-      idx2++;
-      if (idx2 === wordR[idx1][pattern[idx1]].length) {
-        idx1++; idx2 = 0; temp = '';
-        skipAutoChunks();
+      if (chunkDone) {
         hamachi.updateInputDisplay();
         if (hamachi.onType) hamachi.onType();
 
@@ -1552,8 +1600,7 @@ enableMenuNav(menuEl) {
       hamachi.updateInputDisplay();
       if (hamachi.onType) hamachi.onType();
     } else {
-      // ミス
-      temp = temp.slice(0, -1);
+      // ミス（どの読みにも合わない）
       hamachi.handleMiss();
     }
   });
