@@ -92,6 +92,14 @@
   .vs-point-score{ font-size:26px; font-weight:bold; margin-top:8px; font-variant-numeric:tabular-nums; }
   .vs-point-next{ font-size:12px; opacity:.7; margin-top:6px; }
 
+  .vs-rules{ display:flex; gap:10px; flex-wrap:wrap; }
+  .vs-rules .vs-target{ flex:1 1 200px; display:flex; flex-direction:column; gap:4px; font-size:12.5px; color:var(--muted); font-weight:700; }
+  .vs-rules select{ width:100%; }
+  .vs-lives{ letter-spacing:1px; font-size:18px; }
+  .vs-one.dead{ opacity:.45; text-decoration:line-through; }
+  /* タイムアタック：打つ画面は 1 人用のまま。上に点数の並びだけ出す */
+  body.vs-ta #vs-split{ display:none !important; }
+  body.vs-ta #hamachi-life{ display:flex !important; }
   .vs-result{ text-align:center; }
   .vs-result .vs-big{ font-size:34px; font-weight:bold; margin:4px 0 10px; }
   .vs-result .vs-final{ font-size:30px; font-weight:bold; margin:0 0 10px; font-variant-numeric:tabular-nums; }
@@ -103,23 +111,25 @@
   <div class="menu-title" id="vs-title">対戦</div>
   <div class="menu-content">
     <div class="vs-actions" id="vs-actions">
-      <label class="vs-target">
-        <select id="vs-target" class="menu-opt">
-          <option value="3">3本先取</option>
-          <option value="5" selected>5本先取</option>
-          <option value="7">7本先取</option>
-          <option value="10">10本先取</option>
-        </select>
-      </label>
+      <div class="vs-rules">
+        <label class="vs-target"><span>ルール</span>
+          <select id="vs-rule" class="menu-opt">
+            <option value="first">先取</option>
+            <option value="survival">サバイバル</option>
+            <option value="time">タイムアタック</option>
+          </select>
+        </label>
+        <label class="vs-target"><span id="vs-target-label">本数</span>
+          <select id="vs-target" class="menu-opt"></select>
+        </label>
+      </div>
       <button class="button menu-opt" id="vs-match">だれかと対戦（自動マッチ）</button>
       <button class="button menu-opt" id="vs-create">部屋を作る（友達と対戦）</button>
       <div class="vs-join">
         <input id="vs-code" class="menu-opt" inputmode="numeric" maxlength="5" placeholder="部屋番号" autocomplete="off">
         <button class="button menu-opt" id="vs-join">入る</button>
       </div>
-      <p class="vs-rule">2〜4 人で同じ問題を同時に打ちます。いちばん先に打ち終えた人が 1 本。
-        1 問で 10 回（極みモードは 5 回）ミスすると、その問題はもう打てません（ほかの人を待ちます）。先に決めた本数を取った人の勝ち。
-        部屋に入る人の問題集・モード・本数は、部屋を作った人に合わせます。</p>
+      <p class="vs-rule" id="vs-rule-text"></p>
     </div>
     <div id="vs-status" aria-live="polite"></div>
     <div id="vs-lobby" hidden>
@@ -157,10 +167,20 @@
   const missLimit = () => (mode === '極みモード' ? 5 : 10);
   const h = window.hamachi;
   const $ = id => document.getElementById(id);
+  // ルールごとの選べる数と説明（サーバーの RULES と合わせる）
+  const RULES = {
+    first:    { name: '先取', unit: v => v + '本先取', label: '本数', targets: [3, 5, 7, 10], def: 5,
+                text: '2〜4 人で同じ問題を同時に打ちます。いちばん先に打ち終えた人が 1 本。1 問で 10 回（極みは 5 回）ミスすると、その問題はもう打てません。先に決めた本数を取った人の勝ち。' },
+    survival: { name: 'サバイバル', unit: v => 'ライフ' + v, label: 'ライフ', targets: [1, 3, 5], def: 3,
+                text: '1 問ごとに、先に打ち終えた人以外はライフが 1 減ります（だれも取れなければ全員 −1）。ライフが 0 になったら脱落。最後まで残った人の勝ち。' },
+    time:     { name: 'タイムアタック', unit: v => v + '秒タイムアタック', label: '持ち時間', targets: [60, 90, 120], def: 90,
+                text: '全員が同じ問題を同じ順に、1 人用と同じタイム制で打ちます（正解で +秒・ミスで −秒）。ほかの人の点数はその場で見えます。時間が終わったとき点数の多い人の勝ち。' },
+  };
+  const ruleName = () => RULES[rule].unit(target);
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
     ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
-  let ws = null, mode = '', seat = 0, target = 5, names = {};
+  let ws = null, mode = '', seat = 0, target = 5, names = {}, rule = 'first', lives = {}, taScores = {}, taFin = {};
   let questions = [], r = 0, scores = {}, cardMiss = 0, out = false, progTimer = null, lastProgAt = 0, opp = {};
   let vsLog = [];   // ふりかえり用：{ r, card, who }
   let host = 0, auto = false, playersNow = [], startInTimer = null;
@@ -213,6 +233,15 @@
     li.append(name, row);
   });
 
+  function fillTargets() {
+    const R = RULES[$('vs-rule').value] || RULES.first;
+    $('vs-target-label').textContent = R.label;
+    $('vs-target').innerHTML = R.targets.map(v => `<option value="${v}"${v === R.def ? ' selected' : ''}>${R.unit(v)}</option>`).join('');
+    $('vs-rule-text').textContent = R.text + ' 部屋に入る人の問題集・モード・ルールは、部屋を作った人に合わせます。';
+  }
+  $('vs-rule').addEventListener('change', fillTargets);
+  fillTargets();
+
   // ---- 対戦中の画面 ----------------------------------------------------
   // 本数（ゲーム画面の上）
   const bar = document.createElement('div');
@@ -225,15 +254,27 @@
   const colorOf = s => s === seat ? 'vs-me' : 'vs-c' + (others().indexOf(s) + 1);
   const nameOf = s => s === seat ? 'あなた' : (names[s] || '相手');
 
-  function scoreLine(sc) {
-    return [seat, ...others()].map(s => `<span class="vs-one ${colorOf(s)}">
-      <span class="vs-who">${esc(nameOf(s))}</span><span class="vs-pts">${sc[s] || 0}</span></span>`).join('');
+  // サバイバルはライフ（♥）、タイムアタックは点数、先取は本数
+  const hearts = n => '♥'.repeat(Math.max(0, n)) + '♡'.repeat(Math.max(0, target - n));
+  function scoreLine(sc, lv) {
+    return [seat, ...others()].map(s => {
+      const dead = rule === 'survival' && lv && !lv[s];
+      const val = rule === 'survival' && lv ? `<span class="vs-lives">${hearts(lv[s] || 0)}</span>`
+        : `<span class="vs-pts">${(sc[s] || 0).toLocaleString()}</span>`;
+      return `<span class="vs-one ${colorOf(s)}${dead ? ' dead' : ''}"><span class="vs-who">${esc(nameOf(s))}</span>${val}</span>`;
+    }).join('');
   }
 
   function renderBar() {
-    bar.innerHTML = `<div class="vs-score">${scoreLine(scores)}</div>
-      <div class="vs-sub">${target}本先取 ・ ${r + 1}問目${questions[r] && questions[r].level ? ' ・ Lv' + questions[r].level : ''}</div>`;
+    if (rule === 'time') {
+      bar.innerHTML = `<div class="vs-score">${scoreLine(Object.assign({}, taScores, { [seat]: h.stats ? h.stats.score : 0 }))}</div>
+        <div class="vs-sub">${ruleName()}${Object.keys(taFin).length ? ' ・ 打ち終えた人 ' + Object.keys(taFin).length : ''}</div>`;
+      return;
+    }
+    bar.innerHTML = `<div class="vs-score">${scoreLine(scores, lives)}</div>
+      <div class="vs-sub">${ruleName()} ・ ${r + 1}問目${questions[r] && questions[r].level ? ' ・ Lv' + questions[r].level : ''}</div>`;
   }
+  const iAmOut = () => rule === 'survival' && lives && lives[seat] === 0;
 
   // 入力欄を左右に分ける：左が自分（今の入力欄をそのまま入れる）、右が相手
   const split = document.createElement('div');
@@ -284,7 +325,7 @@
     mm.textContent = `ミス ${cardMiss}/${lim}`;
     mm.className = 'vs-miss' + (cardMiss >= lim - 2 ? ' warn' : '');
     $('vs-me').classList.toggle('out', out);
-    $('vs-me-state').textContent = out
+    $('vs-me-state').textContent = iAmOut() ? '脱落しました（最後まで見られます）' : out
       ? (cardMiss >= lim ? lim + 'ミス：この問題はもう打てません' : '時間切れ') + '（相手を待っています）' : '';
   }
 
@@ -310,11 +351,13 @@
     const cls = m.seat == null ? '' : colorOf(m.seat);
     const title = m.seat == null ? 'だれも取れず'
       : m.seat === seat ? 'あなたが 1 本！' : esc(nameOf(m.seat)) + ' が 1 本';
+    const outNow = rule === 'survival' && m.lives ? Object.keys(m.lives).map(Number).filter(s => !m.lives[s] && lives[s]) : [];
     $('vs-point-card').innerHTML = `
       <div class="vs-point-big ${cls}">${title}</div>
       <div class="vs-point-ans">${esc(q.kan)}</div>
       ${q.note ? `<div class="vs-point-note">${esc(q.note)}</div>` : ''}
-      <div class="vs-point-score vs-score">${scoreLine(m.scores)}</div>
+      ${outNow.length ? `<div class="vs-point-note">${outNow.map(s => esc(nameOf(s))).join('・')} が脱落</div>` : ''}
+      <div class="vs-point-score vs-score">${scoreLine(m.scores, m.lives)}</div>
       <div class="vs-point-next">${m.final ? '決着！' : '次の問題へ…'}</div>`;
     $('vs-point').classList.add('show');
   }
@@ -366,13 +409,13 @@
     if (m.t === 'matched') {
       status('相手が見つかりました！');
       // 見つかった全員が同じ番号の部屋に入る（自動マッチの部屋は、少し待ってほかの人も入れる）
-      connect({ code: m.code, kbn: m.kbn, mode: m.mode, target: m.target, auto: 1 });
+      connect({ code: m.code, kbn: m.kbn, mode: m.mode, rule: m.rule, target: m.target, auto: 1 });
       return;
     }
     if (m.t === 'room') {
       // 問題集・モード・本数は部屋に合わせる（番号で入った人も同じ条件で遊ぶ）
-      seat = m.seat; target = m.target; mode = m.mode; h.kubun = m.kbn;
-      $('vs-title').textContent = '対戦（' + (h.catLabel ? h.catLabel(m.kbn) : m.kbn) + '・' + m.mode.replace('モード', '') + '）';
+      seat = m.seat; target = m.target; mode = m.mode; h.kubun = m.kbn; rule = RULES[m.rule] ? m.rule : 'first';
+      $('vs-title').textContent = '対戦（' + (h.catLabel ? h.catLabel(m.kbn) : m.kbn) + '・' + (h.levelLabel ? h.levelLabel(m.mode) : m.mode.replace('モード', '')) + '・' + RULES[rule].name + '）';
       if (params.auto || String(m.code).length > 4) status('相手が見つかりました');
       else {
         // 招待リンク：開くとそのまま待合室に入る（ログインしていなくても入れる）
@@ -381,7 +424,7 @@
           <span class="vs-invite"><input id="vs-link" readonly value="${esc(link)}" aria-label="招待リンク">
           <button type="button" class="button menu-opt" id="vs-copy">🔗 招待リンクをコピー</button>
           ${navigator.share ? '<button type="button" class="button menu-opt" id="vs-share">📤 送る（LINE など）</button>' : ''}</span>
-          このリンクを友達に送ると、開くだけでこの部屋の待合室に入れます。番号を「入る」から入れても OK です（${m.target}本先取・4人まで）`);
+          このリンクを友達に送ると、開くだけでこの部屋の待合室に入れます。番号を「入る」から入れても OK です（${ruleName()}・4人まで）`);
         const copy = $('vs-copy'), share = $('vs-share');
         copy.onclick = () => {
           const done = () => { copy.textContent = '✓ コピーしました'; setTimeout(() => { copy.textContent = '🔗 招待リンクをコピー'; }, 2000); };
@@ -397,9 +440,9 @@
       playersNow = m.players; host = m.host; auto = m.auto;
       // 試合中に抜けた人は names から消して「抜けました」を出す
       names = Object.fromEntries(m.players.map(p => [p.seat, p.name]));
-      if (h.versusMode) { renderOpps(); renderBar(); }
+      if (h.versusMode || h.vsTA) { renderOpps(); renderBar(); }
       else renderLobby(m);
-      if (m.left && !h.versusMode) status(esc(m.left) + ' さんが抜けました');
+      if (m.left && !h.versusMode && !h.vsTA) status(esc(m.left) + ' さんが抜けました');
       const again = $('vs-again');
       if (again) {
         const ready = m.players.filter(p => p.again).length;
@@ -413,6 +456,7 @@
     // 相手の様子は、届いた分だけ前の様子に重ねる（「打てない」の知らせには進み具合が入っていない）
     if (m.t === 'opp') { if (m.r === r) { opp[m.seat] = Object.assign({}, opp[m.seat], m); renderYou(m.seat); } return; }
     if (m.t === 'point') { onPoint(m); return; }
+    if (m.t === 'tas') { taScores[m.seat] = m.score; if (m.fin) taFin[m.seat] = true; renderBar(); return; }
     if (m.t === 'round') { nextRound(m.r); return; }
     if (m.t === 'end') { endMatch(m); return; }
   }
@@ -441,13 +485,14 @@
 
   // ---- 試合の流れ --------------------------------------------------------
   function resetCard() {
-    cardMiss = 0; out = false; opp = {};
+    cardMiss = 0; out = iAmOut(); opp = {};
     renderMe(); renderOpps(); renderBar();
   }
 
   function startMatch(m) {
-    questions = m.questions.slice(); r = 0; target = m.target;
-    scores = {}; vsLog = [];
+    questions = m.questions.slice(); r = 0; target = m.target; rule = RULES[m.rule] ? m.rule : rule;
+    scores = {}; vsLog = []; lives = m.lives || {}; taScores = {}; taFin = {};
+    if (rule === 'time') return startTimeAttack(m);
     if (startInTimer) { clearInterval(startInTimer); startInTimer = null; }
     $('vs-lobby').hidden = true;
     buildOppPanels();
@@ -472,10 +517,12 @@
     stopTyping();
     if (progTimer) { clearTimeout(progTimer); progTimer = null; }
     scores = m.scores;
+    showPoint(m);   // 脱落を出すため、ライフを書き換える前に
+    if (m.lives) lives = m.lives;
     // ふりかえり用：だれが取ったか（seat が null ならだれも取らず）
     if (questions[m.r] && !vsLog.some(x => x.r === m.r)) vsLog.push({ r: m.r, card: questions[m.r], who: m.seat });
     renderBar();
-    showPoint(m);
+    $('vs-point-card').querySelector('.vs-point-score').innerHTML = scoreLine(m.scores, m.lives);
   }
 
   function nextRound(n) {
@@ -484,6 +531,7 @@
     resetCard();
     h.awaitingNext = false;
     h.nextCard();
+    if (iAmOut()) stopTyping();   // 脱落した人は見るだけ
     renderMe();
   }
 
@@ -492,10 +540,14 @@
     hidePoint();
     h.playing = false;
     scores = m.scores;
+    if (m.lives) lives = m.lives;
     const win = m.winner === seat;
-    // 順位（本数の多い順）
-    const order = Object.keys(scores).map(Number).sort((a, b) => (scores[b] || 0) - (scores[a] || 0));
-    const place = 1 + order.filter(s => (scores[s] || 0) > (scores[seat] || 0)).length;
+    // 順位（サバイバルは残ったライフ、ほかは本数・点数の多い順）
+    const key = s => rule === 'survival' ? (lives[s] || 0) * 1000 + (scores[s] || 0) : (scores[s] || 0);
+    const order = Object.keys(scores).map(Number).sort((a, b) => key(b) - key(a));
+    const place = 1 + order.filter(s => key(s) > key(seat)).length;
+    const taWasOn = !!h.vsTA;
+    if (taWasOn) { h.vsTA = null; document.body.classList.remove('vs-ta', 'ps-on', 'ps-low'); }
     document.body.classList.add('vs-on');
     const marker = $('screen-game');
     if (marker) marker.hidden = true;
@@ -508,8 +560,8 @@
     $('game-end-stats').innerHTML = `<div class="vs-result">
       <div class="vs-big">${win ? '勝ち！' : m.winner == null ? '引き分け' : order.length > 2 ? place + '位' : '負け'}</div>
       ${m.left && order.length < 2 ? '<p>ほかの人が抜けました</p>' : ''}
-      <div class="vs-final vs-score">${order.map((s, i) => `<span class="vs-one ${colorOf(s)}"><span class="vs-who">${i + 1}. ${esc(nameOf(s))}</span><span class="vs-pts">${scores[s] || 0}</span></span>`).join('')}</div>
-      <p class="vs-sub">${target}本先取</p>
+      <div class="vs-final vs-score">${order.map((s, i) => `<span class="vs-one ${colorOf(s)}"><span class="vs-who">${i + 1}. ${esc(nameOf(s))}</span>${rule === 'survival' ? `<span class="vs-lives">${hearts(lives[s] || 0)}</span>` : `<span class="vs-pts">${(scores[s] || 0).toLocaleString()}</span>`}</span>`).join('')}</div>
+      <p class="vs-sub">${ruleName()}</p>
       ${order.length >= 2 ? '<p><button class="button menu-opt" id="vs-again">もう一度（同じメンバー）</button></p>' : ''}
     </div>`;
     const again = $('vs-again');
@@ -518,7 +570,7 @@
       if (/Retry|もう一度（同じ設定/.test(b.textContent)) b.classList.add('vs-hide');
     });
     // ふりかえり：1 本ずつ、自分が取った ○ / 相手が取った × / だれも取らず △
-    if (window.stReview && h.reviewItems) {
+    if (window.stReview && h.reviewItems && !taWasOn) {   // タイムアタックは 1 人用のふりかえりをそのまま残す
       let box = document.getElementById('st-review-box');
       const content = document.querySelector('#game-end .menu-content');
       if (!box && content) { box = document.createElement('div'); box.id = 'st-review-box'; content.appendChild(box); }
@@ -532,6 +584,38 @@
     // キーボードでも「もう一度」「メニューに戻る」を選べるように
     if (h.enableMenuNav) h.enableMenuNav($('game-end'));
   }
+
+  // ---- タイムアタック -----------------------------------------------------
+  // 打つ画面は 1 人用（PlaySetup.html のタイム制）そのまま。問題だけ部屋の問題に差し替え、点数を送り合う
+  function startTimeAttack(m) {
+    if (startInTimer) { clearInterval(startInTimer); startInTimer = null; }
+    $('vs-lobby').hidden = true;
+    h.versusMode = false;
+    h.levelMode = false;
+    h.vsTA = { seconds: target };
+    h.mode['m' + h.kubun] = questions;
+    document.body.classList.add('vs-on', 'vs-ta');
+    placeInput(false);
+    hidePoint();
+    $('menu-vs').style.display = 'none';
+    $('game-end').style.display = 'none';
+    renderBar();
+    setTimeout(() => h.startGame(mode), Math.max(0, (m.in || 3500) - 3200));
+  }
+  let taLast = 0;
+  h.onTAScore = (score, correct, fin) => {
+    if (!h.vsTA) return;
+    renderBar();
+    // 打つたびに送りすぎないよう 300ms にまとめる（終わりは必ず送る）
+    if (!fin && Date.now() - taLast < 300) return;
+    taLast = Date.now();
+    send({ t: 'ta', score, correct, fin: !!fin });
+    if (fin) {
+      taFin[seat] = true;
+      const st = $('game-end-stats');
+      if (st && ws) st.insertAdjacentHTML('afterbegin', '<p class="vs-sub" id="vs-ta-wait">ほかの人が終わるのを待っています…</p>');
+    }
+  };
 
   // ---- 1 人用の画面への差し込み ------------------------------------------
   Object.assign(h, {
@@ -566,6 +650,7 @@
   // メニューに戻るときは対戦をやめる
   const baseReset = h.resetGame;
   h.resetGame = function () {
+    if (this.vsTA) { this.vsTA = null; document.body.classList.remove('vs-on', 'vs-ta'); closeWs(); }
     if (this.versusMode) {
       this.versusMode = false;
       document.body.classList.remove('vs-on');
@@ -580,16 +665,17 @@
 
   // ---- ボタン ------------------------------------------------------------
   const tgt = () => $('vs-target').value;
+  const rl = () => $('vs-rule').value;
   $('vs-back').onclick = backToModes;
   $('vs-match').onclick = () => {
     showActions(false);
-    status(`相手を探しています…（同じ問題集・同じモード・${tgt()}本先取を選んだ人と組みます。2人そろうと、最大1分ほかの人を待ちます）`);
-    connect({ match: 1, kbn: h.kubun, mode, target: tgt() });
+    status(`相手を探しています…（同じ問題集・同じモード・${RULES[rl()].unit(tgt())}を選んだ人と組みます。2人そろうと、最大1分ほかの人を待ちます）`);
+    connect({ match: 1, kbn: h.kubun, mode, rule: rl(), target: tgt() });
   };
   $('vs-create').onclick = () => {
     showActions(false);
     status('部屋を作っています…');
-    connect({ create: 1, kbn: h.kubun, mode, target: tgt() });
+    connect({ create: 1, kbn: h.kubun, mode, rule: rl(), target: tgt() });
   };
   // 部屋番号の欄で Enter を押したら入る。欄の上下キーでボタンへ移れるように
   $('vs-code').addEventListener('keydown', e => {

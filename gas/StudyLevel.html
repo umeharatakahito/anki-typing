@@ -304,7 +304,8 @@
         setTimeout(() => { note.dataset.armed = '1'; }, 0);
       }
       // 解説は写経・通常モードだけ、大きく出してキーを押すまで待つ（極み・対戦は出さない）
-      pendingNote = (card && card.note && !this.versusMode && NOTE_MODES.includes(this.gameMode))
+      // 対戦のタイムアタックは、解説で止まると時計も止まって不公平なので出さない（終わってからふりかえりで見られる）
+      pendingNote = (card && card.note && !this.versusMode && !this.vsTA && NOTE_MODES.includes(this.gameMode))
         ? { ok, kan: card.kan, note: card.note, card } : null;
     },
 
@@ -479,7 +480,7 @@
     if (modal) { e.preventDefault(); GenkiModal.close(); return; }
     const end = document.getElementById('game-end');
     if (h.playing && !h.paused) {
-      if (h.versusMode) return;   // 対戦は止められない
+      if (h.versusMode || h.vsTA) return;   // 対戦（タイムアタックも）は止められない
       e.preventDefault(); h.pause();
     } else if (h.playing && h.paused) {
       e.preventDefault(); h.resume();

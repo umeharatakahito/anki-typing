@@ -248,11 +248,15 @@
   }
 
   // 問題が出ている間だけ時計を進める（正解のあとの間や、解説を読んでいる間・一時停止中は止める）
+  // 進める量は実際にたった時間（タブが裏に回って呼ばれる間隔が延びても、時計がずれないように。1 回 1 秒まで）
+  let lastTick = Date.now();
   setInterval(() => {
+    const now = Date.now(), dt = Math.min(1000, now - lastTick);
+    lastTick = now;
     if (!run || h.versusMode || !h.playing || h.paused || h.noteHolding || !h.timerInterval) return;
-    run.active += 100;
+    run.active += dt;
     if (run.kind === 'time') {
-      run.left -= 100;
+      run.left -= dt;
       if (run.left <= 0) { run.left = 0; drawClock(); h.endGame(false); return; }
     }
     drawClock();
@@ -266,7 +270,13 @@
       return baseStart.apply(this, arguments);
     }
     const lv = levelOf(mode);
-    run = {
+    // 対戦のタイムアタック（StudyVersus.html）は、部屋の持ち時間・レベルの決まりどおりで、保存しない
+    const ta = this.vsTA;
+    run = ta ? {
+      kind: 'time', total: ta.seconds * 1000, left: ta.seconds * 1000, count: 0,
+      plus: lv.plus, minus: lv.minus, weight: lv.weight, ranked: false, ta: true,
+      name: 'タイムアタック' + ta.seconds + '秒', level: mode, done: 0, keys: 0, active: 0, combo: 0
+    } : {
       kind: st.kind, total: st.sec * 1000, left: st.sec * 1000, count: st.count,
       plus: st.plus ?? lv.plus, minus: st.minus ?? lv.minus, weight: lv.weight,
       ranked: isRanked(st), name: rankName(mode, st.sec), level: mode,
@@ -312,6 +322,7 @@
         const bonus = c === 3 ? 3 : (c >= 5 && c % 5 === 0 ? 5 : 0);
         if (run.plus) addTime(run.plus);
         if (bonus) setTimeout(() => addTime(bonus, `🔥${c}連続 +${bonus}秒`), 250);
+        if (run.ta && this.onTAScore) this.onTAScore(this.stats.score, (this.stats.great || 0) + (this.stats.good || 0) + (this.stats.okay || 0), false);
       } else {
         addTime(-(Math.max(0, FAIL_TOTAL - run.minus)));
       }
@@ -361,6 +372,10 @@
     document.body.classList.remove('ps-on', 'ps-low');
     const r = baseEnd.call(this, false);
     showResult.call(this);
+    if (run.ta && this.onTAScore) {
+      const s = this.stats;
+      this.onTAScore(s.score, (s.great || 0) + (s.good || 0) + (s.okay || 0), true);
+    }
     return r;
   };
 
@@ -374,11 +389,11 @@
     const ms = run.kind === 'time' ? run.total : run.active;
     const title = titleOf(s.score, ms);
     const setName = (this.catLabel ? this.catLabel(this.kubun) : '');
-    const course = run.ranked ? run.name : '練習' + (run.kind === 'count' ? `（${run.count}問）` : `（${Math.round(run.total / 1000)}秒）`);
+    const course = run.ranked || run.ta ? run.name : '練習' + (run.kind === 'count' ? `（${run.count}問）` : `（${Math.round(run.total / 1000)}秒）`);
     const shareText = `STUDY TYPE「${setName}」${course}で ${s.score.toLocaleString()} 点！ 称号「${title}」 #STUDYTYPE`;
     const shareUrl = location.origin + location.pathname + location.search;
     el.innerHTML = `<div class="ps-res">
-      <span class="ps-res-course ${run.ranked ? '' : 'practice'}">${esc(setName)} ・ ${esc(course)}${run.ranked ? '' : ' ・ スコアは記録されません'}</span>
+      <span class="ps-res-course ${run.ranked || run.ta ? '' : 'practice'}">${esc(setName)} ・ ${esc(course)}${run.ranked || run.ta ? '' : ' ・ スコアは記録されません'}</span>
       <div class="ps-res-score">${s.score.toLocaleString()}<small>点</small></div>
       <p class="ps-res-title">称号<b>${esc(title)}</b></p>
       <div class="ps-res-grid">
