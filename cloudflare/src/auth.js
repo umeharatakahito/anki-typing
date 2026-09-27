@@ -83,7 +83,17 @@ async function startSession(env, url, who) {
 const adminEmails = env => String(env.ADMIN_EMAILS || '').toLowerCase().split(',').map(s => s.trim()).filter(Boolean);
 
 // 今見ている人。ログインしていなければ GUEST
+// 手元版（この Mac の wrangler dev。DEV_LOGIN=1）を localhost か家の中から開いたときは、だれでも全部使える
 export async function viewerOf(request, env) {
+  const v = await sessionViewer(request, env);
+  const url = new URL(request.url);
+  if (env.DEV_LOGIN === '1' && (isLocal(url) || isHomeLan(env, url))) {
+    return Object.assign({}, v, { member: true, admin: true, juken: true });
+  }
+  return v;
+}
+
+async function sessionViewer(request, env) {
   const token = readCookie(request, COOKIE);
   if (!token) return GUEST;
   const s = await env.DB.prepare(
