@@ -263,7 +263,11 @@ buildKanjiRuby: function (kanMixed, yomi) {
         this.kanjiChunks.push({ el: cspan, readStart: cStart, readEnd: cEnd });
       }
 } else {
-      // Kanji チャンク：次の「かな」トークンの開始を yomi から探して読み範囲を決める
+      // Kanji チャンク：続けて並ぶ漢字（二酸化炭素 など）はまとめて 1 つの読み範囲にする
+      // （1 文字ずつ別に扱うと、先頭の漢字が読みを全部取ってしまい、残りの漢字が最後まで出ない）
+      let runText = t.text;
+      while (i + 1 < tokens.length && tokens[i + 1].type === 'kanji') runText += tokens[++i].text;
+      // 次の「かな」トークンの開始を yomi から探して読み範囲を決める
       let nextKanaText = '';
       for (let j = i + 1; j < tokens.length; j++) {
         if (tokens[j].type === 'kana') { nextKanaText = tokens[j].text; break; }
@@ -278,7 +282,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
       if (end < start) end = start;
 
       // ★ Kanji は1文字ずつspan化して、読み範囲を均等割りで割り当てる
-      const chars = Array.from(t.text);
+      const chars = Array.from(runText);
       const segLen = Math.max(1, end - start);
 
       for (let k = 0; k < chars.length; k++) {
@@ -1478,10 +1482,15 @@ enableMenuNav(menuEl) {
         }
       }
     }
-    // 打ちかけのかなを最初から打ち直したとき（じゅ を zi まで打って ju と打ち直す、など）はそれを受け付ける
+    // 打ちかけのかなを打ち直したとき（じゅ を zi まで打ってから zy / ju と打ち直す、など）。
+    // 打ったキーの前の何文字かを取り消すと、どれかの打ち方の頭になるなら、そこから打ち直したとみなす
     if (!ok && s.idx2 > 0) {
-      const i = s.wordR[s.idx1].findIndex(p => p[0] === key);
-      if (i >= 0) { s.pattern[s.idx1] = i; s.idx2 = 0; s.temp = key; ok = true; }
+      const prev = st.temp;
+      for (let k = prev.length - 1; k >= 0 && !ok; k--) {
+        const cand = prev.slice(0, k) + key;
+        const i = s.wordR[s.idx1].findIndex(p => p.startsWith(cand));
+        if (i >= 0) { s.pattern[s.idx1] = i; s.idx2 = cand.length - 1; s.temp = cand; s.fixed = true; ok = true; }
+      }
     }
     if (!ok) return null;
     s.idx2++;
@@ -1556,6 +1565,8 @@ enableMenuNav(menuEl) {
       ({ wordR, hiragana, pattern, idx1, idx2, temp } = alts[pick]);
       chunkDone = results[pick].chunkDone;
       if (switched && hamachi.rerenderReading) hamachi.rerenderReading();
+      // 打ち直しで先へ進めたときも、打ち間違いは 1 回のミスとして数える
+      if (results[pick].s.fixed) { alts.forEach(s => { if (s) delete s.fixed; }); hamachi.handleMiss(); }
     }
 
     if (correctInput) {

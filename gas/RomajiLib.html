@@ -337,10 +337,15 @@ function kanaAltStep_(st, key) {
       }
     }
   }
-  // 打ちかけのかなを最初から打ち直したとき（じゅ を zi まで打って ju と打ち直す、など）はそれを受け付ける
+  // 打ちかけのかなを打ち直したとき（じゅ を zi まで打ってから zy / ju と打ち直す、など）。
+  // 打ったキーの前の何文字かを取り消すと、どれかの打ち方の頭になるなら、そこから打ち直したとみなす
   if (!ok && s.idx2 > 0) {
-    const i = s.wordR[s.idx1].findIndex(p => p[0] === key);
-    if (i >= 0) { s.pattern[s.idx1] = i; s.idx2 = 0; s.temp = key; ok = true; }
+    const prev = st.temp;
+    for (let k = prev.length - 1; k >= 0 && !ok; k--) {
+      const cand = prev.slice(0, k) + key;
+      const i = s.wordR[s.idx1].findIndex(p => p.startsWith(cand));
+      if (i >= 0) { s.pattern[s.idx1] = i; s.idx2 = cand.length - 1; s.temp = cand; s.fixed = true; ok = true; }
+    }
   }
   if (!ok) return null;
   s.idx2++;
@@ -355,8 +360,12 @@ function kanaAltKey(g, key) {
   const res = states.map(s => kanaAltStep_(s, key));
   const pick = res[act] ? act : res.findIndex(Boolean);
   if (pick < 0) return false;
+  const fixed = res[pick].fixed;
+  res.forEach(s => { if (s) delete s.fixed; });
   Object.assign(g, res[pick]);
   if (g._alts) { g._alts = res; g._altActive = pick; }
+  // 打ち直しで先へ進めたときも、打ち間違いは 1 回のミスとして数える
+  if (fixed && g.onMiss) g.onMiss();
   return true;
 }
 // 英語のつづり（colour / color など）。今の打ちかけに合う別のつづりへ切り替えられたら true
