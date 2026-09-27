@@ -11,7 +11,8 @@
   },
   "eigo:18:sweep": {
     "alts": [
-      "はく"
+      "はく",
+      "そうじする"
     ]
   },
   "eigo:33:staircase": {
@@ -22,11 +23,18 @@
   "eigo:49:neighbor": {
     "enAlts": [
       "neighbour"
+    ],
+    "alts": [
+      "きんじょのひと"
     ]
   },
   "eigo:49:neighborhood": {
     "enAlts": [
       "neighbourhood"
+    ],
+    "alts": [
+      "ちいき",
+      "きんりん"
     ]
   },
   "eigo:57:failure": {
@@ -36,7 +44,8 @@
   },
   "eigo:156:reach": {
     "alts": [
-      "つく"
+      "つく",
+      "たっする"
     ]
   },
   "eigo:192:humid": {
@@ -53,16 +62,28 @@
   "eigo:236:at present": {
     "enAlts": [
       "currently"
+    ],
+    "alts": [
+      "いまのところ",
+      "もっか",
+      "いまは"
     ]
   },
   "eigo:250:in the center of A": {
     "enAlts": [
       "in the centre of A"
+    ],
+    "alts": [
+      "ちゅうおうに",
+      "まんなかに"
     ]
   },
   "eigo:255:do A a favor": {
     "enAlts": [
       "do A a favour"
+    ],
+    "alts": [
+      "ねがいをきく"
     ]
   },
   "eigo:255:favor": {
@@ -73,6 +94,9 @@
   "eigo:255:favorable": {
     "enAlts": [
       "favourable"
+    ],
+    "alts": [
+      "こうつごうな"
     ]
   },
   "eigo:269:be proud of A": {
@@ -83,6 +107,9 @@
   "eigo:270:be absent from A": {
     "enAlts": [
       "absent from A"
+    ],
+    "alts": [
+      "やすむ"
     ]
   },
   "eigo:271:be free from A": {
@@ -107,7 +134,8 @@
   },
   "eigo:278:invite": {
     "alts": [
-      "しょうたいする"
+      "しょうたいする",
+      "さそう"
     ]
   },
   "eigo:283:be accustomed to A": {
@@ -118,6 +146,9 @@
   "eigo:285:be tired of A": {
     "enAlts": [
       "tired of A"
+    ],
+    "alts": [
+      "うんざりする"
     ]
   },
   "eigo:286:be tired from A": {
@@ -128,6 +159,9 @@
   "eigo:299:judgment": {
     "enAlts": [
       "judgement"
+    ],
+    "alts": [
+      "はんだんりょく"
     ]
   },
   "eigo:305:decade": {
@@ -148,11 +182,18 @@
   "eigo:360:behavior": {
     "enAlts": [
       "behaviour"
+    ],
+    "alts": [
+      "こうどう",
+      "たいど"
     ]
   },
   "eigo:382:memorize": {
     "enAlts": [
       "memorise"
+    ],
+    "alts": [
+      "おぼえる"
     ]
   },
   "eigo:410:analyze": {
@@ -167,7 +208,9 @@
   },
   "eigo:432:afterward": {
     "alts": [
-      "そのご"
+      "そのご",
+      "あとで",
+      "のちに"
     ]
   },
   "eigo:450:standardize": {
@@ -183,21 +226,35 @@
   "eigo:552:be out of order": {
     "enAlts": [
       "out of order"
+    ],
+    "alts": [
+      "ちょうしがわるい"
     ]
   },
   "eigo:606:summarize": {
     "enAlts": [
       "summarise"
+    ],
+    "alts": [
+      "まとめる"
     ]
   },
   "eigo:618:therefore": {
     "enAlts": [
       "hence"
+    ],
+    "alts": [
+      "だから",
+      "したがって"
     ]
   },
   "eigo:619:moreover": {
     "enAlts": [
       "in addition"
+    ],
+    "alts": [
+      "そのうえ",
+      "くわえて"
     ]
   },
   "eigo:633:recognize": {
@@ -213,26 +270,44 @@
   "eigo:643:criticize": {
     "enAlts": [
       "criticise"
+    ],
+    "alts": [
+      "ひなんする"
     ]
   },
   "eigo:646:apologize": {
     "enAlts": [
       "apologise"
+    ],
+    "alts": [
+      "しゃざいする",
+      "わびる"
     ]
   },
   "eigo:697:favorite": {
     "enAlts": [
       "favourite"
+    ],
+    "alts": [
+      "おきにいりの",
+      "だいすきな"
     ]
   },
   "eigo:704:skillful": {
     "enAlts": [
       "skilful"
+    ],
+    "alts": [
+      "じょうず",
+      "きよう"
     ]
   },
   "eigo:718:emphasize": {
     "enAlts": [
       "emphasise"
+    ],
+    "alts": [
+      "りきせつ"
     ]
   },
   "eigo:721:challenging": {
@@ -244,7 +319,8 @@
   "eigo:764:stomach": {
     "alts": [
       "い",
-      "おなか"
+      "おなか",
+      "はら"
     ]
   },
   "eigo:765:foot": {
@@ -260,11 +336,17 @@
   "eigo:808:be filled with A": {
     "enAlts": [
       "filled with A"
+    ],
+    "alts": [
+      "いっぱいだ"
     ]
   },
   "eigo:808:be full of A": {
     "enAlts": [
       "full of A"
+    ],
+    "alts": [
+      "みちている"
     ]
   },
   "eigo:809:be worried about A": {
@@ -275,11 +357,17 @@
   "eigo:810:be struck by A": {
     "enAlts": [
       "struck by A"
+    ],
+    "alts": [
+      "こころをうたれる"
     ]
   },
   "eigo:811:be crowded with A": {
     "enAlts": [
       "crowded with A"
+    ],
+    "alts": [
+      "こみあっている"
     ]
   },
   "eigo:811:crowded": {
@@ -291,6 +379,9 @@
   "eigo:812:be caught in A": {
     "enAlts": [
       "caught in A"
+    ],
+    "alts": [
+      "あう"
     ]
   },
   "eigo:813:be based on A": {
@@ -301,6 +392,10 @@
   "eigo:848:in addition": {
     "enAlts": [
       "moreover"
+    ],
+    "alts": [
+      "そのうえ",
+      "くわえて"
     ]
   },
   "eigo:852:be dependent on A": {
@@ -326,11 +421,17 @@
   "eigo:910:especially": {
     "enAlts": [
       "in particular"
+    ],
+    "alts": [
+      "とくに"
     ]
   },
   "eigo:934:civilization": {
     "enAlts": [
       "civilisation"
+    ],
+    "alts": [
+      "ぶんめいしゃかい"
     ]
   },
   "eigo:934:civilized": {
@@ -346,6 +447,9 @@
   "eigo:964:fulfillment": {
     "enAlts": [
       "fulfilment"
+    ],
+    "alts": [
+      "みちたりたおもい"
     ]
   },
   "eigo:1043:market": {
@@ -356,6 +460,9 @@
   "eigo:1084:industrialize": {
     "enAlts": [
       "industrialise"
+    ],
+    "alts": [
+      "さんぎょうかする"
     ]
   },
   "eigo:1112:be likely to do": {
@@ -376,6 +483,9 @@
   "eigo:1113:be going to do": {
     "enAlts": [
       "going to do"
+    ],
+    "alts": [
+      "するよていだ"
     ]
   },
   "eigo:1114:be unwilling to do": {
@@ -386,6 +496,9 @@
   "eigo:1114:be willing to do": {
     "enAlts": [
       "willing to do"
+    ],
+    "alts": [
+      "こころよく"
     ]
   },
   "eigo:1115:be anxious to do": {
@@ -401,6 +514,9 @@
   "eigo:1116:be welcome to do": {
     "enAlts": [
       "welcome to do"
+    ],
+    "alts": [
+      "じゆうに"
     ]
   },
   "eigo:1117:be determined to do": {
@@ -426,22 +542,34 @@
   "eigo:1149:in particular": {
     "enAlts": [
       "especially"
+    ],
+    "alts": [
+      "とりわけ"
     ]
   },
   "eigo:1170:odor": {
     "enAlts": [
       "odour"
+    ],
+    "alts": [
+      "におい",
+      "いやなにおい"
     ]
   },
   "eigo:1173:flavor": {
     "enAlts": [
       "flavour"
+    ],
+    "alts": [
+      "あじわい",
+      "かおり"
     ]
   },
   "eigo:1185:mansion": {
     "alts": [
       "だいていたく",
-      "ごうてい"
+      "ごうてい",
+      "おおきなやしき"
     ]
   },
   "eigo:1206:cozy": {
@@ -457,11 +585,18 @@
   "eigo:1300:utilize": {
     "enAlts": [
       "utilise"
+    ],
+    "alts": [
+      "りようする",
+      "やくだてる"
     ]
   },
   "eigo:1383:vapor": {
     "enAlts": [
       "vapour"
+    ],
+    "alts": [
+      "じょうき"
     ]
   },
   "eigo:1394:specialize": {
@@ -477,6 +612,9 @@
   "eigo:1402:as to A": {
     "enAlts": [
       "with regard to A"
+    ],
+    "alts": [
+      "について"
     ]
   },
   "eigo:1433:be familiar with A": {
@@ -492,11 +630,17 @@
   "eigo:1434:be familiar to A": {
     "enAlts": [
       "familiar to A"
+    ],
+    "alts": [
+      "よくしられている"
     ]
   },
   "eigo:1434:be unfamiliar to A": {
     "enAlts": [
       "unfamiliar to A"
+    ],
+    "alts": [
+      "よくしられていない"
     ]
   },
   "eigo:1479:bunch": {
@@ -507,6 +651,9 @@
   "eigo:1522:organization": {
     "enAlts": [
       "organisation"
+    ],
+    "alts": [
+      "だんたい"
     ]
   },
   "eigo:1522:organize": {
@@ -516,42 +663,65 @@
   },
   "eigo:1623:excessive": {
     "alts": [
-      "いきすぎた"
+      "いきすぎた",
+      "かどの",
+      "かじょうな"
     ]
   },
   "eigo:1640:honor": {
     "enAlts": [
       "honour"
+    ],
+    "alts": [
+      "こうえい"
     ]
   },
   "eigo:1660:artifact": {
     "enAlts": [
       "artefact"
+    ],
+    "alts": [
+      "こうげいひん"
     ]
   },
   "eigo:1667:colonize": {
     "enAlts": [
       "colonise"
+    ],
+    "alts": [
+      "いじゅうする"
     ]
   },
   "eigo:1694:be concerned about A": {
     "enAlts": [
       "concerned about A"
+    ],
+    "alts": [
+      "きにかける"
     ]
   },
   "eigo:1694:be concerned with A": {
     "enAlts": [
       "concerned with A"
+    ],
+    "alts": [
+      "あつかっている"
     ]
   },
   "eigo:1695:be aimed at A": {
     "enAlts": [
       "aimed at A"
+    ],
+    "alts": [
+      "ねらっている"
     ]
   },
   "eigo:1696:be surrounded by A": {
     "enAlts": [
       "surrounded by A"
+    ],
+    "alts": [
+      "とりまかれている"
     ]
   },
   "eigo:1697:be suspended from A": {
@@ -562,31 +732,51 @@
   "eigo:1698:be engaged in A": {
     "enAlts": [
       "engaged in A"
+    ],
+    "alts": [
+      "たずさわっている"
     ]
   },
   "eigo:1699:be located in A": {
     "enAlts": [
       "located in A"
+    ],
+    "alts": [
+      "りっちしている",
+      "ある"
     ]
   },
   "eigo:1700:be absorbed in A": {
     "enAlts": [
       "absorbed in A"
+    ],
+    "alts": [
+      "ねっちゅうする",
+      "ぼっとうする"
     ]
   },
   "eigo:1701:be involved in A": {
     "enAlts": [
       "involved in A"
+    ],
+    "alts": [
+      "さんかしている"
     ]
   },
   "eigo:1702:be related to A": {
     "enAlts": [
       "related to A"
+    ],
+    "alts": [
+      "かんけいしている"
     ]
   },
   "eigo:1703:be made up of A": {
     "enAlts": [
       "made up of A"
+    ],
+    "alts": [
+      "こうせいされている"
     ]
   },
   "eigo:1705:be composed of A": {
@@ -597,11 +787,17 @@
   "eigo:1710:count A as B": {
     "enAlts": [
       "look on A as B"
+    ],
+    "alts": [
+      "かんがえる"
     ]
   },
   "eigo:1711:look on A as B": {
     "enAlts": [
       "count A as B"
+    ],
+    "alts": [
+      "かんがえる"
     ]
   },
   "eigo:1715:be responsible for A": {
@@ -620,31 +816,44 @@
   "eigo:1717:be keen on A": {
     "enAlts": [
       "keen on A"
+    ],
+    "alts": [
+      "ねっしんである"
     ]
   },
   "eigo:1718:be short of A": {
     "enAlts": [
       "short of A"
+    ],
+    "alts": [
+      "たりない"
     ]
   },
   "eigo:1720:be in the way": {
     "enAlts": [
       "in the way"
+    ],
+    "alts": [
+      "じゃまをする",
+      "つうこうのさまたげになる"
     ]
   },
   "eigo:1724:make one's way": {
     "alts": [
-      "すすんでゆく"
+      "すすんでゆく",
+      "すすむ"
     ]
   },
   "eigo:1755:in the meantime": {
     "alts": [
-      "そのかんに"
+      "そのかんに",
+      "それまでのあいだ"
     ]
   },
   "eigo:1755:meantime": {
     "alts": [
-      "そのかん"
+      "そのかん",
+      "それまでのあいだ"
     ]
   },
   "eigo:1799:fertilizer": {
@@ -660,16 +869,25 @@
   "eigo:1831:sympathize": {
     "enAlts": [
       "sympathise"
+    ],
+    "alts": [
+      "きょうかん"
     ]
   },
   "eigo:1854:enroll": {
     "enAlts": [
       "enrol"
+    ],
+    "alts": [
+      "にゅうかい"
     ]
   },
   "eigo:1932:skeptical": {
     "enAlts": [
       "sceptical"
+    ],
+    "alts": [
+      "うのみにしない"
     ]
   },
   "eigo:1948:subscribe": {
@@ -685,11 +903,19 @@
   "eigo:1998:rumor": {
     "enAlts": [
       "rumour"
+    ],
+    "alts": [
+      "ふうぶん",
+      "こんきょのないはなし"
     ]
   },
   "eigo:2000:be at a loss": {
     "enAlts": [
       "at a loss"
+    ],
+    "alts": [
+      "こまりはてる",
+      "とうわくする"
     ]
   },
   "eigo:2001:be in fashion": {
@@ -728,26 +954,42 @@
       "in favor of A",
       "be in favour of A",
       "in favour of A"
+    ],
+    "alts": [
+      "しじ"
     ]
   },
   "eigo:2005:be in season": {
     "enAlts": [
       "in season"
+    ],
+    "alts": [
+      "でさかりである"
     ]
   },
   "eigo:2006:be in trouble": {
     "enAlts": [
       "in trouble"
+    ],
+    "alts": [
+      "めんどうなことになっている",
+      "くきょうにある"
     ]
   },
   "eigo:2030:with regard to A": {
     "enAlts": [
       "as to A"
+    ],
+    "alts": [
+      "について"
     ]
   },
   "eigo:2036:be true of A": {
     "enAlts": [
       "true of A"
+    ],
+    "alts": [
+      "いえる"
     ]
   },
   "eigo:2037:be independent of A": {
@@ -758,36 +1000,65 @@
   "eigo:2038:be particular about A": {
     "enAlts": [
       "particular about A"
+    ],
+    "alts": [
+      "うるさい",
+      "ちゅうもんがおおい"
     ]
   },
   "eigo:2039:be anxious about A": {
     "enAlts": [
       "anxious about A"
+    ],
+    "alts": [
+      "きにする"
     ]
   },
   "eigo:2069:categorize": {
     "enAlts": [
       "categorise"
+    ],
+    "alts": [
+      "くみわけ",
+      "くぶん"
     ]
   },
   "eigo:2091:hence": {
     "enAlts": [
       "therefore"
+    ],
+    "alts": [
+      "したがって",
+      "だから"
     ]
   },
   "eigo:2099:currently": {
     "enAlts": [
       "at present"
+    ],
+    "alts": [
+      "もっか",
+      "いまは"
     ]
   },
   "eigo:2103:point of view": {
     "enAlts": [
       "viewpoint"
+    ],
+    "alts": [
+      "してん",
+      "みかた",
+      "たちば"
     ]
   },
   "eigo:2103:viewpoint": {
     "enAlts": [
       "point of view"
+    ],
+    "alts": [
+      "かんてん",
+      "してん",
+      "たちば"
     ]
   },
   "eigo:2247:labor": {
@@ -819,11 +1090,17 @@
   "eigo:2323:be worthy of A": {
     "enAlts": [
       "worthy of A"
+    ],
+    "alts": [
+      "ふさわしい"
     ]
   },
   "eigo:2324:be equivalent to A": {
     "enAlts": [
       "equivalent to A"
+    ],
+    "alts": [
+      "ひとしい"
     ]
   },
   "eigo:2325:be content with A": {
@@ -834,31 +1111,53 @@
   "eigo:2326:be consistent with A": {
     "enAlts": [
       "consistent with A"
+    ],
+    "alts": [
+      "むじゅんしない"
     ]
   },
   "eigo:2339:be on the alert": {
     "enAlts": [
       "on the alert"
+    ],
+    "alts": [
+      "ようじんしている",
+      "ゆだんしていない"
     ]
   },
   "eigo:2340:be on display": {
     "enAlts": [
       "on display"
+    ],
+    "alts": [
+      "ちんれつされている"
     ]
   },
   "eigo:2341:be on good terms with A": {
     "enAlts": [
       "on good terms with A"
+    ],
+    "alts": [
+      "したしい",
+      "うまくいっている"
     ]
   },
   "eigo:2342:be of help": {
     "enAlts": [
       "of help"
+    ],
+    "alts": [
+      "たすけになる",
+      "ちからになる"
     ]
   },
   "eigo:2343:be of use": {
     "enAlts": [
       "of use"
+    ],
+    "alts": [
+      "やくにたつ",
+      "つかいみちがある"
     ]
   },
   "eigo:2344:be isolated from A": {
@@ -869,6 +1168,9 @@
   "eigo:2345:be convinced of A": {
     "enAlts": [
       "convinced of A"
+    ],
+    "alts": [
+      "しんじている"
     ]
   },
   "eigo:2346:be accompanied by A": {
@@ -886,16 +1188,25 @@
   "eigo:2347:characterize": {
     "enAlts": [
       "characterise"
+    ],
+    "alts": [
+      "とくしょく"
     ]
   },
   "eigo:2348:be occupied with A": {
     "enAlts": [
       "occupied with A"
+    ],
+    "alts": [
+      "せんねんする"
     ]
   },
   "eigo:2349:be associated with A": {
     "enAlts": [
       "associated with A"
+    ],
+    "alts": [
+      "むすびついている"
     ]
   },
   "eigo:2350:be equipped with A": {
@@ -916,6 +1227,10 @@
   "eigo:2355:be prone to do": {
     "enAlts": [
       "prone to do"
+    ],
+    "alts": [
+      "するけいこうがある",
+      "しやすい"
     ]
   },
   "kobun:13:かなし": {
@@ -1559,6 +1874,9192 @@
   "rekishi:176": {
     "alts": [
       "おうのしょ"
+    ]
+  },
+  "eigo:1:diet": {
+    "alts": [
+      "しょくせいかつ"
+    ]
+  },
+  "eigo:1:dietary": {
+    "alts": [
+      "しょくじりょうほうの"
+    ]
+  },
+  "eigo:3:prepare": {
+    "alts": [
+      "じゅんびする"
+    ]
+  },
+  "eigo:3:preparation": {
+    "alts": [
+      "ようい"
+    ]
+  },
+  "eigo:5:broil": {
+    "alts": [
+      "あぶる"
+    ]
+  },
+  "eigo:6:fry": {
+    "alts": [
+      "あぶらでいためる"
+    ]
+  },
+  "eigo:9:chew": {
+    "alts": [
+      "かみくだく"
+    ]
+  },
+  "eigo:12:food": {
+    "alts": [
+      "しょくりょう",
+      "しょくひん"
+    ]
+  },
+  "eigo:14:discount": {
+    "alts": [
+      "ねびき"
+    ]
+  },
+  "eigo:15:bargain": {
+    "alts": [
+      "かいどくひん",
+      "とくばいひん"
+    ]
+  },
+  "eigo:16:reasonable": {
+    "alts": [
+      "だとうな"
+    ]
+  },
+  "eigo:16:reason": {
+    "alts": [
+      "わけ"
+    ]
+  },
+  "eigo:17:spend": {
+    "alts": [
+      "ついやす"
+    ]
+  },
+  "eigo:19:wipe": {
+    "alts": [
+      "ぬぐう",
+      "ふく"
+    ]
+  },
+  "eigo:20:clothes": {
+    "alts": [
+      "ふく"
+    ]
+  },
+  "eigo:20:cloth": {
+    "alts": [
+      "きれ",
+      "ぬのじ",
+      "きじ"
+    ]
+  },
+  "eigo:21:hang": {
+    "alts": [
+      "かける"
+    ]
+  },
+  "eigo:22:housework": {
+    "alts": [
+      "かじ"
+    ]
+  },
+  "eigo:24:celebrity": {
+    "alts": [
+      "ちょめいじん",
+      "めいし"
+    ]
+  },
+  "eigo:25:ceremony": {
+    "alts": [
+      "しき"
+    ]
+  },
+  "eigo:26:marriage": {
+    "alts": [
+      "けっこんせいかつ",
+      "こんいん"
+    ]
+  },
+  "eigo:28:funeral": {
+    "alts": [
+      "そうぎ"
+    ]
+  },
+  "eigo:29:story": {
+    "alts": [
+      "はなし"
+    ]
+  },
+  "eigo:32:yard": {
+    "alts": [
+      "にわ"
+    ]
+  },
+  "eigo:32:garden": {
+    "alts": [
+      "にわ"
+    ]
+  },
+  "eigo:36:rule": {
+    "alts": [
+      "きてい"
+    ]
+  },
+  "eigo:37:noticeable": {
+    "alts": [
+      "いちじるしい",
+      "はっきりわかる"
+    ]
+  },
+  "eigo:38:noise": {
+    "alts": [
+      "ものおと"
+    ]
+  },
+  "eigo:40:bill": {
+    "alts": [
+      "かんじょうがき"
+    ]
+  },
+  "eigo:41:precious": {
+    "alts": [
+      "たいせつな"
+    ]
+  },
+  "eigo:42:memory": {
+    "alts": [
+      "おもいで"
+    ]
+  },
+  "eigo:42:memorable": {
+    "alts": [
+      "わすれられない",
+      "きおくにのこる",
+      "いんしょうてきな"
+    ]
+  },
+  "eigo:45:accidental": {
+    "alts": [
+      "おもいがけない"
+    ]
+  },
+  "eigo:48:relative": {
+    "alts": [
+      "しんるい"
+    ]
+  },
+  "eigo:50:citizen": {
+    "alts": [
+      "こくみん"
+    ]
+  },
+  "eigo:50:citizenship": {
+    "alts": [
+      "しみんけん"
+    ]
+  },
+  "eigo:51:stranger": {
+    "alts": [
+      "よそもの"
+    ]
+  },
+  "eigo:51:strange": {
+    "alts": [
+      "へんな",
+      "ふしぎな"
+    ]
+  },
+  "eigo:52:acceptable": {
+    "alts": [
+      "うけいれられる",
+      "もうしぶんのない"
+    ]
+  },
+  "eigo:52:acceptance": {
+    "alts": [
+      "じゅだく"
+    ]
+  },
+  "eigo:53:reject": {
+    "alts": [
+      "きょぜつする",
+      "ふさいようにする"
+    ]
+  },
+  "eigo:53:rejection": {
+    "alts": [
+      "きょひ",
+      "きゃっか"
+    ]
+  },
+  "eigo:54:lift": {
+    "alts": [
+      "あげる"
+    ]
+  },
+  "eigo:58:severe": {
+    "alts": [
+      "はげしい"
+    ]
+  },
+  "eigo:59:strictly": {
+    "alts": [
+      "きびしく",
+      "げんかくに"
+    ]
+  },
+  "eigo:60:incorrect": {
+    "alts": [
+      "ただしくない",
+      "ふせいかくな"
+    ]
+  },
+  "eigo:61:accurate": {
+    "alts": [
+      "せいみつな"
+    ]
+  },
+  "eigo:61:accuracy": {
+    "alts": [
+      "てきかくさ"
+    ]
+  },
+  "eigo:61:inaccurate": {
+    "alts": [
+      "あやまりのある"
+    ]
+  },
+  "eigo:62:awe": {
+    "alts": [
+      "いふ",
+      "きょうたん"
+    ]
+  },
+  "eigo:63:terrible": {
+    "alts": [
+      "ひどい",
+      "すさまじい"
+    ]
+  },
+  "eigo:64:horrible": {
+    "alts": [
+      "おそろしい"
+    ]
+  },
+  "eigo:65:live": {
+    "alts": [
+      "くらす"
+    ]
+  },
+  "eigo:68:aloud": {
+    "alts": [
+      "おおごえで"
+    ]
+  },
+  "eigo:68:silently": {
+    "alts": [
+      "むごんで",
+      "しずかに"
+    ]
+  },
+  "eigo:69:possible": {
+    "alts": [
+      "できる"
+    ]
+  },
+  "eigo:69:impossible": {
+    "alts": [
+      "できない"
+    ]
+  },
+  "eigo:69:possibility": {
+    "alts": [
+      "みこみ"
+    ]
+  },
+  "eigo:70:necessary": {
+    "alts": [
+      "ふかけつな"
+    ]
+  },
+  "eigo:70:unnecessary": {
+    "alts": [
+      "ふような",
+      "よけいな"
+    ]
+  },
+  "eigo:71:dangerous": {
+    "alts": [
+      "あぶない"
+    ]
+  },
+  "eigo:72:convenience": {
+    "alts": [
+      "りべんせい"
+    ]
+  },
+  "eigo:72:inconvenient": {
+    "alts": [
+      "つごうのわるい",
+      "ふつごうな"
+    ]
+  },
+  "eigo:74:funny": {
+    "alts": [
+      "おもしろい"
+    ]
+  },
+  "eigo:75:rude": {
+    "alts": [
+      "ぶれいな",
+      "ぶさほうな"
+    ]
+  },
+  "eigo:76:wise": {
+    "alts": [
+      "けんめいな",
+      "りこうな",
+      "しりょぶかい"
+    ]
+  },
+  "eigo:77:obvious": {
+    "alts": [
+      "めいはくな"
+    ]
+  },
+  "eigo:78:fortunate": {
+    "alts": [
+      "うんのよい"
+    ]
+  },
+  "eigo:78:fortunately": {
+    "alts": [
+      "うんよく",
+      "こううんにも"
+    ]
+  },
+  "eigo:78:lucky": {
+    "alts": [
+      "ついている"
+    ]
+  },
+  "eigo:79:pity": {
+    "alts": [
+      "どうじょう"
+    ]
+  },
+  "eigo:80:shame": {
+    "alts": [
+      "はずかしさ"
+    ]
+  },
+  "eigo:81:polite": {
+    "alts": [
+      "ていねいな"
+    ]
+  },
+  "eigo:81:impolite": {
+    "alts": [
+      "しつれいな",
+      "ぶれいな"
+    ]
+  },
+  "eigo:82:smart": {
+    "alts": [
+      "かしこい",
+      "りこうな"
+    ]
+  },
+  "eigo:83:selfish": {
+    "alts": [
+      "わがまま",
+      "りこてき"
+    ]
+  },
+  "eigo:83:selfishness": {
+    "alts": [
+      "みがってさ",
+      "わがまま"
+    ]
+  },
+  "eigo:84:lazy": {
+    "alts": [
+      "たいだな",
+      "ぶしょうな"
+    ]
+  },
+  "eigo:85:gentle": {
+    "alts": [
+      "おだやかな"
+    ]
+  },
+  "eigo:86:calm": {
+    "alts": [
+      "おだやかな"
+    ]
+  },
+  "eigo:88:weary": {
+    "alts": [
+      "つかれきった"
+    ]
+  },
+  "eigo:89:income": {
+    "alts": [
+      "しょとく"
+    ]
+  },
+  "eigo:90:salary": {
+    "alts": [
+      "きゅうよ",
+      "げっきゅう"
+    ]
+  },
+  "eigo:92:costly": {
+    "alts": [
+      "ひようのかかる"
+    ]
+  },
+  "eigo:93:risk": {
+    "alts": [
+      "おそれ"
+    ]
+  },
+  "eigo:93:risky": {
+    "alts": [
+      "きけんをともなう"
+    ]
+  },
+  "eigo:94:satisfactory": {
+    "alts": [
+      "まんぞくのいく",
+      "もうしぶんのない"
+    ]
+  },
+  "eigo:94:satisfying": {
+    "alts": [
+      "まんぞくのいく"
+    ]
+  },
+  "eigo:95:please": {
+    "alts": [
+      "まんぞくさせる"
+    ]
+  },
+  "eigo:96:bored": {
+    "alts": [
+      "うんざりした"
+    ]
+  },
+  "eigo:96:boredom": {
+    "alts": [
+      "たいくつ"
+    ]
+  },
+  "eigo:96:boring": {
+    "alts": [
+      "たいくつな"
+    ]
+  },
+  "eigo:97:confused": {
+    "alts": [
+      "とうわくした",
+      "こんわくした"
+    ]
+  },
+  "eigo:98:scared": {
+    "alts": [
+      "こわがった"
+    ]
+  },
+  "eigo:98:scare": {
+    "alts": [
+      "おびえさせる"
+    ]
+  },
+  "eigo:98:scary": {
+    "alts": [
+      "おそろしい",
+      "ぞっとする"
+    ]
+  },
+  "eigo:99:embarrassed": {
+    "alts": [
+      "きまりわるい"
+    ]
+  },
+  "eigo:99:embarrassment": {
+    "alts": [
+      "はずかしさ",
+      "きまりわるさ"
+    ]
+  },
+  "eigo:100:disappointed": {
+    "alts": [
+      "しつぼうした",
+      "らくたんした"
+    ]
+  },
+  "eigo:100:disappointment": {
+    "alts": [
+      "らくたん"
+    ]
+  },
+  "eigo:101:various": {
+    "alts": [
+      "いろいろな",
+      "たような"
+    ]
+  },
+  "eigo:102:regular": {
+    "alts": [
+      "ていきてきな"
+    ]
+  },
+  "eigo:104:ugly": {
+    "alts": [
+      "みぐるしい"
+    ]
+  },
+  "eigo:106:flexible": {
+    "alts": [
+      "ゆうずうのきく"
+    ]
+  },
+  "eigo:106:flexibility": {
+    "alts": [
+      "しなやかさ"
+    ]
+  },
+  "eigo:107:tidy": {
+    "alts": [
+      "ととのった",
+      "せいとんされた"
+    ]
+  },
+  "eigo:108:plain": {
+    "alts": [
+      "かざりのない"
+    ]
+  },
+  "eigo:109:roughly": {
+    "alts": [
+      "だいたい"
+    ]
+  },
+  "eigo:110:flat rate": {
+    "alts": [
+      "いちりつりょうきん"
+    ]
+  },
+  "eigo:113:narrow": {
+    "alts": [
+      "ほそい"
+    ]
+  },
+  "eigo:117:huge": {
+    "alts": [
+      "とてもおおきい"
+    ]
+  },
+  "eigo:118:tiny": {
+    "alts": [
+      "ちっぽけな"
+    ]
+  },
+  "eigo:119:careless": {
+    "alts": [
+      "うっかりした"
+    ]
+  },
+  "eigo:119:careful": {
+    "alts": [
+      "しんちょうな"
+    ]
+  },
+  "eigo:120:mistake": {
+    "alts": [
+      "あやまり"
+    ]
+  },
+  "eigo:121:earn": {
+    "alts": [
+      "もうける"
+    ]
+  },
+  "eigo:121:earnings": {
+    "alts": [
+      "もうけ",
+      "しょとく",
+      "かせぎ"
+    ]
+  },
+  "eigo:122:wage": {
+    "alts": [
+      "きゅうりょう"
+    ]
+  },
+  "eigo:125:ability": {
+    "alts": [
+      "さいのう"
+    ]
+  },
+  "eigo:126:courage": {
+    "alts": [
+      "どきょう"
+    ]
+  },
+  "eigo:127:duty": {
+    "alts": [
+      "つとめ"
+    ]
+  },
+  "eigo:130:struggle": {
+    "alts": [
+      "ふんとうする"
+    ]
+  },
+  "eigo:131:repair": {
+    "alts": [
+      "なおす"
+    ]
+  },
+  "eigo:131:mend": {
+    "alts": [
+      "なおす"
+    ]
+  },
+  "eigo:140:punish": {
+    "alts": [
+      "しょばつする"
+    ]
+  },
+  "eigo:140:punishment": {
+    "alts": [
+      "ばつ",
+      "しょぶん"
+    ]
+  },
+  "eigo:141:blame": {
+    "alts": [
+      "ひなんする"
+    ]
+  },
+  "eigo:142:fault": {
+    "alts": [
+      "かしつ"
+    ]
+  },
+  "eigo:143:prize": {
+    "alts": [
+      "しょう"
+    ]
+  },
+  "eigo:144:reward": {
+    "alts": [
+      "ほうび"
+    ]
+  },
+  "eigo:145:wrap": {
+    "alts": [
+      "くるむ"
+    ]
+  },
+  "eigo:147:custom": {
+    "alts": [
+      "しきたり",
+      "しゅうかん"
+    ]
+  },
+  "eigo:152:manners": {
+    "alts": [
+      "ぎょうぎ"
+    ]
+  },
+  "eigo:152:manner": {
+    "alts": [
+      "たいど"
+    ]
+  },
+  "eigo:153:arms": {
+    "alts": [
+      "ぶき",
+      "へいりょく"
+    ]
+  },
+  "eigo:154:glass": {
+    "alts": [
+      "ぐらす"
+    ]
+  },
+  "eigo:157:discuss": {
+    "alts": [
+      "ろんじる"
+    ]
+  },
+  "eigo:157:discussion": {
+    "alts": [
+      "はなしあい",
+      "とうろん"
+    ]
+  },
+  "eigo:161:lend": {
+    "alts": [
+      "かす"
+    ]
+  },
+  "eigo:163:rental": {
+    "alts": [
+      "かしだし",
+      "れんたる"
+    ]
+  },
+  "eigo:164:loan": {
+    "alts": [
+      "ゆうし",
+      "ろーん"
+    ]
+  },
+  "eigo:166:direct": {
+    "alts": [
+      "ちょっこうの"
+    ]
+  },
+  "eigo:166:indirect": {
+    "alts": [
+      "とおまわしな"
+    ]
+  },
+  "eigo:167:impatient": {
+    "alts": [
+      "いらだった"
+    ]
+  },
+  "eigo:167:patience": {
+    "alts": [
+      "がまん",
+      "こんき"
+    ]
+  },
+  "eigo:169:note": {
+    "alts": [
+      "めも"
+    ]
+  },
+  "eigo:169:notable": {
+    "alts": [
+      "めだつ"
+    ]
+  },
+  "eigo:173:tuition": {
+    "alts": [
+      "がくひ"
+    ]
+  },
+  "eigo:175:fare": {
+    "alts": [
+      "じょうしゃちん",
+      "りょうきん"
+    ]
+  },
+  "eigo:177:penalty": {
+    "alts": [
+      "ばつ"
+    ]
+  },
+  "eigo:178:weather": {
+    "alts": [
+      "てんこう"
+    ]
+  },
+  "eigo:184:flood": {
+    "alts": [
+      "はんらん"
+    ]
+  },
+  "eigo:185:warn": {
+    "alts": [
+      "ちゅういする",
+      "ちゅうこくする"
+    ]
+  },
+  "eigo:186:landslide": {
+    "alts": [
+      "じすべり",
+      "がけくずれ"
+    ]
+  },
+  "eigo:187:occur": {
+    "alts": [
+      "おきる",
+      "はっせいする"
+    ]
+  },
+  "eigo:188:rescue": {
+    "alts": [
+      "すくう"
+    ]
+  },
+  "eigo:190:atmosphere": {
+    "alts": [
+      "むーど"
+    ]
+  },
+  "eigo:191:temperature": {
+    "alts": [
+      "おんど"
+    ]
+  },
+  "eigo:194:mild": {
+    "alts": [
+      "おんだんな"
+    ]
+  },
+  "eigo:195:thunder": {
+    "alts": [
+      "らいめい"
+    ]
+  },
+  "eigo:195:lightning": {
+    "alts": [
+      "らいこう",
+      "でんこう"
+    ]
+  },
+  "eigo:196:foggy": {
+    "alts": [
+      "きりのふかい",
+      "きりのこい"
+    ]
+  },
+  "eigo:197:disastrous": {
+    "alts": [
+      "はめつてきな",
+      "かいめつてきな",
+      "ひどい"
+    ]
+  },
+  "eigo:200:storm": {
+    "alts": [
+      "ぼうふうう"
+    ]
+  },
+  "eigo:201:ocean": {
+    "alts": [
+      "うみ"
+    ]
+  },
+  "eigo:203:island": {
+    "alts": [
+      "しま"
+    ]
+  },
+  "eigo:204:dessert": {
+    "alts": [
+      "でざーと"
+    ]
+  },
+  "eigo:205:valley": {
+    "alts": [
+      "たに",
+      "たにま"
+    ]
+  },
+  "eigo:206:tropical": {
+    "alts": [
+      "ねったいちほうの"
+    ]
+  },
+  "eigo:208:human": {
+    "alts": [
+      "ひと"
+    ]
+  },
+  "eigo:209:evolve": {
+    "alts": [
+      "しんかする"
+    ]
+  },
+  "eigo:210:survive": {
+    "alts": [
+      "いきのこる"
+    ]
+  },
+  "eigo:211:revive": {
+    "alts": [
+      "よみがえる"
+    ]
+  },
+  "eigo:211:revival": {
+    "alts": [
+      "さいこう",
+      "ふっこう"
+    ]
+  },
+  "eigo:212:damage": {
+    "alts": [
+      "ひがい"
+    ]
+  },
+  "eigo:213:environment": {
+    "alts": [
+      "しぜんかんきょう"
+    ]
+  },
+  "eigo:214:spoil": {
+    "alts": [
+      "だめにする"
+    ]
+  },
+  "eigo:215:view": {
+    "alts": [
+      "けしき"
+    ]
+  },
+  "eigo:217:energy": {
+    "alts": [
+      "ちから",
+      "えねるぎー"
+    ]
+  },
+  "eigo:217:energetic": {
+    "alts": [
+      "せいりょくてきな",
+      "げんきいっぱいの"
+    ]
+  },
+  "eigo:218:poisonous": {
+    "alts": [
+      "どくのある"
+    ]
+  },
+  "eigo:218:poison": {
+    "alts": [
+      "どく"
+    ]
+  },
+  "eigo:220:chemical": {
+    "alts": [
+      "かがくぶっしつ"
+    ]
+  },
+  "eigo:221:pollution": {
+    "alts": [
+      "おせん"
+    ]
+  },
+  "eigo:221:pollute": {
+    "alts": [
+      "おせんする"
+    ]
+  },
+  "eigo:222:garbage": {
+    "alts": [
+      "ごみ"
+    ]
+  },
+  "eigo:222:rubbish": {
+    "alts": [
+      "ごみ",
+      "くず"
+    ]
+  },
+  "eigo:223:trash": {
+    "alts": [
+      "ごみ",
+      "くず"
+    ]
+  },
+  "eigo:225:electricity": {
+    "alts": [
+      "でんりょく"
+    ]
+  },
+  "eigo:225:electric": {
+    "alts": [
+      "でんどうの",
+      "でんきしきの"
+    ]
+  },
+  "eigo:226:reduction": {
+    "alts": [
+      "ねびき"
+    ]
+  },
+  "eigo:227:waste": {
+    "alts": [
+      "ろうひする"
+    ]
+  },
+  "eigo:227:waist": {
+    "alts": [
+      "こし",
+      "うえすと"
+    ]
+  },
+  "eigo:232:generate": {
+    "alts": [
+      "はっせいさせる"
+    ]
+  },
+  "eigo:235:material": {
+    "alts": [
+      "そざい"
+    ]
+  },
+  "eigo:236:at the moment": {
+    "alts": [
+      "いまは",
+      "もっか"
+    ]
+  },
+  "eigo:237:the other day": {
+    "alts": [
+      "このあいだ",
+      "さきだって",
+      "このまえ"
+    ]
+  },
+  "eigo:238:before long": {
+    "alts": [
+      "やがて",
+      "じきに",
+      "そのうち"
+    ]
+  },
+  "eigo:238:soon": {
+    "alts": [
+      "すぐに",
+      "じきに"
+    ]
+  },
+  "eigo:239:at first": {
+    "alts": [
+      "はじめは",
+      "はじめのうちは"
+    ]
+  },
+  "eigo:241:for the time being": {
+    "alts": [
+      "さしあたり",
+      "とうめんは",
+      "いまのところ"
+    ]
+  },
+  "eigo:241:for a while": {
+    "alts": [
+      "しばらくのあいだ",
+      "すこしのあいだ"
+    ]
+  },
+  "eigo:242:these days": {
+    "alts": [
+      "このごろ",
+      "ちかごろ"
+    ]
+  },
+  "eigo:243:in those days": {
+    "alts": [
+      "そのころ",
+      "あのころ",
+      "むかし"
+    ]
+  },
+  "eigo:243:at that time": {
+    "alts": [
+      "そのとうじ",
+      "とうじ",
+      "そのころ"
+    ]
+  },
+  "eigo:244:the day after tomorrow": {
+    "alts": [
+      "みょうごにち"
+    ]
+  },
+  "eigo:245:the day before yesterday": {
+    "alts": [
+      "いっさくじつ"
+    ]
+  },
+  "eigo:246:in the past": {
+    "alts": [
+      "いぜんは"
+    ]
+  },
+  "eigo:246:past": {
+    "alts": [
+      "かこ"
+    ]
+  },
+  "eigo:247:in the future": {
+    "alts": [
+      "これから",
+      "こんごは"
+    ]
+  },
+  "eigo:247:future": {
+    "alts": [
+      "しょうらい"
+    ]
+  },
+  "eigo:248:in front of A": {
+    "alts": [
+      "しょうめんに"
+    ]
+  },
+  "eigo:249:at the back of A": {
+    "alts": [
+      "おくに"
+    ]
+  },
+  "eigo:250:in the middle of A": {
+    "alts": [
+      "なかほどに"
+    ]
+  },
+  "eigo:250:middle": {
+    "alts": [
+      "ちゅうおう",
+      "なかほど"
+    ]
+  },
+  "eigo:251:to the north of A": {
+    "alts": [
+      "ほっぽうに"
+    ]
+  },
+  "eigo:252:next to A": {
+    "alts": [
+      "すぐそばに"
+    ]
+  },
+  "eigo:253:in the distance": {
+    "alts": [
+      "えんぽうに",
+      "はるかとおくに"
+    ]
+  },
+  "eigo:253:at a distance": {
+    "alts": [
+      "きょりをおいて",
+      "とおくから"
+    ]
+  },
+  "eigo:254:do one's best": {
+    "alts": [
+      "さいぜんをつくす",
+      "べすとをつくす"
+    ]
+  },
+  "eigo:256:do A good": {
+    "alts": [
+      "やくにたつ"
+    ]
+  },
+  "eigo:257:do without A": {
+    "alts": [
+      "なしでやっていく"
+    ]
+  },
+  "eigo:259:go by": {
+    "alts": [
+      "けいかする"
+    ]
+  },
+  "eigo:262:come true": {
+    "alts": [
+      "ほんとうになる",
+      "げんじつになる",
+      "かなう"
+    ]
+  },
+  "eigo:263:come across A": {
+    "alts": [
+      "でくわす"
+    ]
+  },
+  "eigo:264:come up with A": {
+    "alts": [
+      "かんがえだす"
+    ]
+  },
+  "eigo:266:take notes": {
+    "alts": [
+      "のーとをとる"
+    ]
+  },
+  "eigo:267:take place": {
+    "alts": [
+      "かいさいされる"
+    ]
+  },
+  "eigo:268:take A for granted": {
+    "alts": [
+      "あたりまえとおもう"
+    ]
+  },
+  "eigo:270:absent": {
+    "alts": [
+      "けっせきの"
+    ]
+  },
+  "eigo:273:famous": {
+    "alts": [
+      "なだかい"
+    ]
+  },
+  "eigo:274:tell A from B": {
+    "alts": [
+      "くべつする"
+    ]
+  },
+  "eigo:275:mistake A for B": {
+    "alts": [
+      "まちがえる"
+    ]
+  },
+  "eigo:276:exchange A for B": {
+    "alts": [
+      "とりかえる"
+    ]
+  },
+  "eigo:277:turn A into B": {
+    "alts": [
+      "する"
+    ]
+  },
+  "eigo:278:invite A to B": {
+    "alts": [
+      "さそう"
+    ]
+  },
+  "eigo:279:add A to B": {
+    "alts": [
+      "たす"
+    ]
+  },
+  "eigo:279:add": {
+    "alts": [
+      "たす",
+      "つけくわえる"
+    ]
+  },
+  "eigo:279:additional": {
+    "alts": [
+      "ついかの"
+    ]
+  },
+  "eigo:280:prefer A to B": {
+    "alts": [
+      "えらぶ"
+    ]
+  },
+  "eigo:282:on time": {
+    "alts": [
+      "ていこくに"
+    ]
+  },
+  "eigo:287:put off A": {
+    "alts": [
+      "さきのばしにする"
+    ]
+  },
+  "eigo:288:put out A": {
+    "alts": [
+      "しょうかする",
+      "けす"
+    ]
+  },
+  "eigo:288:extinguish": {
+    "alts": [
+      "けす"
+    ]
+  },
+  "eigo:289:take care of A": {
+    "alts": [
+      "めんどうをみる"
+    ]
+  },
+  "eigo:290:look after A": {
+    "alts": [
+      "せわをする"
+    ]
+  },
+  "eigo:291:take part in A": {
+    "alts": [
+      "くわわる",
+      "しゅつじょうする"
+    ]
+  },
+  "eigo:292:participate in A": {
+    "alts": [
+      "さんかする"
+    ]
+  },
+  "eigo:292:participate": {
+    "alts": [
+      "くわわる"
+    ]
+  },
+  "eigo:294:task": {
+    "alts": [
+      "にんむ",
+      "さぎょう"
+    ]
+  },
+  "eigo:296:attitude": {
+    "alts": [
+      "しせい",
+      "かんがえかた"
+    ]
+  },
+  "eigo:298:image": {
+    "alts": [
+      "いめーじ"
+    ]
+  },
+  "eigo:300:appearance": {
+    "alts": [
+      "みかけ"
+    ]
+  },
+  "eigo:301:personal": {
+    "alts": [
+      "してきな"
+    ]
+  },
+  "eigo:301:personality": {
+    "alts": [
+      "ひとがら"
+    ]
+  },
+  "eigo:304:instant": {
+    "alts": [
+      "すぐ"
+    ]
+  },
+  "eigo:306:conscious": {
+    "alts": [
+      "きづいている"
+    ]
+  },
+  "eigo:307:pleasant": {
+    "alts": [
+      "たのしい"
+    ]
+  },
+  "eigo:307:pleasure": {
+    "alts": [
+      "たのしみ"
+    ]
+  },
+  "eigo:307:unpleasant": {
+    "alts": [
+      "いやな",
+      "ふゆかいな"
+    ]
+  },
+  "eigo:308:successful": {
+    "alts": [
+      "うまくいった"
+    ]
+  },
+  "eigo:308:unsuccessful": {
+    "alts": [
+      "しっぱいにおわった"
+    ]
+  },
+  "eigo:309:realistic": {
+    "alts": [
+      "げんじつみのある"
+    ]
+  },
+  "eigo:309:unrealistic": {
+    "alts": [
+      "げんじつてきでない",
+      "じつげんふかのうな"
+    ]
+  },
+  "eigo:311:uncertain": {
+    "alts": [
+      "はっきりしない"
+    ]
+  },
+  "eigo:312:available": {
+    "alts": [
+      "てにはいる"
+    ]
+  },
+  "eigo:314:baggage": {
+    "alts": [
+      "にもつ"
+    ]
+  },
+  "eigo:314:luggage": {
+    "alts": [
+      "てにもつ"
+    ]
+  },
+  "eigo:315:clothing": {
+    "alts": [
+      "いりょうひん"
+    ]
+  },
+  "eigo:316:ideal": {
+    "alts": [
+      "もうしぶんない"
+    ]
+  },
+  "eigo:317:proper": {
+    "alts": [
+      "ふさわしい",
+      "ただしい"
+    ]
+  },
+  "eigo:318:suitable": {
+    "alts": [
+      "てきした",
+      "てきせつな"
+    ]
+  },
+  "eigo:319:appropriate": {
+    "alts": [
+      "てきせつな"
+    ]
+  },
+  "eigo:319:inappropriate": {
+    "alts": [
+      "ふさわしくない",
+      "ばちがいな"
+    ]
+  },
+  "eigo:321:essential": {
+    "alts": [
+      "ぜったいにひつような"
+    ]
+  },
+  "eigo:321:essence": {
+    "alts": [
+      "しんずい"
+    ]
+  },
+  "eigo:322:valuable": {
+    "alts": [
+      "かちのある"
+    ]
+  },
+  "eigo:323:employer": {
+    "alts": [
+      "こようぬし"
+    ]
+  },
+  "eigo:325:staff": {
+    "alts": [
+      "すたっふ"
+    ]
+  },
+  "eigo:326:stuff": {
+    "alts": [
+      "しょじひん",
+      "もの"
+    ]
+  },
+  "eigo:327:daily": {
+    "alts": [
+      "にちじょうの"
+    ]
+  },
+  "eigo:327:everyday": {
+    "alts": [
+      "まいにちの"
+    ]
+  },
+  "eigo:329:economist": {
+    "alts": [
+      "えこのみすと"
+    ]
+  },
+  "eigo:330:economic": {
+    "alts": [
+      "けいざいにかんする"
+    ]
+  },
+  "eigo:333:arise": {
+    "alts": [
+      "おこる",
+      "はっせいする"
+    ]
+  },
+  "eigo:338:mail": {
+    "alts": [
+      "ゆうびんぶつ"
+    ]
+  },
+  "eigo:340:principle": {
+    "alts": [
+      "しんじょう"
+    ]
+  },
+  "eigo:344:barely": {
+    "alts": [
+      "やっとのことで"
+    ]
+  },
+  "eigo:346:constantly": {
+    "alts": [
+      "いつも",
+      "しょっちゅう",
+      "つねに"
+    ]
+  },
+  "eigo:347:frequently": {
+    "alts": [
+      "たびたび",
+      "よく",
+      "しばしば"
+    ]
+  },
+  "eigo:347:frequent": {
+    "alts": [
+      "たびたびの"
+    ]
+  },
+  "eigo:348:occasionally": {
+    "alts": [
+      "たまに",
+      "ときおり"
+    ]
+  },
+  "eigo:348:occasional": {
+    "alts": [
+      "たまの",
+      "ときどきの"
+    ]
+  },
+  "eigo:350:consider": {
+    "alts": [
+      "こうりょする"
+    ]
+  },
+  "eigo:351:avoid": {
+    "alts": [
+      "よける"
+    ]
+  },
+  "eigo:354:expectation": {
+    "alts": [
+      "よそう"
+    ]
+  },
+  "eigo:355:decide": {
+    "alts": [
+      "けっしんする",
+      "けっていする"
+    ]
+  },
+  "eigo:355:decision": {
+    "alts": [
+      "けつだん"
+    ]
+  },
+  "eigo:355:decisive": {
+    "alts": [
+      "きめてとなる"
+    ]
+  },
+  "eigo:357:management": {
+    "alts": [
+      "うんえい"
+    ]
+  },
+  "eigo:359:action": {
+    "alts": [
+      "おこない"
+    ]
+  },
+  "eigo:362:dislike": {
+    "alts": [
+      "きらいだ"
+    ]
+  },
+  "eigo:363:in a hurry": {
+    "alts": [
+      "あわてて",
+      "おおいそぎで"
+    ]
+  },
+  "eigo:365:excuse": {
+    "alts": [
+      "べんかい"
+    ]
+  },
+  "eigo:366:forgive": {
+    "alts": [
+      "おおめにみる"
+    ]
+  },
+  "eigo:369:recommend": {
+    "alts": [
+      "すいせんする"
+    ]
+  },
+  "eigo:369:recommendation": {
+    "alts": [
+      "すすめ"
+    ]
+  },
+  "eigo:371:demand": {
+    "alts": [
+      "つよくもとめる"
+    ]
+  },
+  "eigo:372:insist": {
+    "alts": [
+      "いいはる"
+    ]
+  },
+  "eigo:374:advise": {
+    "alts": [
+      "ちゅうこくする"
+    ]
+  },
+  "eigo:374:advice": {
+    "alts": [
+      "ちゅうこく",
+      "あどばいす"
+    ]
+  },
+  "eigo:376:requirement": {
+    "alts": [
+      "ようけん"
+    ]
+  },
+  "eigo:378:assist": {
+    "alts": [
+      "たすける"
+    ]
+  },
+  "eigo:378:assistance": {
+    "alts": [
+      "しえん",
+      "てだすけ"
+    ]
+  },
+  "eigo:380:protect": {
+    "alts": [
+      "ほごする"
+    ]
+  },
+  "eigo:380:protective": {
+    "alts": [
+      "ぼうごの"
+    ]
+  },
+  "eigo:383:agree": {
+    "alts": [
+      "さんせいする"
+    ]
+  },
+  "eigo:384:approve": {
+    "alts": [
+      "みとめる"
+    ]
+  },
+  "eigo:384:approval": {
+    "alts": [
+      "きょか"
+    ]
+  },
+  "eigo:386:defeat": {
+    "alts": [
+      "うちやぶる"
+    ]
+  },
+  "eigo:387:explanation": {
+    "alts": [
+      "かいせつ"
+    ]
+  },
+  "eigo:388:describe": {
+    "alts": [
+      "いいあらわす",
+      "せつめいする"
+    ]
+  },
+  "eigo:388:description": {
+    "alts": [
+      "せつめい"
+    ]
+  },
+  "eigo:391:train": {
+    "alts": [
+      "きたえる"
+    ]
+  },
+  "eigo:392:disappear": {
+    "alts": [
+      "みえなくなる",
+      "すがたをけす"
+    ]
+  },
+  "eigo:395:recently": {
+    "alts": [
+      "さきごろ"
+    ]
+  },
+  "eigo:395:recent": {
+    "alts": [
+      "ここさいきんの"
+    ]
+  },
+  "eigo:396:lately": {
+    "alts": [
+      "ちかごろ",
+      "さいきん",
+      "ここのところ"
+    ]
+  },
+  "eigo:397:nowadays": {
+    "alts": [
+      "さいきん"
+    ]
+  },
+  "eigo:398:gradually": {
+    "alts": [
+      "じょじょに",
+      "しだいに",
+      "だんだん"
+    ]
+  },
+  "eigo:399:immediately": {
+    "alts": [
+      "すぐに",
+      "いますぐ"
+    ]
+  },
+  "eigo:400:instantly": {
+    "alts": [
+      "すぐさま",
+      "たちまち"
+    ]
+  },
+  "eigo:402:experimental": {
+    "alts": [
+      "しけんてきな"
+    ]
+  },
+  "eigo:403:technical": {
+    "alts": [
+      "せんもんてきな"
+    ]
+  },
+  "eigo:406:equipment": {
+    "alts": [
+      "ようぐ"
+    ]
+  },
+  "eigo:407:rare": {
+    "alts": [
+      "めずらしい"
+    ]
+  },
+  "eigo:409:examine": {
+    "alts": [
+      "しんさつする"
+    ]
+  },
+  "eigo:410:analyst": {
+    "alts": [
+      "あなりすと",
+      "ぶんせきか"
+    ]
+  },
+  "eigo:411:sort of": {
+    "alts": [
+      "いくぶん",
+      "なんだか"
+    ]
+  },
+  "eigo:412:measurement": {
+    "alts": [
+      "けいそく"
+    ]
+  },
+  "eigo:414:inform": {
+    "alts": [
+      "つたえる"
+    ]
+  },
+  "eigo:415:technology": {
+    "alts": [
+      "ぎじゅつ"
+    ]
+  },
+  "eigo:415:technological": {
+    "alts": [
+      "かがくぎじゅつの"
+    ]
+  },
+  "eigo:417:website": {
+    "alts": [
+      "うぇぶさいと",
+      "ほーむぺーじ"
+    ]
+  },
+  "eigo:419:document": {
+    "alts": [
+      "ぶんしょ"
+    ]
+  },
+  "eigo:419:documentary": {
+    "alts": [
+      "きろくばんぐみ"
+    ]
+  },
+  "eigo:421:abroad": {
+    "alts": [
+      "かいがいへ"
+    ]
+  },
+  "eigo:423:progress": {
+    "alts": [
+      "じょうたつ"
+    ]
+  },
+  "eigo:425:breakthrough": {
+    "alts": [
+      "ひやくてきしんぽ"
+    ]
+  },
+  "eigo:428:container": {
+    "alts": [
+      "いれもの"
+    ]
+  },
+  "eigo:440:crew": {
+    "alts": [
+      "じょうむいん"
+    ]
+  },
+  "eigo:442:character": {
+    "alts": [
+      "ひとがら"
+    ]
+  },
+  "eigo:443:figure": {
+    "alts": [
+      "ひとかげ"
+    ]
+  },
+  "eigo:447:confirm": {
+    "alts": [
+      "たしかめる"
+    ]
+  },
+  "eigo:450:standard": {
+    "alts": [
+      "すいじゅん"
+    ]
+  },
+  "eigo:454:respond": {
+    "alts": [
+      "おうじる"
+    ]
+  },
+  "eigo:454:response": {
+    "alts": [
+      "はんのう",
+      "へんじ"
+    ]
+  },
+  "eigo:455:contribute": {
+    "alts": [
+      "きよする"
+    ]
+  },
+  "eigo:458:specific": {
+    "alts": [
+      "ぐたいてきな",
+      "めいかくな"
+    ]
+  },
+  "eigo:459:private": {
+    "alts": [
+      "してきな"
+    ]
+  },
+  "eigo:461:surface": {
+    "alts": [
+      "すいめん"
+    ]
+  },
+  "eigo:462:edge": {
+    "alts": [
+      "ふち",
+      "へり"
+    ]
+  },
+  "eigo:463:corner": {
+    "alts": [
+      "まがりかど"
+    ]
+  },
+  "eigo:464:tip": {
+    "alts": [
+      "さき"
+    ]
+  },
+  "eigo:468:awake": {
+    "alts": [
+      "おきて"
+    ]
+  },
+  "eigo:468:wake": {
+    "alts": [
+      "おきる"
+    ]
+  },
+  "eigo:469:sleep": {
+    "alts": [
+      "ねる"
+    ]
+  },
+  "eigo:471:loose": {
+    "alts": [
+      "ゆるんだ"
+    ]
+  },
+  "eigo:473:minor": {
+    "alts": [
+      "ささいな"
+    ]
+  },
+  "eigo:474:quantity": {
+    "alts": [
+      "りょう"
+    ]
+  },
+  "eigo:475:amount": {
+    "alts": [
+      "りょう"
+    ]
+  },
+  "eigo:476:sorrow": {
+    "alts": [
+      "ひあい"
+    ]
+  },
+  "eigo:477:despair": {
+    "alts": [
+      "しつぼう"
+    ]
+  },
+  "eigo:478:gifted": {
+    "alts": [
+      "てんさいてきな"
+    ]
+  },
+  "eigo:479:talent": {
+    "alts": [
+      "そしつ",
+      "ぎりょう"
+    ]
+  },
+  "eigo:479:talented": {
+    "alts": [
+      "さいのうのある"
+    ]
+  },
+  "eigo:480:float": {
+    "alts": [
+      "ただよう"
+    ]
+  },
+  "eigo:481:sink": {
+    "alts": [
+      "ちんぼつする"
+    ]
+  },
+  "eigo:482:freeze": {
+    "alts": [
+      "とうけつする"
+    ]
+  },
+  "eigo:484:hide": {
+    "alts": [
+      "ひそむ"
+    ]
+  },
+  "eigo:485:seek": {
+    "alts": [
+      "もとめる"
+    ]
+  },
+  "eigo:486:sum": {
+    "alts": [
+      "そうけい"
+    ]
+  },
+  "eigo:491:fold": {
+    "alts": [
+      "おる",
+      "おりまげる"
+    ]
+  },
+  "eigo:491:unfold": {
+    "alts": [
+      "ひらく"
+    ]
+  },
+  "eigo:498:scratch": {
+    "alts": [
+      "かく"
+    ]
+  },
+  "eigo:500:truth": {
+    "alts": [
+      "じじつ",
+      "ほんとうのこと"
+    ]
+  },
+  "eigo:501:growth": {
+    "alts": [
+      "はってん"
+    ]
+  },
+  "eigo:502:strength": {
+    "alts": [
+      "ちから"
+    ]
+  },
+  "eigo:502:strengthen": {
+    "alts": [
+      "きょうかする"
+    ]
+  },
+  "eigo:507:overseas": {
+    "alts": [
+      "がいこくへ"
+    ]
+  },
+  "eigo:508:overall": {
+    "alts": [
+      "そうごうてきな"
+    ]
+  },
+  "eigo:509:overcome": {
+    "alts": [
+      "のりこえる"
+    ]
+  },
+  "eigo:510:overtake": {
+    "alts": [
+      "おいぬく"
+    ]
+  },
+  "eigo:512:beside": {
+    "alts": [
+      "よこに",
+      "となりに"
+    ]
+  },
+  "eigo:514:via": {
+    "alts": [
+      "とおって"
+    ]
+  },
+  "eigo:516:have a wonderful time": {
+    "alts": [
+      "たのしいときをすごす",
+      "すばらしいときをすごす"
+    ]
+  },
+  "eigo:516:have a hard time": {
+    "alts": [
+      "つらいおもいをする",
+      "くるしむ"
+    ]
+  },
+  "eigo:517:have a baby": {
+    "alts": [
+      "しゅっさんする",
+      "こどもをうむ"
+    ]
+  },
+  "eigo:518:have a reservation": {
+    "alts": [
+      "よやくをしてある"
+    ]
+  },
+  "eigo:519:catch a cold": {
+    "alts": [
+      "かぜにかかる"
+    ]
+  },
+  "eigo:520:have no idea": {
+    "alts": [
+      "けんとうがつかない"
+    ]
+  },
+  "eigo:520:idea": {
+    "alts": [
+      "おもいつき",
+      "ちゃくそう"
+    ]
+  },
+  "eigo:521:have a lot in common with A": {
+    "alts": [
+      "にている"
+    ]
+  },
+  "eigo:522:have something to do with A": {
+    "alts": [
+      "なにかかんけいがある",
+      "たしょうかんけいがある"
+    ]
+  },
+  "eigo:525:turn up": {
+    "alts": [
+      "あらわれる"
+    ]
+  },
+  "eigo:526:make a speech": {
+    "alts": [
+      "すぴーちをする",
+      "えんぜつする"
+    ]
+  },
+  "eigo:526:make a presentation": {
+    "alts": [
+      "はっぴょうする",
+      "ぷれぜんをする"
+    ]
+  },
+  "eigo:527:make an excuse": {
+    "alts": [
+      "べんかいする",
+      "いいのがれる"
+    ]
+  },
+  "eigo:528:make an effort": {
+    "alts": [
+      "ちからをつくす"
+    ]
+  },
+  "eigo:529:make a decision": {
+    "alts": [
+      "けっていする",
+      "けっしんする"
+    ]
+  },
+  "eigo:530:make an arrangement": {
+    "alts": [
+      "だんどりをつける",
+      "じゅんびをする"
+    ]
+  },
+  "eigo:531:make a reservation": {
+    "alts": [
+      "よやくする",
+      "せきをよやくする"
+    ]
+  },
+  "eigo:532:make an impression": {
+    "alts": [
+      "かんめいをあたえる"
+    ]
+  },
+  "eigo:533:make a difference": {
+    "alts": [
+      "こうかがある"
+    ]
+  },
+  "eigo:533:difference": {
+    "alts": [
+      "そうい"
+    ]
+  },
+  "eigo:534:make a mistake": {
+    "alts": [
+      "あやまりをおかす",
+      "みすをする"
+    ]
+  },
+  "eigo:535:make friends with A": {
+    "alts": [
+      "したしくなる"
+    ]
+  },
+  "eigo:536:make sense": {
+    "alts": [
+      "いみをなす",
+      "りにかなう"
+    ]
+  },
+  "eigo:537:treat A as B": {
+    "alts": [
+      "みなす"
+    ]
+  },
+  "eigo:539:compare A with B": {
+    "alts": [
+      "ひかくする"
+    ]
+  },
+  "eigo:539:compare": {
+    "alts": [
+      "ひかくする"
+    ]
+  },
+  "eigo:540:share A with B": {
+    "alts": [
+      "きょうゆうする"
+    ]
+  },
+  "eigo:540:share": {
+    "alts": [
+      "きょうゆうする"
+    ]
+  },
+  "eigo:541:connect": {
+    "alts": [
+      "むすびつける"
+    ]
+  },
+  "eigo:541:connection": {
+    "alts": [
+      "かんけい",
+      "かんれん"
+    ]
+  },
+  "eigo:542:look forward to doing": {
+    "alts": [
+      "こころまちにする"
+    ]
+  },
+  "eigo:544:look into A": {
+    "alts": [
+      "くわしくしらべる"
+    ]
+  },
+  "eigo:546:look over A": {
+    "alts": [
+      "ざっとみなおす"
+    ]
+  },
+  "eigo:547:admire": {
+    "alts": [
+      "しょうさんする"
+    ]
+  },
+  "eigo:547:look down on A": {
+    "alts": [
+      "けいべつする"
+    ]
+  },
+  "eigo:548:pick": {
+    "alts": [
+      "えらびだす"
+    ]
+  },
+  "eigo:549:grow up": {
+    "alts": [
+      "おとなになる",
+      "そだつ"
+    ]
+  },
+  "eigo:550:stay up": {
+    "alts": [
+      "ねないでおきている",
+      "よふかしする"
+    ]
+  },
+  "eigo:552:break down": {
+    "alts": [
+      "こしょうする",
+      "うごかなくなる"
+    ]
+  },
+  "eigo:554:run away": {
+    "alts": [
+      "にげる"
+    ]
+  },
+  "eigo:555:throw": {
+    "alts": [
+      "ほうる"
+    ]
+  },
+  "eigo:558:together with A": {
+    "alts": [
+      "いっしょに"
+    ]
+  },
+  "eigo:559:because of A": {
+    "alts": [
+      "ために"
+    ]
+  },
+  "eigo:561:Why don't you do": {
+    "alts": [
+      "しませんか"
+    ]
+  },
+  "eigo:561:Why don't we do": {
+    "alts": [
+      "しましょうよ"
+    ]
+  },
+  "eigo:563:Would you mind if": {
+    "alts": [
+      "いいですか"
+    ]
+  },
+  "eigo:563:Do you mind if": {
+    "alts": [
+      "かまいませんか"
+    ]
+  },
+  "eigo:564:Would you mind doing": {
+    "alts": [
+      "くださいませんか"
+    ]
+  },
+  "eigo:565:I was wondering if you could do": {
+    "alts": [
+      "いただけませんか"
+    ]
+  },
+  "eigo:568:rather": {
+    "alts": [
+      "いくぶん"
+    ]
+  },
+  "eigo:569:I'm glad that": {
+    "alts": [
+      "よかった"
+    ]
+  },
+  "eigo:572:elementary": {
+    "alts": [
+      "きほんてきな"
+    ]
+  },
+  "eigo:573:lecture": {
+    "alts": [
+      "こうえん"
+    ]
+  },
+  "eigo:577:senior": {
+    "alts": [
+      "としうえの"
+    ]
+  },
+  "eigo:578:junior": {
+    "alts": [
+      "としたの"
+    ]
+  },
+  "eigo:580:elderly": {
+    "alts": [
+      "こうれいの",
+      "としおいた"
+    ]
+  },
+  "eigo:583:educate": {
+    "alts": [
+      "そだてる"
+    ]
+  },
+  "eigo:586:score": {
+    "alts": [
+      "てんすう"
+    ]
+  },
+  "eigo:588:pupil": {
+    "alts": [
+      "じどう"
+    ]
+  },
+  "eigo:589:review": {
+    "alts": [
+      "みなおす"
+    ]
+  },
+  "eigo:590:regret": {
+    "alts": [
+      "ざんねんにおもう"
+    ]
+  },
+  "eigo:591:removal": {
+    "alts": [
+      "てっきょ",
+      "とりのぞくこと"
+    ]
+  },
+  "eigo:592:reform": {
+    "alts": [
+      "かいぜんする"
+    ]
+  },
+  "eigo:594:outline": {
+    "alts": [
+      "あらまし"
+    ]
+  },
+  "eigo:595:essay": {
+    "alts": [
+      "ずいひつ"
+    ]
+  },
+  "eigo:596:following": {
+    "alts": [
+      "いかの"
+    ]
+  },
+  "eigo:597:instructor": {
+    "alts": [
+      "こうし"
+    ]
+  },
+  "eigo:598:previous": {
+    "alts": [
+      "いぜんの",
+      "さきの"
+    ]
+  },
+  "eigo:601:language": {
+    "alts": [
+      "ことば"
+    ]
+  },
+  "eigo:602:typically": {
+    "alts": [
+      "ふつうは"
+    ]
+  },
+  "eigo:603:example": {
+    "alts": [
+      "れい"
+    ]
+  },
+  "eigo:606:summary": {
+    "alts": [
+      "がいよう",
+      "まとめ"
+    ]
+  },
+  "eigo:607:theme": {
+    "alts": [
+      "てーま"
+    ]
+  },
+  "eigo:608:logical": {
+    "alts": [
+      "すじのとおった"
+    ]
+  },
+  "eigo:608:logic": {
+    "alts": [
+      "すじみち"
+    ]
+  },
+  "eigo:610:passage": {
+    "alts": [
+      "ぶんしょうのいちぶ"
+    ]
+  },
+  "eigo:611:relatively": {
+    "alts": [
+      "わりに"
+    ]
+  },
+  "eigo:613:completely": {
+    "alts": [
+      "すっかり",
+      "まったく"
+    ]
+  },
+  "eigo:614:part": {
+    "alts": [
+      "いちぶ"
+    ]
+  },
+  "eigo:617:unlike": {
+    "alts": [
+      "とことなり"
+    ]
+  },
+  "eigo:620:furthermore": {
+    "alts": [
+      "くわえて",
+      "さらに"
+    ]
+  },
+  "eigo:621:however": {
+    "alts": [
+      "けれども"
+    ]
+  },
+  "eigo:622:nevertheless": {
+    "alts": [
+      "それにもかかわらず"
+    ]
+  },
+  "eigo:622:nonetheless": {
+    "alts": [
+      "それにもかかわらず"
+    ]
+  },
+  "eigo:624:vocabulary": {
+    "alts": [
+      "ごい"
+    ]
+  },
+  "eigo:625:meaningful": {
+    "alts": [
+      "いみのある"
+    ]
+  },
+  "eigo:628:formal": {
+    "alts": [
+      "あらたまった"
+    ]
+  },
+  "eigo:628:informal": {
+    "alts": [
+      "くだけた"
+    ]
+  },
+  "eigo:637:appeal": {
+    "alts": [
+      "もとめる",
+      "こんがんする"
+    ]
+  },
+  "eigo:638:complain": {
+    "alts": [
+      "もんくをいう"
+    ]
+  },
+  "eigo:639:denial": {
+    "alts": [
+      "ひにん"
+    ]
+  },
+  "eigo:640:postpone": {
+    "alts": [
+      "さきのばしにする"
+    ]
+  },
+  "eigo:642:despise": {
+    "alts": [
+      "みくだす"
+    ]
+  },
+  "eigo:643:criticism": {
+    "alts": [
+      "ひなん"
+    ]
+  },
+  "eigo:644:praise": {
+    "alts": [
+      "しょうさんする",
+      "たたえる"
+    ]
+  },
+  "eigo:645:appreciate": {
+    "alts": [
+      "かんしゃする"
+    ]
+  },
+  "eigo:646:apology": {
+    "alts": [
+      "おわび"
+    ]
+  },
+  "eigo:647:lead": {
+    "alts": [
+      "あんないする"
+    ]
+  },
+  "eigo:647:leader": {
+    "alts": [
+      "りーだー"
+    ]
+  },
+  "eigo:648:apply": {
+    "alts": [
+      "おうぼする"
+    ]
+  },
+  "eigo:648:application": {
+    "alts": [
+      "しんせい",
+      "おうぼ"
+    ]
+  },
+  "eigo:651:mislead": {
+    "alts": [
+      "まどわす",
+      "だます"
+    ]
+  },
+  "eigo:653:deceive": {
+    "alts": [
+      "だます"
+    ]
+  },
+  "eigo:656:guess": {
+    "alts": [
+      "いいあてる"
+    ]
+  },
+  "eigo:657:imagine": {
+    "alts": [
+      "おもいえがく"
+    ]
+  },
+  "eigo:658:predict": {
+    "alts": [
+      "よほうする"
+    ]
+  },
+  "eigo:658:prediction": {
+    "alts": [
+      "よげん"
+    ]
+  },
+  "eigo:659:refusal": {
+    "alts": [
+      "きょぜつ"
+    ]
+  },
+  "eigo:660:resist": {
+    "alts": [
+      "さからう"
+    ]
+  },
+  "eigo:660:resistance": {
+    "alts": [
+      "はんこう"
+    ]
+  },
+  "eigo:660:resistant": {
+    "alts": [
+      "たいせいのある"
+    ]
+  },
+  "eigo:661:protest": {
+    "alts": [
+      "いぎをとなえる"
+    ]
+  },
+  "eigo:662:jealousy": {
+    "alts": [
+      "しっと",
+      "やきもち"
+    ]
+  },
+  "eigo:664:amused": {
+    "alts": [
+      "ゆかいがって"
+    ]
+  },
+  "eigo:664:amusing": {
+    "alts": [
+      "おかしい",
+      "ゆかいな"
+    ]
+  },
+  "eigo:665:thrilled": {
+    "alts": [
+      "かんげきした"
+    ]
+  },
+  "eigo:665:thrilling": {
+    "alts": [
+      "ぞくぞくする"
+    ]
+  },
+  "eigo:666:delighted": {
+    "alts": [
+      "おおよろこびして"
+    ]
+  },
+  "eigo:666:delight": {
+    "alts": [
+      "よろこび"
+    ]
+  },
+  "eigo:667:ashamed": {
+    "alts": [
+      "はずかしくおもって"
+    ]
+  },
+  "eigo:668:emotion": {
+    "alts": [
+      "きもち"
+    ]
+  },
+  "eigo:668:emotional": {
+    "alts": [
+      "かんどうてきな"
+    ]
+  },
+  "eigo:669:mood": {
+    "alts": [
+      "きもち"
+    ]
+  },
+  "eigo:670:temper": {
+    "alts": [
+      "きしつ"
+    ]
+  },
+  "eigo:671:desirable": {
+    "alts": [
+      "このましい"
+    ]
+  },
+  "eigo:672:amazed": {
+    "alts": [
+      "びっくりした"
+    ]
+  },
+  "eigo:672:amaze": {
+    "alts": [
+      "びっくりさせる"
+    ]
+  },
+  "eigo:672:amazing": {
+    "alts": [
+      "すばらしい"
+    ]
+  },
+  "eigo:673:astonished": {
+    "alts": [
+      "びっくりした"
+    ]
+  },
+  "eigo:673:astonish": {
+    "alts": [
+      "おどろかせる"
+    ]
+  },
+  "eigo:674:annoyed": {
+    "alts": [
+      "はらをたてた"
+    ]
+  },
+  "eigo:674:annoy": {
+    "alts": [
+      "なやませる",
+      "こまらせる"
+    ]
+  },
+  "eigo:675:frustrated": {
+    "alts": [
+      "がっかりした"
+    ]
+  },
+  "eigo:676:disturbing": {
+    "alts": [
+      "ふあんにさせる"
+    ]
+  },
+  "eigo:677:interrupt": {
+    "alts": [
+      "ちゅうだんさせる"
+    ]
+  },
+  "eigo:678:bother": {
+    "alts": [
+      "こまらせる"
+    ]
+  },
+  "eigo:679:irritate": {
+    "alts": [
+      "おこらせる"
+    ]
+  },
+  "eigo:679:irritated": {
+    "alts": [
+      "いらいらした",
+      "むっとした"
+    ]
+  },
+  "eigo:681:fear": {
+    "alts": [
+      "きょうふ"
+    ]
+  },
+  "eigo:682:terrify": {
+    "alts": [
+      "ぞっとさせる",
+      "おびえさせる"
+    ]
+  },
+  "eigo:686:philosophical": {
+    "alts": [
+      "てつがくの"
+    ]
+  },
+  "eigo:687:geography": {
+    "alts": [
+      "ちり"
+    ]
+  },
+  "eigo:687:geographical": {
+    "alts": [
+      "ちりじょうの"
+    ]
+  },
+  "eigo:688:psychological": {
+    "alts": [
+      "せいしんてきな"
+    ]
+  },
+  "eigo:696:architecture": {
+    "alts": [
+      "けんちくようしき"
+    ]
+  },
+  "eigo:696:architect": {
+    "alts": [
+      "せっけいしゃ"
+    ]
+  },
+  "eigo:699:general": {
+    "alts": [
+      "ぜんたいの"
+    ]
+  },
+  "eigo:699:generally": {
+    "alts": [
+      "たいてい",
+      "がいして",
+      "ふつうは"
+    ]
+  },
+  "eigo:700:knowledgeable": {
+    "alts": [
+      "よくしっている"
+    ]
+  },
+  "eigo:701:achievement": {
+    "alts": [
+      "ぎょうせき",
+      "いぎょう"
+    ]
+  },
+  "eigo:702:aim": {
+    "alts": [
+      "もくてき",
+      "もくひょう"
+    ]
+  },
+  "eigo:702:purpose": {
+    "alts": [
+      "ねらい",
+      "もくひょう"
+    ]
+  },
+  "eigo:703:improvement": {
+    "alts": [
+      "かいぜん",
+      "じょうたつ"
+    ]
+  },
+  "eigo:704:skill": {
+    "alts": [
+      "ぎのう"
+    ]
+  },
+  "eigo:704:skilled": {
+    "alts": [
+      "じゅくたつ"
+    ]
+  },
+  "eigo:706:assignment": {
+    "alts": [
+      "しゅくだい"
+    ]
+  },
+  "eigo:706:assign": {
+    "alts": [
+      "かす"
+    ]
+  },
+  "eigo:707:effective": {
+    "alts": [
+      "ゆうこう"
+    ]
+  },
+  "eigo:708:method": {
+    "alts": [
+      "やりかた",
+      "しゅほう"
+    ]
+  },
+  "eigo:709:factor": {
+    "alts": [
+      "ようそ"
+    ]
+  },
+  "eigo:711:region": {
+    "alts": [
+      "ちほう",
+      "ちく"
+    ]
+  },
+  "eigo:713:debate": {
+    "alts": [
+      "ろんそう"
+    ]
+  },
+  "eigo:715:reference": {
+    "alts": [
+      "さんこうしりょう"
+    ]
+  },
+  "eigo:717:stress": {
+    "alts": [
+      "すとれす"
+    ]
+  },
+  "eigo:718:emphasis": {
+    "alts": [
+      "りきてん"
+    ]
+  },
+  "eigo:719:found": {
+    "alts": [
+      "そうせつ"
+    ]
+  },
+  "eigo:719:foundation": {
+    "alts": [
+      "きそ"
+    ]
+  },
+  "eigo:720:establishment": {
+    "alts": [
+      "せつりつ"
+    ]
+  },
+  "eigo:721:challenge": {
+    "alts": [
+      "かだい",
+      "ちょうせん"
+    ]
+  },
+  "eigo:722:theory": {
+    "alts": [
+      "がくせつ"
+    ]
+  },
+  "eigo:723:paper": {
+    "alts": [
+      "れぽーと"
+    ]
+  },
+  "eigo:726:survey": {
+    "alts": [
+      "あんけーと"
+    ]
+  },
+  "eigo:728:conference": {
+    "alts": [
+      "がっかい"
+    ]
+  },
+  "eigo:731:prove": {
+    "alts": [
+      "りっしょう"
+    ]
+  },
+  "eigo:732:statistics": {
+    "alts": [
+      "とうけい"
+    ]
+  },
+  "eigo:733:percentage": {
+    "alts": [
+      "ひりつ"
+    ]
+  },
+  "eigo:733:percent": {
+    "alts": [
+      "ぱーせんと"
+    ]
+  },
+  "eigo:734:majority": {
+    "alts": [
+      "かはんすう",
+      "だいぶぶん"
+    ]
+  },
+  "eigo:736:ratio": {
+    "alts": [
+      "わりあい",
+      "ひ"
+    ]
+  },
+  "eigo:737:graph": {
+    "alts": [
+      "ぐらふ"
+    ]
+  },
+  "eigo:739:calculate": {
+    "alts": [
+      "さんしゅつ"
+    ]
+  },
+  "eigo:739:calculation": {
+    "alts": [
+      "けいさん"
+    ]
+  },
+  "eigo:743:itchy": {
+    "alts": [
+      "むずがゆい"
+    ]
+  },
+  "eigo:745:relieve": {
+    "alts": [
+      "けいげんする"
+    ]
+  },
+  "eigo:745:relief": {
+    "alts": [
+      "あんど"
+    ]
+  },
+  "eigo:745:relieved": {
+    "alts": [
+      "あんしんした"
+    ]
+  },
+  "eigo:748:disease": {
+    "alts": [
+      "しっかん",
+      "しっぺい"
+    ]
+  },
+  "eigo:748:illness": {
+    "alts": [
+      "びょうき"
+    ]
+  },
+  "eigo:750:similarity": {
+    "alts": [
+      "にているてん"
+    ]
+  },
+  "eigo:751:effect": {
+    "alts": [
+      "えいきょう",
+      "けっか"
+    ]
+  },
+  "eigo:760:medicine": {
+    "alts": [
+      "くすり"
+    ]
+  },
+  "eigo:764:stomachache": {
+    "alts": [
+      "いつう"
+    ]
+  },
+  "eigo:767:identify": {
+    "alts": [
+      "かくにん"
+    ]
+  },
+  "eigo:767:identical": {
+    "alts": [
+      "どういつ",
+      "そっくり"
+    ]
+  },
+  "eigo:769:stable": {
+    "alts": [
+      "あんていした"
+    ]
+  },
+  "eigo:773:luck": {
+    "alts": [
+      "うん",
+      "つき"
+    ]
+  },
+  "eigo:779:sauce": {
+    "alts": [
+      "そーす",
+      "かけじる"
+    ]
+  },
+  "eigo:782:functional": {
+    "alts": [
+      "きのうてき"
+    ]
+  },
+  "eigo:783:flu": {
+    "alts": [
+      "いんふるえんざ"
+    ]
+  },
+  "eigo:784:spread": {
+    "alts": [
+      "ひろまる"
+    ]
+  },
+  "eigo:787:donate": {
+    "alts": [
+      "きぞう"
+    ]
+  },
+  "eigo:787:donation": {
+    "alts": [
+      "きふ"
+    ]
+  },
+  "eigo:788:blood": {
+    "alts": [
+      "ち"
+    ]
+  },
+  "eigo:789:wound": {
+    "alts": [
+      "けが"
+    ]
+  },
+  "eigo:789:injury": {
+    "alts": [
+      "けが"
+    ]
+  },
+  "eigo:791:complicated": {
+    "alts": [
+      "ややこしい",
+      "ふくざつな"
+    ]
+  },
+  "eigo:791:complicate": {
+    "alts": [
+      "ふくざつにする"
+    ]
+  },
+  "eigo:792:complexity": {
+    "alts": [
+      "ふくざつせい"
+    ]
+  },
+  "eigo:793:benefit": {
+    "alts": [
+      "りえき"
+    ]
+  },
+  "eigo:794:advantage": {
+    "alts": [
+      "りてん",
+      "ゆうりなてん"
+    ]
+  },
+  "eigo:794:disadvantage": {
+    "alts": [
+      "ふりなてん",
+      "けってん"
+    ]
+  },
+  "eigo:794:merit": {
+    "alts": [
+      "ちょうしょ"
+    ]
+  },
+  "eigo:796:shape": {
+    "alts": [
+      "すがた",
+      "かっこう"
+    ]
+  },
+  "eigo:797:opportunity": {
+    "alts": [
+      "ちゃんす"
+    ]
+  },
+  "eigo:797:chance": {
+    "alts": [
+      "みこみ"
+    ]
+  },
+  "eigo:798:occasion": {
+    "alts": [
+      "とき",
+      "ぎょうじ"
+    ]
+  },
+  "eigo:800:scarce": {
+    "alts": [
+      "ふそくしている"
+    ]
+  },
+  "eigo:801:seldom": {
+    "alts": [
+      "まれにしかない"
+    ]
+  },
+  "eigo:802:take off": {
+    "alts": [
+      "とびたつ"
+    ]
+  },
+  "eigo:802:take off A": {
+    "alts": [
+      "ぬぐ"
+    ]
+  },
+  "eigo:805:go with A": {
+    "alts": [
+      "ちょうわする"
+    ]
+  },
+  "eigo:807:cope with A": {
+    "alts": [
+      "うまくしょりする"
+    ]
+  },
+  "eigo:808:fill": {
+    "alts": [
+      "いっぱいにする"
+    ]
+  },
+  "eigo:810:striking": {
+    "alts": [
+      "いんしょうてきな"
+    ]
+  },
+  "eigo:814:think over A": {
+    "alts": [
+      "じゅっこうする"
+    ]
+  },
+  "eigo:815:run over A": {
+    "alts": [
+      "ひく"
+    ]
+  },
+  "eigo:816:turn over A": {
+    "alts": [
+      "うらがえす"
+    ]
+  },
+  "eigo:817:ask for A": {
+    "alts": [
+      "たのむ"
+    ]
+  },
+  "eigo:817:call for A": {
+    "alts": [
+      "ようきゅうする"
+    ]
+  },
+  "eigo:821:in spite of A": {
+    "alts": [
+      "をよそに"
+    ]
+  },
+  "eigo:821:despite": {
+    "alts": [
+      "をよそに"
+    ]
+  },
+  "eigo:822:regardless of A": {
+    "alts": [
+      "かかわらず"
+    ]
+  },
+  "eigo:824:after all": {
+    "alts": [
+      "やはり"
+    ]
+  },
+  "eigo:825:above all": {
+    "alts": [
+      "なによりもまず",
+      "まずだいいちに"
+    ]
+  },
+  "eigo:826:belong to A": {
+    "alts": [
+      "しょぞくする"
+    ]
+  },
+  "eigo:826:belong": {
+    "alts": [
+      "ぞくする"
+    ]
+  },
+  "eigo:829:graduate from A": {
+    "alts": [
+      "でる"
+    ]
+  },
+  "eigo:834:put on weight": {
+    "alts": [
+      "たいじゅうがふえる"
+    ]
+  },
+  "eigo:834:gain weight": {
+    "alts": [
+      "ふとる"
+    ]
+  },
+  "eigo:834:put on A": {
+    "alts": [
+      "きる"
+    ]
+  },
+  "eigo:835:lose weight": {
+    "alts": [
+      "たいじゅうがへる",
+      "げんりょうする"
+    ]
+  },
+  "eigo:837:out of date": {
+    "alts": [
+      "きゅうしきの"
+    ]
+  },
+  "eigo:851:cheer up A": {
+    "alts": [
+      "はげます"
+    ]
+  },
+  "eigo:851:cheerful": {
+    "alts": [
+      "ようきな"
+    ]
+  },
+  "eigo:853:rely on A": {
+    "alts": [
+      "たよる",
+      "しんらいする"
+    ]
+  },
+  "eigo:853:reliable": {
+    "alts": [
+      "しんらいできる"
+    ]
+  },
+  "eigo:853:rely": {
+    "alts": [
+      "たよる"
+    ]
+  },
+  "eigo:854:count on A": {
+    "alts": [
+      "あてにする"
+    ]
+  },
+  "eigo:855:focus on A": {
+    "alts": [
+      "しゅうちゅうする"
+    ]
+  },
+  "eigo:855:concentrate on A": {
+    "alts": [
+      "せんねんする"
+    ]
+  },
+  "eigo:857:sooner or later": {
+    "alts": [
+      "いつかは"
+    ]
+  },
+  "eigo:858:no longer": {
+    "alts": [
+      "もう"
+    ]
+  },
+  "eigo:860:at the most": {
+    "alts": [
+      "おおくても"
+    ]
+  },
+  "eigo:860:at best": {
+    "alts": [
+      "せいぜい"
+    ]
+  },
+  "eigo:861:cooperate": {
+    "alts": [
+      "きょうどうする"
+    ]
+  },
+  "eigo:861:cooperation": {
+    "alts": [
+      "きょうりょく",
+      "きょうどう"
+    ]
+  },
+  "eigo:865:increasingly": {
+    "alts": [
+      "しだいに"
+    ]
+  },
+  "eigo:867:concentrate": {
+    "alts": [
+      "しゅうちゅうする"
+    ]
+  },
+  "eigo:867:concentration": {
+    "alts": [
+      "しゅうちゅう"
+    ]
+  },
+  "eigo:868:distraction": {
+    "alts": [
+      "じゃま"
+    ]
+  },
+  "eigo:871:object": {
+    "alts": [
+      "もの"
+    ]
+  },
+  "eigo:873:encourage": {
+    "alts": [
+      "ゆうきづける"
+    ]
+  },
+  "eigo:873:encouragement": {
+    "alts": [
+      "げきれい"
+    ]
+  },
+  "eigo:876:enrich": {
+    "alts": [
+      "じゅうじつさせる"
+    ]
+  },
+  "eigo:879:frightening": {
+    "alts": [
+      "ぞっとするような"
+    ]
+  },
+  "eigo:883:preserve": {
+    "alts": [
+      "ほぞんする"
+    ]
+  },
+  "eigo:883:preservation": {
+    "alts": [
+      "ほご",
+      "いじ"
+    ]
+  },
+  "eigo:884:conserve": {
+    "alts": [
+      "たいせつにつかう"
+    ]
+  },
+  "eigo:885:observation": {
+    "alts": [
+      "かんそく"
+    ]
+  },
+  "eigo:890:variation": {
+    "alts": [
+      "へんどう",
+      "さ"
+    ]
+  },
+  "eigo:892:direction": {
+    "alts": [
+      "ほうがく"
+    ]
+  },
+  "eigo:895:yell": {
+    "alts": [
+      "さけぶ",
+      "おおごえをだす"
+    ]
+  },
+  "eigo:895:shout": {
+    "alts": [
+      "おおごえでいう"
+    ]
+  },
+  "eigo:896:cry": {
+    "alts": [
+      "なく"
+    ]
+  },
+  "eigo:900:expansion": {
+    "alts": [
+      "かくだい"
+    ]
+  },
+  "eigo:901:destroy": {
+    "alts": [
+      "はかいする"
+    ]
+  },
+  "eigo:902:collapse": {
+    "alts": [
+      "くずれおちる",
+      "ほうかいする"
+    ]
+  },
+  "eigo:904:obtain": {
+    "alts": [
+      "える"
+    ]
+  },
+  "eigo:911:particularly": {
+    "alts": [
+      "ことのほか",
+      "とりわけ"
+    ]
+  },
+  "eigo:912:definitely": {
+    "alts": [
+      "まちがいなく"
+    ]
+  },
+  "eigo:914:absolutely": {
+    "alts": [
+      "かんぜんに"
+    ]
+  },
+  "eigo:915:entirely": {
+    "alts": [
+      "かんぜんに"
+    ]
+  },
+  "eigo:916:probably": {
+    "alts": [
+      "たぶん"
+    ]
+  },
+  "eigo:918:unfortunately": {
+    "alts": [
+      "あいにく"
+    ]
+  },
+  "eigo:920:sight": {
+    "alts": [
+      "ながめ"
+    ]
+  },
+  "eigo:922:temple": {
+    "alts": [
+      "てら"
+    ]
+  },
+  "eigo:925:religious": {
+    "alts": [
+      "けいけんな"
+    ]
+  },
+  "eigo:925:religion": {
+    "alts": [
+      "しんこうのおしえ"
+    ]
+  },
+  "eigo:927:soul": {
+    "alts": [
+      "れいこん"
+    ]
+  },
+  "eigo:928:exist": {
+    "alts": [
+      "じっさいにある"
+    ]
+  },
+  "eigo:928:existence": {
+    "alts": [
+      "そんざい"
+    ]
+  },
+  "eigo:929:remote": {
+    "alts": [
+      "とおくはなれた"
+    ]
+  },
+  "eigo:930:ancestor": {
+    "alts": [
+      "せんぞ"
+    ]
+  },
+  "eigo:932:modern": {
+    "alts": [
+      "きんだい"
+    ]
+  },
+  "eigo:933:prehistoric": {
+    "alts": [
+      "ゆうしいぜん"
+    ]
+  },
+  "eigo:935:tradition": {
+    "alts": [
+      "しきたり",
+      "かんしゅう"
+    ]
+  },
+  "eigo:937:audience": {
+    "alts": [
+      "かんきゃく",
+      "ききて"
+    ]
+  },
+  "eigo:938:spectator": {
+    "alts": [
+      "けんぶつにん",
+      "けんぶつするひと"
+    ]
+  },
+  "eigo:939:belief": {
+    "alts": [
+      "かくしん"
+    ]
+  },
+  "eigo:940:trust": {
+    "alts": [
+      "しんよう"
+    ]
+  },
+  "eigo:941:commonly": {
+    "alts": [
+      "よく",
+      "ふつうに"
+    ]
+  },
+  "eigo:943:statue": {
+    "alts": [
+      "ぞう"
+    ]
+  },
+  "eigo:944:liberty": {
+    "alts": [
+      "じゆう"
+    ]
+  },
+  "eigo:946:treasure": {
+    "alts": [
+      "ざいほう"
+    ]
+  },
+  "eigo:947:origin": {
+    "alts": [
+      "はじまり"
+    ]
+  },
+  "eigo:947:originate": {
+    "alts": [
+      "しょうじる"
+    ]
+  },
+  "eigo:948:mankind": {
+    "alts": [
+      "にんげんぜんたい"
+    ]
+  },
+  "eigo:949:translate": {
+    "alts": [
+      "やくす"
+    ]
+  },
+  "eigo:949:translation": {
+    "alts": [
+      "ほんやく",
+      "やくしたもの"
+    ]
+  },
+  "eigo:949:translator": {
+    "alts": [
+      "やくすひと"
+    ]
+  },
+  "eigo:952:tail": {
+    "alts": [
+      "お"
+    ]
+  },
+  "eigo:955:author": {
+    "alts": [
+      "かきて",
+      "さっか",
+      "ひっしゃ"
+    ]
+  },
+  "eigo:956:publication": {
+    "alts": [
+      "かんこう"
+    ]
+  },
+  "eigo:956:publisher": {
+    "alts": [
+      "はっこうもと"
+    ]
+  },
+  "eigo:959:create": {
+    "alts": [
+      "つくりだす",
+      "そうぞうする"
+    ]
+  },
+  "eigo:959:creature": {
+    "alts": [
+      "せいぶつ",
+      "どうぶつ"
+    ]
+  },
+  "eigo:960:invention": {
+    "alts": [
+      "はつめい",
+      "はつめいされたもの"
+    ]
+  },
+  "eigo:960:inventor": {
+    "alts": [
+      "はつめいしたひと"
+    ]
+  },
+  "eigo:961:inspire": {
+    "alts": [
+      "こぶする"
+    ]
+  },
+  "eigo:961:inspiration": {
+    "alts": [
+      "ちゃくそう",
+      "れいかん",
+      "しげき"
+    ]
+  },
+  "eigo:962:stimulation": {
+    "alts": [
+      "はたらきかけ"
+    ]
+  },
+  "eigo:963:complete": {
+    "alts": [
+      "しあげる"
+    ]
+  },
+  "eigo:963:completion": {
+    "alts": [
+      "かんりょう"
+    ]
+  },
+  "eigo:965:accomplish": {
+    "alts": [
+      "たっせいする",
+      "やりとげる"
+    ]
+  },
+  "eigo:965:accomplishment": {
+    "alts": [
+      "ぎょうせき"
+    ]
+  },
+  "eigo:968:drawing": {
+    "alts": [
+      "そびょう"
+    ]
+  },
+  "eigo:968:draw": {
+    "alts": [
+      "かく"
+    ]
+  },
+  "eigo:970:exhibition": {
+    "alts": [
+      "てんじかい"
+    ]
+  },
+  "eigo:972:impressive": {
+    "alts": [
+      "いんしょうてき",
+      "かんどうてき"
+    ]
+  },
+  "eigo:973:express": {
+    "alts": [
+      "ひょうげんする"
+    ]
+  },
+  "eigo:974:scenery": {
+    "alts": [
+      "ふうけい"
+    ]
+  },
+  "eigo:975:machinery": {
+    "alts": [
+      "きかいせつび"
+    ]
+  },
+  "eigo:975:machine": {
+    "alts": [
+      "そうち"
+    ]
+  },
+  "eigo:978:community": {
+    "alts": [
+      "ちいき",
+      "きょうどうたい"
+    ]
+  },
+  "eigo:981:shortage": {
+    "alts": [
+      "ふそく",
+      "しなぶそく"
+    ]
+  },
+  "eigo:982:volunteer": {
+    "alts": [
+      "ぼらんてぃあ"
+    ]
+  },
+  "eigo:992:criminal": {
+    "alts": [
+      "はんざいしゃ"
+    ]
+  },
+  "eigo:993:investigation": {
+    "alts": [
+      "ちょうさ"
+    ]
+  },
+  "eigo:994:murder": {
+    "alts": [
+      "さつじんじけん"
+    ]
+  },
+  "eigo:995:collect": {
+    "alts": [
+      "しゅうしゅうする"
+    ]
+  },
+  "eigo:995:collection": {
+    "alts": [
+      "あつめたもの"
+    ]
+  },
+  "eigo:995:collective": {
+    "alts": [
+      "きょうどう"
+    ]
+  },
+  "eigo:996:evident": {
+    "alts": [
+      "めいはく"
+    ]
+  },
+  "eigo:997:violent": {
+    "alts": [
+      "あらあらしい"
+    ]
+  },
+  "eigo:998:steel": {
+    "alts": [
+      "はがね"
+    ]
+  },
+  "eigo:999:thief": {
+    "alts": [
+      "ぬすびと",
+      "こそどろ"
+    ]
+  },
+  "eigo:1000:robbery": {
+    "alts": [
+      "ごうとう"
+    ]
+  },
+  "eigo:1000:rob": {
+    "alts": [
+      "ごうだつする"
+    ]
+  },
+  "eigo:1000:robber": {
+    "alts": [
+      "ごうとう"
+    ]
+  },
+  "eigo:1001:court": {
+    "alts": [
+      "ほうてい"
+    ]
+  },
+  "eigo:1003:illegal": {
+    "alts": [
+      "ふほう",
+      "ひごうほう"
+    ]
+  },
+  "eigo:1004:witness": {
+    "alts": [
+      "しょうにん"
+    ]
+  },
+  "eigo:1005:clue": {
+    "alts": [
+      "いとぐち",
+      "ひんと"
+    ]
+  },
+  "eigo:1006:guilt": {
+    "alts": [
+      "ざいあくかん"
+    ]
+  },
+  "eigo:1007:innocence": {
+    "alts": [
+      "けっぱく"
+    ]
+  },
+  "eigo:1009:prison": {
+    "alts": [
+      "かんごく"
+    ]
+  },
+  "eigo:1009:prisoner": {
+    "alts": [
+      "じゅけいしゃ"
+    ]
+  },
+  "eigo:1013:democracy": {
+    "alts": [
+      "みんしゅせいじ",
+      "みんしゅこっか"
+    ]
+  },
+  "eigo:1014:govern": {
+    "alts": [
+      "しはいする"
+    ]
+  },
+  "eigo:1017:adopt": {
+    "alts": [
+      "とりいれる"
+    ]
+  },
+  "eigo:1020:opinion": {
+    "alts": [
+      "かんがえ"
+    ]
+  },
+  "eigo:1022:elect": {
+    "alts": [
+      "えらぶ"
+    ]
+  },
+  "eigo:1023:maintain": {
+    "alts": [
+      "たもつ"
+    ]
+  },
+  "eigo:1023:maintenance": {
+    "alts": [
+      "ていれ",
+      "ほしゅ"
+    ]
+  },
+  "eigo:1024:relation": {
+    "alts": [
+      "かんれん"
+    ]
+  },
+  "eigo:1024:relationship": {
+    "alts": [
+      "かんけい"
+    ]
+  },
+  "eigo:1026:explode": {
+    "alts": [
+      "はれつする"
+    ]
+  },
+  "eigo:1029:possess": {
+    "alts": [
+      "もつ"
+    ]
+  },
+  "eigo:1034:boundary": {
+    "alts": [
+      "きょうかいせん"
+    ]
+  },
+  "eigo:1036:battle": {
+    "alts": [
+      "せんとう",
+      "あらそい"
+    ]
+  },
+  "eigo:1040:fair": {
+    "alts": [
+      "こうせい"
+    ]
+  },
+  "eigo:1040:unfair": {
+    "alts": [
+      "ふとう"
+    ]
+  },
+  "eigo:1041:trade": {
+    "alts": [
+      "とりひき"
+    ]
+  },
+  "eigo:1045:situation": {
+    "alts": [
+      "じたい"
+    ]
+  },
+  "eigo:1045:situated": {
+    "alts": [
+      "たって"
+    ]
+  },
+  "eigo:1051:chore": {
+    "alts": [
+      "かじ"
+    ]
+  },
+  "eigo:1053:efficiency": {
+    "alts": [
+      "のうりつ"
+    ]
+  },
+  "eigo:1053:efficient": {
+    "alts": [
+      "のうりつてき"
+    ]
+  },
+  "eigo:1054:restless": {
+    "alts": [
+      "そわそわした"
+    ]
+  },
+  "eigo:1056:colleague": {
+    "alts": [
+      "しごとなかま"
+    ]
+  },
+  "eigo:1058:customer": {
+    "alts": [
+      "こきゃく"
+    ]
+  },
+  "eigo:1065:quality": {
+    "alts": [
+      "しつ"
+    ]
+  },
+  "eigo:1068:retirement": {
+    "alts": [
+      "いんたい"
+    ]
+  },
+  "eigo:1070:resign": {
+    "alts": [
+      "じしょくする",
+      "やめる"
+    ]
+  },
+  "eigo:1070:resignation": {
+    "alts": [
+      "じにん"
+    ]
+  },
+  "eigo:1071:goods": {
+    "alts": [
+      "しょうひん"
+    ]
+  },
+  "eigo:1077:farm": {
+    "alts": [
+      "ぼくじょう"
+    ]
+  },
+  "eigo:1080:agriculture": {
+    "alts": [
+      "のうこう"
+    ]
+  },
+  "eigo:1080:agricultural": {
+    "alts": [
+      "のうぎょう"
+    ]
+  },
+  "eigo:1081:grow": {
+    "alts": [
+      "せいちょうする"
+    ]
+  },
+  "eigo:1083:seed": {
+    "alts": [
+      "しゅし"
+    ]
+  },
+  "eigo:1084:industry": {
+    "alts": [
+      "こうぎょう"
+    ]
+  },
+  "eigo:1085:commerce": {
+    "alts": [
+      "つうしょう",
+      "ぼうえき"
+    ]
+  },
+  "eigo:1085:commercial": {
+    "alts": [
+      "しょうぎょう"
+    ]
+  },
+  "eigo:1086:advertise": {
+    "alts": [
+      "こうこくする"
+    ]
+  },
+  "eigo:1086:ad": {
+    "alts": [
+      "せんでん"
+    ]
+  },
+  "eigo:1086:advertisement": {
+    "alts": [
+      "こうこく",
+      "こうこくぶん"
+    ]
+  },
+  "eigo:1087:deliver": {
+    "alts": [
+      "とどける"
+    ]
+  },
+  "eigo:1087:delivery": {
+    "alts": [
+      "はいたつ"
+    ]
+  },
+  "eigo:1090:production": {
+    "alts": [
+      "せいぞう"
+    ]
+  },
+  "eigo:1091:invest": {
+    "alts": [
+      "つぎこむ"
+    ]
+  },
+  "eigo:1091:investment": {
+    "alts": [
+      "しゅっし"
+    ]
+  },
+  "eigo:1092:profit": {
+    "alts": [
+      "もうけ",
+      "しゅうえき"
+    ]
+  },
+  "eigo:1101:stand out": {
+    "alts": [
+      "きわだつ",
+      "ひとめをひく"
+    ]
+  },
+  "eigo:1103:set off": {
+    "alts": [
+      "でかける"
+    ]
+  },
+  "eigo:1104:set in": {
+    "alts": [
+      "とうらいする"
+    ]
+  },
+  "eigo:1107:make up one's mind": {
+    "alts": [
+      "けついする",
+      "こころをきめる"
+    ]
+  },
+  "eigo:1109:make use of A": {
+    "alts": [
+      "りようする",
+      "かつようする"
+    ]
+  },
+  "eigo:1110:make fun of A": {
+    "alts": [
+      "ばかにする",
+      "わらいものにする"
+    ]
+  },
+  "eigo:1111:make sure of A": {
+    "alts": [
+      "かくにんする"
+    ]
+  },
+  "eigo:1112:likelihood": {
+    "alts": [
+      "かのうせい",
+      "こうさん"
+    ]
+  },
+  "eigo:1117:determination": {
+    "alts": [
+      "けっしん",
+      "けつだんりょく"
+    ]
+  },
+  "eigo:1119:all at once": {
+    "alts": [
+      "きゅうに"
+    ]
+  },
+  "eigo:1119:suddenly": {
+    "alts": [
+      "とつぜんに",
+      "ふいに",
+      "きゅうに",
+      "いきなり"
+    ]
+  },
+  "eigo:1120:all of a sudden": {
+    "alts": [
+      "いきなり",
+      "とつぜんに",
+      "とつぜん",
+      "きゅうに"
+    ]
+  },
+  "eigo:1120:sudden": {
+    "alts": [
+      "とつぜんの",
+      "ふいの"
+    ]
+  },
+  "eigo:1121:by chance": {
+    "alts": [
+      "たまたま",
+      "ぐうぜんにも"
+    ]
+  },
+  "eigo:1122:by accident": {
+    "alts": [
+      "ぐうぜんに",
+      "おもいがけなく"
+    ]
+  },
+  "eigo:1123:as a matter of fact": {
+    "alts": [
+      "じつをいうと",
+      "じっさいのところ"
+    ]
+  },
+  "eigo:1125:in a sense": {
+    "alts": [
+      "あるてんでは"
+    ]
+  },
+  "eigo:1126:in a way": {
+    "alts": [
+      "あるいみでは",
+      "あるてんでは"
+    ]
+  },
+  "eigo:1128:not to mention A": {
+    "alts": [
+      "もちろん"
+    ]
+  },
+  "eigo:1129:to say nothing of A": {
+    "alts": [
+      "いうまでもなく",
+      "もちろん"
+    ]
+  },
+  "eigo:1132:it is no use doing": {
+    "alts": [
+      "しかたがない"
+    ]
+  },
+  "eigo:1132:there is no point in doing": {
+    "alts": [
+      "むだだ"
+    ]
+  },
+  "eigo:1135:have trouble doing": {
+    "alts": [
+      "くろうする"
+    ]
+  },
+  "eigo:1138:insist on doing": {
+    "alts": [
+      "いいはる"
+    ]
+  },
+  "eigo:1141:Speaking of A": {
+    "alts": [
+      "についていえば"
+    ]
+  },
+  "eigo:1142:Judging from A": {
+    "alts": [
+      "みる"
+    ]
+  },
+  "eigo:1143:Weather permitting": {
+    "alts": [
+      "てんこうがゆるせば"
+    ]
+  },
+  "eigo:1144:Generally speaking": {
+    "alts": [
+      "いっぱんに"
+    ]
+  },
+  "eigo:1145:for instance": {
+    "alts": [
+      "たとえば"
+    ]
+  },
+  "eigo:1145:instance": {
+    "alts": [
+      "れい",
+      "じれい"
+    ]
+  },
+  "eigo:1145:for example": {
+    "alts": [
+      "いちれいをあげると"
+    ]
+  },
+  "eigo:1146:in other words": {
+    "alts": [
+      "つまり",
+      "すなわち"
+    ]
+  },
+  "eigo:1147:that is to say": {
+    "alts": [
+      "すなわち",
+      "いいかえれば"
+    ]
+  },
+  "eigo:1148:what is more": {
+    "alts": [
+      "さらに",
+      "そのうえ",
+      "しかも"
+    ]
+  },
+  "eigo:1150:on the other hand": {
+    "alts": [
+      "いっぽうでは"
+    ]
+  },
+  "eigo:1151:contrast": {
+    "alts": [
+      "たいしょう",
+      "ちがい"
+    ]
+  },
+  "eigo:1152:on the contrary": {
+    "alts": [
+      "ぎゃくに"
+    ]
+  },
+  "eigo:1152:contrary": {
+    "alts": [
+      "ぎゃく",
+      "せいはんたい"
+    ]
+  },
+  "eigo:1153:in short": {
+    "alts": [
+      "てみじかにいえば",
+      "ひとことでいえば"
+    ]
+  },
+  "eigo:1154:as a result": {
+    "alts": [
+      "そのけっか",
+      "そのけっかとして"
+    ]
+  },
+  "eigo:1154:result": {
+    "alts": [
+      "せいか"
+    ]
+  },
+  "eigo:1154:as a consequence": {
+    "alts": [
+      "けっか"
+    ]
+  },
+  "eigo:1155:for this reason": {
+    "alts": [
+      "だから",
+      "こういうわけで"
+    ]
+  },
+  "eigo:1156:in conclusion": {
+    "alts": [
+      "さいごに"
+    ]
+  },
+  "eigo:1156:finally": {
+    "alts": [
+      "とうとう",
+      "けっきょく"
+    ]
+  },
+  "eigo:1158:grind": {
+    "alts": [
+      "ひく"
+    ]
+  },
+  "eigo:1159:great": {
+    "alts": [
+      "すばらしい"
+    ]
+  },
+  "eigo:1161:dilute": {
+    "alts": [
+      "きしゃくする"
+    ]
+  },
+  "eigo:1164:nutrition": {
+    "alts": [
+      "えいようせっしゅ",
+      "えいようをとること"
+    ]
+  },
+  "eigo:1164:nutrient": {
+    "alts": [
+      "えいようぶつ",
+      "えいようぶん"
+    ]
+  },
+  "eigo:1165:intake": {
+    "alts": [
+      "せっしゅ",
+      "とりいれるりょう"
+    ]
+  },
+  "eigo:1166:carbohydrate": {
+    "alts": [
+      "とうしつ"
+    ]
+  },
+  "eigo:1167:flour": {
+    "alts": [
+      "こな"
+    ]
+  },
+  "eigo:1167:flower": {
+    "alts": [
+      "はな"
+    ]
+  },
+  "eigo:1168:rotten": {
+    "alts": [
+      "くさった",
+      "だめになった"
+    ]
+  },
+  "eigo:1169:scent": {
+    "alts": [
+      "よいにおい"
+    ]
+  },
+  "eigo:1174:stare": {
+    "alts": [
+      "ぎょうしする",
+      "じっとみる",
+      "じっとみつめる"
+    ]
+  },
+  "eigo:1175:whisper": {
+    "alts": [
+      "こごえでいう"
+    ]
+  },
+  "eigo:1176:lean": {
+    "alts": [
+      "もたれる"
+    ]
+  },
+  "eigo:1177:structure": {
+    "alts": [
+      "しくみ"
+    ]
+  },
+  "eigo:1178:construction": {
+    "alts": [
+      "けんせつ"
+    ]
+  },
+  "eigo:1180:household": {
+    "alts": [
+      "せたい",
+      "かぞく"
+    ]
+  },
+  "eigo:1181:expense": {
+    "alts": [
+      "しゅっぴ",
+      "けいひ"
+    ]
+  },
+  "eigo:1182:inheritance": {
+    "alts": [
+      "そうぞくざいさん"
+    ]
+  },
+  "eigo:1183:property": {
+    "alts": [
+      "しょゆうぶつ"
+    ]
+  },
+  "eigo:1184:owner": {
+    "alts": [
+      "しょゆうしゃ"
+    ]
+  },
+  "eigo:1185:apartment": {
+    "alts": [
+      "あぱーと"
+    ]
+  },
+  "eigo:1186:refund": {
+    "alts": [
+      "へんきん"
+    ]
+  },
+  "eigo:1187:withdrawal": {
+    "alts": [
+      "ひきあげ"
+    ]
+  },
+  "eigo:1191:needle": {
+    "alts": [
+      "はり"
+    ]
+  },
+  "eigo:1192:thread": {
+    "alts": [
+      "いと"
+    ]
+  },
+  "eigo:1194:wool": {
+    "alts": [
+      "うーる"
+    ]
+  },
+  "eigo:1194:woolen": {
+    "alts": [
+      "ようもうせい",
+      "うーる"
+    ]
+  },
+  "eigo:1195:mutual": {
+    "alts": [
+      "たがい"
+    ]
+  },
+  "eigo:1196:acquaintance": {
+    "alts": [
+      "ちじん"
+    ]
+  },
+  "eigo:1197:greeting": {
+    "alts": [
+      "あいさつ",
+      "あいさつじょう"
+    ]
+  },
+  "eigo:1198:belonging": {
+    "alts": [
+      "しょじひん"
+    ]
+  },
+  "eigo:1199:bedding": {
+    "alts": [
+      "ふとんるい"
+    ]
+  },
+  "eigo:1200:saying": {
+    "alts": [
+      "ことわざ"
+    ]
+  },
+  "eigo:1201:dormitory": {
+    "alts": [
+      "りょう",
+      "きしゅくしゃ"
+    ]
+  },
+  "eigo:1203:resident": {
+    "alts": [
+      "きょじゅうしゃ"
+    ]
+  },
+  "eigo:1203:residence": {
+    "alts": [
+      "すまい"
+    ]
+  },
+  "eigo:1207:messy": {
+    "alts": [
+      "ざつぜんとした"
+    ]
+  },
+  "eigo:1208:urban": {
+    "alts": [
+      "とし"
+    ]
+  },
+  "eigo:1212:suburb": {
+    "alts": [
+      "きんこう"
+    ]
+  },
+  "eigo:1212:suburban": {
+    "alts": [
+      "こうがい",
+      "きんこう"
+    ]
+  },
+  "eigo:1214:immunity": {
+    "alts": [
+      "めんえき"
+    ]
+  },
+  "eigo:1216:digestion": {
+    "alts": [
+      "しょうかのはたらき",
+      "しょうか"
+    ]
+  },
+  "eigo:1218:fatigue": {
+    "alts": [
+      "つかれ",
+      "ひろうかん"
+    ]
+  },
+  "eigo:1221:critical": {
+    "alts": [
+      "けっていてき"
+    ]
+  },
+  "eigo:1223:heatstroke": {
+    "alts": [
+      "にっしゃびょう"
+    ]
+  },
+  "eigo:1225:obesity": {
+    "alts": [
+      "ひまん",
+      "ひまんのじょうたい"
+    ]
+  },
+  "eigo:1225:obese": {
+    "alts": [
+      "ふとりすぎ"
+    ]
+  },
+  "eigo:1225:overweight": {
+    "alts": [
+      "たいじゅうがおもすぎる"
+    ]
+  },
+  "eigo:1227:metabolism": {
+    "alts": [
+      "しんちんたいしゃ"
+    ]
+  },
+  "eigo:1231:organ": {
+    "alts": [
+      "きかん"
+    ]
+  },
+  "eigo:1234:therapy": {
+    "alts": [
+      "ちりょうほう",
+      "ちりょう"
+    ]
+  },
+  "eigo:1234:therapeutic": {
+    "alts": [
+      "ちりょうじょう"
+    ]
+  },
+  "eigo:1235:normal": {
+    "alts": [
+      "ふつう",
+      "つうじょう"
+    ]
+  },
+  "eigo:1238:allergy": {
+    "alts": [
+      "あれるぎー"
+    ]
+  },
+  "eigo:1239:virus": {
+    "alts": [
+      "ういるす"
+    ]
+  },
+  "eigo:1239:germ": {
+    "alts": [
+      "ばいきん",
+      "びょうげんきん"
+    ]
+  },
+  "eigo:1240:microbe": {
+    "alts": [
+      "さいきん"
+    ]
+  },
+  "eigo:1241:plague": {
+    "alts": [
+      "あくせいのでんせんびょう",
+      "ぺすと"
+    ]
+  },
+  "eigo:1242:infection": {
+    "alts": [
+      "かんせんしょう"
+    ]
+  },
+  "eigo:1242:infectious": {
+    "alts": [
+      "かんせんせい"
+    ]
+  },
+  "eigo:1243:disorder": {
+    "alts": [
+      "ふちょう"
+    ]
+  },
+  "eigo:1247:diagnosis": {
+    "alts": [
+      "しんだんけっか"
+    ]
+  },
+  "eigo:1248:vaccination": {
+    "alts": [
+      "よぼうせっしゅ"
+    ]
+  },
+  "eigo:1248:vaccine": {
+    "alts": [
+      "わくちん"
+    ]
+  },
+  "eigo:1249:physician": {
+    "alts": [
+      "いし",
+      "いしゃ"
+    ]
+  },
+  "eigo:1250:donor": {
+    "alts": [
+      "どなー"
+    ]
+  },
+  "eigo:1251:recipient": {
+    "alts": [
+      "うけとりにん",
+      "じゅりょうしゃ"
+    ]
+  },
+  "eigo:1252:consult": {
+    "alts": [
+      "いけんをもとめる"
+    ]
+  },
+  "eigo:1252:consultation": {
+    "alts": [
+      "そうだん"
+    ]
+  },
+  "eigo:1255:capsule": {
+    "alts": [
+      "かぷせる"
+    ]
+  },
+  "eigo:1255:pill": {
+    "alts": [
+      "じょうざい",
+      "まるいくすり"
+    ]
+  },
+  "eigo:1257:inject": {
+    "alts": [
+      "ちゅうにゅうする"
+    ]
+  },
+  "eigo:1258:hygiene": {
+    "alts": [
+      "えいせいじょうたい"
+    ]
+  },
+  "eigo:1258:sanitation": {
+    "alts": [
+      "えいせいせつび"
+    ]
+  },
+  "eigo:1259:clinic": {
+    "alts": [
+      "いいん",
+      "くりにっく"
+    ]
+  },
+  "eigo:1260:physical": {
+    "alts": [
+      "しんたいてきな"
+    ]
+  },
+  "eigo:1261:athlete": {
+    "alts": [
+      "うんどうせんしゅ",
+      "すぽーつせんしゅ"
+    ]
+  },
+  "eigo:1262:mental": {
+    "alts": [
+      "せいしん"
+    ]
+  },
+  "eigo:1263:cognitive": {
+    "alts": [
+      "にんしき"
+    ]
+  },
+  "eigo:1263:cognition": {
+    "alts": [
+      "にんち"
+    ]
+  },
+  "eigo:1266:finger": {
+    "alts": [
+      "ゆび"
+    ]
+  },
+  "eigo:1267:chest": {
+    "alts": [
+      "むね"
+    ]
+  },
+  "eigo:1268:lifelong": {
+    "alts": [
+      "いっしょう"
+    ]
+  },
+  "eigo:1269:lifetime": {
+    "alts": [
+      "しょうがい"
+    ]
+  },
+  "eigo:1272:crawl": {
+    "alts": [
+      "よつんばいですすむ"
+    ]
+  },
+  "eigo:1273:barrier": {
+    "alts": [
+      "しょうがい",
+      "さまたげ"
+    ]
+  },
+  "eigo:1274:obstacle": {
+    "alts": [
+      "じゃまなもの",
+      "さまたげ"
+    ]
+  },
+  "eigo:1276:arctic": {
+    "alts": [
+      "ほっきょくちほう"
+    ]
+  },
+  "eigo:1276:antarctic": {
+    "alts": [
+      "なんきょくちほう"
+    ]
+  },
+  "eigo:1279:landscape": {
+    "alts": [
+      "ふうけい"
+    ]
+  },
+  "eigo:1281:altitude": {
+    "alts": [
+      "ひょうこう",
+      "かいばつ"
+    ]
+  },
+  "eigo:1282:alkaline": {
+    "alts": [
+      "あるかりせい"
+    ]
+  },
+  "eigo:1285:crisis": {
+    "alts": [
+      "なんきょく"
+    ]
+  },
+  "eigo:1286:drought": {
+    "alts": [
+      "かんばつ"
+    ]
+  },
+  "eigo:1288:famine": {
+    "alts": [
+      "うえ"
+    ]
+  },
+  "eigo:1289:starvation": {
+    "alts": [
+      "がし"
+    ]
+  },
+  "eigo:1290:contaminate": {
+    "alts": [
+      "よごす"
+    ]
+  },
+  "eigo:1292:deforestation": {
+    "alts": [
+      "しんりんばっさい"
+    ]
+  },
+  "eigo:1293:toxic": {
+    "alts": [
+      "ゆうがい"
+    ]
+  },
+  "eigo:1294:debris": {
+    "alts": [
+      "ざんがい",
+      "はへん"
+    ]
+  },
+  "eigo:1296:malnutrition": {
+    "alts": [
+      "えいようふりょう"
+    ]
+  },
+  "eigo:1297:malfunction": {
+    "alts": [
+      "ふぐあい"
+    ]
+  },
+  "eigo:1298:radiation": {
+    "alts": [
+      "ほうしゃのう"
+    ]
+  },
+  "eigo:1299:emission": {
+    "alts": [
+      "ほうしゅつ"
+    ]
+  },
+  "eigo:1299:emit": {
+    "alts": [
+      "はっする",
+      "だす"
+    ]
+  },
+  "eigo:1305:estimate": {
+    "alts": [
+      "すいていする"
+    ]
+  },
+  "eigo:1306:evaluate": {
+    "alts": [
+      "さていする"
+    ]
+  },
+  "eigo:1306:evaluation": {
+    "alts": [
+      "ひょうか",
+      "みつもり"
+    ]
+  },
+  "eigo:1307:assess": {
+    "alts": [
+      "みきわめる",
+      "ひょうかする"
+    ]
+  },
+  "eigo:1308:adjust": {
+    "alts": [
+      "ちょうせいする"
+    ]
+  },
+  "eigo:1308:adjustment": {
+    "alts": [
+      "ちょうせい",
+      "ちょうせつ"
+    ]
+  },
+  "eigo:1309:adapt": {
+    "alts": [
+      "てきおうする"
+    ]
+  },
+  "eigo:1309:adaptation": {
+    "alts": [
+      "じゅんのう"
+    ]
+  },
+  "eigo:1314:habitat": {
+    "alts": [
+      "せいそくかんきょう"
+    ]
+  },
+  "eigo:1315:wildlife": {
+    "alts": [
+      "やせいどうぶつ"
+    ]
+  },
+  "eigo:1316:pose": {
+    "alts": [
+      "もたらす"
+    ]
+  },
+  "eigo:1318:unbelievable": {
+    "alts": [
+      "しんじられない",
+      "とうていしんじがたい"
+    ]
+  },
+  "eigo:1319:inevitable": {
+    "alts": [
+      "まぬかれない",
+      "まぬがれない",
+      "ひつぜんの"
+    ]
+  },
+  "eigo:1320:indispensable": {
+    "alts": [
+      "ぜったいひつよう"
+    ]
+  },
+  "eigo:1320:dispensable": {
+    "alts": [
+      "なしですむ",
+      "ふかけつでない"
+    ]
+  },
+  "eigo:1321:finite": {
+    "alts": [
+      "ゆうげんの",
+      "かぎられた"
+    ]
+  },
+  "eigo:1321:infinity": {
+    "alts": [
+      "むげん"
+    ]
+  },
+  "eigo:1325:feature": {
+    "alts": [
+      "とくしょく"
+    ]
+  },
+  "eigo:1326:trait": {
+    "alts": [
+      "とくせい",
+      "とくちょう"
+    ]
+  },
+  "eigo:1327:anxiety": {
+    "alts": [
+      "しんぱい"
+    ]
+  },
+  "eigo:1328:concern": {
+    "alts": [
+      "しんぱい",
+      "かんしんじ"
+    ]
+  },
+  "eigo:1329:outcome": {
+    "alts": [
+      "けっか"
+    ]
+  },
+  "eigo:1331:extremely": {
+    "alts": [
+      "きわめて"
+    ]
+  },
+  "eigo:1332:extraordinary": {
+    "alts": [
+      "おどろくべき",
+      "ひぼんな"
+    ]
+  },
+  "eigo:1336:horizon": {
+    "alts": [
+      "すいへいせん"
+    ]
+  },
+  "eigo:1337:gravity": {
+    "alts": [
+      "いんりょく"
+    ]
+  },
+  "eigo:1339:bay": {
+    "alts": [
+      "わん"
+    ]
+  },
+  "eigo:1340:shore": {
+    "alts": [
+      "きし"
+    ]
+  },
+  "eigo:1343:current": {
+    "alts": [
+      "ながれ"
+    ]
+  },
+  "eigo:1344:stream": {
+    "alts": [
+      "ながれ"
+    ]
+  },
+  "eigo:1345:northern": {
+    "alts": [
+      "きた"
+    ]
+  },
+  "eigo:1349:mosquito": {
+    "alts": [
+      "か"
+    ]
+  },
+  "eigo:1351:bee": {
+    "alts": [
+      "はち"
+    ]
+  },
+  "eigo:1353:underestimate": {
+    "alts": [
+      "かしょうひょうかする",
+      "けいしする"
+    ]
+  },
+  "eigo:1354:underlie": {
+    "alts": [
+      "きそとなる"
+    ]
+  },
+  "eigo:1354:underlying": {
+    "alts": [
+      "せんざいてき"
+    ]
+  },
+  "eigo:1365:perceive": {
+    "alts": [
+      "かんじとる",
+      "ちかくする"
+    ]
+  },
+  "eigo:1365:perception": {
+    "alts": [
+      "にんしき"
+    ]
+  },
+  "eigo:1366:concept": {
+    "alts": [
+      "かんがえかた",
+      "かんねん"
+    ]
+  },
+  "eigo:1366:conception": {
+    "alts": [
+      "かんがえ"
+    ]
+  },
+  "eigo:1367:circle": {
+    "alts": [
+      "わ"
+    ]
+  },
+  "eigo:1371:oval": {
+    "alts": [
+      "だえんけい"
+    ]
+  },
+  "eigo:1372:rectangular": {
+    "alts": [
+      "ちょうほうけいの"
+    ]
+  },
+  "eigo:1377:opposite": {
+    "alts": [
+      "せいはんたい"
+    ]
+  },
+  "eigo:1378:opposition": {
+    "alts": [
+      "はんたい"
+    ]
+  },
+  "eigo:1379:opponent": {
+    "alts": [
+      "たいせんあいて"
+    ]
+  },
+  "eigo:1381:fluid": {
+    "alts": [
+      "えきたい"
+    ]
+  },
+  "eigo:1381:gas": {
+    "alts": [
+      "がす"
+    ]
+  },
+  "eigo:1384:sensibility": {
+    "alts": [
+      "かんせい"
+    ]
+  },
+  "eigo:1385:sensitivity": {
+    "alts": [
+      "かんど"
+    ]
+  },
+  "eigo:1386:imaginary": {
+    "alts": [
+      "そうぞうじょう"
+    ]
+  },
+  "eigo:1387:imaginable": {
+    "alts": [
+      "かんがえられる"
+    ]
+  },
+  "eigo:1389:considerable": {
+    "alts": [
+      "そうとうな"
+    ]
+  },
+  "eigo:1389:considerably": {
+    "alts": [
+      "かなり"
+    ]
+  },
+  "eigo:1390:trace": {
+    "alts": [
+      "あと",
+      "こんせき"
+    ]
+  },
+  "eigo:1392:lie in A": {
+    "alts": [
+      "ある"
+    ]
+  },
+  "eigo:1395:correspond to A": {
+    "alts": [
+      "たいおうする"
+    ]
+  },
+  "eigo:1395:correspondence": {
+    "alts": [
+      "てがみのやりとり"
+    ]
+  },
+  "eigo:1396:die out": {
+    "alts": [
+      "すたれる"
+    ]
+  },
+  "eigo:1396:become extinct": {
+    "alts": [
+      "しにたえる"
+    ]
+  },
+  "eigo:1397:leave out A": {
+    "alts": [
+      "ぬかす",
+      "じょがいする"
+    ]
+  },
+  "eigo:1398:cross out A": {
+    "alts": [
+      "さくじょする"
+    ]
+  },
+  "eigo:1399:break out": {
+    "alts": [
+      "はっせいする"
+    ]
+  },
+  "eigo:1400:as follows": {
+    "alts": [
+      "いかのとおり"
+    ]
+  },
+  "eigo:1401:as well": {
+    "alts": [
+      "そのうえ"
+    ]
+  },
+  "eigo:1402:as for A": {
+    "alts": [
+      "にかんしていえば"
+    ]
+  },
+  "eigo:1403:as usual": {
+    "alts": [
+      "いつものように",
+      "あいかわらず"
+    ]
+  },
+  "eigo:1403:as always": {
+    "alts": [
+      "いつもどおり"
+    ]
+  },
+  "eigo:1404:crash into A": {
+    "alts": [
+      "つっこむ"
+    ]
+  },
+  "eigo:1404:run into A": {
+    "alts": [
+      "でくわす"
+    ]
+  },
+  "eigo:1406:break into A": {
+    "alts": [
+      "しんにゅうする"
+    ]
+  },
+  "eigo:1411:die of A": {
+    "alts": [
+      "しぬ"
+    ]
+  },
+  "eigo:1412:call off A": {
+    "alts": [
+      "とりやめる"
+    ]
+  },
+  "eigo:1413:give off A": {
+    "alts": [
+      "はっする",
+      "だす"
+    ]
+  },
+  "eigo:1414:break off A": {
+    "alts": [
+      "ちゅうだんする",
+      "とつぜんやめる"
+    ]
+  },
+  "eigo:1415:allow": {
+    "alts": [
+      "みとめる"
+    ]
+  },
+  "eigo:1416:forbid": {
+    "alts": [
+      "きんしする"
+    ]
+  },
+  "eigo:1417:beg A to do": {
+    "alts": [
+      "こんがんする"
+    ]
+  },
+  "eigo:1419:command A to do": {
+    "alts": [
+      "しじする"
+    ]
+  },
+  "eigo:1421:compel A to do": {
+    "alts": [
+      "しいる"
+    ]
+  },
+  "eigo:1421:compel": {
+    "alts": [
+      "きょうせいする"
+    ]
+  },
+  "eigo:1422:come to do": {
+    "alts": [
+      "にいたる"
+    ]
+  },
+  "eigo:1424:happen to do": {
+    "alts": [
+      "ぐうぜん"
+    ]
+  },
+  "eigo:1426:dare to do": {
+    "alts": [
+      "あえて"
+    ]
+  },
+  "eigo:1426:dare": {
+    "alts": [
+      "おもいきって"
+    ]
+  },
+  "eigo:1427:carry on": {
+    "alts": [
+      "ぞっこうする",
+      "やりつづける"
+    ]
+  },
+  "eigo:1428:carry out A": {
+    "alts": [
+      "すいこうする"
+    ]
+  },
+  "eigo:1429:work on A": {
+    "alts": [
+      "とりかかる"
+    ]
+  },
+  "eigo:1433:familiar": {
+    "alts": [
+      "おなじみの"
+    ]
+  },
+  "eigo:1435:on and on": {
+    "alts": [
+      "ずっと",
+      "やすみなく"
+    ]
+  },
+  "eigo:1436:over and over": {
+    "alts": [
+      "なんどもくりかえして",
+      "なんどもなんども",
+      "くりかえし"
+    ]
+  },
+  "eigo:1437:one by one": {
+    "alts": [
+      "ひとつひとつ"
+    ]
+  },
+  "eigo:1438:little by little": {
+    "alts": [
+      "だんだんと",
+      "じょじょに"
+    ]
+  },
+  "eigo:1439:at any cost": {
+    "alts": [
+      "どんなぎせいをはらっても",
+      "なにとしても",
+      "ぜひとも"
+    ]
+  },
+  "eigo:1441:at length": {
+    "alts": [
+      "しょうさいに"
+    ]
+  },
+  "eigo:1441:lengthy": {
+    "alts": [
+      "ながながとした",
+      "じょうちょうな"
+    ]
+  },
+  "eigo:1442:at a time": {
+    "alts": [
+      "いっぺんに",
+      "いっかいに"
+    ]
+  },
+  "eigo:1443:on purpose": {
+    "alts": [
+      "こいに",
+      "いとてきに"
+    ]
+  },
+  "eigo:1444:on average": {
+    "alts": [
+      "へいきんすると"
+    ]
+  },
+  "eigo:1445:on credit": {
+    "alts": [
+      "かけで",
+      "つけで"
+    ]
+  },
+  "eigo:1446:on demand": {
+    "alts": [
+      "ちゅうもんにおうじて"
+    ]
+  },
+  "eigo:1447:on the whole": {
+    "alts": [
+      "がいして",
+      "だいたいは"
+    ]
+  },
+  "eigo:1448:to my surprise": {
+    "alts": [
+      "いがいなことに"
+    ]
+  },
+  "eigo:1448:surprisingly": {
+    "alts": [
+      "いがいにも"
+    ]
+  },
+  "eigo:1451:insert": {
+    "alts": [
+      "そうにゅうする"
+    ]
+  },
+  "eigo:1453:browse": {
+    "alts": [
+      "えつらん"
+    ]
+  },
+  "eigo:1454:install": {
+    "alts": [
+      "せっちする"
+    ]
+  },
+  "eigo:1457:device": {
+    "alts": [
+      "きき"
+    ]
+  },
+  "eigo:1457:devise": {
+    "alts": [
+      "くふう"
+    ]
+  },
+  "eigo:1458:laptop": {
+    "alts": [
+      "のーとがた"
+    ]
+  },
+  "eigo:1459:slightly": {
+    "alts": [
+      "やや",
+      "わずかに",
+      "かすかに"
+    ]
+  },
+  "eigo:1459:slight": {
+    "alts": [
+      "ごくちいさな",
+      "ささいな",
+      "すこしの"
+    ]
+  },
+  "eigo:1460:largely": {
+    "alts": [
+      "しゅとして",
+      "だいぶぶんは"
+    ]
+  },
+  "eigo:1461:approximately": {
+    "alts": [
+      "やく",
+      "ほぼ",
+      "おおよそ"
+    ]
+  },
+  "eigo:1462:merely": {
+    "alts": [
+      "ただ"
+    ]
+  },
+  "eigo:1462:mere": {
+    "alts": [
+      "ただの"
+    ]
+  },
+  "eigo:1463:utterly": {
+    "alts": [
+      "すっかり",
+      "まったく"
+    ]
+  },
+  "eigo:1464:virtual": {
+    "alts": [
+      "じっしつじょう"
+    ]
+  },
+  "eigo:1465:reality": {
+    "alts": [
+      "じっさい"
+    ]
+  },
+  "eigo:1467:intelligence": {
+    "alts": [
+      "ちせい"
+    ]
+  },
+  "eigo:1467:intelligent": {
+    "alts": [
+      "ちてきな",
+      "そうめいな"
+    ]
+  },
+  "eigo:1468:numerous": {
+    "alts": [
+      "たすうの",
+      "かずおおくの"
+    ]
+  },
+  "eigo:1469:enormous": {
+    "alts": [
+      "ひじょうにおおきい"
+    ]
+  },
+  "eigo:1470:tremendous": {
+    "alts": [
+      "とてつもない"
+    ]
+  },
+  "eigo:1471:vast": {
+    "alts": [
+      "はてしない"
+    ]
+  },
+  "eigo:1480:media": {
+    "alts": [
+      "ますこみ"
+    ]
+  },
+  "eigo:1481:criterion": {
+    "alts": [
+      "しゃくど",
+      "きじゅん"
+    ]
+  },
+  "eigo:1481:criteria": {
+    "alts": [
+      "はんだんきじゅん"
+    ]
+  },
+  "eigo:1482:analysis": {
+    "alts": [
+      "かいせき",
+      "ぶんせきけっか"
+    ]
+  },
+  "eigo:1482:analyses": {
+    "alts": [
+      "かいせき"
+    ]
+  },
+  "eigo:1483:stimulus": {
+    "alts": [
+      "しげき",
+      "やるきのもと"
+    ]
+  },
+  "eigo:1484:phenomenon": {
+    "alts": [
+      "げんしょう"
+    ]
+  },
+  "eigo:1485:displacement": {
+    "alts": [
+      "いれかえ"
+    ]
+  },
+  "eigo:1487:discard": {
+    "alts": [
+      "しょぶんする"
+    ]
+  },
+  "eigo:1490:canal": {
+    "alts": [
+      "すいろ"
+    ]
+  },
+  "eigo:1491:expressway": {
+    "alts": [
+      "こうそくじどうしゃどう"
+    ]
+  },
+  "eigo:1491:motorway": {
+    "alts": [
+      "こうそくどうろ"
+    ]
+  },
+  "eigo:1495:transition": {
+    "alts": [
+      "いこう",
+      "へんか"
+    ]
+  },
+  "eigo:1497:permission": {
+    "alts": [
+      "ゆるし"
+    ]
+  },
+  "eigo:1498:transmit": {
+    "alts": [
+      "つたえる"
+    ]
+  },
+  "eigo:1498:transmission": {
+    "alts": [
+      "そうしん"
+    ]
+  },
+  "eigo:1499:omit": {
+    "alts": [
+      "ぬかす",
+      "しょうりゃくする"
+    ]
+  },
+  "eigo:1499:omission": {
+    "alts": [
+      "ぬけおち",
+      "だつらく"
+    ]
+  },
+  "eigo:1501:aircraft": {
+    "alts": [
+      "ひこうき"
+    ]
+  },
+  "eigo:1504:avenue": {
+    "alts": [
+      "なみきみち"
+    ]
+  },
+  "eigo:1505:destination": {
+    "alts": [
+      "いきさき",
+      "とうちゃくち"
+    ]
+  },
+  "eigo:1506:tourism": {
+    "alts": [
+      "かんこうさんぎょう",
+      "かんこう"
+    ]
+  },
+  "eigo:1506:tourist": {
+    "alts": [
+      "りょこうしゃ"
+    ]
+  },
+  "eigo:1507:congestion": {
+    "alts": [
+      "じゅうたい"
+    ]
+  },
+  "eigo:1509:prospect": {
+    "alts": [
+      "みとおし"
+    ]
+  },
+  "eigo:1510:inspect": {
+    "alts": [
+      "てんけんする",
+      "くわしくしらべる"
+    ]
+  },
+  "eigo:1513:wander": {
+    "alts": [
+      "あるきまわる",
+      "ぶらつく"
+    ]
+  },
+  "eigo:1514:imitate": {
+    "alts": [
+      "もほうする"
+    ]
+  },
+  "eigo:1515:anticipate": {
+    "alts": [
+      "みこむ"
+    ]
+  },
+  "eigo:1516:exaggerate": {
+    "alts": [
+      "おおげさにいう"
+    ]
+  },
+  "eigo:1517:negotiate": {
+    "alts": [
+      "はなしあう"
+    ]
+  },
+  "eigo:1517:negotiation": {
+    "alts": [
+      "こうしょう",
+      "せっしょう"
+    ]
+  },
+  "eigo:1518:chase": {
+    "alts": [
+      "ついせきする"
+    ]
+  },
+  "eigo:1520:limit": {
+    "alts": [
+      "げんど"
+    ]
+  },
+  "eigo:1520:limitation": {
+    "alts": [
+      "げんかい"
+    ]
+  },
+  "eigo:1521:restriction": {
+    "alts": [
+      "せいげん"
+    ]
+  },
+  "eigo:1523:arrange": {
+    "alts": [
+      "とりきめる"
+    ]
+  },
+  "eigo:1524:matter": {
+    "alts": [
+      "ことがら"
+    ]
+  },
+  "eigo:1528:destiny": {
+    "alts": [
+      "しゅくめい"
+    ]
+  },
+  "eigo:1529:fate": {
+    "alts": [
+      "うんめい"
+    ]
+  },
+  "eigo:1531:estate": {
+    "alts": [
+      "しゆうち"
+    ]
+  },
+  "eigo:1532:asset": {
+    "alts": [
+      "ざいさん"
+    ]
+  },
+  "eigo:1534:abandon": {
+    "alts": [
+      "だんねんする"
+    ]
+  },
+  "eigo:1536:contradiction": {
+    "alts": [
+      "むじゅん"
+    ]
+  },
+  "eigo:1537:envious": {
+    "alts": [
+      "ねたましい"
+    ]
+  },
+  "eigo:1540:hesitate": {
+    "alts": [
+      "ちゅうちょする"
+    ]
+  },
+  "eigo:1540:hesitation": {
+    "alts": [
+      "ためらい"
+    ]
+  },
+  "eigo:1543:offend": {
+    "alts": [
+      "きずつける"
+    ]
+  },
+  "eigo:1543:offensive": {
+    "alts": [
+      "しつれい"
+    ]
+  },
+  "eigo:1545:temptation": {
+    "alts": [
+      "ゆうわく"
+    ]
+  },
+  "eigo:1547:gratitude": {
+    "alts": [
+      "しゃい",
+      "かんしゃのきもち"
+    ]
+  },
+  "eigo:1549:conscience": {
+    "alts": [
+      "どうぎしん"
+    ]
+  },
+  "eigo:1551:grief": {
+    "alts": [
+      "ひたん"
+    ]
+  },
+  "eigo:1553:hatred": {
+    "alts": [
+      "ぞうお"
+    ]
+  },
+  "eigo:1554:distress": {
+    "alts": [
+      "くつう"
+    ]
+  },
+  "eigo:1556:burden": {
+    "alts": [
+      "ふたん"
+    ]
+  },
+  "eigo:1558:obsession": {
+    "alts": [
+      "こしつ"
+    ]
+  },
+  "eigo:1563:modest": {
+    "alts": [
+      "けんきょ"
+    ]
+  },
+  "eigo:1564:uneasy": {
+    "alts": [
+      "しんぱい"
+    ]
+  },
+  "eigo:1566:hostility": {
+    "alts": [
+      "はんかん",
+      "てきたいしん"
+    ]
+  },
+  "eigo:1568:exceed": {
+    "alts": [
+      "こえる"
+    ]
+  },
+  "eigo:1570:precedent": {
+    "alts": [
+      "せんれい"
+    ]
+  },
+  "eigo:1570:unprecedented": {
+    "alts": [
+      "ぜんれいのない",
+      "くうぜんの"
+    ]
+  },
+  "eigo:1571:vivid": {
+    "alts": [
+      "せんめい"
+    ]
+  },
+  "eigo:1572:elaborate": {
+    "alts": [
+      "ねんいりな"
+    ]
+  },
+  "eigo:1575:decent": {
+    "alts": [
+      "まともな"
+    ]
+  },
+  "eigo:1578:prominent": {
+    "alts": [
+      "ひとめをひく"
+    ]
+  },
+  "eigo:1581:ambiguous": {
+    "alts": [
+      "あいまいな"
+    ]
+  },
+  "eigo:1581:ambiguity": {
+    "alts": [
+      "ふめいかくさ"
+    ]
+  },
+  "eigo:1583:fragile": {
+    "alts": [
+      "もろい"
+    ]
+  },
+  "eigo:1587:weird": {
+    "alts": [
+      "きみょう"
+    ]
+  },
+  "eigo:1588:brief": {
+    "alts": [
+      "てみじかな",
+      "かんけつな"
+    ]
+  },
+  "eigo:1592:abundant": {
+    "alts": [
+      "ほうふ"
+    ]
+  },
+  "eigo:1593:affluent": {
+    "alts": [
+      "ゆたか"
+    ]
+  },
+  "eigo:1596:alter": {
+    "alts": [
+      "あらためる"
+    ]
+  },
+  "eigo:1599:foster": {
+    "alts": [
+      "そだてる"
+    ]
+  },
+  "eigo:1601:diminish": {
+    "alts": [
+      "ちいさくなる"
+    ]
+  },
+  "eigo:1604:renovation": {
+    "alts": [
+      "かいそう",
+      "しゅうぜんこうじ"
+    ]
+  },
+  "eigo:1605:emerge": {
+    "alts": [
+      "すがたをみせる"
+    ]
+  },
+  "eigo:1605:emergence": {
+    "alts": [
+      "とうじょう"
+    ]
+  },
+  "eigo:1607:vanish": {
+    "alts": [
+      "みえなくなる",
+      "きえうせる"
+    ]
+  },
+  "eigo:1608:eliminate": {
+    "alts": [
+      "なくす"
+    ]
+  },
+  "eigo:1609:stain": {
+    "alts": [
+      "しみ"
+    ]
+  },
+  "eigo:1610:crack": {
+    "alts": [
+      "ひび",
+      "さけめ"
+    ]
+  },
+  "eigo:1612:rusty": {
+    "alts": [
+      "さびだらけの"
+    ]
+  },
+  "eigo:1614:adolescence": {
+    "alts": [
+      "せいねんき",
+      "せいしゅんき"
+    ]
+  },
+  "eigo:1615:maturity": {
+    "alts": [
+      "せいじゅく"
+    ]
+  },
+  "eigo:1616:wealth": {
+    "alts": [
+      "しさん"
+    ]
+  },
+  "eigo:1616:wealthy": {
+    "alts": [
+      "ゆたか"
+    ]
+  },
+  "eigo:1617:poverty": {
+    "alts": [
+      "まずしさ"
+    ]
+  },
+  "eigo:1620:significance": {
+    "alts": [
+      "いぎ"
+    ]
+  },
+  "eigo:1621:trivial": {
+    "alts": [
+      "つまらない",
+      "とるにたりない"
+    ]
+  },
+  "eigo:1624:magnificent": {
+    "alts": [
+      "そうだいな",
+      "すばらしい"
+    ]
+  },
+  "eigo:1626:ultimately": {
+    "alts": [
+      "けっきょく",
+      "ついには"
+    ]
+  },
+  "eigo:1627:invisible": {
+    "alts": [
+      "みえない"
+    ]
+  },
+  "eigo:1628:remarkable": {
+    "alts": [
+      "めざましい"
+    ]
+  },
+  "eigo:1628:remarkably": {
+    "alts": [
+      "きわだって",
+      "おどろくほど"
+    ]
+  },
+  "eigo:1629:portable": {
+    "alts": [
+      "けいたいようの",
+      "けいたいできる"
+    ]
+  },
+  "eigo:1631:vitality": {
+    "alts": [
+      "せいめいりょく",
+      "せいき",
+      "げんき"
+    ]
+  },
+  "eigo:1633:grave": {
+    "alts": [
+      "じゅうだい"
+    ]
+  },
+  "eigo:1638:restoration": {
+    "alts": [
+      "ふくげん"
+    ]
+  },
+  "eigo:1641:esteem": {
+    "alts": [
+      "そんけい"
+    ]
+  },
+  "eigo:1641:self-esteem": {
+    "alts": [
+      "じふしん"
+    ]
+  },
+  "eigo:1642:dignity": {
+    "alts": [
+      "ひんい",
+      "いげん"
+    ]
+  },
+  "eigo:1643:fame": {
+    "alts": [
+      "ひょうばん"
+    ]
+  },
+  "eigo:1644:prestige": {
+    "alts": [
+      "めいせい",
+      "しんぼう"
+    ]
+  },
+  "eigo:1644:prestigious": {
+    "alts": [
+      "めいせいある",
+      "いちりゅうの"
+    ]
+  },
+  "eigo:1645:privilege": {
+    "alts": [
+      "とくべつなけんり"
+    ]
+  },
+  "eigo:1645:privileged": {
+    "alts": [
+      "とっけんのある",
+      "とっけんかいきゅうの"
+    ]
+  },
+  "eigo:1646:worship": {
+    "alts": [
+      "おがむ",
+      "あがめる"
+    ]
+  },
+  "eigo:1647:pray": {
+    "alts": [
+      "ねがう",
+      "きがんする"
+    ]
+  },
+  "eigo:1647:prayer": {
+    "alts": [
+      "いのりのことば",
+      "きとう"
+    ]
+  },
+  "eigo:1648:meditation": {
+    "alts": [
+      "めいそう"
+    ]
+  },
+  "eigo:1651:superstition": {
+    "alts": [
+      "ぞくしん",
+      "こんきょのないいいつたえ"
+    ]
+  },
+  "eigo:1652:legend": {
+    "alts": [
+      "いいつたえ"
+    ]
+  },
+  "eigo:1652:legendary": {
+    "alts": [
+      "でんせつてきな"
+    ]
+  },
+  "eigo:1653:conventional": {
+    "alts": [
+      "かたどおりの",
+      "でんとうてきな"
+    ]
+  },
+  "eigo:1653:convention": {
+    "alts": [
+      "しきたり"
+    ]
+  },
+  "eigo:1654:somewhat": {
+    "alts": [
+      "やや",
+      "たしょう",
+      "いくぶん"
+    ]
+  },
+  "eigo:1656:frame": {
+    "alts": [
+      "がくぶち"
+    ]
+  },
+  "eigo:1659:cave": {
+    "alts": [
+      "どうくつ",
+      "どうけつ"
+    ]
+  },
+  "eigo:1661:tomb": {
+    "alts": [
+      "はか",
+      "まいそうち"
+    ]
+  },
+  "eigo:1664:emperor": {
+    "alts": [
+      "くにをおさめるくんしゅ"
+    ]
+  },
+  "eigo:1664:imperial": {
+    "alts": [
+      "こうていの"
+    ]
+  },
+  "eigo:1665:conquest": {
+    "alts": [
+      "せいふく",
+      "せめとること"
+    ]
+  },
+  "eigo:1666:invade": {
+    "alts": [
+      "おしいる"
+    ]
+  },
+  "eigo:1666:invasion": {
+    "alts": [
+      "しんにゅう",
+      "せめこむこと"
+    ]
+  },
+  "eigo:1667:colonial": {
+    "alts": [
+      "しょくみんちじだいの"
+    ]
+  },
+  "eigo:1669:palace": {
+    "alts": [
+      "ごてん"
+    ]
+  },
+  "eigo:1670:affair": {
+    "alts": [
+      "もんだい"
+    ]
+  },
+  "eigo:1671:incident": {
+    "alts": [
+      "じけん",
+      "そうどう"
+    ]
+  },
+  "eigo:1671:incidentally": {
+    "alts": [
+      "ついでにいえば"
+    ]
+  },
+  "eigo:1672:reveal": {
+    "alts": [
+      "ばくろする"
+    ]
+  },
+  "eigo:1675:detect": {
+    "alts": [
+      "かんちする",
+      "たんちする"
+    ]
+  },
+  "eigo:1675:detective": {
+    "alts": [
+      "けいじ",
+      "そうさかん"
+    ]
+  },
+  "eigo:1676:interest": {
+    "alts": [
+      "かんしん"
+    ]
+  },
+  "eigo:1682:tune": {
+    "alts": [
+      "きょく",
+      "めろでぃー"
+    ]
+  },
+  "eigo:1683:classic": {
+    "alts": [
+      "けっさく",
+      "こてん"
+    ]
+  },
+  "eigo:1684:contemporary": {
+    "alts": [
+      "こんにちの"
+    ]
+  },
+  "eigo:1685:carve": {
+    "alts": [
+      "ほる"
+    ]
+  },
+  "eigo:1686:sculpture": {
+    "alts": [
+      "ちょうこくさくひん",
+      "ちょうぞう"
+    ]
+  },
+  "eigo:1687:craft": {
+    "alts": [
+      "てしごとのわざ"
+    ]
+  },
+  "eigo:1687:craftsman": {
+    "alts": [
+      "こうげいか",
+      "じゅくれんしたつくりて"
+    ]
+  },
+  "eigo:1688:aesthetic": {
+    "alts": [
+      "しんびてき"
+    ]
+  },
+  "eigo:1689:critic": {
+    "alts": [
+      "ひょうろんか"
+    ]
+  },
+  "eigo:1690:depict": {
+    "alts": [
+      "びょうしゃする",
+      "ひょうげんする"
+    ]
+  },
+  "eigo:1691:portray": {
+    "alts": [
+      "びょうしゃする"
+    ]
+  },
+  "eigo:1691:portrait": {
+    "alts": [
+      "しょうぞう"
+    ]
+  },
+  "eigo:1693:registration": {
+    "alts": [
+      "とうろく",
+      "とどけで"
+    ]
+  },
+  "eigo:1696:surround": {
+    "alts": [
+      "かこむ",
+      "とりまく"
+    ]
+  },
+  "eigo:1699:location": {
+    "alts": [
+      "ばしょ",
+      "いち"
+    ]
+  },
+  "eigo:1701:involve": {
+    "alts": [
+      "ともなう"
+    ]
+  },
+  "eigo:1701:involvement": {
+    "alts": [
+      "かかわり",
+      "さんか"
+    ]
+  },
+  "eigo:1704:consist of A": {
+    "alts": [
+      "からなりたつ",
+      "でこうせいされる"
+    ]
+  },
+  "eigo:1704:consist": {
+    "alts": [
+      "なる"
+    ]
+  },
+  "eigo:1708:distinguish A from B": {
+    "alts": [
+      "くべつする"
+    ]
+  },
+  "eigo:1708:distinct": {
+    "alts": [
+      "めいかくな"
+    ]
+  },
+  "eigo:1708:distinguish": {
+    "alts": [
+      "くべつする"
+    ]
+  },
+  "eigo:1709:appoint A as B": {
+    "alts": [
+      "しめいする"
+    ]
+  },
+  "eigo:1709:appoint": {
+    "alts": [
+      "しめいする"
+    ]
+  },
+  "eigo:1711:regard A as B": {
+    "alts": [
+      "みなしている"
+    ]
+  },
+  "eigo:1711:think of A as B": {
+    "alts": [
+      "みなす",
+      "かんがえる"
+    ]
+  },
+  "eigo:1712:incorporate A into B": {
+    "alts": [
+      "くみこむ"
+    ]
+  },
+  "eigo:1712:incorporate": {
+    "alts": [
+      "くみこむ"
+    ]
+  },
+  "eigo:1713:integrate": {
+    "alts": [
+      "まとめる",
+      "いったいかする"
+    ]
+  },
+  "eigo:1713:integration": {
+    "alts": [
+      "とうごう",
+      "いったいか"
+    ]
+  },
+  "eigo:1714:confined": {
+    "alts": [
+      "せまい",
+      "きゅうくつな"
+    ]
+  },
+  "eigo:1715:responsibility": {
+    "alts": [
+      "つとめ",
+      "せきむ",
+      "ぎむ"
+    ]
+  },
+  "eigo:1715:responsible": {
+    "alts": [
+      "せきにんかんのある"
+    ]
+  },
+  "eigo:1721:in the same way": {
+    "alts": [
+      "どうように",
+      "おなじやりかたで"
+    ]
+  },
+  "eigo:1722:in one's own way": {
+    "alts": [
+      "じぶんりゅうに",
+      "じぶんなりのやりかたで"
+    ]
+  },
+  "eigo:1725:by way of A": {
+    "alts": [
+      "とおって"
+    ]
+  },
+  "eigo:1726:in one way or another": {
+    "alts": [
+      "なんらかのほうほうで",
+      "なんとかして"
+    ]
+  },
+  "eigo:1727:by all means": {
+    "alts": [
+      "かならず"
+    ]
+  },
+  "eigo:1728:by no means": {
+    "alts": [
+      "すこしも"
+    ]
+  },
+  "eigo:1730:as far as": {
+    "alts": [
+      "かぎりでは"
+    ]
+  },
+  "eigo:1731:inform A of B": {
+    "alts": [
+      "つたえる",
+      "つうちする"
+    ]
+  },
+  "eigo:1732:replace A with B": {
+    "alts": [
+      "おきかえる"
+    ]
+  },
+  "eigo:1732:replace": {
+    "alts": [
+      "こうかんする"
+    ]
+  },
+  "eigo:1732:replacement": {
+    "alts": [
+      "こうにん"
+    ]
+  },
+  "eigo:1733:supply A with B": {
+    "alts": [
+      "あたえる"
+    ]
+  },
+  "eigo:1734:provide A with B": {
+    "alts": [
+      "ていきょうする"
+    ]
+  },
+  "eigo:1734:provide": {
+    "alts": [
+      "ていきょうする"
+    ]
+  },
+  "eigo:1734:provide B for A": {
+    "alts": [
+      "ていきょうする"
+    ]
+  },
+  "eigo:1735:combine A with B": {
+    "alts": [
+      "むすびつける"
+    ]
+  },
+  "eigo:1735:combination": {
+    "alts": [
+      "はいごう"
+    ]
+  },
+  "eigo:1735:combine": {
+    "alts": [
+      "あわせる",
+      "くみあわせる"
+    ]
+  },
+  "eigo:1736:subtract A from B": {
+    "alts": [
+      "さしひく"
+    ]
+  },
+  "eigo:1736:subtract": {
+    "alts": [
+      "ひく",
+      "げんじる"
+    ]
+  },
+  "eigo:1737:admiration": {
+    "alts": [
+      "かんたん",
+      "かんしん"
+    ]
+  },
+  "eigo:1738:cram A into B": {
+    "alts": [
+      "おしこむ"
+    ]
+  },
+  "eigo:1738:cram": {
+    "alts": [
+      "おしこむ",
+      "つめる"
+    ]
+  },
+  "eigo:1738:cram school": {
+    "alts": [
+      "じゅく",
+      "よびこう"
+    ]
+  },
+  "eigo:1739:show up": {
+    "alts": [
+      "すがたをみせる",
+      "すがたをあらわす",
+      "くる"
+    ]
+  },
+  "eigo:1740:sum up A": {
+    "alts": [
+      "まとめる"
+    ]
+  },
+  "eigo:1742:run for A": {
+    "alts": [
+      "しゅつばする"
+    ]
+  },
+  "eigo:1743:in detail": {
+    "alts": [
+      "しょうさいに",
+      "こまかく"
+    ]
+  },
+  "eigo:1744:in reality": {
+    "alts": [
+      "げんじつには",
+      "じつは",
+      "ほんとうは"
+    ]
+  },
+  "eigo:1746:vain": {
+    "alts": [
+      "むなしい"
+    ]
+  },
+  "eigo:1747:in effect": {
+    "alts": [
+      "じっしつてきに",
+      "じっさいのところ"
+    ]
+  },
+  "eigo:1748:in any case": {
+    "alts": [
+      "とにかく"
+    ]
+  },
+  "eigo:1749:in advance": {
+    "alts": [
+      "あらかじめ",
+      "じぜんに"
+    ]
+  },
+  "eigo:1750:in turn": {
+    "alts": [
+      "かわるがわる"
+    ]
+  },
+  "eigo:1751:in principle": {
+    "alts": [
+      "げんそくてきには"
+    ]
+  },
+  "eigo:1752:in return": {
+    "alts": [
+      "そのかわりに"
+    ]
+  },
+  "eigo:1752:return": {
+    "alts": [
+      "かえる"
+    ]
+  },
+  "eigo:1754:in the long run": {
+    "alts": [
+      "ちょうきてきには",
+      "けっきょくは"
+    ]
+  },
+  "eigo:1757:diverse": {
+    "alts": [
+      "たような",
+      "しゅじゅの",
+      "ことなった"
+    ]
+  },
+  "eigo:1759:thrive": {
+    "alts": [
+      "いきおいよくのびる"
+    ]
+  },
+  "eigo:1761:endanger": {
+    "alts": [
+      "あやうくする"
+    ]
+  },
+  "eigo:1762:species": {
+    "alts": [
+      "しゅ"
+    ]
+  },
+  "eigo:1765:soaked": {
+    "alts": [
+      "ずぶぬれ"
+    ]
+  },
+  "eigo:1768:organism": {
+    "alts": [
+      "いきもの",
+      "ゆうきたい"
+    ]
+  },
+  "eigo:1769:mammal": {
+    "alts": [
+      "ほにゅうどうぶつ"
+    ]
+  },
+  "eigo:1771:cattle": {
+    "alts": [
+      "うし",
+      "かちく"
+    ]
+  },
+  "eigo:1772:breed": {
+    "alts": [
+      "そだてる"
+    ]
+  },
+  "eigo:1773:hybrid": {
+    "alts": [
+      "こうはいしゅ"
+    ]
+  },
+  "eigo:1774:feather": {
+    "alts": [
+      "はね",
+      "うもう"
+    ]
+  },
+  "eigo:1775:insect": {
+    "alts": [
+      "むし"
+    ]
+  },
+  "eigo:1775:bug": {
+    "alts": [
+      "こんちゅう"
+    ]
+  },
+  "eigo:1777:scatter": {
+    "alts": [
+      "ばらまく"
+    ]
+  },
+  "eigo:1779:dump": {
+    "alts": [
+      "なげすてる"
+    ]
+  },
+  "eigo:1780:predator": {
+    "alts": [
+      "にくしょくどうぶつ"
+    ]
+  },
+  "eigo:1781:prey": {
+    "alts": [
+      "えじき"
+    ]
+  },
+  "eigo:1785:nest": {
+    "alts": [
+      "す"
+    ]
+  },
+  "eigo:1786:ecological": {
+    "alts": [
+      "しぜんかんきょうの"
+    ]
+  },
+  "eigo:1789:sustainable": {
+    "alts": [
+      "じぞくかのうな",
+      "かんきょうをこわさない"
+    ]
+  },
+  "eigo:1789:sustainability": {
+    "alts": [
+      "じぞくせい"
+    ]
+  },
+  "eigo:1790:erode": {
+    "alts": [
+      "しんしょくする"
+    ]
+  },
+  "eigo:1791:indigenous": {
+    "alts": [
+      "どちゃくの"
+    ]
+  },
+  "eigo:1792:vegetation": {
+    "alts": [
+      "くさき"
+    ]
+  },
+  "eigo:1793:bush": {
+    "alts": [
+      "やぶ",
+      "しげみ"
+    ]
+  },
+  "eigo:1795:stem": {
+    "alts": [
+      "くき"
+    ]
+  },
+  "eigo:1795:root": {
+    "alts": [
+      "ね"
+    ]
+  },
+  "eigo:1796:blossom": {
+    "alts": [
+      "はな"
+    ]
+  },
+  "eigo:1800:pesticide": {
+    "alts": [
+      "さっちゅうざい"
+    ]
+  },
+  "eigo:1802:grain": {
+    "alts": [
+      "こくるい"
+    ]
+  },
+  "eigo:1803:meadow": {
+    "alts": [
+      "くさち",
+      "そうげん"
+    ]
+  },
+  "eigo:1805:soil": {
+    "alts": [
+      "つち"
+    ]
+  },
+  "eigo:1805:mud": {
+    "alts": [
+      "どろ"
+    ]
+  },
+  "eigo:1806:mow": {
+    "alts": [
+      "かる"
+    ]
+  },
+  "eigo:1808:genetically": {
+    "alts": [
+      "いでんしのうえで"
+    ]
+  },
+  "eigo:1808:genetic": {
+    "alts": [
+      "いでんし"
+    ]
+  },
+  "eigo:1812:reef": {
+    "alts": [
+      "さんごしょう",
+      "あさせのいわば"
+    ]
+  },
+  "eigo:1817:strive": {
+    "alts": [
+      "けんめいにとりくむ",
+      "どりょくする"
+    ]
+  },
+  "eigo:1819:tackle": {
+    "alts": [
+      "とりくむ"
+    ]
+  },
+  "eigo:1820:reassure": {
+    "alts": [
+      "げんきづける"
+    ]
+  },
+  "eigo:1822:recite": {
+    "alts": [
+      "あんしょう"
+    ]
+  },
+  "eigo:1822:recitation": {
+    "alts": [
+      "ろうどく"
+    ]
+  },
+  "eigo:1823:regain": {
+    "alts": [
+      "かいふくする"
+    ]
+  },
+  "eigo:1826:acquire": {
+    "alts": [
+      "しゅうとくする"
+    ]
+  },
+  "eigo:1826:acquisition": {
+    "alts": [
+      "かくとく"
+    ]
+  },
+  "eigo:1827:inquire": {
+    "alts": [
+      "といあわせる"
+    ]
+  },
+  "eigo:1827:inquiry": {
+    "alts": [
+      "しつもん"
+    ]
+  },
+  "eigo:1830:refrain": {
+    "alts": [
+      "さしひかえる",
+      "つつしむ"
+    ]
+  },
+  "eigo:1833:correlate": {
+    "alts": [
+      "そうかん"
+    ]
+  },
+  "eigo:1833:correlation": {
+    "alts": [
+      "かんれん"
+    ]
+  },
+  "eigo:1834:cling": {
+    "alts": [
+      "くっついてはなれない"
+    ]
+  },
+  "eigo:1836:dispose": {
+    "alts": [
+      "しょぶんする",
+      "しょりする"
+    ]
+  },
+  "eigo:1836:disposal": {
+    "alts": [
+      "しょり",
+      "はいき"
+    ]
+  },
+  "eigo:1838:passion": {
+    "alts": [
+      "ねつい"
+    ]
+  },
+  "eigo:1838:passionate": {
+    "alts": [
+      "じょうねつてき"
+    ]
+  },
+  "eigo:1840:faithful": {
+    "alts": [
+      "せいじつ"
+    ]
+  },
+  "eigo:1841:inhabitant": {
+    "alts": [
+      "きょじゅうしゃ"
+    ]
+  },
+  "eigo:1842:attendant": {
+    "alts": [
+      "あんないがかり"
+    ]
+  },
+  "eigo:1843:merchandise": {
+    "alts": [
+      "しなもの"
+    ]
+  },
+  "eigo:1844:consultant": {
+    "alts": [
+      "こもん"
+    ]
+  },
+  "eigo:1847:offspring": {
+    "alts": [
+      "こ"
+    ]
+  },
+  "eigo:1848:infant": {
+    "alts": [
+      "にゅうじ"
+    ]
+  },
+  "eigo:1849:descend": {
+    "alts": [
+      "くだっていく"
+    ]
+  },
+  "eigo:1850:presumably": {
+    "alts": [
+      "たぶん"
+    ]
+  },
+  "eigo:1851:premise": {
+    "alts": [
+      "かてい"
+    ]
+  },
+  "eigo:1852:pregnant": {
+    "alts": [
+      "にんしんした"
+    ]
+  },
+  "eigo:1852:pregnancy": {
+    "alts": [
+      "かいにん"
+    ]
+  },
+  "eigo:1853:enclose": {
+    "alts": [
+      "とりかこむ"
+    ]
+  },
+  "eigo:1855:embrace": {
+    "alts": [
+      "すすんでとりいれる"
+    ]
+  },
+  "eigo:1856:embed": {
+    "alts": [
+      "くみこむ"
+    ]
+  },
+  "eigo:1857:outgoing": {
+    "alts": [
+      "がいこうてき"
+    ]
+  },
+  "eigo:1857:go out": {
+    "alts": [
+      "でかける"
+    ]
+  },
+  "eigo:1858:outstanding": {
+    "alts": [
+      "けっしゅつした",
+      "きわだってすぐれた"
+    ]
+  },
+  "eigo:1859:outlook": {
+    "alts": [
+      "てんぼう"
+    ]
+  },
+  "eigo:1859:look out": {
+    "alts": [
+      "ちゅういする"
+    ]
+  },
+  "eigo:1864:overtime": {
+    "alts": [
+      "ちょうかきんむ"
+    ]
+  },
+  "eigo:1866:retreat": {
+    "alts": [
+      "うしろにさがる"
+    ]
+  },
+  "eigo:1867:twist": {
+    "alts": [
+      "ひねる"
+    ]
+  },
+  "eigo:1868:distort": {
+    "alts": [
+      "わいきょくする"
+    ]
+  },
+  "eigo:1870:accumulate": {
+    "alts": [
+      "ちくせきする"
+    ]
+  },
+  "eigo:1875:retain": {
+    "alts": [
+      "ほじする"
+    ]
+  },
+  "eigo:1877:adequate": {
+    "alts": [
+      "じゅうぶん"
+    ]
+  },
+  "eigo:1877:inadequate": {
+    "alts": [
+      "ふてきせつ"
+    ]
+  },
+  "eigo:1883:fascinating": {
+    "alts": [
+      "みりょくてきな"
+    ]
+  },
+  "eigo:1884:misleading": {
+    "alts": [
+      "まぎらわしい",
+      "ひとをまどわす"
+    ]
+  },
+  "eigo:1885:glow": {
+    "alts": [
+      "ひかりをはなってかがやく"
+    ]
+  },
+  "eigo:1886:glory": {
+    "alts": [
+      "おおきなめいよ",
+      "めいせい"
+    ]
+  },
+  "eigo:1886:glorious": {
+    "alts": [
+      "みごとな",
+      "えいこうある"
+    ]
+  },
+  "eigo:1887:dawn": {
+    "alts": [
+      "あけがた"
+    ]
+  },
+  "eigo:1889:splendid": {
+    "alts": [
+      "めをみはるよう"
+    ]
+  },
+  "eigo:1890:marvelous": {
+    "alts": [
+      "おどろくほどよい",
+      "おどろくべき"
+    ]
+  },
+  "eigo:1892:intellect": {
+    "alts": [
+      "かんがえるちから",
+      "ちりょく"
+    ]
+  },
+  "eigo:1895:awkward": {
+    "alts": [
+      "ぎこちない"
+    ]
+  },
+  "eigo:1896:absurd": {
+    "alts": [
+      "すじのとおらない",
+      "ふごうりな"
+    ]
+  },
+  "eigo:1899:suspicious": {
+    "alts": [
+      "うたがわしい"
+    ]
+  },
+  "eigo:1899:suspicion": {
+    "alts": [
+      "うたがうきもち"
+    ]
+  },
+  "eigo:1901:adverse": {
+    "alts": [
+      "このましくない"
+    ]
+  },
+  "eigo:1902:ambitious": {
+    "alts": [
+      "やしんてきな",
+      "おおきなもくひょうをもった"
+    ]
+  },
+  "eigo:1902:ambition": {
+    "alts": [
+      "こころざし",
+      "やしん"
+    ]
+  },
+  "eigo:1903:enthusiastic": {
+    "alts": [
+      "むちゅうになっている"
+    ]
+  },
+  "eigo:1903:enthusiasm": {
+    "alts": [
+      "いきごみ"
+    ]
+  },
+  "eigo:1904:sincere": {
+    "alts": [
+      "こころからの"
+    ]
+  },
+  "eigo:1904:sincerely": {
+    "alts": [
+      "いつわりなく"
+    ]
+  },
+  "eigo:1905:spontaneous": {
+    "alts": [
+      "しぜんにしょうじる",
+      "おもわずでる"
+    ]
+  },
+  "eigo:1906:rational": {
+    "alts": [
+      "ごうりてきな"
+    ]
+  },
+  "eigo:1907:obedient": {
+    "alts": [
+      "よくいうことをきく",
+      "すなおな"
+    ]
+  },
+  "eigo:1908:stubborn": {
+    "alts": [
+      "ごうじょうな",
+      "いじをはる"
+    ]
+  },
+  "eigo:1909:fierce": {
+    "alts": [
+      "もうれつな"
+    ]
+  },
+  "eigo:1910:steep": {
+    "alts": [
+      "かたむきがきゅうな"
+    ]
+  },
+  "eigo:1912:conspicuous": {
+    "alts": [
+      "ひとめをひく"
+    ]
+  },
+  "eigo:1913:subtle": {
+    "alts": [
+      "かすかな"
+    ]
+  },
+  "eigo:1914:peculiar": {
+    "alts": [
+      "とくゆうの"
+    ]
+  },
+  "eigo:1915:optimistic": {
+    "alts": [
+      "らくてんてきな"
+    ]
+  },
+  "eigo:1915:optimist": {
+    "alts": [
+      "らっかんしゅぎしゃ",
+      "あかるくかんがえるひと"
+    ]
+  },
+  "eigo:1916:pessimist": {
+    "alts": [
+      "ひかんしゅぎしゃ",
+      "わるいほうにかんがえるひと"
+    ]
+  },
+  "eigo:1917:objective": {
+    "alts": [
+      "しゅかんをまじえない"
+    ]
+  },
+  "eigo:1918:subjective": {
+    "alts": [
+      "こじんのかんじかたによる"
+    ]
+  },
+  "eigo:1919:temporary": {
+    "alts": [
+      "りんじの",
+      "かりの"
+    ]
+  },
+  "eigo:1920:permanent": {
+    "alts": [
+      "ずっとのこる"
+    ]
+  },
+  "eigo:1923:bold": {
+    "alts": [
+      "おもいきった"
+    ]
+  },
+  "eigo:1924:cautious": {
+    "alts": [
+      "ようじんぶかい",
+      "かるがるしくきめない"
+    ]
+  },
+  "eigo:1925:profound": {
+    "alts": [
+      "じゅうだいな"
+    ]
+  },
+  "eigo:1926:superficial": {
+    "alts": [
+      "うわべだけの",
+      "せんぱくな"
+    ]
+  },
+  "eigo:1929:willing": {
+    "alts": [
+      "すすんで"
+    ]
+  },
+  "eigo:1933:anonymous": {
+    "alts": [
+      "なまえをふせた"
+    ]
+  },
+  "eigo:1934:furious": {
+    "alts": [
+      "ひどくおこった"
+    ]
+  },
+  "eigo:1934:fury": {
+    "alts": [
+      "いきどおり",
+      "はげしいいかり",
+      "げきど"
+    ]
+  },
+  "eigo:1935:cruel": {
+    "alts": [
+      "むごい",
+      "ひどい",
+      "むじひな"
+    ]
+  },
+  "eigo:1936:humble": {
+    "alts": [
+      "つつましい"
+    ]
+  },
+  "eigo:1937:punctual": {
+    "alts": [
+      "おくれない"
+    ]
+  },
+  "eigo:1938:industrial": {
+    "alts": [
+      "さんぎょう"
+    ]
+  },
+  "eigo:1939:industrious": {
+    "alts": [
+      "ねっしんな"
+    ]
+  },
+  "eigo:1939:industriously": {
+    "alts": [
+      "きんべんに"
+    ]
+  },
+  "eigo:1940:intense": {
+    "alts": [
+      "はげしい"
+    ]
+  },
+  "eigo:1940:intensity": {
+    "alts": [
+      "いきおいのおおきさ",
+      "はげしさ"
+    ]
+  },
+  "eigo:1941:intensive": {
+    "alts": [
+      "てっていてきな"
+    ]
+  },
+  "eigo:1942:communicative": {
+    "alts": [
+      "しゃこうてきな"
+    ]
+  },
+  "eigo:1943:competence": {
+    "alts": [
+      "りきりょう"
+    ]
+  },
+  "eigo:1943:competent": {
+    "alts": [
+      "てきにんの"
+    ]
+  },
+  "eigo:1944:modify": {
+    "alts": [
+      "へんこう"
+    ]
+  },
+  "eigo:1946:controversial": {
+    "alts": [
+      "ぎろんをよぶ",
+      "ぶつぎをかもす"
+    ]
+  },
+  "eigo:1946:controversy": {
+    "alts": [
+      "ろんぎ",
+      "ぎろん",
+      "はげしいぎろん"
+    ]
+  },
+  "eigo:1950:concerning": {
+    "alts": [
+      "にかんして"
+    ]
+  },
+  "eigo:1952:considering": {
+    "alts": [
+      "こうりょすると"
+    ]
+  },
+  "eigo:1952:given": {
+    "alts": [
+      "かんがえると"
+    ]
+  },
+  "eigo:1953:verbal": {
+    "alts": [
+      "こうとうの"
+    ]
+  },
+  "eigo:1953:nonverbal": {
+    "alts": [
+      "ひげんごの"
+    ]
+  },
+  "eigo:1954:oral": {
+    "alts": [
+      "こうじゅつの"
+    ]
+  },
+  "eigo:1955:vocal": {
+    "alts": [
+      "はっせいの"
+    ]
+  },
+  "eigo:1956:simultaneously": {
+    "alts": [
+      "どうじに",
+      "ときをおなじくして"
+    ]
+  },
+  "eigo:1957:colloquial": {
+    "alts": [
+      "はなしことばの",
+      "くだけたはなしことばの"
+    ]
+  },
+  "eigo:1958:irony": {
+    "alts": [
+      "ひにく",
+      "とおまわしのあてつけ"
+    ]
+  },
+  "eigo:1959:old-fashioned": {
+    "alts": [
+      "ふるくさい",
+      "じだいおくれの"
+    ]
+  },
+  "eigo:1960:outdated": {
+    "alts": [
+      "ふるくなった",
+      "きゅうしきの"
+    ]
+  },
+  "eigo:1961:dramatic": {
+    "alts": [
+      "めざましい"
+    ]
+  },
+  "eigo:1961:dramatically": {
+    "alts": [
+      "げきてきに"
+    ]
+  },
+  "eigo:1962:drastic": {
+    "alts": [
+      "ばっぽんてきな"
+    ]
+  },
+  "eigo:1962:drastically": {
+    "alts": [
+      "きゅうげきに"
+    ]
+  },
+  "eigo:1963:literary": {
+    "alts": [
+      "ぶんがくてきな"
+    ]
+  },
+  "eigo:1964:literal": {
+    "alts": [
+      "ちくごてきな",
+      "ごくにちゅうじつな"
+    ]
+  },
+  "eigo:1964:literally": {
+    "alts": [
+      "もじどおりに",
+      "こちょうなしに"
+    ]
+  },
+  "eigo:1965:tone": {
+    "alts": [
+      "いいかたのちょうし"
+    ]
+  },
+  "eigo:1966:usage": {
+    "alts": [
+      "ようほう"
+    ]
+  },
+  "eigo:1967:metaphor": {
+    "alts": [
+      "ひゆ",
+      "いんゆ"
+    ]
+  },
+  "eigo:1967:metaphorical": {
+    "alts": [
+      "いんゆてきな",
+      "たとえをつかった"
+    ]
+  },
+  "eigo:1969:context": {
+    "alts": [
+      "ぜんごかんけい"
+    ]
+  },
+  "eigo:1971:accent": {
+    "alts": [
+      "はつおんのくせ"
+    ]
+  },
+  "eigo:1972:dialect": {
+    "alts": [
+      "ちほうのことば"
+    ]
+  },
+  "eigo:1973:slang": {
+    "alts": [
+      "くだけたことば",
+      "すらんぐ"
+    ]
+  },
+  "eigo:1974:counterpart": {
+    "alts": [
+      "あいてかた"
+    ]
+  },
+  "eigo:1975:coincidence": {
+    "alts": [
+      "ぐうぜんのいっち",
+      "おもいがけないいっち"
+    ]
+  },
+  "eigo:1976:consent": {
+    "alts": [
+      "しょうだく",
+      "きょか"
+    ]
+  },
+  "eigo:1976:consensus": {
+    "alts": [
+      "ごうい"
+    ]
+  },
+  "eigo:1977:convey": {
+    "alts": [
+      "あらわす"
+    ]
+  },
+  "eigo:1978:assert": {
+    "alts": [
+      "だんげんする",
+      "つよくしゅちょうする"
+    ]
+  },
+  "eigo:1978:assertion": {
+    "alts": [
+      "しゅちょう"
+    ]
+  },
+  "eigo:1979:infer": {
+    "alts": [
+      "よみとる",
+      "すいろんする"
+    ]
+  },
+  "eigo:1980:speculate": {
+    "alts": [
+      "おくそくする",
+      "すいそくする",
+      "あれこれおもいをめぐらす"
+    ]
+  },
+  "eigo:1980:speculation": {
+    "alts": [
+      "すいそく",
+      "あてずいりょう"
+    ]
+  },
+  "eigo:1981:assume": {
+    "alts": [
+      "とうぜんとかんがえる"
+    ]
+  },
+  "eigo:1981:assumption": {
+    "alts": [
+      "かてい"
+    ]
+  },
+  "eigo:1983:editor": {
+    "alts": [
+      "へんしゅうちょう"
+    ]
+  },
+  "eigo:1984:compile": {
+    "alts": [
+      "あつめてあむ",
+      "へんしゅうする"
+    ]
+  },
+  "eigo:1985:introductory": {
+    "alts": [
+      "しょほの"
+    ]
+  },
+  "eigo:1986:interact": {
+    "alts": [
+      "かかわりあう"
+    ]
+  },
+  "eigo:1986:interaction": {
+    "alts": [
+      "こうりゅう",
+      "ふれあい"
+    ]
+  },
+  "eigo:1986:interactive": {
+    "alts": [
+      "たいわがたの"
+    ]
+  },
+  "eigo:1987:interference": {
+    "alts": [
+      "くちだし"
+    ]
+  },
+  "eigo:1988:tragedy": {
+    "alts": [
+      "さんじ",
+      "いたましいできごと"
+    ]
+  },
+  "eigo:1988:comedy": {
+    "alts": [
+      "こめでぃー",
+      "わらえるさくひん"
+    ]
+  },
+  "eigo:1988:tragic": {
+    "alts": [
+      "いたましい",
+      "ひげきてきな"
+    ]
+  },
+  "eigo:1990:biography": {
+    "alts": [
+      "いちだいき",
+      "ひとのいっしょうをかいたほん"
+    ]
+  },
+  "eigo:1992:fantasy": {
+    "alts": [
+      "むそう",
+      "げんそう",
+      "げんじつばなれしたはなし"
+    ]
+  },
+  "eigo:1993:proverb": {
+    "alts": [
+      "かくげん",
+      "きんげん"
+    ]
+  },
+  "eigo:1994:comprehend": {
+    "alts": [
+      "のみこむ",
+      "はあくする"
+    ]
+  },
+  "eigo:1994:comprehension": {
+    "alts": [
+      "りかいりょく",
+      "ないようをつかむちから"
+    ]
+  },
+  "eigo:1994:comprehensive": {
+    "alts": [
+      "そうごうてきな",
+      "すべてをふくむ"
+    ]
+  },
+  "eigo:1997:grab": {
+    "alts": [
+      "さっととる",
+      "つかむ"
+    ]
+  },
+  "eigo:1997:grip": {
+    "alts": [
+      "つかむ"
+    ]
+  },
+  "eigo:2008:in private": {
+    "alts": [
+      "ひとのいないところで",
+      "こっそりと"
+    ]
+  },
+  "eigo:2009:in theory": {
+    "alts": [
+      "りろんてきには"
+    ]
+  },
+  "eigo:2010:in practice": {
+    "alts": [
+      "じっさいじょうは"
+    ]
+  },
+  "eigo:2011:more often than not": {
+    "alts": [
+      "たいがい",
+      "しばしば"
+    ]
+  },
+  "eigo:2012:most of all": {
+    "alts": [
+      "なによりも",
+      "とくに"
+    ]
+  },
+  "eigo:2013:for the most part": {
+    "alts": [
+      "おおむね",
+      "たいていは"
+    ]
+  },
+  "eigo:2014:as far as A is concerned": {
+    "alts": [
+      "にかんしていえば"
+    ]
+  },
+  "eigo:2015:no more than A": {
+    "alts": [
+      "ほんの"
+    ]
+  },
+  "eigo:2019:do away with A": {
+    "alts": [
+      "なくす"
+    ]
+  },
+  "eigo:2023:get along with A": {
+    "alts": [
+      "なかよくやっていく",
+      "うまくやる"
+    ]
+  },
+  "eigo:2024:in terms of A": {
+    "alts": [
+      "てんから"
+    ]
+  },
+  "eigo:2026:at the sight of A": {
+    "alts": [
+      "みて",
+      "みたとたん"
+    ]
+  },
+  "eigo:2027:for the sake of A": {
+    "alts": [
+      "ために"
+    ]
+  },
+  "eigo:2028:behalf": {
+    "alts": [
+      "かわって"
+    ]
+  },
+  "eigo:2031:back to front": {
+    "alts": [
+      "うしろまえに"
+    ]
+  },
+  "eigo:2035:the other way around": {
+    "alts": [
+      "はんたいに",
+      "あべこべに"
+    ]
+  },
+  "eigo:2037:independent": {
+    "alts": [
+      "どくりつ"
+    ]
+  },
+  "eigo:2040:needless to say": {
+    "alts": [
+      "もちろん"
+    ]
+  },
+  "eigo:2040:it goes without saying that": {
+    "alts": [
+      "とうぜんだ"
+    ]
+  },
+  "eigo:2041:to make a long story short": {
+    "alts": [
+      "ようするに"
+    ]
+  },
+  "eigo:2042:to begin with": {
+    "alts": [
+      "はじめに"
+    ]
+  },
+  "eigo:2042:to start with": {
+    "alts": [
+      "まず",
+      "まずだいいちに"
+    ]
+  },
+  "eigo:2043:to be sure": {
+    "alts": [
+      "なるほど"
+    ]
+  },
+  "eigo:2044:to be honest with you": {
+    "alts": [
+      "しょうじきなところ",
+      "そっちょくにいうと"
+    ]
+  },
+  "eigo:2044:to tell the truth": {
+    "alts": [
+      "じつのところ",
+      "しょうじきにいうと"
+    ]
+  },
+  "eigo:2045:to be frank with you": {
+    "alts": [
+      "しょうじきにいうと",
+      "はっきりいうと"
+    ]
+  },
+  "eigo:2046:to make matters worse": {
+    "alts": [
+      "なおわるいことに",
+      "もっとわるいことに"
+    ]
+  },
+  "eigo:2046:what is worse": {
+    "alts": [
+      "さらにわるいことに",
+      "なおわるいことに"
+    ]
+  },
+  "eigo:2049:in general": {
+    "alts": [
+      "ぜんぱんてきに",
+      "いっぱんに",
+      "たいてい"
+    ]
+  },
+  "eigo:2050:by and large": {
+    "alts": [
+      "ぜんたいてきにみて",
+      "おおむね",
+      "だいたいにおいて"
+    ]
+  },
+  "eigo:2051:make up for A": {
+    "alts": [
+      "おぎなう"
+    ]
+  },
+  "eigo:2052:compensate for A": {
+    "alts": [
+      "うめあわせる"
+    ]
+  },
+  "eigo:2053:without fail": {
+    "alts": [
+      "まちがいなく",
+      "かくじつに",
+      "きっと"
+    ]
+  },
+  "eigo:2054:no doubt": {
+    "alts": [
+      "おそらく",
+      "まちがいなく"
+    ]
+  },
+  "eigo:2058:undergraduate": {
+    "alts": [
+      "だいがくせい"
+    ]
+  },
+  "eigo:2060:institute": {
+    "alts": [
+      "けんきゅうしょ"
+    ]
+  },
+  "eigo:2061:thesis": {
+    "alts": [
+      "ろんのちゅうしんとなるかんがえ"
+    ]
+  },
+  "eigo:2061:dissertation": {
+    "alts": [
+      "ろんぶん"
+    ]
+  },
+  "eigo:2062:expertise": {
+    "alts": [
+      "せんもんぎじゅつ",
+      "こうどなぎのう"
+    ]
+  },
+  "eigo:2062:expert": {
+    "alts": [
+      "そのみちにくわしいひと"
+    ]
+  },
+  "eigo:2068:hypothesis": {
+    "alts": [
+      "かせつ",
+      "かてい",
+      "かりのせつめい"
+    ]
+  },
+  "eigo:2069:category": {
+    "alts": [
+      "ぶるい",
+      "はんちゅう"
+    ]
+  },
+  "eigo:2070:questionnaire": {
+    "alts": [
+      "あんけーと"
+    ]
+  },
+  "eigo:2071:classify": {
+    "alts": [
+      "ぶんるいする"
+    ]
+  },
+  "eigo:2071:classification": {
+    "alts": [
+      "ぶんるい"
+    ]
+  },
+  "eigo:2072:indicate": {
+    "alts": [
+      "さししめす",
+      "あらわす"
+    ]
+  },
+  "eigo:2072:indication": {
+    "alts": [
+      "ちょうこう"
+    ]
+  },
+  "eigo:2072:indicator": {
+    "alts": [
+      "しひょう"
+    ]
+  },
+  "eigo:2073:cite": {
+    "alts": [
+      "ひきあいにだす",
+      "いんようする"
+    ]
+  },
+  "eigo:2074:imply": {
+    "alts": [
+      "あんにいみする"
+    ]
+  },
+  "eigo:2074:implication": {
+    "alts": [
+      "げんがいのいみ"
+    ]
+  },
+  "eigo:2077:representative": {
+    "alts": [
+      "だいひょうしゃ"
+    ]
+  },
+  "eigo:2078:practical": {
+    "alts": [
+      "げんじつてきな"
+    ]
+  },
+  "eigo:2081:optional": {
+    "alts": [
+      "せんたくせい"
+    ]
+  },
+  "eigo:2081:option": {
+    "alts": [
+      "えらべるみち"
+    ]
+  },
+  "eigo:2082:activist": {
+    "alts": [
+      "うんどうか"
+    ]
+  },
+  "eigo:2084:dynamics": {
+    "alts": [
+      "りきがく"
+    ]
+  },
+  "eigo:2090:thus": {
+    "alts": [
+      "それゆえ"
+    ]
+  },
+  "eigo:2093:namely": {
+    "alts": [
+      "つまり"
+    ]
+  },
+  "eigo:2094:thereby": {
+    "alts": [
+      "そうすることで",
+      "そのけっかとして"
+    ]
+  },
+  "eigo:2095:initially": {
+    "alts": [
+      "とうしょは",
+      "はじめのうちは"
+    ]
+  },
+  "eigo:2095:initial": {
+    "alts": [
+      "はじめ",
+      "とうしょ"
+    ]
+  },
+  "eigo:2098:shortly": {
+    "alts": [
+      "じきに",
+      "すぐに"
+    ]
+  },
+  "eigo:2101:meanwhile": {
+    "alts": [
+      "そのあいだに",
+      "それとどうじに"
+    ]
+  },
+  "eigo:2102:perspective": {
+    "alts": [
+      "してん",
+      "かんてん"
+    ]
+  },
+  "eigo:2104:urge": {
+    "alts": [
+      "うながす"
+    ]
+  },
+  "eigo:2108:induce": {
+    "alts": [
+      "ゆうはつする"
+    ]
+  },
+  "eigo:2113:unity": {
+    "alts": [
+      "だんけつ",
+      "いったいかん"
+    ]
+  },
+  "eigo:2115:inequality": {
+    "alts": [
+      "ふびょうどう"
+    ]
+  },
+  "eigo:2117:hardship": {
+    "alts": [
+      "くなん"
+    ]
+  },
+  "eigo:2117:difficulty": {
+    "alts": [
+      "むずかしさ"
+    ]
+  },
+  "eigo:2118:urgent": {
+    "alts": [
+      "しきゅう"
+    ]
+  },
+  "eigo:2120:race": {
+    "alts": [
+      "みんぞく"
+    ]
+  },
+  "eigo:2122:oppress": {
+    "alts": [
+      "よくあつする",
+      "くるしめる"
+    ]
+  },
+  "eigo:2122:oppression": {
+    "alts": [
+      "あっせい",
+      "だんあつ"
+    ]
+  },
+  "eigo:2123:suppression": {
+    "alts": [
+      "よくあつ",
+      "だんあつ"
+    ]
+  },
+  "eigo:2124:depress": {
+    "alts": [
+      "ゆううつにする"
+    ]
+  },
+  "eigo:2125:theft": {
+    "alts": [
+      "とうなん"
+    ]
+  },
+  "eigo:2131:addiction": {
+    "alts": [
+      "ちゅうどく"
+    ]
+  },
+  "eigo:2132:hazard": {
+    "alts": [
+      "きけんなもの"
+    ]
+  },
+  "eigo:2132:hazardous": {
+    "alts": [
+      "きけん"
+    ]
+  },
+  "eigo:2136:leftover": {
+    "alts": [
+      "たべのこし",
+      "あまりもの"
+    ]
+  },
+  "eigo:2139:consumption": {
+    "alts": [
+      "しょうひ"
+    ]
+  },
+  "eigo:2141:fund": {
+    "alts": [
+      "ききん"
+    ]
+  },
+  "eigo:2142:launch": {
+    "alts": [
+      "うりだす"
+    ]
+  },
+  "eigo:2143:campaign": {
+    "alts": [
+      "きゃんぺーん"
+    ]
+  },
+  "eigo:2144:maternal": {
+    "alts": [
+      "ははおや"
+    ]
+  },
+  "eigo:2148:dismiss": {
+    "alts": [
+      "きゃっかする"
+    ]
+  },
+  "eigo:2149:harassment": {
+    "alts": [
+      "はらすめんと",
+      "いやがらせ"
+    ]
+  },
+  "eigo:2150:neglect": {
+    "alts": [
+      "ほうっておく"
+    ]
+  },
+  "eigo:2152:implement": {
+    "alts": [
+      "じっこうする"
+    ]
+  },
+  "eigo:2152:implementation": {
+    "alts": [
+      "じっし",
+      "じつげん"
+    ]
+  },
+  "eigo:2154:sue": {
+    "alts": [
+      "こくそする",
+      "ていそする"
+    ]
+  },
+  "eigo:2155:confess": {
+    "alts": [
+      "はくじょうする",
+      "じはくする"
+    ]
+  },
+  "eigo:2155:confession": {
+    "alts": [
+      "こくはく",
+      "じきょう"
+    ]
+  },
+  "eigo:2156:condemn": {
+    "alts": [
+      "つよくひなんする"
+    ]
+  },
+  "eigo:2160:lawsuit": {
+    "alts": [
+      "さいばん"
+    ]
+  },
+  "eigo:2161:jury": {
+    "alts": [
+      "ばいしんいんだん"
+    ]
+  },
+  "eigo:2163:legitimate": {
+    "alts": [
+      "もっとも"
+    ]
+  },
+  "eigo:2164:prevail": {
+    "alts": [
+      "ふきゅうする"
+    ]
+  },
+  "eigo:2166:morality": {
+    "alts": [
+      "どうとくせい"
+    ]
+  },
+  "eigo:2167:ethical": {
+    "alts": [
+      "どうとくてき"
+    ]
+  },
+  "eigo:2168:prime": {
+    "alts": [
+      "もっともじゅうような"
+    ]
+  },
+  "eigo:2169:primary": {
+    "alts": [
+      "だいいちの"
+    ]
+  },
+  "eigo:2169:primarily": {
+    "alts": [
+      "しゅとして"
+    ]
+  },
+  "eigo:2170:rapidly": {
+    "alts": [
+      "きゅうそくに"
+    ]
+  },
+  "eigo:2171:swift": {
+    "alts": [
+      "じんそくな"
+    ]
+  },
+  "eigo:2173:refine": {
+    "alts": [
+      "みがきあげる"
+    ]
+  },
+  "eigo:2174:deliberately": {
+    "alts": [
+      "こいに"
+    ]
+  },
+  "eigo:2175:intentionally": {
+    "alts": [
+      "いとてきに",
+      "わざと"
+    ]
+  },
+  "eigo:2175:intentional": {
+    "alts": [
+      "こい"
+    ]
+  },
+  "eigo:2176:administration": {
+    "alts": [
+      "けいえい"
+    ]
+  },
+  "eigo:2176:administer": {
+    "alts": [
+      "かんり"
+    ]
+  },
+  "eigo:2176:administrative": {
+    "alts": [
+      "かんり"
+    ]
+  },
+  "eigo:2177:ministry": {
+    "alts": [
+      "しょう"
+    ]
+  },
+  "eigo:2179:congress": {
+    "alts": [
+      "こっかい"
+    ]
+  },
+  "eigo:2179:parliament": {
+    "alts": [
+      "ぎかい"
+    ]
+  },
+  "eigo:2182:dictator": {
+    "alts": [
+      "せんせいくんしゅ"
+    ]
+  },
+  "eigo:2182:dictate": {
+    "alts": [
+      "めいれいする"
+    ]
+  },
+  "eigo:2183:royal": {
+    "alts": [
+      "おう",
+      "こくおう"
+    ]
+  },
+  "eigo:2184:corruption": {
+    "alts": [
+      "ふはい"
+    ]
+  },
+  "eigo:2186:census": {
+    "alts": [
+      "じんこうちょうさ"
+    ]
+  },
+  "eigo:2187:opinion poll": {
+    "alts": [
+      "いしきちょうさ"
+    ]
+  },
+  "eigo:2189:regulation": {
+    "alts": [
+      "きせい",
+      "きてい"
+    ]
+  },
+  "eigo:2191:amend": {
+    "alts": [
+      "かいせい"
+    ]
+  },
+  "eigo:2191:amendment": {
+    "alts": [
+      "かいてい"
+    ]
+  },
+  "eigo:2192:abolish": {
+    "alts": [
+      "てっぱい"
+    ]
+  },
+  "eigo:2193:immigrant": {
+    "alts": [
+      "いじゅうしゃ"
+    ]
+  },
+  "eigo:2193:emigrant": {
+    "alts": [
+      "いみん"
+    ]
+  },
+  "eigo:2194:migration": {
+    "alts": [
+      "わたり"
+    ]
+  },
+  "eigo:2195:tribe": {
+    "alts": [
+      "しゅぞく"
+    ]
+  },
+  "eigo:2196:refugee": {
+    "alts": [
+      "ひなんみん"
+    ]
+  },
+  "eigo:2198:haven": {
+    "alts": [
+      "ひなんできるところ",
+      "ひなんじょ"
+    ]
+  },
+  "eigo:2199:ambassador": {
+    "alts": [
+      "しせつ"
+    ]
+  },
+  "eigo:2200:dominance": {
+    "alts": [
+      "ゆうせい"
+    ]
+  },
+  "eigo:2200:dominant": {
+    "alts": [
+      "しはいてき",
+      "ゆうせい"
+    ]
+  },
+  "eigo:2201:treaty": {
+    "alts": [
+      "きょうてい"
+    ]
+  },
+  "eigo:2203:intervention": {
+    "alts": [
+      "かいにゅう",
+      "くちだし"
+    ]
+  },
+  "eigo:2203:intervene": {
+    "alts": [
+      "かんしょうする"
+    ]
+  },
+  "eigo:2204:autonomy": {
+    "alts": [
+      "じりつ"
+    ]
+  },
+  "eigo:2205:tension": {
+    "alts": [
+      "きんぱく",
+      "きんちょうかんけい"
+    ]
+  },
+  "eigo:2205:tense": {
+    "alts": [
+      "きんちょうした",
+      "ぴりぴりした"
+    ]
+  },
+  "eigo:2207:expel": {
+    "alts": [
+      "ついほうする"
+    ]
+  },
+  "eigo:2208:expire": {
+    "alts": [
+      "しっこうする"
+    ]
+  },
+  "eigo:2209:extraction": {
+    "alts": [
+      "さいしゅ"
+    ]
+  },
+  "eigo:2210:expedition": {
+    "alts": [
+      "えんせい"
+    ]
+  },
+  "eigo:2211:radical": {
+    "alts": [
+      "かげき"
+    ]
+  },
+  "eigo:2214:army": {
+    "alts": [
+      "ぐんたい"
+    ]
+  },
+  "eigo:2215:troop": {
+    "alts": [
+      "ぐんたい",
+      "へいしたち"
+    ]
+  },
+  "eigo:2216:bullet": {
+    "alts": [
+      "じゅうだん"
+    ]
+  },
+  "eigo:2217:prejudice": {
+    "alts": [
+      "せんにゅうかん",
+      "かたよったみかた"
+    ]
+  },
+  "eigo:2218:bias": {
+    "alts": [
+      "へんけん"
+    ]
+  },
+  "eigo:2219:motivation": {
+    "alts": [
+      "やるき"
+    ]
+  },
+  "eigo:2220:incentive": {
+    "alts": [
+      "しげき"
+    ]
+  },
+  "eigo:2222:flattery": {
+    "alts": [
+      "へつらい",
+      "おせじ"
+    ]
+  },
+  "eigo:2223:ethnicity": {
+    "alts": [
+      "みんぞく",
+      "みんぞくてきなしゅつじ"
+    ]
+  },
+  "eigo:2225:declaration": {
+    "alts": [
+      "ふこく"
+    ]
+  },
+  "eigo:2227:regional": {
+    "alts": [
+      "そのちいき"
+    ]
+  },
+  "eigo:2228:conflict": {
+    "alts": [
+      "あらそい",
+      "しょうとつ"
+    ]
+  },
+  "eigo:2229:settlement": {
+    "alts": [
+      "わかい"
+    ]
+  },
+  "eigo:2230:dispute": {
+    "alts": [
+      "いいあらそい"
+    ]
+  },
+  "eigo:2234:bureau": {
+    "alts": [
+      "あんないじょ",
+      "きょく"
+    ]
+  },
+  "eigo:2235:recruit": {
+    "alts": [
+      "ぼしゅうする"
+    ]
+  },
+  "eigo:2237:merger": {
+    "alts": [
+      "がっぺい"
+    ]
+  },
+  "eigo:2238:patent": {
+    "alts": [
+      "とっきょけん"
+    ]
+  },
+  "eigo:2239:innovation": {
+    "alts": [
+      "ぎじゅつかくしん"
+    ]
+  },
+  "eigo:2239:innovative": {
+    "alts": [
+      "かくしんてき"
+    ]
+  },
+  "eigo:2242:enterprise": {
+    "alts": [
+      "くわだて"
+    ]
+  },
+  "eigo:2243:profession": {
+    "alts": [
+      "せんもんしょく",
+      "せんもんのしごと"
+    ]
+  },
+  "eigo:2244:occupation": {
+    "alts": [
+      "しょくぎょう"
+    ]
+  },
+  "eigo:2245:executive": {
+    "alts": [
+      "けいえいかんぶ"
+    ]
+  },
+  "eigo:2246:supervise": {
+    "alts": [
+      "みはる"
+    ]
+  },
+  "eigo:2246:supervision": {
+    "alts": [
+      "かんとく"
+    ]
+  },
+  "eigo:2251:surplus": {
+    "alts": [
+      "よじょう"
+    ]
+  },
+  "eigo:2253:revenue": {
+    "alts": [
+      "しゅうえき"
+    ]
+  },
+  "eigo:2254:expenditure": {
+    "alts": [
+      "しゅっぴ",
+      "けいひ"
+    ]
+  },
+  "eigo:2255:reinforce": {
+    "alts": [
+      "ほきょうする"
+    ]
+  },
+  "eigo:2257:revolve": {
+    "alts": [
+      "こうてんする",
+      "めぐる"
+    ]
+  },
+  "eigo:2258:revise": {
+    "alts": [
+      "みなおす"
+    ]
+  },
+  "eigo:2258:revision": {
+    "alts": [
+      "みなおし",
+      "ていせい"
+    ]
+  },
+  "eigo:2260:commodity": {
+    "alts": [
+      "さんぶつ"
+    ]
+  },
+  "eigo:2262:retailer": {
+    "alts": [
+      "こうりてん",
+      "こうりぎょうしゃ"
+    ]
+  },
+  "eigo:2263:stall": {
+    "alts": [
+      "ろてん"
+    ]
+  },
+  "eigo:2265:scheme": {
+    "alts": [
+      "さくりゃく",
+      "いんぼう"
+    ]
+  },
+  "eigo:2266:strategy": {
+    "alts": [
+      "さくせん"
+    ]
+  },
+  "eigo:2266:tactic": {
+    "alts": [
+      "さくせん"
+    ]
+  },
+  "eigo:2267:fragment": {
+    "alts": [
+      "かけら"
+    ]
+  },
+  "eigo:2269:cease": {
+    "alts": [
+      "やめる"
+    ]
+  },
+  "eigo:2272:infrastructure": {
+    "alts": [
+      "いんふら"
+    ]
+  },
+  "eigo:2273:utility": {
+    "alts": [
+      "ゆうようせい"
+    ]
+  },
+  "eigo:2275:freight": {
+    "alts": [
+      "つみに"
+    ]
+  },
+  "eigo:2276:cargo": {
+    "alts": [
+      "ふなに",
+      "かもつ"
+    ]
+  },
+  "eigo:2277:intersection": {
+    "alts": [
+      "じゅうじろ"
+    ]
+  },
+  "eigo:2277:crossroad": {
+    "alts": [
+      "こうさてん",
+      "わかれみち"
+    ]
+  },
+  "eigo:2280:manual": {
+    "alts": [
+      "せつめいしょ"
+    ]
+  },
+  "eigo:2281:manufacture": {
+    "alts": [
+      "せいさんする"
+    ]
+  },
+  "eigo:2281:manufacturer": {
+    "alts": [
+      "めーかー"
+    ]
+  },
+  "eigo:2282:manuscript": {
+    "alts": [
+      "そうこう"
+    ]
+  },
+  "eigo:2282:script": {
+    "alts": [
+      "きゃくほん"
+    ]
+  },
+  "eigo:2283:manipulate": {
+    "alts": [
+      "たくみにあやつる"
+    ]
+  },
+  "eigo:2285:luxurious": {
+    "alts": [
+      "ぜいたくな"
+    ]
+  },
+  "eigo:2289:debt": {
+    "alts": [
+      "ふさい"
+    ]
+  },
+  "eigo:2292:boost": {
+    "alts": [
+      "たかめる",
+      "ふやす"
+    ]
+  },
+  "eigo:2293:flourish": {
+    "alts": [
+      "さかんになる",
+      "はんえいする"
+    ]
+  },
+  "eigo:2295:recession": {
+    "alts": [
+      "ふけいき",
+      "けいきのおちこみ"
+    ]
+  },
+  "eigo:2296:bankrupt": {
+    "alts": [
+      "とうさんした"
+    ]
+  },
+  "eigo:2297:anything but A": {
+    "alts": [
+      "すこしも"
+    ]
+  },
+  "eigo:2299:day after day": {
+    "alts": [
+      "くるひもくるひも",
+      "れんじつ"
+    ]
+  },
+  "eigo:2300:day by day": {
+    "alts": [
+      "ひごとに"
+    ]
+  },
+  "eigo:2301:awareness": {
+    "alts": [
+      "いしき"
+    ]
+  },
+  "eigo:2302:beware of A": {
+    "alts": [
+      "きをつける",
+      "ちゅういする"
+    ]
+  },
+  "eigo:2302:beware": {
+    "alts": [
+      "ちゅうい"
+    ]
+  },
+  "eigo:2304:only if": {
+    "alts": [
+      "ばあいだけ"
+    ]
+  },
+  "eigo:2305:get rid of A": {
+    "alts": [
+      "しょぶんする",
+      "すてる"
+    ]
+  },
+  "eigo:2306:run out of A": {
+    "alts": [
+      "きらす"
+    ]
+  },
+  "eigo:2306:run short of A": {
+    "alts": [
+      "たりない"
+    ]
+  },
+  "eigo:2307:fall short of A": {
+    "alts": [
+      "およばない"
+    ]
+  },
+  "eigo:2308:cut down on A": {
+    "alts": [
+      "ひかえる"
+    ]
+  },
+  "eigo:2311:devote A to B": {
+    "alts": [
+      "あてる",
+      "ついやす"
+    ]
+  },
+  "eigo:2311:devote": {
+    "alts": [
+      "ささげる"
+    ]
+  },
+  "eigo:2312:dedicate A to B": {
+    "alts": [
+      "ささげる"
+    ]
+  },
+  "eigo:2313:assign A to B": {
+    "alts": [
+      "あたえる",
+      "まかせる"
+    ]
+  },
+  "eigo:2317:deprive A of B": {
+    "alts": [
+      "うばう"
+    ]
+  },
+  "eigo:2317:deprive": {
+    "alts": [
+      "とりあげる"
+    ]
+  },
+  "eigo:2318:define A as B": {
+    "alts": [
+      "きていする"
+    ]
+  },
+  "eigo:2319:A in disguise": {
+    "alts": [
+      "すがたをかえた"
+    ]
+  },
+  "eigo:2320:defend A against B": {
+    "alts": [
+      "ふせぐ"
+    ]
+  },
+  "eigo:2320:defense": {
+    "alts": [
+      "まもり"
+    ]
+  },
+  "eigo:2321:characteristic": {
+    "alts": [
+      "とくしょく"
+    ]
+  },
+  "eigo:2322:capability": {
+    "alts": [
+      "きのう"
+    ]
+  },
+  "eigo:2328:prohibit A from doing": {
+    "alts": [
+      "きんじる"
+    ]
+  },
+  "eigo:2328:prohibit": {
+    "alts": [
+      "きんしする"
+    ]
+  },
+  "eigo:2329:inhibit A from doing": {
+    "alts": [
+      "おさえる"
+    ]
+  },
+  "eigo:2329:inhibit": {
+    "alts": [
+      "さまたげる",
+      "よくせいする"
+    ]
+  },
+  "eigo:2330:prevent A from doing": {
+    "alts": [
+      "さまたげる"
+    ]
+  },
+  "eigo:2330:prevent": {
+    "alts": [
+      "よぼうする"
+    ]
+  },
+  "eigo:2330:prevention": {
+    "alts": [
+      "ぼうし"
+    ]
+  },
+  "eigo:2331:discourage A from doing": {
+    "alts": [
+      "さまたげる"
+    ]
+  },
+  "eigo:2332:persuade A into doing": {
+    "alts": [
+      "ときふせる"
+    ]
+  },
+  "eigo:2333:impose A on B": {
+    "alts": [
+      "しいる"
+    ]
+  },
+  "eigo:2333:impose": {
+    "alts": [
+      "かする"
+    ]
+  },
+  "eigo:2334:congratulate": {
+    "alts": [
+      "しゅくふくする"
+    ]
+  },
+  "eigo:2336:derive A from B": {
+    "alts": [
+      "える"
+    ]
+  },
+  "eigo:2337:transform A into B": {
+    "alts": [
+      "かえる"
+    ]
+  },
+  "eigo:2337:transform": {
+    "alts": [
+      "いっぺんさせる"
+    ]
+  },
+  "eigo:2337:transformation": {
+    "alts": [
+      "おおきなへんか"
+    ]
+  },
+  "eigo:2338:convert A into B": {
+    "alts": [
+      "かえる",
+      "てんかんする"
+    ]
+  },
+  "eigo:2338:convert": {
+    "alts": [
+      "てんかんする"
+    ]
+  },
+  "eigo:2340:display": {
+    "alts": [
+      "ちんれつ"
+    ]
+  },
+  "eigo:2342:helpful": {
+    "alts": [
+      "やくにたつ"
+    ]
+  },
+  "eigo:2352:give in to A": {
+    "alts": [
+      "まける"
     ]
   }
 }
