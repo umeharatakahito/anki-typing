@@ -521,9 +521,9 @@
       if (played.length && window.stReview) {
         window.stReview.render(review, played.map(w => {
           const mark = missed.has(w) ? 'ng' : 'ok';
-          return { mark, head: headword(w), reading: w.kana || '', sub: w.ja, note: w.ex ? w.ex + (w.exja ? '\n' + w.exja.replace(/[【】]/g, '') : '') : '', say: w.ko,
+          return { mark, key: w.ko, kbn: 'kobun', head: headword(w), reading: w.kana || '', sub: w.ja, note: w.ex ? w.ex + (w.exja ? '\n' + w.exja.replace(/[【】]/g, '') : '') : '', say: w.ko,
             report: { kind: 'juken', kbn: 'kobun', qid: String(w.no) + ' ' + w.ko, que: w.ja + (w.ex ? '\n' + w.ex : ''), kan: w.ko, ans: w.kana || w.ko } };
-        }), { title: 'ふりかえり' });
+        }), { title: 'ふりかえり', kind: 'juken', count: !this.shakyo });   // 写経は数えない
         review.hidden = false;
       } else {
         review.hidden = true;

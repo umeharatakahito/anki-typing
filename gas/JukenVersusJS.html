@@ -631,10 +631,10 @@
       const kana = this.isKana(), subj = this.subjectOf();
       if (this.played.length && window.stReview) {
         window.stReview.render(review, this.played.map(({ w, mark }) => ({
-          mark, head: this.head(w), reading: kana ? (w.kana || '') : '', sub: w.ja || w.q || '', say: kana ? w.ko : w.en,
+          mark, key: kana ? (subj === 'rekishi' ? w.a : w.ko) : w.en, kbn: subj, head: this.head(w), reading: kana ? (w.kana || '') : '', sub: w.ja || w.q || '', say: kana ? w.ko : w.en,
           report: { kind: 'juken', kbn: subj, qid: subj === 'eigo' ? w.en : subj === 'kobun' ? String(w.no) + ' ' + w.ko : String(w.no),
                     que: w.ja || w.q || '', kan: this.head(w), ans: w.kana || '' }
-        })), { title: 'ふりかえり' });
+        })), { title: 'ふりかえり', kind: 'juken', count: false });   // 対戦は数えない（マークだけ）
         review.hidden = false;
       } else {
         review.hidden = true;

@@ -524,7 +524,7 @@
         const who = vsLog[i].who;
         it.sub = (who === seat ? 'あなたが取った' : who == null ? 'だれも取らず' : nameOf(who) + ' さんが取った') + (it.sub ? '　' + it.sub : '');
       });
-      window.stReview.render(box, items);
+      window.stReview.render(box, items, { kind: 'typing', count: false });   // 対戦は数えない（マークだけ）
     }
     // キーボードでも「もう一度」「メニューに戻る」を選べるように
     if (h.enableMenuNav) h.enableMenuNav($('game-end'));

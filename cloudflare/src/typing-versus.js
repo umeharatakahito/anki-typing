@@ -41,7 +41,7 @@
 import { DurableObject } from 'cloudflare:workers';
 import { FREE_MAX_LEVEL } from './gate.js';
 import { CAT_BY_KBN, kbnWhere, withSetLabel, randomPickSql } from './sets.js';
-const COLS = 'kbn, que, kan, ans, img, note, level, qid';
+const COLS = 'id, kbn, que, kan, ans, img, note, level, qid';
 import { toCardImg } from './stats.js';
 
 export const TARGETS = [3, 5, 7, 10];
@@ -214,7 +214,7 @@ export class TypingVersus extends DurableObject {
       ).bind(...w.args, count).all());
     }
     return rows.map(r => ({
-      que: withSetLabel(kbn, r.kbn, r.que || ''), kan: r.kan || '', ans: r.ans || '', note: r.note || '', level: r.level || 0, qid: r.qid || '',
+      que: withSetLabel(kbn, r.kbn, r.que || ''), kan: r.kan || '', pid: r.id || 0, kbn: r.kbn || '', ans: r.ans || '', note: r.note || '', level: r.level || 0, qid: r.qid || '',
       img: toCardImg(r.img)
     }));
   }

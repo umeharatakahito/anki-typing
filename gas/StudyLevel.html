@@ -452,6 +452,7 @@
     return {
       mark, head: c.kan, reading: reading && reading !== String(c.kan).toLowerCase() ? reading : '',
       sub: plain(c.que).slice(0, 140), note: c.note || '', say: c.kan,
+      key: c.pid ? 'p:' + c.pid : '', kbn: c.kbn || h.kubun, pid: c.pid || 0,
       report: { kind: 'typing', kbn: h.kubun, qid: c.qid || '', que: c.que, kan: c.kan, ans: c.ans }
     };
   });
@@ -465,7 +466,8 @@
       let box = document.getElementById('st-review-box');
       const content = document.querySelector('#game-end .menu-content');
       if (!box && content) { box = document.createElement('div'); box.id = 'st-review-box'; content.appendChild(box); }
-      window.stReview.render(box, reviewItems(reviewLog));
+      // 写経モードは答えを見て打つので、まちがえた回数・連続正解には数えない
+      window.stReview.render(box, reviewItems(reviewLog), { kind: 'typing', count: this.gameMode !== '写経モード' });
     }
     return r;
   };

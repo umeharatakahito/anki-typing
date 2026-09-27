@@ -123,6 +123,22 @@ function renderPage(url, viewer, available) {
 // google.script.run で呼べる関数
 // 出題する語に図（あれば）を付ける。英単語は語で、古文・歴史は番号で引く
 const figKey = (subject, w) => subject === 'eigo' ? 'eigo:' + String(w.en || '').toLowerCase() : subject + ':' + w.no;
+// マーク中の語を、出題の中に混ぜる（最大 4 分の 1。ゴーストで同じ問題を出すときは混ぜない）
+async function withMarked(env, subject, res) {
+  if (!res || !Array.isArray(res.words) || !res.words.length || res.ghost || !env.viewer.email) return res;
+  const keyOf = w => subject === 'kobun' ? w.ko : subject === 'rekishi' ? w.a : w.en;
+  const have = new Set(res.words.map(keyOf));
+  const room = Math.max(1, Math.floor(res.words.length / 4));
+  const keys = (await stats.markedJukenKeys(env, subject, room * 2)).filter(k => !have.has(k)).slice(0, room);
+  if (!keys.length) return res;
+  let add = gas.wordsByKeys_(subject, keys).words;
+  if (!env.viewer.member) add = gate.filterWords(subject, { words: add }).words;
+  const words = res.words.slice();
+  // 決まった数を出す設定なので、入れた分だけ後ろを落とす（ランダムな位置に差し込む）
+  add.forEach(w => { words.pop(); words.splice(Math.floor(Math.random() * (words.length + 1)), 0, w); });
+  return Object.assign({}, res, { words });
+}
+
 function withFigs(subject, res) {
   if (!res || !Array.isArray(res.words)) return res;
   return Object.assign({}, res, { words: res.words.map(w => {
@@ -133,19 +149,19 @@ function withFigs(subject, res) {
 
 // 大学受験モードの出題。会員でない人は範囲を絞る
 function jukenWords(subject) {
-  return async (env, opts) => withFigs(subject, env.viewer.member
+  return async (env, opts) => withFigs(subject, await withMarked(env, subject, env.viewer.member
     ? await stats.wordsFor(env, subject, opts)
-    : gate.filterWords(subject, await stats.wordsFor(env, subject, gate.clampOpts(subject, opts))));
+    : gate.filterWords(subject, await stats.wordsFor(env, subject, gate.clampOpts(subject, opts)))));
 }
 
 async function jukenRound(env, opts) {
   const subject = gas.jukenSubject_(opts && opts.subject);
-  if (env.viewer.member) return withFigs(subject, await stats.getJukenRound(env, opts));
+  if (env.viewer.member) return withFigs(subject, await withMarked(env, subject, await stats.getJukenRound(env, opts)));
   const res = await stats.getJukenRound(env, gate.clampOpts(subject, opts));
   const cut = gate.filterWords(subject, res);
   // 範囲の外が混ざっていたゴーストは使わない
   if (res.ghost && cut.words.length !== res.words.length) cut.ghost = null;
-  return withFigs(subject, cut);
+  return withFigs(subject, await withMarked(env, subject, cut));
 }
 
 const jukenMeta = (subject, fn) => env => env.viewer.member ? fn() : gate.clampMeta(subject, fn());
@@ -165,6 +181,8 @@ const D1_FUNCTIONS = {
   getUserRanking: stats.getUserRanking,
   getMyStats: stats.getMyStats,
   reportProblem: stats.reportProblem,
+  reviewSync: stats.reviewSync,
+  setMark: stats.setMark,
   setTheme,
   saveScore: stats.saveScore,
   getRanking: stats.getRanking,

@@ -11,7 +11,7 @@ import {
 } from './generated/gas.js';
 import { FREE_MAX_LEVEL } from './gate.js';
 import { CAT_BY_KBN, kbnWhere, withSetLabel, randomPickSql } from './sets.js';
-const COLS = 'kbn, que, kan, ans, img, note, level, qid';
+const COLS = 'id, kbn, que, kan, ans, img, note, level, qid';
 
 // 正解が続いた語は苦手リストから外す。ミスより this だけ多く正解したら卒業。
 const WEAK_CLEAR_MARGIN = 2;
@@ -46,15 +46,18 @@ const toCard = r => ({
   img: imgUrl(r.img),
   note: r.note || '',
   level: r.level || 0,
-  qid: r.qid || ''
+  qid: r.qid || '',
+  // マーク・ふりかえり用（どの問題か・どの問題集か）
+  pid: r.id || 0,
+  kbn: r.kbn || ''
 });
 
 export async function getQuestions(env, category) {
   try {
     const { results } = await env.DB.prepare(
-      'SELECT que, kan, ans, img, note, level, qid FROM problems WHERE kbn = ? AND (free = 1 OR ?) ORDER BY random() LIMIT 100'
+      'SELECT id, kbn, que, kan, ans, img, note, level, qid FROM problems WHERE kbn = ? AND (free = 1 OR ?) ORDER BY random() LIMIT 100'
     ).bind(String(category), env.viewer.member ? 1 : 0).all();
-    return results.map(toCard);
+    return mixMarked(results, await markedCards(env, category, null, 20)).map(toCard);
   } catch (e) {
     return { error: e.message };
   }
@@ -82,7 +85,8 @@ export async function getLevelQuestions(env, category, level) {
   const { results } = await env.DB.prepare(
     randomPickSql(category, COLS, `level = ? AND ${w.sql}`, 40)
   ).bind(level, ...w.args, 40).all();
-  return results.map(r => toCard(Object.assign(r, { que: withSetLabel(category, r.kbn, r.que) })));
+  const marked = await markedCards(env, category, env.viewer.member ? null : FREE_MAX_LEVEL, 8);
+  return mixMarked(results, marked).map(r => toCard(Object.assign({}, r, { que: withSetLabel(category, r.kbn, r.que) })));
 }
 
 // ---------------------------------------------------------------
@@ -435,4 +439,96 @@ export async function reportProblem(env, p) {
   ).bind(Date.now(), v.email || '', v.email ? v.name : '', kind, clip(p.kbn, 40), clip(p.qid, 80),
          clip(p.que, 600), clip(p.kan, 120), clip(p.ans, 120), reason, clip(p.comment, 500)).run();
   return { ok: true };
+}
+
+// ---------------------------------------------------------------
+// マーク（ふりかえりで ☆ を付けた問題）と、まちがえた回数・連続正解
+// マーク中の問題は出やすくし、5 回続けて正解したら「覚えた」に変える
+const LEARN_STREAK = 5;
+const markKind = k => k === 'juken' ? 'juken' : 'typing';
+
+// ゲームの結果を記録して、その問題たちの今の状態を返す。
+// entries: [{ key, kbn, pid?, result: 'ok'|'mid'|'ng' }]、count = false（写経・対戦）なら記録せず読むだけ
+export async function reviewSync(env, payload) {
+  const email = env.viewer.email;
+  if (!email) return { error: 'login' };
+  const p = payload || {};
+  const kind = markKind(p.kind);
+  const entries = (Array.isArray(p.entries) ? p.entries : []).slice(0, 200)
+    .filter(e => e && e.key).map(e => ({ key: String(e.key).slice(0, 200), kbn: String(e.kbn || '').slice(0, 40),
+      pid: Number(e.pid) || null, ok: e.result === 'ok' ? 1 : 0 }));
+  const now = Date.now();
+  if (p.count && entries.length) {
+    await env.DB.batch(entries.map(e => env.DB.prepare(
+      `INSERT INTO marks (email, kind, key, kbn, pid, mark, streak, misses, updated_at) VALUES (?, ?, ?, ?, ?, 0, ?, ?, ?)
+       ON CONFLICT (email, kind, key) DO UPDATE SET
+         mark = CASE WHEN marks.mark = 1 AND ? = 1 AND marks.streak + 1 >= ${LEARN_STREAK} THEN 2 ELSE marks.mark END,
+         streak = CASE WHEN ? = 1 THEN marks.streak + 1 ELSE 0 END,
+         misses = marks.misses + ?, updated_at = ?`
+    ).bind(email, kind, e.key, e.kbn, e.pid, e.ok, e.ok ? 0 : 1, now, e.ok, e.ok, e.ok ? 0 : 1, now)));
+  }
+  return { state: await markState(env, kind, entries.map(e => e.key)) };
+}
+
+async function markState(env, kind, keys) {
+  const out = {};
+  for (let i = 0; i < keys.length; i += 90) {
+    const part = keys.slice(i, i + 90);
+    if (!part.length) continue;
+    const { results } = await env.DB.prepare(
+      `SELECT key, mark, streak, misses FROM marks WHERE email = ? AND kind = ? AND key IN (${part.map(() => '?').join(',')})`
+    ).bind(env.viewer.email, kind, ...part).all();
+    results.forEach(r => { out[r.key] = { mark: r.mark, streak: r.streak, misses: r.misses }; });
+  }
+  return out;
+}
+
+// ☆ を付ける・外す。付けたときは連続正解を 0 から数え直す
+export async function setMark(env, payload) {
+  const email = env.viewer.email;
+  if (!email) return { error: 'login' };
+  const p = payload || {};
+  const kind = markKind(p.kind), key = String(p.key || '').slice(0, 200);
+  if (!key) return { error: 'key' };
+  const mark = [0, 1, 2].includes(Number(p.mark)) ? Number(p.mark) : 0;
+  await env.DB.prepare(
+    `INSERT INTO marks (email, kind, key, kbn, pid, mark, streak, misses, updated_at) VALUES (?, ?, ?, ?, ?, ?, 0, 0, ?)
+     ON CONFLICT (email, kind, key) DO UPDATE SET mark = excluded.mark,
+       streak = CASE WHEN excluded.mark = 1 THEN 0 ELSE marks.streak END, updated_at = excluded.updated_at`
+  ).bind(email, kind, key, String(p.kbn || '').slice(0, 40), Number(p.pid) || null, mark, Date.now()).run();
+  return { ok: true, state: (await markState(env, kind, [key]))[key] };
+}
+
+// マーク中の問題（問題集）を最大 limit 問。maxLevel があればそのレベルまで
+async function markedCards(env, category, maxLevel, limit) {
+  if (!env.viewer.email) return [];
+  try {
+    const w = kbnWhere(category);
+    const { results } = await env.DB.prepare(
+      `SELECT p.id, p.kbn, p.que, p.kan, p.ans, p.img, p.note, p.level, p.qid FROM marks m JOIN problems p ON p.id = m.pid
+        WHERE m.email = ? AND m.kind = 'typing' AND m.mark = 1 AND p.${w.sql}
+          ${maxLevel ? 'AND p.level <= ' + Number(maxLevel) : ''} ${env.viewer.member ? '' : 'AND (p.free = 1 OR p.level > 0)'}
+        ORDER BY random() LIMIT ?`
+    ).bind(env.viewer.email, ...w.args, limit).all();
+    return results;
+  } catch (e) { return []; }   // marks 表がまだ無いときなど
+}
+
+// マーク中の問題を、ばらばらの位置に差し込む（同じ問題は 2 回入れない）
+function mixMarked(rows, marked) {
+  const have = new Set(rows.map(r => r.id));
+  const out = rows.slice();
+  marked.filter(m => !have.has(m.id)).forEach(m => out.splice(Math.floor(Math.random() * (out.length + 1)), 0, m));
+  return out;
+}
+
+// マーク中の語（市高）。科目ごとに最大 limit 語の答え（key）
+export async function markedJukenKeys(env, subject, limit) {
+  if (!env.viewer.email) return [];
+  try {
+    const { results } = await env.DB.prepare(
+      `SELECT key FROM marks WHERE email = ? AND kind = 'juken' AND kbn = ? AND mark = 1 ORDER BY random() LIMIT ?`
+    ).bind(env.viewer.email, String(subject), limit).all();
+    return results.map(r => r.key);
+  } catch (e) { return []; }
 }
