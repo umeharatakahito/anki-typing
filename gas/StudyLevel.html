@@ -48,6 +48,7 @@
   #note-box .nb-head.ok{ color:var(--ok); } #note-box .nb-head.ng{ color:var(--ng); }
   #note-box .nb-body{ font-size:clamp(17px, 2.6vw, 22px); line-height:1.75; white-space:pre-wrap; text-align:left; }
   #note-box .nb-next{ margin-top:16px; color:var(--muted); font-size:13px; }
+  #note-box .nb-report{ margin-top:10px; }
 </style>
 <script>
 // ===============================================================
@@ -160,8 +161,18 @@
   noteBox.id = 'note-box';
   noteBox.hidden = true;
   noteBox.innerHTML = '<div class="nb-card" role="dialog" aria-live="polite"><div class="nb-head"></div>' +
-    '<div class="nb-body"></div><div class="nb-next">何かキーを押すと次へ（タップでも進みます）</div></div>';
+    '<div class="nb-body"></div><div class="nb-next">何かキーを押すと次へ（タップでも進みます）</div>' +
+    '<button type="button" class="st-report-btn nb-report">⚑ この問題を報告</button></div>';
   document.body.appendChild(noteBox);
+  // 解説を出している問題を報告する。窓を閉じても解説はそのまま（キーを押すと次へ）
+  noteBox.querySelector('.nb-report').addEventListener('click', e => {
+    e.stopPropagation();
+    const c = noteBox._card;
+    if (!c || !window.stReport) return;
+    window.stReport({ kind: 'typing', kbn: h.kubun, qid: c.qid || '', que: c.que, kan: c.kan, ans: c.ans }, () => {
+      noteBox._armedAt = Date.now();   // 窓を閉じたキーで次へ進まないように
+    });
+  });
 
   Object.assign(h, {
     levelMode: false,
@@ -289,7 +300,7 @@
       }
       // 解説は写経・通常モードだけ、大きく出してキーを押すまで待つ（極み・対戦は出さない）
       pendingNote = (card && card.note && !this.versusMode && NOTE_MODES.includes(this.gameMode))
-        ? { ok, kan: card.kan, note: card.note } : null;
+        ? { ok, kan: card.kan, note: card.note, card } : null;
     },
 
     // 解説を出してキーを待つときは true を返し、キーが押されたら go() を呼ぶ
@@ -299,9 +310,10 @@
       noteBox.querySelector('.nb-head').textContent = (n.ok ? '○ ' : '× ') + n.kan;
       noteBox.querySelector('.nb-head').className = 'nb-head ' + (n.ok ? 'ok' : 'ng');
       noteBox.querySelector('.nb-body').textContent = n.note;
+      noteBox._card = n.card;
       noteBox.hidden = false;
       h.noteHolding = true;
-      const armedAt = Date.now();
+      noteBox._armedAt = Date.now();
       const done = () => {
         window.removeEventListener('keydown', onKey, true);
         noteBox.removeEventListener('click', onClick);
@@ -313,13 +325,13 @@
       const onKey = e => {
         if (e.isComposing || e.key === 'Process' || ['Shift', 'Control', 'Alt', 'Meta', 'CapsLock'].includes(e.key)) return;
         // 画面キーボードは window に直接キーを送るので、先に入力側で読み捨て済みのことがある
-        if (e._stAteRest || e.repeat || Date.now() - armedAt < 250 || document.querySelector('dialog[open]')) return;
+        if (e._stAteRest || e.repeat || Date.now() - noteBox._armedAt < 250 || document.querySelector('dialog[open]')) return;
         // 長い方の読みの続きを打っている間は、解説を閉じない
         if (h.eatRest && h.eatRest(String(e.key).toLowerCase())) { e.preventDefault(); e.stopImmediatePropagation(); return; }
         e.preventDefault(); e.stopImmediatePropagation();
         done();
       };
-      const onClick = () => { if (Date.now() - armedAt >= 250) done(); };
+      const onClick = () => { if (Date.now() - noteBox._armedAt >= 250 && !document.querySelector('dialog[open]')) done(); };
       window.addEventListener('keydown', onKey, true);
       noteBox.addEventListener('click', onClick);
       return true;
