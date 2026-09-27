@@ -494,5 +494,14 @@
   });
 
   buildMenu();
+
+  // 分類ページの問題集カードから ?k=<問題集> で来たら、その問題集のモード選択を開いておく
+  const askedKbn = new URLSearchParams(location.search).get('k');
+  if (askedKbn && !new URLSearchParams(location.search).get('join')) {
+    window.addEventListener('load', () => setTimeout(() => {
+      const b = Array.from(document.querySelectorAll('#cat-buttons button')).find(x => x.dataset.kbn === askedKbn);
+      if (b) b.click();
+    }, 0));
+  }
 }(window, document));
 </script>

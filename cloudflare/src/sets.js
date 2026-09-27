@@ -1,7 +1,7 @@
 // ===============================================================
 // sets.js
 // タイピング画面（HAMACHI-TYPE）で遊べる問題集の一覧。
-// ?p=<ルート> ごとに、メインメニューへ並べる問題集（kbn）を決める。
+// MENU（トップの大分類 → 中分類 → 問題集）と、?p=<大分類> のタイピング画面に並べる問題集（kbn）を決める。
 // import-caves.mjs も CAVES を見て、勉強ダンジョンズのどの洞窟を入れるか決める。
 // ===============================================================
 
@@ -36,45 +36,137 @@ export const OWN_SETS = [
   { id: 'daigaku-gendai',       label: '現代文（語彙）' },
 ];
 
-const cave = id => {
-  const c = CAVES.find(c => c.id === id) || OWN_SETS.find(c => c.id === id);
-  return { kbn: c.id, label: c.label, levels: true };
+// まだ問題が入っていない、これから作る問題集（分類ページに「準備中」で並べる）
+export const UPCOMING = [
+  { id: 'map-world-country', label: '世界地図 → 国名' },
+  { id: 'map-japan-pref',    label: '日本地図 → 県名' },
+  { id: 'map-world-nature',  label: '世界の山・川・湖・海' },
+  { id: 'flag-country',      label: '国旗 → 国名' },
+  { id: 'capital',           label: '国名 → 首都' },
+  { id: 'heritage',          label: '世界遺産' },
+  { id: 'element',           label: '元素記号 → 読み方' },
+  { id: 'constellation',     label: '星座' },
+  { id: 'zk-fish',           label: '魚の写真 → 名前' },
+  { id: 'zk-flower',         label: '花の写真 → 名前' },
+  { id: 'zk-insect',         label: '昆虫の写真 → 名前' },
+  { id: 'zk-bird',           label: '鳥の写真 → 名前' },
+  { id: 'castle',            label: '日本の城' },
+];
+
+// 問題集ごとのアイコン（icons.js の名前）とひとこと
+const LOOK = {
+  '1':                   { icon: 'cpu',              desc: 'IT の基本用語' },
+  'itpass':              { icon: 'shield-check',     desc: '国家試験の頻出用語' },
+  'genai':               { icon: 'sparkles',         desc: '生成AIのキーワード' },
+  'fe':                  { icon: 'binary',           desc: '基本情報技術者' },
+  'jh-social':           { icon: 'landmark',         desc: '地理・歴史・公民' },
+  'jh-science':          { icon: 'flask-conical',    desc: '物理・化学・生物・地学' },
+  'koko-kokugo':         { icon: 'brush',            desc: '漢字の読み書きと語句' },
+  'koko-eigo':           { icon: 'languages',        desc: '中学で習う英単語' },
+  'jhistory':            { icon: 'scroll-text',      desc: '人物・事件・文化' },
+  'whistory':            { icon: 'castle',           desc: '世界の王朝と出来事' },
+  'daigaku-nengo-nihon': { icon: 'hourglass',        desc: 'できごとと年号' },
+  'daigaku-nengo-sekai': { icon: 'calendar-days',    desc: 'できごとと年号' },
+  'daigaku-seibutsu':    { icon: 'dna',              desc: '用語と仕組み' },
+  'daigaku-kagaku':      { icon: 'atom',             desc: '用語と物質' },
+  'daigaku-chiri':       { icon: 'earth',            desc: '地形・気候・産業' },
+  'daigaku-kokyo':       { icon: 'scale',            desc: '政治・経済のことば' },
+  'daigaku-kanbun':      { icon: 'book-open-text',   desc: '句法と重要語' },
+  'daigaku-gendai':      { icon: 'library',          desc: '評論・小説の語彙' },
+  'english-buzzer-ja':   { icon: 'languages',        desc: '意味を見て英語で打つ' },
+  'english-buzzer':      { icon: 'spell-check-2',    desc: '英語の説明から単語を当てる' },
+  'idioms-ja':           { icon: 'puzzle',           desc: '意味を見て熟語を打つ' },
+  'idioms':              { icon: 'whole-word',       desc: '英語の説明から熟語を当てる' },
+  'phrases':             { icon: 'message-circle-more', desc: 'そのまま使える会話表現' },
+  'map-world-country':   { icon: 'map',              desc: '色のついた国の名前は？' },
+  'map-japan-pref':      { icon: 'map-pinned',       desc: '47 都道府県' },
+  'map-world-nature':    { icon: 'mountain-snow',    desc: '地図の印から地名を' },
+  'flag-country':        { icon: 'flag',             desc: '197 か国の国旗' },
+  'capital':             { icon: 'landmark',         desc: '世界の首都' },
+  'heritage':            { icon: 'castle',           desc: '地図と写真から' },
+  'element':             { icon: 'test-tube',        desc: 'Fe → てつ' },
+  'constellation':       { icon: 'telescope',        desc: '星のならびから' },
+  'zk-fish':             { icon: 'fish',             desc: '写真を見て名前を打つ' },
+  'zk-flower':           { icon: 'flower-2',         desc: '写真を見て名前を打つ' },
+  'zk-insect':           { icon: 'bug',              desc: '写真を見て名前を打つ' },
+  'zk-bird':             { icon: 'bird',             desc: '写真を見て名前を打つ' },
+  'castle':              { icon: 'castle',           desc: '写真から城の名前' },
 };
 
-// levels: true の問題集は、レベル 1 から始めて正解を重ねると上がる
-export const STUDY_SETS = {
-  it: {
-    title: 'IT',
-    back: { href: '', label: 'トップ' },
-    cats: [
-      { kbn: '1', label: '基本・応用', levels: false },
-      cave('itpass'), cave('genai'), cave('fe'),
-    ],
-  },
-  koko: {
-    title: '高校受験',
-    back: { href: '', label: 'トップ' },
-    cats: [cave('jh-social'), cave('jh-science'), cave('koko-kokugo'), cave('koko-eigo')],
-  },
-  ichimon: {
-    title: '大学受験',
-    back: { href: '', label: 'トップ' },
-    cats: [
-      cave('jhistory'), cave('whistory'), cave('daigaku-nengo-nihon'), cave('daigaku-nengo-sekai'),
-      cave('daigaku-seibutsu'), cave('daigaku-kagaku'), cave('daigaku-chiri'), cave('daigaku-kokyo'),
-      cave('daigaku-kanbun'), cave('daigaku-gendai'),
-    ],
-  },
-  english: {
-    title: '英語',
-    back: { href: '', label: 'トップ' },
-    cats: [cave('english-buzzer-ja'), cave('english-buzzer'), cave('idioms-ja'), cave('idioms'), cave('phrases')],
-  },
-};
+// kbn → 問題集の情報 { kbn, label, levels, icon, desc, soon }
+const SET_INFO = {};
+SET_INFO['1'] = { kbn: '1', label: '基本・応用', levels: false };
+CAVES.concat(OWN_SETS).forEach(c => { SET_INFO[c.id] = { kbn: c.id, label: c.label, levels: true }; });
+UPCOMING.forEach(c => { SET_INFO[c.id] = { kbn: c.id, label: c.label, levels: true, soon: true }; });
+Object.values(SET_INFO).forEach(c => Object.assign(c, LOOK[c.kbn] || { icon: 'book-open', desc: '' }));
+export const setInfo = kbn => SET_INFO[kbn];
+
+// ---------------------------------------------------------------
+// メニュー（トップの大分類 → 中分類 → 問題集）。
+// 大分類・中分類・問題集は、ここに 1 行足せば画面（トップのタイル・分類ページ・ランキング）に出る。
+// 同じ問題集を何か所に書いてもよい（問題は 1 つ、置き場所だけ増える）。
+// color はテーマ色（portal.js の CSS に同じ名前の色がある）
+export const MENU = [
+  { key: 'koko', title: '高校受験', en: 'HIGH SCHOOL', icon: 'school', color: 'green',
+    lead: '中学の 5 教科をタイピングで総復習',
+    groups: [
+      { label: '英語', sets: ['koko-eigo'] },
+      { label: '国語', sets: ['koko-kokugo'] },
+      { label: '社会', sets: ['jh-social', 'map-japan-pref', 'map-world-country'] },
+      { label: '理科', sets: ['jh-science', 'element'] },
+    ] },
+  { key: 'daigaku', title: '大学受験', en: 'UNIVERSITY', icon: 'graduation-cap', color: 'navy',
+    lead: '共通テスト〜二次の暗記科目',
+    groups: [
+      { label: '英語', sets: ['english-buzzer-ja', 'english-buzzer', 'idioms-ja', 'idioms'] },
+      { label: '国語', sets: ['daigaku-kanbun', 'daigaku-gendai'] },
+      { label: '歴史', sets: ['jhistory', 'whistory', 'daigaku-nengo-nihon', 'daigaku-nengo-sekai'] },
+      { label: '地理・公民', sets: ['daigaku-chiri', 'daigaku-kokyo', 'map-world-country', 'heritage'] },
+      { label: '理科', sets: ['daigaku-seibutsu', 'daigaku-kagaku', 'element'] },
+    ] },
+  { key: 'eikaiwa', title: '英会話', en: 'ENGLISH', icon: 'messages-square', color: 'orange',
+    lead: '話せる英語を指で覚える',
+    groups: [
+      { label: 'フレーズ', sets: ['phrases'] },
+      { label: '単語・熟語', sets: ['english-buzzer-ja', 'idioms-ja', 'idioms'] },
+    ] },
+  { key: 'shikaku', title: '資格', en: 'LICENSE', icon: 'award', color: 'purple',
+    lead: 'IT パスポート・基本情報ほか',
+    groups: [
+      { label: 'IT', sets: ['1', 'itpass', 'fe', 'genai'] },
+    ] },
+  { key: 'zatsugaku', title: '雑学', en: 'TRIVIA', icon: 'lightbulb', color: 'sky',
+    lead: '写真と地図で、知ってるを増やす',
+    groups: [
+      { label: '地図', sets: ['map-world-country', 'map-japan-pref', 'map-world-nature'] },
+      { label: '国旗・世界', sets: ['flag-country', 'capital', 'heritage'] },
+      { label: '生きもの', sets: ['zk-fish', 'zk-flower', 'zk-insect', 'zk-bird'] },
+      { label: '科学・日本', sets: ['element', 'constellation', 'castle'] },
+    ] },
+];
+
+// トップの下段に横長で出す入口。juken: true は大学受験モードを許された人だけが開ける
+export const FEATURED = [
+  { key: 'juken',  title: '市高', sub: '英単語・古文・歴史', icon: 'crown', color: 'gold', href: '?p=juken', juken: true },
+  { key: 'shinra', title: '森羅万象', sub: '全部の問題集からまぜて出題', icon: 'orbit', color: 'cosmic', href: '?p=shinra' },
+];
+
+// 以前の ?p= の名前 → 今の大分類（ブックマークや招待リンクがそのまま使えるように）
+export const OLD_KEYS = { it: 'shikaku', ichimon: 'daigaku', english: 'eikaiwa' };
+
+// タイピング画面（index.html）に渡す、大分類ごとの問題集の並び（重複は 1 つに・準備中は除く）
+export const STUDY_SETS = Object.fromEntries(MENU.map(m => {
+  const kbns = [...new Set(m.groups.flatMap(g => g.sets))];
+  return [m.key, {
+    title: m.title,
+    back: { href: '?p=' + m.key, label: m.title },
+    cats: kbns.map(k => SET_INFO[k]).filter(c => c && !c.soon).map(c => ({ kbn: c.kbn, label: c.label, levels: c.levels })),
+  }];
+}));
 
 // 森羅万象：レベルのある問題集すべてから、まぜて出す（kbn は 'shinra'。問題の行は持たない）
 export const SHINRA = 'shinra';
-export const SHINRA_KBNS = Object.values(STUDY_SETS).flatMap(s => s.cats).filter(c => c.levels).map(c => c.kbn);
+export const SHINRA_KBNS = [...new Set(Object.values(STUDY_SETS).flatMap(s => s.cats).filter(c => c.levels).map(c => c.kbn))];
 STUDY_SETS.shinra = {
   title: '森羅万象',
   back: { href: '', label: 'トップ' },
@@ -99,6 +191,7 @@ export function randomPickSql(kbn, cols, where, limit) {
 // kbn → 問題集。サーバー側でレベルの扱いを決めるのに使う
 export const CAT_BY_KBN = Object.fromEntries(
   Object.values(STUDY_SETS).flatMap(s => s.cats).map(c => [c.kbn, c]));
+// 同じ問題集が複数の大分類にあっても、ランキングなどでは 1 つとして扱う
 
 // 森羅万象では、どの問題集の問題かを問題文の頭に付ける
 export function withSetLabel(kbn, rowKbn, que) {

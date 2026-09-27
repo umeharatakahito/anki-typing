@@ -327,7 +327,7 @@ URL は `/koko`、`/koko/shakai`、`/play/flag-country` のように階層を表
 
 | フェーズ | 内容 |
 |---|---|
-| 1 | カテゴリ木（MENU/SETS）とトップ・分類ページ・アイコン。既存の問題集を新しい置き場所へ |
+| 1 ✅ | カテゴリ木（`cloudflare/src/sets.js` の MENU / FEATURED / UPCOMING）とトップ・分類ページ（`cloudflare/src/portal.js`）・アイコン（Lucide、`src/icons.js`）。既存の問題集を新しい置き場所へ。以前の `?p=it / ichimon / english` は資格 / 大学受験 / 英会話へ読み替え |
 | 2 | プレイ設定画面（ひとり/対戦統合）と時間制ルール・スコア・結果画面 |
 | 3 | 広告枠 A/B/D/E |
 | 4 | 雑学：国旗・世界地図・日本地図・元素記号（素材が PD で作りやすいものから） |

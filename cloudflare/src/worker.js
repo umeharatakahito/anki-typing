@@ -17,7 +17,8 @@ import { TypingVersus } from './typing-versus.js';
 import { viewerOf, handleAuth } from './auth.js';
 import { handleAdmin } from './admin.js';
 import { decorate, THEMES } from './chrome.js';
-import { STUDY_SETS, CAT_BY_KBN } from './sets.js';
+import { STUDY_SETS, CAT_BY_KBN, MENU, OLD_KEYS } from './sets.js';
+import { renderHome, renderCategory } from './portal.js';
 import * as gate from './gate.js';
 import { JUKEN_FIGS } from './generated/juken-figs.js';
 
@@ -90,9 +91,17 @@ function renderPage(url, viewer, available) {
       'width=device-width, initial-scale=1, viewport-fit=cover');
   }
 
-  // タイピング（HAMACHI-TYPE）。?p=it / koko / ichimon / english で並べる問題集が変わる。
-  // 練習モードなどの直行ルートは IT の「基本・応用」
-  const setKey = STUDY_SETS[route] ? route : (AUTO_MODE_BY_ROUTE[route] ? 'it' : '');
+  // 大分類（?p=koko など。以前の ?p=it なども読み替える）。
+  // そのままなら分類ページ、?k=<問題集> や ?join=<部屋番号> 付きならタイピング画面
+  const catKey = OLD_KEYS[route] || route;
+  const cat = MENU.find(m => m.key === catKey);
+  const askedK = url.searchParams.get('k');
+  const playable = askedK && STUDY_SETS[catKey] && STUDY_SETS[catKey].cats.some(c => c.kbn === askedK && (!available || available.has(c.kbn)));
+  if (cat && !playable && !url.searchParams.get('join')) return renderCategory(cat, available);
+
+  // タイピング（HAMACHI-TYPE）。大分類ごとに並べる問題集が変わる。
+  // 練習モードなどの直行ルートは資格の「基本・応用」
+  const setKey = STUDY_SETS[catKey] ? catKey : (AUTO_MODE_BY_ROUTE[route] ? 'shikaku' : '');
   if (setKey) {
     vars.autoMode = AUTO_MODE_BY_ROUTE[route] || '';
     vars.studySet = Object.assign({ key: setKey }, STUDY_SETS[setKey], {
@@ -110,13 +119,12 @@ function renderPage(url, viewer, available) {
   }
 
   if (route === 'ranking') {
-    vars.studySet = { groups: Object.values(STUDY_SETS).map(s => ({ title: s.title, cats: s.cats })) };
+    vars.studySet = { groups: Object.values(STUDY_SETS).filter(s => s.cats.length).map(s => ({ title: s.title, cats: s.cats })) };
     return withHead(PAGES.ranking(vars), 'ランキング', 'width=device-width, initial-scale=1, viewport-fit=cover');
   }
 
-  // それ以外はトップメニュー
-  return withHead(PAGES.home(vars), 'Study Type',
-    'width=device-width, initial-scale=1, viewport-fit=cover');
+  // それ以外はトップ
+  return renderHome(viewer, available);
 }
 
 // ---------------------------------------------------------------
@@ -233,13 +241,13 @@ async function callFunction(env, fn, args) {
   throw err;
 }
 
-// 問題が入っている問題集（kbn）。問題の入れ直しはまれなので、しばらく覚えておく
+// 問題が入っている問題集（kbn → 問題数の Map）。問題の入れ直しはまれなので、しばらく覚えておく
 let AVAILABLE_ = null, AVAILABLE_AT_ = 0;
 async function availableKbns(env) {
   if (AVAILABLE_ && Date.now() - AVAILABLE_AT_ < 5 * 60 * 1000) return AVAILABLE_;
   try {
-    const { results } = await env.DB.prepare('SELECT DISTINCT kbn FROM problems').all();
-    AVAILABLE_ = new Set(results.map(r => r.kbn));
+    const { results } = await env.DB.prepare('SELECT kbn, COUNT(*) AS n FROM problems GROUP BY kbn').all();
+    AVAILABLE_ = new Map(results.map(r => [r.kbn, r.n]));
     AVAILABLE_AT_ = Date.now();
   } catch (e) { /* 読めなければ全部出す */ }
   return AVAILABLE_;
