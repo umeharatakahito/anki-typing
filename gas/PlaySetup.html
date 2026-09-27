@@ -1,0 +1,418 @@
+<style>
+  /* ---- プレイ設定（問題集をえらんだあとの画面） ---- */
+  #menu-mode .ps{ max-width:560px; margin:0 auto; text-align:left; }
+  .ps .menu-opt{ margin:0; }
+  .ps-row{ margin:0 0 16px; }
+  .ps-lab{ display:flex; align-items:baseline; justify-content:space-between; gap:8px; margin:0 0 6px;
+    font-size:13px; font-weight:700; color:var(--muted); letter-spacing:.06em; }
+  .ps-chips{ display:grid; grid-template-columns:repeat(3, 1fr); gap:8px; }
+  .ps-chip{ display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px; min-height:62px; padding:8px 6px;
+    border:2px solid var(--line); border-radius:14px; background:var(--card); color:var(--text); font:inherit; cursor:pointer;
+    transition:border-color .15s, background .15s, transform .1s; }
+  .ps-chip b{ font-size:1.2rem; line-height:1.2; }
+  .ps-chip small{ font-size:11.5px; color:var(--muted); }
+  .ps-chip:hover{ border-color:var(--accent); }
+  .ps-chip:focus-visible, .ps-chip:focus{ outline:2px solid var(--accent); outline-offset:2px; }
+  .ps-chip[aria-pressed="true"]{ border-color:var(--accent); background:var(--accent-soft); }
+  .ps-chip[aria-pressed="true"] b{ color:var(--accent); }
+  .ps-chip.lv-kiwami[aria-pressed="true"]{ border-color:#ef5350; background:color-mix(in srgb, #ef5350 12%, transparent); }
+  .ps-chip.lv-kiwami[aria-pressed="true"] b{ color:#ef5350; }
+  .ps-chip.lv-shakyo[aria-pressed="true"]{ border-color:#43a047; background:color-mix(in srgb, #43a047 12%, transparent); }
+  .ps-chip.lv-shakyo[aria-pressed="true"] b{ color:#43a047; }
+  .ps-desc{ margin:6px 2px 0; font-size:13px; color:var(--muted); min-height:1.4em; }
+  .ps-course[disabled]{ opacity:.45; cursor:default; }
+
+  #ps-more{ margin:0 0 14px; border:1px solid var(--line); border-radius:12px; background:var(--card); }
+  #ps-more > summary{ list-style:none; cursor:pointer; padding:10px 14px; font-size:14px; font-weight:700; color:var(--muted); border-radius:12px; }
+  #ps-more > summary::-webkit-details-marker{ display:none; }
+  #ps-more > summary::before{ content:'▸'; float:right; transition:transform .15s; }
+  #ps-more[open] > summary::before{ transform:rotate(90deg); }
+  #ps-more > summary:focus-visible, #ps-more > summary:focus{ outline:2px solid var(--accent); outline-offset:2px; }
+  .ps-grid{ display:grid; grid-template-columns:1fr 1fr; gap:10px 14px; padding:4px 14px 14px; }
+  .ps-grid label{ display:flex; flex-direction:column; gap:4px; font-size:12.5px; color:var(--muted); font-weight:700; }
+  .ps-grid select{ padding:8px 10px; font:inherit; font-size:15px; border-radius:10px; border:1px solid var(--line); background:var(--field); color:var(--text); }
+  .ps-grid [hidden]{ display:none; }
+
+  .ps-mode{ display:flex; align-items:center; justify-content:space-between; gap:10px; margin:0 0 12px; padding:10px 14px; border-radius:12px; font-size:13.5px; }
+  .ps-mode.ranked{ background:color-mix(in srgb, var(--ok) 12%, transparent); color:var(--text); }
+  .ps-mode.ranked b{ color:var(--ok); }
+  .ps-mode.practice{ background:color-mix(in srgb, #f59e0b 16%, transparent); }
+  .ps-mode.practice b{ color:#d97706; }
+  .ps-mode button{ flex:none; padding:6px 12px; border-radius:999px; border:1px solid var(--line); background:var(--card); color:var(--text); font:inherit; font-size:12.5px; cursor:pointer; }
+
+  .ps .ps-start{ margin:0 0 10px; min-height:60px; font-size:1.25rem; font-weight:800; color:#fff; border-color:transparent;
+    background:linear-gradient(135deg, #ff7a45, #f0561d); box-shadow:0 8px 20px rgba(240,86,29,.3); }
+  .ps .ps-start:hover{ border-color:transparent; filter:brightness(1.05); }
+  .ps .ps-vs{ margin:0 0 6px; min-height:52px; font-weight:700; }
+  #level-note{ font-size:12.5px; color:var(--muted); text-align:center; }
+  @media (max-width:520px){ .ps-grid{ grid-template-columns:1fr; } .ps-chip{ min-height:56px; } }
+
+  /* ---- プレイ中：残り時間 ---- */
+  #ps-clock{ display:none; align-items:baseline; justify-content:center; gap:4px; margin-top:4px; font-variant-numeric:tabular-nums; position:relative; }
+  body.ps-on #ps-clock{ display:flex; }
+  #ps-clock b{ font-size:1.5rem; line-height:1; color:var(--text); }
+  #ps-clock small{ font-size:12px; color:var(--muted); }
+  #ps-clock.low b{ color:var(--ng); }
+  body.ps-on.ps-low #hamachi-life-bar{ background:var(--ng) !important; }
+  #hamachi-status{ position:relative; }
+  .ps-float{ position:absolute; left:50%; top:-6px; transform:translateX(-50%); font-weight:800; font-size:1.05rem; white-space:nowrap;
+    pointer-events:none; animation:ps-float 1.1s ease-out forwards; z-index:3; }
+  .ps-float.plus{ color:var(--ok); } .ps-float.minus{ color:var(--ng); } .ps-float.combo{ color:#f59e0b; font-size:1.15rem; }
+  @keyframes ps-float{ 0%{ opacity:0; transform:translate(-50%, 6px); } 15%{ opacity:1; } 100%{ opacity:0; transform:translate(-50%, -30px); } }
+  #ps-skip{ display:none; margin:6px auto 0; font-size:12px; color:var(--muted); text-align:center; }
+  body.ps-on #ps-skip{ display:block; }
+
+  /* ---- 結果 ---- */
+  .ps-res{ text-align:center; }
+  .ps-res-course{ display:inline-block; padding:3px 12px; border-radius:999px; font-size:12.5px; font-weight:700; background:var(--field); color:var(--muted); }
+  .ps-res-course.practice{ background:color-mix(in srgb, #f59e0b 16%, transparent); color:#b45309; }
+  .ps-res-score{ margin:8px 0 2px; font-size:3rem; font-weight:900; line-height:1.1; color:var(--accent); font-variant-numeric:tabular-nums; }
+  .ps-res-score small{ font-size:1rem; margin-left:4px; color:var(--muted); font-weight:700; }
+  .ps-res-title{ margin:0 0 12px; font-size:15px; color:var(--muted); }
+  .ps-res-title b{ display:inline-block; margin-left:6px; padding:2px 14px; border-radius:999px; font-size:1.2rem; color:#fff;
+    background:linear-gradient(135deg, #ff7a45, #f0561d); }
+  .ps-res-grid{ display:grid; grid-template-columns:repeat(3, 1fr); gap:8px; max-width:480px; margin:0 auto 10px; }
+  .ps-res-grid div{ padding:8px 6px; border-radius:10px; background:var(--field); }
+  .ps-res-grid small{ display:block; font-size:11.5px; color:var(--muted); }
+  .ps-res-grid b{ font-size:1.15rem; font-variant-numeric:tabular-nums; }
+  .ps-share{ display:inline-flex; align-items:center; gap:6px; margin:4px 0 6px; padding:8px 16px; border-radius:999px; background:#111; color:#fff !important;
+    font-weight:700; font-size:13.5px; text-decoration:none !important; }
+  body.ps-practice #save-score, body.ps-practice #game-end .form-row{ display:none; }
+  @media (max-width:520px){ .ps-res-grid{ grid-template-columns:repeat(2, 1fr); } }
+</style>
+<script>
+// ===============================================================
+// PlaySetup.html
+// 問題集をえらんだあとの「プレイ設定」と、1 人で遊ぶときのタイム制。
+//
+//   レベル … 写経 / 基本 / 極（中身は今までの 写経モード / 通常モード / 極みモード）
+//   コース … 60 / 90 / 120 秒。0 秒になったら終わり
+//            正解で +秒、ミスタイプで −秒、ノーミスで続けて正解するとボーナス秒
+//            わからない問題は Enter でパス（1 問落とすと合わせて −3 秒）
+//   本番   … レベル × コースの 9 通りだけ。スコアを保存し、ランキングに出る（モード名は「基本・90秒」）
+//   練習   … 「くわしい設定」を変えたとき。持ち時間・加減秒・問題数（問題数制）を自由に。スコアは保存しない
+//
+// 打つ画面・判定は HAMACHI-TYPE（JavaScript.html）のまま。ここでは
+//   ・HP の代わりに残り時間で終わる（handleMiss / updateHpDisplay / nextCard / endGame を包む）
+//   ・点数は「打ったキー数 × 10 × レベルの重み × 判定倍率」＋ 最大コンボ × 50
+// を足すだけ。対戦（StudyVersus.html）のときは何もしない。
+// ===============================================================
+(function (window, document) {
+  const h = window.hamachi;
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+  const LEVELS = [
+    { key: '写経モード', label: '写経', cls: 'lv-shakyo', sub: '答えを見て打つ', desc: '答えが最初から見えています。速く正確に打つ練習に', plus: 1, minus: 0.5, weight: 0.5 },
+    { key: '通常モード', label: '基本', cls: 'lv-kihon',  sub: 'ヒントあり',     desc: '問題だけが出ます。時間がたつとヒントが出ます', plus: 2, minus: 1, weight: 1 },
+    { key: '極みモード', label: '極',   cls: 'lv-kiwami', sub: 'ヒントなし',     desc: 'ヒントなし。ミスで大きく時間が減ります', plus: 3, minus: 2, weight: 1.5 },
+  ];
+  const COURSES = [{ sec: 60, sub: 'おてがる' }, { sec: 90, sub: 'ふつう' }, { sec: 120, sub: 'じっくり' }];
+  const FAIL_TOTAL = 3;   // 1 問落とす（時間切れ・パス）と、ミスの分と合わせて −3 秒
+  // 称号：1 分あたりの点数で決める（コースの長さに左右されないように）
+  const TITLES = [[0, '見習い'], [600, '駆け出し'], [1200, '一人前'], [2000, '腕利き'], [3000, '達人'], [4200, '師範'], [5600, '名人'], [7500, '神']];
+
+  const levelOf = key => LEVELS.find(l => l.key === key) || LEVELS[1];
+  h.levelLabel = key => levelOf(key).label;
+
+  // ---- 設定（このブラウザに覚えておく） ----
+  const DEF = { level: '通常モード', kind: 'time', sec: 90, count: 20, plus: null, minus: null };
+  let st = (() => { try { return Object.assign({}, DEF, JSON.parse(localStorage.getItem('st-setup') || '{}')); } catch (e) { return Object.assign({}, DEF); } })();
+  if (!LEVELS.some(l => l.key === st.level)) st.level = DEF.level;
+  const saveSt = () => { try { localStorage.setItem('st-setup', JSON.stringify(st)); } catch (e) {} };
+  const isRanked = s => s.kind === 'time' && COURSES.some(c => c.sec === s.sec) && s.plus == null && s.minus == null;
+  const rankName = (level, sec) => levelOf(level).label + '・' + sec + '秒';
+
+  // ---- 画面 ----
+  const content = document.querySelector('#menu-mode .menu-content');
+  const old = $('mode-list');
+  if (old) old.remove();
+  const box = document.createElement('div');
+  box.className = 'ps';
+  const opts = (list, fmt) => list.map(v => `<option value="${v}">${fmt(v)}</option>`).join('');
+  box.innerHTML = `
+    <div class="ps-row"><div class="ps-lab">レベル</div>
+      <div class="ps-chips" id="ps-level">${LEVELS.map(l =>
+        `<button type="button" class="ps-chip menu-opt ${l.cls}" data-level="${l.key}"><b>${l.label}</b><small>${l.sub}</small></button>`).join('')}</div>
+      <p class="ps-desc" id="ps-level-desc"></p></div>
+    <div class="ps-row" id="ps-course-row"><div class="ps-lab">コース（持ち時間）</div>
+      <div class="ps-chips" id="ps-course">${COURSES.map(c =>
+        `<button type="button" class="ps-chip ps-course menu-opt" data-sec="${c.sec}"><b>${c.sec}秒</b><small>${c.sub}</small></button>`).join('')}</div></div>
+    <details id="ps-more"><summary class="menu-opt">⚙ くわしい設定（変えると練習になります）</summary>
+      <div class="ps-grid">
+        <label>方式<select id="ps-kind"><option value="time">タイム（持ち時間）</option><option value="count">問題数</option></select></label>
+        <label data-for="time">持ち時間<select id="ps-sec">${opts([30, 45, 60, 90, 120, 180, 300], v => v + ' 秒')}</select></label>
+        <label data-for="count" hidden>問題数<select id="ps-count">${opts([10, 20, 30, 50, 100], v => v + ' 問')}</select></label>
+        <label data-for="time">正解したとき<select id="ps-plus"><option value="">いつもどおり</option>${opts([0, 1, 2, 3, 5], v => '+' + v + ' 秒')}</select></label>
+        <label data-for="time">ミスタイプしたとき<select id="ps-minus"><option value="">いつもどおり</option>${opts([0, 0.5, 1, 2, 3], v => (v ? '−' : '±') + v + ' 秒')}</select></label>
+      </div>
+    </details>
+    <div class="ps-mode" id="ps-mode"></div>
+    <button type="button" class="button menu-opt ps-start" id="ps-solo">▶ ひとりでスタート</button>
+    <button type="button" class="button menu-opt ps-vs" id="ps-vs">⚔ 対戦（部屋をつくる・入る）</button>
+    <p id="level-note"></p>`;
+  const oldNote = $('level-note');
+  if (oldNote) oldNote.remove();
+  if (content) content.prepend(box);
+
+  function render() {
+    const lv = levelOf(st.level);
+    box.querySelectorAll('[data-level]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.level === st.level)));
+    box.querySelectorAll('[data-sec]').forEach(b => {
+      b.setAttribute('aria-pressed', String(st.kind === 'time' && Number(b.dataset.sec) === st.sec));
+      b.disabled = st.kind !== 'time';
+    });
+    $('ps-level-desc').textContent = lv.desc + (st.kind === 'time'
+      ? `（正解 +${st.plus ?? lv.plus}秒・ミス −${st.minus ?? lv.minus}秒）` : '');
+    $('ps-kind').value = st.kind;
+    $('ps-sec').value = String(st.sec);
+    $('ps-count').value = String(st.count);
+    $('ps-plus').value = st.plus == null ? '' : String(st.plus);
+    $('ps-minus').value = st.minus == null ? '' : String(st.minus);
+    $('ps-plus').options[0].textContent = `いつもどおり（+${lv.plus} 秒）`;
+    $('ps-minus').options[0].textContent = `いつもどおり（−${lv.minus} 秒）`;
+    box.querySelectorAll('.ps-grid [data-for]').forEach(el => { el.hidden = el.dataset.for !== st.kind; });
+    const m = $('ps-mode');
+    if (isRanked(st)) {
+      m.className = 'ps-mode ranked';
+      m.innerHTML = `<span><b>本番</b>：${esc(rankName(st.level, st.sec))}。スコアはランキングに残ります</span>`;
+    } else {
+      m.className = 'ps-mode practice';
+      m.innerHTML = `<span><b>練習モード</b>：スコアは記録されません</span><button type="button" id="ps-reset">本番の設定に戻す</button>`;
+      $('ps-reset').onclick = () => { st.kind = 'time'; st.plus = null; st.minus = null; if (!COURSES.some(c => c.sec === st.sec)) st.sec = 90; saveSt(); render(); };
+    }
+  }
+  box.querySelectorAll('[data-level]').forEach(b => b.onclick = () => { st.level = b.dataset.level; saveSt(); render(); });
+  box.querySelectorAll('[data-sec]').forEach(b => b.onclick = () => { st.sec = Number(b.dataset.sec); saveSt(); render(); });
+  $('ps-kind').onchange = e => { st.kind = e.target.value; saveSt(); render(); };
+  $('ps-sec').onchange = e => { st.sec = Number(e.target.value); saveSt(); render(); };
+  $('ps-count').onchange = e => { st.count = Number(e.target.value); saveSt(); render(); };
+  $('ps-plus').onchange = e => { st.plus = e.target.value === '' ? null : Number(e.target.value); saveSt(); render(); };
+  $('ps-minus').onchange = e => { st.minus = e.target.value === '' ? null : Number(e.target.value); saveSt(); render(); };
+  $('ps-solo').onclick = () => h.startGame(st.level);
+  $('ps-vs').onclick = () => { if (h.openVersus) h.openVersus(st.level); };
+  // くわしい設定を開け閉めしたら、矢印で動ける項目を数え直す
+  $('ps-more').addEventListener('toggle', () => { if (h.enableMenuNav && $('menu-mode').style.display !== 'none') h.enableMenuNav($('menu-mode')); });
+  render();
+
+  // メニューを開いたら「スタート」に合わせておく（Enter ですぐ始められる）
+  const baseShow = h.showMenu;
+  h.showMenu = function (id) {
+    const r = baseShow.apply(this, arguments);
+    if (id === 'mode') { render(); setTimeout(() => { const s = $('ps-solo'); if (s) s.focus(); }, 0); }
+    return r;
+  };
+
+  // ---- プレイ中の表示 ----
+  const status = $('hamachi-status');
+  const clockEl = document.createElement('div');
+  clockEl.id = 'ps-clock';
+  if (status) status.appendChild(clockEl);
+  const skipEl = document.createElement('div');
+  skipEl.id = 'ps-skip';
+  skipEl.textContent = 'わからないときは Enter でパス';
+  const inputZone = $('input-zone');
+  if (inputZone) inputZone.appendChild(skipEl);
+
+  let run = null;   // 1 回分の状態。対戦のときは null
+
+  function drawClock() {
+    if (!run) return;
+    const bar = $('hamachi-life-bar');
+    if (run.kind === 'time') {
+      const s = Math.max(0, run.left) / 1000;
+      clockEl.innerHTML = `<b>${s.toFixed(1)}</b><small>秒</small>`;
+      const low = run.left <= 10000;
+      clockEl.classList.toggle('low', low);
+      document.body.classList.toggle('ps-low', low);
+      if (bar) bar.style.width = Math.max(0, Math.min(100, run.left / run.total * 100)) + '%';
+    } else {
+      clockEl.innerHTML = `<b>${Math.min(run.done, run.count)}</b><small>/ ${run.count} 問</small>`;
+      if (bar) bar.style.width = Math.max(0, 100 - run.done / run.count * 100) + '%';
+    }
+  }
+  function float(text, cls) {
+    if (!status) return;
+    const f = document.createElement('span');
+    f.className = 'ps-float ' + cls;
+    f.textContent = text;
+    status.appendChild(f);
+    setTimeout(() => f.remove(), 1200);
+  }
+  function addTime(sec, label) {
+    if (!run || run.kind !== 'time' || !sec) return;
+    run.left += sec * 1000;
+    float(label || ((sec > 0 ? '+' : '−') + Math.abs(sec) + '秒'), label ? 'combo' : (sec > 0 ? 'plus' : 'minus'));
+    drawClock();
+  }
+
+  // 問題が出ている間だけ時計を進める（正解のあとの間や、解説を読んでいる間・一時停止中は止める）
+  setInterval(() => {
+    if (!run || h.versusMode || !h.playing || h.paused || h.noteHolding || !h.timerInterval) return;
+    run.active += 100;
+    if (run.kind === 'time') {
+      run.left -= 100;
+      if (run.left <= 0) { run.left = 0; drawClock(); h.endGame(false); return; }
+    }
+    drawClock();
+  }, 100);
+
+  const baseStart = h.startGame;
+  h.startGame = function (mode) {
+    if (this.versusMode) {
+      run = null;
+      document.body.classList.remove('ps-on', 'ps-low', 'ps-practice');
+      return baseStart.apply(this, arguments);
+    }
+    const lv = levelOf(mode);
+    run = {
+      kind: st.kind, total: st.sec * 1000, left: st.sec * 1000, count: st.count,
+      plus: st.plus ?? lv.plus, minus: st.minus ?? lv.minus, weight: lv.weight,
+      ranked: isRanked(st), name: rankName(mode, st.sec), level: mode,
+      done: 0, keys: 0, active: 0, combo: 0
+    };
+    document.body.classList.add('ps-on');
+    document.body.classList.remove('ps-low');
+    document.body.classList.toggle('ps-practice', !run.ranked);
+    const r = baseStart.apply(this, arguments);
+    // 点数はここで数えるので、HAMACHI-TYPE の 1 問ごとの点は 0 にする
+    if (this.cfg) this.cfg = Object.assign({}, this.cfg, { scorePerClear: 0 });
+    drawClock();
+    return r;
+  };
+
+  const baseHp = h.updateHpDisplay;
+  h.updateHpDisplay = function () {
+    if (run && !this.versusMode) return drawClock();
+    return baseHp.apply(this, arguments);
+  };
+
+  const baseMiss = h.handleMiss;
+  h.handleMiss = function () {
+    if (!run || this.versusMode) return baseMiss.apply(this, arguments);
+    this.stats.hp = 1e9;   // HP では終わらない
+    const r = baseMiss.apply(this, arguments);
+    if (run.minus) addTime(-run.minus);
+    return r;
+  };
+
+  const baseAfter = h.afterCard;
+  h.afterCard = function (ok, jm) {
+    if (run && !this.versusMode) {
+      run.done++;
+      if (ok) {
+        const keys = this.getTypedRomajiLength ? this.getTypedRomajiLength() : 0;
+        run.keys += keys;
+        const lvf = this.levelScoreFactor ? this.levelScoreFactor() : 1;
+        this.stats.score += Math.round(keys * 10 * run.weight * ((jm && jm.mult) || 1) * lvf);
+        const s = $('hamachi-score');
+        if (s) s.textContent = this.stats.score;
+        const c = this.stats.chain;
+        const bonus = c === 3 ? 3 : (c >= 5 && c % 5 === 0 ? 5 : 0);
+        if (run.plus) addTime(run.plus);
+        if (bonus) setTimeout(() => addTime(bonus, `🔥${c}連続 +${bonus}秒`), 250);
+      } else {
+        addTime(-(Math.max(0, FAIL_TOTAL - run.minus)));
+      }
+      drawClock();
+    }
+    return baseAfter.apply(this, arguments);
+  };
+
+  const baseNext = h.nextCard;
+  h.nextCard = function () {
+    if (run && !this.versusMode && this.playing) {
+      if (run.kind === 'count' && run.done >= run.count) return this.endGame(false);
+      if (run.kind === 'time' && run.left <= 0) return this.endGame(false);
+    }
+    return baseNext.apply(this, arguments);
+  };
+
+  // わからない問題は Enter でパス（その問題の時間切れと同じ扱い）
+  window.addEventListener('keydown', e => {
+    if (e.key !== 'Enter' || e.isComposing || !run || h.versusMode || !h.playing || h.paused || h.noteHolding || h.awaitingNext || !h.timerInterval) return;
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    h.stats.time = 0;
+  }, true);
+
+  // ---- 結果 ----
+  const winTitle = $('game-win');
+  const winText = winTitle ? winTitle.textContent : '';
+  const titleOf = (score, ms) => {
+    const perMin = score / Math.max(1, ms / 60000);
+    let t = TITLES[0][1];
+    TITLES.forEach(([min, name]) => { if (perMin >= min) t = name; });
+    return t;
+  };
+
+  const baseEnd = h.endGame;
+  h.endGame = function () {
+    if (!run || this.versusMode) {
+      if (winTitle) winTitle.textContent = winText;
+      return baseEnd.apply(this, arguments);
+    }
+    if (this.playing) {
+      run.comboBonus = (this.stats.chainMax || 0) * 50;
+      this.stats.score += run.comboBonus;
+    }
+    if (winTitle) winTitle.textContent = run.kind === 'time' ? 'タイムアップ！' : 'おつかれさま！';
+    document.body.classList.remove('ps-on', 'ps-low');
+    const r = baseEnd.call(this, false);
+    showResult.call(this);
+    return r;
+  };
+
+  function showResult() {
+    const el = $('game-end-stats');
+    if (!el || !run) return;
+    const s = this.stats;
+    const correct = (s.great || 0) + (s.good || 0) + (s.okay || 0);
+    const acc = run.keys ? Math.round(run.keys / (run.keys + (s.misstype || 0)) * 1000) / 10 : 0;
+    const speed = run.active ? (run.keys / (run.active / 1000)) : 0;
+    const ms = run.kind === 'time' ? run.total : run.active;
+    const title = titleOf(s.score, ms);
+    const setName = (this.catLabel ? this.catLabel(this.kubun) : '');
+    const course = run.ranked ? run.name : '練習' + (run.kind === 'count' ? `（${run.count}問）` : `（${Math.round(run.total / 1000)}秒）`);
+    const shareText = `STUDY TYPE「${setName}」${course}で ${s.score.toLocaleString()} 点！ 称号「${title}」 #STUDYTYPE`;
+    const shareUrl = location.origin + location.pathname + location.search;
+    el.innerHTML = `<div class="ps-res">
+      <span class="ps-res-course ${run.ranked ? '' : 'practice'}">${esc(setName)} ・ ${esc(course)}${run.ranked ? '' : ' ・ スコアは記録されません'}</span>
+      <div class="ps-res-score">${s.score.toLocaleString()}<small>点</small></div>
+      <p class="ps-res-title">称号<b>${esc(title)}</b></p>
+      <div class="ps-res-grid">
+        <div><small>正解</small><b>${correct}</b> 問</div>
+        <div><small>正確率</small><b>${acc}</b>%</div>
+        <div><small>速さ</small><b>${speed.toFixed(1)}</b> 打/秒</div>
+        <div><small>最大コンボ</small><b>${s.chainMax || 0}</b></div>
+        <div><small>ミスタイプ</small><b>${s.misstype || 0}</b></div>
+        <div><small>コンボボーナス</small><b>+${(run.comboBonus || 0).toLocaleString()}</b></div>
+      </div>
+      ${this.levelEndHtml ? this.levelEndHtml() : ''}
+      ${run.ranked ? `<a class="ps-share" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}">𝕏 でシェア</a>` : ''}
+    </div>`;
+  }
+
+  // 練習のスコアは保存しない。本番は「基本・90秒」のような名前で保存する
+  const baseSave = h.saveScore;
+  h.saveScore = function () {
+    if (run && !this.versusMode && !run.ranked) return;
+    return baseSave.apply(this, arguments);
+  };
+  const basePayload = h.buildScorePayload;
+  h.buildScorePayload = function () {
+    const p = basePayload.apply(this, arguments);
+    if (p && run && !this.versusMode) { p.gameMode = run.name; p.time = Math.round(run.active / 1000); }
+    return p;
+  };
+
+  // メニューに戻ったら、プレイ中の表示を消す
+  const baseReset = h.resetGame;
+  h.resetGame = function () {
+    run = null;
+    document.body.classList.remove('ps-on', 'ps-low', 'ps-practice');
+    return baseReset.apply(this, arguments);
+  };
+}(window, document));
+</script>

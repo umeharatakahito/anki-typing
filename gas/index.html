@@ -54,10 +54,13 @@
         <div style="display:flex; gap:8px; align-items:center; margin:6px 0 12px;">
           <select id="rank-mode">
             <option value="all">全モード</option>
+            <optgroup label="本番（タイム）"><option value="写経・60秒">写経・60秒</option><option value="写経・90秒">写経・90秒</option><option value="写経・120秒">写経・120秒</option><option value="基本・60秒">基本・60秒</option><option value="基本・90秒">基本・90秒</option><option value="基本・120秒">基本・120秒</option><option value="極・60秒">極・60秒</option><option value="極・90秒">極・90秒</option><option value="極・120秒">極・120秒</option></optgroup>
+            <optgroup label="以前のモード">
             <option value="写経モード">写経モード</option>
-            <option value="練習モード">練習モード（以前の記録）</option>
+            <option value="練習モード">練習モード</option>
             <option value="通常モード">通常モード</option>
             <option value="極みモード">極みモード</option>
+            </optgroup>
           </select>
 
           <select id="rank-kubun">
@@ -171,6 +174,7 @@
     <?!= include('JavaScript'); ?>
     <?!= include('StudyLevel'); ?>
     <?!= include('StudyVersus'); ?>
+    <?!= include('PlaySetup'); ?>
     <?!= include('ReportProblem'); ?>
     <?!= include('ReviewList'); ?>
     <?!= include('JukenKeyboard'); ?>

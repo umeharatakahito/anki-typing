@@ -173,7 +173,7 @@
   // m が無いときは「部屋番号で入る」だけ（問題集とモードは部屋を作った人に合わせる）
   function openVersus(m) {
     mode = m || '';
-    $('vs-title').textContent = m ? '対戦（' + m.replace('モード', '') + '）' : '部屋番号で対戦に入る';
+    $('vs-title').textContent = m ? '対戦（' + (h.levelLabel ? h.levelLabel(m) : m.replace('モード', '')) + '）' : '部屋番号で対戦に入る';
     ['menu-main', 'menu-mode', 'menu-about'].forEach(id => { const el = $(id); if (el) el.style.display = 'none'; });
     $('menu-vs').style.display = 'block';
     $('menu-vs').classList.toggle('join-only', !m);
@@ -183,6 +183,7 @@
     if (!m) $('vs-code').focus();
   }
   h.openVersusJoin = () => openVersus(null);
+  h.openVersus = m => openVersus(m);   // プレイ設定（PlaySetup.html）の「⚔ 対戦」から
 
   function backToModes() {
     closeWs();
