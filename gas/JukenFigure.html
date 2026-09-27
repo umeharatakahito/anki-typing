@@ -63,5 +63,12 @@
       if (!wasLocked && g.playing && g.startTimer) g.startTimer();
     });
   };
+
+  // Esc：遊んでいる途中なら「やめる」（メニューへ）。窓が開いているときは窓を閉じるだけ
+  document.addEventListener('keydown', e => {
+    if (e.key !== 'Escape' || document.querySelector('dialog[open]')) return;
+    const g = game();
+    if (g && g.playing && g.quit) { e.preventDefault(); g.quit(); }
+  });
 }(document));
 </script>

@@ -631,7 +631,14 @@ buildKanjiRuby: function (kanMixed, yomi) {
           this.stats.chain = 0;
           if (this.afterCard) this.afterCard(false);
           if (this.versusMode) { this.awaitingNext = true; return; }
-          setTimeout(() => { this.handleMiss(); this.nextCard(); }, 600);
+          this.awaitingNext = true;
+          setTimeout(() => {
+            this.awaitingNext = false;
+            this.handleMiss();
+            if (!this.playing) return;
+            if (this.holdForNote && this.holdForNote(() => { this.awaitingNext = false; this.nextCard(); })) { this.awaitingNext = true; return; }
+            this.nextCard();
+          }, 600);
         }
       }, 100);
     },
@@ -1579,6 +1586,9 @@ enableMenuNav(menuEl) {
           hamachi.awaitingNext = true;
           hamachi.showToast(jm.judge);
           if (hamachi.versusMode) return;   // awaitingNext のまま、サーバーの合図で次へ
+
+          // 解説を大きく出すモードでは、キーを押すまで次へ進まない（その間タイマーは止まっている）
+          if (hamachi.holdForNote && hamachi.holdForNote(() => { hamachi.awaitingNext = false; hamachi.nextCard(); })) return;
 
           const delay =
             (hamachi.cfg && typeof hamachi.cfg.clearDelayMs === 'number')

@@ -37,6 +37,18 @@
     padding:8px 14px !important; font-size:15px !important; font-weight:bold; border-radius:999px;
     background:rgba(59,189,221,.14); border:1px solid rgba(59,189,221,.5); }
   #home-link:hover{ text-decoration:none; background:rgba(59,189,221,.25); }
+  /* 解説（写経・通常モード）：大きく出して、キーを押すまで待つ */
+  #note-box{ position:fixed; inset:0; z-index:70; display:flex; align-items:center; justify-content:center;
+    padding:16px; background:rgba(10,20,35,.35); cursor:pointer; }
+  #note-box[hidden]{ display:none; }
+  #note-box .nb-card{ width:min(94vw, 720px); max-height:86vh; overflow:auto; background:#fff; color:#17394b;
+    border-radius:14px; padding:22px 26px; box-shadow:0 12px 40px rgba(0,0,0,.25); text-align:center; }
+  #note-box .nb-head{ font-size:clamp(22px, 4vw, 32px); font-weight:800; margin-bottom:10px; }
+  #note-box .nb-head.ok{ color:#1a8f3c; } #note-box .nb-head.ng{ color:#c0392b; }
+  #note-box .nb-body{ font-size:clamp(17px, 2.6vw, 22px); line-height:1.75; white-space:pre-wrap; text-align:left; }
+  #note-box .nb-next{ margin-top:16px; font-size:13px; opacity:.65; }
+  html[data-theme="dark"] #note-box .nb-card{ background:#182236; color:#e8eef7; }
+  html[data-theme="dark"] #note-box .nb-head.ok{ color:#34d399; } html[data-theme="dark"] #note-box .nb-head.ng{ color:#f87171; }
 </style>
 <script>
 // ===============================================================
@@ -141,6 +153,16 @@
       ? `無料版はレベル${dd.maxLevel}まで。会員はレベル${dd.allLevels[dd.allLevels.length - 1]}まで上がれます`
       : `レベル${dd.list[0]}から始めて、正解を重ねるとレベルが上がります`;
   }
+
+  // 解説を大きく出す枠（写経・通常モード）
+  const NOTE_MODES = ['写経モード', '通常モード'];
+  let pendingNote = null;
+  const noteBox = document.createElement('div');
+  noteBox.id = 'note-box';
+  noteBox.hidden = true;
+  noteBox.innerHTML = '<div class="nb-card" role="dialog" aria-live="polite"><div class="nb-head"></div>' +
+    '<div class="nb-body"></div><div class="nb-next">何かキーを押すと次へ（タップでも進みます）</div></div>';
+  document.body.appendChild(noteBox);
 
   Object.assign(h, {
     levelMode: false,
@@ -257,17 +279,48 @@
         change = `<span class="ln-level">無料版はレベル${d().maxLevel}まで</span>`;
       }
 
-      // 前の問題の正解と解説を、次の問題の下に残しておく
+      // レベルの上がり下がりは、次の問題の下に小さく残しておく
       const note = document.getElementById('last-note');
       const card = this.currentCard;
-      if (!note || !card) return;
-      const body = card.note
-        ? `<span class="ln-head">${ok ? '○' : '×'} ${esc(card.kan)}</span>\n${esc(card.note)}`
-        : '';
-      note.innerHTML = [change, body].filter(Boolean).join('\n');
-      // この問題を解き終えたキーでは消さない。次に何かキーを押したら消す
-      note.dataset.armed = '';
-      setTimeout(() => { note.dataset.armed = '1'; }, 0);
+      if (note) {
+        note.innerHTML = change;
+        // この問題を解き終えたキーでは消さない。次に何かキーを押したら消す
+        note.dataset.armed = '';
+        setTimeout(() => { note.dataset.armed = '1'; }, 0);
+      }
+      // 解説は写経・通常モードだけ、大きく出してキーを押すまで待つ（極み・対戦は出さない）
+      pendingNote = (card && card.note && !this.versusMode && NOTE_MODES.includes(this.gameMode))
+        ? { ok, kan: card.kan, note: card.note } : null;
+    },
+
+    // 解説を出してキーを待つときは true を返し、キーが押されたら go() を呼ぶ
+    holdForNote(go) {
+      if (!pendingNote || !this.playing) { pendingNote = null; return false; }
+      const n = pendingNote; pendingNote = null;
+      noteBox.querySelector('.nb-head').textContent = (n.ok ? '○ ' : '× ') + n.kan;
+      noteBox.querySelector('.nb-head').className = 'nb-head ' + (n.ok ? 'ok' : 'ng');
+      noteBox.querySelector('.nb-body').textContent = n.note;
+      noteBox.hidden = false;
+      h.noteHolding = true;
+      const armedAt = Date.now();
+      const done = () => {
+        window.removeEventListener('keydown', onKey, true);
+        noteBox.removeEventListener('click', onClick);
+        noteBox.hidden = true;
+        h.noteHolding = false;
+        if (h.playing) go();
+      };
+      // 打ち終えたキーを押しっぱなしにした分などで、すぐ閉じないよう少しだけ待つ
+      const onKey = e => {
+        if (e.isComposing || e.key === 'Process' || ['Shift', 'Control', 'Alt', 'Meta', 'CapsLock'].includes(e.key)) return;
+        if (e.repeat || Date.now() - armedAt < 250 || document.querySelector('dialog[open]')) return;
+        e.preventDefault(); e.stopImmediatePropagation();
+        done();
+      };
+      const onClick = () => { if (Date.now() - armedAt >= 250) done(); };
+      window.addEventListener('keydown', onKey, true);
+      noteBox.addEventListener('click', onClick);
+      return true;
     },
 
     levelEndHtml() {
@@ -294,7 +347,7 @@
   // 大学受験モードの画面キーボード（JukenKeyboard.html）からの入力を、ふつうのキー入力として渡す
   window.hamachiPad = {
     get playing() { return h.playing && !h.paused; },
-    get locked() { return h.awaitingNext; },
+    get locked() { return h.awaitingNext && !h.noteHolding; },
     handleKey(k) { window.dispatchEvent(new KeyboardEvent('keydown', { key: k })); },
     kbLabel() { return '答えをローマ字・英字で入力'; }
   };
@@ -372,6 +425,25 @@
     };
     pauseBtn.parentNode.insertBefore(rb, pauseBtn.nextSibling);
   }
+
+  // Esc：プレイ中は一時停止、一時停止中は再開。確認の窓は閉じる。終了画面はメニューへ、メニューでは「← トップ」へ
+  window.addEventListener('keydown', e => {
+    if (e.key !== 'Escape' || document.querySelector('dialog[open]') || h.noteHolding) return;
+    const modal = document.getElementById('genki-modal');
+    if (modal) { e.preventDefault(); GenkiModal.close(); return; }
+    const end = document.getElementById('game-end');
+    if (h.playing && !h.paused) {
+      if (h.versusMode) return;   // 対戦は止められない
+      e.preventDefault(); h.pause();
+    } else if (h.playing && h.paused) {
+      e.preventDefault(); h.resume();
+    } else if (end && end.style.display !== 'none') {
+      e.preventDefault(); h.resetGame();
+    } else {
+      const home = document.getElementById('home-link');
+      if (home) { e.preventDefault(); home.focus(); }
+    }
+  });
 
   buildMenu();
 }(window, document));
