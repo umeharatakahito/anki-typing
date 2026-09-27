@@ -68,7 +68,7 @@
       // ---- 矢印キーでボタン巡回 / Enter で決定 ----
       const btns = Array.from(
         modal.querySelectorAll('#genki-modal-buttons .button')
-      ).filter(b => b.offsetParent !== null && !b.disabled);
+      ).filter(b => !!(b.offsetWidth || b.offsetHeight || b.getClientRects().length) && !b.disabled);
 
       btns.forEach(b => b.tabIndex = 0);
 
@@ -87,7 +87,7 @@
         if (!exist) return;
         const list = Array.from(
           exist.querySelectorAll('#genki-modal-buttons .button')
-        ).filter(b => b.offsetParent !== null && !b.disabled);
+        ).filter(b => !!(b.offsetWidth || b.offsetHeight || b.getClientRects().length) && !b.disabled);
         if (!list.length) return;
 
         const i = list.indexOf(document.activeElement);
@@ -962,7 +962,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
       document.getElementById('game-end').style.display = '';
       document.getElementById(isGameOver ? 'game-over' : 'game-win').style.display = 'block';
       document.getElementById(isGameOver ? 'game-win' : 'game-over').style.display = 'none';
-      document.getElementById('game-end-stats').innerHTML = `<p>Score: ${this.stats.score}</p>` + (this.levelEndHtml ? this.levelEndHtml() : '');
+      document.getElementById('game-end-stats').innerHTML = `<p>スコア: ${this.stats.score}</p>` + (this.levelEndHtml ? this.levelEndHtml() : '');
 
       try {
         const prev = localStorage.getItem('hamachi_player_name') || '';
@@ -1323,11 +1323,11 @@ enableMenuNav(menuEl) {
   if (!menuEl) return;
 
   // .menu-opt 優先。無ければ可視のボタン類を拾う
-  let btns = Array.from(menuEl.querySelectorAll('.menu-opt')).filter(b => b.offsetParent !== null);
+  let btns = Array.from(menuEl.querySelectorAll('.menu-opt')).filter(b => !!(b.offsetWidth || b.offsetHeight || b.getClientRects().length));
   if (btns.length === 0) {
     btns = Array.from(
       menuEl.querySelectorAll('button,[role="button"],a[href],[tabindex]:not([tabindex="-1"])')
-    ).filter(b => b.offsetParent !== null && !b.disabled);
+    ).filter(b => !!(b.offsetWidth || b.offsetHeight || b.getClientRects().length) && !b.disabled);
   }
   if (btns.length === 0) return;
 
@@ -1346,7 +1346,8 @@ enableMenuNav(menuEl) {
     const t = e.target;
     const tag = (t && t.tagName) ? t.tagName.toLowerCase() : '';
     if (tag === 'input' || tag === 'textarea' || tag === 'select' || t.isContentEditable) return;
-    if (!menuEl || !menuEl.offsetParent) return;
+    // 真ん中に固定した一時停止画面（position:fixed）は offsetParent が null になるので、大きさで見る
+    if (!menuEl || !(menuEl.offsetWidth || menuEl.offsetHeight)) return;
 
     let i = getIndex();
 

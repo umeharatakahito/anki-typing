@@ -9,6 +9,7 @@
 // 開いたときは最初のメニュー項目にフォーカスを置く。
 // ===============================================================
 (function (document) {
+  window.ST_OWN_ARROWS = true;   // 矢印はここで扱う（Shortcuts.html は数字・文字の近道だけ）
   const items = () => Array.from(document.querySelectorAll(
     '.back-link, .menu-list a, .menu-list button, .menu-keys'
   )).filter(el => el.offsetParent !== null && !el.disabled);

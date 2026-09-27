@@ -1,0 +1,118 @@
+<style>
+  /* キーボードの近道。ボタンの右上に小さく出す（タッチだけの端末では出さない） */
+  [data-st-key]{ position:relative; }
+  [data-st-key]::after{ content:attr(data-st-key); position:absolute; top:-7px; right:-7px; min-width:18px; height:18px;
+    padding:0 4px; box-sizing:border-box; border-radius:5px; font:600 11px/18px ui-monospace,Menlo,monospace; text-align:center;
+    color:#5b6b80; background:#fff; border:1px solid rgba(120,130,150,.5); box-shadow:0 1px 0 rgba(0,0,0,.08);
+    pointer-events:none; letter-spacing:0; text-indent:0; z-index:2; }
+  html[data-theme="dark"] [data-st-key]::after{ color:#c9d6ea; background:#182236; border-color:#2a3651; }
+  @media (hover:none) and (pointer:coarse){ [data-st-key]::after{ display:none; } }
+</style>
+<script>
+// ===============================================================
+// Shortcuts.html
+// どの画面でも、見えているボタンにキーボードの近道を付ける。
+//   ・決まった意味のボタンは文字：R 再開・もう一度 / Q やめる・終了 / B 戻る / T トップへ / Y はい / N いいえ / H ヒント / S スコア
+//   ・それ以外は見えている順に 1〜9（「1 IT」のように番号が書いてあるボタンはその番号）
+//   ・↑↓ で次・前のボタンへ、Enter で押す（MenuKeys.html や画面自身が矢印を扱うページは任せる）
+// 打っている最中（ゲーム中）と、文字を入れる欄にいるときは何もしない。
+// ===============================================================
+(function (window, document) {
+  const LETTERS = [
+    ['R', /^(再開|もう一度|もういちど|リトライ|続ける)/],
+    ['Q', /(やめる|終了|ゲームをやめる)/],
+    ['B', /(戻る|メニューへ|メニューに戻る|もどる)/],
+    ['T', /トップ/],
+    ['Y', /^はい/],
+    ['N', /^いいえ/],
+    ['H', /^ヒント/],
+    ['S', /^スコア/],
+    ['B', /^←/],   // 「← 科目をえらぶ」など、左上の戻るリンク
+  ];
+  const visible = el => !!(el.offsetWidth || el.offsetHeight || el.getClientRects().length) &&
+    getComputedStyle(el).visibility !== 'hidden' && !el.closest('[hidden]');
+
+  // 打っている最中か（このときは近道を出さない・効かせない）
+  function typingNow() {
+    const h = window.hamachi;
+    if (h && h.playing && !h.paused && !h.noteHolding) {
+      const g = document.getElementById('game');
+      if (g && g.style.display !== 'none') return true;
+    }
+    if (h && h.noteHolding) return true;   // 解説中は何かキーで次へ
+    return ['juken', 'kobun', 'rekishi'].some(n => window[n] && window[n].playing) ||
+      !!document.querySelector('section#vs-game:not([hidden])');   // 市高の対戦の試合中
+  }
+
+  // 今いちばん手前にある画面（開いている窓があればその中だけ）
+  function scope() {
+    return document.querySelector('dialog[open]') || document.getElementById('genki-modal') || document;
+  }
+
+  function candidates(root) {
+    return Array.from(root.querySelectorAll('button, a.btn, a.button, a.back-link, #home-link, [role="button"], .menu-opt'))
+      .filter(el => !el.closest('#st-bar') && !el.disabled && visible(el) && el.tagName !== 'INPUT' && el.tagName !== 'SELECT');
+  }
+
+  let map = new Map();
+  function assign() {
+    document.querySelectorAll('[data-st-key]').forEach(el => el.removeAttribute('data-st-key'));
+    map = new Map();
+    if (typingNow()) return;
+    const els = candidates(scope());
+    const used = new Set();
+    const put = (k, el, badge) => { map.set(k, el); used.add(k); if (badge) el.setAttribute('data-st-key', k); };
+    // 番号が書いてあるボタンはその番号
+    els.forEach(el => {
+      const n = el.querySelector('.num');
+      if (n && /^[1-9]$/.test(n.textContent.trim()) && !used.has(n.textContent.trim())) put(n.textContent.trim(), el, false);
+    });
+    const rest = els.filter(el => !Array.from(map.values()).includes(el));
+    rest.forEach(el => {
+      const label = (el.textContent || '').replace(/\s+/g, '').replace(/\(.*?\)|（.*?）/g, '');
+      for (const [k, re] of LETTERS) if (!used.has(k) && re.test(label)) { put(k, el, true); return; }
+    });
+    let next = 1;
+    rest.filter(el => !Array.from(map.values()).includes(el)).forEach(el => {
+      while (used.has(String(next)) && next <= 9) next++;
+      if (next <= 9) put(String(next), el, true);
+    });
+  }
+
+  let pending = false;
+  const later = () => { if (!pending) { pending = true; requestAnimationFrame(() => { pending = false; assign(); }); } };
+  new MutationObserver(muts => {
+    // 自分で付けた印の書き換えは数えない
+    if (muts.every(m => m.type === 'attributes' && m.attributeName === 'data-st-key')) return;
+    later();
+  }).observe(document.body, { subtree: true, childList: true, attributes: true, attributeFilter: ['style', 'class', 'hidden', 'disabled', 'open'] });
+  window.addEventListener('load', later);
+  setInterval(later, 1000);   // ゲームの始まり・終わりは DOM が変わらないこともあるので念のため
+
+  document.addEventListener('keydown', e => {
+    if (e.altKey || e.ctrlKey || e.metaKey || e.isComposing) return;
+    const t = e.target, tag = (t.tagName || '').toLowerCase();
+    if (tag === 'input' || tag === 'textarea' || tag === 'select' || t.isContentEditable) return;
+    if (typingNow()) return;
+    const k = e.key.length === 1 ? e.key.toUpperCase() : '';
+
+    // ↑↓：見えているボタンの間を動く（ページ側で矢印を扱っていないとき）
+    if ((e.key === 'ArrowDown' || e.key === 'ArrowUp') && !window.ST_OWN_ARROWS) {
+      const els = candidates(scope());
+      if (!els.length) return;
+      e.preventDefault();
+      const i = els.indexOf(document.activeElement);
+      const n = e.key === 'ArrowDown' ? (i + 1) % els.length : (i <= 0 ? els.length - 1 : i - 1);
+      els[n].focus();
+      return;
+    }
+    if (!k || !map.has(k)) return;
+    assign();   // 押した瞬間の画面で取り直す
+    const el = map.get(k);
+    if (!el) return;
+    e.preventDefault(); e.stopPropagation();
+    el.focus();
+    el.click();
+  }, true);
+}(window, document));
+</script>

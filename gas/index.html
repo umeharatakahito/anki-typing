@@ -24,18 +24,18 @@
 
     <div id="menu-main" class="menu no-footer">
       <div id="main-title" class="menu-title">メインメニュー</div>
-      <div id="main-title-paused" class="menu-title" style="display:none;">Paused</div>
+      <div id="main-title-paused" class="menu-title" style="display:none;">一時停止中</div>
 
       <div class="menu-content">
         <div id="cat-buttons"><button class="button menu-opt main-menu-start" onclick="hamachi.showMenu('mode', this,'1');">基本・応用</button></div>
-        <button id="main-menu-resume" class="button menu-opt" onclick="hamachi.resume();" style="display:none;">Resume</button>
+        <button id="main-menu-resume" class="button menu-opt" onclick="hamachi.resume();" style="display:none;">再開する</button>
         <button class="button menu-opt" onclick="hamachi.showMenu('about', this,'99');">スコア</button>
-        <button id="main-menu-quit" class="button menu-opt opt-danger" onclick="hamachi.quitGame();" style="display:none;">Quit</button>
+        <button id="main-menu-quit" class="button menu-opt opt-danger" onclick="hamachi.quitGame();" style="display:none;">やめる</button>
       </div>
     </div>
 
     <div id="menu-mode" class="menu" style="display:none;">
-      <div class="menu-title">Play</div>
+      <div class="menu-title">モードをえらぶ</div>
       <div class="menu-content">
         <ul id="mode-list">
           <li><button class="button menu-opt hamachi-mode-opt" onclick="hamachi.startGame('写経モード');">写経モード</button></li>
@@ -100,7 +100,7 @@
       <div id="game-stats">
         <div id="game-stats-inner" class="clear">
           <div id="hamachi-score-box">
-            <div id="hamachi-score-title">Score</div>
+            <div id="hamachi-score-title">スコア</div>
             <div id="hamachi-score">0</div>
           </div>
 
@@ -110,7 +110,7 @@
           </div>
 
           <div id="hamachi-chain" style="display:none;">
-            <span id="chain-count">0</span><span id="chain-label">Chain!!</span>
+            <span id="chain-count">0</span><span id="chain-label">連続！</span>
           </div>
         </div>
       </div>
@@ -130,7 +130,7 @@
         <div id="game-input"></div>
         <!-- 前の問題の正解と解説。何かキーを押すまで出しておく -->
         <div id="last-note" aria-live="polite"></div>
-          <button id="pause-btn" class="button menu-opt" onclick="hamachi.pause();" title="Esc でも止められます">Pause (Esc)</button>
+          <button id="pause-btn" class="button menu-opt" onclick="hamachi.pause();" title="Esc でも止められます">一時停止 (Esc)</button>
     <div id="hamachi-hint" style="display:none"></div>
       </div>
 
@@ -141,8 +141,8 @@
 
 
     <div id="game-end" class="menu" style="display:none;">
-      <div class="menu-title" id="game-win">Game Clear!</div>
-      <div class="menu-title" id="game-over">Game Over</div>
+      <div class="menu-title" id="game-win">クリア！</div>
+      <div class="menu-title" id="game-over">ゲームオーバー</div>
 
       <div class="menu-content">
         <div id="game-end-stats"></div>
@@ -154,8 +154,8 @@
 
       <div class="menu-footer">
         <button id="save-score" type="button" class="button menu-opt" onclick="hamachi.saveScore()"> スコアを保存 </button>
-        <button class="button menu-opt" onclick="hamachi.retry();">Retry（同じ設定で再挑戦）</button>
-        <button class="button menu-opt" onclick="hamachi.resetGame();">Main Menu に戻る</button>
+        <button class="button menu-opt" onclick="hamachi.retry();">もう一度（同じ設定で）</button>
+        <button class="button menu-opt" onclick="hamachi.resetGame();">メニューに戻る</button>
       </div>
     </div>
 
@@ -173,5 +173,7 @@
     <?!= include('StudyVersus'); ?>
     <?!= include('ReportProblem'); ?>
     <?!= include('JukenKeyboard'); ?>
+    <script>window.ST_OWN_ARROWS = true;</script>
+    <?!= include('Shortcuts'); ?>
   </body>
 </html>
