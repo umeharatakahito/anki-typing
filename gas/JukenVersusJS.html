@@ -337,7 +337,7 @@
       // 写経は答えを伏せない。かな側は hintShown が「見えている」状態にあたる。
       this.openTarget = race;
       if (kana) {
-        this.setKanaTarget(w.ko);
+        this.setKanaTarget(w.ko, w.koAlts || w.kanaAlts);
         this.hintShown = race;
       } else {
         this.enTarget = w.en.toLowerCase();
@@ -367,12 +367,8 @@
       this.startTimer();
     },
 
-    setKanaTarget: function (kana) {
-      const conv = kanaToRoman(kana);
-      this.wordR = conv[0];
-      this.kanaTokens = conv[1];
-      this.pattern = new Array(this.wordR.length).fill(0);
-      this.idx1 = 0; this.idx2 = 0; this.temp = '';
+    setKanaTarget: function (kana, alts) {
+      kanaAltSet(this, kana, alts);
       this.hintShown = false;
     },
 
@@ -381,7 +377,7 @@
       if (!r || r.settled) return;
       const w = this.words[r.i];
       r.phase = 2;
-      this.setKanaTarget(w.kana);
+      this.setKanaTarget(w.kana, w.kanaAlts);
 
       $('vs-phase-tag').textContent = 'STEP 2 ・ 意味をタイプ';
       $('vs-prompt').innerHTML = blankJa(w.exja);
@@ -650,7 +646,7 @@
 
       if (r.phase === 1 && !this.isKana()) {
         if (!/^[a-z' -]$/.test(key)) return;
-        if (key === this.enTarget[this.enPos]) {
+        if (key === this.enTarget[this.enPos] || enAltSwitch(this, key, (this.words[r.i] || {}).enAlts)) {
           this.enPos++;
           this.renderEn();
           if (this.enPos >= this.enTarget.length) this.onPhase1Clear();
@@ -664,27 +660,7 @@
       if (!/^[a-z0-9\-,.'\s]$/.test(key)) return;
       if (!this.wordR || this.idx1 >= this.wordR.length) return;
 
-      this.temp += key;
-      let ok = false;
-      if (key === this.wordR[this.idx1][this.pattern[this.idx1]][this.idx2]) {
-        ok = true;
-      } else {
-        // 別のローマ字表記（si / shi など）に切り替えられるか探す
-        const re = new RegExp('^' + escapeRe(this.temp));
-        for (let i = 0; i < this.wordR[this.idx1].length; i++) {
-          if (re.test(this.wordR[this.idx1][i])) {
-            this.pattern[this.idx1] = i;
-            if (key === this.wordR[this.idx1][i][this.idx2]) ok = true;
-            break;
-          }
-        }
-      }
-      if (!ok) { this.temp = this.temp.slice(0, -1); this.onMiss(); return; }
-
-      this.idx2++;
-      if (this.idx2 === this.wordR[this.idx1][this.pattern[this.idx1]].length) {
-        this.idx1++; this.idx2 = 0; this.temp = '';
-      }
+      if (!kanaAltKey(this, key)) { this.onMiss(); return; }
       this.renderKana();
       if (this.idx1 >= this.wordR.length) {
         if (r.phase === 1) this.onPhase1Clear(); else this.onPhase2Clear();

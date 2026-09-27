@@ -426,13 +426,7 @@
       this.locked = false;
       this.hintShown = false;
 
-      const conv = kanaToRoman(w.kana);
-      this.wordR = conv[0];
-      this.kanaTokens = conv[1];
-      this.pattern = new Array(this.wordR.length).fill(0);
-      this.idx1 = 0;
-      this.idx2 = 0;
-      this.temp = '';
+      kanaAltSet(this, w.kana, w.kanaAlts);
       this.revealCount = 0;   // STEP1 の頭出しを持ち越さない
 
       $('phase-tag').textContent = 'STEP 2 ・ 意味をタイプ';
@@ -731,7 +725,7 @@
     handleKey: function (key) {
       if (this.phase === 1) {
         if (!/^[a-z' -]$/.test(key)) return;
-        if (key === this.enTarget[this.enPos]) {
+        if (key === this.enTarget[this.enPos] || enAltSwitch(this, key, (this.words[this.index] || {}).enAlts)) {
           this.enPos++;
           this.renderEn();
           if (this.enPos >= this.enTarget.length) this.onPhase1Clear();
@@ -745,35 +739,7 @@
       if (!/^[a-z0-9\-,.'\s]$/.test(key)) return;
       if (!this.wordR || this.idx1 >= this.wordR.length) return;
 
-      this.temp += key;
-      let ok = false;
-
-      if (key === this.wordR[this.idx1][this.pattern[this.idx1]][this.idx2]) {
-        ok = true;
-      } else {
-        // 別のローマ字表記（si / shi など）に切り替えられるか探す
-        const re = new RegExp('^' + escapeRe(this.temp));
-        for (let i = 0; i < this.wordR[this.idx1].length; i++) {
-          if (re.test(this.wordR[this.idx1][i])) {
-            this.pattern[this.idx1] = i;
-            if (key === this.wordR[this.idx1][i][this.idx2]) ok = true;
-            break;
-          }
-        }
-      }
-
-      if (!ok) {
-        this.temp = this.temp.slice(0, -1);
-        this.onMiss();
-        return;
-      }
-
-      this.idx2++;
-      if (this.idx2 === this.wordR[this.idx1][this.pattern[this.idx1]].length) {
-        this.idx1++;
-        this.idx2 = 0;
-        this.temp = '';
-      }
+      if (!kanaAltKey(this, key)) { this.onMiss(); return; }
       this.renderKana();
 
       if (this.idx1 >= this.wordR.length) this.onPhase2Clear();
