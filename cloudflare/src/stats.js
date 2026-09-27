@@ -10,7 +10,7 @@ import {
   jukenSubject_, wordsByKeys_, withWeak
 } from './generated/gas.js';
 import { FREE_MAX_LEVEL } from './gate.js';
-import { CAT_BY_KBN, kbnWhere, withSetLabel, randomPickSql } from './sets.js';
+import { CAT_BY_KBN, kbnWhere, withSetLabel, pickRandom, levelsOf } from './sets.js';
 const COLS = 'id, kbn, que, kan, ans, img, note, level, qid';
 
 // 正解が続いた語は苦手リストから外す。ミスより this だけ多く正解したら卒業。
@@ -54,9 +54,9 @@ const toCard = r => ({
 
 export async function getQuestions(env, category) {
   try {
-    const { results } = await env.DB.prepare(
-      'SELECT id, kbn, que, kan, ans, img, note, level, qid FROM problems WHERE kbn = ? AND (free = 1 OR ?) ORDER BY random() LIMIT 100'
-    ).bind(String(category), env.viewer.member ? 1 : 0).all();
+    // レベルの無い問題集（基本・応用）は level が 0
+    const results = await pickRandom(env.DB, String(category), COLS, 'kbn = ? AND level = 0 AND (free = 1 OR ?)',
+      [String(category), env.viewer.member ? 1 : 0], 100);
     return mixMarked(results, await markedCards(env, category, null, 20)).map(toCard);
   } catch (e) {
     return { error: e.message };
@@ -65,11 +65,7 @@ export async function getQuestions(env, category) {
 
 // レベルのある問題集: どのレベルがあって、この人はどこまで行けるか
 export async function getLevelInfo(env, category) {
-  const w = kbnWhere(category);
-  const { results } = await env.DB.prepare(
-    `SELECT DISTINCT level FROM problems WHERE ${w.sql} AND level > 0 ORDER BY level`
-  ).bind(...w.args).all();
-  const levels = results.map(r => r.level);
+  const levels = await levelsOf(env.DB, category);
   return {
     levels,
     maxLevel: env.viewer.member ? (levels[levels.length - 1] || 0) : FREE_MAX_LEVEL,
@@ -82,9 +78,7 @@ export async function getLevelQuestions(env, category, level) {
   level = Number(level) || 1;
   if (!env.viewer.member && level > FREE_MAX_LEVEL) return { error: 'members_only', maxLevel: FREE_MAX_LEVEL };
   const w = kbnWhere(category);
-  const { results } = await env.DB.prepare(
-    randomPickSql(category, COLS, `level = ? AND ${w.sql}`, 40)
-  ).bind(level, ...w.args, 40).all();
+  const results = await pickRandom(env.DB, category, COLS, `level = ? AND ${w.sql}`, [level, ...w.args], 40);
   const marked = await markedCards(env, category, env.viewer.member ? null : FREE_MAX_LEVEL, 8);
   return mixMarked(results, marked).map(r => toCard(Object.assign({}, r, { que: withSetLabel(category, r.kbn, r.que) })));
 }

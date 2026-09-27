@@ -134,9 +134,12 @@ function emit(row) {
     out.push(`UPDATE problems SET img = ${sql(row.img)}, note = ${sql(row.note)} WHERE src = ${sql(row.src)} AND qid = ${sql(row.qid)};`);
     return;
   }
+  row.rnd = Math.random().toFixed(9);   // ランダムに引くための乱数（migrations/0008）
   const cols = Object.keys(row);
   out.push(`INSERT INTO problems (${cols.join(', ')}) VALUES (${cols.map(c => sql(row[c])).join(', ')});`);
 }
+// 問題集・レベルごとの問題数（migrations/0008）を作り直す
+const REFRESH_STATS = ['DELETE FROM problem_stats;', 'INSERT INTO problem_stats SELECT kbn, level, COUNT(*), SUM(free) FROM problems GROUP BY kbn, level;'];
 const wanted = id => !ONLY || ONLY.has(id);
 
 for (const cave of CAVES) {
@@ -193,5 +196,6 @@ for (const set of OWN_SETS) {
   total += qs.length;
 }
 
+if (!FIG_ONLY && !OV_ONLY) out.push(...REFRESH_STATS);
 process.stdout.write(out.join('\n') + '\n');
 console.error(`合計 ${total} 問を書き出しました`);

@@ -241,12 +241,14 @@ async function callFunction(env, fn, args) {
   throw err;
 }
 
-// 問題が入っている問題集（kbn → 問題数の Map）。問題の入れ直しはまれなので、しばらく覚えておく
+// 問題が入っている問題集（kbn → 問題数の Map）。problem_stats（数十行）から読み、1 時間覚えておく。
+// 問題の入れ直しはまれで、入れ直したあと 1 時間は古い数が出ることがあるだけ
 let AVAILABLE_ = null, AVAILABLE_AT_ = 0;
 async function availableKbns(env) {
-  if (AVAILABLE_ && Date.now() - AVAILABLE_AT_ < 5 * 60 * 1000) return AVAILABLE_;
+  if (AVAILABLE_ && Date.now() - AVAILABLE_AT_ < 60 * 60 * 1000) return AVAILABLE_;
   try {
-    const { results } = await env.DB.prepare('SELECT kbn, COUNT(*) AS n FROM problems GROUP BY kbn').all();
+    const { results } = await env.DB.prepare('SELECT kbn, SUM(n) AS n FROM problem_stats GROUP BY kbn').all()
+      .catch(() => env.DB.prepare('SELECT kbn, COUNT(*) AS n FROM problems GROUP BY kbn').all());   // problem_stats がまだ無いとき
     AVAILABLE_ = new Map(results.map(r => [r.kbn, r.n]));
     AVAILABLE_AT_ = Date.now();
   } catch (e) { /* 読めなければ全部出す */ }

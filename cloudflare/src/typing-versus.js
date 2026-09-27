@@ -49,7 +49,7 @@
 
 import { DurableObject } from 'cloudflare:workers';
 import { FREE_MAX_LEVEL } from './gate.js';
-import { CAT_BY_KBN, kbnWhere, withSetLabel, randomPickSql } from './sets.js';
+import { CAT_BY_KBN, kbnWhere, withSetLabel, pickRandom, levelsOf } from './sets.js';
 const COLS = 'id, kbn, que, kan, ans, img, note, level, qid';
 import { toCardImg } from './stats.js';
 
@@ -222,10 +222,7 @@ export class TypingVersus extends DurableObject {
     const w = kbnWhere(kbn);
     let rows;
     if (cat.levels) {
-      const { results: lv } = await this.env.DB.prepare(
-        `SELECT DISTINCT level FROM problems WHERE ${w.sql} AND level > 0${allMembers ? '' : ' AND level <= ' + FREE_MAX_LEVEL} ORDER BY level`
-      ).bind(...w.args).all();
-      const levels = lv.map(r => r.level);
+      const levels = await levelsOf(this.env.DB, kbn, allMembers ? 0 : FREE_MAX_LEVEL);
       const want = {};
       for (let i = 0; i < count; i++) {
         const L = levels[Math.floor(i * levels.length / count)];
@@ -233,15 +230,10 @@ export class TypingVersus extends DurableObject {
       }
       rows = [];
       for (const L of Object.keys(want).map(Number).sort((a, b) => a - b)) {
-        const { results } = await this.env.DB.prepare(
-          randomPickSql(kbn, COLS, `level = ? AND ${w.sql}${freeOnly}`, want[L])
-        ).bind(L, ...w.args, want[L]).all();
-        rows.push(...results);
+        rows.push(...await pickRandom(this.env.DB, kbn, COLS, `level = ? AND ${w.sql}${freeOnly}`, [L, ...w.args], want[L]));
       }
     } else {
-      ({ results: rows } = await this.env.DB.prepare(
-        randomPickSql(kbn, COLS, `${w.sql}${freeOnly}`, count)
-      ).bind(...w.args, count).all());
+      rows = await pickRandom(this.env.DB, kbn, COLS, `level = 0 AND ${w.sql}${freeOnly}`, w.args, count);
     }
     return rows.map(r => ({
       que: withSetLabel(kbn, r.kbn, r.que || ''), kan: r.kan || '', pid: r.id || 0, kbn: r.kbn || '', ans: r.ans || '', note: r.note || '', level: r.level || 0, qid: r.qid || '',

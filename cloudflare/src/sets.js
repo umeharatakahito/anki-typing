@@ -182,13 +182,40 @@ export function kbnWhere(kbn) {
   return { sql: 'kbn = ?', args: [String(kbn)] };
 }
 
-// 問題をランダムに引く SQL（最後の ? が件数）。森羅万象は問題集の大きさに引っぱられないよう、
-// 問題集ごとに同じくらいずつ引いてから混ぜる
-export function randomPickSql(kbn, cols, where, limit) {
-  if (kbn !== SHINRA) return `SELECT ${cols} FROM problems WHERE ${where} ORDER BY random() LIMIT ?`;
-  const per = Math.max(1, Math.ceil(limit / SHINRA_KBNS.length));
-  return `SELECT ${cols} FROM (SELECT ${cols}, ROW_NUMBER() OVER (PARTITION BY kbn ORDER BY random()) AS rn
-            FROM problems WHERE ${where}) WHERE rn <= ${per} ORDER BY random() LIMIT ?`;
+// 問題をランダムに引く。where は「kbn = ? AND level = ? …」のような条件、args はその値。
+// ORDER BY random() は条件に合う行を全部読むので、問題ごとの乱数 rnd（索引 (kbn, level, rnd)）の
+// でたらめな位置から続けて limit 件だけ読み、足りなければ頭から足す（読む行は limit 件ほどで済む）。
+// 森羅万象は問題集の大きさに引っぱられないよう、問題集ごとに同じくらいずつ引いてから混ぜる
+export async function pickRandom(db, kbn, cols, where, args, limit) {
+  if (kbn === SHINRA) {
+    const per = Math.max(1, Math.ceil(limit / SHINRA_KBNS.length));
+    const { results } = await db.prepare(
+      `SELECT ${cols} FROM (SELECT ${cols}, ROW_NUMBER() OVER (PARTITION BY kbn ORDER BY random()) AS rn
+         FROM problems WHERE ${where}) WHERE rn <= ${per} ORDER BY random() LIMIT ?`
+    ).bind(...args, limit).all();
+    return results;
+  }
+  const r = Math.random();
+  const q = op => `SELECT ${cols} FROM problems WHERE ${where} AND rnd ${op} ? ORDER BY rnd LIMIT ?`;
+  let { results } = await db.prepare(q('>=')).bind(...args, r, limit).all();
+  if (results.length < limit) {
+    const more = await db.prepare(q('<')).bind(...args, r, limit - results.length).all();
+    results = results.concat(more.results);
+  }
+  for (let i = results.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [results[i], results[j]] = [results[j], results[i]]; }
+  return results;
+}
+
+// 問題集にあるレベル（problem_stats から。まだ無ければ problems から）。maxLevel を渡すとそこまで
+export async function levelsOf(db, kbn, maxLevel) {
+  const w = kbnWhere(kbn);
+  const cap = maxLevel ? ' AND level <= ' + Number(maxLevel) : '';
+  try {
+    const { results } = await db.prepare(`SELECT DISTINCT level FROM problem_stats WHERE ${w.sql} AND level > 0${cap} ORDER BY level`).bind(...w.args).all();
+    if (results.length) return results.map(r => r.level);
+  } catch (e) { /* problem_stats がまだ無い */ }
+  const { results } = await db.prepare(`SELECT DISTINCT level FROM problems WHERE ${w.sql} AND level > 0${cap} ORDER BY level`).bind(...w.args).all();
+  return results.map(r => r.level);
 }
 
 // kbn → 問題集。サーバー側でレベルの扱いを決めるのに使う

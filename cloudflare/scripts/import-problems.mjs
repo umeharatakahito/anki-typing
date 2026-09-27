@@ -33,8 +33,11 @@ const get = (r, name) => (col(name) >= 0 ? r[col(name)] : '') || '';
 // 会員でない人に出すのは 10 問に 3 問（行の順で決めるので、入れ直しても同じ問題）
 const out = ["DELETE FROM problems WHERE src = 'hamachi';"];
 rows.forEach((r, i) => {
-  out.push(`INSERT INTO problems (kbn, que, kan, ans, img, src, free) VALUES (${
-    ['kbn', 'que', 'kan', 'ans', 'img'].map(k => q(get(r, k))).join(', ')}, 'hamachi', ${i % 10 < 3 ? 1 : 0});`);
+  // rnd はランダムに引くための乱数（migrations/0008）
+  out.push(`INSERT INTO problems (kbn, que, kan, ans, img, src, free, rnd) VALUES (${
+    ['kbn', 'que', 'kan', 'ans', 'img'].map(k => q(get(r, k))).join(', ')}, 'hamachi', ${i % 10 < 3 ? 1 : 0}, ${Math.random().toFixed(9)});`);
 });
+// 問題集・レベルごとの問題数（migrations/0008）を作り直す
+out.push('DELETE FROM problem_stats;', 'INSERT INTO problem_stats SELECT kbn, level, COUNT(*), SUM(free) FROM problems GROUP BY kbn, level;');
 process.stdout.write(out.join('\n') + '\n');
 console.error(`${rows.length} 行を書き出しました`);
