@@ -144,6 +144,11 @@ function script(viewer, env) {
   };
   if (document.querySelector('.st-ad')) document.body.classList.add('st-has-ad');
   var gsi = document.getElementById('st-gsi');
+  // 家の中の端末から手元版を開いたとき（192.168.… など）は Google ログインが使えないので、メールで入る画面へ
+  if (gsi && /^(192\.168\.|10\.|172\.(1[6-9]|2\d|3[01])\.)/.test(location.hostname)) {
+    gsi.innerHTML = '<a class="st-chip" href="/auth/dev?to=' + encodeURIComponent(location.pathname + location.search) + '">ログイン</a>';
+    gsi = null;
+  }
   if (gsi) {
     var s = document.createElement('script');
     s.src = 'https://accounts.google.com/gsi/client'; s.async = true;

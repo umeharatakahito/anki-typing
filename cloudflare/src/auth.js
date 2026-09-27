@@ -111,6 +111,9 @@ const json = (body, status, headers) => new Response(JSON.stringify(body), {
 });
 
 const isLocal = url => ['localhost', '127.0.0.1'].includes(url.hostname);
+// 家の中（同じ Wi-Fi）の端末から、この Mac で動かしている手元版に入るとき。LAN_LOGIN=1 のときだけ
+const isHomeLan = (env, url) => env.LAN_LOGIN === '1' &&
+  /^(192\.168\.|10\.|172\.(1[6-9]|2\d|3[01])\.)/.test(url.hostname);
 
 // /auth/* を受け持つ。該当しなければ null
 export async function handleAuth(request, env, url) {
@@ -147,12 +150,19 @@ export async function handleAuth(request, env, url) {
     return json({ ok: true, nickname: res.nickname });
   }
 
-  if (url.pathname === '/auth/dev' && env.DEV_LOGIN === '1' && isLocal(url)) {
-    const email = String(url.searchParams.get('email') || '').toLowerCase();
-    if (!email) return new Response('?email= を付けてください', { status: 400 });
+  if (url.pathname === '/auth/dev' && env.DEV_LOGIN === '1' && (isLocal(url) || isHomeLan(env, url))) {
+    const email = String(url.searchParams.get('email') || '').trim().toLowerCase();
+    // 家の中の端末は Google ログインが使えないので、メールアドレスを入れて入る
+    if (!email) return new Response(`<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ログイン（家の中だけ）</title><body style="font:16px system-ui,sans-serif;max-width:420px;margin:40px auto;padding:0 16px">
+<h1 style="font-size:1.2rem">Study Type に入る（家の中だけ）</h1>
+<p style="font-size:14px;color:#555">この Mac で動いている手元版です。Google のメールアドレスを入れてください。</p>
+<form><input type="hidden" name="to" value="${String(url.searchParams.get('to') || '/').replace(/[^\w\/?=&%.-]/g, '')}"><input name="email" type="email" required autofocus placeholder="xxx@gmail.com" style="width:100%;box-sizing:border-box;padding:10px;font-size:16px">
+<button style="margin-top:10px;padding:10px 18px;font-size:16px">入る</button></form></body>`,
+      { headers: { 'content-type': 'text/html; charset=utf-8' } });
     return new Response(null, {
       status: 302,
-      headers: { location: url.searchParams.get('to') || '/', 'set-cookie': await startSession(env, url, { email, name: email.split('@')[0] }) }
+      headers: { location: (url.searchParams.get('to') || '/').replace(/^(?!\/)/, '/').replace(/^\/\/+/, '/'), 'set-cookie': await startSession(env, url, { email, name: email.split('@')[0] }) }
     });
   }
   return null;
