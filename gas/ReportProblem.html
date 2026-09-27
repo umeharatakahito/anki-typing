@@ -1,22 +1,20 @@
 <style>
   /* 問題の報告（タイピング・大学受験モード共通） */
   .st-report-btn{ display:inline-flex; align-items:center; gap:4px; padding:5px 10px; border-radius:999px;
-    border:1px solid rgba(120,130,150,.45); background:rgba(255,255,255,.75); color:#5b6b80; font:inherit;
+    border:1px solid var(--line, #a9dcea); background:var(--card, #fff); color:var(--muted, #5a7b8b); font:inherit;
     font-size:12px; cursor:pointer; }
-  html[data-theme="dark"] .st-report-btn{ background:rgba(24,34,54,.85); color:#c9d6ea; border-color:#2a3651; }
-  .st-report-btn:hover{ border-color:#e5484d; color:#e5484d; }
-  #st-report-dlg{ border:1px solid #9fd6e6; border-radius:12px; padding:18px; width:min(92vw, 420px);
-    background:#fff; color:#17394b; font:14px/1.6 "Hiragino Kaku Gothic ProN","Yu Gothic",system-ui,sans-serif; }
-  html[data-theme="dark"] #st-report-dlg{ background:#182236; color:#e8eef7; border-color:#2a3651; }
+  .st-report-btn:hover{ border-color:var(--ng, #e04848); color:var(--ng, #e04848); }
+  #st-report-dlg{ border:1px solid var(--line, #a9dcea); border-radius:14px; padding:20px; width:min(92vw, 420px);
+    background:var(--card, #fff); color:var(--text, #17394b); font:14px/1.6 "Hiragino Kaku Gothic ProN","Yu Gothic",system-ui,sans-serif; }
   #st-report-dlg::backdrop{ background:rgba(0,0,0,.45); }
   #st-report-dlg h2{ font-size:1.05rem; margin:0 0 6px; }
-  #st-report-dlg .st-rq{ font-size:12px; opacity:.8; margin:0 0 10px; max-height:5.5em; overflow:auto; white-space:pre-wrap; }
+  #st-report-dlg .st-rq{ font-size:12px; color:var(--muted, #5a7b8b); margin:0 0 10px; max-height:5.5em; overflow:auto; white-space:pre-wrap; }
   #st-report-dlg label{ display:flex; gap:8px; align-items:center; margin:3px 0; cursor:pointer; }
   #st-report-dlg textarea{ width:100%; box-sizing:border-box; min-height:64px; margin-top:8px; padding:8px; font:inherit;
-    font-size:16px; border-radius:8px; border:1px solid #9fd6e6; background:transparent; color:inherit; }
+    font-size:16px; border-radius:8px; border:1px solid var(--line, #a9dcea); background:transparent; color:inherit; }
   #st-report-dlg .st-rrow{ display:flex; gap:8px; justify-content:flex-end; margin-top:10px; }
-  #st-report-dlg button{ padding:8px 14px; border-radius:8px; border:1px solid #9fd6e6; background:transparent; color:inherit; font:inherit; cursor:pointer; }
-  #st-report-dlg button.st-rsend{ background:#e5484d; border-color:transparent; color:#fff; }
+  #st-report-dlg button{ padding:8px 14px; border-radius:8px; border:1px solid var(--line, #a9dcea); background:transparent; color:inherit; font:inherit; cursor:pointer; }
+  #st-report-dlg button.st-rsend{ background:var(--ng, #e04848); border-color:transparent; color:#fff; }
   #st-report-dlg .st-rmsg{ min-height:1.3em; font-size:13px; margin-top:6px; }
 </style>
 
