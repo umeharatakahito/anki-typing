@@ -48,6 +48,9 @@ const CSS = `<style>
   border:1px dashed var(--st-chip-line);border-radius:8px;color:var(--st-chip-fg);font-size:12px}
 .st-ad-sample a{color:var(--st-accent)}
 body.st-has-ad{padding-bottom:84px}
+/* Google から「出す広告なし」（審査中・在庫なしなど）と返ってきた枠は、空の帯を残さず隠す */
+.st-ad:has(ins[data-ad-status="unfilled"]),.st-rail:has(ins[data-ad-status="unfilled"]),.st-ad-box:has(ins[data-ad-status="unfilled"]){display:none !important}
+body.st-has-ad:has(.st-ad ins[data-ad-status="unfilled"]){padding-bottom:0}
 /* 左右の縦長：本文（最大 1080px）の外に 160px の枠が入る広さのときだけ */
 .st-rail{display:none;position:fixed;top:64px;z-index:9997;width:160px;min-height:600px}
 .st-rail-l{left:max(8px,calc((100vw - 1080px) / 4 - 80px))} .st-rail-r{right:max(8px,calc((100vw - 1080px) / 4 - 80px))}
