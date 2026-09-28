@@ -197,6 +197,24 @@ a{color:inherit}
 .tag.soon{background:transparent;border:1px dashed var(--muted)}
 .empty{padding:22px;border-radius:16px;border:1px dashed var(--line);color:var(--muted);text-align:center}
 
+/* ---- ほかのアプリ（一番下） ---- */
+.apps{margin-top:34px}
+.app-card{position:relative;display:flex;align-items:center;gap:18px;padding:18px 22px;border-radius:20px;overflow:hidden;text-decoration:none;color:#f3ead8;
+  background:radial-gradient(420px 180px at 85% 0%,rgba(255,196,92,.18),transparent 70%),linear-gradient(135deg,#1c1a24,#2a2233 60%,#1a2430);
+  border:1px solid rgba(255,255,255,.08);box-shadow:var(--shadow);transition:transform .18s,box-shadow .18s}
+.app-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-hi)}
+.app-card::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.08;
+  background:repeating-linear-gradient(0deg,#fff 0 1px,transparent 1px 24px),repeating-linear-gradient(90deg,#fff 0 1px,transparent 1px 24px)}
+.app-card .app-ico{position:relative;flex:none;width:84px;height:84px;border-radius:18px;background:#141019;border:2px solid rgba(255,196,92,.35);
+  display:grid;place-items:center;overflow:hidden}
+.app-card .app-ico img{width:84px;height:84px;image-rendering:pixelated}
+.app-card .app-txt{position:relative;display:flex;flex-direction:column;gap:2px}
+.app-card .app-kicker{font-size:11px;font-weight:800;letter-spacing:.2em;color:#ffc45c}
+.app-card b{font-size:21px;font-weight:900;letter-spacing:.04em;color:#fff}
+.app-card small{font-size:13px;color:#cbbfa8}
+.app-card .app-go{position:relative;margin-left:auto;display:inline-flex;align-items:center;gap:6px;padding:10px 16px;border-radius:12px;
+  background:#ffc45c;color:#2a1d07;font-weight:900;font-size:14px;white-space:nowrap}
+@media (max-width:600px){ .app-card{padding:14px;gap:12px} .app-card .app-ico,.app-card .app-ico img{width:64px;height:64px} .app-card b{font-size:18px} .app-card .app-go{padding:8px 10px;font-size:12px} }
 .foot{margin-top:44px;padding-top:16px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12px;color:var(--muted)}
 .foot a{color:var(--muted)}
 
@@ -328,7 +346,16 @@ ${tiles}
 </nav>
 <div class="feats">
 ${feats}
-</div>`;
+</div>
+
+<section class="apps" aria-label="ほかのアプリ">
+  <div class="sec-h"><h2>ほかのアプリ</h2><span>MORE GAMES</span></div>
+  <a class="app-card nav-item" href="https://studydungeons.umekobo.com/" target="_blank" rel="noopener">
+    <span class="app-ico"><img src="/fig/apps/studydungeons.png" alt="" width="84" height="84"></span>
+    <span class="app-txt"><span class="app-kicker">ROGUELIKE RPG</span><b>勉強ダンジョンズ</b><small>ローグライクRPGで学習。英語・IT資格・受験の洞窟にもぐろう</small></span>
+    <span class="app-go">遊ぶ ${icon('arrow-right')}</span>
+  </a>
+</section>`;
   return page('STUDY TYPE — 打って、覚えて、対戦だ。', body);
 }
 
