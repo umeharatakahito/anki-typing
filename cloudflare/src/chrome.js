@@ -33,6 +33,22 @@ const CSS = `<style>
 #st-bar button.st-chip{font:inherit}
 #st-bar .st-member{background:var(--st-accent);color:#fff;border-color:transparent}
 #st-bar .st-free{opacity:.85}
+#st-bar .st-join{opacity:1;background:#ff6b35;color:#fff;border-color:transparent;font-weight:700}
+/* 会員向けの案内（window.stPaywall）。鍵のかかった範囲を押したときなど */
+#st-pay{border:0;border-radius:18px;padding:0;max-width:min(420px,calc(100vw - 32px));background:var(--st-dlg-bg);color:var(--st-dlg-fg);
+  box-shadow:0 20px 60px rgba(0,0,0,.35);font:14px/1.7 "Hiragino Kaku Gothic ProN","Yu Gothic",system-ui,sans-serif}
+#st-pay::backdrop{background:rgba(10,16,32,.55)}
+#st-pay .pw-top{padding:22px 22px 8px;text-align:center}
+#st-pay .pw-lock{display:inline-grid;place-items:center;width:52px;height:52px;border-radius:16px;background:#fff1ea;color:#ff6b35;font-size:26px}
+#st-pay h2{margin:10px 0 4px;font-size:19px}
+#st-pay p{margin:0 0 6px}
+#st-pay ul{margin:8px 22px 0;padding:0 0 0 1.2em;font-size:13.5px}
+#st-pay .pw-price{margin:12px 0 0;text-align:center;font-weight:800;font-size:15px}
+#st-pay .pw-price b{font-size:26px;color:#ff6b35}
+#st-pay .pw-row{display:flex;gap:8px;padding:16px 22px 22px}
+#st-pay .pw-row a,#st-pay .pw-row button{flex:1;padding:11px;border-radius:12px;font:inherit;font-weight:800;text-align:center;text-decoration:none;cursor:pointer}
+#st-pay .pw-go{background:linear-gradient(135deg,#ff7a45,#f0561d);color:#fff;border:0}
+#st-pay .pw-no{background:transparent;color:inherit;border:1px solid var(--st-chip-line)}
 #st-gsi{min-height:0}
 /* 上のロゴ（トップへ）。紺の文字は暗い色のときに白 */
 #st-home{display:flex;justify-content:center;padding:10px 12px 0;position:relative;z-index:5}
@@ -111,8 +127,8 @@ function bar(viewer, env) {
   const theme = `<button type="button" class="st-chip" id="st-theme" title="画面の色を切り替える">🎨 色</button>`;
   if (viewer.email) {
     const badge = viewer.member
-      ? `<span class="st-chip st-member" title="すべての問題が遊べます">会員</span>`
-      : `<span class="st-chip st-free" title="会員登録されていないアカウントです">無料版</span>`;
+      ? `<a class="st-chip st-member" href="/plan" title="すべての問題が遊べます">会員</a>`
+      : `<a class="st-chip st-free st-join" href="/plan" title="月100円で全部の範囲が遊べます">会員になる</a>`;
     const admin = viewer.admin ? `<a class="st-chip" href="/admin">管理</a>` : '';
     return `<div id="st-bar">${badge}${admin}${theme}
       <button type="button" class="st-chip" id="st-nick" title="ニックネームを変える">${esc(viewer.name)}</button>
@@ -121,7 +137,7 @@ function bar(viewer, env) {
   const login = env.GOOGLE_CLIENT_ID
     ? `<div id="st-gsi"></div>`
     : `<span class="st-chip st-free">無料版</span>`;
-  return `<div id="st-bar">${theme}${login}</div>`;
+  return `<div id="st-bar"><a class="st-chip st-free st-join" href="/plan" title="月100円で全部の範囲が遊べます">会員になる</a>${theme}${login}</div>`;
 }
 
 // 枠ごとの広告ユニット。専用のユニットが無ければ、下の横長と同じユニットを使う
@@ -187,7 +203,7 @@ function ad(env) {
     ? `<ins class="adsbygoogle" style="display:block;width:100%;min-height:60px" data-ad-client="${client}" data-ad-slot="${slot}" data-ad-format="horizontal" data-full-width-responsive="true"></ins>
        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${client}" crossorigin="anonymous"></script>
        <script>(window.adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1; (window.adsbygoogle = window.adsbygoogle || []).push({});</script>`
-    : `<div class="st-ad-sample"><span>広告枠</span><span>会員になると広告が消えて、すべてのレベルが遊べます</span></div>`;
+    : `<div class="st-ad-sample"><span>広告枠</span><span><a href="/plan">会員（月100円）</a>になると広告が消えて、全部の範囲が遊べます</span></div>`;
   return `<div class="st-ad" role="complementary" aria-label="広告"><div class="st-ad-inner">${inner}</div></div>`;
 }
 
@@ -226,6 +242,23 @@ function script(viewer, env) {
     fetch('/auth/logout', { method:'POST' }).then(function(){ location.reload(); });
   };
   if (document.querySelector('.st-ad')) document.body.classList.add('st-has-ad');
+  // 会員向けの案内。what は「ITパスポートの『セキュリティ』」のような、開けようとしたもの
+  window.stPaywall = function(what){
+    var d = document.getElementById('st-pay');
+    if (!d) {
+      d = document.createElement('dialog'); d.id = 'st-pay';
+      d.innerHTML = '<div class="pw-top"><span class="pw-lock">🔒</span><h2>会員向けの範囲です</h2><p class="pw-what"></p></div>' +
+        '<ul><li>大学受験・英会話・資格の<b>全部の範囲</b>が選べる</li><li>会員が作った対戦部屋は、全部の範囲から出る</li><li>広告が出ない</li></ul>' +
+        '<p class="pw-price">月 <b>100</b> 円 ／ 年 <b>1,200</b> 円</p>' +
+        '<div class="pw-row"><button type="button" class="pw-no">あとで</button><a class="pw-go" href="/plan">会員プランを見る</a></div>';
+      document.body.appendChild(d);
+      d.querySelector('.pw-no').onclick = function(){ d.close(); };
+      d.addEventListener('click', function(e){ if (e.target === d) d.close(); });
+    }
+    d.querySelector('.pw-what').textContent = what ? what + ' は会員になると選べます。無料版は範囲の先頭 3 割までです' : '無料版は範囲の先頭 3 割までです';
+    if (d.showModal) d.showModal(); else location.href = '/plan';
+    setTimeout(function(){ var g = d.querySelector('.pw-go'); if (g) g.focus(); }, 0);
+  };
   var gsi = document.getElementById('st-gsi');
   // 家の中の端末から手元版を開いたとき（192.168.… など）は Google ログインが使えないので、メールで入る画面へ
   if (gsi && /^(192\.168\.|10\.|172\.(1[6-9]|2\d|3[01])\.)/.test(location.hostname)) {

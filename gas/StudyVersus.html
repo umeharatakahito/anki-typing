@@ -456,13 +456,15 @@
     if (m.t === 'matched') {
       status('相手が見つかりました！');
       // 見つかった全員が同じ番号の部屋に入る（自動マッチの部屋は、少し待ってほかの人も入れる）
-      connect({ code: m.code, kbn: m.kbn, mode: m.mode, rule: m.rule, target: m.target, auto: 1 });
+      connect({ code: m.code, kbn: m.kbn, mode: m.mode, rule: m.rule, target: m.target, auto: 1, scopes: (m.scopes || []).join(',') });
       return;
     }
     if (m.t === 'room') {
       // 問題集・モード・本数は部屋に合わせる（番号で入った人も同じ条件で遊ぶ）
       seat = m.seat; target = m.target; mode = m.mode; h.kubun = m.kbn; rule = RULES[m.rule] ? m.rule : 'first';
-      $('vs-title').textContent = '対戦（' + (h.catLabel ? h.catLabel(m.kbn) : m.kbn) + '・' + (h.levelLabel ? h.levelLabel(m.mode) : m.mode.replace('モード', '')) + '・' + RULES[rule].name + '）';
+      // 範囲をしぼった部屋は、その範囲も出す
+      const sc = (m.scopes || []).length ? '・' + (m.scopes.length > 3 ? m.scopes.slice(0, 3).join('、') + ' ほか' : m.scopes.join('、')) : '';
+      $('vs-title').textContent = '対戦（' + (h.catLabel ? h.catLabel(m.kbn) : m.kbn) + '・' + (h.levelLabel ? h.levelLabel(m.mode) : m.mode.replace('モード', '')) + '・' + RULES[rule].name + sc + '）';
       if (pendingMove) {
         // 同じメンバーで部屋を変える：前の部屋のみんなに、この部屋の番号を知らせてから前の部屋を出る
         const old = pendingMove; pendingMove = null;
@@ -668,7 +670,7 @@
         $('vs-rule').value = rl; fillTargets(); $('vs-target').value = tg;
         showActions(false);
         status('新しい部屋を作っています…');
-        connect({ create: 1, kbn: h.kubun, mode: lv, rule: rl, target: tg });
+        connect({ create: 1, kbn: h.kubun, mode: lv, rule: rl, target: tg, scopes: scopesArg() });
       };
     }
     // 結果の画面から、そのままほかの部屋に入る・新しい部屋を作る（トップまで戻らなくていいように）
@@ -780,16 +782,18 @@
   // ---- ボタン ------------------------------------------------------------
   const tgt = () => $('vs-target').value;
   const rl = () => $('vs-rule').value;
+  // プレイ設定で選んだ出題範囲（全部なら空）
+  function scopesArg() { return ((h.scopesFor && h.scopesFor(h.kubun)) || []).join(','); }
   $('vs-back').onclick = backToModes;
   $('vs-match').onclick = () => {
     showActions(false);
     status(`相手を探しています…（同じ問題集・同じモード・${RULES[rl()].unit(tgt())}を選んだ人と組みます。2人そろうと、最大1分ほかの人を待ちます）`);
-    connect({ match: 1, kbn: h.kubun, mode, rule: rl(), target: tgt() });
+    connect({ match: 1, kbn: h.kubun, mode, rule: rl(), target: tgt(), scopes: scopesArg() });
   };
   $('vs-create').onclick = () => {
     showActions(false);
     status('部屋を作っています…');
-    connect({ create: 1, kbn: h.kubun, mode, rule: rl(), target: tgt() });
+    connect({ create: 1, kbn: h.kubun, mode, rule: rl(), target: tgt(), scopes: scopesArg() });
   };
   // 部屋番号の欄で Enter を押したら入る。欄の上下キーでボタンへ移れるように
   $('vs-code').addEventListener('keydown', e => {

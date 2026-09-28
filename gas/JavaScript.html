@@ -1049,7 +1049,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
           document.body.classList.remove('loading');
           alert('サーバーとの通信に失敗しました: ' + error.message);
         })
-        .getQuestions(kubun);
+        .getQuestions(kubun, null, this.scopesFor ? this.scopesFor(kubun) : null);
     },
 
     // ---- 問題データ読込（GAS） ----
@@ -1068,7 +1068,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
           document.body.classList.remove('loading');
           alert("サーバーとの通信に失敗しました: " + error.message);
         })
-        .getQuestions(kbn);
+        .getQuestions(kbn, null, this.scopesFor ? this.scopesFor(kbn) : null);
     },
 
     // ---- トースト（白帯メッセージ） ----
@@ -1125,7 +1125,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
             }
           })
           .withFailureHandler(err => alert('問題の再取得に失敗: ' + err))
-          .getQuestions(kubun, limit);
+          .getQuestions(kubun, limit, this.scopesFor ? this.scopesFor(kubun) : null);
       } else {
         // プレビュー等：そのまま再スタート
         this.startGame(mode);

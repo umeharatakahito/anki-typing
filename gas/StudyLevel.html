@@ -62,7 +62,8 @@
 //   ・レベル点が LV_UP_POINTS に届いたら 1 つ上のレベルへ
 //   ・時間切れはレベル点を 1 減らし、LV_DOWN_FAILS 回続いたら 1 つ下のレベルへ
 //   ・点数は、今までの計算に LEVEL_SCORE_GROWTH の (レベル-1) 乗を掛ける
-//   ・会員でない人はレベル 3 まで（サーバーがそれより上の問題を返さない）
+//   ・出題範囲（PlaySetup.html のチェックボックス）を選んだら、その範囲の問題だけ。
+//     会員でない人は、有料の問題集では範囲の先頭 3 割だけ（サーバーがそれ以外の問題を返さない）
 // ===============================================================
 (function (window, document) {
   const LV_UP_POINTS = 5;
@@ -116,14 +117,17 @@
   }
 
   // ---- レベル --------------------------------------------------------
-  const data = {};   // kbn → { list: [レベル], maxLevel, allLevels, member, pools: { L: {cards, i} }, loading: { L: true } }
+  const data = {};   // 'kbn|範囲' → { list: [レベル], maxLevel, allLevels, member, pools: { L: {cards, i} }, loading: { L: true } }
   let waiters = [];
 
   function catOf(kbn) { return cats.find(c => String(c.kbn) === String(kbn)); }
-  function d() { return data[h.kubun]; }
+  // 選んでいる出題範囲（PlaySetup.html）。範囲を変えたら、問題を取り直す
+  const scopesOf = kbn => (h.scopesFor && h.scopesFor(kbn)) || null;
+  const sk = kbn => kbn + '|' + (scopesOf(kbn) || []).join(',');
+  function d() { return data[sk(h.kubun)]; }
 
   function loadLevel(kbn, L, done) {
-    const dd = data[kbn];
+    const dd = data[sk(kbn)];
     if (!dd || dd.loading[L]) return;
     dd.loading[L] = true;
     run(list => {
@@ -131,7 +135,7 @@
       if (list && list.error) { dd.list = dd.list.filter(x => x < L); if (done) done(); return; }
       if (list && list.length) dd.pools[L] = { cards: shuffle(list), i: 0 };
       if (done) done();
-    }, e => { dd.loading[L] = false; if (done) done(); }).getLevelQuestions(kbn, L);
+    }, e => { dd.loading[L] = false; if (done) done(); }).getLevelQuestions(kbn, L, scopesOf(kbn));
   }
 
   function nextOf(L) { const l = d().list; return l[l.indexOf(L) + 1]; }
@@ -186,24 +190,25 @@
 
     prepareLevels(kbn) {
       this.levelMode = true;
-      if (data[kbn] && data[kbn].pools[data[kbn].list[0]]) { this.lvReady = true; levelNote(); return; }
+      const key = sk(kbn);
+      if (data[key] && data[key].pools[data[key].list[0]]) { this.lvReady = true; levelNote(); return; }
       this.lvReady = false;
       document.body.classList.add('loading');
       run(info => {
         const all = (info && info.levels) || [];
-        data[kbn] = {
+        data[key] = {
           allLevels: all,
           list: all.filter(L => L <= info.maxLevel),
           maxLevel: info.maxLevel, member: !!info.member,
           pools: {}, loading: {}
         };
         levelNote();
-        const first = data[kbn].list[0];
+        const first = data[key].list[0];
         if (first == null) { markReady(); return; }
         loadLevel(kbn, first, markReady);
-        const second = data[kbn].list[1];
+        const second = data[key].list[1];
         if (second != null) loadLevel(kbn, second);
-      }).getLevelInfo(kbn);
+      }).getLevelInfo(kbn, scopesOf(kbn));
     },
 
     whenLevelsReady(fn) {

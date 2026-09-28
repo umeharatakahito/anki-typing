@@ -206,16 +206,98 @@ export async function pickRandom(db, kbn, cols, where, args, limit) {
   return results;
 }
 
-// 問題集にあるレベル（problem_stats から。まだ無ければ problems から）。maxLevel を渡すとそこまで
-export async function levelsOf(db, kbn, maxLevel) {
+// 問題集にあるレベル（problem_stats から。まだ無ければ problems から）。freeOnly なら無料の問題があるレベルだけ
+export async function levelsOf(db, kbn, freeOnly) {
   const w = kbnWhere(kbn);
-  const cap = maxLevel ? ' AND level <= ' + Number(maxLevel) : '';
   try {
-    const { results } = await db.prepare(`SELECT DISTINCT level FROM problem_stats WHERE ${w.sql} AND level > 0${cap} ORDER BY level`).bind(...w.args).all();
+    const { results } = await db.prepare(`SELECT DISTINCT level FROM problem_stats WHERE ${w.sql} AND level > 0${freeOnly ? ' AND free_n > 0' : ''} ORDER BY level`).bind(...w.args).all();
     if (results.length) return results.map(r => r.level);
   } catch (e) { /* problem_stats がまだ無い */ }
-  const { results } = await db.prepare(`SELECT DISTINCT level FROM problems WHERE ${w.sql} AND level > 0${cap} ORDER BY level`).bind(...w.args).all();
+  const { results } = await db.prepare(`SELECT DISTINCT level FROM problems WHERE ${w.sql} AND level > 0${freeOnly ? ' AND free = 1' : ''} ORDER BY level`).bind(...w.args).all();
   return results.map(r => r.level);
+}
+
+// ---------------------------------------------------------------
+// 有料と無料、範囲（出題範囲のチェックボックス）
+//
+// 有料の大分類（大学受験・英会話・資格）にある問題集は、範囲の先頭から 3 割だけ無料。
+// ただし無料の大分類（高校受験・雑学）にも並んでいる問題集（元素・世界地図など）は全部無料。
+// 範囲は問題の category（勉強ダンジョンズ・data/sets の問題に書いてある）で、
+// 基本・応用（スプレッドシートの問題）は data/scopes/1.json。英単語はレベルで 5 つに分ける。
+// どの問題が無料かは import-caves.mjs が problems.free に書き、範囲の一覧は problem_scopes に置く
+// （ここを変えたら import-caves.mjs --scopes で書き直す）。
+export const PAID_CATS = ['daigaku', 'eikaiwa', 'shikaku'];
+export const FREE_RATIO = 0.3;
+const FREE_KBNS = new Set(MENU.filter(m => !PAID_CATS.includes(m.key)).flatMap(m => m.groups.flatMap(g => g.sets)));
+const PAID_KBNS = new Set(MENU.filter(m => PAID_CATS.includes(m.key)).flatMap(m => m.groups.flatMap(g => g.sets)).filter(k => !FREE_KBNS.has(k)));
+export const isPaidSet = kbn => PAID_KBNS.has(String(kbn));
+// 範囲が n 個あるとき、無料で選べる数（先頭から）
+export const freeScopeCount = n => Math.max(1, Math.round(n * FREE_RATIO));
+
+// 範囲の並び。書いていない問題集は、問題の並び（出てきた順）のまま
+export const SCOPE_ORDER = {
+  itpass:    ['企業活動・法務', '経営戦略', 'システム戦略', '開発・プロジェクト管理', 'サービス管理・監査', 'コンピュータ・ソフトウェア', 'ネットワーク・データベース', 'セキュリティ'],
+  fe:        ['基礎理論・アルゴリズム', 'コンピュータシステム', 'データベース', 'ネットワーク', 'セキュリティ', '開発技術', 'マネジメント', 'ストラテジ'],
+  genai:     ['AIの基礎', '生成AIの仕組み', '使いこなし', 'リスクと対策', '法律と倫理'],
+  phrases:   ['あいさつ・雑談', 'お願い・申し出', 'お礼・おわび・返事', '気持ち・意見', '旅行・買い物・食事'],
+  idioms:    ['句動詞', '前置詞の組み合わせ', '決まった言い回し', '会話の慣用句'],
+  jhistory:  ['原始・古代', '中世', '近世', '近現代'],
+  whistory:  ['古代・中世ヨーロッパ', 'アジア・イスラーム世界', '近世・近代の欧米', '20世紀以降'],
+  'jh-social':  ['地理', '歴史（古代〜中世）', '歴史（近世〜現代）', '公民'],
+  'jh-science': ['物理', '化学', '生物', '地学'],
+  '1':       ['ストラテジ', 'マネジメント', 'テクノロジ'],
+};
+// 英単語は品詞だと偏るので、レベルで分ける [名前, いちばん下のレベル, いちばん上のレベル]
+export const LEVEL_BANDS = {
+  'english-buzzer': [['入門', 1, 2], ['基礎', 3, 4], ['標準', 5, 6], ['発展', 7, 8], ['難関', 9, 10]],
+};
+// 範囲に分けない問題集（分けると細かすぎる）
+export const NO_SCOPE = new Set(['heritage']);
+
+// 問題集の範囲の一覧 [{ scope, free, n, levels: [レベル] }]（並び順）。無ければ []。1 時間覚えておく
+const SCOPES_ = new Map();
+export async function scopesOf(db, kbn) {
+  kbn = String(kbn);
+  if (kbn === SHINRA) return [];
+  const c = SCOPES_.get(kbn);
+  if (c && c.until > Date.now()) return c.list;
+  let rows = [];
+  try {
+    rows = (await db.prepare('SELECT scope, ord, free, level, n FROM problem_scopes WHERE kbn = ? ORDER BY ord, level').bind(kbn).all()).results;
+  } catch (e) { /* problem_scopes がまだ無い */ }
+  const list = [];
+  for (const r of rows) {
+    let s = list[list.length - 1];
+    if (!s || s.scope !== r.scope) list.push(s = { scope: r.scope, free: !!r.free, n: 0, levels: [] });
+    s.n += r.n;
+    if (r.level > 0) s.levels.push(r.level);
+  }
+  SCOPES_.set(kbn, { list, until: Date.now() + 3600 * 1000 });
+  return list;
+}
+
+// 画面から来た範囲の指定を、この人が選べるものだけにする。
+// 返すのは { scopes: [範囲], where, args, all, free }。scopes が空なら範囲で絞らない（範囲の無い問題集・全部えらんだ）
+//   all  … 全部の範囲（ランキングに載る）   free … 無料の範囲ちょうど（有料の問題集で、無料版のランキングに載る）
+export async function scopePick(db, kbn, wanted, member) {
+  const list = await scopesOf(db, kbn);
+  // 森羅万象は全部の問題集からまぜるので、会員でなければ無料の問題だけ
+  const freeOnly = !member && (isPaidSet(kbn) || String(kbn) === SHINRA);
+  const base = { where: freeOnly ? ' AND free = 1' : '', args: [], freeOnly };
+  if (!list.length) return Object.assign(base, { scopes: [], all: !freeOnly, free: freeOnly, levels: null });
+  const usable = list.filter(s => !freeOnly || s.free);
+  const want = new Set(Array.isArray(wanted) ? wanted.map(String) : []);
+  let pick = usable.filter(s => want.has(s.scope));
+  if (!pick.length) pick = usable;
+  const all = pick.length === list.length;
+  const free = freeOnly && pick.length === usable.length;
+  const levels = [...new Set(pick.flatMap(s => s.levels))].sort((a, b) => a - b);
+  if (all || free) return Object.assign(base, { scopes: pick.map(s => s.scope), all, free, levels });
+  return {
+    scopes: pick.map(s => s.scope), all, free, levels, freeOnly,
+    where: base.where + ` AND scope IN (${pick.map(() => '?').join(',')})`,
+    args: pick.map(s => s.scope)
+  };
 }
 
 // kbn → 問題集。サーバー側でレベルの扱いを決めるのに使う

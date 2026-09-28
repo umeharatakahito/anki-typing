@@ -110,7 +110,7 @@ try{var t=localStorage.getItem('st-theme');if(t==='blue'||t==='dark')document.do
 <main>
   <a class="back-link" href="/">← トップ</a>
   <h1>管理</h1>
-  <p class="note">会員 … すべてのレベルが遊べて、広告が出ません。<br>
+  <p class="note">会員 … 全部の範囲が遊べて、広告が出ません（有料プランの人は /plan から自動で会員になります）。<br>
     大学受験 … トップの「⑤市高」（英単語・古文・歴史・対戦）が見えて使えます（会員のみ。③大学受験の暗記科目は誰でも使えます）。<br>
     管理者（${esc(viewer.email)}）は登録しなくても両方使えます。ログインしたことのある人は下の一覧に出るので、チェックを入れるだけで会員にできます。</p>
   <form id="add">

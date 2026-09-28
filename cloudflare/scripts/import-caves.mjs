@@ -11,6 +11,7 @@
 //   --only=koko-eigo,daigaku-chiri   … その問題集だけ入れ直す
 //   --figures=data/figures-it.json   … そのファイルに載っている問題の図と解説だけ書き換える（UPDATE）
 //   --overrides                      … data/overrides*.json に載っている問題の問題文・答え・読みだけ書き換える（UPDATE）
+//   --scopes                         … 範囲（scope）と無料か（free）だけ書き換える（UPDATE）。sets.js の有料・範囲の決まりを変えたとき
 //
 // data/overrides*.json は、元の問題を直すための上書き。{ "<問題の id>": { prompt?, answer?, reading?, alts? } }
 //   prompt / answer / reading … 差し替え（「日本海側の海」→ 問題文に「（　　）側の海」、答えは「日本海」など）
@@ -18,7 +19,8 @@
 //
 // 入れ直すたびに、問題集ごとの問題は丸ごと置き換える（スプレッドシートの問題はそのまま）。
 //   que  … 問題文        kan … 表示する正解     ans … 打つ文字（ひらがな・英字）
-//   level … 1〜10        free … 会員でなくても出す（レベル 1〜3）
+//   level … 1〜10        free … 会員でなくても出す（範囲の先頭 3 割。無料の問題集は全部。sets.js）
+//   scope … 範囲（問題の category。英単語はレベルで分ける。sets.js の SCOPE_ORDER の順に並べる）
 //   note … 正解の後に見せる解説
 //   img  … 図（data/figures.json にある問題だけ。fig/<ファイル名>）
 // ===============================================================
@@ -26,7 +28,7 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { CAVES, OWN_SETS } from '../src/sets.js';
+import { CAVES, OWN_SETS, SCOPE_ORDER, LEVEL_BANDS, NO_SCOPE, isPaidSet, freeScopeCount } from '../src/sets.js';
 
 const args = process.argv.slice(2);
 const opt = name => (args.find(a => a.startsWith('--' + name + '=')) || '').split('=')[1] || '';
@@ -34,6 +36,7 @@ const root = args.find(a => !a.startsWith('--'));
 const ONLY = opt('only') ? new Set(opt('only').split(',')) : null;
 const FIG_ONLY = opt('figures') ? new Set(Object.keys(JSON.parse(readFileSync(opt('figures'), 'utf8')))) : null;
 const OV_ONLY = args.includes('--overrides');
+const SCOPES_ONLY = args.includes('--scopes');
 if (!root) {
   console.error('usage: node scripts/import-caves.mjs <勉強ダンジョンズの data/caves>');
   process.exit(1);
@@ -71,8 +74,6 @@ const withAlts = (id, ans, extra) => {
 const credit = f => f.kind === 'commons'
   ? `図：${f.author}／${f.license}（Wikimedia Commons）` : '';
 
-// 会員でなくても遊べるのはここまで（worker と同じ値）
-const FREE_MAX_LEVEL = 3;
 
 const toHira = s => s.replace(/[ァ-ヶ]/g, c => String.fromCharCode(c.charCodeAt(0) - 0x60));
 const hasKanji = s => /[㐀-鿿々〆]/.test(s);
@@ -122,6 +123,10 @@ const out = [];
 let total = 0;
 // 1 行ぶんを出す。--figures のときは、図のある問題の img と note だけを書き換える
 function emit(row) {
+  if (SCOPES_ONLY) {
+    out.push(`UPDATE problems SET scope = ${sql(row.scope)}, free = ${row.free} WHERE src = ${sql(row.src)} AND qid = ${sql(row.qid)};`);
+    return;
+  }
   if (OV_ONLY) {
     const base = row.qid.replace(/-ja$/, '');
     if (!OVERRIDES[base]) return;
@@ -140,6 +145,38 @@ function emit(row) {
 }
 // 問題集・レベルごとの問題数（migrations/0008）を作り直す
 const REFRESH_STATS = ['DELETE FROM problem_stats;', 'INSERT INTO problem_stats SELECT kbn, level, COUNT(*), SUM(free) FROM problems GROUP BY kbn, level;'];
+
+// 問題の範囲（並べる前の名前）。英単語はレベルで分ける
+function scopeName(src, q, level) {
+  if (NO_SCOPE.has(src)) return '';
+  const bands = LEVEL_BANDS[src];
+  if (bands) { const b = bands.find(([, lo, hi]) => level >= lo && level <= hi); return b ? b[0] : ''; }
+  return String(q.category || '');
+}
+// 問題集 1 つ分の行に、範囲の並びと無料かを付けて出し、範囲の一覧（problem_scopes）も作り直す。
+// order … 範囲の並び（無ければ出てきた順）。範囲が 1 つ以下なら、範囲に分けない
+function finish(kbn, rows, order) {
+  const seen = [...new Set(rows.map(r => r.scope))];
+  const names = (order || []).filter(n => seen.includes(n)).concat(seen.filter(n => !(order || []).includes(n)));
+  const split = names.length >= 2 && names.every(Boolean);
+  if (!split) rows.forEach(r => { r.scope = ''; });
+  const list = split ? names : [];
+  const nFree = isPaidSet(kbn) ? freeScopeCount(list.length) : list.length;
+  // 範囲の無い有料の問題集（今は無い）は、行の 3 割を無料に
+  rows.forEach((r, i) => {
+    r.free = !isPaidSet(kbn) ? 1 : list.length ? (list.indexOf(r.scope) < nFree ? 1 : 0) : (i % 10 < 3 ? 1 : 0);
+    emit(r);
+  });
+  if (FIG_ONLY || OV_ONLY) return;
+  out.push(`DELETE FROM problem_scopes WHERE kbn = ${sql(kbn)};`);
+  const count = {};
+  rows.forEach(r => { if (r.scope) { const k = r.scope + '\t' + r.level; count[k] = (count[k] || 0) + 1; } });
+  for (const [k, n] of Object.entries(count)) {
+    const [scope, level] = k.split('\t');
+    const ord = list.indexOf(scope);
+    out.push(`INSERT INTO problem_scopes (kbn, scope, ord, free, level, n) VALUES (${sql(kbn)}, ${sql(scope)}, ${ord}, ${ord < nFree ? 1 : 0}, ${Number(level)}, ${n});`);
+  }
+}
 const wanted = id => !ONLY || ONLY.has(id);
 
 for (const cave of CAVES) {
@@ -150,7 +187,8 @@ for (const cave of CAVES) {
   const qs = files.flatMap(f => JSON.parse(readFileSync(join(dir, 'questions', f), 'utf8')))
     .filter(q => q.review === 'verified');
 
-  if (!FIG_ONLY && !OV_ONLY) out.push(`DELETE FROM problems WHERE src = ${sql(cave.id)};`);
+  if (!FIG_ONLY && !OV_ONLY && !SCOPES_ONLY) out.push(`DELETE FROM problems WHERE src = ${sql(cave.id)};`);
+  const rows = [];
   for (const q0 of qs) {
     const q = applyOverride(q0);
     const level = q.level * (cave.levelScale || 1);
@@ -158,14 +196,15 @@ for (const cave of CAVES) {
     if (!ans) throw new Error(q.id + ' の打つ文字が空になりました: ' + q.answer);
     const row = {
       kbn: cave.id, src: cave.id, qid: cave.ja ? q.id + '-ja' : q.id, level,
-      free: level <= FREE_MAX_LEVEL ? 1 : 0,
+      scope: scopeName(cave.src || cave.id, q, level), free: 0,
       // 英英の定義文がある問題（英語早押し）は、なぞなぞではなく定義文から出す
       que: cave.ja ? jaPrompt(q) : esc(q.definition || q.prompt), kan: q.answer, ans,
       img: FIGURES[q.id] ? 'fig/' + FIGURES[q.id].file : '',
       note: [note(q, meta.language), FIGURES[q.id] ? credit(FIGURES[q.id]) : ''].filter(Boolean).join('\n')
     };
-    emit(row);
+    rows.push(row);
   }
+  finish(cave.id, rows, SCOPE_ORDER[cave.src || cave.id] || (LEVEL_BANDS[cave.src || cave.id] || []).map(b => b[0]));
   console.error(`${cave.id}: ${qs.length} 問`);
   total += qs.length;
 }
@@ -177,23 +216,38 @@ for (const set of OWN_SETS) {
   let qs;
   try { qs = JSON.parse(readFileSync(file, 'utf8')); } catch (e) { console.error(`${set.id}: ファイルが無いので飛ばします`); continue; }
   qs = qs.filter(q => q.review === 'verified');
-  if (!FIG_ONLY && !OV_ONLY) out.push(`DELETE FROM problems WHERE src = ${sql(set.id)};`);
+  if (!FIG_ONLY && !OV_ONLY && !SCOPES_ONLY) out.push(`DELETE FROM problems WHERE src = ${sql(set.id)};`);
+  const rows = [];
   for (const q0 of qs) {
     const q = applyOverride(q0);
     const ans = withAlts(q.id, typeable(String(q.reading || '')), q.alts);
     if (!ans) throw new Error(q.id + ' の打つ文字が空です: ' + q.answer);
     const row = {
       kbn: set.id, src: set.id, qid: q.id, level: q.level,
-      free: q.level <= FREE_MAX_LEVEL ? 1 : 0,
+      scope: scopeName(set.id, q, q.level), free: 0,
       que: esc(q.prompt), kan: q.answer, ans,
       // 図は data/figures*.json のほか、問題そのものに書いてあってもよい（雑学：image と credit）
       img: q.image ? 'fig/' + q.image : FIGURES[q.id] ? 'fig/' + FIGURES[q.id].file : '',
       note: [q.explanation || '', q.credit || '', FIGURES[q.id] ? credit(FIGURES[q.id]) : ''].filter(Boolean).join('\n')
     };
-    emit(row);
+    rows.push(row);
   }
+  finish(set.id, rows, SCOPE_ORDER[set.id]);
   console.error(`${set.id}: ${qs.length} 問`);
   total += qs.length;
+}
+
+// 基本・応用（スプレッドシートの問題）の範囲は data/scopes/1.json（用語 → 範囲）。行を 1 回だけ読む CASE で書き換える
+if (SCOPES_ONLY && wanted('1')) {
+  const map = JSON.parse(readFileSync(join(here, '..', 'data', 'scopes', '1.json'), 'utf8'));
+  const list = SCOPE_ORDER['1'];
+  const nFree = isPaidSet('1') ? freeScopeCount(list.length) : list.length;
+  const whens = Object.entries(map).map(([kan, sc]) => `WHEN ${sql(kan)} THEN ${sql(sc)}`).join(' ');
+  out.push(`UPDATE problems SET scope = CASE kan ${whens} ELSE '' END WHERE kbn = '1';`);
+  out.push(`UPDATE problems SET free = CASE scope ${list.map((sc, i) => `WHEN ${sql(sc)} THEN ${i < nFree ? 1 : 0}`).join(' ')} ELSE 0 END WHERE kbn = '1';`);
+  out.push(`DELETE FROM problem_scopes WHERE kbn = '1';`);
+  out.push(`INSERT INTO problem_scopes (kbn, scope, ord, free, level, n) SELECT kbn, scope, CASE scope ${list.map((sc, i) => `WHEN ${sql(sc)} THEN ${i}`).join(' ')} END, free, level, COUNT(*) FROM problems WHERE kbn = '1' AND scope <> '' GROUP BY scope, level;`);
+  console.error('1: 範囲を書き換え');
 }
 
 if (!FIG_ONLY && !OV_ONLY) out.push(...REFRESH_STATS);

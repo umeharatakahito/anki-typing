@@ -7,6 +7,7 @@
 //   /auth/*               … Google ログイン（auth.js）
 //   /admin                … 会員の管理（admin.js）
 //   /vs/ws                … タイピングの対戦（WebSocket。typing-versus.js）
+//   /plan /legal /pay/*   … 会員プランと支払い（pay.js）
 // ===============================================================
 
 import { PAGES } from './generated/pages.js';
@@ -19,6 +20,7 @@ import { handleAdmin } from './admin.js';
 import { decorate, THEMES } from './chrome.js';
 import { STUDY_SETS, CAT_BY_KBN, MENU, OLD_KEYS } from './sets.js';
 import { renderHome, renderCategory } from './portal.js';
+import { handlePay, renderPlan, renderLegal } from './pay.js';
 import * as gate from './gate.js';
 import { JUKEN_FIGS } from './generated/juken-figs.js';
 
@@ -67,7 +69,7 @@ function withHead(html, title, viewport) {
 const JUKEN_ONLY = ['juken', 'eigo', 'kobun', 'rekishi', 'versus'];
 
 // HTML の文字列か、よそへ回すときは Response を返す
-function renderPage(url, viewer, available) {
+function renderPage(url, viewer, available, env) {
   const route = String(url.searchParams.get('p') || url.pathname.replace(/^\/+|\/+$/g, '')).toLowerCase();
   const vars = { execUrl: '/', subject: '', subjectLabel: '', backRoute: '', autoMode: '', studySet: null,
                  jukenFull: viewer.juken };
@@ -113,6 +115,9 @@ function renderPage(url, viewer, available) {
     return withHead(PAGES.index(vars), 'Study Type（' + STUDY_SETS[setKey].title + '）',
       'width=device-width, initial-scale=1');
   }
+
+  if (route === 'plan') return renderPlan(viewer, env, url);
+  if (route === 'legal') return renderLegal(env);
 
   if (route === 'me') {
     return withHead(PAGES.mypage(vars), 'わたしの戦績', 'width=device-width, initial-scale=1, viewport-fit=cover');
@@ -185,6 +190,7 @@ async function setTheme(env, theme) {
 const D1_FUNCTIONS = {
   getQuestions: stats.getQuestions,
   getLevelInfo: stats.getLevelInfo,
+  getScopes: stats.getScopes,
   getLevelQuestions: stats.getLevelQuestions,
   getUserRanking: stats.getUserRanking,
   getMyStats: stats.getMyStats,
@@ -303,6 +309,9 @@ export default {
 
     if (url.pathname === '/vs/ws') return typingVersus(request, env, url, viewer);
 
+    const pay = await handlePay(request, env, url, viewer);
+    if (pay) return pay;
+
     if (url.pathname.startsWith('/api/')) {
       if (request.method !== 'POST') return json({ error: 'POST only' }, 405);
       const fn = decodeURIComponent(url.pathname.slice(5));
@@ -335,7 +344,7 @@ export default {
       const pref = await env.DB.prepare('SELECT theme FROM user_prefs WHERE email = ?').bind(viewer.email).first();
       theme = pref ? pref.theme : '';
     }
-    const page = renderPage(url, viewer, await availableKbns(env));
+    const page = renderPage(url, viewer, await availableKbns(env), env);
     if (page instanceof Response) return page;
     return new Response(decorate(page, viewer, env, theme), {
       headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store' }

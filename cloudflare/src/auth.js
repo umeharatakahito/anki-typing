@@ -7,7 +7,7 @@
 //   POST /auth/nickname … ランキングに出すニックネームを決める／変える
 //   GET  /auth/dev      … 手元（localhost）だけ。DEV_LOGIN=1 のとき ?email= でログインした扱いにする
 //
-// 会員 … 管理者が /admin で登録したメールアドレス。全部の問題が出て、広告が出ない。
+// 会員 … 有料プラン（pay.js。plans.until まで）か、管理者が /admin で登録したメールアドレス。全部の問題が出て、広告が出ない。
 // 大学受験 … 会員のうち、管理者が /admin で大学受験モードを許した人（英単語・古文・歴史・対戦）。
 // 管理者 … 環境変数 ADMIN_EMAILS（カンマ区切り）のメールアドレス。会員で、大学受験モードも使える。
 // ===============================================================
@@ -17,7 +17,7 @@ import { checkNickname } from './nickname.js';
 const COOKIE = 'st_session';
 const SESSION_DAYS = 30;
 
-export const GUEST = { email: '', name: '', member: false, admin: false, juken: false, needsNickname: false };
+export const GUEST = { email: '', name: '', member: false, admin: false, juken: false, needsNickname: false, plan: null };
 
 // ---------------------------------------------------------------
 // Google の ID トークン（JWT, RS256）を確かめる
@@ -97,18 +97,22 @@ async function sessionViewer(request, env) {
   const token = readCookie(request, COOKIE);
   if (!token) return GUEST;
   const s = await env.DB.prepare(
-    `SELECT s.email, s.expires_at, u.nickname, u.nickname_set, m.email AS member, m.juken
+    `SELECT s.email, s.expires_at, u.nickname, u.nickname_set, m.email AS member, m.juken, p.until AS plan_until, p.kind AS plan_kind, p.sub AS plan_sub
        FROM sessions s
        LEFT JOIN users u ON u.email = s.email
        LEFT JOIN members m ON m.email = s.email
+       LEFT JOIN plans p ON p.email = s.email
       WHERE s.token = ?`
   ).bind(token).first();
   if (!s || s.expires_at < Date.now()) return GUEST;
   const admin = adminEmails(env).includes(s.email);
+  // 有料プラン。until を過ぎたら無料版に戻る
+  const plan = s.plan_until ? { until: s.plan_until, kind: s.plan_kind || '', auto: !!s.plan_sub, active: s.plan_until > Date.now() } : null;
   return {
     email: s.email,
     name: s.nickname || s.email.split('@')[0],
-    member: admin || !!s.member,
+    member: admin || !!s.member || !!(plan && plan.active),
+    plan,
     admin,
     juken: admin || (!!s.member && !!s.juken),
     needsNickname: !s.nickname_set

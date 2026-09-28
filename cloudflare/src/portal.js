@@ -5,14 +5,14 @@
 // 色は chrome.js と同じ <html data-theme="blue|dark"> で切り替わる。
 // ===============================================================
 
-import { MENU, FEATURED, setInfo } from './sets.js';
+import { MENU, FEATURED, setInfo, isPaidSet } from './sets.js';
 import { icon } from './icons.js';
 
 const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;')
   .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 // ロゴ（docs/logo/logo-a-keycap.svg と同じ形。紺の文字は暗い色のときに白へ変わる）
-const LOGO = `<svg class="logo" viewBox="0 0 560 140" role="img" aria-label="STUDY TYPE 打って、覚えて、対戦だ。">
+export const LOGO = `<svg class="logo" viewBox="0 0 560 140" role="img" aria-label="STUDY TYPE 打って、覚えて、対戦だ。">
   <g transform="translate(14 14)">
     <rect x="0" y="8" width="112" height="112" rx="22" fill="#0f1a3d"/>
     <rect x="0" y="0" width="112" height="104" rx="22" fill="#1d2b53"/>
@@ -195,6 +195,7 @@ a{color:inherit}
 .set.soon:hover{transform:none;border-color:var(--line)}
 .set.soon .ico{filter:grayscale(.4);opacity:.7}
 .tag.soon{background:transparent;border:1px dashed var(--muted)}
+.tag.paid{background:color-mix(in srgb,var(--orange) 14%,transparent);color:#c2410c}
 .empty{padding:22px;border-radius:16px;border:1px dashed var(--line);color:var(--muted);text-align:center}
 
 /* ---- ほかのアプリ（一番下） ---- */
@@ -268,7 +269,7 @@ const KEYS = `<script>
 })();
 </script>`;
 
-function page(title, body, desc) {
+export function page(title, body, desc) {
   return `<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -281,7 +282,7 @@ ${CSS}
 <body>
 <div class="wrap">
 ${body}
-<footer class="foot"><span>© STUDY TYPE</span><a href="?p=ranking">ランキング</a><a href="?p=me">わたしの戦績</a>
+<footer class="foot"><span>© STUDY TYPE</span><a href="/?p=ranking">ランキング</a><a href="/?p=me">わたしの戦績</a><a href="/plan">会員プラン</a><a href="/legal">特定商取引法に基づく表記</a>
 <span>アイコン：<a href="https://lucide.dev" target="_blank" rel="noopener">Lucide</a>（ISC）</span></footer>
 </div>
 ${KEYS}
@@ -368,7 +369,8 @@ export function renderCategory(m, available) {
     const soon = c.soon || (available && !available.has(k));
     const n = available && available.get ? available.get(k) : 0;
     const tags = soon ? '<span class="tag soon">準備中</span>'
-      : (n ? `<span class="tag">${n.toLocaleString()} 問</span>` : '') + (c.levels ? '<span class="tag">Lv 上がる</span>' : '');
+      : (n ? `<span class="tag">${n.toLocaleString()} 問</span>` : '') + (c.levels ? '<span class="tag">Lv 上がる</span>' : '')
+        + (isPaidSet(k) ? '<span class="tag paid">3割無料</span>' : '');
     const inner = `<span class="ico">${icon(c.icon)}</span>
   <span><b>${esc(c.label)}</b><small>${esc(c.desc)}</small><span class="meta">${tags}</span></span>
   ${soon ? '' : `<span class="arrow">${icon('chevron-right')}</span>`}`;

@@ -50,8 +50,7 @@
 // ===============================================================
 
 import { DurableObject } from 'cloudflare:workers';
-import { FREE_MAX_LEVEL } from './gate.js';
-import { CAT_BY_KBN, kbnWhere, withSetLabel, pickRandom, levelsOf } from './sets.js';
+import { CAT_BY_KBN, kbnWhere, withSetLabel, pickRandom, levelsOf, scopePick } from './sets.js';
 const COLS = 'id, kbn, que, kan, ans, img, note, level, qid';
 import { toCardImg } from './stats.js';
 
@@ -74,6 +73,8 @@ const MODES = ['写経モード', '通常モード', '極みモード'];
 
 const send = (ws, msg) => { try { ws.send(JSON.stringify(msg)); } catch (e) { /* 切れている */ } };
 const targetOf = (v, rule) => RULES[rule].targets.includes(Number(v)) ? Number(v) : RULES[rule].def;
+// 出題範囲（?scopes= にカンマ区切り）。空なら全部
+const scopesOf = url => String(url.searchParams.get('scopes') || '').split(',').map(s => s.trim()).filter(Boolean).slice(0, 30);
 
 export class TypingVersus extends DurableObject {
   constructor(ctx, env) {
@@ -114,8 +115,9 @@ export class TypingVersus extends DurableObject {
     const rule = ruleOf(url.searchParams.get('rule'));
     const target = targetOf(url.searchParams.get('target'), rule);
     if (!CAT_BY_KBN[kbn] || !MODES.includes(mode)) { send(ws, { t: 'error', message: '問題集かモードが違います' }); ws.close(); return; }
-    const key = [kbn, mode, rule, target].join('|');
-    const matched = (w, code) => { send(w, { t: 'matched', code, kbn, mode, rule, target }); w.close(1000, 'matched'); };
+    const scopes = scopesOf(url);
+    const key = [kbn, mode, rule, target, scopes.join(',')].join('|');
+    const matched = (w, code) => { send(w, { t: 'matched', code, kbn, mode, rule, target, scopes }); w.close(1000, 'matched'); };
 
     // 人を待っている部屋があれば、そこに入る
     const open = this.pending.get(key);
@@ -150,8 +152,10 @@ export class TypingVersus extends DurableObject {
       if (!kbn) { send(ws, { t: 'error', message: 'その番号の部屋はありません' }); ws.close(); return; }
       if (!CAT_BY_KBN[kbn] || !MODES.includes(mode)) { send(ws, { t: 'error', message: '問題集かモードが違います' }); ws.close(); return; }
       const rule = ruleOf(url.searchParams.get('rule'));
+      // 部屋を作った人が会員なら、全部の範囲から出す（自動マッチの部屋は、全員が会員のときだけ）
       this.room = { code, kbn, mode, rule, target: targetOf(url.searchParams.get('target'), rule),
-                    auto: url.searchParams.get('auto') === '1', hostSeat: 0, createdAt: Date.now() };
+                    auto: url.searchParams.get('auto') === '1', hostSeat: 0, createdAt: Date.now(),
+                    scopes: scopesOf(url), hostMember: !!viewer.member };
     } else if (create) {
       send(ws, { t: 'error', message: 'busy' }); ws.close(); return;
     }
@@ -167,7 +171,7 @@ export class TypingVersus extends DurableObject {
                  again: false, out: false, dead: false, ta: null };
     this.players.push(me);
     const r = this.room;
-    send(ws, { t: 'room', code: r.code, kbn: r.kbn, mode: r.mode, rule: r.rule, target: r.target, seat });
+    send(ws, { t: 'room', code: r.code, kbn: r.kbn, mode: r.mode, rule: r.rule, target: r.target, scopes: r.scopes, seat });
     this.sendPlayers();
 
     ws.addEventListener('message', ev => this.onMessage(me, ev.data));
@@ -196,7 +200,7 @@ export class TypingVersus extends DurableObject {
     if (this.game && !this.game.ended) return;
     if (this.startTimer) { clearTimeout(this.startTimer); this.startTimer = null; }
     this.startAt = 0;
-    const allMembers = this.players.every(p => p.member);
+    const allMembers = this.room.auto ? this.players.every(p => p.member) : this.room.hostMember;
     const { rule, target } = this.room;
     // 先取は最悪でも 2×target−1 問で決着するが、だれも取らない問題もあるので多めに。
     // サバイバルは人数×ライフくらい、タイムアタックは 1 秒に 1 問打てても足りる数
@@ -217,7 +221,7 @@ export class TypingVersus extends DurableObject {
     this.armRoundTimer(COUNTDOWN_MS);
   }
 
-  // 全員が会員なら全レベルから、そうでなければ無料の問題から。レベルの低い順に並べる。
+  // 部屋の範囲から。部屋を作った人が会員なら全部の範囲、そうでなければ無料の範囲から（allMembers）。レベルの低い順に並べる。
   // この部屋でもう出した問題は後回しにする（多めに引いて、まだ出していないものから使う）
   async pickQuestions(allMembers, count) {
     const fresh = (rows, n) => {
@@ -228,11 +232,11 @@ export class TypingVersus extends DurableObject {
     };
     const kbn = this.room.kbn;
     const cat = CAT_BY_KBN[kbn];
-    const freeOnly = allMembers ? '' : ' AND free = 1';
+    const sp = await scopePick(this.env.DB, kbn, this.room.scopes, allMembers);
     const w = kbnWhere(kbn);
     let rows;
     if (cat.levels) {
-      const levels = await levelsOf(this.env.DB, kbn, allMembers ? 0 : FREE_MAX_LEVEL);
+      const levels = sp.levels || await levelsOf(this.env.DB, kbn, sp.freeOnly);
       const want = {};
       for (let i = 0; i < count; i++) {
         const L = levels[Math.floor(i * levels.length / count)];
@@ -240,10 +244,10 @@ export class TypingVersus extends DurableObject {
       }
       rows = [];
       for (const L of Object.keys(want).map(Number).sort((a, b) => a - b)) {
-        rows.push(...fresh(await pickRandom(this.env.DB, kbn, COLS, `level = ? AND ${w.sql}${freeOnly}`, [L, ...w.args], want[L] * 3 + 3), want[L]));
+        rows.push(...fresh(await pickRandom(this.env.DB, kbn, COLS, `level = ? AND ${w.sql}${sp.where}`, [L, ...w.args, ...sp.args], want[L] * 3 + 3), want[L]));
       }
     } else {
-      rows = fresh(await pickRandom(this.env.DB, kbn, COLS, `level = 0 AND ${w.sql}${freeOnly}`, w.args, count * 3), count);
+      rows = fresh(await pickRandom(this.env.DB, kbn, COLS, `level = 0 AND ${w.sql}${sp.where}`, [...w.args, ...sp.args], count * 3), count);
     }
     return rows.map(r => ({
       que: withSetLabel(kbn, r.kbn, r.que || ''), kan: r.kan || '', pid: r.id || 0, kbn: r.kbn || '', ans: r.ans || '', note: r.note || '', level: r.level || 0, qid: r.qid || '',

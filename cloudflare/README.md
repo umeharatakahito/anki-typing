@@ -44,6 +44,39 @@ npm run deploy
 
 コピーが無い画像は、ドライブの画像を代わりに表示する。
 
+## 会員プラン（Stripe）と出題範囲
+
+有料の大分類（大学受験・英会話・資格）の問題集は、**範囲の先頭 3 割だけ無料**（高校受験・雑学と、そこにも並ぶ問題集は全部無料）。
+会員（有料プラン・/admin で登録した人）は全部の範囲が選べて、広告が出ない。決まりは `src/sets.js`（PAID_CATS・SCOPE_ORDER など）、
+支払いは `src/pay.js`。
+
+範囲（problems.scope）と無料か（problems.free）は、決まりを変えたら書き直す（変えるのは 2 列だけ。問題は入れ直さない）:
+
+```sh
+node scripts/import-caves.mjs ~/program/StudyQuest-wt/R/data/caves --scopes > scopes.local.sql
+npx wrangler d1 execute anki-typing --remote --file scopes.local.sql   # 約 1.2 万行の UPDATE（無料枠の 1 日 10 万行に収まる）
+```
+
+基本・応用（スプレッドシートの問題）の範囲は `data/scopes/1.json`（用語 → ストラテジ／マネジメント／テクノロジ）。
+
+### Stripe をつなぐ
+
+1. Stripe のアカウントを作り、テストモードで「開発者 → API キー」のシークレットキー（`sk_test_…`）を控える
+2. 「開発者 → Webhook」でエンドポイント `https://studytype.umekobo.com/pay/webhook` を足し、送るイベントに
+   `checkout.session.completed` `checkout.session.async_payment_succeeded` `invoice.paid` `customer.subscription.deleted` を選ぶ。
+   署名シークレット（`whsec_…`）を控える
+3. 「設定 → カスタマーポータル」を一度保存しておく（月額・年額の解約画面に使う）
+4. 「設定 → 決済手段」で PayPay・コンビニ払いを有効にする（期間パスで使える）
+5. 登録する:
+
+```sh
+npx wrangler secret put STRIPE_SECRET_KEY
+npx wrangler secret put STRIPE_WEBHOOK_SECRET
+```
+
+特定商取引法に基づく表記（`/legal`）の販売事業者・連絡先は、環境変数 `SELLER_NAME` `SELLER_ADDRESS` `SELLER_TEL` `SELLER_EMAIL`（wrangler.jsonc の vars）に書く。
+本番のキー（`sk_live_…`）に替えるときは、Webhook も本番モードで作り直して両方を入れ替える。
+
 ## 手元で動かす
 
 ```sh

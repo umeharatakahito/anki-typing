@@ -9,8 +9,7 @@ import {
   getJukenWords, getKobunWords, getRekishiWords,
   jukenSubject_, wordsByKeys_, withWeak
 } from './generated/gas.js';
-import { FREE_MAX_LEVEL } from './gate.js';
-import { CAT_BY_KBN, kbnWhere, withSetLabel, pickRandom, levelsOf } from './sets.js';
+import { CAT_BY_KBN, kbnWhere, withSetLabel, pickRandom, levelsOf, scopePick, scopesOf, isPaidSet } from './sets.js';
 const COLS = 'id, kbn, que, kan, ans, img, note, level, qid';
 
 // 正解が続いた語は苦手リストから外す。ミスより this だけ多く正解したら卒業。
@@ -34,7 +33,7 @@ const num = v => Number(v) || 0;
 
 // ---------------------------------------------------------------
 // 暗記タイピング: 問題取得（kbn 一致をシャッフルして最大 100 問）
-// 会員でない人には free = 1 の問題だけ出す
+// 範囲（scopes）を選んだらその範囲から。会員でない人には free = 1 の問題だけ出す（sets.js の scopePick）
 const imgUrl = img => !img ? '' : img.startsWith('fig/') ? '/' + img : '/img/' + encodeURIComponent(img) + '.png';
 
 export const toCardImg = imgUrl;
@@ -52,34 +51,43 @@ const toCard = r => ({
   kbn: r.kbn || ''
 });
 
-export async function getQuestions(env, category) {
+export async function getQuestions(env, category, limit, scopes) {
   try {
     // レベルの無い問題集（基本・応用）は level が 0
-    const results = await pickRandom(env.DB, String(category), COLS, 'kbn = ? AND level = 0 AND (free = 1 OR ?)',
-      [String(category), env.viewer.member ? 1 : 0], 100);
-    return mixMarked(results, await markedCards(env, category, null, 20)).map(toCard);
+    const sp = await scopePick(env.DB, String(category), scopes, env.viewer.member);
+    const results = await pickRandom(env.DB, String(category), COLS, 'kbn = ? AND level = 0' + sp.where,
+      [String(category), ...sp.args], 100);
+    return mixMarked(results, await markedCards(env, category, sp, 20)).map(toCard);
   } catch (e) {
     return { error: e.message };
   }
 }
 
-// レベルのある問題集: どのレベルがあって、この人はどこまで行けるか
-export async function getLevelInfo(env, category) {
-  const levels = await levelsOf(env.DB, category);
+// 出題範囲の一覧（プレイ設定のチェックボックス）。
+// [{ scope, n, free, locked }]。locked は、この人には選べない（会員になると選べる）
+export async function getScopes(env, category) {
+  const list = await scopesOf(env.DB, category);
+  const paid = isPaidSet(category);
   return {
-    levels,
-    maxLevel: env.viewer.member ? (levels[levels.length - 1] || 0) : FREE_MAX_LEVEL,
-    member: env.viewer.member
+    paid, member: !!env.viewer.member,
+    scopes: list.map(s => ({ scope: s.scope, n: s.n, free: s.free, locked: paid && !s.free && !env.viewer.member }))
   };
 }
 
+// レベルのある問題集: どのレベルがあるか（選んだ範囲・この人が使える問題の中で）
+export async function getLevelInfo(env, category, scopes) {
+  const sp = await scopePick(env.DB, category, scopes, env.viewer.member);
+  const levels = sp.levels || await levelsOf(env.DB, category, sp.freeOnly);
+  return { levels, maxLevel: levels[levels.length - 1] || 0, member: env.viewer.member, all: sp.all, free: sp.free, scopes: sp.scopes };
+}
+
 // レベルのある問題集: 1 つのレベルからシャッフルして最大 40 問
-export async function getLevelQuestions(env, category, level) {
+export async function getLevelQuestions(env, category, level, scopes) {
   level = Number(level) || 1;
-  if (!env.viewer.member && level > FREE_MAX_LEVEL) return { error: 'members_only', maxLevel: FREE_MAX_LEVEL };
+  const sp = await scopePick(env.DB, category, scopes, env.viewer.member);
   const w = kbnWhere(category);
-  const results = await pickRandom(env.DB, category, COLS, `level = ? AND ${w.sql}`, [level, ...w.args], 40);
-  const marked = await markedCards(env, category, env.viewer.member ? null : FREE_MAX_LEVEL, 8);
+  const results = await pickRandom(env.DB, category, COLS, `level = ? AND ${w.sql}${sp.where}`, [level, ...w.args, ...sp.args], 40);
+  const marked = await markedCards(env, category, sp, 8);
   return mixMarked(results, marked).map(r => toCard(Object.assign({}, r, { que: withSetLabel(category, r.kbn, r.que) })));
 }
 
@@ -499,17 +507,16 @@ async function setMark_(env, payload) {
   return { ok: true, state: (await markState(env, kind, [key]))[key] };
 }
 
-// マーク中の問題（問題集）を最大 limit 問。maxLevel があればそのレベルまで
-async function markedCards(env, category, maxLevel, limit) {
+// マーク中の問題（問題集）を最大 limit 問。sp は scopePick の結果（範囲・無料の問題だけ）
+async function markedCards(env, category, sp, limit) {
   if (!env.viewer.email) return [];
   try {
     const w = kbnWhere(category);
     const { results } = await env.DB.prepare(
       `SELECT p.id, p.kbn, p.que, p.kan, p.ans, p.img, p.note, p.level, p.qid FROM marks m JOIN problems p ON p.id = m.pid
-        WHERE m.email = ? AND m.kind = 'typing' AND m.mark = 1 AND p.${w.sql}
-          ${maxLevel ? 'AND p.level <= ' + Number(maxLevel) : ''} ${env.viewer.member ? '' : 'AND (p.free = 1 OR p.level > 0)'}
+        WHERE m.email = ? AND m.kind = 'typing' AND m.mark = 1 AND p.${w.sql}${sp.where.replace(/ (free|scope) /g, ' p.$1 ')}
         ORDER BY random() LIMIT ?`
-    ).bind(env.viewer.email, ...w.args, limit).all();
+    ).bind(env.viewer.email, ...w.args, ...sp.args, limit).all();
     return results;
   } catch (e) { return []; }   // marks 表がまだ無いときなど
 }
