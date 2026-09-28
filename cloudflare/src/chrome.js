@@ -126,7 +126,11 @@ function nickDialog(viewer) {
 function bar(viewer, env) {
   const theme = `<button type="button" class="st-chip" id="st-theme" title="画面の色を切り替える">🎨 色</button>`;
   if (viewer.email) {
-    const badge = viewer.member
+    // 1 年分（自動更新なし）の期限が 30 日を切ったら「あと○日」と出して、買い足してもらう
+    const p = viewer.plan, left = p && p.active && !p.auto ? Math.ceil((p.until - Date.now()) / 86400000) : 99;
+    const badge = viewer.member && left <= 30
+      ? `<a class="st-chip st-join" href="/plan" title="1年分の期限が近づいています">会員 あと${left}日</a>`
+      : viewer.member
       ? `<a class="st-chip st-member" href="/plan" title="すべての問題が遊べます">会員</a>`
       : `<a class="st-chip st-free st-join" href="/plan" title="月100円で全部の範囲が遊べます">会員になる</a>`;
     const admin = viewer.admin ? `<a class="st-chip" href="/admin">管理</a>` : '';
@@ -249,7 +253,7 @@ function script(viewer, env) {
       d = document.createElement('dialog'); d.id = 'st-pay';
       d.innerHTML = '<div class="pw-top"><span class="pw-lock">🔒</span><h2>会員向けの範囲です</h2><p class="pw-what"></p></div>' +
         '<ul><li>大学受験・英会話・資格の<b>全部の範囲</b>が選べる</li><li>会員が作った対戦部屋は、全部の範囲から出る</li><li>広告が出ない</li></ul>' +
-        '<p class="pw-price">月 <b>100</b> 円 ／ 年 <b>1,200</b> 円</p>' +
+        '<p class="pw-price">月 <b>100</b> 円（1年分 1,200 円は PayPay・コンビニでも）</p>' +
         '<div class="pw-row"><button type="button" class="pw-no">あとで</button><a class="pw-go" href="/plan">会員プランを見る</a></div>';
       document.body.appendChild(d);
       d.querySelector('.pw-no').onclick = function(){ d.close(); };

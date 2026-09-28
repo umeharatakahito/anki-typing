@@ -9,14 +9,15 @@
 //   POST /pay/portal      … 月額・年額の解約や、カードの変更（Stripe の画面へ）
 //   POST /pay/webhook     … Stripe からの知らせ（署名を確かめる）
 //
-// プラン
-//   month / year     … 自動更新（カード・Apple Pay・Google Pay）。更新の知らせ（invoice.paid）で期限を延ばす
-//   pass30 / pass365 … 期間パス。自動更新しない（PayPay・コンビニでも払える。払えるものは Stripe の設定しだい）
+// プラン（値引きはしない。迷わないよう 2 つだけ）
+//   month   … 月額 100 円の自動更新（カード・Apple Pay・Google Pay）。更新の知らせ（invoice.paid）で期限を延ばす
+//   pass365 … 1 年分 1,200 円。自動更新しない（PayPay・コンビニ・カード。払えるものは Stripe の設定しだい）。
+//             期限の 30 日前から、画面に「あと○日」と出して買い足してもらう（買い足すと今の期限から 1 年延びる）
 //
 // 環境変数
 //   STRIPE_SECRET_KEY      … sk_test_… / sk_live_…（wrangler secret put）。無ければ「準備中」と出す
 //   STRIPE_WEBHOOK_SECRET  … whsec_…（wrangler secret put）
-//   STRIPE_PASS_METHODS    … 期間パスで使える払い方（例 "card,paypay,konbini"）。無ければ Stripe の設定のまま
+//   STRIPE_PASS_METHODS    … 1 年分で使える払い方（例 "card,paypay,konbini"）。無ければ Stripe の設定のまま
 //   SELLER_*               … 特定商取引法に基づく表記（SELLER_NAME / SELLER_ADDRESS / SELLER_TEL / SELLER_EMAIL）
 // ===============================================================
 
@@ -25,11 +26,12 @@ import { icon } from './icons.js';
 
 const DAY = 86400000;
 export const PLANS = {
-  month:   { label: '月額プラン', price: 100,  per: '月', mode: 'subscription', interval: 'month', days: 31,  note: '毎月自動で更新。いつでも解約できます' },
-  year:    { label: '年額プラン', price: 1200, per: '年', mode: 'subscription', interval: 'year',  days: 366, note: '毎年自動で更新。いつでも解約できます' },
-  pass30:  { label: '1か月パス',  price: 100,  per: '1か月', mode: 'payment', days: 31,  note: '自動更新なし。PayPay・コンビニでも' },
-  pass365: { label: '1年パス',    price: 1200, per: '1年',   mode: 'payment', days: 366, note: '自動更新なし。PayPay・コンビニでも' },
+  month:   { label: '月額プラン', price: 100,  per: '月',   mode: 'subscription', interval: 'month', days: 31,
+             pay: 'カード・Apple Pay・Google Pay', note: '毎月自動で更新。いつでも解約できます' },
+  pass365: { label: '1年分',      price: 1200, per: '1年',  mode: 'payment', days: 366,
+             pay: 'PayPay・コンビニ・カード', note: '自動更新なし。カードが無くても買えます' },
 };
+export const RENEW_NOTICE_DAYS = 30;   // 1 年分の期限がこれより近づいたら「あと○日」と出す
 const GRACE = 2 * DAY;   // 自動更新の支払いが少し遅れても、すぐには切らない
 
 const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -85,7 +87,7 @@ async function once(env, id) {
   const r = await env.DB.prepare('INSERT OR IGNORE INTO pay_events (id, at) VALUES (?, ?)').bind(id, Date.now()).run();
   return r.meta.changes > 0;
 }
-// 期間パス：今の期限（切れていれば今）から days 日延ばす
+// 1 年分：今の期限（切れていれば今）から days 日延ばす
 async function extend(env, email, kind, days, customer) {
   const p = await planOf(env, email);
   const until = Math.max(Date.now(), (p && p.until) || 0) + days * DAY;
@@ -95,7 +97,7 @@ async function extend(env, email, kind, days, customer) {
        customer = CASE WHEN excluded.customer <> '' THEN excluded.customer ELSE plans.customer END, updated_at = excluded.updated_at`
   ).bind(email, until, kind, customer || '', Date.now()).run();
 }
-// 自動更新：支払った期間の終わり（＋少し）まで。パスの残りのほうが長ければそちら
+// 自動更新：支払った期間の終わり（＋少し）まで。1 年分の残りのほうが長ければそちら
 async function setSubscription(env, email, kind, periodEnd, customer, sub) {
   const p = await planOf(env, email);
   const until = Math.max((p && p.until) || 0, periodEnd + GRACE);
@@ -158,8 +160,10 @@ export function renderPlan(viewer, env, url) {
   const state = url.searchParams.get('pay');
   let now = '';
   if (viewer.email && viewer.member && p && p.active) {
+    const left = Math.ceil((p.until - Date.now()) / DAY);
+    const soon = !p.auto && left <= RENEW_NOTICE_DAYS;
     now = `<div class="plan-now ok">${icon('badge-check')}<span class="grow"><b>会員です</b>（${esc((PLANS[p.kind] || {}).label || '会員')}）<br>
-      <small>${p.auto ? '次の更新' : '使える期限'}：${fmtDay(p.until)}</small></span>
+      <small>${p.auto ? '次の更新' : '使える期限'}：${fmtDay(p.until)}${soon ? `（<b>あと ${left} 日</b>。下の「1年分」を買うと、今の期限から 1 年延びます）` : ''}</small></span>
       ${p.auto ? '<button type="button" id="pay-portal">解約・カードの変更</button>' : ''}</div>`;
   } else if (viewer.email && viewer.member) {
     now = `<div class="plan-now ok">${icon('badge-check')}<span class="grow"><b>会員です</b>（すべての問題が遊べます）</span></div>`;
@@ -176,8 +180,8 @@ export function renderPlan(viewer, env, url) {
     const dis = locked || (pl.mode === 'subscription' && hasAuto);
     return `<div class="plan${best ? ' best' : ''}">${best ? '<span class="flag">おすすめ</span>' : ''}
       <h2>${pl.label}</h2><div class="price">${pl.price.toLocaleString()}円<small>／${pl.per}</small></div>
-      <p>${pl.note}</p>
-      <button type="button" class="${pl.mode === 'subscription' ? 'sub' : ''}" data-plan="${key}"${dis ? ' disabled' : ''}>${pl.mode === 'subscription' ? '申し込む' : '買う'}</button></div>`;
+      <p><b>${pl.pay}</b><br>${pl.note}</p>
+      <button type="button" class="${pl.mode === 'subscription' ? 'sub' : ''}" data-plan="${key}"${dis ? ' disabled' : ''}>${pl.mode === 'subscription' ? '月額で申し込む' : '1年分を買う'}</button></div>`;
   };
   const body = `${PLAN_CSS}
 <header class="top-head"><a href="/" aria-label="トップへ">${LOGO}</a></header>
@@ -192,10 +196,7 @@ export function renderPlan(viewer, env, url) {
     <div class="perk">${icon('eye-off')}<b>広告なし</b><small>画面の広告が出なくなります</small></div>
   </div>
   ${ready ? '' : `<div class="plan-now">${icon('construction')}<span class="grow">お支払いの準備中です。もうしばらくお待ちください。</span></div>`}
-  <h3 class="plan-h">自動更新（カード・Apple Pay・Google Pay）</h3>
-  <div class="plans">${card('month', true)}${card('year')}</div>
-  <h3 class="plan-h">期間パス（自動更新なし・PayPay やコンビニでも）</h3>
-  <div class="plans">${card('pass30')}${card('pass365')}</div>
+  <div class="plans">${card('month', true)}${card('pass365')}</div>
   <p class="plan-msg" id="pay-msg"></p>
   <div class="plan-free"><b>ずっと無料</b>：高校受験（中学生向け）と雑学は、会員でなくても全部遊べます。
     大学受験・英会話・資格も、範囲の先頭 3 割は無料です。<br>
@@ -227,12 +228,12 @@ export function renderLegal(env) {
     ['所在地', v('SELLER_ADDRESS', '請求があれば遅滞なく開示します')],
     ['電話番号', v('SELLER_TEL', '請求があれば遅滞なく開示します')],
     ['メールアドレス', v('SELLER_EMAIL', '（準備中）')],
-    ['販売価格', '月額プラン 100 円（税込）／年額プラン 1,200 円（税込）／1か月パス 100 円（税込）／1年パス 1,200 円（税込）'],
+    ['販売価格', '月額プラン 100 円（税込）／1年分 1,200 円（税込）'],
     ['商品代金以外の必要料金', 'インターネット接続にかかる通信料はお客様のご負担です'],
-    ['支払方法', 'クレジットカード、Apple Pay、Google Pay（月額・年額）。期間パスは、これらに加えて PayPay・コンビニ払いなど'],
-    ['支払時期', '月額・年額：申し込み時と、以後の更新日ごとに自動で請求します。期間パス：購入時（コンビニ払いは支払い期限まで）'],
+    ['支払方法', '月額プラン：クレジットカード、Apple Pay、Google Pay。1年分：これらに加えて PayPay・コンビニ払いなど'],
+    ['支払時期', '月額プラン：申し込み時と、以後の毎月の更新日に自動で請求します。1年分：購入時（コンビニ払いは支払い期限まで）。自動更新はしません'],
     ['サービスの提供時期', 'お支払いの確認後、すぐに使えます'],
-    ['解約・返品', 'デジタルサービスのため、お支払い後の返金はいたしません。月額・年額は「会員プラン」の画面からいつでも解約でき、次の更新日からは請求されません（それまでは使えます）'],
+    ['解約・返品', 'デジタルサービスのため、お支払い後の返金はいたしません。月額プランは「会員プラン」の画面からいつでも解約でき、次の更新日からは請求されません（それまでは使えます）'],
     ['動作環境', 'パソコン・スマートフォンの最新のブラウザ（Chrome・Safari・Edge など）'],
   ];
   const body = `${PLAN_CSS}

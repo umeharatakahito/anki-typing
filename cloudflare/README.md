@@ -66,7 +66,7 @@ npx wrangler d1 execute anki-typing --remote --file scopes.local.sql   # 約 1.2
    `checkout.session.completed` `checkout.session.async_payment_succeeded` `invoice.paid` `customer.subscription.deleted` を選ぶ。
    署名シークレット（`whsec_…`）を控える
 3. 「設定 → カスタマーポータル」を一度保存しておく（月額・年額の解約画面に使う）
-4. 「設定 → 決済手段」で PayPay・コンビニ払いを有効にする（期間パスで使える）
+4. 「設定 → 決済手段」で PayPay・コンビニ払いを有効にする（1年分で使える。月額の自動更新はカード類だけ）
 5. 登録する:
 
 ```sh
