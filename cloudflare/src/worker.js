@@ -285,6 +285,13 @@ export default {
   async fetch(request, rawEnv) {
     const url = new URL(request.url);
 
+    // 本番は https だけ。http で開くと Google ログインが「origin_mismatch」で止まる（許可しているのは https のアドレスだけ）。
+    // 手元（localhost・家の中の 192.168… など）は http のまま
+    if (url.protocol === 'http:' && /(^|\.)(umekobo\.com|workers\.dev)$/.test(url.hostname)) {
+      url.protocol = 'https:';
+      return Response.redirect(url.toString(), 301);
+    }
+
     const auth = await handleAuth(request, rawEnv, url);
     if (auth) return auth;
 
