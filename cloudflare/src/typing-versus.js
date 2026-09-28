@@ -36,6 +36,7 @@
 //     {t:'round', r}                               r 問目を始める
 //     {t:'end', winner, scores, lives, left}       決着
 //     {t:'tas', seat, score, correct, fin}         タイムアタック：ほかの人の点数
+//     {t:'move', code, by}                         同じメンバーで新しい部屋へ（by が作った部屋 code に移る）
 //     {t:'matched', code, kbn, mode, target}      自動マッチで相手が見つかった（待合室から）
 //     {t:'error', message}
 //   画面 → サーバー
@@ -45,6 +46,7 @@
 //     {t:'begin'}                                  この人数で始める（部屋番号の部屋は host だけ）
 //     {t:'again'}                                  もう一度
 //     {t:'ta', score, correct, fin}                タイムアタック：今の点数（fin は打ち終えた）
+//     {t:'move', code}                             新しい部屋 code を作ったので、ほかの人も呼ぶ（試合が終わったあとだけ）
 // ===============================================================
 
 import { DurableObject } from 'cloudflare:workers';
@@ -264,6 +266,12 @@ export class TypingVersus extends DurableObject {
 
     if (m.t === 'begin') {
       if (!this.game && this.players.length >= 2 && (this.room.auto || me.seat === this.room.hostSeat)) this.start();
+      return;
+    }
+    if (m.t === 'move') {
+      const code = String(m.code || '').replace(/\D/g, '');
+      if (!/^\d{4,5}$/.test(code) || (this.game && !this.game.ended)) return;
+      this.players.forEach(p => { if (p !== me) send(p.ws, { t: 'move', code, by: me.name }); });
       return;
     }
     if (m.t === 'again') {

@@ -1,6 +1,7 @@
 // ===============================================================
 // chrome.js
 // どの画面にも差し込む部品。
+//   ・上のロゴ   … どの画面にも出す、トップへのリンク（トップ・分類ページは自前のロゴがあるので出さない）
 //   ・右上のバー … Google ログイン／ログアウト、会員かどうか、色の切り替え
 //   ・広告枠   … 会員でない人だけ。下の横長（どの画面も）、左右の縦長（広い画面のときだけ）、
 //               画面の中の枠（data-st-ad="result" など。見えたときに中身を入れる）
@@ -33,6 +34,16 @@ const CSS = `<style>
 #st-bar .st-member{background:var(--st-accent);color:#fff;border-color:transparent}
 #st-bar .st-free{opacity:.85}
 #st-gsi{min-height:0}
+/* 上のロゴ（トップへ）。紺の文字は暗い色のときに白 */
+#st-home{display:flex;justify-content:center;padding:10px 12px 0;position:relative;z-index:5}
+#st-home a{display:inline-flex;align-items:center;border-radius:12px;text-decoration:none;transition:transform .15s}
+#st-home a:hover{transform:translateY(-1px)}
+#st-home a:focus-visible{outline:3px solid #ff6b35;outline-offset:3px}
+#st-home svg{height:40px;width:auto;display:block}
+#st-home .ink{fill:#1d2b53} [data-theme="dark"] #st-home .ink{fill:#fff}
+@media (max-width:600px){#st-home{padding-top:4px} #st-home svg{height:34px}}
+/* タイピング画面の文字だけの見出し「Study Type」は、ロゴがあるので出さない */
+body:has(#st-home) #big-title .bt-text{display:none}
 /* 中くらいの幅では、右上のバーが見出しに重ならないよう上を空ける */
 @media (min-width:601px) and (max-width:1000px){ body{padding-top:36px} }
 /* スマホでは画面の上に 1 段取って並べる（戻るボタンなどに重ならないように） */
@@ -61,10 +72,10 @@ body.st-has-ad:has(.st-ad ins[data-ad-status="unfilled"]){padding-bottom:0}
 body.st-ads .st-ad-box{display:flex}
 .st-ad-box .st-ad-label{font-size:10px;letter-spacing:.1em;color:var(--st-chip-fg);opacity:.55}
 .st-ad-box .st-ad-sample{min-height:250px;flex-direction:column;text-align:center}
-body.playing-game :is(.st-ad,#st-bar),
-body:has(#screen-game:not([hidden])) :is(.st-ad,#st-bar),
-body:has(#screen-zu:not([hidden])) :is(.st-ad,#st-bar),
-body:has(.vs-playing) :is(.st-ad,#st-bar){display:none}
+body.playing-game :is(.st-ad,#st-bar,#st-home),
+body:has(#screen-game:not([hidden])) :is(.st-ad,#st-bar,#st-home),
+body:has(#screen-zu:not([hidden])) :is(.st-ad,#st-bar,#st-home),
+body:has(.vs-playing) :is(.st-ad,#st-bar,#st-home){display:none}
 /* 左右の縦長は、打っている間も出したまま（本文から離れているので打つ邪魔にならない） */
 #st-nick-dlg{border:1px solid var(--st-chip-line);border-radius:14px;padding:20px;max-width:340px;width:calc(100% - 32px);
   background:var(--st-dlg-bg);color:var(--st-dlg-fg);font:14px/1.6 "Hiragino Kaku Gothic ProN","Yu Gothic",system-ui,sans-serif}
@@ -253,6 +264,16 @@ const HEAD = `<script>
 })();
 </script>`;
 
+// 上のロゴ（キーの形の S と STUDY TYPE）。押すとトップへ
+const HOME = `<div id="st-home"><a href="/" aria-label="STUDY TYPE トップへ" title="トップへ">
+<svg viewBox="0 0 330 64" role="img" aria-hidden="true">
+  <rect x="2" y="6" width="56" height="56" rx="12" fill="#0f1a3d"/><rect x="2" y="2" width="56" height="52" rx="12" fill="#1d2b53"/>
+  <rect x="8" y="7" width="44" height="40" rx="8" fill="#2b3d73"/>
+  <text x="26" y="40" text-anchor="middle" font-family="'Arial Black','Hiragino Sans',sans-serif" font-weight="900" font-size="34" fill="#fff">S</text>
+  <rect x="41" y="17" width="4" height="22" rx="1.5" fill="#ff6b35"/>
+  <text x="72" y="44" font-family="'Arial Black','Helvetica Neue',sans-serif" font-weight="900" font-size="32" letter-spacing="1"><tspan class="ink">STUDY</tspan><tspan fill="#ff6b35" dx="7">TYPE</tspan></text>
+</svg></a></div>`;
+
 // ページの HTML に部品を差し込む
 export function decorate(html, viewer, env, theme) {
   // 画面側が「ログインしているか・ニックネーム」を知るため
@@ -261,7 +282,9 @@ export function decorate(html, viewer, env, theme) {
   html = html.replace(/<head>/i, '<head>\n' + HEAD + who);
   html = html.replace('</head>', CSS + '\n</head>');
   // バーは <body> のすぐ後（スマホでは画面の上に並ぶ）、それ以外は </body> の前
-  html = html.replace(/<body([^>]*)>/i, m => m + '\n' + bar(viewer, env));
+  // トップ・分類ページ（portal.js）は大きなロゴを自分で持っているので、上のロゴは足さない
+  const home = /<svg class="logo"/.test(html) ? '' : HOME;
+  html = html.replace(/<body([^>]*)>/i, m => m + '\n' + bar(viewer, env) + home);
   const parts = nickDialog(viewer) + (viewer.member ? '' : ad(env) + rails(env) + boxScript(env)) + script(viewer, env);
   return html.replace(/<\/body>(?![\s\S]*<\/body>)/i, parts + '\n</body>');
 }

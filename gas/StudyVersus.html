@@ -115,6 +115,11 @@
   #vs-bar .vs-meters{ margin-bottom:2px; }
   .vs-point-card .vs-meters, .vs-result .vs-meters{ margin:10px auto; }
   .vs-result .vs-meter .vs-val{ font-size:22px; }
+  .vs-move{ margin:14px auto 0; padding:12px; border:1px solid var(--line); border-radius:12px; max-width:560px; background:var(--card); text-align:left; }
+  .vs-move p{ margin:0 0 8px; font-size:13px; color:var(--muted); }
+  .vs-move p b{ color:var(--text); font-size:14px; }
+  .vs-move select{ width:100%; padding:8px 10px; font:inherit; border-radius:10px; border:1px solid var(--line); background:var(--field); color:var(--text); }
+  .vs-move .button.menu-opt{ margin:10px 0 0; min-height:48px; font-size:1rem; }
   .vs-next{ margin:14px auto 0; padding:12px; border:1px dashed var(--line); border-radius:12px; max-width:420px; }
   .vs-next p{ margin:0 0 8px; font-size:13px; color:var(--muted); }
   .vs-next .vs-join{ display:flex; flex-wrap:wrap; gap:8px; justify-content:center; align-items:stretch; }
@@ -206,6 +211,7 @@
   let questions = [], r = 0, scores = {}, cardMiss = 0, out = false, progTimer = null, lastProgAt = 0, opp = {};
   let vsLog = [];   // ふりかえり用：{ r, card, who }
   let host = 0, auto = false, playersNow = [], startInTimer = null;
+  let pendingMove = null;   // 同じメンバーで部屋を変えるとき、前の部屋のつなぎ（新しい部屋の番号を知らせたら閉じる）
 
   // ---- メニュー --------------------------------------------------------
   function status(html) { $('vs-status').innerHTML = html; }
@@ -457,6 +463,12 @@
       // 問題集・モード・本数は部屋に合わせる（番号で入った人も同じ条件で遊ぶ）
       seat = m.seat; target = m.target; mode = m.mode; h.kubun = m.kbn; rule = RULES[m.rule] ? m.rule : 'first';
       $('vs-title').textContent = '対戦（' + (h.catLabel ? h.catLabel(m.kbn) : m.kbn) + '・' + (h.levelLabel ? h.levelLabel(m.mode) : m.mode.replace('モード', '')) + '・' + RULES[rule].name + '）';
+      if (pendingMove) {
+        // 同じメンバーで部屋を変える：前の部屋のみんなに、この部屋の番号を知らせてから前の部屋を出る
+        const old = pendingMove; pendingMove = null;
+        try { old.send(JSON.stringify({ t: 'move', code: m.code })); } catch (e) {}
+        setTimeout(() => { try { old.close(); } catch (e) {} }, 800);
+      }
       if (params.auto || String(m.code).length > 4) status('相手が見つかりました');
       else {
         // 招待リンク：開くとそのまま待合室に入る（ログインしていなくても入れる）
@@ -490,6 +502,16 @@
         if (!again.disabled) again.textContent = `もう一度（準備OK ${ready}/${m.players.length}）`;
         else again.textContent = `ほかの人を待っています…（準備OK ${ready}/${m.players.length}）`;
       }
+      return;
+    }
+    if (m.t === 'move') {
+      // 同じメンバーのだれかが新しい部屋を作った：そのまま移る
+      const code = m.code, by = m.by;
+      h.resetGame();
+      openVersus(null);
+      $('vs-code').value = code;
+      $('vs-join').click();
+      status(esc(by) + ' さんが作った新しい部屋に移っています…');
       return;
     }
     if (m.t === 'start') { startMatch(m); return; }
@@ -607,7 +629,18 @@
       ${m.left && order.length < 2 ? '<p>ほかの人が抜けました</p>' : ''}
       ${scoreMeters(scores, lives)}
       <p class="vs-sub">${ruleName()}</p>
-      ${order.length >= 2 ? '<p><button class="button menu-opt" id="vs-again">もう一度（同じメンバー）</button></p>' : ''}
+      ${order.length >= 2 ? '<p><button class="button menu-opt" id="vs-again">もう一度（同じメンバー・同じ部屋）</button></p>' : ''}
+      ${order.length >= 2 && ws ? `<div class="vs-move">
+        <p><b>同じメンバーで、部屋を変える</b><br>レベルやルールを変えた新しい部屋を作ると、今のメンバー全員がそのまま移ります</p>
+        <div class="vs-rules">
+          <label class="vs-target"><span>レベル</span><select id="vs-mv-level">${['写経モード', '通常モード', '極みモード'].map(k =>
+            `<option value="${k}"${k === mode ? ' selected' : ''}>${esc(h.levelLabel ? h.levelLabel(k) : k)}</option>`).join('')}</select></label>
+          <label class="vs-target"><span>ルール</span><select id="vs-mv-rule">${Object.keys(RULES).map(k =>
+            `<option value="${k}"${k === rule ? ' selected' : ''}>${RULES[k].name}</option>`).join('')}</select></label>
+          <label class="vs-target"><span id="vs-mv-target-label"></span><select id="vs-mv-target"></select></label>
+        </div>
+        <button type="button" class="button menu-opt" id="vs-move">この設定で新しい部屋へ（みんなで移る）</button>
+      </div>` : ''}
       <div class="vs-next">
         <p>ほかの部屋で続ける：友達から届いた部屋番号を入れるか、この問題集で新しい部屋を作れます</p>
         <div class="vs-join"><input id="vs-next-code" inputmode="numeric" maxlength="5" placeholder="部屋番号" autocomplete="off" aria-label="部屋番号">
@@ -617,6 +650,27 @@
     </div>`;
     const again = $('vs-again');
     if (again) again.onclick = () => { send({ t: 'again' }); again.textContent = 'ほかの人を待っています…'; again.disabled = true; };
+    // 同じメンバーで部屋を変える：新しい部屋を作り、前の部屋に番号を知らせる（ほかの人は自動で移る）
+    const mvRule = $('vs-mv-rule');
+    if (mvRule) {
+      const fillMv = () => {
+        const R = RULES[mvRule.value];
+        $('vs-mv-target-label').textContent = R.label;
+        $('vs-mv-target').innerHTML = R.targets.map(v => `<option value="${v}"${v === (mvRule.value === rule ? target : R.def) ? ' selected' : ''}>${R.unit(v)}</option>`).join('');
+      };
+      mvRule.onchange = fillMv; fillMv();
+      $('vs-move').onclick = () => {
+        const lv = $('vs-mv-level').value, rl = mvRule.value, tg = $('vs-mv-target').value;
+        pendingMove = ws; ws = null;   // 前の部屋のつなぎは残しておく（resetGame で閉じないように外す）
+        if (pendingMove) { pendingMove.onmessage = null; pendingMove.onclose = null; }
+        h.resetGame();
+        openVersus(lv);
+        $('vs-rule').value = rl; fillTargets(); $('vs-target').value = tg;
+        showActions(false);
+        status('新しい部屋を作っています…');
+        connect({ create: 1, kbn: h.kubun, mode: lv, rule: rl, target: tg });
+      };
+    }
     // 結果の画面から、そのままほかの部屋に入る・新しい部屋を作る（トップまで戻らなくていいように）
     const leaveTo = then => { const m0 = mode; h.resetGame(); then(m0); };
     $('vs-next-join').onclick = () => {
