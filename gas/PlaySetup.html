@@ -253,11 +253,15 @@
     row.hidden = false;
     const c = new Set(chosen(kbn)), u = usable(kbn);
     $('ps-scopes').innerHTML = i.scopes.map((x, n) => x.locked
-      ? `<button type="button" class="ps-sc locked menu-opt" data-i="${n}" title="会員になると選べます"><span class="bx">🔒</span>${esc(x.scope)}</button>`
+      ? `<button type="button" class="ps-sc locked menu-opt" data-i="${n}" title="会員になると選べます"><span class="bx">🔒</span>${esc(x.scope)}<small>${x.n}</small></button>`
       : `<button type="button" class="ps-sc menu-opt" role="checkbox" data-i="${n}" aria-checked="${c.has(x.scope)}"><span class="bx">${c.has(x.scope) ? '✓' : ''}</span>${esc(x.scope)}<small>${x.n}</small></button>`).join('');
     $('ps-scope-all').hidden = c.size === u.length;
     $('ps-upsell').innerHTML = i.paid && !i.member
-      ? `<div class="ps-upsell"><span>🔓 無料版は <b>${u.length} / ${i.scopes.length} 範囲</b>まで。会員は全部の範囲（<b>月100円</b>）</span><a href="/plan">会員になる</a></div>` : '';
+      ? (() => {
+        const sum = list => list.reduce((a, x) => a + (x.n || 0), 0);
+        const freeN = sum(i.scopes.filter(x => !x.locked)), allN = sum(i.scopes);
+        return `<div class="ps-upsell"><span>🔓 無料版は <b>${u.length} / ${i.scopes.length} 範囲（${freeN.toLocaleString()} 問）</b>まで。会員は全部の範囲 <b>${allN.toLocaleString()} 問</b>（<b>月100円</b>）</span><a href="/plan">会員になる</a></div>`;
+      })() : '';
     $('ps-scopes').querySelectorAll('[data-i]').forEach(b => b.onclick = () => {
       const x = i.scopes[Number(b.dataset.i)];
       if (x.locked) {

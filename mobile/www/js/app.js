@@ -250,9 +250,12 @@ async function setup(cat, kbn) {
     const c = new Set(picked());
     row.innerHTML = `<div class="lab">出題範囲${c.size < usable.length ? '<button id="sc-all">全部</button>' : ''}</div>
       <div class="scopes">${scopes.map((x, i) => x.free
-        ? `<button class="sc${c.has(x.scope) ? ' on' : ''}" data-i="${i}"><span class="bx">${c.has(x.scope) ? '✓' : ''}</span>${esc(x.scope)}</button>`
-        : `<span class="sc locked">🔒 ${esc(x.scope)}</span>`).join('')}</div>
-      ${s.paid ? '<p class="note">🔒 の範囲は会員向けです（アプリ内の会員は準備中）</p>' : ''}`;
+        ? `<button class="sc${c.has(x.scope) ? ' on' : ''}" data-i="${i}"><span class="bx">${c.has(x.scope) ? '✓' : ''}</span>${esc(x.scope)}<small>${x.n}</small></button>`
+        : `<span class="sc locked">🔒 ${esc(x.scope)}<small>${x.n}</small></span>`).join('')}</div>
+      ${s.paid ? (() => {
+        const freeN = scopes.filter(x => x.free).reduce((a, x) => a + x.n, 0), allN = scopes.reduce((a, x) => a + x.n, 0);
+        return `<p class="note">無料で遊べるのは ${usable.length} / ${scopes.length} 範囲（${freeN.toLocaleString()} 問）。🔒 の範囲も合わせると全部で <b>${allN.toLocaleString()} 問</b>あります（会員向け。アプリ内の会員は準備中）</p>`;
+      })() : ''}`;
     row.querySelectorAll('[data-i]').forEach(b => b.onclick = () => {
       const sc = scopes[Number(b.dataset.i)].scope, cur = picked();
       const next = cur.includes(sc) ? cur.filter(v => v !== sc) : usable.filter(v => v === sc || cur.includes(v));
