@@ -9,7 +9,8 @@
   --safe-t:env(safe-area-inset-top); --safe-b:env(safe-area-inset-bottom);
   /* キーボードの下に空ける分。ホームに戻る線の分を全部は空けない（押し間違えない程度に少しだけ） */
   --kb-safe:calc(env(safe-area-inset-bottom) * .35);
-  --kb-h:min(46vh, 330px);
+  /* キーボードの高さは iPhone 標準と同じくらい（キー 1 段 46pt ほど）。かなは 4 段、英字は数字を入れて 5 段 */
+  --kb-h:216px; --kb-h-latin:264px;
   --key:#26356a; --key-on:#3b4f94; --key-fn:#18224a; --kb-bg:#0b1330; --key-num:#1d2a57; --shadow:rgba(0,0,0,.25);
 }
 /* 明るい色（メニューの画面設定） */
@@ -20,7 +21,7 @@ body.light{
 body.light .hero text tspan[fill="#fff"], body.light .hero .logo-ink{fill:#1d2b53}
 body.light .kb-pop span{background:#1d2b53;color:#fff}
 /* キーを大きく（メニューの画面設定） */
-body.kb-large{--kb-h:min(52vh, 380px)}
+body.kb-large{--kb-h:252px; --kb-h-latin:304px}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;height:100%;background:var(--bg);color:var(--text);overscroll-behavior:none}
 body{font:16px/1.6 -apple-system,"Hiragino Sans","Hiragino Kaku Gothic ProN",system-ui,sans-serif;
@@ -106,12 +107,12 @@ button{font:inherit;color:inherit;touch-action:manipulation}
 .hud .score b{display:block;font-size:20px;color:var(--ink);line-height:1.1} .hud .score small{font-size:11px;color:var(--muted)}
 .stage{position:relative;flex:1;min-height:0;display:flex;flex-direction:column;padding:4px 16px 8px;gap:6px}
 /* 図は縮めてよい（文が読めることを先に）。文は残りの高さに収まるよう、字を小さくする（app.js の fitText） */
-.q-img{flex:0 1 30vh;min-height:64px;display:flex;justify-content:center}
+.q-img{flex:1 1 30vh;min-height:64px;max-height:46vh;display:flex;justify-content:center}
 .q-img:empty{display:none}
 .q-img img{max-width:100%;max-height:100%;object-fit:contain;border-radius:10px;background:#fff}
-.q-text{flex:1 1 auto;overflow-y:auto;min-height:2.6em;font-size:clamp(15px,4.4vw,19px);line-height:1.55;color:var(--ink);-webkit-user-select:none}
+.q-text{flex:0 1 auto;overflow-y:auto;min-height:2.6em;font-size:clamp(15px,4.4vw,19px);line-height:1.55;color:var(--ink);-webkit-user-select:none}
 .q-meta{font-size:11.5px;color:var(--muted)}
-.answer{flex:none;padding:8px 12px;border-radius:14px;background:var(--card);border:2px solid var(--line);min-height:54px;transition:border-color .12s,background .12s}
+.answer{flex:none;margin-top:auto;padding:8px 12px;border-radius:14px;background:var(--card);border:2px solid var(--line);min-height:54px;transition:border-color .12s,background .12s}
 .answer.miss{border-color:var(--ng);background:rgba(239,68,68,.12);animation:shake .22s}
 .answer.done{border-color:var(--ok);background:rgba(34,197,94,.12)}
 @keyframes shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
@@ -142,7 +143,7 @@ button{font:inherit;color:inherit;touch-action:manipulation}
 .kb-cycle{font-size:15px}
 .kb-main{font-size:clamp(20px,6vw,26px);line-height:1}
 .kb-sub{font-size:9.5px;color:var(--muted);letter-spacing:.06em;margin-top:3px;font-weight:600}
-.kb-qwerty{display:flex;flex-direction:column;gap:6px}
+.kb-qwerty{display:flex;flex-direction:column;gap:6px;height:calc(var(--kb-h-latin) + var(--kb-safe))}
 .kb-row{flex:1;display:flex;gap:5px;justify-content:center}
 .kb-row .kb-k{flex:1;max-width:44px;font-size:clamp(17px,5vw,21px);font-weight:600}
 .kb-row.kb-in{padding:0 5%}
