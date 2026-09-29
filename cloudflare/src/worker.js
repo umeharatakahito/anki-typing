@@ -281,6 +281,11 @@ async function typingVersus(request, env, url, viewer) {
     const stub = env.TYPING_VS.get(env.TYPING_VS.idFromName('near:' + await nearKey(request)));
     return stub.fetch(new Request('https://near/near', { headers: request.headers }));
   }
+  // みんなの部屋（ランダム対戦・ランダムで招待した部屋）
+  if (url.pathname === '/vs/public') {
+    const stub = env.TYPING_VS.get(env.TYPING_VS.idFromName('near:public'));
+    return stub.fetch(new Request('https://near/near?public=1', { headers: request.headers }));
+  }
   let name;
   if (url.searchParams.get('match')) name = 'lobby';
   else {
@@ -329,7 +334,7 @@ export default {
     const admin = await handleAdmin(request, env, url, viewer);
     if (admin) return admin;
 
-    if (url.pathname === '/vs/ws' || url.pathname === '/vs/near') return typingVersus(request, env, url, viewer);
+    if (url.pathname === '/vs/ws' || url.pathname === '/vs/near' || url.pathname === '/vs/public') return typingVersus(request, env, url, viewer);
 
     const pay = await handlePay(request, env, url, viewer);
     if (pay) return pay;

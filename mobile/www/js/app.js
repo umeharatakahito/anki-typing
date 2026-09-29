@@ -13,13 +13,14 @@
 import { icon } from './icons.js';
 import { Keyboard, kbPrefs } from './keyboard.js';
 import { alts, tryAppend, tryCycle, nextChars, bestAnswer, isLatin, prefixState } from './match.js';
+import { lobby as versusLobby } from './versus.js';
 
 const $app = document.getElementById('app');
-const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+export const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 // 問題文は Web 版と同じく、取り込むときに &lt; などにしてある
-const qhtml = s => String(s ?? '').replace(/\n/g, '<br>');
+export const qhtml = s => String(s ?? '').replace(/\n/g, '<br>');
 
-const LEVELS = [
+export const LEVELS = [
   { key: 'shakyo', label: '写経', sub: '読みが見える', plus: 1, minus: 0.5, weight: 0.5 },
   { key: 'kihon',  label: '基本', sub: '少しずつヒント', plus: 2, minus: 1, weight: 1 },
   { key: 'kiwami', label: '極',   sub: 'ヒントなし', plus: 3, minus: 2, weight: 1.5 },
@@ -30,14 +31,14 @@ const TITLES = [[0, '見習い'], [600, '駆け出し'], [1200, '一人前'], [2
 
 // ---- ふるえ（Capacitor の Haptics。ブラウザでは何もしない） ----
 const haptics = () => window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.Haptics;
-const buzz = {
+export const buzz = {
   tap()  { const h = prefs.haptics && haptics(); if (h) h.impact({ style: 'LIGHT' }).catch(() => {}); },
   miss() { const h = prefs.haptics && haptics(); if (h) h.notification({ type: 'ERROR' }).catch(() => {}); },
   ok()   { const h = prefs.haptics && haptics(); if (h) h.notification({ type: 'SUCCESS' }).catch(() => {}); },
 };
 
 // ---- 保存（この端末） ----
-const store = {
+export const store = {
   get(k, d) { try { const v = localStorage.getItem('st.' + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
   set(k, v) { try { localStorage.setItem('st.' + k, JSON.stringify(v)); } catch (e) {} },
 };
@@ -59,6 +60,7 @@ const savePrefs = () => { store.set('prefs', prefs); applyPrefs(); };
 
 // ---- データ ----
 let MENU = null, SETS = null;
+export const getSets = () => SETS;
 const setCache = {};
 async function loadMenu() {
   const j = await fetch('data/menu.json').then(r => r.json());
@@ -70,23 +72,28 @@ async function loadSet(kbn) {
 }
 
 // ---- 画面の切り替え（戻るは積んだ順に） ----
+// onLeave(f) … 今の画面を離れるときに f を呼ぶ（つないだままの通信を閉じるなど）
 const stack = [];
-function show(render, push) {
+let leaving = [];
+export const onLeave = f => leaving.push(f);
+function leave() { const l = leaving; leaving = []; l.forEach(f => { try { f(); } catch (e) {} }); }
+export function show(render, push) {
   if (push !== false) stack.push(render);
+  leave();
   $app.innerHTML = '';
   render();
 }
-function back() {
+export function back() {
   stack.pop();
   const r = stack[stack.length - 1];
-  if (r) { $app.innerHTML = ''; r(); }
+  if (r) { leave(); $app.innerHTML = ''; r(); }
 }
-const topBar = (title, right) => `<div class="top"><button class="icon-btn" data-back aria-label="戻る">${icon('chevron-left')}</button><h1>${esc(title)}</h1>${right || '<span class="sp"></span>'}</div>`;
+export const topBar = (title, right) => `<div class="top"><button class="icon-btn" data-back aria-label="戻る">${icon('chevron-left')}</button><h1>${esc(title)}</h1>${right || '<span class="sp"></span>'}</div>`;
 function wire(el) {
   el.querySelectorAll('[data-back]').forEach(b => b.onclick = back);
   el.querySelectorAll('.flip').forEach(s => { s.style.transform = 'scaleX(-1)'; });
 }
-function screen(cls, html) {
+export function screen(cls, html) {
   const el = document.createElement('div');
   el.className = 'screen ' + (cls || '');
   el.innerHTML = html;
@@ -113,11 +120,13 @@ function home() {
   const n = Object.values(SETS).reduce((a, s) => a + s.n, 0);
   const el = screen('', `<button class="icon-btn home-menu" id="menu" aria-label="メニュー（設定・会員）">${icon('settings')}</button><div class="scroll">
     <div class="hero">${LOGO}<span class="offline">● オフラインでも遊べます（${n.toLocaleString()} 問）</span></div>
+    <button class="vs-home" id="vs-home">${icon('swords')}<span><b>対戦する</b><small>ランダム対戦・部屋番号で入る・近くの部屋（Web の人とも）</small></span>${icon('chevron-right')}</button>
     <div class="sec-h">何を勉強する？</div>
     <div class="tiles">${tiles}</div>
   </div>`);
   el.querySelectorAll('[data-cat]').forEach(b => b.onclick = () => show(() => category(b.dataset.cat)));
   el.querySelector('#menu').onclick = () => show(menu);
+  el.querySelector('#vs-home').onclick = () => show(() => versusLobby(null, null));
 }
 
 // ---------------------------------------------------------------
@@ -197,7 +206,8 @@ async function setup(cat, kbn) {
     <div class="lab">コース（持ち時間）</div>
     <div class="chips" id="sec">${COURSES.map(c => `<button class="chip" data-sec="${c}"><b>${c}秒</b><small>${c === 60 ? 'おてがる' : c === 90 ? 'ふつう' : 'じっくり'}</small></button>`).join('')}</div>
     <p class="note" id="lv-note"></p>
-    <button class="start" id="go">${icon('play')}スタート</button>
+    <button class="start" id="go">${icon('play')}ひとりでスタート</button>
+    <button class="btn wide vs-btn" id="vs">${icon('swords')} 対戦（ランダム・部屋・近くの人）</button>
     <p class="note">かなの答えはフリック、英語の答えは英字キーボードで打ちます。わからないときは「パス」、ヒントは次の 1 文字</p>
   </div>`);
   const renderScopes = () => {
@@ -227,6 +237,7 @@ async function setup(cat, kbn) {
   };
   el.querySelectorAll('[data-lv]').forEach(b => b.onclick = () => { settings.level = b.dataset.lv; saveSettings(); renderChips(); buzz.tap(); });
   el.querySelectorAll('[data-sec]').forEach(b => b.onclick = () => { settings.sec = Number(b.dataset.sec); saveSettings(); renderChips(); buzz.tap(); });
+  el.querySelector('#vs').onclick = () => show(() => versusLobby(cat, kbn));
   el.querySelector('#go').onclick = () => {
     const sel = new Set(picked());
     const pool = data.q.filter(q => scopes.length < 2 || sel.has(q[4]));
@@ -237,20 +248,21 @@ async function setup(cat, kbn) {
 
 // ---------------------------------------------------------------
 // ゲーム
-function game({ cat, kbn, pool, all }) {
-  const m = MENU.find(x => x.key === cat), s = SETS[kbn];
-  const lv = LEVELS.find(x => x.key === settings.level);
-  const total = settings.sec * 1000;
-  // やさしい問題から少しずつ難しく：レベル順に並べて、近いレベルの中でまぜる
-  const deck = pool.map(q => ({ q, r: q[3] + Math.random() * 3 })).sort((a, b) => a.r - b.r).map(x => x.q);
+// ta があるときは対戦のタイムアタック：部屋の問題を部屋の順に、部屋の持ち時間とレベルで打ち、点数を ta.onScore で送る
+export function game({ cat, kbn, pool, all, ta }) {
+  const lv = LEVELS.find(x => x.key === (ta ? ta.level : settings.level)) || LEVELS[1];
+  const secs = ta ? ta.seconds : settings.sec;
+  const total = secs * 1000;
+  // やさしい問題から少しずつ難しく：レベル順に並べて、近いレベルの中でまぜる（対戦は部屋の順のまま）
+  const deck = ta ? pool.slice() : pool.map(q => ({ q, r: q[3] + Math.random() * 3 })).sort((a, b) => a.r - b.r).map(x => x.q);
   const st = { left: total, active: 0, score: 0, keys: 0, miss: 0, combo: 0, comboMax: 0, correct: 0, i: 0, t: '', card: null, answers: [],
     cardStart: 0, hints: 0, cardMiss: 0, log: [], over: false, paused: false, lock: false };
 
   const el = screen('game', `
     <div class="hud">
       <button class="icon-btn" id="quit" aria-label="やめる">${icon('x')}</button>
-      <div class="clock"><div class="bar" id="bar"><i style="width:100%"></i></div><div class="sec"><b id="secs">${settings.sec.toFixed(1)}</b> 秒</div></div>
-      <div class="score"><b id="score">0</b><small>${esc(lv.label)}・${settings.sec}秒</small></div>
+      <div class="clock"><div class="bar" id="bar"><i style="width:100%"></i></div><div class="sec"><b id="secs">${secs.toFixed(1)}</b> 秒</div></div>
+      <div class="score"><b id="score">0</b><small>${ta ? '⚔ ' : ''}${esc(lv.label)}・${secs}秒</small></div>
     </div>
     <div class="stage" id="stage">
       <div class="q-meta" id="meta"></div>
@@ -352,6 +364,7 @@ function game({ cat, kbn, pool, all }) {
       const mult = 1 + Math.min(st.combo, 20) * 0.05;
       st.score += Math.round(chars * 10 * lv.weight * mult * (st.hints ? 0.5 : 1));
       $('score').textContent = st.score.toLocaleString();
+      if (ta) ta.onScore(st.score, st.correct, false);
       buzz.ok();
       addTime(lv.plus);
       const c = st.combo, bonus = c === 3 ? 3 : (c >= 5 && c % 5 === 0 ? 5 : 0);
@@ -392,6 +405,8 @@ function game({ cat, kbn, pool, all }) {
     st.over = true;
     cancelAnimationFrame(raf);
     st.score += st.comboMax * 50;
+    // 対戦：最後の点数を送り、みんなが終わるのを待つ（結果はサーバーから）
+    if (ta) { ta.onScore(st.score, st.correct, true); ta.onEnd(st); return; }
     const title = (() => { const perMin = st.score / (total / 60000); let t = TITLES[0][1]; TITLES.forEach(([min, n]) => { if (perMin >= min) t = n; }); return t; })();
     // 自己ベスト（全部の範囲で遊んだときだけ）
     const key = `${kbn}|${lv.key}|${settings.sec}`;
@@ -402,7 +417,11 @@ function game({ cat, kbn, pool, all }) {
     show(() => result({ cat, kbn, lv, st, title, newBest, all, pool }), true);
   }
 
-  el.querySelector('#quit').onclick = () => { st.over = true; cancelAnimationFrame(raf); back(); };
+  el.querySelector('#quit').onclick = () => {
+    if (ta && !confirm('対戦をやめますか？')) return;
+    st.over = true; cancelAnimationFrame(raf);
+    if (ta) ta.onQuit(); else back();
+  };
 
   // 3・2・1 のあとで始める
   const cd = document.createElement('div');

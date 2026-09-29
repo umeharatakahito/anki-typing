@@ -197,3 +197,48 @@ button{font:inherit;color:inherit;touch-action:manipulation}
 .member ul{margin:8px 0 0;padding-left:1.2em;font-size:13px;line-height:1.7}
 .member .soon{display:inline-block;margin-top:10px;padding:4px 12px;border-radius:999px;background:rgba(255,255,255,.22);font-size:12.5px;font-weight:800}
 .danger b{color:var(--ng)}
+
+/* ---- 対戦 ---- */
+.btn.wide{display:block;width:100%;margin-top:12px}
+.vs-btn{display:flex;align-items:center;justify-content:center;gap:8px}
+.vs-home{display:flex;align-items:center;gap:12px;width:100%;margin:16px 0 0;padding:14px 16px;border:0;border-radius:18px;text-align:left;color:#fff;
+  background:linear-gradient(135deg,#1d2b53,#3b1e6e);box-shadow:0 8px 24px var(--shadow)}
+.vs-home .ic{color:#ff8a4c;width:28px;height:28px}
+.vs-home b{display:block;font-size:17px} .vs-home small{display:block;font-size:12px;opacity:.8;line-height:1.45}
+.vs-home span{flex:1}
+.vs-near{margin:4px 0 0;padding:12px;border-radius:16px;border:2px solid color-mix(in srgb,#16a34a 50%,var(--line));background:color-mix(in srgb,#16a34a 8%,var(--card))}
+.vn-h{display:flex;align-items:center;gap:6px;margin:0 0 8px;font-weight:800;font-size:13.5px;color:#22c55e}
+.vn-dot{width:8px;height:8px;border-radius:50%;background:#22c55e;animation:vn 1.6s infinite}
+@keyframes vn{0%{box-shadow:0 0 0 0 rgba(34,197,94,.6)}70%{box-shadow:0 0 0 8px rgba(34,197,94,0)}100%{box-shadow:0 0 0 0 rgba(34,197,94,0)}}
+.vn-room{display:flex;align-items:center;gap:10px;width:100%;margin:0 0 6px;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--card);text-align:left}
+.vn-room span{flex:1;min-width:0} .vn-room b{display:block;font-size:14.5px;color:var(--ink)} .vn-room small{font-size:12px;color:var(--muted)}
+.vn-room em{flex:none;font-style:normal;font-weight:900;padding:6px 14px;border-radius:999px;background:#16a34a;color:#fff}
+.join-row{display:flex;gap:8px}
+.join-row input,.nick{flex:1;min-width:0;width:100%;min-height:50px;padding:10px 14px;border-radius:14px;border:2px solid var(--line);background:var(--card);color:var(--ink);font:inherit;font-size:20px;letter-spacing:.2em;-webkit-user-select:text;user-select:text}
+.nick{letter-spacing:0;font-size:16px}
+.join-row .btn{flex:none;padding:0 22px}
+.center{text-align:center}
+.code-box{margin:10px auto;text-align:center}
+.code-box small{display:block;color:var(--muted);font-size:12px}
+.code-box b{font-size:56px;font-weight:900;letter-spacing:.25em;color:var(--ink);font-variant-numeric:tabular-nums}
+.btn[hidden]{display:none}
+.no-hint .kb-hint{visibility:hidden}
+.meters{flex:1;display:flex;gap:6px;overflow-x:auto}
+.mt{flex:1;min-width:0;padding:4px 8px;border-radius:10px;background:var(--card);text-align:center}
+.mt span{display:block;font-size:11px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mt b{font-size:18px;color:var(--ink)} .mt b small{font-size:11px;color:var(--muted)}
+.mt.me{outline:2px solid var(--orange)}
+.opps{display:flex;flex-direction:column;gap:4px}
+.opp{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted)}
+.opp span{flex:none;max-width:40%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.opp .bar{flex:1;height:6px}
+.vs-point{position:fixed;inset:0;z-index:40;display:grid;place-items:center;background:rgba(10,18,40,.55);padding:20px}
+.vs-point[hidden]{display:none}
+.pt-card{width:min(92vw,380px);padding:20px;border-radius:20px;background:var(--card);text-align:center;box-shadow:0 16px 40px rgba(0,0,0,.4)}
+.pt-card > b{display:block;font-size:22px;color:var(--ink)} .pt-card > b.win{color:var(--orange)}
+.pt-card p{margin:8px 0 0} .pt-card small{display:block;margin-top:6px;color:var(--muted);font-size:12.5px}
+.pt-next{color:var(--muted);font-size:13px}
+.vs-res{margin:18px 0 14px;font-size:30px;font-weight:900;color:var(--ink);text-align:center}
+.vs-res.win{color:var(--orange)}
+.m-row.me{background:rgba(255,107,53,.1)}
+.rank{width:22px;color:var(--muted)}

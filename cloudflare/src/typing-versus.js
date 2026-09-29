@@ -28,7 +28,7 @@
 // やりとり（JSON）
 //   サーバー → 画面
 //     {t:'room', code, kbn, mode, target, rule, seat}   部屋に入れた
-//     {t:'players', players:[{name, seat, again}], host, auto, max, startAt}   参加者が変わった
+//     {t:'players', players:[{name, seat, again, dev}], host, auto, max, startAt}   参加者が変わった（dev … 'app' スマホアプリ / 'web'）
 //     {t:'start', questions, target, in}          in ミリ秒後に 0 問目が始まる（時計のずれに左右されないよう相対）
 //     {t:'more', questions}                        問題の追加（決着がつかず問題が足りなくなりそうなとき）
 //     {t:'opp', seat, r, done, total, typed, miss, out}   相手の入力の様子（本人には送らない）
@@ -53,6 +53,11 @@
 //   人を待っている部屋の一覧を持つ。部屋の Durable Object が、人数が変わるたびに知らせる（nearPublish）。
 //   画面は /vs/near に WebSocket でつなぐと {t:'near', rooms:[{ code, kbn, label, mode, rule, target, host, n, max }]} が届く（変わるたびに）。
 //   IP アドレスそのものは保存も表示もしない。一覧に出すのは作ってから NEAR_MS の間だけ
+//
+// みんなの部屋（ランダム）：部屋を作った人が「ランダムで招待する」を押した部屋（?pub=1 で作った部屋も）は、
+//   'near:public' の一覧にも出る。/vs/public に WebSocket でつなぐと、近くの部屋と同じ形で一覧が届く。
+//   「ランダム対戦」は、この一覧から入れる部屋に入り、なければ ?pub=1 で部屋を作って待つ（画面側）
+//   画面 → サーバー  {t:'public', on}  部屋を作った人だけ。みんなの部屋に出す／出さない
 // ===============================================================
 
 import { DurableObject } from 'cloudflare:workers';
@@ -77,6 +82,7 @@ const TA_GRACE_MS = 45 * 1000;   // タイムアタック：持ち時間のあ�
 const ROOM_IDLE_MS = 30 * 60 * 1000;
 const NEAR_MS = 10 * 60 * 1000;  // 近くの部屋の一覧に出す時間（作ってから）
 const NEAR_MAX = 8;              // 一覧に出す数（学校のような大きなネットワークで長くならないように）
+const PUBLIC_MAX = 30;           // みんなの部屋の一覧に出す数
 const MODES = ['写経モード', '通常モード', '極みモード'];
 
 const send = (ws, msg) => { try { ws.send(JSON.stringify(msg)); } catch (e) { /* 切れている */ } };
@@ -171,7 +177,8 @@ export class TypingVersus extends DurableObject {
                     auto: url.searchParams.get('auto') === '1', hostSeat: 0, createdAt: Date.now(),
                     scopes: scopesOf(url), hostMember: !!viewer.member,
                     // 同じネットワークの人に出す（worker.js が付ける印。自動マッチの部屋と「出さない」を選んだ部屋は出さない）
-                    near: create && url.searchParams.get('auto') !== '1' ? String(request_near(url)) : '' };
+                    near: create && url.searchParams.get('auto') !== '1' ? String(request_near(url)) : '',
+                    pub: create && url.searchParams.get('pub') === '1' };
     } else if (create) {
       send(ws, { t: 'error', message: 'busy' }); ws.close(); return;
     }
@@ -183,11 +190,13 @@ export class TypingVersus extends DurableObject {
     let seat = 1;
     while (this.players.some(p => p.seat === seat)) seat++;
     if (!this.room.hostSeat) this.room.hostSeat = seat;
-    const me = { ws, seat, name: viewer.name || ('ゲスト' + seat), member: !!viewer.member, email: viewer.email || '',
-                 again: false, out: false, dead: false, ta: null };
+    // ログインしていない人は、画面が送るニックネーム（?nick=。アプリ）か「ゲスト○」。入力方法（?dev=app）も一覧に出す
+    const nick = String(url.searchParams.get('nick') || '').replace(/[\u0000-\u001f<>&"']/g, '').trim().slice(0, 12);
+    const me = { ws, seat, name: viewer.name || nick || ('ゲスト' + seat), member: !!viewer.member, email: viewer.email || '',
+                 dev: url.searchParams.get('dev') === 'app' ? 'app' : 'web', again: false, out: false, dead: false, ta: null };
     this.players.push(me);
     const r = this.room;
-    send(ws, { t: 'room', code: r.code, kbn: r.kbn, mode: r.mode, rule: r.rule, target: r.target, scopes: r.scopes, seat });
+    send(ws, { t: 'room', code: r.code, kbn: r.kbn, mode: r.mode, rule: r.rule, target: r.target, scopes: r.scopes, seat, pub: !!r.pub });
     this.sendPlayers();
 
     ws.addEventListener('message', ev => this.onMessage(me, ev.data));
@@ -206,8 +215,8 @@ export class TypingVersus extends DurableObject {
   sendPlayers(extra) {
     const r = this.room || {};
     this.broadcast(Object.assign({ t: 'players',
-      players: this.players.map(p => ({ name: p.name, seat: p.seat, again: p.again })),
-      host: r.hostSeat, auto: !!r.auto, max: MAX_PLAYERS, startIn: this.startAt ? Math.max(0, this.startAt - Date.now()) : 0
+      players: this.players.map(p => ({ name: p.name, seat: p.seat, again: p.again, dev: p.dev })),
+      host: r.hostSeat, auto: !!r.auto, max: MAX_PLAYERS, pub: !!r.pub, startIn: this.startAt ? Math.max(0, this.startAt - Date.now()) : 0
     }, extra || {}));
   }
   scores() { return Object.fromEntries(this.players.map(p => [p.seat, this.game.scores[p.seat] || 0])); }
@@ -288,6 +297,14 @@ export class TypingVersus extends DurableObject {
 
     if (m.t === 'begin') {
       if (!this.game && this.players.length >= 2 && (this.room.auto || me.seat === this.room.hostSeat)) this.start();
+      return;
+    }
+    if (m.t === 'public') {
+      // みんなの部屋に出す／出さない（部屋を作った人だけ、始まる前だけ）
+      if (me.seat !== this.room.hostSeat || this.room.auto || this.game) return;
+      this.room.pub = !!m.on;
+      this.nearPublish();
+      this.sendPlayers();
       return;
     }
     if (m.t === 'move') {
@@ -434,17 +451,22 @@ export class TypingVersus extends DurableObject {
   // 部屋の側：人を待っている間は一覧に出し、始まった・いっぱい・だれもいなくなったら消す
   nearPublish(remove) {
     const r = this.room;
-    if (!r || !r.near) return;
+    if (!r || (!r.near && !r.pub && !r.pubWas)) return;
     const hostP = this.players.find(p => p.seat === r.hostSeat) || this.players[0];
     const open = !remove && !this.game && this.players.length > 0 && this.players.length < MAX_PLAYERS;
     const info = open ? { code: r.code, kbn: r.kbn, label: (CAT_BY_KBN[r.kbn] || {}).label || r.kbn, mode: r.mode, rule: r.rule,
       target: r.target, host: hostP ? hostP.name : '', n: this.players.length, max: MAX_PLAYERS } : null;
-    const stub = this.env.TYPING_VS.get(this.env.TYPING_VS.idFromName('near:' + r.near));
-    stub.fetch('https://near/near', { method: 'POST', body: JSON.stringify({ code: r.code, info }) }).catch(() => {});
+    const post = (name, i) => this.env.TYPING_VS.get(this.env.TYPING_VS.idFromName(name))
+      .fetch('https://near/near' + (name === 'near:public' ? '?public=1' : ''), { method: 'POST', body: JSON.stringify({ code: r.code, info: i }) }).catch(() => {});
+    if (r.near) post('near:' + r.near, info);
+    // みんなの部屋：出すのをやめたときは一覧から消す
+    if (r.pub || r.pubWas) post('near:public', r.pub ? info : null);
+    r.pubWas = r.pub;
   }
 
   // 一覧の側（'near:…' の Durable Object）：部屋からの知らせを受け、見ている画面に一覧を送る
   async near(request) {
+    if (new URL(request.url).searchParams.get('public')) this.nearMax = PUBLIC_MAX;
     if (request.method === 'POST') {
       const { code, info } = await request.json();
       if (info) this.nearRooms.set(code, Object.assign({}, info, { created: (this.nearRooms.get(code) || {}).created || Date.now() }));
@@ -465,7 +487,7 @@ export class TypingVersus extends DurableObject {
   nearList() {
     const now = Date.now();
     for (const [code, r] of this.nearRooms) if (now - r.created > NEAR_MS) this.nearRooms.delete(code);
-    return [...this.nearRooms.values()].sort((a, b) => b.created - a.created).slice(0, NEAR_MAX)
+    return [...this.nearRooms.values()].sort((a, b) => b.created - a.created).slice(0, this.nearMax || NEAR_MAX)
       .map(({ created, ...r }) => r);
   }
   nearPush() {

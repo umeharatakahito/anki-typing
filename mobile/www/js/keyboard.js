@@ -7,7 +7,8 @@
 //   英字 … QWERTY と数字。
 //   どちらにも ヒント（次の 1 文字）と パス、⌫ がある。
 //
-// new Keyboard(el, { onChar(ch), onCycle(), onBack(), onHint(), onPass(), onMode(mode) })
+// new Keyboard(el, { onChar(ch), onCycle(), onBack(), onHint(), onPass(), onMode(mode), noHint, passLabel })
+//   noHint … ヒントのキーを出さない（対戦）。passLabel … パスのキーの字（対戦は「あきらめる」）
 // ===============================================================
 
 // [押しただけ, 左, 上, 右, 下]
@@ -48,19 +49,19 @@ export class Keyboard {
     const k = (cls, label, data, extra) => `<button type="button" class="kb-k ${cls}" ${data || ''} ${extra || ''}>${label}</button>`;
     if (this.mode === 'kana') {
       const kana = r => r.map(c => k('kb-kana', `<span class="kb-main">${c}</span><span class="kb-sub">${FLICK[c].slice(1).filter(Boolean).join('')}</span>`, `data-kana="${c}"`)).join('');
-      this.el.className = 'kb kb-flick';
+      this.el.className = 'kb kb-flick' + (this.h.noHint ? ' no-hint' : '');
       this.el.innerHTML =
         k('kb-fn kb-mode', 'ABC', 'data-act="mode"') + kana(['あ', 'か', 'さ']) + k('kb-fn kb-back', '⌫', 'data-act="back"') +
         k('kb-fn kb-hint kb-tall', 'ヒント<small>次の1字</small>', 'data-act="hint"') + kana(['た', 'な', 'は']) +
-        k('kb-fn kb-pass kb-tall', 'パス<small>−3秒</small>', 'data-act="pass"') +
+        k('kb-fn kb-pass kb-tall', this.h.passLabel || 'パス<small>−3秒</small>', 'data-act="pass"') +
         kana(['ま', 'や', 'ら']) +
         k('kb-fn kb-cycle', '゛゜小', 'data-act="cycle"') + kana(['わ']) + k('kb-kana kb-cho', '<span class="kb-main">ー</span>', 'data-ch="ー"');
     } else {
       const row = (s, cls) => `<div class="kb-row ${cls || ''}">${[...s].map(c => k('kb-latin', c, `data-ch="${c}"`)).join('')}</div>`;
-      this.el.className = 'kb kb-qwerty';
+      this.el.className = 'kb kb-qwerty' + (this.h.noHint ? ' no-hint' : '');
       this.el.innerHTML = row(QWERTY[0], 'kb-num') + row(QWERTY[1]) + row(QWERTY[2], 'kb-in') +
         `<div class="kb-row">${k('kb-fn kb-mode', 'かな', 'data-act="mode"')}${[...QWERTY[3]].map(c => k('kb-latin', c, `data-ch="${c}"`)).join('')}${k('kb-fn kb-back', '⌫', 'data-act="back"')}</div>` +
-        `<div class="kb-row">${k('kb-fn kb-hint', 'ヒント', 'data-act="hint"')}${k('kb-fn kb-space', 'space', 'data-ch=" "')}${k('kb-fn kb-pass', 'パス −3秒', 'data-act="pass"')}</div>`;
+        `<div class="kb-row">${k('kb-fn kb-hint', 'ヒント', 'data-act="hint"')}${k('kb-fn kb-space', 'space', 'data-ch=" "')}${k('kb-fn kb-pass', this.h.passLabel || 'パス −3秒', 'data-act="pass"')}</div>`;
     }
     this.el.querySelectorAll('.kb-k').forEach(b => this.bind(b));
   }

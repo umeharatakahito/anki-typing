@@ -169,7 +169,7 @@
           <select id="vs-target" class="menu-opt"></select>
         </label>
       </div>
-      <button class="button menu-opt" id="vs-match">だれかと対戦（自動マッチ）</button>
+      <button class="button menu-opt" id="vs-match">🎲 ランダム対戦（入れる部屋に入る・なければ作る）</button>
       <button class="button menu-opt" id="vs-create">部屋を作る（友達と対戦）</button>
       <label class="vs-near-opt"><input type="checkbox" id="vs-near-on" checked> 同じ Wi-Fi の人の画面に、この部屋を出す</label>
       <div class="vs-join">
@@ -183,6 +183,7 @@
       <div id="vs-lobby-count"></div>
       <ul id="vs-lobby-list"></ul>
       <button class="button menu-opt" id="vs-begin" hidden>この人数で始める</button>
+      <button class="button menu-opt" id="vs-pub" hidden>🌐 ランダムで招待する（だれでも入れる）</button>
       <div class="vs-lobby-note" id="vs-lobby-note"></div>
       <!-- 相手を待つ間の広告（会員でない人だけ） -->
       <div class="st-ad-box" data-st-ad="lobby"></div>
@@ -471,7 +472,7 @@
   function connect(params) {
     closeWs();
     const sock = new WebSocket((location.protocol === 'https:' ? 'wss://' : 'ws://') + location.host +
-      '/vs/ws?' + new URLSearchParams(params).toString());
+      '/vs/ws?' + new URLSearchParams(Object.fromEntries(Object.entries(params).filter(([k, v]) => typeof v !== 'function'))).toString());
     ws = sock;
     sock.onmessage = ev => {
       if (ws !== sock) return;
@@ -504,6 +505,7 @@
   function onMessage(m, params) {
     if (m.t === 'error') {
       if (m.message === 'busy') { connect(Object.assign({}, params)); return; }   // 番号がかぶったら作り直す
+      if (params.onFail) { params.onFail(); return; }   // ランダム対戦：入れなければ次の部屋へ
       status(esc(m.message)); showActions(true); return;
     }
     if (m.t === 'matched') {
@@ -547,7 +549,8 @@
     if (m.t === 'players') {
       playersNow = m.players; host = m.host; auto = m.auto;
       // 試合中に抜けた人は names から消して「抜けました」を出す
-      names = Object.fromEntries(m.players.map(p => [p.seat, p.name]));
+      // スマホアプリ（フリック）の人は 📱 を付ける
+      names = Object.fromEntries(m.players.map(p => [p.seat, p.name + (p.dev === 'app' ? ' 📱' : '')]));
       if (h.versusMode || h.vsTA) { renderOpps(); renderBar(); }
       else renderLobby(m);
       if (m.left && !h.versusMode && !h.vsTA) status(esc(m.left) + ' さんが抜けました');
@@ -585,9 +588,14 @@
     box.hidden = false;
     $('vs-lobby-count').textContent = `参加者 ${m.players.length}/${m.max || 4} 人`;
     $('vs-lobby-list').innerHTML = m.players.map(p =>
-      `<li class="${p.seat === m.host && !m.auto ? 'host' : ''}">${p.seat === seat ? 'あなた' : esc(p.name)}</li>`).join('');
+      `<li class="${p.seat === m.host && !m.auto ? 'host' : ''}">${p.seat === seat ? 'あなた' : esc(p.name)} <span title="${p.dev === 'app' ? 'スマホアプリ（フリック）' : 'Web（キーボード）'}">${p.dev === 'app' ? '📱' : '⌨️'}</span></li>`).join('');
     const canBegin = m.players.length >= 2 && (m.auto || m.host === seat);
     $('vs-begin').hidden = !canBegin;
+    // 部屋を作った人は、みんなの部屋（ランダム対戦の一覧）に出せる
+    const pb = $('vs-pub');
+    pb.hidden = m.auto || m.host !== seat;
+    pb.dataset.on = m.pub ? '1' : '';
+    pb.textContent = m.pub ? '🌐 みんなの部屋に出しています（押すとやめる）' : '🌐 ランダムで招待する（だれでも入れる）';
     if (startInTimer) { clearInterval(startInTimer); startInTimer = null; }
     const note = $('vs-lobby-note');
     if (m.auto && m.startIn) {
@@ -838,11 +846,32 @@
   // プレイ設定で選んだ出題範囲（全部なら空）
   function scopesArg() { return ((h.scopesFor && h.scopesFor(h.kubun)) || []).join(','); }
   $('vs-back').onclick = backToModes;
+  // ランダム対戦：みんなの部屋（/vs/public）から、人を待っている部屋にでたらめに入る。
+  // 入れなかった（始まった・いっぱい）ら次の部屋、どこも無ければ、この設定でみんなの部屋を作って待つ
   $('vs-match').onclick = () => {
     showActions(false);
-    status(`相手を探しています…（同じ問題集・同じモード・${RULES[rl()].unit(tgt())}を選んだ人と組みます。2人そろうと、最大1分ほかの人を待ちます）`);
-    connect({ match: 1, kbn: h.kubun, mode, rule: rl(), target: tgt(), scopes: scopesArg() });
+    status('入れる部屋を探しています…');
+    const sock = new WebSocket((location.protocol === 'https:' ? 'wss://' : 'ws://') + location.host + '/vs/public');
+    sock.onmessage = ev => {
+      const m = JSON.parse(ev.data);
+      if (m.t !== 'near') return;
+      sock.close();
+      const rooms = (m.rooms || []).filter(r => r.n < r.max).sort(() => Math.random() - .5);
+      const next = () => {
+        const r = rooms.shift();
+        if (!r) {
+          status('入れる部屋が無かったので、部屋を作って相手を待ちます（みんなの部屋に出しています）');
+          connect({ create: 1, kbn: h.kubun, mode, rule: rl(), target: tgt(), scopes: scopesArg(), near: nearArg(), pub: 1 });
+          return;
+        }
+        status(esc(r.host || 'だれか') + ' さんの部屋（' + esc(r.label) + '）に入っています…');
+        connect({ code: r.code, onFail: next });
+      };
+      next();
+    };
+    sock.onerror = () => { status('通信できませんでした。もう一度お試しください'); showActions(true); };
   };
+  $('vs-pub').onclick = () => send({ t: 'public', on: !$('vs-pub').dataset.on });
   $('vs-create').onclick = () => {
     showActions(false);
     status('部屋を作っています…');
