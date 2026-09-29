@@ -150,6 +150,28 @@
   const scopeInfo = {};   // kbn → { paid, member, scopes: [{ scope, n, free, locked }] }（サーバーの getScopes）
   const scSel = (() => { try { return JSON.parse(localStorage.getItem('st-scopes') || '{}'); } catch (e) { return {}; } })();
   const saveSc = () => { try { localStorage.setItem('st-scopes', JSON.stringify(scSel)); } catch (e) {} };
+  // 会員は、選んだ範囲をアカウントにも残す（どのブラウザでも同じ。stats.js の setMyScopes / getMySets）
+  const isMember = !!(window.ST_VIEWER && window.ST_VIEWER.member);
+  const hasRun = () => !!(window.google && google.script && google.script.run);
+  // 続けて押したときは、押し終わってからの最後の状態だけを送る（順番が前後して古い選び方が残らないように）
+  const pushTimers = {};
+  function pushSc(kbn) {
+    if (!isMember || !hasRun()) return;
+    clearTimeout(pushTimers[kbn]);
+    pushTimers[kbn] = setTimeout(() => {
+      google.script.run.withFailureHandler(() => {}).setMyScopes(kbn, Array.isArray(scSel[kbn]) ? scSel[kbn] : null);
+    }, 700);
+  }
+  if (isMember && hasRun()) {
+    google.script.run.withSuccessHandler(r => {
+      if (!r || !r.scopes) return;
+      const kbn = h.kubun, before = kbn ? JSON.stringify(scSel[kbn] || null) : '';
+      Object.keys(r.scopes).forEach(k => { scSel[k] = r.scopes[k]; });
+      saveSc();
+      // 今開いている問題集の範囲が変わったら、画面と問題を合わせる
+      if (kbn && JSON.stringify(scSel[kbn] || null) !== before && scopeInfo[kbn]) { renderScopes(); render(); reloadSoon(); }
+    }).withFailureHandler(() => {}).getMySets();
+  }
   const usable = kbn => (scopeInfo[kbn] ? scopeInfo[kbn].scopes.filter(x => !x.locked).map(x => x.scope) : []);
   // 選んでいる範囲（選べるものだけ）。選んでいなければ選べる全部
   function chosen(kbn) {
@@ -246,14 +268,14 @@
       const cur = chosen(kbn);
       const next = cur.includes(x.scope) ? cur.filter(v => v !== x.scope) : u.filter(v => v === x.scope || cur.includes(v));
       if (!next.length) return;   // 1 つは残す
-      scSel[kbn] = next; saveSc();
+      scSel[kbn] = next; saveSc(); pushSc(kbn);
       renderScopes(); render(); reloadSoon();
       const again = $('ps-scopes').querySelector(`[data-i="${b.dataset.i}"]`);
       if (again) again.focus();
     });
     if (h.enableMenuNav && $('menu-mode') && $('menu-mode').style.display !== 'none') h.enableMenuNav($('menu-mode'));
   }
-  $('ps-scope-all').onclick = () => { delete scSel[h.kubun]; saveSc(); renderScopes(); render(); reloadSoon(); };
+  $('ps-scope-all').onclick = () => { delete scSel[h.kubun]; saveSc(); pushSc(h.kubun); renderScopes(); render(); reloadSoon(); };
 
   function render() {
     const lv = levelOf(st.level);

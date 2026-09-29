@@ -45,6 +45,7 @@ const CSS = `<style>
 #st-pay ul{margin:8px 22px 0;padding:0 0 0 1.2em;font-size:13.5px}
 #st-pay .pw-price{margin:12px 0 0;text-align:center;font-weight:800;font-size:15px}
 #st-pay .pw-price b{font-size:26px;color:#ff6b35}
+#st-pay .pw-price small{font-size:12px;font-weight:700;opacity:.75}
 #st-pay .pw-row{display:flex;gap:8px;padding:16px 22px 22px}
 #st-pay .pw-row a,#st-pay .pw-row button{flex:1;padding:11px;border-radius:12px;font:inherit;font-weight:800;text-align:center;text-decoration:none;cursor:pointer}
 #st-pay .pw-go{background:linear-gradient(135deg,#ff7a45,#f0561d);color:#fff;border:0}
@@ -247,19 +248,21 @@ function script(viewer, env) {
   };
   if (document.querySelector('.st-ad')) document.body.classList.add('st-has-ad');
   // 会員向けの案内。what は「ITパスポートの『セキュリティ』」のような、開けようとしたもの
-  window.stPaywall = function(what){
+  // opt … { title, text } で見出しと説明を差し替える（範囲以外の会員機能の案内）
+  window.stPaywall = function(what, opt){
     var d = document.getElementById('st-pay');
     if (!d) {
       d = document.createElement('dialog'); d.id = 'st-pay';
       d.innerHTML = '<div class="pw-top"><span class="pw-lock">🔒</span><h2>会員向けの範囲です</h2><p class="pw-what"></p></div>' +
-        '<ul><li>大学受験・英会話・資格の<b>全部の範囲</b>が選べる</li><li>会員が作った対戦部屋は、全部の範囲から出る</li><li>広告が出ない</li></ul>' +
-        '<p class="pw-price">月 <b>100</b> 円（1年分 1,200 円は PayPay・コンビニでも）</p>' +
+        '<ul><li>大学受験・英会話・資格の<b>全部の範囲</b>が選べる</li><li>会員が作った対戦部屋は、全部の範囲から出る</li><li><b>マイメニュー</b>：お気に入りの問題集をトップに並べる</li><li>広告が出ない</li></ul>' +
+        '<p class="pw-price">月 <b>100</b> 円<br><small>1年分 1,200 円は PayPay・コンビニでも</small></p>' +
         '<div class="pw-row"><button type="button" class="pw-no">あとで</button><a class="pw-go" href="/plan">会員プランを見る</a></div>';
       document.body.appendChild(d);
       d.querySelector('.pw-no').onclick = function(){ d.close(); };
       d.addEventListener('click', function(e){ if (e.target === d) d.close(); });
     }
-    d.querySelector('.pw-what').textContent = what ? what + ' は会員になると選べます。無料版は範囲の先頭 3 割までです' : '無料版は範囲の先頭 3 割までです';
+    d.querySelector('h2').textContent = (opt && opt.title) || '会員向けの範囲です';
+    d.querySelector('.pw-what').textContent = (opt && opt.text) || (what ? what + ' は会員になると選べます。無料版は範囲の先頭 3 割までです' : '無料版は範囲の先頭 3 割までです');
     if (d.showModal) d.showModal(); else location.href = '/plan';
     setTimeout(function(){ var g = d.querySelector('.pw-go'); if (g) g.focus(); }, 0);
   };

@@ -539,3 +539,59 @@ export async function markedJukenKeys(env, subject, limit) {
     return results.map(r => r.key);
   } catch (e) { return []; }
 }
+
+// ---------------------------------------------------------------
+// マイメニュー（会員）：お気に入りの問題集と、問題集ごとに選んだ出題範囲。アカウントに残すので、どのブラウザでも同じ
+const MY_SETS_MAX = 30;
+
+// お気に入りの一覧 [{ kbn, cat }]（入れた順）。会員でなければ []
+export async function myFavorites(env) {
+  if (!env.viewer.email || !env.viewer.member) return [];
+  try {
+    const { results } = await env.DB.prepare(
+      'SELECT kbn, cat FROM user_sets WHERE email = ? AND fav = 1 ORDER BY fav_at LIMIT ?'
+    ).bind(env.viewer.email, MY_SETS_MAX).all();
+    return results.filter(r => CAT_BY_KBN[r.kbn]);
+  } catch (e) { return []; }   // user_sets がまだ無い
+}
+
+// 画面（PlaySetup・分類ページ）が読む：{ member, favs: [kbn], scopes: { kbn: [範囲] } }
+export async function getMySets(env) {
+  if (!env.viewer.email || !env.viewer.member) return { member: false, favs: [], scopes: {} };
+  const { results } = await env.DB.prepare('SELECT kbn, fav, scopes FROM user_sets WHERE email = ?').bind(env.viewer.email).all();
+  const scopes = {};
+  results.forEach(r => { try { const a = JSON.parse(r.scopes || 'null'); if (Array.isArray(a)) scopes[r.kbn] = a; } catch (e) {} });
+  return { member: true, favs: results.filter(r => r.fav).map(r => r.kbn), scopes };
+}
+
+// お気に入りに入れる・外す（会員だけ）
+export async function setFavorite(env, kbn, on, cat) {
+  if (!env.viewer.member || !env.viewer.email) return { error: 'members_only' };
+  kbn = String(kbn || '');
+  if (!CAT_BY_KBN[kbn]) return { error: 'kbn' };
+  if (on) {
+    const n = await env.DB.prepare('SELECT COUNT(*) AS n FROM user_sets WHERE email = ? AND fav = 1').bind(env.viewer.email).first();
+    if (n && n.n >= MY_SETS_MAX) return { error: `お気に入りは ${MY_SETS_MAX} 個までです` };
+  }
+  const now = Date.now();
+  await env.DB.prepare(
+    `INSERT INTO user_sets (email, kbn, cat, fav, fav_at, at) VALUES (?, ?, ?, ?, ?, ?)
+     ON CONFLICT(email, kbn) DO UPDATE SET fav = excluded.fav,
+       cat = CASE WHEN excluded.fav = 1 THEN excluded.cat ELSE user_sets.cat END,
+       fav_at = CASE WHEN excluded.fav = 1 AND user_sets.fav = 0 THEN excluded.fav_at ELSE user_sets.fav_at END, at = excluded.at`
+  ).bind(env.viewer.email, kbn, String(cat || '').slice(0, 20), on ? 1 : 0, now, now).run();
+  return { ok: true, fav: !!on };
+}
+
+// 選んだ出題範囲を残す（会員だけ。null なら全部）
+export async function setMyScopes(env, kbn, scopes) {
+  if (!env.viewer.member || !env.viewer.email) return { ok: false };
+  kbn = String(kbn || '');
+  if (!CAT_BY_KBN[kbn]) return { error: 'kbn' };
+  const list = Array.isArray(scopes) ? scopes.map(String).slice(0, 30) : null;
+  await env.DB.prepare(
+    `INSERT INTO user_sets (email, kbn, scopes, at) VALUES (?, ?, ?, ?)
+     ON CONFLICT(email, kbn) DO UPDATE SET scopes = excluded.scopes, at = excluded.at`
+  ).bind(env.viewer.email, kbn, list ? JSON.stringify(list) : '', Date.now()).run();
+  return { ok: true };
+}

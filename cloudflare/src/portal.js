@@ -190,11 +190,29 @@ a{color:inherit}
 [data-theme="dark"] .set .ico{color:var(--a);background:color-mix(in srgb,var(--a) 20%,transparent)}
 .set b{display:block;color:var(--ink);font-size:15.5px;line-height:1.35}
 .set small{display:block;color:var(--muted);font-size:12.5px;line-height:1.45}
-.set .meta{display:flex;gap:6px;margin-top:4px}
+.set .meta{display:flex;flex-wrap:wrap;gap:4px 6px;margin-top:4px}
 .tag{display:inline-block;white-space:nowrap;padding:1px 8px;border-radius:999px;font-size:11px;font-weight:800;background:var(--chip);color:var(--muted)}
 .set .arrow{margin-left:auto;color:var(--muted);transition:transform .15s}
 .set:hover .arrow{transform:translateX(3px);color:var(--b)}
 .set.soon{background:var(--soon);box-shadow:none;cursor:default}
+/* お気に入り（☆）。カードの右上に重ねる（会員のマイメニューに出る） */
+.set-w{position:relative;display:flex;min-width:0}
+.set-w > .set{flex:1;min-width:0;padding-right:30px}
+.star{position:absolute;top:4px;right:4px;display:grid;place-items:center;width:32px;height:32px;border-radius:50%;
+  border:0;background:transparent;color:var(--muted);font-size:19px;line-height:1;cursor:pointer;transition:transform .12s,color .12s}
+.star:hover{transform:scale(1.15);color:#f59f00}
+.star[aria-pressed="true"]{color:#f59f00}
+.star:focus-visible{outline:3px solid var(--orange);outline-offset:1px}
+/* マイメニュー（会員。トップのいちばん上） */
+.mine{margin:0 0 22px;padding:16px 18px 18px;border-radius:20px;background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow)}
+.mine h2{display:flex;align-items:center;gap:8px;margin:0 0 10px;font-size:16px;font-weight:900;color:var(--ink)}
+.mine h2 .ic{width:20px;height:20px;color:#f59f00}
+.mine h2 small{margin-left:auto;font-size:12px;font-weight:700;color:var(--muted)}
+.mine .sets{grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.mine .set{padding:10px 12px}
+.mine .set .ico{width:40px;height:40px;border-radius:12px}
+.mine .set .cat{display:block;font-size:11px;font-weight:800;color:var(--muted);letter-spacing:.06em}
+.mine .empty{padding:14px;font-size:13.5px}
 .set.soon:hover{transform:none;border-color:var(--line)}
 .set.soon .ico{filter:grayscale(.4);opacity:.7}
 .tag.soon{background:transparent;border:1px dashed var(--muted)}
@@ -300,7 +318,7 @@ const liveSets = (m, available) => {
 
 // ---------------------------------------------------------------
 // トップ
-export function renderHome(viewer, available) {
+export function renderHome(viewer, available, favs) {
   const tiles = MENU.map(m => {
     const n = liveSets(m, available).length;
     const price = PAID_CATS.includes(m.key) ? '<span class="price paid">3割無料</span>' : '<span class="price">無料</span>';
@@ -321,8 +339,24 @@ export function renderHome(viewer, available) {
       : `<a class="feat nav-item k-${f.color}" href="${esc(f.href)}">${inner}</a>`;
   }).join('\n');
 
+  // マイメニュー（会員）：分類ページの ☆ で入れた問題集
+  let mine = '';
+  if (viewer.member && viewer.email) {
+    const catOf = key => MENU.find(m => m.key === key);
+    const cards = (favs || []).map(f => {
+      const c = setInfo(f.kbn), m = catOf(f.cat) || MENU.find(x => x.groups.some(g => g.sets.includes(f.kbn)));
+      if (!c || !m || (available && !available.has(f.kbn))) return '';
+      return `<a class="set nav-item k-${m.color}" href="?p=${m.key}&amp;k=${encodeURIComponent(f.kbn)}">
+  <span class="ico">${icon(c.icon)}</span><span><span class="cat">${esc(m.title)}</span><b>${esc(c.label)}</b></span>
+  <span class="arrow">${icon('chevron-right')}</span></a>`;
+    }).join('\n');
+    mine = `<section class="mine" aria-label="マイメニュー"><h2>${icon('star')}マイメニュー<small>分類ページの ☆ で追加</small></h2>
+  ${cards ? `<div class="sets">${cards}</div>` : '<p class="empty">分類ページで問題集の ☆ を押すと、ここに並びます。よく遊ぶ問題集をすぐ始められます</p>'}</section>`;
+  }
+
   const body = `
 <header class="hero">${LOGO}</header>
+${mine}
 
 <section class="play-row">
   <div class="versus">
@@ -366,7 +400,8 @@ ${feats}
 
 // ---------------------------------------------------------------
 // 分類ページ（?p=<大分類>）
-export function renderCategory(m, available) {
+export function renderCategory(m, available, viewer, favs) {
+  const favSet = new Set((favs || []).map(f => f.kbn));
   const card = k => {
     const c = setInfo(k);
     if (!c) return '';
@@ -378,8 +413,10 @@ export function renderCategory(m, available) {
     const inner = `<span class="ico">${icon(c.icon)}</span>
   <span><b>${esc(c.label)}</b><small>${esc(c.desc)}</small><span class="meta">${tags}</span></span>
   ${soon ? '' : `<span class="arrow">${icon('chevron-right')}</span>`}`;
-    return soon ? `<div class="set soon" aria-disabled="true">${inner}</div>`
-      : `<a class="set nav-item" href="?p=${m.key}&amp;k=${encodeURIComponent(k)}">${inner}</a>`;
+    if (soon) return `<div class="set soon" aria-disabled="true">${inner}</div>`;
+    const on = favSet.has(k);
+    return `<div class="set-w"><a class="set nav-item" href="?p=${m.key}&amp;k=${encodeURIComponent(k)}">${inner}</a>
+  <button type="button" class="star" data-kbn="${esc(k)}" aria-pressed="${on}" title="${on ? 'マイメニューから外す' : 'マイメニューに入れる'}" aria-label="${esc(c.label)}をマイメニューに入れる">${on ? '★' : '☆'}</button></div>`;
   };
   const groups = m.groups.map((g, i) => `<section class="group" id="g${i + 1}">
   <h2>${esc(g.label)}</h2>
@@ -398,6 +435,26 @@ export function renderCategory(m, available) {
   </section>
   ${m.groups.length > 1 ? `<nav class="jump">${m.groups.map((g, i) => `<a href="#g${i + 1}">${esc(g.label)}</a>`).join('')}</nav>` : ''}
   ${groups || '<p class="empty">問題集を準備中です</p>'}
-</div>`;
+</div>
+<script>
+(function(){
+  // ☆ を押すとマイメニュー（トップ）に入れる。会員の機能なので、会員でなければ案内を出す
+  var member = ${viewer && viewer.member && viewer.email ? 'true' : 'false'}, cat = ${JSON.stringify(m.key)};
+  document.querySelectorAll('.star').forEach(function(b){
+    b.addEventListener('click', function(){
+      if (!member) {
+        if (window.stPaywall) window.stPaywall('', { title: 'マイメニューは会員の機能です', text: '☆ を押した問題集が、トップのいちばん上に並びます。選んだ出題範囲も、どのブラウザ・スマホでも同じになります' });
+        else location.href = '/plan';
+        return;
+      }
+      var on = b.getAttribute('aria-pressed') !== 'true';
+      b.setAttribute('aria-pressed', String(on)); b.textContent = on ? '★' : '☆';
+      fetch('/api/setFavorite', { method:'POST', headers:{ 'content-type':'application/json' }, body: JSON.stringify([b.dataset.kbn, on, cat]) })
+        .then(function(r){ return r.json(); })
+        .then(function(j){ var v = j.value || {}; if (j.error || v.error) { b.setAttribute('aria-pressed', String(!on)); b.textContent = on ? '☆' : '★'; alert(v.error || j.error); } });
+    });
+  });
+})();
+</script>`;
   return page(m.title + ' | STUDY TYPE', body, m.title + 'の問題をタイピングで覚える。' + m.lead);
 }

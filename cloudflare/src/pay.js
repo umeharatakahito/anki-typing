@@ -129,7 +129,7 @@ const PLAN_CSS = `<style>
 .plan-now b{color:var(--ink)} .plan-now .grow{flex:1}
 .plan-now.ok{border-color:color-mix(in srgb,#12b886 55%,var(--line))}
 .plan-now button{padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:var(--chip);color:var(--ink);font:inherit;font-weight:700;cursor:pointer}
-.perks{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 26px}
+.perks{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:0 0 26px}
 .perk{padding:16px;border-radius:16px;background:var(--card);border:1px solid var(--line)}
 .perk .ic{width:26px;height:26px;color:var(--orange)} .perk b{display:block;margin:6px 0 2px;color:var(--ink)} .perk small{color:var(--muted);font-size:13px;line-height:1.5}
 .plans{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
@@ -195,6 +195,7 @@ export function renderPlan(viewer, env, url) {
   <div class="perks">
     <div class="perk">${icon('list-checks')}<b>全部の範囲が選べる</b><small>無料版は範囲の先頭 3 割まで。会員は ITパスポートのテクノロジも、世界史の 20 世紀も</small></div>
     <div class="perk">${icon('swords')}<b>対戦も全部の範囲で</b><small>会員が作った部屋は、友達が無料版でも全部の範囲から出ます</small></div>
+    <div class="perk">${icon('star')}<b>マイメニュー</b><small>☆ を付けた問題集がトップに並びます。選んだ範囲も、どのブラウザ・スマホでも同じに</small></div>
     <div class="perk">${icon('eye-off')}<b>広告なし</b><small>画面の広告が出なくなります</small></div>
   </div>
   ${ready ? '' : `<div class="plan-now">${icon('construction')}<span class="grow">お支払いの準備中です。もうしばらくお待ちください。</span></div>`}

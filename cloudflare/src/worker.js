@@ -69,7 +69,7 @@ function withHead(html, title, viewport) {
 const JUKEN_ONLY = ['juken', 'eigo', 'kobun', 'rekishi', 'versus'];
 
 // HTML の文字列か、よそへ回すときは Response を返す
-function renderPage(url, viewer, available, env) {
+function renderPage(url, viewer, available, env, favs) {
   const route = String(url.searchParams.get('p') || url.pathname.replace(/^\/+|\/+$/g, '')).toLowerCase();
   const vars = { execUrl: '/', subject: '', subjectLabel: '', backRoute: '', autoMode: '', studySet: null,
                  jukenFull: viewer.juken };
@@ -99,7 +99,7 @@ function renderPage(url, viewer, available, env) {
   const cat = MENU.find(m => m.key === catKey);
   const askedK = url.searchParams.get('k');
   const playable = askedK && STUDY_SETS[catKey] && STUDY_SETS[catKey].cats.some(c => c.kbn === askedK && (!available || available.has(c.kbn)));
-  if (cat && !playable && !url.searchParams.get('join')) return renderCategory(cat, available);
+  if (cat && !playable && !url.searchParams.get('join')) return renderCategory(cat, available, viewer, favs);
 
   // タイピング（HAMACHI-TYPE）。大分類ごとに並べる問題集が変わる。
   // 練習モードなどの直行ルートは資格の「基本・応用」
@@ -129,7 +129,7 @@ function renderPage(url, viewer, available, env) {
   }
 
   // それ以外はトップ
-  return renderHome(viewer, available);
+  return renderHome(viewer, available, favs);
 }
 
 // ---------------------------------------------------------------
@@ -191,6 +191,9 @@ const D1_FUNCTIONS = {
   getQuestions: stats.getQuestions,
   getLevelInfo: stats.getLevelInfo,
   getScopes: stats.getScopes,
+  getMySets: stats.getMySets,
+  setFavorite: stats.setFavorite,
+  setMyScopes: stats.setMyScopes,
   getLevelQuestions: stats.getLevelQuestions,
   getUserRanking: stats.getUserRanking,
   getMyStats: stats.getMyStats,
@@ -344,7 +347,7 @@ export default {
       const pref = await env.DB.prepare('SELECT theme FROM user_prefs WHERE email = ?').bind(viewer.email).first();
       theme = pref ? pref.theme : '';
     }
-    const page = renderPage(url, viewer, await availableKbns(env), env);
+    const page = renderPage(url, viewer, await availableKbns(env), env, await stats.myFavorites(env));
     if (page instanceof Response) return page;
     return new Response(decorate(page, viewer, env, theme), {
       headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store' }
