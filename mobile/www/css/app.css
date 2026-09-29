@@ -136,6 +136,7 @@ button{font:inherit;color:inherit;touch-action:manipulation}
 .kb-row .kb-space{flex:4;font-size:14px}
 .kb-pop{position:fixed;z-index:50;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(3,1fr);pointer-events:none;
   grid-template-areas:". u ." "l c r" ". d ."}
+.kb-pop[hidden]{display:none}
 .kb-pop span{display:grid;place-items:center;margin:2px;border-radius:10px;background:#f2f5fb;color:#1d2b53;font-size:26px;font-weight:800;box-shadow:0 6px 18px rgba(0,0,0,.4)}
 .kb-pop span.none{visibility:hidden}
 .kb-pop span.sel{background:var(--orange);color:#fff;transform:scale(1.08)}

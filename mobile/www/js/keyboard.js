@@ -29,10 +29,10 @@ export class Keyboard {
     this.pop.className = 'kb-pop';
     this.pop.hidden = true;
     document.body.appendChild(this.pop);
-    // 指を離した知らせがキーに届かないことがある（iPhone の WebView）。画面のどこで離しても案内は消す
-    this.active = 0;
-    this.clear = () => { this.pop.hidden = true; this.el.querySelectorAll('.kb-k.on').forEach(b => b.classList.remove('on')); };
-    ['touchend', 'touchcancel'].forEach(t => document.addEventListener(t, e => { if (!e.touches.length) setTimeout(this.clear, 0); }, true));
+    // 念のため：画面の指が全部離れたら、押したままのキーと十字の案内を必ず消す
+    this.pressed = new Set();
+    this.clear = () => { this.pop.hidden = true; [...this.pressed].forEach(r => r()); this.el.querySelectorAll('.kb-k.on').forEach(x => x.classList.remove('on')); };
+    ['touchend', 'touchcancel'].forEach(t => document.addEventListener(t, e => { if (!e.touches.length) setTimeout(this.clear, 0); }));
     this.render();
   }
 
@@ -64,36 +64,36 @@ export class Keyboard {
     this.el.querySelectorAll('.kb-k').forEach(b => this.bind(b));
   }
 
+  // キーの押す・滑らせる・離す。iPhone ではタッチの知らせ（touchstart / touchmove / touchend）で受ける
+  // （WebView では指を滑らせたあと pointerup が届かないことがあるため）。マウス（パソコンで試すとき）は pointer で受ける
   bind(b) {
-    let start = null, dir = 0, id = null;
     const kana = b.dataset.kana;
+    let start = null, dir = 0, tid = null;
     const dirOf = (dx, dy) => {
       if (Math.hypot(dx, dy) < FLICK_MIN) return 0;
       return Math.abs(dx) > Math.abs(dy) ? (dx < 0 ? 1 : 3) : (dy < 0 ? 2 : 4);
     };
-    b.addEventListener('pointerdown', e => {
-      e.preventDefault();
-      if (start && e.pointerId === id) return;   // 同じ指の二重の知らせ
-      id = e.pointerId;
-      try { b.setPointerCapture(id); } catch (x) {}
-      start = { x: e.clientX, y: e.clientY };
-      dir = 0;
+    const down = (x, y) => {
+      start = { x, y }; dir = 0;
       b.classList.add('on');
+      this.pressed.add(reset);
       if (this.h.onPress) this.h.onPress();
       if (kana) this.showPop(b, kana, 0);
-    });
-    b.addEventListener('pointermove', e => {
-      if (!start || e.pointerId !== id || !kana) return;
-      const d = dirOf(e.clientX - start.x, e.clientY - start.y);
+    };
+    const move = (x, y) => {
+      if (!start || !kana) return;
+      const d = dirOf(x - start.x, y - start.y);
       if (d !== dir && FLICK[kana][d]) { dir = d; this.showPop(b, kana, d); if (this.h.onFlick) this.h.onFlick(); }
-    });
-    const end = e => {
-      if (!start || e.pointerId !== id) return;
-      start = null;
-      b.classList.remove('on');
+    };
+    const reset = () => { start = null; tid = null; b.classList.remove('on'); this.pressed.delete(reset); };
+    const up = (x, y, cancel) => {
+      if (!start) return;
+      if (x != null) move(x, y);
+      const d = dir;
+      reset();
       this.pop.hidden = true;
-      if (e.type === 'pointercancel') return;
-      if (kana) { const ch = FLICK[kana][dir] || FLICK[kana][0]; this.h.onChar(ch); return; }
+      if (cancel) return;
+      if (kana) { this.h.onChar(FLICK[kana][d] || FLICK[kana][0]); return; }
       if (b.dataset.ch) { this.h.onChar(b.dataset.ch); return; }
       const act = b.dataset.act;
       if (act === 'mode') this.setMode(this.mode === 'kana' ? 'latin' : 'kana');
@@ -102,8 +102,22 @@ export class Keyboard {
       else if (act === 'hint') this.h.onHint();
       else if (act === 'pass') this.h.onPass();
     };
-    b.addEventListener('pointerup', end);
-    b.addEventListener('pointercancel', end);
+    const mine = e => [...e.changedTouches].find(t => t.identifier === tid);
+    b.addEventListener('touchstart', e => {
+      e.preventDefault();   // スクロール・拡大・マウスのまねの知らせを出さない
+      if (start) return;
+      const t = e.changedTouches[0];
+      tid = t.identifier;
+      down(t.clientX, t.clientY);
+    }, { passive: false });
+    b.addEventListener('touchmove', e => { e.preventDefault(); const t = mine(e); if (t) move(t.clientX, t.clientY); }, { passive: false });
+    b.addEventListener('touchend', e => { e.preventDefault(); const t = mine(e); if (t) up(t.clientX, t.clientY); }, { passive: false });
+    b.addEventListener('touchcancel', e => { const t = mine(e); if (t) up(null, null, true); });
+    // マウス（タッチの無いとき）
+    b.addEventListener('pointerdown', e => { if (e.pointerType !== 'mouse') return; e.preventDefault(); try { b.setPointerCapture(e.pointerId); } catch (x) {} down(e.clientX, e.clientY); });
+    b.addEventListener('pointermove', e => { if (e.pointerType === 'mouse') move(e.clientX, e.clientY); });
+    b.addEventListener('pointerup', e => { if (e.pointerType === 'mouse') up(e.clientX, e.clientY); });
+    b.addEventListener('pointercancel', e => { if (e.pointerType === 'mouse') up(null, null, true); });
   }
 
   // 押しているキーの上に、5 方向の字を出す（滑らせている向きを明るく）
