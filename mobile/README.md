@@ -40,8 +40,9 @@ UDID は `xcrun devicectl list devices` で見る。署名のチームは P89RKR
 
 - いまは **Google のテスト広告**（`AD_CONFIG.live = false`、Info.plist の `GADApplicationIdentifier` もテスト用の ID）。
   自分の本物の広告を押すと AdMob のアカウントが止まることがあるので、開発中と TestFlight はテストのまま
-- App Store に出す版を作るときだけ：AdMob で作った STUDY TYPE のアプリ ID を Info.plist に、バナーのユニット ID を
-  `AD_CONFIG.banner.real` に入れ、`live: true` にする
+- App Store に出す版を作るときだけ：`ads.js` の `live` を `true` にし、Info.plist の `GADApplicationIdentifier` を
+  本物のアプリ ID `ca-app-pub-6787317133124761~2648671992` に替える（バナーのユニット ID
+  `ca-app-pub-6787317133124761/1566865473` は `ads.js` に入っている）
 
 ## App Store / TestFlight
 
