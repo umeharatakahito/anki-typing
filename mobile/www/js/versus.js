@@ -12,7 +12,7 @@
 import { icon } from './icons.js';
 import { Keyboard } from './keyboard.js';
 import { alts, tryAppend, tryCycle, bestAnswer, isLatin, prefixState } from './match.js';
-import { show, back, screen, topBar, esc, qhtml, store, LEVELS, buzz, game, onLeave, getSets } from './app.js';
+import { show, back, screen, topBar, esc, qhtml, store, LEVELS, buzz, game, onLeave, getSets, fitText } from './app.js';
 
 const SERVER = () => store.get('server', 'https://studytype.umekobo.com');
 const wsUrl = path => SERVER().replace(/^http/, 'ws') + path;
@@ -294,6 +294,9 @@ function rounds(start) {
     $('meta').textContent = `第 ${r + 1} 問・ミス ${missLimit} 回まで`;
     $('qimg').innerHTML = q[5] ? `<img src="${esc(q[5])}" alt="">` : '';
     $('qtext').innerHTML = qhtml(q[0]);
+    fitText($('qtext'));
+    const im = $('qimg').querySelector('img');
+    if (im) im.onload = () => fitText($('qtext'));
     $('ans').className = 'answer';
     $('reveal').innerHTML = '';
     $('point').hidden = true;

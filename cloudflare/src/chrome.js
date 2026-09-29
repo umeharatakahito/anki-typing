@@ -262,7 +262,7 @@ function script(viewer, env) {
       d.addEventListener('click', function(e){ if (e.target === d) d.close(); });
     }
     d.querySelector('h2').textContent = (opt && opt.title) || '会員向けの範囲です';
-    d.querySelector('.pw-what').textContent = (opt && opt.text) || (what ? what + ' は会員になると選べます。無料版は範囲の先頭 3 割までです' : '無料版は範囲の先頭 3 割までです');
+    d.querySelector('.pw-what').textContent = (opt && opt.text) || (what ? what + ' は会員になると選べます。無料版で選べるのは、はじめのいくつかの範囲だけです' : '無料版で選べるのは、はじめのいくつかの範囲だけです');
     if (d.showModal) d.showModal(); else location.href = '/plan';
     setTimeout(function(){ var g = d.querySelector('.pw-go'); if (g) g.focus(); }, 0);
   };

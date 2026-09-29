@@ -93,6 +93,23 @@ function wire(el) {
   el.querySelectorAll('[data-back]').forEach(b => b.onclick = back);
   el.querySelectorAll('.flip').forEach(s => { s.style.transform = 'scaleX(-1)'; });
 }
+// 問題文を読めるように収める。まず図を小さくし（72px まで）、それでも入らなければ字を小さくする（13px まで）。
+// それでも長ければ、文の枠の中で指で動かして読む
+export function fitText(el) {
+  const img = el.parentNode.querySelector('.q-img');
+  el.style.fontSize = '';
+  if (img) img.style.flexBasis = '';
+  requestAnimationFrame(() => {
+    const over = () => el.scrollHeight > el.clientHeight + 1;
+    if (img && img.firstChild) {
+      let h = img.clientHeight;
+      while (over() && h > 72) { h -= 12; img.style.flexBasis = h + 'px'; }
+    }
+    let size = parseFloat(getComputedStyle(el).fontSize);
+    while (over() && size > 13) { size -= 1; el.style.fontSize = size + 'px'; }
+  });
+}
+
 export function screen(cls, html) {
   const el = document.createElement('div');
   el.className = 'screen ' + (cls || '');
@@ -115,7 +132,7 @@ const LOGO = `<svg viewBox="0 0 330 92" role="img" aria-label="STUDY TYPE 打っ
 // トップ
 function home() {
   const tiles = MENU.map(m => `<button class="tile k-${m.color}" data-cat="${m.key}">
-    <div class="art">${icon(m.icon)}<span class="price${m.paid ? ' paid' : ''}">${m.paid ? '3割無料' : '無料'}</span></div>
+    <div class="art">${icon(m.icon)}<span class="price${m.paid ? ' paid' : ''}">${m.paid ? '一部無料' : '無料'}</span></div>
     <div class="body"><span class="en">${esc(m.en)}</span><b>${esc(m.title)}</b><small>${esc(m.lead)}</small></div></button>`).join('');
   const n = Object.values(SETS).reduce((a, s) => a + s.n, 0);
   const el = screen('', `<button class="icon-btn home-menu" id="menu" aria-label="メニュー（設定・会員）">${icon('settings')}</button><div class="scroll">
@@ -301,10 +318,13 @@ export function game({ cat, kbn, pool, all, ta }) {
     const q = deck[st.i++];
     st.card = q; st.answers = alts(q[2]); st.t = ''; st.hints = 0; st.cardMiss = 0; st.cardStart = performance.now(); st.lock = false;
     kb.setMode(isLatin(st.answers) ? 'latin' : 'kana');
-    $('meta').textContent = (q[4] ? q[4] + '・' : '') + 'Lv' + q[3];
+    $('meta').textContent = [q[4], q[3] ? 'Lv' + q[3] : ''].filter(Boolean).join('・');
     $('qimg').innerHTML = q[5] ? `<img src="${esc(q[5])}" alt="">` : '';
     $('qtext').innerHTML = qhtml(q[0]);
     $('qtext').scrollTop = 0;
+    fitText($('qtext'));
+    const im = $('qimg').querySelector('img');
+    if (im) im.onload = () => fitText($('qtext'));
     $('ans').className = 'answer';
     $('reveal').innerHTML = '';
     draw();

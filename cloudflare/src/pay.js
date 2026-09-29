@@ -193,7 +193,7 @@ export function renderPlan(viewer, env, url) {
     <p>月 100 円。大学受験・英会話・資格の問題集が、全部の範囲から選べます</p></section>
   ${now}
   <div class="perks">
-    <div class="perk">${icon('list-checks')}<b>全部の範囲が選べる</b><small>無料版は範囲の先頭 3 割まで。会員は ITパスポートのテクノロジも、世界史の 20 世紀も</small></div>
+    <div class="perk">${icon('list-checks')}<b>全部の範囲が選べる</b><small>無料版は、はじめのいくつかの範囲だけ。会員は ITパスポートのテクノロジも、世界史の 20 世紀も</small></div>
     <div class="perk">${icon('swords')}<b>対戦も全部の範囲で</b><small>会員が作った部屋は、友達が無料版でも全部の範囲から出ます</small></div>
     <div class="perk">${icon('star')}<b>マイメニュー</b><small>☆ を付けた問題集がトップに並びます。選んだ範囲も、どのブラウザ・スマホでも同じに</small></div>
     <div class="perk">${icon('eye-off')}<b>広告なし</b><small>画面の広告が出なくなります</small></div>
@@ -202,7 +202,7 @@ export function renderPlan(viewer, env, url) {
   <div class="plans">${card('month', true)}${card('pass365')}</div>
   <p class="plan-msg" id="pay-msg"></p>
   <div class="plan-free"><b>ずっと無料</b>：高校受験（中学生向け）と雑学は、会員でなくても全部遊べます。
-    大学受験・英会話・資格も、範囲の先頭 3 割は無料です。<br>
+    大学受験・英会話・資格も、はじめのいくつかの範囲は無料です。<br>
     <a href="/legal">特定商取引法に基づく表記</a></div>
 </div>
 <script>

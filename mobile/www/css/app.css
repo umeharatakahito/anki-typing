@@ -7,6 +7,8 @@
   --c-green:#12b886; --c-green2:#0b8f6a; --c-navy:#4263eb; --c-navy2:#243b99; --c-orange:#ff8a4c; --c-orange2:#f0561d;
   --c-purple:#9f5cf0; --c-purple2:#6b30d6; --c-sky:#1fb6e0; --c-sky2:#0a7fbf; --c-gold:#f6b93b; --c-gold2:#d9820b;
   --safe-t:env(safe-area-inset-top); --safe-b:env(safe-area-inset-bottom);
+  /* キーボードの下に空ける分。ホームに戻る線の分を全部は空けない（押し間違えない程度に少しだけ） */
+  --kb-safe:calc(env(safe-area-inset-bottom) * .35);
   --kb-h:min(46vh, 330px);
   --key:#26356a; --key-on:#3b4f94; --key-fn:#18224a; --kb-bg:#0b1330; --key-num:#1d2a57; --shadow:rgba(0,0,0,.25);
 }
@@ -102,12 +104,14 @@ button{font:inherit;color:inherit;touch-action:manipulation}
 .hud .sec b{font-size:17px;color:var(--ink)}
 .hud .score{min-width:74px;text-align:right;font-variant-numeric:tabular-nums}
 .hud .score b{display:block;font-size:20px;color:var(--ink);line-height:1.1} .hud .score small{font-size:11px;color:var(--muted)}
-.stage{position:relative;flex:1;min-height:0;display:flex;flex-direction:column;padding:4px 16px 8px;gap:8px}
-.q-img{flex:0 1 auto;min-height:0;max-height:30vh;display:flex;justify-content:center}
-.q-img img{max-width:100%;max-height:30vh;object-fit:contain;border-radius:10px;background:#fff}
-.q-text{flex:0 1 auto;overflow-y:auto;min-height:0;font-size:clamp(15px,4.2vw,19px);line-height:1.6;color:var(--ink);-webkit-user-select:none}
+.stage{position:relative;flex:1;min-height:0;display:flex;flex-direction:column;padding:4px 16px 8px;gap:6px}
+/* 図は縮めてよい（文が読めることを先に）。文は残りの高さに収まるよう、字を小さくする（app.js の fitText） */
+.q-img{flex:0 1 30vh;min-height:64px;display:flex;justify-content:center}
+.q-img:empty{display:none}
+.q-img img{max-width:100%;max-height:100%;object-fit:contain;border-radius:10px;background:#fff}
+.q-text{flex:1 1 auto;overflow-y:auto;min-height:2.6em;font-size:clamp(15px,4.4vw,19px);line-height:1.55;color:var(--ink);-webkit-user-select:none}
 .q-meta{font-size:11.5px;color:var(--muted)}
-.answer{margin-top:auto;padding:10px 12px;border-radius:14px;background:var(--card);border:2px solid var(--line);min-height:60px;transition:border-color .12s,background .12s}
+.answer{flex:none;padding:8px 12px;border-radius:14px;background:var(--card);border:2px solid var(--line);min-height:54px;transition:border-color .12s,background .12s}
 .answer.miss{border-color:var(--ng);background:rgba(239,68,68,.12);animation:shake .22s}
 .answer.done{border-color:var(--ok);background:rgba(34,197,94,.12)}
 @keyframes shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
@@ -125,7 +129,7 @@ button{font:inherit;color:inherit;touch-action:manipulation}
 .count{position:fixed;inset:0;display:grid;place-items:center;background:rgba(15,26,61,.82);font-size:96px;font-weight:900;color:#fff;z-index:30}
 
 /* ---- キーボード ---- */
-.kb{flex:none;height:calc(var(--kb-h) + var(--safe-b));padding:6px 4px calc(6px + var(--safe-b));background:var(--kb-bg);border-top:1px solid var(--line);touch-action:none}
+.kb{flex:none;height:calc(var(--kb-h) + var(--kb-safe));padding:6px 4px calc(4px + var(--kb-safe));background:var(--kb-bg);border-top:1px solid var(--line);touch-action:none}
 .kb-flick{display:grid;grid-template-columns:1fr 1.25fr 1.25fr 1.25fr 1fr;grid-auto-rows:1fr;gap:6px}
 .kb-k{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;border:0;border-radius:10px;padding:0;
   background:var(--key);color:var(--ink);box-shadow:0 2px 0 var(--shadow);font-weight:700;touch-action:none}

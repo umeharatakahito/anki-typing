@@ -330,7 +330,7 @@ const liveSets = (m, available) => {
 export function renderHome(viewer, available, favs) {
   const tiles = MENU.map(m => {
     const n = liveSets(m, available).length;
-    const price = PAID_CATS.includes(m.key) ? '<span class="price paid">3割無料</span>' : '<span class="price">無料</span>';
+    const price = PAID_CATS.includes(m.key) ? '<span class="price paid">一部無料</span>' : '<span class="price">無料</span>';
     return `<a class="tile nav-item k-${m.color}" href="?p=${m.key}">
   <div class="art">${icon(m.icon)}${price}</div>
   <div class="body"><span class="en">${esc(m.en)}</span><b>${esc(m.title)}</b><small>${esc(m.lead)}</small>
@@ -442,7 +442,7 @@ export function renderCategory(m, available, viewer, favs) {
     const n = available && available.get ? available.get(k) : 0;
     const tags = soon ? '<span class="tag soon">準備中</span>'
       : (n ? `<span class="tag">${n.toLocaleString()} 問</span>` : '') + (c.levels ? '<span class="tag">Lv 上がる</span>' : '')
-        + (isPaidSet(k) ? '<span class="tag paid">3割無料</span>' : '');
+        + (isPaidSet(k) ? '<span class="tag paid">一部無料</span>' : '');
     const inner = `<span class="ico">${icon(c.icon)}</span>
   <span><b>${esc(c.label)}</b><small>${esc(c.desc)}</small><span class="meta">${tags}</span></span>
   ${soon ? '' : `<span class="arrow">${icon('chevron-right')}</span>`}`;
