@@ -32,7 +32,7 @@ export const PLANS = {
              pay: 'PayPay・コンビニ・カード', note: '自動更新なし。カードが無くても買えます' },
 };
 export const RENEW_NOTICE_DAYS = 30;   // 1 年分の期限がこれより近づいたら「あと○日」と出す
-const GRACE = 2 * DAY;   // 自動更新の支払いが少し遅れても、すぐには切らない
+export const GRACE = 2 * DAY;   // 自動更新の支払いが少し遅れても、すぐには切らない
 
 const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const json = (body, status) => new Response(JSON.stringify(body), {

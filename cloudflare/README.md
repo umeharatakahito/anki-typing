@@ -77,6 +77,32 @@ npx wrangler secret put STRIPE_WEBHOOK_SECRET
 特定商取引法に基づく表記（`/legal`）の販売事業者・連絡先は、環境変数 `SELLER_NAME` `SELLER_ADDRESS` `SELLER_TEL` `SELLER_EMAIL`（wrangler.jsonc の vars）に書く。
 本番のキー（`sk_live_…`）に替えるときは、Webhook も本番モードで作り直して両方を入れ替える。
 
+## データが消えた・壊れたとき
+
+1. **巻き戻し（D1 のタイムトラベル）**：少し前の状態に戻せる（残っている日数はプランしだい）。まずはこれ。
+
+```sh
+npx wrangler d1 time-travel info anki-typing                          # 戻せる時点を見る
+npx wrangler d1 time-travel restore anki-typing --timestamp=2026-10-01T12:00:00+09:00
+```
+
+2. **バックアップ**：ときどき丸ごと書き出して、手元などに取っておく（表を全部読むので、無料枠の読み取りを数万行使う）。
+
+```sh
+npx wrangler d1 export anki-typing --remote --output backup-$(date +%Y%m%d).sql
+```
+
+3. **会員だけでも戻す（Stripe から作り直す）**：上の 2 つで戻せなくても、お金を払った人の会員は Stripe の記録から作り直せる。
+   続いている月額と、1 年分の支払いを読み、会員の表（plans）を作る。Stripe には何も書き込まない。
+   画面に出る一覧（だれを・いつまで）を確かめてから流す。今の期限より短くはしない。
+
+```sh
+STRIPE_SECRET_KEY=sk_live_… node scripts/restore-plans.mjs > restore-plans.local.sql
+npx wrangler d1 execute anki-typing --remote --file restore-plans.local.sql
+```
+
+   /admin で手で登録した会員・マイメニュー・ランキングは Stripe には無いので、1 か 2 で戻す。
+
 ## 手元で動かす
 
 ```sh
