@@ -150,6 +150,7 @@ a{color:inherit}
 
 /* ---- 市高・森羅万象 ---- */
 .feats{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+.feats > :only-child{grid-column:1/-1}
 .feat{position:relative;display:flex;align-items:center;gap:16px;padding:18px 20px;border-radius:20px;overflow:hidden;color:#fff;
   text-decoration:none;background:linear-gradient(120deg,var(--a),var(--b));box-shadow:var(--shadow);transition:transform .18s,box-shadow .18s}
 .feat:hover{transform:translateY(-3px);box-shadow:var(--shadow-hi)}

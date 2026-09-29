@@ -39,6 +39,25 @@ function vsClose() { if (vs.ws) { const w = vs.ws; vs.ws = null; try { w.close()
 const nameOf = s => s === vs.seat ? 'あなた' : ((vs.players.find(p => p.seat === s) || {}).name || '相手');
 const devOf = s => ((vs.players.find(p => p.seat === s) || {}).dev === 'app' ? '📱' : '⌨️');
 
+// 点数のメーター（Web の scoreMeters と同じ形）。先取は区切りつきのバー、サバイバルはライフ、タイムアタックは点数
+// 自分は赤、ほかは席の順に 青・緑・橙。いちばん多い人に 👑
+const COLORS = ['c1', 'c2', 'c3'];
+function meterHtml(rule, target, scores, lives) {
+  const seats = [vs.seat, ...vs.players.map(p => p.seat).filter(x => x !== vs.seat)];
+  const val = x => rule === 'survival' && lives ? (lives[x] || 0) : (scores[x] || 0);
+  const max = rule === 'time' ? Math.max(1, ...seats.map(val)) : target;
+  const best = Math.max(...seats.map(val));
+  return `<div class="vs-meters">${seats.map((x, i) => {
+    const v = val(x), dead = rule === 'survival' && lives && !lives[x];
+    const shown = rule === 'survival' ? ('❤'.repeat(v) || '脱落') : rule === 'time' ? v.toLocaleString() : v + '/' + target;
+    const color = x === vs.seat ? 'me' : COLORS[(i - 1) % 3];
+    return `<div class="vm ${color}${dead ? ' dead' : ''}${v === best && v > 0 && seats.length > 1 ? ' lead' : ''}">
+      <span class="vm-who">${esc(nameOf(x))} ${devOf(x)}</span>
+      <span class="vm-track"${rule === 'time' ? '' : ` style="--seg:${100 / target}%"`}><span class="vm-fill" style="width:${Math.min(100, v / max * 100)}%"></span></span>
+      <span class="vm-val">${shown}</span></div>`;
+  }).join('')}</div>`;
+}
+
 function connect(params, onFail) {
   vsClose();
   const q = new URLSearchParams(Object.assign({ dev: 'app', nick: loadPrefs().nick || '' }, params));
@@ -236,7 +255,7 @@ function rounds(start) {
   const qs = start.questions.map(toCard);
   const g = { r: -1, t: '', answers: [], cardMiss: 0, out: true, done: false, scores: {}, lives: start.lives || null, opp: {}, timer: null, progAt: 0, progT: null, over: false };
   const el = screen('game vs-game', `
-    <div class="hud"><button class="icon-btn" id="quit" aria-label="やめる">${icon('x')}</button><div class="meters" id="meters"></div></div>
+    <div class="hud vs-hud"><button class="icon-btn" id="quit" aria-label="やめる">${icon('x')}</button><div class="meters" id="meters"></div></div>
     <div class="stage" id="stage">
       <div class="q-meta" id="meta"></div>
       <div class="q-img" id="qimg"></div>
@@ -259,11 +278,7 @@ function rounds(start) {
   const ready = () => !g.over && !g.out && !g.done && g.r >= 0;
 
   function meters(scores, lives) {
-    const seats = vs.players.map(p => p.seat);
-    $('meters').innerHTML = seats.map(s => {
-      const v = lives ? '❤'.repeat(Math.max(0, lives[s] || 0)) || '脱落' : `${scores[s] || 0}<small>/${vs.room.target}</small>`;
-      return `<div class="mt${s === vs.seat ? ' me' : ''}"><span>${esc(nameOf(s))} ${devOf(s)}</span><b>${v}</b></div>`;
-    }).join('');
+    $('meters').innerHTML = meterHtml(vs.room.rule, vs.room.target, scores, lives);
   }
   function opps() {
     $('opps').innerHTML = vs.players.filter(p => p.seat !== vs.seat).map(p => {
@@ -344,7 +359,8 @@ function rounds(start) {
       if (m.seat === vs.seat) buzz.ok();
       const p = $('point');
       p.innerHTML = `<div class="pt-card"><b class="${m.seat === vs.seat ? 'win' : ''}">${esc(who)}</b><p>答え：<b>${esc(q[1] || '')}</b></p>
-        ${q[6] ? `<small>${esc(String(q[6]).split('\n')[0]).slice(0, 90)}</small>` : ''}<p class="pt-next">${m.final ? '決着！' : '次の問題へ…'}</p></div>`;
+        ${q[6] ? `<small>${esc(String(q[6]).split('\n')[0]).slice(0, 90)}</small>` : ''}
+        ${meterHtml(vs.room.rule, vs.room.target, m.scores, m.lives)}<p class="pt-next">${m.final ? '決着！' : '次の問題へ…'}</p></div>`;
       p.hidden = false;
       meters(g.scores, g.lives);
     },
@@ -373,14 +389,24 @@ function rounds(start) {
 // 試合：タイムアタック（1 人用のタイム制を、部屋の問題・持ち時間で）
 function startTimeAttack(start) {
   const others = {};
+  let mine = 0;
+  // 試合中の画面の上に、みんなの点数のメーター
+  const drawTa = () => {
+    const el = document.getElementById('ta-meters');
+    if (!el) return;
+    const sc = Object.fromEntries(Object.entries(others).map(([k, v]) => [k, v.score || 0]));
+    sc[vs.seat] = mine;
+    el.innerHTML = meterHtml('time', start.target, sc, null);
+  };
   show(() => game({ cat: '', kbn: vs.room.kbn, pool: start.questions.map(toCard), all: false, ta: {
-    seconds: start.target, level: LV_OF[vs.room.mode] || 'kihon',
-    onScore: (score, correct, fin) => vsSend({ t: 'ta', score, correct, fin }),
+    seconds: start.target, level: LV_OF[vs.room.mode] || 'kihon', meters: true,
+    onScore: (score, correct, fin) => { mine = score; drawTa(); vsSend({ t: 'ta', score, correct, fin }); },
     onEnd: st => show(() => taWait(st, others), false),
     onQuit: () => { vsClose(); leaveToLobby(); },
   } }), false);
+  setTimeout(drawTa, 50);
   vs.ui = {
-    onTas: m => { others[m.seat] = m; },
+    onTas: m => { others[m.seat] = m; drawTa(); },
     onEnd: m => show(() => result(m), false),
     onPlayers: () => {},
   };
@@ -407,6 +433,7 @@ function result(m) {
   const el = screen('', `<div class="scroll result">
     <div class="vs-res ${win ? 'win' : ''}">${m.winner == null ? '引き分け' : win ? '🏆 あなたの勝ち！' : esc(nameOf(m.winner)) + ' さんの勝ち'}</div>
     ${m.left ? `<p class="note center">${esc(nameOf(m.left))} さんが抜けました</p>` : ''}
+    ${meterHtml(vs.start ? vs.start.rule : 'first', vs.start ? vs.start.target : 5, m.scores || {}, lives)}
     <div class="m-card">${order.map((s, i) => `<div class="m-row${s === vs.seat ? ' me' : ''}"><b class="rank">${i + 1}</b><span class="grow"><b>${esc(nameOf(s))} ${devOf(s)}</b></span>
       <b>${lives ? ('❤'.repeat(lives[s] || 0) || '脱落') : time ? (m.scores[s] || 0).toLocaleString() + ' 点' : (m.scores[s] || 0) + ' 本'}</b></div>`).join('')}</div>
     <div class="row2"><button class="btn" id="leave">部屋を出る</button><button class="btn primary" id="again">もう一度</button></div>

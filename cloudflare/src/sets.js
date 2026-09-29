@@ -151,7 +151,7 @@ export const MENU = [
 
 // トップの下段に横長で出す入口。juken: true は大学受験モードを許された人だけが開ける
 export const FEATURED = [
-  { key: 'juken',  title: '市高', sub: '英単語・古文・歴史', icon: 'crown', color: 'gold', href: '?p=juken', juken: true },
+  // 市高（英単語・古文・歴史）はトップに出さない（2026-09-29）。許された人は /?p=juken で直接開ける
   { key: 'shinra', title: '森羅万象', sub: '全部の問題集からまぜて出題', icon: 'orbit', color: 'cosmic', href: '?p=shinra' },
 ];
 

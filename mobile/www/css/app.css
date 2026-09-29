@@ -62,7 +62,7 @@ button{font:inherit;color:inherit;touch-action:manipulation}
 .tile b{display:block;font-size:18px;color:var(--ink)}
 .tile small{display:block;color:var(--muted);font-size:12px;line-height:1.45}
 .k-green{--a:var(--c-green);--b:var(--c-green2)} .k-navy{--a:var(--c-navy);--b:var(--c-navy2)} .k-orange{--a:var(--c-orange);--b:var(--c-orange2)}
-.k-purple{--a:var(--c-purple);--b:var(--c-purple2)} .k-sky{--a:var(--c-sky);--b:var(--c-sky2)} .k-gold{--a:var(--c-gold);--b:var(--c-gold2)}
+.k-purple{--a:var(--c-purple);--b:var(--c-purple2)} .k-cosmic{--a:#8b5cf6;--b:#db2777} .k-sky{--a:var(--c-sky);--b:var(--c-sky2)} .k-gold{--a:var(--c-gold);--b:var(--c-gold2)}
 
 /* ---- 問題集の一覧 ---- */
 .cat-hero{display:flex;gap:14px;align-items:center;margin:4px 0 6px;padding:16px;border-radius:20px;color:#fff;background:linear-gradient(135deg,var(--a),var(--b))}
@@ -248,3 +248,28 @@ button{font:inherit;color:inherit;touch-action:manipulation}
 .vs-res.win{color:var(--orange)}
 .m-row.me{background:rgba(255,107,53,.1)}
 .rank{width:22px;color:var(--muted)}
+
+/* ---- 対戦のメーター（Web と同じ形） ---- */
+.vs-meters{display:grid;gap:5px;width:100%}
+.vm{display:grid;grid-template-columns:minmax(4em,8.5em) 1fr auto;align-items:center;gap:8px;font-weight:700}
+.vm-who{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12.5px;color:var(--text)}
+.vm-track{position:relative;height:10px;border-radius:999px;background-color:var(--line);overflow:hidden;
+  background-image:repeating-linear-gradient(90deg,transparent 0 calc(var(--seg,100%) - 2px),var(--bg) calc(var(--seg,100%) - 2px) var(--seg,100%))}
+.vm-fill{display:block;height:100%;border-radius:999px;background:var(--vm);transition:width .35s ease}
+.vm-val{min-width:2.8em;text-align:right;font-variant-numeric:tabular-nums;font-size:15px;color:var(--vm)}
+.vm.me{--vm:#ef4444} .vm.c1{--vm:#3b82f6} .vm.c2{--vm:#16a34a} .vm.c3{--vm:#f59e0b}
+.vm.lead .vm-who::after{content:' 👑'}
+.vm.dead{opacity:.45} .vm.dead .vm-who{text-decoration:line-through}
+.vs-hud{align-items:flex-start}
+.vs-hud .meters{flex:1;display:block}
+.ta-meters{padding:0 16px 4px}
+.pt-card .vs-meters{margin:12px 0 4px;text-align:left}
+.result .vs-meters{margin:0 0 14px}
+
+/* ---- 森羅万象（トップ） ---- */
+.shinra{display:flex;align-items:center;gap:12px;width:100%;margin:12px 0 0;padding:16px;border:0;border-radius:20px;text-align:left;color:#fff;
+  background:radial-gradient(260px 120px at 85% 0%,rgba(255,255,255,.18),transparent 70%),linear-gradient(135deg,#6d28d9,#db2777);box-shadow:0 8px 24px var(--shadow)}
+.shinra .ic{width:34px;height:34px}
+.shinra span{flex:1} .shinra b{display:block;font-size:18px} .shinra small{display:block;font-size:12px;opacity:.9}
+.kb-pass{white-space:nowrap}
+.kb-flick .kb-pass{font-size:13px}

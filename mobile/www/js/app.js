@@ -65,6 +65,21 @@ const setCache = {};
 async function loadMenu() {
   const j = await fetch('data/menu.json').then(r => r.json());
   MENU = j.menu; SETS = j.sets;
+  // 森羅万象：全部の問題集からまぜて出す（kbn は Web 版と同じ 'shinra'。対戦の部屋も作れる）
+  SETS.shinra = { label: '森羅万象', icon: 'orbit', desc: '全部の問題集からまぜて出題', paid: false,
+    n: Object.values(SETS).reduce((a, x) => a + x.n, 0) };
+}
+// 森羅万象の問題：どの問題集からも同じくらいずつ（1 つの問題集から最大 SHINRA_PER 問）、問題文の頭に【問題集】
+const SHINRA_PER = 12;
+async function loadShinra() {
+  const kbns = Object.keys(SETS).filter(k => k !== 'shinra');
+  const all = await Promise.all(kbns.map(k => loadSet(k).then(d => [k, d])));
+  const q = [];
+  for (const [k, d] of all) {
+    const pick = d.q.slice().sort(() => Math.random() - 0.5).slice(0, SHINRA_PER);
+    pick.forEach(x => q.push(['【' + SETS[k].label + '】' + x[0], ...x.slice(1)]));
+  }
+  return { scopes: [], q };
 }
 async function loadSet(kbn) {
   if (!setCache[kbn]) setCache[kbn] = await fetch('data/sets/' + kbn + '.json').then(r => r.json());
@@ -140,10 +155,12 @@ function home() {
     <button class="vs-home" id="vs-home">${icon('swords')}<span><b>対戦する</b><small>ランダム対戦・部屋番号で入る・近くの部屋（Web の人とも）</small></span>${icon('chevron-right')}</button>
     <div class="sec-h">何を勉強する？</div>
     <div class="tiles">${tiles}</div>
+    <button class="shinra" id="shinra">${icon('orbit')}<span><b>森羅万象</b><small>全部の問題集からまぜて出題（${n.toLocaleString()} 問から）</small></span>${icon('chevron-right')}</button>
   </div>`);
   el.querySelectorAll('[data-cat]').forEach(b => b.onclick = () => show(() => category(b.dataset.cat)));
   el.querySelector('#menu').onclick = () => show(menu);
   el.querySelector('#vs-home').onclick = () => show(() => versusLobby(null, null));
+  el.querySelector('#shinra').onclick = () => show(() => setup('shinra', 'shinra'));
 }
 
 // ---------------------------------------------------------------
@@ -211,8 +228,8 @@ function category(key) {
 // ---------------------------------------------------------------
 // プレイ設定（範囲・レベル・コース）
 async function setup(cat, kbn) {
-  const m = MENU.find(x => x.key === cat), s = SETS[kbn];
-  const data = await loadSet(kbn);
+  const m = MENU.find(x => x.key === cat) || { color: 'cosmic' }, s = SETS[kbn];
+  let data = kbn === 'shinra' ? await loadShinra() : await loadSet(kbn);
   const scopes = data.scopes || [];
   const usable = scopes.filter(x => x.free).map(x => x.scope);
   const picked = () => { const want = store.get('scopes.' + kbn, null); const c = Array.isArray(want) ? usable.filter(x => want.includes(x)) : usable; return c.length ? c : usable; };
@@ -255,7 +272,8 @@ async function setup(cat, kbn) {
   el.querySelectorAll('[data-lv]').forEach(b => b.onclick = () => { settings.level = b.dataset.lv; saveSettings(); renderChips(); buzz.tap(); });
   el.querySelectorAll('[data-sec]').forEach(b => b.onclick = () => { settings.sec = Number(b.dataset.sec); saveSettings(); renderChips(); buzz.tap(); });
   el.querySelector('#vs').onclick = () => show(() => versusLobby(cat, kbn));
-  el.querySelector('#go').onclick = () => {
+  el.querySelector('#go').onclick = async () => {
+    if (kbn === 'shinra') data = await loadShinra();   // 毎回ちがう組み合わせに
     const sel = new Set(picked());
     const pool = data.q.filter(q => scopes.length < 2 || sel.has(q[4]));
     show(() => game({ cat, kbn, pool, all: sel.size === usable.length }));
@@ -281,6 +299,7 @@ export function game({ cat, kbn, pool, all, ta }) {
       <div class="clock"><div class="bar" id="bar"><i style="width:100%"></i></div><div class="sec"><b id="secs">${secs.toFixed(1)}</b> 秒</div></div>
       <div class="score"><b id="score">0</b><small>${ta ? '⚔ ' : ''}${esc(lv.label)}・${secs}秒</small></div>
     </div>
+    ${ta && ta.meters ? '<div class="ta-meters" id="ta-meters"></div>' : ''}
     <div class="stage" id="stage">
       <div class="q-meta" id="meta"></div>
       <div class="q-img" id="qimg"></div>
