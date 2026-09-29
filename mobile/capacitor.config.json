@@ -1,0 +1,13 @@
+{
+  "appId": "com.umeharatakahito.studytype",
+  "appName": "STUDY TYPE",
+  "webDir": "www",
+  "ios": {
+    "contentInset": "never",
+    "backgroundColor": "#0f1a3d",
+    "scrollEnabled": false
+  },
+  "plugins": {
+    "SplashScreen": { "launchShowDuration": 600, "backgroundColor": "#0f1a3d", "showSpinner": false }
+  }
+}

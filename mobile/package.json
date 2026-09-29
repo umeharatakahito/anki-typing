@@ -1,0 +1,22 @@
+{
+  "name": "studytype-mobile",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "STUDY TYPE のスマホアプリ（Capacitor）。自作フリックキーボード・オフラインで練習",
+  "scripts": {
+    "data": "node scripts/build-data.mjs",
+    "sync": "npx cap sync ios",
+    "build": "npm run data && npm run sync"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.5.2",
+    "@capacitor/haptics": "^8.0.2",
+    "@capacitor/ios": "^8.5.2",
+    "@capacitor/splash-screen": "^8.0.2",
+    "@capacitor/status-bar": "^8.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.2"
+  }
+}

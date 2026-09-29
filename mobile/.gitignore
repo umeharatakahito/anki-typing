@@ -1,0 +1,5 @@
+node_modules/
+# scripts/build-data.mjs が cloudflare の問題と図から作る（大きいので入れない）
+www/data/
+www/img/
+www/js/icons.js
