@@ -20,7 +20,11 @@
     // 左右の縦長・結果の下・待合室の枠は、専用のユニット ID を ADSENSE_SLOT_RAIL / ADSENSE_SLOT_RESULT /
     // ADSENSE_SLOT_LOBBY に足すとそれを使う（無ければ ADSENSE_SLOT と同じユニット）
     "ADSENSE_CLIENT": "ca-pub-6787317133124761",
-    "ADSENSE_SLOT": "8318770801"
+    "ADSENSE_SLOT": "8318770801",
+    // 特定商取引法に基づく表記（/legal）とプライバシーポリシー（/privacy）に出す運営者と問い合わせ先（公開する値）。
+    // 住所と電話番号は入れていない（「請求があれば遅滞なく開示します」と出る）
+    "SELLER_NAME": "梅原孝仁",
+    "SELLER_EMAIL": "question_ume@icloud.com"
   },
   "d1_databases": [
     {
