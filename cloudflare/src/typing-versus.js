@@ -47,6 +47,12 @@
 //     {t:'again'}                                  もう一度
 //     {t:'ta', score, correct, fin}                タイムアタック：今の点数（fin は打ち終えた）
 //     {t:'move', code}                             新しい部屋 code を作ったので、ほかの人も呼ぶ（試合が終わったあとだけ）
+//
+// 近くの部屋（同じ Wi-Fi）：部屋番号を伝えなくても、同じネットワークの人の画面に部屋が出て、押すだけで入れる。
+//   ネットワークごとに 1 つの Durable Object（'near:<ネットワークの印>'。印は worker.js が IP アドレスから作る）が、
+//   人を待っている部屋の一覧を持つ。部屋の Durable Object が、人数が変わるたびに知らせる（nearPublish）。
+//   画面は /vs/near に WebSocket でつなぐと {t:'near', rooms:[{ code, kbn, label, mode, rule, target, host, n, max }]} が届く（変わるたびに）。
+//   IP アドレスそのものは保存も表示もしない。一覧に出すのは作ってから NEAR_MS の間だけ
 // ===============================================================
 
 import { DurableObject } from 'cloudflare:workers';
@@ -69,10 +75,14 @@ const AUTO_WAIT_MS = 60 * 1000;  // 自動マッチで 2 人そろってから�
 const ROUND_MAX_MS = 90 * 1000;  // 画面から何も来なくても、この時間で次の問題へ
 const TA_GRACE_MS = 45 * 1000;   // タイムアタック：持ち時間のあと、終わりの知らせを待つ時間（解説を読む間などで時計が止まる分）
 const ROOM_IDLE_MS = 30 * 60 * 1000;
+const NEAR_MS = 10 * 60 * 1000;  // 近くの部屋の一覧に出す時間（作ってから）
+const NEAR_MAX = 8;              // 一覧に出す数（学校のような大きなネットワークで長くならないように）
 const MODES = ['写経モード', '通常モード', '極みモード'];
 
 const send = (ws, msg) => { try { ws.send(JSON.stringify(msg)); } catch (e) { /* 切れている */ } };
 const targetOf = (v, rule) => RULES[rule].targets.includes(Number(v)) ? Number(v) : RULES[rule].def;
+// 近くの部屋の印（worker.js が ?near= に入れる。空なら出さない）
+const request_near = url => String(url.searchParams.get('near') || '').replace(/[^0-9a-f]/g, '').slice(0, 32);
 // 出題範囲（?scopes= にカンマ区切り）。空なら全部
 const scopesOf = url => String(url.searchParams.get('scopes') || '').split(',').map(s => s.trim()).filter(Boolean).slice(0, 30);
 
@@ -82,9 +92,12 @@ export class TypingVersus extends DurableObject {
     this.reset();
     this.waiting = new Map();   // 待合室: 'kbn|mode|rule|target' → { ws }（1 人目）
     this.pending = new Map();   // 待合室: 'kbn|mode|rule|target' → { code, count, until }（人を足せる部屋）
+    this.nearRooms = new Map(); // 近くの部屋（'near:…' のとき）: code → { …, created }
+    this.nearWatchers = new Set();
   }
 
   reset() {
+    if (this.room && this.room.near) this.nearPublish(true);
     if (this.timer) clearTimeout(this.timer);
     if (this.startTimer) clearTimeout(this.startTimer);
     this.timer = null;
@@ -98,6 +111,7 @@ export class TypingVersus extends DurableObject {
 
   async fetch(request) {
     const url = new URL(request.url);
+    if (url.pathname === '/near') return this.near(request);
     const viewer = JSON.parse(request.headers.get('x-viewer') || '{}');
     const pair = new WebSocketPair();
     const [client, server] = Object.values(pair);
@@ -155,7 +169,9 @@ export class TypingVersus extends DurableObject {
       // 部屋を作った人が会員なら、全部の範囲から出す（自動マッチの部屋は、全員が会員のときだけ）
       this.room = { code, kbn, mode, rule, target: targetOf(url.searchParams.get('target'), rule),
                     auto: url.searchParams.get('auto') === '1', hostSeat: 0, createdAt: Date.now(),
-                    scopes: scopesOf(url), hostMember: !!viewer.member };
+                    scopes: scopesOf(url), hostMember: !!viewer.member,
+                    // 同じネットワークの人に出す（worker.js が付ける印。自動マッチの部屋と「出さない」を選んだ部屋は出さない）
+                    near: create && url.searchParams.get('auto') !== '1' ? String(request_near(url)) : '' };
     } else if (create) {
       send(ws, { t: 'error', message: 'busy' }); ws.close(); return;
     }
@@ -176,6 +192,7 @@ export class TypingVersus extends DurableObject {
 
     ws.addEventListener('message', ev => this.onMessage(me, ev.data));
     ws.addEventListener('close', () => this.onLeave(me));
+    this.nearPublish();
 
     if (this.players.length >= MAX_PLAYERS) this.start();
     else if (this.room.auto && this.players.length >= 2 && !this.startTimer) {
@@ -198,6 +215,7 @@ export class TypingVersus extends DurableObject {
 
   async start() {
     if (this.game && !this.game.ended) return;
+    this.nearPublish(true);   // 始まった部屋には、もう入れない
     if (this.startTimer) { clearTimeout(this.startTimer); this.startTimer = null; }
     this.startAt = 0;
     const allMembers = this.room.auto ? this.players.every(p => p.member) : this.room.hostMember;
@@ -386,6 +404,7 @@ export class TypingVersus extends DurableObject {
     this.players = this.players.filter(p => p !== me);
     if (!this.players.length) { this.reset(); return; }
     if (this.room && this.room.hostSeat === me.seat) this.room.hostSeat = this.players[0].seat;
+    if (!this.game) this.nearPublish();
     const g = this.game;
     if (g && !g.ended) {
       if (this.players.length < 2) {
@@ -409,5 +428,48 @@ export class TypingVersus extends DurableObject {
       }
     }
     this.sendPlayers({ left: me.name });
+  }
+
+  // ---- 近くの部屋 -------------------------------------------------
+  // 部屋の側：人を待っている間は一覧に出し、始まった・いっぱい・だれもいなくなったら消す
+  nearPublish(remove) {
+    const r = this.room;
+    if (!r || !r.near) return;
+    const hostP = this.players.find(p => p.seat === r.hostSeat) || this.players[0];
+    const open = !remove && !this.game && this.players.length > 0 && this.players.length < MAX_PLAYERS;
+    const info = open ? { code: r.code, kbn: r.kbn, label: (CAT_BY_KBN[r.kbn] || {}).label || r.kbn, mode: r.mode, rule: r.rule,
+      target: r.target, host: hostP ? hostP.name : '', n: this.players.length, max: MAX_PLAYERS } : null;
+    const stub = this.env.TYPING_VS.get(this.env.TYPING_VS.idFromName('near:' + r.near));
+    stub.fetch('https://near/near', { method: 'POST', body: JSON.stringify({ code: r.code, info }) }).catch(() => {});
+  }
+
+  // 一覧の側（'near:…' の Durable Object）：部屋からの知らせを受け、見ている画面に一覧を送る
+  async near(request) {
+    if (request.method === 'POST') {
+      const { code, info } = await request.json();
+      if (info) this.nearRooms.set(code, Object.assign({}, info, { created: (this.nearRooms.get(code) || {}).created || Date.now() }));
+      else this.nearRooms.delete(code);
+      this.nearPush();
+      return new Response('ok');
+    }
+    if (request.headers.get('upgrade') !== 'websocket') return new Response('WebSocket で接続してください', { status: 426 });
+    const pair = new WebSocketPair();
+    const [client, server] = Object.values(pair);
+    server.accept();
+    this.nearWatchers.add(server);
+    server.addEventListener('close', () => this.nearWatchers.delete(server));
+    server.addEventListener('error', () => this.nearWatchers.delete(server));
+    send(server, { t: 'near', rooms: this.nearList() });
+    return new Response(null, { status: 101, webSocket: client });
+  }
+  nearList() {
+    const now = Date.now();
+    for (const [code, r] of this.nearRooms) if (now - r.created > NEAR_MS) this.nearRooms.delete(code);
+    return [...this.nearRooms.values()].sort((a, b) => b.created - a.created).slice(0, NEAR_MAX)
+      .map(({ created, ...r }) => r);
+  }
+  nearPush() {
+    const msg = { t: 'near', rooms: this.nearList() };
+    this.nearWatchers.forEach(w => send(w, msg));
   }
 }

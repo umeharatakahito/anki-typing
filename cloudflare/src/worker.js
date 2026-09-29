@@ -264,9 +264,23 @@ async function availableKbns(env) {
   return AVAILABLE_;
 }
 
+// 同じネットワーク（同じ Wi-Fi）の印。IP アドレスをそのまま使わず、短い印にする。
+// IPv6 は端末ごとに後ろ半分が違うので、前半（/64。同じ家・同じ Wi-Fi なら同じ）で見る
+async function nearKey(request) {
+  let ip = String(request.headers.get('cf-connecting-ip') || 'local');
+  if (ip.includes(':')) ip = ip.split(':').slice(0, 4).join(':');
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode('st-near|' + ip));
+  return [...new Uint8Array(buf)].slice(0, 12).map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
 // タイピングの対戦。部屋番号ごとの Durable Object（自動マッチは待合室）へ回す
-function typingVersus(request, env, url, viewer) {
+async function typingVersus(request, env, url, viewer) {
   if (request.headers.get('upgrade') !== 'websocket') return new Response('WebSocket で接続してください', { status: 426 });
+  // 近くの部屋の一覧（同じネットワークの部屋。typing-versus.js の near）
+  if (url.pathname === '/vs/near') {
+    const stub = env.TYPING_VS.get(env.TYPING_VS.idFromName('near:' + await nearKey(request)));
+    return stub.fetch(new Request('https://near/near', { headers: request.headers }));
+  }
   let name;
   if (url.searchParams.get('match')) name = 'lobby';
   else {
@@ -275,6 +289,11 @@ function typingVersus(request, env, url, viewer) {
       code = String(Math.floor(1000 + Math.random() * 9000));
       url.searchParams.set('code', code);
     }
+    // 部屋を作るときは、近くの人に出すための印を付ける（?near=0 なら出さない）
+    if (url.searchParams.get('create') === '1') {
+      if (url.searchParams.get('near') === '0') url.searchParams.delete('near');
+      else url.searchParams.set('near', await nearKey(request));
+    } else url.searchParams.delete('near');
     if (!/^\d{4,5}$/.test(code)) return new Response('部屋番号が違います', { status: 400 });
     name = 'room:' + code;
   }
@@ -310,7 +329,7 @@ export default {
     const admin = await handleAdmin(request, env, url, viewer);
     if (admin) return admin;
 
-    if (url.pathname === '/vs/ws') return typingVersus(request, env, url, viewer);
+    if (url.pathname === '/vs/ws' || url.pathname === '/vs/near') return typingVersus(request, env, url, viewer);
 
     const pay = await handlePay(request, env, url, viewer);
     if (pay) return pay;

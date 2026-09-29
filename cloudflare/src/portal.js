@@ -237,6 +237,15 @@ a{color:inherit}
 .app-card .app-go{position:relative;margin-left:auto;display:inline-flex;align-items:center;gap:6px;padding:10px 16px;border-radius:12px;
   background:#ffc45c;color:#2a1d07;font-weight:900;font-size:14px;white-space:nowrap}
 @media (max-width:600px){ .app-card{padding:14px;gap:12px} .app-card .app-ico,.app-card .app-ico img{width:64px;height:64px} .app-card b{font-size:18px} .app-card .app-go{padding:8px 10px;font-size:12px} }
+.versus .near{position:relative;margin-top:14px;padding:10px 12px;border-radius:14px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22)}
+.versus .near-h{display:flex;align-items:center;gap:6px;margin:0 0 6px;font-size:13px;font-weight:800;color:#bbf7d0}
+.versus .near-dot{width:8px;height:8px;border-radius:50%;background:#4ade80;animation:near-p 1.6s infinite}
+@keyframes near-p{0%{box-shadow:0 0 0 0 rgba(74,222,128,.7)}70%{box-shadow:0 0 0 8px rgba(74,222,128,0)}100%{box-shadow:0 0 0 0 rgba(74,222,128,0)}}
+.versus .near ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.versus .near a{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:10px;background:rgba(255,255,255,.95);color:#1d2b53;text-decoration:none}
+.versus .near a span{flex:1;min-width:0;font-size:12.5px;line-height:1.4}
+.versus .near a b{display:block;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.versus .near a em{flex:none;font-style:normal;font-weight:900;font-size:13px;padding:6px 14px;border-radius:999px;background:#16a34a;color:#fff}
 .foot{margin-top:44px;padding-top:16px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12px;color:var(--muted)}
 .foot a{color:var(--muted)}
 
@@ -370,6 +379,7 @@ ${mine}
       <a class="btn btn-ghost nav-item" href="#cats">${icon('plus')}部屋をつくる</a>
     </form>
     <p class="how">部屋をつくるには、下から問題集をえらんで <b>⚔ 対戦</b> を押します</p>
+    <div class="near" id="near" hidden aria-live="polite"><div class="near-h"><span class="near-dot"></span>近くの部屋（同じ Wi-Fi）</div><ul id="near-list"></ul></div>
   </div>
   <div class="side">
     <a class="nav-item" href="?p=ranking"><span class="dot" style="background:linear-gradient(140deg,var(--c-gold),var(--c-gold2))">${icon('trophy')}</span>
@@ -395,7 +405,30 @@ ${feats}
     <span class="app-go">遊ぶ ${icon('arrow-right')}</span>
   </a>
 </section>`;
-  return page('STUDY TYPE — 打って、覚えて、対戦だ。', body);
+  // 近くの部屋（同じ Wi-Fi の人が作った部屋）。あれば対戦の枠に出して、押すだけで入れる
+  const near = `<script>
+(function(){
+  var box = document.getElementById('near'), list = document.getElementById('near-list'), ws = null;
+  var LV = { '写経モード':'写経', '通常モード':'基本', '極みモード':'極' };
+  var RL = { first: function(t){ return t + '本先取'; }, survival: function(t){ return 'サバイバル'; }, time: function(t){ return 'タイムアタック' + t + '秒'; } };
+  function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return { '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]; }); }
+  function open(){
+    try { ws = new WebSocket((location.protocol === 'https:' ? 'wss://' : 'ws://') + location.host + '/vs/near'); } catch (e) { return; }
+    ws.onmessage = function(ev){
+      var m = JSON.parse(ev.data); if (m.t !== 'near') return;
+      var rooms = m.rooms || [];
+      box.hidden = !rooms.length;
+      list.innerHTML = rooms.map(function(r){
+        return '<li><a class="nav-item" href="/?p=shikaku&amp;join=' + encodeURIComponent(r.code) + '"><span><b>' + esc(r.host || 'ゲスト') + ' の部屋</b>' +
+          esc(r.label) + '・' + esc(LV[r.mode] || r.mode) + '・' + esc((RL[r.rule] || RL.first)(r.target)) + '・' + r.n + '/' + r.max + '人</span><em>入る</em></a></li>';
+      }).join('');
+    };
+    ws.onclose = function(){ setTimeout(function(){ if (!document.hidden) open(); }, 5000); };
+  }
+  open();
+})();
+</script>`;
+  return page('STUDY TYPE — 打って、覚えて、対戦だ。', body + near);
 }
 
 // ---------------------------------------------------------------

@@ -20,8 +20,22 @@
     color:var(--text); background:var(--field); border:1px solid var(--line); border-radius:8px; }
   #menu-vs .vs-rule{ margin:12px auto 0; max-width:34em; color:var(--muted); font-size:.85rem; line-height:1.7; }
   #vs-status{ min-height:1.6em; margin:14px 0 0; text-align:center; font-size:15px; }
+  /* 近くの部屋（同じ Wi-Fi）。押すだけで入れる */
+  #vs-near{ width:100%; max-width:520px; margin:0 0 4px; padding:12px 14px; border-radius:14px; text-align:left;
+    border:2px solid color-mix(in srgb, #16a34a 45%, var(--line)); background:color-mix(in srgb, #16a34a 8%, var(--card)); }
+  #vs-near .vn-head{ display:flex; align-items:center; gap:6px; margin:0 0 8px; font-weight:800; font-size:14px; color:#15803d; }
+  #vs-near .vn-dot{ width:8px; height:8px; border-radius:50%; background:#22c55e; box-shadow:0 0 0 0 rgba(34,197,94,.6); animation:vn-pulse 1.6s infinite; }
+  @keyframes vn-pulse{ 70%{ box-shadow:0 0 0 8px rgba(34,197,94,0); } 100%{ box-shadow:0 0 0 0 rgba(34,197,94,0); } }
+  #vs-near ul{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:6px; }
+  #vs-near li{ display:flex; align-items:center; gap:10px; padding:8px 10px; border-radius:10px; background:var(--card); border:1px solid var(--line); }
+  #vs-near li .vn-txt{ flex:1; min-width:0; font-size:13.5px; line-height:1.4; }
+  #vs-near li .vn-txt b{ display:block; font-size:14.5px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  #vs-near li .vn-txt small{ color:var(--muted); }
+  #vs-near li .button{ width:auto; margin:0; min-height:40px; padding:6px 16px; font-weight:800; color:#fff; background:#16a34a; border-color:transparent; }
+  #vs-near .vn-empty{ margin:0; font-size:13px; color:var(--muted); }
+  #menu-vs .vs-near-opt{ display:flex; align-items:center; gap:6px; font-size:13px; color:var(--muted); cursor:pointer; }
   /* 部屋番号で入るだけのとき（問題集・モードを選ぶ前）は、作る・自動マッチ・本数を出さない */
-  #menu-vs.join-only #vs-match, #menu-vs.join-only #vs-create, #menu-vs.join-only .vs-target{ display:none; }
+  #menu-vs.join-only #vs-match, #menu-vs.join-only #vs-create, #menu-vs.join-only .vs-target, #menu-vs.join-only .vs-near-opt{ display:none; }
   #vs-status .vs-code{ display:block; font-size:40px; font-weight:bold; letter-spacing:.25em; margin:6px 0; }
   #menu-vs [hidden]{ display:none !important; }
   #vs-status .vs-invite{ display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin:6px 0 10px; }
@@ -138,6 +152,11 @@
   <div class="menu-title" id="vs-title">対戦</div>
   <div class="menu-content">
     <div class="vs-actions" id="vs-actions">
+      <div id="vs-near" hidden aria-live="polite">
+        <div class="vn-head"><span class="vn-dot"></span>近くの部屋（同じ Wi-Fi）</div>
+        <ul id="vs-near-list"></ul>
+        <p class="vn-empty" id="vs-near-empty">同じ Wi-Fi の人が部屋を作ると、ここに出ます。押すだけで入れます</p>
+      </div>
       <div class="vs-rules">
         <label class="vs-target"><span>ルール</span>
           <select id="vs-rule" class="menu-opt">
@@ -152,6 +171,7 @@
       </div>
       <button class="button menu-opt" id="vs-match">だれかと対戦（自動マッチ）</button>
       <button class="button menu-opt" id="vs-create">部屋を作る（友達と対戦）</button>
+      <label class="vs-near-opt"><input type="checkbox" id="vs-near-on" checked> 同じ Wi-Fi の人の画面に、この部屋を出す</label>
       <div class="vs-join">
         <input id="vs-code" class="menu-opt" inputmode="numeric" maxlength="5" placeholder="部屋番号" autocomplete="off">
         <button class="button menu-opt" id="vs-join">入る</button>
@@ -218,7 +238,39 @@
   function showActions(on) {
     $('vs-actions').style.display = on ? '' : 'none';
     if (on) { $('vs-lobby').hidden = true; if (startInTimer) { clearInterval(startInTimer); startInTimer = null; } }
+    if (on) nearWatch(); else nearStop();
   }
+
+  // ---- 近くの部屋（同じ Wi-Fi の人が作った部屋。typing-versus.js の near） ----
+  let nearWs = null, nearRetry = null;
+  const RULE_SHORT = { first: t => t + '本先取', survival: t => 'サバイバル・ライフ' + t, time: t => 'タイムアタック' + t + '秒' };
+  function nearRender(rooms) {
+    const box = $('vs-near'), list = $('vs-near-list');
+    box.hidden = false;
+    list.innerHTML = rooms.map(r => `<li><span class="vn-txt"><b>${esc(r.host || 'ゲスト')} の部屋</b>
+      <small>${esc(r.label)}・${esc(h.levelLabel ? h.levelLabel(r.mode) : r.mode)}・${esc((RULE_SHORT[r.rule] || RULE_SHORT.first)(r.target))}・${r.n}/${r.max}人</small></span>
+      <button class="button menu-opt vn-go" data-code="${esc(r.code)}">入る</button></li>`).join('');
+    $('vs-near-empty').hidden = rooms.length > 0;
+    list.querySelectorAll('.vn-go').forEach(b => b.onclick = () => { $('vs-code').value = b.dataset.code; $('vs-join').click(); });
+    if (h.enableMenuNav && $('menu-vs').style.display !== 'none' && !$('menu-vs').contains(document.activeElement)) h.enableMenuNav($('menu-vs'));
+  }
+  function nearWatch() {
+    if (nearWs) return;
+    clearTimeout(nearRetry);
+    const sock = new WebSocket((location.protocol === 'https:' ? 'wss://' : 'ws://') + location.host + '/vs/near');
+    nearWs = sock;
+    sock.onmessage = ev => { if (nearWs !== sock) return; const m = JSON.parse(ev.data); if (m.t === 'near') nearRender(m.rooms || []); };
+    // 切れたら少し待ってつなぎ直す（対戦画面を見ている間だけ）
+    sock.onclose = () => { if (nearWs !== sock) return; nearWs = null; nearRetry = setTimeout(() => { if ($('menu-vs').style.display !== 'none' && $('vs-actions').style.display !== 'none') nearWatch(); }, 3000); };
+  }
+  function nearStop() {
+    clearTimeout(nearRetry);
+    if (nearWs) { const w = nearWs; nearWs = null; try { w.close(); } catch (e) {} }
+  }
+  // 「出す」の選び方は覚えておく
+  try { if (localStorage.getItem('st-vs-near') === '0') $('vs-near-on').checked = false; } catch (e) {}
+  $('vs-near-on').onchange = e => { try { localStorage.setItem('st-vs-near', e.target.checked ? '1' : '0'); } catch (x) {} };
+  const nearArg = () => $('vs-near-on').checked ? '1' : '0';
 
   // m が無いときは「部屋番号で入る」だけ（問題集とモードは部屋を作った人に合わせる）
   function openVersus(m) {
@@ -237,6 +289,7 @@
 
   function backToModes() {
     closeWs();
+    nearStop();
     $('menu-vs').style.display = 'none';
     h.showMenu(mode ? 'mode' : 'main', null);
   }
@@ -670,7 +723,7 @@
         $('vs-rule').value = rl; fillTargets(); $('vs-target').value = tg;
         showActions(false);
         status('新しい部屋を作っています…');
-        connect({ create: 1, kbn: h.kubun, mode: lv, rule: rl, target: tg, scopes: scopesArg() });
+        connect({ create: 1, kbn: h.kubun, mode: lv, rule: rl, target: tg, scopes: scopesArg(), near: nearArg() });
       };
     }
     // 結果の画面から、そのままほかの部屋に入る・新しい部屋を作る（トップまで戻らなくていいように）
@@ -793,7 +846,7 @@
   $('vs-create').onclick = () => {
     showActions(false);
     status('部屋を作っています…');
-    connect({ create: 1, kbn: h.kubun, mode, rule: rl(), target: tgt(), scopes: scopesArg() });
+    connect({ create: 1, kbn: h.kubun, mode, rule: rl(), target: tgt(), scopes: scopesArg(), near: nearArg() });
   };
   // 部屋番号の欄で Enter を押したら入る。欄の上下キーでボタンへ移れるように
   $('vs-code').addEventListener('keydown', e => {
