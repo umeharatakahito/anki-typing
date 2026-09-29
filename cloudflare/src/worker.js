@@ -20,7 +20,7 @@ import { handleAdmin } from './admin.js';
 import { decorate, THEMES } from './chrome.js';
 import { STUDY_SETS, CAT_BY_KBN, MENU, OLD_KEYS } from './sets.js';
 import { renderHome, renderCategory } from './portal.js';
-import { handlePay, renderPlan, renderLegal } from './pay.js';
+import { handlePay, renderPlan, renderLegal, renderPrivacy } from './pay.js';
 import * as gate from './gate.js';
 import { JUKEN_FIGS } from './generated/juken-figs.js';
 
@@ -118,6 +118,7 @@ function renderPage(url, viewer, available, env, favs) {
 
   if (route === 'plan') return renderPlan(viewer, env, url);
   if (route === 'legal') return renderLegal(env);
+  if (route === 'privacy') return renderPrivacy(env);
 
   if (route === 'me') {
     return withHead(PAGES.mypage(vars), 'わたしの戦績', 'width=device-width, initial-scale=1, viewport-fit=cover');

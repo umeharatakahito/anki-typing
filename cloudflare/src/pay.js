@@ -203,7 +203,7 @@ export function renderPlan(viewer, env, url) {
   <p class="plan-msg" id="pay-msg"></p>
   <div class="plan-free"><b>ずっと無料</b>：高校受験（中学生向け）と雑学は、会員でなくても全部遊べます。
     大学受験・英会話・資格も、はじめのいくつかの範囲は無料です。<br>
-    <a href="/legal">特定商取引法に基づく表記</a></div>
+    <a href="/legal">特定商取引法に基づく表記</a>・<a href="/privacy">プライバシーポリシー</a></div>
 </div>
 <script>
 (function(){
@@ -243,8 +243,50 @@ export function renderLegal(env) {
 <header class="top-head"><a href="/" aria-label="トップへ">${LOGO}</a></header>
 <nav class="crumb"><a id="back" href="/">トップ</a>${icon('chevron-right')}<a href="/plan">会員プラン</a>${icon('chevron-right')}<span>特定商取引法に基づく表記</span></nav>
 <div class="legal"><h1>特定商取引法に基づく表記</h1>
+<p style="font-size:13px"><a href="/privacy">プライバシーポリシー</a></p>
 <table>${rows.map(([k, x]) => `<tr><th>${k}</th><td>${x}</td></tr>`).join('')}</table></div>`;
   return page('特定商取引法に基づく表記 | STUDY TYPE', body);
+}
+
+// プライバシーポリシー（/privacy）。書くのは、このサイトとアプリが実際に集めて残しているものだけ
+// （migrations の表・auth.js・chrome.js の広告・typing-versus.js の近くの部屋）。集めるものを変えたら、ここも直す
+export function renderPrivacy(env) {
+  const v = (k, d) => esc(env[k] || d);
+  const sec = (h, body) => `<h2>${h}</h2>${body}`;
+  const body = `${PLAN_CSS}
+<style>.legal b{display:inline} .legal h2{margin:26px 0 8px;font-size:17px;color:var(--ink)} .legal p,.legal li{font-size:14px;line-height:1.85;color:var(--text)} .legal ul{padding-left:1.3em;margin:6px 0} .legal .date{color:var(--muted);font-size:13px}</style>
+<header class="top-head"><a href="/" aria-label="トップへ">${LOGO}</a></header>
+<nav class="crumb"><a id="back" href="/">トップ</a>${icon('chevron-right')}<span>プライバシーポリシー</span></nav>
+<div class="legal"><h1>プライバシーポリシー</h1>
+<p>STUDY TYPE（以下「本サービス」。Web 版 https://studytype.umekobo.com とスマホアプリ）を運営する ${v('SELLER_NAME', '運営者')}（以下「運営者」）は、利用者の情報を次のとおり扱います。</p>
+${sec('1. 集める情報', `<ul>
+  <li><b>ログインしたとき</b>（Google でログイン）：Google アカウントのメールアドレスと名前。ランキングに出すニックネーム</li>
+  <li><b>遊んだ記録</b>：スコア・到達レベル・日時、対戦の結果、苦手な問題の印、選んだ出題範囲・お気に入り（マイメニュー）、画面の色の設定。ログインしていない人の記録は、名前を付けずに残ります</li>
+  <li><b>問題の報告</b>：報告の内容と、ログインしていればメールアドレス</li>
+  <li><b>有料プラン</b>：プランの種類と期限、決済サービス（Stripe）のお客さま番号。<b>カード番号などの支払い情報は Stripe が扱い、運営者は受け取りません</b></li>
+  <li><b>対戦</b>：部屋の中で相手に見える名前（ニックネーム、アプリでは入力した名前）</li>
+  <li><b>接続の情報</b>：IP アドレスなど。サーバー（Cloudflare）が通信のために使います。「近くの部屋」（同じ Wi-Fi の部屋を出す機能）では、IP アドレスから作った短い印を、部屋がある間だけ使います。IP アドレスそのものは保存しません</li>
+</ul><p>位置情報、電話帳、写真などは集めません。</p>`)}
+${sec('2. 使いみち', `<ul>
+  <li>ログインの状態を保ち、記録・ランキング・戦績・マイメニューを出すため</li>
+  <li>対戦の部屋をつなぐため</li>
+  <li>有料プランの会員かどうかを確かめ、期限を管理するため</li>
+  <li>問題の誤りを直し、サービスを良くするため</li>
+  <li>不正な利用を防ぐため</li>
+</ul>`)}
+${sec('3. Cookie と端末への保存', `<p>ログインの状態を保つために Cookie（st_session）を使います。画面の色・出題範囲などの設定や、アプリの自己ベストは、利用者の端末（ブラウザの保存領域・アプリ）に保存します。</p>`)}
+${sec('4. 広告', `<p>本サービスは、Google が提供する広告サービス「Google AdSense」を使います（有料プランの会員には広告を出しません）。Google などの広告配信事業者は、Cookie を使って広告を配信することがあります。本サービスでは、利用者の興味に合わせた広告（パーソナライズド広告）を求めない設定にしています。Google による広告での情報の使い方は <a href="https://policies.google.com/technologies/ads?hl=ja" target="_blank" rel="noopener">Google の広告に関するポリシー</a> を、広告の設定は <a href="https://adssettings.google.com/" target="_blank" rel="noopener">広告設定</a> をご覧ください。</p>`)}
+${sec('5. 外部のサービス', `<p>本サービスは次のサービスを使い、その中で必要な情報が扱われます。</p><ul>
+  <li>Google（ログイン・広告）</li><li>Stripe（有料プランの決済）</li><li>Cloudflare（サーバー・データの保存）</li></ul>`)}
+${sec('6. 第三者への提供', `<p>法令にもとづく場合を除き、本人の同意なく個人情報を第三者に提供しません。ランキングや対戦では、ニックネーム（名前）とスコアがほかの利用者に見えます。</p>`)}
+${sec('7. 未成年の方', `<p>中学生・高校生などの未成年の方が有料プランを申し込むときは、保護者の方の同意を得てください。</p>`)}
+${sec('8. 情報の確認・削除', `<p>ご自身の情報の確認・訂正・削除（アカウントと記録の削除）を希望するときは、下の問い合わせ先までご連絡ください。ご本人であることを確かめたうえで対応します。</p>`)}
+${sec('9. 安全のために', `<p>通信は暗号化（https）しています。パスワードは本サービスでは保存しません（ログインは Google で行います）。</p>`)}
+${sec('10. 変更', `<p>このポリシーは、必要に応じて変えることがあります。変えたときは、このページでお知らせします。</p>`)}
+${sec('11. 問い合わせ先', `<p>${v('SELLER_NAME', '運営者')}<br>メール：${v('SELLER_EMAIL', '（準備中）')}</p>`)}
+<p class="date">2026年9月29日 制定</p>
+</div>`;
+  return page('プライバシーポリシー | STUDY TYPE', body, 'STUDY TYPE のプライバシーポリシー');
 }
 
 // ---------------------------------------------------------------

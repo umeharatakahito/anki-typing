@@ -313,7 +313,7 @@ ${CSS}
 <body>
 <div class="wrap">
 ${body}
-<footer class="foot"><span>© STUDY TYPE</span><a href="/?p=ranking">ランキング</a><a href="/?p=me">わたしの戦績</a><a href="/plan">会員プラン</a><a href="/legal">特定商取引法に基づく表記</a>
+<footer class="foot"><span>© STUDY TYPE</span><a href="/?p=ranking">ランキング</a><a href="/?p=me">わたしの戦績</a><a href="/plan">会員プラン</a><a href="/legal">特定商取引法に基づく表記</a><a href="/privacy">プライバシーポリシー</a>
 <span>アイコン：<a href="https://lucide.dev" target="_blank" rel="noopener">Lucide</a>（ISC）</span></footer>
 </div>
 ${KEYS}
