@@ -7,8 +7,9 @@
   --c-green:#12b886; --c-green2:#0b8f6a; --c-navy:#4263eb; --c-navy2:#243b99; --c-orange:#ff8a4c; --c-orange2:#f0561d;
   --c-purple:#9f5cf0; --c-purple2:#6b30d6; --c-sky:#1fb6e0; --c-sky2:#0a7fbf; --c-gold:#f6b93b; --c-gold2:#d9820b;
   --safe-t:env(safe-area-inset-top); --safe-b:env(safe-area-inset-bottom);
-  /* キーボードの下に空ける分。ホームに戻る線の分を全部は空けない（押し間違えない程度に少しだけ） */
-  --kb-safe:calc(env(safe-area-inset-bottom) * .35);
+  /* キーボードの下に空ける分。iPhone 標準のキーボードと同じくらい（ホームに戻る線の分＋地球儀の段くらい）。
+     詰めすぎると、下の端をさわってアプリが切り替わったり、押し間違えたりする */
+  --kb-safe:calc(env(safe-area-inset-bottom) + 36px);
   /* キーボードの高さは iPhone 標準と同じくらい（キー 1 段 46pt ほど）。かなは 4 段、英字は数字を入れて 5 段 */
   --kb-h:216px; --kb-h-latin:264px;
   --key:#26356a; --key-on:#3b4f94; --key-fn:#18224a; --kb-bg:#0b1330; --key-num:#1d2a57; --shadow:rgba(0,0,0,.25);
