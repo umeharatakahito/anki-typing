@@ -177,11 +177,13 @@ export function renderPlan(viewer, env, url) {
   const hasAuto = !!(p && p.active && p.auto);
   const card = (key, best) => {
     const pl = PLANS[key];
-    const dis = locked || (pl.mode === 'subscription' && hasAuto);
+    // 月額に入っている間は、どちらも買えない（1 年分に替えるときは、先に月額を解約する）
+    const dis = locked || hasAuto;
     return `<div class="plan${best ? ' best' : ''}">${best ? '<span class="flag">おすすめ</span>' : ''}
       <h2>${pl.label}</h2><div class="price">${pl.price.toLocaleString()}円<small>／${pl.per}</small></div>
       <p><b>${pl.pay}</b><br>${pl.note}</p>
-      <button type="button" class="${pl.mode === 'subscription' ? 'sub' : ''}" data-plan="${key}"${dis ? ' disabled' : ''}>${pl.mode === 'subscription' ? '月額で申し込む' : '1年分を買う'}</button></div>`;
+      <button type="button" class="${pl.mode === 'subscription' ? 'sub' : ''}" data-plan="${key}"${dis ? ' disabled' : ''}>${pl.mode === 'subscription' ? '月額で申し込む' : '1年分を買う'}</button>
+      ${hasAuto && pl.mode === 'payment' ? '<p>月額プランに入っています。1年分に替えるときは、先に月額を解約してください</p>' : ''}</div>`;
   };
   const body = `${PLAN_CSS}
 <header class="top-head"><a href="/" aria-label="トップへ">${LOGO}</a></header>
@@ -212,9 +214,9 @@ export function renderPlan(viewer, env, url) {
       .then(function(j){ if (j.url) location.href = j.url; else { msg.textContent = j.error || 'うまくいきませんでした'; if (btn) btn.disabled = false; } })
       .catch(function(){ msg.textContent = '通信できませんでした'; if (btn) btn.disabled = false; });
   }
-  document.querySelectorAll('[data-plan]').forEach(function(b){ b.addEventListener('click', function(){ go('/pay/checkout', { plan: b.dataset.plan }, b); }); });
+  document.querySelectorAll('[data-plan]').forEach(function(b){ b.addEventListener('click', function(){ go('/pay/checkout', { plan: b.dataset.plan, origin: location.origin }, b); }); });
   var portal = document.getElementById('pay-portal');
-  if (portal) portal.addEventListener('click', function(){ go('/pay/portal', {}, portal); });
+  if (portal) portal.addEventListener('click', function(){ go('/pay/portal', { origin: location.origin }, portal); });
 })();
 </script>`;
   return page('会員プラン | STUDY TYPE', body, 'STUDY TYPE の会員プラン。月100円で、大学受験・英会話・資格の全部の範囲が遊べて、広告も出ません。');
@@ -248,7 +250,12 @@ export function renderLegal(env) {
 // /pay/* を受け持つ。該当しなければ null
 export async function handlePay(request, env, url, viewer) {
   if (!url.pathname.startsWith('/pay/')) return null;
-  const origin = url.origin;
+  // 戻り先。手元の wrangler dev は request.url・Origin からポート番号を消すので、画面が送る location.origin を使う
+  // （ホスト名が同じときだけ。本番では url.origin と同じになる）
+  const originOf = body => {
+    const asked = String((body && body.origin) || '');
+    return /^https?:\/\/[^/]+$/.test(asked) && new URL(asked).hostname === url.hostname ? asked : url.origin;
+  };
 
   if (url.pathname === '/pay/webhook' && request.method === 'POST') {
     const payload = await request.text();
@@ -285,14 +292,18 @@ export async function handlePay(request, env, url, viewer) {
     let body = {};
     try { body = await request.json(); } catch (e) { /* 空 */ }
     const key = String(body.plan || '');
+    const origin = originOf(body);
     const pl = PLANS[key];
     if (!pl) return json({ error: 'プランが違います' }, 400);
     const cur = await planOf(env, viewer.email);
-    if (pl.mode === 'subscription' && cur && cur.sub && cur.until > Date.now()) {
-      return json({ error: 'もう自動更新のプランに入っています' }, 409);
+    if (cur && cur.sub && cur.until > Date.now()) {
+      return json({ error: pl.mode === 'subscription' ? 'もう月額プランに入っています' : '月額プランに入っています。1年分に替えるときは、先に月額を解約してください' }, 409);
     }
     const params = {
       mode: pl.mode, locale: 'ja',
+      // Managed Payments（Stripe が売り手になって税を扱う有料の仕組み。新しいアカウントは最初から有効）は使わない。
+      // 値段は税込みで決めてある
+      managed_payments: { enabled: false },
       success_url: origin + '/pay/done?session_id={CHECKOUT_SESSION_ID}',
       cancel_url: origin + '/plan?pay=cancel',
       client_reference_id: viewer.email,
@@ -336,6 +347,9 @@ export async function handlePay(request, env, url, viewer) {
 
   if (url.pathname === '/pay/portal' && request.method === 'POST') {
     if (!viewer.email) return json({ error: '先にログインしてください' }, 401);
+    let body = {};
+    try { body = await request.json(); } catch (e) { /* 空 */ }
+    const origin = originOf(body);
     const cur = await planOf(env, viewer.email);
     if (!cur || !cur.customer) return json({ error: '自動更新のプランがありません' }, 404);
     try {
