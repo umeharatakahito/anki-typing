@@ -14,6 +14,7 @@ import { icon } from './icons.js';
 import { Keyboard, kbPrefs } from './keyboard.js';
 import { alts, tryAppend, tryCycle, nextChars, bestAnswer, isLatin, prefixState } from './match.js';
 import { lobby as versusLobby } from './versus.js';
+import { adsFor } from './ads.js';
 
 const $app = document.getElementById('app');
 export const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -92,16 +93,18 @@ const stack = [];
 let leaving = [];
 export const onLeave = f => leaving.push(f);
 function leave() { const l = leaving; leaving = []; l.forEach(f => { try { f(); } catch (e) {} }); }
+// 広告は、遊んでいる最中（.game の画面）には出さない
+const syncAds = () => setTimeout(() => adsFor(!$app.querySelector('.screen.game')), 0);
 export function show(render, push) {
   if (push !== false) stack.push(render);
   leave();
   $app.innerHTML = '';
-  render();
+  Promise.resolve(render()).then(syncAds);
 }
 export function back() {
   stack.pop();
   const r = stack[stack.length - 1];
-  if (r) { leave(); $app.innerHTML = ''; r(); }
+  if (r) { leave(); $app.innerHTML = ''; Promise.resolve(r()).then(syncAds); }
 }
 export const topBar = (title, right) => `<div class="top"><button class="icon-btn" data-back aria-label="戻る">${icon('chevron-left')}</button><h1>${esc(title)}</h1>${right || '<span class="sp"></span>'}</div>`;
 function wire(el) {
@@ -149,7 +152,7 @@ function home() {
   const tiles = MENU.map(m => `<button class="tile k-${m.color}" data-cat="${m.key}">
     <div class="art">${icon(m.icon)}<span class="price${m.paid ? ' paid' : ''}">${m.paid ? '一部無料' : '無料'}</span></div>
     <div class="body"><span class="en">${esc(m.en)}</span><b>${esc(m.title)}</b><small>${esc(m.lead)}</small></div></button>`).join('');
-  const n = Object.values(SETS).reduce((a, s) => a + s.n, 0);
+  const n = Object.entries(SETS).filter(([k]) => k !== 'shinra').reduce((a, [, s]) => a + s.n, 0);
   const el = screen('', `<button class="icon-btn home-menu" id="menu" aria-label="メニュー（設定・会員）">${icon('settings')}</button><div class="scroll">
     <div class="hero">${LOGO}<span class="offline">● オフラインでも遊べます（${n.toLocaleString()} 問）</span></div>
     <button class="vs-home" id="vs-home">${icon('swords')}<span><b>対戦する</b><small>ランダム対戦・部屋番号で入る・近くの部屋（Web の人とも）</small></span>${icon('chevron-right')}</button>

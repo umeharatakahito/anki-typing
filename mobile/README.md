@@ -33,6 +33,27 @@ xcrun devicectl device install app --device <UDID> build/dev/Build/Products/Debu
 
 UDID は `xcrun devicectl list devices` で見る。署名のチームは P89RKRTMXS。
 
+## 広告（AdMob）
+
+`www/js/ads.js`。トップ・一覧・設定・結果の画面の下にバナーを出し、遊んでいる最中と対戦中は出さない。
+トラッキング（興味に合わせた広告）は使わない（npa）ので、「トラッキングを許可」の確認は出さない。
+
+- いまは **Google のテスト広告**（`AD_CONFIG.live = false`、Info.plist の `GADApplicationIdentifier` もテスト用の ID）。
+  自分の本物の広告を押すと AdMob のアカウントが止まることがあるので、開発中と TestFlight はテストのまま
+- App Store に出す版を作るときだけ：AdMob で作った STUDY TYPE のアプリ ID を Info.plist に、バナーのユニット ID を
+  `AD_CONFIG.banner.real` に入れ、`live: true` にする
+
+## App Store / TestFlight
+
+```sh
+cd ios/App
+xcodebuild -project App.xcodeproj -scheme App -configuration Release -destination 'generic/platform=iOS' -archivePath build/StudyType.xcarchive -allowProvisioningUpdates archive
+xcodebuild -exportArchive -archivePath build/StudyType.xcarchive -exportOptionsPlist ExportOptions-AppStore.plist -exportPath build/export -allowProvisioningUpdates
+```
+
+2 つ目で App Store Connect に上がる（Xcode の設定 → Accounts に開発者の Apple ID が入っていること）。
+上げるたびにビルド番号（project の CURRENT_PROJECT_VERSION）を 1 つ上げる。
+
 ## これから
 
 - 有料の範囲（アプリ内課金）、ログインしてランキング・戦績を Web と共有
