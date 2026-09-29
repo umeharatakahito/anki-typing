@@ -5,7 +5,7 @@
 // 色は chrome.js と同じ <html data-theme="blue|dark"> で切り替わる。
 // ===============================================================
 
-import { MENU, FEATURED, setInfo, isPaidSet } from './sets.js';
+import { MENU, FEATURED, setInfo, isPaidSet, PAID_CATS } from './sets.js';
 import { icon } from './icons.js';
 
 const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;')
@@ -130,6 +130,9 @@ a{color:inherit}
 .tile .art::before,.tile .art::after{content:"";position:absolute;border-radius:50%;background:rgba(255,255,255,.14)}
 .tile .art::before{width:120px;height:120px;right:-40px;top:-50px}
 .tile .art::after{width:70px;height:70px;left:-24px;bottom:-30px;background:rgba(255,255,255,.1)}
+.tile .art .price{position:absolute;top:8px;left:8px;z-index:1;padding:2px 9px;border-radius:999px;font-size:11px;font-weight:900;letter-spacing:.04em;
+  background:#fff;color:#0b8f6a;box-shadow:0 2px 6px rgba(0,0,0,.15)}
+.tile .art .price.paid{color:#c2410c}
 .tile .art .ic{width:54px;height:54px;color:#fff;stroke-width:1.75;filter:drop-shadow(0 4px 8px rgba(0,0,0,.18));
   transition:transform .25s cubic-bezier(.2,.8,.2,1)}
 .tile:hover .art .ic{transform:scale(1.1) rotate(-6deg)}
@@ -300,8 +303,9 @@ const liveSets = (m, available) => {
 export function renderHome(viewer, available) {
   const tiles = MENU.map(m => {
     const n = liveSets(m, available).length;
+    const price = PAID_CATS.includes(m.key) ? '<span class="price paid">3割無料</span>' : '<span class="price">無料</span>';
     return `<a class="tile nav-item k-${m.color}" href="?p=${m.key}">
-  <div class="art">${icon(m.icon)}</div>
+  <div class="art">${icon(m.icon)}${price}</div>
   <div class="body"><span class="en">${esc(m.en)}</span><b>${esc(m.title)}</b><small>${esc(m.lead)}</small>
   <span class="cnt">${icon('book-open')}${n ? n + ' 問題集' : 'まもなく公開'}</span></div>
 </a>`;

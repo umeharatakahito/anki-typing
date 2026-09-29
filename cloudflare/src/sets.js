@@ -109,7 +109,16 @@ export const setInfo = kbn => SET_INFO[kbn];
 // 大分類・中分類・問題集は、ここに 1 行足せば画面（トップのタイル・分類ページ・ランキング）に出る。
 // 同じ問題集を何か所に書いてもよい（問題は 1 つ、置き場所だけ増える）。
 // color はテーマ色（portal.js の CSS に同じ名前の色がある）
+// 並びはトップのタイルの順。無料の大分類（雑学・高校受験）を先に
 export const MENU = [
+  { key: 'zatsugaku', title: '雑学', en: 'TRIVIA', icon: 'lightbulb', color: 'sky',
+    lead: '写真と地図で、知ってるを増やす',
+    groups: [
+      { label: '地図', sets: ['map-world-country', 'map-japan-pref', 'map-world-nature'] },
+      { label: '国旗・世界', sets: ['flag-country', 'capital', 'heritage'] },
+      { label: '生きもの', sets: ['zk-fish', 'zk-deepsea', 'zk-flower', 'zk-insect', 'zk-bird'] },
+      { label: '科学・日本', sets: ['element', 'constellation', 'castle'] },
+    ] },
   { key: 'koko', title: '高校受験', en: 'HIGH SCHOOL', icon: 'school', color: 'green',
     lead: '中学の 5 教科をタイピングで総復習',
     groups: [
@@ -137,14 +146,6 @@ export const MENU = [
     lead: 'IT パスポート・基本情報ほか',
     groups: [
       { label: 'IT', sets: ['1', 'itpass', 'fe', 'genai'] },
-    ] },
-  { key: 'zatsugaku', title: '雑学', en: 'TRIVIA', icon: 'lightbulb', color: 'sky',
-    lead: '写真と地図で、知ってるを増やす',
-    groups: [
-      { label: '地図', sets: ['map-world-country', 'map-japan-pref', 'map-world-nature'] },
-      { label: '国旗・世界', sets: ['flag-country', 'capital', 'heritage'] },
-      { label: '生きもの', sets: ['zk-fish', 'zk-deepsea', 'zk-flower', 'zk-insect', 'zk-bird'] },
-      { label: '科学・日本', sets: ['element', 'constellation', 'castle'] },
     ] },
 ];
 
