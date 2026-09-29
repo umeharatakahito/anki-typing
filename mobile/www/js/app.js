@@ -11,7 +11,7 @@
 // ===============================================================
 
 import { icon } from './icons.js';
-import { Keyboard } from './keyboard.js';
+import { Keyboard, kbPrefs } from './keyboard.js';
 import { alts, tryAppend, tryCycle, nextChars, bestAnswer, isLatin, prefixState } from './match.js';
 
 const $app = document.getElementById('app');
@@ -31,9 +31,9 @@ const TITLES = [[0, '見習い'], [600, '駆け出し'], [1200, '一人前'], [2
 // ---- ふるえ（Capacitor の Haptics。ブラウザでは何もしない） ----
 const haptics = () => window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.Haptics;
 const buzz = {
-  tap()  { const h = haptics(); if (h) h.impact({ style: 'LIGHT' }).catch(() => {}); },
-  miss() { const h = haptics(); if (h) h.notification({ type: 'ERROR' }).catch(() => {}); else if (navigator.vibrate) navigator.vibrate(40); },
-  ok()   { const h = haptics(); if (h) h.notification({ type: 'SUCCESS' }).catch(() => {}); },
+  tap()  { const h = prefs.haptics && haptics(); if (h) h.impact({ style: 'LIGHT' }).catch(() => {}); },
+  miss() { const h = prefs.haptics && haptics(); if (h) h.notification({ type: 'ERROR' }).catch(() => {}); },
+  ok()   { const h = prefs.haptics && haptics(); if (h) h.notification({ type: 'SUCCESS' }).catch(() => {}); },
 };
 
 // ---- 保存（この端末） ----
@@ -43,6 +43,19 @@ const store = {
 };
 const settings = Object.assign({ level: 'kihon', sec: 90 }, store.get('settings', {}));
 const saveSettings = () => store.set('settings', settings);
+
+// 画面設定（メニュー）：色・振動・フリックの感度・キーの大きさ
+const FLICK_DIST = { short: 12, normal: 18, long: 28 };
+const prefs = Object.assign({ theme: 'dark', haptics: true, flick: 'normal', keys: 'normal' }, store.get('prefs', {}));
+function applyPrefs() {
+  document.body.classList.toggle('light', prefs.theme === 'light');
+  document.body.classList.toggle('kb-large', prefs.keys === 'large');
+  kbPrefs.flickMin = FLICK_DIST[prefs.flick] || 18;
+  const sb = window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.StatusBar;
+  // DARK は明るい文字（暗い地のとき）、LIGHT は暗い文字
+  if (sb) sb.setStyle({ style: prefs.theme === 'light' ? 'LIGHT' : 'DARK' }).catch(() => {});
+}
+const savePrefs = () => { store.set('prefs', prefs); applyPrefs(); };
 
 // ---- データ ----
 let MENU = null, SETS = null;
@@ -87,7 +100,7 @@ const LOGO = `<svg viewBox="0 0 330 92" role="img" aria-label="STUDY TYPE 打っ
   <rect x="8" y="7" width="44" height="40" rx="8" fill="#34488a"/>
   <text x="26" y="40" text-anchor="middle" font-family="'Arial Black','Hiragino Sans',sans-serif" font-weight="900" font-size="34" fill="#fff">S</text>
   <rect x="41" y="17" width="4" height="22" rx="1.5" fill="#ff6b35"/>
-  <text x="72" y="44" font-family="'Arial Black','Helvetica Neue',sans-serif" font-weight="900" font-size="32" letter-spacing="1"><tspan fill="#fff">STUDY</tspan><tspan fill="#ff6b35" dx="7">TYPE</tspan></text>
+  <text x="72" y="44" font-family="'Arial Black','Helvetica Neue',sans-serif" font-weight="900" font-size="32" letter-spacing="1"><tspan fill="#fff" class="logo-ink">STUDY</tspan><tspan fill="#ff6b35" dx="7">TYPE</tspan></text>
   <text x="74" y="78" font-family="'Hiragino Sans',sans-serif" font-weight="700" font-size="15" fill="#93a1bd">打って、覚えて、対戦<tspan fill="#ff6b35" font-size="18">だ。</tspan></text>
 </svg>`;
 
@@ -98,12 +111,57 @@ function home() {
     <div class="art">${icon(m.icon)}<span class="price${m.paid ? ' paid' : ''}">${m.paid ? '3割無料' : '無料'}</span></div>
     <div class="body"><span class="en">${esc(m.en)}</span><b>${esc(m.title)}</b><small>${esc(m.lead)}</small></div></button>`).join('');
   const n = Object.values(SETS).reduce((a, s) => a + s.n, 0);
-  const el = screen('', `<div class="scroll">
+  const el = screen('', `<button class="icon-btn home-menu" id="menu" aria-label="メニュー（設定・会員）">${icon('settings')}</button><div class="scroll">
     <div class="hero">${LOGO}<span class="offline">● オフラインでも遊べます（${n.toLocaleString()} 問）</span></div>
     <div class="sec-h">何を勉強する？</div>
     <div class="tiles">${tiles}</div>
   </div>`);
   el.querySelectorAll('[data-cat]').forEach(b => b.onclick = () => show(() => category(b.dataset.cat)));
+  el.querySelector('#menu').onclick = () => show(menu);
+}
+
+// ---------------------------------------------------------------
+// メニュー（会員・画面設定・記録・このアプリについて）
+function menu() {
+  const seg = (key, opts) => `<div class="seg" data-pref="${key}">${opts.map(([v, l]) => `<button data-v="${v}" class="${prefs[key] === v ? 'on' : ''}">${l}</button>`).join('')}</div>`;
+  const bests = store.get('best', {});
+  const nBest = Object.keys(bests).length;
+  const el = screen('', topBar('メニュー') + `<div class="scroll">
+    <div class="m-sec">会員</div>
+    <div class="member"><b>${icon('crown')} いまは無料版です</b>
+      <p>会員になると、次のことができるようになります。</p>
+      <ul><li>大学受験・英会話・資格の<b style="display:inline;font-size:inherit">全部の範囲</b></li><li>Web 版とランキング・戦績・マイメニューを共有（同じアカウントでログイン）</li><li>広告なし</li></ul>
+      <span class="soon">アプリでの会員登録は準備中です</span></div>
+
+    <div class="m-sec">画面設定</div>
+    <div class="m-card">
+      <div class="m-row">${icon(prefs.theme === 'light' ? 'sun' : 'moon')}<span class="grow"><b>画面の色</b></span>${seg('theme', [['dark', '暗い'], ['light', '明るい']])}</div>
+      <div class="m-row">${icon('vibrate')}<span class="grow"><b>振動</b><small>キーを押したとき・ミス・正解</small></span><button class="switch${prefs.haptics ? ' on' : ''}" id="sw-haptics" aria-label="振動"></button></div>
+      <div class="m-row">${icon('hand')}<span class="grow"><b>フリックの感度</b><small>どれだけ指を動かしたらフリックになるか</small></span>${seg('flick', [['short', '敏感'], ['normal', 'ふつう'], ['long', 'にぶい']])}</div>
+      <div class="m-row">${icon('keyboard')}<span class="grow"><b>キーの大きさ</b></span>${seg('keys', [['normal', 'ふつう'], ['large', '大きい']])}</div>
+    </div>
+
+    <div class="m-sec">記録</div>
+    <div class="m-card">
+      <button class="m-row danger" id="reset-best">${icon('trash-2')}<span class="grow"><b>自己ベストを消す</b><small>この iPhone に残っている ${nBest} 件</small></span></button>
+    </div>
+
+    <div class="m-sec">このアプリについて</div>
+    <div class="m-card">
+      <div class="m-row">${icon('info')}<span class="grow"><b>STUDY TYPE</b><small>打って、覚えて、対戦だ。Web 版：studytype.umekobo.com</small></span></div>
+      <div class="m-row"><span class="grow"><small>問題の図・写真は Wikimedia Commons ほか（作者とライセンスは各問題の解説に）。地図は Natural Earth。アイコンは Lucide（ISC）</small></span></div>
+    </div>
+  </div>`);
+  el.querySelectorAll('[data-pref]').forEach(g => g.querySelectorAll('button').forEach(b => b.onclick = () => {
+    prefs[g.dataset.pref] = b.dataset.v; savePrefs(); buzz.tap();
+    g.querySelectorAll('button').forEach(x => x.classList.toggle('on', x === b));
+    if (g.dataset.pref === 'theme') { stack.pop(); show(menu); }
+  }));
+  el.querySelector('#sw-haptics').onclick = e => { prefs.haptics = !prefs.haptics; savePrefs(); e.currentTarget.classList.toggle('on', prefs.haptics); buzz.tap(); };
+  el.querySelector('#reset-best').onclick = () => {
+    if (!nBest || !confirm('この iPhone の自己ベスト（' + nBest + ' 件）を消しますか？')) return;
+    store.set('best', {}); stack.pop(); show(menu);
+  };
 }
 
 // ---------------------------------------------------------------
@@ -206,7 +264,7 @@ function game({ cat, kbn, pool, all }) {
   const kb = new Keyboard($('kb'), {
     onPress: () => buzz.tap(),
     onChar: ch => input(ch),
-    onCycle: () => { if (!ready()) return; const r = tryCycle(st.t, st.answers); if (r.ok) { st.t = r.t; after(r); } },
+    onCycle: () => { if (!ready()) return; const r = tryCycle(st.t, st.answers); if (r.ok) { st.t = r.t; after(r); } else if (r.miss) missed(); },
     onBack: () => { if (!ready() || !st.t) return; st.t = st.t.slice(0, -1); draw(); },
     onHint: () => { if (!ready()) return; hint(); },
     onPass: () => { if (!ready()) return; finishCard(false); },
@@ -256,17 +314,18 @@ function game({ cat, kbn, pool, all }) {
   function input(ch) {
     if (!ready()) return;
     const r = tryAppend(st.t, ch, st.answers);
-    if (!r.ok) {
-      st.miss++; st.cardMiss++; st.combo = 0;
-      buzz.miss();
-      const a = $('ans'); a.classList.remove('miss'); void a.offsetWidth; a.classList.add('miss');
-      addTime(-lv.minus);
-      return;
-    }
+    if (!r.ok) { missed(); return; }
     const gained = r.t.replace(/[ .,\-]/g, '').length - st.t.replace(/[ .,\-]/g, '').length;
     if (gained > 0) st.keys += gained;
     st.t = r.t;
     after(r);
+  }
+  // ミス：時間を減らし、答えの枠を赤くゆらす（字は入れない）
+  function missed() {
+    st.miss++; st.cardMiss++; st.combo = 0;
+    buzz.miss();
+    const a = $('ans'); a.classList.remove('miss'); void a.offsetWidth; a.classList.add('miss');
+    addTime(-lv.minus);
   }
   function after(r) {
     draw();
@@ -389,10 +448,7 @@ function result({ cat, kbn, lv, st, title, newBest, all, pool }) {
 
 // ---------------------------------------------------------------
 (async function start() {
-  try {
-    const sb = window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.StatusBar;
-    if (sb) sb.setStyle({ style: 'DARK' }).catch(() => {});
-  } catch (e) {}
+  applyPrefs();
   await loadMenu();
   show(home);
 })();

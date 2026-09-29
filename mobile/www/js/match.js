@@ -43,12 +43,15 @@ export function tryAppend(t, ch, answers) {
   return settle(next, answers);
 }
 
-// ゛゜小：最後の文字を次の形に変える（答えに合わなくても変えられる。合っているかは次の文字で見る）
+// ゛゜小：最後の文字を次の形に変える。
+// 最後の文字がもう答えと合っている（「か」が正解なのに ゛ を押した）ときは、変えずにミス。
+// 正解へ向かう途中（つ → っ → づ の「っ」など）は変えてよい
 export function tryCycle(t, answers) {
   if (!t) return { ok: false, t };
   const last = t[t.length - 1];
   const nx = cycle(last);
-  if (nx === last) return { ok: false, t };
+  if (nx === last) return { ok: false, t, miss: true };
+  if (answers.some(a => prefixState(t, a) === 'exact')) return { ok: false, t, miss: true };
   return settle(t.slice(0, -1) + nx, answers, true);
 }
 

@@ -18,7 +18,8 @@ const FLICK = {
   'わ': ['わ', 'を', 'ん', 'ー', ''],
 };
 const QWERTY = ['1234567890', 'qwertyuiop', 'asdfghjkl', 'zxcvbnm'];
-const FLICK_MIN = 18;   // これより動かしたらフリック（px）
+// これより動かしたらフリック（px）。メニューの「フリックの感度」で変える
+export const kbPrefs = { flickMin: 18 };
 
 export class Keyboard {
   constructor(el, handlers) {
@@ -70,7 +71,7 @@ export class Keyboard {
     const kana = b.dataset.kana;
     let start = null, dir = 0, tid = null;
     const dirOf = (dx, dy) => {
-      if (Math.hypot(dx, dy) < FLICK_MIN) return 0;
+      if (Math.hypot(dx, dy) < kbPrefs.flickMin) return 0;
       return Math.abs(dx) > Math.abs(dy) ? (dx < 0 ? 1 : 3) : (dy < 0 ? 2 : 4);
     };
     const down = (x, y) => {

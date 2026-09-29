@@ -8,7 +8,17 @@
   --c-purple:#9f5cf0; --c-purple2:#6b30d6; --c-sky:#1fb6e0; --c-sky2:#0a7fbf; --c-gold:#f6b93b; --c-gold2:#d9820b;
   --safe-t:env(safe-area-inset-top); --safe-b:env(safe-area-inset-bottom);
   --kb-h:min(46vh, 330px);
+  --key:#26356a; --key-on:#3b4f94; --key-fn:#18224a; --kb-bg:#0b1330; --key-num:#1d2a57; --shadow:rgba(0,0,0,.25);
 }
+/* 明るい色（メニューの画面設定） */
+body.light{
+  --bg:#eef3fa; --bg2:#f8fafd; --card:#ffffff; --card2:#e8eef8; --ink:#1d2b53; --text:#24304f; --muted:#5d6886; --line:#d6deeb;
+  --key:#ffffff; --key-on:#dbe4f5; --key-fn:#cfd8e8; --kb-bg:#d3dbe8; --key-num:#e9eef6; --shadow:rgba(29,43,83,.12);
+}
+body.light .hero text tspan[fill="#fff"], body.light .hero .logo-ink{fill:#1d2b53}
+body.light .kb-pop span{background:#1d2b53;color:#fff}
+/* キーを大きく（メニューの画面設定） */
+body.kb-large{--kb-h:min(52vh, 380px)}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;height:100%;background:var(--bg);color:var(--text);overscroll-behavior:none}
 body{font:16px/1.6 -apple-system,"Hiragino Sans","Hiragino Kaku Gothic ProN",system-ui,sans-serif;
@@ -35,8 +45,9 @@ button{font:inherit;color:inherit;touch-action:manipulation}
 .sec-h{margin:22px 2px 10px;font-size:13px;font-weight:800;letter-spacing:.12em;color:var(--muted)}
 .tiles{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .tile{position:relative;display:flex;flex-direction:column;border:0;padding:0;border-radius:20px;overflow:hidden;text-align:left;background:var(--card);
-  box-shadow:0 8px 24px rgba(0,0,0,.25);--a:var(--c-navy);--b:var(--c-navy2)}
-.tile:last-child:nth-child(odd){grid-column:1/-1}
+  box-shadow:0 8px 24px var(--shadow);--a:var(--c-navy);--b:var(--c-navy2)}
+.tile:first-child{grid-column:1/-1}
+.tile:first-child .art{height:96px}
 .tile:active{transform:scale(.97)}
 .tile .art{position:relative;height:84px;display:grid;place-items:center;background:linear-gradient(140deg,var(--a),var(--b))}
 .tile .art .ic{width:42px;height:42px;color:#fff;stroke-width:1.75}
@@ -114,12 +125,12 @@ button{font:inherit;color:inherit;touch-action:manipulation}
 .count{position:fixed;inset:0;display:grid;place-items:center;background:rgba(15,26,61,.82);font-size:96px;font-weight:900;color:#fff;z-index:30}
 
 /* ---- キーボード ---- */
-.kb{flex:none;height:calc(var(--kb-h) + var(--safe-b));padding:6px 4px calc(6px + var(--safe-b));background:#0b1330;border-top:1px solid var(--line);touch-action:none}
+.kb{flex:none;height:calc(var(--kb-h) + var(--safe-b));padding:6px 4px calc(6px + var(--safe-b));background:var(--kb-bg);border-top:1px solid var(--line);touch-action:none}
 .kb-flick{display:grid;grid-template-columns:1fr 1.25fr 1.25fr 1.25fr 1fr;grid-auto-rows:1fr;gap:6px}
 .kb-k{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;border:0;border-radius:10px;padding:0;
-  background:#26356a;color:var(--ink);box-shadow:0 2px 0 rgba(0,0,0,.35);font-weight:700;touch-action:none}
-.kb-k.on{background:#3b4f94;transform:translateY(1px);box-shadow:none}
-.kb-fn{background:#18224a;color:var(--text);font-size:14px}
+  background:var(--key);color:var(--ink);box-shadow:0 2px 0 var(--shadow);font-weight:700;touch-action:none}
+.kb-k.on{background:var(--key-on);transform:translateY(1px);box-shadow:none}
+.kb-fn{background:var(--key-fn);color:var(--text);font-size:14px}
 .kb-fn small{display:block;font-size:10px;font-weight:600;color:var(--muted);margin-top:2px}
 .kb-tall{grid-row:span 3}
 .kb-hint{color:#93c5fd} .kb-pass{color:#fca5a5}
@@ -131,7 +142,7 @@ button{font:inherit;color:inherit;touch-action:manipulation}
 .kb-row{flex:1;display:flex;gap:5px;justify-content:center}
 .kb-row .kb-k{flex:1;max-width:44px;font-size:clamp(17px,5vw,21px);font-weight:600}
 .kb-row.kb-in{padding:0 5%}
-.kb-row.kb-num .kb-k{background:#1d2a57;font-size:16px}
+.kb-row.kb-num .kb-k{background:var(--key-num);font-size:16px}
 .kb-row .kb-fn{max-width:none;flex:1.4;font-size:13px}
 .kb-row .kb-space{flex:4;font-size:14px}
 .kb-pop{position:fixed;z-index:50;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(3,1fr);pointer-events:none;
@@ -162,3 +173,27 @@ button{font:inherit;color:inherit;touch-action:manipulation}
 .btn{min-height:54px;border-radius:16px;border:0;font-size:16px;font-weight:800;background:var(--card);color:var(--ink)}
 .btn.primary{color:#fff;background:linear-gradient(135deg,#ff7a45,#f0561d)}
 .btn:active{transform:scale(.98)}
+
+/* ---- トップの歯車 ---- */
+.home-menu{position:absolute;top:calc(8px + var(--safe-t));right:12px;z-index:2}
+/* ---- メニュー（設定・会員） ---- */
+.m-sec{margin:18px 2px 8px;font-size:12.5px;font-weight:800;letter-spacing:.08em;color:var(--muted)}
+.m-card{border-radius:16px;background:var(--card);border:1px solid var(--line);overflow:hidden}
+.m-row{display:flex;align-items:center;gap:12px;width:100%;min-height:56px;padding:10px 14px;border:0;border-top:1px solid var(--line);background:transparent;text-align:left;color:var(--text)}
+.m-row:first-child{border-top:0}
+.m-row .ic{color:var(--muted)}
+.m-row b{display:block;font-size:15px;color:var(--ink);font-weight:700}
+.m-row small{display:block;font-size:12px;color:var(--muted);line-height:1.45}
+.m-row .grow{flex:1;min-width:0}
+.seg{display:flex;flex:none;border-radius:10px;background:var(--bg);padding:3px;gap:2px}
+.seg button{border:0;background:transparent;border-radius:8px;padding:6px 10px;font-size:13px;font-weight:700;color:var(--muted)}
+.seg button.on{background:var(--orange);color:#fff}
+.switch{flex:none;width:52px;height:32px;border-radius:999px;border:0;background:var(--line);position:relative;transition:background .15s}
+.switch::after{content:"";position:absolute;top:3px;left:3px;width:26px;height:26px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.3);transition:transform .15s}
+.switch.on{background:var(--ok)} .switch.on::after{transform:translateX(20px)}
+.member{padding:16px;border-radius:18px;color:#fff;background:linear-gradient(135deg,#ff7a45,#f0561d)}
+.member b{display:block;font-size:18px}
+.member p{margin:6px 0 0;font-size:13px;line-height:1.6;opacity:.95}
+.member ul{margin:8px 0 0;padding-left:1.2em;font-size:13px;line-height:1.7}
+.member .soon{display:inline-block;margin-top:10px;padding:4px 12px;border-radius:999px;background:rgba(255,255,255,.22);font-size:12.5px;font-weight:800}
+.danger b{color:var(--ng)}
