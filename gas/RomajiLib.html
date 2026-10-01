@@ -185,6 +185,17 @@ function kanaToRoman(kana) {
     's':['s'],'t':['t'],'u':['u'],'v':['v'],'w':['w'],'x':['x'],'y':['y'],'z':['z']
   };
 
+  // 「文字＋小さい文字」（うぇ・てぃ・ゔぁ・ふゅ など）は、分けて打つ打ち方（u + xe / le など）も必ず受け付ける。
+  // 上の表で同じ組み合わせが 2 回書かれていると後ろの方だけが残るので、ここでまとめて足す
+  for (const k of Object.keys(romanMap)) {
+    if (k.length !== 2 || !/[ぁぃぅぇぉゃゅょゎ]/.test(k[1])) continue;
+    const head = romanMap[k[0]], tail = romanMap[k[1]];
+    if (!Array.isArray(head) || !Array.isArray(tail)) continue;
+    const add = [];
+    head.forEach(h => tail.forEach(s => add.push(h + s)));
+    romanMap[k] = [...new Set(romanMap[k].concat(add))];
+  }
+
   let remStr = String(kana);
   const result = [];
   const outkana = [];
