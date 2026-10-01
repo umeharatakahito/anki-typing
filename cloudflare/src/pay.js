@@ -12,13 +12,13 @@
 //
 // プラン（値引きはしない。迷わないよう 2 つだけ）
 //   month   … 月額 100 円の自動更新（カード・Apple Pay・Google Pay）。更新の知らせ（invoice.paid）で期限を延ばす
-//   pass365 … 1 年分 1,200 円。自動更新しない（PayPay・コンビニ・カード。払えるものは Stripe の設定しだい）。
+//   pass365 … 1 年分 1,200 円。自動更新しない（カード・Apple Pay・Google Pay、PayPay は審査が通りしだい。払えるものは Stripe の設定しだい）。
 //             期限の 30 日前から、画面に「あと○日」と出して買い足してもらう（買い足すと今の期限から 1 年延びる）
 //
 // 環境変数
 //   STRIPE_SECRET_KEY      … sk_test_… / sk_live_…（wrangler secret put）。無ければ「準備中」と出す
 //   STRIPE_WEBHOOK_SECRET  … whsec_…（wrangler secret put）
-//   STRIPE_PASS_METHODS    … 1 年分で使える払い方（例 "card,paypay,konbini"）。無ければ Stripe の設定のまま
+//   STRIPE_PASS_METHODS    … 1 年分で使える払い方（例 "card,paypay"）。無ければ Stripe の設定のまま
 //   SELLER_*               … 特定商取引法に基づく表記（SELLER_NAME / SELLER_ADDRESS / SELLER_TEL / SELLER_EMAIL）
 //   RESEND_API_KEY / MAIL_FROM … 「お支払いありがとうございます」のメール（mail.js）
 // ===============================================================
@@ -32,7 +32,7 @@ export const PLANS = {
   month:   { label: '月額プラン', price: 100,  per: '月',   mode: 'subscription', interval: 'month', days: 31,
              pay: 'カード・Apple Pay・Google Pay', note: '毎月自動で更新。いつでも解約できます' },
   pass365: { label: '1年分',      price: 1200, per: '1年',  mode: 'payment', days: 366,
-             pay: 'PayPay・コンビニ・カード', note: '自動更新なし。カードが無くても買えます' },
+             pay: 'カード・Apple Pay・Google Pay', note: '自動更新なし。期限が近づいたら買い足せます' },
 };
 export const RENEW_NOTICE_DAYS = 30;   // 1 年分の期限がこれより近づいたら「あと○日」と出す
 export const GRACE = 2 * DAY;   // 自動更新の支払いが少し遅れても、すぐには切らない
@@ -212,7 +212,7 @@ export function renderPlan(viewer, env, url) {
   } else if (!viewer.email) {
     now = `<div class="plan-now">${icon('log-in')}<span class="grow">申し込むには、先に<b>右上の「Google でログイン」</b>からログインしてください。</span></div>`;
   }
-  if (state === 'pending') now += `<div class="plan-now">${icon('clock')}<span class="grow">お支払いの手続きを受け付けました。コンビニなどで支払いが済むと、会員になります。</span></div>`;
+  if (state === 'pending') now += `<div class="plan-now">${icon('clock')}<span class="grow">お支払いの手続きを受け付けました。支払いが確認できると、会員になります。</span></div>`;
   if (state === 'cancel') now += `<div class="plan-now">${icon('info')}<span class="grow">お申し込みは取り消しました。</span></div>`;
 
   const locked = !viewer.email || !ready;
@@ -275,8 +275,8 @@ export function renderLegal(env) {
     ['メールアドレス', v('SELLER_EMAIL', '（準備中）')],
     ['販売価格', '月額プラン 100 円（税込）／1年分 1,200 円（税込）'],
     ['商品代金以外の必要料金', 'インターネット接続にかかる通信料はお客様のご負担です'],
-    ['支払方法', '月額プラン：クレジットカード、Apple Pay、Google Pay。1年分：これらに加えて PayPay・コンビニ払いなど'],
-    ['支払時期', '月額プラン：申し込み時と、以後の毎月の更新日に自動で請求します。1年分：購入時（コンビニ払いは支払い期限まで）。自動更新はしません'],
+    ['支払方法', '月額プラン：クレジットカード、Apple Pay、Google Pay。1年分：月額プランと同じ'],
+    ['支払時期', '月額プラン：申し込み時と、以後の毎月の更新日に自動で請求します。1年分：購入時。自動更新はしません'],
     ['サービスの提供時期', 'お支払いの確認後、すぐに使えます'],
     ['解約・返品', 'デジタルサービスのため、お支払い後の返金はいたしません。月額プランは「会員プラン」の画面からいつでも解約でき、次の更新日からは請求されません（それまでは使えます）'],
     ['動作環境', 'パソコン・スマートフォンの最新のブラウザ（Chrome・Safari・Edge など）'],

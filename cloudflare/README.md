@@ -66,7 +66,8 @@ npx wrangler d1 execute anki-typing --remote --file scopes.local.sql   # 約 1.2
    `checkout.session.completed` `checkout.session.async_payment_succeeded` `invoice.paid` `customer.subscription.deleted` を選ぶ。
    署名シークレット（`whsec_…`）を控える
 3. 「設定 → カスタマーポータル」を一度保存しておく（月額・年額の解約画面に使う）
-4. 「設定 → 決済手段」で PayPay・コンビニ払いを有効にする（1年分で使える。月額の自動更新はカード類だけ）
+4. 「設定 → 決済手段」で Google Pay を有効にする。PayPay は申し込みと審査がいる（1年分で使える。審査が通ったら pay.js の pass365 の pay に PayPay を足す）。
+   コンビニ払いは固定電話か 050 の番号を載せる必要があるので使っていない
 5. 登録する:
 
 ```sh
