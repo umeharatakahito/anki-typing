@@ -176,7 +176,7 @@ async function thanks(env, email, key, renewal) {
         ? '解約・カードの変更は、ログインして ' + site + '/plan の「解約・カードの変更」からいつでもできます。解約しても、払った期間の終わりまで使えます。'
         : 'このプランは自動で更新されません。期限が近づくと画面でお知らせします。',
       '',
-      '会員として使うには、このメールアドレス（' + email + '）の Google アカウントでログインしてください。',
+      '会員として使うには、このメールアドレス（' + email + '）の Google か Apple のアカウントでログインしてください。',
       '',
       '領収書が必要な場合や、心当たりのないお支払いは、このメールに返信してお知らせください。',
       '',
@@ -254,12 +254,12 @@ export function renderPlan(viewer, env, url) {
   } else if (viewer.email && viewer.member) {
     now = `<div class="plan-now ok">${icon('badge-check')}<span class="grow"><b>会員です</b>（すべての問題が遊べます）</span></div>`;
   } else if (!viewer.email) {
-    now = `<div class="plan-now">${icon('log-in')}<span class="grow">月額プランは、先に<b>右上の「Google でログイン」</b>からログインしてください。
-      1年分はログインしなくても買えます（支払いで入れたメールアドレスの Google でログインすると使えます）。</span></div>`;
+    now = `<div class="plan-now">${icon('log-in')}<span class="grow">月額プランは、先に<b>右上から Google か Apple でログイン</b>してください。
+      1年分はログインしなくても買えます（支払いで入れたメールアドレスでログインすると使えます）。</span></div>`;
   }
   if (state === 'pending') now += `<div class="plan-now">${icon('clock')}<span class="grow">お支払いの手続きを受け付けました。支払いが確認できると、会員になります。</span></div>`;
   if (state === 'guest') now += `<div class="plan-now ok">${icon('badge-check')}<span class="grow"><b>お支払いありがとうございます。</b>
-    お支払いで入れたメールアドレスの Google アカウントで、右上からログインすると会員として使えます。</span></div>`;
+    お支払いで入れたメールアドレスの Google か Apple のアカウントで、右上からログインすると会員として使えます。</span></div>`;
   if (state === 'cancel') now += `<div class="plan-now">${icon('info')}<span class="grow">お申し込みは取り消しました。</span></div>`;
 
   const guest = !viewer.email;
@@ -469,7 +469,7 @@ export async function handlePay(request, env, url, viewer) {
     if (cur && cur.customer) params.customer = cur.customer;
     else if (pl.mode === 'subscription') params.customer_email = viewer.email;
     else { params.customer_email = guest ? null : viewer.email; params.customer_creation = 'always'; }
-    if (guest) params.custom_text = { submit: { message: '会員になるのは、ここで入れたメールアドレスです。STUDY TYPE に Google でログインするときと同じアドレスを入れてください。' } };
+    if (guest) params.custom_text = { submit: { message: '会員になるのは、ここで入れたメールアドレスです。STUDY TYPE に Google か Apple でログインするときと同じアドレスを入れてください（Apple で「メールを非公開」にしていると別のアドレスになります）。' } };
     if (pl.mode === 'subscription') params.subscription_data = { metadata: { email: viewer.email, plan: key } };
     else {
       params.payment_intent_data = { metadata: { email: guest ? null : viewer.email, plan: key } };

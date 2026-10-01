@@ -51,6 +51,9 @@ const CSS = `<style>
 #st-pay .pw-go{background:linear-gradient(135deg,#ff7a45,#f0561d);color:#fff;border:0}
 #st-pay .pw-no{background:transparent;color:inherit;border:1px solid var(--st-chip-line)}
 #st-gsi{min-height:0}
+#st-bar .st-apple{display:inline-flex;align-items:center;gap:5px;background:#000;color:#fff;border-color:#000;text-decoration:none}
+#st-bar .st-apple svg{width:12px;height:14px}
+[data-theme="dark"] #st-bar .st-apple{background:#fff;color:#000;border-color:#fff}
 /* 上のロゴ（トップへ）。紺の文字は暗い色のときに白 */
 #st-home{display:flex;justify-content:center;padding:10px 12px 0;position:relative;z-index:5}
 #st-home a{display:inline-flex;align-items:center;border-radius:12px;text-decoration:none;transition:transform .15s}
@@ -139,9 +142,12 @@ function bar(viewer, env) {
       <button type="button" class="st-chip" id="st-nick" title="ニックネームを変える">${esc(viewer.name)}</button>
       <button type="button" class="st-chip" id="st-logout" title="${esc(viewer.email)}">ログアウト</button></div>`;
   }
+  const apple = env.APPLE_SERVICES_ID
+    ? `<a class="st-chip st-apple" id="st-apple" href="/auth/apple" title="Apple でログイン"><svg viewBox="0 0 17 20" aria-hidden="true"><path fill="currentColor" d="M14.1 10.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9C3.6 4.8 2 5.8 1.1 7.4c-1.8 3.2-.5 7.9 1.3 10.5.9 1.3 1.9 2.7 3.3 2.6 1.3-.1 1.8-.9 3.4-.9s2 .9 3.4.8c1.4 0 2.3-1.3 3.2-2.6 1-1.5 1.4-2.9 1.4-3-.1 0-2.9-1.1-3-4.2zM11.6 3c.7-.9 1.2-2 1.1-3.2-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.1 1.1.1 2.3-.6 3-1.5z"/></svg>Apple でログイン</a>`
+    : '';
   const login = env.GOOGLE_CLIENT_ID
-    ? `<div id="st-gsi"></div>`
-    : `<span class="st-chip st-free">無料版</span>`;
+    ? `<div id="st-gsi"></div>${apple}`
+    : (apple || `<span class="st-chip st-free">無料版</span>`);
   return `<div id="st-bar"><a class="st-chip st-free st-join" href="/plan" title="月100円で全部の範囲が遊べます">会員になる</a>${theme}${login}</div>`;
 }
 
@@ -266,6 +272,9 @@ function script(viewer, env) {
     if (d.showModal) d.showModal(); else location.href = '/plan';
     setTimeout(function(){ var g = d.querySelector('.pw-go'); if (g) g.focus(); }, 0);
   };
+  // Apple でログインしたあと、今の画面に戻る
+  var ap = document.getElementById('st-apple');
+  if (ap) ap.href = '/auth/apple?to=' + encodeURIComponent(location.pathname + location.search);
   var gsi = document.getElementById('st-gsi');
   // 家の中の端末から手元版を開いたとき（192.168.… など）は Google ログインが使えないので、メールで入る画面へ
   if (gsi && /^(192\.168\.|10\.|172\.(1[6-9]|2\d|3[01])\.)/.test(location.hostname)) {

@@ -1,8 +1,12 @@
 // ===============================================================
 // auth.js
-// Google ログインと会員の判定。
+// Google・Apple のログインと会員の判定。
 //
 //   POST /auth/google   … Google の「ログイン」ボタンが返す ID トークンを確かめて Cookie を渡す
+//   GET  /auth/apple    … Apple のログイン画面へ（?to= 戻り先）。APPLE_SERVICES_ID（Services ID）が無ければ使わない
+//   POST /auth/apple/callback … Apple から戻ってくる（form_post）。ID トークンを確かめて Cookie を渡す
+//                         Apple で「メールを非公開」にした人は …@privaterelay.appleid.com のアドレスになる
+//                         （Google と同じ人でも別の人として扱う。会員の期限もメールアドレスごと）
 //   POST /auth/logout   … Cookie を消す
 //   POST /auth/nickname … ランキングに出すニックネームを決める／変える
 //   GET  /auth/dev      … 手元（localhost）だけ。DEV_LOGIN=1 のとき ?email= でログインした扱いにする
@@ -52,6 +56,41 @@ async function verifyGoogleToken(token, clientId) {
   if (!claims.email || claims.email_verified === false) throw new Error('メールアドレスが確認できません');
   return { email: String(claims.email).toLowerCase(), name: claims.name || '' };
 }
+
+// ---------------------------------------------------------------
+// Apple の ID トークン（JWT, RS256）
+let APPLE_KEYS_ = null, APPLE_UNTIL_ = 0;
+async function appleKeys() {
+  if (APPLE_KEYS_ && Date.now() < APPLE_UNTIL_) return APPLE_KEYS_;
+  const res = await fetch('https://appleid.apple.com/auth/keys');
+  if (!res.ok) throw new Error('Apple の公開鍵を取れませんでした');
+  APPLE_KEYS_ = (await res.json()).keys;
+  APPLE_UNTIL_ = Date.now() + 3600 * 1000;
+  return APPLE_KEYS_;
+}
+
+async function verifyAppleToken(token, clientId, nonce) {
+  const [h, p, sig] = String(token || '').split('.');
+  if (!sig) throw new Error('トークンの形が違います');
+  const header = b64json(h), claims = b64json(p);
+  const jwk = (await appleKeys()).find(k => k.kid === header.kid);
+  if (!jwk || header.alg !== 'RS256') throw new Error('トークンの鍵が見つかりません');
+  const key = await crypto.subtle.importKey('jwk', jwk,
+    { name: 'RSASSA-PKCS1-v1_5', hash: 'SHA-256' }, false, ['verify']);
+  const ok = await crypto.subtle.verify('RSASSA-PKCS1-v1_5', key, b64url(sig),
+    new TextEncoder().encode(h + '.' + p));
+  if (!ok) throw new Error('トークンの署名が合いません');
+  if (claims.iss !== 'https://appleid.apple.com') throw new Error('発行元が違います');
+  if (claims.aud !== clientId) throw new Error('このサイト向けのトークンではありません');
+  if (!(claims.exp * 1000 > Date.now())) throw new Error('トークンの期限が切れています');
+  if (!nonce || claims.nonce !== nonce) throw new Error('ログインの手続きが合いません。もう一度お試しください');
+  if (!claims.email || String(claims.email_verified) === 'false') throw new Error('メールアドレスが確認できません');
+  return { email: String(claims.email).toLowerCase(), name: '' };
+}
+
+const APPLE_COOKIE = 'st_apple';
+const randomHex = n => [...crypto.getRandomValues(new Uint8Array(n))].map(b => b.toString(16).padStart(2, '0')).join('');
+const safeTo = to => String(to || '/').replace(/^(?!\/)/, '/').replace(/^\/\/+/, '/');
 
 // ---------------------------------------------------------------
 // セッション
@@ -141,6 +180,48 @@ export async function handleAuth(request, env, url) {
       return json({ error: 'ログインできませんでした: ' + e.message }, 401);
     }
     return json({ ok: true }, 200, { 'set-cookie': await startSession(env, url, who) });
+  }
+
+  // Apple でログイン：Apple の画面へ送り出す。戻りは別サイトからの POST なので、確かめ用の Cookie は SameSite=None
+  if (url.pathname === '/auth/apple' && request.method === 'GET') {
+    if (!env.APPLE_SERVICES_ID) return new Response('Apple でのログインは準備中です', { status: 404 });
+    const state = randomHex(16), nonce = randomHex(16);
+    const to = safeTo(url.searchParams.get('to'));
+    const q = new URLSearchParams({
+      client_id: env.APPLE_SERVICES_ID, redirect_uri: url.origin + '/auth/apple/callback',
+      response_type: 'code id_token', response_mode: 'form_post', scope: 'name email', state, nonce
+    });
+    return new Response(null, { status: 302, headers: {
+      location: 'https://appleid.apple.com/auth/authorize?' + q.toString().replace(/\+/g, '%20'),
+      'set-cookie': `${APPLE_COOKIE}=${state}.${nonce}.${encodeURIComponent(to)}; Path=/auth/apple; HttpOnly; Secure; SameSite=None; Max-Age=600`
+    } });
+  }
+
+  if (url.pathname === '/auth/apple/callback' && request.method === 'POST') {
+    const clear = `${APPLE_COOKIE}=; Path=/auth/apple; HttpOnly; Secure; SameSite=None; Max-Age=0`;
+    const [state, nonce, toEnc] = readCookie(request, APPLE_COOKIE).split('.');
+    const to = safeTo(decodeURIComponent(toEnc || ''));
+    const fail = msg => new Response(`<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ログインできませんでした</title><body style="font:16px system-ui,sans-serif;max-width:420px;margin:40px auto;padding:0 16px">
+<p>${String(msg).replace(/[<>&]/g, '')}</p><p><a href="${to.replace(/"/g, '')}">もとの画面に戻る</a></p></body>`,
+      { status: 400, headers: { 'content-type': 'text/html; charset=utf-8', 'set-cookie': clear } });
+    let form;
+    try { form = await request.formData(); } catch (e) { return fail('送られた内容が読めません'); }
+    if (form.get('error')) return new Response(null, { status: 303, headers: { location: to, 'set-cookie': clear } });   // 取り消した
+    if (!state || form.get('state') !== state) return fail('ログインの手続きが合いません。もう一度お試しください');
+    let who;
+    try {
+      who = await verifyAppleToken(form.get('id_token'), env.APPLE_SERVICES_ID, nonce);
+      // 名前は初めてのときだけ届く
+      const u = JSON.parse(form.get('user') || 'null');
+      if (u && u.name) who.name = [u.name.lastName, u.name.firstName].filter(Boolean).join(' ');
+    } catch (e) {
+      return fail('ログインできませんでした: ' + e.message);
+    }
+    const headers = new Headers({ location: to });
+    headers.append('set-cookie', await startSession(env, url, who));
+    headers.append('set-cookie', clear);
+    return new Response(null, { status: 303, headers });
   }
 
   if (url.pathname === '/auth/logout' && request.method === 'POST') {
