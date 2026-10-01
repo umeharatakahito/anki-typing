@@ -8,6 +8,7 @@
 //   GET  /pay/done        … 支払いのあと戻ってくる。支払いが済んでいれば、その場で会員にする
 //   POST /pay/portal      … 月額・年額の解約や、カードの変更（Stripe の画面へ）
 //   POST /pay/webhook     … Stripe からの知らせ（署名を確かめる）
+//   GET  /pay/test-mail   … 管理者だけ。お支払いのメールを自分あてに試しに送る
 //
 // プラン（値引きはしない。迷わないよう 2 つだけ）
 //   month   … 月額 100 円の自動更新（カード・Apple Pay・Google Pay）。更新の知らせ（invoice.paid）で期限を延ばす
@@ -134,7 +135,7 @@ async function thanks(env, email, key, renewal) {
       renewal ? '月額プランの更新のお支払いを受け付けました。' : 'お支払いを受け付けました。',
       '',
       '　プラン　　' + plan.label,
-      '　金額　　　' + plan.price.toLocaleString('ja-JP') + ' 円（税込）',
+      '　金額　　　' + String(plan.price).replace(/\B(?=(\d{3})+$)/g, ',') + ' 円（税込）',
       until ? (p.sub ? '　次の更新日　' : '　使える期限　') + until : '',
       '',
       p && p.sub
@@ -148,13 +149,14 @@ async function thanks(env, email, key, renewal) {
       'お問い合わせ　' + (env.SELLER_EMAIL || ''),
       '特定商取引法に基づく表記　' + site + '/legal',
     ].filter((l, i, a) => l !== '' || a[i - 1] !== '');
-    await sendMail(env, {
+    return await sendMail(env, {
       to: email,
       subject: renewal ? '【STUDY TYPE】月額プランを更新しました' : '【STUDY TYPE】お支払いありがとうございます（' + plan.label + '）',
       text: lines.join('\n')
     });
   } catch (e) {
     console.log('thanks mail failed', e && e.message);
+    return 'error: ' + (e && e.message);
   }
 }
 
@@ -430,6 +432,13 @@ export async function handlePay(request, env, url, viewer) {
       } catch (e) { /* 知らせのほうで反映される */ }
     }
     return new Response(null, { status: 303, headers: { location: to } });
+  }
+
+  // 管理者だけ：お支払いのメールを自分あてに試しに送る（?plan=month / pass365）
+  if (url.pathname === '/pay/test-mail' && request.method === 'GET') {
+    if (!viewer.admin) return new Response('Not Found', { status: 404 });
+    const key = PLANS[url.searchParams.get('plan')] ? url.searchParams.get('plan') : 'pass365';
+    return json({ to: viewer.email, plan: key, result: await thanks(env, viewer.email, key, false) });
   }
 
   if (url.pathname === '/pay/portal' && request.method === 'POST') {
