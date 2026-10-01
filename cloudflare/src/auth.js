@@ -5,8 +5,11 @@
 //   POST /auth/google   … Google の「ログイン」ボタンが返す ID トークンを確かめて Cookie を渡す
 //   GET  /auth/apple    … Apple のログイン画面へ（?to= 戻り先）。APPLE_SERVICES_ID（Services ID）が無ければ使わない
 //   POST /auth/apple/callback … Apple から戻ってくる（form_post）。ID トークンを確かめて Cookie を渡す
-//                         Apple で「メールを非公開」にした人は …@privaterelay.appleid.com のアドレスになる
-//                         （Google と同じ人でも別の人として扱う。会員の期限もメールアドレスごと）
+//                         Apple で「メールを非公開」にした人は …@privaterelay.appleid.com のアドレスになるので、
+//                         初めてのときに /auth/link で「Google のアカウントとつなぐ」か「Apple だけで使う」を必ず選んでもらう
+//                         （つなぐと、次からも Apple のログインで Google のアカウント＝会員の期限・記録を使う）
+//   GET  /auth/link     … その選ぶ画面。POST /auth/link（{ skip: true }）で「Apple だけで使う」、
+//                         POST /auth/google（{ credential, link: true }）で Google とつなぐ
 //   POST /auth/logout   … Cookie を消す
 //   POST /auth/nickname … ランキングに出すニックネームを決める／変える
 //   GET  /auth/dev      … 手元（localhost）だけ。DEV_LOGIN=1 のとき ?email= でログインした扱いにする
@@ -85,8 +88,11 @@ async function verifyAppleToken(token, clientId, nonce) {
   if (!(claims.exp * 1000 > Date.now())) throw new Error('トークンの期限が切れています');
   if (!nonce || claims.nonce !== nonce) throw new Error('ログインの手続きが合いません。もう一度お試しください');
   if (!claims.email || String(claims.email_verified) === 'false') throw new Error('メールアドレスが確認できません');
-  return { email: String(claims.email).toLowerCase(), name: '' };
+  return { email: String(claims.email).toLowerCase(), name: '', sub: String(claims.sub || '') };
 }
+
+const isRelay = email => /@privaterelay\.appleid\.com$/i.test(email);
+const LINK_COOKIE = 'st_link';
 
 const APPLE_COOKIE = 'st_apple';
 const randomHex = n => [...crypto.getRandomValues(new Uint8Array(n))].map(b => b.toString(16).padStart(2, '0')).join('');
@@ -168,18 +174,78 @@ const isLocal = url => ['localhost', '127.0.0.1'].includes(url.hostname);
 const isHomeLan = (env, url) => env.LAN_LOGIN === '1' &&
   /^(192\.168\.|10\.|172\.(1[6-9]|2\d|3[01])\.)/.test(url.hostname);
 
+// つなぐ手続きの控えを取り出して消す（1 回だけ使える）
+async function takePending(request, env) {
+  const token = readCookie(request, LINK_COOKIE);
+  if (!token) return null;
+  const p = await env.DB.prepare('SELECT * FROM link_pending WHERE token = ? AND expires_at > ?').bind(token, Date.now()).first();
+  await env.DB.prepare('DELETE FROM link_pending WHERE token = ? OR expires_at < ?').bind(token, Date.now()).run();
+  return p;
+}
+
+function linkPage(env, to) {
+  const cid = JSON.stringify(String(env.GOOGLE_CLIENT_ID || ''));
+  const back = JSON.stringify(to);
+  return `<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>アカウントをつなぐ | STUDY TYPE</title>
+<style>
+:root{--bg:#f4f7fb;--card:#fff;--ink:#1d2b53;--muted:#5b6785;--line:#dde3ee}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1a3d;--card:#1a2650;--ink:#fff;--muted:#b8c2dc;--line:#33427a}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 system-ui,-apple-system,"Hiragino Sans",sans-serif}
+main{max-width:520px;margin:0 auto;padding:32px 16px}
+h1{font-size:22px;margin:0 0 6px} p{margin:0 0 10px;color:var(--muted);font-size:14.5px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;margin:16px 0}
+.card h2{font-size:16px;margin:0 0 4px} #gbtn{margin-top:12px;min-height:44px}
+button.skip{margin-top:12px;width:100%;padding:12px;border-radius:12px;border:1px solid var(--line);background:transparent;color:var(--ink);font:inherit;font-weight:700;cursor:pointer}
+#msg{color:#d9480f;font-weight:700;min-height:1.4em}
+</style></head><body><main>
+<h1>アカウントをつなぎますか？</h1>
+<p>Apple で「メールを非公開」にしてログインしました。このままだと、Google でログインしたときの<b>会員の期限・記録・マイメニュー</b>とは別のアカウントになります。</p>
+<div class="card"><h2>Google でも使ったことがある・会員になった</h2>
+<p>Google でログインすると、次からは Apple のログインでも同じアカウントで使えます。</p><div id="gbtn"></div></div>
+<div class="card"><h2>はじめて使う（Google は使わない）</h2>
+<p>Apple だけで使います。会員になるときの支払いのお知らせは、Apple の転送用アドレスに届きます。</p>
+<button type="button" class="skip" id="skip">Apple だけで使う</button></div>
+<p id="msg"></p>
+</main>
+<script src="https://accounts.google.com/gsi/client" async onload="gsiReady()"></script>
+<script>
+var to = ${back}, msg = document.getElementById('msg');
+function done(j){ if (j.error) msg.textContent = j.error; else location.href = to; }
+function post(path, body){
+  return fetch(path, { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify(body) })
+    .then(function(r){ return r.json(); }).then(done).catch(function(){ msg.textContent = '通信できませんでした'; });
+}
+function gsiReady(){
+  google.accounts.id.initialize({ client_id: ${cid}, callback: function(r){ post('/auth/google', { credential: r.credential, link: true }); } });
+  google.accounts.id.renderButton(document.getElementById('gbtn'), { type:'standard', size:'large', text:'signin_with', shape:'pill', locale:'ja' });
+}
+document.getElementById('skip').onclick = function(){ this.disabled = true; post('/auth/link', { skip: true }); };
+</script></body></html>`;
+}
+
 // /auth/* を受け持つ。該当しなければ null
 export async function handleAuth(request, env, url) {
   if (url.pathname === '/auth/google' && request.method === 'POST') {
     if (!env.GOOGLE_CLIENT_ID) return json({ error: 'GOOGLE_CLIENT_ID が設定されていません' }, 500);
-    let who;
+    let who, body;
     try {
-      const body = await request.json();
+      body = await request.json();
       who = await verifyGoogleToken(body.credential, env.GOOGLE_CLIENT_ID);
     } catch (e) {
       return json({ error: 'ログインできませんでした: ' + e.message }, 401);
     }
-    return json({ ok: true }, 200, { 'set-cookie': await startSession(env, url, who) });
+    const headers = new Headers({ 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' });
+    headers.append('set-cookie', await startSession(env, url, who));
+    // Apple（メール非公開）でログインした人が、Google のアカウントとつなぐ
+    if (body && body.link) {
+      const p = await takePending(request, env);
+      if (!p) return json({ error: 'つなぐ手続きの期限が切れました。もう一度 Apple でログインしてください' }, 400);
+      await env.DB.prepare('INSERT OR REPLACE INTO logins (provider, sub, email, created_at) VALUES (?, ?, ?, ?)')
+        .bind('apple', p.sub, who.email, Date.now()).run();
+      headers.append('set-cookie', `${LINK_COOKIE}=; Path=/auth; HttpOnly; Secure; SameSite=Lax; Max-Age=0`);
+    }
+    return new Response(JSON.stringify({ ok: true }), { status: 200, headers });
   }
 
   // Apple でログイン：Apple の画面へ送り出す。戻りは別サイトからの POST なので、確かめ用の Cookie は SameSite=None
@@ -219,9 +285,44 @@ export async function handleAuth(request, env, url) {
       return fail('ログインできませんでした: ' + e.message);
     }
     const headers = new Headers({ location: to });
-    headers.append('set-cookie', await startSession(env, url, who));
     headers.append('set-cookie', clear);
+    const linked = who.sub && await env.DB.prepare('SELECT email FROM logins WHERE provider = ? AND sub = ?').bind('apple', who.sub).first();
+    if (linked) {
+      who.email = linked.email;   // つないだ Google のアカウント（か、前に「Apple だけ」を選んだ非公開のアドレス）
+    } else if (isRelay(who.email) && who.sub) {
+      // メール非公開で初めて：つなぐか選んでもらう（それまではログインしない）
+      const token = randomHex(24);
+      await env.DB.prepare('INSERT INTO link_pending (token, sub, email, name, expires_at) VALUES (?, ?, ?, ?, ?)')
+        .bind(token, who.sub, who.email, who.name || '', Date.now() + 30 * 60000).run();
+      headers.set('location', '/auth/link?to=' + encodeURIComponent(to));
+      headers.append('set-cookie', `${LINK_COOKIE}=${token}; Path=/auth; HttpOnly; Secure; SameSite=Lax; Max-Age=1800`);
+      return new Response(null, { status: 303, headers });
+    } else if (who.sub) {
+      await env.DB.prepare('INSERT OR IGNORE INTO logins (provider, sub, email, created_at) VALUES (?, ?, ?, ?)')
+        .bind('apple', who.sub, who.email, Date.now()).run();
+    }
+    headers.append('set-cookie', await startSession(env, url, who));
     return new Response(null, { status: 303, headers });
+  }
+
+  // メール非公開の Apple ログインのあと：Google とつなぐか、Apple だけで使うか
+  if (url.pathname === '/auth/link' && request.method === 'GET') {
+    const token = readCookie(request, LINK_COOKIE);
+    const p = token && await env.DB.prepare('SELECT * FROM link_pending WHERE token = ? AND expires_at > ?').bind(token, Date.now()).first();
+    const to = safeTo(url.searchParams.get('to'));
+    if (!p) return new Response(null, { status: 303, headers: { location: to } });
+    return new Response(linkPage(env, to), { headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store' } });
+  }
+
+  if (url.pathname === '/auth/link' && request.method === 'POST') {
+    const p = await takePending(request, env);
+    if (!p) return json({ error: '手続きの期限が切れました。もう一度 Apple でログインしてください' }, 400);
+    await env.DB.prepare('INSERT OR REPLACE INTO logins (provider, sub, email, created_at) VALUES (?, ?, ?, ?)')
+      .bind('apple', p.sub, p.email, Date.now()).run();
+    const headers = new Headers({ 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' });
+    headers.append('set-cookie', await startSession(env, url, { email: p.email, name: p.name }));
+    headers.append('set-cookie', `${LINK_COOKIE}=; Path=/auth; HttpOnly; Secure; SameSite=Lax; Max-Age=0`);
+    return new Response(JSON.stringify({ ok: true }), { status: 200, headers });
   }
 
   if (url.pathname === '/auth/logout' && request.method === 'POST') {

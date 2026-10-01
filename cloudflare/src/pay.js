@@ -504,7 +504,9 @@ export async function handlePay(request, env, url, viewer) {
   if (url.pathname === '/pay/test-mail' && request.method === 'GET') {
     if (!viewer.admin) return new Response('Not Found', { status: 404 });
     const key = PLANS[url.searchParams.get('plan')] ? url.searchParams.get('plan') : 'pass365';
-    return json({ to: viewer.email, plan: key, result: await thanks(env, viewer.email, key, false) });
+    // ?to= で別のアドレスにも（Apple の転送用アドレスに届くか試すため）
+    const to = /^[^@\s]+@[^@\s]+$/.test(url.searchParams.get('to') || '') ? url.searchParams.get('to').toLowerCase() : viewer.email;
+    return json({ to, plan: key, result: await thanks(env, to, key, false) });
   }
 
   if (url.pathname === '/pay/portal' && request.method === 'POST') {
