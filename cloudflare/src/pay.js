@@ -4,7 +4,8 @@
 //
 //   GET  /plan            … プランの案内と申し込み（?p=plan でも同じ）
 //   GET  /legal           … 特定商取引法に基づく表記
-//   POST /pay/checkout    … { plan } → Stripe の支払い画面の URL
+//   POST /pay/checkout    … { plan } → Stripe の支払い画面の URL。1 年分はログインしなくても買える
+//                           （支払い画面で入れたメールアドレスに期限が付き、同じアドレスの Google でログインすると会員になる）
 //   GET  /pay/done        … 支払いのあと戻ってくる。支払いが済んでいれば、その場で会員にする
 //   POST /pay/portal      … 月額・年額の解約や、カードの変更（Stripe の画面へ）
 //   POST /pay/webhook     … Stripe からの知らせ（署名を確かめる）
@@ -112,7 +113,7 @@ async function setSubscription(env, email, kind, periodEnd, customer, sub) {
 
 // 支払いの済んだ Checkout Session を反映する（知らせからも /pay/done からも呼ぶ）
 async function applySession(env, s) {
-  const email = String((s.metadata && s.metadata.email) || s.client_reference_id || '').toLowerCase();
+  const email = String((s.metadata && s.metadata.email) || s.client_reference_id || (s.customer_details && s.customer_details.email) || '').toLowerCase();
   const plan = PLANS[s.metadata && s.metadata.plan];
   if (!email || !plan || s.payment_status !== 'paid') return false;
   if (!(await once(env, 'cs:' + s.id))) return true;
@@ -141,6 +142,8 @@ async function thanks(env, email, key, renewal) {
       p && p.sub
         ? '解約・カードの変更は、ログインして ' + site + '/plan の「解約・カードの変更」からいつでもできます。解約しても、払った期間の終わりまで使えます。'
         : 'このプランは自動で更新されません。期限が近づくと画面でお知らせします。',
+      '',
+      '会員として使うには、このメールアドレス（' + email + '）の Google アカウントでログインしてください。',
       '',
       '領収書が必要な場合や、心当たりのないお支払いは、このメールに返信してお知らせください。',
       '',
@@ -210,17 +213,20 @@ export function renderPlan(viewer, env, url) {
   } else if (viewer.email && viewer.member) {
     now = `<div class="plan-now ok">${icon('badge-check')}<span class="grow"><b>会員です</b>（すべての問題が遊べます）</span></div>`;
   } else if (!viewer.email) {
-    now = `<div class="plan-now">${icon('log-in')}<span class="grow">申し込むには、先に<b>右上の「Google でログイン」</b>からログインしてください。</span></div>`;
+    now = `<div class="plan-now">${icon('log-in')}<span class="grow">月額プランは、先に<b>右上の「Google でログイン」</b>からログインしてください。
+      1年分はログインしなくても買えます（支払いで入れたメールアドレスの Google でログインすると使えます）。</span></div>`;
   }
   if (state === 'pending') now += `<div class="plan-now">${icon('clock')}<span class="grow">お支払いの手続きを受け付けました。支払いが確認できると、会員になります。</span></div>`;
+  if (state === 'guest') now += `<div class="plan-now ok">${icon('badge-check')}<span class="grow"><b>お支払いありがとうございます。</b>
+    お支払いで入れたメールアドレスの Google アカウントで、右上からログインすると会員として使えます。</span></div>`;
   if (state === 'cancel') now += `<div class="plan-now">${icon('info')}<span class="grow">お申し込みは取り消しました。</span></div>`;
 
-  const locked = !viewer.email || !ready;
+  const guest = !viewer.email;
   const hasAuto = !!(p && p.active && p.auto);
   const card = (key, best) => {
     const pl = PLANS[key];
     // 月額に入っている間は、どちらも買えない（1 年分に替えるときは、先に月額を解約する）
-    const dis = locked || hasAuto;
+    const dis = !ready || hasAuto || (guest && pl.mode !== 'payment');
     return `<div class="plan${best ? ' best' : ''}">${best ? '<span class="flag">おすすめ</span>' : ''}
       <h2>${pl.label}</h2><div class="price">${pl.price.toLocaleString()}円<small>／${pl.per}</small></div>
       <p><b>${pl.pay}</b><br>${pl.note}</p>
@@ -377,14 +383,16 @@ export async function handlePay(request, env, url, viewer) {
   if (!env.STRIPE_SECRET_KEY) return json({ error: 'お支払いの準備中です' }, 503);
 
   if (url.pathname === '/pay/checkout' && request.method === 'POST') {
-    if (!viewer.email) return json({ error: '先にログインしてください' }, 401);
     let body = {};
     try { body = await request.json(); } catch (e) { /* 空 */ }
     const key = String(body.plan || '');
     const origin = originOf(body);
     const pl = PLANS[key];
     if (!pl) return json({ error: 'プランが違います' }, 400);
-    const cur = await planOf(env, viewer.email);
+    // ログインしていなくても 1 年分は買える（だれのものかは、支払い画面で入れたメールアドレスで決める）
+    const guest = !viewer.email;
+    if (guest && pl.mode !== 'payment') return json({ error: '月額プランは、先にログインしてください' }, 401);
+    const cur = guest ? null : await planOf(env, viewer.email);
     if (cur && cur.sub && cur.until > Date.now()) {
       return json({ error: pl.mode === 'subscription' ? 'もう月額プランに入っています' : '月額プランに入っています。1年分に替えるときは、先に月額を解約してください' }, 409);
     }
@@ -395,8 +403,8 @@ export async function handlePay(request, env, url, viewer) {
       managed_payments: { enabled: false },
       success_url: origin + '/pay/done?session_id={CHECKOUT_SESSION_ID}',
       cancel_url: origin + '/plan?pay=cancel',
-      client_reference_id: viewer.email,
-      metadata: { email: viewer.email, plan: key },
+      client_reference_id: guest ? null : viewer.email,
+      metadata: { email: guest ? null : viewer.email, plan: key },
       line_items: { 0: { quantity: 1, price_data: {
         currency: 'jpy', unit_amount: pl.price,
         product_data: { name: 'STUDY TYPE ' + pl.label },
@@ -405,10 +413,11 @@ export async function handlePay(request, env, url, viewer) {
     };
     if (cur && cur.customer) params.customer = cur.customer;
     else if (pl.mode === 'subscription') params.customer_email = viewer.email;
-    else { params.customer_email = viewer.email; params.customer_creation = 'always'; }
+    else { params.customer_email = guest ? null : viewer.email; params.customer_creation = 'always'; }
+    if (guest) params.custom_text = { submit: { message: '会員になるのは、ここで入れたメールアドレスです。STUDY TYPE に Google でログインするときと同じアドレスを入れてください。' } };
     if (pl.mode === 'subscription') params.subscription_data = { metadata: { email: viewer.email, plan: key } };
     else {
-      params.payment_intent_data = { metadata: { email: viewer.email, plan: key } };
+      params.payment_intent_data = { metadata: { email: guest ? null : viewer.email, plan: key } };
       const methods = String(env.STRIPE_PASS_METHODS || '').split(',').map(s => s.trim()).filter(Boolean);
       if (methods.length) params.payment_method_types = Object.fromEntries(methods.map((m, i) => [i, m]));
     }
@@ -427,8 +436,10 @@ export async function handlePay(request, env, url, viewer) {
       try {
         const s = await stripe(env, 'GET', 'checkout/sessions/' + id);
         const mine = viewer.email && String(s.client_reference_id || '').toLowerCase() === viewer.email;
-        if (mine && await applySession(env, s)) to = '/plan?pay=ok';
-        else if (mine && s.status === 'complete') to = '/plan?pay=pending';
+        const guest = !s.client_reference_id;   // ログインせずに買った 1 年分
+        const self = viewer.email && String((s.customer_details && s.customer_details.email) || '').toLowerCase() === viewer.email;
+        if ((mine || guest) && await applySession(env, s)) to = mine || self ? '/plan?pay=ok' : '/plan?pay=guest';
+        else if ((mine || guest) && s.status === 'complete') to = '/plan?pay=pending';
       } catch (e) { /* 知らせのほうで反映される */ }
     }
     return new Response(null, { status: 303, headers: { location: to } });
