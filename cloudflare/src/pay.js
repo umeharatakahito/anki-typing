@@ -19,10 +19,12 @@
 //   STRIPE_WEBHOOK_SECRET  … whsec_…（wrangler secret put）
 //   STRIPE_PASS_METHODS    … 1 年分で使える払い方（例 "card,paypay,konbini"）。無ければ Stripe の設定のまま
 //   SELLER_*               … 特定商取引法に基づく表記（SELLER_NAME / SELLER_ADDRESS / SELLER_TEL / SELLER_EMAIL）
+//   RESEND_API_KEY / MAIL_FROM … 「お支払いありがとうございます」のメール（mail.js）
 // ===============================================================
 
 import { page, LOGO } from './portal.js';
 import { icon } from './icons.js';
+import { sendMail } from './mail.js';
 
 const DAY = 86400000;
 export const PLANS = {
@@ -115,7 +117,45 @@ async function applySession(env, s) {
   if (!(await once(env, 'cs:' + s.id))) return true;
   if (plan.mode === 'payment') await extend(env, email, s.metadata.plan, plan.days, s.customer || '');
   else await setSubscription(env, email, s.metadata.plan, Date.now() + plan.days * DAY, s.customer || '', s.subscription || '');
+  await thanks(env, email, s.metadata.plan, false);
   return true;
+}
+
+// 「お支払いありがとうございます」のメール。住所は載せない（特商法の表記は /legal に）。
+// 送れなくても支払いの反映は止めない
+async function thanks(env, email, key, renewal) {
+  const plan = PLANS[key];
+  try {
+    const p = await planOf(env, email);
+    const site = env.PUBLIC_ORIGIN || 'https://studytype.umekobo.com';
+    const until = p && p.until ? fmtDay(p.until - (p.sub ? GRACE : 0)) : '';
+    const lines = [
+      'STUDY TYPE をご利用いただき、ありがとうございます。',
+      renewal ? '月額プランの更新のお支払いを受け付けました。' : 'お支払いを受け付けました。',
+      '',
+      '　プラン　　' + plan.label,
+      '　金額　　　' + plan.price.toLocaleString('ja-JP') + ' 円（税込）',
+      until ? (p.sub ? '　次の更新日　' : '　使える期限　') + until : '',
+      '',
+      p && p.sub
+        ? '解約・カードの変更は、ログインして ' + site + '/plan の「解約・カードの変更」からいつでもできます。解約しても、払った期間の終わりまで使えます。'
+        : 'このプランは自動で更新されません。期限が近づくと画面でお知らせします。',
+      '',
+      '領収書が必要な場合や、心当たりのないお支払いは、このメールに返信してお知らせください。',
+      '',
+      '――――',
+      'STUDY TYPE　' + site,
+      'お問い合わせ　' + (env.SELLER_EMAIL || ''),
+      '特定商取引法に基づく表記　' + site + '/legal',
+    ].filter((l, i, a) => l !== '' || a[i - 1] !== '');
+    await sendMail(env, {
+      to: email,
+      subject: renewal ? '【STUDY TYPE】月額プランを更新しました' : '【STUDY TYPE】お支払いありがとうございます（' + plan.label + '）',
+      text: lines.join('\n')
+    });
+  } catch (e) {
+    console.log('thanks mail failed', e && e.message);
+  }
 }
 
 // ---------------------------------------------------------------
@@ -317,7 +357,11 @@ export async function handlePay(request, env, url, viewer) {
         const line = o.lines && o.lines.data && o.lines.data[0];
         const end = line && line.period && line.period.end;
         const sub = o.subscription || (o.parent && o.parent.subscription_details && o.parent.subscription_details.subscription) || '';
-        if (email && end && PLANS[meta.plan]) await setSubscription(env, email, meta.plan, end * 1000, o.customer || '', sub);
+        if (email && end && PLANS[meta.plan]) {
+          await setSubscription(env, email, meta.plan, end * 1000, o.customer || '', sub);
+          // 初回は Checkout のほうで知らせるので、2 回目からの自動更新だけ
+          if (o.billing_reason === 'subscription_cycle' && await once(env, 'mail:' + o.id)) await thanks(env, email, meta.plan, true);
+        }
       } else if (ev.type === 'customer.subscription.deleted') {
         // 解約。払った期間の終わりまでは使える（until はそのまま）
         await env.DB.prepare(`UPDATE plans SET sub = '', updated_at = ? WHERE sub = ?`).bind(Date.now(), o.id).run();

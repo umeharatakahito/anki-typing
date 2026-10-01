@@ -77,6 +77,18 @@ npx wrangler secret put STRIPE_WEBHOOK_SECRET
 特定商取引法に基づく表記（`/legal`）の販売事業者・連絡先は、環境変数 `SELLER_NAME` `SELLER_ADDRESS` `SELLER_TEL` `SELLER_EMAIL`（wrangler.jsonc の vars）に書く。
 本番のキー（`sk_live_…`）に替えるときは、Webhook も本番モードで作り直して両方を入れ替える。
 
+### お支払いのメール（住所を出さないため）
+
+Stripe の領収書・請求書メールには販売者の住所が載るので止めて（Stripe の「設定 → 顧客へのメール」）、
+代わりにサイトから「お支払いありがとうございます」を送る（`src/mail.js`）。
+
+1. [Resend](https://resend.com) でアカウントを作り、Domains に `umekobo.com` を足して DNS（Cloudflare）に出たレコードを入れる
+2. API キー（送信だけの権限）を作って登録する: `npx wrangler secret put RESEND_API_KEY`
+3. 送り主は `MAIL_FROM`（無ければ `STUDY TYPE <no-reply@umekobo.com>`）。返信は `SELLER_EMAIL` に届く
+
+Cloudflare の Workers 有料プランに移ったら、wrangler.jsonc に `"send_email": [{ "name": "EMAIL" }]` を足して
+`npx wrangler secret delete RESEND_API_KEY` するだけで、Cloudflare から送るようになる。
+
 ## データが消えた・壊れたとき
 
 1. **巻き戻し（D1 のタイムトラベル）**：少し前の状態に戻せる（残っている日数はプランしだい）。まずはこれ。
