@@ -31,8 +31,8 @@ const CSS = `<style>
   background:var(--st-chip-bg);color:var(--st-chip-fg);border:1px solid var(--st-chip-line);
   text-decoration:none;cursor:pointer;white-space:nowrap}
 #st-bar button.st-chip{font:inherit}
-/* 右上は「…」1 つだけ。押すと会員・色・ニックネーム・管理・ログイン／ログアウトが並ぶ */
-#st-bar .st-more{position:relative;justify-content:center;width:36px;height:28px;padding:0;font-size:18px;font-weight:900;letter-spacing:1px;line-height:1}
+/* 右上は「メニュー」ボタン 1 つだけ。押すと会員・色・ニックネーム・管理・ログイン／ログアウトが並ぶ */
+#st-bar .st-more{position:relative;justify-content:center;height:28px;padding:0 12px;font-size:13px;font-weight:700;line-height:1}
 #st-bar .st-more.st-alert::after{content:"";position:absolute;top:-2px;right:-2px;width:9px;height:9px;border-radius:50%;background:#ff6b35;border:2px solid var(--st-chip-bg)}
 #st-menu{position:absolute;top:calc(100% + 6px);right:0;min-width:230px;display:flex;flex-direction:column;gap:6px;padding:10px;
   background:var(--st-dlg-bg);color:var(--st-dlg-fg);border:1px solid var(--st-chip-line);border-radius:14px;box-shadow:0 12px 32px rgba(0,0,0,.2)}
@@ -163,9 +163,9 @@ function bar(viewer, env) {
   return menuBar(`<a class="st-chip st-free st-join" href="/plan" title="月100円で全部の範囲が遊べます">会員になる</a>${theme}${login}`, false);
 }
 
-// 「…」のボタンと、押すと開くメニュー
+// 「メニュー」ボタンと、押すと開くメニュー
 function menuBar(items, alert) {
-  return `<div id="st-bar"><button type="button" class="st-chip st-more${alert ? ' st-alert' : ''}" id="st-more" aria-label="メニュー" aria-haspopup="true" aria-expanded="false" title="メニュー">…</button>
+  return `<div id="st-bar"><button type="button" class="st-chip st-more${alert ? ' st-alert' : ''}" id="st-more" aria-label="メニュー" aria-haspopup="true" aria-expanded="false" title="メニュー">メニュー</button>
   <div id="st-menu" hidden>${items}</div></div>`;
 }
 
