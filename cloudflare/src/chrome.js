@@ -31,6 +31,16 @@ const CSS = `<style>
   background:var(--st-chip-bg);color:var(--st-chip-fg);border:1px solid var(--st-chip-line);
   text-decoration:none;cursor:pointer;white-space:nowrap}
 #st-bar button.st-chip{font:inherit}
+/* 右上は「…」1 つだけ。押すと会員・色・ニックネーム・管理・ログイン／ログアウトが並ぶ */
+#st-bar .st-more{position:relative;justify-content:center;width:36px;height:28px;padding:0;font-size:18px;font-weight:900;letter-spacing:1px;line-height:1}
+#st-bar .st-more.st-alert::after{content:"";position:absolute;top:-2px;right:-2px;width:9px;height:9px;border-radius:50%;background:#ff6b35;border:2px solid var(--st-chip-bg)}
+#st-menu{position:absolute;top:calc(100% + 6px);right:0;min-width:230px;display:flex;flex-direction:column;gap:6px;padding:10px;
+  background:var(--st-dlg-bg);color:var(--st-dlg-fg);border:1px solid var(--st-chip-line);border-radius:14px;box-shadow:0 12px 32px rgba(0,0,0,.2)}
+#st-menu[hidden]{display:none}
+#st-menu .st-chip{justify-content:flex-start;width:100%;box-sizing:border-box;padding:9px 12px;border-radius:10px;font-size:13px}
+#st-menu .st-who{padding:2px 4px 6px;font-size:11px;opacity:.7;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;border-bottom:1px solid var(--st-chip-line)}
+#st-menu #st-gsi{display:flex;justify-content:center}
+#st-menu .st-apple{justify-content:center;height:40px;border-radius:999px;font-size:14px;font-weight:600}
 #st-bar .st-member{background:var(--st-accent);color:#fff;border-color:transparent}
 #st-bar .st-free{opacity:.85}
 #st-bar .st-join{opacity:1;background:#ff6b35;color:#fff;border-color:transparent;font-weight:700}
@@ -68,7 +78,8 @@ body:has(#st-home) #big-title .bt-text{display:none}
 @media (min-width:601px) and (max-width:1000px){ body{padding-top:36px} }
 /* スマホでは画面の上に 1 段取って並べる（戻るボタンなどに重ならないように） */
 @media (max-width:600px){
-  #st-bar{position:static;justify-content:flex-end;flex-wrap:wrap;padding:6px 8px 0}
+  #st-bar{position:relative;justify-content:flex-end;flex-wrap:wrap;padding:6px 8px 0}
+  #st-menu{right:8px}
   #home-link{position:static !important;margin:6px 10px 0}
 }
 .st-ad{position:fixed;left:0;right:0;bottom:0;z-index:9998;display:flex;justify-content:center;
@@ -137,10 +148,11 @@ function bar(viewer, env) {
       : viewer.member
       ? `<a class="st-chip st-member" href="/plan" title="すべての問題が遊べます">会員</a>`
       : `<a class="st-chip st-free st-join" href="/plan" title="月100円で全部の範囲が遊べます">会員になる</a>`;
-    const admin = viewer.admin ? `<a class="st-chip" href="/admin">管理</a>` : '';
-    return `<div id="st-bar">${badge}${admin}${theme}
-      <button type="button" class="st-chip" id="st-nick" title="ニックネームを変える">${esc(viewer.name)}</button>
-      <button type="button" class="st-chip" id="st-logout" title="${esc(viewer.email)}">ログアウト</button></div>`;
+    const admin = viewer.admin ? `<a class="st-chip" href="/admin">🛠 管理</a>` : '';
+    return menuBar(`<div class="st-who" title="${esc(viewer.email)}">${esc(viewer.email)}</div>${badge}
+      <button type="button" class="st-chip" id="st-nick" title="ニックネームを変える">✏️ ${esc(viewer.name)}</button>
+      ${theme}${admin}
+      <button type="button" class="st-chip" id="st-logout">ログアウト</button>`, viewer.member && left <= 30);
   }
   const apple = env.APPLE_SERVICES_ID
     ? `<a class="st-chip st-apple" id="st-apple" href="/auth/apple" title="Apple でログイン"><svg viewBox="0 0 17 20" aria-hidden="true"><path fill="currentColor" d="M14.1 10.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9C3.6 4.8 2 5.8 1.1 7.4c-1.8 3.2-.5 7.9 1.3 10.5.9 1.3 1.9 2.7 3.3 2.6 1.3-.1 1.8-.9 3.4-.9s2 .9 3.4.8c1.4 0 2.3-1.3 3.2-2.6 1-1.5 1.4-2.9 1.4-3-.1 0-2.9-1.1-3-4.2zM11.6 3c.7-.9 1.2-2 1.1-3.2-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.1 1.1.1 2.3-.6 3-1.5z"/></svg>Apple でログイン</a>`
@@ -148,7 +160,13 @@ function bar(viewer, env) {
   const login = env.GOOGLE_CLIENT_ID
     ? `<div id="st-gsi"></div>${apple}`
     : (apple || `<span class="st-chip st-free">無料版</span>`);
-  return `<div id="st-bar"><a class="st-chip st-free st-join" href="/plan" title="月100円で全部の範囲が遊べます">会員になる</a>${theme}${login}</div>`;
+  return menuBar(`<a class="st-chip st-free st-join" href="/plan" title="月100円で全部の範囲が遊べます">会員になる</a>${theme}${login}`, false);
+}
+
+// 「…」のボタンと、押すと開くメニュー
+function menuBar(items, alert) {
+  return `<div id="st-bar"><button type="button" class="st-chip st-more${alert ? ' st-alert' : ''}" id="st-more" aria-label="メニュー" aria-haspopup="true" aria-expanded="false" title="メニュー">…</button>
+  <div id="st-menu" hidden>${items}</div></div>`;
 }
 
 // 枠ごとの広告ユニット。専用のユニットが無ければ、下の横長と同じユニットを使う
@@ -228,6 +246,16 @@ function script(viewer, env) {
     try { localStorage.setItem('st-theme', t); } catch (e) {}
     if (loggedIn) fetch('/api/setTheme', { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify([t]) });
   }
+  var more = document.getElementById('st-more'), menu = document.getElementById('st-menu'), onOpen = [];
+  if (more && menu) {
+    var setOpen = function(v){
+      menu.hidden = !v; more.setAttribute('aria-expanded', v ? 'true' : 'false');
+      if (v) { onOpen.forEach(function(f){ f(); }); onOpen = []; }
+    };
+    more.onclick = function(e){ e.stopPropagation(); setOpen(menu.hidden); };
+    document.addEventListener('click', function(e){ if (!menu.hidden && !menu.contains(e.target)) setOpen(false); });
+    document.addEventListener('keydown', function(e){ if (e.key === 'Escape') setOpen(false); });
+  }
   var tb = document.getElementById('st-theme');
   if (tb) tb.onclick = function(){
     var cur = document.documentElement.getAttribute('data-theme') || THEMES[0];
@@ -281,7 +309,8 @@ function script(viewer, env) {
     gsi.innerHTML = '<a class="st-chip" href="/auth/dev?to=' + encodeURIComponent(location.pathname + location.search) + '">ログイン</a>';
     gsi = null;
   }
-  if (gsi) {
+  // Google のボタンは、メニューを開いたときに描く（隠れたままだと幅 0 で描かれるため）
+  if (gsi) onOpen.push(function(){
     var s = document.createElement('script');
     s.src = 'https://accounts.google.com/gsi/client'; s.async = true;
     s.onload = function(){
@@ -294,10 +323,10 @@ function script(viewer, env) {
             .then(function(j){ if (j.error) alert(j.error); else location.reload(); });
         }
       });
-      google.accounts.id.renderButton(gsi, { type:'standard', size:'small', text:'signin', shape:'pill', locale:'ja' });
+      google.accounts.id.renderButton(gsi, { type:'standard', size:'large', text:'signin_with', shape:'pill', locale:'ja', width: 206 });
     };
     document.head.appendChild(s);
-  }
+  });
 })();
 </script>`;
 }
