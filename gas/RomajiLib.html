@@ -126,7 +126,7 @@ function kanaToRoman(kana) {
 
     // 小文字
     'ぁ':['la','xa'], 'ぃ':['li','xi'], 'ぅ':['lu','xu'], 'ぇ':['le','xe'], 'ぉ':['lo','xo'],
-    'ゃ':['lya','xya'], 'ゅ':['lyu','xyu'], 'ょ':['lyo','xyo'], 'っ':['ltu','xtu'],
+    'ゃ':['lya','xya'], 'ゅ':['lyu','xyu'], 'ょ':['lyo','xyo'], 'っ':['ltu','xtu','ltsu','xtsu'],
 
     // て行 + 小文字母音
       'てゃ': ['tya','tha'],
@@ -184,6 +184,15 @@ function kanaToRoman(kana) {
     'k':['k'],'l':['l'],'m':['m'],'n':['n'],'o':['o'],'p':['p'],'q':['q'],'r':['r'],
     's':['s'],'t':['t'],'u':['u'],'v':['v'],'w':['w'],'x':['x'],'y':['y'],'z':['z']
   };
+
+  // 日本語入力（IME）で普通に通る打ち方を足す（cya＝ちゃ、fwa＝ふぁ、gwa＝ぐぁ、jye＝じぇ など）
+  const EXTRA = {
+    'ちゃ': ['cya'], 'ちゅ': ['cyu'], 'ちょ': ['cyo'], 'ちぇ': ['cye'], 'ちぃ': ['cyi'],
+    'ふぁ': ['fwa'], 'ふぃ': ['fwi', 'fyi'], 'ふぇ': ['fwe', 'fye'], 'ふぉ': ['fwo'], 'ふぅ': ['fwu'],
+    'ぐぁ': ['gwa'], 'ぐぃ': ['gwi'], 'ぐぅ': ['gwu'], 'ぐぇ': ['gwe'], 'ぐぉ': ['gwo'],
+    'じぇ': ['jye'], 'じぃ': ['jyi'],
+  };
+  for (const k of Object.keys(EXTRA)) romanMap[k] = [...new Set((romanMap[k] || []).concat(EXTRA[k]))];
 
   // 「文字＋小さい文字」（うぇ・てぃ・ゔぁ・ふゅ など）は、分けて打つ打ち方（u + xe / le など）も必ず受け付ける。
   // 上の表で同じ組み合わせが 2 回書かれていると後ろの方だけが残るので、ここでまとめて足す
@@ -248,7 +257,8 @@ function kanaToRoman(kana) {
 
       if (romanMap[k]) {
         const base = romanMap[k];
-        result.push(base.map(s => s[0] + s)); outkana.push('っ' + k);
+        // 子音を重ねる打ち方（kka）と、っ を単独で打つ打ち方（xtuka / ltsuka）の両方
+        result.push(uniq([...base.map(s => s[0] + s), ...romanMap['っ'].flatMap(x => base.map(s => x + s))])); outkana.push('っ' + k);
       } else if (isAscii(k[0])) {
         let run = k; while (remStr && isAscii(remStr[0])) run += splice();
         const low = run.toLowerCase();
@@ -271,17 +281,18 @@ function kanaToRoman(kana) {
         const head = headRomanOf(nextKey);
 
         let roman;
+        // xn はどこでも「ん」（日本語入力と同じ）
         if (!head) {                         // 語末
-          roman = ['n','nn']; carryN = false;
+          roman = ['n','nn','xn']; carryN = false;
         } else if (head === 'n') {           // n行の前
-          roman = ['nn'];     carryN = false;
+          roman = ['nn','xn'];     carryN = false;
         } else if ('aiueoy'.includes(head)) {// 母音/y の前
-          roman = ["n'",'nn']; carryN = false;
+          roman = ["n'",'nn','xn']; carryN = false;
         } else if (isLetter(head)) {         // ★子音の前（ここがポイント）
           // n / nn を許可しつつ、次トークンへ n を“橋渡し”
-          roman = ['n','nn']; carryN = true;
+          roman = ['n','nn','xn']; carryN = true;
         } else {                              // 記号など
-          roman = ['n'];      carryN = false;
+          roman = ['n','nn','xn'];      carryN = false;
         }
         result.push(roman); outkana.push('ん');
         continue;
@@ -326,7 +337,7 @@ function kanaToRoman(kana) {
 // g（各画面の状態）の wordR / kanaTokens / pattern / idx1 / idx2 / temp を、今の読みの状態にしておく。
 function kanaAltState_(reading) {
   const c = kanaToRoman(reading);
-  return { wordR: c[0], kanaTokens: c[1], pattern: new Array(c[0].length).fill(0), idx1: 0, idx2: 0, temp: '' };
+  return { wordR: c[0], kanaTokens: c[1], pattern: new Array(c[0].length).fill(0), idx1: 0, idx2: 0, temp: '', buf: '' };
 }
 function kanaAltSet(g, kana, alts) {
   Object.assign(g, kanaAltState_(kana));
@@ -335,7 +346,7 @@ function kanaAltSet(g, kana, alts) {
 }
 function kanaAltStep_(st, key) {
   if (!st || st.idx1 >= st.wordR.length) return null;
-  const s = { wordR: st.wordR, kanaTokens: st.kanaTokens, pattern: st.pattern.slice(), idx1: st.idx1, idx2: st.idx2, temp: st.temp + key };
+  const s = { wordR: st.wordR, kanaTokens: st.kanaTokens, pattern: st.pattern.slice(), idx1: st.idx1, idx2: st.idx2, temp: st.temp + key, buf: (st.buf || '') + key };
   let ok = key === s.wordR[s.idx1][s.pattern[s.idx1]][s.idx2];
   if (!ok) {
     // 別のローマ字表記（si / shi など）に切り替えられるか探す
@@ -348,24 +359,27 @@ function kanaAltStep_(st, key) {
       }
     }
   }
-  // 打ちかけのかなを打ち直したとき（じゅ を zi まで打ってから zy / ju と打ち直す、など）。
-  // 打ったキーの前の何文字かを取り消すと、どれかの打ち方の頭になるなら、そこから打ち直したとみなす
+  // 打ち直し（打ち間違えたあと）。どちらかでどれかの打ち方の頭になれば、そこから打ち直したとみなす
+  //   ① このかなを打ち始めてから押したキーの末尾（ttl と打ち間違えてから tto と打ち直す、など）。長い方を先に
+  //   ② 打ちかけの後ろを取り消して置き換える（じゅ を zi まで打って zy と直す）
   if (!ok && s.idx2 > 0) {
-    const prev = st.temp;
-    for (let k = prev.length - 1; k >= 0 && !ok; k--) {
-      const cand = prev.slice(0, k) + key;
+    const hist = (st.buf || '') + key;
+    const cands = [];
+    for (let n = hist.length; n >= 1; n--) cands.push(hist.slice(-n));
+    for (let k = st.temp.length - 1; k >= 1; k--) cands.push(st.temp.slice(0, k) + key);
+    for (const cand of cands) {
       const i = s.wordR[s.idx1].findIndex(p => p.startsWith(cand));
-      if (i >= 0) { s.pattern[s.idx1] = i; s.idx2 = cand.length - 1; s.temp = cand; s.fixed = true; ok = true; }
+      if (i >= 0) { s.pattern[s.idx1] = i; s.idx2 = cand.length - 1; s.temp = cand; s.fixed = true; ok = true; break; }
     }
   }
   if (!ok) return null;
   s.idx2++;
-  if (s.idx2 === s.wordR[s.idx1][s.pattern[s.idx1]].length) { s.idx1++; s.idx2 = 0; s.temp = ''; }
+  if (s.idx2 === s.wordR[s.idx1][s.pattern[s.idx1]].length) { s.idx1++; s.idx2 = 0; s.temp = ''; s.buf = ''; }
   return s;
 }
 // 1 キー進める。どの読みにも合わなければ false（ミス）
 function kanaAltKey(g, key) {
-  const cur = { wordR: g.wordR, kanaTokens: g.kanaTokens, pattern: g.pattern, idx1: g.idx1, idx2: g.idx2, temp: g.temp };
+  const cur = { wordR: g.wordR, kanaTokens: g.kanaTokens, pattern: g.pattern, idx1: g.idx1, idx2: g.idx2, temp: g.temp, buf: g.buf || '' };
   const act = g._alts ? g._altActive : 0;
   const states = g._alts ? g._alts.map((s, i) => i === act ? cur : s) : [cur];
   const res = states.map(s => kanaAltStep_(s, key));

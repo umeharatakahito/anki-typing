@@ -134,7 +134,7 @@
   'use strict';
 
   // 入力進捗（カードごとに更新）
-  let wordR, idx1, idx2, pattern, temp, hiragana;
+  let wordR, idx1, idx2, pattern, temp, hiragana, buf = '';   // buf: このかなを打ち始めてから受け付けたキー（打ち直しの判定用）
   // 読みが複数ある答え（ans を「|」で区切る）は、読みごとの入力状態を並べて持ち、
   // 打ったキーに合う読みだけを残す。alts[activeAlt] が今画面に出している読み
   let alts = [], activeAlt = 0;
@@ -526,7 +526,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
       wordR    = conversion[0];
       hiragana = conversion[1];
       pattern  = new Array(wordR.length).fill(0);
-      idx1 = 0; idx2 = 0; temp = '';
+      idx1 = 0; idx2 = 0; temp = ''; buf = '';
       skipAutoChunks();
       alts = altAns.map((a, i) => i === 0 ? null : makeState(a));
       activeAlt = 0;
@@ -863,7 +863,7 @@ buildKanjiRuby: function (kanMixed, yomi) {
       document.querySelectorAll('#virtual-keyboard .active').forEach(el => el.classList.remove('active'));
 
       // 内部一時変数
-      idx1 = 0; idx2 = 0; temp = '';
+      idx1 = 0; idx2 = 0; temp = ''; buf = '';
       wordR = null; pattern = []; hiragana = [];
       this.kanjiChunks = [];
       this.hint1Active = false;
@@ -1463,7 +1463,7 @@ enableMenuNav(menuEl) {
   // 読み 1 つ分の入力状態
   function makeState(reading) {
     const c = splitAsciiRuns(kanaToRoman(reading));
-    const st = { wordR: c[0], hiragana: c[1], pattern: new Array(c[0].length).fill(0), idx1: 0, idx2: 0, temp: '' };
+    const st = { wordR: c[0], hiragana: c[1], pattern: new Array(c[0].length).fill(0), idx1: 0, idx2: 0, temp: '', buf: '' };
     while (st.idx1 < st.wordR.length && st.wordR[st.idx1].length === 1 && AUTO_CHUNKS.test(st.wordR[st.idx1][0])) st.idx1++;
     return st;
   }
@@ -1471,7 +1471,7 @@ enableMenuNav(menuEl) {
   // 1 キー進めた状態を返す（合わなければ null）。chunkDone はかな 1 つを打ち終えたか
   function stepState(st, key) {
     if (!st || st.idx1 >= st.wordR.length) return null;
-    const s = { wordR: st.wordR, hiragana: st.hiragana, pattern: st.pattern.slice(), idx1: st.idx1, idx2: st.idx2, temp: st.temp + key };
+    const s = { wordR: st.wordR, hiragana: st.hiragana, pattern: st.pattern.slice(), idx1: st.idx1, idx2: st.idx2, temp: st.temp + key, buf: (st.buf || '') + key };
     let ok = key === s.wordR[s.idx1][s.pattern[s.idx1]][s.idx2];
     if (!ok && (!hamachi.cfg || hamachi.cfg.allowLooseRomaji)) {
       const reg = new RegExp('^' + s.temp.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
@@ -1483,21 +1483,24 @@ enableMenuNav(menuEl) {
         }
       }
     }
-    // 打ちかけのかなを打ち直したとき（じゅ を zi まで打ってから zy / ju と打ち直す、など）。
-    // 打ったキーの前の何文字かを取り消すと、どれかの打ち方の頭になるなら、そこから打ち直したとみなす
+    // 打ち直し（打ち間違えたあと）。どちらかでどれかの打ち方の頭になれば、そこから打ち直したとみなす
+    //   ① このかなを打ち始めてから押したキーの末尾（ttl と打ち間違えてから tto と打ち直す、など）。長い方を先に
+    //   ② 打ちかけの後ろを取り消して置き換える（じゅ を zi まで打って zy と直す）
     if (!ok && s.idx2 > 0) {
-      const prev = st.temp;
-      for (let k = prev.length - 1; k >= 0 && !ok; k--) {
-        const cand = prev.slice(0, k) + key;
+      const hist = (st.buf || '') + key;
+      const cands = [];
+      for (let n = hist.length; n >= 1; n--) cands.push(hist.slice(-n));
+      for (let k = st.temp.length - 1; k >= 1; k--) cands.push(st.temp.slice(0, k) + key);
+      for (const cand of cands) {
         const i = s.wordR[s.idx1].findIndex(p => p.startsWith(cand));
-        if (i >= 0) { s.pattern[s.idx1] = i; s.idx2 = cand.length - 1; s.temp = cand; s.fixed = true; ok = true; }
+        if (i >= 0) { s.pattern[s.idx1] = i; s.idx2 = cand.length - 1; s.temp = cand; s.fixed = true; ok = true; break; }
       }
     }
     if (!ok) return null;
     s.idx2++;
     let chunkDone = false;
     if (s.idx2 === s.wordR[s.idx1][s.pattern[s.idx1]].length) {
-      s.idx1++; s.idx2 = 0; s.temp = ''; chunkDone = true;
+      s.idx1++; s.idx2 = 0; s.temp = ''; s.buf = ''; chunkDone = true;
       while (s.idx1 < s.wordR.length && s.wordR[s.idx1].length === 1 && AUTO_CHUNKS.test(s.wordR[s.idx1][0])) s.idx1++;
     }
     return { s, chunkDone };
@@ -1554,7 +1557,7 @@ enableMenuNav(menuEl) {
     if (idx2 === 0 && AUTO_CHUNKS.test(key)) return;
 
     // 読みごとに 1 キー進め、合った読みだけを残す。今の読みが合わなくてもほかの読みが合えばそちらへ切り替える
-    alts[activeAlt] = { wordR, hiragana, pattern, idx1, idx2, temp };
+    alts[activeAlt] = { wordR, hiragana, pattern, idx1, idx2, temp, buf };
     const results = alts.map(st => stepState(st, key));
     const pick = results[activeAlt] ? activeAlt : results.findIndex(Boolean);
     const correctInput = pick >= 0;
@@ -1563,7 +1566,7 @@ enableMenuNav(menuEl) {
       alts = results.map(r => r ? r.s : null);
       const switched = pick !== activeAlt;
       activeAlt = pick;
-      ({ wordR, hiragana, pattern, idx1, idx2, temp } = alts[pick]);
+      ({ wordR, hiragana, pattern, idx1, idx2, temp, buf } = alts[pick]);
       chunkDone = results[pick].chunkDone;
       if (switched && hamachi.rerenderReading) hamachi.rerenderReading();
       // 打ち直しで先へ進めたときも、打ち間違いは 1 回のミスとして数える
