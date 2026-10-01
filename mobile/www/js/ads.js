@@ -10,9 +10,9 @@
 // ===============================================================
 
 export const AD_CONFIG = {
-  live: false,
+  live: true,
   // 本物の ID（AdMob の STUDY TYPE）。live を true にするときは、Info.plist の GADApplicationIdentifier も
-  // このアプリ ID に替える（いまはテスト用 ca-app-pub-3940256099942544~1458002511）
+  // このアプリ ID に替える（テストに戻すときは ca-app-pub-3940256099942544~1458002511）
   appId: 'ca-app-pub-6787317133124761~2648671992',
   banner: {
     real: 'ca-app-pub-6787317133124761/1566865473',    // AdMob の「STUDY TYPE iOS Banner」。live が true のときだけ使う
