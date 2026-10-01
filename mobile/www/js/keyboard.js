@@ -7,7 +7,8 @@
 //   英字 … QWERTY と数字。
 //   どちらにも ヒント（次の 1 文字）と パス、⌫ がある。
 //
-// new Keyboard(el, { onChar(ch), onCycle(), onBack(), onHint(), onPass(), onMode(mode), noHint, passLabel })
+// new Keyboard(el, { onChar(ch), onCycle(), onBack(), onHint(), onPass(), onMode(mode), peek(n), noHint, passLabel })
+//   peek(n) … 次に打つ字（外付けキーボードで、n を「ん」にするか・英字をそのまま渡すかを決めるのに使う）
 //   noHint … ヒントのキーを出さない（対戦）。passLabel … パスのキーの字（対戦は「あきらめる」）
 // ===============================================================
 
@@ -19,6 +20,31 @@ const FLICK = {
   'わ': ['わ', 'を', 'ん', 'ー', ''],
 };
 const QWERTY = ['1234567890', 'qwertyuiop', 'asdfghjkl', 'zxcvbnm'];
+
+// ---- 外付けキーボード（iPad の Magic Keyboard など）：ローマ字をかなに直して 1 字ずつ渡す ----
+// 日本語入力（IME）を通さず、英字のまま打ったキーをここでかなにする。Web 版と同じような打ち方を受け付ける
+const ROMA = (() => {
+  const m = {};
+  const add = (k, v) => k.split(' ').forEach(x => { if (x) m[x] = v; });
+  const rows = { '': 'あいうえお', k: 'かきくけこ', s: 'さしすせそ', t: 'たちつてと', n: 'なにぬねの', h: 'はひふへほ', m: 'まみむめも',
+    r: 'らりるれろ', g: 'がぎぐげご', z: 'ざじずぜぞ', d: 'だぢづでど', b: 'ばびぶべぼ', p: 'ぱぴぷぺぽ' };
+  for (const [c, ks] of Object.entries(rows)) [...'aiueo'].forEach((v, i) => add(c + v, ks[i]));
+  add('ya', 'や'); add('yu', 'ゆ'); add('yo', 'よ'); add('wa', 'わ'); add('wo', 'を'); add('yi', 'い'); add('wu', 'う');
+  add('shi ci', 'し'); add('chi', 'ち'); add('tsu', 'つ'); add('fu', 'ふ'); add('ji', 'じ'); add('ca', 'か'); add('cu qu', 'く'); add('co', 'こ'); add('ce', 'せ');
+  const yo = { ky: 'き', gy: 'ぎ', sy: 'し', sh: 'し', zy: 'じ', jy: 'じ', ty: 'ち', cy: 'ち', ch: 'ち', dy: 'ぢ', ny: 'に', hy: 'ひ', by: 'び', py: 'ぴ', my: 'み', ry: 'り' };
+  for (const [c, k] of Object.entries(yo)) { add(c + 'a', k + 'ゃ'); add(c + 'u', k + 'ゅ'); add(c + 'o', k + 'ょ'); }
+  add('ja', 'じゃ'); add('ju', 'じゅ'); add('jo', 'じょ'); add('je jye zye', 'じぇ'); add('she sye', 'しぇ'); add('che tye cye', 'ちぇ');
+  add('fa fwa', 'ふぁ'); add('fi fwi fyi', 'ふぃ'); add('fe fwe fye', 'ふぇ'); add('fo fwo', 'ふぉ'); add('fyu', 'ふゅ');
+  add('va', 'ゔぁ'); add('vi', 'ゔぃ'); add('vu', 'ゔ'); add('ve', 'ゔぇ'); add('vo', 'ゔぉ');
+  add('thi', 'てぃ'); add('dhi', 'でぃ'); add('dhu', 'でゅ'); add('twu', 'とぅ'); add('dwu', 'どぅ'); add('tsa', 'つぁ');
+  add('wi whi', 'うぃ'); add('we whe', 'うぇ'); add('who', 'うぉ'); add('ye', 'いぇ'); add('kwa qa', 'くぁ'); add('gwa', 'ぐぁ');
+  [...'aiueo'].forEach((v, i) => add('x' + v + ' l' + v, 'ぁぃぅぇぉ'[i]));
+  add('xya lya', 'ゃ'); add('xyu lyu', 'ゅ'); add('xyo lyo', 'ょ'); add('xtu ltu xtsu ltsu', 'っ'); add('xwa lwa', 'ゎ');
+  add('nn xn', 'ん'); add("n'", 'ん'); add('-', 'ー');
+  return m;
+})();
+const ROMA_KEYS = Object.keys(ROMA);
+const isAsciiCh = c => /^[ -~]$/.test(c || '');
 // これより動かしたらフリック（px）。メニューの「フリックの感度」で変える
 export const kbPrefs = { flickMin: 18 };
 
@@ -36,6 +62,85 @@ export class Keyboard {
     this.clear = () => { this.pop.hidden = true; [...this.pressed].forEach(r => r()); this.el.querySelectorAll('.kb-k.on').forEach(x => x.classList.remove('on')); };
     ['touchend', 'touchcancel'].forEach(t => document.addEventListener(t, e => { if (!e.touches.length) setTimeout(this.clear, 0); }));
     this.render();
+    this.attachHardware();
+  }
+
+  // 外付けキーボード。打ったら画面のキーボードをしまい（ヒント・パスだけ残す）、画面にさわったら戻す
+  attachHardware() {
+    let buf = '';
+    const peek = n => (this.h.peek ? this.h.peek(n) : '') || '';
+    const send = ch => { for (const c of ch) this.h.onChar(c); };
+    // 打ちかけのローマ字を、決まった分だけかなにする（final：語の最後などで n を「ん」にしてよいとき）
+    const flush = () => {
+      for (let guard = 0; buf && guard < 20; guard++) {
+        const longer = ROMA_KEYS.some(k => k.length > buf.length && k.startsWith(buf));
+        if (ROMA[buf] && !longer) { send(ROMA[buf]); buf = ''; break; }
+        if (buf.length >= 2 && buf[0] === buf[1] && !'aiueon'.includes(buf[0])) { send('っ'); buf = buf.slice(1); continue; }
+        if (buf[0] === 'n' && buf.length >= 2 && !"aiueoyn'".includes(buf[1])) { send('ん'); buf = buf.slice(1); continue; }
+        if (longer) break;
+        // どの打ち方の頭にもならない：最初の 1 字をそのまま渡す（ミスになる）
+        send(buf[0]); buf = buf.slice(1);
+      }
+      // 残りが n だけで、答えの最後の「ん」なら、n 1 つで「ん」にする（途中の「ん」は次のキーで決める）
+      if (buf === 'n' && peek(2) === 'ん') { send('ん'); buf = ''; }
+    };
+    const onKey = e => {
+      if (!document.body.contains(this.el)) { document.removeEventListener('keydown', onKey, true); return; }
+      if (e.metaKey || e.ctrlKey || e.altKey || e.isComposing) return;
+      const k = e.key;
+      if (k === 'Backspace') { e.preventDefault(); if (buf) buf = buf.slice(0, -1); else this.h.onBack(); return; }
+      if (k === 'Tab') { e.preventDefault(); if (this.h.onHint && !this.h.noHint) this.h.onHint(); return; }
+      if (k.length !== 1) return;
+      e.preventDefault();
+      document.body.classList.add('hw-kb');
+      const c = k.toLowerCase();
+      // 答えを打ち終えて次の問題を待っている間のキー（nn の 2 つ目など）は捨てる
+      if (this.h.peek && peek(1) === '') { buf = ''; return; }
+      // 英字の答え・英字のところは、そのまま渡す
+      if (this.mode === 'latin' || (!buf && isAsciiCh(peek(1)) && peek(1) !== 'ー')) { send(c === ' ' ? ' ' : c); return; }
+      if (!/^[a-z'\-]$/.test(c)) { send(c); return; }
+      buf += c;
+      flush();
+    };
+    document.addEventListener('keydown', onKey, true);
+    // 画面にさわったら、画面のキーボードに戻す
+    const touch = () => { document.body.classList.remove('hw-kb'); buf = ''; };
+    document.addEventListener('touchstart', touch, { passive: true });
+
+    // iPad では、外付けキーボードの字は「入力欄」に届く。見えない入力欄を置いて、そこに来た字を受け取る
+    // （inputmode="none" なので画面のキーボードは出ない。keydown で受けた字は preventDefault で止まるので二重にならない）
+    const sink = document.createElement('textarea');
+    sink.className = 'hw-sink';
+    sink.setAttribute('inputmode', 'none');
+    sink.setAttribute('autocapitalize', 'off');
+    sink.setAttribute('autocorrect', 'off');
+    sink.setAttribute('autocomplete', 'off');
+    sink.setAttribute('spellcheck', 'false');
+    sink.setAttribute('aria-hidden', 'true');
+    sink.tabIndex = -1;
+    this.el.parentNode.appendChild(sink);
+    const feed = text => {
+      for (const ch of text) {
+        if (!document.body.contains(this.el)) return;
+        document.body.classList.add('hw-kb');
+        if (/^[\u3040-\u30ffー]$/.test(ch)) { buf = ''; send(ch); continue; }   // 日本語入力で確定したかな
+        onKey({ key: ch, preventDefault() {}, metaKey: false, ctrlKey: false, altKey: false, isComposing: false, fromSink: true });
+      }
+    };
+    sink.addEventListener('beforeinput', e => {
+      if (e.inputType === 'insertText' && e.data) { e.preventDefault(); feed(e.data); }
+      else if (e.inputType === 'deleteContentBackward') { e.preventDefault(); if (buf) buf = buf.slice(0, -1); else this.h.onBack(); }
+    });
+    // 日本語入力（かな変換）を通ったときは、確定した字を受け取る
+    sink.addEventListener('compositionend', e => { if (e.data) feed(e.data); sink.value = ''; });
+    sink.addEventListener('input', () => { if (!sink.matches(':focus') || sink.value === '') return; const v = sink.value; sink.value = ''; feed(v); });
+    // iPad のときだけ、ゲーム中は見えない入力欄にフォーカスを置いておく（iPhone は画面のキーボードだけ）
+    const wide = () => Math.min(screen.width, screen.height) >= 700;
+    const keep = () => { if (wide() && document.body.contains(sink) && document.activeElement !== sink) sink.focus({ preventScroll: true }); };
+    // iOS は「指でさわった瞬間」にしか入力欄へフォーカスできないので、待たずにその場で合わせる
+    keep();
+    document.addEventListener('touchend', keep, { passive: true });
+    document.addEventListener('click', keep);
   }
 
   setMode(mode) {

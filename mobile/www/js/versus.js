@@ -11,7 +11,7 @@
 
 import { icon } from './icons.js';
 import { Keyboard } from './keyboard.js';
-import { alts, tryAppend, tryCycle, bestAnswer, isLatin, prefixState } from './match.js';
+import { alts, tryAppend, tryCycle, bestAnswer, isLatin, prefixState, nextChars } from './match.js';
 import { show, back, screen, topBar, esc, qhtml, store, LEVELS, buzz, game, onLeave, getSets, fitText } from './app.js';
 
 const SERVER = () => store.get('server', 'https://studytype.umekobo.com');
@@ -274,6 +274,7 @@ function rounds(start) {
     onHint: () => {},
     onPass: () => { if (ready()) giveUp('あきらめました'); },
     noHint: true, passLabel: 'あきらめる<small>この問題</small>',
+    peek: n => g.r >= 0 ? nextChars(g.t, g.answers, n) : '',
   });
   const ready = () => !g.over && !g.out && !g.done && g.r >= 0;
 

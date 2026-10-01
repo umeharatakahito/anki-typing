@@ -33,6 +33,14 @@ xcrun devicectl device install app --device <UDID> build/dev/Build/Products/Debu
 
 UDID は `xcrun devicectl list devices` で見る。署名のチームは P89RKRTMXS。
 
+## iPad
+
+- iPhone と iPad の両方に対応（`TARGETED_DEVICE_FAMILY = "1,2"`）。iPad は縦横どちらでも使える
+- 広い画面（幅 700pt 以上）では、中身を真ん中に集める（`www/css/app.css` の最後）
+- 外付けキーボード（Magic Keyboard など）：英字のまま打てばローマ字をかなに直して入る（`www/js/keyboard.js` の attachHardware）。
+  打つと画面のキーボードがしまわれ（ヒント・パスだけ残る）、画面にさわると戻る。Tab でヒント
+- App Store 用の 13 インチ iPad のスクリーンショットは `store-shots/ipad13/`（2064×2752）
+
 ## 広告（AdMob）
 
 `www/js/ads.js`。トップ・一覧・設定・結果の画面の下にバナーを出し、遊んでいる最中と対戦中は出さない。

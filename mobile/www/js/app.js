@@ -323,6 +323,7 @@ export function game({ cat, kbn, pool, all, ta }) {
     onBack: () => { if (!ready() || !st.t) return; st.t = st.t.slice(0, -1); draw(); },
     onHint: () => { if (!ready()) return; hint(); },
     onPass: () => { if (!ready()) return; finishCard(false); },
+    peek: n => st.card ? nextChars(st.t, st.answers, n) : '',
   });
   const ready = () => !st.over && !st.lock && st.card;
 
