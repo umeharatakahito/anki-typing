@@ -107,7 +107,8 @@ async function setSubscription(env, email, kind, periodEnd, customer, sub) {
   const until = Math.max((p && p.until) || 0, periodEnd + GRACE);
   await env.DB.prepare(
     `INSERT INTO plans (email, until, kind, customer, sub, updated_at) VALUES (?, ?, ?, ?, ?, ?)
-     ON CONFLICT(email) DO UPDATE SET until = excluded.until, kind = excluded.kind, customer = excluded.customer, sub = excluded.sub, updated_at = excluded.updated_at`
+     ON CONFLICT(email) DO UPDATE SET until = excluded.until, kind = excluded.kind, customer = excluded.customer, sub = excluded.sub,
+       ending = CASE WHEN plans.sub = excluded.sub THEN plans.ending ELSE 0 END, updated_at = excluded.updated_at`
   ).bind(email, until, kind, customer || '', sub || '', Date.now()).run();
 }
 
@@ -121,6 +122,38 @@ async function applySession(env, s) {
   else await setSubscription(env, email, s.metadata.plan, Date.now() + plan.days * DAY, s.customer || '', s.subscription || '');
   await thanks(env, email, s.metadata.plan, false);
   return true;
+}
+
+// 月額プランの知らせ（解約を受け付けた・更新の支払いができなかった）。住所は載せない
+async function notice(env, email, kind) {
+  try {
+    const p = await planOf(env, email);
+    const site = env.PUBLIC_ORIGIN || 'https://studytype.umekobo.com';
+    const until = p && p.until ? fmtDay(p.until - GRACE) : '';
+    const body = kind === 'ending' ? [
+      'STUDY TYPE をご利用いただき、ありがとうございます。',
+      '月額プランの解約を受け付けました。これ以降、自動で請求されることはありません。',
+      '',
+      until ? '会員として使えるのは ' + until + ' までです。' : '',
+      '解約を取り消すときや、また申し込むときは ' + site + '/plan からどうぞ。',
+    ] : [
+      'STUDY TYPE をご利用いただき、ありがとうございます。',
+      '月額プランの更新のお支払いが、カードでできませんでした。',
+      '',
+      'ログインして ' + site + '/plan の「解約・カードの変更」から、カードを確かめるか、別のカードに替えてください。',
+      'カードを替えると、自動でもう一度お支払いします。お支払いが確認できないままだと、数日で無料版に戻ります。',
+    ];
+    return await sendMail(env, {
+      to: email,
+      subject: kind === 'ending' ? '【STUDY TYPE】月額プランの解約を受け付けました' : '【STUDY TYPE】月額プランのお支払いができませんでした',
+      text: body.concat(['', 'ご不明な点は、このメールに返信してお知らせください。', '', '――――',
+        'STUDY TYPE　' + site, 'お問い合わせ　' + (env.SELLER_EMAIL || ''), '特定商取引法に基づく表記　' + site + '/legal'])
+        .filter((l, i, a) => l !== '' || a[i - 1] !== '').join('\n')
+    });
+  } catch (e) {
+    console.log('notice mail failed', e && e.message);
+    return 'error: ' + (e && e.message);
+  }
 }
 
 // 「お支払いありがとうございます」のメール。住所は載せない（特商法の表記は /legal に）。
@@ -204,12 +237,20 @@ export function renderPlan(viewer, env, url) {
   const p = viewer.plan;
   const state = url.searchParams.get('pay');
   let now = '';
-  if (viewer.email && viewer.member && p && p.active) {
+  if (viewer.email && p && p.auto && !p.active) {
+    // 月額の更新の支払いができていない（Stripe がしばらく引き落としをやり直す）
+    now = `<div class="plan-now">${icon('info')}<span class="grow"><b>月額プランのお支払いができていません</b><br>
+      <small>「解約・カードの変更」でカードを確かめるか替えると、もう一度お支払いします</small></span>
+      <button type="button" id="pay-portal">解約・カードの変更</button></div>`;
+  } else if (viewer.email && viewer.member && p && p.active) {
     const left = Math.ceil((p.until - Date.now()) / DAY);
     const soon = !p.auto && left <= RENEW_NOTICE_DAYS;
+    const end = p.auto ? p.until - GRACE : p.until;   // 月額は、支払った期間の終わり（予備の日を除く）
+    const line = p.auto && p.ending ? `解約済み。${fmtDay(end)} まで使えます（これ以降の請求はありません）`
+      : `${p.auto ? '次の更新' : '使える期限'}：${fmtDay(end)}${soon ? `（<b>あと ${left} 日</b>。下の「1年分」を買うと、今の期限から 1 年延びます）` : ''}`;
     now = `<div class="plan-now ok">${icon('badge-check')}<span class="grow"><b>会員です</b>（${esc((PLANS[p.kind] || {}).label || '会員')}）<br>
-      <small>${p.auto ? '次の更新' : '使える期限'}：${fmtDay(p.until)}${soon ? `（<b>あと ${left} 日</b>。下の「1年分」を買うと、今の期限から 1 年延びます）` : ''}</small></span>
-      ${p.auto ? '<button type="button" id="pay-portal">解約・カードの変更</button>' : ''}</div>`;
+      <small>${line}</small></span>
+      ${p.auto ? `<button type="button" id="pay-portal">${p.ending ? '解約の取り消し' : '解約・カードの変更'}</button>` : ''}</div>`;
   } else if (viewer.email && viewer.member) {
     now = `<div class="plan-now ok">${icon('badge-check')}<span class="grow"><b>会員です</b>（すべての問題が遊べます）</span></div>`;
   } else if (!viewer.email) {
@@ -222,7 +263,7 @@ export function renderPlan(viewer, env, url) {
   if (state === 'cancel') now += `<div class="plan-now">${icon('info')}<span class="grow">お申し込みは取り消しました。</span></div>`;
 
   const guest = !viewer.email;
-  const hasAuto = !!(p && p.active && p.auto);
+  const hasAuto = !!(p && p.auto);
   const card = (key, best) => {
     const pl = PLANS[key];
     // 月額に入っている間は、どちらも買えない（1 年分に替えるときは、先に月額を解約する）
@@ -370,9 +411,23 @@ export async function handlePay(request, env, url, viewer) {
           // 初回は Checkout のほうで知らせるので、2 回目からの自動更新だけ
           if (o.billing_reason === 'subscription_cycle' && await once(env, 'mail:' + o.id)) await thanks(env, email, meta.plan, true);
         }
+      } else if (ev.type === 'customer.subscription.updated') {
+        // 解約（期間の終わりで止まる）・解約の取り消し。解約したときだけメールで知らせる
+        const ending = o.cancel_at_period_end || o.cancel_at ? 1 : 0;
+        const r = await env.DB.prepare(`UPDATE plans SET ending = ?, updated_at = ? WHERE sub = ? AND ending <> ?`)
+          .bind(ending, Date.now(), o.id, ending).run();
+        if (ending && r.meta.changes > 0) {
+          const row = await env.DB.prepare('SELECT email FROM plans WHERE sub = ?').bind(o.id).first();
+          if (row) await notice(env, row.email, 'ending');
+        }
+      } else if (ev.type === 'invoice.payment_failed') {
+        // 自動更新の支払いができなかった（Stripe のメールは止めてあるので、こちらから知らせる）
+        const sub = o.subscription || (o.parent && o.parent.subscription_details && o.parent.subscription_details.subscription) || '';
+        const row = sub && await env.DB.prepare('SELECT email FROM plans WHERE sub = ?').bind(sub).first();
+        if (row && o.billing_reason === 'subscription_cycle' && await once(env, 'fail:' + o.id)) await notice(env, row.email, 'failed');
       } else if (ev.type === 'customer.subscription.deleted') {
         // 解約。払った期間の終わりまでは使える（until はそのまま）
-        await env.DB.prepare(`UPDATE plans SET sub = '', updated_at = ? WHERE sub = ?`).bind(Date.now(), o.id).run();
+        await env.DB.prepare(`UPDATE plans SET sub = '', ending = 0, updated_at = ? WHERE sub = ?`).bind(Date.now(), o.id).run();
       }
     } catch (e) {
       return new Response('error: ' + e.message, { status: 500 });   // Stripe が送り直してくれる
@@ -393,7 +448,7 @@ export async function handlePay(request, env, url, viewer) {
     const guest = !viewer.email;
     if (guest && pl.mode !== 'payment') return json({ error: '月額プランは、先にログインしてください' }, 401);
     const cur = guest ? null : await planOf(env, viewer.email);
-    if (cur && cur.sub && cur.until > Date.now()) {
+    if (cur && cur.sub) {   // 月額が残っている間（支払いの失敗中も）。2 つ目の月額ができないように
       return json({ error: pl.mode === 'subscription' ? 'もう月額プランに入っています' : '月額プランに入っています。1年分に替えるときは、先に月額を解約してください' }, 409);
     }
     const params = {

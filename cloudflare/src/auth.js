@@ -97,7 +97,7 @@ async function sessionViewer(request, env) {
   const token = readCookie(request, COOKIE);
   if (!token) return GUEST;
   const s = await env.DB.prepare(
-    `SELECT s.email, s.expires_at, u.nickname, u.nickname_set, m.email AS member, m.juken, p.until AS plan_until, p.kind AS plan_kind, p.sub AS plan_sub
+    `SELECT s.email, s.expires_at, u.nickname, u.nickname_set, m.email AS member, m.juken, p.until AS plan_until, p.kind AS plan_kind, p.sub AS plan_sub, p.ending AS plan_ending
        FROM sessions s
        LEFT JOIN users u ON u.email = s.email
        LEFT JOIN members m ON m.email = s.email
@@ -107,7 +107,7 @@ async function sessionViewer(request, env) {
   if (!s || s.expires_at < Date.now()) return GUEST;
   const admin = adminEmails(env).includes(s.email);
   // 有料プラン。until を過ぎたら無料版に戻る
-  const plan = s.plan_until ? { until: s.plan_until, kind: s.plan_kind || '', auto: !!s.plan_sub, active: s.plan_until > Date.now() } : null;
+  const plan = s.plan_until ? { until: s.plan_until, kind: s.plan_kind || '', auto: !!s.plan_sub, ending: !!s.plan_ending, active: s.plan_until > Date.now() } : null;
   return {
     email: s.email,
     name: s.nickname || s.email.split('@')[0],
