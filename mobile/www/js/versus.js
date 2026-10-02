@@ -282,6 +282,23 @@ function rounds(start) {
     $('meters').innerHTML = meterHtml(vs.room.rule, vs.room.target, scores, lives);
   }
   function opps() {
+    // iPad（広い画面）は Web 版と同じく、問題の下に「自分の入力」と相手ごとの枠を横に並べる
+    if (matchMedia('(min-width: 700px)').matches) {
+      const others = vs.players.filter(p => p.seat !== vs.seat);
+      $('stage').style.setProperty('--vs-n', String(others.length + 1));
+      $('stage').classList.add('vs-wide');
+      $('ans').dataset.who = 'あなた';
+      $('opps').innerHTML = others.map((p, i) => {
+        const o = g.opp[p.seat] || {};
+        const pct = o.total ? Math.round(o.done / o.total * 100) : 0;
+        return `<div class="op-panel ${COLORS[i % 3]}${o.out ? ' out' : ''}">
+          <div class="op-name">${esc(p.name)} ${p.dev === 'app' ? '📱' : '⌨️'}</div>
+          <div class="op-typed">${esc(o.typed || '')}${o.out ? '<small>（打てません）</small>' : ''}</div>
+          <div class="bar"><i style="width:${o.out ? 100 : pct}%"></i></div></div>`;
+      }).join('');
+      return;
+    }
+    $('stage').classList.remove('vs-wide');
     $('opps').innerHTML = vs.players.filter(p => p.seat !== vs.seat).map(p => {
       const o = g.opp[p.seat] || {};
       const pct = o.total ? Math.round(o.done / o.total * 100) : 0;

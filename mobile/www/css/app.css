@@ -288,17 +288,10 @@ button{font:inherit;color:inherit;touch-action:manipulation}
   .q-text { font-size: clamp(19px, 2.4vw, 24px); }
   .typed { font-size: clamp(28px, 3.4vw, 36px); }
   .q-img { max-height: 40vh; }
-  /* 画面のキーボードは、手が届く幅で真ん中に（iPhone のキーボードを少し大きくしたくらい） */
-  .kb { --kb-h: 300px; --kb-h-latin: 340px; }
-  .kb.kb-flick { width: min(100%, 620px); margin: 0 auto; border-left: 1px solid var(--line); border-right: 1px solid var(--line); border-radius: 14px 14px 0 0; }
-  .kb.kb-qwerty { width: min(100%, 860px); margin: 0 auto; }
-  .kb-row .kb-k { max-width: 72px; }
-  .kb-main { font-size: 30px; } .kb-sub { font-size: 11px; }
-  .kb-pop span { font-size: 34px; }
 }
 @media (min-width: 1000px) { .tiles { grid-template-columns: repeat(4, 1fr); } }
 /* 横向きで高さが足りないときは、図を小さく */
-@media (min-width: 700px) and (max-height: 820px) { .q-img { max-height: 28vh; } .kb { --kb-h: 240px; --kb-h-latin: 280px; } }
+@media (min-width: 700px) and (max-height: 820px) { .q-img { max-height: 28vh; } }
 
 /* ---- 外付けキーボードで打っている間（keyboard.js が body に hw-kb を付ける）：画面のキーボードはしまい、ヒント・パスだけ残す ---- */
 body.hw-kb .kb { height: auto; display: flex; justify-content: center; gap: 10px; padding: 8px 12px calc(8px + var(--safe-b)); }
@@ -310,3 +303,46 @@ body.hw-kb .kb::before { content: '⌨ キーボードで入力中（Tab でヒ�
 
 /* 外付けキーボードの字を受け取る、見えない入力欄（keyboard.js） */
 .hw-sink { position: fixed; left: -100px; top: 0; width: 1px; height: 1px; opacity: 0; border: 0; padding: 0; resize: none; pointer-events: none; font-size: 16px; }
+
+/* ---- iPad の対戦：Web 版と同じく、問題の下に「あなた」と相手の枠を横に並べる（versus.js が .vs-wide を付ける） ---- */
+.stage.vs-wide { display: grid; grid-template-columns: repeat(var(--vs-n, 2), minmax(0, 1fr)); grid-template-rows: auto auto 1fr auto; column-gap: 12px; row-gap: 8px; }
+/* 問題は上、みんなの枠はキーボードのすぐ上（打ちながら目に入る位置） */
+.stage.vs-wide > .q-text { align-self: start; }
+.stage.vs-wide > .q-meta, .stage.vs-wide > .q-img, .stage.vs-wide > .q-text { grid-column: 1 / -1; }
+.stage.vs-wide > .opps { display: contents; }
+.stage.vs-wide > .answer { grid-row: 4; grid-column: 1; margin-top: 8px; border-color: #ef4444; }
+.stage.vs-wide > .answer::before { content: attr(data-who); display: block; font-size: 12px; font-weight: 800; color: #fca5a5; margin-bottom: 2px; }
+.stage.vs-wide .op-panel { grid-row: 4; margin-top: 8px; min-width: 0; padding: 8px 12px; border-radius: 14px; background: var(--card); border: 2px solid var(--vm, var(--line)); }
+.stage.vs-wide .op-panel.c1 { --vm: #3b82f6; } .stage.vs-wide .op-panel.c2 { --vm: #16a34a; } .stage.vs-wide .op-panel.c3 { --vm: #f59e0b; }
+.stage.vs-wide .op-panel.out { opacity: .5; }
+.stage.vs-wide .op-name { font-size: 12px; font-weight: 800; color: var(--vm); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.stage.vs-wide .op-typed { min-height: 1.3em; margin: 2px 0 6px; font-size: clamp(20px, 2.6vw, 28px); font-weight: 800; color: var(--ink); word-break: break-all; }
+.stage.vs-wide .op-typed small { font-size: 12px; color: var(--muted); margin-left: 6px; }
+.stage.vs-wide .op-panel .bar { height: 6px; border-radius: 999px; background: var(--line); overflow: hidden; }
+.stage.vs-wide .op-panel .bar i { display: block; height: 100%; background: var(--vm); }
+
+/* ---- iPad のキーボード（keyboard.js）----
+   下に横いっぱい（iPad 本体のキーボードと同じ位置・高さ。縦向きは画面の約 1/4、横向きは約 4 割）。
+   フローティングにすると、iPhone の大きさのフリックキーボードが浮く */
+.kb.kb-dock { height: auto; display: flex; flex-direction: column; gap: 8px; padding: 10px 8px calc(10px + var(--safe-b));
+  --row-h: clamp(46px, 5.6vh, 62px); }
+@media (orientation: landscape) { .kb.kb-dock { --row-h: clamp(52px, 7.4vh, 74px); } }
+.kb-dock .kb-row { flex: none; height: var(--row-h); gap: 8px; }
+.kb-dock .kb-row .kb-k { max-width: none; flex: 1; font-size: clamp(20px, 2.4vw, 26px); border-radius: 9px; }
+.kb-dock .kb-row.kb-in { padding: 0 2.5%; } .kb-dock .kb-row.kb-in2 { padding: 0 7%; }
+.kb-dock .kb-row .kb-fn { flex: 1.5; font-size: 15px; }
+.kb-dock .kb-row .kb-space { flex: 5; }
+.kb-dock .kb-floatbtn { flex: 2 !important; flex-direction: column; font-size: 14px !important; }
+.kb-dock .kb-floatbtn small { font-size: 10px; color: var(--muted); }
+.kb-dock .kb-buf { flex: 2; align-self: center; text-align: left; padding-left: 6px; font: 700 20px/1 ui-monospace, Menlo, monospace; color: var(--gold); letter-spacing: .08em; }
+.kb.kb-floating { position: fixed; z-index: 40; width: 360px; height: auto; padding: 0 6px 8px; border: 1px solid var(--line); border-radius: 16px;
+  box-shadow: 0 18px 48px rgba(0,0,0,.45); }
+.kb-floating .kb-handle { display: flex; align-items: center; justify-content: space-between; height: 34px; padding: 0 4px; touch-action: none; }
+.kb-floating .kb-grip { width: 56px; height: 5px; margin-left: 140px; border-radius: 999px; background: var(--muted); opacity: .6; }
+.kb-floating .kb-dockbtn { border: 0; background: transparent; color: var(--muted); font-size: 12px; padding: 6px; }
+.kb-floating .kb-flick { height: 240px; }
+.kb-floating .kb-qwerty { height: 270px; }
+.kb-floating .kb-qwerty .kb-row .kb-latin { max-width: 36px; font-size: 18px; }
+.kb-floating .kb-qwerty .kb-row .kb-fn { font-size: 12px; white-space: nowrap; }
+/* フローティングのときは、キーボードの分の場所を空けない */
+.game .stage { min-height: 0; }

@@ -61,8 +61,11 @@ export class Keyboard {
     this.pressed = new Set();
     this.clear = () => { this.pop.hidden = true; [...this.pressed].forEach(r => r()); this.el.querySelectorAll('.kb-k.on').forEach(x => x.classList.remove('on')); };
     ['touchend', 'touchcancel'].forEach(t => document.addEventListener(t, e => { if (!e.touches.length) setTimeout(this.clear, 0); }));
-    this.render();
+    // iPad：ふだんは iPad 本体と同じ「下に横いっぱいのローマ字キーボード」。フローティングにすると iPhone の大きさのフリックが浮く
+    this.ipad = Math.min(screen.width, screen.height) >= 700;
+    try { this.floating = this.ipad && localStorage.getItem('kb-float') === '1'; } catch (e) { this.floating = false; }
     this.attachHardware();
+    this.render();
   }
 
   // 外付けキーボード。打ったら画面のキーボードをしまい（ヒント・パスだけ残す）、画面にさわったら戻す
@@ -84,27 +87,33 @@ export class Keyboard {
       // 残りが n だけで、答えの最後の「ん」なら、n 1 つで「ん」にする（途中の「ん」は次のキーで決める）
       if (buf === 'n' && peek(2) === 'ん') { send('ん'); buf = ''; }
     };
+    // 1 キー分（外付けキーボードと、iPad の画面のローマ字キーボードで共通）
+    const showBuf = () => { const b = this.el.querySelector('.kb-buf'); if (b) b.textContent = buf; };
+    this.typeRomaji = c => {
+      // 答えを打ち終えて次の問題を待っている間のキー（nn の 2 つ目など）は捨てる
+      if (this.h.peek && peek(1) === '') { buf = ''; showBuf(); return; }
+      // 英字の答え・英字のところは、そのまま渡す
+      if (this.mode === 'latin' || (!buf && isAsciiCh(peek(1)) && peek(1) !== 'ー')) { send(c); return; }
+      if (!/^[a-z'\-]$/.test(c)) { send(c); return; }
+      buf += c;
+      flush();
+      showBuf();
+    };
+    this.romajiBack = () => { if (buf) { buf = buf.slice(0, -1); showBuf(); } else this.h.onBack(); };
     const onKey = e => {
       if (!document.body.contains(this.el)) { document.removeEventListener('keydown', onKey, true); return; }
       if (e.metaKey || e.ctrlKey || e.altKey || e.isComposing) return;
       const k = e.key;
-      if (k === 'Backspace') { e.preventDefault(); if (buf) buf = buf.slice(0, -1); else this.h.onBack(); return; }
+      if (k === 'Backspace') { e.preventDefault(); this.romajiBack(); return; }
       if (k === 'Tab') { e.preventDefault(); if (this.h.onHint && !this.h.noHint) this.h.onHint(); return; }
       if (k.length !== 1) return;
       e.preventDefault();
       document.body.classList.add('hw-kb');
-      const c = k.toLowerCase();
-      // 答えを打ち終えて次の問題を待っている間のキー（nn の 2 つ目など）は捨てる
-      if (this.h.peek && peek(1) === '') { buf = ''; return; }
-      // 英字の答え・英字のところは、そのまま渡す
-      if (this.mode === 'latin' || (!buf && isAsciiCh(peek(1)) && peek(1) !== 'ー')) { send(c === ' ' ? ' ' : c); return; }
-      if (!/^[a-z'\-]$/.test(c)) { send(c); return; }
-      buf += c;
-      flush();
+      this.typeRomaji(k.toLowerCase());
     };
     document.addEventListener('keydown', onKey, true);
     // 画面にさわったら、画面のキーボードに戻す
-    const touch = () => { document.body.classList.remove('hw-kb'); buf = ''; };
+    const touch = () => { if (document.body.classList.contains('hw-kb')) { document.body.classList.remove('hw-kb'); buf = ''; showBuf(); } };
     document.addEventListener('touchstart', touch, { passive: true });
 
     // iPad では、外付けキーボードの字は「入力欄」に届く。見えない入力欄を置いて、そこに来た字を受け取る
@@ -129,7 +138,7 @@ export class Keyboard {
     };
     sink.addEventListener('beforeinput', e => {
       if (e.inputType === 'insertText' && e.data) { e.preventDefault(); feed(e.data); }
-      else if (e.inputType === 'deleteContentBackward') { e.preventDefault(); if (buf) buf = buf.slice(0, -1); else this.h.onBack(); }
+      else if (e.inputType === 'deleteContentBackward') { e.preventDefault(); this.romajiBack(); }
     });
     // 日本語入力（かな変換）を通ったときは、確定した字を受け取る
     sink.addEventListener('compositionend', e => { if (e.data) feed(e.data); sink.value = ''; });
@@ -152,10 +161,77 @@ export class Keyboard {
 
   render() {
     const k = (cls, label, data, extra) => `<button type="button" class="kb-k ${cls}" ${data || ''} ${extra || ''}>${label}</button>`;
+    if (this.ipad && !this.floating) return this.renderDock(k);
+    if (this.ipad && this.floating) return this.renderFloating(k);
+    this.renderKeys(this.el, k);
+  }
+
+  // iPad 本体のキーボードと同じ形：下に横いっぱい、ローマ字で打つ（かなの答えもローマ字で。英字の答えはそのまま）
+  renderDock(k) {
+    const keys = s => [...s].map(c => k('kb-latin', c, `data-r="${c}"`)).join('');
+    this.el.className = 'kb kb-dock' + (this.h.noHint ? ' no-hint' : '');
+    this.el.style.left = this.el.style.top = '';
+    this.el.innerHTML =
+      `<div class="kb-row kb-num">${keys('1234567890')}${k('kb-latin', 'ー', 'data-r="-"')}${k('kb-fn kb-back', '⌫', 'data-act="back"')}</div>` +
+      `<div class="kb-row">${keys('qwertyuiop')}${k('kb-fn kb-hint', 'ヒント', 'data-act="hint"')}</div>` +
+      `<div class="kb-row kb-in">${keys('asdfghjkl')}${k('kb-fn kb-pass', this.h.passLabel || 'パス −3秒', 'data-act="pass"')}</div>` +
+      `<div class="kb-row kb-in2">${keys('zxcvbnm')}${k('kb-latin', ',', 'data-r=","')}${k('kb-latin', '.', 'data-r="."')}</div>` +
+      `<div class="kb-row">${k('kb-fn kb-floatbtn', '⌨︎ フローティング<small>フリック</small>', 'data-act="float"')}${k('kb-fn kb-space', 'space', 'data-r=" "')}<span class="kb-buf" aria-live="polite"></span></div>`;
+    this.el.querySelectorAll('.kb-k').forEach(b => this.bind(b));
+  }
+
+  // iPad のフローティング：iPhone の大きさのキーボード（フリック）が浮いていて、上の帯をつかんで動かせる
+  renderFloating(k) {
+    this.el.className = 'kb kb-floating' + (this.h.noHint ? ' no-hint' : '');
+    this.el.innerHTML = `<div class="kb-handle"><span class="kb-grip"></span><button type="button" class="kb-dockbtn">下に戻す</button></div><div class="kb-body"></div>`;
+    this.renderKeys(this.el.querySelector('.kb-body'), k, true);
+    let pos = null;
+    try { pos = JSON.parse(localStorage.getItem('kb-float-pos') || 'null'); } catch (e) {}
+    const place = (x, y) => {
+      const w = this.el.offsetWidth || 360, hh = this.el.offsetHeight || 300;
+      x = Math.max(4, Math.min(innerWidth - w - 4, x)); y = Math.max(4, Math.min(innerHeight - hh - 4, y));
+      this.el.style.left = x + 'px'; this.el.style.top = y + 'px';
+      return { x, y };
+    };
+    // はじめは右下、答えの欄にかぶらないよう、そのすぐ上に置く
+    requestAnimationFrame(() => {
+      const w = this.el.offsetWidth || 360, hh = this.el.offsetHeight || 300;
+      const ans = document.getElementById('ans');
+      const top = ans ? ans.getBoundingClientRect().top - hh - 12 : innerHeight - hh - 24;
+      place(pos ? pos.x : innerWidth - w - 24, pos ? pos.y : top);
+    });
+    const handle = this.el.querySelector('.kb-handle');
+    let drag = null;
+    handle.addEventListener('touchstart', e => {
+      if (e.target.closest('.kb-dockbtn')) return;
+      const t0 = e.touches[0], r = this.el.getBoundingClientRect();
+      drag = { dx: t0.clientX - r.left, dy: t0.clientY - r.top };
+      e.preventDefault();
+    }, { passive: false });
+    handle.addEventListener('touchmove', e => {
+      if (!drag) return;
+      const t0 = e.touches[0];
+      const p = place(t0.clientX - drag.dx, t0.clientY - drag.dy);
+      try { localStorage.setItem('kb-float-pos', JSON.stringify(p)); } catch (x) {}
+      e.preventDefault();
+    }, { passive: false });
+    handle.addEventListener('touchend', () => { drag = null; });
+    this.el.querySelector('.kb-dockbtn').onclick = () => this.setFloating(false);
+  }
+
+  setFloating(on) {
+    this.floating = !!on;
+    try { localStorage.setItem('kb-float', on ? '1' : '0'); } catch (e) {}
+    this.render();
+  }
+
+  // iPhone（と iPad のフローティング）の中身：かなはフリック、英字は QWERTY
+  renderKeys(box, k, floating) {
+    const fl = floating ? '' : 'kb ';
     if (this.mode === 'kana') {
       const kana = r => r.map(c => k('kb-kana', `<span class="kb-main">${c}</span><span class="kb-sub">${FLICK[c].slice(1).filter(Boolean).join('')}</span>`, `data-kana="${c}"`)).join('');
-      this.el.className = 'kb kb-flick' + (this.h.noHint ? ' no-hint' : '');
-      this.el.innerHTML =
+      box.className = fl + 'kb-flick' + (this.h.noHint ? ' no-hint' : '');
+      box.innerHTML =
         k('kb-fn kb-mode', 'ABC', 'data-act="mode"') + kana(['あ', 'か', 'さ']) + k('kb-fn kb-back', '⌫', 'data-act="back"') +
         k('kb-fn kb-hint kb-tall', 'ヒント<small>次の1字</small>', 'data-act="hint"') + kana(['た', 'な', 'は']) +
         k('kb-fn kb-pass kb-tall', this.h.passLabel || 'パス<small>−3秒</small>', 'data-act="pass"') +
@@ -163,12 +239,12 @@ export class Keyboard {
         k('kb-fn kb-cycle', '゛゜小', 'data-act="cycle"') + kana(['わ']) + k('kb-kana kb-cho', '<span class="kb-main">ー</span>', 'data-ch="ー"');
     } else {
       const row = (s, cls) => `<div class="kb-row ${cls || ''}">${[...s].map(c => k('kb-latin', c, `data-ch="${c}"`)).join('')}</div>`;
-      this.el.className = 'kb kb-qwerty' + (this.h.noHint ? ' no-hint' : '');
-      this.el.innerHTML = row(QWERTY[0], 'kb-num') + row(QWERTY[1]) + row(QWERTY[2], 'kb-in') +
+      box.className = fl + 'kb-qwerty' + (this.h.noHint ? ' no-hint' : '');
+      box.innerHTML = row(QWERTY[0], 'kb-num') + row(QWERTY[1]) + row(QWERTY[2], 'kb-in') +
         `<div class="kb-row">${k('kb-fn kb-mode', 'かな', 'data-act="mode"')}${[...QWERTY[3]].map(c => k('kb-latin', c, `data-ch="${c}"`)).join('')}${k('kb-fn kb-back', '⌫', 'data-act="back"')}</div>` +
         `<div class="kb-row">${k('kb-fn kb-hint', 'ヒント', 'data-act="hint"')}${k('kb-fn kb-space', 'space', 'data-ch=" "')}${k('kb-fn kb-pass', this.h.passLabel || 'パス −3秒', 'data-act="pass"')}</div>`;
     }
-    this.el.querySelectorAll('.kb-k').forEach(b => this.bind(b));
+    box.querySelectorAll('.kb-k').forEach(b => this.bind(b));
   }
 
   // キーの押す・滑らせる・離す。iPhone ではタッチの知らせ（touchstart / touchmove / touchend）で受ける
@@ -201,10 +277,12 @@ export class Keyboard {
       this.pop.hidden = true;
       if (cancel) return;
       if (kana) { this.h.onChar(FLICK[kana][d] || FLICK[kana][0]); return; }
+      if (b.dataset.r) { this.typeRomaji(b.dataset.r); return; }
       if (b.dataset.ch) { this.h.onChar(b.dataset.ch); return; }
       const act = b.dataset.act;
       if (act === 'mode') this.setMode(this.mode === 'kana' ? 'latin' : 'kana');
-      else if (act === 'back') this.h.onBack();
+      else if (act === 'back') { if (this.typeRomaji && this.ipad && !this.floating) this.romajiBack(); else this.h.onBack(); }
+      else if (act === 'float') this.setFloating(true);
       else if (act === 'cycle') this.h.onCycle();
       else if (act === 'hint') this.h.onHint();
       else if (act === 'pass') this.h.onPass();
