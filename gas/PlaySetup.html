@@ -234,10 +234,11 @@
     <div class="ps-row" id="ps-course-row"><div class="ps-lab">コース（持ち時間）</div>
       <div class="ps-chips" id="ps-course">${COURSES.map(c =>
         `<button type="button" class="ps-chip ps-course menu-opt" data-sec="${c.sec}"><b>${c.sec}秒</b><small>${c.sub}</small></button>`).join('')}</div></div>
-    <div class="ps-row"><div class="ps-lab">見せ方</div>
+    <div class="ps-row"><div class="ps-lab">見せ方・音</div>
       <div class="ps-hy">
         <label><input type="checkbox" id="ps-hy-text" class="menu-opt"> 早押し<small>問題文を少しずつ出す</small></label>
         <label><input type="checkbox" id="ps-hy-zoom" class="menu-opt"> 拡大<small>国旗・地図・写真を、一部の拡大から少しずつ引いていく</small></label>
+        <label><input type="checkbox" id="ps-sound" class="menu-opt"> 効果音<small>打つ音・まちがえた音・対戦の出題の音</small></label>
       </div></div>
     <details id="ps-more"><summary class="menu-opt">⚙ くわしい設定（変えると練習になります）</summary>
       <div class="ps-grid">
@@ -264,6 +265,10 @@
     const saveHy = () => window.stHayaoshi.setPrefs({ text: $('ps-hy-text').checked, zoom: $('ps-hy-zoom').checked });
     $('ps-hy-text').onchange = saveHy;
     $('ps-hy-zoom').onchange = saveHy;
+  }
+  if (window.stSound) {
+    $('ps-sound').checked = window.stSound.on;
+    $('ps-sound').onchange = () => { window.stSound.set($('ps-sound').checked); if ($('ps-sound').checked) window.stSound.key(); };
   }
 
   function renderScopes() {

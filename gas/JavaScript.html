@@ -1572,7 +1572,7 @@ enableMenuNav(menuEl) {
       chunkDone = results[pick].chunkDone;
       if (switched && hamachi.rerenderReading) hamachi.rerenderReading();
       // 打ち直しで先へ進めたときも、打ち間違いは 1 回のミスとして数える
-      if (results[pick].s.fixed) { alts.forEach(s => { if (s) delete s.fixed; }); hamachi.handleMiss(); }
+      if (results[pick].s.fixed) { alts.forEach(s => { if (s) delete s.fixed; }); if (hamachi.onMistype) hamachi.onMistype(); hamachi.handleMiss(); }
     }
 
     if (correctInput) {
@@ -1648,6 +1648,7 @@ enableMenuNav(menuEl) {
       if (hamachi.onType) hamachi.onType();
     } else {
       // ミス（どの読みにも合わない）
+      if (hamachi.onMistype) hamachi.onMistype();   // 打ちまちがえの音（Sound.html）。時間切れでは鳴らさない
       hamachi.handleMiss();
     }
   });

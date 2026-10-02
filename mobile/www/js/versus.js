@@ -13,6 +13,7 @@ import { icon } from './icons.js';
 import { Keyboard } from './keyboard.js';
 import { alts, tryAppend, tryCycle, bestAnswer, isLatin, prefixState, nextChars } from './match.js';
 import { hayaoshi, hyKanji } from './hayaoshi.js';
+import * as sound from './sound.js';
 import { show, back, screen, topBar, esc, qhtml, store, LEVELS, buzz, game, onLeave, getSets, fitText } from './app.js';
 
 const SERVER = () => store.get('server', 'https://studytype.umekobo.com');
@@ -326,6 +327,7 @@ function rounds(start) {
     g.answers = alts(q[2]);
     kb.setMode(isLatin(g.answers) ? 'latin' : 'kana');
     $('meta').textContent = `第 ${r + 1} 問・ミス ${missLimit} 回まで`;
+    sound.jajan();   // 出題の「ジャ・ジャーン」
     // 早押し：問題文は少しずつ、絵は寄りから引いていく（hayaoshi.js）
     if (g.hy) g.hy.stop(false);
     const nk = hyKanji(q[7], q[0], q[1]);
@@ -350,6 +352,7 @@ function rounds(start) {
     after(r);
   }
   function after(r) {
+    sound.key();
     draw(); prog();
     if (r.done) {
       g.done = true; clearTimeout(g.timer);
@@ -360,7 +363,7 @@ function rounds(start) {
     }
   }
   function miss() {
-    g.cardMiss++; buzz.miss();
+    g.cardMiss++; buzz.miss(); sound.miss();
     const a = $('ans'); a.classList.remove('miss'); void a.offsetWidth; a.classList.add('miss');
     $('meta').textContent = `第 ${g.r + 1} 問・ミス ${g.cardMiss}/${missLimit}`;
     prog();

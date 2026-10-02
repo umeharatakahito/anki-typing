@@ -192,6 +192,7 @@
     // 新しい問題が出たときだけ（終わり・待ちで何も出さなかったときは何もしない）
     if (!this.playing || !el || !el.firstChild || el.firstChild === before || !this.currentCard) return ret;
     if (this.vsTA) { stop(false); return ret; }
+    if (this.versusMode && window.stSound) window.stSound.jajan();   // 対戦の出題は「ジャ・ジャーン」
     const opt = this.versusMode ? { text: true, zoom: true } : prefs();
     start(el, this.currentCard, this.kihon_time, opt);
     return ret;

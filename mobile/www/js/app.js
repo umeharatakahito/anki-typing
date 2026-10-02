@@ -16,6 +16,7 @@ import { alts, tryAppend, tryCycle, nextChars, bestAnswer, isLatin, prefixState 
 import { lobby as versusLobby } from './versus.js';
 import { adsFor } from './ads.js';
 import { hayaoshi, hyKanji } from './hayaoshi.js';
+import * as sound from './sound.js';
 
 const $app = document.getElementById('app');
 export const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -51,8 +52,9 @@ const saveSettings = () => store.set('settings', settings);
 
 // 画面設定（メニュー）：色・振動・フリックの感度・キーの大きさ
 const FLICK_DIST = { short: 12, normal: 18, long: 28 };
-const prefs = Object.assign({ theme: 'dark', haptics: true, flick: 'normal', keys: 'normal' }, store.get('prefs', {}));
+const prefs = Object.assign({ theme: 'dark', haptics: true, sound: true, flick: 'normal', keys: 'normal' }, store.get('prefs', {}));
 function applyPrefs() {
+  sound.setSound(prefs.sound);
   document.body.classList.toggle('light', prefs.theme === 'light');
   document.body.classList.toggle('kb-large', prefs.keys === 'large');
   kbPrefs.flickMin = FLICK_DIST[prefs.flick] || 18;
@@ -180,6 +182,7 @@ function menu() {
     <div class="m-card">
       <div class="m-row">${icon(prefs.theme === 'light' ? 'sun' : 'moon')}<span class="grow"><b>画面の色</b></span>${seg('theme', [['dark', '暗い'], ['light', '明るい']])}</div>
       <div class="m-row">${icon('vibrate')}<span class="grow"><b>振動</b><small>キーを押したとき・ミス・正解</small></span><button class="switch${prefs.haptics ? ' on' : ''}" id="sw-haptics" aria-label="振動"></button></div>
+      <div class="m-row">${icon('volume-2')}<span class="grow"><b>効果音</b><small>打つ音・まちがえた音・対戦の出題の音</small></span><button class="switch${prefs.sound ? ' on' : ''}" id="sw-sound" aria-label="効果音"></button></div>
       <div class="m-row">${icon('hand')}<span class="grow"><b>フリックの感度</b><small>どれだけ指を動かしたらフリックになるか</small></span>${seg('flick', [['short', '敏感'], ['normal', 'ふつう'], ['long', 'にぶい']])}</div>
       <div class="m-row">${icon('keyboard')}<span class="grow"><b>キーの大きさ</b></span>${seg('keys', [['normal', 'ふつう'], ['large', '大きい']])}</div>
     </div>
@@ -201,6 +204,7 @@ function menu() {
     g.querySelectorAll('button').forEach(x => x.classList.toggle('on', x === b));
     if (g.dataset.pref === 'theme') { stack.pop(); show(menu); }
   }));
+  el.querySelector('#sw-sound').onclick = e => { prefs.sound = !prefs.sound; savePrefs(); e.currentTarget.classList.toggle('on', prefs.sound); sound.key(); };
   el.querySelector('#sw-haptics').onclick = e => { prefs.haptics = !prefs.haptics; savePrefs(); e.currentTarget.classList.toggle('on', prefs.haptics); buzz.tap(); };
   el.querySelector('#reset-best').onclick = () => {
     if (!nBest || !confirm('この iPhone の自己ベスト（' + nBest + ' 件）を消しますか？')) return;
@@ -390,11 +394,12 @@ export function game({ cat, kbn, pool, all, ta }) {
   // ミス：時間を減らし、答えの枠を赤くゆらす（字は入れない）
   function missed() {
     st.miss++; st.cardMiss++; st.combo = 0;
-    buzz.miss();
+    buzz.miss(); sound.miss();
     const a = $('ans'); a.classList.remove('miss'); void a.offsetWidth; a.classList.add('miss');
     addTime(-lv.minus);
   }
   function after(r) {
+    sound.key();
     draw();
     if (r.done) finishCard(true);
   }
