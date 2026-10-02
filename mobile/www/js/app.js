@@ -188,7 +188,7 @@ function menu() {
 
     <div class="m-sec">このアプリについて</div>
     <div class="m-card">
-      <div class="m-row">${icon('info')}<span class="grow"><b>STUDY TYPE</b><small>打って、覚えて、対戦だ。Web 版：studytype.umekobo.com</small></span></div>
+      <div class="m-row">${icon('info')}<span class="grow"><b>STUDY TYPE</b><small>打って、覚えて、対戦だ。</small></span></div>
       <div class="m-row"><span class="grow"><small>問題の図・写真は Wikimedia Commons ほか（作者とライセンスは各問題の解説に）。地図は Natural Earth。アイコンは Lucide（ISC）</small></span></div>
       <a class="m-row" href="https://studytype.umekobo.com/privacy" target="_blank" rel="noopener"><span class="grow"><b>プライバシーポリシー</b><small>studytype.umekobo.com/privacy</small></span>${icon('chevron-right')}</a>
     </div>
