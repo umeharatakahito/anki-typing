@@ -12,6 +12,7 @@
 import { icon } from './icons.js';
 import { Keyboard } from './keyboard.js';
 import { alts, tryAppend, tryCycle, bestAnswer, isLatin, prefixState, nextChars } from './match.js';
+import { hayaoshi, hyKanji } from './hayaoshi.js';
 import { show, back, screen, topBar, esc, qhtml, store, LEVELS, buzz, game, onLeave, getSets, fitText } from './app.js';
 
 const SERVER = () => store.get('server', 'https://studytype.umekobo.com');
@@ -29,8 +30,8 @@ let prefs = null;
 const loadPrefs = () => prefs || (prefs = Object.assign({ rule: 'first', target: { first: 5, survival: 3, time: 90 }, level: 'kihon', nick: '', near: true }, store.get('vs', {})));
 const savePrefs = () => store.set('vs', prefs);
 
-// サーバーの問題 → アプリの問題の形 [que, kan, ans, level, scope, img, note]（図はサーバーから）
-const toCard = q => [q.que, q.kan, q.ans, q.level || 1, '', q.img ? (/^https?:/.test(q.img) ? q.img : SERVER() + q.img) : '', q.note];
+// サーバーの問題 → アプリの問題の形 [que, kan, ans, level, scope, img, note, kbn]（図はサーバーから。kbn は早押しの見せ方を決める）
+const toCard = q => [q.que, q.kan, q.ans, q.level || 1, '', q.img ? (/^https?:/.test(q.img) ? q.img : SERVER() + q.img) : '', q.note, q.kbn || ''];
 
 // ---- つなぎ（部屋 1 つ分。部屋を出るまで画面をまたいで持つ） ----
 const vs = { ws: null, seat: 0, room: null, players: [], host: 0, pub: false, ui: {}, start: null };
@@ -253,7 +254,7 @@ function rounds(start) {
   const lv = LEVELS.find(l => l.key === LV_OF[vs.room.mode]) || LEVELS[1];
   const missLimit = lv.key === 'kiwami' ? 5 : 10;
   const qs = start.questions.map(toCard);
-  const g = { r: -1, t: '', answers: [], cardMiss: 0, out: true, done: false, scores: {}, lives: start.lives || null, opp: {}, timer: null, progAt: 0, progT: null, over: false };
+  const g = { r: -1, t: '', answers: [], cardMiss: 0, out: true, done: false, scores: {}, lives: start.lives || null, opp: {}, timer: null, progAt: 0, progT: null, over: false, hy: null };
   const el = screen('game vs-game', `
     <div class="hud vs-hud"><button class="icon-btn" id="quit" aria-label="やめる">${icon('x')}</button><div class="meters" id="meters"></div></div>
     <div class="stage" id="stage">
@@ -325,11 +326,15 @@ function rounds(start) {
     g.answers = alts(q[2]);
     kb.setMode(isLatin(g.answers) ? 'latin' : 'kana');
     $('meta').textContent = `第 ${r + 1} 問・ミス ${missLimit} 回まで`;
-    $('qimg').innerHTML = q[5] ? `<img src="${esc(q[5])}" alt="">` : '';
-    $('qtext').innerHTML = qhtml(q[0]);
+    // 早押し：問題文は少しずつ、絵は寄りから引いていく（hayaoshi.js）
+    if (g.hy) g.hy.stop(false);
+    const nk = hyKanji(q[7], q[0], q[1]);
+    $('qimg').innerHTML = q[5] && !nk ? `<img src="${esc(q[5])}" alt="">` : '';
+    $('qtext').innerHTML = qhtml(nk ? nk.que : q[0]);
+    g.hy = hayaoshi({ holder: $('qimg'), textEl: $('qtext'), kbn: q[7], img: q[5], kanji: nk && nk.kanji, ms: ROUND_SEC * 1000 });
     fitText($('qtext'));
     const im = $('qimg').querySelector('img');
-    if (im) im.onload = () => fitText($('qtext'));
+    if (im) im.addEventListener('load', () => fitText($('qtext')));
     $('ans').className = 'answer';
     $('reveal').innerHTML = '';
     $('point').hidden = true;
@@ -372,6 +377,7 @@ function rounds(start) {
     onPoint: m => {
       g.scores = m.scores; if (m.lives) g.lives = m.lives;
       clearTimeout(g.timer); g.out = true;
+      if (g.hy) g.hy.stop(true);   // 結果を出すときは、問題文も絵も全部見せる
       const q = qs[m.r] || [];
       const who = m.seat == null ? 'だれも取れませんでした' : m.seat === vs.seat ? 'あなたが 1 本！' : nameOf(m.seat) + ' さんが 1 本';
       if (m.seat === vs.seat) buzz.ok();
@@ -385,10 +391,10 @@ function rounds(start) {
     onRound: m => setRound(m.r),
     onMore: m => { qs.push(...m.questions.map(toCard)); },
     onPlayers: m => { meters(g.scores, g.lives); opps(); if (m.left) $('reveal').textContent = m.left + ' さんが抜けました'; },
-    onEnd: m => { g.over = true; clearTimeout(g.timer); show(() => result(m), false); },
+    onEnd: m => { g.over = true; clearTimeout(g.timer); if (g.hy) g.hy.stop(false); show(() => result(m), false); },
     onClose: () => { if (!g.over) $('reveal').textContent = '通信が切れました'; },
   };
-  $('quit').onclick = () => { if (!confirm('対戦をやめて部屋を出ますか？')) return; g.over = true; clearTimeout(g.timer); vsClose(); leaveToLobby(); };
+  $('quit').onclick = () => { if (!confirm('対戦をやめて部屋を出ますか？')) return; g.over = true; clearTimeout(g.timer); if (g.hy) g.hy.stop(false); vsClose(); leaveToLobby(); };
   meters({}, g.lives); opps();
   // 3・2・1（サーバーの in ミリ秒に合わせる）
   const cd = document.createElement('div');

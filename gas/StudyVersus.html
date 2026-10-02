@@ -146,6 +146,14 @@
   .vs-result .vs-final{ font-size:30px; font-weight:bold; margin:0 0 10px; font-variant-numeric:tabular-nums; }
   body.vs-on #save-score, body.vs-on #game-end .form-row{ display:none; }
   body.vs-on #game-end .menu-footer .vs-hide{ display:none; }
+  /* 早押し：まだ見えていない問題文は場所だけ取っておく（文字が出ても行がずれない） */
+  .hy-rest{ color:transparent; }
+  /* 絵の問題：寄りから少しずつ引いていく。枠は絵とちょうど同じ大きさにして、はみ出しを切る */
+  .hy-box{ position:relative; overflow:hidden; flex:none; background:#fff; border:1px solid var(--line); border-radius:8px; }
+  .hy-box > img.card-image{ width:100%; height:100%; padding:0; border:0; border-radius:0; object-fit:fill; }
+  /* 難読漢字：漢字を絵のように大きく */
+  .hy-kanji{ display:flex; align-items:center; justify-content:center; width:100%; height:100%; color:#1d2b53; font-weight:700; line-height:1;
+    white-space:nowrap; font-family:'Hiragino Mincho ProN','Yu Mincho','Noto Serif JP',serif; }
 </style>
 
 <div id="menu-vs" class="menu" style="display:none;">
@@ -645,6 +653,7 @@
 
   function onPoint(m) {
     stopTyping();
+    hyStop(true);   // 結果を出すときは、問題文も絵も全部見せる
     if (progTimer) { clearTimeout(progTimer); progTimer = null; }
     scores = m.scores;
     showPoint(m);   // 脱落を出すため、ライフを書き換える前に
@@ -667,6 +676,7 @@
 
   function endMatch(m) {
     stopTyping();
+    hyStop(true);
     hidePoint();
     h.playing = false;
     scores = m.scores;
@@ -794,6 +804,165 @@
     }
   };
 
+  // ---- 早押し（先取・サバイバル） ----------------------------------------
+  // 問題文は 1 文字ずつ出す。絵で答える問題（国旗・地図・写真など。IT の図のような補いの絵は入れない）は、
+  // 絵の一部を大きく見せたところから少しずつ引いて、持ち時間の残り 4 割で全体が見えるようにする。
+  // 地図は答えの国・県（オレンジ色）を真ん中にして寄る。難読漢字は漢字を絵のように大きく出す（寄らない）。
+  // 動画は作らず、CSS の transform を毎コマ書き換えるだけ（データは増えない）
+  const HY_PIC = /^(flag-country|map-|zk-|heritage$|castle$|constellation$)/;
+  const HY_KANJI = /^nandoku/;
+  const HY_FULL = 0.6;   // 持ち時間のこの割合で全部見える（残り 4 割）
+  const HY_CPS = 8;      // 問題文は 1 秒にこの文字数（長い文は HY_FULL までに出しきる）
+  let hy = null;         // 今の問題の動き
+  // 最初に何倍に寄るか。思いきり寄って、何の絵か分からないところから始める（難読漢字は寄らず、大きな字をそのまま）
+  const hyZoom = (kbn, kanji) => kbn === 'map-world-country' ? 6 : /^map-/.test(kbn) ? 10 : kanji ? 1 : kbn === 'flag-country' ? 8 : 10;
+
+  // 問題文の文字を、見えている分と、まだの分（透明）に分ける。戻り値に「見せる割合」を渡すと書き換わる
+  function hyText(el) {
+    const parts = [], walk = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walk.nextNode()) nodes.push(walk.currentNode);
+    for (const n of nodes) {
+      const chars = Array.from(n.data);
+      if (!chars.length) continue;
+      const rest = document.createElement('span');
+      rest.className = 'hy-rest';
+      n.parentNode.insertBefore(rest, n.nextSibling);
+      parts.push({ n, rest, chars });
+    }
+    const total = parts.reduce((a, p) => a + p.chars.length, 0);
+    let shown = -1;
+    const set = k => {
+      k = Math.max(0, Math.min(total, k));
+      if (k === shown) return;
+      shown = k;
+      let left = k;
+      for (const p of parts) {
+        const v = Math.min(p.chars.length, left);
+        left -= v;
+        p.n.data = p.chars.slice(0, v).join('');
+        p.rest.textContent = p.chars.slice(v).join('');
+      }
+    };
+    return { total, set };
+  }
+
+  // 地図の答え（オレンジ #ff6b35）の場所。小さく描いて色を探す。見つからなければ null
+  function hyOrange(img) {
+    try {
+      const W = 160, H = Math.max(1, Math.round(W * img.naturalHeight / img.naturalWidth)) || 120;
+      const c = document.createElement('canvas');
+      c.width = W; c.height = H;
+      const x = c.getContext('2d');
+      x.drawImage(img, 0, 0, W, H);
+      const d = x.getImageData(0, 0, W, H).data;
+      let sx = 0, sy = 0, n = 0;
+      for (let i = 0; i < d.length; i += 4) {
+        if (d[i] > 225 && d[i + 1] > 80 && d[i + 1] < 140 && d[i + 2] > 20 && d[i + 2] < 90) {
+          const p = i / 4;
+          sx += p % W; sy += Math.floor(p / W); n++;
+        }
+      }
+      return n ? [sx / n / W, sy / n / H] : null;
+    } catch (e) { return null; }   // 別のドメインの絵は読めない
+  }
+
+  function hyStop(full) {
+    if (!hy) return;
+    cancelAnimationFrame(hy.raf);
+    if (hy.ro) hy.ro.disconnect();
+    if (full && hy.text) hy.text.set(hy.text.total);
+    if (full && hy.zoom) hy.zoom.style.transform = '';
+    hy = null;
+  }
+
+  function hyStart(cardEl, card, ms) {
+    hyStop(true);
+    const helper = cardEl.querySelector('.helper');
+    const holder = cardEl.querySelector('.card-image-container');
+    const kbn = String(card.kbn || '');
+    const s = hy = { raf: 0, t0: performance.now(), full: Math.max(1500, (ms || 20000) * HY_FULL), text: null, zoom: null, ro: null, moving: true,
+      z0: hyZoom(kbn, HY_KANJI.test(kbn)) };   // 最初の大きさ（何倍に寄るか）
+
+    // 難読漢字：問題文の「漢字」を絵にして、文からは外す
+    let kanji = '';
+    if (HY_KANJI.test(kbn) && helper && holder) {
+      const m = String(card.que || '').match(/「([^」]+)」/);
+      kanji = m ? m[1] : String(card.kan || '');
+      if (m) helper.innerHTML = helper.innerHTML.replace(/「[^」]+」/, 'この漢字');
+    }
+    if (helper) s.text = hyText(helper);
+
+    const box = document.createElement('div');
+    box.className = 'hy-box';
+    const img = holder && holder.querySelector('img.card-image');
+    let focus = null;
+    const begin = () => {
+      if (hy !== s) return;
+      // 枠を絵の縦横比にして、入れ物いっぱいに
+      const fit = () => {
+        const cw = holder.clientWidth, ch = holder.clientHeight;
+        if (kanji) {
+          const size = Math.min(ch * 0.78, cw * 0.92 / Array.from(kanji).length);
+          box.style.width = Math.round(Math.min(cw, Math.max(ch * 1.2, size * Array.from(kanji).length * 1.25))) + 'px';
+          box.style.height = ch + 'px';
+          s.zoom.style.fontSize = Math.round(size) + 'px';
+          return;
+        }
+        const nw = img.naturalWidth || 4, nh = img.naturalHeight || 3;
+        const k = Math.min(cw / nw, ch / nh);
+        box.style.width = Math.round(nw * k) + 'px';
+        box.style.height = Math.round(nh * k) + 'px';
+      };
+      fit();
+      if (window.ResizeObserver) { s.ro = new ResizeObserver(fit); s.ro.observe(holder); }
+      if (!focus && /^map-/.test(kbn) && kbn !== 'map-world-country' && img) focus = hyOrange(img);
+      if (!focus) focus = /^map-/.test(kbn) ? [0.5, 0.5] : [0.15 + Math.random() * 0.7, 0.2 + Math.random() * 0.6];
+      s.zoom.style.transformOrigin = (focus[0] * 100).toFixed(1) + '% ' + (focus[1] * 100).toFixed(1) + '%';
+    };
+    if (kanji) {
+      s.zoom = document.createElement('div');
+      s.zoom.className = 'hy-kanji';
+      s.zoom.textContent = kanji;
+      box.appendChild(s.zoom);
+      holder.innerHTML = '';
+      holder.appendChild(box);
+      begin();
+    } else if (img && HY_PIC.test(kbn)) {
+      s.zoom = img;
+      holder.insertBefore(box, img);
+      box.appendChild(img);
+      // 世界地図はいつも国が真ん中に描いてある
+      if (kbn === 'map-world-country') focus = [0.5, 0.5];
+      img.style.transform = 'scale(' + s.z0 + ')';   // 絵が来るまでに全体が見えてしまわないよう
+      if (img.complete && img.naturalWidth) begin(); else img.addEventListener('load', begin, { once: true });
+    }
+
+    const tick = now => {
+      if (hy !== s || !s.moving) return;
+      const t = now - s.t0;
+      if (s.text) s.text.set(Math.ceil(s.text.total * Math.min(1, t / Math.min(s.full, s.text.total / HY_CPS * 1000))));
+      if (s.zoom && s.z0 > 1) {
+        const p = Math.min(1, t / s.full), e = p * p * (3 - 2 * p);
+        s.zoom.style.transform = p >= 1 ? '' : 'scale(' + Math.pow(s.z0, 1 - e).toFixed(4) + ')';
+      }
+      const doneText = !s.text || t >= Math.min(s.full, s.text.total / HY_CPS * 1000);
+      if (doneText && (!s.zoom || s.z0 <= 1 || t >= s.full)) { s.moving = false; return; }   // 動きは終わり（大きさ合わせは次の問題まで）
+      s.raf = requestAnimationFrame(tick);
+    };
+    s.raf = requestAnimationFrame(tick);
+  }
+
+  // 1 人用の nextCard のあとに、早押しの見せ方をかぶせる（タイムアタックは 1 人用のままなので何もしない）
+  const baseNextCard = h.nextCard;
+  h.nextCard = function () {
+    const ret = baseNextCard.apply(this, arguments);
+    if (this.versusMode && this.playing && questions[r] && this.currentCard === questions[r]) {
+      hyStart(this.cache.questionCard, questions[r], this.kihon_time);
+    }
+    return ret;
+  };
+
   // ---- 1 人用の画面への差し込み ------------------------------------------
   Object.assign(h, {
     versusMode: false,
@@ -829,6 +998,7 @@
   h.resetGame = function () {
     if (this.vsTA) { this.vsTA = null; document.body.classList.remove('vs-on', 'vs-ta'); closeWs(); }
     if (this.versusMode) {
+      hyStop(false);
       this.versusMode = false;
       document.body.classList.remove('vs-on');
       placeInput(false);
