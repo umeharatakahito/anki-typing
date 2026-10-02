@@ -939,6 +939,8 @@ buildKanjiRuby: function (kanMixed, yomi) {
       this.disableMenuNav();
     },
     quitGame: function() {
+      // 一時停止のメニュー（Esc）で「やめる」を選んだら、それで決まり。もう一度「はい・いいえ」は聞かない
+      if (this.paused) return this.resetGame();
       GenkiModal.open({
         title: 'ゲーム終了',
         content: '<p class="med-text center">学習を終了しますか？</p>',

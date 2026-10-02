@@ -1,6 +1,6 @@
 // ===============================================================
 // hayaoshi.js
-// 対戦（先取・サバイバル）の早押しの見せ方。Web 版（gas/StudyVersus.html の hyStart）と同じ決まり。
+// 早押しの見せ方。Web 版（gas/Hayaoshi.html）と同じ決まり。対戦（先取・サバイバル）はいつも、1 人のときはプレイ設定の「早押し」「拡大」で。
 //   ・問題文は 1 文字ずつ出す（1 秒に HY_CPS 文字。長い文も持ち時間の 6 割までに出しきる）
 //   ・絵で答える問題（国旗・地図・写真など。IT の図のような補いの絵は入れない）は、絵の一部を大きく見せたところから
 //     少しずつ引いて、持ち時間の残り 4 割で全体が見えるようにする。地図は答え（オレンジ色）を真ん中にして寄る
@@ -74,12 +74,13 @@ function orangeAt(img) {
 // サーバーの図（…/fig/zk/x.svg）は、アプリに入っている写し（img/zk/x.svg）を先に使う。色を探せるように
 const localOf = url => { const m = String(url || '').match(/\/fig\/(.+)$/); return m ? 'img/' + m[1] : ''; };
 
-// 始める。holder は絵の入れ物（.q-img）、textEl は問題文。戻り値の stop(true) で全部見せて止める
-export function hayaoshi({ holder, textEl, kbn, img, kanji, ms }) {
+// 始める。holder は絵の入れ物（.q-img）、textEl は問題文。text=false なら問題文は全部見せたまま、img を渡さなければ寄らない。
+// paused() が true の間は進めない。戻り値の stop(true) で全部見せて止める
+export function hayaoshi({ holder, textEl, kbn, img, kanji, ms, text = true, paused = () => false }) {
   kbn = String(kbn || '');
-  const s = { raf: 0, t0: performance.now(), full: Math.max(1500, (ms || 30000) * HY_FULL), text: null, zoom: null, ro: null, stopped: false,
+  const s = { raf: 0, t0: performance.now(), last: performance.now(), full: Math.max(1500, (ms || 30000) * HY_FULL), text: null, zoom: null, ro: null, stopped: false,
     z0: hyZoom(kbn, kanji) };   // 最初の大きさ（何倍に寄るか）
-  if (textEl) s.text = textParts(textEl);
+  if (text && textEl) s.text = textParts(textEl);
   const pic = !!kanji || (!!img && HY_PIC.test(kbn));
   let box = null, im = null;
   if (holder && pic) {
@@ -142,6 +143,8 @@ export function hayaoshi({ holder, textEl, kbn, img, kanji, ms }) {
   };
   const tick = now => {
     if (s.stopped) return;
+    if (paused()) s.t0 += now - s.last;   // 一時停止の間は進めない
+    s.last = now;
     const t = now - s.t0;
     if (s.text) s.text.set(Math.ceil(s.text.total * Math.min(1, t / textMs())));
     if (s.zoom && s.z0 > 1) {

@@ -98,6 +98,10 @@
     font-weight:700; font-size:13.5px; text-decoration:none !important; }
   body.ps-practice #save-score, body.ps-practice #game-end .form-row{ display:none; }
   @media (max-width:520px){ .ps-res-grid{ grid-template-columns:repeat(2, 1fr); } }
+  .ps-hy{ display:flex; flex-wrap:wrap; gap:8px 18px; }
+  .ps-hy label{ display:flex; align-items:baseline; gap:6px; font-size:15px; font-weight:700; cursor:pointer; }
+  .ps-hy input{ width:18px; height:18px; margin:0; align-self:center; accent-color:var(--accent); }
+  .ps-hy small{ font-weight:400; font-size:12px; color:var(--muted); }
 </style>
 <script>
 // ===============================================================
@@ -230,6 +234,11 @@
     <div class="ps-row" id="ps-course-row"><div class="ps-lab">コース（持ち時間）</div>
       <div class="ps-chips" id="ps-course">${COURSES.map(c =>
         `<button type="button" class="ps-chip ps-course menu-opt" data-sec="${c.sec}"><b>${c.sec}秒</b><small>${c.sub}</small></button>`).join('')}</div></div>
+    <div class="ps-row"><div class="ps-lab">見せ方</div>
+      <div class="ps-hy">
+        <label><input type="checkbox" id="ps-hy-text" class="menu-opt"> 早押し<small>問題文を少しずつ出す</small></label>
+        <label><input type="checkbox" id="ps-hy-zoom" class="menu-opt"> 拡大<small>国旗・地図・写真を、一部の拡大から少しずつ引いていく</small></label>
+      </div></div>
     <details id="ps-more"><summary class="menu-opt">⚙ くわしい設定（変えると練習になります）</summary>
       <div class="ps-grid">
         <label>方式<select id="ps-kind"><option value="time">タイム（持ち時間）</option><option value="count">問題数</option></select></label>
@@ -246,6 +255,16 @@
   const oldNote = $('level-note');
   if (oldNote) oldNote.remove();
   if (content) content.prepend(box);
+
+  // 見せ方（早押し・拡大）。Hayaoshi.html が端末に残す。不利になるだけなので本番のまま
+  if (window.stHayaoshi) {
+    const hp = window.stHayaoshi.prefs();
+    $('ps-hy-text').checked = !!hp.text;
+    $('ps-hy-zoom').checked = !!hp.zoom;
+    const saveHy = () => window.stHayaoshi.setPrefs({ text: $('ps-hy-text').checked, zoom: $('ps-hy-zoom').checked });
+    $('ps-hy-text').onchange = saveHy;
+    $('ps-hy-zoom').onchange = saveHy;
+  }
 
   function renderScopes() {
     const kbn = h.kubun, i = scopeInfo[kbn], row = $('ps-scope-row');

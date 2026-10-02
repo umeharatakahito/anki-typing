@@ -15,6 +15,7 @@ import { Keyboard, kbPrefs } from './keyboard.js';
 import { alts, tryAppend, tryCycle, nextChars, bestAnswer, isLatin, prefixState } from './match.js';
 import { lobby as versusLobby } from './versus.js';
 import { adsFor } from './ads.js';
+import { hayaoshi, hyKanji } from './hayaoshi.js';
 
 const $app = document.getElementById('app');
 export const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -28,6 +29,7 @@ export const LEVELS = [
 ];
 const COURSES = [60, 90, 120];
 const FAIL_SEC = 3;
+const HY_CARD_MS = 20000;   // 1 人の早押し・拡大は、Web の 1 問の持ち時間（20 秒）と同じ見せ方（12 秒で全部見える）
 const TITLES = [[0, '見習い'], [600, '駆け出し'], [1200, '一人前'], [2000, '腕利き'], [3000, '達人'], [4200, '師範'], [5600, '名人'], [7500, '神']];
 
 // ---- ふるえ（Capacitor の Haptics。ブラウザでは何もしない） ----
@@ -43,7 +45,8 @@ export const store = {
   get(k, d) { try { const v = localStorage.getItem('st.' + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
   set(k, v) { try { localStorage.setItem('st.' + k, JSON.stringify(v)); } catch (e) {} },
 };
-const settings = Object.assign({ level: 'kihon', sec: 90 }, store.get('settings', {}));
+// hyText 早押し（問題文を少しずつ）・hyZoom 拡大（絵の一部から引いていく）。不利になるだけなので自己ベストにも数える
+const settings = Object.assign({ level: 'kihon', sec: 90, hyText: false, hyZoom: false }, store.get('settings', {}));
 const saveSettings = () => store.set('settings', settings);
 
 // 画面設定（メニュー）：色・振動・フリックの感度・キーの大きさ
@@ -238,6 +241,8 @@ async function setup(cat, kbn) {
     <div class="lab">コース（持ち時間）</div>
     <div class="chips" id="sec">${COURSES.map(c => `<button class="chip" data-sec="${c}"><b>${c}秒</b><small>${c === 60 ? 'おてがる' : c === 90 ? 'ふつう' : 'じっくり'}</small></button>`).join('')}</div>
     <p class="note" id="lv-note"></p>
+    <div class="lab">見せ方</div>
+    <div class="chips" id="hy"><button class="chip" data-hy="hyText"><b>早押し</b><small>問題文を少しずつ</small></button><button class="chip" data-hy="hyZoom"><b>拡大</b><small>絵の一部から引いていく</small></button></div>
     <button class="start" id="go">${icon('play')}ひとりでスタート</button>
     <button class="btn wide vs-btn" id="vs">${icon('swords')} 対戦（ランダム・部屋・近くの人）</button>
     <p class="note">かなの答えはフリック、英語の答えは英字キーボードで打ちます。わからないときは「パス」、ヒントは次の 1 文字</p>
@@ -267,11 +272,13 @@ async function setup(cat, kbn) {
   const renderChips = () => {
     el.querySelectorAll('[data-lv]').forEach(b => b.classList.toggle('on', b.dataset.lv === settings.level));
     el.querySelectorAll('[data-sec]').forEach(b => b.classList.toggle('on', Number(b.dataset.sec) === settings.sec));
+    el.querySelectorAll('[data-hy]').forEach(b => b.classList.toggle('on', !!settings[b.dataset.hy]));
     const l = LEVELS.find(x => x.key === settings.level);
     el.querySelector('#lv-note').textContent = `正解 +${l.plus}秒・ミス −${l.minus}秒。ノーミスで続けるとボーナス秒`;
   };
   el.querySelectorAll('[data-lv]').forEach(b => b.onclick = () => { settings.level = b.dataset.lv; saveSettings(); renderChips(); buzz.tap(); });
   el.querySelectorAll('[data-sec]').forEach(b => b.onclick = () => { settings.sec = Number(b.dataset.sec); saveSettings(); renderChips(); buzz.tap(); });
+  el.querySelectorAll('[data-hy]').forEach(b => b.onclick = () => { settings[b.dataset.hy] = !settings[b.dataset.hy]; saveSettings(); renderChips(); buzz.tap(); });
   el.querySelector('#vs').onclick = () => show(() => versusLobby(cat, kbn));
   el.querySelector('#go').onclick = async () => {
     if (kbn === 'shinra') data = await loadShinra();   // 毎回ちがう組み合わせに
@@ -292,7 +299,7 @@ export function game({ cat, kbn, pool, all, ta }) {
   // やさしい問題から少しずつ難しく：レベル順に並べて、近いレベルの中でまぜる（対戦は部屋の順のまま）
   const deck = ta ? pool.slice() : pool.map(q => ({ q, r: q[3] + Math.random() * 3 })).sort((a, b) => a.r - b.r).map(x => x.q);
   const st = { left: total, active: 0, score: 0, keys: 0, miss: 0, combo: 0, comboMax: 0, correct: 0, i: 0, t: '', card: null, answers: [],
-    cardStart: 0, hints: 0, cardMiss: 0, log: [], over: false, paused: false, lock: false };
+    cardStart: 0, hints: 0, cardMiss: 0, log: [], over: false, paused: false, lock: false, hy: null };
 
   const el = screen('game', `
     <div class="hud">
@@ -340,12 +347,19 @@ export function game({ cat, kbn, pool, all, ta }) {
     st.card = q; st.answers = alts(q[2]); st.t = ''; st.hints = 0; st.cardMiss = 0; st.cardStart = performance.now(); st.lock = false;
     kb.setMode(isLatin(st.answers) ? 'latin' : 'kana');
     $('meta').textContent = [q[4], q[3] ? 'Lv' + q[3] : ''].filter(Boolean).join('・');
-    $('qimg').innerHTML = q[5] ? `<img src="${esc(q[5])}" alt="">` : '';
-    $('qtext').innerHTML = qhtml(q[0]);
+    // 早押し・拡大（hayaoshi.js）。難読漢字はいつも漢字を大きく。対戦のタイムアタックは部屋の決まりのまま
+    if (st.hy) { st.hy.stop(false); st.hy = null; }
+    const nk = ta ? null : hyKanji(kbn, q[0], q[1]);
+    $('qimg').innerHTML = q[5] && !nk ? `<img src="${esc(q[5])}" alt="">` : '';
+    $('qtext').innerHTML = qhtml(nk ? nk.que : q[0]);
     $('qtext').scrollTop = 0;
+    if (!ta && (nk || settings.hyText || settings.hyZoom)) {
+      st.hy = hayaoshi({ holder: $('qimg'), textEl: $('qtext'), kbn, img: settings.hyZoom ? q[5] : '', kanji: nk && nk.kanji,
+        text: settings.hyText, ms: HY_CARD_MS, paused: () => st.paused });
+    }
     fitText($('qtext'));
     const im = $('qimg').querySelector('img');
-    if (im) im.onload = () => fitText($('qtext'));
+    if (im) im.addEventListener('load', () => fitText($('qtext')));
     $('ans').className = 'answer';
     $('reveal').innerHTML = '';
     draw();
@@ -394,6 +408,7 @@ export function game({ cat, kbn, pool, all, ta }) {
 
   function finishCard(ok) {
     st.lock = true;
+    if (st.hy) st.hy.stop(true);   // 答えが出たら、問題文も絵も全部見せる
     const q = st.card;
     st.log.push({ q, ok, miss: st.cardMiss });
     const a = $('ans');
@@ -444,6 +459,7 @@ export function game({ cat, kbn, pool, all, ta }) {
 
   function end() {
     st.over = true;
+    if (st.hy) st.hy.stop(false);
     cancelAnimationFrame(raf);
     st.score += st.comboMax * 50;
     // 対戦：最後の点数を送り、みんなが終わるのを待つ（結果はサーバーから）
@@ -461,6 +477,7 @@ export function game({ cat, kbn, pool, all, ta }) {
   el.querySelector('#quit').onclick = () => {
     if (ta && !confirm('対戦をやめますか？')) return;
     st.over = true; cancelAnimationFrame(raf);
+    if (st.hy) st.hy.stop(false);
     if (ta) ta.onQuit(); else back();
   };
 
