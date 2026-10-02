@@ -153,7 +153,7 @@ function home() {
     <div class="art">${icon(m.icon)}<span class="price${m.paid ? ' paid' : ''}">${m.paid ? '一部無料' : '無料'}</span></div>
     <div class="body"><span class="en">${esc(m.en)}</span><b>${esc(m.title)}</b><small>${esc(m.lead)}</small></div></button>`).join('');
   const n = Object.entries(SETS).filter(([k]) => k !== 'shinra').reduce((a, [, s]) => a + s.n, 0);
-  const el = screen('', `<button class="icon-btn home-menu" id="menu" aria-label="メニュー（設定・会員）">${icon('settings')}</button><div class="scroll">
+  const el = screen('', `<button class="icon-btn home-menu" id="menu" aria-label="メニュー（設定）">${icon('settings')}</button><div class="scroll">
     <div class="hero">${LOGO}<span class="offline">● オフラインでも遊べます（${n.toLocaleString()} 問）</span></div>
     <button class="vs-home" id="vs-home">${icon('swords')}<span><b>対戦する</b><small>ランダム対戦・部屋番号で入る・近くの部屋（Web の人とも）</small></span>${icon('chevron-right')}</button>
     <div class="sec-h">何を勉強する？</div>
@@ -167,18 +167,12 @@ function home() {
 }
 
 // ---------------------------------------------------------------
-// メニュー（会員・画面設定・記録・このアプリについて）
+// メニュー（画面設定・記録・このアプリについて）
 function menu() {
   const seg = (key, opts) => `<div class="seg" data-pref="${key}">${opts.map(([v, l]) => `<button data-v="${v}" class="${prefs[key] === v ? 'on' : ''}">${l}</button>`).join('')}</div>`;
   const bests = store.get('best', {});
   const nBest = Object.keys(bests).length;
   const el = screen('', topBar('メニュー') + `<div class="scroll">
-    <div class="m-sec">会員</div>
-    <div class="member"><b>${icon('crown')} いまは無料版です</b>
-      <p>会員になると、次のことができるようになります。</p>
-      <ul><li>大学受験・英会話・資格の<b style="display:inline;font-size:inherit">全部の範囲</b></li><li>Web 版とランキング・戦績・マイメニューを共有（同じアカウントでログイン）</li><li>広告なし</li></ul>
-      <span class="soon">アプリでの会員登録は準備中です</span></div>
-
     <div class="m-sec">画面設定</div>
     <div class="m-card">
       <div class="m-row">${icon(prefs.theme === 'light' ? 'sun' : 'moon')}<span class="grow"><b>画面の色</b></span>${seg('theme', [['dark', '暗い'], ['light', '明るい']])}</div>
@@ -257,8 +251,8 @@ async function setup(cat, kbn) {
         ? `<button class="sc${c.has(x.scope) ? ' on' : ''}" data-i="${i}"><span class="bx">${c.has(x.scope) ? '✓' : ''}</span>${esc(x.scope)}<small>${x.n}</small></button>`
         : `<span class="sc locked">🔒 ${esc(x.scope)}<small>${x.n}</small></span>`).join('')}</div>
       ${s.paid ? (() => {
-        const freeN = scopes.filter(x => x.free).reduce((a, x) => a + x.n, 0), allN = scopes.reduce((a, x) => a + x.n, 0);
-        return `<p class="note">無料で遊べるのは ${usable.length} / ${scopes.length} 範囲（${freeN.toLocaleString()} 問）。🔒 の範囲も合わせると全部で <b>${allN.toLocaleString()} 問</b>あります（会員向け。アプリ内の会員は準備中）</p>`;
+        const freeN = scopes.filter(x => x.free).reduce((a, x) => a + x.n, 0);
+        return `<p class="note">無料で遊べるのは ${usable.length} / ${scopes.length} 範囲（${freeN.toLocaleString()} 問）。🔒 の範囲は今後のアップデートで追加予定です</p>`;
       })() : ''}`;
     row.querySelectorAll('[data-i]').forEach(b => b.onclick = () => {
       const sc = scopes[Number(b.dataset.i)].scope, cur = picked();
