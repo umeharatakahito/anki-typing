@@ -66,6 +66,9 @@ xcodebuild -exportArchive -archivePath build/StudyType.xcarchive -exportOptionsP
 ```
 
 2 つ目で App Store Connect に上がる（Xcode の設定 → Accounts に開発者の Apple ID が入っていること）。
+**`www/data` と `www/img` は git に入っていない（作るもの）**。新しく取り出したフォルダや worktree では、先に `npm run data` と
+`npx cap sync ios` をしてからアーカイブすること（しないと問題も図も入っていないアプリになる。ビルド 3〜5 で起きた）。
+アーカイブの中身は `ls build/StudyType.xcarchive/Products/Applications/App.app/public/data/sets | wc -l`（34 前後）で確かめる。
 上げるたびにビルド番号（project の CURRENT_PROJECT_VERSION）を 1 つ上げる。
 
 ## これから
