@@ -225,34 +225,34 @@ function menu() {
   const bests = store.get('best', {});
   const nBest = Object.keys(bests).length;
   const me = getMe();
-  const el = screen('', topBar('メニュー') + `<div class="scroll">
-    <div class="m-sec">アカウント</div>
+  const el = screen('', topBar('メニュー') + `<div class="scroll menu-cols">
+    <section class="m-grp"><div class="m-sec">アカウント</div>
     <div class="m-card">
       <button class="m-row" id="m-account">${icon(me ? 'user' : 'log-in')}<span class="grow"><b>${me ? esc(me.name) : 'ログイン'}</b><small>${me ? (isMember() ? '会員' : '無料版') + '・' + esc(me.email) : 'Apple・Google でログイン（Web 版と同じアカウント）'}</small></span>${icon('chevron-right')}</button>
       ${isMember() ? '' : `<button class="m-row" id="m-join">${icon('crown')}<span class="grow"><b>会員になる</b><small>大学受験・英会話・資格の全部の範囲・広告なし</small></span>${icon('chevron-right')}</button>`}
-    </div>
+    </div></section>
 
-    <div class="m-sec">画面設定</div>
+    <section class="m-grp"><div class="m-sec">画面設定</div>
     <div class="m-card">
       <div class="m-row">${icon(prefs.theme === 'light' ? 'sun' : 'moon')}<span class="grow"><b>画面の色</b></span>${seg('theme', [['dark', '暗い'], ['light', '明るい']])}</div>
       <div class="m-row">${icon('vibrate')}<span class="grow"><b>振動</b><small>キーを押したとき・ミス・正解</small></span><button class="switch${prefs.haptics ? ' on' : ''}" id="sw-haptics" aria-label="振動"></button></div>
       <div class="m-row">${icon('volume-2')}<span class="grow"><b>効果音</b><small>打つ音・まちがえた音・対戦の出題の音</small></span><button class="switch${prefs.sound ? ' on' : ''}" id="sw-sound" aria-label="効果音"></button></div>
       <div class="m-row">${icon('hand')}<span class="grow"><b>フリックの感度</b><small>どれだけ指を動かしたらフリックになるか</small></span>${seg('flick', [['short', '敏感'], ['normal', 'ふつう'], ['long', 'にぶい']])}</div>
       <div class="m-row">${icon('keyboard')}<span class="grow"><b>キーの大きさ</b></span>${seg('keys', [['normal', 'ふつう'], ['large', '大きい']])}</div>
-    </div>
+    </div></section>
 
-    <div class="m-sec">記録</div>
+    <section class="m-grp"><div class="m-sec">記録</div>
     <div class="m-card">
       <button class="m-row danger" id="reset-best">${icon('trash-2')}<span class="grow"><b>自己ベストを消す</b><small>この ${DEVICE} に残っている ${nBest} 件</small></span></button>
-    </div>
+    </div></section>
 
-    <div class="m-sec">このアプリについて</div>
+    <section class="m-grp"><div class="m-sec">このアプリについて</div>
     <div class="m-card">
       <div class="m-row">${icon('info')}<span class="grow"><b>STUDY TYPE</b><small>打って、覚えて、対戦だ。</small></span></div>
       <div class="m-row"><span class="grow"><small>問題の図・写真は Wikimedia Commons ほか（作者とライセンスは各問題の解説に）。地図は Natural Earth。アイコンは Lucide（ISC）</small></span></div>
       <a class="m-row" href="https://studytype.umekobo.com/privacy" target="_blank" rel="noopener"><span class="grow"><b>プライバシーポリシー</b><small>studytype.umekobo.com/privacy</small></span>${icon('chevron-right')}</a>
     </div>
-  </div>`);
+  </section></div>`);
   el.querySelector('#m-account').onclick = () => show(account);
   const join = el.querySelector('#m-join');
   if (join) join.onclick = () => show(() => paywall());
@@ -274,13 +274,13 @@ function menu() {
 function category(key) {
   const m = MENU.find(x => x.key === key);
   const bestOf = kbn => { const b = store.get('best', {}); return Math.max(0, ...Object.entries(b).filter(([k]) => k.startsWith(kbn + '|')).map(([, v]) => v.score)); };
-  const groups = m.groups.map(g => `<div class="group-h">${esc(g.label)}</div>` + g.sets.map(k => {
+  const groups = m.groups.map(g => `<div class="group-h">${esc(g.label)}</div><div class="sets">` + g.sets.map(k => {
     const s = SETS[k];
     const best = bestOf(k);
     return `<button class="set" data-kbn="${k}"><span class="ico">${icon(s.icon)}</span>
       <span><b>${esc(s.label)}</b><small>${isMember() ? `${(s.all || s.n).toLocaleString()} 問` : `${s.n.toLocaleString()} 問${s.paid ? '（無料の範囲）' : ''}`}</small>${best ? `<span class="best">ベスト ${best.toLocaleString()}</span>` : ''}</span>
       <span class="go">${icon('chevron-right')}</span></button>`;
-  }).join('')).join('');
+  }).join('') + '</div>').join('');
   const el = screen('k-' + m.color, topBar(m.title) + `<div class="scroll">
     <div class="cat-hero">${icon(m.icon)}<div><b>${esc(m.title)}</b><small>${esc(m.lead)}</small></div></div>
     ${groups}</div>`);
@@ -296,8 +296,9 @@ async function setup(cat, kbn) {
   const member = isMember() && !!data.at;   // 会員の問題がそろっている
   const usable = scopes.filter(x => x.free || member).map(x => x.scope);
   const picked = () => { const want = store.get('scopes.' + kbn, null); const c = Array.isArray(want) ? usable.filter(x => want.includes(x)) : usable; return c.length ? c : usable; };
-  const el = screen('k-' + m.color, topBar(s.label) + `<div class="scroll">
-    <div id="scope-row"></div>
+  const el = screen('k-' + m.color, topBar(s.label) + `<div class="scroll"><div class="setup-cols">
+    <div class="setup-l"><div id="scope-row"></div></div>
+    <div class="setup-r">
     <div class="lab">レベル</div>
     <div class="chips" id="lv">${LEVELS.map(l => `<button class="chip" data-lv="${l.key}"><b>${l.label}</b><small>${l.sub}</small></button>`).join('')}</div>
     <div class="lab">コース（持ち時間）</div>
@@ -308,7 +309,7 @@ async function setup(cat, kbn) {
     <button class="start" id="go">${icon('play')}ひとりでスタート</button>
     <button class="btn wide vs-btn" id="vs">${icon('swords')} 対戦（ランダム・部屋・近くの人）</button>
     <p class="note">かなの答えはフリック、英語の答えは英字キーボードで打ちます。わからないときは「パス」、ヒントは次の 1 文字</p>
-  </div>`);
+  </div></div></div>`);
   const renderScopes = () => {
     const row = el.querySelector('#scope-row');
     if (scopes.length < 2) { row.innerHTML = ''; return; }
@@ -569,7 +570,7 @@ function result({ cat, kbn, lv, st, title, newBest, all, pool }) {
   const speed = st.active ? st.keys / (st.active / 1000) : 0;
   const review = st.log.slice(-30).reverse().map(x => `<li><span class="mk ${x.ok ? 'ok' : 'ng'}">${x.ok ? '○' : '×'}</span>
     <span><b>${esc(x.q[1])}</b><small>${qhtml(String(x.q[0])).slice(0, 90)}</small></span></li>`).join('');
-  const el = screen('', topBar('結果') + `<div class="scroll result">
+  const el = screen('', topBar('結果') + `<div class="scroll result"><div class="res-cols${review ? ' has-review' : ''}"><div class="res-main">
     <span class="course">${esc(s.label)}・${esc(lv.label)}・${settings.sec}秒${all ? '' : '（範囲をしぼった練習）'}</span>
     <div class="big">${st.score.toLocaleString()}<small>点</small></div>
     ${newBest ? '<span class="newbest">★ 自己ベスト！</span>' : ''}
@@ -582,9 +583,9 @@ function result({ cat, kbn, lv, st, title, newBest, all, pool }) {
       <div><small>ミス</small><b>${st.miss}</b></div>
       <div><small>ボーナス</small><b>+${(st.comboMax * 50).toLocaleString()}</b></div>
     </div>
-    <div class="row2"><button class="btn" data-back>問題集へ</button><button class="btn primary" id="again">もう一度</button></div>
+    <div class="row2"><button class="btn" data-back>問題集へ</button><button class="btn primary" id="again">もう一度</button></div></div>
     ${review ? `<div class="review"><div class="lab">ふりかえり</div><ul>${review}</ul></div>` : ''}
-  </div>`);
+  </div></div>`);
   buzz.ok();
   el.querySelector('#again').onclick = () => { stack.pop(); show(() => game({ cat, kbn, pool, all })); };
 }
