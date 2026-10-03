@@ -398,3 +398,6 @@ body.light .pay-btn.apple{background:#000}
   .pay-plan{padding:20px}
   .pay-hero .ic{width:48px;height:48px} .pay-hero b{font-size:24px}
 }
+button.ac-who{width:100%;background:none;border:0;font:inherit;color:inherit;text-align:left;cursor:pointer}
+.ac-who>span{flex:1;min-width:0}
+.ac-who em{font-style:normal;font-size:12px;font-weight:700;color:var(--orange);white-space:nowrap}

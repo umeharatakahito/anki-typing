@@ -188,6 +188,18 @@ function planLine() {
   return `${name}・${p.auto ? '次の更新' : '期限'} ${fmtDay(p.auto ? p.until - 2 * 86400000 : p.until)}`;
 }
 
+// 表示名（ランキング・対戦の名前）。Web 版のニックネームと同じもの。対戦の名前もこれに合わせる
+async function rename(msg) {
+  const v = prompt('表示名（12文字まで。ランキングや対戦で出ます）', me.name || '');
+  if (v == null || !v.trim() || v.trim() === me.name) return;
+  try {
+    const j = await api('/app/nickname', { body: { nickname: v } });
+    store.set('vs', Object.assign(store.get('vs', {}), { nick: j.nickname }));
+    setMe(Object.assign({}, me, { name: j.nickname }));
+    msg.textContent = '';
+  } catch (e) { alert(e.message); }
+}
+
 // ---------------------------------------------------------------
 // アカウントの画面（メニューから）
 export function account() {
@@ -204,7 +216,7 @@ export function account() {
     }
     const p = me.plan;
     body.innerHTML = `<div class="pay-card">
-        <div class="ac-who">${icon('user')}<span><b>${esc(me.name)}</b><small>${esc(me.email)}</small></span></div>
+        <button class="ac-who" id="ac-name">${icon('user')}<span><b>${esc(me.name)}</b><small>${esc(me.email)}</small></span><em>名前を変える</em></button>
         <div class="ac-plan ${isMember() ? 'on' : ''}">${icon(isMember() ? 'badge-check' : 'lock')}<span><b>${esc(planLine())}</b>
           ${isMember() ? `<small id="ac-sync"></small>` : '<small>大学受験・英会話・資格の 🔒 の範囲は、会員になると遊べます</small>'}</span></div>
         ${!isMember() || (p && !p.auto && p.kind === 'pass365') ? `<button class="pay-btn main" id="ac-join">${icon('crown')} ${isMember() ? '1年分を買い足す' : '会員になる'}</button>` : ''}
@@ -226,6 +238,7 @@ export function account() {
       };
       tick();
     }
+    body.querySelector('#ac-name').onclick = () => rename(msg).then(render);
     const join = body.querySelector('#ac-join');
     if (join) join.onclick = () => show(paywall);
     const manage = body.querySelector('#ac-manage');

@@ -9,6 +9,7 @@
 //   POST /app/login/apple-only … { link } → Apple の非公開アドレスのまま使う
 //   GET  /app/me             … { me }（会員かどうか・期限・appAccountToken）
 //   POST /app/logout
+//   POST /app/nickname       … { nickname } 表示名（ランキング・対戦の名前）を変える。Web 版の /auth/nickname と同じ決まり
 //   POST /app/account/delete … アカウントと記録を消す
 //   GET  /app/set/<kbn>      … 会員だけ。問題集の全部の問題（mobile/www/data/sets/<kbn>.json と同じ形。図は URL）
 //   POST /app/iap            … { transactionId } 買ったあとにアプリが送る。App Store Server API に問い合わせて会員にする
@@ -27,6 +28,7 @@
 import { verifyAppleToken, verifyGoogleToken, newSessionToken, bearerToken, isRelay, viewerOf } from './auth.js';
 import { scopesOf, setInfo, isPaidSet } from './sets.js';
 import { PLANS, GRACE } from './pay.js';
+import { checkNickname } from './nickname.js';
 
 const DAY = 86400000;
 const APP_SESSION_DAYS = 365;
@@ -221,6 +223,19 @@ export async function handleApp(request, env, url, viewer) {
 
   // アカウントの削除（App Store の決まりで、アプリから消せるようにする）。会員の期限・記録も消える。
   // App Store の月額は Apple 側で止まらないので、アプリが先に解約を案内する
+  if (url.pathname === '/app/nickname' && request.method === 'POST') {
+    if (!viewer.email) return json({ error: '先にログインしてください' }, 401);
+    let body = {};
+    try { body = await request.json(); } catch (e) { /* 空 */ }
+    const res = checkNickname(body.nickname);
+    if (res.error) return json(res, 400);
+    const taken = await env.DB.prepare('SELECT 1 FROM users WHERE nickname = ? AND nickname_set = 1 AND email <> ?')
+      .bind(res.nickname, viewer.email).first();
+    if (taken) return json({ error: 'その名前はもう使われています' }, 409);
+    await env.DB.prepare('UPDATE users SET nickname = ?, nickname_set = 1 WHERE email = ?').bind(res.nickname, viewer.email).run();
+    return json({ ok: true, nickname: res.nickname });
+  }
+
   if (url.pathname === '/app/account/delete' && request.method === 'POST') {
     if (!viewer.email) return json({ error: '先にログインしてください' }, 401);
     const e = viewer.email;

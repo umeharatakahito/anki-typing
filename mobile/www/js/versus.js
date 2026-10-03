@@ -10,6 +10,7 @@
 // ===============================================================
 
 import { icon } from './icons.js';
+import { getMe, onAccountChange } from './account.js';
 import { Keyboard } from './keyboard.js';
 import { alts, tryAppend, tryCycle, bestAnswer, isLatin, prefixState, nextChars } from './match.js';
 import { hayaoshi, hyKanji } from './hayaoshi.js';
@@ -27,8 +28,15 @@ const RULES = {
 };
 const ROUND_SEC = 30;   // 1 問の持ち時間（過ぎたら、その問題はもう打てない）
 // 対戦の設定（この端末）。app.js との読み込み順のため、初めて使うときに読む
-let prefs = null;
-const loadPrefs = () => prefs || (prefs = Object.assign({ rule: 'first', target: { first: 5, survival: 3, time: 90 }, level: 'kihon', nick: '', near: true }, store.get('vs', {})));
+let prefs = null, watching = false;
+const loadPrefs = () => {
+  if (prefs) return prefs;
+  if (!watching) { watching = true; onAccountChange(() => { prefs = null; }); }   // アカウントで名前を変えたら読み直す
+  prefs = Object.assign({ rule: 'first', target: { first: 5, survival: 3, time: 90 }, level: 'kihon', nick: '', near: true }, store.get('vs', {}));
+  const me = getMe();
+  if (!prefs.nick && me && me.name) prefs.nick = me.name;   // 名前が空ならアカウントの表示名
+  return prefs;
+};
 const savePrefs = () => store.set('vs', prefs);
 
 // サーバーの問題 → アプリの問題の形 [que, kan, ans, level, scope, img, note, kbn]（図はサーバーから。kbn は早押しの見せ方を決める）
