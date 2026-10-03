@@ -20,6 +20,7 @@ const FLICK = {
   'わ': ['わ', 'を', 'ん', 'ー', ''],
 };
 const QWERTY = ['1234567890', 'qwertyuiop', 'asdfghjkl', 'zxcvbnm'];
+import { kanaAltSet, kanaAltKey } from './romaji.js';
 
 // ---- 外付けキーボード（iPad の Magic Keyboard など）：ローマ字をかなに直して 1 字ずつ渡す ----
 // 日本語入力（IME）を通さず、英字のまま打ったキーをここでかなにする。Web 版と同じような打ち方を受け付ける
@@ -44,28 +45,6 @@ const ROMA = (() => {
   return m;
 })();
 const ROMA_KEYS = Object.keys(ROMA);
-// かな → そのかなになる打ち方（ROMA の逆引き）
-const REV = {};
-for (const [r, k] of Object.entries(ROMA)) (REV[k] = REV[k] || []).push(r);
-// これから打つかな（next）の頭の部分を打つ方法の一覧 [{ r: ローマ字, n: 何字ぶんのかなか }]（Web 版の RomajiLib と同じ考え）
-//   ・きゃ のような 2 字の組（kya）も、き＋ゃ（ki xya）も OK
-//   ・っ は次の子音を重ねる（kka）か xtu。ん は nn・xn・n'、次が あ行・や行・な行 でなければ n 1 つでも OK（語の最後も n 1 つで OK）
-export function romajiOptions(next) {
-  const out = [];
-  const plain = s => {
-    const o = [];
-    for (const len of [2, 1]) { const k = s.slice(0, len); if (k.length === len && REV[k]) REV[k].forEach(r => o.push({ r, n: len })); }
-    return o;
-  };
-  const a = next[0];
-  if (!a) return out;
-  if (a === 'っ' && next[1]) plain(next.slice(1)).forEach(o => { if (!'aiueon'.includes(o.r[0])) out.push({ r: o.r[0] + o.r, n: o.n + 1 }); });
-  if (a === 'ん') {
-    if (next.length === 1) out.push({ r: 'n', n: 1 });
-    else plain(next.slice(1)).forEach(o => { if (!"aiueoyn'".includes(o.r[0])) out.push({ r: 'n' + o.r, n: o.n + 1 }); });
-  }
-  return out.concat(plain(next));
-}
 const MISS = '\u0000';   // 答えに無い字（渡すとミスになる）
 const isAsciiCh = c => /^[ -~]$/.test(c || '');
 // これより動かしたらフリック（px）。メニューの「フリックの感度」で変える
@@ -94,6 +73,7 @@ export class Keyboard {
   // 外付けキーボード。打ったら画面のキーボードをしまい（ヒント・パスだけ残す）、画面にさわったら戻す
   attachHardware() {
     let buf = '';
+    const ro = { g: null, sig: '', sent: '' };   // Web 版の判定の状態（いまの答えの残り）
     const peek = n => (this.h.peek ? this.h.peek(n) : '') || '';
     const send = ch => { for (const c of ch) this.h.onChar(c); };
     // 打ちかけのローマ字を、決まった分だけかなにする（final：語の最後などで n を「ん」にしてよいとき）
@@ -115,28 +95,37 @@ export class Keyboard {
       const b = this.el.querySelector('.kb-buf'); if (b) b.textContent = buf;
       if (this.h.onBuf) this.h.onBuf(buf);   // 答えの欄に、打ちかけのローマ字を出す（Web 版と同じ）
     };
-    this.clearBuf = () => { if (buf) { buf = ''; showBuf(); } };
+    this.clearBuf = () => { ro.g = null; if (buf) { buf = ''; showBuf(); } };
     this.typeRomaji = c => {
       // 答えを打ち終えて次の問題を待っている間のキー（nn の 2 つ目など）は捨てる
-      if (this.h.peek && peek(1) === '') { buf = ''; showBuf(); return; }
+      if (this.h.peek && peek(1) === '') { buf = ''; ro.g = null; showBuf(); return; }
       // 英字の答え・英字のところは、そのまま渡す
       if (this.mode === 'latin' || (!buf && isAsciiCh(peek(1)) && peek(1) !== 'ー')) { send(c); return; }
       if (!/^[a-z'\-]$/.test(c)) { send(c); return; }
-      // Web 版と同じく、アルファベット 1 字ごとに合っているかを見る。合っていない字は入れずにミスにする
-      // 答えが何通りかあるとき（にほん／にっぽん など）は、どれの打ち方でもよい
-      const nexts = this.h.peekAll ? this.h.peekAll(4) : [peek(4)].filter(Boolean);
-      const opts = nexts.flatMap(nx => romajiOptions(nx).map(o => ({ r: o.r, kana: nx.slice(0, o.n), last: nx.length === o.n })));
-      if (!opts.length) { buf += c; flush(); showBuf(); return; }   // 打ち方の分からない字（めったにない）：前と同じやり方
-      const want = buf + c;
-      const hit = opts.filter(o => o.r.startsWith(want));
-      if (!hit.length) { this.h.onChar(MISS); showBuf(); return; }
-      buf = want;
-      const done = hit.find(o => o.r === want);
-      // 打ち切った：もっと長い打ち方が残っていなければ（語の最後の n など）、かなにして渡す
-      if (done && (!hit.some(o => o.r.length > want.length) || done.last)) { buf = ''; send(done.kana); }
+      // Web 版と同じ判定（romaji.js＝gas/RomajiLib.html）で、アルファベット 1 字ごとに合っているかを見る。
+      // 合っていない字は入れずにミス。かなが打ち終わったら、そのかなを渡す（音は 1 キーごとに onKeyOk で鳴らす）
+      if (!this.h.peekAll) { buf += c; flush(); showBuf(); return; }
+      const rest = this.h.peekAll(400);
+      if (!rest.length) { buf = ''; showBuf(); return; }
+      const sig = rest.join('|');
+      if (!ro.g || ro.sig !== sig) { ro.g = {}; kanaAltSet(ro.g, rest[0], rest.slice(1)); ro.sig = sig; ro.sent = ''; }
+      const g = ro.g;
+      let fixed = false;
+      g.onMiss = () => { fixed = true; };
+      if (!kanaAltKey(g, c)) { this.h.onChar(MISS); return; }
+      if (fixed) this.h.onChar(MISS);   // 打ち直しで進めたときも、打ち間違いは 1 回のミス（Web 版と同じ）
+      if (this.h.onKeyOk) this.h.onKeyOk();
+      // 打ち終わったかな（っこ・きゃ など、まとまりごと）を渡す
+      const doneKana = g.kanaTokens.slice(0, g.idx1).join('');
+      const add = doneKana.startsWith(ro.sent) ? doneKana.slice(ro.sent.length) : '';
+      ro.sent = doneKana;
+      buf = g.temp || '';
+      if (add) { for (const ch of add) this.h.onChar(ch, true); ro.sig = this.h.peekAll(400).join('|'); }
+      if (!this.h.peekAll(1).length) { ro.g = null; buf = ''; }   // 答えを打ち終えた
       showBuf();
     };
-    this.romajiBack = () => { if (buf) { buf = buf.slice(0, -1); showBuf(); } else this.h.onBack(); };
+    // ⌫：打ちかけのローマ字があれば、そのかなを打ち直し（Web 版と同じく、打ちかけを消す）。無ければ 1 字消す
+    this.romajiBack = () => { if (buf) { buf = ''; ro.g = null; showBuf(); } else { ro.g = null; this.h.onBack(); } };
     let lastKey = 0;   // keydown で受け取った時刻（日本語入力から同じ字がもう一度届いたら捨てる）
     const onKey = e => {
       if (!document.body.contains(this.el)) { document.removeEventListener('keydown', onKey, true); return; }

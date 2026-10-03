@@ -1,0 +1,409 @@
+// ===============================================================
+// romaji.js
+// ローマ字で打つときの判定。Web 版の gas/RomajiLib.html を、そのまま写したもの（直すときは両方を同じに直す）。
+//   kanaToRoman … かな → 打ち方の一覧（きゃ＝kya / kixya …、っ・ん の決まり、日本語入力で通る打ち方）
+//   kanaAltSet / kanaAltKey … 1 キーずつ進める。読みが何通りかあればどれでもよい。打ち間違えのあとの打ち直しもできる
+// ===============================================================
+// かな→ローマ字の複数パターン展開。HAMACHI-TYPE と 大学受験モード の両方から使う共通ライブラリ。
+export function kanaToRoman(kana) {
+  const romanMap = {
+    'あ':['a'], 'い':['i','yi'], 'う':['u','wu'], 'え':['e'], 'お':['o'],
+    'か':['ka','ca'], 'き':['ki'], 'く':['ku','cu','qu'], 'け':['ke'], 'こ':['ko','co'],
+    'さ':['sa'], 'し':['shi','si','ci'], 'す':['su'], 'せ':['se','ce'], 'そ':['so'],
+    'た':['ta'], 'ち':['chi','ti'], 'つ':['tsu','tu'], 'て':['te'], 'と':['to'],
+    'な':['na'], 'に':['ni'], 'ぬ':['nu'], 'ね':['ne'], 'の':['no'],
+    'は':['ha'], 'ひ':['hi'], 'ふ':['fu','hu'], 'へ':['he'], 'ほ':['ho'],
+    'ま':['ma'], 'み':['mi'], 'む':['mu'], 'め':['me'], 'も':['mo'],
+    'や':['ya'], 'ゆ':['yu'], 'よ':['yo'],
+    'ら':['ra'], 'り':['ri'], 'る':['ru'], 'れ':['re'], 'ろ':['ro'],
+    'わ':['wa'], 'を':['wo'], 'ゐ':['wyi','wi'], 'ゑ':['wye','we'],
+    'ん':['n'], // ベース値（実際は文脈で上書き）
+    'が':['ga'], 'ぎ':['gi'], 'ぐ':['gu'], 'げ':['ge'], 'ご':['go'],
+    'ざ':['za'], 'じ':['ji','zi'], 'ず':['zu'], 'ぜ':['ze'], 'ぞ':['zo'],
+    'だ':['da'], 'ぢ':['di'], 'づ':['du'], 'で':['de'], 'ど':['do'],
+    'ば':['ba'], 'び':['bi'], 'ぶ':['bu'], 'べ':['be'], 'ぼ':['bo'],
+    'ぱ':['pa'], 'ぴ':['pi'], 'ぷ':['pu'], 'ぺ':['pe'], 'ぽ':['po'],
+
+    // 拗音
+// ===== 拗音（x/l小母音 & 代替ローマ字をすべて列挙）=====
+'きゃ': ['kya','kixya','kilya'],
+'きゅ': ['kyu','kixyu','kilyu'],
+'きょ': ['kyo','kixyo','kilyo'],
+'きぃ': ['kyi','kixi','kili'],
+'きぇ': ['kye','kixe','kile'],
+
+'しゃ': ['sha','sya','shya','shixya','shilya','sixya','silya','cixya','cilya'],
+'しゅ': ['shu','syu','shyu','shixyu','shilyu','sixyu','silyu','cixyu','cilyu'],
+'しょ': ['sho','syo','shyo','shixyo','shilyo','sixyo','silyo','cixyo','cilyo'],
+'しぃ': ['syi','shixi','shili','sixi','sili','cixi','cili'],
+'しぇ': ['she','sye','shixe','shile','sixe','sile','cixe','cile'],
+
+'ちゃ': ['cha','tya','chya','chixya','chilya','tixya','tilya'],
+'ちゅ': ['chu','tyu','chyu','chixyu','chilyu','tixyu','tilyu'],
+'ちょ': ['cho','tyo','chyo','chixyo','chilyo','tixyo','tilyo'],
+'ちぃ': ['tyi','chixi','chili','tixi','tili'],
+'ちぇ': ['che','tye','chixe','chile','tixe','tile'],
+
+'にゃ': ['nya','nixya','nilya'],
+'にゅ': ['nyu','nixyu','nilyu'],
+'にょ': ['nyo','nixyo','nilyo'],
+'にぃ': ['nyi','nixi','nili'],
+'にぇ': ['nye','nixe','nile'],
+
+'ひゃ': ['hya','hixya','hilya'],
+'ひゅ': ['hyu','hixyu','hilyu'],
+'ひょ': ['hyo','hixyo','hilyo'],
+'ひぃ': ['hyi','hixi','hili'],
+'ひぇ': ['hye','hixe','hile'],
+
+'みゃ': ['mya','mixya','milya'],
+'みゅ': ['myu','mixyu','milyu'],
+'みょ': ['myo','mixyo','milyo'],
+'みぃ': ['myi','mixi','mili'],
+'みぇ': ['mye','mixe','mile'],
+
+'りゃ': ['rya','rixya','rilya'],
+'りゅ': ['ryu','rixyu','rilyu'],
+'りょ': ['ryo','rixyo','rilyo'],
+'りぃ': ['ryi','rixi','rili'],
+'りぇ': ['rye','rixe','rile'],
+
+'ぎゃ': ['gya','gixya','gilya'],
+'ぎゅ': ['gyu','gixyu','gilyu'],
+'ぎょ': ['gyo','gixyo','gilyo'],
+'ぎぃ': ['gyi','gixi','gili'],
+'ぎぇ': ['gye','gixe','gile'],
+
+'じゃ': ['ja','zya','jya','jixya','jilya','zixya','zilya'],
+'じゅ': ['ju','zyu','jyu','jixyu','jilyu','zixyu','zilyu'],
+'じょ': ['jo','zyo','jyo','jixyo','jilyo','zixyo','zilyo'],
+'じぃ': ['jyi','zyi','jixi','jili','zyixi','zyili','zixi','zili'],
+'じぇ': ['je','zye','jixe','jile','zixe','zile'],
+
+'びゃ': ['bya','bixya','bilya'],
+'びゅ': ['byu','bixyu','bilyu'],
+'びょ': ['byo','bixyo','bilyo'],
+'びぃ': ['byi','bixi','bili'],
+'びぇ': ['bye','bixe','bile'],
+
+'ぴゃ': ['pya','pixya','pilya'],
+'ぴゅ': ['pyu','pixyu','pilyu'],
+'ぴょ': ['pyo','pixyo','pilyo'],
+'ぴぃ': ['pyi','pixi','pili'],
+'ぴぇ': ['pye','pixe','pile'],
+
+'ぢゃ': ['dya','dixya','dilya'],
+'ぢゅ': ['dyu','dixyu','dilyu'],
+'ぢょ': ['dyo','dixyo','dilyo'],
+'ぢぃ': ['dyi','dixi','dili'],
+'ぢぇ': ['dye','dixe','dile'],
+
+'でゃ': ['dha','dya','dexya','delya'],
+'でゅ': ['dhu','dyu','dexyu','delyu'],
+'でょ': ['dho','dyo','dexyo','delyo'],
+'でぃ': ['dhi','di','dexi','deli'],
+'でぇ': ['dhe','dye','dexye','delye'],
+
+// ===== 外来音（x/l小母音 & 代替ローマ字）=====
+'ふぁ': ['fa','huxa','hula'],
+'ふぃ': ['fi','huxi','huli'],
+'ふぇ': ['fe','huxe','hule'],
+'ふぉ': ['fo','huxo','hulo'],
+
+'いぇ': ['ye','ixe','ile'],
+
+'うぁ': ['wha','uxa','ula'],
+'うぃ': ['whi','uxi','uli'],
+'うぇ': ['whe','uxe','ule'],
+'うぉ': ['who','wo','uxo','ulo'],
+
+'くぁ': ['qa','qwa','kwa','kuxa','kula'],
+'くぃ': ['qi','qwi','kwi','kuxi','kuli'],
+'くぇ': ['qe','qwe','kwe','kuxe','kule'],
+'くぉ': ['qo','qwo','kwo','kuxo','kulo'],
+
+'とぁ': ['twa','toxa','tola'],
+'とぃ': ['twi','toxi','toli'],
+'とぅ': ['twu','toxu','tolu'],
+'とぇ': ['twe','toxe','tole'],
+'とぉ': ['two','toxo','tolo'],
+
+
+    // 小文字
+    'ぁ':['la','xa'], 'ぃ':['li','xi'], 'ぅ':['lu','xu'], 'ぇ':['le','xe'], 'ぉ':['lo','xo'],
+    'ゃ':['lya','xya'], 'ゅ':['lyu','xyu'], 'ょ':['lyo','xyo'], 'っ':['ltu','xtu','ltsu','xtsu'],
+
+    // て行 + 小文字母音
+      'てゃ': ['tya','tha'],
+      'てぃ': ['ti','thi','tyi','texi'],
+      'てゅ': ['tyu','thu'],
+      'てぇ': ['tye','the'],
+      'てょ': ['tyo','tho'],
+
+      // ど行 + 小文字母音（と行の対になる外来音）
+      'どぁ': ['dwa','doxa'],
+      'どぃ': ['dwi','doxi'],
+      'どぅ': ['dwu','doxu'],
+      'どぇ': ['dwe','doxe'],
+      'どぉ': ['dwo','doxo'],
+
+      // つ + 小文字母音
+      'つぁ': ['tsa'],
+      'つぃ': ['tsi'],
+      'つぇ': ['tse'],
+      'つぉ': ['tso'],
+
+      // ふ + 拗音（外来音でよく出る）
+      'ふゃ': ['fya'],
+      'ふゅ': ['fyu'],
+      'ふょ': ['fyo'],
+
+      // う + 小文字母音（一般的な wi/we も許可）
+      'うぁ': ['wha','uxa'],
+      'うぃ': ['wi','whi'],
+      'うぇ': ['we','whe'],
+      'うぉ': ['who','wo','uxo'],
+
+      // ゔ 系（外来語で必須）
+      'ゔ':   ['vu'],
+      'ゔぁ': ['va'], 'ゔぃ': ['vi'], 'ゔぇ': ['ve'], 'ゔぉ': ['vo'],
+      'ゔゃ': ['vya'], 'ゔゅ': ['vyu'], 'ゔょ': ['vyo'],
+
+      // 小書き仮名（稀だが安全のため）
+      'ゎ': ['lwa','xwa'],
+      'ゕ': ['lka','xka'],
+      'ゖ': ['lke','xke'],
+      
+    // 記号・数字
+    'ー':['-'], '、':[',',' '], '。':['.',' '], '・':['/',' '],
+    '！':['!'], '？':['?'], '％':['%'], '＝':['='],
+    '0':['0'],'1':['1'],'2':['2'],'3':['3'],'4':['4'],'5':['5'],'6':['6'],'7':['7'],'8':['8'],'9':['9'],
+    '０':['0'],'１':['1'],'２':['2'],'３':['3'],'４':['4'],'５':['5'],'６':['6'],'７':['7'],'８':['8'],'９':['9'],
+    ' ':' ','　':' ',
+
+    // A–Z / a–z → 小文字
+    'A':['a'],'B':['b'],'C':['c'],'D':['d'],'E':['e'],'F':['f'],'G':['g'],'H':['h'],'I':['i'],'J':['j'],
+    'K':['k'],'L':['l'],'M':['m'],'N':['n'],'O':['o'],'P':['p'],'Q':['q'],'R':['r'],
+    'S':['s'],'T':['t'],'U':['u'],'V':['v'],'W':['w'],'X':['x'],'Y':['y'],'Z':['z'],
+    'a':['a'],'b':['b'],'c':['c'],'d':['d'],'e':['e'],'f':['f'],'g':['g'],'h':['h'],'i':['i'],'j':['j'],
+    'k':['k'],'l':['l'],'m':['m'],'n':['n'],'o':['o'],'p':['p'],'q':['q'],'r':['r'],
+    's':['s'],'t':['t'],'u':['u'],'v':['v'],'w':['w'],'x':['x'],'y':['y'],'z':['z']
+  };
+
+  // 日本語入力（IME）で普通に通る打ち方を足す（cya＝ちゃ、fwa＝ふぁ、gwa＝ぐぁ、jye＝じぇ など）
+  const EXTRA = {
+    'ちゃ': ['cya'], 'ちゅ': ['cyu'], 'ちょ': ['cyo'], 'ちぇ': ['cye'], 'ちぃ': ['cyi'],
+    'ふぁ': ['fwa'], 'ふぃ': ['fwi', 'fyi'], 'ふぇ': ['fwe', 'fye'], 'ふぉ': ['fwo'], 'ふぅ': ['fwu'],
+    'ぐぁ': ['gwa'], 'ぐぃ': ['gwi'], 'ぐぅ': ['gwu'], 'ぐぇ': ['gwe'], 'ぐぉ': ['gwo'],
+    'じぇ': ['jye'], 'じぃ': ['jyi'],
+  };
+  for (const k of Object.keys(EXTRA)) romanMap[k] = [...new Set((romanMap[k] || []).concat(EXTRA[k]))];
+
+  // 「文字＋小さい文字」（うぇ・てぃ・ゔぁ・ふゅ など）は、分けて打つ打ち方（u + xe / le など）も必ず受け付ける。
+  // 上の表で同じ組み合わせが 2 回書かれていると後ろの方だけが残るので、ここでまとめて足す
+  for (const k of Object.keys(romanMap)) {
+    if (k.length !== 2 || !/[ぁぃぅぇぉゃゅょゎ]/.test(k[1])) continue;
+    const head = romanMap[k[0]], tail = romanMap[k[1]];
+    if (!Array.isArray(head) || !Array.isArray(tail)) continue;
+    const add = [];
+    head.forEach(h => tail.forEach(s => add.push(h + s)));
+    romanMap[k] = [...new Set(romanMap[k].concat(add))];
+  }
+
+  let remStr = String(kana);
+  const result = [];
+  const outkana = [];
+
+  const isSmallKana = c => /^[ぁぃぅぇぉゃゅょ]$/.test(c||'');
+  const isAscii     = c => /^[A-Za-z0-9\/\-\.,\s]$/.test(c||'');
+  const isLetter    = c => /^[a-z]$/.test(c||'');
+  const isVowelYorN = c => /[aiueoyn]/.test(c||'');
+  const uniq = a => [...new Set(a)];
+
+  function splice(){ const c = remStr.slice(0,1); remStr = remStr.slice(1); return c; }
+
+  // 次キー（拗音なら2文字）を覗く
+  function peekNextKey(){
+    const c1 = remStr.slice(0,1);
+    if (!c1) return '';
+    const c2 = remStr.slice(1,2);
+    if (isSmallKana(c2) && romanMap[c1+c2]) return c1+c2;
+    return c1;
+  }
+  // 指定キーの先頭ローマ字一文字
+  function headRomanOf(key){
+    if (!key) return '';
+    if (romanMap[key]) {
+      const s = romanMap[key][0] || '';
+      return s ? s[0] : '';
+    }
+    const h = key[0];
+    return isAscii(h) ? h.toLowerCase() : (key.toLowerCase()[0]||'');
+  }
+
+  let carryN = false; // 「ん→子音」で次トークンに n を前置可
+
+  while (remStr) {
+    let slStr = splice();
+
+    // 促音 っ
+    if (slStr === 'っ') {
+      const c1 = remStr.slice(0,1);
+      const key = (isSmallKana(remStr.slice(1,2)) && romanMap[c1+remStr.slice(1,2)]) ? c1+remStr.slice(1,2) : c1;
+      const head = headRomanOf(key);
+      const consonantHead = isLetter(head) && !isVowelYorN(head);
+
+      if (!consonantHead) {
+        result.push([...romanMap['っ']]); outkana.push('っ'); carryN = false; continue;
+      }
+      // 次まとまりを実際に消費して子音重ね
+      let k = splice();
+      if (isSmallKana(remStr[0])) k += splice();
+
+      if (romanMap[k]) {
+        const base = romanMap[k];
+        // 子音を重ねる打ち方（kka）と、っ を単独で打つ打ち方（xtuka / ltsuka）の両方
+        result.push(uniq([...base.map(s => s[0] + s), ...romanMap['っ'].flatMap(x => base.map(s => x + s))])); outkana.push('っ' + k);
+      } else if (isAscii(k[0])) {
+        let run = k; while (remStr && isAscii(remStr[0])) run += splice();
+        const low = run.toLowerCase();
+        result.push([low[0] + low]); outkana.push('っ' + run);
+      } else {
+        const low = k.toLowerCase();
+        result.push([low[0] + low]); outkana.push('っ' + k);
+      }
+      carryN = false;
+      continue;
+    }
+
+    // 拗音結合（き + ゃ → きゃ）
+    if (isSmallKana(remStr[0])) slStr += splice();
+
+    if (romanMap[slStr]) {
+      // ---- ん（撥音） ----
+      if (slStr === 'ん') {
+        const nextKey = peekNextKey();
+        const head = headRomanOf(nextKey);
+
+        let roman;
+        // xn はどこでも「ん」（日本語入力と同じ）
+        if (!head) {                         // 語末
+          roman = ['n','nn','xn']; carryN = false;
+        } else if (head === 'n') {           // n行の前
+          roman = ['nn','xn'];     carryN = false;
+        } else if ('aiueoy'.includes(head)) {// 母音/y の前
+          roman = ["n'",'nn','xn']; carryN = false;
+        } else if (isLetter(head)) {         // ★子音の前（ここがポイント）
+          // n / nn を許可しつつ、次トークンへ n を“橋渡し”
+          roman = ['n','nn','xn']; carryN = true;
+        } else {                              // 記号など
+          roman = ['n','nn','xn'];      carryN = false;
+        }
+        result.push(roman); outkana.push('ん');
+        continue;
+      }
+
+      // ---- 通常のかな ----
+      const base = [...romanMap[slStr]];
+      let roman = base;
+
+      // ★前が「ん→子音」だった場合、次トークンに n を前置した候補も許可
+      if (carryN) {
+        roman = uniq([...base.map(s => 'n' + s), ...base]); // 例: こ → ['nko','nco','ko','co']
+      }
+      carryN = false; // 使い切り
+
+      result.push(roman);
+      outkana.push(slStr);
+      continue;
+    }
+
+    // ASCII 連続はそのまま通す
+    if (isAscii(slStr)) {
+      let run = slStr;
+      while (remStr && isAscii(remStr[0])) run += splice();
+      result.push([run.toLowerCase()]);
+      outkana.push(run);
+      carryN = false;
+      continue;
+    }
+
+    // フォールバック（未知文字）
+    result.push([slStr.toLowerCase()]);
+    outkana.push(slStr);
+    carryN = false;
+  }
+
+  return [result, outkana];
+}
+// ---------------------------------------------------------------
+// 答えの読みが複数あるとき（大学受験モードの英単語・古文・歴史）。
+// 打ったキーに合う読みだけを残し、今の読みが合わなければ合う読みへ切り替える。
+// g（各画面の状態）の wordR / kanaTokens / pattern / idx1 / idx2 / temp を、今の読みの状態にしておく。
+function kanaAltState_(reading) {
+  const c = kanaToRoman(reading);
+  return { wordR: c[0], kanaTokens: c[1], pattern: new Array(c[0].length).fill(0), idx1: 0, idx2: 0, temp: '', buf: '' };
+}
+export function kanaAltSet(g, kana, alts) {
+  Object.assign(g, kanaAltState_(kana));
+  g._alts = alts && alts.length ? [null].concat(alts.map(kanaAltState_)) : null;
+  g._altActive = 0;
+}
+function kanaAltStep_(st, key) {
+  if (!st || st.idx1 >= st.wordR.length) return null;
+  const s = { wordR: st.wordR, kanaTokens: st.kanaTokens, pattern: st.pattern.slice(), idx1: st.idx1, idx2: st.idx2, temp: st.temp + key, buf: (st.buf || '') + key };
+  let ok = key === s.wordR[s.idx1][s.pattern[s.idx1]][s.idx2];
+  if (!ok) {
+    // 別のローマ字表記（si / shi など）に切り替えられるか探す
+    const re = new RegExp('^' + s.temp.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+    for (let i = 0; i < s.wordR[s.idx1].length; i++) {
+      if (re.test(s.wordR[s.idx1][i])) {
+        s.pattern[s.idx1] = i;
+        ok = key === s.wordR[s.idx1][i][s.idx2];
+        break;
+      }
+    }
+  }
+  // 打ち直し（打ち間違えたあと）。どちらかでどれかの打ち方の頭になれば、そこから打ち直したとみなす
+  //   ① このかなを打ち始めてから押したキーの末尾（ttl と打ち間違えてから tto と打ち直す、など）。長い方を先に
+  //   ② 打ちかけの後ろを取り消して置き換える（じゅ を zi まで打って zy と直す）
+  if (!ok && s.idx2 > 0) {
+    const hist = (st.buf || '') + key;
+    const cands = [];
+    for (let n = hist.length; n >= 1; n--) cands.push(hist.slice(-n));
+    for (let k = st.temp.length - 1; k >= 1; k--) cands.push(st.temp.slice(0, k) + key);
+    for (const cand of cands) {
+      const i = s.wordR[s.idx1].findIndex(p => p.startsWith(cand));
+      if (i >= 0) { s.pattern[s.idx1] = i; s.idx2 = cand.length - 1; s.temp = cand; s.fixed = true; ok = true; break; }
+    }
+  }
+  if (!ok) return null;
+  s.idx2++;
+  if (s.idx2 === s.wordR[s.idx1][s.pattern[s.idx1]].length) { s.idx1++; s.idx2 = 0; s.temp = ''; s.buf = ''; }
+  return s;
+}
+// 1 キー進める。どの読みにも合わなければ false（ミス）
+export function kanaAltKey(g, key) {
+  const cur = { wordR: g.wordR, kanaTokens: g.kanaTokens, pattern: g.pattern, idx1: g.idx1, idx2: g.idx2, temp: g.temp, buf: g.buf || '' };
+  const act = g._alts ? g._altActive : 0;
+  const states = g._alts ? g._alts.map((s, i) => i === act ? cur : s) : [cur];
+  const res = states.map(s => kanaAltStep_(s, key));
+  const pick = res[act] ? act : res.findIndex(Boolean);
+  if (pick < 0) return false;
+  const fixed = res[pick].fixed;
+  res.forEach(s => { if (s) delete s.fixed; });
+  Object.assign(g, res[pick]);
+  if (g._alts) { g._alts = res; g._altActive = pick; }
+  // 打ち直しで先へ進めたときも、打ち間違いは 1 回のミスとして数える
+  if (fixed && g.onMiss) g.onMiss();
+  return true;
+}
+// 英語のつづり（colour / color など）。今の打ちかけに合う別のつづりへ切り替えられたら true
+export function enAltSwitch(g, key, alts) {
+  if (!alts || !alts.length) return false;
+  const typed = g.enTarget.slice(0, g.enPos) + key;
+  const t = alts.map(a => String(a).toLowerCase()).find(a => a.startsWith(typed));
+  if (!t) return false;
+  g.enTarget = t;
+  return true;
+}

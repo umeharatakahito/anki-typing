@@ -278,7 +278,8 @@ function rounds(start) {
   const $ = id => el.querySelector('#' + id);
   const kb = new Keyboard($('kb'), {
     onPress: () => buzz.tap(),
-    onChar: ch => input(ch),
+    onChar: (ch, quiet) => input(ch, quiet),
+    onKeyOk: () => sound.key(),   // ローマ字：1 キーごとに打つ音
     onCycle: () => { if (!ready()) return; const r = tryCycle(g.t, g.answers); if (r.ok) { g.t = r.t; after(r); } else if (r.miss) miss(); },
     onBack: () => { if (!ready() || !g.t) return; g.t = g.t.slice(0, -1); draw(); prog(); },
     onHint: () => {},
@@ -356,15 +357,15 @@ function rounds(start) {
     clearTimeout(g.timer);
     g.timer = setTimeout(() => { if (ready()) giveUp('時間切れ'); }, ROUND_SEC * 1000);
   }
-  function input(ch) {
+  function input(ch, quiet) {
     if (!ready()) return;
     const r = tryAppend(g.t, ch, g.answers);
     if (!r.ok) { miss(); return; }
     g.t = r.t;
-    after(r);
+    after(r, quiet);
   }
-  function after(r) {
-    sound.key();
+  function after(r, quiet) {
+    if (!quiet) sound.key();
     draw(); prog();
     if (r.done) {
       g.done = true; clearTimeout(g.timer);

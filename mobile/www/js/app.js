@@ -385,7 +385,8 @@ export function game({ cat, kbn, pool, all, ta }) {
 
   const kb = new Keyboard($('kb'), {
     onPress: () => buzz.tap(),
-    onChar: ch => input(ch),
+    onChar: (ch, quiet) => input(ch, quiet),
+    onKeyOk: () => sound.key(),   // ローマ字：1 キーごとに打つ音
     onCycle: () => { if (!ready()) return; const r = tryCycle(st.t, st.answers); if (r.ok) { st.t = r.t; after(r); } else if (r.miss) missed(); },
     onBack: () => { if (!ready() || !st.t) return; st.t = st.t.slice(0, -1); draw(); },
     onHint: () => { if (!ready()) return; hint(); },
@@ -448,14 +449,14 @@ export function game({ cat, kbn, pool, all, ta }) {
     if (html !== st.drawn) { $('typed').innerHTML = html; st.drawn = html; }
   }
 
-  function input(ch) {
+  function input(ch, quiet) {
     if (!ready()) return;
     const r = tryAppend(st.t, ch, st.answers);
     if (!r.ok) { missed(); return; }
     const gained = r.t.replace(/[ .,\-]/g, '').length - st.t.replace(/[ .,\-]/g, '').length;
     if (gained > 0) st.keys += gained;
     st.t = r.t;
-    after(r);
+    after(r, quiet);
   }
   // ミス：時間を減らし、答えの枠を赤くゆらす（字は入れない）
   function missed() {
@@ -464,8 +465,8 @@ export function game({ cat, kbn, pool, all, ta }) {
     const a = $('ans'); a.classList.remove('miss'); void a.offsetWidth; a.classList.add('miss');
     addTime(-lv.minus);
   }
-  function after(r) {
-    sound.key();
+  function after(r, quiet) {
+    if (!quiet) sound.key();
     draw();
     if (r.done) finishCard(true);
   }
