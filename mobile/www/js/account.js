@@ -9,7 +9,7 @@
 //   ・アカウントの削除もここから（App Store の決まり）
 // ===============================================================
 
-import { show, back, screen, topBar, esc, store, getSets, buzz, DEVICE } from './app.js';
+import { show, back, screen, topBar, esc, store, getSets, buzz, DEVICE, ask, tell, askText } from './app.js';
 import { icon } from './icons.js';
 
 const SERVER = () => store.get('server', 'https://studytype.umekobo.com');
@@ -190,14 +190,14 @@ function planLine() {
 
 // 表示名（ランキング・対戦の名前）。Web 版のニックネームと同じもの。対戦の名前もこれに合わせる
 async function rename(msg) {
-  const v = prompt('表示名（12文字まで。ランキングや対戦で出ます）', me.name || '');
+  const v = await askText('表示名（12文字まで。ランキングや対戦で出ます）', me.name || '', 12);
   if (v == null || !v.trim() || v.trim() === me.name) return;
   try {
     const j = await api('/app/nickname', { body: { nickname: v } });
     store.set('vs', Object.assign(store.get('vs', {}), { nick: j.nickname }));
     setMe(Object.assign({}, me, { name: j.nickname }));
     msg.textContent = '';
-  } catch (e) { alert(e.message); }
+  } catch (e) { tell(e.message); }
 }
 
 // ---------------------------------------------------------------
@@ -246,7 +246,7 @@ export function account() {
     const rs = body.querySelector('#ac-restore');   // 会員でないときだけ（別の端末・前のアカウントで買った人向け）
     if (rs) rs.onclick = () => restore(msg).then(render);
     body.querySelector('#ac-logout').onclick = async () => {
-      if (!confirm('ログアウトしますか？')) return;
+      if (!(await ask('ログアウトしますか？', { ok: 'ログアウト' }))) return;
       try { await api('/app/logout', { body: {} }); } catch (e) {}
       const A = plugins().StudyAuth; if (A) A.signOutGoogle().catch(() => {});
       token = ''; store.set('auth.token', ''); setMe(null); render();
@@ -255,11 +255,11 @@ export function account() {
       const warn = 'アカウントを削除すると、ニックネーム・ランキングの記録・会員の期限が消え、元に戻せません。' +
         (p && p.auto && p.store === 'apple' ? '\n\n月額の自動更新は止まらないので、先に「サブスクリプションの管理」から解約してください。' : '') +
         '\n\n削除しますか？';
-      if (!confirm(warn)) return;
+      if (!(await ask(warn, { ok: '削除する', danger: true }))) return;
       try {
         await api('/app/account/delete', { body: {} });
         token = ''; store.set('auth.token', ''); setMe(null); render();
-        alert('アカウントを削除しました');
+        tell('アカウントを削除しました');
       } catch (e) { msg.textContent = e.message; }
     };
   };

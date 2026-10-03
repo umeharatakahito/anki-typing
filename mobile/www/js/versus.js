@@ -15,7 +15,7 @@ import { Keyboard } from './keyboard.js';
 import { alts, tryAppend, tryCycle, bestAnswer, isLatin, prefixState, nextChars } from './match.js';
 import { hayaoshi, hyKanji } from './hayaoshi.js';
 import * as sound from './sound.js';
-import { show, back, screen, topBar, esc, qhtml, store, LEVELS, buzz, game, onLeave, getSets, fitText } from './app.js';
+import { show, back, screen, topBar, esc, qhtml, store, LEVELS, buzz, game, onLeave, getSets, fitText, ask } from './app.js';
 
 const SERVER = () => store.get('server', 'https://studytype.umekobo.com');
 const wsUrl = path => SERVER().replace(/^http/, 'ws') + path;
@@ -405,7 +405,7 @@ function rounds(start) {
     onEnd: m => { g.over = true; clearTimeout(g.timer); if (g.hy) g.hy.stop(false); show(() => result(m), false); },
     onClose: () => { if (!g.over) $('reveal').textContent = '通信が切れました'; },
   };
-  $('quit').onclick = () => { if (!confirm('対戦をやめて部屋を出ますか？')) return; g.over = true; clearTimeout(g.timer); if (g.hy) g.hy.stop(false); vsClose(); leaveToLobby(); };
+  $('quit').onclick = async () => { if (!(await ask('対戦をやめて部屋を出ますか？', { ok: '部屋を出る' })) || g.over) return; g.over = true; clearTimeout(g.timer); if (g.hy) g.hy.stop(false); vsClose(); leaveToLobby(); };
   meters({}, g.lives); opps();
   // 3・2・1（サーバーの in ミリ秒に合わせる）
   const cd = document.createElement('div');

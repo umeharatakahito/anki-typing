@@ -401,3 +401,14 @@ body.light .pay-btn.apple{background:#000}
 button.ac-who{width:100%;background:none;border:0;font:inherit;color:inherit;text-align:left;cursor:pointer}
 .ac-who>span{flex:1;min-width:0}
 .ac-who em{font-style:normal;font-size:12px;font-weight:700;color:var(--orange);white-space:nowrap}
+
+/* 確認・お知らせ・入力の小さな窓（app.js の ask / tell / askText） */
+.dlg-back{position:fixed;inset:0;z-index:1000;display:grid;place-items:center;padding:24px;background:rgba(5,10,30,.55);-webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px)}
+.dlg{width:min(100%,380px);padding:20px 18px 14px;border-radius:18px;background:var(--card);border:1px solid var(--line);box-shadow:0 20px 50px rgba(0,0,0,.4)}
+.dlg p{margin:0 0 14px;color:var(--ink);font-size:15px;line-height:1.6}
+.dlg-in{display:block;width:100%;margin:0 0 14px;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--bg2);color:var(--ink);font:inherit;font-size:16px}
+.dlg-btns{display:flex;gap:8px}
+.dlg-btns button{flex:1;min-height:46px;border-radius:12px;border:1px solid var(--line);background:var(--card2);color:var(--ink);font:inherit;font-size:15px;font-weight:800}
+.dlg-btns .dlg-ok{background:linear-gradient(135deg,var(--orange),var(--orange2));color:#fff;border:0}
+.dlg-btns .dlg-ok.danger{background:var(--ng)}
+.dlg-btns button:focus{outline:none}

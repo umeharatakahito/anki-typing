@@ -24,6 +24,45 @@ export const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;'
 // 問題文は Web 版と同じく、取り込むときに &lt; などにしてある
 export const qhtml = s => String(s ?? '').replace(/\n/g, '<br>');
 
+// 確認・お知らせ・入力の小さな窓（confirm / alert / prompt の代わり）。
+// iOS では confirm などのボタンが英語になる（Capacitor が "Ok" "Cancel" と決め打ち）ので、画面の中に出す。
+// 外付けキーボード：Enter で OK、Esc でキャンセル。開いているあいだのキーは、うしろの画面（遊んでいる画面）に渡さない
+function dialog({ msg, ok = 'OK', cancel, input, danger }) {
+  return new Promise(done => {
+    const prev = document.activeElement;
+    const box = document.createElement('div');
+    box.className = 'dlg-back';
+    box.innerHTML = `<div class="dlg" role="dialog" aria-modal="true"><p>${qhtml(esc(msg))}</p>
+      ${input ? `<input class="dlg-in" maxlength="${input.max || 100}" value="${esc(input.value || '')}" autocomplete="off">` : ''}
+      <div class="dlg-btns">${cancel ? `<button class="dlg-no">${esc(cancel)}</button>` : ''}<button class="dlg-ok${danger ? ' danger' : ''}">${esc(ok)}</button></div></div>`;
+    document.body.appendChild(box);
+    const inp = box.querySelector('.dlg-in');
+    const onKey = e => {
+      e.stopImmediatePropagation();
+      if (e.isComposing) return;
+      if (e.key === 'Enter') { e.preventDefault(); yes(); }
+      else if (e.key === 'Escape') { e.preventDefault(); cancel ? no() : yes(); }
+    };
+    const close = v => {
+      window.removeEventListener('keydown', onKey, true);
+      box.remove();
+      try { if (prev && prev.focus) prev.focus(); } catch (e) {}
+      done(v);
+    };
+    const yes = () => close(inp ? inp.value : true);
+    const no = () => close(inp ? null : false);
+    window.addEventListener('keydown', onKey, true);
+    box.querySelector('.dlg-ok').onclick = yes;
+    const n = box.querySelector('.dlg-no');
+    if (n) n.onclick = no;
+    if (inp) { inp.focus(); inp.select(); } else box.querySelector('.dlg-ok').focus();
+  });
+}
+// ask … はい／いいえ（true / false）。tell … お知らせ。askText … 文字を入れてもらう（キャンセルは null）
+export const ask = (msg, opt) => dialog(Object.assign({ msg, cancel: 'キャンセル' }, opt));
+export const tell = msg => dialog({ msg });
+export const askText = (msg, value, max) => dialog({ msg, cancel: 'キャンセル', input: { value, max } });
+
 export const LEVELS = [
   { key: 'shakyo', label: '写経', sub: '読みが見える', plus: 1, minus: 0.5, weight: 0.5 },
   { key: 'kihon',  label: '基本', sub: '少しずつヒント', plus: 2, minus: 1, weight: 1 },
@@ -224,8 +263,8 @@ function menu() {
   }));
   el.querySelector('#sw-sound').onclick = e => { prefs.sound = !prefs.sound; savePrefs(); e.currentTarget.classList.toggle('on', prefs.sound); sound.key(); };
   el.querySelector('#sw-haptics').onclick = e => { prefs.haptics = !prefs.haptics; savePrefs(); e.currentTarget.classList.toggle('on', prefs.haptics); buzz.tap(); };
-  el.querySelector('#reset-best').onclick = () => {
-    if (!nBest || !confirm('この ' + DEVICE + ' の自己ベスト（' + nBest + ' 件）を消しますか？')) return;
+  el.querySelector('#reset-best').onclick = async () => {
+    if (!nBest || !(await ask('この ' + DEVICE + ' の自己ベスト（' + nBest + ' 件）を消しますか？', { ok: '消す', danger: true }))) return;
     store.set('best', {}); stack.pop(); show(menu);
   };
 }
@@ -501,8 +540,8 @@ export function game({ cat, kbn, pool, all, ta }) {
     show(() => result({ cat, kbn, lv, st, title, newBest, all, pool }), true);
   }
 
-  el.querySelector('#quit').onclick = () => {
-    if (ta && !confirm('対戦をやめますか？')) return;
+  el.querySelector('#quit').onclick = async () => {
+    if (ta && (!(await ask('対戦をやめますか？', { ok: 'やめる' })) || st.over)) return;
     st.over = true; cancelAnimationFrame(raf);
     if (st.hy) st.hy.stop(false);
     if (ta) ta.onQuit(); else back();
