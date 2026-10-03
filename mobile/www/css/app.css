@@ -413,9 +413,9 @@ button.ac-who{width:100%;background:none;border:0;font:inherit;color:inherit;tex
 .dlg-btns .dlg-ok.danger{background:var(--ng)}
 .dlg-btns button:focus{outline:none}
 
-/* ---- iPad の広い画面（幅 900px 以上）：両側を使って広げる ----
+/* ---- iPad の広い画面（幅 800px 以上。11 インチの縦向きから）：両側を使って広げる ----
    問題集の一覧とメニューは 2 列、プレイ設定は「出題範囲｜レベル〜スタート」、結果は「点数｜ふりかえり」 */
-@media (min-width: 900px) {
+@media (min-width: 800px) {
   .top, .scroll { max-width: 1120px; }
   .scroll { padding-left: 32px; padding-right: 32px; }
   .hud, .stage, .ta-meters { max-width: 1000px; }
@@ -435,7 +435,7 @@ button.ac-who{width:100%;background:none;border:0;font:inherit;color:inherit;tex
   .scroll:has(#ac), .scroll:has(.pay-hero), .scroll:has(#random) { max-width: 820px; }
 }
 /* ホーム：iPad の縦向き（高さに余裕があるとき）は、タイルを大きく（下が空かないように） */
-@media (min-width: 900px) and (min-height: 1100px) {
+@media (min-width: 800px) and (min-height: 1100px) {
   .tile .art { height: 150px; } .tile:first-child .art { height: 190px; }
   .tile .art .ic { width: 60px; height: 60px; }
   .tile .body { padding: 14px 16px 16px; } .tile b { font-size: 22px; } .tile small { font-size: 13.5px; }
