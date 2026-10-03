@@ -11,7 +11,8 @@
 //   POST /app/logout
 //   POST /app/nickname       … { nickname } 表示名（ランキング・対戦の名前）を変える。Web 版の /auth/nickname と同じ決まり
 //   POST /app/account/delete … アカウントと記録を消す
-//   GET  /app/set/<kbn>      … 会員だけ。問題集の全部の問題（mobile/www/data/sets/<kbn>.json と同じ形。図は URL）
+//   GET  /app/set/<kbn>      … 会員だけ。問題集の全部の問題（mobile/www/data/sets/<kbn>.json と同じ形。図は URL。v は版）
+//   GET  /app/manifest・/app/data/<kbn> … 問題の配信（ログイン不要。appdata.js）
 //   POST /app/iap            … { transactionId } 買ったあとにアプリが送る。App Store Server API に問い合わせて会員にする
 //   POST /app/iap/notify     … App Store Server Notifications V2（月額の更新・解約・返金）
 //
@@ -260,7 +261,9 @@ export async function handleApp(request, env, url, viewer) {
     const origin = env.PUBLIC_ORIGIN || 'https://studytype.umekobo.com';
     const q = rows.map(r => [r.que, r.kan, r.ans, r.level, r.scope,
       r.img ? (r.img.startsWith('fig/') ? origin + '/' + r.img : origin + '/img/' + r.img + '.png') : '', r.note]);
-    return json({ scopes: (await scopesOf(env.DB, kbn)).map(s => ({ scope: s.scope, n: s.n, free: s.free })), q, paid: isPaidSet(kbn) });
+    // v … 問題集の版（appdata.js）。アプリは版が変わったら取り直す
+    const ver = await env.DB.prepare('SELECT v FROM set_versions WHERE kbn = ?').bind(kbn).first().catch(() => null);
+    return json({ scopes: (await scopesOf(env.DB, kbn)).map(s => ({ scope: s.scope, n: s.n, free: s.free })), q, paid: isPaidSet(kbn), v: ver ? ver.v : 1 });
   }
 
   // 買ったあと（と「購入を復元」のとき）にアプリが送る

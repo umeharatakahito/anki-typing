@@ -18,6 +18,7 @@ import { VersusHub, VS_FUNCTIONS } from './versus.js';
 import { TypingVersus } from './typing-versus.js';
 import { viewerOf, handleAuth } from './auth.js';
 import { handleApp } from './app.js';
+import { handleAppData } from './appdata.js';
 import { handleAdmin } from './admin.js';
 import { decorate, THEMES } from './chrome.js';
 import { STUDY_SETS, CAT_BY_KBN, MENU, OLD_KEYS } from './sets.js';
@@ -318,7 +319,7 @@ const json = (body, status) => new Response(JSON.stringify(body), {
 });
 
 export default {
-  async fetch(request, rawEnv) {
+  async fetch(request, rawEnv, ctx) {
     const url = new URL(request.url);
 
     // 本番は https だけ。http で開くと Google ログインが「origin_mismatch」で止まる（許可しているのは https のアドレスだけ）。
@@ -326,6 +327,12 @@ export default {
     if (url.protocol === 'http:' && /(^|\.)(umekobo\.com|workers\.dev)$/.test(url.hostname)) {
       url.protocol = 'https:';
       return Response.redirect(url.toString(), 301);
+    }
+
+    // アプリの問題の配信（ログイン不要。D1 を読む前に Cache API を見るので、ログインの確認より先に）
+    if (url.pathname === '/app/manifest' || url.pathname.startsWith('/app/data/')) {
+      const d = await handleAppData(request, rawEnv, url, ctx);
+      if (d) return d;
     }
 
     const auth = await handleAuth(request, rawEnv, url);

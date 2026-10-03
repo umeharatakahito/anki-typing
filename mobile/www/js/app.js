@@ -17,7 +17,8 @@ import { lobby as versusLobby } from './versus.js';
 import { adsFor } from './ads.js';
 import { hayaoshi, hyKanji } from './hayaoshi.js';
 import * as sound from './sound.js';
-import { account, paywall, memberSet, isMember, initAccount, getMe, onAccountChange } from './account.js';
+import { account, paywall, memberSet, isMember, initAccount, getMe, onAccountChange, syncMemberSets } from './account.js';
+import { otaSet, otaMenu, mergeMenu, checkUpdates, prefetchImages } from './ota.js';
 
 const $app = document.getElementById('app');
 export const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -112,8 +113,10 @@ export const getSets = () => SETS;
 // iPad か iPhone か（画面の文言用。keyboard.js と同じ見分け方）
 export const DEVICE = Math.min(window.screen.width, window.screen.height) >= 700 ? 'iPad' : 'iPhone';
 const setCache = {};
+// アプリに入っている一覧に、サーバーから届いた一覧（ota.js）を重ねる
 async function loadMenu() {
-  const j = await fetch('data/menu.json').then(r => r.json());
+  const bundled = await fetch('data/menu.json').then(r => r.json());
+  const j = mergeMenu(bundled, await otaMenu());
   MENU = j.menu; SETS = j.sets;
   // 森羅万象：全部の問題集からまぜて出す（kbn は Web 版と同じ 'shinra'。対戦の部屋も作れる）
   SETS.shinra = { label: '森羅万象', icon: 'orbit', desc: '全部の問題集からまぜて出題', paid: false,
@@ -131,12 +134,44 @@ async function loadShinra() {
   }
   return { scopes: [], q };
 }
-// 会員は、ダウンロードしてある全部の問題（account.js）。無ければアプリの中の無料の問題
+// 会員は、ダウンロードしてある全部の問題（account.js）。無ければ、サーバーから届いた無料の問題（ota.js）、
+// それも無ければアプリの中の無料の問題
 async function loadSet(kbn) {
   const m = await memberSet(kbn);
-  if (m) return m;
-  if (!setCache[kbn]) setCache[kbn] = await fetch('data/sets/' + kbn + '.json').then(r => r.json());
+  if (m) return fixImgs(m);
+  if (!setCache[kbn]) {
+    const o = await otaSet(kbn);
+    setCache[kbn] = o ? await fixImgs(o)
+      : await fetch('data/sets/' + kbn + '.json').then(r => r.json()).catch(() => ({ scopes: [], q: [] }));
+  }
   return setCache[kbn];
+}
+// ダウンロードした問題の図は URL。アプリの中にある図（data/images.json）なら、そちらを使う（オフラインでも出るように）
+let imgIdx = null;
+const imgIndex = () => imgIdx || (imgIdx = fetch('data/images.json').then(r => r.ok ? r.json() : []).then(a => new Set(a)).catch(() => new Set()));
+async function fixImgs(d) {
+  if (!d || d.fixedImgs) return d;
+  const idx = await imgIndex();
+  d.q = d.q.map(x => {
+    const m = typeof x[5] === 'string' && x[5].match(/^https?:\/\/[^/]+\/(?:fig|img)\/(.+)$/);
+    return m && idx.has('img/' + m[1]) ? [...x.slice(0, 5), 'img/' + m[1], ...x.slice(6)] : x;
+  });
+  d.fixedImgs = true;
+  return d;
+}
+// 新しい問題が届いていないか見る（開いたとき）。届いたら、ホームにいるときだけ描き直す（遊んでいる最中には変えない）
+async function updateProblems() {
+  const { manifest, changed, menuChanged } = await checkUpdates();
+  if (!manifest) return;
+  if (isMember()) syncMemberSets(false, manifest.sets).catch(() => {});   // 会員の問題も、版が変わったものだけ取り直す
+  if (!changed.length && !menuChanged) return;
+  changed.forEach(k => { delete setCache[k]; });
+  await loadMenu();
+  if (stack.length === 1 && stack[0] === home) { leave(); $app.innerHTML = ''; Promise.resolve(home()).then(syncAds); }
+  // アプリに入っていない新しい図を、電波のあるうちに読んでおく
+  const urls = [];
+  for (const k of changed) { const d = await otaSet(k); if (d) (await fixImgs(d)).q.forEach(x => { if (/^https?:/.test(x[5] || '')) urls.push(x[5]); }); }
+  prefetchImages(urls);
 }
 
 // ---- 画面の切り替え（戻るは積んだ順に） ----
@@ -617,6 +652,6 @@ function result({ cat, kbn, lv, st, title, newBest, all, pool }) {
   applyPrefs();
   await loadMenu();
   show(home);
-  initAccount().then(syncAds);
+  initAccount().then(syncAds).then(updateProblems).catch(() => {});
   onAccountChange(() => { for (const k in setCache) delete setCache[k]; syncAds(); });
 })();

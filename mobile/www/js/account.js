@@ -89,7 +89,8 @@ export async function memberSet(kbn) {
 }
 let syncing = null;
 export const syncState = { done: 0, total: 0, error: '' };
-export function syncMemberSets(force) {
+// versions … サーバーの問題集の版（ota.js の manifest.sets）。渡したときは、版が変わったものだけ取り直す（無ければ 1 週間ごと）
+export function syncMemberSets(force, versions) {
   if (syncing) return syncing;
   syncing = (async () => {
     const SETS = getSets() || {};
@@ -98,7 +99,8 @@ export function syncMemberSets(force) {
     const week = 7 * 86400000;
     for (const k of kbns) {
       const have = await idbGet('set:' + k).catch(() => null);
-      if (!force && have && have.at > Date.now() - week) { syncState.done++; continue; }
+      const fresh = versions && versions[k] && have && have.v != null ? have.v === versions[k].v : have && have.at > Date.now() - week;
+      if (!force && have && fresh) { syncState.done++; continue; }
       try {
         const d = await api('/app/set/' + encodeURIComponent(k));
         await idbPut('set:' + k, Object.assign(d, { at: Date.now() }));
