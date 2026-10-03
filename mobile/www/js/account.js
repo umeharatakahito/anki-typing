@@ -9,7 +9,7 @@
 //   ・アカウントの削除もここから（App Store の決まり）
 // ===============================================================
 
-import { show, back, screen, topBar, esc, store, getSets, buzz } from './app.js';
+import { show, back, screen, topBar, esc, store, getSets, buzz, DEVICE } from './app.js';
 import { icon } from './icons.js';
 
 const SERVER = () => store.get('server', 'https://studytype.umekobo.com');
@@ -291,7 +291,7 @@ export function paywall(what) {
   box.innerHTML = `<div class="pay-plans" id="pay-plans"><p class="pay-msg">読み込んでいます…</p></div>
     <p class="pay-msg" id="pw-msg"></p>
     <button class="pay-btn ghost" id="pw-restore">購入を復元</button>
-    <p class="pay-legal">月額プランは、期間の終わりの 24 時間前までに解約しない限り、自動で更新され、Apple ID に請求されます。解約は iPhone の「設定」→ 名前 →「サブスクリプション」から。1年分は自動で更新されません（今の期限から 1 年延びます）。<br>
+    <p class="pay-legal">月額プランは、期間の終わりの 24 時間前までに解約しない限り、自動で更新され、Apple ID に請求されます。解約は ${DEVICE} の「設定」→ 名前 →「サブスクリプション」から。1年分は自動で更新されません（今の期限から 1 年延びます）。<br>
       <a href="${TERMS_URL}" target="_blank" rel="noopener">利用規約（EULA）</a>・<a href="${PRIVACY_URL}" target="_blank" rel="noopener">プライバシーポリシー</a></p>`;
   const msg = box.querySelector('#pw-msg');
   box.querySelector('#pw-restore').onclick = () => restore(msg).then(() => { if (isMember()) { back(); } });

@@ -68,6 +68,8 @@ const savePrefs = () => { store.set('prefs', prefs); applyPrefs(); };
 // ---- データ ----
 let MENU = null, SETS = null;
 export const getSets = () => SETS;
+// iPad か iPhone か（画面の文言用。keyboard.js と同じ見分け方）
+export const DEVICE = Math.min(window.screen.width, window.screen.height) >= 700 ? 'iPad' : 'iPhone';
 const setCache = {};
 async function loadMenu() {
   const j = await fetch('data/menu.json').then(r => r.json());
@@ -201,7 +203,7 @@ function menu() {
 
     <div class="m-sec">記録</div>
     <div class="m-card">
-      <button class="m-row danger" id="reset-best">${icon('trash-2')}<span class="grow"><b>自己ベストを消す</b><small>この iPhone に残っている ${nBest} 件</small></span></button>
+      <button class="m-row danger" id="reset-best">${icon('trash-2')}<span class="grow"><b>自己ベストを消す</b><small>この ${DEVICE} に残っている ${nBest} 件</small></span></button>
     </div>
 
     <div class="m-sec">このアプリについて</div>
@@ -222,7 +224,7 @@ function menu() {
   el.querySelector('#sw-sound').onclick = e => { prefs.sound = !prefs.sound; savePrefs(); e.currentTarget.classList.toggle('on', prefs.sound); sound.key(); };
   el.querySelector('#sw-haptics').onclick = e => { prefs.haptics = !prefs.haptics; savePrefs(); e.currentTarget.classList.toggle('on', prefs.haptics); buzz.tap(); };
   el.querySelector('#reset-best').onclick = () => {
-    if (!nBest || !confirm('この iPhone の自己ベスト（' + nBest + ' 件）を消しますか？')) return;
+    if (!nBest || !confirm('この ' + DEVICE + ' の自己ベスト（' + nBest + ' 件）を消しますか？')) return;
     store.set('best', {}); stack.pop(); show(menu);
   };
 }

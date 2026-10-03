@@ -391,3 +391,10 @@ body.light .pay-btn.apple{background:#000}
 .pay-plan:disabled{opacity:.5}
 .pay-legal{margin:14px 2px 24px;color:var(--muted);font-size:11.5px;line-height:1.7}
 .pay-legal a{color:var(--text)}
+/* iPad（広い画面）：会員の特典は 2 列、プランは横に並べる */
+@media (min-width: 700px) {
+  .pay-perks{grid-template-columns:1fr 1fr}
+  .pay-plans{grid-template-columns:repeat(auto-fit,minmax(260px,1fr));align-items:stretch}
+  .pay-plan{padding:20px}
+  .pay-hero .ic{width:48px;height:48px} .pay-hero b{font-size:24px}
+}
