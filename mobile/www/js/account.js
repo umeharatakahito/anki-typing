@@ -143,13 +143,19 @@ function linkChoice(link, then) {
       <button class="pay-btn ghost" id="lk-apple">Apple だけで使う</button>
       <p class="pay-msg" id="lk-msg"></p></div></div>`);
   const msg = el.querySelector('#lk-msg');
+  // この画面は stack に積まずに上にかぶせている。終わったら（戻るでも）自分を外す。
+  // 外さないと、ログインが済んだあとも画面が残り、もう一度押すと「期限が切れました」になる
+  el.querySelector('[data-back]').onclick = () => el.remove();
+  let busy = false;
+  const run = f => async () => {
+    if (busy) return;
+    busy = true; msg.textContent = '';
+    try { const j = await f(); if (j) { saveLogin(j); el.remove(); then(); } } catch (e) { msg.textContent = e.message; }
+    busy = false;
+  };
   const g = el.querySelector('#lk-google');
-  if (g) g.onclick = async () => {
-    try { const j = await loginWith('google', link); if (j) { saveLogin(j); then(); } } catch (e) { msg.textContent = e.message; }
-  };
-  el.querySelector('#lk-apple').onclick = async () => {
-    try { saveLogin(await api('/app/login/apple-only', { body: { link } })); then(); } catch (e) { msg.textContent = e.message; }
-  };
+  if (g) g.onclick = run(() => loginWith('google', link));
+  el.querySelector('#lk-apple').onclick = run(() => api('/app/login/apple-only', { body: { link } }));
 }
 
 function loginButtons() {
@@ -203,7 +209,7 @@ export function account() {
           ${isMember() ? `<small id="ac-sync"></small>` : '<small>大学受験・英会話・資格の 🔒 の範囲は、会員になると遊べます</small>'}</span></div>
         ${!isMember() || (p && !p.auto && p.kind === 'pass365') ? `<button class="pay-btn main" id="ac-join">${icon('crown')} ${isMember() ? '1年分を買い足す' : '会員になる'}</button>` : ''}
         ${p && p.auto && p.store === 'apple' ? `<button class="pay-btn ghost" id="ac-manage">サブスクリプションの管理（解約）</button>` : ''}
-        <button class="pay-btn ghost" id="ac-restore">購入を復元</button>
+        ${isMember() ? '' : '<button class="pay-btn ghost" id="ac-restore">購入を復元</button>'}
         <p class="pay-msg" id="ac-msg"></p></div>
       <div class="pay-card">
         <button class="pay-btn ghost" id="ac-logout">ログアウト</button>
@@ -224,7 +230,8 @@ export function account() {
     if (join) join.onclick = () => show(paywall);
     const manage = body.querySelector('#ac-manage');
     if (manage) manage.onclick = () => { const P = plugins().NativePurchases; if (P) P.manageSubscriptions().catch(() => {}); };
-    body.querySelector('#ac-restore').onclick = () => restore(msg).then(render);
+    const rs = body.querySelector('#ac-restore');   // 会員でないときだけ（別の端末・前のアカウントで買った人向け）
+    if (rs) rs.onclick = () => restore(msg).then(render);
     body.querySelector('#ac-logout').onclick = async () => {
       if (!confirm('ログアウトしますか？')) return;
       try { await api('/app/logout', { body: {} }); } catch (e) {}
