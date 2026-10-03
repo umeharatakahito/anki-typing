@@ -17,6 +17,7 @@ import { lobby as versusLobby } from './versus.js';
 import { adsFor } from './ads.js';
 import { hayaoshi, hyKanji } from './hayaoshi.js';
 import * as sound from './sound.js';
+import { account, paywall, memberSet, isMember, initAccount, getMe, onAccountChange } from './account.js';
 
 const $app = document.getElementById('app');
 export const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -87,7 +88,10 @@ async function loadShinra() {
   }
   return { scopes: [], q };
 }
+// 会員は、ダウンロードしてある全部の問題（account.js）。無ければアプリの中の無料の問題
 async function loadSet(kbn) {
+  const m = await memberSet(kbn);
+  if (m) return m;
   if (!setCache[kbn]) setCache[kbn] = await fetch('data/sets/' + kbn + '.json').then(r => r.json());
   return setCache[kbn];
 }
@@ -99,7 +103,8 @@ let leaving = [];
 export const onLeave = f => leaving.push(f);
 function leave() { const l = leaving; leaving = []; l.forEach(f => { try { f(); } catch (e) {} }); }
 // 広告は、遊んでいる最中（.game の画面）には出さない
-const syncAds = () => setTimeout(() => adsFor(!$app.querySelector('.screen.game')), 0);
+// 会員には広告を出さない
+const syncAds = () => setTimeout(() => adsFor(!isMember() && !$app.querySelector('.screen.game')), 0);
 export function show(render, push) {
   if (push !== false) stack.push(render);
   leave();
@@ -177,7 +182,14 @@ function menu() {
   const seg = (key, opts) => `<div class="seg" data-pref="${key}">${opts.map(([v, l]) => `<button data-v="${v}" class="${prefs[key] === v ? 'on' : ''}">${l}</button>`).join('')}</div>`;
   const bests = store.get('best', {});
   const nBest = Object.keys(bests).length;
+  const me = getMe();
   const el = screen('', topBar('メニュー') + `<div class="scroll">
+    <div class="m-sec">アカウント</div>
+    <div class="m-card">
+      <button class="m-row" id="m-account">${icon(me ? 'user' : 'log-in')}<span class="grow"><b>${me ? esc(me.name) : 'ログイン'}</b><small>${me ? (isMember() ? '会員' : '無料版') + '・' + esc(me.email) : 'Apple・Google でログイン（Web 版と同じアカウント）'}</small></span>${icon('chevron-right')}</button>
+      ${isMember() ? '' : `<button class="m-row" id="m-join">${icon('crown')}<span class="grow"><b>会員になる</b><small>大学受験・英会話・資格の全部の範囲・広告なし</small></span>${icon('chevron-right')}</button>`}
+    </div>
+
     <div class="m-sec">画面設定</div>
     <div class="m-card">
       <div class="m-row">${icon(prefs.theme === 'light' ? 'sun' : 'moon')}<span class="grow"><b>画面の色</b></span>${seg('theme', [['dark', '暗い'], ['light', '明るい']])}</div>
@@ -199,6 +211,9 @@ function menu() {
       <a class="m-row" href="https://studytype.umekobo.com/privacy" target="_blank" rel="noopener"><span class="grow"><b>プライバシーポリシー</b><small>studytype.umekobo.com/privacy</small></span>${icon('chevron-right')}</a>
     </div>
   </div>`);
+  el.querySelector('#m-account').onclick = () => show(account);
+  const join = el.querySelector('#m-join');
+  if (join) join.onclick = () => show(() => paywall());
   el.querySelectorAll('[data-pref]').forEach(g => g.querySelectorAll('button').forEach(b => b.onclick = () => {
     prefs[g.dataset.pref] = b.dataset.v; savePrefs(); buzz.tap();
     g.querySelectorAll('button').forEach(x => x.classList.toggle('on', x === b));
@@ -236,7 +251,8 @@ async function setup(cat, kbn) {
   const m = MENU.find(x => x.key === cat) || { color: 'cosmic' }, s = SETS[kbn];
   let data = kbn === 'shinra' ? await loadShinra() : await loadSet(kbn);
   const scopes = data.scopes || [];
-  const usable = scopes.filter(x => x.free).map(x => x.scope);
+  const member = isMember() && !!data.at;   // 会員の問題がそろっている
+  const usable = scopes.filter(x => x.free || member).map(x => x.scope);
   const picked = () => { const want = store.get('scopes.' + kbn, null); const c = Array.isArray(want) ? usable.filter(x => want.includes(x)) : usable; return c.length ? c : usable; };
   const el = screen('k-' + m.color, topBar(s.label) + `<div class="scroll">
     <div id="scope-row"></div>
@@ -256,13 +272,16 @@ async function setup(cat, kbn) {
     if (scopes.length < 2) { row.innerHTML = ''; return; }
     const c = new Set(picked());
     row.innerHTML = `<div class="lab">出題範囲${c.size < usable.length ? '<button id="sc-all">全部</button>' : ''}</div>
-      <div class="scopes">${scopes.map((x, i) => x.free
+      <div class="scopes">${scopes.map((x, i) => (x.free || member)
         ? `<button class="sc${c.has(x.scope) ? ' on' : ''}" data-i="${i}"><span class="bx">${c.has(x.scope) ? '✓' : ''}</span>${esc(x.scope)}<small>${x.n}</small></button>`
-        : `<span class="sc locked">🔒 ${esc(x.scope)}<small>${x.n}</small></span>`).join('')}</div>
-      ${s.paid ? (() => {
-        const freeN = scopes.filter(x => x.free).reduce((a, x) => a + x.n, 0);
-        return `<p class="note">無料で遊べるのは ${usable.length} / ${scopes.length} 範囲（${freeN.toLocaleString()} 問）。🔒 の範囲は今後のアップデートで追加予定です</p>`;
+        : `<button class="sc locked" data-lock="${i}">🔒 ${esc(x.scope)}<small>${x.n}</small></button>`).join('')}</div>
+      ${s.paid && !member ? (() => {
+        const freeN = scopes.filter(x => x.free).reduce((a, x) => a + x.n, 0), allN = scopes.reduce((a, x) => a + x.n, 0);
+        return `<p class="note">無料で遊べるのは ${usable.length} / ${scopes.length} 範囲（${freeN.toLocaleString()} 問）。🔒 の範囲も合わせると全部で <b>${allN.toLocaleString()} 問</b>。<button class="link" id="sc-join">会員になると全部遊べます</button></p>`;
       })() : ''}`;
+    row.querySelectorAll('[data-lock]').forEach(b => b.onclick = () => show(() => paywall(scopes[Number(b.dataset.lock)].scope)));
+    const scJoin = row.querySelector('#sc-join');
+    if (scJoin) scJoin.onclick = () => show(() => paywall());
     row.querySelectorAll('[data-i]').forEach(b => b.onclick = () => {
       const sc = scopes[Number(b.dataset.i)].scope, cur = picked();
       const next = cur.includes(sc) ? cur.filter(v => v !== sc) : usable.filter(v => v === sc || cur.includes(v));
@@ -533,4 +552,6 @@ function result({ cat, kbn, lv, st, title, newBest, all, pool }) {
   applyPrefs();
   await loadMenu();
   show(home);
+  initAccount().then(syncAds);
+  onAccountChange(() => { for (const k in setCache) delete setCache[k]; syncAds(); });
 })();

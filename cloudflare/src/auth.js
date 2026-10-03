@@ -42,7 +42,7 @@ async function googleKeys() {
 const b64url = s => Uint8Array.from(atob(s.replace(/-/g, '+').replace(/_/g, '/')), c => c.charCodeAt(0));
 const b64json = s => JSON.parse(new TextDecoder().decode(b64url(s)));
 
-async function verifyGoogleToken(token, clientId) {
+export async function verifyGoogleToken(token, clientId) {
   const [h, p, sig] = String(token || '').split('.');
   if (!sig) throw new Error('トークンの形が違います');
   const header = b64json(h), claims = b64json(p);
@@ -54,7 +54,7 @@ async function verifyGoogleToken(token, clientId) {
     new TextEncoder().encode(h + '.' + p));
   if (!ok) throw new Error('トークンの署名が合いません');
   if (!['accounts.google.com', 'https://accounts.google.com'].includes(claims.iss)) throw new Error('発行元が違います');
-  if (claims.aud !== clientId) throw new Error('このサイト向けのトークンではありません');
+  if (![].concat(clientId).filter(Boolean).includes(claims.aud)) throw new Error('このサイト向けのトークンではありません');
   if (!(claims.exp * 1000 > Date.now())) throw new Error('トークンの期限が切れています');
   if (!claims.email || claims.email_verified === false) throw new Error('メールアドレスが確認できません');
   return { email: String(claims.email).toLowerCase(), name: claims.name || '' };
@@ -72,7 +72,8 @@ async function appleKeys() {
   return APPLE_KEYS_;
 }
 
-async function verifyAppleToken(token, clientId, nonce) {
+// nonce が null のときは確かめない（アプリの「Apple でサインイン」は Apple の画面が直接トークンを返すので、横取りの心配が無い）
+export async function verifyAppleToken(token, clientId, nonce) {
   const [h, p, sig] = String(token || '').split('.');
   if (!sig) throw new Error('トークンの形が違います');
   const header = b64json(h), claims = b64json(p);
@@ -86,12 +87,12 @@ async function verifyAppleToken(token, clientId, nonce) {
   if (claims.iss !== 'https://appleid.apple.com') throw new Error('発行元が違います');
   if (claims.aud !== clientId) throw new Error('このサイト向けのトークンではありません');
   if (!(claims.exp * 1000 > Date.now())) throw new Error('トークンの期限が切れています');
-  if (!nonce || claims.nonce !== nonce) throw new Error('ログインの手続きが合いません。もう一度お試しください');
+  if (nonce !== null && (!nonce || claims.nonce !== nonce)) throw new Error('ログインの手続きが合いません。もう一度お試しください');
   if (!claims.email || String(claims.email_verified) === 'false') throw new Error('メールアドレスが確認できません');
   return { email: String(claims.email).toLowerCase(), name: '', sub: String(claims.sub || '') };
 }
 
-const isRelay = email => /@privaterelay\.appleid\.com$/i.test(email);
+export const isRelay = email => /@privaterelay\.appleid\.com$/i.test(email);
 const LINK_COOKIE = 'st_link';
 
 const APPLE_COOKIE = 'st_apple';
@@ -111,6 +112,11 @@ function sessionCookie(token, url, maxAge) {
 }
 
 async function startSession(env, url, who) {
+  return sessionCookie(await newSessionToken(env, who), url, SESSION_DAYS * 86400);
+}
+
+// ログインした人の記録を残して、セッションの合言葉を作る（Web は Cookie に、アプリは Authorization: Bearer に入れる）
+export async function newSessionToken(env, who, days = SESSION_DAYS) {
   // 初めての人は、Google の名前をニックネームの仮の値にしておく
   const now0 = Date.now();
   await env.DB.prepare(
@@ -121,8 +127,8 @@ async function startSession(env, url, who) {
   const token = [...bytes].map(b => b.toString(16).padStart(2, '0')).join('');
   const now = Date.now();
   await env.DB.prepare('INSERT INTO sessions (token, email, name, created_at, expires_at) VALUES (?, ?, ?, ?, ?)')
-    .bind(token, who.email, who.name, now, now + SESSION_DAYS * 86400000).run();
-  return sessionCookie(token, url, SESSION_DAYS * 86400);
+    .bind(token, who.email, who.name, now, now + days * 86400000).run();
+  return token;
 }
 
 const adminEmails = env => String(env.ADMIN_EMAILS || '').toLowerCase().split(',').map(s => s.trim()).filter(Boolean);
@@ -138,11 +144,14 @@ export async function viewerOf(request, env) {
   return v;
 }
 
+// アプリは Cookie を使わず、ログインで受け取った合言葉を Authorization: Bearer で送る
+export const bearerToken = request => ((request.headers.get('authorization') || '').match(/^Bearer\s+([0-9a-f]{64})$/i) || [])[1] || '';
+
 async function sessionViewer(request, env) {
-  const token = readCookie(request, COOKIE);
+  const token = readCookie(request, COOKIE) || bearerToken(request);
   if (!token) return GUEST;
   const s = await env.DB.prepare(
-    `SELECT s.email, s.expires_at, u.nickname, u.nickname_set, m.email AS member, m.juken, p.until AS plan_until, p.kind AS plan_kind, p.sub AS plan_sub, p.ending AS plan_ending
+    `SELECT s.email, s.expires_at, u.nickname, u.nickname_set, m.email AS member, m.juken, p.until AS plan_until, p.kind AS plan_kind, p.sub AS plan_sub, p.ending AS plan_ending, p.customer AS plan_customer
        FROM sessions s
        LEFT JOIN users u ON u.email = s.email
        LEFT JOIN members m ON m.email = s.email
@@ -152,7 +161,8 @@ async function sessionViewer(request, env) {
   if (!s || s.expires_at < Date.now()) return GUEST;
   const admin = adminEmails(env).includes(s.email);
   // 有料プラン。until を過ぎたら無料版に戻る
-  const plan = s.plan_until ? { until: s.plan_until, kind: s.plan_kind || '', auto: !!s.plan_sub, ending: !!s.plan_ending, active: s.plan_until > Date.now() } : null;
+  const plan = s.plan_until ? { until: s.plan_until, kind: s.plan_kind || '', auto: !!s.plan_sub, ending: !!s.plan_ending, active: s.plan_until > Date.now(),
+    store: s.plan_customer === 'apple' ? 'apple' : s.plan_customer ? 'stripe' : '' } : null;
   return {
     email: s.email,
     name: s.nickname || s.email.split('@')[0],

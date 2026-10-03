@@ -1,0 +1,10 @@
+{
+  "name": "studytype-auth",
+  "version": "1.0.0",
+  "private": true,
+  "description": "STUDY TYPE: Apple・Google でサインイン（Capacitor プラグイン、iOS だけ）",
+  "main": "index.js",
+  "files": ["ios/Sources", "Package.swift", "index.js"],
+  "capacitor": { "ios": { "src": "ios" } },
+  "peerDependencies": { "@capacitor/core": ">=8.0.0" }
+}

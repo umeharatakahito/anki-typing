@@ -8,6 +8,7 @@
 //   /admin                … 会員の管理（admin.js）
 //   /vs/ws                … タイピングの対戦（WebSocket。typing-versus.js）
 //   /plan /legal /pay/*   … 会員プランと支払い（pay.js）
+//   /app/*                … iPhone・iPad アプリのログイン・会員の問題・アプリ内課金（app.js）
 // ===============================================================
 
 import { PAGES } from './generated/pages.js';
@@ -16,6 +17,7 @@ import * as stats from './stats.js';
 import { VersusHub, VS_FUNCTIONS } from './versus.js';
 import { TypingVersus } from './typing-versus.js';
 import { viewerOf, handleAuth } from './auth.js';
+import { handleApp } from './app.js';
 import { handleAdmin } from './admin.js';
 import { decorate, THEMES } from './chrome.js';
 import { STUDY_SETS, CAT_BY_KBN, MENU, OLD_KEYS } from './sets.js';
@@ -339,6 +341,9 @@ export default {
 
     const pay = await handlePay(request, env, url, viewer);
     if (pay) return pay;
+
+    const app = await handleApp(request, env, url, viewer);
+    if (app) return app;
 
     if (url.pathname.startsWith('/api/')) {
       if (request.method !== 'POST') return json({ error: 'POST only' }, 405);

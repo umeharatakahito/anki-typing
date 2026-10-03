@@ -232,6 +232,9 @@ const PLAN_CSS = `<style>
 @media (max-width:640px){ .perks{grid-template-columns:1fr} .plans{grid-template-columns:1fr} .plan-hero h1{font-size:24px} .legal th{width:38%} }
 </style>`;
 
+// アプリ（App Store）で入った月額は、解約・支払いの変更を iPhone の設定でする
+const APPLE_MANAGE = '<small style="flex-basis:100%">App Store で申し込んだ月額です。解約・支払いの変更は、iPhone の「設定」→ 名前 →「サブスクリプション」から</small>';
+
 export function renderPlan(viewer, env, url) {
   const ready = !!env.STRIPE_SECRET_KEY;
   const p = viewer.plan;
@@ -241,7 +244,7 @@ export function renderPlan(viewer, env, url) {
     // 月額の更新の支払いができていない（Stripe がしばらく引き落としをやり直す）
     now = `<div class="plan-now">${icon('info')}<span class="grow"><b>月額プランのお支払いができていません</b><br>
       <small>「解約・カードの変更」でカードを確かめるか替えると、もう一度お支払いします</small></span>
-      <button type="button" id="pay-portal">解約・カードの変更</button></div>`;
+      ${p.store === 'apple' ? APPLE_MANAGE : '<button type="button" id="pay-portal">解約・カードの変更</button>'}</div>`;
   } else if (viewer.email && viewer.member && p && p.active) {
     const left = Math.ceil((p.until - Date.now()) / DAY);
     const soon = !p.auto && left <= RENEW_NOTICE_DAYS;
@@ -250,7 +253,7 @@ export function renderPlan(viewer, env, url) {
       : `${p.auto ? '次の更新' : '使える期限'}：${fmtDay(end)}${soon ? `（<b>あと ${left} 日</b>。下の「1年分」を買うと、今の期限から 1 年延びます）` : ''}`;
     now = `<div class="plan-now ok">${icon('badge-check')}<span class="grow"><b>会員です</b>（${esc((PLANS[p.kind] || {}).label || '会員')}）<br>
       <small>${line}</small></span>
-      ${p.auto ? `<button type="button" id="pay-portal">${p.ending ? '解約の取り消し' : '解約・カードの変更'}</button>` : ''}</div>`;
+      ${p.auto && p.store === 'apple' ? APPLE_MANAGE : p.auto ? `<button type="button" id="pay-portal">${p.ending ? '解約の取り消し' : '解約・カードの変更'}</button>` : ''}</div>`;
   } else if (viewer.email && viewer.member) {
     now = `<div class="plan-now ok">${icon('badge-check')}<span class="grow"><b>会員です</b>（すべての問題が遊べます）</span></div>`;
   } else if (!viewer.email) {

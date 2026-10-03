@@ -351,3 +351,43 @@ body.hw-kb .kb::before { content: '⌨ キーボードで入力中（Tab でヒ�
 .kb-floating .kb-qwerty .kb-row .kb-fn { font-size: 12px; white-space: nowrap; }
 /* フローティングのときは、キーボードの分の場所を空けない */
 .game .stage { min-height: 0; }
+
+/* ---- アカウント・会員になる（account.js） ---- */
+.sc.locked{color:inherit;font:inherit}
+.note .link{border:0;background:none;padding:0;color:var(--orange);font:inherit;font-weight:800;text-decoration:underline}
+.pay-card{margin:14px 0;padding:18px 16px;border-radius:18px;background:var(--card);border:1px solid var(--line)}
+.pay-card>b{display:block;font-size:16px;color:var(--ink)}
+.pay-card>p{margin:6px 0 12px;color:var(--muted);font-size:13px;line-height:1.6}
+.pay-btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:48px;margin:8px 0 0;border-radius:14px;border:1px solid var(--line);background:var(--card2);color:var(--ink);font:inherit;font-size:15px;font-weight:800}
+.pay-btn svg{width:18px;height:18px}
+.pay-btn.apple{background:#000;color:#fff;border-color:#000}
+body.light .pay-btn.apple{background:#000}
+.pay-btn.google{background:#fff;color:#1f1f1f;border-color:#dadce0}
+.pay-btn.google .g{font-family:Arial,sans-serif;font-weight:900;color:#4285f4}
+.pay-btn.main{background:linear-gradient(135deg,var(--orange),var(--orange2));color:#fff;border:0}
+.pay-btn.ghost{background:transparent}
+.pay-btn.danger{background:transparent;color:var(--ng);border-color:color-mix(in srgb,var(--ng) 40%,var(--line))}
+.pay-btn:disabled{opacity:.5}
+.pay-msg{margin:8px 0 0;min-height:1.2em;color:var(--orange);font-size:13px;font-weight:700;text-align:center}
+.ac-who,.ac-plan{display:flex;align-items:center;gap:12px;padding:4px 0 12px}
+.ac-who b,.ac-plan b{display:block;color:var(--ink);font-size:15px}
+.ac-who small,.ac-plan small{display:block;color:var(--muted);font-size:12px;line-height:1.5;word-break:break-all}
+.ac-plan{border-top:1px solid var(--line);padding-top:12px}
+.ac-plan .ic{color:var(--muted)} .ac-plan.on .ic{color:var(--ok)}
+.pay-hero{display:flex;flex-direction:column;align-items:center;gap:6px;margin:14px 0 4px;text-align:center}
+.pay-hero .ic{width:40px;height:40px;color:var(--gold)}
+.pay-hero b{font-size:20px;color:var(--ink)} .pay-hero small{color:var(--muted);font-size:13px}
+.pay-perks{list-style:none;margin:14px 0;padding:0;display:grid;gap:8px}
+.pay-perks li{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line)}
+.pay-perks .ic{flex:none;color:var(--orange);margin-top:2px}
+.pay-perks b{display:block;color:var(--ink);font-size:14px} .pay-perks small{display:block;color:var(--muted);font-size:12px;line-height:1.5}
+.pay-plans{display:grid;gap:10px}
+.pay-plan{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:2px;width:100%;padding:16px;border-radius:16px;border:2px solid var(--line);background:var(--card);text-align:left;font:inherit;color:var(--text)}
+.pay-plan.best{border-color:var(--orange)}
+.pay-plan .flag{position:absolute;top:-10px;left:14px;padding:1px 10px;border-radius:999px;background:var(--orange);color:#fff;font-size:11px;font-weight:800}
+.pay-plan b{font-size:15px;color:var(--ink)}
+.pay-plan .price{font-size:26px;font-weight:900;color:var(--ink)} .pay-plan .price small{font-size:13px;color:var(--muted);margin-left:2px}
+.pay-plan>small{color:var(--muted);font-size:12px}
+.pay-plan:disabled{opacity:.5}
+.pay-legal{margin:14px 2px 24px;color:var(--muted);font-size:11.5px;line-height:1.7}
+.pay-legal a{color:var(--text)}
