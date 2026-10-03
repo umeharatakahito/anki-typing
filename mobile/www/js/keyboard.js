@@ -44,6 +44,29 @@ const ROMA = (() => {
   return m;
 })();
 const ROMA_KEYS = Object.keys(ROMA);
+// かな → そのかなになる打ち方（ROMA の逆引き）
+const REV = {};
+for (const [r, k] of Object.entries(ROMA)) (REV[k] = REV[k] || []).push(r);
+// これから打つかな（next）の頭の部分を打つ方法の一覧 [{ r: ローマ字, n: 何字ぶんのかなか }]（Web 版の RomajiLib と同じ考え）
+//   ・きゃ のような 2 字の組（kya）も、き＋ゃ（ki xya）も OK
+//   ・っ は次の子音を重ねる（kka）か xtu。ん は nn・xn・n'、次が あ行・や行・な行 でなければ n 1 つでも OK（語の最後も n 1 つで OK）
+export function romajiOptions(next) {
+  const out = [];
+  const plain = s => {
+    const o = [];
+    for (const len of [2, 1]) { const k = s.slice(0, len); if (k.length === len && REV[k]) REV[k].forEach(r => o.push({ r, n: len })); }
+    return o;
+  };
+  const a = next[0];
+  if (!a) return out;
+  if (a === 'っ' && next[1]) plain(next.slice(1)).forEach(o => { if (!'aiueon'.includes(o.r[0])) out.push({ r: o.r[0] + o.r, n: o.n + 1 }); });
+  if (a === 'ん') {
+    if (next.length === 1) out.push({ r: 'n', n: 1 });
+    else plain(next.slice(1)).forEach(o => { if (!"aiueoyn'".includes(o.r[0])) out.push({ r: 'n' + o.r, n: o.n + 1 }); });
+  }
+  return out.concat(plain(next));
+}
+const MISS = '\u0000';   // 答えに無い字（渡すとミスになる）
 const isAsciiCh = c => /^[ -~]$/.test(c || '');
 // これより動かしたらフリック（px）。メニューの「フリックの感度」で変える
 export const kbPrefs = { flickMin: 18 };
@@ -88,22 +111,40 @@ export class Keyboard {
       if (buf === 'n' && peek(2) === 'ん') { send('ん'); buf = ''; }
     };
     // 1 キー分（外付けキーボードと、iPad の画面のローマ字キーボードで共通）
-    const showBuf = () => { const b = this.el.querySelector('.kb-buf'); if (b) b.textContent = buf; };
+    const showBuf = () => {
+      const b = this.el.querySelector('.kb-buf'); if (b) b.textContent = buf;
+      if (this.h.onBuf) this.h.onBuf(buf);   // 答えの欄に、打ちかけのローマ字を出す（Web 版と同じ）
+    };
+    this.clearBuf = () => { if (buf) { buf = ''; showBuf(); } };
     this.typeRomaji = c => {
       // 答えを打ち終えて次の問題を待っている間のキー（nn の 2 つ目など）は捨てる
       if (this.h.peek && peek(1) === '') { buf = ''; showBuf(); return; }
       // 英字の答え・英字のところは、そのまま渡す
       if (this.mode === 'latin' || (!buf && isAsciiCh(peek(1)) && peek(1) !== 'ー')) { send(c); return; }
       if (!/^[a-z'\-]$/.test(c)) { send(c); return; }
-      buf += c;
-      flush();
+      // Web 版と同じく、アルファベット 1 字ごとに合っているかを見る。合っていない字は入れずにミスにする
+      // 答えが何通りかあるとき（にほん／にっぽん など）は、どれの打ち方でもよい
+      const nexts = this.h.peekAll ? this.h.peekAll(4) : [peek(4)].filter(Boolean);
+      const opts = nexts.flatMap(nx => romajiOptions(nx).map(o => ({ r: o.r, kana: nx.slice(0, o.n), last: nx.length === o.n })));
+      if (!opts.length) { buf += c; flush(); showBuf(); return; }   // 打ち方の分からない字（めったにない）：前と同じやり方
+      const want = buf + c;
+      const hit = opts.filter(o => o.r.startsWith(want));
+      if (!hit.length) { this.h.onChar(MISS); showBuf(); return; }
+      buf = want;
+      const done = hit.find(o => o.r === want);
+      // 打ち切った：もっと長い打ち方が残っていなければ（語の最後の n など）、かなにして渡す
+      if (done && (!hit.some(o => o.r.length > want.length) || done.last)) { buf = ''; send(done.kana); }
       showBuf();
     };
     this.romajiBack = () => { if (buf) { buf = buf.slice(0, -1); showBuf(); } else this.h.onBack(); };
+    let lastKey = 0;   // keydown で受け取った時刻（日本語入力から同じ字がもう一度届いたら捨てる）
     const onKey = e => {
       if (!document.body.contains(this.el)) { document.removeEventListener('keydown', onKey, true); return; }
-      if (e.metaKey || e.ctrlKey || e.altKey || e.isComposing) return;
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
       const k = e.key;
+      // iPad の日本語入力（ローマ字入力）がオンのときも、英字のキーは変換に回さず、ここで 1 字ずつ受け取る
+      if (e.isComposing && !(k && k.length === 1 && isAsciiCh(k))) return;
+      if (!e.fromSink && k && k.length === 1) lastKey = Date.now();
       if (k === 'Backspace') { e.preventDefault(); this.romajiBack(); return; }
       if (k === 'Tab') { e.preventDefault(); if (this.h.onHint && !this.h.noHint) this.h.onHint(); return; }
       if (k.length !== 1) return;
@@ -129,6 +170,8 @@ export class Keyboard {
     sink.tabIndex = -1;
     this.el.parentNode.appendChild(sink);
     const feed = text => {
+      // keydown でもう受け取ったキーが、日本語入力を通って（かなになって）もう一度届いたときは捨てる
+      if (Date.now() - lastKey < 600) { sink.value = ''; return; }
       for (const ch of text) {
         if (!document.body.contains(this.el)) return;
         document.body.classList.add('hw-kb');

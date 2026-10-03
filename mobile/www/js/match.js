@@ -74,6 +74,18 @@ export function nextChars(t, answers, n) {
   if (t.length && prefixState(t, a) === 'near') i = t.length - 1;
   return a.slice(i, i + (n || 1));
 }
+// 今の入力に合っている答えすべての、次に打つ字（ローマ字で打つとき、ほかの読みでも打てるように。重なりは 1 つに）
+export function nextAll(t, answers, n) {
+  const out = [];
+  for (const a of answers) {
+    const s = prefixState(t, a);
+    if (!s) continue;
+    const i = t.length && s === 'near' ? t.length - 1 : t.length;
+    const x = a.slice(i, i + (n || 1));
+    if (x && !out.includes(x)) out.push(x);
+  }
+  return out;
+}
 
 // 答えのうち、今の入力にいちばん合うもの（表示用）
 export const bestAnswer = (t, answers) => answers.find(a => prefixState(t, a)) || answers[0] || '';

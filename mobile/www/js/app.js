@@ -12,7 +12,7 @@
 
 import { icon } from './icons.js';
 import { Keyboard, kbPrefs } from './keyboard.js';
-import { alts, tryAppend, tryCycle, nextChars, bestAnswer, isLatin, prefixState } from './match.js';
+import { alts, tryAppend, tryCycle, nextChars, nextAll, bestAnswer, isLatin, prefixState } from './match.js';
 import { lobby as versusLobby } from './versus.js';
 import { adsFor } from './ads.js';
 import { hayaoshi, hyKanji } from './hayaoshi.js';
@@ -391,6 +391,8 @@ export function game({ cat, kbn, pool, all, ta }) {
     onHint: () => { if (!ready()) return; hint(); },
     onPass: () => { if (!ready()) return; finishCard(false); },
     peek: n => st.card ? nextChars(st.t, st.answers, n) : '',
+    peekAll: n => st.card ? nextAll(st.t, st.answers, n) : [],
+    onBuf: b => { st.rbuf = b; draw(); },
   });
   const ready = () => !st.over && !st.lock && st.card;
 
@@ -410,7 +412,8 @@ export function game({ cat, kbn, pool, all, ta }) {
   function nextCard() {
     if (st.i >= deck.length) st.i = 0;
     const q = deck[st.i++];
-    st.card = q; st.answers = alts(q[2]); st.t = ''; st.hints = 0; st.cardMiss = 0; st.cardStart = performance.now(); st.lock = false;
+    if (kb.clearBuf) kb.clearBuf();
+    st.card = q; st.answers = alts(q[2]); st.t = ''; st.rbuf = ''; st.hints = 0; st.cardMiss = 0; st.cardStart = performance.now(); st.lock = false;
     kb.setMode(isLatin(st.answers) ? 'latin' : 'kana');
     $('meta').textContent = [q[4], q[3] ? 'Lv' + q[3] : ''].filter(Boolean).join('・');
     // 早押し・拡大（hayaoshi.js）。難読漢字はいつも漢字を大きく。対戦のタイムアタックは部屋の決まりのまま
@@ -440,7 +443,8 @@ export function game({ cat, kbn, pool, all, ta }) {
     else if (lv.key === 'kihon') reveal = Math.max(reveal, Math.floor(Math.max(0, (performance.now() - st.cardStart) / 1000 - 4) / 2.5));
     const rest = a.slice(st.t.length, Math.max(st.t.length, reveal));
     const typed = state === 'near' ? esc(st.t.slice(0, -1)) + `<span class="near">${esc(st.t.slice(-1))}</span>` : esc(st.t);
-    const html = typed + '<span class="caret"></span>' + (rest ? `<span class="rest">${esc(rest)}</span>` : '');
+    const rb = st.rbuf ? `<span class="rbuf">${esc(st.rbuf)}</span>` : '';   // 打ちかけのローマ字
+    const html = typed + rb + '<span class="caret"></span>' + (rest ? `<span class="rest">${esc(rest)}</span>` : '');
     if (html !== st.drawn) { $('typed').innerHTML = html; st.drawn = html; }
   }
 

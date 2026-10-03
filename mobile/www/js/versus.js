@@ -12,7 +12,7 @@
 import { icon } from './icons.js';
 import { getMe, onAccountChange } from './account.js';
 import { Keyboard } from './keyboard.js';
-import { alts, tryAppend, tryCycle, bestAnswer, isLatin, prefixState, nextChars } from './match.js';
+import { alts, tryAppend, tryCycle, bestAnswer, isLatin, prefixState, nextChars, nextAll } from './match.js';
 import { hayaoshi, hyKanji } from './hayaoshi.js';
 import * as sound from './sound.js';
 import { show, back, screen, topBar, esc, qhtml, store, LEVELS, buzz, game, onLeave, getSets, fitText, ask } from './app.js';
@@ -285,6 +285,8 @@ function rounds(start) {
     onPass: () => { if (ready()) giveUp('あきらめました'); },
     noHint: true, passLabel: 'あきらめる<small>この問題</small>',
     peek: n => g.r >= 0 ? nextChars(g.t, g.answers, n) : '',
+    peekAll: n => g.r >= 0 ? nextAll(g.t, g.answers, n) : [],
+    onBuf: b => { g.rbuf = b; draw(); },
   });
   const ready = () => !g.over && !g.out && !g.done && g.r >= 0;
 
@@ -321,7 +323,8 @@ function rounds(start) {
     // 写経は読みを全部、ほかは出さない（相手と公平に）
     const rest = lv.key === 'shakyo' ? a.slice(g.t.length) : '';
     const typed = state === 'near' ? esc(g.t.slice(0, -1)) + `<span class="near">${esc(g.t.slice(-1))}</span>` : esc(g.t);
-    $('typed').innerHTML = typed + '<span class="caret"></span>' + (rest ? `<span class="rest">${esc(rest)}</span>` : '');
+    const rb = g.rbuf ? `<span class="rbuf">${esc(g.rbuf)}</span>` : '';   // 打ちかけのローマ字
+    $('typed').innerHTML = typed + rb + '<span class="caret"></span>' + (rest ? `<span class="rest">${esc(rest)}</span>` : '');
   }
   function prog() {
     clearTimeout(g.progT);
@@ -329,7 +332,8 @@ function rounds(start) {
     if (Date.now() - g.progAt > 120) sendNow(); else g.progT = setTimeout(sendNow, 120);
   }
   function setRound(r) {
-    g.r = r; g.t = ''; g.cardMiss = 0; g.out = false; g.done = false; g.opp = {};
+    if (kb && kb.clearBuf) kb.clearBuf();
+    g.r = r; g.t = ''; g.rbuf = ''; g.cardMiss = 0; g.out = false; g.done = false; g.opp = {};
     const q = qs[r];
     if (!q) return;
     g.answers = alts(q[2]);
