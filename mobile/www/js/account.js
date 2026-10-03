@@ -24,8 +24,9 @@ const PRIVACY_URL = 'https://studytype.umekobo.com/privacy';
 const plugins = () => (window.Capacitor && window.Capacitor.Plugins) || {};
 const native = () => !!(window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform());
 
-let token = store.get('auth.token', '');
-let me = store.get('auth.me', null);
+// app.js と互いに読み込み合うので、保存してある値は最初に使うときに読む（読み込みの途中では store がまだ無い）
+let token = null, me;
+const ensure = () => { if (token === null) { token = store.get('auth.token', ''); me = store.get('auth.me', null); } };
 const listeners = [];
 export const onAccountChange = f => listeners.push(f);
 function setMe(m) {
@@ -33,11 +34,13 @@ function setMe(m) {
   store.set('auth.me', me);
   listeners.forEach(f => { try { f(me); } catch (e) {} });
 }
-export const getMe = () => me;
+export const getMe = () => { ensure(); return me; };
 // 会員か。期限は端末の時計でも確かめる（電波が無いときも、切れたら無料版に戻る）
-export const isMember = () => !!(me && me.member && (!me.plan || !me.plan.active || me.plan.until > Date.now()));
+export const isMember = () => { ensure(); return isMemberNow(); };
+const isMemberNow = () => !!(me && me.member && (!me.plan || !me.plan.active || me.plan.until > Date.now()));
 
 async function api(path, opt) {
+  ensure();
   opt = opt || {};
   const headers = { 'content-type': 'application/json' };
   if (token) headers.authorization = 'Bearer ' + token;
@@ -50,6 +53,7 @@ async function api(path, opt) {
 
 // 起動したとき：会員の状態を取り直し、会員なら問題をそろえる
 export async function initAccount() {
+  ensure();
   if (!token) return;
   try {
     const j = await api('/app/me');
@@ -179,6 +183,7 @@ function planLine() {
 // ---------------------------------------------------------------
 // アカウントの画面（メニューから）
 export function account() {
+  ensure();
   const el = screen('', topBar('アカウント') + `<div class="scroll" id="ac"></div>`);
   const body = el.querySelector('#ac');
   const render = () => {
@@ -261,6 +266,7 @@ async function restore(msg) {
 }
 
 export function paywall(what) {
+  ensure();
   const el = screen('', topBar('会員になる') + `<div class="scroll"><div class="pay-hero">${icon('crown')}<b>会員になって、全部の範囲を</b>
       ${what ? `<small>「${esc(what)}」は会員の範囲です</small>` : ''}</div>
     <ul class="pay-perks">
