@@ -120,7 +120,9 @@ async function loginWith(provider, link) {
     r = provider === 'apple' ? await A.signInApple()
       : await A.signInGoogle({ clientId: GOOGLE_IOS_CLIENT_ID, serverClientId: GOOGLE_WEB_CLIENT_ID });
   } catch (e) {
-    if (String(e && (e.code || e.message)).includes('canceled')) return null;
+    const m = String(e && (e.code || e.message) || '');
+    if (m.includes('canceled')) return null;
+    if (/error 1000|AuthorizationError.*1000/.test(m)) throw new Error('この端末の「設定」で Apple ID にサインインしてから、もう一度お試しください');
     throw e;
   }
   const j = await api('/app/login', { body: { provider, token: r.idToken, name: r.name || '', link: link || undefined } });
@@ -134,7 +136,7 @@ function saveLogin(j) {
 
 // メールを非公開にした Apple ID：Google のアカウントとつなぐか、Apple だけで使うか
 function linkChoice(link, then) {
-  const el = screen('', topBar('アカウントをつなぐ') + `<div class="scroll">
+  const el = screen('no-ads', topBar('アカウントをつなぐ') + `<div class="scroll">
     <div class="pay-card"><b>Apple で「メールを非公開」にしてログインしました</b>
       <p>Google でも使ったことがある・会員になったことがある人は、Google でログインすると同じアカウント（会員の期限・ニックネーム）になります。</p>
       ${GOOGLE_IOS_CLIENT_ID ? `<button class="pay-btn google" id="lk-google">${icon('log-in')} Google でログインしてつなぐ</button>` : ''}
@@ -184,7 +186,7 @@ function planLine() {
 // アカウントの画面（メニューから）
 export function account() {
   ensure();
-  const el = screen('', topBar('アカウント') + `<div class="scroll" id="ac"></div>`);
+  const el = screen('no-ads', topBar('アカウント') + `<div class="scroll" id="ac"></div>`);
   const body = el.querySelector('#ac');
   const render = () => {
     if (!me) {
@@ -267,13 +269,13 @@ async function restore(msg) {
 
 export function paywall(what) {
   ensure();
-  const el = screen('', topBar('会員になる') + `<div class="scroll"><div class="pay-hero">${icon('crown')}<b>会員になって、全部の範囲を</b>
+  const el = screen('no-ads', topBar('会員になる') + `<div class="scroll"><div class="pay-hero">${icon('crown')}<b>会員になって、全部の範囲を</b>
       ${what ? `<small>「${esc(what)}」は会員の範囲です</small>` : ''}</div>
     <ul class="pay-perks">
       <li>${icon('list-checks')}<span><b>大学受験・英会話・資格の全部の範囲</b><small>約 6,400 問が増えます。ダウンロードすればオフラインでも</small></span></li>
       <li>${icon('swords')}<span><b>対戦も全部の範囲で</b><small>部屋を作ると、全部の範囲から出題</small></span></li>
       <li>${icon('eye-off')}<span><b>広告なし</b></span></li>
-      <li>${icon('monitor')}<span><b>Web 版でも同じアカウントで会員</b><small>パソコンのブラウザでも全部の範囲</small></span></li>
+      <li>${icon('earth')}<span><b>Web 版でも同じアカウントで会員</b><small>パソコンのブラウザでも全部の範囲</small></span></li>
     </ul>
     <div id="pay-body"></div></div>`);
   const box = el.querySelector('#pay-body');

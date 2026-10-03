@@ -106,7 +106,8 @@ export const onLeave = f => leaving.push(f);
 function leave() { const l = leaving; leaving = []; l.forEach(f => { try { f(); } catch (e) {} }); }
 // 広告は、遊んでいる最中（.game の画面）には出さない
 // 会員には広告を出さない
-const syncAds = () => setTimeout(() => adsFor(!isMember() && !$app.querySelector('.screen.game')), 0);
+// 会員には広告を出さない。アカウント・会員になる画面（.no-ads）にも出さない
+const syncAds = () => setTimeout(() => adsFor(!isMember() && !$app.querySelector('.screen.game, .screen.no-ads')), 0);
 export function show(render, push) {
   if (push !== false) stack.push(render);
   leave();
