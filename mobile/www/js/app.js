@@ -70,6 +70,8 @@ export const LEVELS = [
 ];
 const COURSES = [60, 90, 120];
 const FAIL_SEC = 3;
+const COULD_MS = 800;   // 短い読みで合ったとき（ドライバ|ドライバー）、続きを待つ時間
+const END_MS = 1600;    // 時間切れ：「終了！」と音を出してから結果へ
 const HY_CARD_MS = 20000;   // 1 人の早押し・拡大は、Web の 1 問の持ち時間（20 秒）と同じ見せ方（12 秒で全部見える）
 const TITLES = [[0, '見習い'], [600, '駆け出し'], [1200, '一人前'], [2000, '腕利き'], [3000, '達人'], [4200, '師範'], [5600, '名人'], [7500, '神']];
 
@@ -468,7 +470,12 @@ export function game({ cat, kbn, pool, all, ta }) {
   function after(r, quiet) {
     if (!quiet) sound.key();
     draw();
+    clearTimeout(st.could);
     if (r.done) finishCard(true);
+    else if (r.could) {   // 短い読みで合った：続きを打たなければ、少し待って正解にする
+      const t = st.t, card = st.card;
+      st.could = setTimeout(() => { if (ready() && st.card === card && st.t === t) finishCard(true); }, COULD_MS);
+    }
   }
   function hint() {
     const nx = nextChars(st.t, st.answers, 1);
@@ -531,6 +538,7 @@ export function game({ cat, kbn, pool, all, ta }) {
 
   function end() {
     st.over = true;
+    clearTimeout(st.could);
     if (st.hy) st.hy.stop(false);
     cancelAnimationFrame(raf);
     st.score += st.comboMax * 50;
@@ -542,8 +550,17 @@ export function game({ cat, kbn, pool, all, ta }) {
     const bests = store.get('best', {});
     const newBest = all && st.score > 0 && (!bests[key] || st.score > bests[key].score);
     if (newBest) { bests[key] = { score: st.score, at: Date.now() }; store.set('best', bests); }
-    stack.pop();
-    show(() => result({ cat, kbn, lv, st, title, newBest, all, pool }), true);
+    // 「終了！」と終わりの音。少し見せてから結果へ（いきなり画面が変わらないように）
+    sound.finish(); buzz.ok();
+    const fin = document.createElement('div');
+    fin.className = 'count fin';
+    fin.textContent = '終了！';
+    el.appendChild(fin);
+    setTimeout(() => {
+      if (!el.isConnected) return;   // 待つあいだに戻った
+      stack.pop();
+      show(() => result({ cat, kbn, lv, st, title, newBest, all, pool }), true);
+    }, END_MS);
   }
 
   el.querySelector('#quit').onclick = async () => {

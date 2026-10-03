@@ -55,10 +55,14 @@ export function tryCycle(t, answers) {
   return settle(t.slice(0, -1) + nx, answers, true);
 }
 
-// 最後まで合えば done。合っていれば、打たなくてよい文字（空白など）を足して進める
+// 最後まで合えば done。合っていれば、打たなくてよい文字（空白など）を足して進める。
+// 短い読みで合ったが、もっと長い読みも続けて打てるとき（「どらいば|どらいばー」の「どらいば」）は done ではなく
+// could（ここで終わってもよい）。1 人のときは少し待ってから正解にし、そのあいだに「ー」を打てば長いほうで続けられる
 function settle(t, answers, soft) {
   const exact = answers.filter(a => prefixState(t, a) === 'exact');
-  if (exact.some(a => a === t)) return { ok: true, t, done: true };
+  if (exact.some(a => a === t)) {
+    return exact.some(a => a.length > t.length) ? { ok: true, t, could: true } : { ok: true, t, done: true };
+  }
   for (const a of exact) {
     let u = t;
     while (u.length < a.length && SKIP.has(a[u.length])) u += a[u.length];

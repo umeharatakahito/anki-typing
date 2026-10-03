@@ -367,7 +367,7 @@ function rounds(start) {
   function after(r, quiet) {
     if (!quiet) sound.key();
     draw(); prog();
-    if (r.done) {
+    if (r.done || r.could) {   // 対戦は早い者勝ちなので、短い読みで合えばすぐ打ち終わり
       g.done = true; clearTimeout(g.timer);
       vsSend({ t: 'win', r: g.r });
       buzz.ok();

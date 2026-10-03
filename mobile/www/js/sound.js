@@ -4,6 +4,7 @@
 //   key()   … 打ったとき：小さく「コトッ」（高い打鍵の音＋低い胴の音。毎回すこしだけ高さを変えて、単調にしない）
 //   miss()  … まちがえたとき：やわらかく下がる「ポコッ」。分かるけれど耳ざわりにしない
 //   jajan() … 対戦の出題：「ジャ・ジャーン」（金管っぽい和音を 2 回）
+//   finish() … 1 人で遊んで時間切れ：「ピロリン」と上がるチャイム（終わったと分かるように）
 // 音を鳴らせるのは、画面にさわった・キーを押したあとから（ブラウザの決まり）。
 // ===============================================================
 
@@ -90,4 +91,18 @@ export function jajan() {
   const chord = [261.63, 329.63, 392.0, 523.25];   // ド・ミ・ソ・ド
   stab(t, chord, 0.12, 0.07);
   stab(t + 0.17, chord.concat([chord[0] / 2]), 0.6, 0.08);   // 2 回目は低いドも足して長く「ジャーン」
+}
+
+export function finish() {
+  if (!on || !ac()) return;
+  const t = ctx.currentTime + 0.02;
+  [523.25, 659.25, 783.99, 1046.5].forEach((f, i) => {   // ド・ミ・ソ・ド を順に。最後は長く残す
+    const s0 = t + i * 0.11, len = i === 3 ? 0.9 : 0.3;
+    const o = ctx.createOscillator(); o.type = 'triangle'; o.frequency.value = f;
+    const g = ctx.createGain(); env(g, s0, 0.32, 0.008, len);
+    o.connect(g).connect(out); o.start(s0); o.stop(s0 + len + 0.05);
+    const h = ctx.createOscillator(); h.type = 'sine'; h.frequency.value = f * 2;   // 鈴っぽい倍音
+    const hg = ctx.createGain(); env(hg, s0, 0.08, 0.005, len * 0.6);
+    h.connect(hg).connect(out); h.start(s0); h.stop(s0 + len + 0.05);
+  });
 }
