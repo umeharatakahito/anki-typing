@@ -241,7 +241,7 @@ export async function handleAuth(request, env, url) {
     let who, body;
     try {
       body = await request.json();
-      who = await verifyGoogleToken(body.credential, env.GOOGLE_CLIENT_ID);
+      who = await verifyGoogleToken(body.credential, [env.GOOGLE_CLIENT_ID, ...String(env.GOOGLE_OLD_CLIENT_IDS || '').split(',')].filter(Boolean));
     } catch (e) {
       return json({ error: 'ログインできませんでした: ' + e.message }, 401);
     }

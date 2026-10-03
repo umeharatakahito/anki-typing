@@ -145,9 +145,10 @@ async function syncSubscription(env, email, originalTransactionId) {
     const tx = jwsPayload(t.signedTransactionInfo), ri = t.signedRenewalInfo ? jwsPayload(t.signedRenewalInfo) : {};
     if (!best || (tx.expiresDate || 0) > (best.tx.expiresDate || 0)) best = { tx, ri, status: t.status };
   }
-  if (!best) return;
+  if (!best) { console.log('iap sync: no transactions', originalTransactionId); return; }
   // status 1 有効・3 支払いのやり直し中・4 猶予期間 は「続いている」。autoRenewStatus 0 は解約済み（期間の終わりで止まる）
   const renewing = [1, 3, 4].includes(best.status) && best.ri.autoRenewStatus !== 0;
+  console.log('iap sync', JSON.stringify({ email, orig: originalTransactionId, tx: best.tx.transactionId, status: best.status, renewing, expires: best.tx.expiresDate }));
   await applySubscription(env, email, best.tx, renewing);
 }
 
@@ -186,7 +187,7 @@ export async function handleApp(request, env, url, viewer) {
         return await loginResponse(env, request, who);
       }
       if (body.provider === 'google') {
-        const who = await verifyGoogleToken(body.token, [env.GOOGLE_IOS_CLIENT_ID, env.GOOGLE_CLIENT_ID]);
+        const who = await verifyGoogleToken(body.token, [env.GOOGLE_IOS_CLIENT_ID, env.GOOGLE_CLIENT_ID, ...String(env.GOOGLE_OLD_CLIENT_IDS || '').split(',')].filter(Boolean));
         if (body.link) {
           const p = await pendingLink(env, body.link);
           if (!p) return json({ error: 'つなぐ手続きの期限が切れました。もう一度 Apple でログインしてください' }, 400);
@@ -278,6 +279,8 @@ export async function handleApp(request, env, url, viewer) {
       if (tx.appAccountToken && String(tx.appAccountToken).toLowerCase() !== mine) {
         return json({ error: 'この購入は別のアカウントのものです' }, 409);
       }
+      console.log('iap', JSON.stringify({ email: viewer.email, id, orig: tx.originalTransactionId, product: tx.productId,
+        token: tx.appAccountToken || '', mine, expires: tx.expiresDate || 0, env: tx.environment }));
       if (kind === 'month') await syncSubscription(env, viewer.email, tx.originalTransactionId);
       else if (!tx.revocationDate) await applyPass(env, viewer.email, tx);
       const v = await viewerOf(request, env);

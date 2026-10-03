@@ -8,20 +8,25 @@
   // 広告（AdSense）を出すための自分のドメイン。workers.dev のままでも開ける
   "routes": [{ "pattern": "studytype.umekobo.com", "custom_domain": true }],
   "workers_dev": true,
+  // ログ（Cloudflare の Workers Logs。無料枠は 1 日 20 万件）。アプリ内課金の確かめに使う
+  "observability": { "enabled": true },
   // 手元の wrangler dev では、URL を localhost のままにする（routes があると本番のドメインに書き換わり、
   // 手元版だけの「全員スーパーユーザー」や家の中ログインが効かなくなる）
   "dev": { "host": "localhost" },
   "vars": {
-    // Google ログインの OAuth クライアント ID（公開されてよい値）。承認済みの生成元は
-    // https://anki-typing.takahito-ume.workers.dev、https://studytype.umekobo.com と http://localhost:8791
-    "GOOGLE_CLIENT_ID": "1001255742442-pmd3a71i42mnrqvunrj0fr762uevoi79.apps.googleusercontent.com",
+    // Google ログインの OAuth クライアント ID（Google Cloud「STUDY TYPE」の Web 用。公開されてよい値）。承認済みの生成元は
+    // https://studytype.umekobo.com、https://anki-typing.takahito-ume.workers.dev と http://localhost:8791
+    "GOOGLE_CLIENT_ID": "626752331494-7lp8gbo8o9eh8gigios20cqh7359a5kv.apps.googleusercontent.com",
+    // 前の Google のプロジェクト（勉強ダンジョンズと共用で、ログイン画面にその名前が出ていた）の ID。
+    // ビルド 9 までのアプリ・開いたままの Web のページから来るトークンも、しばらく受け付ける
+    "GOOGLE_OLD_CLIENT_IDS": "1001255742442-pmd3a71i42mnrqvunrj0fr762uevoi79.apps.googleusercontent.com,1001255742442-aucnldsn4dosdq90m5pnuica3iivnh5l.apps.googleusercontent.com",
     // Apple でログイン（Apple Developer の Services ID。公開されてよい値）。戻り先は
     // https://studytype.umekobo.com/auth/apple/callback（Apple Developer に登録済み。ほかのドメインでは使えない）
     "APPLE_SERVICES_ID": "com.umeharatakahito.studytype.web",
     // アプリ（mobile/）のバンドル ID。アプリの「Apple でサインイン」のトークンの宛先と、アプリ内課金の商品 ID の頭
     "APPLE_BUNDLE_ID": "com.umeharatakahito.studytype",
-    // アプリの Google ログイン（Google Cloud「StudyDungeons」の iOS 用 OAuth クライアント。公開されてよい値）
-    "GOOGLE_IOS_CLIENT_ID": "1001255742442-aucnldsn4dosdq90m5pnuica3iivnh5l.apps.googleusercontent.com",
+    // アプリの Google ログイン（Google Cloud「STUDY TYPE」の iOS 用 OAuth クライアント。公開されてよい値）
+    "GOOGLE_IOS_CLIENT_ID": "626752331494-42ln866gretb1vh2kuch9kfpi8tr1uoq.apps.googleusercontent.com",
     // AdSense（勉強ダンジョンズと同じ発行者 ID）。広告ユニット ID（数字）を入れると本物の広告になる。
     // 空のうちは「広告枠」の見本だけ出す。会員には出さない
     // 左右の縦長・結果の下・待合室の枠は、専用のユニット ID を ADSENSE_SLOT_RAIL / ADSENSE_SLOT_RESULT /
