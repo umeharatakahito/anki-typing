@@ -75,7 +75,8 @@ const menu = MENU.map(m => ({
 })).filter(m => m.groups.length);
 const sets = Object.fromEntries(Object.keys(counts).map(k => {
   const c = setInfo(k);
-  return [k, { label: c.label, icon: c.icon, desc: c.desc, n: counts[k], paid: isPaidSet(k) }];
+  // n … アプリに入っている（無料の）問題の数。all … 会員の範囲も合わせた全部の数（会員の画面に出す）
+  return [k, { label: c.label, icon: c.icon, desc: c.desc, n: counts[k], all: scopesOf(k).reduce((a, x) => a + x.n, 0) || counts[k], paid: isPaidSet(k) }];
 }));
 writeFileSync(join(www, 'data', 'menu.json'), JSON.stringify({ menu, sets, built: new Date().toISOString() }));
 

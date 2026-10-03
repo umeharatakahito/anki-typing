@@ -76,7 +76,7 @@ async function loadMenu() {
   MENU = j.menu; SETS = j.sets;
   // 森羅万象：全部の問題集からまぜて出す（kbn は Web 版と同じ 'shinra'。対戦の部屋も作れる）
   SETS.shinra = { label: '森羅万象', icon: 'orbit', desc: '全部の問題集からまぜて出題', paid: false,
-    n: Object.values(SETS).reduce((a, x) => a + x.n, 0) };
+    n: Object.values(SETS).reduce((a, x) => a + x.n, 0), all: Object.values(SETS).reduce((a, x) => a + (x.all || x.n), 0) };
 }
 // 森羅万象の問題：どの問題集からも同じくらいずつ（1 つの問題集から最大 SHINRA_PER 問）、問題文の頭に【問題集】
 const SHINRA_PER = 12;
@@ -163,9 +163,9 @@ const LOGO = `<svg viewBox="0 0 330 92" role="img" aria-label="STUDY TYPE 打っ
 // トップ
 function home() {
   const tiles = MENU.map(m => `<button class="tile k-${m.color}" data-cat="${m.key}">
-    <div class="art">${icon(m.icon)}<span class="price${m.paid ? ' paid' : ''}">${m.paid ? '一部無料' : '無料'}</span></div>
+    <div class="art">${icon(m.icon)}${isMember() ? '' : `<span class="price${m.paid ? ' paid' : ''}">${m.paid ? '一部無料' : '無料'}</span>`}</div>
     <div class="body"><span class="en">${esc(m.en)}</span><b>${esc(m.title)}</b><small>${esc(m.lead)}</small></div></button>`).join('');
-  const n = Object.entries(SETS).filter(([k]) => k !== 'shinra').reduce((a, [, s]) => a + s.n, 0);
+  const n = Object.entries(SETS).filter(([k]) => k !== 'shinra').reduce((a, [, s]) => a + (isMember() ? s.all || s.n : s.n), 0);   // 会員はダウンロードした分も
   const el = screen('', `<button class="icon-btn home-menu" id="menu" aria-label="メニュー（設定）">${icon('settings')}</button><div class="scroll">
     <div class="hero">${LOGO}<span class="offline">● オフラインでも遊べます（${n.toLocaleString()} 問）</span></div>
     <button class="vs-home" id="vs-home">${icon('swords')}<span><b>対戦する</b><small>ランダム対戦・部屋番号で入る・近くの部屋（Web の人とも）</small></span>${icon('chevron-right')}</button>
@@ -239,7 +239,7 @@ function category(key) {
     const s = SETS[k];
     const best = bestOf(k);
     return `<button class="set" data-kbn="${k}"><span class="ico">${icon(s.icon)}</span>
-      <span><b>${esc(s.label)}</b><small>${s.n.toLocaleString()} 問${s.paid ? '（無料の範囲）' : ''}</small>${best ? `<span class="best">ベスト ${best.toLocaleString()}</span>` : ''}</span>
+      <span><b>${esc(s.label)}</b><small>${isMember() ? `${(s.all || s.n).toLocaleString()} 問` : `${s.n.toLocaleString()} 問${s.paid ? '（無料の範囲）' : ''}`}</small>${best ? `<span class="best">ベスト ${best.toLocaleString()}</span>` : ''}</span>
       <span class="go">${icon('chevron-right')}</span></button>`;
   }).join('')).join('');
   const el = screen('k-' + m.color, topBar(m.title) + `<div class="scroll">
