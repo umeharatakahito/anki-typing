@@ -16,7 +16,7 @@ const SERVER = () => store.get('server', 'https://studytype.umekobo.com');
 const BUNDLE = 'com.umeharatakahito.studytype';
 export const PRODUCTS = { month: BUNDLE + '.month', pass365: BUNDLE + '.pass365' };
 // Google でログイン（iOS 用の OAuth クライアント ID。未設定のうちはボタンを出さない）
-const GOOGLE_IOS_CLIENT_ID = '';
+const GOOGLE_IOS_CLIENT_ID = '1001255742442-aucnldsn4dosdq90m5pnuica3iivnh5l.apps.googleusercontent.com';
 const GOOGLE_WEB_CLIENT_ID = '1001255742442-pmd3a71i42mnrqvunrj0fr762uevoi79.apps.googleusercontent.com';
 const TERMS_URL = 'https://www.apple.com/legal/internet-services/itunes/dev/stdeula/';
 const PRIVACY_URL = 'https://studytype.umekobo.com/privacy';

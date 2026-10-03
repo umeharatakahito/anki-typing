@@ -20,6 +20,8 @@
     "APPLE_SERVICES_ID": "com.umeharatakahito.studytype.web",
     // アプリ（mobile/）のバンドル ID。アプリの「Apple でサインイン」のトークンの宛先と、アプリ内課金の商品 ID の頭
     "APPLE_BUNDLE_ID": "com.umeharatakahito.studytype",
+    // アプリの Google ログイン（Google Cloud「StudyDungeons」の iOS 用 OAuth クライアント。公開されてよい値）
+    "GOOGLE_IOS_CLIENT_ID": "1001255742442-aucnldsn4dosdq90m5pnuica3iivnh5l.apps.googleusercontent.com",
     // AdSense（勉強ダンジョンズと同じ発行者 ID）。広告ユニット ID（数字）を入れると本物の広告になる。
     // 空のうちは「広告枠」の見本だけ出す。会員には出さない
     // 左右の縦長・結果の下・待合室の枠は、専用のユニット ID を ADSENSE_SLOT_RAIL / ADSENSE_SLOT_RESULT /
